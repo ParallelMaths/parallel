@@ -18,7 +18,11 @@ html
       nav
         for p, i in pages
           a(href="/"+p.url, style="background-image: url('/nav/"+i+".png')", title=p.title, data-show=p.available)
-      .container!= content
+      .container
+        div!= content
+        #submit
+          input(type="text", placeholder="Your Username")
+          button Submit your Answers
 
     script(src="/scripts.js")
 

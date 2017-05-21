@@ -60,6 +60,7 @@ above. That is why we say there is only one 5-dot tree. One way to see that
 they are all the same tree is to not that each tree consists of one dot with
 four lines and four dots with only one line.
 
+::: problem
 Now it’s time to see if you have understood the maths of trees.
 
 * Tick the trees that are okay in this group.
@@ -67,12 +68,11 @@ Now it’s time to see if you have understood the maths of trees.
 * Which three trees are the same?
 
 ![](/images/graph-3.png)
+:::
 
 For 6 dots there are two irreducible tress, shown below. There is no way that
 you can twist one tree into the other. (Of course, you could change one into
 the other by cutting and gluing the branches, but that is now allowed.)
-
-![](/images/graph-4.png)
 
 Hopefully, you are now getting the idea, but before we get to the full Good
 Will Hunting problem, here are three warm ups. You will need to get a piece of
@@ -81,17 +81,31 @@ trees and don’t create copycat trees. Copycat trees are hard to sometimes spot
 so really twist and turn you trees to check that one of them cannot be
 transformed into another.  
 
-* Draw all homeomorphically irreducible trees of with 7 dots. How many did you
-  find?
-* Draw all homeomorphically irreducible trees of with 8 dots. How many did you
-  find?
-* Draw all homeomorphically irreducible trees of with 9 dots. How many did you
+::: problem
+Draw all homeomorphically irreducible trees of with 7 dots. How many did you
+find?
+
+<input type="number" data-id="s1-q4"/>
+  
+Draw all homeomorphically irreducible trees of with 8 dots. How many did you
+find?
+
+<input type="number" data-id="s1-q5"/>
+
+Draw all homeomorphically irreducible trees of with 9 dots. How many did you
   find?
   
+<input type="number" data-id="s1-q6"/>
+:::
+
 Now you are ready for the Good Will Hunting problem.
 
-* Draw all homeomorphically irreducible trees of with 10 dots? How many did you
-  find?
+::: problem
+Draw all homeomorphically irreducible trees of with 10 dots? How many did you
+find?
+
+<input type="number" data-id="s1-q7"/>
+:::
 
 The Good Will Hunting problem is not incredibly difficult, despite what the
 film implies. However, you have just been learning some maths that you would
@@ -109,7 +123,7 @@ calculating rocket orbits and for getting astronauts to the Moon, and I suppose
 they had to be large so that everyone in the department could watch, learn and
 contribute.
 
-![](/images/nasa-1.jpg)
+| ![](/images/nasa-1.jpg) | ![](/images/nasa-2.jpg) |
 
 Although all the mathematicians in these photos are men, there were lots of
 women mathematicians working at NASA at this time. In fact, there was a film
@@ -117,11 +131,15 @@ all about these NASA women that was released earlier this year, and which
 received three Oscar nominations. Here is a poster for the film with the title
 removed, and a still from the movie.
 
-![](/images/nasa-4.jpg)
+| ![](/images/nasa-3.jpg) | ![](/images/nasa-4.jpg) |
 
-* What is the title of the film that celebrates the role of the pioneering women
-  mathematicians at NASA in the 1960s? (If you don’t know the answer, then you
-  should be able to find it with some help from Google.)
+::: problem
+What is the title of the film that celebrates the role of the pioneering women
+mathematicians at NASA in the 1960s? (If you don’t know the answer, then you
+should be able to find it with some help from Google.)
+
+<input type="text" data-id="s2-q1"/>
+:::
 
 ---
 
@@ -153,10 +171,58 @@ __CLUE 3: The lady then explains that her eldest child plays chess.__
 Straightaway he knows their ages, says thank you and moves on to the next house
 (hoping that the next parent will be more straightforward).
 
-* What are the ages of the three child?
+::: problem
+What are the ages of the three child?
+
+| <input type="number" data-id="s3-q1"/> | <input type="number" data-id="s3-q2"/> | <input type="number" data-id="s3-q3"/> |
+:::
 
 If you can work out the answers then go for it. If you are a bit stuck, then …
-keep trying. I promise you that are smart enough to work out the ages. 
+keep trying. I promise you that are smart enough to work out the ages. If you
+are still stuck after a few minutes of effort, then there are some hints below.
+
+::: hint 1
+Start by creating a list of all the possible ages for the three children. Try
+to do it in an order so that you can make sure that you have not missed out any
+possibilities. There are 8 possibilities.
+
+| 1 | 1 | 36 |
+| 1 | 2 | 18 |
+| 1 | 3 | 12 |
+| 1 | 4 | 9 |
+| 1 | 6 | 6 |
+| 2 | 2 | 9 |
+| 2 | 3 | 6 |
+| 3 | 3 | 4 |
+
+Great. You now have all the possibilities. Go back and look at clues 2 and 3
+that the mathematical mum gave and see you can work out the ages of the
+children.
+
+If you are still stuck … then try harder … or look at the second hint.
+:::
+
+::: hint 2
+The ages add up to the house number, but that is still not enough for the
+councillor to work out the ages. This must mean that at least a couple of the
+ages add up to the same number, which explains why the councillor is still
+confused. Which pair of possibilities add up to the same number?
+
+| 1 | 6 | 6 |
+| 2 | 2 | 9 |
+
+Great – now the final clue is enough for you solve the problem. The ELDEST
+child is a chess player.
+:::
+
+::: hint 3
+It’s obvious. Think about it.
+:::
+
+::: hint 4
+Only of the options has an eldest child. The other has a pair of eldest
+children. So the answer is …
+:::
 
 With this problem, you are given three clues. On its own each clue only provides
 you with a bit of information and is not enough to pin down the answer. But when
@@ -176,4 +242,4 @@ answer. This comes with practice and there will be more puzzles in next week’s
 challenge.
 
 Cheerio,  
-Dr Singh.
+Dr Singh

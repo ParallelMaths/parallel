@@ -1,7 +1,7 @@
 const grunt = require('grunt');
 const pug = require('pug');
 const yaml = require('yamljs');
-const markdown = require('markdown-it')();
+const markdown = require('markdown-it');
 
 require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
@@ -9,10 +9,22 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   let done = this.async();
   let pages = yaml.parse(grunt.file.read('pages/pages.yaml'));
 
-  markdown.use(require('markdown-it-video'));
+  const md = markdown({html: true});
+  md.use(require('markdown-it-video'));
+  md.use(require('markdown-it-synapse-table'));
+  md.use(require('markdown-it-container'), 'problem');
+  md.use(require('markdown-it-container'), 'hint', { render(tokens, idx) {
+    if (tokens[idx].nesting === 1) {
+      let id = tokens[idx].info.trim();
+      return '<div class="hint" data-id="' + id.replace(/[^\w]+/g, '-') + '">' +
+        '<div class="hint-body"><h3>' + id.toUpperCase() + '</h3>';
+    } else {
+      return '</div></div>';
+    }
+  }});
 
   Promise.all(this.files.map(function({src, dest}) {
-    let content = markdown.render(grunt.file.read(src[0]));
+    let content = md.render(grunt.file.read(src[0]));
     let html = pug.renderFile('src/template.pug', { content, pages });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
