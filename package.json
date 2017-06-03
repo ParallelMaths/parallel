@@ -1,12 +1,13 @@
 {
   "name": "Parallel",
   "description": "A project to email weekly maths problems and challenges to students.",
-  "url": "http://instamap.io",
+  "url": "http://parallel.co.uk",
   "authors": [
-    "Manuel Menzella",
-    "Philipp Legner"
+    "Simon Singh",
+    "Philipp Legner",
+    "Ed Thorne",
+    "Richard Lissaman"
   ],
-  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mathigon/parallel.git"
@@ -31,15 +32,13 @@
     "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-rollup": "^1.0.1",
+    "markdown-it": "^8.3.1",
     "markdown-it-container": "^2.0.0",
     "markdown-it-synapse-table": "^1.0.6",
+    "markdown-it-video": "^0.4.0",
     "marked": "^0.3.6",
     "matchdep": "~1.0.0",
     "pug": "^2.0.0-rc.1",
     "yamljs": "^0.2.10"
-  },
-  "dependencies": {
-    "markdown-it": "^8.3.1",
-    "markdown-it-video": "^0.4.0"
   }
 }
