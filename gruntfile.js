@@ -34,7 +34,7 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
 
   Promise.all(this.files.map(function({src, dest}) {
     let content = md.render(grunt.file.read(src[0]));
-    var templateName = getTemplateForPage(src[0]);
+    let templateName = getTemplateForPage(src[0]);
     let html = pug.renderFile(templateName, { content, pages });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
