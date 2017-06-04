@@ -28,11 +28,12 @@ Moreover, there will be an online tutorial session at 8pm on Sunday. During the 
  
 Before I sign off, you might wonder who is writing this email. 
 When I was your age, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge and learned to be determined. My parents left school when they were very young (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio and TV programmes about maths and science, and now I am creating Parallel maths challenges for you.
+
+![Dr Simon Singh](/images/simon.jpg)
  
 Come and say hello at Sunday’s online tutorial. It’s optional, but try to be at the first one to see if you find it useful. 
  
 Now… what you are waiting for … just click here for your first set of challenges.
  
 Cheerio,
-Dr Singh
- 
+Dr Singh 
