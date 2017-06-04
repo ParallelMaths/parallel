@@ -23,9 +23,19 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
     }
   }});
 
+  //TODO Implement less hacky way to map page names to templates
+  const getTemplateForPage = function(pageName) {
+    if (pageName == "pages/index.md") return "src/templates/template.pug";
+    else if (pageName == "pages/TTS.md") return "src/templates/tts-signin-template.pug";
+    else if (pageName == "pages/public.md") return "src/templates/public-signup-template.pug";
+    else if (pageName == "pages/introduction.md") return "src/templates/introduction-template.pug";
+    else return "src/templates/puzzle-template.pug";
+  }
+
   Promise.all(this.files.map(function({src, dest}) {
     let content = md.render(grunt.file.read(src[0]));
-    let html = pug.renderFile('src/template.pug', { content, pages });
+    let templateName = getTemplateForPage(src[0]);
+    let html = pug.renderFile(templateName, { content, pages });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });
