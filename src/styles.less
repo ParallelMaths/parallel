@@ -1,4 +1,15 @@
+// =============================================================================
+// Parallel Lines
+
+
+
+[v-if], [v-show] { display: none; }  // Fix vue.js fouc
 html, body { margin: 0; padding: 0; }
+a { cursor: pointer; }
+
+
+// -----------------------------------------------------------------------------
+// Page Layout
 
 html {
   background: #242436 url('/background.png');
@@ -13,17 +24,32 @@ html {
 #logo {
   background: url('/logo.png');
   background-size: cover;
-  height: 140px;
-  margin: 30px auto;
+  height: 120px;
+  margin: 40px auto;
   width: 300px;
+  display: block;
 }
 
 #body {
+  display: none;
   margin: 0 auto;
   max-width: 100%;
-  padding: 0 0 100px 60px;
   position: relative;
   width: 840px;
+}
+
+.container {
+  background: white;
+  border-radius: 6px 0 6px 6px;
+  box-shadow: 0 1px 12px black;
+  padding: 2rem 2.5rem;
+  position: relative;
+  min-height: calc(~"100vh - 431px");
+}
+
+nav + .container {
+  margin-left: 60px;
+  border-top-left-radius: 0;
 }
 
 nav {
@@ -47,14 +73,36 @@ nav > * {
 nav:hover > * { opacity: 0.4; }
 nav:hover > *:hover { opacity: 1; }
 
-.container {
-  background: white;
-  border-radius: 0 4px 4px 4px;
-  box-shadow: 0 2px 12px black;
-  padding: 2rem 2.5rem;
+@media screen and (max-width: 900px) {
+  html { font-size: 16px; }
+  #body { width: auto; }
+  nav + .container { margin-left: 40px; }
+  nav { border-radius: 0; width: 40px; }
+  nav > * { border-radius: 0 !important; height: 40px; }
 }
 
-h1 { font-size: 2rem; margin: 0 0 1.5rem 0; }
+footer {
+  color: fade(white, 60%);
+  text-align: center;
+  background: #242436;
+  margin-top: 120px;
+  font-size: 15px;
+  padding: 6px 0;
+}
+
+footer a {
+  color: inherit;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color .2s;
+  &:hover, &:focus { color: white; }
+}
+
+
+// -----------------------------------------------------------------------------
+// Article Display
+
+h1 { font-size: 2rem; margin: 0 0 1.5rem 0; color: #bd1622; }
 h2 { color: #aaa; font-size: 1.5rem; margin: 2.5rem 0 1rem; }
 h1, h2, h3 { text-align: center; }
 p { margin: 0 0 1rem 0; }
@@ -74,22 +122,141 @@ table td { padding: .2rem .4rem; }
   padding: 1rem 2.5rem;
 }
 
-input[type="text"], input[type="number"] {
-  border: 1px solid #7a9fd2;
-  border-radius: 3px;
+
+// -----------------------------------------------------------------------------
+// Form Styles
+
+form {
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+form input, form select {
+  border: none;
+  border-bottom: 1px solid fade(black, 40%);
   display: block;
   font: inherit;
+  font-size: 16px;
   margin: 0 auto 1rem;
-  max-width: calc(~"100% - 22px");
   outline: none;
-  padding: 2px 10px;
-  text-align: center;
-  transition: box-shadow .2s;
+  padding-bottom: 2px;
+  width: 100%;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: transparent;
+  transition: border-color .2s;
 
-  &[type=text] { width: 300px; }
-  &[type=number] { width:150px; }
-  &:hover, &:focus { box-shadow: 0 3px 10px rgba(0,0,0,0.2); }
+  &:focus, &:active {
+    border-bottom: 2px solid  #cf0048;
+    padding-bottom: 1px;
+  }
 }
+
+form select {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8"><polyline points="1 1 7 7 13 1" fill="none" stroke="#aaa" stroke-width="2"/></svg>');
+  background-size: 15px 8px;
+  background-position: right 6px top 10px;
+  background-repeat: no-repeat;
+  padding-right: 28px;
+}
+
+form button[type="submit"] {
+  background: #cf0048;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  font-size: 18px;
+  margin: 2rem auto 1rem;
+  outline: none;
+  transition: background 0.2s;
+  padding: 6px 32px;
+
+  &:hover, &:focus { background: #930033; }
+}
+
+.form-select {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.form-select  > * {
+  cursor: pointer;
+  width: 120px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: .9rem;
+  padding: 2px 0;
+  border-right-width: 0;
+
+  &:first-child { border-radius: 4px 0 0 4px; }
+  &:last-child { border-radius: 0 4px 4px 0; border-right-width: 1px; }
+
+  &:hover { background: fade(black, 8%); }
+  &.active { background: #cf0048; color: white; border-color: transparent; }
+}
+
+
+// -----------------------------------------------------------------------------
+// Login form
+
+.login {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  z-index:10;
+}
+
+.login .target {
+  display: block;
+  text-decoration: none;
+  padding: 4px 24px;
+  background: #f9b233;
+  box-shadow: 0 -3px 12px rgba(0,0,0,0.6);
+  border-radius: 4px 4px 0 0;
+
+  a { text-decoration: underline; cursor: pointer; }
+}
+
+.login form {
+  background: #f9b233;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  border-radius: 0 0 0 8px;
+  width: 200px;
+  box-shadow: -2px 2px 6px fade(black, 10%);
+  z-index: 100;
+  padding: 24px 32px 12px;
+  transition: opacity .2s, transform .2s;
+  transform-origin: top right;
+
+  &:not(.active) {
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(.5);
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .hint {
   background: #ccc;
@@ -132,11 +299,4 @@ input[type="text"], input[type="number"] {
     background: #930033;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
   }
-}
-
-@media screen and (max-width: 960px) {
-  html { font-size: 16px; }
-  #body { padding-left: 40px; width: auto; }
-  nav { border-radius: 0; width: 40px; }
-  nav > * { border-radius: 0 !important; height: 40px; }
 }

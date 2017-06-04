@@ -1,0 +1,33 @@
+extends templates/layout
+
+block content
+
+  div(v-if="!user")
+
+    h1 Welcome to the Parallel Maths Project
+
+    img(src="/images/simon.jpg" width=200 height=200 style="float: right; margin-left: 1rem")
+
+    p #[strong Parallel] is a weekly bulletin written by #[a(href="https://en.wikipedia.org/wiki/Simon_Singh") Dr Simon Singh], author of the No. 1 bestseller #[em Fermat’s Last Theorem].
+
+    p Every week, participating students will receive an email that contains 60 minutes of interesting, fun and challenging maths that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems.
+
+    p Parallel is designed for students in Year 7 and Year 8 (age 11 upwards). The pilot will run for four weeks, starting on June 30, and more will come in September.
+
+    p Sign up below to access your first set of challenges:
+
+    include templates/signup
+
+  div(v-if="user")
+
+    h1 [TODO] Finish logged-in signup page
+
+    p Scores & Answers
+
+    p Parallelogams definition
+
+    p Next Parallelogram starts at 4pm on Friday, in/ Current Parallelogram closes on Sunday at 8pm, in
+
+    p Each Paralellogram (your collection of maths challenges) is part of a series of four Parallelograms, one per week for four weeks.
+
+    p If you are waiting for the next Parallelogram, then you can go back and visit (or revisit) some of the earlier ones.
