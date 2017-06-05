@@ -2,114 +2,87 @@
 // Parallel Lines
 
 
-// -----------------------------------------------------------------------------
-// Helper Functions
+function ready() {
+  const fbApp = firebase.app();
+  const fbAuth = firebase.auth();
+  const fbDatabase = firebase.database();
 
-const STORAGE_KEY = (window.location.pathname.match(/[\w\-]+/) || [''])[0];
+  fbAuth.onAuthStateChanged(loadUser);
 
-function getStorage(key, path=STORAGE_KEY) {
-  let storage = JSON.parse(window.localStorage.getItem(path) || '{}');
-  return storage[key] || '';
-}
+  // This helps avoid FOUC while the user is loading...
+  function show() {
+    document.querySelector('#body').style.display = 'block';
+  }
 
-function setStorage(key, value, path=STORAGE_KEY) {
-  let storage = JSON.parse(window.localStorage.getItem(path) || '{}');
-  storage[key] = value;
-  window.localStorage.setItem(path, JSON.stringify(storage));
-}
-
-function $(selector) {
-  return window.document.querySelector(selector);
-}
-
-function $$(selector) {
-  return Array.from(window.document.querySelectorAll(selector));
-}
-
-function bindEvent(element, events, callback) {
-  for (let e of events.split(' ')) element.addEventListener(e, callback);
-}
-
-function now() {
-  let x = new Date();
-  return x.toLocaleDateString() + ' ' + x.toLocaleTimeString();
-}
-
-
-// -----------------------------------------------------------------------------
-// Form fields
-
-$$('.problem input[data-id]').forEach(input => {
-  let id = input.dataset.id;
-
-  let cachedValue = getStorage(id);
-  if (cachedValue) input.value = cachedValue.value;
-
-  bindEvent(input, 'propertychange keyup input paste', function() {
-    setStorage(id, {value: input.value, time: now()});
-  });
-});
-
-
-
-// -----------------------------------------------------------------------------
-// Hints
-
-$$('.hint').forEach(hint => {
-  let id = hint.dataset.id;
-
-  if (getStorage(id)) {
-    hint.style.height = 'auto';
-  } else {
-    hint.addEventListener('click', function() {
-      setStorage(id, {time: now()});
-      hint.style.height = hint.children[0].offsetHeight + 'px';
+  function loadUser(user) {
+    if (!user) return show();
+    fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
+      app.user = u.toJSON();
+      show();
+    }).catch(function(e) {
+      // TODO handle error
+      console.log(e);
     });
   }
-});
 
-
-// -----------------------------------------------------------------------------
-// Submit
-
-let URL = 'https://docs.google.com/a/mathigon.org/forms/d/e/1FAIpQLSdqYc7ulmgSofjULkPSx5xtF5fucfqxxCpTEMxbWWyLaLCrRg/formResponse';
-
-let nameInput = $('#submit input');
-let submit = $('#submit button');
-
-let name = getStorage('name', 'shared');
-if (name) nameInput.value = name || '';
-bindEvent(nameInput, 'propertychange keyup input paste', function() {
-  setStorage('name', nameInput.value, 'shared');
-});
-
-submit.addEventListener('click', function() {
-  if (!nameInput.value) {
-    alert('Please enter your username before submitting.');
-    return;
-  }
-
-  submit.textContent = 'Submitting…';
-  submit.style.pointerEvents = 'none';
-
-  let xhr = new XMLHttpRequest();
-
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState <= 3) return;
-    let status = xhr.status;
-    if ((status >= 200 && status < 300) || status === 304) {
-      submit.textContent = 'Done!';
-    } else {
-      alert('Something went wrong… Please try again!');
-      submit.textContent = 'Submit your Answers';
-      submit.style.pointerEvents = 'auto';
+  const signup = {
+    error: null,
+    type: null,
+    country: 'United Kingdom',
+    setTTS: function() { signup.type = 'TTS'; },
+    setPublic: function() { signup.type = 'public'; },
+    submit: function(e) {
+      // TODO validation
+      e.preventDefault();
+      fbAuth.createUserWithEmailAndPassword(signup.email, signup.password)
+        .then(function(user) {
+          app.user = {
+            first: signup.first,
+            last: signup.last,
+            type: signup.type,
+            birthdate: signup.birthdate,
+            country: signup.country,
+            gender: signup.gender,
+            school: signup.school
+          };
+          fbDatabase.ref('users/' + user.uid).set(app.user);
+          // TODO handle errors
+        })
+        .catch(function(error) {
+          // TODO handle errors
+          console.log(error);
+        });
     }
   };
 
-  xhr.open('POST', URL, true);
-  xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  const login = {
+    error: null,
+    showDropdown: false,
+    toggleDropdown: function() {
+      login.showDropdown = !login.showDropdown;
+    },
+    submit: function(e) {
+      e.preventDefault();
+      fbAuth.signInWithEmailAndPassword(login.email, login.password)
+        .then(loadUser)
+        .catch(function(error) {
+          // TODO handle errors
+          console.log(error);
+        });
+    }
+  };
 
-  let data = encodeURIComponent(window.localStorage.getItem(STORAGE_KEY));
-  let name = encodeURIComponent(nameInput.value);
-  xhr.send(`entry.1217528920=${name}&entry.1604250288=${data}`);
-});
+  const app = window.app = new Vue({
+    el: '#body',
+    data: {
+      user: null,
+      signup,
+      login,
+      logout() {
+        fbAuth.signOut().then(() => { app.user = null; })
+      }
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', ready);

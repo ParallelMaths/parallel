@@ -5,9 +5,10 @@ const markdown = require('markdown-it');
 
 require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
+let pages = yaml.parse(grunt.file.read('pages/pages.yaml'));
+
 grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   let done = this.async();
-  let pages = yaml.parse(grunt.file.read('pages/pages.yaml'));
 
   const md = markdown({html: true});
   md.use(require('markdown-it-video'));
@@ -23,19 +24,9 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
     }
   }});
 
-  //TODO Implement less hacky way to map page names to templates
-  const getTemplateForPage = function(pageName) {
-    if (pageName == "pages/index.md") return "src/templates/template.pug";
-    else if (pageName == "pages/TTS.md") return "src/templates/tts-signin-template.pug";
-    else if (pageName == "pages/public.md") return "src/templates/public-signup-template.pug";
-    else if (pageName == "pages/introduction.md") return "src/templates/introduction-template.pug";
-    else return "src/templates/puzzle-template.pug";
-  }
-
   Promise.all(this.files.map(function({src, dest}) {
     let content = md.render(grunt.file.read(src[0]));
-    let templateName = getTemplateForPage(src[0]);
-    let html = pug.renderFile(templateName, { content, pages });
+    let html = pug.renderFile('src/templates/layout.pug', { content, pages });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });
@@ -94,6 +85,21 @@ grunt.initConfig({
     }
   },
 
+  pug: {
+    options: {
+      data: {pages}
+    },
+    app: {
+      files: [{
+        expand: true,
+        cwd: 'src',
+        src: ['*.pug'],
+        dest: 'build',
+        ext: '.html'
+      }]
+    }
+  },
+
   copy: {
     app: {
       files: [{
@@ -115,8 +121,8 @@ grunt.initConfig({
 
   watch: {
     markdown: {
-      files: ['pages/*.md', 'src/template.pug'],
-      tasks: ['markdown']
+      files: ['pages/*.md', 'src/**/*.pug'],
+      tasks: ['markdown', 'pug']
     },
     less: {
       files: 'src/*.less',
@@ -164,5 +170,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('default', ['clean', 'babel', 'less', 'markdown', 'copy']);
+grunt.registerTask('default', ['clean', 'babel', 'less', 'markdown', 'pug', 'copy']);
 grunt.registerTask('minify', ['uglify', 'autoprefixer', 'cssmin']);

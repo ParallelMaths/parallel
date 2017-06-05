@@ -1,0 +1,72 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    title Parallel Project
+    meta(name="description", content="A project to email weekly maths problems and challenges to students.")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+
+    meta(name="msapplication-tap-highlight" content="no")
+    link(rel="manifest" href="/manifest.json")
+
+    link(href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet")
+    link(href="/styles.css?v2", rel="stylesheet")
+
+  body
+
+    a#logo(href="/" title="Home")
+
+    #body
+      .login(v-if="!user")
+        a.target(v-on:click="login.toggleDropdown") Login
+        form#login(v-bind:class="{active: login.showDropdown}")
+          input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
+          input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
+          button(type="submit" v-on:click="login.submit") Login
+
+      .login(v-if="user")
+        .target {{user.first}} (#[a(v-on:click="logout") Logout])
+
+      nav(v-if="user")
+        for p, i in pages
+          a(href="/" + p.url, style="background-image: url('/nav/" + i + ".png')", title=p.title, data-show=p.available)
+
+      .container
+
+        block content
+
+        if content
+          div!= content
+
+          #submit
+            input(type="text", placeholder="Your Username")
+            button Submit your Answers
+
+    footer
+      a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
+      | •
+      a(href="/privacy") Privacy Policy
+
+    script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
+    script.
+      firebase.initializeApp({
+        apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
+        authDomain: "parallel-cf800.firebaseapp.com",
+        databaseURL: "https://parallel-cf800.firebaseio.com",
+        projectId: "parallel-cf800",
+        storageBucket: "parallel-cf800.appspot.com",
+        messagingSenderId: "610680271345"
+      });
+
+    script(defer src="https://unpkg.com/vue")
+    script(defer src="/scripts.js?v2")
+
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-37525836-7', 'auto');
+      ga('send', 'pageview');
