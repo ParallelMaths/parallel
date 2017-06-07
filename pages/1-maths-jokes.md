@@ -69,7 +69,7 @@ Answer: <select v-model="answer_1_4"><option>A</option><option>B</option><option
 1. One less than a cube
 2. A number
 
-x = <input type="number" data-id="s1-q4"/>
+x = <input type="number" v-model="answer_2_1"/>
 
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
@@ -123,11 +123,11 @@ Another way to think about this is:
  
 Let’s see if you can apply Gauss’s trick.
 
-**3.1 Add up all the numbers from 1 to 50**  
-Answer: <input v-model="answer_1_1"></input>
+**3.2 Add up all the numbers from 1 to 50**  
+Answer: <input type="number" v-model="answer_3_2"></input>
 
-**3.2 Add up all the numbers from 1 to 1,000**  
-Answer: <input v-model="answer_1_1"></input>
+**3.3 Add up all the numbers from 1 to 1,000**  
+Answer: <input type="number" v-model="answer_3_3"></input>
 
 ## 4. Domino toppling
 
@@ -140,7 +140,7 @@ I watched this terrific video last week. Take a look and answer the question aft
 (b) 100  
 (c) 30,000  
 (d) 100,000,000  
-Answer: <select v-model="answer_1_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answer_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
 
 
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
@@ -153,17 +153,20 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 
 _(This question is taken from JMC 2017, question 13.)_
 
-**5.1. Consider the following three statements.**  
- 	(i) Doubling a positive number always makes it larger.  
- 	(ii) Squaring a positive number always makes it larger.  
- 	(iii) Taking the positive square root of a positive number always makes it smaller.  
-Which statements are true?  
+**5.1. Consider the following three statements.**
+ 
+(i) Doubling a positive number always makes it larger.  
+(ii) Squaring a positive number always makes it larger.  
+(iii) Taking the positive square root of a positive number always makes it smaller.
+ 	
+Which of the above statements are true?
+
 (A) All three  
 (B) None  
 (C) Only (i)  
 (D) (i) and (ii)  
 (E) (ii) and (iii)  
-Answer: <select v-model="answer_1_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answer_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
 
 ## 6. Weird optical illusions
@@ -177,7 +180,7 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 (a) Drivers  
 (b) Architects  
 (c) Surgeons  
-Answer: <select v-model="answer_1_1"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answer_6_1"><option>A</option><option>B</option><option>C</option></select>
 
 ## Feedback
 
@@ -186,16 +189,16 @@ Before you can finish your Parallelogram, you need to take 30 seconds to answer 
 <div style="text-align:center">
 
 How difficult was this Parallelogram?  
-<select v-model="answer_1_1"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
+<select v-model="feedback_difficulty"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
 
 How long was this Parallelogram?  
-<select v-model="answer_1_1"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
+<select v-model="feedback_length"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
 
 How much fun was this Parallelogram?  
-<select v-model="answer_1_1"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
+<select v-model="feedback_fun"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
 
 How interesting was this Parallelogram?  
-<select v-model="answer_1_1"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
+<select v-model="feedback_interest"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
 
 </div>
  
