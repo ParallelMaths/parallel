@@ -1,4 +1,4 @@
-# Paralellogram #01
+# Parallelogram #01
  
 <div style="text-align:center">Noun: parallelogram
 Pronounced: /ˌparəˈlɛləɡram/
