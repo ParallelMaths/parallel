@@ -16,17 +16,17 @@ To run the server locally, you need `npm`. Install all dependencies using `npm i
 
 ## TODO List
 
-### Platform
-- _Finish logged-in homepage and add countdown_
-- _Password forgotten/reset form_
+- [Ed] __Save/load student's answers and feedback__
+- [Phil] __On homepage, show all submissions, scores, and countdown__
+- [Ed] __Convert all 4 chapters to markdown__
+- [Ed] __After submission/deadline, show answers inline__
+- [Phil] __Password forgotten/reset form__
+- [Phil] __Faster page loading__
+- After submitting, prevent editing/re-submitting
+- Improve CSS for questions
+- Disable pages in navigation which are not yet ready
+- Loading state for forms, CSS for invalid fields
 - Improve mobile display
-- Faster page loading
-- Loading state for forms, :invalid pseudoclasses
+- HTTPS
 - Firebase db and hosting rules
-
-### Platform
-- _Save/load student's answers and feedback_
-- _Nicer answe form styling and more answer types_
-- _Convert all 4 chapters to markdown_
-- Hide/disable pages in navigation which are not yet ready
-- Solutions / grading
+- Reset scroll after login
