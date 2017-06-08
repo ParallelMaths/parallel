@@ -3,9 +3,12 @@
 
 
 
+@RED: #cf0048;
+@YELLOW: #f9b233;
+
 [v-if], [v-show] { display: none; }  // Fix vue.js fouc
 html, body { margin: 0; padding: 0; }
-a { cursor: pointer; }
+a { cursor: pointer; color: @RED; }
 
 
 // -----------------------------------------------------------------------------
@@ -155,7 +158,7 @@ form input, form select {
   transition: border-color .2s;
 
   &:focus, &:active {
-    border-bottom: 2px solid  #cf0048;
+    border-bottom: 2px solid @RED;
     padding-bottom: 1px;
   }
 }
@@ -169,7 +172,7 @@ form select {
 }
 
 form button[type="submit"] {
-  background: #cf0048;
+  background: @RED;
   border: none;
   border-radius: 4px;
   color: white;
@@ -182,29 +185,18 @@ form button[type="submit"] {
   transition: background 0.2s;
   padding: 6px 32px;
 
-  &:hover, &:focus { background: #930033; }
+  &:hover, &:focus { background: darken(@RED, 15%); }
 }
 
-.form-select {
-  display: flex;
+form p { font-size: 14px; }
+
+form .error {
+  font-size: 14px;
+  background: #c00;
   margin-bottom: 1rem;
-  justify-content: center;
-}
-
-.form-select  > * {
-  cursor: pointer;
-  width: 120px;
-  border: 1px solid #ccc;
-  text-align: center;
-  font-size: .9rem;
-  padding: 2px 0;
-  border-right-width: 0;
-
-  &:first-child { border-radius: 4px 0 0 4px; }
-  &:last-child { border-radius: 0 4px 4px 0; border-right-width: 1px; }
-
-  &:hover { background: fade(black, 8%); }
-  &.active { background: #cf0048; color: white; border-color: transparent; }
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
 }
 
 
@@ -222,15 +214,16 @@ form button[type="submit"] {
   display: block;
   text-decoration: none;
   padding: 4px 24px;
-  background: #f9b233;
+  background: @YELLOW;
   box-shadow: 0 -3px 12px rgba(0,0,0,0.6);
   border-radius: 4px 4px 0 0;
+  color: black;
 
-  a { text-decoration: underline; cursor: pointer; }
+  a { color: black; text-decoration: underline; cursor: pointer; }
 }
 
 .login form {
-  background: #f9b233;
+  background: @YELLOW;
   position: absolute;
   top: 40px;
   right: 0;

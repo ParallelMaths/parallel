@@ -27,30 +27,36 @@ function ready() {
 
   const signup = {
     error: null,
-    type: null,
+    school: null,
     country: 'United Kingdom',
-    setTTS: function() { signup.type = 'TTS'; },
-    setPublic: function() { signup.type = 'public'; },
-    submit: function(e) {
-      // TODO validation
+    birthYear: 2000,
+    submit(e) {
       e.preventDefault();
+      signup.error = null;
+      // TODO form validation
       fbAuth.createUserWithEmailAndPassword(signup.email, signup.password)
         .then(function(user) {
           app.user = {
             first: signup.first,
             last: signup.last,
-            type: signup.type,
-            birthdate: signup.birthdate,
+            birthYear: signup.birthYear,
             country: signup.country,
             gender: signup.gender,
             school: signup.school
           };
           fbDatabase.ref('users/' + user.uid).set(app.user);
-          // TODO handle errors
         })
         .catch(function(error) {
-          // TODO handle errors
-          console.log(error);
+          switch(error.code) {
+            case 'auth/email-already-in-use':
+              return signup.error = 'There already exists an account with this email address. Please login!';
+            case 'auth/invalid-email':
+              return signup.error = 'The email address you provided is invalid.';
+            case 'auth/weak-password':
+              return signup.error = 'Please pick a longer password!';
+            default:
+              return signup.error = 'Sorry, we couldn\'t create your account. Please try again!';
+          }
         });
     }
   };
@@ -58,16 +64,25 @@ function ready() {
   const login = {
     error: null,
     showDropdown: false,
-    toggleDropdown: function() {
+    toggleDropdown() {
       login.showDropdown = !login.showDropdown;
     },
-    submit: function(e) {
+    submit(e) {
       e.preventDefault();
+      login.error = null;
       fbAuth.signInWithEmailAndPassword(login.email, login.password)
         .then(loadUser)
         .catch(function(error) {
-          // TODO handle errors
-          console.log(error);
+          switch(error.code) {
+            case 'auth/invalid-email':
+              return login.error = 'This email address is invalid.';
+            case 'auth/user-not-found':
+              return login.error = 'There is no account with this email address.';
+            case 'auth/wrong-password':
+              return login.error = 'Incorrect password!';
+            default:
+              return login.error = 'Sorry, we couldn\'t log you in. Please try again!';
+          }
         });
     }
   };

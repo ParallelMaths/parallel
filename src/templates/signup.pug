@@ -1,4 +1,6 @@
-form
+form(v-on:submit="signup.submit" )
+  div.error(v-show="signup.error") {{signup.error}}
+
   label
     | First Name
     input(type="text" required v-model="signup.first" autocomplete="given-name")
@@ -12,18 +14,26 @@ form
     input(type="email" required v-model="signup.email" autocomplete="email")
 
   label
-    | Password
-    input(type="password" required v-model="signup.password" autocomplete="password")
+    | Password (min 6 characters)
+    input(type="password" required pattern=".{3,}" v-model="signup.password" autocomplete="password")
 
-  .form-select
-    div(v-on:click="signup.setTTS" v-bind:class="{active: signup.type === 'TTS'}") TTS Student
-    div(v-on:click="signup.setPublic" v-bind:class="{active: signup.type === 'public'}") Public
+  label
+    | School
+    select(v-model="signup.school" required)
+      option Bulmershe
+      option Lister
+      option Plashett
+      option Ratton
+      option Other
 
-  div(v-if="signup.type === 'public'")
+  div(v-if="signup.school === 'Other'")
 
     label
-      | Date of Birth
-      input(type="date" v-model="signup.birthdate" autocomplete="bday")
+      | Year of Birth
+      select(v-model="signup.birthYear")
+        - var year = 1920;
+        while year < 2006
+          option= year++
 
     label
       | Country
@@ -230,14 +240,6 @@ form
         option Male
         option Other
 
-  div(v-if="signup.type === 'TTS'")
+  p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and conditions' target='_blank') terms and conditions].
 
-    label
-      | School
-      select(v-model="signup.school")
-        option Bulmershe
-        option Lister
-        option Plashett
-        option Ratton
-
-  button(type="submit" v-on:click="signup.submit" v-show="signup.type") Sign up
+  button(type="submit") Sign up

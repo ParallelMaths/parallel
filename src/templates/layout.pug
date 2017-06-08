@@ -21,10 +21,11 @@ html
     #body
       .login(v-if="!user")
         a.target(v-on:click="login.toggleDropdown") Login
-        form#login(v-bind:class="{active: login.showDropdown}")
+        form#login(v-bind:class="{active: login.showDropdown}" v-on:submit="login.submit")
+          div.error(v-show="login.error") {{login.error}}
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
-          button(type="submit" v-on:click="login.submit") Login
+          button(type="submit") Login
 
       .login(v-if="user")
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
@@ -47,7 +48,7 @@ html
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
       | •
-      a(href="/privacy") Privacy Policy
+      a(href="/terms-and-conditions") Terms and Conditions
 
     script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script.
