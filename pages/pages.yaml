@@ -1,12 +1,12 @@
 - url: ""
-  title: Welcome
-- url: 1-good-will-hunting
-  title: "Challenge 1: Good Will Hunting"
-- url: 2-summaze
-  title: "Challenge 2: Summaze"
-- url: 3-graphs-and-networks
-  title: "Challenge 3: Graphs and Networks"
+  title: Home
+- url: 1-maths-jokes
+  title: "Challenge 1: Maths Jokes"
+- url: 2-good-will-hunting
+  title: "Challenge 2: Good Will Hunting"
+- url: 3-summaze
+  title: "Challenge 3: Summaze"
   available: 2017-06-01
-- url: 4-more-on-graphs-and-networks
-  title: "Challenge 4: More on Graphs and Networks"
+- url: 4-graphs-and-networks
+  title: "Challenge 4: Graphs and Networks"
   available: 2017-06-08
