@@ -28,31 +28,31 @@ It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathem
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
 **1.1. Why is 6 afraid of 7?**  
-<tab/>(a) Because 1, 2, 3  
+(a) Because 1, 2, 3  
 (b) Because 7, 8, 9  
 (c) Because 5 predates 6  
-Answer: <select v-model="answer_1_1"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_1"><option>A</option><option>B</option><option>C</option></select>
 
 
 **1.2 What are the 10 kinds of people in the world?**  
 (a) Set 0, Set 1, Set 2, … Set 9  
 (b) α, β, γ, δ, ε, ζ, η, θ, ι, κ  
 (c) Those who understand binary, and those who don’t  
-Answer: <select v-model="answer_1_2"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_2"><option>A</option><option>B</option><option>C</option></select>
 
 
 **1.3 What does the “B” in Benoit B Mandelbrot stand for?**  
 (a) Benoit B Mandelbrot  
 (b) Binomial  
 (c) Breviation  
-Answer: <select v-model="answer_1_3"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_3"><option>A</option><option>B</option><option>C</option></select>
 
 
 **1.4 Why did the chicken cross the Möbius strip?**  
 (a) To get to the other…. er…?  
 (b) To reach a finite conclusion  
 (c) To integrate itself into the tarmac  
-Answer: <select v-model="answer_1_4"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option></select>
 
 
 ## 2. Mini cross-number
@@ -69,7 +69,7 @@ Answer: <select v-model="answer_1_4"><option>A</option><option>B</option><option
 1. One less than a cube
 2. A number
 
-x = <input type="number" v-model="answer_2_1"/>
+x = <input type="number" v-model="answers.q_2_1"/>
 
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
@@ -90,7 +90,7 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 (b) Darts  
 (c) Billiards  
 (d) Table tennis  
-Answer: <select v-model="answer_3_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answers.q_3_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
 
  
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
@@ -124,10 +124,10 @@ Another way to think about this is:
 Let’s see if you can apply Gauss’s trick.
 
 **3.2 Add up all the numbers from 1 to 50**  
-Answer: <input type="number" v-model="answer_3_2"></input>
+Answer: <input type="number" v-model="answers.q_3_2"></input>
 
 **3.3 Add up all the numbers from 1 to 1,000**  
-Answer: <input type="number" v-model="answer_3_3"></input>
+Answer: <input type="number" v-model="answers.q_3_3"></input>
 
 ## 4. Domino toppling
 
@@ -140,7 +140,7 @@ I watched this terrific video last week. Take a look and answer the question aft
 (b) 100  
 (c) 30,000  
 (d) 100,000,000  
-Answer: <select v-model="answer_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answers.q_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
 
 
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
@@ -166,7 +166,7 @@ Which of the above statements are true?
 (C) Only (i)  
 (D) (i) and (ii)  
 (E) (ii) and (iii)  
-Answer: <select v-model="answer_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
 
 ## 6. Weird optical illusions
@@ -180,7 +180,7 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 (a) Drivers  
 (b) Architects  
 (c) Surgeons  
-Answer: <select v-model="answer_6_1"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_6_1"><option>A</option><option>B</option><option>C</option></select>
 
 ## Feedback
 
@@ -189,16 +189,16 @@ Before you can finish your Parallelogram, you need to take 30 seconds to answer 
 <div style="text-align:center">
 
 How difficult was this Parallelogram?  
-<select v-model="feedback_difficulty"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
+<select v-model="feedback.difficulty"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
 
 How long was this Parallelogram?  
-<select v-model="feedback_length"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
+<select v-model="feedback.length"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
 
 How much fun was this Parallelogram?  
-<select v-model="feedback_fun"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
+<select v-model="feedback.fun"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
 
 How interesting was this Parallelogram?  
-<select v-model="feedback_interest"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
+<select v-model="feedback.interest"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
 
 </div>
  

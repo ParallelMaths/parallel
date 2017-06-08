@@ -93,6 +93,8 @@ function ready() {
       user: null,
       signup,
       login,
+      answers: {},
+      feedback: {},
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       }
@@ -101,3 +103,12 @@ function ready() {
 }
 
 document.addEventListener('DOMContentLoaded', ready);
+
+
+// TODO Save hint state to db
+
+Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
+  hint.addEventListener('click', function() {
+    hint.style.height = hint.children[0].offsetHeight + 'px';
+  });
+});

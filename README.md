@@ -17,14 +17,16 @@ To run the server locally, you need `npm`. Install all dependencies using `npm i
 ## TODO List
 
 ### Platform
-- Validation, error handling and loading state for forms
-- Finish logged-in homepage and add countdown
-- Password forgotten/reset form
-- Firebase db and hosting rules
+- _Finish logged-in homepage and add countdown_
+- _Password forgotten/reset form_
 - Improve mobile display
+- Faster page loading
+- Loading state for forms, :invalid pseudoclasses
+- Firebase db and hosting rules
 
 ### Platform
-- Convert all 4 chapters to markdown
+- _Save/load student's answers and feedback_
+- _Nicer answe form styling and more answer types_
+- _Convert all 4 chapters to markdown_
 - Hide/disable pages in navigation which are not yet ready
-- Save/load student's answers, add more answer types
 - Solutions / grading
