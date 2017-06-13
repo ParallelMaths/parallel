@@ -26,6 +26,7 @@ html
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
           button(type="submit") Login
+          p #[a(href="/contact") I've forgotten my email address or password]
 
       .login(v-if="user")
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
@@ -42,7 +43,7 @@ html
           div!= content
 
           #submit
-            button Submit your Answers
+            button Parallel Maths, here I come
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society

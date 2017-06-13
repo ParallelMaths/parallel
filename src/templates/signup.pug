@@ -240,6 +240,6 @@ form(v-on:submit="signup.submit" )
         option Male
         option Other
 
-  p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' target='_blank') terms and conditions].
+  p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=300, height=250'); return false;") terms and conditions].
 
   button(type="submit") Sign up
