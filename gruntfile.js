@@ -26,7 +26,9 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
 
   Promise.all(this.files.map(function({src, dest}) {
     let content = md.render(grunt.file.read(src[0]));
-    let html = pug.renderFile('src/templates/layout.pug', { content, pages });
+    let path = src[0].match(/\/([^/]*)\.\w+$/)[1];
+    let page = pages.find(p => p.url === path) || {};
+    let html = pug.renderFile('src/templates/layout.pug', { content, pages, page });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });

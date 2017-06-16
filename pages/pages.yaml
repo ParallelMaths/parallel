@@ -1,5 +1,10 @@
 - url: ""
   title: Home
+  hideSubmit: true
+- url: introduction
+  title: Introduction
+  hideInNav: true
+  hideSubmit: true
 - url: 1-maths-jokes
   title: "Challenge 1: Maths Jokes"
 - url: 2-good-will-hunting

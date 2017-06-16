@@ -32,7 +32,8 @@ html
 
       nav(v-if="user")
         for p, i in pages
-          a(href="/" + p.url, style="background-image: url('/nav/" + i + ".png')", title=p.title, data-show=p.available)
+          if !p.hideInNav
+            a(href="/" + p.url, style="background-image: url('/nav/" + i + ".png')", title=p.title, data-show=p.available)
 
       .container
 
@@ -41,6 +42,7 @@ html
         if content
           div!= content
 
+        if content && !page.hideSubmit
           #submit
             button Submit your Answers
 
