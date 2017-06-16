@@ -9,8 +9,14 @@
 - url: about
   title: "About"
   hideSubmit: true
-- tts: tts
+- url: tts
   title: "TTS"
+  hideSubmit: true
+- url: contact
+  title: "Contact"
+  hideSubmit: true
+- url: good-thinking
+  title: "Good Thinking"
   hideSubmit: true
 - url: terms-and-conditions
   title: "Terms & Conditions"

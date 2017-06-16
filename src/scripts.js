@@ -91,6 +91,7 @@ function ready() {
     el: '#body',
     data: {
       user: null,
+      toggleAnswers: false,
       signup,
       login,
       answers: {},
