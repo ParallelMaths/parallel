@@ -1,17 +1,31 @@
 - url: ""
-  title: Home
+  title: "Home"
+  navIndex: 0
   hideSubmit: true
+  showNav: true
 - url: introduction
-  title: Introduction
-  hideInNav: true
+  title: "Introduction"
+  hideSubmit: true
+- url: about
+  title: "About"
+  hideSubmit: true
+- tts: tts
+  title: "TTS"
+  hideSubmit: true
+- url: terms-and-conditions
+  title: "Terms & Conditions"
   hideSubmit: true
 - url: 1-maths-jokes
   title: "Challenge 1: Maths Jokes"
+  navIndex: 1
 - url: 2-good-will-hunting
   title: "Challenge 2: Good Will Hunting"
+  navIndex: 2
 - url: 3-summaze
   title: "Challenge 3: Summaze"
+  navIndex: 3
   available: 2017-06-01
 - url: 4-graphs-and-networks
   title: "Challenge 4: Graphs and Networks"
+  navIndex: 4
   available: 2017-06-08

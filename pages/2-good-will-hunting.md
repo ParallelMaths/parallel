@@ -25,7 +25,7 @@ Take a look at this clip, which starts with a maths professor confronting his
 students, because someone has solved one his problems and yet he doesn’t know
 who – of course, we know who solved the problem.
 
-@[youtube](1EkNjDf7XKs)
+@[youtube](https://www.youtube.com/watch?v=Ta3sClUQmfM)
 
 Although the problem that Will is working on is said to be incredibly difficult,
 that is just a bit of Hollywood exaggeration, because this is a problem that

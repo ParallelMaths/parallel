@@ -27,11 +27,13 @@ Moreover, there will be an online tutorial session at 8pm on Sunday. During the 
 Before I sign off, you might wonder who is writing this email. 
 When I was your age, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge and learned to be determined.
 
-My parents grew up in India in the 1930s and did not have a proper education, (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
+<img src="/images/simon-simpsons.png" width=300 height=300 style="float: right; margin-left: 1rem"/>
 
-![Dr Simon Singh](/images/simon.jpg)
+My parents grew up in India in the 1930s and did not have a proper education (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
+
   
 Now… what you are waiting for … just click [here](/1-maths-jokes) for your first set of challenges.
  
 Cheerio,
 Dr Singh 
+<form action="/1-maths-jokes" method="GET"><button type="submit">Parallel Maths, here I come</button></form>

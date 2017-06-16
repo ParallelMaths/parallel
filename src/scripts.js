@@ -95,6 +95,7 @@ function ready() {
       login,
       answers: {},
       feedback: {},
+      currentChallenge: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       }
@@ -112,3 +113,28 @@ Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
     hint.style.height = hint.children[0].offsetHeight + 'px';
   });
 });
+
+function countdown(deadline) {
+  var _second = 1000;
+  var _minute = _second * 60;
+  var _hour = _minute * 60;
+  var _day = _hour * 24;
+  var end = new Date(deadline);
+  var now = new Date();
+  var distance = end - now;
+
+  var string;
+  if (distance < 0) {
+    string = "any time now";
+  } else {
+    var days = Math.floor(distance / _day);
+    var hours = Math.floor((distance % _day) / _hour);
+    var minutes = Math.floor((distance % _hour) / _minute);
+    var seconds = Math.floor((distance % _minute) / _second);
+    var string = days + ' days ';
+    string += hours + ' hrs ';
+    string += minutes + ' mins ';
+    string += seconds + ' secs';
+  }
+  return string;
+}
