@@ -213,7 +213,6 @@ I watched this terrific video last week. Take a look and answer the question aft
 (d) 100,000,000  
 Answer: <select v-model="answers.p1_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
 
-
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
 In the meantime, here is an even more extraordinary example of domino toppling where the dominos get bigger and bigger. In fact, it was a world record at the time.
 
@@ -224,20 +223,23 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 
 _(This question is taken from JMC 2017, question 13.)_
 
-**5.1. Consider the following three statements.**
- 
-(i) Doubling a positive number always makes it larger.  
-(ii) Squaring a positive number always makes it larger.  
-(iii) Taking the positive square root of a positive number always makes it smaller.
- 	
-Which of the above statements are true?
-
-(A) All three  
-(B) None  
-(C) Only (i)  
-(D) (i) and (ii)  
-(E) (ii) and (iii)  
-Answer: <select v-model="answers.p1_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+::: problem
+**Which of these three statements are true?**
+<div class="radio">
+  <label>
+    <input name="p1_5_1" type="checkbox" value="a" v-model="answers.p1_5_1a">
+    Doubling a positive number always makes it larger.
+  </label>
+  <label>
+    <input name="p1_5_1" type="checkbox" value="b" v-model="answers.p1_5_1b">
+    Squaring a positive number always makes it larger.
+  </label>
+  <label>
+    <input name="p1_5_1" type="checkbox" value="c" v-model="answers.p1_5_1c">
+    Taking the positive square root of a positive number always makes it smaller.
+  </label>
+</div>
+:::
 
 
 ## 6. Weird optical illusions

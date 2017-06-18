@@ -6,15 +6,13 @@ block content
 
     h1 Welcome to the Parallel Maths Project
 
-    img(src="/images/simon.jpg" width=200 height=200 style="float: right; margin-left: 1rem")
+    img(src="/images/simon-simpsons.png" width=300 height=300 style="float: right; margin-left: 1rem")
 
-    p #[strong Parallel] is a weekly bulletin written by #[a(href="https://en.wikipedia.org/wiki/Simon_Singh") Dr Simon Singh], author of the No. 1 bestseller #[em Fermat’s Last Theorem].
+    p #[a(href="https://en.wikipedia.org/wiki/Simon_Singh") Dr Simon Singh], author of the No. 1 bestseller #[em Fermat’s Last Theorem] & #[em The Simpsons and Their Mathematical Secrets], has created a set of weekly maths challenges - 60 minutes of interesting, fun and challenging material that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems. So far, we have four sets of challenges designed for students aged 11 to 13, but if you like what we do then there will be more challenges later in the year.
 
-    p Every week, participating students will receive an email that contains 60 minutes of interesting, fun and challenging maths that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems.
+    p It’s #[strong FREE] to sign up and all the materials we offer are also #[strong FREE].
 
-    p Parallel is designed for students in Year 7 and Year 8 (age 11 upwards). The pilot will run for four weeks, starting on June 30, and more will come in September.
-
-    p Sign up below to access your first set of challenges:
+    p Log in above or #[strong sign up below to access your first set of challenges]:
 
     include templates/signup
 
@@ -23,28 +21,29 @@ block content
     table
       tr
         th #[a(href="/about") About]
-        th #[a(href="/introduction") Introduction]
         th #[a(href="/tts") TTS]
-        th #[a(href="online-tutorial") Online Tutorial]
-        th #[a(href="scores-and-answers") Scores & Answers]
-        th #[a(href="good-thinking") Good Thinking]
-        th
-          img(src="/images/good-thinking-logo.png" width=39 height=64)
+        th #[a(href="/good-thinking") Good Thinking]
+        th #[a(href="/contact") Contact]
 
-    h1 Parallelograms
+    h1 What is a Parallelogram?
 
-    img(src="/images/simon.jpg" width=200 height=200 style="float: right; margin-left: 1rem")
+    p
+      | #[strong Noun]: parallelogram
+      br
+      | #[strong Pronounced]: /ˌparəˈlɛləɡram/
+      br
+      | #[i Origin: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.]
+      ol
+        li a four-sided plane rectilinear figure with opposite sides parallel.
+        li a portmanteau word combining parallel and telegram. A message containing mischievous maths problems sent each week by the Parallel Project to bright young mathematicians.
 
-    div(style="text-align:center")
-      p Noun: parallelogram
-      p Pronounced: /ˌparəˈlɛləɡram/
-      p #[i Origin: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.]
+    div(v-if="currentChallenge")
+      - var countdown = function(deadline) {
+      -     return '<until ' + deadline + '>';
+      - }
+      p Current Parallelogram closes on Sunday at 8pm, in #{countdown('02/19/2012 10:1 AM')}
+    div(v-else)
+      p Next Parallelogram starts at 4pm on Friday, in #{countdown('02/19/2012 10:1 AM')}
 
-    p 1. a four-sided plane rectilinear figure with opposite sides parallel.
-    p 2. a portmanteaux word combining parallel and telegram. A message containing mischievous maths problems sent each week by the Parallel Project to bright young mathematicians.
-
-    p Next Parallelogram starts at 4pm on Friday, in (...)
-    p Current Parallelogram closes on Sunday at 8pm, in (...)
-
-    p Each Parallelogram (your collection of maths challenges) is part of a series of four Parallelograms, one per week for four weeks.
-    p If you are waiting for the next Parallelogram, then you can go back and visit (or revisit) some of the earlier ones.
+    p Each Parallelogram (your collection of maths challenges) is part of a series of four Parallelograms, one per week for four weeks, ending on 22 July.
+    p If you are waiting for the next Parallelogram, then you can go back and visit (or revisit) some of the earlier ones, listed on the vertical menu on the left.
