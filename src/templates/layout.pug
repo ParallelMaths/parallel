@@ -26,14 +26,16 @@ html
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
           button(type="submit") Login
+          p #[a(href="/contact") I've forgotten my email address or password]
 
       .login(v-if="user")
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
 
       nav(v-if="user")
-        for p, i in pages
-          if !p.hideInNav
-            a(href="/" + p.url, style="background-image: url('/nav/" + i + ".png')", title=p.title, data-show=p.available)
+        if page && page.showNav
+          for p in pages
+            if p.navIndex != undefined
+              a(href="/" + p.url, style="background-image: url('/nav/" + p.navIndex + ".png')", title=p.title, data-show=p.available)
 
       .container
 
@@ -44,7 +46,7 @@ html
 
         if content && !page.hideSubmit
           #submit
-            button Submit your Answers
+            button Submit Answers
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society

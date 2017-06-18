@@ -166,8 +166,8 @@ Which of the above statements are true?
 (C) Only (i)  
 (D) (i) and (ii)  
 (E) (ii) and (iii)  
-Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
+Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
 ## 6. Weird optical illusions
 
