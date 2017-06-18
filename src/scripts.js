@@ -98,6 +98,12 @@ function ready() {
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       }
+    },
+    watch: {
+      answers(a) {
+        console.log(a);
+        // TODO update a
+      }
     }
   });
 }

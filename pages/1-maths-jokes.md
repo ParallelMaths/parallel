@@ -1,15 +1,9 @@
 # Parallelogram #01
- 
-<div style="text-align:center">Noun: parallelogram
-Pronounced: /ˌparəˈlɛləɡram/
- 
-_Origin: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’._</div>  
-1. _a four-sided plane rectilinear figure with opposite sides parallel._  
-2. _a portmanteau word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians._
- 
+  
 Welcome to the first of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
 You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. Then there will be an online tutorial at 8pm – more information about joining the tutorial appears when you have finished this Parallogram. 
 This week’s Parallelogram challenge is in seven parts… some Challenges will have a single theme, while others have sections that shoot off in wildly different directions. In short, these challenges are often going to be a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas.
+
 1. Maths jokes
 2. Mini cross-number
 3. Maryam’s inspiration
@@ -25,51 +19,109 @@ IMPORTANT – it does not really matter what you score get, the main thing is th
 ## 1. Maths jokes
 
 It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathematicians are very funny. Some of my favourite comedians (Dara O'Briain, Romesh Ranganathan and Dave Gorman) studied maths at university, and I have written a whole book about the mathematicians who write The Simpsons.  
+
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
-**1.1. Why is 6 afraid of 7?**  
-(a) Because 1, 2, 3  
-(b) Because 7, 8, 9  
-(c) Because 5 predates 6  
-Answer: <select v-model="answers.q_1_1"><option>A</option><option>B</option><option>C</option></select>
+::: problem
+__Why is 6 afraid of 7?__
+<div class="radio">
+  <label>
+    <input name="p1_1_1" type="radio" value="a" v-model="answers.p1_1_1">
+    Because 1, 2, 3
+  </label>
+  
+  <label>
+    <input name="p1_1_1" type="radio" value="b" v-model="answers.p1_1_1">
+    Because 7, 8, 9
+  </label>
+  
+  <label>
+    <input name="p1_1_1" type="radio" value="c" v-model="answers.p1_1_1">
+    Because 5 predates 6
+  </label>
+</div>
 
+__What are the 10 kinds of people in the world?__
+<div class="radio">
+  <label>
+    <input name="p1_1_2" type="radio" value="a" v-model="answers.p1_1_2">
+    Set 0, Set 1, Set 2, … Set 9
+  </label>
+  
+  <label>
+    <input name="p1_1_2" type="radio" value="b" v-model="answers.p1_1_2">
+    α, β, γ, δ, ε, ζ, η, θ, ι, κ
+  </label>
+  
+  <label>
+    <input name="p1_1_2" type="radio" value="c" v-model="answers.p1_1_2">
+    Those who understand binary, and those who don’t
+  </label>
+</div>
 
-**1.2 What are the 10 kinds of people in the world?**  
-(a) Set 0, Set 1, Set 2, … Set 9  
-(b) α, β, γ, δ, ε, ζ, η, θ, ι, κ  
-(c) Those who understand binary, and those who don’t  
-Answer: <select v-model="answers.q_1_2"><option>A</option><option>B</option><option>C</option></select>
+__What does the “B” in Benoit B Mandelbrot stand for?__
+<div class="radio">
+  <label>
+    <input name="p1_1_3" type="radio" value="a" v-model="answers.p1_1_3">
+    Benoit B Mandelbrot
+  </label>
+  
+  <label>
+    <input name="p1_1_3" type="radio" value="b" v-model="answers.p1_1_3">
+    Binomial
+  </label>
+  
+  <label>
+    <input name="p1_1_3" type="radio" value="c" v-model="answers.p1_1_3">
+    Breviation
+  </label>
+</div>
 
-
-**1.3 What does the “B” in Benoit B Mandelbrot stand for?**  
-(a) Benoit B Mandelbrot  
-(b) Binomial  
-(c) Breviation  
-Answer: <select v-model="answers.q_1_3"><option>A</option><option>B</option><option>C</option></select>
-
-
-**1.4 Why did the chicken cross the Möbius strip?**  
-(a) To get to the other…. er…?  
-(b) To reach a finite conclusion  
-(c) To integrate itself into the tarmac  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option></select>
+__Why did the chicken cross the Möbius strip?__
+<div class="radio">
+  <label>
+    <input name="p1_1_4" type="radio" value="a" v-model="answers.p1_1_4">
+    To get to the other…. er…?
+  </label>
+  
+  <label>
+    <input name="p1_1_4" type="radio" value="b" v-model="answers.p1_1_4">
+    To reach a finite conclusion
+  </label>
+  
+  <label>
+    <input name="p1_1_4" type="radio" value="c" v-model="answers.p1_1_4">
+    To integrate itself into the tarmac
+  </label>
+</div>
+:::
 
 
 ## 2. Mini cross-number
 
-**2.1. What is the digit x in this cross-number?**
+::: problem
+__What is the digit x in this cross-number?__
+
+<table><tr><td>
 
 ![](/images/crossnumber.png)
+
+</td><td>
 
 **Across**
 1. A cube 
 3. A cube
 
+</td><td>
+
 **Down**
 1. One less than a cube
 2. A number
 
-x = <input type="number" v-model="answers.q_2_1"/>
+</td></tr></table>
+
+<input type="number" v-model="answers.p1_2_1"/>
+:::
 
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
@@ -83,15 +135,32 @@ You might be surprised to know that there is no Nobel Prize for maths. However, 
 In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was born in Iran and now works in America, and you can find out about life and work in the short video below.  
 Not surprisingly, Maryam talks about some incredibly complex maths, so don’t worry if you find it confusing. In fact, if you think you understand what Maryam is describing, then you probably don’t. Watch it carefully and answer the question below.
 
-@[youtube](4GhbMhQLQ_g)
+@[youtube](4GhbMhQLp1_g)
 
-**3.1 What indoor sport does Maryam mention in one of her mathematical examples?**  
-(a) Chess  
-(b) Darts  
-(c) Billiards  
-(d) Table tennis  
-Answer: <select v-model="answers.q_3_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
-
+::: problem
+**What indoor sport does Maryam mention in one of her mathematical examples?**  
+<div class="radio">
+  <label>
+    <input name="p1_3_1" type="radio" value="a" v-model="answers.p1_3_1">
+    Chess
+  </label>
+  
+  <label>
+    <input name="p1_3_1" type="radio" value="b" v-model="answers.p1_3_1">
+    Darts
+  </label>
+  
+  <label>
+    <input name="p1_3_1" type="radio" value="c" v-model="answers.p1_3_1">
+    Billiards
+  </label>
+  
+  <label>
+    <input name="p1_3_1" type="radio" value="d" v-model="answers.p1_3_1">
+    Table tennis
+  </label>
+</div>
+:::
  
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
  
@@ -123,11 +192,13 @@ Another way to think about this is:
  
 Let’s see if you can apply Gauss’s trick.
 
-**3.2 Add up all the numbers from 1 to 50**  
-Answer: <input type="number" v-model="answers.q_3_2"></input>
+::: problem
+**Add up all the numbers from 1 to 50**  
+<input type="number" v-model="answers.p1_3_2"></input>
 
-**3.3 Add up all the numbers from 1 to 1,000**  
-Answer: <input type="number" v-model="answers.q_3_3"></input>
+**Add up all the numbers from 1 to 1,000**  
+<input type="number" v-model="answers.p1_3_3"></input>
+:::
 
 ## 4. Domino toppling
 
@@ -140,7 +211,7 @@ I watched this terrific video last week. Take a look and answer the question aft
 (b) 100  
 (c) 30,000  
 (d) 100,000,000  
-Answer: <select v-model="answers.q_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answers.p1_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
 
 
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
@@ -166,7 +237,7 @@ Which of the above statements are true?
 (C) Only (i)  
 (D) (i) and (ii)  
 (E) (ii) and (iii)  
-Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.p1_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
 
 ## 6. Weird optical illusions
@@ -180,7 +251,7 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 (a) Drivers  
 (b) Architects  
 (c) Surgeons  
-Answer: <select v-model="answers.q_6_1"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.p1_6_1"><option>A</option><option>B</option><option>C</option></select>
 
 ## Feedback
 
