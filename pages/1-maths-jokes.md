@@ -61,13 +61,13 @@ Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><opt
 
 ![](/images/crossnumber.png)
 
-**Across**
-1. A cube 
-3. A cube
+**Across**  
+    **1.** A cube  
+    **3.** A cube
 
-**Down**
-1. One less than a cube
-2. A number
+**Down**  
+    **1.** One less than a cube  
+    **2.** A number
 
 x = <input type="number" v-model="answers.q_2_1"/>
 
