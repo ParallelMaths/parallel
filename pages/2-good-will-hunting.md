@@ -19,9 +19,11 @@ Welcome to the second of four weekly Parallelograms, a collection of mathematica
 **IMPORTANT** – _some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks._  
 **IMPORTANT** – _it does not really matter what you score get, the main thing is that you think hard about the problems...and then learn where you went wrong when the answer sheet appears._
 
+---
 
 ## 1. The Good Will Hunting Problem
 
+<img src="/images/challenges/2/good-will-hunting.jpg" style="float: right; margin-left: 1rem"/>
 “Good Will Hunting” is a 1997 film that won two Oscars and made Matt Damon and
 Ben Affleck famous, as they starred in and wrote the film. It tells the story of
 a janitor called Will Hunting, who keeps the floors clean and the lecture
@@ -31,8 +33,6 @@ battle to come to terms with his remarkable talent for numbers and his struggle
 to understand his relationship with his best friend, his girlfriend and himself.
 Along the way, he is helped by a psychologist played by Robin Williams, who
 appears in the film’s poster next to Matt Damon.
-
-![Good Will Hunting](/images/good-will-hunting.jpg)
 
 Take a look at this clip, which starts with a maths professor confronting his
 students, because someone has solved one his problems and yet he doesn’t know
@@ -72,28 +72,7 @@ above. That is why we say there is only one 5-dot tree. One way to see that
 they are all the same tree is to note that each tree consists of **one dot with
 four lines** and **four dots with only one line**.
 
-::: problem
-Now it’s time to see if you have understood the maths of trees.
-
-* Tick the trees that are okay in this group.
-* Which two trees are the same?
-* Which three trees are the same?
-
 ![](/images/challenges/2/graph-3.png)
-:::
-
-For 6 dots there are two irreducible tress, shown below. There is no way that
-you can twist one tree into the other. (Of course, you could change one into
-the other by cutting and gluing the branches, but that is now allowed.)
-
-Hopefully, you are now getting the idea, but before we get to the full Good
-Will Hunting problem, here are three warm ups. You will need to get a piece of
-paper and start drawing some trees. The key things are don’t create forbidden
-trees and don’t create copycat trees. Copycat trees are hard to sometimes spot,
-so really twist and turn you trees to check that one of them cannot be
-transformed into another.  
-
-
 
 Now it’s time to see if you have understood the maths of trees.  
 For 6 dots there are only two irreducible trees. From the diagrams below, which are the two allowable trees?
@@ -102,37 +81,38 @@ For 6 dots there are only two irreducible trees. From the diagrams below, which 
 
 **1.1. The first allowable tree is...**
 
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
+*\[1 mark\]*
 
 **1.2. The second allowable tree is...**
 
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
+*\[1 mark\]*
 
-
-Hopefully, you are now getting the idea, but before we get to the full Good Will Hunting problem, here are three warm ups. You will need to get a piece of paper and start drawing some trees. The key things are don’t create forbidden trees and don’t create copycat trees. Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
+Hopefully, you are now getting the idea, but before we get to the full Good Will Hunting problem, here are three warm ups.
+You will need to get a piece of paper and start drawing some trees.
+The key things are don’t create forbidden trees and don’t create copycat trees.
+Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
 
 **1.3.** Draw all homeomorphically irreducible trees of with 7 dots. How many did you find? Hint: the answer is 1, 2, 3, 4  or 5.  
-<input type="number" data-id="s1-q7"/>
+<input type="number" data-id="s1-q7"/>  
+*\[1 mark\]*
 
 **1.4.** For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
 ![](/images/challenges/2/graph-5.png)  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
+*\[1 mark\]*
 
 **1.5.** For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
 ![](/images/challenges/2/graph-6.png)  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>  
+*\[1 mark\]*
 
 Now you are ready for the full Will Hunting problem.
 
 **1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find? Take your time. Check you haven’t missed any trees. Chess that you have not drawn the same tree twice. Clue: the number of trees is more than 5 and less than 14.  
-<input type="number" min="5" max="14" data-id="s1-q7"/>
-
-::: problem
-Draw all homeomorphically irreducible trees of with 10 dots? How many did you
-find?
-
-<input type="number" data-id="s1-q7"/>
-:::
+<input type="number" min="5" max="14" data-id="s1-q7"/>  
+*\[3 marks\]*
 
 The Good Will Hunting problem is not incredibly difficult, despite what the
 film implies. However, you have just been learning some maths that you would
@@ -150,7 +130,7 @@ calculating rocket orbits and for getting astronauts to the Moon, and I suppose
 they had to be large so that everyone in the department could watch, learn and
 contribute.
 
-| ![](/images/nasa-1.jpg) | ![](/images/nasa-2.jpg) |
+| ![](/images/challenges/2/nasa-1.jpg) | ![](/images/challenges/2/nasa-2.jpg) |
 
 Although all the mathematicians in these photos are men, there were lots of
 women mathematicians working at NASA at this time. In fact, there was a film
@@ -158,9 +138,8 @@ all about these NASA women that was released earlier this year, and which
 received three Oscar nominations. Here is a poster for the film with the title
 removed, and a still from the movie.
 
-| ![](/images/nasa-3.jpg) | ![](/images/nasa-4.jpg) |
+| ![](/images/challenges/2/nasa-3.jpg) | ![](/images/challenges/2/nasa-4.jpg) |
 
-::: problem
 **2.1.** What is the title of the film that celebrates the role of the pioneering women mathematicians at NASA in the 1960s? (If you don’t know the answer, then you should be able to find it with some help from Google.)  
 (a) Apollo’s Angels  
 (b) Hidden Figures  
@@ -168,7 +147,6 @@ removed, and a still from the movie.
 (d) Invisible Chalk  
 (e) The Forgotten Mathematicians  
 Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
-:::
 
 ---
 
@@ -200,11 +178,9 @@ __CLUE 3: The lady then explains that her eldest child plays chess.__
 Straightaway he knows their ages, says thank you and moves on to the next house
 (hoping that the next parent will be more straightforward).
 
-::: problem
-**3.1.** How old is the oldest child?
-
-| <input type="number" data-id="s3-q1"/> | <input type="number" data-id="s3-q2"/> | <input type="number" data-id="s3-q3"/> |
-:::
+**3.1.** How old is the oldest child?  
+<input type="number" data-id="s3-q1"/>  
+*\[4 marks\]*
 
 If you can work out the answers then go for it. If you are a bit stuck, then … keep trying. I promise
 that you are smart enough to work out the correct ages of the children, and therefore the age of the
@@ -250,20 +226,34 @@ It’s obvious. Think about it.
 You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9), which both add up to 13. Only one of these sets of ages has an oldest children (2, 2, 9),  has a pair of eldest children. So the answer is obvious.
 :::
 
+---
+
 ## 4. When not knowing Math can cost you $15,000
 
 This clip from the TV quiz show Who Wants to be a Millionaire? shows just one reason why it’s a good idea to be a confident mathematician. 
 
 @[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I)
 
+---
+
 ## 5. Junior Maths Challenge Question
 
+*(This question is taken from the Junior Maths Challenge 2017)*
+
+**5.1.** What is the value of x?  
+![](/images/challenges/2/maths-challenge-angle-question.png)  
+Answer: <input type="number" data-id="s3-q1"/>  
+*\[1 mark\]*
+
+---
 
 That’s all for this week. Don’t forget to come back at 7.01pm on Sunday to find out your score and to obtain the answer sheet. And don’t worry if you didn’t get it all right (or even half right), because this is not an exam and I am not trying to give you questions that you can do, but rather I am trying to give you question that might be able to do.
 
 Cheerio,
 
 Simon.
+
+---
 
 ## Further Interest
 
@@ -272,3 +262,5 @@ If you want to find out more about **Good Will Hunting**, then just Google it. T
 Number nerd James Grime has made an interesting video asking [“Who was the real Good Will Hunting?”](https://www.youtube.com/watch?v=SzjdcPbjaR4)
 
 More about NASA blackboard photos [here](http://rarehistoricalphotos.com/nasa-scientists-board-calculations-1961/).
+
+---

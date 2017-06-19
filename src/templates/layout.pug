@@ -44,9 +44,49 @@ html
         if content
           div!= content
 
-        if content && !page.hideSubmit
-          #submit
-            button Submit Answers
+        if content && page.question
+
+          h3 Feedback & Submit Answers
+
+          form(v-on:submit="answers.submit")
+
+            label
+              | How difficult was this Parallelogram?
+              select(v-model="feedback.difficulty")
+                option Very Easy
+                option A Bit Easy
+                option Ok
+                option A Bit Difficult
+                option Very Difficult
+
+            label
+              | How long was this Parallelogram?
+              select(v-model="feedback.length")
+                option Very Short
+                option A Bit Short
+                option Ok
+                option A Bit Long
+                option Very Long
+
+            label
+              | How much fun was this Parallelogram?
+              select(v-model="feedback.fun")
+                option Very Horrible
+                option A Bit Horrible
+                option Ok
+                option A Bit Fun
+                option Very Fun
+
+            label
+              | How interesting was this Parallelogram?
+              select(v-model="feedback.interest")
+                option Very Boring
+                option A Bit Boring
+                option Ok
+                option A Bit Interesting
+                option Very Interesting
+
+              button(type="submit") Submit Answers
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
