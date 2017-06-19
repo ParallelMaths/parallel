@@ -102,6 +102,7 @@ function ready() {
       login,
       answers,
       answers: {},
+      showAnswers: false,
       feedback: {},
       currentChallenge: null,
       logout() {

@@ -48,11 +48,13 @@ html
 
           h3 Feedback & Submit Answers
 
+          p Before you can finish your Parallelogram, you need to take 30 seconds to answer a few questions that will tell us what you thought about this week’s challenges.
+
           form(v-on:submit="answers.submit")
 
             label
               | How difficult was this Parallelogram?
-              select(v-model="feedback.difficulty")
+              select(v-model="feedback.difficulty" required)
                 option Very Easy
                 option A Bit Easy
                 option Ok
@@ -61,7 +63,7 @@ html
 
             label
               | How long was this Parallelogram?
-              select(v-model="feedback.length")
+              select(v-model="feedback.length" required)
                 option Very Short
                 option A Bit Short
                 option Ok
@@ -70,7 +72,7 @@ html
 
             label
               | How much fun was this Parallelogram?
-              select(v-model="feedback.fun")
+              select(v-model="feedback.fun" required)
                 option Very Horrible
                 option A Bit Horrible
                 option Ok
@@ -79,7 +81,7 @@ html
 
             label
               | How interesting was this Parallelogram?
-              select(v-model="feedback.interest")
+              select(v-model="feedback.interest" required)
                 option Very Boring
                 option A Bit Boring
                 option Ok

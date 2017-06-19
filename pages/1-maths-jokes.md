@@ -18,10 +18,12 @@ This week’s Parallelogram challenge is in seven parts… some Challenges will 
 6. Bloodhound & the world speed record
 7. Weird optical illusions
 
-IMPORTANT – you will get points for every correct answer (or nearly correct answer).  
-IMPORTANT – some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.  
-IMPORTANT – it does not really matter what you score get, the main thing is that you think hard about the problems...and then learn where you went wrong when the answer sheet appears. 
- 
+**IMPORTANT** – _you will get points for every correct answer (or nearly correct answer)._  
+**IMPORTANT** – _some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks._  
+**IMPORTANT** – _it does not really matter what you score get, the main thing is that you think hard about the problems...and then learn where you went wrong when the answer sheet appears._
+
+---
+
 ## 1. Maths jokes
 
 It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathematicians are very funny. Some of my favourite comedians (Dara O'Briain, Romesh Ranganathan and Dave Gorman) studied maths at university, and I have written a whole book about the mathematicians who write The Simpsons.  
@@ -31,29 +33,61 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 (a) Because 1, 2, 3  
 (b) Because 7, 8, 9  
 (c) Because 5 predates 6  
-Answer: <select v-model="answers.q_1_1"><option>A</option><option>B</option><option>C</option></select>
+Your answer: <select v-model="answers.q_1_1"><option>A</option><option>B</option><option>C</option></select>  
+*\[1/2 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is (b).
+
+</div>
+
 
 
 **1.2 What are the 10 kinds of people in the world?**  
 (a) Set 0, Set 1, Set 2, … Set 9  
 (b) α, β, γ, δ, ε, ζ, η, θ, ι, κ  
 (c) Those who understand binary, and those who don’t  
-Answer: <select v-model="answers.q_1_2"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_2"><option>A</option><option>B</option><option>C</option></select>  
+*\[1/2 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is (c).
+
+</div>
+
 
 
 **1.3 What does the “B” in Benoit B Mandelbrot stand for?**  
 (a) Benoit B Mandelbrot  
 (b) Binomial  
 (c) Breviation  
-Answer: <select v-model="answers.q_1_3"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_3"><option>A</option><option>B</option><option>C</option></select>  
+*\[1/2 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is (a).
+
+</div>
 
 
 **1.4 Why did the chicken cross the Möbius strip?**  
 (a) To get to the other…. er…?  
 (b) To reach a finite conclusion  
 (c) To integrate itself into the tarmac  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option></select>  
+*\[1/2 mark\]*
 
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is (a).
+
+</div>
+
+
+---
 
 ## 2. Mini cross-number
 
@@ -69,11 +103,23 @@ Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><opt
     **1.** One less than a cube  
     **2.** A number
 
-x = <input type="number" v-model="answers.q_2_1"/>
+x = <input type="number" v-model="answers.q_2_1"/>  
+*\[2 marks\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is:  
+    27  
+    64
+
+</div>
+
 
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
 :::
+
+---
 
 ## 3. Maryam’s inspiration
 
@@ -90,12 +136,17 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 (b) Darts  
 (c) Billiards  
 (d) Table tennis  
-Answer: <select v-model="answers.q_3_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answers.q_3_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>  
+*\[1 mark\]*
+ 
+<div v-if="showAnswers" style="color:#FF0000" strong>
 
- 
+The correct answer is (c).
+
+</div>
+
+<img src="/images/gauss.png" style="float: right; margin-left: 1rem"/>
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
- 
-![](/images/gauss.png)
 
 However, before the teacher had even left the room, Gauss’s hand shot up and he announced that the answer was 5,050.
  
@@ -124,10 +175,28 @@ Another way to think about this is:
 Let’s see if you can apply Gauss’s trick.
 
 **3.2 Add up all the numbers from 1 to 50**  
-Answer: <input type="number" v-model="answers.q_3_2"></input>
+Answer: <input type="number" v-model="answers.q_3_2"></input>  
+*\[1 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is 1,275.
+
+</div>
+
 
 **3.3 Add up all the numbers from 1 to 1,000**  
-Answer: <input type="number" v-model="answers.q_3_3"></input>
+Answer: <input type="number" v-model="answers.q_3_3"></input>  
+*\[1 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is 500,500.
+
+</div>
+
+
+---
 
 ## 4. Domino toppling
 
@@ -140,7 +209,14 @@ I watched this terrific video last week. Take a look and answer the question aft
 (b) 100  
 (c) 30,000  
 (d) 100,000,000  
-Answer: <select v-model="answers.q_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+Answer: <select v-model="answers.q_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>  
+*\[1 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is 30.
+
+</div>
 
 
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
@@ -148,6 +224,7 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 
 @[youtube](8yYWILv91YU&t=2m56s)
 
+---
 
 ## 5. Junior Maths Challenge question
 
@@ -161,13 +238,23 @@ _(This question is taken from JMC 2017, question 13.)_
  	
 Which of the above statements are true?
 
-(A) All three  
-(B) None  
-(C) Only (i)  
-(D) (i) and (ii)  
-(E) (ii) and (iii)  
+(a) All three  
+(b) None  
+(c) Only (i)  
+(d) (i) and (ii)  
+(e) (ii) and (iii)  
 
-Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
+Answer: <select v-model="answers.q_5_1"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
+*\[1 mark\]*
+
+<div v-if="showAnswers" style="color:#FF0000" strong>
+
+The correct answer is (c).
+
+</div>
+
+
+---
 
 ## 6. Weird optical illusions
 
@@ -180,28 +267,18 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 (a) Drivers  
 (b) Architects  
 (c) Surgeons  
-Answer: <select v-model="answers.q_6_1"><option>A</option><option>B</option><option>C</option></select>
+Answer: <select v-model="answers.q_6_1"><option>A</option><option>B</option><option>C</option></select>  
+*\[1 mark\]*
 
-## Feedback
+<div v-if="showAnswers" style="color:#FF0000" strong>
 
-Before you can finish your Parallelogram, you need to take 30 seconds to answer a few questions that will tell us what you thought about this week’s challenges.
-
-<div style="text-align:center">
-
-How difficult was this Parallelogram?  
-<select v-model="feedback.difficulty"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
-
-How long was this Parallelogram?  
-<select v-model="feedback.length"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
-
-How much fun was this Parallelogram?  
-<select v-model="feedback.fun"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
-
-How interesting was this Parallelogram?  
-<select v-model="feedback.interest"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
+The correct answer is (a).
 
 </div>
- 
+
+
+---
+
 ## Further Interest
  
 You can read more about mathematician Maryam Mirzakhani in [this interview published in the Guardian](https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician): 'The more I spent time on maths, the more excited I got'.
@@ -211,3 +288,5 @@ You can read more about mathematician Maryam Mirzakhani in [this interview publi
 [This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
 
 Don’t forget, your score and answers will be available [here](www.parallelogram.org.uk/Sunday-answers-and-score) from 7.31 on Sunday.
+
+---
