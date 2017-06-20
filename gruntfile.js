@@ -25,10 +25,16 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   }});
 
   Promise.all(this.files.map(function({src, dest}) {
-    let content = md.render(grunt.file.read(src[0]));
-    let path = src[0].match(/\/([^/]*)\.\w+$/)[1];
-    let page = pages.find(p => p.url === path) || {};
-    let html = pug.renderFile('src/templates/layout.pug', { content, pages, page });
+    let code = grunt.file.read(src[0]);
+
+    code = code.replace(/x\-radio\=\"(\w+)\,\s*(\w+)\"/g, (_, key, value) =>
+      `v-on:click="setAnswer('${key}', '${value}')" v-bind:class="{active: answers.${key} == '${value}'}"`);
+    code = code.replace(/x\-checkbox\=\"(\w+)\"/g, (_, key) =>
+      `v-on:click="setAnswer('${key}', !answers.${key})" v-bind:class="{active: answers.${key}}"`);
+
+    let content = md.render(code);
+    let challenge = +src[0].match(/\/([^/]*)\.\w+$/)[1].split('-')[0];  // Index of challenge
+    let html = pug.renderFile('src/templates/layout.pug', { content, pages, challenge });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });

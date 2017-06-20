@@ -1,0 +1,29 @@
+svg(style="display: none")
+  defs
+    polygon#star(points="19.8,2.2,6.6,43.56,39.6,17.16,0,17.16,33,43.56")
+
+mixin stars()
+  for i in [1,2,3,4,5]
+    svg(width=40 height=42): use(href="#star")
+
+hr
+
+p Before you can finish your Parallelogram, you need to take 30 seconds to answer a few questions that will tell us what you thought about this week’s challenges.
+
+table
+  tr
+    td Too easy
+    td: +stars()
+    td Too difficult
+  tr
+    td Too short
+    td: +stars()
+    td Too long
+  tr
+    td Horrible
+    td: +stars()
+    td Lots of fun
+  tr
+    td Very boring
+    td: +stars()
+    td Very interesting

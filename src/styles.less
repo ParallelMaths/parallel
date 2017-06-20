@@ -119,10 +119,10 @@ hr { background: #ccc; border: none; height: 2px; margin: 2.5rem 0; }
 table { margin: 1rem auto; width: 100%; table-layout: fixed; }
 table td { padding: .2rem .4rem; }
 
-.problem {
-  background: #a8c8f5;
-  margin: 2rem -2.5rem;
-  padding: 1rem 2.5rem;
+.warning {
+  background: mix(@RED, white, 20%);
+  padding: .8rem 1.6rem;
+  border-radius: 4px;
 }
 
 
@@ -199,9 +199,43 @@ form .error {
   border-radius: 4px;
 }
 
-.radio  {
-  margin: -.5rem 0 1rem 1rem;
-  label { display: block; }
+
+// -----------------------------------------------------------------------------
+// Answer Forms
+
+.problem {
+  background: #a8c8f5;
+  margin: 2rem -2.5rem;
+  padding: 1rem 2.5rem;
+
+  .choice  {
+    margin: -.5rem 0 1rem 1rem;
+  }
+
+  .choice > * {
+    padding: .1rem 0 .1rem 2.6rem;
+    margin-bottom: .1rem;
+    cursor: pointer;
+    transition: background .15s;
+    border-radius: 3px;
+    &:hover { background: fade(black, 15%); }
+  }
+
+  .choice > *:before {
+    content: "";
+    display: inline-block;
+    margin: 0 .6rem -0.1rem -1.6rem;
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid fade(black, 40%);
+  }
+
+  .choice > .active:before { background: red; }
+
+  .checkbox > *:before { border-radius: 2px; }
 }
 
 
@@ -244,6 +278,19 @@ form .error {
     pointer-events: none;
     opacity: 0;
     transform: scale(.5);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Feedback Styles
+
+#feedback {
+  table td:first-child { text-align: right; }
+  table td:nth-child(2) { text-align: center; width: 220px; }
+  svg {
+    display: inline-block;
+    fill: #ccc;
+    margin: 0 2px;
   }
 }
 

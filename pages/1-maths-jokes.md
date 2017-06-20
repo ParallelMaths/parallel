@@ -12,9 +12,14 @@ This week’s Parallelogram challenge is in seven parts… some Challenges will 
 6. Bloodhound & the world speed record
 7. Weird optical illusions
 
-IMPORTANT – you will get points for every correct answer (or nearly correct answer).  
-IMPORTANT – some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.  
-IMPORTANT – it does not really matter what you score get, the main thing is that you think hard about the problems...and then learn where you went wrong when the answer sheet appears. 
+<div class="warning">
+
+**Important**
+* You will get points for every correct answer (or nearly correct answer).
+* Some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose points.
+* It does not really matter what you score get, the main thing is that you think hard about the problems … and then learn where you went wrong when the answers appear.
+
+</div>
  
 ## 1. Maths jokes
 
@@ -23,76 +28,32 @@ It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathem
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
 ::: problem
-__Why is 6 afraid of 7?__
-<div class="radio">
-  <label>
-    <input name="p1_1_1" type="radio" value="a" v-model="answers.p1_1_1">
-    Because 1, 2, 3
-  </label>
-  
-  <label>
-    <input name="p1_1_1" type="radio" value="b" v-model="answers.p1_1_1">
-    Because 7, 8, 9
-  </label>
-  
-  <label>
-    <input name="p1_1_1" type="radio" value="c" v-model="answers.p1_1_1">
-    Because 5 predates 6
-  </label>
+__1.1 Why is 6 afraid of 7?__
+<div class="choice radio">
+  <div x-radio="p_1_1, a">Because 1, 2, 3</div>
+  <div x-radio="p_1_1, b">Because 7, 8, 9</div>
+  <div x-radio="p_1_1, c">Because 5 predates 6</div>
 </div>
 
-__What are the 10 kinds of people in the world?__
-<div class="radio">
-  <label>
-    <input name="p1_1_2" type="radio" value="a" v-model="answers.p1_1_2">
-    Set 0, Set 1, Set 2, … Set 9
-  </label>
-  
-  <label>
-    <input name="p1_1_2" type="radio" value="b" v-model="answers.p1_1_2">
-    α, β, γ, δ, ε, ζ, η, θ, ι, κ
-  </label>
-  
-  <label>
-    <input name="p1_1_2" type="radio" value="c" v-model="answers.p1_1_2">
-    Those who understand binary, and those who don’t
-  </label>
+__1.2 What are the 10 kinds of people in the world?__
+<div class="choice radio">
+  <div x-radio="p_1_2, a">Set 0, Set 1, Set 2, …, Set 9</div>
+  <div x-radio="p_1_2, b">α, β, γ, δ, ε, ζ, η, θ, ι, κ</div>
+  <div x-radio="p_1_2, c">Those who understand binary, and those who don’t</div>
 </div>
 
-__What does the “B” in Benoit B Mandelbrot stand for?__
-<div class="radio">
-  <label>
-    <input name="p1_1_3" type="radio" value="a" v-model="answers.p1_1_3">
-    Benoit B Mandelbrot
-  </label>
-  
-  <label>
-    <input name="p1_1_3" type="radio" value="b" v-model="answers.p1_1_3">
-    Binomial
-  </label>
-  
-  <label>
-    <input name="p1_1_3" type="radio" value="c" v-model="answers.p1_1_3">
-    Breviation
-  </label>
+__1.3 What does the “B” in Benoit B Mandelbrot stand for?__
+<div class="choice radio">
+  <div x-radio="p_1_3, a">Benoit B Mandelbrot</div>
+  <div x-radio="p_1_3, b">Binomial</div>
+  <div x-radio="p_1_3, c">Breviation</div>
 </div>
 
-__Why did the chicken cross the Möbius strip?__
-<div class="radio">
-  <label>
-    <input name="p1_1_4" type="radio" value="a" v-model="answers.p1_1_4">
-    To get to the other…. er…?
-  </label>
-  
-  <label>
-    <input name="p1_1_4" type="radio" value="b" v-model="answers.p1_1_4">
-    To reach a finite conclusion
-  </label>
-  
-  <label>
-    <input name="p1_1_4" type="radio" value="c" v-model="answers.p1_1_4">
-    To integrate itself into the tarmac
-  </label>
+__1.4 Why did the chicken cross the Möbius strip?__
+<div class="choice radio">
+  <div x-radio="p_1_4, a">To get to the other… er…?</div>
+  <div x-radio="p_1_4, b">To reach a finite conclusion</div>
+  <div x-radio="p_1_4, c">To integrate itself into the tarmac</div>
 </div>
 :::
 
@@ -100,7 +61,7 @@ __Why did the chicken cross the Möbius strip?__
 ## 2. Mini cross-number
 
 ::: problem
-__What is the digit x in this cross-number?__
+__2.1 What is the digit x in this cross-number?__
 
 <table><tr><td>
 
@@ -108,15 +69,15 @@ __What is the digit x in this cross-number?__
 
 </td><td>
 
-**Across**
-1. A cube 
-3. A cube
+**Across**  
+**1.** A cube  
+**3.** A cube
 
 </td><td>
 
-**Down**
-1. One less than a cube
-2. A number
+**Down**  
+**1.** One less than a cube  
+**2.** A number
 
 </td></tr></table>
 
@@ -131,34 +92,21 @@ __What is the digit x in this cross-number?__
 
 ![](/images/maryam-mirzakhani.png)
 
-You might be surprised to know that there is no Nobel Prize for maths. However, there is an even bigger prize for mathematicians, which is called the Fields Medal. It is only given every 4 years, so it is very rare and precious.  
-In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was born in Iran and now works in America, and you can find out about life and work in the short video below.  
+You might be surprised to know that there is no Nobel Prize for maths. However, there is an even bigger prize for mathematicians, which is called the Fields Medal. It is only given every 4 years, so it is very rare and precious.
+
+In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was born in Iran and now works in America, and you can find out about life and work in the short video below.
+
 Not surprisingly, Maryam talks about some incredibly complex maths, so don’t worry if you find it confusing. In fact, if you think you understand what Maryam is describing, then you probably don’t. Watch it carefully and answer the question below.
 
 @[youtube](4GhbMhQLp1_g)
 
 ::: problem
-**What indoor sport does Maryam mention in one of her mathematical examples?**  
-<div class="radio">
-  <label>
-    <input name="p1_3_1" type="radio" value="a" v-model="answers.p1_3_1">
-    Chess
-  </label>
-  
-  <label>
-    <input name="p1_3_1" type="radio" value="b" v-model="answers.p1_3_1">
-    Darts
-  </label>
-  
-  <label>
-    <input name="p1_3_1" type="radio" value="c" v-model="answers.p1_3_1">
-    Billiards
-  </label>
-  
-  <label>
-    <input name="p1_3_1" type="radio" value="d" v-model="answers.p1_3_1">
-    Table tennis
-  </label>
+**3.1 What indoor sport does Maryam mention in one of her mathematical examples?**  
+<div class="choice radio">
+  <div x-radio="p_3_1, a">Chess</div>
+  <div x-radio="p_3_1, b">Darts</div>
+  <div x-radio="p_3_1, c">Billiards</div>
+  <div x-radio="p_3_1, d">Table tennis</div>
 </div>
 :::
  
@@ -193,10 +141,10 @@ Another way to think about this is:
 Let’s see if you can apply Gauss’s trick.
 
 ::: problem
-**Add up all the numbers from 1 to 50**  
+**3.2 Add up all the numbers from 1 to 50**  
 <input type="number" v-model="answers.p1_3_2"></input>
 
-**Add up all the numbers from 1 to 1,000**  
+**3.3 Add up all the numbers from 1 to 1,000**  
 <input type="number" v-model="answers.p1_3_3"></input>
 :::
 
@@ -206,12 +154,15 @@ I watched this terrific video last week. Take a look and answer the question aft
 
 @[youtube](5JCm5FY-dEY)
 
+::: problem
 **4.1 Starting with 5mm tall domino, how many dominoes would you need to knock down the Empire State Building?**  
-(a) 30  
-(b) 100  
-(c) 30,000  
-(d) 100,000,000  
-Answer: <select v-model="answers.p1_4_1"><option>A</option><option>B</option><option>C</option><option>D</option></select>
+<div class="choice radio">
+  <div x-radio="p_4_1, a">30</div>
+  <div x-radio="p_4_1, b">100</div>
+  <div x-radio="p_4_1, c">30,000</div>
+  <div x-radio="p_4_1, d">100,000,000</div>
+</div>
+:::
 
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
 In the meantime, here is an even more extraordinary example of domino toppling where the dominos get bigger and bigger. In fact, it was a world record at the time.
@@ -221,24 +172,15 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 
 ## 5. Junior Maths Challenge question
 
-_(This question is taken from JMC 2017, question 13.)_
-
 ::: problem
-**Which of these three statements are true?**
-<div class="radio">
-  <label>
-    <input name="p1_5_1" type="checkbox" value="a" v-model="answers.p1_5_1a">
-    Doubling a positive number always makes it larger.
-  </label>
-  <label>
-    <input name="p1_5_1" type="checkbox" value="b" v-model="answers.p1_5_1b">
-    Squaring a positive number always makes it larger.
-  </label>
-  <label>
-    <input name="p1_5_1" type="checkbox" value="c" v-model="answers.p1_5_1c">
-    Taking the positive square root of a positive number always makes it smaller.
-  </label>
+**5.1 Which of these three statements are true?**
+<div class="choice checkbox">
+  <div x-checkbox="p_5_1a">Doubling a positive number always makes it larger.</div>
+  <div x-checkbox="p_5_1b">Squaring a positive number always makes it larger.</div>
+  <div x-checkbox="p_5_1c">Taking the positive square root of a positive number always makes it smaller.</div>
 </div>
+
+_(This question is taken from JMC 2017, question 13.)_
 :::
 
 
@@ -249,32 +191,16 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 
 @[youtube](Wx4yi5m8IfI)
 
-**6.1 Professor Sugihara’s work could help:**  
-(a) Drivers  
-(b) Architects  
-(c) Surgeons  
-Answer: <select v-model="answers.p1_6_1"><option>A</option><option>B</option><option>C</option></select>
-
-## Feedback
-
-Before you can finish your Parallelogram, you need to take 30 seconds to answer a few questions that will tell us what you thought about this week’s challenges.
-
-<div style="text-align:center">
-
-How difficult was this Parallelogram?  
-<select v-model="feedback.difficulty"><option>Very Easy</option><option>Quite Easy</option><option>OK</option><option>Quite Difficult</option><option>Very Difficult</option></select>  
-
-How long was this Parallelogram?  
-<select v-model="feedback.length"><option>Very Short</option><option>A Bit Short</option><option>OK</option><option>A Bit Long</option><option>Very Long</option></select>  
-
-How much fun was this Parallelogram?  
-<select v-model="feedback.fun"><option>Very Horrible</option><option>A Bit Horrible</option><option>OK</option><option>Quite Fun</option><option>Very Fun</option></select>  
-
-How interesting was this Parallelogram?  
-<select v-model="feedback.interest"><option>Very Boring</option><option>A Bit Boring</option><option>OK</option><option>A Bit Interesting</option><option>Very Interesting</option></select>
-
+::: problem
+**6.1 Professor Sugihara’s work could help:**
+<div class="choice">
+  <div x-radio="p_6_1, a">Drivers</div>
+  <div x-radio="p_6_1, b">Architects</div>
+  <div x-radio="p_6_1, c">Surgeons</div>
 </div>
- 
+:::
+
+
 ## Further Interest
  
 You can read more about mathematician Maryam Mirzakhani in [this interview published in the Guardian](https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician): 'The more I spent time on maths, the more excited I got'.
@@ -282,5 +208,3 @@ You can read more about mathematician Maryam Mirzakhani in [this interview publi
 [This article from the Telegraph newspaper](http://www.telegraph.co.uk/news/science/11029161/The-Fields-Medal-is-the-greatest-prize-in-maths.html) provides some history about the Fields Medal, the biggest prize in mathematics.
 
 [This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
-
-Don’t forget, your score and answers will be available [here](www.parallelogram.org.uk/Sunday-answers-and-score) from 7.31 on Sunday.

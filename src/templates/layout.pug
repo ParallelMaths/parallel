@@ -32,10 +32,9 @@ html
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
 
       nav(v-if="user")
-        if page && page.showNav
-          for p in pages
-            if p.navIndex != undefined
-              a(href="/" + p.url, style="background-image: url('/nav/" + p.navIndex + ".png')", title=p.title, data-show=p.available)
+        a(href="/", style="background-image: url('/nav/0.png')", title="Home")
+        for p, i in pages
+          a(href="/" + p.url, style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
 
       .container
 
@@ -44,9 +43,10 @@ html
         if content
           div!= content
 
-        if content && !page.hideSubmit
-          #submit
-            button Submit Answers
+        if challenge
+          #feedback: include feedback
+          #submit(data-challenge=challenge): button Submit Answers
+          p(style="display: none") Don’t forget: your score and the correct answers will appear here at 7.31pm on Sunday.
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society

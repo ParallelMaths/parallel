@@ -16,6 +16,7 @@ function ready() {
 
   function loadUser(user) {
     if (!user) return show();
+
     fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
       app.user = u.toJSON();
       show();
@@ -23,6 +24,14 @@ function ready() {
       // TODO handle error
       console.log(e);
     });
+
+    if (challengeId) {
+      fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId).once('value')
+        .then(answers => {
+          console.log(answers);
+          for (let k of Object.keys(answers)) Vue.set(app.answers, k, answers[k]);
+        });
+    }
   }
 
   const signup = {
@@ -87,6 +96,9 @@ function ready() {
     }
   };
 
+  const submit = document.querySelector('#submit');
+  const challengeId = submit ? submit.dataset.challenge : null;
+
   const app = window.app = new Vue({
     el: '#body',
     data: {
@@ -99,27 +111,28 @@ function ready() {
       currentChallenge: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
-      }
-    },
-    watch: {
-      answers(a) {
-        console.log(a);
-        // TODO update a
+      },
+      setAnswer(key, value) {
+        if (fbAuth.currentUser) {
+          fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+            .set(app.answers);
+        }
+        Vue.set(app.answers, key, value)
       }
     }
+  });
+
+  // TODO Save hint state to db
+
+  Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
+    hint.addEventListener('click', function() {
+      hint.style.height = hint.children[0].offsetHeight + 'px';
+    });
   });
 }
 
 document.addEventListener('DOMContentLoaded', ready);
 
-
-// TODO Save hint state to db
-
-Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
-  hint.addEventListener('click', function() {
-    hint.style.height = hint.children[0].offsetHeight + 'px';
-  });
-});
 
 function countdown(deadline) {
   var _second = 1000;
