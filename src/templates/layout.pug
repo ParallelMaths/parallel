@@ -26,7 +26,7 @@ html
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
           button(type="submit") Login
-          p #[a(href="/contact") I've forgotten my email address or password]
+          p: a(href="#") Reset password
 
       .login(v-if="user")
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
@@ -52,6 +52,8 @@ html
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
       | •
       a(href="/terms-and-conditions") Terms and Conditions
+      | •
+      a(href="/contact") Contact
 
     script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script.

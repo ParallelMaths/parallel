@@ -12,6 +12,7 @@ function ready() {
   // This helps avoid FOUC while the user is loading...
   function show() {
     document.querySelector('#body').style.display = 'block';
+    document.querySelector('footer').style.display = 'block';
   }
 
   function loadUser(user) {
