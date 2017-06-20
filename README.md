@@ -16,10 +16,8 @@ To run the server locally, you need `npm`. Install all dependencies using `npm i
 
 ## TODO List
 
-* Radio, checkbox + input styles
-* Submit button, prevent editing, show text
-* Clean up non-challenge pages, footer and homepage menu
-* Reset scroll after login
+* Submit button handler: prevent editing, show text
+* Clean up non-challenge pages, footer, homepage menu
 
 - __After deadline, prevent submitting and show solutions__
 - __Evaluate score and show in table on homepage__

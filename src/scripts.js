@@ -20,6 +20,7 @@ function ready() {
     fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
       app.user = u.toJSON();
       show();
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
     }).catch(function(e) {
       // TODO handle error
       console.log(e);
@@ -70,12 +71,6 @@ function ready() {
     }
   };
 
-  const answers = {
-    submit(e) {
-
-    }
-  }
-
   const login = {
     error: null,
     showDropdown: false,
@@ -112,7 +107,6 @@ function ready() {
       toggleAnswers: false,
       signup,
       login,
-      answers,
       answers: {},
       showAnswers: false,
       feedback: {},
@@ -126,6 +120,11 @@ function ready() {
             .set(app.answers);
         }
         Vue.set(app.answers, key, value)
+      },
+      refresh() {
+        if (!fbAuth.currentUser) return;
+        fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+          .set(app.answers);
       }
     }
   });

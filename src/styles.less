@@ -121,8 +121,8 @@ table td { padding: .2rem .4rem; }
 
 .warning {
   background: mix(@RED, white, 20%);
-  padding: .8rem 1.6rem;
-  border-radius: 4px;
+  margin: 2rem -2.5rem;
+  padding: 1rem 2.5rem;
 }
 
 .marks {
@@ -213,12 +213,13 @@ form .error {
 
 .problem {
   background: #a8c8f5;
-  margin: 2rem -2.5rem;
+  margin: 2rem -2.5rem 1px;
   padding: 1rem 2.5rem;
 
   img { vertical-align: middle; }
+  img[src$="png"] { mix-blend-mode: multiply; }
 
-  .choice  { margin: -.5rem 0 1rem 1rem; }
+  .choice  { margin: 0 0 2rem 1rem; }
 
   .choice > * {
     padding: .1rem 0 .1rem 2.6rem;
@@ -226,6 +227,7 @@ form .error {
     cursor: pointer;
     transition: background .15s;
     border-radius: 3px;
+    box-sizing: border-box;
     &:hover { background: fade(black, 15%); }
   }
 
@@ -238,12 +240,32 @@ form .error {
     background: white;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 1px solid fade(black, 40%);
+    box-shadow: 0 0 0 1px fade(black, 15%);
   }
 
-  .choice > .active:before { background: red; }
-
   .checkbox > *:before { border-radius: 2px; }
+  .choice > .active:before { background: #2a43cc; border: 4px solid white; }
+
+  input, select {
+    max-width: 200px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px fade(black, 15%);
+    margin-bottom: 2rem;
+  }
+
+  .c2, .c3, .c5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    > * { }
+  }
+  .c2 > * { min-width: 340px; }
+  .c3 > * { min-width: 220px; }
+  .c5 > * { min-width: 125px; }
 }
 
 

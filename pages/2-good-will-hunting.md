@@ -50,7 +50,7 @@ Now it’s time to see if you have understood the maths of trees.
 
 **1.1 For 6 dots there are only two irreducible trees. Which of these are they?**
 
-<div class="choice checkbox" style="column-count: 3">
+<div class="choice checkbox c3">
   <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-4a.png"/></div>
   <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-4b.png"/></div>
   <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-4c.png"/></div>
@@ -64,19 +64,38 @@ Hopefully, you are now getting the idea, but before we get to the full Good Will
 You will need to get a piece of paper and start drawing some trees. The key things are don’t create forbidden trees and don’t create copycat trees. Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
 
 ::: problem
-**1.3.** Draw all homeomorphically irreducible trees of with 7 dots. How many did you find? Hint: the answer is 1, 2, 3, 4  or 5.  
-<input type="number" data-id="s1-q7"/>  
-*\[1 mark\]*
+<div class="marks">1 mark</div>
 
-**1.4.** For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
-![](/images/challenges/2/graph-5.png)  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
-*\[1 mark\]*
+**1.2** Draw all homeomorphically irreducible trees of with 7 dots. How many did you find?
 
-**1.5.** For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
+<div class="choice radio c5">
+  <div x-radio="p_1_2, a">1</div>
+  <div x-radio="p_1_2, b">2</div>
+  <div x-radio="p_1_2, c">3</div>
+  <div x-radio="p_1_2, d">4</div>
+  <div x-radio="p_1_2, e">5</div>
+</div>
+
+
+<div class="marks">1 mark</div>
+
+**1.3** For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
+
+<div class="choice checkbox c3">
+  <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-5a.png"/></div>
+  <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-5b.png"/></div>
+  <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-5c.png"/></div>
+  <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-5d.png"/></div>
+  <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-5e.png"/></div>
+</div>
+
+
+<div class="marks">1 mark</div>
+
+**1.4** For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
 ![](/images/challenges/2/graph-6.png)  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>  
-*\[1 mark\]*
+
+<select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>  
 :::
 
 Now you are ready for the full Will Hunting problem.
@@ -84,9 +103,9 @@ Now you are ready for the full Will Hunting problem.
 ::: problem
 <div class="marks">3 marks</div>
 
-**1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find? Take your time. Check you haven’t missed any trees. Chess that you have not drawn the same tree twice.
+**1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find?
 
-Clue: the number of trees is more than 5 and less than 14.
+Take your time. Check you haven’t missed any trees. Check that you have not drawn the same tree twice. The correct answer is between 5 and 14.
 
 <input type="number" min="5" max="14" data-id="s1-q7"/>  
 :::
@@ -160,9 +179,13 @@ __CLUE 3: The lady then explains that her eldest child plays chess.__
 Straightaway he knows their ages, says thank you and moves on to the next house
 (hoping that the next parent will be more straightforward).
 
+::: problem
+<div class="marks">4 marks</div>
+
 **3.1.** How old is the oldest child?  
+
 <input type="number" data-id="s3-q1"/>  
-*\[4 marks\]*
+:::
 
 If you can work out the answers then go for it. If you are a bit stuck, then … keep trying. I promise
 that you are smart enough to work out the correct ages of the children, and therefore the age of the
@@ -174,14 +197,14 @@ Start by creating a list of all the possible ages for the three children, bearin
 Once you have identified all the possibilities, go back and look at clues 2 and 3 that the mathematical mum gave and see if you can work out the ages of the children, and therefore the age of the oldest child.
 If you are still stuck … then try harder … but you also try hint 2.
 
-1	x	1	x	36	= 36
-1	x	2	x	18	= 36
-1	x	3	x	12	= 36
-1	x	4	x	9	= 36
-1	x	6	x	6	= 36
-2	x	2	x	9	= 36
-2	x	?	x	?	= 36
-3	x	?	x	?	= 36
+| 1 x 1 x 36 = 36 |
+| 1 x 2 x 18 = 36 |
+| 1 x 3 x 12 = 36 |
+| 1 x 4 x 9 = 36 |
+| 1 x 6 x 6 = 36 |
+| 2 x 2 x 9 = 36 |
+| 2 x ? x ? = 36 |
+| 3 x ? x ? = 36 |
 
 :::
 
@@ -189,14 +212,14 @@ If you are still stuck … then try harder … but you also try hint 2.
 The ages add up to the house number, but that is still not enough for the councillor to work out the ages. This must mean that at least a couple of the possible sets of ages add up to the same number, which explains why the councillor is still confused. Which pair of possibilities add up to the same number? 
 Once you have narrowed it down to a pair of possibilities, then take a look at final clue that the mother gave.
 
-1	+	1	+	36	= 38
-1	+	2	+	18	= 21
-1	+	3	+	12	= ?
-1	+	4	+	9	= ?
-1	+	6	+	6	= ?
-2	+	2	+	9	= ?
-2	+	3	+	6	= ?
-3	+	3	+	4	= ?
+| 1 + 1 + 36 = 38 |
+| 1 + 2 + 18 = 21 |
+| 1 + 3 + 12 = ? |
+| 1 + 4 + 9 = ? |
+| 1 + 6 + 6 = ? |
+| 2 + 2 + 9 = ? |
+| 2 + 3 + 6 = ? |
+| 3 + 3 + 4 = ? |
 
 :::
 
@@ -208,7 +231,6 @@ It’s obvious. Think about it.
 You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9), which both add up to 13. Only one of these sets of ages has an oldest children (2, 2, 9),  has a pair of eldest children. So the answer is obvious.
 :::
 
----
 
 ## 4. When not knowing Math can cost you $15,000
 
@@ -216,18 +238,26 @@ This clip from the TV quiz show Who Wants to be a Millionaire? shows just one re
 
 @[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I)
 
----
 
 ## 5. Junior Maths Challenge Question
 
-*(This question is taken from the Junior Maths Challenge 2017)*
+::: problem
+<div class="marks">1 mark</div>
 
-**5.1.** What is the value of x?  
+**5.1. What is the value of x?**
 ![](/images/challenges/2/maths-challenge-angle-question.png)  
-Answer: <input type="number" data-id="s3-q1"/>  
-*\[1 mark\]*
 
----
+<div class="choice radio c5">
+  <div x-radio="p_5_1, a">(a) 43</div>
+  <div x-radio="p_5_1, b">(b) 47</div>
+  <div x-radio="p_5_1, c">(c) 53</div>
+  <div x-radio="p_5_1, d">(d) 57</div>
+  <div x-radio="p_5_1, e">(e) 67</div>
+</div>
+
+*(This question is taken from the Junior Maths Challenge 2017)*
+:::
+
 
 That’s all for this week. Don’t forget to come back at 7.01pm on Sunday to find out your score and to obtain the answer sheet. And don’t worry if you didn’t get it all right (or even half right), because this is not an exam and I am not trying to give you questions that you can do, but rather I am trying to give you question that might be able to do.
 

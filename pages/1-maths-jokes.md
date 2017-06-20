@@ -14,7 +14,7 @@ This week’s Parallelogram challenge is in seven parts… some Challenges will 
 
 <div class="warning">
 
-**Important**
+**Instructions**
 * You will get points for every correct answer (or nearly correct answer).
 * Some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
 * It does not really matter what you score get, the main thing is that you think hard about the problems … and then learn where you went wrong when the answers appear.
@@ -112,7 +112,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 </td></tr></table>
 
-<input type="number" v-model="answers.p1_2_1"/>
+<input type="number" placeholder="x" x-input="p_2_1"/>
 :::
 
 <div v-if="showAnswers" style="color:#FF0000" strong>
@@ -135,7 +135,7 @@ In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was
 
 Not surprisingly, Maryam talks about some incredibly complex maths, so don’t worry if you find it confusing. In fact, if you think you understand what Maryam is describing, then you probably don’t. Watch it carefully and answer the question below.
 
-@[youtube](4GhbMhQLp1_g)
+@[youtube](4GhbMhQLp_g)
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -189,7 +189,7 @@ Let’s see if you can apply Gauss’s trick.
 
 **3.2 Add up all the numbers from 1 to 50**
 
-<input type="number" v-model="answers.p1_3_2"></input>
+<input type="number" placeholder="???" v-model="answers.p_3_2"></input>
 
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is 1,275.
@@ -199,7 +199,7 @@ Let’s see if you can apply Gauss’s trick.
 
 **3.3 Add up all the numbers from 1 to 1,000**
 
-<input type="number" v-model="answers.p1_3_3"></input>
+<input type="number" placeholder="???" v-model="answers.p_3_3"></input>
 
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is 500,500.
