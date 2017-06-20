@@ -108,22 +108,29 @@ function ready() {
       toggleAnswers: false,
       signup,
       login,
-      answers: {},
+      answers: {submitted: false},
       showAnswers: false,
       feedback: {},
       currentChallenge: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       },
+      submit() {
+        if (!fbAuth.currentUser) return;
+        app.answers.submitted = true;
+        fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+          .set(app.answers);
+      },
       setAnswer(key, value) {
+        if (app.answers.submitted) return;
+        Vue.set(app.answers, key, value);
         if (fbAuth.currentUser) {
           fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
             .set(app.answers);
         }
-        Vue.set(app.answers, key, value)
       },
       refresh() {
-        if (!fbAuth.currentUser) return;
+        if (app.answers.submitted || !fbAuth.currentUser) return;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
       }

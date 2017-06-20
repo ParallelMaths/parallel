@@ -18,7 +18,7 @@ html
 
     a#logo(href="/" title="Home")
 
-    #body
+    #body(v-bind:class="{submitted: answers.submitted}")
       .login(v-if="!user")
         a.target(v-on:click="login.toggleDropdown") Login
         form#login(v-bind:class="{active: login.showDropdown}" v-on:submit="login.submit")
@@ -45,8 +45,9 @@ html
 
         if challenge
           #feedback: include feedback
-          #submit(data-challenge=challenge): button Submit Answers
-          p(style="display: none") Don’t forget: your score and the correct answers will appear here at 7.31pm on Sunday.
+          #submit(v-show="!answers.submitted" data-challenge=challenge)
+            button(v-on:click="submit") Submit Answers
+          p.completed(v-show="answers.submitted") Well done! your score and the correct answers will appear here at 7.30pm on Sunday.
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society

@@ -258,6 +258,10 @@ form .error {
     margin-bottom: 2rem;
   }
 
+  .submitted & {
+    input, select, .choice > * { pointer-events: none; }
+  }
+
   .c2, .c3, .c5 {
     display: flex;
     flex-wrap: wrap;
@@ -375,4 +379,13 @@ form .error {
     background: #930033;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
   }
+}
+
+.completed{
+  background: #98ea98;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
 }
