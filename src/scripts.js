@@ -70,6 +70,12 @@ function ready() {
     }
   };
 
+  const answers = {
+    submit(e) {
+
+    }
+  }
+
   const login = {
     error: null,
     showDropdown: false,
@@ -106,7 +112,9 @@ function ready() {
       toggleAnswers: false,
       signup,
       login,
+      answers,
       answers: {},
+      showAnswers: false,
       feedback: {},
       currentChallenge: null,
       logout() {

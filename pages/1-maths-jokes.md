@@ -1,4 +1,4 @@
-# Parallelogram #01
+# Parallelogram #1
   
 Welcome to the first of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
 You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. Then there will be an online tutorial at 8pm – more information about joining the tutorial appears when you have finished this Parallogram. 
@@ -16,11 +16,12 @@ This week’s Parallelogram challenge is in seven parts… some Challenges will 
 
 **Important**
 * You will get points for every correct answer (or nearly correct answer).
-* Some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose points.
+* Some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
 * It does not really matter what you score get, the main thing is that you think hard about the problems … and then learn where you went wrong when the answers appear.
 
 </div>
- 
+
+
 ## 1. Maths jokes
 
 It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathematicians are very funny. Some of my favourite comedians (Dara O'Briain, Romesh Ranganathan and Dave Gorman) studied maths at university, and I have written a whole book about the mathematicians who write The Simpsons.  
@@ -28,32 +29,48 @@ It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathem
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
 ::: problem
-__1.1 Why is 6 afraid of 7?__
+**1.1. Why is 6 afraid of 7?**
+<div class="marks">1/2 mark</div>
 <div class="choice radio">
-  <div x-radio="p_1_1, a">Because 1, 2, 3</div>
-  <div x-radio="p_1_1, b">Because 7, 8, 9</div>
-  <div x-radio="p_1_1, c">Because 5 predates 6</div>
+  <div x-radio="p_1_1, a">(a) Because 1, 2, 3</div>
+  <div x-radio="p_1_1, b">(b) Because 7, 8, 9</div>
+  <div x-radio="p_1_1, c">(c) Because 5 predates 6</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+The correct answer is (b).
 </div>
 
-__1.2 What are the 10 kinds of people in the world?__
+**1.2 What are the 10 kinds of people in the world?**  
+<div class="marks">1/2 mark</div>
 <div class="choice radio">
-  <div x-radio="p_1_2, a">Set 0, Set 1, Set 2, …, Set 9</div>
-  <div x-radio="p_1_2, b">α, β, γ, δ, ε, ζ, η, θ, ι, κ</div>
-  <div x-radio="p_1_2, c">Those who understand binary, and those who don’t</div>
+  <div x-radio="p_1_2, a">(a) Set 0, Set 1, Set 2, …, Set 9</div>
+  <div x-radio="p_1_2, b">(b) α, β, γ, δ, ε, ζ, η, θ, ι, κ</div>
+  <div x-radio="p_1_2, c">(c) Those who understand binary, and those who don’t</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is (c).
 </div>
 
-__1.3 What does the “B” in Benoit B Mandelbrot stand for?__
+**1.3 What does the “B” in Benoit B Mandelbrot stand for?**  
+<div class="marks">1/2 mark</div>
 <div class="choice radio">
-  <div x-radio="p_1_3, a">Benoit B Mandelbrot</div>
-  <div x-radio="p_1_3, b">Binomial</div>
-  <div x-radio="p_1_3, c">Breviation</div>
+  <div x-radio="p_1_3, a">(a) Benoit B Mandelbrot</div>
+  <div x-radio="p_1_3, b">(b) Binomial</div>
+  <div x-radio="p_1_3, c">(c) Breviation</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is (a).
 </div>
 
-__1.4 Why did the chicken cross the Möbius strip?__
+**1.4 Why did the chicken cross the Möbius strip?**  
+<div class="marks">1/2 mark</div>
 <div class="choice radio">
-  <div x-radio="p_1_4, a">To get to the other… er…?</div>
-  <div x-radio="p_1_4, b">To reach a finite conclusion</div>
-  <div x-radio="p_1_4, c">To integrate itself into the tarmac</div>
+  <div x-radio="p_1_4, a">(a) To get to the other… er…?</div>
+  <div x-radio="p_1_4, b">(b) To reach a finite conclusion</div>
+  <div x-radio="p_1_4, c">(c) To integrate itself into the tarmac</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is (a).
 </div>
 :::
 
@@ -62,6 +79,7 @@ __1.4 Why did the chicken cross the Möbius strip?__
 
 ::: problem
 __2.1 What is the digit x in this cross-number?__
+<div class="marks">2 marks</div>
 
 <table><tr><td>
 
@@ -84,6 +102,12 @@ __2.1 What is the digit x in this cross-number?__
 <input type="number" v-model="answers.p1_2_1"/>
 :::
 
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is:  
+      27  
+      64
+</div>
+
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
 :::
@@ -102,18 +126,22 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 
 ::: problem
 **3.1 What indoor sport does Maryam mention in one of her mathematical examples?**  
+<div class="marks">1 mark</div>
 <div class="choice radio">
-  <div x-radio="p_3_1, a">Chess</div>
-  <div x-radio="p_3_1, b">Darts</div>
-  <div x-radio="p_3_1, c">Billiards</div>
-  <div x-radio="p_3_1, d">Table tennis</div>
+  <div x-radio="p_3_1, a">(a) Chess</div>
+  <div x-radio="p_3_1, b">(b) Darts</div>
+  <div x-radio="p_3_1, c">(c) Billiards</div>
+  <div x-radio="p_3_1, d">(d) Table tennis</div>
+</div> 
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is (c).
 </div>
 :::
- 
+
+<img src="/images/gauss.png" style="float: right; margin-left: 1rem"/>
+
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
  
-![](/images/gauss.png)
-
 However, before the teacher had even left the room, Gauss’s hand shot up and he announced that the answer was 5,050.
  
 Gauss was right, but how did he add up the first 100 numbers in just a few seconds?
@@ -142,11 +170,20 @@ Let’s see if you can apply Gauss’s trick.
 
 ::: problem
 **3.2 Add up all the numbers from 1 to 50**  
+<div class="marks">1 mark</div>
 <input type="number" v-model="answers.p1_3_2"></input>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is 1,275.
+</div>
 
 **3.3 Add up all the numbers from 1 to 1,000**  
+<div class="marks">1 mark</div>
 <input type="number" v-model="answers.p1_3_3"></input>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is 500,500.
+</div>
 :::
+
 
 ## 4. Domino toppling
 
@@ -156,11 +193,15 @@ I watched this terrific video last week. Take a look and answer the question aft
 
 ::: problem
 **4.1 Starting with 5mm tall domino, how many dominoes would you need to knock down the Empire State Building?**  
+<div class="marks">1 mark</div>
 <div class="choice radio">
-  <div x-radio="p_4_1, a">30</div>
-  <div x-radio="p_4_1, b">100</div>
-  <div x-radio="p_4_1, c">30,000</div>
-  <div x-radio="p_4_1, d">100,000,000</div>
+  <div x-radio="p_4_1, a">(a) 30</div>
+  <div x-radio="p_4_1, b">(b) 100</div>
+  <div x-radio="p_4_1, c">(c) 30,000</div>
+  <div x-radio="p_4_1, d">(d) 100,000,000</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is 30.
 </div>
 :::
 
@@ -174,10 +215,14 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 
 ::: problem
 **5.1 Which of these three statements are true?**
+<div class="marks">1 mark</div>
 <div class="choice checkbox">
-  <div x-checkbox="p_5_1a">Doubling a positive number always makes it larger.</div>
-  <div x-checkbox="p_5_1b">Squaring a positive number always makes it larger.</div>
-  <div x-checkbox="p_5_1c">Taking the positive square root of a positive number always makes it smaller.</div>
+  <div x-checkbox="p_5_1a">(i) Doubling a positive number always makes it larger.</div>
+  <div x-checkbox="p_5_1b">(ii) Squaring a positive number always makes it larger.</div>
+  <div x-checkbox="p_5_1c">(iii) Taking the positive square root of a positive number always makes it smaller.</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is just (i).
 </div>
 
 _(This question is taken from JMC 2017, question 13.)_
@@ -193,10 +238,14 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 
 ::: problem
 **6.1 Professor Sugihara’s work could help:**
+<div class="marks">1 mark</div>
 <div class="choice">
-  <div x-radio="p_6_1, a">Drivers</div>
-  <div x-radio="p_6_1, b">Architects</div>
-  <div x-radio="p_6_1, c">Surgeons</div>
+  <div x-radio="p_6_1, a">(a) Drivers</div>
+  <div x-radio="p_6_1, b">(b) Architects</div>
+  <div x-radio="p_6_1, c">(c) Surgeons</div>
+</div>
+<div v-if="showAnswers" style="color:#FF0000" strong>
+  The correct answer is (a).
 </div>
 :::
 
