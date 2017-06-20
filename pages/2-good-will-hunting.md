@@ -45,25 +45,25 @@ The only other thing you need to know about trees is that all of the 5-dot trees
 
 Now it’s time to see if you have understood the maths of trees.
 
-For 6 dots there are only two irreducible trees. From the diagrams below, which are the two allowable trees?
+::: problem
+<div class="marks">1 mark</div>
 
-![](/images/challenges/2/graph-4.png)
+**1.1 For 6 dots there are only two irreducible trees. Which of these are they?**
 
-**1.1. The first allowable tree is...**
-
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
-*\[1 mark\]*
-
-**1.2. The second allowable tree is...**
-
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>  
-*\[1 mark\]*
+<div class="choice checkbox" style="column-count: 3">
+  <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-4a.png"/></div>
+  <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-4b.png"/></div>
+  <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-4c.png"/></div>
+  <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-4d.png"/></div>
+  <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-4e.png"/></div>
+</div>
+:::
 
 Hopefully, you are now getting the idea, but before we get to the full Good Will Hunting problem, here are three warm ups.
-You will need to get a piece of paper and start drawing some trees.
-The key things are don’t create forbidden trees and don’t create copycat trees.
-Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
 
+You will need to get a piece of paper and start drawing some trees. The key things are don’t create forbidden trees and don’t create copycat trees. Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
+
+::: problem
 **1.3.** Draw all homeomorphically irreducible trees of with 7 dots. How many did you find? Hint: the answer is 1, 2, 3, 4  or 5.  
 <input type="number" data-id="s1-q7"/>  
 *\[1 mark\]*
@@ -77,12 +77,19 @@ Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><opt
 ![](/images/challenges/2/graph-6.png)  
 Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>  
 *\[1 mark\]*
+:::
 
 Now you are ready for the full Will Hunting problem.
 
-**1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find? Take your time. Check you haven’t missed any trees. Chess that you have not drawn the same tree twice. Clue: the number of trees is more than 5 and less than 14.  
+::: problem
+<div class="marks">3 marks</div>
+
+**1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find? Take your time. Check you haven’t missed any trees. Chess that you have not drawn the same tree twice.
+
+Clue: the number of trees is more than 5 and less than 14.
+
 <input type="number" min="5" max="14" data-id="s1-q7"/>  
-*\[3 marks\]*
+:::
 
 The Good Will Hunting problem is not incredibly difficult, despite what the
 film implies. However, you have just been learning some maths that you would
@@ -90,7 +97,6 @@ not normally do until A level. So, well done. Don’t worry if you did not
 understand everything about trees, but if you did get most of the answers right
 then double well done.
 
----
 
 ## 2. NASA’s massive blackboard photograph 
 
@@ -110,15 +116,21 @@ removed, and a still from the movie.
 
 | ![](/images/challenges/2/nasa-3.jpg) | ![](/images/challenges/2/nasa-4.jpg) |
 
-**2.1.** What is the title of the film that celebrates the role of the pioneering women mathematicians at NASA in the 1960s? (If you don’t know the answer, then you should be able to find it with some help from Google.)  
-(a) Apollo’s Angels  
-(b) Hidden Figures  
-(c) Rocket Women  
-(d) Invisible Chalk  
-(e) The Forgotten Mathematicians  
-Answer: <select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option></select>
 
----
+::: problem
+<div class="marks">1/2 mark</div>
+
+**2.1.** What is the title of the film that celebrates the role of the pioneering women mathematicians at NASA in the 1960s? (If you don’t know the answer, then you should be able to find it with some help from Google.)
+
+<div class="choice radio">
+  <div x-radio="p_2_1, a">(a) Apollo’s Angels</div>
+  <div x-radio="p_2_1, b">(b) Hidden Figures</div>
+  <div x-radio="p_2_1, c">(c) Rocket Women</div>
+  <div x-radio="p_2_1, d">(d) Invisible Chalk</div>
+  <div x-radio="p_2_1, e">(e) The Forgotten Mathematicians</div>
+</div>
+:::
+
 
 ## 3. The Councillor Problem
 
@@ -223,7 +235,6 @@ Cheerio,
 
 Simon.
 
----
 
 ## Further Interest
 
@@ -232,5 +243,3 @@ If you want to find out more about **Good Will Hunting**, then just Google it. T
 Number nerd James Grime has made an interesting video asking [“Who was the real Good Will Hunting?”](https://www.youtube.com/watch?v=SzjdcPbjaR4)
 
 More about NASA blackboard photos [here](http://rarehistoricalphotos.com/nasa-scientists-board-calculations-1961/).
-
----
