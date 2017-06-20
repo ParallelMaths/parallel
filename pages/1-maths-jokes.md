@@ -29,46 +29,58 @@ It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathem
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
 ::: problem
-**1.1. Why is 6 afraid of 7?**
 <div class="marks">1/2 mark</div>
+
+**1.1. Why is 6 afraid of 7?**
+
 <div class="choice radio">
   <div x-radio="p_1_1, a">(a) Because 1, 2, 3</div>
   <div x-radio="p_1_1, b">(b) Because 7, 8, 9</div>
   <div x-radio="p_1_1, c">(c) Because 5 predates 6</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
-The correct answer is (b).
+  The correct answer is (b).
 </div>
 
-**1.2 What are the 10 kinds of people in the world?**  
 <div class="marks">1/2 mark</div>
+
+**1.2 What are the 10 kinds of people in the world?**
+
 <div class="choice radio">
   <div x-radio="p_1_2, a">(a) Set 0, Set 1, Set 2, …, Set 9</div>
   <div x-radio="p_1_2, b">(b) α, β, γ, δ, ε, ζ, η, θ, ι, κ</div>
   <div x-radio="p_1_2, c">(c) Those who understand binary, and those who don’t</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (c).
 </div>
 
-**1.3 What does the “B” in Benoit B Mandelbrot stand for?**  
 <div class="marks">1/2 mark</div>
+
+**1.3 What does the “B” in Benoit B Mandelbrot stand for?**
+
 <div class="choice radio">
   <div x-radio="p_1_3, a">(a) Benoit B Mandelbrot</div>
   <div x-radio="p_1_3, b">(b) Binomial</div>
   <div x-radio="p_1_3, c">(c) Breviation</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (a).
 </div>
 
-**1.4 Why did the chicken cross the Möbius strip?**  
 <div class="marks">1/2 mark</div>
+
+**1.4 Why did the chicken cross the Möbius strip?**
+
 <div class="choice radio">
   <div x-radio="p_1_4, a">(a) To get to the other… er…?</div>
   <div x-radio="p_1_4, b">(b) To reach a finite conclusion</div>
   <div x-radio="p_1_4, c">(c) To integrate itself into the tarmac</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (a).
 </div>
@@ -78,8 +90,9 @@ The correct answer is (b).
 ## 2. Mini cross-number
 
 ::: problem
-__2.1 What is the digit x in this cross-number?__
 <div class="marks">2 marks</div>
+
+**2.1 What is the digit x in this cross-number?**
 
 <table><tr><td>
 
@@ -125,14 +138,17 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 @[youtube](4GhbMhQLp1_g)
 
 ::: problem
-**3.1 What indoor sport does Maryam mention in one of her mathematical examples?**  
 <div class="marks">1 mark</div>
+
+**3.1 What indoor sport does Maryam mention in one of her mathematical examples?**
+
 <div class="choice radio">
   <div x-radio="p_3_1, a">(a) Chess</div>
   <div x-radio="p_3_1, b">(b) Darts</div>
   <div x-radio="p_3_1, c">(c) Billiards</div>
   <div x-radio="p_3_1, d">(d) Table tennis</div>
-</div> 
+</div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (c).
 </div>
@@ -169,16 +185,22 @@ Another way to think about this is:
 Let’s see if you can apply Gauss’s trick.
 
 ::: problem
-**3.2 Add up all the numbers from 1 to 50**  
 <div class="marks">1 mark</div>
+
+**3.2 Add up all the numbers from 1 to 50**
+
 <input type="number" v-model="answers.p1_3_2"></input>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is 1,275.
 </div>
 
-**3.3 Add up all the numbers from 1 to 1,000**  
 <div class="marks">1 mark</div>
+
+**3.3 Add up all the numbers from 1 to 1,000**
+
 <input type="number" v-model="answers.p1_3_3"></input>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is 500,500.
 </div>
@@ -192,14 +214,17 @@ I watched this terrific video last week. Take a look and answer the question aft
 @[youtube](5JCm5FY-dEY)
 
 ::: problem
-**4.1 Starting with 5mm tall domino, how many dominoes would you need to knock down the Empire State Building?**  
 <div class="marks">1 mark</div>
+
+**4.1 Starting with 5mm tall domino, how many dominoes would you need to knock down the Empire State Building?**
+
 <div class="choice radio">
   <div x-radio="p_4_1, a">(a) 30</div>
   <div x-radio="p_4_1, b">(b) 100</div>
   <div x-radio="p_4_1, c">(c) 30,000</div>
   <div x-radio="p_4_1, d">(d) 100,000,000</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is 30.
 </div>
@@ -214,13 +239,16 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 ## 5. Junior Maths Challenge question
 
 ::: problem
-**5.1 Which of these three statements are true?**
 <div class="marks">1 mark</div>
+
+**5.1 Which of these three statements are true?**
+
 <div class="choice checkbox">
   <div x-checkbox="p_5_1a">(i) Doubling a positive number always makes it larger.</div>
   <div x-checkbox="p_5_1b">(ii) Squaring a positive number always makes it larger.</div>
   <div x-checkbox="p_5_1c">(iii) Taking the positive square root of a positive number always makes it smaller.</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is just (i).
 </div>
@@ -237,13 +265,16 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 @[youtube](Wx4yi5m8IfI)
 
 ::: problem
-**6.1 Professor Sugihara’s work could help:**
 <div class="marks">1 mark</div>
+
+**6.1 Professor Sugihara’s work could help:**
+
 <div class="choice">
   <div x-radio="p_6_1, a">(a) Drivers</div>
   <div x-radio="p_6_1, b">(b) Architects</div>
   <div x-radio="p_6_1, c">(c) Surgeons</div>
 </div>
+
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (a).
 </div>

@@ -28,8 +28,8 @@ function ready() {
     if (challengeId) {
       fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId).once('value')
         .then(answers => {
-          console.log(answers);
-          for (let k of Object.keys(answers)) Vue.set(app.answers, k, answers[k]);
+          let a = answers.toJSON();
+          for (let k of Object.keys(a)) Vue.set(app.answers, k, a[k]);
         });
     }
   }
