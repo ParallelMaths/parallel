@@ -6,9 +6,9 @@ block content
 
     h1 Welcome to the Parallel Maths Project
 
-    img(src="/images/simon-simpsons.png" width=300 height=300 style="float: right; margin-left: 1rem")
+    img(src="/images/simon-simpsons.png" width=160 height=280 style="float: right; margin-left: 1rem")
 
-    p #[a(href="https://en.wikipedia.org/wiki/Simon_Singh") Dr Simon Singh], author of the No. 1 bestseller #[em Fermat’s Last Theorem] & #[em The Simpsons and Their Mathematical Secrets], has created a set of weekly maths challenges - 60 minutes of interesting, fun and challenging material that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems. So far, we have four sets of challenges designed for students aged 11 to 13, but if you like what we do then there will be more challenges later in the year.
+    p #[a(href="https://en.wikipedia.org/wiki/Simon_Singh") Dr Simon Singh], author of the No. 1 bestseller #[a(href="https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem_(book)" target="_blank") Fermat’s Last Theorem] and #[a(href="https://en.wikipedia.org/wiki/The_Simpsons_and_Their_Mathematical_Secrets" target="_blank") The Simpsons and Their Mathematical Secrets], has created a set of weekly maths challenges – 60 minutes of interesting, fun and challenging material that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems. So far, we have four sets of challenges designed for students aged 11 to 13, but if you like what we do then there will be more challenges later in the year.
 
     p It’s #[strong FREE] to sign up and all the materials we offer are also #[strong FREE].
 
@@ -38,12 +38,9 @@ block content
         li a portmanteau word combining parallel and telegram. A message containing mischievous maths problems sent each week by the Parallel Project to bright young mathematicians.
 
     div(v-if="currentChallenge")
-      - var countdown = function(deadline) {
-      -     return '<until ' + deadline + '>';
-      - }
-      p Current Parallelogram closes on Sunday at 8pm, in #{countdown('02/19/2012 10:1 AM')}
+      p Current Parallelogram closes on Sunday at 8pm, in #{'02/19/2012 10:1 AM'}
     div(v-else)
-      p Next Parallelogram starts at 4pm on Friday, in #{countdown('02/19/2012 10:1 AM')}
+      p Next Parallelogram starts at 4pm on Friday, in #{'02/19/2012 10:1 AM'}
 
     p Each Parallelogram (your collection of maths challenges) is part of a series of four Parallelograms, one per week for four weeks, ending on 22 July.
     p If you are waiting for the next Parallelogram, then you can go back and visit (or revisit) some of the earlier ones, listed on the vertical menu on the left.

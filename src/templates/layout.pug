@@ -26,16 +26,15 @@ html
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
           button(type="submit") Login
-          p #[a(href="/contact") I've forgotten my email address or password]
+          p: a(href="#") Reset password
 
       .login(v-if="user")
         .target {{user.first}} (#[a(v-on:click="logout") Logout])
 
       nav(v-if="user")
-        if page && page.showNav
-          for p in pages
-            if p.navIndex != undefined
-              a(href="/" + p.url, style="background-image: url('/nav/" + p.navIndex + ".png')", title=p.title, data-show=p.available)
+        a(href="/", style="background-image: url('/nav/0.png')", title="Home")
+        for p, i in pages
+          a(href="/" + p.url, style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
 
       .container
 
@@ -44,56 +43,17 @@ html
         if content
           div!= content
 
-        if content && page.question
-
-          h3 Feedback & Submit Answers
-
-          p Before you can finish your Parallelogram, you need to take 30 seconds to answer a few questions that will tell us what you thought about this week’s challenges.
-
-          form(v-on:submit="answers.submit")
-
-            label
-              | How difficult was this Parallelogram?
-              select(v-model="feedback.difficulty" required)
-                option Very Easy
-                option A Bit Easy
-                option Ok
-                option A Bit Difficult
-                option Very Difficult
-
-            label
-              | How long was this Parallelogram?
-              select(v-model="feedback.length" required)
-                option Very Short
-                option A Bit Short
-                option Ok
-                option A Bit Long
-                option Very Long
-
-            label
-              | How much fun was this Parallelogram?
-              select(v-model="feedback.fun" required)
-                option Very Horrible
-                option A Bit Horrible
-                option Ok
-                option A Bit Fun
-                option Very Fun
-
-            label
-              | How interesting was this Parallelogram?
-              select(v-model="feedback.interest" required)
-                option Very Boring
-                option A Bit Boring
-                option Ok
-                option A Bit Interesting
-                option Very Interesting
-
-              button(type="submit") Submit Answers
+        if challenge
+          #feedback: include feedback
+          #submit(data-challenge=challenge): button Submit Answers
+          p(style="display: none") Don’t forget: your score and the correct answers will appear here at 7.31pm on Sunday.
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
       | •
       a(href="/terms-and-conditions") Terms and Conditions
+      | •
+      a(href="/contact") Contact
 
     script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script.
@@ -106,7 +66,8 @@ html
         messagingSenderId: "610680271345"
       });
 
-    script(defer src="https://unpkg.com/vue")
+    //- script(defer src="https://unpkg.com/vue")
+    script(defer src="https://unpkg.com/vue@2.3.4/dist/vue.min.js")
     script(defer src="/scripts.js?v2")
 
     script.

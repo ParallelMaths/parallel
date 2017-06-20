@@ -12,17 +12,28 @@ function ready() {
   // This helps avoid FOUC while the user is loading...
   function show() {
     document.querySelector('#body').style.display = 'block';
+    document.querySelector('footer').style.display = 'block';
   }
 
   function loadUser(user) {
     if (!user) return show();
+
     fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
       app.user = u.toJSON();
       show();
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
     }).catch(function(e) {
       // TODO handle error
       console.log(e);
     });
+
+    if (challengeId) {
+      fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId).once('value')
+        .then(answers => {
+          let a = answers.toJSON();
+          for (let k of Object.keys(a)) Vue.set(app.answers, k, a[k]);
+        });
+    }
   }
 
   const signup = {
@@ -61,12 +72,6 @@ function ready() {
     }
   };
 
-  const answers = {
-    submit(e) {
-
-    }
-  }
-
   const login = {
     error: null,
     showDropdown: false,
@@ -93,6 +98,9 @@ function ready() {
     }
   };
 
+  const submit = document.querySelector('#submit');
+  const challengeId = submit ? submit.dataset.challenge : null;
+
   const app = window.app = new Vue({
     el: '#body',
     data: {
@@ -100,28 +108,39 @@ function ready() {
       toggleAnswers: false,
       signup,
       login,
-      answers,
       answers: {},
       showAnswers: false,
       feedback: {},
       currentChallenge: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
+      },
+      setAnswer(key, value) {
+        if (fbAuth.currentUser) {
+          fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+            .set(app.answers);
+        }
+        Vue.set(app.answers, key, value)
+      },
+      refresh() {
+        if (!fbAuth.currentUser) return;
+        fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+          .set(app.answers);
       }
     }
+  });
+
+  // TODO Save hint state to db
+
+  Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
+    hint.addEventListener('click', function() {
+      hint.style.height = hint.children[0].offsetHeight + 'px';
+    });
   });
 }
 
 document.addEventListener('DOMContentLoaded', ready);
 
-
-// TODO Save hint state to db
-
-Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
-  hint.addEventListener('click', function() {
-    hint.style.height = hint.children[0].offsetHeight + 'px';
-  });
-});
 
 function countdown(deadline) {
   var _second = 1000;

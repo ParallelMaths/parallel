@@ -1,34 +1,10 @@
-- url: ""
-  title: "Home"
-  navIndex: 0
-  showNav: true
-- url: introduction
-  title: "Introduction"
-- url: about
-  title: "About"
-- url: tts
-  title: "TTS"
-- url: contact
-  title: "Contact"
-- url: good-thinking
-  title: "Good Thinking"
-- url: terms-and-conditions
-  title: "Terms & Conditions"
 - url: 1-maths-jokes
   title: "Challenge 1: Maths Jokes"
-  navIndex: 1
-  question: true
 - url: 2-good-will-hunting
   title: "Challenge 2: Good Will Hunting"
-  navIndex: 2
-  question: true
 - url: 3-summaze
   title: "Challenge 3: Summaze"
-  navIndex: 3
-  question: true
   available: 2017-06-01
 - url: 4-graphs-and-networks
   title: "Challenge 4: Graphs and Networks"
-  navIndex: 4
-  question: true
   available: 2017-06-08
