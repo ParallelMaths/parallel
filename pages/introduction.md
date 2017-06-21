@@ -10,7 +10,7 @@ Each Friday at 4pm, from June 30 to July 21, you will have access to a new set o
  
 It should take roughly 60 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved 
  
-You have until 7.00pm on Sunday to complete the challenge and hit the SUBMIT button..
+You have until 7.00pm on Sunday to complete the challenge and hit the SUBMIT button.
  
 One minute later, at 7.01pm, you will find that that an answer sheet has been posted onto the site and you will be able to find out your score.
  
@@ -21,13 +21,11 @@ You are going to be entering a peculiar Numberverse, and some of the puzzles, ri
 What will the challenges look like? Be prepared for anything. They will involve paradoxes, maths history, videos, songs, online articles, online lectures, deep maths, weird maths, funny maths and maths in the headlines.
  
 What do you do if you get stuck? First, you try harder. Second, you try even harder. Third, you try until it hurts. However, I am not cruel, so there will be hint buttons if you are really stuck, and you can also talk to your family or classmates. And, if you still get the answer wrong, then that is also okay. It just means that you will learn even more when you see the answer sheet.
- 
-Moreover, there will be an online tutorial session at 8pm on Sunday. During the tutorial, you will be online with about hundred other students, so please don’t all shout at once. Better still, you can email me before the online tutorial and that will give me a chance to think about which areas you found tricky.
- 
+
 Before I sign off, you might wonder who is writing this email. 
 When I was your age, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge and learned to be determined.
 
-<img src="/images/simon-simpsons.png" width=160 height=280 style="float: right; margin-left: 1rem"/>
+<img src="/images/misc/simon-simpsons.png" width=160 height=280 style="float: right; margin-left: 0.5rem"/>
 
 My parents grew up in India in the 1930s and did not have a proper education (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
  

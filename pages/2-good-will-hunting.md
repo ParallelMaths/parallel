@@ -8,8 +8,16 @@ Welcome to the second of four weekly Parallelograms, a collection of mathematica
 4. When not knowing Math can cost you $15,000  
 5. Junior Maths Challenge question
 
+<div class="warning">
 
-## 1. The Good Will Hunting Problem
+**Instructions**
+* You will get points for every correct answer (or nearly correct answer).
+* Some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
+* It does not really matter what you score get, the main thing is that you think hard about the problems … and then learn where you went wrong when the answers appear.
+
+</div>
+
+## 1. The Good Will Hunting problem
 
 <img src="/images/challenges/2/good-will-hunting.jpg" style="float: right; margin-left: 1rem"/>
 
@@ -232,14 +240,14 @@ You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9), wh
 :::
 
 
-## 4. When not knowing Math can cost you $15,000
+## 4. When not knowing maths can cost you $15,000
 
 This clip from the TV quiz show Who Wants to be a Millionaire? shows just one reason why it’s a good idea to be a confident mathematician. 
 
 @[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I)
 
 
-## 5. Junior Maths Challenge Question
+## 5. Junior Maths Challenge question
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -266,10 +274,14 @@ Cheerio,
 Simon.
 
 
-## Further Interest
+## Find out more
 
 If you want to find out more about **Good Will Hunting**, then just Google it. There are tons of articles about one of the greatest films to come out of Hollywood. You should certainly watch it, but it is aimed at an older audience, so perhaps wait until you are a bit older.
 
-Number nerd James Grime has made an interesting video asking [“Who was the real Good Will Hunting?”](https://www.youtube.com/watch?v=SzjdcPbjaR4)
+Number nerd James Grime has made an interesting video asking [“Who was the real Good Will Hunting?”](https://www.youtube.com/watch?v=SzjdcPbjaR4?rel=0)
 
 More about NASA blackboard photos [here](http://rarehistoricalphotos.com/nasa-scientists-board-calculations-1961/).
+
+## **Credits**
+
+The problems in this Parallelogram come from a variety of places and we will list them in the fourth and final Parallelogram.

@@ -1,7 +1,8 @@
 # Parallelogram #1
   
 Welcome to the first of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
-You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. Then there will be an online tutorial at 8pm – more information about joining the tutorial appears when you have finished this Parallogram. 
+You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. 
+
 This week’s Parallelogram challenge is in seven parts… some Challenges will have a single theme, while others have sections that shoot off in wildly different directions. In short, these challenges are often going to be a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas.
 
 1. Maths jokes
@@ -29,7 +30,7 @@ It sounds odd, but there are maths jokes. Lots of jokes. In fact, lots of mathem
 So, how good is your mathematical sense of humour? And how much maths do you know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You will need to a bit of maths in order to work out the right answer.
 
 ::: problem
-<div class="marks">1/2 mark</div>
+<div class="marks">½ mark</div>
 
 **1.1. Why is 6 afraid of 7?**
 
@@ -43,7 +44,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
   The correct answer is (b).
 </div>
 
-<div class="marks">1/2 mark</div>
+<div class="marks">½ mark</div>
 
 **1.2 What are the 10 kinds of people in the world?**
 
@@ -57,7 +58,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
   The correct answer is (c).
 </div>
 
-<div class="marks">1/2 mark</div>
+<div class="marks">½ mark</div>
 
 **1.3 What does the “B” in Benoit B Mandelbrot stand for?**
 
@@ -71,7 +72,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
   The correct answer is (a).
 </div>
 
-<div class="marks">1/2 mark</div>
+<div class="marks">½ mark</div>
 
 **1.4 Why did the chicken cross the Möbius strip?**
 
@@ -84,6 +85,9 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 <div v-if="showAnswers" style="color:#FF0000" strong>
   The correct answer is (a).
 </div>
+
+<div class="marks">½ mark</div>
+
 :::
 
 
@@ -96,7 +100,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 <table><tr><td>
 
-![](/images/crossnumber.png)
+![](/images/challenges/1/crossnumber.png)
 
 </td><td>
 
@@ -127,15 +131,14 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 ## 3. Maryam’s inspiration
 
-![](/images/maryam-mirzakhani.png)
-
+<img src="/images/challenges/1/maryam-mirzakhani.png" style="float: left; margin-right: 1rem"/>
 You might be surprised to know that there is no Nobel Prize for maths. However, there is an even bigger prize for mathematicians, which is called the Fields Medal. It is only given every 4 years, so it is very rare and precious.
 
 In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was born in Iran and now works in America, and you can find out about life and work in the short video below.
 
 Not surprisingly, Maryam talks about some incredibly complex maths, so don’t worry if you find it confusing. In fact, if you think you understand what Maryam is describing, then you probably don’t. Watch it carefully and answer the question below.
 
-@[youtube](4GhbMhQLp_g)
+@[youtube](4GhbMhQLQ_g?rel=0)
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -154,7 +157,7 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 </div>
 :::
 
-<img src="/images/gauss.png" style="float: right; margin-left: 1rem"/>
+<img src="/images/challenges/1/gauss.png" style="float: right; margin-left: 1rem"/>
 
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
  
@@ -176,7 +179,7 @@ Here is Gauss's trick in three stages:
  
 Another way to think about this is:
 
-![](/images/sum-equation.png)
+![](/images/challenges/1/gauss-equation.png)
 	
 * **(n+1)** represents step 1, because you pair up all the numbers, so that all the pairs add up to **(n+1)**.  
 * **(n/2)** represents step 2, because the number of pairs is equal to the total number of numbers divided by 2.  
@@ -211,7 +214,7 @@ Let’s see if you can apply Gauss’s trick.
 
 I watched this terrific video last week. Take a look and answer the question afterwards.
 
-@[youtube](5JCm5FY-dEY)
+@[youtube](5JCm5FY-dEY?rel=0)
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -230,10 +233,10 @@ I watched this terrific video last week. Take a look and answer the question aft
 </div>
 :::
 
-Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but it this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
+Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but when this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
 In the meantime, here is an even more extraordinary example of domino toppling where the dominos get bigger and bigger. In fact, it was a world record at the time.
 
-@[youtube](8yYWILv91YU&t=2m56s)
+@[youtube](https://www.youtube.com/watch?v=8yYWILv91YU&amp;t=2m56s?rel=0)
 
 
 ## 5. Junior Maths Challenge question
@@ -257,12 +260,12 @@ _(This question is taken from JMC 2017, question 13.)_
 :::
 
 
-## 6. Weird optical illusions
+## **6. Weird optical illusions**
 
 The amazing, mind-warping objects in this video have been created by mathematical artist and engineer Professor Kokichi Sugihara. These incredible illusions literally mess with your brain.  
-Sometimes the geometry that you study at school might seem ordinary – what could be more ordinary than the angles of a triangle or the symmetry of a square? – but your teachers are providing you with the first stepping stones towards gaining an understanding the nature of space, and how you can build the sort of blabberghasting structures in this video. There is one question afterwards and then you can hit the submit button and your first Parallelogram has been completed.
+Sometimes the geometry that you study at school might seem ordinary – what could be more ordinary than the angles of a triangle or the symmetry of a square? – but your teachers are providing you with the first stepping stones towards gaining an understanding of the nature of space, and how you can build the sort of flabbergasting structures in this video. There is one question afterwards and then you can hit the submit button and your first Parallelogram has been completed.
 
-@[youtube](Wx4yi5m8IfI)
+@[youtube](Wx4yi5m8IfI?rel=0)
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -281,10 +284,14 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 :::
 
 
-## Further Interest
+## Find out more
  
 You can read more about mathematician Maryam Mirzakhani in [this interview published in the Guardian](https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician): 'The more I spent time on maths, the more excited I got'.
 
 [This article from the Telegraph newspaper](http://www.telegraph.co.uk/news/science/11029161/The-Fields-Medal-is-the-greatest-prize-in-maths.html) provides some history about the Fields Medal, the biggest prize in mathematics.
 
 [This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
+
+## Credits
+
+The problems in this Parallelogram come from a variety of places and we will list them in the fourth and final Parallelogram.
