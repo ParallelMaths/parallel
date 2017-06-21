@@ -256,7 +256,6 @@ In the meantime, here is an even more extraordinary example of domino toppling w
   The correct answer is just (i).
 </div>
 
-_(This question is taken from JMC 2017, question 13.)_
 :::
 
 
