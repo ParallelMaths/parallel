@@ -1,11 +1,11 @@
 # Parallelogram #2
  
-Welcome to the second of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly. You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. This week’s Parallelogram challenge is in seven parts. Be prepared to encounter all sorts of weird ideas.
+Welcome to the second of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly. You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. This week’s Parallelogram challenge is in five parts. Be prepared to encounter all sorts of weird ideas.
 
 1. The Good Will Hunting Problem  
 2. NASA’s massive blackboard photograph  
 3. The councillor problem  
-4. When not knowing Math can cost you $15,000  
+4. When not knowing mathematics can cost you $15,000  
 5. Junior Maths Challenge question
 
 <div class="warning">
@@ -25,7 +25,7 @@ Welcome to the second of four weekly Parallelograms, a collection of mathematica
 
 Take a look at this clip, which starts with a maths professor confronting his students, because someone has solved one his problems and yet he doesn’t know who – of course, we know who solved the problem.
 
-@[youtube](Ta3sClUQmfM)
+@[youtube](Ta3sClUQmfM?rel=0)
 
 Although the problem that Will is working on is said to be incredibly difficult, that is just a bit of Hollywood exaggeration, because this is a problem that you – __yes, you!__ – might be able to solve.
 
@@ -33,7 +33,7 @@ This is the problem: __draw all homeomorphically irreducible trees of size _n_ =
 
 First, don’t panic! Don’t be scared by the scary words. It is not as terrifying as it sounds. Let me translate what it means into terms that you will understand.
 
-In maths, trees are dots connected by lines, but the lines cannot form loops. Also, the question requires that a tree is not allowed to have a dot connected to only two lines, because the dot could be removed and it would not look very different. 
+In maths, trees are dots connected by lines, but in this case the lines cannot form loops. Also, the question requires that a tree is not allowed to have a dot connected to only two lines, because the dot could be removed and it would not look very different. 
 
 We can show the rules as they apply to drawing trees with 5 dots.
 
@@ -72,7 +72,7 @@ Hopefully, you are now getting the idea, but before we get to the full Good Will
 You will need to get a piece of paper and start drawing some trees. The key things are don’t create forbidden trees and don’t create copycat trees. Copycat trees are hard to sometimes spot, so really twist and turn you trees to check that one of them cannot be transformed into another.
 
 ::: problem
-<div class="marks">1 mark</div>
+<div class="marks">2 marks</div>
 
 **1.2** Draw all homeomorphically irreducible trees of with 7 dots. How many did you find?
 
@@ -84,7 +84,9 @@ You will need to get a piece of paper and start drawing some trees. The key thin
   <div x-radio="p_1_2, e">5</div>
 </div>
 
+:::
 
+::: problem
 <div class="marks">1 mark</div>
 
 **1.3** For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
@@ -97,13 +99,23 @@ You will need to get a piece of paper and start drawing some trees. The key thin
   <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-5e.png"/></div>
 </div>
 
+:::
 
+:::problem
 <div class="marks">1 mark</div>
 
 **1.4** For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
-![](/images/challenges/2/graph-6.png)  
 
-<select v-model="answers.q_1_4"><option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select>  
+<div class="choice checkbox c3">
+  <div x-checkbox="p_1_4a"><img src="/images/challenges/2/graph-9a.png"/></div>
+  <div x-checkbox="p_1_4b"><img src="/images/challenges/2/graph-9b.png"/></div>
+  <div x-checkbox="p_1_4c"><img src="/images/challenges/2/graph-9c.png"/></div>
+  <div x-checkbox="p_1_4d"><img src="/images/challenges/2/graph-9d.png"/></div>
+  <div x-checkbox="p_1_4e"><img src="/images/challenges/2/graph-9e.png"/></div>
+  <div x-checkbox="p_1_4f"><img src="/images/challenges/2/graph-9f.png"/></div>
+</div>
+
+
 :::
 
 Now you are ready for the full Will Hunting problem.
@@ -111,7 +123,7 @@ Now you are ready for the full Will Hunting problem.
 ::: problem
 <div class="marks">3 marks</div>
 
-**1.6.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find?
+**1.5.** Draw all homeomorphically irreducible trees of with 10 dots. How many did you find?
 
 Take your time. Check you haven’t missed any trees. Check that you have not drawn the same tree twice. The correct answer is between 5 and 14.
 
@@ -204,30 +216,36 @@ There are 4 marks for this question, but you will lose 1 mark for each clue that
 Start by creating a list of all the possible ages for the three children, bearing in mind that we know that the ages multiply to give 36. If you are doing this on your own then try to do it in an order so that you can make sure that you have not missed out any possibilities. Luckily, I have given you a table (with some gaps) that show that there are 8 possibilities. Copy the table onto a piece of paper and fill in the gaps.
 Once you have identified all the possibilities, go back and look at clues 2 and 3 that the mathematical mum gave and see if you can work out the ages of the children, and therefore the age of the oldest child.
 If you are still stuck … then try harder … but you also try hint 2.
-
-| 1 x 1 x 36 = 36 |
-| 1 x 2 x 18 = 36 |
-| 1 x 3 x 12 = 36 |
-| 1 x 4 x 9 = 36 |
-| 1 x 6 x 6 = 36 |
-| 2 x 2 x 9 = 36 |
-| 2 x ? x ? = 36 |
-| 3 x ? x ? = 36 |
+<table>
+<tr><th>Child 1</th><th/><th>Child 2</th><th/><th>Child 3</th><th/><th>Product</th></tr>
+<tr><td>1</td><td>x</td><td>1</td><td>x</td><td>36</td><td>=</td><td>36</td></tr>
+<tr><td>1</td><td>x</td><td>2</td><td>x</td><td>18</td><td>=</td><td>36</td></tr>
+<tr><td>1</td><td>x</td><td>3</td><td>x</td><td>12</td><td>=</td><td>36</td></tr>
+<tr><td>1</td><td>x</td><td>4</td><td>x</td><td>9</td><td>=</td><td>36</td></tr>
+<tr><td>1</td><td>x</td><td>6</td><td>x</td><td>6</td><td>=</td><td>36</td></tr>
+<tr><td>2</td><td>x</td><td>2</td><td>x</td><td>9</td><td>=</td><td>36</td></tr>
+<tr><td>2</td><td>x</td><td>?</td><td>x</td><td>?</td><td>=</td><td>36</td></tr>
+<tr><td>3</td><td>x</td><td>?</td><td>x</td><td>?</td><td>=</td><td>36</td></tr>
+</table>
 
 :::
 
 ::: hint 2
-The ages add up to the house number, but that is still not enough for the councillor to work out the ages. This must mean that at least a couple of the possible sets of ages add up to the same number, which explains why the councillor is still confused. Which pair of possibilities add up to the same number? 
+The ages add up to the house number, but that is still not enough for the councillor to work out the ages. This must mean that at least a couple of the possible sets of ages add up to the same number, which explains why the councillor is still confused. Which pair of possibilities add up to the same number?
+Again, take a look at the table below, copy it onto a piece of paper and fill in the gaps. 
 Once you have narrowed it down to a pair of possibilities, then take a look at final clue that the mother gave.
 
-| 1 + 1 + 36 = 38 |
-| 1 + 2 + 18 = 21 |
-| 1 + 3 + 12 = ? |
-| 1 + 4 + 9 = ? |
-| 1 + 6 + 6 = ? |
-| 2 + 2 + 9 = ? |
-| 2 + 3 + 6 = ? |
-| 3 + 3 + 4 = ? |
+<table>
+<tr><th>Child 1</th><th/><th>Child 2</th><th/><th>Child 3</th><th/><th>Product</th></tr>
+<tr><td>1</td><td>+</td><td>1</td><td>+</td><td>36</td><td>=</td><td>38</td></tr>
+<tr><td>1</td><td>+</td><td>2</td><td>+</td><td>18</td><td>=</td><td>21</td></tr>
+<tr><td>1</td><td>+</td><td>3</td><td>+</td><td>12</td><td>=</td><td>?</td></tr>
+<tr><td>1</td><td>+</td><td>4</td><td>+</td><td>9</td><td>=</td><td>?</td></tr>
+<tr><td>1</td><td>+</td><td>6</td><td>+</td><td>6</td><td>=</td><td>?</td></tr>
+<tr><td>2</td><td>+</td><td>2</td><td>+</td><td>9</td><td>=</td><td>?</td></tr>
+<tr><td>2</td><td>+</td><td>3</td><td>+</td><td>6</td><td>=</td><td>?</td></tr>
+<tr><td>3</td><td>+</td><td>3</td><td>+</td><td>4</td><td>=</td><td>?</td></tr>
+</table>
 
 :::
 
@@ -236,15 +254,16 @@ It’s obvious. Think about it.
 :::
 
 ::: hint 4
-You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9), which both add up to 13. Only one of these sets of ages has an oldest children (2, 2, 9),  has a pair of eldest children. So the answer is obvious.
+You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9), which both add up to 13.
+Only one of these sets of ages has an oldest child. So the answer is obvious.
 :::
 
 
-## 4. When not knowing maths can cost you $15,000
+## 4. When not knowing mathematics can cost you $15,000
 
-This clip from the TV quiz show Who Wants to be a Millionaire? shows just one reason why it’s a good idea to be a confident mathematician. 
+This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one reason why it’s a good idea to be a confident mathematician. 
 
-@[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I)
+@[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I?rel=0)
 
 
 ## 5. Junior Maths Challenge question
@@ -263,11 +282,12 @@ This clip from the TV quiz show Who Wants to be a Millionaire? shows just one re
   <div x-radio="p_5_1, e">(e) 67</div>
 </div>
 
-*(This question is taken from the Junior Maths Challenge 2017)*
 :::
 
 
-That’s all for this week. Don’t forget to come back at 7.01pm on Sunday to find out your score and to obtain the answer sheet. And don’t worry if you didn’t get it all right (or even half right), because this is not an exam and I am not trying to give you questions that you can do, but rather I am trying to give you question that might be able to do.
+That’s all for this week. Don’t forget to come back at 7.01pm on Sunday to find out your score and to obtain the answer sheet.
+And don’t worry if you didn’t get it all right (or even half right), because this is not an exam and I am not trying
+to give you questions that you can do, but rather I am trying to give you questions that you might not be able to do.
 
 Cheerio,
 
