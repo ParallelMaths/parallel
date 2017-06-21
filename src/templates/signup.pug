@@ -1,6 +1,6 @@
 form(v-on:submit="signup.submit" )
   div.error(v-show="signup.error") {{signup.error}}
-
+  input(type="hidden" name="redirect" value="/introduction")
   label
     | First Name
     input(type="text" required v-model="signup.first" autocomplete="given-name")

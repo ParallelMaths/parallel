@@ -57,6 +57,9 @@ function ready() {
           };
           fbDatabase.ref('users/' + user.uid).set(app.user);
         })
+        .then(function() {
+          window.location = signup.redirect;
+        })
         .catch(function(error) {
           switch(error.code) {
             case 'auth/email-already-in-use':
