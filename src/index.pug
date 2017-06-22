@@ -27,19 +27,20 @@ block content
         th #[a(href="/contact") Contact]
 
     h1 Parallelograms
-
-    p(style="line-height:1.0")
-      | #[strong Origin]: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.
-      br
-      | #[strong Pronunciation]: /ˌparəˈlɛləɡram/
-      ol(style="line-height:1.0; font-size:16px")
-        li a four-sided plane rectilinear figure with opposite sides parallel.
-        li a portmanteau word combining parallel and telegram. A message containing mischievous maths problems sent each week by the Parallel Project to bright young mathematicians.
+    table(style="border: 1px solid black; padding: 5px 8px 0px 5px; font-family: Times New Roman")
+      tr
+        td
+          p(style="line-height:1.0")
+            | #[strong Origin]: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.
+            br
+            | #[strong Pronunciation]: /ˌparəˈlɛləɡram/
+            ol(style="line-height:1.0; font-size:16px")
+              li a four-sided plane rectilinear figure with opposite sides parallel.
+              li a portmanteau word combining parallel and telegram. A message containing mischievous maths problems sent each week by the Parallel Project to bright young mathematicians.
 
     div(v-if="currentChallenge")
-      p Current Parallelogram closes on Sunday at 8pm.
+      p #[strong Current Parallelogram (#1) closes on Sunday at 8pm.]
     div(v-else)
-      p Next Parallelogram starts at 4pm on Friday.
+      p #[strong Next Parallelogram (#1) starts at 4pm on Friday.]
 
     p Each Parallelogram (your collection of maths challenges) is part of a series of four Parallelograms, one per week for four weeks, ending on 22 July.
-    p If you are waiting for the next Parallelogram, then you can go back and visit (or revisit) some of the earlier ones, listed on the vertical menu on the left.
