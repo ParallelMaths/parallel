@@ -32,6 +32,6 @@ My parents grew up in India in the 1930s and did not have a proper education (an
 Cheerio,  
 Dr Singh
 
-<form action="/1-maths-jokes" method="GET">
+<form action="/01-maryam-jokey-toppling-bloodhound.html" method="GET">
   <button type="submit">Start First Challenge</button>
 </form>

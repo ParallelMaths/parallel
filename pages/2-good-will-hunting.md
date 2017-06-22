@@ -207,7 +207,7 @@ Straightaway he knows their ages, says thank you and moves on to the next house
 <input type="number" data-id="s3-q1"/>  
 :::
 
-If you can work out the answers then go for it. If you are a bit stuck, then … keep trying. I promise
+If you can work out the answer then go for it. If you are a bit stuck, then … keep trying. I promise
 that you are smart enough to work out the correct ages of the children, and therefore the age of the
 oldest child. If you are still stuck after a few minutes of effort, then there are some hints below.
 There are 4 marks for this question, but you will lose 1 mark for each clue that you need.
@@ -216,7 +216,7 @@ There are 4 marks for this question, but you will lose 1 mark for each clue that
 Start by creating a list of all the possible ages for the three children, bearing in mind that we know that the ages multiply to give 36. If you are doing this on your own then try to do it in an order so that you can make sure that you have not missed out any possibilities. Luckily, I have given you a table (with some gaps) that show that there are 8 possibilities. Copy the table onto a piece of paper and fill in the gaps.
 Once you have identified all the possibilities, go back and look at clues 2 and 3 that the mathematical mum gave and see if you can work out the ages of the children, and therefore the age of the oldest child.
 If you are still stuck … then try harder … but you also try hint 2.
-<table>
+<table style="text-align:center">
 <tr><th>Child 1</th><th/><th>Child 2</th><th/><th>Child 3</th><th/><th>Product</th></tr>
 <tr><td>1</td><td>x</td><td>1</td><td>x</td><td>36</td><td>=</td><td>36</td></tr>
 <tr><td>1</td><td>x</td><td>2</td><td>x</td><td>18</td><td>=</td><td>36</td></tr>
@@ -235,7 +235,7 @@ The ages add up to the house number, but that is still not enough for the counci
 Again, take a look at the table below, copy it onto a piece of paper and fill in the gaps. 
 Once you have narrowed it down to a pair of possibilities, then take a look at final clue that the mother gave.
 
-<table>
+<table style="text-align:center">
 <tr><th>Child 1</th><th/><th>Child 2</th><th/><th>Child 3</th><th/><th>Product</th></tr>
 <tr><td>1</td><td>+</td><td>1</td><td>+</td><td>36</td><td>=</td><td>38</td></tr>
 <tr><td>1</td><td>+</td><td>2</td><td>+</td><td>18</td><td>=</td><td>21</td></tr>

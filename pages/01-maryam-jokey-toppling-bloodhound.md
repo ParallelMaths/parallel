@@ -86,8 +86,6 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
   The correct answer is (a).
 </div>
 
-<div class="marks">½ mark</div>
-
 :::
 
 
@@ -236,7 +234,7 @@ I watched this terrific video last week. Take a look and answer the question aft
 Each domino can knock over a domino that 1.5 times bigger, which does not seem big, but when this happens over and over again then the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
 In the meantime, here is an even more extraordinary example of domino toppling where the dominos get bigger and bigger. In fact, it was a world record at the time.
 
-@[youtube](https://www.youtube.com/watch?v=8yYWILv91YU&amp;t=2m56s?rel=0)
+@[youtube](8yYWILv91YU?rel=0&start=176)
 
 
 ## 5. Junior Maths Challenge question
@@ -292,5 +290,8 @@ You can read more about mathematician Maryam Mirzakhani in [this interview publi
 [This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
 
 ## Credits
+
+* Portrait of Carl Friedrich Gauss by Christian Albrecht Jensen, 1840 (public domain)
+* Image of Maryam Mirzakhani taken from [Alchetron](https://alchetron.com/Maryam-Mirzakhani-257976-W)
 
 The problems in this Parallelogram come from a variety of places and we will list them in the fourth and final Parallelogram.
