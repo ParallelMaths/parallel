@@ -39,6 +39,7 @@ function ready() {
       fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId).once('value')
         .then(answers => {
           let a = answers.toJSON();
+          if (!a) return app.status = status(false);
           for (let k of Object.keys(a)) Vue.set(app.answers, k, a[k]);
           app.status = status(a.submitted);
         });
