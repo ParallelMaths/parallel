@@ -29,10 +29,10 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
 
     code = code.replace(/x\-radio\=\"(\w+)\,\s*(\w+)\"/g, (_, key, value) =>
       `v-on:click="setAnswer('${key}', '${value}')" v-bind:class="{active: answers.${key} == '${value}'}"`);
-    code = code.replace(/x\-input\=\"(\w+)\"/g, (_, key) =>
-      `v-on:change="refresh" v-model.lazy="answers.${key}"`);
     code = code.replace(/x\-checkbox\=\"(\w+)\"/g, (_, key) =>
       `v-on:click="setAnswer('${key}', !answers.${key})" v-bind:class="{active: answers.${key}}"`);
+    code = code.replace(/x\-input\=\"(\w+)\,\s*(\w+)\"/g, (_, key, correct) =>
+      `v-on:change="refresh" v-model.lazy="answers.${key}" v-bind:class="{correct: answers.${key} == ${correct}}"`);
 
     let content = md.render(code);
     let challenge = +src[0].match(/\/([^/]*)\.\w+$/)[1].split('-')[0];  // Index of challenge

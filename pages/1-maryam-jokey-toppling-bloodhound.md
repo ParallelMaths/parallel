@@ -69,7 +69,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 </div>
 
 <div class="solution">
-  <img src="/images/challenges/1/mandelbrot.png" style="float: right; margin-left: 1rem"/>
+  <img src="/images/challenges/1/mandelbrot.png" class="img-right"/>
   <p>This was a tough one. Benoit B. Mandelbrot helped developed the mathematics of fractals, which are structures or shapes that appear similar when you zoom in or zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown on the right. The bit of the tree in the red box looks just like the whole tree… and you zoom in even further and see more and more micro-replicas of the whole tree.</p>
   <p><a href="https://www.youtube.com/watch?v=PD2XgQOyCCk" target="_blank">This video</a> shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again. So, returning to the joke, the B represents Benoit B Mandelbrot, because zooming into the name gives you the whole name again.</p>
 </div>
@@ -85,7 +85,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 </div>
 
 <div class="solution">
-  <img src="/images/challenges/1/mobius.jpg" style="float: right; margin-left: 1rem"/>
+  <img src="/images/challenges/1/mobius.jpg" class="img-right"/>
   <p>Another toughie – a Möbius strip is a strange mathematical shape which only has one side, so you can’t get to the other side. As shown here, it is just a loop with a single twist, but if you imagine running your finger along one side of the loop you will find that your finger covers every bit of the loop … so it only has one side. Möbius strips are fantastic, one of my favourite bits of geometry, and we’ll return to them in a future Parallelogram.</p>
 </div>
 :::
@@ -116,16 +116,13 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 </td></tr></table>
 
-<input type="number" placeholder="x" x-input="p_2_1"/>
-:::
+<input type="number" placeholder="x" x-input="p_2_1, 4"/>
 
 <div class="solution">
-  The correct answer is that x=4.<br/>
-  1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers,
-  which means they are between 10 and 99. The only cube numbers between 10 and 99 are 27 and 64.
-  So 1 across and 3 across must be 27 and 64, or 64 and 27. Meanwhile, 1 down must be 26 or 63. 
-  The cross-number only works if 1 down is 26, because 3 across can then be 64, which means x=4.</p>
+  <p>The correct answer is <em>x</em> = 4.</p>
+  <p>1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. The only cube numbers between 10 and 99 are 27 and 64. So 1 across and 3 across must be 27 and 64, or 64 and 27. Meanwhile, 1 down must be 26 or 63. The cross-number only works if 1 down is 26, because 3 across can then be 64, which means <em>x</em> = 4.</p>
 </div>
+:::
 
 ::: hint 1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
@@ -133,7 +130,8 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 ## 3. Maryam’s inspiration
 
-<img src="/images/challenges/1/maryam-mirzakhani.png" style="float: left; margin-right: 1rem"/>
+<img src="/images/challenges/1/maryam-mirzakhani.png" class="img-right"/>
+
 You might be surprised to know that there is no Nobel Prize for maths. However, there is an even bigger prize for mathematicians, which is called the Fields Medal. It is only given every 4 years, so it is very rare and precious.
 
 In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was born in Iran and now works in America, and you can find out about life and work in the short video below.
@@ -155,12 +153,11 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 </div>
 
 <div class="solution">
-  The correct answer is (c).<br/>
-  Maryam talks about a problem involving the path of a ball bouncing around a billiard table.
+  <p>Maryam talks about a problem involving the path of a ball bouncing around a billiard table.</p>
 </div>
 :::
 
-<img src="/images/challenges/1/gauss.png" style="float: right; margin-left: 1rem"/>
+<img src="/images/challenges/1/gauss.png" class="img-right"/>
 
 Maryam has said that she first became fired up about mathematics when her big brother told her a story about the great mathematician Carl Friedrich Gauss. When Gauss was a schoolboy, his teacher tried to keep the class busy by asking them to add up all the numbers from 1 to 100. I suspect that he wanted to nip out for a 15-minute nap.
  
@@ -198,7 +195,7 @@ Let’s see if you can apply Gauss’s trick.
 <input type="number" placeholder="???" v-model="answers.p_3_2"></input>
 
 <div class="solution">
-  The correct answer is 1,275.
+  <p>The correct answer is 1,275.</p>
 </div>
 
 <div class="marks">1 mark</div>
@@ -208,10 +205,8 @@ Let’s see if you can apply Gauss’s trick.
 <input type="number" placeholder="???" v-model="answers.p_3_3"></input>
 
 <div class="solution">
-  The correct answer is 500,500.
-  <br/>
-   If you got either of these questions wrong, then take a look at <a href="https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/" target="_blank">this website</a>,
-   which goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
+  <p>The correct answer is 500,500.</p>
+  <p>If you got either of these questions wrong, then take a look at <a href="https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/" target="_blank">this website</a>, which goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at.</p>
 </div>
 :::
 
@@ -228,14 +223,10 @@ I watched this terrific video last week. Take a look and answer the question aft
 **4.1 Starting with 5mm tall domino, how many dominoes would you need to knock down the Empire State Building?**
 
 <div class="choice radio">
-  <div x-radio="p_4_1, a">(a) 30</div>
+  <div x-radio="p_4_1, a" class="correct">(a) 30</div>
   <div x-radio="p_4_1, b">(b) 100</div>
   <div x-radio="p_4_1, c">(c) 30,000</div>
   <div x-radio="p_4_1, d">(d) 100,000,000</div>
-</div>
-
-<div class="solution">
-  The correct answer is 30.
 </div>
 :::
 
@@ -259,12 +250,11 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 </div>
 
 <div class="solution">
-  The correct answer is just (i).</br>
-  Statement (i) is true since 2x > x, if x > 0.</br> 
-  Statement (ii) is not true. For example, (½)<sup>2</sup> = ¼, which is not larger than ½.</br>  
-  Statement (iii) is also not true. For example, √¼ = ½, which is not smaller than ¼.
+  <p>The correct answer is just (i).</p>
+  <p>Statement (i) is true since 2x > x, if x > 0.<br/>
+  Statement (ii) is not true. For example, (½)<sup>2</sup> = ¼, which is not larger than ½.<br/>
+  Statement (iii) is also not true. For example, √¼ = ½, which is not smaller than ¼.</p>
 </div>
-
 :::
 
 
@@ -281,14 +271,13 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 **6.1 Professor Sugihara’s work could help:**
 
 <div class="choice">
-  <div x-radio="p_6_1, a">(a) Drivers</div>
+  <div x-radio="p_6_1, a" class="correct">(a) Drivers</div>
   <div x-radio="p_6_1, b">(b) Architects</div>
   <div x-radio="p_6_1, c">(c) Surgeons</div>
 </div>
 
 <div class="solution">
-  The correct answer is (a), because drivers can make errors if their brains are fooled by an optical illusion
-  caused by the geometry of the road.
+  <p>The correct answer is (a), because drivers can make errors if their brains are fooled by an optical illusion caused by the geometry of the road.</p>
 </div>
 :::
 

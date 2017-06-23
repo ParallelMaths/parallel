@@ -1,9 +1,5 @@
 # Parallelogram #2
 
-<div class="solution" style="font-weight:bold; text-align:center">
-  Your Score with Answers & Explanations
-</div>
- 
 Welcome to the second of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly. You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. This week’s Parallelogram challenge is in five parts. Be prepared to encounter all sorts of weird ideas.
 
 1. The Good Will Hunting Problem  
@@ -71,10 +67,9 @@ Now it’s time to see if you have understood the maths of trees.
 </div>
 
 <div class="solution">
-  The correct answers are (b) and (c).<br/>
-  The other trees do not qualify because (e) has dots that are connected to exactly two other lines, and both (a) and (d) have loops.
+  <p>The correct answers are (b) and (c).</p>
+  <p>The other trees do not qualify because (e) has dots that are connected to exactly two other lines, and both (a) and (d) have loops.</p>
 </div>
-
 :::
 
 Hopefully, you are now getting the idea, but before we get to the full Good Will Hunting problem, here are three warm ups.
@@ -95,13 +90,10 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 </div>
 
 <div class="solution">
-  The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.<br/>
-  Here are the two acceptable trees. Your two trees might look different, but if there are essentially the same,
-  then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines,
-  1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.<br/>
-  <img src="/images/challenges/2/graph-7-dot-solutions.png"/>
+  <p>The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.</p>
+  <p>Here are the two acceptable trees. Your two trees might look different, but if there are essentially the same, then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.</p>
+  <p class="text-center"><img src="/images/challenges/2/graph-7-dot-solutions.png"/></p>
 </div>
-
 :::
 
 ::: problem
@@ -118,10 +110,8 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 </div>
 
 <div class="solution">
-  The correct answer is (b) or (c).<br/>
-  Because both trees have 1 dot connected to 5 lines, 1 dot connected to 3 line and 6 dots connected to 1 line.
+  <p>The correct answer is (b) or (c). Because both trees have 1 dot connected to 5 lines, 1 dot connected to 3 line and 6 dots connected to 1 line.</p>
 </div>
-
 :::
 
 :::problem
@@ -139,8 +129,7 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 </div>
 
 <div class="solution">
-  The correct answer is (d) or (e), 
-  because both trees have 1 dot connected to 4 lines, 2 dots connected to 3 lines and 6 dots connected to 1 line.
+  <p>The correct answer is (d) or (e), because both trees have 1 dot connected to 4 lines, 2 dots connected to 3 lines and 6 dots connected to 1 line.</p>
 </div>
 
 :::
@@ -157,19 +146,20 @@ Take your time. Check you haven’t missed any trees. Check that you have not dr
 <input type="number" min="5" max="14" data-id="s1-q7"/>  
 
 <div class="solution">
-  The correct answer is 10 trees.<br/>
-  You would have scored 2 marks if you answered 9 or 11, and 1 mark if you answered 8 or 12.<br/>
-  Here are the 10 allowable trees:
-    <img src="/images/challenges/2/graph-10a.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10b.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10c.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10d.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10e.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10f.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10g.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10h.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10i.png" style="margin: 15px 15px"/>
-    <img src="/images/challenges/2/graph-10j.png" style="margin: 15px 15px"/>
+  <p>The correct answer is 10 trees. You would have scored 2 marks if you answered 9 or 11, and 1 mark if you answered 8 or 12.</p>
+  <p>Here are the 10 allowable trees:</p>
+  <p class="text-center">
+    <img src="/images/challenges/2/graph-10a.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10b.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10c.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10d.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10e.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10f.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10g.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10h.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10i.png" style="display: inline-block; margin: 10px;"/>
+    <img src="/images/challenges/2/graph-10j.png" style="display: inline-block; margin: 10px;"/>
+  </p>
 </div>
 
 :::
@@ -214,8 +204,7 @@ removed, and a still from the movie.
 </div>
 
 <div class="solution">
-  The correct answer is (b).<br/>
-  No reason that you should have known this, but you could have googled it.
+  <p>The correct answer is (b). No reason that you should have known this, but you could have googled it.</p>
 </div>
 :::
 
@@ -256,8 +245,7 @@ Straightaway he knows their ages, says thank you and moves on to the next house
 <input type="number" data-id="s3-q1"/>  
 
 <div class="solution">
-  The correct answer is 9.<br/>
-  To understand why the answer is 9, please check out the hints below.
+  <p>The correct answer is 9. To understand why the answer is 9, please check out the hints below.</p>
 </div>
 :::
 
@@ -281,7 +269,6 @@ If you are still stuck … then try harder … but you also try hint 2.
 <tr><td>2</td><td>x</td><td>?</td><td>x</td><td>?</td><td>=</td><td>36</td></tr>
 <tr><td>3</td><td>x</td><td>?</td><td>x</td><td>?</td><td>=</td><td>36</td></tr>
 </table>
-
 :::
 
 ::: hint 2
@@ -300,7 +287,6 @@ Once you have narrowed it down to a pair of possibilities, then take a look at f
 <tr><td>2</td><td>+</td><td>3</td><td>+</td><td>6</td><td>=</td><td>?</td></tr>
 <tr><td>3</td><td>+</td><td>3</td><td>+</td><td>4</td><td>=</td><td>?</td></tr>
 </table>
-
 :::
 
 ::: hint 3
@@ -337,14 +323,10 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one 
 </div>
 
 <div class="solution">
-  <img src="/images/challenges/2/angle-question-answer.png" width=240 style="float: right; margin-left: 1rem"/>
-  Let the angle shown be y°.<br/>
-  Because the angles at a point total 360°, we have y + 303 = 360.<br/>
-  Therefore y = 360 − 303 = 57.<br/>
-  Because the alternate angles formed by a line which cuts a pair of parallel lines are equal, x = y. <br/>
-  Hence x = 57.
+  <img src="/images/challenges/2/angle-question-answer.png" width=240 class="img-right"/>
+  <p>Let the angle shown be <em>y</em>°. Because the angles at a point total 360°, we have <em>y</em>&nbsp;+&nbsp;303&nbsp;=&nbsp;360. Therefore <em>y</em>&nbsp;=&nbsp;360&nbsp;−&nbsp;303&nbsp;=&nbsp;57.</p>
+  <p>Because the alternate angles formed by a line which cuts a pair of parallel lines are equal, <em>x</em>&nbsp;=&nbsp;<em>y</em>. Hence <em>x</em>&nbsp;=&nbsp;57.</p>
 </div>
-
 :::
 
 

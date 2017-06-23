@@ -11,6 +11,8 @@ function ready() {
 
   const submit = document.querySelector('#submit');
   const challengeId = submit ? submit.dataset.challenge : null;
+  const availableTime = submit ? Date.parse(submit.dataset.available) : null;
+  const deadlineTime = submit ? Date.parse(submit.dataset.deadline) : null;
 
   // This helps avoid FOUC while the user is loading...
   function show() {
@@ -19,7 +21,10 @@ function ready() {
   }
 
   function loadUser(user) {
-    if (!user) return show();
+    if (!user) {
+      app.status = status(false);
+      return show();
+    }
 
     fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
       app.user = u.toJSON();
@@ -48,8 +53,8 @@ function ready() {
     if (!submit) return null;
     let now = Date.now();
 
-    if (now < Date.parse(submit.dataset.available)) return 'locked';
-    if (now < Date.parse(submit.dataset.submit)) return submitted ? 'submitted' : 'open';
+    if (now < availableTime) return 'locked';
+    if (now < deadlineTime) return submitted ? 'submitted' : 'open';
     return submitted ? 'revealed' : 'past';
   }
 
@@ -69,15 +74,13 @@ function ready() {
             last: signup.last,
             birthYear: signup.birthYear,
             country: signup.country,
-            gender: signup.gender,
+            gender: signup.gender || '',
             school: signup.school
           };
           return fbDatabase.ref('users/' + user.uid).set(app.user);
         })
-        .then(function() {
-          window.location.replace('/introduction');
-        })
         .catch(function(error) {
+          console.error('Signup error:', error);
           switch(error.code) {
             case 'auth/email-already-in-use':
               return signup.error = 'There already exists an account with this email address. Please login!';
@@ -127,20 +130,20 @@ function ready() {
       answers: {submitted: false},
       feedback: {},
       status: null,
-      countdown: '<TODO>',
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       },
       submit() {
-        if (!fbAuth.currentUser) return;
+        if (!app.user) return warn('You have to login before submitting.');
         app.answers.submitted = true;
+        app.status = Date.now() < deadlineTime ? 'submitted' : 'revealed';
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
       },
       setAnswer(key, value) {
         if (app.answers.submitted) return;
         Vue.set(app.answers, key, value);
-        if (fbAuth.currentUser) {
+        if (app.user) {
           fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
             .set(app.answers);
         }
@@ -149,6 +152,12 @@ function ready() {
         if (app.answers.submitted || !fbAuth.currentUser) return;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
+      }
+    },
+    computed: {
+      countdown() {
+        if (app.status === 'locked') return countdown(availableTime);
+        if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
       }
     }
   });
@@ -163,3 +172,20 @@ function ready() {
 }
 
 document.addEventListener('DOMContentLoaded', ready);
+
+
+
+function countdown(to) {
+  let t = (+to - Date.now()) / 1000;
+
+  if (t < 120) return Math.floor(t) + ' seconds';
+  t /= 60;
+
+  if (t < 120) return Math.floor(t) + ' minutes';
+  t /= 60;
+
+  if (t < 48) return Math.floor(t) + ' hours';
+  t /= 24;
+
+  return Math.floor(t) + ' days';
+}

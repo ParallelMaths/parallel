@@ -16,16 +16,14 @@ To run the server locally, you need `npm`. Install all dependencies using `npm i
 
 ## TODO List
 
-- __Alert when submitting without answering all questions__
-- __After deadline, prevent submitting and show solutions__
-- __Evaluate score and show in table on homepage__
-- __Hide pages in navigation which are not yet ready__
-- Clean up non-challenge pages, homepage menu
-- Add countdown on homepage
-- Enable feedback form
+- __Evaluate score and show in table on My Scores page__
+- __Show status in navigation: locked/countdown/score__
+- __Clean up homepage, non-challenge pages and menu__
+- __Switch to Firebase hosting and Enable HTTPS__
+- __Firebase db and hosting rules, real time updating__
+- __Enable feedback form__
 - Fix password forgotten/reset form, contact page
 - Loading state for forms, CSS for invalid fields
-- Improve mobile display
+- Alert when submitting without answering everything
+- Improve mobile design
 - Faster page loading
-- HTTPS
-- Firebase db and hosting rules

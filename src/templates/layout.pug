@@ -37,24 +37,21 @@ html
           a(href="/" + p.url, style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
 
       .container(v-bind:class="status")
-
-        block content
-
         if challenge
           div(class="status" v-if="status == 'locked'") This parallelogram is locked and will open in {{countdown}}.
-          div(class="status" v-if="status == 'open'") You still have {{countdown}} to submit a solution..
-          div(class="status" v-if="status == 'submitted'") You've already submitted your answers. The solutions and your score will be shown in {{countdown}}.
-          div(class="status" v-if="status == 'revealed'") Your score is ???.
-          div(class="status" v-if="status == 'past'") This parallelogram is now closed. You can have a look at the questions, but no longer submit any solutions.
+          div(class="status" v-if="status == 'open'") You have {{countdown}} left to submit your answers.
+          div(class="status" v-if="status == 'submitted'") You've already submitted your answersand can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
+          div(class="status" v-if="status == 'revealed'") Your score is [TODO].#[br]Your answers and the correct solutions are shown below.
+          div(class="status" v-if="status == 'past'") This parallelogram is now closed. You can still have a look at the questions, and submit answers.
 
+        block content
         if content
           div!= content
 
         if challenge
-          #feedback: include feedback
-          #submit(v-show="!answers.submitted" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline)
-            button(v-on:click="submit") Submit Answers
-          p.completed(v-show="answers.submitted") Well done! your score and the correct answers will appear on our homepage at 7.01pm on Sunday.
+          #feedback(v-if="status == 'open' || status == 'past'"): include feedback
+          button#submit(v-on:click="submit" v-if="status == 'open' || status == 'past'" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline) Submit Answers
+          p.completed(v-if="status == 'submitted'") Well done! your score and the correct answers will appear in {{countdown}}.
 
     footer
       a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
