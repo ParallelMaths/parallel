@@ -317,7 +317,7 @@ Only one of these sets of ages has an oldest child. So the answer is obvious.
 
 This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one reason why it’s a good idea to be a confident mathematician. 
 
-@[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I?rel=0)
+@[youtube](BbX44YSsQ2I?rel=0)
 
 
 ## 5. Junior Maths Challenge question
@@ -337,7 +337,7 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one 
 </div>
 
 <div class="solution">
-  <img src="/images/challenges/2/angle-question-answer.png" style="float: left; margin-right: 1rem"/>
+  <img src="/images/challenges/2/angle-question-answer.png" width=240 style="float: right; margin-left: 1rem"/>
   Let the angle shown be y°.<br/>
   Because the angles at a point total 360°, we have y + 303 = 360.<br/>
   Therefore y = 360 − 303 = 57.<br/>

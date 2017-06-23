@@ -303,7 +303,7 @@ You can read more about mathematician Maryam Mirzakhani in [this interview publi
 
 ## Credits
 
-* Portrait of Carl Friedrich Gauss by Christian Albrecht Jensen, 1840 (public domain)
+* Portrait of Carl Gauss by Christian Albrecht Jensen, 1840 (public domain)
 * Image of Maryam Mirzakhani taken from [Alchetron](https://alchetron.com/Maryam-Mirzakhani-257976-W)
 
 The problems in this Parallelogram come from a variety of places and we will list them in the fourth and final Parallelogram.
