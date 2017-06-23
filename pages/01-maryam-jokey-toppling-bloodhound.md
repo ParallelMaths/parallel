@@ -36,12 +36,12 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 <div class="choice radio">
   <div x-radio="p_1_1, a">(a) Because 1, 2, 3</div>
-  <div x-radio="p_1_1, b">(b) Because 7, 8, 9</div>
+  <div x-radio="p_1_1, b" class="correct">(b) Because 7, 8, 9</div>
   <div x-radio="p_1_1, c">(c) Because 5 predates 6</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
-  The correct answer is (b).
+<div class="solution">
+  <p>The correct answer is (b), because it sounds like ”7 ate 9”.</p>
 </div>
 
 <div class="marks">½ mark</div>
@@ -51,11 +51,11 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 <div class="choice radio">
   <div x-radio="p_1_2, a">(a) Set 0, Set 1, Set 2, …, Set 9</div>
   <div x-radio="p_1_2, b">(b) α, β, γ, δ, ε, ζ, η, θ, ι, κ</div>
-  <div x-radio="p_1_2, c">(c) Those who understand binary, and those who don’t</div>
+  <div x-radio="p_1_2, c" class="correct">(c) Those who understand binary, and those who don’t</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
-  The correct answer is (c).
+<div class="solution">
+  <p>In binary 10 = 2, so 10 kinds of people could mean 2 kinds of people.</p>
 </div>
 
 <div class="marks">½ mark</div>
@@ -63,13 +63,15 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 **1.3 What does the “B” in Benoit B Mandelbrot stand for?**
 
 <div class="choice radio">
-  <div x-radio="p_1_3, a">(a) Benoit B Mandelbrot</div>
+  <div x-radio="p_1_3, a" class="correct">(a) Benoit B Mandelbrot</div>
   <div x-radio="p_1_3, b">(b) Binomial</div>
   <div x-radio="p_1_3, c">(c) Breviation</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
-  The correct answer is (a).
+<div class="solution">
+  <img src="/images/challenges/1/mandelbrot.png" style="float: right; margin-left: 1rem"/>
+  <p>This was a tough one. Benoit B. Mandelbrot helped developed the mathematics of fractals, which are structures or shapes that appear similar when you zoom in or zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown on the right. The bit of the tree in the red box looks just like the whole tree… and you zoom in even further and see more and more micro-replicas of the whole tree.</p>
+  <p><a href="https://www.youtube.com/watch?v=PD2XgQOyCCk" target="_blank">This video</a> shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again. So, returning to the joke, the B represents Benoit B Mandelbrot, because zooming into the name gives you the whole name again.</p>
 </div>
 
 <div class="marks">½ mark</div>
@@ -77,15 +79,15 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 **1.4 Why did the chicken cross the Möbius strip?**
 
 <div class="choice radio">
-  <div x-radio="p_1_4, a">(a) To get to the other… er…?</div>
+  <div x-radio="p_1_4, a" class="correct">(a) To get to the other… er…?</div>
   <div x-radio="p_1_4, b">(b) To reach a finite conclusion</div>
   <div x-radio="p_1_4, c">(c) To integrate itself into the tarmac</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
-  The correct answer is (a).
+<div class="solution">
+  <img src="/images/challenges/1/mobius.jpg" style="float: right; margin-left: 1rem"/>
+  <p>Another toughie – a Möbius strip is a strange mathematical shape which only has one side, so you can’t get to the other side. As shown here, it is just a loop with a single twist, but if you imagine running your finger along one side of the loop you will find that your finger covers every bit of the loop … so it only has one side. Möbius strips are fantastic, one of my favourite bits of geometry, and we’ll return to them in a future Parallelogram.</p>
 </div>
-
 :::
 
 
@@ -117,7 +119,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 <input type="number" placeholder="x" x-input="p_2_1"/>
 :::
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is:  
       27  
       64
@@ -150,7 +152,7 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
   <div x-radio="p_3_1, d">(d) Table tennis</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is (c).
 </div>
 :::
@@ -192,7 +194,7 @@ Let’s see if you can apply Gauss’s trick.
 
 <input type="number" placeholder="???" v-model="answers.p_3_2"></input>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is 1,275.
 </div>
 
@@ -202,7 +204,7 @@ Let’s see if you can apply Gauss’s trick.
 
 <input type="number" placeholder="???" v-model="answers.p_3_3"></input>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is 500,500.
 </div>
 :::
@@ -226,7 +228,7 @@ I watched this terrific video last week. Take a look and answer the question aft
   <div x-radio="p_4_1, d">(d) 100,000,000</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is 30.
 </div>
 :::
@@ -250,7 +252,7 @@ In the meantime, here is an even more extraordinary example of domino toppling w
   <div x-checkbox="p_5_1c">(iii) Taking the positive square root of a positive number always makes it smaller.</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is just (i).
 </div>
 
@@ -275,7 +277,7 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
   <div x-radio="p_6_1, c">(c) Surgeons</div>
 </div>
 
-<div v-if="showAnswers" style="color:#FF0000" strong>
+<div class="solution">
   The correct answer is (a).
 </div>
 :::

@@ -9,6 +9,9 @@ function ready() {
 
   fbAuth.onAuthStateChanged(loadUser);
 
+  const submit = document.querySelector('#submit');
+  const challengeId = submit ? submit.dataset.challenge : null;
+
   // This helps avoid FOUC while the user is loading...
   function show() {
     document.querySelector('#body').style.display = 'block';
@@ -32,8 +35,22 @@ function ready() {
         .then(answers => {
           let a = answers.toJSON();
           for (let k of Object.keys(a)) Vue.set(app.answers, k, a[k]);
+          app.status = status(a.submitted);
         });
     }
+  }
+
+  function status(submitted) {
+    let q = decodeURI(location.search.substring(1));
+    let query = q?JSON.parse('{"' + q.replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}'):{};
+    if ('status' in query) return query.status;
+
+    if (!submit) return null;
+    let now = Date.now();
+
+    if (now < Date.parse(submit.dataset.available)) return 'locked';
+    if (now < Date.parse(submit.dataset.submit)) return submitted ? 'submitted' : 'open';
+    return submitted ? 'revealed' : 'past';
   }
 
   const signup = {
@@ -55,10 +72,10 @@ function ready() {
             gender: signup.gender,
             school: signup.school
           };
-          fbDatabase.ref('users/' + user.uid).set(app.user);
+          return fbDatabase.ref('users/' + user.uid).set(app.user);
         })
         .then(function() {
-          window.location = signup.redirect;
+          window.location.replace('/introduction');
         })
         .catch(function(error) {
           switch(error.code) {
@@ -101,20 +118,16 @@ function ready() {
     }
   };
 
-  const submit = document.querySelector('#submit');
-  const challengeId = submit ? submit.dataset.challenge : null;
-
   const app = window.app = new Vue({
     el: '#body',
     data: {
       user: null,
-      toggleAnswers: false,
       signup,
       login,
       answers: {submitted: false},
-      showAnswers: false,
       feedback: {},
-      currentChallenge: null,
+      status: null,
+      countdown: '<TODO>',
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
       },
@@ -150,29 +163,3 @@ function ready() {
 }
 
 document.addEventListener('DOMContentLoaded', ready);
-
-
-function countdown(deadline) {
-  var _second = 1000;
-  var _minute = _second * 60;
-  var _hour = _minute * 60;
-  var _day = _hour * 24;
-  var end = new Date(deadline);
-  var now = new Date();
-  var distance = end - now;
-
-  var string;
-  if (distance < 0) {
-    string = "any time now";
-  } else {
-    var days = Math.floor(distance / _day);
-    var hours = Math.floor((distance % _day) / _hour);
-    var minutes = Math.floor((distance % _hour) / _minute);
-    var seconds = Math.floor((distance % _minute) / _second);
-    var string = days + ' days ';
-    string += hours + ' hrs ';
-    string += minutes + ' mins ';
-    string += seconds + ' secs';
-  }
-  return string;
-}

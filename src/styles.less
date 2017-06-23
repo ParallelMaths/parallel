@@ -134,6 +134,19 @@ table td { padding: .2rem .4rem; }
   &:after { content: ']'; }
 }
 
+.status {
+  text-align: center;
+  background: #eee;
+  margin: -2rem -2.5rem 2rem;
+  padding: .5rem;
+  font-style: italic;
+}
+
+.solution {
+  display: none;
+  .revealed & { display: block; }
+}
+
 
 // -----------------------------------------------------------------------------
 // Form Styles
@@ -213,7 +226,7 @@ form .error {
 // Answer Forms
 
 .problem {
-  background: #a8c8f5;
+  background: #bad5f5;
   margin: 2rem -2.5rem 2rem;
   padding: 1rem 2.5rem 1px;
 
@@ -258,8 +271,22 @@ form .error {
     margin-bottom: 2rem;
   }
 
-  .submitted & {
+  .submitted &, .locked &, .revealed & {
     input, select, .choice > * { pointer-events: none; }
+  }
+
+  .revealed & .choice .correct.active {
+    background: fade(#30dc36, 50%);
+    &:before { background: #30dc36; }
+  }
+
+  .revealed & .choice .active:not(.correct) {
+    background: fade(#c60d10, 50%);
+    &:before { background: #c60d10; }
+  }
+
+  .revealed & .choice .correct:not(.active) {
+    &:before { background: #30dc36; border: 4px solid white; }
   }
 
   .c2, .c3, .c5 {
@@ -271,6 +298,14 @@ form .error {
   .c2 > * { min-width: 340px; }
   .c3 > * { min-width: 220px; }
   .c5 > * { min-width: 125px; }
+}
+
+.solution {
+  background: #92acf5;
+  margin: -1rem -2.5rem 3rem;
+  padding: .5rem 2.5rem 1px;
+  p { font-size: .9rem; margin-bottom: .5rem; }
+  &:last-child { margin-bottom: -1px; }
 }
 
 
