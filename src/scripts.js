@@ -135,7 +135,7 @@ function ready() {
         fbAuth.signOut().then(() => { app.user = null; })
       },
       submit() {
-        if (!app.user) return warn('You have to login before submitting.');
+        if (!app.user) return alert('You have to login before submitting.');
         app.answers.submitted = true;
         app.status = Date.now() < deadlineTime ? 'submitted' : 'revealed';
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
