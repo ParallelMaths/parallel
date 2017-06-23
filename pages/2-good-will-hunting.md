@@ -1,4 +1,8 @@
 # Parallelogram #2
+
+<div class="solution" style="font-weight:bold; text-align:center">
+  Your Score with Answers & Explanations
+</div>
  
 Welcome to the second of four weekly Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly. You can start and stop whenever you like, but you will need to complete all the challenges by 7pm on Sunday. Then, return to the site one minute later at 7.01pm and you will find your score and a sheet with answers and explanations. This week’s Parallelogram challenge is in five parts. Be prepared to encounter all sorts of weird ideas.
 
@@ -60,11 +64,17 @@ Now it’s time to see if you have understood the maths of trees.
 
 <div class="choice checkbox c3">
   <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-4a.png"/></div>
-  <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-4b.png"/></div>
-  <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-4c.png"/></div>
+  <div x-checkbox="p_1_1b" class="correct"><img src="/images/challenges/2/graph-4b.png"/></div>
+  <div x-checkbox="p_1_1c" class="correct"><img src="/images/challenges/2/graph-4c.png"/></div>
   <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-4d.png"/></div>
   <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-4e.png"/></div>
 </div>
+
+<div class="solution">
+  The correct answers are (b) and (c).<br/>
+  The other trees do not qualify because (e) has dots that are connected to exactly two other lines, and both (a) and (d) have loops.
+</div>
+
 :::
 
 Hopefully, you are now getting the idea, but before we get to the full Good Will Hunting problem, here are three warm ups.
@@ -78,10 +88,18 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 
 <div class="choice radio c5">
   <div x-radio="p_1_2, a">1</div>
-  <div x-radio="p_1_2, b">2</div>
+  <div x-radio="p_1_2, b" class="correct">2</div>
   <div x-radio="p_1_2, c">3</div>
   <div x-radio="p_1_2, d">4</div>
   <div x-radio="p_1_2, e">5</div>
+</div>
+
+<div class="solution">
+  The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.<br/>
+  Here are the two acceptable trees. Your two trees might look different, but if there are essentially the same,
+  then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines,
+  1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.<br/>
+  <img src="/images/challenges/2/graph-7-dot-solutions.png"/>
 </div>
 
 :::
@@ -93,10 +111,15 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 
 <div class="choice checkbox c3">
   <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-5a.png"/></div>
-  <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-5b.png"/></div>
-  <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-5c.png"/></div>
+  <div x-checkbox="p_1_1b" class="correct"><img src="/images/challenges/2/graph-5b.png"/></div>
+  <div x-checkbox="p_1_1c" class="correct"><img src="/images/challenges/2/graph-5c.png"/></div>
   <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-5d.png"/></div>
   <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-5e.png"/></div>
+</div>
+
+<div class="solution">
+  The correct answer is (b) or (c).<br/>
+  Because both trees have 1 dot connected to 5 lines, 1 dot connected to 3 line and 6 dots connected to 1 line.
 </div>
 
 :::
@@ -110,11 +133,15 @@ You will need to get a piece of paper and start drawing some trees. The key thin
   <div x-checkbox="p_1_4a"><img src="/images/challenges/2/graph-9a.png"/></div>
   <div x-checkbox="p_1_4b"><img src="/images/challenges/2/graph-9b.png"/></div>
   <div x-checkbox="p_1_4c"><img src="/images/challenges/2/graph-9c.png"/></div>
-  <div x-checkbox="p_1_4d"><img src="/images/challenges/2/graph-9d.png"/></div>
-  <div x-checkbox="p_1_4e"><img src="/images/challenges/2/graph-9e.png"/></div>
+  <div x-checkbox="p_1_4d" class="correct"><img src="/images/challenges/2/graph-9d.png"/></div>
+  <div x-checkbox="p_1_4e" class="correct"><img src="/images/challenges/2/graph-9e.png"/></div>
   <div x-checkbox="p_1_4f"><img src="/images/challenges/2/graph-9f.png"/></div>
 </div>
 
+<div class="solution">
+  The correct answer is (d) or (e), 
+  because both trees have 1 dot connected to 4 lines, 2 dots connected to 3 lines and 6 dots connected to 1 line.
+</div>
 
 :::
 
@@ -128,6 +155,23 @@ Now you are ready for the full Will Hunting problem.
 Take your time. Check you haven’t missed any trees. Check that you have not drawn the same tree twice. The correct answer is between 5 and 14.
 
 <input type="number" min="5" max="14" data-id="s1-q7"/>  
+
+<div class="solution">
+  The correct answer is 10 trees.<br/>
+  You would have scored 2 marks if you answered 9 or 11, and 1 mark if you answered 8 or 12.<br/>
+  Here are the 10 allowable trees:
+    <img src="/images/challenges/2/graph-10a.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10b.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10c.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10d.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10e.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10f.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10g.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10h.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10i.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10j.png" style="margin: 15px 15px"/>
+</div>
+
 :::
 
 The Good Will Hunting problem is not incredibly difficult, despite what the
@@ -168,6 +212,11 @@ removed, and a still from the movie.
   <div x-radio="p_2_1, d">(d) Invisible Chalk</div>
   <div x-radio="p_2_1, e">(e) The Forgotten Mathematicians</div>
 </div>
+
+<div class="solution">
+  The correct answer is (b).<br/>
+  No reason that you should have known this, but you could have googled it.
+</div>
 :::
 
 
@@ -205,6 +254,11 @@ Straightaway he knows their ages, says thank you and moves on to the next house
 **3.1.** How old is the oldest child?  
 
 <input type="number" data-id="s3-q1"/>  
+
+<div class="solution">
+  The correct answer is 9.<br/>
+  To understand why the answer is 9, please check out the hints below.
+</div>
 :::
 
 If you can work out the answer then go for it. If you are a bit stuck, then … keep trying. I promise
@@ -263,7 +317,7 @@ Only one of these sets of ages has an oldest child. So the answer is obvious.
 
 This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one reason why it’s a good idea to be a confident mathematician. 
 
-@[youtube](https://www.youtube.com/watch?v=BbX44YSsQ2I?rel=0)
+@[youtube](BbX44YSsQ2I?rel=0)
 
 
 ## 5. Junior Maths Challenge question
@@ -280,6 +334,15 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one 
   <div x-radio="p_5_1, c">(c) 53</div>
   <div x-radio="p_5_1, d">(d) 57</div>
   <div x-radio="p_5_1, e">(e) 67</div>
+</div>
+
+<div class="solution">
+  <img src="/images/challenges/2/angle-question-answer.png" width=240 style="float: right; margin-left: 1rem"/>
+  Let the angle shown be y°.<br/>
+  Because the angles at a point total 360°, we have y + 303 = 360.<br/>
+  Therefore y = 360 − 303 = 57.<br/>
+  Because the alternate angles formed by a line which cuts a pair of parallel lines are equal, x = y. <br/>
+  Hence x = 57.
 </div>
 
 :::
