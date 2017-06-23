@@ -120,9 +120,11 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 :::
 
 <div class="solution">
-  The correct answer is:  
-      27  
-      64
+  The correct answer is that x=4.<br/>
+  1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers,
+  which means they are between 10 and 99. The only cube numbers between 10 and 99 are 27 and 64.
+  So 1 across and 3 across must be 27 and 64, or 64 and 27. Meanwhile, 1 down must be 26 or 63. 
+  The cross-number only works if 1 down is 26, because 3 across can then be 64, which means x=4.</p>
 </div>
 
 ::: hint 1
@@ -148,12 +150,13 @@ Not surprisingly, Maryam talks about some incredibly complex maths, so don’t w
 <div class="choice radio">
   <div x-radio="p_3_1, a">(a) Chess</div>
   <div x-radio="p_3_1, b">(b) Darts</div>
-  <div x-radio="p_3_1, c">(c) Billiards</div>
+  <div x-radio="p_3_1, c" class="correct">(c) Billiards</div>
   <div x-radio="p_3_1, d">(d) Table tennis</div>
 </div>
 
 <div class="solution">
-  The correct answer is (c).
+  The correct answer is (c).<br/>
+  Maryam talks about a problem involving the path of a ball bouncing around a billiard table.
 </div>
 :::
 
@@ -206,6 +209,9 @@ Let’s see if you can apply Gauss’s trick.
 
 <div class="solution">
   The correct answer is 500,500.
+  <br/>
+   If you got either of these questions wrong, then take a look at <a href="https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/" target="_blank">this website</a>,
+   which goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
 </div>
 :::
 
@@ -247,13 +253,16 @@ In the meantime, here is an even more extraordinary example of domino toppling w
 **5.1 Which of these three statements are true?**
 
 <div class="choice checkbox">
-  <div x-checkbox="p_5_1a">(i) Doubling a positive number always makes it larger.</div>
+  <div x-checkbox="p_5_1a" class="correct">(i) Doubling a positive number always makes it larger.</div>
   <div x-checkbox="p_5_1b">(ii) Squaring a positive number always makes it larger.</div>
   <div x-checkbox="p_5_1c">(iii) Taking the positive square root of a positive number always makes it smaller.</div>
 </div>
 
 <div class="solution">
-  The correct answer is just (i).
+  The correct answer is just (i).</br>
+  Statement (i) is true since 2x > x, if x > 0.</br> 
+  Statement (ii) is not true. For example, (½)<sup>2</sup> = ¼, which is not larger than ½.</br>  
+  Statement (iii) is also not true. For example, √¼ = ½, which is not smaller than ¼.
 </div>
 
 :::
@@ -278,7 +287,8 @@ Sometimes the geometry that you study at school might seem ordinary – what cou
 </div>
 
 <div class="solution">
-  The correct answer is (a).
+  The correct answer is (a), because drivers can make errors if their brains are fooled by an optical illusion
+  caused by the geometry of the road.
 </div>
 :::
 
