@@ -64,15 +64,15 @@ Now it’s time to see if you have understood the maths of trees.
 
 <div class="choice checkbox c3">
   <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-4a.png"/></div>
-  <div x-checkbox="p_1_1b"><img src="/images/challenges/2/graph-4b.png" class="correct"/></div>
-  <div x-checkbox="p_1_1c"><img src="/images/challenges/2/graph-4c.png" class="correct"/></div>
+  <div x-checkbox="p_1_1b" class="correct"><img src="/images/challenges/2/graph-4b.png"/></div>
+  <div x-checkbox="p_1_1c" class="correct"><img src="/images/challenges/2/graph-4c.png"/></div>
   <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-4d.png"/></div>
   <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-4e.png"/></div>
 </div>
 
 <div class="solution">
-  Correct answers is (b) and (c).<br/>
-  The other trees do not qualify because (a) has dots that are connected to exactly two other lines, and both (d) and (e) have loops.
+  The correct answers are (b) and (c).<br/>
+  The other trees do not qualify because (e) has dots that are connected to exactly two other lines, and both (a) and (d) have loops.
 </div>
 
 :::
@@ -95,11 +95,11 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 </div>
 
 <div class="solution">
-  The correct answer is 2.</br>
-  Because any other diagrams either have loops or dots connected to exactly two other lines.
+  The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.<br/>
   Here are the two acceptable trees. Your two trees might look different, but if there are essentially the same,
   then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines,
-  1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line. 
+  1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.<br/>
+  <img src="/images/challenges/2/graph-7-dot-solutions.png"/>
 </div>
 
 :::
@@ -159,7 +159,17 @@ Take your time. Check you haven’t missed any trees. Check that you have not dr
 <div class="solution">
   The correct answer is 10 trees.<br/>
   You would have scored 2 marks if you answered 9 or 11, and 1 mark if you answered 8 or 12.<br/>
-  Here are the 10 allowable trees.
+  Here are the 10 allowable trees:
+    <img src="/images/challenges/2/graph-10a.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10b.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10c.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10d.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10e.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10f.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10g.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10h.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10i.png" style="margin: 15px 15px"/>
+    <img src="/images/challenges/2/graph-10j.png" style="margin: 15px 15px"/>
 </div>
 
 :::
@@ -327,6 +337,7 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one 
 </div>
 
 <div class="solution">
+  <img src="/images/challenges/2/angle-question-answer.png" style="float: left; margin-right: 1rem"/>
   Let the angle shown be y°.<br/>
   Because the angles at a point total 360°, we have y + 303 = 360.<br/>
   Therefore y = 360 − 303 = 57.<br/>
