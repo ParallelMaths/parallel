@@ -70,7 +70,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 <div class="solution">
   <img src="/images/challenges/1/mandelbrot.png" class="img-right"/>
-  <p>This was a tough one. Benoit B. Mandelbrot helped developed the mathematics of fractals, which are structures or shapes that appear similar when you zoom in or zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown on the right. The bit of the tree in the red box looks just like the whole tree… and you zoom in even further and see more and more micro-replicas of the whole tree.</p>
+  <p>This was a tough one. Benoit B Mandelbrot helped developed the mathematics of fractals, which are structures or shapes that appear similar when you zoom in or zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown on the right. The bit of the tree in the red box looks just like the whole tree… and you zoom in even further and see more and more micro-replicas of the whole tree.</p>
   <p><a href="https://www.youtube.com/watch?v=PD2XgQOyCCk" target="_blank">This video</a> shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again. So, returning to the joke, the B represents Benoit B Mandelbrot, because zooming into the name gives you the whole name again.</p>
 </div>
 

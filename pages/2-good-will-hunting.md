@@ -91,7 +91,7 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 
 <div class="solution">
   <p>The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.</p>
-  <p>Here are the two acceptable trees. Your two trees might look different, but if there are essentially the same, then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.</p>
+  <p>Here are the two acceptable trees. Your two trees might look different, but if they are essentially the same, then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.</p>
   <p class="text-center"><img src="/images/challenges/2/graph-7-dot-solutions.png"/></p>
 </div>
 :::
@@ -197,7 +197,7 @@ removed, and a still from the movie.
 
 <div class="choice radio">
   <div x-radio="p_2_1, a">(a) Apollo’s Angels</div>
-  <div x-radio="p_2_1, b">(b) Hidden Figures</div>
+  <div x-radio="p_2_1, b" class="correct">(b) Hidden Figures</div>
   <div x-radio="p_2_1, c">(c) Rocket Women</div>
   <div x-radio="p_2_1, d">(d) Invisible Chalk</div>
   <div x-radio="p_2_1, e">(e) The Forgotten Mathematicians</div>
@@ -318,12 +318,13 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one 
   <div x-radio="p_5_1, a">(a) 43</div>
   <div x-radio="p_5_1, b">(b) 47</div>
   <div x-radio="p_5_1, c">(c) 53</div>
-  <div x-radio="p_5_1, d">(d) 57</div>
+  <div x-radio="p_5_1, d" class="correct">(d) 57</div>
   <div x-radio="p_5_1, e">(e) 67</div>
 </div>
 
 <div class="solution">
   <img src="/images/challenges/2/angle-question-answer.png" width=240 class="img-right"/>
+  <p>The correct answer is (d).</p>
   <p>Let the angle shown be <em>y</em>°. Because the angles at a point total 360°, we have <em>y</em>&nbsp;+&nbsp;303&nbsp;=&nbsp;360. Therefore <em>y</em>&nbsp;=&nbsp;360&nbsp;−&nbsp;303&nbsp;=&nbsp;57.</p>
   <p>Because the alternate angles formed by a line which cuts a pair of parallel lines are equal, <em>x</em>&nbsp;=&nbsp;<em>y</em>. Hence <em>x</em>&nbsp;=&nbsp;57.</p>
 </div>
