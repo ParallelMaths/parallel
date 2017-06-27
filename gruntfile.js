@@ -148,34 +148,10 @@ grunt.initConfig({
     }
   },
 
-  connect: {
-    app: {
-      options: {
-        port: 8086,
-        base: 'build',
-        keepalive: true
-      }
-    }
-  },
-
   concurrent: {
     app: {
-      options: {limit: 5, logConcurrentOutput: true},
-      tasks: ['watch:markdown', 'watch:less', 'watch:js', 'watch:static', 'connect']
-    }
-  },
-
-  buildcontrol: {
-    app: {
-      options: {
-        dir: 'build',
-        branch: 'gh-pages',
-        commit: true,
-        push: true,
-        force: true,
-        message: 'Built %sourceName% from %sourceCommit% on %sourceBranch%',
-        remote: 'git@github.com:mathigon/parallel.git'
-      }
+      options: {limit: 4, logConcurrentOutput: true},
+      tasks: ['watch:markdown', 'watch:less', 'watch:js', 'watch:static']
     }
   }
 });

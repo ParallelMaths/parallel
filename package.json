@@ -13,8 +13,9 @@
     "url": "https://github.com/mathigon/parallel.git"
   },
   "scripts": {
-    "start": "grunt && grunt concurrent",
-    "deploy": "grunt && grunt minify && grunt buildcontrol"
+    "start": "grunt && npm run serve",
+    "serve": "grunt concurrent & firebase serve",
+    "deploy": "grunt && grunt minify && firebase deploy"
   },
   "devDependencies": {
     "babel-core": "~6.3.26",
@@ -22,10 +23,8 @@
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "~3.0.3",
     "grunt-babel": "^6.0.0",
-    "grunt-build-control": "^0.6.3",
     "grunt-concurrent": "~2.1.0",
     "grunt-contrib-clean": "~0.7.0",
-    "grunt-contrib-connect": "~0.3.0",
     "grunt-contrib-copy": "~0.8.2",
     "grunt-contrib-cssmin": "~0.14.0",
     "grunt-contrib-less": "~1.1.0",
@@ -41,5 +40,9 @@
     "matchdep": "~1.0.0",
     "pug": "^2.0.0-rc.1",
     "yamljs": "^0.2.10"
+  },
+  "dependencies": {
+    "firebase": "^4.1.3",
+    "firebase-tools": "^3.9.1"
   }
 }
