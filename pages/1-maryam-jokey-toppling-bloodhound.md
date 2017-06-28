@@ -116,7 +116,7 @@ So, how good is your mathematical sense of humour? And how much maths do you kno
 
 </td></tr></table>
 
-<input type="number" placeholder="x" x-input="p_2_1, 4"/>
+<input type="number" placeholder="x =" x-input="p_2_1, 4"/>
 
 <div class="solution">
   <p>The correct answer is <em>x</em> = 4.</p>

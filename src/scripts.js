@@ -21,6 +21,9 @@ function ready() {
   }
 
   function loadUser(user) {
+    // Don't refresh if users are in the process of signing up.
+    if (signup.loading) return;
+
     if (!user) {
       app.status = status(false);
       return show();
@@ -29,7 +32,7 @@ function ready() {
     fbDatabase.ref('users/' + user.uid).once('value').then(function(u) {
       app.user = u.toJSON();
       show();
-      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      // document.body.scrollTop = document.documentElement.scrollTop = 0;
     }).catch(function(e) {
       // TODO handle error
       console.log(e);
@@ -61,26 +64,27 @@ function ready() {
 
   const signup = {
     error: null,
+    loading: false,
     school: null,
     country: 'United Kingdom',
     birthYear: 2000,
     submit(e) {
       e.preventDefault();
+      signup.loading = true;
       signup.error = null;
-      // TODO form validation
+
       fbAuth.createUserWithEmailAndPassword(signup.email, signup.password)
-        .then(function(user) {
-          app.user = {
-            first: signup.first,
-            last: signup.last,
-            birthYear: signup.birthYear,
-            country: signup.country,
-            gender: signup.gender || '',
-            school: signup.school
-          };
-          return fbDatabase.ref('users/' + user.uid).set(app.user);
-        })
+        .then(user =>  fbDatabase.ref('users/' + user.uid).set({
+          first: signup.first,
+          last: signup.last,
+          birthYear: signup.birthYear,
+          country: signup.country,
+          gender: signup.gender || '',
+          school: signup.school
+        }))
+        .then(() => { location.replace('/introduction'); })
         .catch(function(error) {
+          signup.loading = false;
           console.error('Signup error:', error);
           switch(error.code) {
             case 'auth/email-already-in-use':
@@ -153,6 +157,14 @@ function ready() {
         if (app.answers.submitted || !fbAuth.currentUser) return;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
+      },
+      timeUntil(t) { return countdown(Date.parse(t)); },
+      isAfter(t) { return Date.now() > +Date.parse(t); },
+      showHint(e) {
+        // TODO Save hint state to db
+        const el = e.currentTarget;
+        el.classList.add('open');
+        el.style.height = el.children[0].offsetHeight + 'px';
       }
     },
     computed: {
@@ -161,14 +173,6 @@ function ready() {
         if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
       }
     }
-  });
-
-  // TODO Save hint state to db
-
-  Array.from(window.document.querySelectorAll('.hint')).forEach(hint => {
-    hint.addEventListener('click', function() {
-      hint.style.height = hint.children[0].offsetHeight + 'px';
-    });
   });
 }
 

@@ -1,14 +1,16 @@
 - url: 1-maryam-jokey-toppling-bloodhound
   title: "Challenge 1: Maths Jokes"
-  available: 2017-06-30T10:00:00
-  deadline: 2017-07-02T19:00:00
+  available: 2017-06-28T07:00:00
+  deadline: 2017-07-02T18:00:00
 - url: 2-good-will-hunting
   title: "Challenge 2: Good Will Hunting"
-  available: 2017-07-07T10:00:00
-  deadline: 2017-07-09T19:00:00
+  available: 2017-07-07T09:00:00
+  deadline: 2017-07-09T18:00:00
 - url: 3-summaze
   title: "Challenge 3: Summaze"
-  available: 2017-06-01
+  available: 2017-07-14T09:00:00
+  deadline: 2017-07-16T18:00:00
 - url: 4-graphs-and-networks
   title: "Challenge 4: Graphs and Networks"
-  available: 2017-06-08
+  available: 2017-07-21T09:00:00
+  deadline: 2017-07-23T18:00:00

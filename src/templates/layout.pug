@@ -12,7 +12,7 @@ html
     link(rel="manifest" href="/manifest.json")
 
     link(href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet")
-    link(href="/styles.css?v4", rel="stylesheet")
+    link(href="/styles.css?v5", rel="stylesheet")
 
   body
 
@@ -35,7 +35,11 @@ html
       nav(v-if="user")
         a(href="/", style="background-image: url('/nav/0.png')", title="Home")
         for p, i in pages
-          a(href="/" + p.url, style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
+          a(href="/" + p.url, v-if="isAfter('" + p.available + "')", style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
+            .tooltip(v-if="isAfter('" + p.deadline + "')") This parallelogram has closed.
+            .tooltip(v-if="!isAfter('" + p.deadline + "')") You've got {{ timeUntil('#{p.deadline}') }} to submit your solutions.
+          div(v-if="!isAfter('" + p.available + "')" style="background-image: url('/nav/" + (i + 1) + ".png')")
+            .tooltip This parallelogram will open in {{ timeUntil('#{p.available}') }}.
 
       .container(v-bind:class="status")
         if challenge
@@ -51,6 +55,7 @@ html
 
         if challenge
           #feedback(v-if="status == 'open' || status == 'past'"): include feedback
+          p(style="font-weight: bold; text-align: center; margin-top: 2rem;") Only hit the submit button if you have finished the whole#[br]Parallelogram and checked your answers.
           button#submit(v-on:click="submit" v-if="status == 'open' || status == 'past'" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline) Submit Answers
           p.completed(v-if="status == 'submitted'") Well done! your score and the correct answers will appear in {{countdown}}.
 
@@ -74,7 +79,7 @@ html
 
     //- script(defer src="https://unpkg.com/vue")
     script(defer src="https://unpkg.com/vue@2.3.4/dist/vue.min.js")
-    script(defer src="/scripts.js?v4")
+    script(defer src="/scripts.js?v5")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

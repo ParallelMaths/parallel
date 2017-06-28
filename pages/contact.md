@@ -2,9 +2,18 @@
 
 If you have a question about the Parallel Project, or you have a fault to report, then please email us via this form. Of course, please do not contact us for answers or hints. Hints are available within the Parallelogram and the answers will be available at 7pm on Sunday.
 
-<form>
-<label>First Name<input type="text" required/></label>
-<label>Second Name<input type="text" required/></label>
-<label>School<input type="text" required/></label>
-<button type="submit">Retrieve Password</button>
+<form action="https://submit.jotformeu.com/submit/71783154084358/" method="post" name="form_71783154084358">
+  <input type="hidden" name="formID" value="71783154084358">
+  <input type="hidden" name="simple_spc" value="71783154084358-71783154084358">
+  <input type="hidden" name="event_id" value="1498649328254_71783154084358_tmhPaIC">
+  <label>Name
+    <input type="text" name="q3_name" size="30" required autocomplete="name"/>
+  </label>
+  <label>Email
+    <input type="email" name="q4_email" size="30" required autocomplete="email"/>
+  </label>
+  <label>Message
+    <textarea name="q5_message" cols="40" rows="3" required></textarea>
+  </label>
+  <button type="submit">Send</button>
 </form>

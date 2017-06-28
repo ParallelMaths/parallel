@@ -18,7 +18,7 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   md.use(require('markdown-it-container'), 'hint', { render(tokens, idx) {
     if (tokens[idx].nesting === 1) {
       let id = tokens[idx].info.trim();
-      return '<div class="hint" data-id="' + id.replace(/[^\w]+/g, '-') + '">' +
+      return '<div class="hint" v-on:click="showHint">' +
         '<div class="hint-body"><h3>' + id.toUpperCase() + '</h3>';
     } else {
       return '</div></div>';
