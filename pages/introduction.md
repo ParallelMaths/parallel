@@ -29,3 +29,7 @@ My parents grew up in India in the 1930s and did not have a proper education (an
  
 Cheerio,  
 Dr Singh
+
+<form action="/" method="GET">
+  <button type="submit">Get started</button>
+</form>
