@@ -5,7 +5,7 @@ You currently have no scores to view.
 ## What does your score mean?
 
 Each Parallelogram has its own maximum score, depending on the number and type of questions.
-You will then receive a grade ranging from dot (a 0-dimensional object) to line to square to cube to tesseract
+You will then receive a grade ranging from point (a 0-dimensional object) to line to square to cube to tesseract
 (a 4-dimensional object), and the appropriate diagram will appear in your scorecard.
 
 <table>
@@ -36,6 +36,6 @@ You will then receive a grade ranging from dot (a 0-dimensional object) to line 
 <td>Point</td>
 <td>0D</td>
 <td><img src="/images/scores/point.png" width=5/></td>
-<td>Either you have not submitted any answers or you are not ready yet for Parallelograms.</td>
+<td>Either you’re not trying or you’re not yet ready for Parallelograms.</td>
 </tr>
 </table>
