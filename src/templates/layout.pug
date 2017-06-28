@@ -19,17 +19,18 @@ html
     a#logo(href="/" title="Home")
 
     #body
-      .login(v-if="!user")
-        a.target(v-on:click="login.toggleDropdown") Login
-        form#login(v-bind:class="{active: login.showDropdown}" v-on:submit="login.submit")
+      header
+        a(href="/about") About
+        a(href="/scores" v-if="user") My Scores
+        a(href="/contact") Contact
+        form#login(v-if="!user" v-bind:class="{active: login.showDropdown}" v-on:submit="login.submit")
           div.error(v-show="login.error") {{login.error}}
           input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
           input(placeholder="Password" required type="password" v-model="login.password" autocomplete="current-password")
           button(type="submit") Login
           p: a(href="#") Reset password
-
-      .login(v-if="user")
-        .target {{user.first}} (#[a(v-on:click="logout") Logout])
+        a(v-if="!user" v-on:click="login.toggleDropdown") Login
+        a(v-if="user" v-on:click="logout") Logout ({{user.first}})
 
       nav(v-if="user")
         a(href="/", style="background-image: url('/nav/0.png')", title="Home")

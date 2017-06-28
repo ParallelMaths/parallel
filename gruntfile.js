@@ -14,6 +14,7 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   md.use(require('markdown-it-video'));
   md.use(require('markdown-it-synapse-table'));
   md.use(require('markdown-it-container'), 'problem');
+  md.use(require('markdown-it-anchor'));
   md.use(require('markdown-it-container'), 'hint', { render(tokens, idx) {
     if (tokens[idx].nesting === 1) {
       let id = tokens[idx].info.trim();

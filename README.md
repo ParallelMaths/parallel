@@ -22,12 +22,17 @@ To deploy updates to the [live site](https://parallel.org.uk), use
 
 ## TODO List
 
-- __Evaluate score and show in table on My Scores page__
+- __Fix about page and # links__
+- __Fix contact page__
+- __Slightly nicer CSS for login form__
+
 - __Show status in navigation: locked/countdown/score__
-- __Clean up homepage, non-challenge pages and menu__
-- __Firebase db and hosting rules, real time updating__
+- __Fix hints__
 - __Enable feedback form__
-- Fix password forgotten/reset form, contact page
+
+- Evaluate score and show in table on My Scores page
+- Firebase db rules, real time updating
+- Build password forgotten/reset form
 - Loading state for forms, CSS for invalid fields
 - Alert when submitting without answering everything
 - Improve mobile design
