@@ -35,7 +35,9 @@ function ready() {
       // document.body.scrollTop = document.documentElement.scrollTop = 0;
     }).catch(function(e) {
       // TODO handle error
-      console.log(e);
+      console.error(e);
+      app.status = status(false);
+      show();
     });
 
     if (challengeId) {
@@ -45,6 +47,8 @@ function ready() {
           if (!a) return app.status = status(false);
           for (let k of Object.keys(a)) Vue.set(app.answers, k, a[k]);
           app.status = status(a.submitted);
+        }).catch(function(e) {
+          console.error(e);
         });
     }
   }
@@ -84,8 +88,8 @@ function ready() {
         }))
         .then(() => { location.replace('/introduction'); })
         .catch(function(error) {
+          console.error(error);
           signup.loading = false;
-          console.error('Signup error:', error);
           switch(error.code) {
             case 'auth/email-already-in-use':
               return signup.error = 'There already exists an account with this email address. Please login!';
@@ -132,8 +136,7 @@ function ready() {
       user: null,
       signup,
       login,
-      answers: {submitted: false},
-      feedback: {},
+      answers: {submitted: false, difficulty: 0, length: 0, fun: 0, interesting: 0},
       status: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })

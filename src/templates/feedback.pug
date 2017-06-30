@@ -2,9 +2,9 @@ svg(style="display: none")
   defs
     polygon#star(points="19.8,2.2,6.6,43.56,39.6,17.16,0,17.16,33,43.56")
 
-mixin stars()
+mixin stars(label)
   for i in [1,2,3,4,5]
-    svg(width=40 height=42): use(href="#star")
+    svg(width=40 height=42 v-bind:class="{active:" + i + "&&" + i +"<=answers." + label + "}" v-on:click="answers." + label + "=" + i): use(href="#star")
 
 hr
 
@@ -13,17 +13,17 @@ p Before you can finish your Parallelogram, you need to take 30 seconds to answe
 table
   tr
     td Too easy
-    td: +stars()
+    td: +stars('difficulty')
     td Too difficult
   tr
     td Too short
-    td: +stars()
+    td: +stars('length')
     td Too long
   tr
     td Horrible
-    td: +stars()
+    td: +stars('fun')
     td Lots of fun
   tr
     td Very boring
-    td: +stars()
+    td: +stars('interesting')
     td Very interesting

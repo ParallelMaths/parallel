@@ -54,9 +54,10 @@ html
           div!= content
 
         if challenge
-          #feedback(v-if="status == 'open' || status == 'past'"): include feedback
-          p(style="font-weight: bold; text-align: center; margin-top: 2rem;") Only hit the submit button if you have finished the whole#[br]Parallelogram and checked your answers.
-          button#submit(v-on:click="submit" v-if="status == 'open' || status == 'past'" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline) Submit Answers
+          div(v-if="status == 'open' || status == 'past'")
+            #feedback: include feedback
+            p(style="font-weight: bold; text-align: center; margin-top: 2rem;") Only hit the submit button if you have finished the whole#[br]Parallelogram and checked your answers.
+            button#submit(v-on:click="submit" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline) Submit Answers
           p.completed(v-if="status == 'submitted'") Well done! your score and the correct answers will appear in {{countdown}}.
 
     footer

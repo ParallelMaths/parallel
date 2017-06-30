@@ -463,8 +463,14 @@ form.loading button[type="submit"] {
   svg {
     display: inline-block;
     fill: #ccc;
-    margin: 0 2px;
+    padding: 0 2px;
+    cursor: pointer;
   }
+  svg.active { fill: #f4b80d; }
+
+  td:hover svg { fill: #f4871b; }
+  svg:hover + *, svg:hover + * + *, svg:hover + * + * + *,
+  svg:hover + * + * + * + * { fill: #ccc !important; }
 }
 
 
