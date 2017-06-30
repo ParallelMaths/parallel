@@ -2,7 +2,7 @@
  
 Hello Rookie Mathematician,
  
-In order to be reading this page you must be slightly weird, by which I mean you are a keen mathematician. You might be in the Top-Top Set in your school, your teacher or parent might have recommended you, or you might have received one of our tweets (@ParallelMaths). Alternatively, you might have hacked into our mailing list, in which case you clearly have the right sort of enthusiasm (but perhaps not the right morals) to be part of the project.
+In order to be reading this page you must be slightly kooky, by which I mean you are a keen mathematician. You might be in the Top-Top Set in your school, your teacher or parent might have recommended you, or you might have received one of our tweets (@ParallelMaths). Alternatively, you might have hacked into our mailing list, in which case you clearly have the right sort of enthusiasm (but perhaps not the right morals) to be part of the project.
  
 _**(BTW, your teacher (or me) might already have sent you this message via email – if so, then you can skip this page by clicking here. BUT DO NOT SKIP THIS PAGE IF YOU HAVE NOT READ IT.)**_
  
