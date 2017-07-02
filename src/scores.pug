@@ -1,0 +1,44 @@
+extends templates/layout
+
+block content
+
+  h1 My Scores
+
+  div(v-show="!results[1] && !results[2] && !results[3] && !results[4]").
+    You currently have no scores to view.
+
+  .status.score(v-show="results[1] !== null" v-bind:class="level(results[1])[0]" style="max-width: 440px;")
+    p.large Parallelogram #1: {{results[1]}}/10
+    p {{level(results[1])[0]}} Level ({{level(results[1])[1]}})
+
+
+  h2 What does your score mean?
+
+  p Each Parallelogram has its own maximum score, depending on the number and type of questions. You will then receive a grade ranging from point (a 0-dimensional object) to line to square to cube to tesseract (a 4-dimensional object), and the appropriate diagram will appear in your scorecard.
+
+  table
+    tr
+      td(style="width:15%") Tesseract
+      td(style="width:5%") 4D
+      td(style="width:15%"): img(src="/images/scores/tesseract.png" width=50)
+      td(style="width:65%") A perfect or near-perfect score.
+    tr
+      td Cube
+      td 3D
+      td: img(src="/images/scores/cube.png" width=50)
+      td You succeeded in most of the challenges.
+    tr
+      td Square
+      td 2D
+      td: img(src="/images/scores/square.png" width=35)
+      td You struggled with most of the challenges.
+    tr
+      td Line
+      td 1D
+      td: img(src="/images/scores/line.png" width=50)
+      td You need to spend more time and try much harder.
+    tr
+      td Point
+      td 0D
+      td: img(src="/images/scores/point.png" width=5)
+      td Either you’re not trying or you’re not yet ready for Parallelograms.

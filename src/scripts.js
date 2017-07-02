@@ -50,6 +50,18 @@ function ready() {
         }).catch(function(e) {
           console.error(e);
         });
+    } else {
+      fbDatabase.ref('answers/' + fbAuth.currentUser.uid).once('value')
+        .then(answers => {
+          let a = answers.toJSON();
+          if (!a) return;
+          if (a[1]) Vue.set(app.results, 1, a[1].score);
+          if (a[2]) Vue.set(app.results, 2, a[2].score);
+          if (a[3]) Vue.set(app.results, 3, a[3].score);
+          if (a[4]) Vue.set(app.results, 4, a[4].score);
+        }).catch(function(e) {
+        console.error(e);
+      });
     }
   }
 
@@ -136,7 +148,7 @@ function ready() {
       user: null,
       signup,
       login,
-      answers: {submitted: false, difficulty: 0, length: 0, fun: 0, interesting: 0},
+      answers: {submitted: false, score: null, difficulty: 0, length: 0, fun: 0, interesting: 0},
       status: null,
       logout() {
         fbAuth.signOut().then(() => { app.user = null; })
@@ -168,12 +180,47 @@ function ready() {
         const el = e.currentTarget;
         el.classList.add('open');
         el.style.height = el.children[0].offsetHeight + 'px';
-      }
+      },
+      level(s) {
+        if (s >= 9) return ['Tesseract', '4D'];
+        if (s >= 7) return ['Cube', '3D'];
+        if (s >= 5) return ['Square', '2D'];
+        if (s >= 2) return ['Line', '1D'];
+        return ['Point', '0D'];
+      },
+      isCorrect(a, b) {
+        a = ('' + a).trim().replace(/\,/g, '');
+        b = ('' + b).trim().replace(/\,/g, '');
+        return a === b;
+      },
+      results: { 1: null, 2: null, 3: null, 4: null }
     },
     computed: {
       countdown() {
         if (app.status === 'locked') return countdown(availableTime);
         if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
+      },
+      score() {
+        if ('score' in app.answers) return app.answers.score;
+
+        let a = app.answers;
+        let score = 0;
+        if (app.answers.p_1_1 == 'b') score += .5;
+        if (app.answers.p_1_2 == 'c') score += .5;
+        if (app.answers.p_1_3 == 'a') score += .5;
+        if (app.answers.p_1_4 == 'a') score += .5;
+        if (app.answers.p_2_1 == 4) score += 2;
+        if (app.answers.p_3_1 == 'c') score += 1;
+        if (app.isCorrect(app.answers.p_3_2, 1275)) score += 1;
+        if (app.isCorrect(app.answers.p_3_3, 500500)) score += 1;
+        if (app.answers.p_4_1 == 'a') score += 1;
+        if (app.answers.p_5_1a && !app.answers.p_5_1b && !app.answers.p_5_1c) score += 1;
+        if (app.answers.p_6_1 == 'a') score += 1;
+
+        app.answers.score = score;
+        fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
+          .set(app.answers);
+        return score;
       }
     }
   });
