@@ -10,8 +10,7 @@ This week’s Parallelogram challenge is in seven parts… some Challenges will 
 3. Maryam’s inspiration
 4. Domino toppling
 5. Junior Maths Challenge question
-6. Bloodhound & the world speed record
-7. Weird optical illusions
+6. Weird optical illusions
 
 <div class="warning">
 
@@ -192,20 +191,20 @@ Let’s see if you can apply Gauss’s trick.
 
 **3.2 Add up all the numbers from 1 to 50**
 
-<input type="number" placeholder="???" v-model="answers.p_3_2"></input>
+<input type="number" placeholder="???" x-input="p_3_2, 1275"></input>
 
 <div class="solution">
-  <p>The correct answer is 1,275.</p>
+  <p>The correct answer is 1275.</p>
 </div>
 
 <div class="marks">1 mark</div>
 
 **3.3 Add up all the numbers from 1 to 1,000**
 
-<input type="number" placeholder="???" v-model="answers.p_3_3"></input>
+<input type="number" placeholder="???" x-input="p_3_3, 500500"></input>
 
 <div class="solution">
-  <p>The correct answer is 500,500.</p>
+  <p>The correct answer is 500500.</p>
   <p>If you got either of these questions wrong, then take a look at <a href="https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/" target="_blank">this website</a>, which goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at.</p>
 </div>
 :::
