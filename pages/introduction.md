@@ -16,7 +16,7 @@ Why is this project called ‘parallel’? Well, parallel lines don’t cross ov
  
 You are going to be entering a peculiar Numberverse, and some of the puzzles, riddles and problems that you encounter will make your brain ache. But don’t worry, doing real maths means meeting difficult ideas and having to wrestle with them. If too many of you find the challenges too easy, then I am doing something wrong. At the same time, I think you will be able to do most of the challenges, otherwise you would not be on this website.
  
-What will the challenges look like? Be prepared for anything. They will involve paradoxes, maths history, videos, songs, online articles, online lectures, deep maths, weird maths, funny maths and maths in the headlines.
+What will the challenges look like? Be prepared for anything. They will involve paradoxes, history, videos, songs, online articles, online lectures, deep maths, weird maths, funny maths and maths in the headlines.
  
 What do you do if you get stuck? First, you try harder. Second, you try even harder. Third, you try until it hurts. However, I am not cruel, so there will be hint buttons if you are really stuck, and you can also talk to your family or classmates. And, if you still get the answer wrong, then that is also okay. It just means that you will learn even more when you see the answer sheet.
 

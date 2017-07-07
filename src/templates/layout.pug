@@ -36,7 +36,6 @@ html
         a(href="/", style="background-image: url('/nav/0.png')", title="Home")
         for p, i in pages
           a(href="/" + p.url, v-if="isAfter('" + p.available + "')", style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
-            .tooltip(v-if="isAfter('" + p.deadline + "')") This parallelogram has closed.
             .tooltip(v-if="!isAfter('" + p.deadline + "')") You've got {{ timeUntil('#{p.deadline}') }} to submit your solutions.
           div(v-if="!isAfter('" + p.available + "')" style="background-image: url('/nav/" + (i + 1) + ".png')")
             .tooltip This parallelogram will open in {{ timeUntil('#{p.available}') }}.
@@ -47,7 +46,6 @@ html
           div(class="status" v-if="status == 'open'") You have {{countdown}} left to submit your answers.
           div(class="status" v-if="status == 'submitted'") You've already submitted your answersand can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
           include score
-          div(class="status" v-if="status == 'past'") This parallelogram is now closed. You can still have a look at the questions, and submit answers.
 
         block content
         if content
