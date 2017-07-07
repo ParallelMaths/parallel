@@ -8,8 +8,12 @@ block content
     You currently have no scores to view.
 
   .status.score(v-show="results[1] !== null" v-bind:class="level(results[1])[0]" style="max-width: 440px;")
-    p.large Parallelogram #1: {{results[1]}}/10
+    p.large Parallelogram #1: {{results[1] * 10}}%
     p {{level(results[1])[0]}} Level ({{level(results[1])[1]}})
+
+  .status.score(v-show="results[2] !== null" v-bind:class="level(results[2])[0]" style="max-width: 440px;")
+    p.large Parallelogram #2: {{results[2] * 10}}%
+    p {{level(results[2])[0]}} Level ({{level(results[2])[1]}})
 
 
   h2 What does your score mean?
