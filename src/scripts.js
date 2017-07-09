@@ -119,10 +119,35 @@ function ready() {
   const login = {
     error: null,
     showDropdown: false,
+    reset: false,
     toggleDropdown() {
       login.showDropdown = !login.showDropdown;
     },
+    toggleReset() {
+      login.error = null;
+      login.reset = !login.reset;
+    },
     submit(e) {
+      if (login.reset) {
+        e.preventDefault();
+        login.error = null;
+        fbAuth.sendPasswordResetEmail(login.email)
+          .then(function() {
+            login.error = 'We\'ve sent you an email with instructions how to reset your password.';
+          })
+          .catch(function(error) {
+            switch(error.code) {
+              case 'auth/invalid-email':
+                return login.error = 'This email address is invalid.';
+              case 'auth/user-not-found':
+                return login.error = 'There is no account with this email address.';
+              default:
+                return login.error = 'Something went wrong. Please try again!';
+            }
+          });
+        return;
+      }
+
       e.preventDefault();
       login.error = null;
       fbAuth.signInWithEmailAndPassword(login.email, login.password)
@@ -188,11 +213,7 @@ function ready() {
         if (s >= 2) return ['Line', '1D'];
         return ['Point', '0D'];
       },
-      isCorrect(a, b) {
-        a = ('' + a).trim().replace(/\,/g, '');
-        b = ('' + b).trim().replace(/\,/g, '');
-        return a === b;
-      },
+      isCorrect: isCorrect,
       results: { 1: null, 2: null, 3: null, 4: null }
     },
     computed: {
@@ -201,22 +222,9 @@ function ready() {
         if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
       },
       score() {
-        if ('score' in app.answers) return app.answers.score;
+        if (app.answers.score) return app.answers.score;
 
-        let a = app.answers;
-        let score = 0;
-        if (app.answers.p_1_1 == 'b') score += .5;
-        if (app.answers.p_1_2 == 'c') score += .5;
-        if (app.answers.p_1_3 == 'a') score += .5;
-        if (app.answers.p_1_4 == 'a') score += .5;
-        if (app.answers.p_2_1 == 4) score += 2;
-        if (app.answers.p_3_1 == 'c') score += 1;
-        if (app.isCorrect(app.answers.p_3_2, 1275)) score += 1;
-        if (app.isCorrect(app.answers.p_3_3, 500500)) score += 1;
-        if (app.answers.p_4_1 == 'a') score += 1;
-        if (app.answers.p_5_1a && !app.answers.p_5_1b && !app.answers.p_5_1c) score += 1;
-        if (app.answers.p_6_1 == 'a') score += 1;
-
+        let score = scoreFunctions[challengeId](app.answers);
         app.answers.score = score;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
@@ -244,3 +252,39 @@ function countdown(to) {
 
   return Math.floor(t) + ' days';
 }
+
+function isCorrect(a, b) {
+  a = ('' + a).trim().replace(/\,/g, '');
+  b = ('' + b).trim().replace(/\,/g, '');
+  return a === b;
+}
+
+const scoreFunctions = {
+  1(a) {
+    let score = 0;
+    if (a.p_1_1 === 'b') score += .5;
+    if (a.p_1_2 === 'c') score += .5;
+    if (a.p_1_3 === 'a') score += .5;
+    if (a.p_1_4 === 'a') score += .5;
+    if (a.p_2_1 == 4) score += 2;
+    if (a.p_3_1 === 'c') score += 1;
+    if (isCorrect(a.p_3_2, 1275)) score += 1;
+    if (isCorrect(a.p_3_3, 500500)) score += 1;
+    if (a.p_4_1 === 'a') score += 1;
+    if (a.p_5_1a && !a.p_5_1b && !a.p_5_1c) score += 1;
+    if (a.p_6_1 === 'a') score += 1;
+    return score;
+  },
+  2(a) {
+    let score = 0;
+    if (a.p_1_1b && a.p_1_1c && !a.p_1_1a && !a.p_1_1d && !a.p_1_1e) score += 1;
+    if (a.p_1_2 === 'b') score += 2;
+    if (a.p_1_3b && a.p_1_3c && !a.p_1_3a && !a.p_1_3d && !a.p_1_3e) score += 1;
+    if (a.p_1_4d && a.p_1_4e && !a.p_1_4a && !a.p_1_4b && !a.p_1_4c && !a.p_1_4f) score += 1;
+    if (a.p_1_5 == 10) score += 3;
+    if (a.p_2_1 === 'b') score += .5;
+    if (a.p_3_1 == 9) score += 4;
+    if (a.p_5_1 === 'd') score += 1;
+    return score * 10 / 13.5;
+  }
+};

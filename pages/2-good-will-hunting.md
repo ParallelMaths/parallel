@@ -102,11 +102,11 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 **1.3** For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them must be essentially the same. Which tree can be twisted and reshaped into another tree? Which tree should be removed? Obviously, there are two possible answers, because you could remove either member of the pair.  
 
 <div class="choice checkbox c3">
-  <div x-checkbox="p_1_1a"><img src="/images/challenges/2/graph-5a.png"/></div>
-  <div x-checkbox="p_1_1b" class="correct"><img src="/images/challenges/2/graph-5b.png"/></div>
-  <div x-checkbox="p_1_1c" class="correct"><img src="/images/challenges/2/graph-5c.png"/></div>
-  <div x-checkbox="p_1_1d"><img src="/images/challenges/2/graph-5d.png"/></div>
-  <div x-checkbox="p_1_1e"><img src="/images/challenges/2/graph-5e.png"/></div>
+  <div x-checkbox="p_1_3a"><img src="/images/challenges/2/graph-5a.png"/></div>
+  <div x-checkbox="p_1_3b" class="correct"><img src="/images/challenges/2/graph-5b.png"/></div>
+  <div x-checkbox="p_1_3c" class="correct"><img src="/images/challenges/2/graph-5c.png"/></div>
+  <div x-checkbox="p_1_3d"><img src="/images/challenges/2/graph-5d.png"/></div>
+  <div x-checkbox="p_1_3e"><img src="/images/challenges/2/graph-5e.png"/></div>
 </div>
 
 <div class="solution">
@@ -143,7 +143,7 @@ Now you are ready for the full Will Hunting problem.
 
 Take your time. Check you haven’t missed any trees. Check that you have not drawn the same tree twice. The correct answer is between 5 and 14.
 
-<input type="number" min="5" max="14" data-id="s1-q7"/>  
+<input type="number" min="5" max="14" x-input="p_1_5, 10"/>  
 
 <div class="solution">
   <p>The correct answer is 10 trees. You would have scored 2 marks if you answered 9 or 11, and 1 mark if you answered 8 or 12.</p>
@@ -242,7 +242,7 @@ Straightaway he knows their ages, says thank you and moves on to the next house
 
 **3.1.** How old is the oldest child?  
 
-<input type="number" data-id="s3-q1"/>  
+<input type="number" x-input="p_3_1, 9"/>  
 
 <div class="solution">
   <p>The correct answer is 9. To understand why the answer is 9, please check out the hints below.</p>
