@@ -15,7 +15,8 @@
   "scripts": {
     "start": "grunt && npm run serve",
     "serve": "grunt concurrent & firebase serve",
-    "deploy": "grunt && grunt minify && firebase deploy"
+    "deploy": "grunt && grunt minify && firebase deploy",
+    "scores": "node get-score.js"
   },
   "devDependencies": {
     "babel-core": "~6.3.26",
