@@ -55,10 +55,10 @@ function ready() {
         .then(answers => {
           let a = answers.toJSON();
           if (!a) return;
-          if (a[1]) Vue.set(app.results, 1, a[1].score);
-          if (a[2]) Vue.set(app.results, 2, a[2].score);
-          if (a[3]) Vue.set(app.results, 3, a[3].score);
-          if (a[4]) Vue.set(app.results, 4, a[4].score);
+          if (a[1]) Vue.set(app.results, 1, getScore(a[1], 1));
+          if (a[2]) Vue.set(app.results, 2, getScore(a[2], 2));
+          if (a[3]) Vue.set(app.results, 3, getScore(a[3], 3));
+          if (a[4]) Vue.set(app.results, 4, getScore(a[4], 4));
         }).catch(function(e) {
         console.error(e);
       });
@@ -184,6 +184,7 @@ function ready() {
         app.status = Date.now() < deadlineTime ? 'submitted' : 'revealed';
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
       },
       setAnswer(key, value) {
         if (app.answers.submitted) return;
@@ -222,13 +223,13 @@ function ready() {
         if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
       },
       score() {
-        if (app.answers.score) return app.answers.score;
+        if (app.answers.score) return round(app.answers.score);
 
         let score = scoreFunctions[challengeId](app.answers);
         app.answers.score = score;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
           .set(app.answers);
-        return score;
+        return round(score);
       }
     }
   });
@@ -260,7 +261,12 @@ function isCorrect(a, b) {
 }
 
 function round(n) {
-  return Math.round(n * 100) / 100;
+  return Math.round(n * 10) / 10;
+}
+
+function getScore(answers, id) {
+  if (!answers.submitted) return null;
+  return round(answers.score || scoreFunctions[id](answers));
 }
 
 const scoreFunctions = {
@@ -289,6 +295,6 @@ const scoreFunctions = {
     if (a.p_2_1 === 'b') score += .5;
     if (a.p_3_1 == 9) score += 4;
     if (a.p_5_1 === 'd') score += 1;
-    return round(score * 10 / 13.5);
+    return score * 10 / 13.5;
   }
 };

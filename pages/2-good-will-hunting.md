@@ -90,7 +90,7 @@ You will need to get a piece of paper and start drawing some trees. The key thin
 </div>
 
 <div class="solution">
-  <p>The correct answer is 2, because any other diagrams either have loops or dots connected to exactly two other lines.</p>
+  <p>The correct answer is 2, because any other diagrams either have loops or they have dots connected to exactly two other lines.</p>
   <p>Here are the two acceptable trees. Your two trees might look different, but if they are essentially the same, then you are beginning to grasp the maths of trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.</p>
   <p class="text-center"><img src="/images/challenges/2/graph-7-dot-solutions.png"/></p>
 </div>

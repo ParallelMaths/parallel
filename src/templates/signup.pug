@@ -241,7 +241,7 @@ form(v-on:submit="signup.submit"  v-bind:class="{loading: signup.loading}")
         option Male
         option Other
 
-  p(v-show="signup.birthYear > 2005") If you are under the age of 13, please ask your parents or guardians for permission before creating an account.
+  p(v-show="signup.birthYear >= 2004") If you are under the age of 13, please ask permission from a parent or guardians before creating an account.
 
   p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=500, height=500'); return false;") terms and conditions].
 

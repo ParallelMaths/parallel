@@ -1,4 +1,4 @@
 div(class="status score" v-if="status == 'revealed'" v-bind:class="level(score)[0]")
   p.large Your score: {{score * 10}}%
-  p: a(href="/scores") {{level(score)[0]}} Level ({{level(score)[1]}})
+  p: a(href="/scores") {{level(score)[0]}} ({{level(score)[1]}})
   p The correct solutions are shown inline.

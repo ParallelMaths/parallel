@@ -13,17 +13,19 @@ Here is this week’s meander through mathematics:
 
 <img src="/images/challenges/3/hidden-figures-poster.png" style="float: right; margin-left: 1rem"/>
 
-Last week we looked at the film “Good Will Hunting” and explored one of the mathematical problems that appears in it.
-I also posed a question about another film: “What is the title of the film that celebrates the role of the pioneering
-women mathematicians at NASA in the 1960s?”
-Most of you correctly identified the film as Hidden Figures. Let’s start by watching the trailer.
+Last week we looked at the film “Good Will Hunting” and explored one of the
+mathematical problems that appears in it. I also posed a question about another
+film: “What is the title of the film that celebrates the role of the pioneering
+women mathematicians at NASA in the 1960s?” Most of you correctly identified the
+film as Hidden Figures. Let’s start by watching the trailer.
 
 @[youtube](https://www.youtube.com/watch?v=RK8xHq6dfAo)
 
 ::: problem
 <div class="marks">1 mark</div>
 
-**1.1 Just to check that you were concentrating on that trailer, for how many hours did the children say their mother had been gone?**
+**1.1** Just to check that you were concentrating on that trailer, for how many
+hours did the children say their mother had been gone?
 
 <div class="choice radio">
   <div x-radio="p_1_1a">3 hours</div>
@@ -38,61 +40,71 @@ Most of you correctly identified the film as Hidden Figures. Let’s start by wa
 </div>
 :::
 
-The film tells the story of three brilliant black women who helped send the American astronauts into space.
-These are just a few of the many women who played a crucial role in the space race.
-It is a terrific film, which received three Oscar nominations and which is both inspiring and exciting.
-Well worth watching if your parents or teacher can get hold of the DVD. 
+The film tells the story of three brilliant black women who helped send the
+American astronauts into space. These are just a few of the many women who
+played a crucial role in the space race. It is a terrific film, which received
+three Oscar nominations and which is both inspiring and exciting. Well worth
+watching if your parents or teacher can get hold of the DVD. 
 
 | ![](/images/challenges/2/nasa-3.jpg) | ![](/images/challenges/2/nasa-4.jpg) |
 
-The women were known as computers, because the original the term computer referred to a person who did calculations.
-Only later did the term computer become more associated with machines.
-Increasingly, machine computers at NASA took over from human computers,
-and many of the women became some of the first computer programmers and operators.
-Those early computers were incredibly difficult to operate and relatively slow,
-certainly compared to today’s computers, as discussed in a blogpost on the ZME Science website:
+The women were known as computers, because the original the term computer
+referred to a person who did calculations. Only later did the term computer
+become more associated with machines. Increasingly, machine computers at NASA
+took over from human computers, and many of the women became some of the first
+computer programmers and operators. Those early computers were incredibly
+difficult to operate and relatively slow, certainly compared to today’s
+computers, as discussed in a blogpost on the ZME Science website:
 
-<div style="text-alignment:center">
-…back on Earth at the Goddard Space Flight Center thousands of flight technicians and computer experts employed the
-IBM System/360 Model 75s mainframe computer to make independent computations and maintain communication between Earth
-and lunar landers. These computers cost $3.5 million a piece and were the size of a car.
-Each could perform several hundred thousand addition operations per second,
-and their total memory capacity was in the megabyte range. Programs were developed for the 75s that monitored the
-spacecraft’s environmental data and astronauts’ health, which were at the time the most complex software ever developed.
-Today, however, even a simple USB stick or WiFi router is more powerful, let alone an iPhone.
-The iPhone 6 uses an Apple-designed 64 bit Cortex A8 ARM architecture composed of approximately
-1.6 billion transistors.  It operates at 1.4 GHZ and can process instructions at a rate of approximately
-1.2 instructions every cycle in each of its 2 cores. That’s 3.36 billion instructions per second.
-Put simply, the iPhone 6’s clock  is 32,600 times faster than the best Apollo era computers and could perform
-instructions 120,000,000 times faster. You wouldn’t be wrong in saying an iPhone could be used to guide
-120,000,000 Apollo era spacecraft to the moon, all at the same time.
-</div>
+> …back on Earth at the Goddard Space Flight Center thousands of flight
+> technicians and computer experts employed the IBM System/360 Model 75s
+> mainframe computer to make independent computations and maintain communication
+> between Earth and lunar landers. These computers cost $3.5 million a piece and
+> were the size of a car. Each could perform several hundred thousand addition
+> operations per second, and their total memory capacity was in the megabyte
+> range. Programs were developed for the 75s that monitored the spacecraft’s
+> environmental data and astronauts’ health, which were at the time the most
+> complex software ever developed. Today, however, even a simple USB stick or
+> WiFi router is more powerful, let alone an iPhone. The iPhone 6 uses an
+> Apple-designed 64 bit Cortex A8 ARM architecture composed of approximately 1.6
+> billion transistors. It operates at 1.4 GHZ and can process instructions at a
+> rate of approximately 1.2 instructions every cycle in each of its 2 cores.
+> That’s 3.36 billion instructions per second. Put simply, the iPhone 6’s clock
+> is 32,600 times faster than the best Apollo era computers and could perform
+> instructions 120,000,000 times faster. You wouldn’t be wrong in saying an
+> iPhone could be used to guide 120,000,000 Apollo era spacecraft to the moon,
+> all at the same time.
 
-This mind-blowing improvement in computing is known as Moore’s Law. Wikipedia says:
+This mind-blowing improvement in computing is known as Moore’s Law. Wikipedia
+says:
 
-<div style="text-alignment:center">
-Moore's law is the observation that the number of transistors in a dense integrated circuit doubles
-approximately every two years. The observation is named after Gordon Moore, the co-founder of
-Fairchild Semiconductor and Intel, whose 1965 paper described a doubling every year in the number of components
-per integrated circuit, and projected this rate of growth would continue for at least another decade.
-In 1975, looking forward to the next decade, he revised the forecast to doubling every two years
-</div>
+> Moore's law is the observation that the number of transistors in a dense
+> integrated circuit doubles approximately every two years. The observation is
+> named after Gordon Moore, the co-founder of Fairchild Semiconductor and Intel,
+> whose 1965 paper described a doubling every year in the number of components
+> per integrated circuit, and projected this rate of growth would continue for
+> at least another decade. In 1975, looking forward to the next decade, he
+> revised the forecast to doubling every two years
 
-You might not find this doubling of the number of transistors on a computer circuit particularly impressive,
-but it is actually mind-blowing. It has literally changed civilisation.  
-When something doubles, and doubles again, and again and again … then the results are phenomenal.
-It is a type of increase known as exponential growth. The graph below shows Moore’s Law between 1971 and 2011.
-Take note of the funny scale on the y-axis, which increases by a factor of 10 at each step.
-So, in 40 years, the number of transistors on a microprocessor increased from 2,300 to 2,600,000,000,
-which is an increase by a factor of more than a million.
+You might not find this doubling of the number of transistors on a computer
+circuit particularly impressive, but it is actually mind-blowing. It has
+literally changed civilisation.  
+
+When something doubles, and doubles again, and again and again … then the
+results are phenomenal. It is a type of increase known as exponential growth.
+The graph below shows Moore’s Law between 1971 and 2011. Take note of the funny
+scale on the y-axis, which increases by a factor of 10 at each step. So, in 40
+years, the number of transistors on a microprocessor increased from 2,300 to
+2,600,000,000, which is an increase by a factor of more than a million.
 
 ![](/images/challenges/3/moores-law-graph.png)
 
 ::: problem
 <div class="marks">1 mark</div>
 
-**1.2** Look at the number of transistors on the 80486 microprocessor (~1990) and the number of transistors on
-  the AMD K8 microprocessor (~2002). By what factor did the number of transistors increase in just 12 years?
+**1.2** Look at the number of transistors on the 80486 microprocessor (~1990)
+and the number of transistors on the AMD K8 microprocessor (~2002). By what
+factor did the number of transistors increase in just 12 years?
 
 <div class="choice radio">
   <div x-radio="p_1_1a">2</div>
@@ -107,44 +119,42 @@ which is an increase by a factor of more than a million.
 </div>
 :::
 
+
 ## 2. The Chess Problem
 
-There is a very old story that demonstrates the power of exponential growth and Moore’s Law,
-but it relates to chess and rice, not computers.
+There is a very old story that demonstrates the power of exponential growth and
+Moore’s Law, but it relates to chess and rice, not computers.
 
-In India, or Persia or somewhere east of the English Channel, the King or Maharajah or Sultan wanted to reward
-a mathematician, because he had just invented chess. The King offered a chest of gold coins or a barrel of
-diamonds, but instead the mathematician asked for a grain of rice on the first square of a chessboard,
-2 grains on the second square, 4 grains on the third square and so on, doubling the number of grains of rice
-on each square until the 64th square.
+In India, or Persia or somewhere east of the English Channel, the King or
+Maharajah or Sultan wanted to reward a mathematician, because he had just
+invented chess. The King offered a chest of gold coins or a barrel of diamonds,
+but instead the mathematician asked for a grain of rice on the first square of a
+chessboard, 2 grains on the second square, 4 grains on the third square and so
+on, doubling the number of grains of rice on each square until the 64th square.
 
-The King laughed at what seem like a trivial reward, but he did not laugh for long.
+The King laughed at what seem like a trivial reward, but he did not laugh for
+long.
 
-Grab a piece of paper and work out the number of grains of rice on each of the first 32 squares.
-You will almost certainly need a calculator, and make sure you check your answers.
-I have given you a headstart by listing the answers for the first 10 squares.
+Grab a piece of paper and work out the number of grains of rice on each of the
+first 32 squares. You will almost certainly need a calculator, and make sure you
+check your answers. I have given you a headstart by listing the answers for the
+first 10 squares.
 
-<table>
-  <tr><th>Square</th><th>Number of Grains</th</tr>
-  <tr>1<td></td><td>1</td></tr>
-  <tr>2<td></td><td>2</td></tr>
-  <tr>3<td></td><td>4</td></tr>
-  <tr>4<td></td><td>8</td></tr>
-  <tr>5<td></td><td>16</td></tr>
-  <tr>6<td></td><td>32</td></tr>
-  <tr>7<td></td><td>64</td></tr>
-  <tr>8<td></td><td>128</td></tr>
-  <tr>9<td></td><td>256</td></tr>
-  <tr>10<td></td><td>512</td></tr>
-</table>
+| Square | Number of Grains |
+| ------ | ---------------- |
+|      1 |                1 |
+|      2 |                2 |
+|      3 |                4 |
+|      4 |                8 |
+|      5 |               16 |
+|      6 |               32 |
+|      7 |               64 |
+|      8 |              128 |
+|      9 |              256 |
+|     10 |              512 |
 
 ::: problem
 <div class="marks">4 marks</div>
-
-
-2.2 How many grains were on the 20th square? 524,288 
-2.3 How many grains were on the 32nd square? 2,147,483,648
-
 
 **2.1.** How many grains were on the 15th square?
 
@@ -153,9 +163,7 @@ I have given you a headstart by listing the answers for the first 10 squares.
 <div class="solution">
   <p>The correct answer is 16,384.</p>
 </div>
-:::
 
-::: problem
 <div class="marks">4 marks</div>
 
 **2.2** How many grains were on the 20th square? 
@@ -165,9 +173,7 @@ I have given you a headstart by listing the answers for the first 10 squares.
 <div class="solution">
   <p>The correct answer is 524,288.</p>
 </div>
-:::
 
-::: problem
 <div class="marks">4 marks</div>
 
 **2.3.** How many grains were on the 32nd square?  
@@ -179,15 +185,19 @@ I have given you a headstart by listing the answers for the first 10 squares.
 </div>
 :::
 
-If you carried on the calculation for the full 64 squares, then you should arrive at 9,223,372,036,854,775,808 grains
-on the 64th square.  
-If you want to add up all the grains on all the squares, then total is double the number of grains on the final
-square minus 1. (You can check this by looking at the table above. The total number of grains for the first, say,
-five squares is 1 + 2 + 4 + 8 + 16 = 31, which is the same as \[2 x 16\] – 1 = 31.)  
+If you carried on the calculation for the full 64 squares, then you should
+arrive at 9,223,372,036,854,775,808 grains on the 64th square.
+
+If you want to add up all the grains on all the squares, then total is double
+the number of grains on the final square minus 1. (You can check this by looking
+at the table above. The total number of grains for the first, say, five squares
+is 1 + 2 + 4 + 8 + 16 = 31, which is the same as \[2 × 16\] – 1 = 31.)  
+
 This means that the total number of grains on all 64 squares is:
-\[2 x 9,223,372,036,854,775,808\] – 1 = 18,446,744,073,709,551,615.
-That is about 100 billion tonnes of rice, which is about hundred times more rice than the whole Earth grows each year.
-That is the power of exponential growth.
+(2 × 9,223,372,036,854,775,808) – 1 = 18,446,744,073,709,551,615.
+
+That is about 100 billion tonnes of rice, which is about hundred times more rice
+than the whole Earth grows each year. That is the power of exponential growth.
 
 ::: problem
 <div class="marks">4 marks</div>
@@ -215,14 +225,16 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 **2.5.** You get a summer job that lasts for 6 weeks. You have two salary options:  
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
-How much would each option deliver in total after 6 weeks, and which option would you prefer?
 
-<input type="number" data-id="s3-q1">Option A Total</input>  
+How much would each option deliver in total after 6 weeks?
 
-<input type="number" data-id="s3-q1">Option B Total</input>
+<input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
+
+<input type="number" data-id="s3-q1" placeholder="Option B Total"/>
   
-<div class="choice radio">
-  <p>Preferred Option</p>
+Which option would you prefer?
+
+<div class="choice radio s2">
   <div x-radio="p_1_1a">A</div>
   <div x-radio="p_1_1b">B</div>
 </div>
@@ -232,9 +244,12 @@ How much would each option deliver in total after 6 weeks, and which option woul
 </div>
 :::
 
-_**A quick reminder: Parallelogram questions can be tough, so don’t worry if you struggle or get answers wrong.
-This is not part of your exams, so there is nothing to lose. The trick is to enjoy the challenge, relish how tough
-it is and see if your brain can deal with problems that are on the edge of what it can handle.**_
+_**A quick reminder: Parallelogram questions can be tough, so don’t worry if you
+struggle or get answers wrong. This is not part of your exams, so there is
+nothing to lose. The trick is to enjoy the challenge, relish how tough it is and
+see if your brain can deal with problems that are on the edge of what it can
+handle.**_
+
 
 ## 3. Sumaze! Part 1
 
@@ -264,14 +279,25 @@ the chance to skip the level … but, of course, you can also carry on trying.
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-Start by clicking [here](https://integralmaths.org/games/TTS_Final/), and Sumaze! will open up in another window (which means you can always come back
-to check the rules above). When you have finished Sumaze, you will receive a score and a code word.
-Please enter your code word here, so that we can add your Sumaze score to your overall Parallelogram total.
-The maximum score in Summaze is 1 + 2 + 3+ … + 9 = 45. We will divide your Summaze score by 10 and add it to your
-overall Parallelogram score. So ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
-total score.
+Start by clicking [here](https://integralmaths.org/games/TTS_Final/), and
+Sumaze! will open up in another window (which means you can always come back
+to check the rules above). 
 
-_____________, 
+::: problem
+<div class="marks">4.5 marks</div>
+
+**3.1** When you have finished Sumaze, you will receive a score and a code word.
+Please enter your code word here, so that we can add your Sumaze score to your
+overall Parallelogram total.
+
+<input type="number" data-id="s3-q1" placeholder="Summaze Code Word"/>
+
+*The maximum score in Summaze is 1 + 2 + 3+ … + 9 = 45. We will divide your
+Summaze score by 10 and add it to your overall Parallelogram score. So
+ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
+total score.*
+:::
+
 
 ## 4. Junior Maths Challenge question
  
@@ -371,6 +397,7 @@ You should do your best to complete them “…not because they are easy, but be
 
 Dr Singh.
 
+
 ## Find out more
 
 If you want to find out more about the topics in this week’s Parallel Challenge, then I recommend:
@@ -387,5 +414,5 @@ the Presidential Medal Of Freedom from President Obama.
 [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
 one the of the women featured in the film “Hidden Figures”, on the NASA website.
 
-## **Credits**
 
+## **Credits**
