@@ -259,6 +259,10 @@ function isCorrect(a, b) {
   return a === b;
 }
 
+function round(n) {
+  return Math.round(n * 100) / 100;
+}
+
 const scoreFunctions = {
   1(a) {
     let score = 0;
@@ -285,6 +289,6 @@ const scoreFunctions = {
     if (a.p_2_1 === 'b') score += .5;
     if (a.p_3_1 == 9) score += 4;
     if (a.p_5_1 === 'd') score += 1;
-    return score * 10 / 13.5;
+    return round(score * 10 / 13.5);
   }
 };
