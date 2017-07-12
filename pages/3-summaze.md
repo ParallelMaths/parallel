@@ -153,7 +153,7 @@ first 10 squares.
 **2.1.** How many grains were on the 15th square?
 
 <input type="number" data-id="s3-q1"/>  
-(Please include commas in your answer, e.g. 12,345, not 12345.)
+(Please don't include commas in your answer, e.g. 12345, not 12,345.)
 
 <div class="solution">
   <p>The correct answer is 16,384.</p>
