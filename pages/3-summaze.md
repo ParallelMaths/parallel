@@ -18,6 +18,11 @@ mathematical problems that appears in it. I also posed a question about another
 film: “What is the title of the film that celebrates the role of the pioneering
 women mathematicians at NASA in the 1960s?” Most of you correctly identified the
 film as Hidden Figures. Let’s start by watching the trailer.
+    
+<br/>
+<br/>
+<br/>
+    
 
 @[youtube](https://www.youtube.com/watch?v=RK8xHq6dfAo)
 
@@ -48,7 +53,7 @@ watching if your parents or teacher can get hold of the DVD.
 
 | ![](/images/challenges/2/nasa-3.jpg) | ![](/images/challenges/2/nasa-4.jpg) |
 
-The women were known as computers, because the original the term computer
+The women were known as computers, because the original term computer
 referred to a person who did calculations. Only later did the term computer
 become more associated with machines. Increasingly, machine computers at NASA
 took over from human computers, and many of the women became some of the first
@@ -75,7 +80,7 @@ computers, as discussed in a blogpost on the ZME Science website:
 > iPhone could be used to guide 120,000,000 Apollo era spacecraft to the moon,
 > all at the same time.
 
-This mind-blowing improvement in computing is known as Moore’s Law. Wikipedia
+This remarkable improvement in computing is known as Moore’s Law. Wikipedia
 says:
 
 > Moore's law is the observation that the number of transistors in a dense
@@ -108,10 +113,10 @@ factor did the number of transistors increase in just 12 years?
 
 <div class="choice radio">
   <div x-radio="p_1_1a">2</div>
-  <div x-radio="p_1_1b">10 hours</div>
-  <div x-radio="p_1_1c">50 hours</div>
-  <div x-radio="p_1_1d">100 hours</div>
-  <div x-radio="p_1_1e">500 hours</div>
+  <div x-radio="p_1_1b">10</div>
+  <div x-radio="p_1_1c">50</div>
+  <div x-radio="p_1_1d">100</div>
+  <div x-radio="p_1_1e">500</div>
 </div>
 
 <div class="solution">
@@ -123,7 +128,7 @@ factor did the number of transistors increase in just 12 years?
 ## 2. The Chess Problem
 
 There is a very old story that demonstrates the power of exponential growth and
-Moore’s Law, but it relates to chess and rice, not computers.
+Moore’s Law, but it relates to chess and rice, not computers and transistors.
 
 In India, or Persia or somewhere east of the English Channel, the King or
 Maharajah or Sultan wanted to reward a mathematician, because he had just
@@ -140,45 +145,37 @@ first 32 squares. You will almost certainly need a calculator, and make sure you
 check your answers. I have given you a headstart by listing the answers for the
 first 10 squares.
 
-| Square | Number of Grains |
-| ------ | ---------------- |
-|      1 |                1 |
-|      2 |                2 |
-|      3 |                4 |
-|      4 |                8 |
-|      5 |               16 |
-|      6 |               32 |
-|      7 |               64 |
-|      8 |              128 |
-|      9 |              256 |
-|     10 |              512 |
+![](/images/challenges/3/rice-count-table.png)
 
 ::: problem
-<div class="marks">4 marks</div>
+<div class="marks">1 mark</div>
 
 **2.1.** How many grains were on the 15th square?
 
 <input type="number" data-id="s3-q1"/>  
+(Please don't include commas in your answer, e.g. 12345, not 12,345.)
 
 <div class="solution">
   <p>The correct answer is 16,384.</p>
 </div>
 
-<div class="marks">4 marks</div>
+<div class="marks">1 mark</div>
 
 **2.2** How many grains were on the 20th square? 
 
-<input type="number" data-id="s3-q1"/>  
+<input type="number" data-id="s3-q1"/>   
+(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
   <p>The correct answer is 524,288.</p>
 </div>
 
-<div class="marks">4 marks</div>
+<div class="marks">1 mark</div>
 
 **2.3.** How many grains were on the 32nd square?  
 
 <input type="number" data-id="s3-q1"/>  
+(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
   <p>The correct answer is 2,147,483,648.</p>
@@ -200,7 +197,7 @@ That is about 100 billion tonnes of rice, which is about hundred times more rice
 than the whole Earth grows each year. That is the power of exponential growth.
 
 ::: problem
-<div class="marks">4 marks</div>
+<div class="marks">2 marks</div>
 
 **2.4.**  In another version of the story, the King gets revenge by saying that the mathematician can only have
 the rice if he can count them. If the mathematician counts at the rate of 1 grain per second, how long will it
@@ -220,13 +217,13 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 :::
 
 ::: problem
-<div class="marks">4 marks</div>
+<div class="marks">3 marks</div>
 
 **2.5.** You get a summer job that lasts for 6 weeks. You have two salary options:  
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks?
+How much would each option deliver in total after 6 weeks? (Please don't include commas in your answer.)
 
 <input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
 
@@ -256,30 +253,32 @@ handle.**_
 Sumaze! is a terrific new game that tests your core maths skills. 
 
 You will have access to 9 levels of the game, starting with some really trivial ones to allow you to understand
-the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2 and so on until
-8 points for level 3.  
+the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2,
+3 points for level 3 and so on until 9 points for level 9.
 However, you will lose 2 points for every hint you use (available on levels 8 & 9). And if you have to restart a
 level then you will lose 1 point each time, up to a maximum of 4 lost points. So, if you need one hint on level 9,
 then your maximum score goes from 9 down to 7. And if you succeed after restarting three times,
 then your score drops from 7 down to 4.
 
-It is easier to understand Sumaze! by experiencing it, but in case it helps here a few important rules and tips:
+It is easier to understand Sumaze! by experiencing it, but in case it helps here are a few important rules and tips:
 
 * Aim – to move your blue box to reach the “end of level” square.
 * Your box cannot at any time contain a number bigger than 1,000.
 * Your box cannot at any time contain a number that is a fraction.
-* You sometimes need to obtain keys to open doors to reach the “end of level” square.
+* You sometimes need keys to open doors to reach the “end of level” square.
 * Passing through an arrow means you cannot go back.
 * To pass through a green square you must satisfy the square’s condition.
 * Pink squares (and their operations) disappear when you move onto them.
 * Lilac squares (and their operations) can be crossed over and over again.
+* IMPORTANT – You will need to run Sumaze! on a PC/Mac. If you are currently on a smartphone or tablet,
+then type this into your PC/Mac browser: bit.ly/parallel_sumaze
 
 If you have tried a few times and have run out of hints and you are still stuck, then you will eventually be offered
 the chance to skip the level … but, of course, you can also carry on trying.  
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-Start by clicking [here](https://integralmaths.org/games/TTS_Final/), and
+Start by clicking <a href="https://integralmaths.org/games/parallel_sumaze_v2/" target="_blank">here</a>, and
 Sumaze! will open up in another window (which means you can always come back
 to check the rules above). 
 
@@ -298,6 +297,17 @@ ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
 total score.*
 :::
 
+## 4. Kooks
+
+When you signed up for Parallelograms, you, I suggested that you had to be a bit “kooky” to want to do maths
+at the weekend. Some of you seemed confused by that word, so if might help to click on the song below and hear
+what David Bowie though of kooks and being kooky. You can listen to it while doing question 5.
+
+Also, I should mention that we can apply maths to one of David Bowie’s songs to prove that this piece of music
+is everyone’s friend. He wrote a song (and a whole album) called DIAMOND DOGS. DIAMONDS are a girl’s best friend.
+DOGS are a man’s best friend. So, DIAMOND DOGS is everyone’s best friend!
+
+@[youtube](https://www.youtube.com/watch?v=EsSlOGzPM90?rel=0)
 
 ## 4. Junior Maths Challenge question
  
@@ -325,10 +335,10 @@ and the multiples of 7 are given a green mark. How many cells have more than 1 m
 
 Finally, here is a 20-minute video about the film “Hidden Figures”.
 Below are three questions about the first 10 minutes, but hopefully you will watch the whole clip.
-This clip won’t teach you much maths, but it will hopefully you appreciate what mathematicians can do,
+This clip won’t teach you much maths, but it will hopefully help you appreciate what mathematicians can do,
 why people love maths and how you often have to struggle to succeed in maths (or in anything else).
 
-@[youtube](https://www.youtube.com/watch?v=XiwBpkyjrmQ&t=21s)
+@[youtube](https://www.youtube.com/watch?v=XiwBpkyjrmQ&t=21s?rel=0)
 
 
 ::: problem
@@ -390,7 +400,7 @@ who played a major role in Gauss’s development. Thanks to Alan Parr from Hertf
 and giving me a chance thank all hardworking teachers throughout the centuries and today.
 And that’s everything for this week, except to pick out a very famous quote by President Kennedy,
 which you will have seen in the last video. When he was inspiring America to back NASA’s efforts to explore space,
-Kennedy said: ““We choose to go to the moon in this decade and do the other things, not because they are easy,
+Kennedy said: “We choose to go to the moon in this decade and do the other things, not because they are easy,
 but because they are hard.”  
 The Parallel Challenges are not in the same league as going to the moon, but it is the same principle.
 You should do your best to complete them “…not because they are easy, but because they are hard.” 
@@ -412,7 +422,9 @@ Short, but incredible, [clip of mathematician Katherine Johnson](https://www.you
 the Presidential Medal Of Freedom from President Obama. 
  
 [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
-one the of the women featured in the film “Hidden Figures”, on the NASA website.
+one of the women featured in the film “Hidden Figures”, on the NASA website.
 
 
 ## **Credits**
+
+* Moore's Law graph taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Moore%27s_law)
