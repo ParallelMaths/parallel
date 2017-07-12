@@ -223,7 +223,7 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks? (Please include commas in your answer, e.g. 12,345, not 12345.)
+How much would each option deliver in total after 6 weeks? (Please don't include commas in your answer.)
 
 <input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
 
