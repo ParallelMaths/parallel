@@ -288,7 +288,7 @@ to check the rules above).
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<input type="number" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Sumaze Code Word"/>
+<input type="text" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Sumaze Code Word"/>
 
 *The maximum score in Sumaze is 1 + 2 + 3+ … + 9 = 45. We will divide your
 Sumaze score by 10 and add it to your overall Parallelogram score. So
