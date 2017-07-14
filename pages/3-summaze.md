@@ -11,20 +11,17 @@ Here is this week’s meander through mathematics:
 
 ## 1. Hidden Figures – another maths movie
 
-<img src="/images/challenges/3/hidden-figures-poster.png" style="float: right; margin-left: 1rem"/>
+<img src="/images/challenges/3/hidden-figures-poster.png" width="20%" height="20%" style="float: right; margin-left: 1rem"/>
 
 Last week we looked at the film “Good Will Hunting” and explored one of the
 mathematical problems that appears in it. I also posed a question about another
 film: “What is the title of the film that celebrates the role of the pioneering
-women mathematicians at NASA in the 1960s?” Most of you correctly identified the
-film as Hidden Figures. Let’s start by watching the trailer.
-    
-<br/>
-<br/>
-<br/>
-    
+women mathematicians at NASA in the 1960s?”  
+Most of you correctly identified the film as Hidden Figures. Let’s start by watching the trailer.
 
-@[youtube](https://www.youtube.com/watch?v=RK8xHq6dfAo)
+<br/>
+
+@[youtube](RK8xHq6dfAo?rel=0)
 
 ::: problem
 <div class="marks">1 mark</div>
@@ -41,7 +38,7 @@ hours did the children say their mother had been gone?
 </div>
 
 <div class="solution">
-  (pending)
+Yes, 300 hours, which the mother immediately converts into 12½ days.
 </div>
 :::
 
@@ -120,7 +117,7 @@ factor did the number of transistors increase in just 12 years?
 </div>
 
 <div class="solution">
-  (pending)
+The 80486 had roughly 1,000,00 transistors, and the AMD K8 had about 100,000,000 transistors, so there was an increase by a factor of 100.
 </div>
 :::
 
@@ -153,10 +150,11 @@ first 10 squares.
 **2.1.** How many grains were on the 15th square?
 
 <input type="number" data-id="s3-q1"/>  
-(Please don't include commas in your answer, e.g. 12345, not 12,345.)
+(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
-  <p>The correct answer is 16,384.</p>
+If the tenth square has 512 grains (from the table), then you should have worked out (11th = 1,024),
+(12th, 2,048), (13th, 4,096), (14th, 8,192) and (15th, 16,384). The answer is 16,384.
 </div>
 
 <div class="marks">1 mark</div>
@@ -167,7 +165,7 @@ first 10 squares.
 (Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
-  <p>The correct answer is 524,288.</p>
+The answer is 524,288.
 </div>
 
 <div class="marks">1 mark</div>
@@ -178,7 +176,7 @@ first 10 squares.
 (Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
-  <p>The correct answer is 2,147,483,648.</p>
+The answer is 2,147,483,648.
 </div>
 :::
 
@@ -212,7 +210,9 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 </div>
 
 <div class="solution">
-  (pending)
+To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615 seconds, which is roughly 18 x 1018
+sec = 3 x 1017 mins = 5 x 1015 hours = 2.1 x 1014 days = 5.8 x 1011 years = 580 billion years, so the answer is
+roughly 600 billion years.
 </div>
 :::
 
@@ -223,7 +223,7 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks? (Please don't include commas in your answer.)
+How much would each option deliver in total after 6 weeks? (Please include commas in your answer.)
 
 <input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
 
@@ -237,7 +237,9 @@ Which option would you prefer?
 </div>
 
 <div class="solution">
-  <p>The correct answer is 2,147,483,648.</p>
+  <p>Obviously option A delivers ^ x £100 = £600.</p>
+  <p>Option B delivers £10 + £20 + £40 + £80 + £160 + £320 = £630.</p>
+  <p>So option B is preferable.</p>
 </div>
 :::
 
@@ -271,7 +273,7 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 * Pink squares (and their operations) disappear when you move onto them.
 * Lilac squares (and their operations) can be crossed over and over again.
 * IMPORTANT – You will need to run Sumaze! on a PC/Mac. If you are currently on a smartphone or tablet,
-then type this into your PC/Mac browser: bit.ly/parallel_sumaze
+then type this into your PC/Mac browser: https://integralmaths.org/games/parallel_sumaze_v2/
 
 If you have tried a few times and have run out of hints and you are still stuck, then you will eventually be offered
 the chance to skip the level … but, of course, you can also carry on trying.  
@@ -295,26 +297,32 @@ overall Parallelogram total.
 Summaze score by 10 and add it to your overall Parallelogram score. So
 ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
 total score.*
+
+<div class="solution">
+<a href="https://integralmaths.org/games/sumaze_solutions.mp4">This video clip</a> shows the paths you should or
+could have taken to solve each stage with a perfect score.
+</div>
+
 :::
 
 ## 4. Kooks
 
-When you signed up for Parallelograms, you, I suggested that you had to be a bit “kooky” to want to do maths
-at the weekend. Some of you seemed confused by that word, so if might help to click on the song below and hear
+When you signed up for Parallelograms, I suggested that you had to be a bit “kooky” to want to do maths
+at the weekend. Some of you seemed confused by that word, so it might help to click on the song below and hear
 what David Bowie though of kooks and being kooky. You can listen to it while doing question 5.
 
 Also, I should mention that we can apply maths to one of David Bowie’s songs to prove that this piece of music
 is everyone’s friend. He wrote a song (and a whole album) called DIAMOND DOGS. DIAMONDS are a girl’s best friend.
 DOGS are a man’s best friend. So, DIAMOND DOGS is everyone’s best friend!
 
-@[youtube](https://www.youtube.com/watch?v=EsSlOGzPM90?rel=0)
+@[youtube](EsSlOGzPM90?rel=0)
 
-## 4. Junior Maths Challenge question
+## 5. Junior Maths Challenge question
  
 ::: problem
 <div class="marks">2 marks</div>
 
-**4.1.** The positive integers from 1 to 150 inclusive are placed in a 10 by 15 grid so that each cell contains
+**5.1.** The positive integers from 1 to 150 inclusive are placed in a 10 by 15 grid so that each cell contains
 exactly one integer. Then the multiples of 3 are given a red mark, the multiples of 5 are given a blue mark,
 and the multiples of 7 are given a green mark. How many cells have more than 1 mark?
 
@@ -327,24 +335,46 @@ and the multiples of 7 are given a green mark. How many cells have more than 1 m
 </div>
 
 <div class="solution">
-  (pending)
+The squares that receive more than one mark are those which contain integers which are divisible by at least two of
+the integers 3, 5 and 7.
+The integers 3 and 5 are coprime, that is, they have no common factor other than 1.
+Therefore the integers that are divisible by 3 and 5 are precisely those that are divisible by 3 × 5, that is, by 15.
+Every 15th integer is divisible by 15. Hence the number of integers in the range from 1 to 150 that are divisible by
+15 is 150 ÷ 15 = 10.
+
+Similarly, the integers that are divisible by 3 and 7 are precisely those that are divisible by 3 × 7 = 21.
+Now 150 ÷ 21 = 71/7. Therefore the number of integers in the range from 1 to 150 that are divisible by 21 is the
+integer part of 71/7, that is, 7.
+
+In the same way we see that the integers that are divisible by 5 and 7 are precisely those that are divisible by
+5 × 7 = 35. Now 150 ÷ 35 = 42/7. Therefore the number of integers in the range from 1 to 150 that are divisible by
+35 is the integer part of 42/7, that is, 4.
+
+We have 10 + 7 + 4 = 21.
+
+It is important to note that in doing this, integers which are divisible by each of 3, 5 and 7 have been counted
+three times. We need to allow for this over-counting. There is just one integer, namely 105, in the range from 1 to
+150 that is divisible by 3, 5 and 7 and hence which has been counted three times in the sum 10 + 7 + 4.
+
+To allow for this we subtract 2 from this sum, so that 105 is counted just once.
+Therefore the number of squares in the grid that are given more than one mark is 21 – 2 = 19.
 </div>
 :::
 
-## 5. Hidden Figures – more cool stuff
+## 6. Hidden Figures – more cool stuff
 
 Finally, here is a 20-minute video about the film “Hidden Figures”.
 Below are three questions about the first 10 minutes, but hopefully you will watch the whole clip.
 This clip won’t teach you much maths, but it will hopefully help you appreciate what mathematicians can do,
 why people love maths and how you often have to struggle to succeed in maths (or in anything else).
 
-@[youtube](https://www.youtube.com/watch?v=XiwBpkyjrmQ&t=21s?rel=0)
+@[youtube](XiwBpkyjrmQ?rel=0&start=21)
 
 
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.1.** Which musician was the producer of Hidden Figures?
+**6.1.** Which musician was the producer of Hidden Figures?
 
 <div class="choice radio">
   <div x-radio="p_1_1a" class="correct">Pharrell Williams</div>
@@ -354,15 +384,12 @@ why people love maths and how you often have to struggle to succeed in maths (or
   <div x-radio="p_1_1e">Gordon Gano</div>
 </div>
 
-<div class="solution">
-  (pending)
-</div>
 :::
 
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.2.** When NASA is looking for a mathematician, they need an expert in what sort of geometry?
+**6.2.** When NASA is looking for a mathematician, they need an expert in what sort of geometry?
 
 <div class="choice radio">
   <div x-radio="p_1_1a" class="correct">3-dimensional geometry</div>
@@ -371,15 +398,12 @@ why people love maths and how you often have to struggle to succeed in maths (or
   <div x-radio="p_1_1d">Spherical geometry</div>
 </div>
 
-<div class="solution">
-  (pending)
-</div>
 :::
 
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.3.** What was the name of NASA's new computer?
+**6.3.** What was the name of NASA's new computer?
 
 <div class="choice radio">
   <div x-radio="p_1_1a" class="correct">Sinclair ZX Spectrum</div>
@@ -389,7 +413,7 @@ why people love maths and how you often have to struggle to succeed in maths (or
 </div>
 
 <div class="solution">
-  (pending)
+If you watched the clips, you will know that the producer of the film was Pharrell Williams, they needed an expert in analytical geometry, and the new computer was the IBM 7090 DPS.
 </div>
 :::
 
@@ -418,7 +442,7 @@ If you want to find out more about the topics in this week’s Parallel Challeng
 [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html)
 from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”. 
  
-Short, but incredible, [clip of mathematician Katherine Johnson](https://www.youtube.com/watch?v=rIWJFNAN4XI) receiving
+Short, but incredible, [clip of mathematician Katherine Johnson](https://www.youtube.com/watch?v=rIWJFNAN4XI?rel=0) receiving
 the Presidential Medal Of Freedom from President Obama. 
  
 [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
