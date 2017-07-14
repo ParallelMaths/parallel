@@ -271,8 +271,8 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 * To pass through a green square you must satisfy the square’s condition.
 * Pink squares (and their operations) disappear when you move onto them.
 * Lilac squares (and their operations) can be crossed over and over again.
-* IMPORTANT – You will need to run Sumaze! on a PC/Mac. If you are currently on a smartphone or tablet,
-then type this into your PC/Mac browser: https://integralmaths.org/games/parallel_sumaze_v2/
+* IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a smartphone,
+then type this into your PC/Mac/tablet browser: bit.ly/parallel_sumaze
 
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
@@ -306,7 +306,7 @@ could have taken to solve each stage with a perfect score.</p>
 
 When you signed up for Parallelograms, I suggested that you had to be a bit “kooky” to want to do maths
 at the weekend. Some of you seemed confused by that word, so it might help to click on the song below and hear
-what David Bowie though of kooks and being kooky. You can listen to it while doing question 5.
+what David Bowie thought of kooks and being kooky. You can listen to it while doing question 5.
 
 Also, I should mention that we can apply maths to one of David Bowie’s songs to prove that this piece of music
 is everyone’s friend. He wrote a song (and a whole album) called DIAMOND DOGS. DIAMONDS are a girl’s best friend.
