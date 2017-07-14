@@ -255,8 +255,8 @@ function countdown(to) {
 }
 
 function isCorrect(a, b) {
-  a = ('' + a).trim().replace(/\,/g, '');
-  b = ('' + b).trim().replace(/\,/g, '');
+  a = ('' + a).trim().replace(/[^0-9.]/g, '');
+  b = ('' + b).trim().replace(/[^0-9.]/g, '');
   return a === b;
 }
 
@@ -298,5 +298,28 @@ const scoreFunctions = {
     if (a.p_3_1 == 9) score += 4;
     if (a.p_5_1 === 'd') score += 1;
     return score * 10 / 13.5;
+  },
+  3(a) {
+    let score = 0;
+    if (a.p_1_1 === 'c') score += 1;
+    if (a.p_1_2 === 'd') score += 1;
+
+    if (isCorrect(a.p_2_1, 16384)) score += 1;
+    if (isCorrect(a.p_2_2, 524288)) score += 1;
+    if (isCorrect(a.p_2_3, 2147483648)) score += 1;
+    if (a.p_2_4 === 'c') score += 2;
+    if (isCorrect(a.p_2_5a, 600)) score += 1;
+    if (isCorrect(a.p_2_5b, 630)) score += 1;
+    if (a.p_2_5c === 'b') score += 1;
+
+    // TODO Summaze scoring + 4.5
+
+    if (a.p_5_1 === 'e') score += 2;
+
+    if (a.p_6_1 === 'a') score += 2;
+    if (a.p_6_2 === 'b') score += 2;
+    if (a.p_6_3 === 'd') score += 2;
+
+    return score * 10 / 22.5;
   }
 };

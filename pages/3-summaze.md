@@ -11,15 +11,14 @@ Here is this week’s meander through mathematics:
 
 ## 1. Hidden Figures – another maths movie
 
-<img src="/images/challenges/3/hidden-figures-poster.png" width="20%" height="20%" style="float: right; margin-left: 1rem"/>
+<img src="/images/challenges/3/hidden-figures-poster.png" width="170" style="float: right; margin-left: 1rem"/>
 
 Last week we looked at the film “Good Will Hunting” and explored one of the
 mathematical problems that appears in it. I also posed a question about another
 film: “What is the title of the film that celebrates the role of the pioneering
 women mathematicians at NASA in the 1960s?”  
-Most of you correctly identified the film as Hidden Figures. Let’s start by watching the trailer.
 
-<br/>
+Most of you correctly identified the film as Hidden Figures. Let’s start by watching the trailer.
 
 @[youtube](RK8xHq6dfAo?rel=0)
 
@@ -30,15 +29,15 @@ Most of you correctly identified the film as Hidden Figures. Let’s start by wa
 hours did the children say their mother had been gone?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a">3 hours</div>
-  <div x-radio="p_1_1b">30 hours</div>
-  <div x-radio="p_1_1c" class="correct">300 hours</div>
-  <div x-radio="p_1_1d">3,000 hours</div>
-  <div x-radio="p_1_1e">30,000 hours</div>
+  <div x-radio="p_1_1, a">3 hours</div>
+  <div x-radio="p_1_1, b">30 hours</div>
+  <div x-radio="p_1_1, c" class="correct">300 hours</div>
+  <div x-radio="p_1_1, d">3,000 hours</div>
+  <div x-radio="p_1_1, e">30,000 hours</div>
 </div>
 
 <div class="solution">
-Yes, 300 hours, which the mother immediately converts into 12½ days.
+<p>Yes, 300 hours, which the mother immediately converts into 12½ days.</p>
 </div>
 :::
 
@@ -50,7 +49,7 @@ watching if your parents or teacher can get hold of the DVD.
 
 | ![](/images/challenges/2/nasa-3.jpg) | ![](/images/challenges/2/nasa-4.jpg) |
 
-The women were known as computers, because the original term computer
+The women were known as “computers”, because the original term computer
 referred to a person who did calculations. Only later did the term computer
 become more associated with machines. Increasingly, machine computers at NASA
 took over from human computers, and many of the women became some of the first
@@ -109,15 +108,16 @@ and the number of transistors on the AMD K8 microprocessor (~2002). By what
 factor did the number of transistors increase in just 12 years?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a">2</div>
-  <div x-radio="p_1_1b">10</div>
-  <div x-radio="p_1_1c">50</div>
-  <div x-radio="p_1_1d">100</div>
-  <div x-radio="p_1_1e">500</div>
+  <div x-radio="p_1_2, a">2</div>
+  <div x-radio="p_1_2, b">10</div>
+  <div x-radio="p_1_2, c">50</div>
+  <div x-radio="p_1_2, d" class="correct">100</div>
+  <div x-radio="p_1_2, e">500</div>
 </div>
 
 <div class="solution">
-The 80486 had roughly 1,000,00 transistors, and the AMD K8 had about 100,000,000 transistors, so there was an increase by a factor of 100.
+<p>The 80486 had roughly 1,000,00 transistors, and the AMD K8 had about 100,000,000
+transistors, so there was an increase by a factor of 100.</p>
 </div>
 :::
 
@@ -149,31 +149,32 @@ first 10 squares.
 
 **2.1.** How many grains were on the 15th square?
 
-<input type="number" data-id="s3-q1"/>  
+<input type="number" x-input="p_2_1, 16384"/>  
 
 <div class="solution">
-If the tenth square has 512 grains (from the table), then you should have worked out (11th = 1,024),
-(12th, 2,048), (13th, 4,096), (14th, 8,192) and (15th, 16,384). The answer is 16,384.
+<p>If the tenth square has 512 grains (from the table), then you should have
+worked out (11th = 1,024), (12th, 2,048), (13th, 4,096), (14th, 8,192) and
+(15th, 16,384). The answer is 16,384.</p>
 </div>
 
 <div class="marks">1 mark</div>
 
 **2.2** How many grains were on the 20th square? 
 
-<input type="number" data-id="s3-q1"/>   
+<input type="number" x-input="p_2_2, 524288"/>  
 
 <div class="solution">
-The answer is 524,288.
+<p>The answer is 524,288.</p>
 </div>
 
 <div class="marks">1 mark</div>
 
 **2.3.** How many grains were on the 32nd square?  
 
-<input type="number" data-id="s3-q1"/>  
+<input type="number" x-input="p_2_3, 2147483648"/>  
 
 <div class="solution">
-The answer is 2,147,483,648.
+<p>The answer is 2,147,483,648.</p>
 </div>
 :::
 
@@ -199,17 +200,18 @@ the rice if he can count them. If the mathematician counts at the rate of 1 grai
 take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of these answers is closest?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a">400 years</div>
-  <div x-radio="p_1_1b">500 million years</div>
-  <div x-radio="p_1_1c" class="correct">600 billion years</div>
-  <div x-radio="p_1_1d">700 trillion years</div>
-  <div x-radio="p_1_1e">800 quadrillion years</div>
+  <div x-radio="p_2_4, a">400 years</div>
+  <div x-radio="p_2_4, b">500 million years</div>
+  <div x-radio="p_2_4, c" class="correct">600 billion years</div>
+  <div x-radio="p_2_4, d">700 trillion years</div>
+  <div x-radio="p_2_4, e">800 quadrillion years</div>
 </div>
 
 <div class="solution">
-To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615 seconds, which is roughly 18 x 1018
-sec = 3 x 1017 mins = 5 x 1015 hours = 2.1 x 1014 days = 5.8 x 1011 years = 580 billion years, so the answer is
-roughly 600 billion years.
+<p>To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615
+seconds, which is roughly 18 x 1018 sec = 3 x 1017 mins = 5 x 1015 hours = 2.1 x
+1014 days = 5.8 x 1011 years = 580 billion years, so the answer is roughly 600
+billion years.</p>
 </div>
 :::
 
@@ -222,19 +224,19 @@ roughly 600 billion years.
 
 How much would each option deliver in total after 6 weeks?
 
-<input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
+<input type="number" x-input="p_2_5a, 600" placeholder="Option A Total"/>  
 
-<input type="number" data-id="s3-q1" placeholder="Option B Total"/>
+<input type="number" x-input="p_2_5b, 630" placeholder="Option B Total"/>
   
 Which option would you prefer?
 
 <div class="choice radio s2">
-  <div x-radio="p_1_1a">A</div>
-  <div x-radio="p_1_1b">B</div>
+  <div x-radio="p_2_5c, a">A</div>
+  <div x-radio="p_2_5c, b" class="correct">B</div>
 </div>
 
 <div class="solution">
-  <p>Obviously option A delivers ^ x £100 = £600.</p>
+  <p>Obviously option A delivers 6 x £100 = £600.</p>
   <p>Option B delivers £10 + £20 + £40 + £80 + £160 + £320 = £630.</p>
   <p>So option B is preferable.</p>
 </div>
@@ -288,7 +290,7 @@ to check the rules above).
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<input type="number" data-id="s3-q1" placeholder="Summaze Code Word"/>
+<input type="number" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Summaze Code Word"/>
 
 *The maximum score in Summaze is 1 + 2 + 3+ … + 9 = 45. We will divide your
 Summaze score by 10 and add it to your overall Parallelogram score. So
@@ -296,11 +298,11 @@ ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
 total score.*
 
 <div class="solution">
-<a href="https://integralmaths.org/games/sumaze_solutions.mp4">This video clip</a> shows the paths you should or
-could have taken to solve each stage with a perfect score.
+<p><a href="https://integralmaths.org/games/sumaze_solutions.mp4">This video clip</a> shows the paths you should or
+could have taken to solve each stage with a perfect score.</p>
 </div>
-
 :::
+
 
 ## 4. Kooks
 
@@ -314,6 +316,7 @@ DOGS are a man’s best friend. So, DIAMOND DOGS is everyone’s best friend!
 
 @[youtube](EsSlOGzPM90?rel=0)
 
+
 ## 5. Junior Maths Challenge question
  
 ::: problem
@@ -324,19 +327,21 @@ exactly one integer. Then the multiples of 3 are given a red mark, the multiples
 and the multiples of 7 are given a green mark. How many cells have more than 1 mark?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a">10</div>
-  <div x-radio="p_1_1b">12</div>
-  <div x-radio="p_1_1c">15</div>
-  <div x-radio="p_1_1d">18</div>
-  <div x-radio="p_1_1e">19</div>
+  <div x-radio="p_5_1, a">10</div>
+  <div x-radio="p_5_1, b">12</div>
+  <div x-radio="p_5_1, c">15</div>
+  <div x-radio="p_5_1, d">18</div>
+  <div x-radio="p_5_1, e" class="correct">19</div>
 </div>
 
 <div class="solution">
-The squares that receive more than one mark are those which contain integers which are divisible by at least two of
-the integers 3, 5 and 7.
-The integers 3 and 5 are coprime, that is, they have no common factor other than 1.
-Therefore the integers that are divisible by 3 and 5 are precisely those that are divisible by 3 × 5, that is, by 15.
-Every 15th integer is divisible by 15. Hence the number of integers in the range from 1 to 150 that are divisible by
+
+The squares that receive more than one mark are those which contain integers
+which are divisible by at least two of the integers 3, 5 and 7. The integers 3
+and 5 are coprime, that is, they have no common factor other than 1. Therefore
+the integers that are divisible by 3 and 5 are precisely those that are
+divisible by 3 × 5, that is, by 15. Every 15th integer is divisible by 15. Hence
+the number of integers in the range from 1 to 150 that are divisible by
 15 is 150 ÷ 15 = 10.
 
 Similarly, the integers that are divisible by 3 and 7 are precisely those that are divisible by 3 × 7 = 21.
@@ -355,8 +360,10 @@ three times. We need to allow for this over-counting. There is just one integer,
 
 To allow for this we subtract 2 from this sum, so that 105 is counted just once.
 Therefore the number of squares in the grid that are given more than one mark is 21 – 2 = 19.
+
 </div>
 :::
+
 
 ## 6. Hidden Figures – more cool stuff
 
@@ -374,43 +381,39 @@ why people love maths and how you often have to struggle to succeed in maths (or
 **6.1.** Which musician was the producer of Hidden Figures?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a" class="correct">Pharrell Williams</div>
-  <div x-radio="p_1_1b">Jay Z</div>
-  <div x-radio="p_1_1c">Ed Sheeran</div>
-  <div x-radio="p_1_1d">Bruno Mars</div>
-  <div x-radio="p_1_1e">Gordon Gano</div>
+  <div x-radio="p_6_1, a" class="correct">Pharrell Williams</div>
+  <div x-radio="p_6_1, b">Jay Z</div>
+  <div x-radio="p_6_1, c">Ed Sheeran</div>
+  <div x-radio="p_6_1, d">Bruno Mars</div>
+  <div x-radio="p_6_1, e">Gordon Gano</div>
 </div>
 
-:::
-
-::: problem
 <div class="marks">2 marks</div>
 
 **6.2.** When NASA is looking for a mathematician, they need an expert in what sort of geometry?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a" class="correct">3-dimensional geometry</div>
-  <div x-radio="p_1_1b" class="correct">Analytical geometry</div>
-  <div x-radio="p_1_1c">Orbital geometry</div>
-  <div x-radio="p_1_1d">Spherical geometry</div>
+  <div x-radio="p_6_2, a">3-dimensional geometry</div>
+  <div x-radio="p_6_2, b" class="correct">Analytical geometry</div>
+  <div x-radio="p_6_2, c">Orbital geometry</div>
+  <div x-radio="p_6_2, d">Spherical geometry</div>
 </div>
 
-:::
-
-::: problem
 <div class="marks">2 marks</div>
 
 **6.3.** What was the name of NASA's new computer?
 
 <div class="choice radio">
-  <div x-radio="p_1_1a" class="correct">Sinclair ZX Spectrum</div>
-  <div x-radio="p_1_1b">Sinclair C5</div>
-  <div x-radio="p_1_1c">Cray CDC 6600</div>
-  <div x-radio="p_1_1d">IBM 7090 DPS</div>
+  <div x-radio="p_6_3, a">Sinclair ZX Spectrum</div>
+  <div x-radio="p_6_3, b">Sinclair C5</div>
+  <div x-radio="p_6_3, c">Cray CDC 6600</div>
+  <div x-radio="p_6_3, d" class="correct">IBM 7090 DPS</div>
 </div>
 
 <div class="solution">
-If you watched the clips, you will know that the producer of the film was Pharrell Williams, they needed an expert in analytical geometry, and the new computer was the IBM 7090 DPS.
+<p>If you watched the clips, you will know that the producer of the film was
+Pharrell Williams, they needed an expert in analytical geometry, and the new
+computer was the IBM 7090 DPS.</p>
 </div>
 :::
 
