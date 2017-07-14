@@ -312,7 +312,7 @@ const scoreFunctions = {
     if (isCorrect(a.p_2_5b, 630)) score += 1;
     if (a.p_2_5c === 'b') score += 1;
 
-    // TODO Summaze scoring + 4.5
+    // TODO Sumaze scoring + 4.5
 
     if (a.p_5_1 === 'e') score += 2;
 

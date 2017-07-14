@@ -26,7 +26,6 @@ To deploy updates to the [live site](https://parallel.org.uk), use
 - __Fix feedback form for Safari__
 - __Add open graph data to <head>__
 - __Nicer sidebar icons__
-- __Check and fix scoring (e.g. numbers)__
 - Improve mobile design
 - Alert when submitting without answering everything (or allow resubmit)
 - Loading state for forms, CSS for invalid fields

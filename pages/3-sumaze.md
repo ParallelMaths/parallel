@@ -274,8 +274,6 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 * IMPORTANT – You will need to run Sumaze! on a PC/Mac. If you are currently on a smartphone or tablet,
 then type this into your PC/Mac browser: https://integralmaths.org/games/parallel_sumaze_v2/
 
-If you have tried a few times and have run out of hints and you are still stuck, then you will eventually be offered
-the chance to skip the level … but, of course, you can also carry on trying.  
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
@@ -290,10 +288,10 @@ to check the rules above).
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<input type="number" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Summaze Code Word"/>
+<input type="number" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Sumaze Code Word"/>
 
-*The maximum score in Summaze is 1 + 2 + 3+ … + 9 = 45. We will divide your
-Summaze score by 10 and add it to your overall Parallelogram score. So
+*The maximum score in Sumaze is 1 + 2 + 3+ … + 9 = 45. We will divide your
+Sumaze score by 10 and add it to your overall Parallelogram score. So
 ultimately a perfect Sumaze score will be add 45/10 = 4.5 to your Parallelogram
 total score.*
 
