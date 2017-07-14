@@ -153,7 +153,6 @@ first 10 squares.
 **2.1.** How many grains were on the 15th square?
 
 <input type="number" data-id="s3-q1"/>  
-(Please don't include commas in your answer, e.g. 12345, not 12,345.)
 
 <div class="solution">
   <p>The correct answer is 16,384.</p>
@@ -164,7 +163,6 @@ first 10 squares.
 **2.2** How many grains were on the 20th square? 
 
 <input type="number" data-id="s3-q1"/>   
-(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
   <p>The correct answer is 524,288.</p>
@@ -175,7 +173,6 @@ first 10 squares.
 **2.3.** How many grains were on the 32nd square?  
 
 <input type="number" data-id="s3-q1"/>  
-(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
   <p>The correct answer is 2,147,483,648.</p>
@@ -223,7 +220,7 @@ take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of th
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks? (Please don't include commas in your answer.)
+How much would each option deliver in total after 6 weeks?
 
 <input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
 
@@ -398,10 +395,12 @@ In an off-hand comment, I implied that the great mathematician Carl Friedrich Ga
 In fact, his teacher was Johann Georg Büttner, one of the world’s first properly trained maths teachers,
 who played a major role in Gauss’s development. Thanks to Alan Parr from Hertfordshire for pointing this out,
 and giving me a chance thank all hardworking teachers throughout the centuries and today.
+
 And that’s everything for this week, except to pick out a very famous quote by President Kennedy,
 which you will have seen in the last video. When he was inspiring America to back NASA’s efforts to explore space,
 Kennedy said: “We choose to go to the moon in this decade and do the other things, not because they are easy,
-but because they are hard.”  
+but because they are hard.”
+
 The Parallel Challenges are not in the same league as going to the moon, but it is the same principle.
 You should do your best to complete them “…not because they are easy, but because they are hard.” 
 
