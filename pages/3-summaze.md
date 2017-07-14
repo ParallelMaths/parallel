@@ -150,7 +150,6 @@ first 10 squares.
 **2.1.** How many grains were on the 15th square?
 
 <input type="number" data-id="s3-q1"/>  
-(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
 If the tenth square has 512 grains (from the table), then you should have worked out (11th = 1,024),
@@ -162,7 +161,6 @@ If the tenth square has 512 grains (from the table), then you should have worked
 **2.2** How many grains were on the 20th square? 
 
 <input type="number" data-id="s3-q1"/>   
-(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
 The answer is 524,288.
@@ -173,7 +171,6 @@ The answer is 524,288.
 **2.3.** How many grains were on the 32nd square?  
 
 <input type="number" data-id="s3-q1"/>  
-(Please include commas in your answer, e.g. 12,345, not 12345.)
 
 <div class="solution">
 The answer is 2,147,483,648.
@@ -223,7 +220,7 @@ roughly 600 billion years.
 * Option A – £100/week.
 * Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks? (Please include commas in your answer.)
+How much would each option deliver in total after 6 weeks?
 
 <input type="number" data-id="s3-q1" placeholder="Option A Total"/>  
 
