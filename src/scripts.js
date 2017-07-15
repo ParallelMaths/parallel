@@ -214,7 +214,8 @@ function ready() {
         if (s >= 2) return ['Line', '1D'];
         return ['Point', '0D'];
       },
-      isCorrect: isCorrect,
+      isCorrect,
+      sumazeScore,
       results: { 1: null, 2: null, 3: null, 4: null }
     },
     computed: {
@@ -269,6 +270,18 @@ function getScore(answers, id) {
   return round(/*answers.score || */scoreFunctions[id](answers));
 }
 
+function sumazeScore(x) {
+  if (!x) return 0;
+
+  let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let L = x[0];
+  let T = +x.slice(1) - 3141;
+  let N = 11 + ((alphabet.indexOf(L.toUpperCase()) + 13) % 26);
+
+  let S = T / N;
+  return (S > 45 || S < 0) ? 0 : (S || 0);
+}
+
 const scoreFunctions = {
   1(a) {
     let score = 0;
@@ -312,7 +325,7 @@ const scoreFunctions = {
     if (isCorrect(a.p_2_5b, 630)) score += 1;
     if (a.p_2_5c === 'b') score += 1;
 
-    // TODO Sumaze scoring + 4.5
+    score += sumazeScore(a.p_3_1) / 10;
 
     if (a.p_5_1 === 'e') score += 2;
 

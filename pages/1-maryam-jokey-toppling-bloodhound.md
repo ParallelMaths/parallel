@@ -209,6 +209,18 @@ Let’s see if you can apply Gauss’s trick.
 </div>
 :::
 
+> On 15 July 2017, two weeks after this Parallelogram was created, I was shocked
+> and saddened to hear about the death of Maryam Mirzakhani. The Iranian-born
+> NASA scientist, Firouz Naderi, wrote: “A light was turned off today, it breaks
+> my heart…. Gone far too soon.” Commenting on her brilliant work with Alex
+> Eskin, she commented: ““If we knew things would be so complicated, I think we
+> would have given up … I don’t know; actually, I don’t know. I don’t give up
+> easily.”
+   
+> I wanted Mirzakhani to be part of the first Parallelogram because her story is
+> so inspirational. In future years, I hope that students working through this
+> Parallelogram will continue to be inspired by her achievements.
+
 
 ## 4. Domino toppling
 
