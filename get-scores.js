@@ -57,6 +57,7 @@ for (let i=1; i<=2; ++i) {
 
     const answer = answers[uid][i];
     const user = users[uid];
+    if (!answer) continue;
     const score = Math.round(scoreFunctions[i](answer) * 10);
 
     const row = [user.first, user.last, user.school, user.country, user.gender,
