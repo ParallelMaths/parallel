@@ -16,44 +16,52 @@ and you watched a trailer for the film.
 A couple of you mentioned the equation that the young Katherine Johnson was trying to solve on the school blackboard,
 which you can see in this still from the film.
 
+![](images/challenges/4/blackboard.png)
 
 In case it is not clear, the question is: 
 
 Solve the equation for x:
 
-(x2 +6x -7)(2x2 – 5x - 3) = 0
-
+![](images/challenges/4/blackboard-equation.png)
 
 Some of you might have come across this sort of equation before, or perhaps a simpler version of it. Either way,
 here is a step-by-step method for solving it, or rather two methods.
 
-<em>Method 1 (Brute force)</em>
+**Method 1 (Brute force)**
 
 Brute force means doing it the hard way. If you want to open a locked door, then the smart way is to find the key or
 pick the lock, but the brute force way is to just smash through the door. In this case, brute force means testing
 every possible value of x until you find some solutions.
 
-For, x = 0		(x2 +6x -7)(2x2 – 5x - 3) = 	      -7 x -3 		= 21
-For, x = 1		(x2 +6x -7)(2x2 – 5x - 3) =   	  0 x -6		=  0
-For, x = 2		(x2 +6x -7)(2x2 – 5x - 3) =	 	  9 x -5		= -45
+For x = 0,
+![](images/challenges/4/blackboard-equation-x0.png)
+
+For x = 1,
+![](images/challenges/4/blackboard-equation-x1.png)
+
+For x = 2,
+![](images/challenges/4/blackboard-equation-x2.png)
+
 
 So, after checking three values of x, we found one solution, i.e., the equation equals zero when x = 1.
 In this case, the brute force approach has delivered a solution, but there are 4 solutions in total and it
 might take ages to find the others if we followed the brute force approach, particularly if the other values of
 x are very large or fractions or decimals.
 
-<em>Method 2 (Smart Maths)</em>
+**Method 2 (Smart Maths)**
 
-If we have an expression involving something like (x2 +6x -7), then we can often factor it into a pair of simpler
-bracketed terms, which in this case would be (x + 7).(x – 1).
+If we have an expression involving something like (x<sup>2</sup> + 6x - 7), then we can often factor it into a pair of simpler
+bracketed terms, which in this case would be (x + 7)(x – 1).
 
-Similarly, we can rewrite (2x2 – 5x - 3) as (2x + 1).(x - 3).
+Similarly, we can rewrite (2x<sup>2</sup> – 5x - 3) as (2x + 1)(x - 3).
 
 Therefore,
- 		(x2 +6x -7)(2x2 – 5x - 3) = 0
 
-…. can be re-written as,
-		(x + 7).(x – 1). (2x + 1).(x - 3) = 0
+(x<sup>2</sup> + 6x - 7)(2x<sup>2</sup> – 5x - 3) = 0
+
+can be re-written as
+
+(x + 7)(x – 1)(2x + 1)(x - 3) = 0
 
 Of course, if the four brackets multiply to make zero, then at least of the brackets must equal zero,
 which means x = -7, 1, -½ or 3.
@@ -63,7 +71,7 @@ which means x = -7, 1, -½ or 3.
 
 **1.1** What are values for x in this equation?	Try the Smart Maths method first, but if you are stuck then try brute force.
 
-(x2 - 3x + 2)(x2 + 3x + 2) = 0
+(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = 0
 
 There are 4 possible answers, so just click on four of the answers below.	
 
@@ -80,7 +88,7 @@ There are 4 possible answers, so just click on four of the answers below.
 </div>
 
 <div class="solution">
-(x2 - 3x + 2)(x2 + 3x + 2) = (x – 1).(x – 2) (x + 1).(x +2) = 0
+(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0
 
 So, x = 1, 2, -1, -2.
 </div>
@@ -192,11 +200,11 @@ And 20 x 41 = 820.
 **5.2** In Challenge 2, we talked about the film “Good Will Hunting” and the janitor solved a problem about mathematical tree diagrams. Below are five tree diagrams, but four of them are essentially the same. Which tree is different?
 
 <div class="choice radio">
-  <div x-radio="p_1_1, a">800</div>
-  <div x-radio="p_1_1, b">810</div>
-  <div x-radio="p_1_1, c" class="correct">820</div>
-  <div x-radio="p_1_1, d">822</div>
-  <div x-radio="p_1_1, d">822</div>
+  <div x-radio="p_1_1, a"><img src="/images/challenges/4/graph-a.png" height="50%" width="50%"/></div>
+  <div x-radio="p_1_1, b"><img src="/images/challenges/4/graph-b.png" height="50%" width="50%"/></div>
+  <div x-radio="p_1_1, c" class="correct"><img src="/images/challenges/4/graph-c.png" height="50%" width="50%"/></div>
+  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-d.png" height="50%" width="50%"/></div>
+  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-e.png" height="50%" width="50%"/></div>
 </div>
 
 <div class="solution">
@@ -248,10 +256,10 @@ Parallelogram puzzles.
 One of the best maths sites is the video channel Numberphile, which has hundreds of brilliant videos.
 Here are just a few to get you started (including one presented by me):
 
-* Pi and Four Fingers and The Simpsons
-* Balancing a Ruler
-* Chaos Game
-* The Scientific (Mathematical) Way to Cut a Cake
+* [Pi and Four Fingers and The Simpsons](https://www.youtube.com/watch?v=K305Vu7hFg0?rel=0)
+* [Balancing a Ruler](https://www.youtube.com/watch?v=djmec-Bweeg?rel=0)
+* [Chaos Game](https://www.youtube.com/watch?v=kbKtFN71Lfs?rel=0)
+* [The Scientific (Mathematical) Way to Cut a Cake](https://www.youtube.com/watch?v=wBU9N35ZHIw?rel=0)
 
 ## Credits
 
