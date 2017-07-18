@@ -213,7 +213,7 @@ Let’s see if you can apply Gauss’s trick.
 > and saddened to hear about the death of Maryam Mirzakhani. The Iranian-born
 > NASA scientist, Firouz Naderi, wrote: “A light was turned off today, it breaks
 > my heart…. Gone far too soon.” Commenting on her brilliant work with Alex
-> Eskin, she commented: ““If we knew things would be so complicated, I think we
+> Eskin, she commented: “If we knew things would be so complicated, I think we
 > would have given up … I don’t know; actually, I don’t know. I don’t give up
 > easily.”
    
