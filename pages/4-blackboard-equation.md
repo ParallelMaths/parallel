@@ -50,18 +50,20 @@ x are very large or fractions or decimals.
 
 **Method 2 (Smart Maths)**
 
-If we have an expression involving something like (x<sup>2</sup> + 6x - 7), then we can often factor it into a pair of simpler
-bracketed terms, which in this case would be (x + 7)(x – 1).
+If we have an expression involving something like <span class="eq">(x<sup>2</sup> + 6x – 7)</span>,
+then we can often factor it into a pair of simpler bracketed terms, which in this case would be
+<span class="eq">(x + 7)(x – 1)</span>.
 
-Similarly, we can rewrite (2x<sup>2</sup> – 5x - 3) as (2x + 1)(x - 3).
+Similarly, we can rewrite <span class="eq">(2x<sup>2</sup> – 5x – 3)</span> as
+<span class="eq">(2x + 1)(x – 3)</span>.
 
 Therefore,
 
-(x<sup>2</sup> + 6x - 7)(2x<sup>2</sup> – 5x - 3) = 0
+<span class="eq">(x<sup>2</sup> + 6x – 7)(2x<sup>2</sup> – 5x – 3) = 0</span>
 
 can be re-written as
 
-(x + 7)(x – 1)(2x + 1)(x - 3) = 0
+<span class="eq">(x + 7)(x – 1)(2x + 1)(x – 3) = 0</span>
 
 Of course, if the four brackets multiply to make zero, then at least of the brackets must equal zero,
 which means x = -7, 1, -½ or 3.
@@ -71,7 +73,7 @@ which means x = -7, 1, -½ or 3.
 
 **1.1** What are values for x in this equation?	Try the Smart Maths method first, but if you are stuck then try brute force.
 
-(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = 0
+<span class="eq">(x<sup>2</sup> – 3x + 2)(x<sup>2</sup> + 3x + 2) = 0</span>
 
 There are 4 possible answers, so just click on four of the answers below.	
 
@@ -88,7 +90,7 @@ There are 4 possible answers, so just click on four of the answers below.
 </div>
 
 <div class="solution">
-(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0
+<span class="eq">(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0</span>
 
 So, x = 1, 2, -1, -2.
 </div>
@@ -128,7 +130,7 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps, her
 * You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
     but it is better to finish all the levels once you have started.
 
-Start by clicking here, and Sumaze! will open up in another tab (which means you can always come back to check
+Start by clicking [here](https://integralmaths.org/games/parallel_sumaze_v2/), and Sumaze! will open up in another tab (which means you can always come back to check
 the rules above).
 
 ::: problem
@@ -137,11 +139,18 @@ the rules above).
 **3.1** When you have finished Sumaze, you will receive a score and a code word. Please enter your code word here,
     so that we can add your Sumaze score to your overall Parallelogram total.
 
-The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your Sumaze score by 10 and add it to 
-our overall Parallelogram score. So ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
-total score.
+<input type="text" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Sumaze Code Word"/>
+<p style="text-align: center; margin-top: -1rem; font-weight: bold; font-size: 1.4rem;" v-show="answers.p_3_1">Score: {{sumazeScore(answers.p_3_1)}} / 45</p>
 
-Ed – copy and paste ANSWER SECTION FROM PREVIOUS PARALLELOGRAM – WAIT FOR ANSWERS FROM RICHARD
+*The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
+Sumaze score by 10 and add it to your overall Parallelogram score. So
+ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
+total score.*
+
+<div class="solution">
+<p><a href="https://integralmaths.org/games/sumaze_solutions.mp4">This video clip</a> shows the paths you should or
+could have taken to solve each stage with a perfect score.</p>
+</div>
 
 :::
 
@@ -158,6 +167,7 @@ Trolley Problem and realise that sometimes it is hard to decide what is right an
 
 @[youtube](bOpf6KcWYyw)
 
+
 ## 4. Mathigon – Graphs & Networks
 
 Philipp Legner, a software engineer at Google, has created a brilliant online maths resource called Mathigon.
@@ -166,7 +176,8 @@ of understanding everything from the brain to the Internet, from railways to fri
 Networks in Parallelogram #2 (Good Will Hunting and the tree problem), but otherwise I suspect that this a topic
 that will be new to almost of all of you.
 
-PHILIPP – please can you write this handover section and the answer section. Can you creating a scoring system that delivers a maximum between 5 and 10.
+__TODO - Philipp's handover section + answers__
+
 
 ## 5. Review Quiz
 
@@ -200,11 +211,11 @@ And 20 x 41 = 820.
 **5.2** In Challenge 2, we talked about the film “Good Will Hunting” and the janitor solved a problem about mathematical tree diagrams. Below are five tree diagrams, but four of them are essentially the same. Which tree is different?
 
 <div class="choice radio">
-  <div x-radio="p_1_1, a"><img src="/images/challenges/4/graph-a.png" height="50%" width="50%"/></div>
-  <div x-radio="p_1_1, b"><img src="/images/challenges/4/graph-b.png" height="50%" width="50%"/></div>
-  <div x-radio="p_1_1, c" class="correct"><img src="/images/challenges/4/graph-c.png" height="50%" width="50%"/></div>
-  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-d.png" height="50%" width="50%"/></div>
-  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-e.png" height="50%" width="50%"/></div>
+  <div x-radio="p_1_1, a"><img src="/images/challenges/4/graph-a.png" height="25%" width="25%"/></div>
+  <div x-radio="p_1_1, b"><img src="/images/challenges/4/graph-b.png" height="25%" width="25%"/></div>
+  <div x-radio="p_1_1, c" class="correct"><img src="/images/challenges/4/graph-c.png" height="25%" width="25%"/></div>
+  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-d.png" height="25%" width="25%"/></div>
+  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-e.png" height="25%" width="25%"/></div>
 </div>
 
 <div class="solution">
