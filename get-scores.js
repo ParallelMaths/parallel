@@ -13,6 +13,18 @@ function isCorrect(a, b) {
   return a === b;
 }
 
+function sumazeScore(x) {
+  if (!x) return 0;
+
+  let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let L = x[0];
+  let T = +x.slice(1) - 3141;
+  let N = 11 + ((alphabet.indexOf(L.toUpperCase()) + 13) % 26);
+
+  let S = T / N;
+  return (S > 45 || S < 0) ? 0 : (S || 0);
+}
+
 const scoreFunctions = {
   1(a) {
     let score = 0;
@@ -42,11 +54,34 @@ const scoreFunctions = {
     if (a.p_3_1 == 9) score += 4;
     if (a.p_5_1 === 'd') score += 1;
     return score * 10 / 13.5;
+  },
+  3(a) {
+    let score = 0;
+    if (a.p_1_1 === 'c') score += 1;
+    if (a.p_1_2 === 'd') score += 1;
+
+    if (isCorrect(a.p_2_1, 16384)) score += 1;
+    if (isCorrect(a.p_2_2, 524288)) score += 1;
+    if (isCorrect(a.p_2_3, 2147483648)) score += 1;
+    if (a.p_2_4 === 'c') score += 2;
+    if (isCorrect(a.p_2_5a, 600)) score += 1;
+    if (isCorrect(a.p_2_5b, 630)) score += 1;
+    if (a.p_2_5c === 'b') score += 1;
+
+    score += sumazeScore(a.p_3_1) / 10;
+
+    if (a.p_5_1 === 'e') score += 2;
+
+    if (a.p_6_1 === 'a') score += 2;
+    if (a.p_6_2 === 'b') score += 2;
+    if (a.p_6_3 === 'd') score += 2;
+
+    return score * 10 / 22.5;
   }
 };
 
 
-for (let i=1; i<=2; ++i) {
+for (let i=1; i<=3; ++i) {
   let rows = [];
   const columns = ['first', 'last', 'school', 'country', 'gender', 'birthYear',
     'difficulty', 'fun', 'interesting', 'length', 'submitted', 'score'];

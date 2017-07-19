@@ -15,6 +15,14 @@ block content
     p.large Parallelogram #2: {{results[2] * 10}}%
     p {{level(results[2])[0]}} ({{level(results[2])[1]}})
 
+  .status.score(v-show="results[3] !== null" v-bind:class="level(results[3])[0]" style="max-width: 440px;")
+    p.large Parallelogram #3: {{results[3] * 10}}%
+    p {{level(results[3])[0]}} ({{level(results[3])[1]}})
+
+  .status.score(v-show="results[4] !== null" v-bind:class="level(results[4])[0]" style="max-width: 440px;")
+    p.large Parallelogram #4: {{results[4] * 10}}%
+    p {{level(results[4])[0]}} ({{level(results[4])[1]}})
+
 
   h2 What does your score mean?
 
