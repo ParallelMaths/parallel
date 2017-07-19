@@ -18,7 +18,7 @@ mathematician to achieve their potential. You can find out more about Top-Top
 Sets below.
 
 Both the Top-Top Set Project and the Parallel Project are run by author Simon
-Singh and [Good Thinking](http://parallel.org.uk/about#good-thinking), a charity that
+Singh and [Good Thinking](#good-thinking), a charity that
 promotes science and challenges pseudoscience. Different parts of the website
 were designed and built by Philipp Legner (creator of the brilliant
 [Mathigon](https://mathigon.org/)), Richard Lissaman (creator of the superb
