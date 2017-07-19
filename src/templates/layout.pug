@@ -44,7 +44,7 @@ html
         if challenge
           div(class="status" v-if="status == 'locked'") This parallelogram is locked and will open in {{countdown}}.
           div(class="status" v-if="status == 'open'") You have {{countdown}} left to submit your answers.
-          div(class="status" v-if="status == 'submitted'") You've already submitted your answersand can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
+          div(class="status" v-if="status == 'submitted'") You've already submitted your answers and can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
           include score
 
         block content
