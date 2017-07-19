@@ -130,8 +130,9 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps, her
 * You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
     but it is better to finish all the levels once you have started.
 
-Start by clicking [here](https://integralmaths.org/games/parallel_sumaze_v2/), and Sumaze! will open up in another tab (which means you can always come back to check
-the rules above).
+Start by clicking [here](https://integralmaths.org/games/parallel_sumaze_4/),
+and Sumaze! will open up in another tab (which means you can always come back to
+check the rules above).
 
 ::: problem
 <div class="marks">4.5 marks</div>
@@ -177,6 +178,8 @@ Networks in Parallelogram #2 (Good Will Hunting and the tree problem), but other
 that will be new to almost of all of you.
 
 __TODO - Philipp's handover section + answers__
+
+<a class="external" href="https://mathigon.org/parallel/graphs-and-networks" target="_blank">Open Mathigon</a>
 
 
 ## 5. Review Quiz

@@ -309,7 +309,7 @@ select {
   padding-right: 28px;
 }
 
-button[type="submit"] {
+button[type="submit"], a.external {
   background: @RED;
   border: none;
   border-radius: 4px;
@@ -322,6 +322,9 @@ button[type="submit"] {
   outline: none;
   transition: background-color .2s;
   padding: 6px 32px;
+  max-width: 240px;
+  text-decoration: none;
+  text-align: center;
 
   &:hover, &:focus { background: darken(@RED, 15%); }
 }
