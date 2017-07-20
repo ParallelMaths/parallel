@@ -228,7 +228,7 @@ How much would each option deliver in total after 6 weeks?
 
 <input type="number" x-input="p_2_5b, 630" placeholder="Option B Total"/>
   
-Which option would you prefer?
+Which option gives a bigger total?
 
 <div class="choice radio s2">
   <div x-radio="p_2_5c, a">A</div>
