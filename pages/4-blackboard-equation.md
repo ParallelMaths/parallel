@@ -83,10 +83,10 @@ There are 4 possible answers, so just click on four of the answers below.
   <div x-checkbox="p_1_1c" class="correct">-2</div>
   <div x-checkbox="p_1_1d" class="correct">-1</div>
   <div x-checkbox="p_1_1e">0</div>
-  <div x-checkbox="p_1_1a" class="correct">1</div>
-  <div x-checkbox="p_1_1b" class="correct">2</div>
-  <div x-checkbox="p_1_1c">3</div>
-  <div x-checkbox="p_1_1d">4</div>
+  <div x-checkbox="p_1_1f" class="correct">1</div>
+  <div x-checkbox="p_1_1g" class="correct">2</div>
+  <div x-checkbox="p_1_1h">3</div>
+  <div x-checkbox="p_1_1i">4</div>
 </div>
 
 <div class="solution">
@@ -130,9 +130,10 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps, her
 * You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
     but it is better to finish all the levels once you have started.
 
-Start by clicking [here](https://integralmaths.org/games/parallel_sumaze_4/),
-and Sumaze! will open up in another tab (which means you can always come back to
-check the rules above).
+Start by clicking
+<a href="https://integralmaths.org/games/parallel_sumaze_v2/" target="_blank">here</a>,
+and Sumaze! will open up in another tab (which means you can always come back to check
+the rules above).
 
 ::: problem
 <div class="marks">4.5 marks</div>
@@ -156,7 +157,8 @@ could have taken to solve each stage with a perfect score.</p>
 :::
 
 ## 3. Some Random Philosophy
-Each Parallel Portfolio contains challenges about maths, because I know you are a keen mathematician,
+
+Each Parallelogram contains challenges about maths, because I know you are a keen mathematician,
 but it is also important to sometimes stray beyond numbers and geometry and explore other aspects of the world.
 You should be curious about lots of things, so a few of the challenges that you will encounter will encourage you
 to think creatively, to be ambitious, to develop confidence and to see the world from other perspectives.
@@ -166,7 +168,7 @@ This part of the Parallelogram is all about a philosophical puzzle called the Tr
 Watch the following short video. There is no question to answer at the end, but the Challenge is to understand the
 Trolley Problem and realise that sometimes it is hard to decide what is right and what is wrong.
 
-@[youtube](bOpf6KcWYyw)
+@[youtube](bOpf6KcWYyw?rel=0)
 
 
 ## 4. Mathigon – Graphs & Networks
@@ -184,13 +186,13 @@ __TODO - Philipp's handover section + answers__
 
 ## 5. Review Quiz
 
-These quick questions cover three topics that appeared in the previous three Challenges. If it helps you can refer
-back to those Challenges. 
+These quick questions cover three topics that appeared in the previous three Parallelograms. If it helps you can refer
+back to those Parallelograms. 
 
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.1** In Challenge 1, we talked about a quick way to add up all the numbers from, say, 1 to 100. Can you remember it?
+**5.1** In Parallelogram #1, we talked about a quick way to add up all the numbers from, say, 1 to 100. Can you remember it?
 Hint: sometimes it’s easier to pair numbers, perhaps the smallest and the biggest.
 
 The sum of all the numbers from 1 to 40 is: 
@@ -211,7 +213,7 @@ And 20 x 41 = 820.
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.2** In Challenge 2, we talked about the film “Good Will Hunting” and the janitor solved a problem about mathematical tree diagrams. Below are five tree diagrams, but four of them are essentially the same. Which tree is different?
+**5.2** In Parallelogram #2, we talked about the film “Good Will Hunting” and the janitor solved a problem about mathematical tree diagrams. Below are five tree diagrams, but four of them are essentially the same. Which tree is different?
 
 <div class="choice radio">
   <div x-radio="p_1_1, a"><img src="/images/challenges/4/graph-a.png" height="25%" width="25%"/></div>
@@ -231,7 +233,7 @@ Alternatively, (c) has 2 nodes with 3 lines, and 4 nodes with 2 lines. By contra
 ::: problem
 <div class="marks">2 marks</div>
 
-**5.3** In Challenge 3, we covered Moore’s Law and the power of doubling, so here is a doubling question.
+**5.3** In Parallelogram #3, we covered Moore’s Law and the power of doubling, so here is a doubling question.
 You have a large piece of paper, which is 0.1 mm thick, and you can fold it over and over again as many times as
 you like. Each time you fold the paper, it doubles in thickness.
 How many times do you have to fold the paper in order for it to become so thick that it will reach the Moon?
@@ -264,8 +266,8 @@ Dr Singh.
 ## Find out more
 
 If you want to challenge yourself further over the summer, then explore the web and you will find a ton of mathematics.
-In particular, you should check out the NRICH website, because it has been the source of some of our
-Parallelogram puzzles.
+In particular, you should check out [NRICH](https://nrich.maths.org/), because it has been the source of
+some of our Parallelogram puzzles.
 
 One of the best maths sites is the video channel Numberphile, which has hundreds of brilliant videos.
 Here are just a few to get you started (including one presented by me):
@@ -277,4 +279,5 @@ Here are just a few to get you started (including one presented by me):
 
 ## Credits
 
-
+* The Trolley Problem video is a spin off from the BBC series
+[A History of Ideas](http://www.bbc.co.uk/programmes/b04bwydw), made with the Open University.
