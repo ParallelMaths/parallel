@@ -90,9 +90,8 @@ There are 4 possible answers, so just click on four of the answers below.
 </div>
 
 <div class="solution">
-<span class="eq">(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0</span>
-
-So, x = 1, 2, -1, -2.
+<p><span class="eq">(x<sup>2</sup> - 3x + 2)(x<sup>2</sup> + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0</span></p>
+<p>So, x = 1, 2, -1, -2.</p>
 </div>
 
 :::
@@ -130,19 +129,16 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps, her
 * You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
     but it is better to finish all the levels once you have started.
 
-Start by clicking
-<a href="https://integralmaths.org/games/parallel_sumaze_v2/" target="_blank">here</a>,
-and Sumaze! will open up in another tab (which means you can always come back to check
-the rules above).
+<a class="external" href="https://integralmaths.org/games/parallel_sumaze_4/" target="_blank">Open Sumaze</a>
 
 ::: problem
 <div class="marks">4.5 marks</div>
 
-**3.1** When you have finished Sumaze, you will receive a score and a code word. Please enter your code word here,
+**2.1** When you have finished Sumaze, you will receive a score and a code word. Please enter your code word here,
     so that we can add your Sumaze score to your overall Parallelogram total.
 
-<input type="text" v-on:change="refresh" v-model.lazy="answers.p_3_1" class="correct" placeholder="Sumaze Code Word"/>
-<p style="text-align: center; margin-top: -1rem; font-weight: bold; font-size: 1.4rem;" v-show="answers.p_3_1">Score: {{sumazeScore(answers.p_3_1)}} / 45</p>
+<input type="text" v-on:change="refresh" v-model="answers.p_2_1" class="correct" placeholder="Sumaze Code Word"/>
+<p style="color: #cf0048; text-align: center; margin-top: -1rem; font-weight: bold; font-size: 1.4rem;" v-show="sumazeScore(answers.p_2_1)">Score: {{sumazeScore(answers.p_2_1)}} / 45</p>
 
 *The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
 Sumaze score by 10 and add it to your overall Parallelogram score. So
@@ -150,7 +146,7 @@ ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
 total score.*
 
 <div class="solution">
-<p><a href="https://integralmaths.org/games/sumaze_solutions.mp4">This video clip</a> shows the paths you should or
+<p><a href="https://integralmaths.org/games/sumaze_solutions.mp4" target="_blank">This video clip</a> shows the paths you should or
 could have taken to solve each stage with a perfect score.</p>
 </div>
 
@@ -179,9 +175,20 @@ of understanding everything from the brain to the Internet, from railways to fri
 Networks in Parallelogram #2 (Good Will Hunting and the tree problem), but otherwise I suspect that this a topic
 that will be new to almost of all of you.
 
-__TODO - Philipp's handover section + answers__
+::: problem
+<div class="marks">5 marks</div>
 
-<a class="external" href="https://mathigon.org/parallel/graphs-and-networks" target="_blank">Open Mathigon</a>
+**4.1** Click on the link below to open Mathigon. The content is divided into many short
+sections, which are revealed gradually as you solve problems and answer questions.
+You can get a maximum of 5 marks for completing the entire chapter, and your
+Mathigon progress will be automatically added to your Parallel score.
+
+<p v-if="!user" style="font-weight: bold">Remember to log in before clicking this link!</p>
+
+<a class="external" v-bind:href="'https://mathigon.org/parallel/graphs-and-networks' + mathigonUrl()" target="_blank">Open Mathigon</a>
+
+<p style="color: #cf0048; text-align: center; font-weight: bold; font-size: 1.4rem;" v-show="answers.mathigon">Progress: {{round(answers.mathigon * 5)}} / 5</p>
+:::
 
 
 ## 5. Review Quiz
@@ -197,16 +204,16 @@ Hint: sometimes it’s easier to pair numbers, perhaps the smallest and the bigg
 
 The sum of all the numbers from 1 to 40 is: 
 
-<div class="choice radio">
-  <div x-radio="p_1_1, a">800</div>
-  <div x-radio="p_1_1, b">810</div>
-  <div x-radio="p_1_1, c" class="correct">820</div>
-  <div x-radio="p_1_1, d">822</div>
+<div class="choice radio c4">
+  <div x-radio="p_5_1, a">800</div>
+  <div x-radio="p_5_1, b">810</div>
+  <div x-radio="p_5_1, c" class="correct">820</div>
+  <div x-radio="p_5_1, d">822</div>
 </div>
 
 <div class="solution">
-If we pair up all the numbers we get 20 pairs and each one totals 41, namely (40 + 1), (39 + 2), (38, 3) and so on.
-And 20 x 41 = 820.
+<p>If we pair up all the numbers we get 20 pairs and each one totals 41, namely (40 + 1), (39 + 2), (38, 3) and so on.
+And 20 x 41 = 820.</p>
 </div>
 :::
 
@@ -215,18 +222,18 @@ And 20 x 41 = 820.
 
 **5.2** In Parallelogram #2, we talked about the film “Good Will Hunting” and the janitor solved a problem about mathematical tree diagrams. Below are five tree diagrams, but four of them are essentially the same. Which tree is different?
 
-<div class="choice radio">
-  <div x-radio="p_1_1, a"><img src="/images/challenges/4/graph-a.png" height="25%" width="25%"/></div>
-  <div x-radio="p_1_1, b"><img src="/images/challenges/4/graph-b.png" height="25%" width="25%"/></div>
-  <div x-radio="p_1_1, c" class="correct"><img src="/images/challenges/4/graph-c.png" height="25%" width="25%"/></div>
-  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-d.png" height="25%" width="25%"/></div>
-  <div x-radio="p_1_1, d"><img src="/images/challenges/4/graph-e.png" height="25%" width="25%"/></div>
+<div class="choice radio c3">
+  <div x-radio="p_5_2, a"><img src="/images/challenges/4/graph-a.png" width="160"/></div>
+  <div x-radio="p_5_2, b"><img src="/images/challenges/4/graph-b.png" width="160"/></div>
+  <div x-radio="p_5_2, c" class="correct"><img src="/images/challenges/4/graph-c.png" width="160"/></div>
+  <div x-radio="p_5_2, d"><img src="/images/challenges/4/graph-d.png" width="160"/></div>
+  <div x-radio="p_5_2, e"><img src="/images/challenges/4/graph-e.png" width="160"/></div>
 </div>
 
 <div class="solution">
-The answer is (c) , because all the other trees can be twisted and stretched to form each other.
+<p>The answer is (c) , because all the other trees can be twisted and stretched to form each other.
 Alternatively, (c) has 2 nodes with 3 lines, and 4 nodes with 2 lines. By contrast, all the other trees have
-1 node with 5 lines, and 5 nodes with 1 line.
+1 node with 5 lines, and 5 nodes with 1 line.</p>
 </div>
 :::
 
@@ -240,15 +247,17 @@ How many times do you have to fold the paper in order for it to become so thick 
 (The distance from the Earth to the Moon is 384,000 Km.)
 
 <div class="choice radio">
-  <div x-radio="p_1_1, a" class="correct">42</div>
-  <div x-radio="p_1_1, b">42,000</div>
-  <div x-radio="p_1_1, c">42,000,000</div>
-  <div x-radio="p_1_1, d">42,000,000,000</div>
+  <div x-radio="p_5_3, a" class="correct">42</div>
+  <div x-radio="p_5_3, b">42,000</div>
+  <div x-radio="p_5_3, c">42,000,000</div>
+  <div x-radio="p_5_3, d">42,000,000,000</div>
 </div>
 
 <div class="solution">
-This video clip explains how to work out the answer.
+
+This video clip explains how to work out the answer:
 @[youtube](S2ec2wpYJ_0)
+
 </div>
 
 :::

@@ -183,7 +183,7 @@ function ready() {
         app.answers.submitted = true;
         app.status = Date.now() < deadlineTime ? 'submitted' : 'revealed';
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
-          .set(app.answers);
+          .update(app.answers);
         document.body.scrollTop = document.documentElement.scrollTop = 0;
       },
       setAnswer(key, value) {
@@ -191,13 +191,13 @@ function ready() {
         Vue.set(app.answers, key, value);
         if (app.user) {
           fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
-            .set(app.answers);
+            .update(app.answers);
         }
       },
       refresh() {
         if (app.answers.submitted || !fbAuth.currentUser) return;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
-          .set(app.answers);
+          .update(app.answers);
       },
       timeUntil(t) { return countdown(Date.parse(t)); },
       isAfter(t) { return Date.now() > +Date.parse(t); },
@@ -216,7 +216,13 @@ function ready() {
       },
       isCorrect,
       sumazeScore,
-      results: { 1: null, 2: null, 3: null, 4: null }
+      results: { 1: null, 2: null, 3: null, 4: null },
+      mathigonUrl() {
+        const u = fbAuth.currentUser;
+        if (!u) return '';
+        return '?u=' + btoa(JSON.stringify({first: app.user.first, last: app.user.last, email: u.email, uid: u.uid}));
+      },
+      round
     },
     computed: {
       countdown() {
@@ -229,7 +235,7 @@ function ready() {
         let score = scoreFunctions[challengeId](app.answers);
         app.answers.score = score;
         fbDatabase.ref('answers/' + fbAuth.currentUser.uid + '/' + challengeId)
-          .set(app.answers);
+          .update(app.answers);
         return round(score);
       }
     }
@@ -334,5 +340,22 @@ const scoreFunctions = {
     if (a.p_6_3 === 'd') score += 2;
 
     return score * 10 / 22.5;
+  },
+  4(a) {
+    let score = 0;
+
+    if (a.p_1_1c) score += 1;
+    if (a.p_1_1d) score += 1;
+    if (a.p_1_1f) score += 1;
+    if (a.p_1_1g) score += 1;
+
+    score += sumazeScore(a.p_2_1) / 10;
+    score += a.mathigon;
+
+    if (a.p_5_1 === 'c') score += 2;
+    if (a.p_5_2 === 'c') score += 2;
+    if (a.p_5_3 === 'a') score += 2;
+
+    return score * 10 / 19.5;
   }
 };

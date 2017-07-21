@@ -223,6 +223,8 @@ blockquote { font-style: italic; margin: 1.5rem 0 1.5rem 2rem; color: #999; }
 .embed-responsive-16by9 { padding-bottom: 56.25%; }
 .embed-responsive-item { height: 100%; position: absolute; width: 100%; }
 
+.solution .embed-responsive { margin: 1rem 0; }
+
 table { margin: 1rem auto; width: 100%; table-layout: fixed; }
 table td { padding: .2rem .4rem; }
 
@@ -438,7 +440,7 @@ form.loading button[type="submit"] {
     &.correct { background-image: @CHECK; }
   }
 
-  .c2, .c3, .c5 {
+  .c2, .c3, .c4, .c5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -446,6 +448,7 @@ form.loading button[type="submit"] {
   }
   .c2 > * { min-width: 340px; }
   .c3 > * { min-width: 220px; }
+  .c4 > * { min-width: 160px; }
   .c5 > * { min-width: 125px; }
 }
 
