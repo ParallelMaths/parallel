@@ -75,7 +75,7 @@ which means x = -7, 1, -½ or 3.
 
 <span class="eq">(x<sup>2</sup> – 3x + 2)(x<sup>2</sup> + 3x + 2) = 0</span>
 
-There are 4 possible answers, so just click on four of the answers below.	
+There are 4 possible answers, so just select four of the answers below.	
 
 <div class="choice checkbox c3">
   <div x-checkbox="p_1_1a">-4</div>
@@ -107,14 +107,18 @@ This video gives you an idea of how you factor a quadratic.
 After last week’s taster, it seems that Sumaze! is now a firm favourite with lots of you. Huge thanks to Richard
 Lissaman, who created Sumaze! and who is part of MEI (Mathematics in Education & Industry).
 
-You will have access to 9 new levels of the game, starting with some easier ones to allow you to get used to
-the game again, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2,
-3 points for level 3 and so on until 9 points for level 9. However, you will lose 2 points for every hint you
-use (available on levels 8 & 9). And if you have to restart a level, then you will lose 1 point each time, up
-to a maximum of 4 lost points. So, if you need one hint on level 9, then your maximum score goes from 9 down to 7.
-And if you succeed after restarting three times, then your score drops from 7 down to 4.
+You will have access to 9 new levels of the game, starting with some easier ones
+to allow you to get used to the game again, followed by some trickier levels.
+You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so
+on until 9 points for level 9. However, you will lose 2 points for every hint
+you use (available on levels 8 & 9). You have one free restart, after which you
+will lose 1 point every time you restart. If your score reaches zero, you can
+either carry on trying or a ‘skip level’ button will appear. So, if you need one
+hint on level 9, then your maximum score goes from 9 down to 7. And if you
+succeed after restarting three times, then your score drops from 7 down to 4.
 
-It is easier to understand Sumaze! by experiencing it, but in case it helps, here are a few important rules and tips:
+It is easier to understand Sumaze! by experiencing it, but in case it helps,
+here are a few important rules and tips:
 
 * Aim – to move your blue box to reach the “end of level” square.
 * Your box cannot at any time contain a number bigger than 1,000.
@@ -124,10 +128,12 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps, her
 * To pass through a green square you must satisfy the square’s condition.
 * Pink squares (and their operations) disappear when you move onto them.
 * Lilac squares (and their operations) can be crossed over and over again.
-* IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a smartphone,
-    then type this into your PC/Mac/tablet browser: bit.ly/parallel_sumaze
-* You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
-    but it is better to finish all the levels once you have started.
+* IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a
+  smartphone, then type this into your PC/Mac/tablet browser:
+  https://integralmaths.org/games/parallel_sumaze_4/
+* You can stop and start Sumaze!, and the website will use cookies to remember
+  your level and score so far, but it is better to finish all the levels once
+  you have started.
 
 <a class="external" href="https://integralmaths.org/games/parallel_sumaze_4/" target="_blank">Open Sumaze</a>
 

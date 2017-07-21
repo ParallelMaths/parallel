@@ -230,6 +230,7 @@ function ready() {
         if (app.status === 'open' || app.status === 'submitted') return countdown(deadlineTime);
       },
       score() {
+        if (!fbAuth.currentUser) return 0;
         // if (app.answers.score) return round(app.answers.score);
 
         let score = scoreFunctions[challengeId](app.answers);
