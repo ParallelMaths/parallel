@@ -77,11 +77,28 @@ const scoreFunctions = {
     if (a.p_6_3 === 'd') score += 2;
 
     return score * 10 / 22.5;
+  },
+  4(a) {
+    let score = 0;
+
+    if (a.p_1_1c) score += 1;
+    if (a.p_1_1d) score += 1;
+    if (a.p_1_1f) score += 1;
+    if (a.p_1_1g) score += 1;
+
+    score += sumazeScore(a.p_2_1) / 10 || 0;   // 4.5
+    score += Math.min(1, a.mathigon) * 5 || 0;
+
+    if (a.p_5_1 === 'c') score += 2;
+    if (a.p_5_2 === 'c') score += 2;
+    if (a.p_5_3 === 'a') score += 2;
+
+    return score * 10 / 19.5;
   }
 };
 
 
-for (let i=1; i<=3; ++i) {
+for (let i=1; i<=4; ++i) {
   let rows = [];
   const columns = ['first', 'last', 'school', 'country', 'gender', 'birthYear',
     'difficulty', 'fun', 'interesting', 'length', 'submitted', 'score'];
@@ -92,7 +109,7 @@ for (let i=1; i<=3; ++i) {
 
     const answer = answers[uid][i];
     const user = users[uid];
-    if (!answer) continue;
+    if (!answer || !user) continue;
     const score = Math.round(scoreFunctions[i](answer) * 10);
 
     const row = [user.first, user.last, user.school, user.country, user.gender,

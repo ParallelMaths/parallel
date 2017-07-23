@@ -332,7 +332,7 @@ const scoreFunctions = {
     if (isCorrect(a.p_2_5b, 630)) score += 1;
     if (a.p_2_5c === 'b') score += 1;
 
-    score += sumazeScore(a.p_3_1) / 10;
+    score += sumazeScore(a.p_3_1) / 10 || 0;
 
     if (a.p_5_1 === 'e') score += 2;
 
@@ -350,8 +350,8 @@ const scoreFunctions = {
     if (a.p_1_1f) score += 1;
     if (a.p_1_1g) score += 1;
 
-    score += sumazeScore(a.p_2_1) / 10;
-    score += a.mathigon;
+    score += sumazeScore(a.p_2_1) / 10 || 0;
+    score += Math.min(1, a.mathigon) * 5 || 0;
 
     if (a.p_5_1 === 'c') score += 2;
     if (a.p_5_2 === 'c') score += 2;
