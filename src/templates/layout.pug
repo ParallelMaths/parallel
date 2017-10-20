@@ -86,19 +86,9 @@ html
       | and
       a(href="https://mathigon.org") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
 
-    script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
-    script.
-      firebase.initializeApp({
-        apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
-        authDomain: "parallel-cf800.firebaseapp.com",
-        databaseURL: "https://parallel-cf800.firebaseio.com",
-        projectId: "parallel-cf800",
-        storageBucket: "parallel-cf800.appspot.com",
-        messagingSenderId: "610680271345"
-      });
-
-    //- script(defer src="https://unpkg.com/vue")
+    //- TODO Use minified version of vue
     script var PAGES = !{pages};
+    script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.js")
     script(defer src="/parallel.js")
 

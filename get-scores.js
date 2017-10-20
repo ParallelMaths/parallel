@@ -3,7 +3,7 @@
 // 'parallel-cf800-export.json' into the root of this directory.
 
 const fs = require('fs');
-const {users, answers} = require('./data/parallel-cf800-export.json');
+const {users, answers} = require('./private/parallel-cf800-export.json');
 
 
 

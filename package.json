@@ -17,7 +17,7 @@
     "serve": "grunt concurrent & firebase serve",
     "deploy": "grunt && firebase deploy",
     "scores": "node get-scores.js",
-    "users": "firebase auth:export data/users.csv --format=csv"
+    "users": "firebase auth:export private/users.csv --format=csv"
   },
   "devDependencies": {
     "babel-core": "~6.3.26",
