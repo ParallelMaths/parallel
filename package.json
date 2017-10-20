@@ -1,7 +1,7 @@
 {
   "name": "Parallel",
   "description": "A project to email weekly maths problems and challenges to students.",
-  "url": "http://parallel.co.uk",
+  "url": "https://parallel.co.uk",
   "authors": [
     "Simon Singh",
     "Philipp Legner",
@@ -13,10 +13,11 @@
     "url": "https://github.com/mathigon/parallel.git"
   },
   "scripts": {
-    "start": "grunt && npm run serve",
+    "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
-    "deploy": "grunt && grunt minify && firebase deploy",
-    "scores": "node get-scores.js"
+    "deploy": "grunt && firebase deploy",
+    "scores": "node get-scores.js",
+    "users": "firebase auth:export data/users.csv --format=csv"
   },
   "devDependencies": {
     "babel-core": "~6.3.26",
@@ -32,7 +33,7 @@
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-rollup": "^1.0.1",
+    "grunt-rollup": "^6.0.0",
     "markdown-it": "^8.3.1",
     "markdown-it-anchor": "^4.0.0",
     "markdown-it-container": "^2.0.0",

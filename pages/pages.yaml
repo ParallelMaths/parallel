@@ -1,16 +1,28 @@
-- url: 1-maryam-jokey-toppling-bloodhound
-  title: "Challenge 1: Maths Jokes"
-  available: 2017-06-28T07:00:00
-  deadline: 2017-07-02T18:00:00
-- url: 2-good-will-hunting
-  title: "Challenge 2: Good Will Hunting"
-  available: 2017-07-07T15:00:00
-  deadline: 2017-07-09T18:00:00
-- url: 3-sumaze
-  title: "Challenge 3: Sumaze"
-  available: 2017-07-14T15:00:00
-  deadline: 2017-07-16T18:00:00
-- url: 4-blackboard-equation
-  title: "Challenge 4: Blackboard Equations"
-  available: 2017-07-21T15:00:00
-  deadline: 2017-07-23T18:00:00
+year7:
+  - week: 4
+    url: blackboard-equation
+    title: Blackboard Equations
+    available: 2017-07-21T15:00:00
+    deadline: 2017-07-23T18:00:00
+  - week: 3
+    url: sumaze
+    title: Sumaze
+    available: 2017-07-14T15:00:00
+    deadline: 2017-07-16T18:00:00
+  - week: 2
+    url: good-will-hunting
+    title: Good Will Hunting
+    available: 2017-07-07T15:00:00
+    deadline: 2017-07-09T18:00:00
+  - week: 1
+    url: maths-jokes
+    title: Maths Jokes
+    available: 2017-06-28T07:00:00
+    deadline: 2017-07-02T18:00:00
+
+year8:
+  - week: 1
+    url: good-will-hunting
+    title: Good Will Hunting
+    available: 2017-07-07T15:00:00
+    deadline: 2017-07-09T18:00:00

@@ -5,7 +5,9 @@ const markdown = require('markdown-it');
 
 require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-let pages = yaml.parse(grunt.file.read('pages/pages.yaml'));
+
+const pagesObj = yaml.parse(grunt.file.read('pages/pages.yaml'));
+const pages = JSON.stringify(pagesObj);
 
 grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   let done = this.async();
@@ -28,78 +30,64 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   Promise.all(this.files.map(function({src, dest}) {
     let code = grunt.file.read(src[0]);
 
-    code = code.replace(/x\-radio\=\"(\w+)\,\s*(\w+)\"/g, (_, key, value) =>
+    /* code = code.replace(/x\-radio\=\"(\w+)\,\s*(\w+)\"/g, (_, key, value) =>
       `v-on:click="setAnswer('${key}', '${value}')" v-bind:class="{active: answers.${key} == '${value}'}"`);
     code = code.replace(/x\-checkbox\=\"(\w+)\"/g, (_, key) =>
       `v-on:click="setAnswer('${key}', !answers.${key})" v-bind:class="{active: answers.${key}}"`);
     code = code.replace(/x\-input\=\"(\w+)\,\s*(\w+)\"/g, (_, key, correct) =>
-      `v-on:change="refresh" v-model.lazy="answers.${key}" v-bind:class="{correct: isCorrect(answers.${key}, ${correct})}"`);
+      `v-on:change="refresh" v-model.lazy="answers.${key}" v-bind:class="{correct: isCorrect(answers.${key}, ${correct})}"`); */
 
     let content = md.render(code);
-    let challenge = +src[0].match(/\/([^/]*)\.\w+$/)[1].split('-')[0];  // Index of challenge
-    let html = pug.renderFile('src/templates/layout.pug', { content, pages, challenge });
+    let html = pug.renderFile('src/templates/layout.pug', { content, pages });
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });
 
 grunt.initConfig({
 
-  banner: '/* (c) Parallel Project, 2017 */\n\n',
+  banner: '/* (c) 2017, Mathigon */\n\n',
 
   clean: ['build'],
 
+  rollup: {
+    app: {files: {'build/parallel.js': ['src/scripts/main.js']}}
+  },
+
   babel: {
-    app: {
-      options: {presets: ['es2015']},
-      files: {'build/scripts.js': 'src/scripts.js'}
-    }
+    options: {presets: ['es2015']},
+    app: {files: {'build/parallel.js': 'build/parallel.js'}}
   },
 
   uglify: {
-    app: {
-      options: {banner: '<%= banner %>'},
-      src: ['build/scripts.js'],
-      dest: 'build/scripts.js'
-    }
+    options: {banner: '<%= banner %>'},
+    app: {files: {'build/parallel.js': 'build/parallel.js'}}
   },
 
   less: {
-    app: {
-      files: { 'build/styles.css': 'src/styles.less' }
-    }
+    app: {files: {'build/parallel.css': 'src/styles/main.less'}}
   },
 
   autoprefixer: {
-    app: {
-      src: ['build/styles.css'],
-      dest: 'build/styles.css'
-    }
+    app: {files: {'build/parallel.css': 'build/parallel.css'}}
   },
 
   cssmin: {
-    app: {
-      options: { banner: '<%= banner %>' },
-      src: ['build/styles.css'],
-      dest: 'build/styles.css'
-    }
+    options: { banner: '<%= banner %>' },
+    app: {files: {'build/parallel.css': 'build/parallel.css'}}
   },
 
   markdown: {
-    app: {
-      files: [{
-        expand: true,
-        cwd: 'pages',
-        src: ['*.md'],
-        dest: 'build',
-        ext: '.html'
-      }]
-    }
+    app: {files: [{
+      expand: true,
+      cwd: 'pages',
+      src: ['*.md'],
+      dest: 'build',
+      ext: '.html'
+    }]}
   },
 
   pug: {
-    options: {
-      data: {pages}
-    },
+    options: {data: {pages}},
     app: {
       files: [{
         expand: true,
@@ -116,16 +104,16 @@ grunt.initConfig({
       files: [{
         expand: true,
         cwd: 'src',
-        src: ['**/*.{png,jpg,ico,json,svg}', 'CNAME'],
+        src: '**/*.{png,jpg,ico,json,svg}',
         dest: 'build'
       }]
     },
     images: {
       files: [{
         expand: true,
-        cwd: 'images',
+        cwd: 'resources',
         src: ['**/*'],
-        dest: 'build/images'
+        dest: 'build/resources'
       }]
     }
   },
@@ -136,15 +124,15 @@ grunt.initConfig({
       tasks: ['markdown', 'pug']
     },
     less: {
-      files: 'src/*.less',
+      files: 'src/styles/*.less',
       tasks: ['less']
     },
     js: {
-      files: 'src/*.js',
-      tasks: ['babel']
+      files: 'src/scripts/*.js',
+      tasks: ['rollup', 'babel']
     },
     static: {
-      files: ['images/**', 'src/**/*.{png,jpg,ico,json,svg}'],
+      files: ['resources/**', 'src/**/*.{png,jpg,ico,json,svg}'],
       tasks: ['copy']
     }
   },
@@ -157,5 +145,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('default', ['clean', 'babel', 'less', 'markdown', 'pug', 'copy']);
-grunt.registerTask('minify', ['uglify', 'autoprefixer', 'cssmin']);
+grunt.registerTask('build', ['clean', 'rollup', 'babel', 'less', 'markdown', 'pug', 'copy']);
+grunt.registerTask('default', ['build', 'uglify', 'autoprefixer', 'cssmin']);

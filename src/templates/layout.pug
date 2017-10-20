@@ -4,52 +4,67 @@ html
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
 
-    title Parallel Project
-    meta(name="description", content="A project to email weekly maths problems and challenges to students.")
+    title Parallel by Simon Singh
+    meta(name="description", content="Weekly mathematics challenges for secondary school students.")
     meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
 
     meta(name="msapplication-tap-highlight" content="no")
     link(rel="manifest" href="/manifest.json")
 
-    link(href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet")
-    link(href="/styles.css?v14", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
+    link(href="/parallel.css", rel="stylesheet")
 
   body
 
     a#logo(href="/" title="Home")
 
-    #body
-      header
-        a(href="/about") About
-        a(href="/scores" v-if="user") My Scores
-        a(href="/contact") Contact
-        form#login(v-if="!user" v-bind:class="{active: login.showDropdown}" v-on:submit="login.submit")
-          div.error(v-show="login.error") {{login.error}}
-          input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
-          input(placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password")
-          button(type="submit") {{ login.reset ? 'Reset' : 'Login' }}
-          p: a(v-on:click="login.toggleReset") {{ login.reset ? 'Back to login' : 'Reset password' }}
-        a(v-if="!user" v-on:click="login.toggleDropdown") Login
-        a(v-if="user" v-on:click="logout") Logout ({{user.first}})
+    #container
+      .sidebar(v-bind:class="{hide: !user.ready}")
+        .sidebar-wrap
+          div(v-if="!user.data")
+            .user: a(href="/signup") Create a free account
+            .user
+              a(v-on:click="login.show = !login.show") Login
+              form.login(v-bind:class="{active: login.show}" v-on:submit="login.submit")
+                input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
+                input(placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password")
+                .error(v-show="login.error") {{login.error}}
+                p
+                  button(type="submit") {{ login.reset ? 'Reset' : 'Login' }}
+                  a(v-on:click="login.toggleReset()") {{ login.reset ? 'Back to login' : 'Reset password' }}
+            .toggle
+              a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
+              a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
+          .user.account(v-if="user.data")
+            p {{ user.data.first }} {{user.data.last }}
+            p.small
+              span(v-if="user.data.school != 'Other'") {{ user.data.school }}&nbsp;&nbsp;•&nbsp;&nbsp;
+              | {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
+              a(v-on:click="user.logout") Logout
+          nav
+            a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url")
+              .title-meta Week {{ p.week }}
+              .title {{ p.title }}
+            a(href="/introduction")
+              .title Introduction
 
-      nav(v-if="user")
-        a(href="/", style="background-image: url('/nav/0.png')", title="Home")
+      article
+        block content
+        if content
+          div(v-pre)!= content
+
+      //-
         for p, i in pages
           a(href="/" + p.url, v-if="isAfter('" + p.available + "')", style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
             .tooltip(v-if="!isAfter('" + p.deadline + "')") You've got {{ timeUntil('#{p.deadline}') }} to submit your solutions.
           div(v-if="!isAfter('" + p.available + "')" style="background-image: url('/nav/" + (i + 1) + ".png')")
             .tooltip This parallelogram will open in {{ timeUntil('#{p.available}') }}.
 
-      .container(v-bind:class="status")
         if challenge
           div(class="status" v-if="status == 'locked'") This parallelogram is locked and will open in {{countdown}}.
           div(class="status" v-if="status == 'open'") You have {{countdown}} left to submit your answers.
           div(class="status" v-if="status == 'submitted'") You've already submitted your answers and can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
           include score
-
-        block content
-        if content
-          div!= content
 
         if challenge
           div(v-if="status == 'open' || status == 'past'")
@@ -60,11 +75,16 @@ html
           include score
 
     footer
-      a(href="http://goodthinkingsociety.org" target="_blank") Good Thinking Society
-      | •
-      a(href="/terms-and-conditions") Terms and Conditions
+      a(href="/about") About
       | •
       a(href="/contact") Contact
+      | •
+      a(href="/terms-and-conditions") Terms and Conditions
+      br
+      | Created by
+      a(href="http://goodthinkingsociety.org" target="_blank") #[img(src="/images/good-thinking.png" width=10 height=16)] Good Thinking Society
+      | and
+      a(href="https://mathigon.org") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
 
     script(src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script.
@@ -78,8 +98,9 @@ html
       });
 
     //- script(defer src="https://unpkg.com/vue")
-    script(defer src="https://unpkg.com/vue@2.3.4/dist/vue.min.js")
-    script(defer src="/scripts.js?v18")
+    script var PAGES = !{pages};
+    script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.js")
+    script(defer src="/parallel.js")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

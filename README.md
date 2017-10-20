@@ -1,6 +1,6 @@
 # Parallel
 
-_Parallel_ is a weekly bulletin written by [Dr Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh), author of No.1 bestseller Fermat’s Last Theorem.
+_Parallel_ is a weekly bulletin written by Simon Singh, author of No.1 bestseller Fermat’s Last Theorem.
 
 Every week, participating students will receive an email that contains 60 minutes of interesting, fun and challenging maths that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems.
 
@@ -22,12 +22,8 @@ To deploy updates to the [live site](https://parallel.org.uk), use
 
 ## TODO List
 
-- __Firebase db rules__
 - __Fix feedback form for Safari__
 - __Add open graph data to <head>__
-- __Nicer sidebar icons__
 - Improve mobile design
-- Alert when submitting without answering everything (or allow resubmit)
+- Alert when submitting without answering everything
 - Loading state for forms, CSS for invalid fields
-- Real time updating
-- Faster page loading

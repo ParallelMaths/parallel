@@ -3,7 +3,7 @@
 // 'parallel-cf800-export.json' into the root of this directory.
 
 const fs = require('fs');
-const {users, answers} = require('./parallel-cf800-export.json');
+const {users, answers} = require('./data/parallel-cf800-export.json');
 
 
 
@@ -127,5 +127,5 @@ for (let i=1; i<=4; ++i) {
   let result = columns.join(',') + '\n';
   result += rows.map(row => row.map(x => `"${x || ''}"`).join(',')).join('\n');
 
-  fs.writeFileSync(`score-${i}.csv`, result);
+  fs.writeFileSync(`./data/score-${i}.csv`, result);
 }

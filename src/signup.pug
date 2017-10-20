@@ -1,0 +1,272 @@
+extends templates/layout
+
+block content
+
+  h1 Signup
+
+  form(v-on:submit="signup.submit"  v-bind:class="{loading: signup.loading}")
+
+    .toggle
+      a(v-on:click="signup.isTeacher = false" v-bind:class="{active: !signup.isTeacher}") Student
+      a(v-on:click="signup.isTeacher = true" v-bind:class="{active: signup.isTeacher}") Teacher
+
+    div.error(v-show="signup.error") {{signup.error}}
+
+    label
+      | First Name
+      input(type="text" required v-model="signup.first" autocomplete="given-name")
+
+    label
+      | Surname
+      input(type="text" required v-model="signup.last" autocomplete="family-name")
+
+    label
+      | Email
+      input(type="email" required v-model="signup.email" autocomplete="email")
+
+    label
+      | Password (min 6 characters)
+      input(type="password" required pattern=".{3,}" v-model="signup.password" autocomplete="password")
+
+    div(v-if="signup.isTeacher")
+      label
+        | School name (students will need to select this when signing up)
+        input(type="email" required v-model="signup.schoolName")
+
+    div(v-if="!signup.isTeacher")
+      label
+        | If your participate as part of your school, please select it
+        select(v-model="signup.school" required)
+          option(value="Other") No School
+          option Bulmershe
+          option Challoner's, Amersham
+          option Lister
+          option Plashett
+          option Ratton
+
+    div(v-if="!signup.isTeacher")
+      label
+        | Year
+        select(v-model="signup.level")
+          option(value="year7") Year 7
+          option(value="year8") Year 8
+
+    div(v-if="!signup.isTeacher && signup.school == 'Other'")
+      label
+        | Year of Birth
+        select(v-model="signup.birthYear")
+          - var year = 1920;
+          while year < 2016
+            option= year++
+
+      label
+        | Gender (optional)
+        select(v-model="signup.gender" autocomplete="sex")
+          option Female
+          option Male
+          option Other
+
+    div(v-if="signup.isTeacher || signup.school == 'Other'")
+      label
+        | Country
+        select(v-model="signup.country" autocomplete="country-name")
+          option Afghanistan
+          option Albania
+          option Algeria
+          option Andorra
+          option Angola
+          option Antigua and Barbuda
+          option Argentina
+          option Armenia
+          option Australia
+          option Austria
+          option Azerbaijan
+          option Bahamas, The
+          option Bahrain
+          option Bangladesh
+          option Barbados
+          option Belarus
+          option Belgium
+          option Belize
+          option Benin
+          option Bhutan
+          option Bolivia
+          option Bosnia and Herzegovina
+          option Botswana
+          option Brazil
+          option Brunei
+          option Bulgaria
+          option Burkina Faso
+          option Burma
+          option Burundi
+          option Cabo Verde
+          option Cambodia
+          option Cameroon
+          option Canada
+          option Central African Republic
+          option Chad
+          option Chile
+          option China
+          option Colombia
+          option Comoros
+          option Congo (Republic)
+          option Congo (Deomcratic Republic)
+          option Costa Rica
+          option Côte d'Ivoire
+          option Croatia
+          option Cuba
+          option Cyprus
+          option Czechia
+          option Denmark
+          option Djibouti
+          option Dominica
+          option Dominican Republic
+          option Ecuador
+          option Egypt
+          option El Salvador
+          option Equatorial Guinea
+          option Eritrea
+          option Estonia
+          option Ethiopia
+          option Fiji
+          option Finland
+          option France
+          option Gabon
+          option Gambia, The
+          option Georgia
+          option Germany
+          option Ghana
+          option Greece
+          option Grenada
+          option Guatemala
+          option Guinea
+          option Guinea-Bissau
+          option Guyana
+          option Haiti
+          option Honduras
+          option Hungary
+          option Iceland
+          option India
+          option Indonesia
+          option Iran
+          option Iraq
+          option Ireland
+          option Israel
+          option Italy
+          option Jamaica
+          option Japan
+          option Jordan
+          option Kazakhstan
+          option Kenya
+          option Kiribati
+          option Korea, North
+          option Korea, South
+          option Kosovo
+          option Kuwait
+          option Kyrgyzstan
+          option Laos
+          option Latvia
+          option Lebanon
+          option Lesotho
+          option Liberia
+          option Libya
+          option Liechtenstein
+          option Lithuania
+          option Luxembourg
+          option Macedonia
+          option Madagascar
+          option Malawi
+          option Malaysia
+          option Maldives
+          option Mali
+          option Malta
+          option Marshall Islands
+          option Mauritania
+          option Mauritius
+          option Mexico
+          option Micronesia
+          option Moldova
+          option Monaco
+          option Mongolia
+          option Montenegro
+          option Morocco
+          option Mozambique
+          option Namibia
+          option Nauru
+          option Nepal
+          option Netherlands
+          option New Zealand
+          option Nicaragua
+          option Niger
+          option Nigeria
+          option Norway
+          option Oman
+          option Pakistan
+          option Palau
+          option Panama
+          option Papua New Guinea
+          option Paraguay
+          option Peru
+          option Philippines
+          option Poland
+          option Portugal
+          option Qatar
+          option Romania
+          option Russia
+          option Rwanda
+          option Saint Kitts and Nevis
+          option Saint Lucia
+          option Saint Vincent and the Grenadines
+          option Samoa
+          option San Marino
+          option Sao Tome and Principe
+          option Saudi Arabia
+          option Senegal
+          option Serbia
+          option Seychelles
+          option Sierra Leone
+          option Singapore
+          option Slovakia
+          option Slovenia
+          option Solomon Islands
+          option Somalia
+          option South Africa
+          option South Sudan
+          option Spain
+          option Sri Lanka
+          option Sudan
+          option Suriname
+          option Swaziland
+          option Sweden
+          option Switzerland
+          option Syria
+          option Tajikistan
+          option Tanzania
+          option Thailand
+          option Timor-Leste
+          option Togo
+          option Tonga
+          option Trinidad and Tobago
+          option Tunisia
+          option Turkey
+          option Turkmenistan
+          option Tuvalu
+          option Uganda
+          option Ukraine
+          option United Arab Emirates
+          option United Kingdom
+          option United States
+          option Uruguay
+          option Uzbekistan
+          option Vanuatu
+          option Venezuela
+          option Vietnam
+          option Yemen
+          option Zambia
+          option Zimbabwe
+
+    p(v-show="!signup.isTeacher && signup.school == 'Other' && signup.birthYear >= 2004") If you are under the age of 13, please ask permission from a parent or guardians before creating an account.
+
+    p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=500, height=500'); return false;") terms and conditions].
+
+    button(type="submit") Sign up

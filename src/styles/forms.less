@@ -1,0 +1,106 @@
+// =============================================================================
+// Parallel Forms
+// =============================================================================
+
+
+
+form {
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+input, select, textarea {
+  border: none;
+  border-bottom: 1px solid fade(black, 40%);
+  display: block;
+  font: inherit;
+  font-size: 16px;
+  margin: 0 auto 1rem;
+  outline: none;
+  padding-bottom: 2px;
+  width: 100%;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: transparent;
+  transition: border-color .2s;
+  color: #333;
+
+  &:focus, &:active {
+    border-bottom: 2px solid @red;
+    padding-bottom: 1px;
+  }
+}
+
+select {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8"><polyline points="1 1 7 7 13 1" fill="none" stroke="#aaa" stroke-width="2"/></svg>');
+  background-size: 15px 8px;
+  background-position: right 6px top 10px;
+  background-repeat: no-repeat;
+  padding-right: 28px;
+}
+
+button[type="submit"], a.external {
+  background: @red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  font-size: 18px;
+  margin: 2rem auto 1rem;
+  outline: none;
+  transition: background-color .2s;
+  padding: 6px 32px;
+  max-width: 240px;
+  text-decoration: none;
+  text-align: center;
+
+  &:hover, &:focus { background: darken(@red, 15%); }
+}
+
+form p { font-size: 14px; }
+
+form .error {
+  font-size: 14px;
+  background: @red;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+form.loading { pointer-events: none; }
+form.loading button[type="submit"] {
+  background: @red url("/images/loading.gif") no-repeat center/16px 16px;
+  color: transparent;
+}
+
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0 4px;;
+  justify-content: center;
+}
+
+.toggle a {
+  display: block;
+  padding: 2px 10px 1px;
+  color: #999;
+  border-bottom: 2px solid transparent;
+  transition: color .2s, border .2s;
+
+  &.active {
+    color: black;
+    border-bottom-color: @red;
+  }
+}

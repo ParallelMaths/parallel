@@ -55,12 +55,12 @@ committed to support maths education, which in turn supports science education.
 If you want to support Good Thinking’s work, you can
 [make a donation](http://goodthinkingsociety.org/donate/).
 
-<div style="text-align:center">
+<div class="text-center">
 
-**"Minds are like parachutes. They only function when open."  
-_– Scottish distiller Thomas Dewar_**
+__"Minds are like parachutes. They only function when open."__  
+_– Scottish distiller Thomas Dewar_
 
-**"I believe in an open mind, but not so open that your brains fall out."  
-_– New York Times publisher Arthur Hays Sulzberger_**
+__"I believe in an open mind, but not so open that your brains fall out."__  
+_– New York Times publisher Arthur Hays Sulzberger_
 
 </div>

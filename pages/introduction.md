@@ -1,11 +1,7 @@
-# Welcome!
+# Hello Rookie Mathematician,
  
-Hello Rookie Mathematician,
- 
-In order to be reading this page you must be slightly kooky, by which I mean you are a keen mathematician. You might be in the Top-Top Set in your school, your teacher or parent might have recommended you, or you might have received one of our tweets (@ParallelMaths). Alternatively, you might have hacked into our mailing list, in which case you clearly have the right sort of enthusiasm (but perhaps not the right morals) to be part of the project.
- 
-_**(BTW, your teacher (or me) might already have sent you this message via email – if so, then you can skip this page by clicking here. BUT DO NOT SKIP THIS PAGE IF YOU HAVE NOT READ IT.)**_
- 
+In order to be reading this page you must be slightly kooky, by which I mean you are a keen mathematician. You might be in the Top-Top Set in your school, your teacher or parent might have recommended you, or you might have received one of our tweets ([@ParallelMaths](https://twitter.com/ParallelMaths)). Alternatively, you might have hacked into our mailing list, in which case you clearly have the right sort of enthusiasm (but perhaps not the right morals) to be part of the project.
+  
 Each Friday at 4pm, from June 30 to July 21, you will have access to a new set of online mathematical challenges – each set of challenges is called a Parallelogram. 
  
 It should take roughly 60 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved 
@@ -23,13 +19,9 @@ What do you do if you get stuck? First, you try harder. Second, you try even har
 Before I sign off, you might wonder who is writing this email. 
 When I was your age, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge and learned to be determined.
 
-<img src="/images/misc/simon-simpsons.png" width=160 height=280 style="float: right; margin-left: 0.5rem"/>
+<img class="img-right" src="/images/simpsons.png" width=160 height=280/>
 
 My parents grew up in India in the 1930s and did not have a proper education (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
  
 Cheerio,  
 Dr Singh
-
-<form action="/" method="GET">
-  <button type="submit">Get started</button>
-</form>
