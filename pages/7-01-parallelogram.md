@@ -1,4 +1,4 @@
-# Paralellogram #7.01: [title]
+# Parallelogram #7.01: [title]
 
 <div class="solution" style="font-weight:bold; text-align:center">
   Your Score with Answers & Explanations
