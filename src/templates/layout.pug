@@ -42,37 +42,19 @@ html
               | {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
               a(v-on:click="user.logout") Logout
           nav
-            a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url")
+            a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-if="user.getStatus(p) != 'locked'")
               .title-meta Week {{ p.week }}
               .title {{ p.title }}
+              .status.open(v-if="user.getStatus(p) == 'open'") NEW
+              .status.submitted(v-if="user.getStatus(p) == 'submitted'")
+              .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
             a(href="/introduction")
               .title Introduction
 
-      article
+      article(v-bind:class="c ? c.status : ''")
         block content
         if content
-          div(v-pre)!= content
-
-      //-
-        for p, i in pages
-          a(href="/" + p.url, v-if="isAfter('" + p.available + "')", style="background-image: url('/nav/" + (i + 1) + ".png')", title=p.title)
-            .tooltip(v-if="!isAfter('" + p.deadline + "')") You've got {{ timeUntil('#{p.deadline}') }} to submit your solutions.
-          div(v-if="!isAfter('" + p.available + "')" style="background-image: url('/nav/" + (i + 1) + ".png')")
-            .tooltip This parallelogram will open in {{ timeUntil('#{p.available}') }}.
-
-        if challenge
-          div(class="status" v-if="status == 'locked'") This parallelogram is locked and will open in {{countdown}}.
-          div(class="status" v-if="status == 'open'") You have {{countdown}} left to submit your answers.
-          div(class="status" v-if="status == 'submitted'") You've already submitted your answers and can no longer make changes.#[br]The solutions and your score will be shown in {{countdown}}.
-          include score
-
-        if challenge
-          div(v-if="status == 'open' || status == 'past'")
-            #feedback: include feedback
-            p(style="font-weight: bold; text-align: center; margin-top: 2rem;") Only hit the submit button if you have finished the whole#[br]Parallelogram and checked your answers.
-            button#submit(v-on:click="submit" data-challenge=challenge data-available=pages[challenge-1].available data-deadline=pages[challenge-1].deadline) Submit Answers
-          p.completed(v-if="status == 'submitted'") Well done! your score and the correct answers will appear in {{countdown}}.
-          include score
+          div!= content
 
     footer
       a(href="/about") About

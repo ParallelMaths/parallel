@@ -59,7 +59,8 @@ header {
   border-radius: 4px 4px 0 0;
   position: relative;
 
-  h1 { color: white; position: absolute; bottom: 0; left: 32px; }
+  h1 { color: white; position: absolute; bottom: 0; left: 32px; text-align: left; }
+  em { font-style: normal; display: block; font-size: 50%; opacity: 0.8; font-weight: 400; }
 
   &:before {
     content: " ";
@@ -71,6 +72,15 @@ header {
     background: linear-gradient(to bottom, transparent, black);
     opacity: 0.6;
   }
+}
+
+.status-banner {
+  background: #ccc;
+  margin: -32px -32px 32px;
+  padding: 12px 32px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-style: italic;
 }
 
 
@@ -123,7 +133,7 @@ header {
 
 nav a {
   display: block;
-  padding: 8px 8px 8px 28px;
+  padding: 8px 50px 8px 28px;
   transition: background .2s;
   position: relative;
 
@@ -165,6 +175,26 @@ nav a {
 
   &:first-child:before, &:last-child:before { top: 14px; }
   &:last-child:after { display: none; }
+}
+
+.status {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  border-radius: 4px;
+  color: white;
+  line-height: 1;
+  padding: 4px 6px;
+  font-size: 14px;
+
+  &.open { background: @red; }
+  &.submitted { width: 10px; height: 14px; background: @grey @WHITE-CHECK no-repeat center; background-size: 16px 16px; }
+
+  &.tesseract{ background: @green; }
+  &.cube{ background: #9bdb2a; }
+  &.square{ background: #dbc721; }
+  &.line{ background: #db8d26; }
+  &.point{ background: #db6816; }
 }
 
 

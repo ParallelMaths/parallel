@@ -2,6 +2,8 @@ const grunt = require('grunt');
 const pug = require('pug');
 const yaml = require('yamljs');
 const markdown = require('markdown-it');
+const JSDom = require('jsdom').JSDOM;
+const markdwonContainer = require('markdown-it-container');
 
 require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
@@ -9,39 +11,124 @@ require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 const pagesObj = yaml.parse(grunt.file.read('pages/pages.yaml'));
 const pages = JSON.stringify(pagesObj);
 
+// -----------------------------------------------------------------------------
+
+const md = markdown({html: true});
+
+md.use(require('markdown-it-video'));
+md.use(require('markdown-it-synapse-table'));
+md.use(require('markdown-it-container'), 'problem');
+md.use(require('markdown-it-anchor'));
+md.use(require('markdown-it-imsize'));  // ![test](image.png =100x200)
+// md.use(require('markdown-it-asciimath'));
+md.use(require('markdown-it-attrs'));
+md.use(require('markdown-it-sub'));  // H~~2~~O
+md.use(require('markdown-it-sup'));  // H^2^
+md.use(require('markdown-it-checkbox'), {divWrap: true, divClass: 'choice'});
+
+md.use(markdwonContainer, 'problem', { render(tokens, idx) {
+  if (tokens[idx].nesting === 1) {
+    const data = {};
+    const options = tokens[idx].info.trim().split(' ').slice(1);
+    for (let o of options) {
+      const split = o.split('=');
+      data[split[0]] = split[1];
+    }
+
+    return `<div class="problem" id="p_${data.id}" data-marks="${data.marks}">
+      <div class="marks">${data.marks} mark${data.marks == 1 ? '' : 's'}</div>`;
+  } else {
+    return '</div>';
+  }
+}});
+
+function parseProblemList($list, $problem) {
+  const itemIds = 'abcdefghijk'.split('');
+  const isCheckbox = $list.querySelectorAll('[checked]').length > 1;
+  $list.classList.add('choices');
+  $problem.classList.add(isCheckbox ? 'checkbox' : 'radio');
+
+  for (let $item of $list.querySelectorAll('.choice')) {
+    const isCorrect = $item.children[0].hasAttribute('checked');
+    const itemId = (isCheckbox ? $problem.id + '_' : '') + itemIds.shift();
+
+    const $label = $item.children[1];
+    $item.removeChild($item.children[0]);
+    $item.removeChild($item.children[0]);
+    $item.setAttribute('data-value', itemId);
+    for (let $n of $label.childNodes) $item.appendChild($n);
+    while ($item.nextSibling) $item.appendChild($item.nextSibling);
+
+    if (isCorrect) $item.classList.add('correct');
+
+    if (isCheckbox) {
+      $item.setAttribute('v-on:click', `c.setAnswer('${itemId}', !c.answers.${itemId})`);
+      $item.setAttribute('v-bind:class', `{active: c.answers.p_${itemId}}`);
+
+    } else {
+      $item.setAttribute('v-on:click', `c.setAnswer('${$problem.id}', '${itemId}')`);
+      $item.setAttribute('v-bind:class', `{active: c.answers.${$problem.id} == '${itemId}'}`);
+    }
+  }
+}
+
+function parseProblemSolution($problem, $hr, doc) {
+  const $solution = doc.createElement('div');
+  $solution.classList.add('solution');
+  while ($hr.nextElementSibling) $solution.appendChild($hr.nextElementSibling);
+  $problem.removeChild($hr);
+  $problem.appendChild($solution);
+}
+
+function parseProblems(doc) {
+  for (let $problem of doc.querySelectorAll('.problem')) {
+    const $list = $problem.querySelector('ul');
+    if ($list) parseProblemList($list, $problem);
+
+    const $hr = $problem.querySelector('hr');
+    if ($hr) parseProblemSolution($problem, $hr, doc);
+  }
+}
+
+function parseHeader(doc, pageId) {
+  const header = doc.createElement('header');
+  header.style.backgroundImage = `url("/resources/${pageId}/header.jpg")`;
+  header.appendChild(doc.querySelector('h1'));
+  doc.body.insertBefore(header, doc.body.children[0]);
+
+  const status = doc.createElement('div');
+  status.innerHTML = pug.renderFile('src/templates/status.pug');
+  doc.body.insertBefore(status.children[0], doc.body.children[1]);
+}
+
+function submitButton(pageId) {
+  return `<div v-if="isOneOf(c.status, 'open', 'past', 'preview')">
+    <button id="submit" v-on:click="c.submit" data-challenge=${pageId}>Submit Answers</button>
+  </div>`;
+}
+
 grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   let done = this.async();
 
-  const md = markdown({html: true});
-  md.use(require('markdown-it-video'));
-  md.use(require('markdown-it-synapse-table'));
-  md.use(require('markdown-it-container'), 'problem');
-  md.use(require('markdown-it-anchor'));
-  md.use(require('markdown-it-container'), 'hint', { render(tokens, idx) {
-    if (tokens[idx].nesting === 1) {
-      let id = tokens[idx].info.trim();
-      return '<div class="hint" v-on:click="showHint">' +
-        '<div class="hint-body"><h3>' + id.toUpperCase() + '</h3>';
-    } else {
-      return '</div></div>';
-    }
-  }});
-
   Promise.all(this.files.map(function({src, dest}) {
+    const url = src[0].split('/')[1].replace('.md', '');
+    const pageId = (+url[0]) ? url : null;
+
     let code = grunt.file.read(src[0]);
+    code = code.replace('::: submit', submitButton(pageId));
 
-    /* code = code.replace(/x\-radio\=\"(\w+)\,\s*(\w+)\"/g, (_, key, value) =>
-      `v-on:click="setAnswer('${key}', '${value}')" v-bind:class="{active: answers.${key} == '${value}'}"`);
-    code = code.replace(/x\-checkbox\=\"(\w+)\"/g, (_, key) =>
-      `v-on:click="setAnswer('${key}', !answers.${key})" v-bind:class="{active: answers.${key}}"`);
-    code = code.replace(/x\-input\=\"(\w+)\,\s*(\w+)\"/g, (_, key, correct) =>
-      `v-on:change="refresh" v-model.lazy="answers.${key}" v-bind:class="{correct: isCorrect(answers.${key}, ${correct})}"`); */
+    const doc = (new JSDom(md.render(code))).window.document;
+    parseProblems(doc);
+    parseHeader(doc, pageId);
 
-    let content = md.render(code);
-    let html = pug.renderFile('src/templates/layout.pug', { content, pages });
+    const pugOptions = {content: doc.body.innerHTML, pages, pageId};
+    const html = pug.renderFile('src/templates/layout.pug', pugOptions);
+
     return grunt.file.write(dest, html);
   })).then(done).catch(grunt.fail.warn);
 });
+
+// -----------------------------------------------------------------------------
 
 grunt.initConfig({
 

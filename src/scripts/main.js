@@ -7,6 +7,7 @@
 import getUser from './user';
 import getLogin from './login';
 import getSignup from './signup';
+import getChallenge from './challenge';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -20,11 +21,34 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const signup = getSignup();
-  const user = getUser(signup);
+  const user = getUser(signup, PAGES);
   const login = getLogin(user);
+
+  const submit = document.getElementById('submit');
+  const challenge = submit ? getChallenge(submit.dataset.challenge, user, PAGES) : null;
 
   window.app = new Vue({
     el: '#container',
-    data: {user, login, signup, pages: PAGES}
+    data: {user, login, signup, c: challenge, isOneOf, timeUntil, pages: PAGES}
   });
 });
+
+
+function isOneOf(x, ...values) {
+  for (let v of values) if (x === v) return true;
+}
+
+function timeUntil(to) {
+  let t = (new Date(to) - Date.now()) / 1000;
+
+  if (t < 120) return Math.floor(t) + ' seconds';
+
+  t /= 60;
+  if (t < 120) return Math.floor(t) + ' minutes';
+
+  t /= 60;
+  if (t < 48) return Math.floor(t) + ' hours';
+
+  t /= 24;
+  return Math.floor(t) + ' days';
+}

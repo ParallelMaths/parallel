@@ -20,10 +20,30 @@ To deploy updates to the [live site](https://parallel.org.uk), use
 `npm run deploy`. (This requires access to the linked Firebase account.)
 
 
+## Adding a new Parallelogram
+
+Adding a new parallelogram consists of three parts:
+
+* Create a new file at `/pages/<name>.md` with the parallelogram content.
+* Upload all required resources (e.g. images) to `/resources/<name>/`. Note that
+  the names of the `.md` file and the resources directory have to match.
+* Update `/pages/pages.yaml` with the new parallelogram and the required timings.
+
+
 ## TODO List
 
-- __Fix feedback form for Safari__
-- __Add open graph data to <head>__
-- Improve mobile design
-- Alert when submitting without answering everything
-- Loading state for forms, CSS for invalid fields
+* ! Fix CSS: solutions, image sizes + margins, asciimath
+* ! Markdown + Scoring for input fields
+* ! Show scores at the end, Sidebar status
+
+* Enable Hints
+* Submit warnings, submit loading, confetti
+* Improve mobile design
+* Updated login form based on Simon's ideas
+* Documentation
+
+* Teacher form
+* Edit account page
+* Feedback form (fix in Safari)
+* Add open graph data to head
+* Loading state for forms, CSS for invalid fields
