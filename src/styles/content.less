@@ -14,7 +14,6 @@ h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; }
 p { margin: 0 0 1em 0; }
 p img, table img { display: block; height: auto; margin: 0 auto; max-width: 100%; }
 hr { background: #ccc; border: none; height: 2px; margin: 2.5em 0; }
-blockquote { font-style: italic; margin: 1.5em 0 1.5em 2em; color: #999; }
 
 a { cursor: pointer; text-decoration: none; }
 p a { color: @blue; }
@@ -23,8 +22,9 @@ p a:hover { text-decoration: underline; }
 .img-right { float: right; margin: 0 0 1em 1em; }
 .text-center { text-align: center; }
 
-table { margin: 1rem auto; width: 100%; table-layout: fixed; }
-table td { padding: .2rem .4rem; }
+
+// -----------------------------------------------------------------------------
+// Components
 
 .embed-responsive { height: 0; margin: 1em -32px; position: relative; }
 .embed-responsive-16by9 { padding-bottom: 56.25%; }
@@ -43,134 +43,167 @@ table td { padding: .2rem .4rem; }
 
 .eq { white-space: nowrap; }
 
+table { margin: 1rem auto; width: 100%; table-layout: fixed; border-spacing: 0; }
+table td { padding: .2rem .4rem; text-align: center; }
+table.small { width: auto; max-width: 100%; }
+
+table.grid {
+  td { border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; }
+  td:last-child { border-right: 0; }
+  tr:last-child td { border-bottom: 0; }
+}
+
+.sumaze-score {
+  color: @red;
+  text-align: center;
+  margin-top: -1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
 
 // -----------------------------------------------------------------------------
 // Questions
 
+@light-blue: mix(@blue, white, 40%);
+@dark-blue: mix(@blue, #999, 40%);
+
 .problem {
-  background: #bad5f5;
-  margin: 2em -32px 2em;
+  background: @light-blue;
+  margin: 2.5em -32px 2em;
   padding: 1em 32px 1px;
+  position: relative;
+  // + .problem { margin-top: -2em; }
 
   img { vertical-align: middle; }
   img[src$="png"] { mix-blend-mode: multiply; }
+}
 
-  .marks {
-    float: right;
-    font-style: italic;
-    margin: 0 0 1rem 1rem;
-    &:before { content: '['; }
-    &:after { content: ']'; }
-  }
+.marks {
+  background: @dark-blue;
+  position: absolute;
+  top: -28px;
+  right: 0;
+  padding: 2px 24px 2px 18px;
+  line-height: 24px;
+  color: white;
 
-  .choice  { margin: 0 0 2rem 1rem; }
-
-  .choice > * {
-    padding: .1rem 0 .1rem 2.6rem;
-    margin-bottom: .1rem;
-    cursor: pointer;
-    transition: background .15s;
-    border-radius: 3px;
-    box-sizing: border-box;
-    &:hover { background: fade(black, 15%); }
-  }
-
-  .choice > *:before {
+  &:before {
     content: "";
-    display: inline-block;
-    margin: 0 .6rem -0.1rem -1.6rem;
-    width: 1rem;
-    height: 1rem;
-    background: white;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 0 0 0 1px fade(black, 15%);
+    border-top: 28px solid transparent;
+    border-right: 10px solid @dark-blue;
+    position: absolute;
+    left: -10px;
+    top: 0;
   }
+}
 
-  .checkbox > *:before { border-radius: 2px; }
-  .choice > .active:before { background: #2a43cc; border: 4px solid white; }
+.marks + p strong:first-child { display: inline-block; margin-right: 5px; }
 
-  input, select {
-    max-width: 200px;
-    text-align: center;
-    background-color: white;
-    border: none;
-    padding: 4px 8px;
-    border-radius: 4px;
-    box-shadow: 0 0 0 1px fade(black, 15%);
-    margin-bottom: 2rem;
-  }
+.choices { margin: 0 0 2rem 1rem; list-style: none; padding: 0; }
+.choices li { margin-bottom: .1rem; }
 
-  .submitted &, .locked &, .revealed & {
-    input, select, .choice > * { pointer-events: none; }
-  }
+.choice {
+  padding: .1rem 0 .1rem 2.6rem;
+  cursor: pointer;
+  transition: background .15s;
+  border-radius: 3px;
+  box-sizing: border-box;
+  &:hover { background: fade(black, 15%); }
+}
 
-  .revealed & .choice .active:not(.correct) {
+.choice:before {
+  content: "";
+  display: inline-block;
+  margin: 0 .6rem -0.1rem -1.6rem;
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 1px fade(black, 15%);
+  .checkbox & { border-radius: 2px; }
+}
+.choice.active:before { background: @blue; border: 4px solid white; }
+
+.problem input {
+  max-width: 200px;
+  text-align: center;
+  background-color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px fade(black, 15%);
+  margin-bottom: 2rem;
+}
+
+.revealed {
+  .choice.active:not(.correct) {
     background: fade(@INCORRECT, 50%);
-    &:before {
-      background: white @CROSS;
-      border: none;
-    }
+    &:before { background: white @CROSS; border: none; }
   }
 
-  .revealed & .choice .correct.active {
-    background: fade(@CORRECT, 50%);
-  }
+  .choice.correct.active { background: fade(@CORRECT, 50%); }
 
-  .revealed & .choice .active:not(.correct):after,
-  .revealed & .choice .correct.active:after {
+  .choice.active:not(.correct):after,
+  .choice.correct.active:after {
     content: "Your answer";
     float: right;
-    margin: .2rem .5rem;
+    margin: .2rem .6rem;
     color: fade(white, 50%);
     font-size: .8rem;
     font-style: italic;
   }
 
-  .revealed & .choice .correct.active,
-  .revealed & .choice .correct:not(.active) {
-    &:before {
-      background: white @CHECK;
-      border: none;
-    }
+  .choice.correct.active,
+  .choice.correct:not(.active) {
+    &:before { background: white @CHECK; border: none; }
   }
 
-  .revealed & input {
+  .problem input {
     background: white @CROSS no-repeat center right 6px;
     background-size: 24px 24px;
     padding-right: 32px;
     &.correct { background-image: @CHECK; }
   }
-
-  .c2, .c3, .c4, .c5 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    > * { }
-  }
-  .c2 > * { min-width: 340px; }
-  .c3 > * { min-width: 220px; }
-  .c4 > * { min-width: 160px; }
-  .c5 > * { min-width: 125px; }
 }
 
+.preview, .submitted, .locked, .revealed {
+  .problem input, .choice { pointer-events: none; }
+}
+
+.col-2, .col-3, .col-4, .col-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 > * { min-width: 340px; }
+.col-3 > * { min-width: 210px; }
+.col-4 > * { min-width: 160px; }
+.col-5 > * { min-width: 125px; }
+
 .solution {
-  background: #486eb5;
-  margin: -1rem 0 2rem 3.5rem;
-  padding: .5rem 1.2rem 1px;
-  border-radius: 4px;
-  opacity: 0.8;
+  background: mix(@blue, #999, 40%);
+  margin: -1rem -32px -1px;
+  padding: .8rem 32px .2rem;
   color: white;
+  font-size: .8rem;
 
-  p { font-size: .9rem; margin-bottom: .5rem; }
-  &:last-child { margin-bottom: 1rem; }
+  &:before {
+    content: "Solution";
+    display: block;
+    font-weight: 600;
+    margin-bottom: .6rem;
+  }
 
-   display: none;
+  display: none;
   .revealed & { display: block; }
 }
 
-.hint {
-  display: none;  // TODO Fix this!
+// TODO Fix this!
+blockquote { display: none; }
+/* .hint {
+  display: none;
   background: #ddd;
   font-size: .8rem;
   height: 2rem;
@@ -180,10 +213,9 @@ table td { padding: .2rem .4rem; }
   transition: height .3s;
 
   &:not(.open) { cursor: pointer; }
-
   .hint-body { padding-bottom: 1px; }
   h3 { margin: 0 0 .4rem; }
-}
+} */
 
 
 // -----------------------------------------------------------------------------

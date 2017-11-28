@@ -1,28 +1,28 @@
 year7:
-  - week: 4
-    url: blackboard-equation
+  - week: 5
+    url: 7-05-blackboard-equation
     title: Blackboard Equations
-    available: 2017-07-21T15:00:00
-    deadline: 2017-07-23T18:00:00
-  - week: 3
-    url: sumaze
+    available: 2017-11-16T15:00:00
+    deadline: 2017-11-23T18:00:00
+  - week: 4
+    url: 7-04-sumaze
     title: Sumaze
-    available: 2017-07-14T15:00:00
-    deadline: 2017-07-16T18:00:00
+    available: 2017-11-14T15:00:00
+    deadline: 2017-11-16T18:00:00
+  - week: 3
+    url: 7-03-good-will-hunting
+    title: Good Will Hunting
+    available: 2017-11-14T15:00:00
+    deadline: 2017-11-16T18:00:00
   - week: 2
-    url: good-will-hunting
-    title: Good Will Hunting
-    available: 2017-07-07T15:00:00
-    deadline: 2017-07-09T18:00:00
-  - week: 1
-    url: maths-jokes
+    url: 7-02-maths-jokes
     title: Maths Jokes
-    available: 2017-06-28T07:00:00
-    deadline: 2017-07-02T18:00:00
-
-year8:
+    available: 2017-11-07T15:00:00
+    deadline: 2017-11-09T18:00:00
   - week: 1
-    url: good-will-hunting
-    title: Good Will Hunting
-    available: 2017-07-07T15:00:00
-    deadline: 2017-07-09T18:00:00
+    url: 7-01-codes
+    title: Codes and Physics
+    available: 2017-11-01T07:00:00
+    deadline: 2017-11-03T18:00:00
+
+year8: []
