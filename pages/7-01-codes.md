@@ -130,9 +130,9 @@ The triangles A and B are both equilateral.
 
 ![](/resources/7-01-codes/3-1-angles.png)"
 
-Angle x = [[75]]°
+Angle x = <input type="number" solution="75"/>°
 
-Angle y = [[165]]°
+Angle y = <input type="number" solution="165"/>°
 
 ---
 
@@ -161,7 +161,7 @@ perfect squares.
 ::: problem id=4 marks=3
 How old is the teacher?
 
-[[solution]]
+<input type="number" solution="xxx"/>
 
 > It might be reasonable to assume that the teacher is more than 20 and
 > less than 80. Moreover, the age is odd but not a prime, so you can start by
@@ -254,23 +254,24 @@ you started. Just identify the other seven numbers.
 
 ![](/resources/7-01-codes/6-1-puzzle.png)
 
-a = [[x]]
-b = [[x]]
-c = [[x]]
-d = [[x]]
-e = [[x]]
-f = [[x]]
-g = [[x]]
+a = <input type="number" solution="xxx"/>  
+b = <input type="number" solution="xxx"/>  
+c = <input type="number" solution="xxx"/>  
+d = <input type="number" solution="xxx"/>  
+e = <input type="number" solution="xxx"/>  
+f = <input type="number" solution="xxx"/>  
+g = <input type="number" solution="xxx"/>
 
 ---
 
-The easiest number to pin down is (d), which has to be 9.
+The easiest number to pin down is `d`, which has to be 9.
 
 5/1 x 9 = 45.
 
-You may have followed a different route, but I then worked (c) and (g), because 9c + g must equal 67, and (c) and (g) are single digits then c = 7 and g = 4.
+You may have followed a different route, but I then worked `c` and `g`, because
+`9c + g` must equal 67, and `c` and `g` are single digits then `c=7` and `g=4`.
 
-Now we know c = 7, then we also know that a x b = 48.
+Now we know `c = 7`, then we also know that `a ** b = 48`.
 
 This means that a = 6 and b = 8 or a = 8 and b = 6.
 

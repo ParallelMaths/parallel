@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 2_ Maths Jokes
+# _Pilot • Parallelogram 1_ Maths Jokes
   
 Welcome to the first of four weekly Parallelograms, a collection of mathematical
 challenges designed to stretch your brain and make your neurons more squiggly.
@@ -50,7 +50,7 @@ __1.3__ What does the “B” in Benoit B Mandelbrot stand for?
 * [ ] Breviation
 
 ---
-![](/resources/7-02-maths-jokes/mandelbrot.png)
+![](/resources/6-01-maths-jokes/mandelbrot.png)
 
 This was a tough one. Benoit B Mandelbrot helped developed the mathematics of
 fractals, which are structures or shapes that appear similar when you zoom in or
@@ -76,7 +76,7 @@ __1.4__ Why did the chicken cross the Möbius strip?
 
 ---
 
-![](/resources/7-02-maths-jokes/mobius.jpg)
+![](/resources/6-01-maths-jokes/mobius.jpg)
 
 Another toughie – a Möbius strip is a strange mathematical shape which only has
 one side, so you can’t get to the other side. As shown here, it is just a loop
@@ -94,7 +94,7 @@ __2__ What is the digit x in this cross-number?
 
 <table><tr><td>
 
-![](/resources/7-02-maths-jokes/crossnumber.png)
+![](/resources/6-01-maths-jokes/crossnumber.png)
 
 </td><td>
 
@@ -110,7 +110,7 @@ __2.__ A number
 
 </td></tr></table>
 
-<input type="number" placeholder="x =" x-input="p_2_1, 4"/>
+_x_ = <input type="number" solution="4"/>
 
 > 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they
 > are all 2-digit numbers, which means they are between 10 and 99. There are not
@@ -130,7 +130,7 @@ works if 1 down is 26, because 3 across can then be 64, which means _x_ = 4.
 
 ## 3. Maryam’s inspiration
 
-![](/resources/7-02-maths-jokes/maryam-mirzakhani.png)
+![](/resources/6-01-maths-jokes/maryam-mirzakhani.png)
 
 You might be surprised to know that there is no Nobel Prize for maths. However,
 there is an even bigger prize for mathematicians, which is called the Fields
@@ -161,7 +161,7 @@ Maryam talks about a problem involving the path of a ball bouncing around a
 billiard table.
 :::
 
-![](/resources/7-02-maths-jokes/gauss.png)
+![](/resources/6-01-maths-jokes/gauss.png)
 
 Maryam has said that she first became fired up about mathematics when her big
 brother told her a story about the great mathematician Carl Friedrich Gauss.
@@ -187,13 +187,13 @@ Here is Gauss's trick in three stages:
 
 Another way to think about this is:
 
-![](/resources/7-02-maths-jokes/gauss-equation.png)
+`"Sum from 1 to n" = n/2 × (n+1)` {.text-center}
 
-* __(n+1)__ represents step 1, because you pair up all the numbers, so that all
-  the pairs add up to __(n+1)__.  
-* __(n/2)__ represents step 2, because the number of pairs is equal to the total
+* `(n+1)` represents step 1, because you pair up all the numbers, so that all
+  the pairs add up to `(n+1)`.  
+* `n/2` represents step 2, because the number of pairs is equal to the total
   number of numbers divided by 2.  
-* __(x)__ represents step 3, because you then multiply the sum of each pair by
+* × represents step 3, because you then multiply the sum of each pair by
   the number of pairs.
  
 Let’s see if you can apply Gauss’s trick.
@@ -201,7 +201,7 @@ Let’s see if you can apply Gauss’s trick.
 ::: problem id=3_2 marks=1
 __3.2__ Add up all the numbers from 1 to 50
 
-<input type="number" placeholder="???" x-input="p_3_2, 1275"></input>
+<input type="number" solution="1275"/>
 
 ---
 The correct answer is 1275.
@@ -210,7 +210,7 @@ The correct answer is 1275.
 ::: problem id=3_3 marks=1
 __3.3__ Add up all the numbers from 1 to 1,000
 
-<input type="number" placeholder="???" x-input="p_3_3, 500500"></input>
+<input type="number" solution="500500"/>
 
 ---
 The correct answer is 500500.
