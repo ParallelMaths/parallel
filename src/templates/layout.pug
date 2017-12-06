@@ -6,55 +6,78 @@ html
 
     title Parallel by Simon Singh
     meta(name="description", content="Weekly mathematics challenges for secondary school students.")
-    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
 
+    //- Mobile Display
+    meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+    meta(name="format-detection", content="telephone=no")
+    meta(http-equiv="cleartype", content="on")
     meta(name="msapplication-tap-highlight" content="no")
-    link(rel="manifest" href="/manifest.json")
 
+    //- iOS Web Apps
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-title" content="Parallel by Simon Singh")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black")
+
+    //- Web Apps and Images
+    meta(name="mobile-web-app-capable", content="yes")
+    meta(name="mobile-web-app-title", content="Parallel")
+    meta(name="theme-color", content="#181824")
+    link(rel="manifest", href="/manifest.json")
+
+    //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css", rel="stylesheet")
+    link(href="/parallel.css?v=2", rel="stylesheet")
 
   body
+    #vue
+      .header
+        #menu(v-on:click="showSidebar=true")
+          svg(width=24 height=24)
+            rect(y=2 width=24 height=3 fill="white")
+            rect(y=10 width=24 height=3 fill="white")
+            rect(y=18 width=24 height=3 fill="white")
 
-    a#logo(href="/" title="Home")
+        a#logo(href="/" title="Home")
 
-    #container
-      .sidebar(v-bind:class="{hide: !user.ready}")
-        .sidebar-wrap
-          div(v-if="!user.data")
-            .user: a(href="/signup") Create a free account
-            .user
-              a(v-on:click="login.show = !login.show") Login
-              form.login(v-bind:class="{active: login.show}" v-on:submit="login.submit")
-                input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
-                input(placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password")
-                .error(v-show="login.error") {{login.error}}
-                p
-                  button(type="submit") {{ login.reset ? 'Reset' : 'Login' }}
-                  a(v-on:click="login.toggleReset()") {{ login.reset ? 'Back to login' : 'Reset password' }}
-            .toggle
-              a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
-              a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
-          .user.account(v-if="user.data")
-            p {{ user.data.first }} {{user.data.last }}
-            p.small
-              span(v-if="user.data.school != 'Other'") {{ user.data.school }}&nbsp;&nbsp;•&nbsp;&nbsp;
-              | {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
-              a(v-on:click="user.logout") Logout
-          nav
-            a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-if="user.getStatus(p) != 'locked'")
-              .title-meta Week {{ p.week }}
-              .title {{ p.title }}
-              .status.open(v-if="user.getStatus(p) == 'open'") NEW
-              .status.submitted(v-if="user.getStatus(p) == 'submitted'")
-              .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
-            a(href="/introduction")
-              .title Introduction
+      #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
-      article(v-bind:class="c ? c.status : ''")
-        block content
-        if content
-          div!= content
+      #container
+        .sidebar(v-bind:class="{hide: !user.ready}")
+          .sidebar-wrap(v-bind:class="{visible: showSidebar}")
+            div(v-if="!user.data")
+              .user: a(href="/signup") Create a free account
+              .user
+                a(v-on:click="login.show = !login.show") Login
+                form.login(v-bind:class="{active: login.show}" v-on:submit="login.submit")
+                  input(placeholder="Email" required type="email" v-model="login.email" autocomplete="email")
+                  input(placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password")
+                  .error(v-show="login.error") {{login.error}}
+                  p
+                    button(type="submit") {{ login.reset ? 'Reset' : 'Login' }}
+                    a(v-on:click="login.toggleReset()") {{ login.reset ? 'Back to login' : 'Reset password' }}
+              .toggle
+                a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
+                a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
+            .user.account(v-if="user.data")
+              p {{ user.data.first }} {{user.data.last }}
+              p.small
+                span(v-if="user.data.school != 'Other'") {{ user.data.school }}&nbsp;&nbsp;•&nbsp;&nbsp;
+                | {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
+                a(v-on:click="user.logout") Logout
+            nav
+              a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-if="user.getStatus(p) != 'locked'")
+                .title-meta Week {{ p.week }}
+                .title {{ p.title }}
+                .status.open(v-if="user.getStatus(p) == 'open'") NEW
+                .status.submitted(v-if="user.getStatus(p) == 'submitted'")
+                .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
+              a(href="/introduction")
+                .title Introduction
+
+        article(v-bind:class="c ? c.status : ''")
+          block content
+          if content
+            div!= content
 
     footer
       a(href="/about") About
@@ -68,11 +91,10 @@ html
       | and
       a(href="https://mathigon.org") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
 
-    //- TODO Use minified version of vue
     script var PAGES = !{pages};
     script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
-    script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.js")
-    script(defer src="/parallel.js")
+    script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js")
+    script(defer src="/parallel.js?v=2")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

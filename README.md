@@ -32,18 +32,11 @@ Adding a new parallelogram consists of three parts:
 
 ## TODO List
 
-* ! Fix CSS: solutions, image sizes + margins, asciimath
-* ! Markdown + Scoring for input fields
-* ! Show scores at the end, Sidebar status
-
-* Enable Hints
-* Submit warnings, submit loading, confetti
-* Improve mobile design
-* Updated login form based on Simon's ideas
-* Documentation
-
-* Teacher form
+* ! Teacher overview page and login changes
+* ! Documentation
+* ! Submit warnings, submit loading, confetti
 * Edit account page
+* Enable Hints
 * Feedback form (fix in Safari)
-* Add open graph data to head
 * Loading state for forms, CSS for invalid fields
+* Update getScores and getUsers scripts

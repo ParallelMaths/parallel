@@ -26,23 +26,12 @@ block content
 
     label
       | Password (min 6 characters)
-      input(type="password" required pattern=".{3,}" v-model="signup.password" autocomplete="password")
-
-    div(v-if="signup.isTeacher")
-      label
-        | School name (students will need to select this when signing up)
-        input(type="email" required v-model="signup.schoolName")
+      input(type="password" required pattern=".{6,}" v-model="signup.password" autocomplete="password")
 
     div(v-if="!signup.isTeacher")
       label
-        | If your participate as part of your school, please select it
-        select(v-model="signup.school" required)
-          option(value="Other") No School
-          option Bulmershe
-          option Challoner's, Amersham
-          option Lister
-          option Plashett
-          option Ratton
+        | Class code (if you are participating as part of a school)
+        input(type="text" v-model="signup.school")
 
     div(v-if="!signup.isTeacher")
       label
@@ -51,22 +40,22 @@ block content
           option(value="year7") Year 7
           option(value="year8") Year 8
 
-    div(v-if="!signup.isTeacher && signup.school == 'Other'")
+    div(v-if="!signup.isTeacher")
       label
         | Year of Birth
         select(v-model="signup.birthYear")
           - var year = 1920;
-          while year < 2016
+          while year < 2014
             option= year++
 
-      label
+      //- label
         | Gender (optional)
         select(v-model="signup.gender" autocomplete="sex")
           option Female
           option Male
           option Other
 
-    div(v-if="signup.isTeacher || signup.school == 'Other'")
+    div(v-if="signup.isTeacher || !signup.school")
       label
         | Country
         select(v-model="signup.country" autocomplete="country-name")
@@ -265,7 +254,7 @@ block content
           option Zambia
           option Zimbabwe
 
-    p(v-show="!signup.isTeacher && signup.school == 'Other' && signup.birthYear >= 2004") If you are under the age of 13, please ask permission from a parent or guardians before creating an account.
+    p(v-show="!signup.isTeacher && !signup.school && signup.birthYear >= 2004") If you are under the age of 13, please ask permission from a parent or guardians before creating an account.
 
     p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=500, height=500'); return false;") terms and conditions].
 

@@ -20,6 +20,7 @@
     "users": "firebase auth:export private/users.csv --format=csv"
   },
   "devDependencies": {
+    "ascii2mathml": "^0.5.4",
     "babel-core": "~6.3.26",
     "babel-preset-es2015": "^6.3.13",
     "grunt": "~0.4.5",
@@ -37,11 +38,11 @@
     "jsdom": "^11.4.0",
     "markdown-it": "^8.3.1",
     "markdown-it-anchor": "^4.0.0",
-    "markdown-it-asciimath": "^1.0.0",
     "markdown-it-attrs": "^1.2.0",
     "markdown-it-block-image": "0.0.3",
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-container": "^2.0.0",
+    "markdown-it-implicit-figures": "^0.6.0",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",

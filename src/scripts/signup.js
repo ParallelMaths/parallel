@@ -11,7 +11,7 @@ export default function() {
   const signup = {
     error: null,
     loading: false,
-    school: 'Other',
+    school: '',
     schoolName: '',
     country: 'United Kingdom',
     birthYear: 2000,
@@ -25,13 +25,14 @@ export default function() {
 
       // TODO Validate schoolName.
 
+      // TODO for teachers, generate class code, remove birthYear+level
+
       fbAuth.createUserWithEmailAndPassword(signup.email, signup.password)
         .then(user =>  fbDatabase.ref('users/' + user.uid).set({
           first: signup.first,
           last: signup.last,
           birthYear: signup.birthYear,
-          country: signup.country,
-          gender: signup.gender || '',
+          country: signup.country,  // TODO fall back to school country
           school: signup.school,
           level: signup.level,
           isTeacher: signup.isTeacher

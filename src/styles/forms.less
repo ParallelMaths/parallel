@@ -56,7 +56,7 @@ button[type="submit"], a.external {
   display: block;
   font: inherit;
   font-size: 18px;
-  margin: 2rem auto 1rem;
+  margin: 2rem auto;
   outline: none;
   padding: 6px 32px;
   max-width: 240px;
@@ -64,7 +64,7 @@ button[type="submit"], a.external {
   text-align: center;
   transition: background .2s;
 
-  &:hover, &:focus { background: darken(@red, 15%); }
+  &:hover, &:focus { background: darken(@red, 15%); text-decoration: none; }
 }
 
 form p { font-size: 14px; }

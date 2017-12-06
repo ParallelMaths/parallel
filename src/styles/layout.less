@@ -22,10 +22,6 @@ html {
   line-height: 1.8;
 }
 
-body {
-  min-width: 720px;  // TODO Make mobile capable.
-}
-
 #logo {
   background: url('/images/logo.png');
   background-size: cover;
@@ -34,6 +30,8 @@ body {
   width: 220px;
   display: block;
 }
+
+#menu { display: none; }
 
 #container {
   display: flex;
@@ -189,7 +187,10 @@ nav a {
 
   &.open { background: @red; }
   &.submitted { width: 10px; height: 14px; background: @grey @WHITE-CHECK no-repeat center; background-size: 16px 16px; }
+}
 
+.score {
+  background: @grey;
   &.tesseract{ background: @green; }
   &.cube{ background: #9bdb2a; }
   &.square{ background: #dbc721; }
@@ -214,4 +215,83 @@ footer a {
   transition: color .2s;
   &:hover, &:focus { color: white; }
   img { margin: 0 1px -3px 0; }
+}
+
+
+// -----------------------------------------------------------------------------
+// Mobile Display
+
+@media screen and (max-width: 720px) {
+  html { font-size: 16px; }
+  #container { max-width: 100%; display: block; }
+
+  .header {
+    width: 100%;
+    position: fixed;
+    z-index: 997;
+    background: @grey;
+    height: 56px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+
+  #menu {
+    display: block;
+    width: 56px;
+    height: 56px;
+    float: left;
+    svg { margin: 16px; }
+  }
+
+  #logo { float: left; height: 40px; margin: 8px 0; width: 110px; }
+
+  #shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s;
+    top: 0;
+    z-index: 998;
+
+    &.visible {
+      pointer-events: all;
+      opacity: 0.4;
+    }
+  }
+
+  article {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 24px;
+    width: calc(~"100% - 48px");
+    overflow: hidden;
+  }
+
+  .sidebar {
+    margin: 0;
+    &.hide { display: none; transform: none; }
+  }
+
+  .sidebar-wrap {
+    width: 280px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-height: none;
+    border-radius: 0;
+    z-index: 999;
+    box-shadow: 0 5px 25px 5px rgba(0,0,0,0.5);
+
+    transform: translateX(-310px);
+    transition: transform .3s;
+    &.visible { transform: none;}
+  }
+
+  .user:first-child { border-radius: 0; }
+
+    header { height: 240px; margin: -24px -24px 24px -24px; }
+  .status-banner { margin: -24px -24px 24px; padding: 12px 24px; }
 }

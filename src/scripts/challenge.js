@@ -22,6 +22,7 @@ export default function(challengeId, user, pages) {
     id: challengeId,
     answers: {},
     status: overrideStatus || 'preview',
+    data: c,
     deadline: c.deadline,
 
     setAnswer(key, value) {
@@ -33,18 +34,31 @@ export default function(challengeId, user, pages) {
         .update({ [key]: value });
     },
 
+    setInput(event) {
+      // TODO Remove this and watch c.answers instead to update server.
+      challenge.setAnswer(event.target.dataset.value, event.target.value);
+    },
+
     submit() {
-      if (challenge.answers.submitted || !user.data) return;
+      if (!user.data) return alert('You have to create an account to submit your answers.');
+      if (challenge.answers.submitted) return;
 
       challenge.setAnswer('score', calculateScore(challenge.answers));
       challenge.setAnswer('submitted', true);
 
-      challenge.status = user.getStatus(challengeId);
+      const past = (Date.now() < new Date(c.deadline));
+      challenge.status = past ? 'submitted' : 'revealed';
       // document.body.scrollTop = document.documentElement.scrollTop = 10e10;
     },
 
+    unsubmit() {
+      Vue.set(challenge.answers, 'submitted', false);
+      fbDatabase.ref(`answers/${user.uid}/${challengeId}`).update({submitted: false});
+      challenge.status = user.getStatus(challengeId);
+    },
+
     // Custom scoring functions
-    sumaze, mathigon
+    sumaze, mathigon, checkInput
   };
 
   return challenge;
@@ -77,7 +91,14 @@ function calculateScore(answers) {
       }
 
     } else if (hasClass($p, 'input')) {
-      // TODO
+      const $inputs = $p.querySelectorAll('input');
+      for (let $i of $inputs) {
+        if (checkInput(answers[$i.dataset.value], $i.dataset.solution))
+          score += marks / $inputs.length;
+      }
+
+    } else if ($p.querySelector('.sumaze')) {
+      score += marks * sumaze($p.id) / 45;
     }
   }
 
@@ -100,13 +121,13 @@ function mathigon() {
   return 0;
 }
 
-/* function isCorrect(a, b) {
-  a = ('' + a).trim().replace(/[^0-9.]/g, '');
-  b = ('' + b).trim().replace(/[^0-9.]/g, '');
+function checkInput(a, b) {
+  a = ('' + a).trim().replace(/[\s,]/g, '');
+  b = ('' + b).trim().replace(/[\s,]/g, '');
   return a === b;
 }
 
-function mathigonUrl() {
+/* function mathigonUrl() {
   const u = firebase.auth().currentUser;
   if (!u) return '';
   return '?u=' + btoa(JSON.stringify({first: app.user.first, last: app.user.last, email: u.email, uid: u.uid}));

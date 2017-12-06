@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const challenge = submit ? getChallenge(submit.dataset.challenge, user, PAGES) : null;
 
   window.app = new Vue({
-    el: '#container',
-    data: {user, login, signup, c: challenge, isOneOf, timeUntil, pages: PAGES}
+    el: '#vue',
+    data: {user, login, signup, c: challenge, isOneOf, timeUntil, pages: PAGES, showSidebar: false}
   });
 });
 
