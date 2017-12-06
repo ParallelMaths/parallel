@@ -132,7 +132,7 @@ __2__ When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your 
 verall Parallelogram total.
 
-<input v-model="c.answers.p_2" class="correct sumaze" placeholder="Sumaze Code Word"/>
+<p class="text-center"><input v-model="c.answers.p_2" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
 
 Score: {{c.sumaze(c.answers.p_2)}} / 45 {.sumaze-score v-show="c.answers.p_2"}
 

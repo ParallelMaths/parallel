@@ -247,7 +247,7 @@ but it is better to finish all the levels once you have started.
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<input v-model="c.answers.p_3" class="correct sumaze" placeholder="Sumaze Code Word"/>
+<p class="text-center"><input v-model="c.answers.p_3" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
 
 Score: {{c.sumaze(c.answers.p_3)}} / 45 {.sumaze-score v-show="c.answers.p_3"}
 

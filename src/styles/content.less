@@ -229,7 +229,7 @@ blockquote { display: none; }
 // -----------------------------------------------------------------------------
 // Feedback and Submit
 
-#feedback {
+/* #feedback {
   table td:first-child { text-align: right; }
   table td:nth-child(2) { text-align: center; width: 220px; }
   svg {
@@ -243,7 +243,7 @@ blockquote { display: none; }
   td:hover svg { fill: #f4871b; }
   svg:hover + *, svg:hover + * + *, svg:hover + * + * + *,
   svg:hover + * + * + * + * { fill: #ccc !important; }
-}
+} */
 
 #submit {
   background: @red;
@@ -254,24 +254,15 @@ blockquote { display: none; }
   display: block;
   font: inherit;
   font-size: 24px;
-  margin: 60px auto 10px;
+  margin: 3rem auto;
   outline: none;
   transition: box-shadow .2s;
   width: 300px;
 
   &:hover, &:focus {
-    background: #930033;
+    background: darken(@red, 20%);
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
   }
-}
-
-.completed{
-  background: #98ea98;
-  padding: .5rem 1rem;
-  border-radius: 4px;
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
 }
 
 article .score {
