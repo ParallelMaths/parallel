@@ -12,19 +12,22 @@ export default function(signup, pages) {
   for (let year of Object.keys(pages))
     for (let c of pages[year]) challenges[c.url] = c;
 
+  const callbacks = [];
+
   const user = {
     data: null,
     ready: false,
     level: 'year7',
     answers: {},
-    onLoad: null,
     uid: null,
+
+    onLoad(fn) { callbacks.push(fn); },
 
     logout() {
       fbAuth.signOut().then(() => {
         user.data = user.uid = null;
         user.answers = {};
-        if (user.onLoad) user.onLoad();
+        for (let c of callbacks) c();
       })
     },
 
@@ -44,7 +47,7 @@ export default function(signup, pages) {
       fbDatabase.ref('answers/' + u.uid).once('value')
         .then(a => {
           user.answers = a.toJSON() || {};
-          if (user.onLoad) user.onLoad();
+          for (let c of callbacks) c();
         })
         .catch(e => { console.error(e); });
     },
@@ -69,14 +72,18 @@ export default function(signup, pages) {
 
     getLevel(challenge) {
       const score = user.getScore(challenge);
-      if (score >= 90) return 'tesseract';
-      if (score >= 70) return 'cube';
-      if (score >= 50) return 'square';
-      if (score >= 20) return 'line';
-      return 'point';
+      return getLevel(score);
     }
   };
 
   fbAuth.onAuthStateChanged(u => user.load(u));
   return user;
 };
+
+export function getLevel(score) {
+  if (score >= 90) return 'tesseract';
+  if (score >= 70) return 'cube';
+  if (score >= 50) return 'square';
+  if (score >= 20) return 'line';
+  return 'point';
+}

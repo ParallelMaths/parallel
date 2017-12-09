@@ -192,13 +192,13 @@ billion years.
 
 ::: problem id=2_5 marks=2
 __2.5__ You get a summer job that lasts for 6 weeks. You have two salary options:  
-* Option A – £100/week.
-* Option B – a salary that doubles each week, starting at £10/week.  
+
+Option A – £100/week.  
+Option B – a salary that doubles each week, starting at £10/week.  
 
 How much would each option deliver in total after 6 weeks?
 
 <input type="number" solution="600" placeholder="Option A Total"/>  
-
 <input type="number" solution="630" placeholder="Option B Total"/>
 
 ---

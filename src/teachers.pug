@@ -1,0 +1,21 @@
+extends templates/layout
+
+block content
+
+  div(v-if="user.ready && user.data.isTeacher")
+    h1 Teacher Dashboard
+
+    p Welcome to Parallel! Your students can create an account using the class code #[strong {{user.data.class}}].
+
+    .error(v-show="teacher.error") {{ teacher.error }}
+
+    table#dashboard(v-if="!teacher.error")
+      thead
+        tr
+          th(width=160)
+          th(width=100 v-for="p in teacher.pages") {{ p.title }}
+      tbody
+        tr(v-for="s in teacher.students")
+          td(width=200) {{ s.name }}
+          td(width=100 v-for="p in teacher.pages")
+            span.score(v-if="teacher.answers[s.id][p.url]" v-bind:class="teacher.answers[s.id][p.url].level") {{ teacher.answers[s.id][p.url].score }}%

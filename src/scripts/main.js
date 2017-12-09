@@ -8,6 +8,7 @@ import getUser from './user';
 import getLogin from './login';
 import getSignup from './signup';
 import getChallenge from './challenge';
+import getTeacher from './teachers';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -27,9 +28,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const submit = document.getElementById('submit');
   const challenge = submit ? getChallenge(submit.dataset.challenge, user, PAGES) : null;
 
+  const dashboard = document.getElementById('dashboard');
+  const teacher = dashboard ? getTeacher(user, PAGES) : null;
+
   window.app = new Vue({
     el: '#vue',
-    data: {user, login, signup, c: challenge, isOneOf, timeUntil, pages: PAGES, showSidebar: false}
+    data: {
+      user, login, signup, c: challenge, teacher,
+      isOneOf, timeUntil,
+      pages: PAGES,
+      showSidebar: false,
+      path: location.pathname.slice(1)
+    }
   });
 });
 

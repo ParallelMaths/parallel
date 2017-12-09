@@ -171,7 +171,7 @@ grunt.initConfig({
   },
 
   babel: {
-    options: {presets: ['es2015']},
+    options: {presets: ['es2015', 'stage-3']},
     app: {files: {'build/parallel.js': 'build/parallel.js'}}
   },
 

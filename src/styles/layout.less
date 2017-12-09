@@ -90,8 +90,11 @@ header {
   margin-top: 24px;
   flex-shrink: 0;
   transition: opacity .2s, transform .2s;
+  opacity: 0;
+  transform: translateX(50px);
+  pointer-events: none;
 
-  &.hide { opacity: 0; transform: translateX(50px); pointer-events: none; }
+  &.show { opacity: 1; transform: none; pointer-events: all; }
 }
 
 .sidebar-wrap {
@@ -136,6 +139,7 @@ nav a {
   position: relative;
 
   &:hover { background: fade(@blue, 20%); }
+  &.active { background: fade(@blue, 30%); cursor: default; }
 
   .title-meta {
     font-size: 12px;
@@ -219,6 +223,33 @@ footer a {
 
 
 // -----------------------------------------------------------------------------
+// Teacher Dashboard
+
+#dashboard {
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: none;
+  width: auto;
+  table-layout: fixed;
+
+  td, th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 40px;
+  }
+
+  td:last-child, th:last-child { border-right: none; }
+  tr:last-child td { border-bottom: none; }
+
+  th { border-bottom-width: 2px; background: #eee; }
+  tr > *:first-child { border-right-width: 2px; background: #eee; }
+
+  .score { margin: 0; padding: .1em .5em .2em; }
+}
+
+
+
+// -----------------------------------------------------------------------------
 // Mobile Display
 
 @media screen and (max-width: 720px) {
@@ -271,7 +302,9 @@ footer a {
 
   .sidebar {
     margin: 0;
-    &.hide { display: none; transform: none; }
+    display: none;
+    transform: none;
+    &.show { display: block; }
   }
 
   .sidebar-wrap {

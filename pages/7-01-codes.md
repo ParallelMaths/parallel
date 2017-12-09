@@ -130,8 +130,7 @@ The triangles A and B are both equilateral.
 
 ![](/resources/7-01-codes/3-1-angles.png)"
 
-Angle x = <input type="number" solution="75"/>°
-
+Angle x = <input type="number" solution="75"/>°  
 Angle y = <input type="number" solution="165"/>°
 
 ---
@@ -252,15 +251,15 @@ but only once. Can you work out their positions in the grid so that each of the
 six different sums works? Two of the numbers have been inserted in order to get
 you started. Just identify the other seven numbers.
 
-![](/resources/7-01-codes/6-1-puzzle.png)
+![](/resources/7-01-codes/6-1-puzzle.png){style="width:400px"}
 
-a = <input type="number" solution="xxx"/>  
-b = <input type="number" solution="xxx"/>  
-c = <input type="number" solution="xxx"/>  
-d = <input type="number" solution="xxx"/>  
-e = <input type="number" solution="xxx"/>  
-f = <input type="number" solution="xxx"/>  
-g = <input type="number" solution="xxx"/>
+a = <input type="number" solution="0"/>  
+b = <input type="number" solution="0"/>  
+c = <input type="number" solution="0"/>  
+d = <input type="number" solution="0"/>  
+e = <input type="number" solution="0"/>  
+f = <input type="number" solution="0"/>  
+g = <input type="number" solution="0"/>
 
 ---
 
@@ -292,8 +291,6 @@ Simon.
 
 ::: submit
 
-
----
 
 ## Additional Stuff
 

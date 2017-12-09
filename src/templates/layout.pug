@@ -26,7 +26,7 @@ html
 
     //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css?v=2", rel="stylesheet")
+    link(href="/parallel.css?v=3", rel="stylesheet")
 
   body
     #vue
@@ -42,7 +42,7 @@ html
       #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
       #container
-        .sidebar(v-bind:class="{hide: !user.ready}")
+        .sidebar(v-bind:class="{show: user.ready}")
           .sidebar-wrap(v-bind:class="{visible: showSidebar}")
             div(v-if="!user.data")
               .user: a(href="/signup") Create a free account
@@ -55,23 +55,24 @@ html
                   p
                     button(type="submit") {{ login.reset ? 'Reset' : 'Login' }}
                     a(v-on:click="login.toggleReset()") {{ login.reset ? 'Back to login' : 'Reset password' }}
-              .toggle
-                a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
-                a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
             .user.account(v-if="user.data")
               p {{ user.data.first }} {{user.data.last }}
               p.small
-                span(v-if="user.data.school != 'Other'") {{ user.data.school }}&nbsp;&nbsp;•&nbsp;&nbsp;
-                | {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
+                span(v-if="user.data.schoolName") {{ user.data.schoolName }}&nbsp;&nbsp;•&nbsp;&nbsp;
+                span(v-if="!user.data.isTeacher") {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
                 a(v-on:click="user.logout") Logout
+            .user(v-if="user.data && user.data.isTeacher"): a(href="/teachers") Teacher Dashboard
+            .toggle(v-if="!user.data || user.data.isTeacher")
+              a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
+              a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
             nav
-              a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-if="user.getStatus(p) != 'locked'")
+              a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked'")
                 .title-meta Week {{ p.week }}
                 .title {{ p.title }}
                 .status.open(v-if="user.getStatus(p) == 'open'") NEW
                 .status.submitted(v-if="user.getStatus(p) == 'submitted'")
                 .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
-              a(href="/introduction")
+              a(href="/introduction" v-bind:class="{active: path=='introduction'}")
                 .title Introduction
 
         article(v-bind:class="c ? c.status : ''")
@@ -94,7 +95,7 @@ html
     script var PAGES = !{pages};
     script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js")
-    script(defer src="/parallel.js?v=2")
+    script(defer src="/parallel.js?v=3")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

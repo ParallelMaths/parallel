@@ -32,11 +32,10 @@ Adding a new parallelogram consists of three parts:
 
 ## TODO List
 
-* ! Teacher overview page and login changes
-* ! Documentation
-* ! Submit warnings, submit loading, confetti
+* Documentation
+* DB read security rules
 * Edit account page
 * Enable Hints
-* Feedback form (fix in Safari)
+* Warn when submitting with unanswered questions, confetti animation?
 * Loading state for forms, CSS for invalid fields
 * Update getScores and getUsers scripts

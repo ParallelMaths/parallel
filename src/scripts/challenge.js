@@ -13,10 +13,10 @@ export default function(challengeId, user, pages) {
   const fbDatabase = firebase.database();
   const c = [...pages.year7, ...pages.year8].find(x => x.url === challengeId);
 
-  user.onLoad = function() {
+  user.onLoad(() => {
     challenge.answers = user.answers[challengeId] || {};
     challenge.status = overrideStatus || user.getStatus(c);
-  };
+  });
 
   const challenge = {
     id: challengeId,
@@ -45,10 +45,12 @@ export default function(challengeId, user, pages) {
 
       challenge.setAnswer('score', calculateScore(challenge.answers));
       challenge.setAnswer('submitted', true);
+      Vue.set(user.answers, challengeId, challenge.answers);
 
-      const past = (Date.now() < new Date(c.deadline));
-      challenge.status = past ? 'submitted' : 'revealed';
-      // document.body.scrollTop = document.documentElement.scrollTop = 10e10;
+      const past = (Date.now() >= new Date(c.deadline));
+      challenge.status = past ? 'revealed' :'submitted';
+
+      if (past) document.body.scrollTop = document.documentElement.scrollTop = 0;
     },
 
     unsubmit() {

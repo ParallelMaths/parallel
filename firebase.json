@@ -3,13 +3,13 @@
     "rules": {
       "users": {
         "$uid": {
-          ".read": "$uid === auth.uid",
+          ".read": true,
           ".write": "$uid === auth.uid"
         }
       },
       "answers": {
         "$uid": {
-          ".read": "$uid === auth.uid",
+          ".read": true,
           ".write": "$uid === auth.uid"
         }
       }
