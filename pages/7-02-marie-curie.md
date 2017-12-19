@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 2_ Junior Maths Challenge
+# _Year 7 • Parallelogram 2_ Madam Curie’s square riddle
 
 <div class="dictionary">
 
@@ -123,8 +123,12 @@ The answer is __Record.__
 Last week, I said the cryptography (the maths of codes and codebreaking) would be a theme in the next few Parallelograms, so here is this week’s lesson and puzzle relating to the writing of secret messages.
 The Caesar cipher, which supposedly dates back to the Romans, involves shifting every letter by the same amount. For example, below is the standard alphabet, and we can imagine a shift of 2, which means encoding each letter with the letter that is 2 places further up.
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
-| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+| A | B | C | D | E | F | G | H | I | J | K | L | M |
+| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
+{.grid}
+
+| N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+| 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 {.grid}
 
 A is encoded as C … B is encoded as D … C is encoded as E, and so on.
@@ -132,18 +136,18 @@ CAT become ECV.
 
 So far, so good, but where is the maths? Above the alphabet, each letter is labelled with a number from 0 to 25, and in instead of thinking of encoding as shifting, we can think of encoding as adding.
 
-  CAT = 2-0-19
-  CAT+ 2 = 4-2-21 = ECV
+  CAT   = 2-0-19
+  CAT+2 = 4-2-21 = ECV
 
 Decoding is the opposite of addition, namely subtraction.
 
-  ECV = 4-2-21
-  ECV– 2 = 2-0-19 = CAT
+  ECV   = 4-2-21
+  ECV–2 = 2-0-19 = CAT
 
 So far, so good, but happens if we encode a word such as YES with a shift of 3.
 
-  YES = 24-4-18
-  YES+ 3 = 27-7-21 = ?HV
+  YES   = 24-4-18
+  YES+3 = 27-7-21 = ?HV
 
 ![](resources\7-02-junior-maths\5-encoding-diagram.png)
 
@@ -161,17 +165,20 @@ You encounter modulo arithmetic every day, when you look at a clock (and sometim
 
 So, if we encoded the word WORD with a shift of 10, then:
 
-  WORD = 22-14-17-3
-  WORD+ 10 = 32-24-27-13
+  WORD    = 22-14-17-3
+  WORD+10 = 32-24-27-13
 
 The numbers need to between 0 and 25, so we subtract 26 from the encoded number until it is ok.
 
-  WORD+ 10 = 6-24-1-13 = GYBN
+  WORD+10 = 6-24-1-13 = GYBN
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
+{.grid}
+
 | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+{.grid}
 
 For each of the following questions, you can fill in three boxes. You get ½ mark for the first two boxes and ½ mark for the third box.
 
@@ -179,108 +186,112 @@ __EXAMPLE__
 Encode the word BOX with a shift of 1 into a new 3-letter word		
 BOX in numbers = 1-14-23  BOX + 1 in numbers = 2-15-24  BOX +1 in letters = CPY
 
-::: problem id=5_1a marks=0.5
-Encode the word BOX with a shift of 2 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+2 in numbers = <text input>
----
-3-16-25
+::: problem id=5_1 marks=1
+Encode the word BOX with a shift of 2 into a new 3-letter word.
+
+When you translate BOX into numbers, add 2 to each number and convert the result back into letters, you get:
+
+* [ ] ZMV
+* [ ] ANW
+* [ ] CPY
+* [x] DQZ
+* [ ] CQW
+
 :::
 
-::: problem id=5_1b marks=0.5
-BOX+2 in letters = <text input>
----
-DQZ
-:::
+::: problem id=5_2 marks=1
+Encode the word BOX with a shift of 10 into a new 3-letter word.
 
-::: problem id=5_2a marks=0.5
-Encode the word BOX with a shift of 10 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+10 in numbers = <text input>
+When you translate BOX into numbers, add 10 to each number and convert the result back into letters, you get:
+
+* [ ] MAG
+* [x] NBJ
+* [ ] PEJ
+* [ ] OEI
+* [ ] MBH
+
 ---
 You need to apply the modulo arithmetic:
-13-1-9
+13-1-9 = NBJ
 :::
 
-::: problem id=5_2b marks=0.5
-BOX+10 in letters = <text input>
----
-NBJ
-:::
+::: problem id=5_3 marks=1
+Encode the word BOX with a shift of 25 into a new 3-letter word.
 
-::: problem id=5_3a marks=0.5
-Encode the word BOX with a shift of 25 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+25 in numbers = <text input>
+When you translate BOX into numbers, add 25 to each number and convert the result back into letters, you get:
+
+* [ ] ZMV
+* [ ] ZNY
+* [x] ANW
+* [ ] CPY
+* [ ] AMZ
+
 ---
 Another way of adding 25 in modulo arithmetic is to subtract 1. Instead of going forward 25 spaces, you can just do one step back, which is a shortcut to getting the answer.
-0-13-22
+0-13-22 = ANW
 :::
 
-::: problem id=5_3b marks=0.5
-BOX+25 in letters = <text input>
----
-ANW
-:::
+::: problem id=5_4 marks=1
+Encode the word BOX with a shift of 26 into a new 3-letter word.
 
-::: problem id=5_4a marks=0.5
-Encode the word BOX with a shift of 26 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+26 in numbers = <text input>
+When you translate BOX into numbers, add 26 to each number and convert the result back into letters, you get:
+
+* [ ] ANW
+* [ ] ZNY
+* [ ] CPY
+* [ ] APY
+* [x] BOX
+
 ---
 A shift of 26 gets you back to where you started, so no change.
-1-14-23
+1-14-23 = BOX
 :::
 
-::: problem id=5_4b marks=0.5
-BOX+26 in letters = <text input>
----
-BOX
-:::
+::: problem id=5_5 marks=1
+Encode the word BOX with a shift of 52 into a new 3-letter word.
 
-::: problem id=5_5a marks=0.5
-Encode the word BOX with a shift of 52 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+52 in numbers = <text input>
----
-Again, because these are multiples of 26, no change.
-1-14-23
-:::
+When you translate BOX into numbers, add 52 to each number and convert the result back into letters, you get:
 
-::: problem id=5_5b marks=0.5
-BOX+52 in letters = <text input>
----
-BOX
-:::
+* [ ] APY
+* [x] BOX
+* [ ] CPY
+* [ ] ANW
+* [ ] ZNY
 
-::: problem id=5_6a marks=0.5
-Encode the word BOX with a shift of 260 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+260 in numbers = <text input>
 ---
 Again, because these are multiples of 26, no change.
-1-14-23
+1-14-23 = BOX
 :::
 
-::: problem id=5_6b marks=0.5
-BOX+260 in letters = <text input>
+::: problem id=5_6 marks=1
+Encode the word BOX with a shift of 260 into a new 3-letter word.
+
+When you translate BOX into numbers, add 260 to each number and convert the result back into letters, you get:
+
+* [ ] APY
+* [ ] ANW
+* [ ] ZNY
+* [ ] CPY
+* [x] BOX
+
 ---
-BOX
+Again, because these are multiples of 26, no change.
+1-14-23 = BOX
 :::
 
-::: problem id=5_7a marks=0.5
-Encode the word BOX with a shift of 261 into a new 3-letter word:
-BOX in numbers = 1-14-23
-BOX+261 in numbers = <text input>
+::: problem id=5_7 marks=1
+Encode the word BOX with a shift of 261 into a new 3-letter word.
+
+When you translate BOX into numbers, add 261 to each number and convert the result back into letters, you get:
+
+* [x] CPY
+* [ ] BOX
+* [ ] ZMV
+* [ ] ANV
+* [ ] ZNY
 ---
 A shift of 261 is the same as a shift of 260 and then a shift of 1. A shift of 260 makes no difference as it is a multiple of 26, so we are looking simply at a shift of 1.  
-2-15-24
-:::
-
-::: problem id=5_7b marks=0.5
-BOX+261 in letters = <text input>
----
-CPY
+2-15-24 = CPY
 :::
 
 
