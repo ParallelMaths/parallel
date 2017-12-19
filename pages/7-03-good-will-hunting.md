@@ -12,7 +12,7 @@ to encounter all sorts of weird ideas.
 
 “Good Will Hunting” is a 1997 film that won two Oscars and made Matt Damon and
 Ben Affleck famous, as they starred in and wrote the film. It tells the story of
-a janitor called Will Hunting, who keeps the floors clean and the lecture 
+a janitor called Will Hunting, who keeps the floors clean and the lecture
 heatres tidy at the Massachusetts Institute of Technology (MIT), one of world’s
 best universities. However, unknown to the professors, Will is a mathematical
 genius, and the film tells the story of his battle to come to terms with his
@@ -40,14 +40,14 @@ as it sounds. Let me translate what it means into terms that you will understand
 In maths, trees are dots connected by lines, but in this case the lines cannot
 form loops. Also, the question requires that a tree is not allowed to have a dot
 connected to only two lines, because the dot could be removed and it would not
-look very different. 
+look very different.
 
 We can show the rules as they apply to drawing trees with 5 dots.
 
 Tree (a) is not allowed, because the red dot has only two lines, one going in
-and one going out. That is just waste of a dot. 
+and one going out. That is just waste of a dot.
 
-Tree (b) is not allowed because it has a loop. Remember, no loops. 
+Tree (b) is not allowed because it has a loop. Remember, no loops.
 
 ![](/resources/7-03-good-will-hunting/graph-1.png)
 
@@ -189,7 +189,7 @@ understand everything about trees, but if you did get most of the answers right
 then double well done.
 
 
-## 2. NASA’s massive blackboard photograph 
+## 2. NASA’s massive blackboard photograph
 
 This week I can across two terrific photographs of NASA mathematicians writing
 down some mathematics on their giant blackboards. The boards were used for
@@ -231,7 +231,7 @@ A local councillor is knocking on doors. He is carrying out a survey, because
 he is wondering whether the community needs a new school.
 
 When he knocks on one door, a lady answers and he asks her two questions: “How
-many children do you have, and what are the ages of your children?” 
+many children do you have, and what are the ages of your children?”
 
 The lady is a mathematician, so she decides to make the councillor do some
 maths to work out the answers. She tells him that she has 3 children, but she
@@ -270,13 +270,13 @@ marks for this question, but you will lose 1 mark for each clue that you need.
 > that you have not missed out any possibilities. Luckily, I have given you a
 > table (with some gaps) that show that there are 8 possibilities. Copy the
 > table onto a piece of paper and fill in the gaps.
-> 
+>
 > Once you have identified all the possibilities, go back and look at clues 2
 > and 3 that the mathematical mum gave and see if you can work out the ages of
 > the children, and therefore the age of the oldest child.
-> 
+>
 > If you are still stuck … then try harder … but you also try hint 2.
-> 
+>
 > | Child 1 |   | Child 2 |   | Child 3 |   | Product |
 > | ------- | - | ------- | - | ------- | - | ------- |
 > | 1       | x | 1       | x | 36      | = | 36      |
@@ -293,11 +293,11 @@ marks for this question, but you will lose 1 mark for each clue that you need.
 > possible sets of ages add up to the same number, which explains why the
 > councillor is still confused. Which pair of possibilities add up to the same
 > number?
-> 
-> Again, take a look at the table below, copy it onto a piece of paper and fill 
+>
+> Again, take a look at the table below, copy it onto a piece of paper and fill
 > in the gaps. Once you have narrowed it down to a pair of possibilities, then
 > take a look at final clue that the mother gave.
-> 
+>
 > | Child 1 |   | Child 2 |   | Child 3 |   | Product |
 > | ------- | - | ------- | - | ------- | - | ------- |
 > | 1       | + | 1       | + | 36      | = | 38      |
@@ -324,7 +324,7 @@ hints.
 ## 4. When not knowing mathematics can cost you $15,000
 
 This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one
-reason why it’s a good idea to be a confident mathematician. 
+reason why it’s a good idea to be a confident mathematician.
 
 @[youtube](BbX44YSsQ2I?rel=0)
 
@@ -347,7 +347,7 @@ __5.1__ What is the value of x?
 [](/resources/good-will-hunting/angle-question-answer.png){width=240}
 
 Let the angle shown be _y_°. Because the angles at a point total 360°, we have
-`y + 303 = 360`. Therefore _y = 360 − 303 = 57`.
+`y + 303 = 360`. Therefore `y = 360 − 303 = 57`.
 
 Because the alternate angles formed by a line which cuts a pair of parallel
 lines are equal, `x = y`. Hence `x = 57`.

@@ -255,10 +255,28 @@ Well after becoming a pensioner, Randi was performing escapology. See you can wo
 
 @[youtube](AfZDwDE1yr8?rel=0)
 
-I hope you enjoyed this Parallelogram, the third one of 2018. You can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
+Well done on completing this week’s Parallelogram. Check your email or return to the website on Friday for the next one.
+In the meantime, you can go through the answer sheet after 7pm on Sunday. This is really important. What you got right is much less important that what you got wrong, because incorrect answer provides you with an opportunity to learn something knew.
+
+First... remember to hit the SUBMIT button below, so that we can mark your answers.
+
+Also, once you have hit the SUBMIT button there will an extra bit of optional Parallelogram.
 
 Cheerio,
 Simon.
 
 
 ::: submit
+
+
+---
+
+## Additional Stuff
+
+The noughts and crosses video in this week’s Parallelogram reminded me of a couple of things.
+
+1. Today’s best computer programmes can beat humans at the most complex games, such as Chess or Go, but this video from 1949 shows that has been a long and hard journey to get to where we are now. The black and white video shows an early computer mastering how to plan noughts and crosses.
+https://www.britishpathe.com/video/noughts-and-crosses-machine
+
+2. The hot topic today is machine learning and artificial intelligence (AI). This article – which is fairly complicated – shows how you could build a computer out of matchboxes, which could teach itself to win at noughts and crosses.
+http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/
