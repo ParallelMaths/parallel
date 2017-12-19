@@ -4,6 +4,7 @@ const yaml = require('yamljs');
 const markdown = require('markdown-it');
 const JSDom = require('jsdom').JSDOM;
 const markdwonContainer = require('markdown-it-container');
+const ascii2mathml = require('ascii2mathml');
 
 require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
@@ -17,13 +18,12 @@ const md = markdown({html: true});
 
 md.use(require('markdown-it-video'));
 md.use(require('markdown-it-synapse-table'));
-md.use(require('markdown-it-container'), 'problem');
 md.use(require('markdown-it-anchor'));
 md.use(require('markdown-it-imsize'));  // ![test](image.png =100x200)
-// md.use(require('markdown-it-asciimath'));
 md.use(require('markdown-it-attrs'));
 md.use(require('markdown-it-sub'));  // H~~2~~O
 md.use(require('markdown-it-sup'));  // H^2^
+md.use(require('markdown-it-implicit-figures'));
 md.use(require('markdown-it-checkbox'), {divWrap: true, divClass: 'choice'});
 
 md.use(markdwonContainer, 'problem', { render(tokens, idx) {
@@ -42,6 +42,16 @@ md.use(markdwonContainer, 'problem', { render(tokens, idx) {
   }
 }});
 
+md.renderer.rules.code_inline = function(tokens, idx) {
+  let str = tokens[idx].content.trim();
+  str = str.replace(/_(.*?)(\s|$|=|\(|\)|\*|\/|\^)/g, '_($1)$2').replace(/–/g, '-');
+
+  let maths = ascii2mathml(str, {bare: true});
+  maths = maths.replace(/<mo>-<\/mo>/g, '<mo>–</mo>')
+    .replace(/<mo>(.)<\/mo>/g, (_, mo) =>  `<mo value="${mo}">${mo}<\/mo>`);
+  return `<span class="math" v-pre>${maths}</span>`;
+};
+
 function parseProblemList($list, $problem) {
   const itemIds = 'abcdefghijk'.split('');
   const isCheckbox = $list.querySelectorAll('[checked]').length > 1;
@@ -56,6 +66,7 @@ function parseProblemList($list, $problem) {
     $item.removeChild($item.children[0]);
     $item.removeChild($item.children[0]);
     $item.setAttribute('data-value', itemId);
+
     for (let $n of $label.childNodes) $item.appendChild($n);
     while ($item.nextSibling) $item.appendChild($item.nextSibling);
 
@@ -63,13 +74,34 @@ function parseProblemList($list, $problem) {
 
     if (isCheckbox) {
       $item.setAttribute('v-on:click', `c.setAnswer('${itemId}', !c.answers.${itemId})`);
-      $item.setAttribute('v-bind:class', `{active: c.answers.p_${itemId}}`);
+      $item.setAttribute('v-bind:class', `{active: c.answers.${itemId}}`);
 
     } else {
       $item.setAttribute('v-on:click', `c.setAnswer('${$problem.id}', '${itemId}')`);
       $item.setAttribute('v-bind:class', `{active: c.answers.${$problem.id} == '${itemId}'}`);
     }
   }
+}
+
+function parseProblemInput($input, index, $problem) {
+  const key = $problem.id + '_' + index;
+  const solution = $input.getAttribute('solution');
+
+  if ($input.parentNode.tagName !== 'P') {
+    const $p = $problem.ownerDocument.createElement('p');
+    $input.parentNode.insertBefore($p, $input);
+    $p.appendChild($input);
+  }
+  $input.parentNode.classList.add('text-center');
+
+  $problem.classList.add('input');
+  $input.removeAttribute('solution');
+
+  $input.setAttribute('data-solution', solution);
+  $input.setAttribute('data-value', key);
+  $input.setAttribute('v-on:change', `c.setInput`);
+  $input.setAttribute('v-model.lazy', `c.answers.${key}`);
+  $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, ${solution})}`);
 }
 
 function parseProblemSolution($problem, $hr, doc) {
@@ -84,6 +116,9 @@ function parseProblems(doc) {
   for (let $problem of doc.querySelectorAll('.problem')) {
     const $list = $problem.querySelector('ul');
     if ($list) parseProblemList($list, $problem);
+
+    const $inputs = $problem.querySelectorAll('input[solution]');
+    for (let i=0; i<$inputs.length; ++i) parseProblemInput($inputs[i], i, $problem);
 
     const $hr = $problem.querySelector('hr');
     if ($hr) parseProblemSolution($problem, $hr, doc);
@@ -101,12 +136,6 @@ function parseHeader(doc, pageId) {
   doc.body.insertBefore(status.children[0], doc.body.children[1]);
 }
 
-function submitButton(pageId) {
-  return `<div v-if="isOneOf(c.status, 'open', 'past', 'preview')">
-    <button id="submit" v-on:click="c.submit" data-challenge=${pageId}>Submit Answers</button>
-  </div>`;
-}
-
 grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   let done = this.async();
 
@@ -115,11 +144,12 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
     const pageId = (+url[0]) ? url : null;
 
     let code = grunt.file.read(src[0]);
-    code = code.replace('::: submit', submitButton(pageId));
+    code = code.replace('::: submit',
+      pug.renderFile('src/templates/submit.pug', {pageId}));
 
     const doc = (new JSDom(md.render(code))).window.document;
     parseProblems(doc);
-    parseHeader(doc, pageId);
+    if (pageId) parseHeader(doc, pageId);
 
     const pugOptions = {content: doc.body.innerHTML, pages, pageId};
     const html = pug.renderFile('src/templates/layout.pug', pugOptions);
@@ -141,7 +171,7 @@ grunt.initConfig({
   },
 
   babel: {
-    options: {presets: ['es2015']},
+    options: {presets: ['es2015', 'stage-3']},
     app: {files: {'build/parallel.js': 'build/parallel.js'}}
   },
 
@@ -212,7 +242,7 @@ grunt.initConfig({
     },
     less: {
       files: 'src/styles/*.less',
-      tasks: ['less']
+      tasks: ['less', 'autoprefixer']
     },
     js: {
       files: 'src/scripts/*.js',
@@ -232,5 +262,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('build', ['clean', 'rollup', 'babel', 'less', 'markdown', 'pug', 'copy']);
-grunt.registerTask('default', ['build', 'uglify', 'autoprefixer', 'cssmin']);
+grunt.registerTask('build', ['clean', 'rollup', 'babel', 'less', 'autoprefixer', 'markdown', 'pug', 'copy']);
+grunt.registerTask('default', ['build', 'uglify', 'cssmin']);

@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 4_ Sumaze
+# _Pilot • Parallelogram 3_ Sumaze
 
 
 ## 1. Hidden Figures – another maths movie
@@ -35,7 +35,7 @@ played a crucial role in the space race. It is a terrific film, which received
 three Oscar nominations and which is both inspiring and exciting. Well worth
 watching if your parents or teacher can get hold of the DVD. 
 
-| ![](/resources/7-03-good-will-hunting/nasa-3.jpg) | ![](/resources/7-03-good-will-hunting/nasa-4.jpg) |
+| ![](/resources/6-02-good-will-hunting/nasa-3.jpg) | ![](/resources/6-02-good-will-hunting/nasa-4.jpg) |
 
 The women were known as “computers”, because the original term computer
 referred to a person who did calculations. Only later did the term computer
@@ -86,7 +86,7 @@ scale on the y-axis, which increases by a factor of 10 at each step. So, in 40
 years, the number of transistors on a microprocessor increased from 2,300 to
 2,600,000,000, which is an increase by a factor of more than a million.
 
-![](/resources/7-04-sumaze/moores-law-graph.png)
+![](/resources/6-03-sumaze/moores-law-graph.png)
 
 ::: problem id=1_1 marks=1
 __1.2__ Look at the number of transistors on the 80486 microprocessor (~1990)
@@ -125,12 +125,12 @@ first 32 squares. You will almost certainly need a calculator, and make sure you
 check your answers. I have given you a headstart by listing the answers for the
 first 10 squares.
 
-![](/resources/7-04-sumaze/rice-count-table.png)
+![](/resources/6-03-sumaze/rice-count-table.png)
 
 ::: problem id=2_1 marks=1
 __2.1__ How many grains were on the 15th square?
 
-<input type="number" x-input="p_2_1, 16384"/>  
+<input type="number" solution="16384"/>  
 
 ---
 If the tenth square has 512 grains (from the table), then you should have
@@ -141,7 +141,7 @@ worked out (11th = 1,024), (12th, 2,048), (13th, 4,096), (14th, 8,192) and
 ::: problem id=2_2 marks=1
 **2.2** How many grains were on the 20th square? 
 
-<input type="number" x-input="p_2_2, 524288"/>  
+<input type="number" solution="524288"/>  
 
 ---
 The answer is 524,288.
@@ -150,7 +150,7 @@ The answer is 524,288.
 ::: problem id=2_3 marks=1
 **2.3.** How many grains were on the 32nd square?  
 
-<input type="number" x-input="p_2_3, 2147483648"/>  
+<input type="number" solution="2147483648"/>  
 
 ---
 The answer is 2,147,483,648.
@@ -190,22 +190,16 @@ seconds, which is roughly 18 x 1018 sec = 3 x 1017 mins = 5 x 1015 hours = 2.1 x
 billion years.
 :::
 
-::: problem id=2_5 marks=3
+::: problem id=2_5 marks=2
 __2.5__ You get a summer job that lasts for 6 weeks. You have two salary options:  
-* Option A – £100/week.
-* Option B – a salary that doubles each week, starting at £10/week.  
+
+Option A – £100/week.  
+Option B – a salary that doubles each week, starting at £10/week.  
 
 How much would each option deliver in total after 6 weeks?
 
-<input type="number" x-input="p_2_5a, 600" placeholder="Option A Total"/>  
-
-<input type="number" x-input="p_2_5b, 630" placeholder="Option B Total"/>
-  
-Which option gives a bigger total?
-
-* [ ] A
-* [x] B
-{.col-2}
+<input type="number" solution="600" placeholder="Option A Total"/>  
+<input type="number" solution="630" placeholder="Option B Total"/>
 
 ---
 Obviously option A delivers 6 x £100 = £600.
@@ -249,11 +243,11 @@ but it is better to finish all the levels once you have started.
 [Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/"){.external target="_blank"}
 
 ::: problem id=3 marks=4.5
-**3.1** When you have finished Sumaze, you will receive a score and a code word.
+**3.** When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<input type="text" v-model="c.answers.p_3" class="correct" placeholder="Sumaze Code Word"/>
+<p class="text-center"><input v-model="c.answers.p_3" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
 
 Score: {{c.sumaze(c.answers.p_3)}} / 45 {.sumaze-score v-show="c.answers.p_3"}
 
@@ -353,7 +347,7 @@ why people love maths and how you often have to struggle to succeed in maths (or
 * [ ] Spherical geometry
 :::
 
-::: probblem id=6_3 marks=2
+::: problem id=6_3 marks=2
 **6.3.** What was the name of NASA's new computer?
 
 * [ ] Sinclair ZX Spectrum
@@ -390,19 +384,13 @@ You should do your best to complete them “…not because they are easy, but be
 
 If you want to find out more about the topics in this week’s Parallel Challenge, then I recommend:
 
-[Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/)
-– an article on the ZME Science website.
- 
-[Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html)
-from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”. 
- 
-Short, but incredible, [clip of mathematician Katherine Johnson](https://www.youtube.com/watch?v=rIWJFNAN4XI?rel=0) receiving
-the Presidential Medal Of Freedom from President Obama. 
- 
-[Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
+* [Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/) – an article on the ZME Science website.
+* [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html) from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
+* Short, but incredible, [clip of mathematician Katherine Johnson](https://www.youtube.com/watch?v=rIWJFNAN4XI?rel=0) receiving the Presidential Medal Of Freedom from President Obama.
+* [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
 one of the women featured in the film “Hidden Figures”, on the NASA website.
 
 
 ## Credits
 
-* Moore's Law graph taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Moore%27s_law)
+Moore's Law graph taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Moore%27s_law)

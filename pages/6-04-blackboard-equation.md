@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 1_ Blackboard Equation
+# _Pilot • Parallelogram 4_ Blackboard Equation
 
 
 ## 1. Hidden Figures – the blackboard equation
@@ -10,13 +10,11 @@ A couple of you mentioned the equation that the young Katherine Johnson was
 trying to solve on the school blackboard, which you can see in this still from
 the film.
 
-![](/resources/7-05-blackboard-equation/blackboard.png)
+![](/resources/6-04-blackboard-equation/blackboard.png)
 
 In case it is not clear, the question is: 
 
-Solve the equation for x:
-
-![](/resources/7-05-blackboard-equation/blackboard-equation.png)
+Solve this equation for _x_: `(x^2 + 6x - 7)(2x^2 - 5x - 3) = 0`. {.text-center}
 
 Some of you might have come across this sort of equation before, or perhaps a
 simpler version of it. Either way, here is a step-by-step method for solving it,
@@ -30,13 +28,16 @@ just smash through the door. In this case, brute force means testing every
 possible value of x until you find some solutions.
 
 For x = 0,
-![](/resources/7-05-blackboard-equation/blackboard-equation-x0.png)
+
+![](/resources/6-04-blackboard-equation/blackboard-equation-x0.png)
 
 For x = 1,
-![](/resources/7-05-blackboard-equation/blackboard-equation-x1.png)
+
+![](/resources/6-04-blackboard-equation/blackboard-equation-x1.png)
 
 For x = 2,
-![](/resources/7-05-blackboard-equation/blackboard-equation-x2.png)
+
+![](/resources/6-04-blackboard-equation/blackboard-equation-x2.png)
 
 So, after checking three values of x, we found one solution, i.e., the equation
 equals zero when x = 1. In this case, the brute force approach has delivered a
@@ -56,25 +57,26 @@ Therefore, `(x^2 + 6x – 7)(2x^2 – 5x – 3) = 0` can be re-written as
 `(x + 7)(x – 1)(2x + 1)(x – 3) = 0`.
 
 Of course, if the four brackets multiply to make zero, then at least of the
-brackets must equal zero, which means x = -7, 1, -½ or 3.
+brackets must equal zero, which means x = –7, 1, –½ or 3.
 
-::: problem id=1_1 m,arks=4
-__1.1__ What are values for x in this equation? Try the Smart Maths method
+::: problem id=1_1 marks=4
+__1.1__ What are values for _x_ in this equation? Try the Smart Maths method
 first, but if you are stuck then try brute force.
 
-`(x^2 – 3x + 2)(x^2 + 3x + 2) = 0`
+`(x^2 – 3x + 2)(x^2 + 3x + 2) = 0` {.text-center}
 
 There are 4 possible answers, so just select four of the answers below.
 
-* [ ] -4
-* [ ] -3
-* [x] -2
-* [x] -1
+* [ ] –4
+* [ ] –3
+* [x] –2
+* [x] –1
 * [ ] 0
 * [x] 1
 * [x] 2
 * [ ] 3
 * [ ] 4
+{.col-3}
 
 ---
 `(x^2 - 3x + 2)(x^2 + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0`
@@ -130,7 +132,7 @@ __2__ When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your 
 verall Parallelogram total.
 
-<input type="text" v-model="c.answers.p_2" class="correct" placeholder="Sumaze Code Word"/>
+<p class="text-center"><input v-model="c.answers.p_2" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
 
 Score: {{c.sumaze(c.answers.p_2)}} / 45 {.sumaze-score v-show="c.answers.p_2"}
 
@@ -176,15 +178,16 @@ will be new to almost of all of you.
 ::: problem id=4 marks=5
 __4.__ Click on the link below to open Mathigon. The content is divided into
 many short sections, which are revealed gradually as you solve problems and
-answer questions. You can get a maximum of 5 marks for completing the entire
-chapter, and your Mathigon progress will be automatically added to your Parallel
-score.
+answer questions.
 
 __Remember to log in before clicking this link!__ {v-if="!user"}
 
 [Open Mathigon](https://mathigon.org/parallel/graphs-and-networks){.external target="_blank" v-bind:href="'https://mathigon.org/parallel/graphs-and-networks'}
 
 Progress: {{c.answers.mathigon * 5}} / 5 {.sumaze-score v-show="c.answers.mathigon"}
+
+You can get a maximum of 5 marks for completing the entire chapter, and your
+Mathigon progress will be automatically added to your Parallel score.
 :::
 
 
@@ -217,11 +220,11 @@ the janitor solved a problem about mathematical tree diagrams. Below are five
 tree diagrams, but four of them are essentially the same. Which tree is
 different?
 
-* [ ] ![](/resources/7-05-blackboard-equation/graph-a.png){width=160}
-* [ ] ![](/resources/7-05-blackboard-equation/graph-b.png){width=160}
-* [x] ![](/resources/7-05-blackboard-equation/graph-c.png){width=160}
-* [ ] ![](/resources/7-05-blackboard-equation/graph-d.png){width=160}
-* [ ] ![](/resources/7-05-blackboard-equation/graph-e.png){width=160}
+* [ ] ![](/resources/6-04-blackboard-equation/graph-a.png){width=160}
+* [ ] ![](/resources/6-04-blackboard-equation/graph-b.png){width=160}
+* [x] ![](/resources/6-04-blackboard-equation/graph-c.png){width=160}
+* [ ] ![](/resources/6-04-blackboard-equation/graph-d.png){width=160}
+* [ ] ![](/resources/6-04-blackboard-equation/graph-e.png){width=160}
 {.col-3}
 
 ---

@@ -1,0 +1,130 @@
+// =============================================================================
+// Global Maths Styles
+// (c) 2017 Mathigon
+// =============================================================================
+
+
+
+// TODO editable: set cursor before/after blocks
+// TODO greek font
+// TODO nth roots, sums and integrals
+// TODO munder, mover and accents
+// TODO better element nesting
+
+
+// -----------------------------------------------------------------------------
+// Utilities
+
+.svg-operator(@path, @width, @height) {
+  background: currentColor;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="@{width}" height="@{height}"><path d="@{path}"/></svg>') ~"0 0/100% 100%";
+  position: absolute;
+}
+
+
+// -----------------------------------------------------------------------------
+// MathML Fonts and Styles
+
+math, .math { display: inline-block; }
+
+mn, mi, mo, ms, mrow, mfrac, msqrt, msub, msup, mfenced {
+  display: inline-block;
+  font-size: inherit;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+mi { font-style: italic; line-height: .9; }
+mi + mi, mn + mtext { margin-left: .05em; }
+
+mo { margin: 0 .3em; }
+mo + mo { margin-left: 0 ; }
+mo[value="–"]:first-child { margin: 0 .1em; }
+mo[value="="] { margin: 0 .6em; }
+
+mspace { padding: .2em; }
+mphantom { visibility: hidden; }
+
+ms:before, ms:after { content:"\0022"; }
+ms[lquote]:before { content: attr(lquote); }
+ms[rquote]:after { content: attr(rquote); }
+
+[mathvariant="bold"], [mathvariant="bold-italic"] { font-weight: bold; }
+[mathvariant="monospace"] { font-family: monospace; }
+[mathvariant="italic"], [mathvariant="bold-italic"] { font-style: italic; }
+[mathvariant="normal"] { font-style: normal; }
+
+
+// -----------------------------------------------------------------------------
+// Super and Subscripts
+
+msup > *:last-child, msubsup > *:nth-child(3) {
+  font-size: 67%;
+  margin: 0 .2em 1em .15em;
+  vertical-align: text-bottom;
+}
+
+msub > *:nth-child(2), msubsup > *:nth-child(2) {
+  font-size: 67%;
+  margin: 1em .2em 0 .15em;
+  vertical-align: text-top;
+}
+
+
+// -----------------------------------------------------------------------------
+// Fractions, Square Roots and Brackets
+
+mfrac {
+  vertical-align: -0.45em;
+  margin: 0 .1em;
+
+  & > * { display: block; text-align: center; }
+  & > *:first-child { padding-bottom: .06em; }
+  & > *:last-child {
+    border-top: 1px solid currentColor;
+    float: right;
+    padding-top: .06em;
+    width: 100%;
+  }
+
+  &:after {
+    content: "\00a0";
+    visibility: hidden;
+    width: 0;
+  }
+
+  &.inline { font-size: .6em; vertical-align: -0.2em; }
+  mfrac { font-size: 75%; vertical-align: -0.25em; }
+}
+
+msqrt {
+  border-top: 1px solid currentColor;
+  margin-left: 10px;
+  padding: .06em .1em 0 .2em;
+  position: relative;
+
+  &:before {
+    .svg-operator('M3,11.72l-1.56.7-.42-1,2.93-1.3,2.55,7.61c.15.46.26.95.37,1.41h.09c.09-.46.18-.95.26-1.41L11.12,1h1.32L7.67,21.13H6.28Z', 13, 22);
+    content: "";
+    bottom: 0;
+    left: -11px;
+    top: -2px;
+    width: 13px;
+  }
+}
+
+mfenced {
+  margin: 0 calc(~"5px + .1em");
+  padding: 0 .1em;
+  position: relative;
+
+  &:before, &:after { bottom: -1px; top: -1px; content: ""; width: 5px; }
+  &:before { .svg-operator('M0,11A18.32,18.32,0,0,1,2.91,1L4,1.53A18.32,18.32,0,0,0,1.5,11,18.33,18.33,0,0,0,4,20.47L2.91,21A18.32,18.32,0,0,1,0,11Z', 5, 22); left: -4px; }
+  &:after { .svg-operator('M1,20.47A18.33,18.33,0,0,0,3.5,11,18.32,18.32,0,0,0,1,1.53L2.09,1A18.32,18.32,0,0,1,5,11,18.32,18.32,0,0,1,2.09,21Z', 5, 22); right: -4px; }
+
+  &[open="["]:before { content: '['; }
+  &[close="]"]:after { content: ']'; }
+
+  &[open="{"]:before { content: '{'; }
+  &[close="}"]:after { content: '}'; }
+}

@@ -12,21 +12,24 @@ h1 { font-size: 2rem; margin: 0 0 1.5rem 0; color: @red; }
 h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; }
 
 p { margin: 0 0 1em 0; }
-p img, table img { display: block; height: auto; margin: 0 auto; max-width: 100%; }
 hr { background: #ccc; border: none; height: 2px; margin: 2.5em 0; }
 
 a { cursor: pointer; text-decoration: none; }
-p a { color: @blue; }
-p a:hover { text-decoration: underline; }
+p a, li a { color: @blue; }
+p a:hover, li a:hover { text-decoration: underline; }
 
+table img, figure img { display: block; height: auto; margin: 0 auto; max-width: 100%; }
 .img-right { float: right; margin: 0 0 1em 1em; }
+p img { display: inline-block }
+figure { margin: 1.5em 0; }
+
 .text-center { text-align: center; }
 
 
 // -----------------------------------------------------------------------------
 // Components
 
-.embed-responsive { height: 0; margin: 1em -32px; position: relative; }
+.embed-responsive { height: 0; margin: 1.5em -32px; position: relative; background: black; }
 .embed-responsive-16by9 { padding-bottom: 56.25%; }
 .embed-responsive-item { height: 100%; position: absolute; width: 100%; }
 .solution .embed-responsive { margin: 1em 0; }
@@ -127,14 +130,15 @@ table.grid {
 .choice.active:before { background: @blue; border: 4px solid white; }
 
 .problem input {
-  max-width: 200px;
+  display: inline-block;
+  max-width: 180px;
   text-align: center;
   background-color: white;
   border: none;
   padding: 4px 8px;
   border-radius: 4px;
   box-shadow: 0 0 0 1px fade(black, 15%);
-  margin-bottom: 2rem;
+  margin: 0 .5rem 2rem;
 }
 
 .revealed {
@@ -149,7 +153,7 @@ table.grid {
   .choice.correct.active:after {
     content: "Your answer";
     float: right;
-    margin: .2rem .6rem;
+    margin: .25rem .6rem;
     color: fade(white, 50%);
     font-size: .8rem;
     font-style: italic;
@@ -178,23 +182,27 @@ table.grid {
   justify-content: space-around;
 }
 .col-2 > * { min-width: 340px; }
-.col-3 > * { min-width: 210px; }
-.col-4 > * { min-width: 160px; }
-.col-5 > * { min-width: 125px; }
+.col-3 > * { min-width: 190px; }
+.col-4 > * { min-width: 159px; }
+.col-5 > * { min-width: 119px; }
 
 .solution {
   background: mix(@blue, #999, 40%);
   margin: -1rem -32px -1px;
-  padding: .8rem 32px .2rem;
-  color: white;
-  font-size: .8rem;
+  padding: .8rem 32px .6rem;
+  color: fade(white, 90%);
+  font-size: .85rem;
 
   &:before {
     content: "Solution";
     display: block;
     font-weight: 600;
-    margin-bottom: .6rem;
+    margin-bottom: .3rem;
   }
+
+  p { margin-bottom: .3rem; }
+  p a { color: inherit; text-decoration: underline; }
+  p a:hover { color: white; }
 
   display: none;
   .revealed & { display: block; }
@@ -221,7 +229,7 @@ blockquote { display: none; }
 // -----------------------------------------------------------------------------
 // Feedback and Submit
 
-#feedback {
+/* #feedback {
   table td:first-child { text-align: right; }
   table td:nth-child(2) { text-align: center; width: 220px; }
   svg {
@@ -235,7 +243,7 @@ blockquote { display: none; }
   td:hover svg { fill: #f4871b; }
   svg:hover + *, svg:hover + * + *, svg:hover + * + * + *,
   svg:hover + * + * + * + * { fill: #ccc !important; }
-}
+} */
 
 #submit {
   background: @red;
@@ -246,39 +254,36 @@ blockquote { display: none; }
   display: block;
   font: inherit;
   font-size: 24px;
-  margin: 60px auto 10px;
+  margin: 3rem auto;
   outline: none;
   transition: box-shadow .2s;
   width: 300px;
 
   &:hover, &:focus {
-    background: #930033;
+    background: darken(@red, 20%);
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
   }
 }
 
-.completed{
-  background: #98ea98;
-  padding: .5rem 1rem;
-  border-radius: 4px;
+article .score {
+  max-width: 360px;
+  margin: 3rem auto;
+  line-height: 1.4;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
   text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
+
+  p { margin: 0; }
+  p.large { font-size: 36px; font-weight: bold; }
 }
 
-.score {
-  max-width: 360px;
-  margin: 0 auto 2rem;
-  background: currentColor;
 
-  &.Tesseract { color: #12b40d; }
-  &.Cube { color: #6ecc2e; }
-  &.Square { color: #dac700; }
-  &.Line { color: #cc6e11; }
-  &.Point { color: #c00; }
+// -----------------------------------------------------------------------------
+// Mobile Display
 
-  p.large { margin: 0; color: white; font-size: 36px; font-weight: bold; }
-  a { background: white; color: currentColor; display: inline-block; padding: 2px 12px; border-radius: 4px; text-decoration: none; }
-  a:hover { opacity: 0.7; }
-  p:last-child { color: white; font-size: 80%; margin: 0; line-height: 1.4; }
+@media screen and (max-width: 720px) {
+  .embed-responsive { margin: 1.5em -24px; }
+  .problem { margin: 2.5em -24px 2em; padding: 1em 24px 1px; }
+  .solution { margin: -1rem -24px -1px; padding: .8rem 24px .6rem; }
 }
