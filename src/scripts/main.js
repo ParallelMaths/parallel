@@ -4,6 +4,8 @@
 
 
 
+import '../../node_modules/babel-polyfill/dist/polyfill';
+
 import getUser from './user';
 import getLogin from './login';
 import getSignup from './signup';
