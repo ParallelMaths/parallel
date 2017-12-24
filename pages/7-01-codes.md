@@ -1,5 +1,19 @@
 # _Year 7 • Parallelogram 1_ Codes and Physics
 
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
+
+1. a four-sided plane rectilinear figure with opposite sides parallel.
+2. a portmanteau word combining parallel and telegram. A message containing
+   mischievous maths problems sent each week by the Parallel Project to bright
+   young mathematicians.
+
+</div>
+
 Welcome to our first Parallelogram, a collection of mathematical challenges
 designed to stretch your brain and make your neurons more squiggly.
 
@@ -44,7 +58,7 @@ The word CODE is coded with the following series of symbols.
 
 Try to work out how the code works.
 
-::: problem id=1_1 marks=2 
+::: problem id=1_1 marks=2
 __1.1.__ Which Star Wars character is represented by symbols below?
 
 If you are stuck then you can use the hint, but it will cost you 1 mark.
@@ -128,7 +142,7 @@ the angles _x_ and _y_.
 
 The triangles A and B are both equilateral.
 
-![](/resources/7-01-codes/3-1-angles.png)"
+![](/resources/7-01-codes/3-1-angles.png)
 
 Angle x = <input type="number" solution="75"/>°  
 Angle y = <input type="number" solution="165"/>°
@@ -281,7 +295,7 @@ We also know that a x 5 is a factor of 90 from the 1st column, so a = 6.
 And the rest is easy.
 :::
 
-I hope you enjoyed (or at least did not hate) your this Parallelogram, the first one of the 2018. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Friday.
+I hope you enjoyed (or at least did not hate) this Parallelogram, the first one of the 2018. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Friday.
 
 In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
 
