@@ -101,7 +101,7 @@ function parseProblemInput($input, index, $problem) {
   $input.setAttribute('data-value', key);
   $input.setAttribute('v-on:change', `c.setInput`);
   $input.setAttribute('v-model.lazy', `c.answers.${key}`);
-  $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, ${solution})}`);
+  $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, '${solution}')}`);
 }
 
 function parseProblemSolution($problem, $hr, doc) {

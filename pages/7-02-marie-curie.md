@@ -68,11 +68,13 @@ __2.1.__ How many of the integers 123, 234, 345, 456, 567 are multiples of 3?
 
 ---
 We could simply divide each of the given numbers by 3, and check that there is no remainder in each case. However, t is quicker to use the fact that an integer is divisible by 3 if and only if the sum of its digits is a multiple of 3.
+
 123:	1 + 2 + 3 = 6
 234:	2 + 3 + 4 = 9
 345:	3 + 4 + 5 = 12
 456:	4 + 5 + 6 = 15
 567:	5 + 6 + 7 = 18
+
 These are all multiples of 3, so all five numbers are multiples of 3, so the answer is E.
 :::
 
@@ -101,15 +103,13 @@ __3.1.__ Curie’s 1911 Nobel Prize was for the discovery of an element that was
 
 Can you solve the following riddle?
 ::: problem id=4_1 marks=1
-  If you break me and I become better than I was before, and I become even hard to break.
+If you break me and I become better than I was before, and I become even hard to break.
 
-  What am I?
+What am I?
 
 The answer involves 6 or these 7 letters: __BCRRDEO__
 
-<input type="text" >
-
-[zzz NEED TO PUT THE RIGHT ANSWER IN HERE zzz]
+<input type="text" solution="Record">
 
 ---
 
@@ -121,6 +121,7 @@ The answer is __Record.__
 ## 5. Caesar cipher – “Infamy, infamy, they’ve all got it in for me.”
 
 Last week, I said the cryptography (the maths of codes and codebreaking) would be a theme in the next few Parallelograms, so here is this week’s lesson and puzzle relating to the writing of secret messages.
+
 The Caesar cipher, which supposedly dates back to the Romans, involves shifting every letter by the same amount. For example, below is the standard alphabet, and we can imagine a shift of 2, which means encoding each letter with the letter that is 2 places further up.
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
@@ -149,7 +150,7 @@ So far, so good, but happens if we encode a word such as YES with a shift of 3.
   YES   = 24-4-18
   YES+3 = 27-7-21 = ?HV
 
-![](resources\7-02-junior-maths\5-encoding-diagram.png)
+![](resources/7-02-junior-maths/5-encoding-diagram.png)
 
 27 does not appear in our alphabet. How do we represent 27 as a letter? What letter does Y turn into?
 

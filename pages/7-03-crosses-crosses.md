@@ -41,7 +41,7 @@ What is the remainder when the following numbers are divided by 9?
 ::: problem id=1_1 marks=0.5
 __(1)__ 152
 
-<input type="number" placeholder="???" x-input="p_3_2, 1"></input>
+<input type="number" placeholder="???" solution="1"/>
 
 ---
 You should know that there is an easy test to see if a number is divisible by 9. If the sum of the digits is divisible by 9, then the actual number is also divisible by 9. Anything left over is the remainder.
@@ -52,7 +52,7 @@ You should know that there is an easy test to see if a number is divisible by 9.
 ::: problem id=1_2 marks=0.5
 __(2)__ 9876543210
 
-<input type="number" placeholder="???" x-input="p_3_2, 0"></input>
+<input type="number" placeholder="???" solution="0"/>
 
 ---
 9876543210 is divisible by 9, because the digits add up to 45 which is divisible by 9 (as well as knowing our times tables, we know 45 is divisible by 9 because 4+5=9).
@@ -63,7 +63,7 @@ You might have noticed that the digits in this number can also be paired, so tha
 ::: problem id=1_3 marks=1
 __(2)__ 555…555, which is 5 written out 2011 times in a row
 
-<input type="number" placeholder="???" x-input="p_3_2, 2"></input>
+<input type="number" placeholder="???" solution="2"/>
 
 ---
 It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,011, or 10,055. Is that divisible by 9? Well, 1+0+0+5+5= 11, so it is not divisible by 9 and the remainder is 2.
@@ -74,7 +74,7 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,0
 
 A train display shows letters by lighting cells in a grid, such as the letter ‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to the right of one in the normal letter.
 
-![](resources\7-03-crosses-crosses\3-lights-question.png)
+![](resources/7-03-crosses-crosses/3-lights-question.png)
 
 ::: problem id=2_1 marks=2
 How many cells are lit in a bold ‘o’?
@@ -88,7 +88,7 @@ How many cells are lit in a bold ‘o’?
 ---
 The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
 
-![](resources\7-03-crosses-crosses\3-lights-solution.png)
+![](resources/7-03-crosses-crosses/3-lights-solution.png)
 
 :::
 
@@ -187,7 +187,7 @@ __5.2.__ Next, if you apply the correct decoding mathematical step, the result i
 ::: problem id=5_3 marks=1
 __5.3.__ Finally, enter the three letters of your decoded word.
 
-<input type="text" placeholder="???" x-input="p_5_3, BAT"></input>
+<input type="text" placeholder="???" solution="BAT"/>
 
 ---
 Answer: BAT
@@ -205,7 +205,7 @@ __5.4.__ NTG was encoded with +8. If we turn NTG into numbers we get 13-19-6. Ne
 ::: problem id=5_5 marks=1
 __5.5.__ Finally, enter the three letters of your decoded word.
 
-<input type="text" placeholder="???" x-input="p_5_5, FLY"></input>
+<input type="text" placeholder="???" solution="FLY"/>
 
 ---
 Answer: FLY
@@ -234,7 +234,7 @@ __5.7.__ In the previous step, your sequence on numbers might be outside of the 
 ::: problem id=5_8 marks=2
 __5.8.__ Finally, enter the three letters of your decoded word.
 
-<input type="text" placeholder="???" x-input="p_5_8, FOX"></input>
+<input type="text" placeholder="???" solution="FOX"/>
 
 ---
 
@@ -248,7 +248,7 @@ Step 5.6 requires you to subtract 2,622, which leaves you with three large negat
 :::
 
 ## 6. Amazing James Randi and his rope trick
-![](resources\7-03-crosses-crosses\3-james-randi.jpg)
+![](resources/7-03-crosses-crosses/3-james-randi.jpg)
 One of my heroes is James Randi, who is often known as the Amazing Randi. In the last few decades he has become a champion of rationality and a debunker of nonsense, but he started off in show business as a magician and an escapologist.
 
 Well after becoming a pensioner, Randi was performing escapology. See you can work how he escapes from ropes in the video below.
