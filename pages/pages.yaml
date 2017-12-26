@@ -1,6 +1,16 @@
 year7:
-  - week: 5
-    url: 7-01-codes
+  - week: 3
+    url: 7-03-crosses-crosses
+    title: Crosses and Crosses
+    available: 2018-01-01T07:00:00
+    deadline: 2018-01-03T18:00:00
+  - week: 2
+    url: 7-02-marie-curie
+    title: Madam Curie’s square riddle
+    available: 2018-01-01T07:00:00
+    deadline: 2018-01-03T18:00:00
+  - week: 1
+    url: 7-01-parallelogram
     title: Codes and Physics
     available: 2018-01-01T07:00:00
     deadline: 2018-01-03T18:00:00

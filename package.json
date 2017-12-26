@@ -22,6 +22,7 @@
   "devDependencies": {
     "ascii2mathml": "^0.5.4",
     "babel-core": "~6.3.26",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-3": "^6.24.1",
     "grunt": "~0.4.5",

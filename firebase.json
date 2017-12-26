@@ -2,14 +2,14 @@
   "database": {
     "rules": {
       "users": {
+        ".read": "auth != null",
         "$uid": {
-          ".read": true,
           ".write": "$uid === auth.uid"
         }
       },
       "answers": {
+        ".read": "auth != null",
         "$uid": {
-          ".read": true,
           ".write": "$uid === auth.uid"
         }
       }
