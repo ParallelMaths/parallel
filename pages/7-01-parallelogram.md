@@ -136,7 +136,7 @@ cracking Enigma in [this Daily Telegraph article](http://www.telegraph.co.uk/sci
 
 ## 3. Wangle the angles
 
-::: problem id=3_1 marks=x
+::: problem id=3_1 marks=2
 __3.1.__ Look at the diagram below and wangle (obtain by some devious manner)
 the angles _x_ and _y_.
 
@@ -172,9 +172,9 @@ neither (51 + 15) nor (51 -15) are perfect squares, and they both need to be
 perfect squares.
 
 ::: problem id=4 marks=3
-How old is the teacher?
+__4.1__ How old is the teacher?
 
-<input type="number" solution="0"/>
+<input type="number" solution="65"/>
 
 > It might be reasonable to assume that the teacher is more than 20 and
 > less than 80. Moreover, the age is odd but not a prime, so you can start by
@@ -184,7 +184,7 @@ How old is the teacher?
 > If the second digit in the age is larger than the first digit, then when
 > you reverse the digits you will have a larger number and you will not be able
 > to subtract the reversed age from the actual age. Hence, you cross out all
-> those numbers AB where B is bigger than A, so you have the stikeouts from Hint
+> those numbers AB where B is bigger than A, so you have the strikeouts from Hint
 > 1, plus the ones shown: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33, _35_,
 > _~~37~~_, _39_,…
 
@@ -232,7 +232,7 @@ forth, as demonstrated in the video below.
 @[youtube](xXXF2C-vrQE?rel=0)
 
 ::: problem id=5 marks=3
-There are different types of energy, and Professor Lewin says that the ball’s
+__5.1__ There are different types of energy, and Professor Lewin says that the ball’s
 gravitational potential energy is transformed into:
 
 * [ ] Chemical energy
@@ -267,13 +267,13 @@ you started. Just identify the other seven numbers.
 
 ![](/resources/7-01-parallelogram/6-1-puzzle.png){style="width:400px"}
 
-a = <input type="number" solution="0"/>  
-b = <input type="number" solution="0"/>  
-c = <input type="number" solution="0"/>  
-d = <input type="number" solution="0"/>  
-e = <input type="number" solution="0"/>  
-f = <input type="number" solution="0"/>  
-g = <input type="number" solution="0"/>
+a = <input type="number" solution="6"/>  
+b = <input type="number" solution="8"/>  
+c = <input type="number" solution="7"/>  
+d = <input type="number" solution="9"/>  
+e = <input type="number" solution="3"/>  
+f = <input type="number" solution="2"/>  
+g = <input type="number" solution="4"/>
 
 ---
 
@@ -288,9 +288,9 @@ Now we know `c = 7`, then we also know that `a ** b = 48`.
 
 This means that a = 6 and b = 8 or a = 8 and b = 6.
 
-We know that b + 1 is factor of 18 from the middle column, so b = 8.
+We know that b + 1 is factor of 18 from the middle column, so `b = 8`.
 
-We also know that a x 5 is a factor of 90 from the 1st column, so a = 6.
+We also know that a x 5 is a factor of 90 from the 1st column, so `a = 6`.
 
 And the rest is easy.
 :::

@@ -39,9 +39,9 @@ The Junior Maths Challenge is a national maths competition run the UK Maths Trus
 What is the remainder when the following numbers are divided by 9?
 
 ::: problem id=1_1 marks=0.5
-__(1)__ 152
+__1.1__ 152
 
-<input type="number" placeholder="???" solution="1"/>
+<input type="number" solution="1"/>
 
 ---
 You should know that there is an easy test to see if a number is divisible by 9. If the sum of the digits is divisible by 9, then the actual number is also divisible by 9. Anything left over is the remainder.
@@ -50,9 +50,9 @@ You should know that there is an easy test to see if a number is divisible by 9.
 :::
 
 ::: problem id=1_2 marks=0.5
-__(2)__ 9876543210
+__1.2__ 9876543210
 
-<input type="number" placeholder="???" solution="0"/>
+<input type="number" solution="0"/>
 
 ---
 9876543210 is divisible by 9, because the digits add up to 45 which is divisible by 9 (as well as knowing our times tables, we know 45 is divisible by 9 because 4+5=9).
@@ -61,9 +61,9 @@ You might have noticed that the digits in this number can also be paired, so tha
 :::
 
 ::: problem id=1_3 marks=1
-__(2)__ 555…555, which is 5 written out 2011 times in a row
+__1.3__ 555…555, which is 5 written out 2011 times in a row
 
-<input type="number" placeholder="???" solution="2"/>
+<input type="number" solution="2"/>
 
 ---
 It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,011, or 10,055. Is that divisible by 9? Well, 1+0+0+5+5= 11, so it is not divisible by 9 and the remainder is 2.
@@ -72,12 +72,12 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,0
 
 ## 2. Junior Maths Challenge 2011 (3)
 
+![](/resources/7-03-crosses-crosses/3-lights-question.png) {.img-right}
+
 A train display shows letters by lighting cells in a grid, such as the letter ‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to the right of one in the normal letter.
 
-![](resources/7-03-crosses-crosses/3-lights-question.png)
-
 ::: problem id=2_1 marks=2
-How many cells are lit in a bold ‘o’?
+__2.1__ How many cells are lit in a bold ‘o’?
 
 * [ ] 22
 * [x] 24
@@ -86,9 +86,9 @@ How many cells are lit in a bold ‘o’?
 * [ ] 30
 
 ---
-The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
+![](/resources/7-03-crosses-crosses/3-lights-solution.png) {.img-right}
 
-![](resources/7-03-crosses-crosses/3-lights-solution.png)
+The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
 
 :::
 
@@ -105,7 +105,7 @@ Watch it carefully, pause it if necessary and think about it carefully. If you u
 @[youtube](ktPvjr1tiKk?rel=0)
 
 ::: problem id=3_1 marks=2
-In the Misere version of crosses and crosses, if you really want to win, then start in the centre and move that is more usual in chess. Which move is it?
+__3.1__ In the Misere version of crosses and crosses, if you really want to win, then start in the centre and move that is more usual in chess. Which move is it?
 
 * [ ] Pawn move
 * [ ] Bishop move
@@ -119,7 +119,7 @@ In the Misere version of crosses and crosses, if you really want to win, then st
 
 Can you solve the following riddle?
 ::: problem id=4_1 marks=1
-  You’re running a race and pass the person in 2nd place. What place are you in now?
+__4.1__ You’re running a race and pass the person in 2nd place. What place are you in now?
 
   * [ ] First place
   * [x] Second place
@@ -151,7 +151,7 @@ So, if we encode by (+2), then CAT is 2-0-19, adding 2 turns it into 4-2-21, whi
 
 If, we encode by (+10), then CAT is 2-0-19, adding 10 turns it into 12-10-29. The number 29 is tricky, because no letter is associated with 29, so last week we talked about modulo arithmetic. In this case of modulo (26), if we have a number that is outside our range of 0 to 25, then we add or subtract 26 again and again until we are within the range of 0 to 25. This means that 12-10-29 becomes 12-10-3, which means CAT is encoded as MKD.
 
-If you need to revise this, then go back and look at the [previous Paralellogram](/pages/7-02-marie-curie.md##5).
+If you need to revise this, then go back and look at the [previous Paralellogram](/pages/7-02-marie-curie##5).
 
 But what about __decoding__? You can decode a word by subtracting, instead of adding.
 
@@ -248,7 +248,7 @@ Step 5.6 requires you to subtract 2,622, which leaves you with three large negat
 :::
 
 ## 6. Amazing James Randi and his rope trick
-![](resources/7-03-crosses-crosses/3-james-randi.jpg)
+![](/resources/7-03-crosses-crosses/3-james-randi.jpg)
 One of my heroes is James Randi, who is often known as the Amazing Randi. In the last few decades he has become a champion of rationality and a debunker of nonsense, but he started off in show business as a magician and an escapologist.
 
 Well after becoming a pensioner, Randi was performing escapology. See you can work how he escapes from ropes in the video below.

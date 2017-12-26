@@ -103,7 +103,7 @@ __3.1.__ Curie’s 1911 Nobel Prize was for the discovery of an element that was
 
 Can you solve the following riddle?
 ::: problem id=4_1 marks=1
-If you break me and I become better than I was before, and I become even hard to break.
+__4.1__ If you break me and I become better than I was before, and I become even hard to break.
 
 What am I?
 
@@ -188,7 +188,7 @@ Encode the word BOX with a shift of 1 into a new 3-letter word
 BOX in numbers = 1-14-23  BOX + 1 in numbers = 2-15-24  BOX +1 in letters = CPY
 
 ::: problem id=5_1 marks=1
-Encode the word BOX with a shift of 2 into a new 3-letter word.
+__5.1__ Encode the word BOX with a shift of 2 into a new 3-letter word.
 
 When you translate BOX into numbers, add 2 to each number and convert the result back into letters, you get:
 
@@ -201,7 +201,7 @@ When you translate BOX into numbers, add 2 to each number and convert the result
 :::
 
 ::: problem id=5_2 marks=1
-Encode the word BOX with a shift of 10 into a new 3-letter word.
+__5.2__ Encode the word BOX with a shift of 10 into a new 3-letter word.
 
 When you translate BOX into numbers, add 10 to each number and convert the result back into letters, you get:
 
@@ -217,7 +217,7 @@ You need to apply the modulo arithmetic:
 :::
 
 ::: problem id=5_3 marks=1
-Encode the word BOX with a shift of 25 into a new 3-letter word.
+__5.3__ Encode the word BOX with a shift of 25 into a new 3-letter word.
 
 When you translate BOX into numbers, add 25 to each number and convert the result back into letters, you get:
 
@@ -233,7 +233,7 @@ Another way of adding 25 in modulo arithmetic is to subtract 1. Instead of going
 :::
 
 ::: problem id=5_4 marks=1
-Encode the word BOX with a shift of 26 into a new 3-letter word.
+__5.4__ Encode the word BOX with a shift of 26 into a new 3-letter word.
 
 When you translate BOX into numbers, add 26 to each number and convert the result back into letters, you get:
 
@@ -249,7 +249,7 @@ A shift of 26 gets you back to where you started, so no change.
 :::
 
 ::: problem id=5_5 marks=1
-Encode the word BOX with a shift of 52 into a new 3-letter word.
+__5.5__ Encode the word BOX with a shift of 52 into a new 3-letter word.
 
 When you translate BOX into numbers, add 52 to each number and convert the result back into letters, you get:
 
@@ -265,7 +265,7 @@ Again, because these are multiples of 26, no change.
 :::
 
 ::: problem id=5_6 marks=1
-Encode the word BOX with a shift of 260 into a new 3-letter word.
+__5.6__ Encode the word BOX with a shift of 260 into a new 3-letter word.
 
 When you translate BOX into numbers, add 260 to each number and convert the result back into letters, you get:
 
@@ -281,7 +281,7 @@ Again, because these are multiples of 26, no change.
 :::
 
 ::: problem id=5_7 marks=1
-Encode the word BOX with a shift of 261 into a new 3-letter word.
+__5.7__ Encode the word BOX with a shift of 261 into a new 3-letter word.
 
 When you translate BOX into numbers, add 261 to each number and convert the result back into letters, you get:
 
