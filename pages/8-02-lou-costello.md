@@ -37,7 +37,6 @@ Back in 1998, I went to see a film at the cinema called _π_. To be honest, it w
 @[youtube](r0SC582sJvE?start=0&end=44)
 
 I like the comment that “mathematics is the language of nature”, and you will see that more and more as you study different areas of maths. For example, take a look at this image of the bottom of a pine cone. There are green spirals going clockwise and red spirals going anticlockwise.
-
 ![](/resources/8-02-lou-costello/1-fib-spirals.jpg) {alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
 ::: problem id=1_1 marks=1
@@ -70,7 +69,6 @@ __1.3.__ These series of numbers is called:
 :::
 
 The sunflower below also has two sets of spirals, and the numbers of spirals are also part of this number series.
-
 ![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
 
 ::: problem id=1_4 marks=1
@@ -92,7 +90,6 @@ __1.5.__ How many clockwise (x) spirals?
 
 ::: problem id=2_1 marks=2
 __2.1.__ What is the sum of the marked angles in the diagram?
-
 ![](/resources/8-02-lou-costello/2-triangles.png)
 
 * [ ] 90°
@@ -150,7 +147,6 @@ __4.1__ If it was a perfect experiment, how long should it have taken for 10 swi
 Matt’s pi-endulum video starts with something astonishing, namely that there are some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ because some things in maths are beautiful. They strike your heart and make you go, wow!)
 
 About 350 years ago, mathematicians proved that:
-
 ![](/resources/8-02-lou-costello/5-equation1.gif)
 
 Why on earth should adding every odd fraction and subtracting every even fraction create a quarter of π? When you’re older, might find out, but for now just be gobsmacked.
@@ -158,11 +154,9 @@ Why on earth should adding every odd fraction and subtracting every even fractio
 This equation is very slow, by which I mean that you need to contact a large number of terms before you get an answer that becomes accurate. If you work out the first 300 terms of the formula, then you will eventually work out that π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
 
 In 1748, Leonard Euler proved recipe for calculating  
-
 ![](/resources/8-02-lou-costello/5-equation2.gif)
 
 We can rearrange this to obtain:
-
 ![](/resources/8-02-lou-costello/5-equation3.gif)
 
 Let’s see what happens if use this recipe to calculate π.

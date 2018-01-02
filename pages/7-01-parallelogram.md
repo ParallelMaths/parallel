@@ -39,7 +39,7 @@ secret codes. How do you make a code and how do you break a code? The proper
 word for this **cryptography**, from the Greek words for *“secret”* and
 *“writing”*.
 
-You might think that cryptography is all about language, because we are messing around with messages made of words. Actually, cryptography is 99% maths, and numbers at the heart of secrecy, particularly today in the age of the Internet. You might be surprised to know that some of the  biggest employers of mathematicians are the secret services in countries around the world. And, of course, big companies employ mathematician to protect their secrets (and maybe steal the secrets of rival companies).
+You might think that cryptography is all about language, because we are messing around with messages made of words. Actually, cryptography is 99% maths, and numbers are the heart of secrecy, particularly today in the age of the Internet. You might be surprised to know that some of the  biggest employers of mathematicians are the secret services in countries around the world. And, of course, big companies employ mathematicians to protect their secrets (and maybe steal the secrets of rival companies).
 
 The cryptography theme starts properly next week, but in the meantime here is a quick puzzle about a code just to warm you up.
 
@@ -160,7 +160,7 @@ The rest is easy. Angle y must be (180 – a3 – 60)° and angle x must be
 
 ## 4. A maths teacher’s age
 
-A student asked her maths teacher if he would reveal his age. See an opportunity
+A student asked her maths teacher if he would reveal his age. Seeing an opportunity
 to test his student’s mental skills, the teacher replied with a riddle: “My age
 in years is not a prime but is odd. Also, when the digits in my age are reversed
 and the new number added to my age, the result is a perfect square. Of course,
@@ -216,12 +216,12 @@ scientist. I think it is largely true to say that you cannot be a top class
 physicists, engineer or computer scientist unless your maths is strong.
 
 Because of this link between maths and other subjects, we will occasionally
-explore this other subjects in our Parallelograms, and today I want to show you
+explore topics beyond maths in our Parallelograms, and today I want to show you
 one of my favourite videos about physics.
 
 Walter Lewin is one the world’s best physics lecturers, and this is one of his
 most famous demonstrations. One of the laws of physics says that if you drop a
-ball then it cannot bounce higher than where you dropped it – imagine the
+ball then it cannot bounce higher than the height from which you dropped it – imagine the
 consequences if the opposite was true – a ball would drop and bounce higher
 than its starting point, then fall and bounce even higher still, then fall and
 bounce higher still, and so on until the ball flew off into space. In short,
@@ -243,7 +243,7 @@ gravitational potential energy is transformed into:
 :::
 
 Perhaps the professor is exaggerating when he implies that the demonstration is
-potentially deadly, but there is no doubt that is dangerous, as demonstrated in
+potentially deadly, but there is no doubt that it is dangerous, as demonstrated in
 the clip below. Before you laugh, bear in mind that the bright young student was
 brave and dedicated, but made just one small mistake, and paid a painful price.
 
@@ -252,7 +252,7 @@ brave and dedicated, but made just one small mistake, and paid a painful price.
 Why did this experiment go so badly wrong? The ball followed the laws of
 physics, and it swung forward, and then it swung all the way back, but very
 slightly short of where it started. The problem was that the student, after
-releasing the ball, moving forward a tiny amount. That tiny movement was bigger
+releasing the ball, moved forward a tiny amount. That tiny movement
 was enough to result in a painful lesson.
 
 
