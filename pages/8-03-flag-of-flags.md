@@ -142,7 +142,7 @@ __5.1__ Which of these flags is contained in the Norway flag?
 ::: problem id=5_2 marks=1
 __5.2__ Which of these flags is contained in the Norway flag?
 
-* [ ] Norway
+* [ ] Nepal
 * [x] Poland
 * [ ] Reunion
 * [ ] Romania
