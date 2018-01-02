@@ -150,7 +150,7 @@ So far, so good, but happens if we encode a word such as YES with a shift of 3.
 YES   = 24-4-18
 YES+3 = 27-7-21 = ?HV
 
-![](resources/7-02-junior-maths/5-encoding-diagram.png)
+![](/resources/7-02-junior-maths/5-encoding-diagram.png)
 
 27 does not appear in our alphabet. How do we represent 27 as a letter? What letter does Y turn into?
 

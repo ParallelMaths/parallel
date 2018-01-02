@@ -56,7 +56,8 @@ __1.1.__ How accurate is 22/7 compared to the true value of π?
 
 ---
 
-22/7 = 3.14286    π = 3.14159
+22/7  = 3.14286
+π     = 3.14159
 
 Inaccuracy is (22/7 – π ) / π = 0.00127 / 3.14159 = 0.0004 	= 0.04%
 :::
@@ -103,7 +104,7 @@ __2.1.__ What sum of money in £1 coins would weigh the same as the record-break
 
 ---
 
-We have to work out how many £1 coins, each weighing 10 g, we need to get a total weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need 100,000/10 = 10,000 of these coins. That is, £10 000 in money.
+We have to work out how many £1 coins, each weighing 10 g, we need to get a total weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need 100,000/10 = 10,000 of these coins. That is, £10,000 in money.
 :::
 
 
@@ -132,7 +133,7 @@ Take a look at this video of a collection of pendula (the plural of pendulum), w
 
 @[youtube](RrX2yTGJ6N0?rel=0)
 
-Tom Rowett, who was in the video, has a huge and wonderful collection of odd objects and we will meet more of them in later Parallelograms. In this case, each pendulum swings at a different rate, because it has a different length. In fact, there is a formula that determines the relationship between the length of the pendulum and time it takes to swing from left to right and back to the left.
+Tom Rowett, who was in the video, has a huge and wonderful collection of odd objects, and we will meet more of them in later Parallelograms. In this case, each pendulum swings at a different rate, because it has a different length. In fact, there is a formula that determines the relationship between the length of the pendulum and time it takes to swing from left to right and back to the left.
 
 __T = 2π√(L/g)__
 
