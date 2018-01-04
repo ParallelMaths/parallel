@@ -47,7 +47,8 @@ Some of you may have already taken part in the Junior Maths Challenge, and other
 (If you are not taking part in the Junior Maths Challenge, then it does not matter – these questions are still great for developing your mathematical skills.)
 
 ::: problem id=2_1 marks=2
-![](/resources/8-03-flag-of-flags/2-squares-question.png) {image align="right"}
+![](/resources/8-03-flag-of-flags/2-squares-question.png){image align="right"}
+
 __2.1.__ A square is divided into three congruent rectangles. The middle rectangle is removed and replaced on the side of the original square to form an octagon as shown.
 
 What is the ratio of the length of the perimeter of the square to the length of the perimeter of the octagon?
@@ -61,7 +62,8 @@ What is the ratio of the length of the perimeter of the square to the length of 
 
 ---
 
-![](/resources/8-03-flag-of-flags/2-squares-solution.png) {image align="right"}
+![](/resources/8-03-flag-of-flags/2-squares-solution.png){image align="right"}
+
 Suppose that the square has side length 3x. Then the square has perimeter of length 4 X 3x = 12x.
 
 Each rectangle has size 3x X x. So we see that the octagon has a perimeter length:
@@ -122,9 +124,11 @@ __4.3__ Difference between them:
 ## 5. Flag of flags
 
 It turns out that the country with the flaggiest flag is Norway. By ‘flaggiest’, I mean that it contains the flags of six other countries. For example, here is the flag of Thailand.
+
 ![](/resources/8-03-flag-of-flags/8-thailand.png)
 
 Next, here is the flag of Norway with a black rectangle showing how it contains the flag of Thailand.
+
 ![](/resources/8-03-flag-of-flags/8-norway.jpg)
 
 Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html).

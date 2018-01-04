@@ -70,7 +70,9 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,0
 
 
 ## 2. Junior Maths Challenge 2011 (3)
-![](/resources/7-03-crosses-crosses/3-lights-question.png) {.img-right}
+
+![](/resources/7-03-crosses-crosses/3-lights-question.png){.img-right}
+
 A train display shows letters by lighting cells in a grid, such as the letter ‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to the right of one in the normal letter.
 
 ::: problem id=2_1 marks=2
@@ -83,7 +85,8 @@ __2.1__ How many cells are lit in a bold ‘o’?
 * [ ] 30
 
 ---
-![](/resources/7-03-crosses-crosses/3-lights-solution.png) {.img-right}
+![](/resources/7-03-crosses-crosses/3-lights-solution.png){.img-right}
+
 The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
 
 :::
