@@ -71,7 +71,7 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x 2,0
 
 ## 2. Junior Maths Challenge 2011 (3)
 
-![](/resources/7-03-crosses-crosses/3-lightsquestion.png){.img-right}
+![](/resources/7-03-crosses-crosses/3-lightsquestion.png){image align="right"}
 
 A train display shows letters by lighting cells in a grid, such as the letter ‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to the right of one in the normal letter.
 
@@ -86,7 +86,7 @@ __2.1__ How many cells are lit in a bold ‘o’?
 
 ---
 
-![](/resources/7-03-crosses-crosses/3-lightssolution.png){.img-right}
+![](/resources/7-03-crosses-crosses/3-lightssolution.png){image align="right"}
 
 The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
 
@@ -151,7 +151,7 @@ So, if we encode by (+2), then CAT is 2-0-19, adding 2 turns it into 4-2-21, whi
 
 If, we encode by (+10), then CAT is 2-0-19, adding 10 turns it into 12-10-29. The number 29 is tricky, because no letter is associated with 29, so last week we talked about modulo arithmetic. In this case of modulo (26), if we have a number that is outside our range of 0 to 25, then we add or subtract 26 again and again until we are within the range of 0 to 25. This means that 12-10-29 becomes 12-10-3, which means CAT is encoded as MKD.
 
-If you need to revise this, then go back and look at the [previous Paralellogram](/7-02-marie-curie).
+If you need to revise this, then go back and look at the [previous Paralellogram](/7-02-marie-curie#_blank).
 
 But what about __decoding__? You can decode a word by subtracting, instead of adding.
 
@@ -275,7 +275,7 @@ Simon.
 
 The noughts and crosses video in this week’s Parallelogram reminded me of a couple of things.
 
-1. Today’s best computer programmes can beat humans at the most complex games, such as Chess or Go, but this video from 1949 shows that has been a long and hard journey to get to where we are now. The black and white video shows an early computer mastering how to plan noughts and crosses. [https://www.britishpathe.com/video/noughts-and-crosses-machine](https://www.britishpathe.com/video/noughts-and-crosses-machine)
+1. Today’s best computer programmes can beat humans at the most complex games, such as Chess or Go, but this video from 1949 shows that has been a long and hard journey to get to where we are now. The black and white video shows an early computer mastering how to plan noughts and crosses. [https://www.britishpathe.com/video/noughts-and-crosses-machine](https://www.britishpathe.com/video/noughts-and-crosses-machine#_blank)
 
 2. The hot topic today is machine learning and artificial intelligence (AI). This article – which is fairly complicated – shows how you could build a computer out of matchboxes, which could teach itself to win at noughts and crosses.
-[http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/](http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/)
+[http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/](http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/#_blank)
