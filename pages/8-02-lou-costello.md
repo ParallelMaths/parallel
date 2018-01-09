@@ -36,8 +36,9 @@ Back in 1998, I went to see a film at the cinema called _π_. To be honest, it w
 
 @[youtube](r0SC582sJvE?start=0&end=44)
 
+![](/resources/8-02-lou-costello/1-fib-spirals.jpg) {image align="right" img alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
+
 I like the comment that “mathematics is the language of nature”, and you will see that more and more as you study different areas of maths. For example, take a look at this image of the bottom of a pine cone. There are green spirals going clockwise and red spirals going anticlockwise.
-![](/resources/8-02-lou-costello/1-fib-spirals.jpg) {alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
 ::: problem id=1_1 marks=1
 __1.1.__ How many green spirals are there?
@@ -69,7 +70,7 @@ __1.3.__ These series of numbers is called:
 :::
 
 The sunflower below also has two sets of spirals, and the numbers of spirals are also part of this number series.
-![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
+![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {image align="center" img alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
 
 ::: problem id=1_4 marks=1
 __1.4.__ How many anticlockwise (y) spirals?
@@ -129,7 +130,7 @@ We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 x 4 = 3
 
 Last week’s Parallelogram looked how the length of a pendulum is linked to the time it takes to swing via a formula involving π. The video below from the brilliant Matt Parker (the Stand-up Mathematician) shows how you can use this formula to work out the value of π. Watch carefully and answer the question below.
 
-@[youtube](r0SC582sJvE?start=0&end=3m40)
+@[youtube](qYAdXm69l8g?end=220)
 
 ::: problem id=4_1 marks=1
 __4.1__ If it was a perfect experiment, how long should it have taken for 10 swings of the pendulum?
@@ -183,7 +184,7 @@ __5.1__ What is the value of π accurate when you include the 1/5<sup>2</sup> te
 
 Rohit Kumar has created some graphs that show how these two recipes get better and better at approximating π as you include more and more terms. Take a look the graphs below and answer two questions.
 
-![](/resources/8-02-lou-costello/5-2-graphs.png) {alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
+![](/resources/8-02-lou-costello/5-2-graphs.png) {img alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
 
 ::: problem id=5_2 marks=1
 __5.2__ Which series always underestimate the value of π?
@@ -208,7 +209,7 @@ __5.3__ Both series make the biggest improvements in approximating π...
 
 Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa Kettle. Here is a similar comedy routine from the great Lou Costello, one of America’s most famous comedians. Watch carefully and see if you can work out why the maths is fundamentally wrong.
 
-@[youtube](MS2aEfbEi7s?start=0m7s)
+@[youtube](MS2aEfbEi7s?start=7)
 
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he think the result is?
@@ -224,7 +225,7 @@ Well done on completing this week’s Parallelogram. Check your email or return 
 
 In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
 
-First …. Remember to hit the SUBMIT button below, so that we can mark your answers.
+First... Remember to hit the SUBMIT button below, so that we can mark your answers.
 
 Also, once you have hit the SUBMIT button there will an extra bit of optional Parallelogram if you are feeling particularly keen.
 
@@ -237,6 +238,6 @@ Simon.
 
 ## Additional Stuff
 
-This website has lots of great material about [“Fibonacci Numbers and Nature”](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat.html).
+This website has lots of great material about [“Fibonacci Numbers and Nature”](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat.html#_blank).
 
-You  can find lots of other videos by Matt Parker at [his YouTube channel](https://www.youtube.com/user/standupmaths).
+You  can find lots of other videos by Matt Parker at [his YouTube channel](https://www.youtube.com/user/standupmaths#_blank).

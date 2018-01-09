@@ -131,7 +131,7 @@ Next, here is the flag of Norway with a black rectangle showing how it contains 
 
 ![](/resources/8-03-flag-of-flags/8-norway.jpg)
 
-Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html).
+Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html#_blank).
 
 ::: problem id=5_1 marks=1
 __5.1__ Which of these flags is contained in the Norway flag?
@@ -226,6 +226,6 @@ Here is the most famous sketch by Abbott and Costello – “Who’s on first?�
 @[youtube](WQXwt83hYkE)
 
 This is video by James Grime for the Numberphile channel, and the world’s most mathematical flag:
-@[youtube](f2Gne3UHKHs&t=0m21s)
+@[youtube](f2Gne3UHKHs?start=21)
 
 You can find lots of other Numberphile video by just googling – Numberphile means “someone who loves numbers”, so if you love maths then it is the channel for you.

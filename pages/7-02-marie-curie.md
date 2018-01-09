@@ -137,18 +137,18 @@ CAT become ECV.
 
 So far, so good, but where is the maths? Above the alphabet, each letter is labelled with a number from 0 to 25, and in instead of thinking of encoding as shifting, we can think of encoding as adding.
 
-CAT   = 2-0-19
-CAT+2 = 4-2-21 = ECV
+CAT   = 2-0-19{.text-center}
+CAT+2 = 4-2-21 = ECV{.text-center}
 
 Decoding is the opposite of addition, namely subtraction.
 
-ECV   = 4-2-21
-ECV–2 = 2-0-19 = CAT
+ECV   = 4-2-21{.text-center}
+ECV–2 = 2-0-19 = CAT{.text-center}
 
 So far, so good, but happens if we encode a word such as YES with a shift of 3.
 
-YES   = 24-4-18
-YES+3 = 27-7-21 = ?HV
+YES   = 24-4-18{.text-center}
+YES+3 = 27-7-21 = ?HV{.text-center}
 
 ![](/resources/7-02-marie-curie/5-encoding-diagram.png)
 
@@ -166,12 +166,12 @@ You encounter modulo arithmetic every day, when you look at a clock (and sometim
 
 So, if we encoded the word WORD with a shift of 10, then:
 
-WORD    = 22-14-17-3
-WORD+10 = 32-24-27-13
+WORD    = 22-14-17-3{.text-center}
+WORD+10 = 32-24-27-13{.text-center}
 
 The numbers need to between 0 and 25, so we subtract 26 from the encoded number until it is ok.
 
-WORD+10 = 6-24-1-13 = GYBN
+WORD+10 = 6-24-1-13 = GYBN{.text-center}
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -301,7 +301,7 @@ A shift of 261 is the same as a shift of 260 and then a shift of 1. A shift of 2
 
 The great maths website NIRCH has a tricky game called “Square It”. Play against the computer in 1-player mode and see you can win.
 
-[Play the game](https://nrich.maths.org/2526)
+[Play the game](https://nrich.maths.org/2526#_blank)
 
 If you do manage to win, then just take a photo or screengrab, which includes the date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner at random and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
 

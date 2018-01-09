@@ -33,15 +33,19 @@ __IMPORTANT__ – it does not really matter what score you get, the main thing i
 
 Watch this clip from _Night at the Museum 2 (Battle of the Smithsonian)_ and listen carefully to the references to π.
 
-@[youtube](l3DXVVSRYdE&t=0m22s)
+@[youtube](l3DXVVSRYdE?start=22)
 
 Although Einstein has no problem remembering the digits of π, most of the rest of us find it tricky. 3.14 is about as good as many of us can manage.
 
 As you might know, the digits of π go on forever, so you will never memorise all of π, but there are tricks called _mnemonics_ (pronounced __NEM__-__ON__-__ICK__) that can help you remember quite a few digits.
 
-For example, take the phrase “How I wish I could calculate pi.” If you count the number of letters in each word, then you obtain the digits 3.141592.
+For example, take the phrase:
 
-“Can I have a small container of coffee?” leads to 3.1415926.
+_“How I wish I could calculate pi.”_
+
+If you count the number of letters in each word, then you obtain the digits 3.141592.
+
+_“Can I have a small container of coffee?” leads to 3.1415926._
 
 Alternatively, you can remember π with the fraction 22/7.
 
@@ -176,14 +180,14 @@ __4.2__ If you wanted a pendulum to have a swing time of 1 second (__T__ = 1 sec
 
 We know that:
 
-			g.(T/2π)<sup>2</sup> =L	or	L= g.(T/2π)<sup>2</sup>
+  'g.(T/2π)^2=L'	or	'L= g.(T/2π)^2'
 
 We want to know L for a T of 1 second, so:
 
-  L= g.(T/2π)<sup>2</sup>
-  L= 9.8 x (1/2π)<sup>2</sup>
-  L = 9.8 x 0.043<sup>2</sup>
-  L = 0.18 meters
+  'L= g.(T/2π)^2'
+  'L= 9.8 x (1/2π)^2'
+  'L = 9.8 x 0.043^2'
+  'L = 0.18 meters'
 
 :::
 
@@ -237,6 +241,6 @@ This video shows a young lad called Benjamin Most reciting from memory 2,422 dig
 
 And Benjamin has a long way to go to beat the world record for memorising π, which stands at 70,030 dgits.
 
-Here is [one of my favourite cartoons about π]([https://www.smbc-comics.com/?id=2208) – see if you can understand the joke. If not, ask your teacher to explain it.
+Here is [one of my favourite cartoons about π](https://www.smbc-comics.com/?id=2208#_blank) – see if you can understand the joke. If not, ask your teacher to explain it.
 
-And [here is a short article about the history and significance of π.](https://www.scientificamerican.com/article/what-is-pi-and-how-did-it/)
+And [here is a short article about the history and significance of π.](https://www.scientificamerican.com/article/what-is-pi-and-how-did-it/#_blank)
