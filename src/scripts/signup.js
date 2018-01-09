@@ -11,12 +11,21 @@ export default function() {
   const signup = {
     error: null,
     loading: false,
-    class: '',
-    schoolName: '',
-    country: 'United Kingdom',
-    birthYear: 2000,
-    level: 'year7',
     isTeacher: false,
+
+    first: '',
+    last: '',
+    email: '',
+    password: '',
+    teacherCode: '',
+    level: 'year7',
+    birthYear: 2000,
+    schoolName: '',
+    phoneNumber: '',
+    postCode: '',
+    country: 'United Kingdom',
+    guardianEmail: '',
+    code: '',
 
     async submit(e) {
       e.preventDefault();
@@ -28,24 +37,27 @@ export default function() {
           signup.loading = false;
           return signup.error = 'Please provide a valid school name.';
         }
-        signup.level = signup.birthYear = null;
-        signup.class = generateClassCode();
+        signup.code = generateClassCode();
+        signup.level = signup.birthYear = signup.guardianEmail = signup.teacherCode = null;
 
-      } else if (signup.class) {
-        let teacher = await fbDatabase.ref('users').orderByChild('class').equalTo(signup.class).once('value');
+      } else if (signup.teacherCode) {
+        let teacher = await fbDatabase.ref('users').orderByChild('code').equalTo(signup.teacherCode).once('value');
+        console.log(teacher);
         teacher = teacher.toJSON();
 
         if (!teacher) {
           signup.loading = false;
-          return signup.error = 'The class code you entered is invalid.';
+          return signup.error = 'This teacher code is invalid.';
         }
+
         teacher = teacher[Object.keys(teacher)[0]];
 
         signup.schoolName = teacher.schoolName;
         signup.country = teacher.country;
+        signup.phoneNumber = signup.postCode = signup.guardianEmail = signup.code = null;
 
       } else {
-        signup.schoolName = null;
+        signup.schoolName = signup.phoneNumber = signup.postCode = signup.code = null;
       }
 
       try {
@@ -53,12 +65,15 @@ export default function() {
         await fbDatabase.ref('users/' + user.uid).set({
           first: signup.first,
           last: signup.last,
-          birthYear: signup.birthYear,
-          country: signup.country,
-          class: signup.class,
-          schoolName: signup.schoolName,
+          teacherCode: signup.teacherCode,
+          code: signup.code,
           level: signup.level,
-          isTeacher: signup.isTeacher
+          birthYear: signup.birthYear,
+          schoolName: signup.schoolName,
+          phoneNumber: signup.phoneNumber,
+          postCode: signup.postCode,
+          country: signup.country,
+          guardianEmail: signup.guardianEmail
         });
       } catch(error) {
         console.error(error);
@@ -69,13 +84,13 @@ export default function() {
           case 'auth/invalid-email':
             return signup.error = 'The email address you provided is invalid.';
           case 'auth/weak-password':
-            return signup.error = 'Please pick a longer password!';
+            return signup.error = 'Please pick a stronger password!';
           default:
             return signup.error = 'Sorry, we couldn’t create your account. Please try again!';
         }
       }
 
-      location.replace(signup.isTeacher ? '/teachers' : '/introduction');
+      location.replace(signup.isTeacher ? '/dashboard' : '/introduction');
     }
   };
 

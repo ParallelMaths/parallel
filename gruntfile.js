@@ -221,7 +221,7 @@ grunt.initConfig({
       files: [{
         expand: true,
         cwd: 'src',
-        src: '**/*.{png,jpg,ico,json,svg}',
+        src: '**/*.{png,jpg,ico,json,svg,gif}',
         dest: 'build'
       }]
     },
@@ -249,7 +249,7 @@ grunt.initConfig({
       tasks: ['rollup', 'babel']
     },
     static: {
-      files: ['resources/**', 'src/**/*.{png,jpg,ico,json,svg}'],
+      files: ['resources/**', 'src/**/*.{png,jpg,ico,json,svg,gif}'],
       tasks: ['copy']
     }
   },

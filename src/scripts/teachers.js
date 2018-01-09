@@ -11,14 +11,15 @@ export default function(user, pages) {
   const allPages = [...pages.year7, ...pages.year8];
 
   user.onLoad(async function() {
-    let data = await fbDatabase.ref('users').orderByChild('class').equalTo(user.data.class).once('value');
+    if (!user.data) return location.replace('/');
+
+    let data = await fbDatabase.ref('users').orderByChild('teacherCode').equalTo(user.data.code).once('value');
     data = data.toJSON() || {};
 
     const students = [];
     const attempted = new Set();
 
     for(let k of Object.keys(data)) {
-      if (data[k].isTeacher) continue;
       students.push({id: k, name: data[k].first + ' ' + data[k].last});
 
       const a = await fbDatabase.ref('answers/' + k).once('value');

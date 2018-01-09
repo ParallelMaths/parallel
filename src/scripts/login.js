@@ -46,9 +46,8 @@ export default function(user) {
             case 'auth/invalid-email':
               return login.error = 'This email address is invalid.';
             case 'auth/user-not-found':
-              return login.error = 'There is no account with this email address.';
             case 'auth/wrong-password':
-              return login.error = 'Incorrect password!';
+              return login.error = 'These login details are incorrect.';
             default:
               return login.error = 'Sorry, we couldn’t log you in. Please try again!';
           }

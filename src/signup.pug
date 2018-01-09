@@ -10,7 +10,7 @@ block content
       a(v-on:click="signup.isTeacher = false" v-bind:class="{active: !signup.isTeacher}") Student
       a(v-on:click="signup.isTeacher = true" v-bind:class="{active: signup.isTeacher}") Teacher
 
-    .error(v-show="signup.error") {{signup.error}}
+    .error(v-show="signup.error" style="margin-top: .5em") {{signup.error}}
 
     label
       | First Name
@@ -29,8 +29,8 @@ block content
       input(type="password" required pattern=".{6,}" v-model="signup.password" autocomplete="password")
 
     label(v-if="!signup.isTeacher")
-      | Class code (if you are participating as part of a school)
-      input(type="text" v-model="signup.class")
+      | Teacher code (if you are participating as part of a school)
+      input(type="text" v-model="signup.teacherCode")
 
     label(v-if="!signup.isTeacher")
       | Year
@@ -38,25 +38,22 @@ block content
         option(value="year7") Year 7
         option(value="year8") Year 8
 
-    label(v-if="!signup.isTeacher && !signup.class")
+    label(v-if="!signup.isTeacher && !signup.teacherCode")
       | Year of Birth
       select(v-model="signup.birthYear")
         - var year = 1920;
         while year < 2014
           option= year++
 
-    //- label
-      | Gender (optional)
-      select(v-model="signup.gender" autocomplete="sex")
-        option Female
-        option Male
-        option Other
-
     label(v-if="signup.isTeacher")
       | School Name
-      input(type="text" v-model="signup.schoolName")
+      input(type="text" v-model="signup.schoolName" required)
+      | Phone Number
+      input(type="text" v-model="signup.phoneNumber" required)
+      | Post Code
+      input(type="text" v-model="signup.postCode" required)
 
-    label(v-if="signup.isTeacher || !signup.class")
+    label(v-if="signup.isTeacher || !signup.teacherCode")
       | Country
       select(v-model="signup.country" autocomplete="country-name")
         option Afghanistan
@@ -254,7 +251,10 @@ block content
         option Zambia
         option Zimbabwe
 
-    p(v-show="!signup.isTeacher && !signup.school && signup.birthYear >= 2004") If you are under the age of 13, please ask permission from a parent or guardians before creating an account.
+
+    label(v-if="!signup.isTeacher && !signup.teacherCode && signup.birthYear >= 2004")
+      | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
+      input(type="email" v-model="signup.guardianEmail" required)
 
     p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=500, height=500'); return false;") terms and conditions].
 

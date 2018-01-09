@@ -59,10 +59,10 @@ html
               p {{ user.data.first }} {{user.data.last }}
               p.small
                 span(v-if="user.data.schoolName") {{ user.data.schoolName }}&nbsp;&nbsp;•&nbsp;&nbsp;
-                span(v-if="!user.data.isTeacher") {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
+                span(v-if="!user.data.code") {{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;
                 a(v-on:click="user.logout") Logout
-            .user(v-if="user.data && user.data.isTeacher"): a(href="/teachers") Teacher Dashboard
-            .toggle(v-if="!user.data || user.data.isTeacher")
+            .user(v-if="user.data && user.data.code"): a(href="/dashboard") Teacher Dashboard
+            .toggle(v-if="!user.data || user.data.code || user.level == 'year8'")
               a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
               a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
             nav
@@ -84,6 +84,8 @@ html
       a(href="/about") About
       | •
       a(href="/contact") Contact
+      | •
+      a(href="/teachers") For Teachers
       | •
       a(href="/terms-and-conditions") Terms and Conditions
       br

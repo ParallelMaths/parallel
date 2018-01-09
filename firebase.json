@@ -2,7 +2,8 @@
   "database": {
     "rules": {
       "users": {
-        ".read": "auth != null",
+        ".indexOn": ["teacherCode", "code"],
+        ".read": true,
         "$uid": {
           ".write": "$uid === auth.uid"
         }
