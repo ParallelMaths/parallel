@@ -69,7 +69,8 @@ __1.3.__ These series of numbers is called:
 
 :::
 
-The sunflower below also has two sets of spirals, and the numbers of spirals are also part of this number series.
+The sunflower below also has two sets of spirals, and the numbers of spirals are also part of this number series.  
+
 ![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {image align="center" img alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
 
 ::: problem id=1_4 marks=1
@@ -147,7 +148,7 @@ __4.1__ If it was a perfect experiment, how long should it have taken for 10 swi
 
 Matt’s pi-endulum video starts with something astonishing, namely that there are some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ because some things in maths are beautiful. They strike your heart and make you go, wow!)
 
-About 350 years ago, mathematicians proved that:
+About 350 years ago, mathematicians proved that:  
 ![](/resources/8-02-lou-costello/5-equation1.gif)
 
 Why on earth should adding every odd fraction and subtracting every even fraction create a quarter of π? When you’re older, might find out, but for now just be gobsmacked.
@@ -157,7 +158,7 @@ This equation is very slow, by which I mean that you need to contact a large num
 In 1748, Leonard Euler proved recipe for calculating  
 ![](/resources/8-02-lou-costello/5-equation2.gif)
 
-We can rearrange this to obtain:
+We can rearrange this to obtain:  
 ![](/resources/8-02-lou-costello/5-equation3.gif)
 
 Let’s see what happens if use this recipe to calculate π.
@@ -214,9 +215,9 @@ Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he think the result is?
 
-  15
-  +15
-  +15
+15  
++15  
++15
 
 <input type="number" solution="18"/>  
 :::
@@ -238,6 +239,6 @@ Simon.
 
 ## Additional Stuff
 
-This website has lots of great material about [“Fibonacci Numbers and Nature”](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat.html#_blank).
+This website has lots of great material about [“Fibonacci Numbers and Nature”](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat.html){target="_blank"}.
 
-You  can find lots of other videos by Matt Parker at [his YouTube channel](https://www.youtube.com/user/standupmaths#_blank).
+You  can find lots of other videos by Matt Parker at [his YouTube channel](https://www.youtube.com/user/standupmaths){target="_blank"}.

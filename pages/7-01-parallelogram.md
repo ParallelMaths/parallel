@@ -130,7 +130,7 @@ top mathematicians to make some significant breakthroughs in cracking Enigma?
 The Polish mathematicians who cracked the Enigma code changed history and laid
 the foundations for the British codebreakers at Bletchley Park, who went on to
 help win the Second World War. You read more about the Polish contribution to
-cracking Enigma in [this Daily Telegraph article](http://www.telegraph.co.uk/science/2016/03/15/polish-codebreakers-cracked-enigma-before-alan-turing/#_blank).
+cracking Enigma in [this Daily Telegraph article](http://www.telegraph.co.uk/science/2016/03/15/polish-codebreakers-cracked-enigma-before-alan-turing/).{target="_blank"}
 :::
 
 
@@ -308,7 +308,7 @@ Simon.
 
 ## Additional Stuff
 
-If you want to find out more about codebreaker and mathematician Alan Turing, then [this BBC article](http://www.bbc.co.uk/news/uk-england-cambridgeshire-41696274#_blank) reveals what he was like as a school book. It contains his school report, recently displayed at the Fitzwilliam Museum in Cambridge.
+If you want to find out more about codebreaker and mathematician Alan Turing, then [this BBC article](http://www.bbc.co.uk/news/uk-england-cambridgeshire-41696274){target="_blank"} reveals what he was like as a school book. It contains his school report, recently displayed at the Fitzwilliam Museum in Cambridge.
 
 Professor Lewin is a superstar and a hero of mine. He has dedicated his life to exploring physics and explaining it to the rest of the world. In the next clip he shows some of the weird behaviour of spinning objects. Behind the experiment is a blackboard full of mathematics, and these equations predict exactly the strange behaviour of the spinning wheel.
 
