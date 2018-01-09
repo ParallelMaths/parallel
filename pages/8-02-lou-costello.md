@@ -36,7 +36,7 @@ Back in 1998, I went to see a film at the cinema called _π_. To be honest, it w
 
 @[youtube](r0SC582sJvE?start=0&end=44)
 
-![](/resources/8-02-lou-costello/1-fib-spirals.jpg) {image align="right" img alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
+![](/resources/8-02-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
 I like the comment that “mathematics is the language of nature”, and you will see that more and more as you study different areas of maths. For example, take a look at this image of the bottom of a pine cone. There are green spirals going clockwise and red spirals going anticlockwise.
 

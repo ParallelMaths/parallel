@@ -137,17 +137,17 @@ CAT become ECV.
 
 So far, so good, but where is the maths? Above the alphabet, each letter is labelled with a number from 0 to 25, and in instead of thinking of encoding as shifting, we can think of encoding as adding.
 
-CAT   = 2-0-19{.text-center}
+CAT   = 2-0-19  
 CAT+2 = 4-2-21 = ECV{.text-center}
 
 Decoding is the opposite of addition, namely subtraction.
 
-ECV   = 4-2-21{.text-center}
+ECV   = 4-2-21  
 ECV–2 = 2-0-19 = CAT{.text-center}
 
 So far, so good, but happens if we encode a word such as YES with a shift of 3.
 
-YES   = 24-4-18{.text-center}
+YES   = 24-4-18  
 YES+3 = 27-7-21 = ?HV{.text-center}
 
 ![](/resources/7-02-marie-curie/5-encoding-diagram.png)
