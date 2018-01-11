@@ -28,14 +28,3 @@ Adding a new parallelogram consists of three parts:
 * Upload all required resources (e.g. images) to `/resources/<name>/`. Note that
   the names of the `.md` file and the resources directory have to match.
 * Update `/pages/pages.yaml` with the new parallelogram and the required timings.
-
-
-## TODO List
-
-* Documentation
-* DB read security rules
-* Edit account page
-* Enable Hints
-* Warn when submitting with unanswered questions, confetti animation?
-* Loading state for forms, CSS for invalid fields
-* Update getScores and getUsers scripts
