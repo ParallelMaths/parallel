@@ -89,6 +89,8 @@ __2.1__ How many cells are lit in a bold ‘o’?
 ![](/resources/7-03-crosses-crosses/3-lightssolution.png){image align="right"}
 
 The only thing to do here is to draw (or imagine) the figure corresponding to a bold ‘o’, and to count the number of cells that are lit. We see that the extra cells that need to be lit are then 10 cells shown in black. This makes 24 lit cells altogether.
+<br>
+<br>
 
 :::
 

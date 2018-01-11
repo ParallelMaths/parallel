@@ -60,8 +60,8 @@ __1.1.__ How accurate is 22/7 compared to the true value of π?
 
 ---
 
-22/7  = 3.14286
-π     = 3.14159
+22/7 = 3.14286  
+π    = 3.14159
 
 Inaccuracy is (22/7 – π ) / π = 0.00127 / 3.14159 = 0.0004 	= 0.04%
 :::
@@ -79,7 +79,7 @@ __1.2.__ How accurate is 355/113 compared to the true value of π?
 
 :::
 
-Because π cannot be written as a fraction with perfect fraction it is labelled an irrational number, but it is not the only irrational number. The golden ratio, often represented as φ (pronounced phi), is the number 1.61803398874…
+Because π cannot be written as a fraction with perfect fraction it is labelled an irrational number, but it is not the only irrational number. The golden ratio, often represented as φ (pronounced phi), is the number 1.61803398874...
 
 ::: problem id=1_3 marks=1
 __1.3.__ How accurate is 13/8 compared to the true value of φ?
@@ -139,7 +139,7 @@ Take a look at this video of a collection of pendula (the plural of pendulum), w
 
 Tom Rowett, who was in the video, has a huge and wonderful collection of odd objects, and we will meet more of them in later Parallelograms. In this case, each pendulum swings at a different rate, because it has a different length. In fact, there is a formula that determines the relationship between the length of the pendulum and time it takes to swing from left to right and back to the left.
 
-__T = 2π√(L/g)__
+`T = 2π√(L/g)`
 
 where
 * __T__ is the time of a complete swing in seconds.
@@ -147,8 +147,8 @@ where
 * __L__ is the length of the pendulum in meters.
 * __g__ is the acceleration due to gravity (9.8 m/s²). Don’t worry about this – it is a bit of physics that describes how an object falls due to the Earth’s gravity.
 
-If __L__ = 2 meters:
-__T__ = 2 x 3.14 x √(2/9.8) = 6.28 x √(0.204) = 6.28 x 0.4517
+If __L__ = 2 meters:  
+__T__ = 2 x 3.14 x √(2/9.8) = 6.28 x √(0.204) = 6.28 x 0.4517  
 __T__ = 2.837 seconds.
 
 ::: problem id=4_1 marks=2
@@ -171,23 +171,23 @@ __4.2__ If you wanted a pendulum to have a swing time of 1 second (__T__ = 1 sec
 * [ ] 1.8 metres
 
 > HINT (lose 2 marks)
->  T = 2π√(L/g)
->  So,	 T/2π =√(L/g)
->  So,	(T/2π)2 =L/g
->  So,	g.(T/2π)2 =L
+>  `T = 2π√(L/g)`  
+>  So,	 `T/2π = √(L/g) `  
+>  So,	`(T/2π)^2 = L/g `  
+>  So,	`g.(T/2π)^2 = L `
 
 ---
 
 We know that:
 
-  'g.(T/2π)^2=L'	or	'L= g.(T/2π)^2'
+  `g.(T/2π)^2 = L`	or	`L = g.(T/2π)^2`
 
 We want to know L for a T of 1 second, so:
 
-  'L= g.(T/2π)^2'
-  'L= 9.8 x (1/2π)^2'
-  'L = 9.8 x 0.043^2'
-  'L = 0.18 meters'
+  `L= g.(T/2π)^2`  
+  `L= 9.8 x (1/2π)^2`  
+  `L = 9.8 x 0.043^2`  
+  `L = 0.18 meters`  
 
 :::
 
@@ -202,9 +202,9 @@ In this clip, Ma and Pa Kettle wrestle with some maths. See you can understand h
 ::: problem id=5 marks=2
 __5.1__ Using the mistaken approach Ma and Pa Kettle, what is 3 x 16? You might need to watch video again.
 
-  16
-  +16
-  +16
+16  
++16  
++16
 
 <input type="number" solution="21"/>  
 :::
@@ -222,7 +222,7 @@ I hope you enjoyed (or at least did not hate) this Parallelogram, the first one 
 
 In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
 
-First …. Remember to hit the SUBMIT button below, so that we can mark your answers.
+First... Remember to hit the SUBMIT button below, so that we can mark your answers.
 
 Also, once you have hit the SUBMIT button there will an extra bit of optional Parallelogram if you are feeling particularly keen.
 
@@ -239,8 +239,8 @@ This video shows a young lad called Benjamin Most reciting from memory 2,422 dig
 
 @[youtube](VvNbW5ZoI_k)
 
-And Benjamin has a long way to go to beat the world record for memorising π, which stands at 70,030 dgits.
+And Benjamin has a long way to go to beat the world record for memorising π, which stands at 70,030 digits.
 
-Here is [one of my favourite cartoons about π](https://www.smbc-comics.com/?id=2208#_blank) – see if you can understand the joke. If not, ask your teacher to explain it.
+Here is [one of my favourite cartoons about π](https://www.smbc-comics.com/?id=2208){target="_blank"} – see if you can understand the joke. If not, ask your teacher to explain it.
 
-And [here is a short article about the history and significance of π.](https://www.scientificamerican.com/article/what-is-pi-and-how-did-it/#_blank)
+And [here is a short article about the history and significance of π.](https://www.scientificamerican.com/article/what-is-pi-and-how-did-it/){target="_blank"}

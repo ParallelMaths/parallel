@@ -50,7 +50,7 @@ __1.1.__ What is the value of 2 x 0 x 1 + 1?
 
 ---
 
-This is simply a matter of doing the sum … and remembering the order of operations. So, multiplications take priority of addition, so
+This is simply a matter of doing the sum... and remembering the order of operations. So, multiplications take priority of addition, so
 2 x 0 x 1 + 1 = (2 x 0 x 1) + 1 = (0) + 1 = 1
 :::
 
@@ -69,11 +69,11 @@ __2.1.__ How many of the integers 123, 234, 345, 456, 567 are multiples of 3?
 ---
 We could simply divide each of the given numbers by 3, and check that there is no remainder in each case. However, it is quicker to use the fact that an integer is divisible by 3 if and only if the sum of its digits is a multiple of 3.
 
-123:	1 + 2 + 3 = 6
-234:	2 + 3 + 4 = 9
-345:	3 + 4 + 5 = 12
-456:	4 + 5 + 6 = 15
-567:	5 + 6 + 7 = 18
+123:	1 + 2 + 3 = 6  
+234:	2 + 3 + 4 = 9  
+345:	3 + 4 + 5 = 12  
+456:	4 + 5 + 6 = 15  
+567:	5 + 6 + 7 = 18  
 
 These are all multiples of 3, so all five numbers are multiples of 3, so the answer is E.
 :::
@@ -132,7 +132,7 @@ The Caesar cipher, which supposedly dates back to the Romans, involves shifting 
 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 {.grid}
 
-A is encoded as C... B is encoded as D... C is encoded as E, and so on.
+A is encoded as C... B is encoded as D... C is encoded as E, and so on.  
 CAT become ECV.
 
 So far, so good, but where is the maths? Above the alphabet, each letter is labelled with a number from 0 to 25, and in instead of thinking of encoding as shifting, we can think of encoding as adding.
@@ -166,7 +166,7 @@ You encounter modulo arithmetic every day, when you look at a clock (and sometim
 
 So, if we encoded the word WORD with a shift of 10, then:
 
-WORD    = 22-14-17-3{.text-center}
+WORD    = 22-14-17-3  
 WORD+10 = 32-24-27-13{.text-center}
 
 The numbers need to between 0 and 25, so we subtract 26 from the encoded number until it is ok.
@@ -184,9 +184,9 @@ WORD+10 = 6-24-1-13 = GYBN{.text-center}
 
 __EXAMPLE__
 Encode the word BOX with a shift of 1 into a new 3-letter word		
-BOX in numbers    = 1-14-23
-BOX+ 1 in numbers = 2-15-24
-BOX+1 in letters  = CPY
+BOX in numbers    = 1-14-23  
+BOX+ 1 in numbers = 2-15-24  
+BOX+1 in letters  = CPY{.text-center}
 
 ::: problem id=5_1 marks=1
 __5.1__ Encode the word BOX with a shift of 2 into a new 3-letter word.
@@ -213,7 +213,7 @@ When you translate BOX into numbers, add 10 to each number and convert the resul
 * [ ] MBH
 
 ---
-You need to apply the modulo arithmetic:
+You need to apply the modulo arithmetic:  
 13-1-9 = NBJ
 :::
 
@@ -229,7 +229,7 @@ When you translate BOX into numbers, add 25 to each number and convert the resul
 * [ ] AMZ
 
 ---
-Another way of adding 25 in modulo arithmetic is to subtract 1. Instead of going forward 25 spaces, you can just do one step back, which is a shortcut to getting the answer.
+Another way of adding 25 in modulo arithmetic is to subtract 1. Instead of going forward 25 spaces, you can just do one step back, which is a shortcut to getting the answer.  
 0-13-22 = ANW
 :::
 
@@ -245,7 +245,7 @@ When you translate BOX into numbers, add 26 to each number and convert the resul
 * [x] BOX
 
 ---
-A shift of 26 gets you back to where you started, so no change.
+A shift of 26 gets you back to where you started, so no change.  
 1-14-23 = BOX
 :::
 
@@ -261,7 +261,7 @@ When you translate BOX into numbers, add 52 to each number and convert the resul
 * [ ] ZNY
 
 ---
-Again, because these are multiples of 26, no change.
+Again, because these are multiples of 26, no change.  
 1-14-23 = BOX
 :::
 
@@ -277,7 +277,7 @@ When you translate BOX into numbers, add 260 to each number and convert the resu
 * [x] BOX
 
 ---
-Again, because these are multiples of 26, no change.
+Again, because these are multiples of 26, no change.  
 1-14-23 = BOX
 :::
 
@@ -301,7 +301,7 @@ A shift of 261 is the same as a shift of 260 and then a shift of 1. A shift of 2
 
 The great maths website NIRCH has a tricky game called “Square It”. Play against the computer in 1-player mode and see you can win.
 
-[Play the game](https://nrich.maths.org/2526#_blank)
+[Play the game](https://nrich.maths.org/2526){target="_blank"}
 
 If you do manage to win, then just take a photo or screengrab, which includes the date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner at random and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
 
