@@ -42,7 +42,6 @@ export default function() {
 
       } else if (signup.teacherCode) {
         let teacher = await fbDatabase.ref('users').orderByChild('code').equalTo(signup.teacherCode).once('value');
-        console.log(teacher);
         teacher = teacher.toJSON();
 
         if (!teacher) {

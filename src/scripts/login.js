@@ -18,9 +18,10 @@ export default function(user) {
     },
 
     submit(e) {
+      e.preventDefault();
+      login.error = null;
+
       if (login.reset) {
-        e.preventDefault();
-        login.error = null;
         fbAuth.sendPasswordResetEmail(login.email)
           .then(function() {
             login.error = 'We\'ve sent you an email with instructions how to reset your password.';
@@ -37,8 +38,7 @@ export default function(user) {
           });
         return;
       }
-      e.preventDefault();
-      login.error = null;
+
       fbAuth.signInWithEmailAndPassword(login.email, login.password)
         .then(u => user.load(u))
         .catch(function(error) {

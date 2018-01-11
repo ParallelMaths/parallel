@@ -31,25 +31,27 @@ export default function(signup, pages) {
       })
     },
 
-    load(u) {
+    async load(u) {
       if (signup.loading) return;  // Don't refresh while users are signing up.
       if (!u) return user.ready = true;
       user.uid = u.uid;
 
-      fbDatabase.ref('users/' + u.uid).once('value')
-        .then(u => {
-          user.data = u.toJSON();
-          user.level = user.data.level || 'year7';
-        })
-        .catch(e => { console.error(e); })  // TODO Handle error.
-        .then(() => { user.ready = true; });
+      try {
+        const userData = await fbDatabase.ref('users/' + u.uid).once('value');
+        user.data = userData.toJSON();
+        user.level = user.data.level || 'year7';
 
-      fbDatabase.ref('answers/' + u.uid).once('value')
-        .then(a => {
-          user.answers = a.toJSON() || {};
-          for (let c of callbacks) c();
-        })
-        .catch(e => { console.error(e); });
+        const answers = await fbDatabase.ref('answers/' + u.uid).once('value');
+        user.answers = answers.toJSON() || {};
+
+        for (let c of callbacks) c();
+        user.ready = true;
+
+      } catch(error) {
+        // TODO Handle error.
+        console.error(error);
+        user.ready = true;
+      }
     },
 
     getStatus(challenge) {

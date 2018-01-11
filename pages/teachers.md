@@ -1,4 +1,4 @@
-# Parallel for Teachers
+# Information for Teachers
 
 Parallel is an opportunity for your students to broaden their mathematical
 horizons and stretch their brains via a series of weekly web-based maths sheets,
@@ -23,15 +23,13 @@ having a teacher account:
 1. Parallelograms will be automatically marked.
 2. You will have access to all the student scores.
 3. Scoresheets will highlight excellent students and those who are
-  struggling, so that you can easily recognise achievement or offer
-  encouragement.
+   struggling, so that you can easily recognise achievement or offer
+   encouragement.
 4. Students will be more motivated if they are part of a class account.
 5. The whole class can collect dimensional rewards, which will result in
-  prizes for the class.
+   prizes for the class.
 6. The Parallelogram becomes a routine that builds skill, interest and
-  confidence week after week.
-7. The students will have Para PLUS, rather than Para NORMAL accounts.
+   confidence week after week.
 
 So, why not give it a try. Signing up as a teacher is quick, easy and free, and
 if it is not for you then you drop out at any time.
-

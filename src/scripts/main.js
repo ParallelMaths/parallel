@@ -11,6 +11,7 @@ import getLogin from './login';
 import getSignup from './signup';
 import getChallenge from './challenge';
 import getTeacher from './teachers';
+import getEdit from './edit';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const signup = getSignup();
   const user = getUser(signup, PAGES);
   const login = getLogin(user);
+  const edit = getEdit(user);
 
   const submit = document.getElementById('submit');
   const challenge = submit ? getChallenge(submit.dataset.challenge, user, PAGES) : null;
@@ -36,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.app = new Vue({
     el: '#vue',
     data: {
-      user, login, signup, c: challenge, teacher,
+      user, login, signup, c: challenge, teacher, edit,
       isOneOf, timeUntil,
       pages: PAGES,
       showSidebar: false,

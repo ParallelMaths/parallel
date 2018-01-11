@@ -48,6 +48,7 @@ article {
   position: relative;
   padding: 32px;
   width: 75%;
+  min-height: 420px;
 }
 
 header {
@@ -180,6 +181,32 @@ nav a {
   &:last-child:after { display: none; }
 }
 
+.intros {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 1px;
+
+  a {
+    width: 80px;
+    padding: 6px 0;
+    flex-grow: 1;
+    background: mix(@red, #aaa, 80%);
+    margin-right: 1px;
+    transition: background .2s;
+    &:hover { background: darken(@red, 8%); }
+    &:last-child { margin: 0; }
+    &:first-child { border-top-left-radius: 4px; }
+
+    svg { fill: fade(white, 80%); transition: fill .2s; }
+    &:hover svg { fill: white; }
+  }
+
+  + div .user:first-child { border-radius: 0; }
+}
+
 .status {
   position: absolute;
   right: 12px;
@@ -263,6 +290,7 @@ footer a {
     z-index: 997;
     height: 56px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    background: @grey;
   }
 
   #menu {
@@ -270,6 +298,7 @@ footer a {
     width: 56px;
     height: 56px;
     float: left;
+    cursor: pointer;
     svg { margin: 16px; }
   }
 
@@ -295,7 +324,7 @@ footer a {
   article {
     border-radius: 0;
     box-shadow: none;
-    padding: 24px;
+    padding: 80px 24px 24px;
     width: calc(~"100% - 48px");
     overflow: hidden;
   }
@@ -325,6 +354,6 @@ footer a {
 
   .user:first-child { border-radius: 0; }
 
-    header { height: 240px; margin: -24px -24px 24px -24px; }
+    header { height: 240px; margin: -24px -24px 24px -24px; border-radius: 0; }
   .status-banner { margin: -24px -24px 24px; padding: 12px 24px; }
 }

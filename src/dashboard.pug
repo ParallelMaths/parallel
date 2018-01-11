@@ -2,9 +2,9 @@ extends templates/layout
 
 block content
 
-  div(v-if="user.ready && user.data.code")
-    h1 Teacher Dashboard
+  h1 Teacher Dashboard
 
+  div(v-if="user.ready && user.data.code")
     p Welcome to Parallel! Your students can create an account using the teacher code #[strong {{user.data.code}}].
 
     .error(v-show="teacher.error") {{ teacher.error }}

@@ -27,7 +27,7 @@ export default function(challengeId, user, pages) {
 
     setAnswer(key, value) {
       if (challenge.answers.submitted) return;
-      if (!user.data) return alert('You have to login or create a free account, before you can solve problems.');
+      if (user.ready && !user.data) return alert('You have to login or create a free account, before you can solve problems.');
 
       Vue.set(challenge.answers, key, value);
       fbDatabase.ref(`answers/${user.uid}/${challengeId}`)
@@ -40,7 +40,7 @@ export default function(challengeId, user, pages) {
     },
 
     submit() {
-      if (!user.data) return alert('You have to login or create a free account, before submitting your answers.');
+      if (user.ready && !user.data) return alert('You have to login or create a free account, before submitting your answers.');
       if (challenge.answers.submitted) return;
 
       challenge.setAnswer('score', calculateScore(challenge.answers));

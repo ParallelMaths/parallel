@@ -14,27 +14,11 @@ year7:
     title: Codes and Physics
     available: 2019-01-01T07:00:00
     deadline: 2019-01-03T18:00:00
-  # ------------------------------
-  - week: 4
-    url: 6-04-blackboard-equation
-    title: Blackboard Equations
-    available: 2017-12-03T15:00:00
-    deadline: 2017-12-07T18:00:00
-  - week: 3
-    url: 6-03-sumaze
-    title: Sumaze
-    available: 2017-11-14T15:00:00
-    deadline: 2017-11-16T18:00:00
-  - week: 2
+  - week: 0
     url: 6-02-good-will-hunting
     title: Good Will Hunting
     available: 2017-11-14T15:00:00
     deadline: 2017-11-16T18:00:00
-  - week: 1
-    url: 6-01-maths-jokes
-    title: Maths Jokes
-    available: 2017-11-07T15:00:00
-    deadline: 2017-11-09T18:00:00
 
 year8:
   - week: 3
@@ -52,3 +36,29 @@ year8:
     title: Ma and Pa Kettle Make Pendulum Pi
     available: 2019-01-01T15:00:00
     deadline: 2019-01-01T18:00:00
+  - week: 0
+    url: 6-02-good-will-hunting
+    title: Good Will Hunting
+    available: 2017-11-14T15:00:00
+    deadline: 2017-11-16T18:00:00
+
+# - week: 4
+#   url: 6-04-blackboard-equation
+#   title: Blackboard Equations
+#   available: 2017-12-03T15:00:00
+#   deadline: 2017-12-07T18:00:00
+# - week: 3
+#   url: 6-03-sumaze
+#   title: Sumaze
+#   available: 2017-11-14T15:00:00
+#   deadline: 2017-11-16T18:00:00
+# - week: 2
+#   url: 6-02-good-will-hunting
+#   title: Good Will Hunting
+#   available: 2017-11-14T15:00:00
+#   deadline: 2017-11-16T18:00:00
+# - week: 1
+#   url: 6-01-maths-jokes
+#   title: Maths Jokes
+#   available: 2017-11-07T15:00:00
+#   deadline: 2017-11-09T18:00:00

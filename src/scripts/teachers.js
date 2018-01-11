@@ -11,7 +11,7 @@ export default function(user, pages) {
   const allPages = [...pages.year7, ...pages.year8];
 
   user.onLoad(async function() {
-    if (!user.data) return location.replace('/');
+    if (!user.data) return location.replace('/signup');
 
     let data = await fbDatabase.ref('users').orderByChild('teacherCode').equalTo(user.data.code).once('value');
     data = data.toJSON() || {};

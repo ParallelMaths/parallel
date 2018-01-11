@@ -35,8 +35,8 @@ block content
     label(v-if="!signup.isTeacher")
       | Year
       select(v-model="signup.level")
-        option(value="year7") Year 7
-        option(value="year8") Year 8
+        option(value="year7") Year 7 (age 11 and below)
+        option(value="year8") Year 8 (age 12 and above)
 
     label(v-if="!signup.isTeacher && !signup.teacherCode")
       | Year of Birth
@@ -48,8 +48,12 @@ block content
     label(v-if="signup.isTeacher")
       | School Name
       input(type="text" v-model="signup.schoolName" required)
+
+    label(v-if="signup.isTeacher")
       | Phone Number
       input(type="text" v-model="signup.phoneNumber" required)
+
+    label(v-if="signup.isTeacher")
       | Post Code
       input(type="text" v-model="signup.postCode" required)
 
@@ -250,7 +254,6 @@ block content
         option Yemen
         option Zambia
         option Zimbabwe
-
 
     label(v-if="!signup.isTeacher && !signup.teacherCode && signup.birthYear >= 2004")
       | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
