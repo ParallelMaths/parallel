@@ -16,8 +16,7 @@
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
     "deploy": "grunt && firebase deploy",
-    "scores": "node get-scores.js",
-    "users": "firebase auth:export private/users.csv --format=csv"
+    "users": "firebase auth:export /tmp/parallel-users.json --format=json && node get-users.js"
   },
   "devDependencies": {
     "ascii2mathml": "^0.5.4",
@@ -25,6 +24,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-3": "^6.24.1",
+    "firebase-admin": "^5.8.0",
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "~3.0.3",
     "grunt-babel": "^6.0.0",
