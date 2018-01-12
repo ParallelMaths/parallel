@@ -264,56 +264,64 @@ marks for this question, but you will lose 1 mark for each clue that you need.
 
 <input type="number" solution="9"/>
 
-> Start by creating a list of all the possible ages for the three children,
-> bearing in mind that we know that the ages multiply to give 36. If you are
-> doing this on your own then try to do it in an order so that you can make sure
-> that you have not missed out any possibilities. Luckily, I have given you a
-> table (with some gaps) that show that there are 8 possibilities. Copy the
-> table onto a piece of paper and fill in the gaps.
->
-> Once you have identified all the possibilities, go back and look at clues 2
-> and 3 that the mathematical mum gave and see if you can work out the ages of
-> the children, and therefore the age of the oldest child.
->
-> If you are still stuck … then try harder … but you also try hint 2.
->
-> | Child 1 |   | Child 2 |   | Child 3 |   | Product |
-> | ------- | - | ------- | - | ------- | - | ------- |
-> | 1       | x | 1       | x | 36      | = | 36      |
-> | 1       | x | 2       | x | 18      | = | 36      |
-> | 1       | x | 3       | x | 12      | = | 36      |
-> | 1       | x | 4       | x | 9       | = | 36      |
-> | 1       | x | 6       | x | 6       | = | 36      |
-> | 2       | x | 2       | x | 9       | = | 36      |
-> | 2       | x | ?       | x | ?       | = | 36      |
-> | 3       | x | ?       | x | ?       | = | 36      |
+^^^ hint id=1
+Start by creating a list of all the possible ages for the three children,
+bearing in mind that we know that the ages multiply to give 36. If you are
+doing this on your own then try to do it in an order so that you can make sure
+that you have not missed out any possibilities. Luckily, I have given you a
+table (with some gaps) that show that there are 8 possibilities. Copy the
+table onto a piece of paper and fill in the gaps.
 
-> The ages add up to the house number, but that is still not enough for the
-> councillor to work out the ages. This must mean that at least a couple of the
-> possible sets of ages add up to the same number, which explains why the
-> councillor is still confused. Which pair of possibilities add up to the same
-> number?
->
-> Again, take a look at the table below, copy it onto a piece of paper and fill
-> in the gaps. Once you have narrowed it down to a pair of possibilities, then
-> take a look at final clue that the mother gave.
->
-> | Child 1 |   | Child 2 |   | Child 3 |   | Product |
-> | ------- | - | ------- | - | ------- | - | ------- |
-> | 1       | + | 1       | + | 36      | = | 38      |
-> | 1       | + | 2       | + | 18      | = | 21      |
-> | 1       | + | 3       | + | 12      | = | ?       |
-> | 1       | + | 4       | + | 9       | = | ?       |
-> | 1       | + | 6       | + | 6       | = | ?       |
-> | 2       | + | 2       | + | 9       | = | ?       |
-> | 2       | + | 3       | + | 6       | = | ?       |
-> | 3       | + | 3       | + | 4       | = | ?       |
+Once you have identified all the possibilities, go back and look at clues 2
+and 3 that the mathematical mum gave and see if you can work out the ages of
+the children, and therefore the age of the oldest child.
 
-> It’s obvious. Think about it.
+If you are still stuck … then try harder … but you also try hint 2.
 
-> You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9),
-> which both add up to 13. Only one of these sets of ages has an oldest child.
-> So the answer is obvious.
+| Child 1 |   | Child 2 |   | Child 3 |   | Product |
+| ------- | - | ------- | - | ------- | - | ------- |
+| 1       | x | 1       | x | 36      | = | 36      |
+| 1       | x | 2       | x | 18      | = | 36      |
+| 1       | x | 3       | x | 12      | = | 36      |
+| 1       | x | 4       | x | 9       | = | 36      |
+| 1       | x | 6       | x | 6       | = | 36      |
+| 2       | x | 2       | x | 9       | = | 36      |
+| 2       | x | ?       | x | ?       | = | 36      |
+| 3       | x | ?       | x | ?       | = | 36      |
+^^^
+
+^^^ hint id=2
+The ages add up to the house number, but that is still not enough for the
+councillor to work out the ages. This must mean that at least a couple of the
+possible sets of ages add up to the same number, which explains why the
+councillor is still confused. Which pair of possibilities add up to the same
+number?
+
+Again, take a look at the table below, copy it onto a piece of paper and fill
+in the gaps. Once you have narrowed it down to a pair of possibilities, then
+take a look at final clue that the mother gave.
+
+| Child 1 |   | Child 2 |   | Child 3 |   | Product |
+| ------- | - | ------- | - | ------- | - | ------- |
+| 1       | + | 1       | + | 36      | = | 38      |
+| 1       | + | 2       | + | 18      | = | 21      |
+| 1       | + | 3       | + | 12      | = | ?       |
+| 1       | + | 4       | + | 9       | = | ?       |
+| 1       | + | 6       | + | 6       | = | ?       |
+| 2       | + | 2       | + | 9       | = | ?       |
+| 2       | + | 3       | + | 6       | = | ?       |
+| 3       | + | 3       | + | 4       | = | ?       |
+^^^
+
+^^^ hint id=3
+It’s obvious. Think about it.
+^^^
+
+^^^ hint id=4
+You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9),
+which both add up to 13. Only one of these sets of ages has an oldest child.
+So the answer is obvious.
+^^^
 
 ---
 The correct answer is 9. To understand why the answer is 9, please check out the

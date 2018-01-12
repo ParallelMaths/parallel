@@ -8,47 +8,47 @@ import { getLevel } from './user';
 
 export default function(user, pages) {
   const fbDatabase = firebase.database();
-  const allPages = [...pages.year7, ...pages.year8];
+
+  const pages7 = pages.year7; //.filter(p => xx);  TODO filter by active
+  const pages8 = pages.year8; //.filter(p => xx);
 
   user.onLoad(async function() {
     if (!user.data) return location.replace('/signup');
 
-    let data = await fbDatabase.ref('users').orderByChild('teacherCode').equalTo(user.data.code).once('value');
-    data = data.toJSON() || {};
+    let students = await fbDatabase.ref('users').orderByChild('teacherCode').equalTo(user.data.code).once('value');
+    students = students.toJSON() || {};
 
-    const students = [];
-    const attempted = new Set();
+    for (let s of Object.keys(students)) {
+      const array = students[s].level === 'year8' ? 'students8' : 'students7';
+      teacher[array].push({id: s, name: students[s].first + ' ' + students[s].last});
+      teacher.answers[s] = {};
+    }
 
-    for(let k of Object.keys(data)) {
-      students.push({id: k, name: data[k].first + ' ' + data[k].last});
+    if (!teacher.students7.length && !teacher.students8.length)
+      return teacher.error = 'So far, no students have signed up with your class code.';
 
-      const a = await fbDatabase.ref('answers/' + k).once('value');
-      const answers = a.toJSON() || {};
-
-      teacher.answers[k] = {};
-      for (let a of Object.keys(answers)) {
-        if (!answers[a].submitted) continue;
-        attempted.add(a);
-        const score = Math.round(answers[a].score * 100);
-        teacher.answers[k][a] = {score, level: getLevel(score) };
+    for (let s of Object.keys(students)) {
+      for (let p of [...pages7, ...pages8]) {
+        let answers = await fbDatabase.ref('answers/' + s + '/' + p.url).once('value');
+        answers = answers.toJSON() || {};
+        if (answers.submitted) {
+          const score = Math.round(answers.score * 100);
+          teacher.answers[s][p.url] = {score, level: getLevel(score)};
+        }
       }
     }
 
-    if (!students.length) return teacher.error = 'So far, no students have signed up with your class code.';
-
-    const pages = allPages.filter(x => attempted.has(x.url));
-    if (!pages.length) return teacher.error = 'So far, no students have submitted any solutions.';
-
-    teacher.pages = pages;
-    teacher.students = students;
-    teacher.error = null;
+    teacher.error = '';
+    teacher.ready = true;
   });
 
   const teacher = {
-    students: [],
-    pages: [],
+    students7: [],
+    students8: [],
+    pages7, pages8,
     answers: {},
-    error: 'Loading…'
+    error: 'Loading…',
+    ready: false
   };
 
   return teacher;

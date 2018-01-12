@@ -253,28 +253,35 @@ footer a {
 // -----------------------------------------------------------------------------
 // Teacher Dashboard
 
-#dashboard {
+#dashboard .error {
+  text-align: center;
+  font-size: 20px;
+  max-width: 300px;
+  line-height: 1.4;
+  margin: 1em auto;
+  padding: .5em 20px;
+}
+
+table.dashboard {
   font-size: 16px;
-  line-height: 1.2;
-  max-width: none;
+  line-height: 36px;
   width: auto;
   table-layout: fixed;
 
   td, th {
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    height: 40px;
+    padding: 0;
   }
 
   td:last-child, th:last-child { border-right: none; }
   tr:last-child td { border-bottom: none; }
 
-  th { border-bottom-width: 2px; background: #eee; }
-  tr > *:first-child { border-right-width: 2px; background: #eee; }
+  th { background: #eee; }
+  tr > *:first-child { padding-left: 12px; text-align: left; background: #eee; }
 
-  .score { margin: 0; padding: .1em .5em .2em; }
+  .score { display: block; margin: 0; border-radius: 0; padding: 8px 0; }
 }
-
 
 
 // -----------------------------------------------------------------------------

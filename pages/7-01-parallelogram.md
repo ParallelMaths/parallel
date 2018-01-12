@@ -61,19 +61,19 @@ Try to work out how the code works.
 ::: problem id=1_1 marks=2
 __1.1.__ Which Star Wars character is represented by symbols below?
 
-If you are stuck then you can use the hint, but it will cost you 1 mark.
-
 ![](/resources/7-01-parallelogram/1-2-question.png)
+
+^^^ hint id=1
+The first symbol above represents C. It has one line on the left side, and
+three lines on the right side – in the grid, C appears in which row and
+column?
+^^^
 
 * [x] Rey
 * [ ] Han
 * [ ] Rex
 * [ ] Poe
 * [ ] Maz
-
-> The first symbol above represents C. It has one line on the left side, and
-> three lines on the right side – in the grid, C appears in which row and
-> column?
 
 ---
 
@@ -176,17 +176,21 @@ __4.1__ How old is the teacher?
 
 <input type="number" solution="65"/>
 
-> It might be reasonable to assume that the teacher is more than 20 and
-> less than 80. Moreover, the age is odd but not a prime, so you can start by
-> listing all the odd numbers and striking out the primes, so you have: 21,
-> ~~23~~, 25, 27, ~~29~~, ~~31~~, 33, 35, ~~37~~, 39,…
+^^^ hint id=2
+It might be reasonable to assume that the teacher is more than 20 and
+less than 80. Moreover, the age is odd but not a prime, so you can start by
+listing all the odd numbers and striking out the primes, so you have: 21,
+~~23~~, 25, 27, ~~29~~, ~~31~~, 33, 35, ~~37~~, 39,…
+^^^
 
-> If the second digit in the age is larger than the first digit, then when
-> you reverse the digits you will have a larger number and you will not be able
-> to subtract the reversed age from the actual age. Hence, you cross out all
-> those numbers AB where B is bigger than A, so you have the strikeouts from Hint
-> 1, plus the ones shown: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33, _35_,
-> _~~37~~_, _39_,…
+^^^ hint id=3
+If the second digit in the age is larger than the first digit, then when
+you reverse the digits you will have a larger number and you will not be able
+to subtract the reversed age from the actual age. Hence, you cross out all
+those numbers AB where B is bigger than A, so you have the strikeouts from Hint
+1, plus the ones shown: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33, _35_,
+_~~37~~_, _39_,…
+^^^
 
 ---
 

@@ -170,11 +170,12 @@ __4.2__ If you wanted a pendulum to have a swing time of 1 second (__T__ = 1 sec
 * [ ] 1.16 metres
 * [ ] 1.8 metres
 
-> HINT (lose 2 marks)
->  `T = 2π√(L/g)`  
->  So,	 `T/2π = √(L/g) `  
->  So,	`(T/2π)^2 = L/g `  
->  So,	`g.(T/2π)^2 = L `
+^^^ hint id=1 marks=2
+`T = 2π√(L/g)`  
+So,	 `T/2π = √(L/g) `  
+So,	`(T/2π)^2 = L/g `  
+So,	`g.(T/2π)^2 = L `
+^^^
 
 ---
 

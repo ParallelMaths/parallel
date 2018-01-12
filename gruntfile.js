@@ -42,6 +42,25 @@ md.use(markdwonContainer, 'problem', { render(tokens, idx) {
   }
 }});
 
+md.use(markdwonContainer, 'hint', {
+  marker: '^',
+  render(tokens, idx) {
+    if (tokens[idx].nesting === 1) {
+      const data = {};
+      const options = tokens[idx].info.trim().split(' ').slice(1);
+      for (let o of options) {
+        const split = o.split('=');
+        data[split[0]] = split[1];
+      }
+
+      return `<div id="hint${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-show="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
+      <div class="hint" v-show="c.answers['hint-${data.id}']">`;
+    } else {
+      return '</div>';
+    }
+  }
+});
+
 md.renderer.rules.code_inline = function(tokens, idx) {
   let str = tokens[idx].content.trim();
   str = str.replace(/_(.*?)(\s|$|=|\(|\)|\*|\/|\^)/g, '_($1)$2').replace(/–/g, '-');

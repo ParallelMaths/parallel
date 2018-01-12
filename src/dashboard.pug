@@ -1,21 +1,46 @@
 extends templates/layout
 
 block content
+  #dashboard
 
-  h1 Teacher Dashboard
+    h1 Teacher Dashboard
 
-  div(v-if="user.ready && user.data.code")
-    p Welcome to Parallel! Your students can create an account using the teacher code #[strong {{user.data.code}}].
+    p Welcome to Parallel! #[span(v-if="user.ready") Your teacher code is "#[strong {{user.data.code}}]".]
+
+    div(v-if="!teacher.ready")
+      p What to do next:
+      ul
+        li Ask your students to create an account, entering your Teacher Code when prompted.
+        li Your students will then be automatically added to the dashboard below, listed by school year.
+        li Your students will receive a link to the new Parallelogram each Friday at 4pm.
+        li They should complete the Parallelogram and hit submit by 7pm on Sunday.
+        li At 7pm on Sunday, the answers to that week’s Parallelogram will be automatically available.
+        li You’ll also be able to see all of your students’ results below.
 
     .error(v-show="teacher.error") {{ teacher.error }}
 
-    table#dashboard(v-if="!teacher.error")
-      thead
-        tr
-          th(width=160)
-          th(width=100 v-for="p in teacher.pages") {{ p.title }}
-      tbody
-        tr(v-for="s in teacher.students")
-          td(width=200) {{ s.name }}
-          td(width=100 v-for="p in teacher.pages")
-            span.score(v-if="teacher.answers[s.id][p.url]" v-bind:class="teacher.answers[s.id][p.url].level") {{ teacher.answers[s.id][p.url].score }}%
+    div(v-if="teacher.ready && teacher.students7.length")
+      h2 Year 7
+      table.dashboard
+        thead
+          tr
+            th(width=160)
+            th(width=100 v-for="p in teacher.pages7") {{ p.week }}
+        tbody
+          tr(v-for="s in teacher.students7")
+            td(width=200) {{ s.name }}
+            td(width=100 v-for="p in teacher.pages7")
+              span.score(v-if="teacher.answers[s.id][p.url]" v-bind:class="teacher.answers[s.id][p.url].level") {{ teacher.answers[s.id][p.url].score }}%
+
+    div(v-if="teacher.ready && teacher.students8.length")
+      h2 Year 8
+      table.dashboard
+        thead
+          tr
+            th(width=160)
+            th(width=100 v-for="p in teacher.pages8") {{ p.week }}
+        tbody
+          tr(v-for="s in teacher.students8")
+            td(width=200) {{ s.name }}
+            td(width=100 v-for="p in teacher.pages8")
+              span.score(v-if="teacher.answers[s.id][p.url]" v-bind:class="teacher.answers[s.id][p.url].level") {{ teacher.answers[s.id][p.url].score }}%

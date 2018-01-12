@@ -53,6 +53,10 @@ export default function(challengeId, user, pages) {
       if (past) document.body.scrollTop = document.documentElement.scrollTop = 0;
     },
 
+    showHint(id) {
+      challenge.setAnswer(id, true);
+    },
+
     unsubmit() {
       Vue.set(challenge.answers, 'submitted', false);
       fbDatabase.ref(`answers/${user.uid}/${challengeId}`).update({submitted: false});
@@ -74,6 +78,7 @@ function hasClass($el, name) {
 
 function calculateScore(answers) {
   const $problems = document.querySelectorAll('.problem');
+  const $hints = document.querySelectorAll('.hint');
 
   let score = 0;
   let total = 0;
@@ -102,6 +107,10 @@ function calculateScore(answers) {
     } else if ($p.querySelector('.sumaze')) {
       score += marks * sumaze($p.id) / 45;
     }
+  }
+
+  for (let $h of $hints) {
+    score -= (+$h.dataset.marks || 0);
   }
 
   return score / total;
