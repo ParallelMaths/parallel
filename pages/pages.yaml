@@ -7,7 +7,7 @@ year7:
   - week: 2
     url: 7-02-marie-curie
     title: Madam Curie’s square riddle
-    available: 2018-01-14T16:00:00
+    available: 2018-01-14T09:00:00
     deadline: 2018-01-14T18:00:00
   - week: 1
     url: 7-01-parallelogram
@@ -29,7 +29,7 @@ year8:
   - week: 2
     url: 8-02-lou-costello
     title: Lou Costello, Pi and More Pendula
-    available: 2018-01-14T16:00:00
+    available: 2018-01-14T09:00:00
     deadline: 2018-01-14T18:00:00
   - week: 1
     url: 8-01-ma-kettle
