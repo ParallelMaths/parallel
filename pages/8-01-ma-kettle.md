@@ -203,9 +203,7 @@ In this clip, Ma and Pa Kettle wrestle with some maths. See you can understand h
 ::: problem id=5 marks=2
 __5.1__ Using the mistaken approach Ma and Pa Kettle, what is 3 x 16? You might need to watch video again.
 
-16  
-+16  
-+16
+![](/resources/8-01-ma-kettle/blackboard-sum.png)
 
 <input type="number" solution="21"/>  
 :::
