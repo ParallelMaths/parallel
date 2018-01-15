@@ -2,18 +2,18 @@ year7:
   - week: 3
     url: 7-03-crosses-crosses
     title: Crosses and Crosses
-    available: 2019-01-01T07:00:00
-    deadline: 2019-01-03T18:00:00
+    available: 2018-01-15T10:00:00
+    deadline: 2018-01-15T19:00:00
   - week: 2
     url: 7-02-marie-curie
     title: Madam Curie’s square riddle
-    available: 2019-01-01T07:00:00
-    deadline: 2019-01-03T18:00:00
+    available: 2018-01-14T16:00:00
+    deadline: 2018-01-14T18:00:00
   - week: 1
     url: 7-01-parallelogram
     title: Codes and Physics
-    available: 2019-01-01T07:00:00
-    deadline: 2019-01-03T18:00:00
+    available: 2018-01-13T16:00:00
+    deadline: 2018-01-13T18:00:00
   - week: 0
     url: 6-02-good-will-hunting
     title: Good Will Hunting
@@ -24,22 +24,22 @@ year8:
   - week: 3
     url: 8-03-flag-of-flags
     title: A flag of flags
-    available: 2019-01-01T15:00:00
-    deadline: 2019-01-01T18:00:00
+    available: 2018-01-15T10:00:00
+    deadline: 2018-01-15T19:00:00
   - week: 2
     url: 8-02-lou-costello
     title: Lou Costello, Pi and More Pendula
-    available: 2019-01-01T15:00:00
-    deadline: 2019-01-01T18:00:00
+    available: 2018-01-14T16:00:00
+    deadline: 2018-01-14T18:00:00
   - week: 1
     url: 8-01-ma-kettle
     title: Ma and Pa Kettle Make Pendulum Pi
-    available: 2019-01-01T15:00:00
-    deadline: 2019-01-01T18:00:00
+    available: 2018-01-13T16:00:00
+    deadline: 2018-01-13T18:00:00
   - week: 0
     url: 6-02-good-will-hunting
     title: Good Will Hunting
-    available: 2017-11-14T15:00:00
+    available: 2017-11-14T16:00:00
     deadline: 2017-11-16T18:00:00
 
 # - week: 4

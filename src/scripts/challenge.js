@@ -64,7 +64,7 @@ export default function(challengeId, user, pages) {
     },
 
     // Custom scoring functions
-    sumaze, mathigon, checkInput
+    sumaze, checkInput
   };
 
   return challenge;
@@ -128,18 +128,9 @@ function sumaze(x) {
   return (S > 45 || S < 0) ? 0 : (S || 0);
 }
 
-function mathigon() {
-  return 0;
-}
-
 function checkInput(a, b) {
-  a = ('' + a).trim().replace(/[\s,]/g, '');
-  b = ('' + b).trim().replace(/[\s,]/g, '');
+  a = ('' + a).trim().replace(/[\s,]/g, '').toLowerCase();
+  b = ('' + b).trim().replace(/[\s,]/g, '').toLowerCase();
   return a === b;
 }
 
-/* function mathigonUrl() {
-  const u = firebase.auth().currentUser;
-  if (!u) return '';
-  return '?u=' + btoa(JSON.stringify({first: app.user.first, last: app.user.last, email: u.email, uid: u.uid}));
-} */

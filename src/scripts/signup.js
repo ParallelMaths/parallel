@@ -11,7 +11,7 @@ export default function() {
   const signup = {
     error: null,
     loading: false,
-    isTeacher: false,
+    isTeacher: location.hash === '#teacher',
 
     first: '',
     last: '',

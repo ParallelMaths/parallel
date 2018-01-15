@@ -29,4 +29,4 @@ having a teacher account:
 5. The Parallelogram becomes a routine that builds skill, interest and
    confidence week after week.
 
-So, why not give it a try. [Signing up as a teacher](/signup) is quick, easy and free, and if it is not for you then you drop out at any time.
+So, why not give it a try. [Signing up as a teacher](/signup#teacher) is quick, easy and free, and if it is not for you then you drop out at any time.

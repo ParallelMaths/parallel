@@ -64,7 +64,8 @@ export default function(user) {
 
         edit.loading = false;
         edit.error = 'Your account has been updated!';
-        user.data.schoolName = schoolName
+        user.data.schoolName = schoolName;
+        if (edit.level) user.level = edit.level;
 
       } catch(error) {
         console.error(error);
