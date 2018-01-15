@@ -8,17 +8,25 @@ block content
 
     .error(v-show="edit.error" style="margin-top: .5em") {{edit.error}}
 
-    label(v-if="!user.code")
+    label(v-if="!user.data.code")
       | Teacher code (optional)
       input(type="text" v-model="edit.teacherCode")
 
-    label(v-if="!user.code")
+    label(v-if="!user.data.code")
       | Year
       select(v-model="edit.level")
         option(value="year7") Year 7 (age 11 and below)
         option(value="year8") Year 8 (age 12 and above)
 
-    label(v-if="user.code")
+    label(v-if="user.data.code")
+      | School Name
+      input(type="text" v-model="edit.schoolName")
+
+    label(v-if="user.data.code")
+      | Post Code
+      input(type="text" v-model="edit.postCode")
+
+    label(v-if="user.data.code")
       | Phone Number
       input(type="text" v-model="edit.phoneNumber")
 

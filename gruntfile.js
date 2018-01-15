@@ -54,7 +54,8 @@ md.use(markdwonContainer, 'hint', {
       }
 
       return `<div id="hint${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-show="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
-      <div class="hint" v-show="c.answers['hint-${data.id}']">`;
+      <div class="hint" v-show="c.answers['hint-${data.id}']">
+      <div class="hint-marks">–${data.marks || 1} mark</div>`;
     } else {
       return '</div>';
     }
@@ -121,6 +122,11 @@ function parseProblemInput($input, index, $problem) {
   $input.setAttribute('v-on:change', `c.setInput`);
   $input.setAttribute('v-model.lazy', `c.answers.${key}`);
   $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, '${solution}')}`);
+
+  const $solution = $input.ownerDocument.createElement('span');
+  $input.parentNode.insertBefore($solution, $input.nextSibling);
+  $solution.textContent = 'Correct Solution: ' + solution;
+  $solution.classList.add('input-solution');
 }
 
 function parseProblemSolution($problem, $hr, doc) {

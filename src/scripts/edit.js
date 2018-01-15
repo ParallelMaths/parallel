@@ -13,6 +13,8 @@ export default function(user) {
 
     edit.level = user.level || 'year7';
     edit.teacherCode = user.data.teacherCode;
+    edit.schoolName = user.data.schoolName;
+    edit.postCode = user.data.postCode;
     edit.phoneNumber = user.data.phoneNumber;
   });
 
@@ -22,6 +24,8 @@ export default function(user) {
 
     teacherCode: '',
     level: '',
+    schoolName: '',
+    postCode: '',
     phoneNumber: '',
     old: '',
     new: '',
@@ -32,7 +36,7 @@ export default function(user) {
       edit.error = null;
 
       try {
-        let schoolName = null;
+        let schoolName = edit.schoolName;
         let country = null;
 
         if (edit.teacherCode) {
@@ -50,6 +54,7 @@ export default function(user) {
           teacherCode: edit.teacherCode || null,
           level: edit.level || null,
           phoneNumber: edit.phoneNumber || null,
+          postCode: edit.postCode || null,
           schoolName, country
         });
 

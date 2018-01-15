@@ -188,6 +188,14 @@ table.grid {
 .col-4 > * { min-width: 159px; }
 .col-5 > * { min-width: 119px; }
 
+.input-solution {
+  display: none;
+  color: darken(@green, 8%);
+  font-weight: bold;
+  margin: -1.5rem 0 2rem;
+  .revealed input:not(.correct) + & { display: block; }
+}
+
 .solution {
   background: mix(@blue, #999, 40%);
   margin: 0 -32px -1px;
@@ -221,15 +229,27 @@ table.grid {
   cursor: pointer;
   transition: background .2s;
   &:hover { background: mix(@yellow, #666, 80%); }
+  .revealed & { display: none; }
 }
 
 .hint {
   background: #f1ecd4;
-  font-size: .8rem;
+  font-size: .85rem;
+  line-height: 1.6;
   margin: 2em 0;
   padding: 0.7rem 1.2rem .1em;
   border-radius: 4px;
+  position: relative;
   &:before { content: "Hint"; display: block; font-weight: 600; margin-bottom: .3rem; }
+}
+
+.hint-marks {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 4px;
+  background: #e4bf72;
+  padding: 1px 10px;
 }
 
 
