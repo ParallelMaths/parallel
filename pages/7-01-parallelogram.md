@@ -263,7 +263,7 @@ was enough to result in a painful lesson.
 ## 6. An easy puzzle
 
 ::: problem id=6 marks=3.5
-I saw this in a newspaper – it was a puzzle for adults, fully grown humans, but
+__6.1__ I saw this in a newspaper – it was a puzzle for adults, fully grown humans, but
 I think you will find it easy. All the digits from 1 to 9 are used in this grid,
 but only once. Can you work out their positions in the grid so that each of the
 six different sums works? Two of the numbers have been inserted in order to get
