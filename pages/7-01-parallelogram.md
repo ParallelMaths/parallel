@@ -5,7 +5,8 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
+__Origin__: late 16th century: from French parallélogramme, via late Latin from
+Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
 
 1. a four-sided plane rectilinear figure with opposite sides parallel.
 2. a portmanteau word combining parallel and telegram. A message containing
@@ -31,19 +32,35 @@ directions. In short, these challenges are often going to be a random walk
 through the mysteries of mathematics. Be prepared to encounter all sorts of
 weird ideas.
 
+__IMPORTANT__ – you will get points for every correct answer (or nearly correct
+  answer).
+
+__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think
+hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
+
+__IMPORTANT__ – it does not really matter what score you get, the main thing is
+that you think hard about the problems... and then learn where you went wrong
+when the answer sheet appears.
+
 
 ## 1. Secret codes
 
 Over the next few weeks, one of mathematical themes that we will be exploring is
-secret codes. How do you make a code and how do you break a code? The proper
-word for this **cryptography**, from the Greek words for *“secret”* and
-*“writing”*.
+secret codes. We’ll be making and breaking codes. The proper word for this is
+ **cryptography**, from the Greek words for *“secret”* and *“writing”*.
 
-You might think that cryptography is all about language, because we are messing around with messages made of words. Actually, cryptography is 99% maths, and numbers are the heart of secrecy, particularly today in the age of the Internet. You might be surprised to know that some of the  biggest employers of mathematicians are the secret services in countries around the world. And, of course, big companies employ mathematicians to protect their secrets (and maybe steal the secrets of rival companies).
+You might think that cryptography is all about language, because we are messing
+around with messages made of words. Actually, cryptography is 99% maths, and
+numbers are at the heart of secrecy, particularly today in the age of the Internet.
+You might be surprised to know that some of the  biggest employers of
+mathematicians are the secret services in countries around the world. And, of
+course, big companies employ mathematicians to protect their secrets (and maybe
+  steal the secrets of rival companies).
 
-The cryptography theme starts properly next week, but in the meantime here is a quick puzzle about a code just to warm you up.
+The cryptography theme starts properly next week, but in the meantime here is
+a quick puzzle about a code just to warm you up.
 
-Here is a 5x5 grid containing all the letters of the alphabet, except Z:
+Here is a (5x5) grid containing all the letters of the alphabet, except Z:
 
 | A | B | C | D | E |
 | F | G | H | I | J |
@@ -64,9 +81,9 @@ __1.1.__ Which Star Wars character is represented by symbols below?
 ![](/resources/7-01-parallelogram/1-2-question.png)
 
 ^^^ hint id=1
-The first symbol above represents C. It has one line on the left side, and
-three lines on the right side – in the grid, C appears in which row and
-column?
+In the example, CODE, the first symbol above represents C. It has one line on the
+left side, and three lines on the right side. In the grid, how does this pattern
+relate to the row and column containing C?
 ^^^
 
 * [x] Rey
@@ -78,8 +95,8 @@ column?
 ---
 
 By looking at the letters in CODE and the symbols that represent them, you
-should have noticed that the rule is “a letter is in row x and column y is
-represented with a symbol which has x branches on the left and y branches on the
+should have noticed that the rule is “the letter is in row __x__ and column __y__ is
+represented with a symbol which has __x__ branches on the left and __y__ branches on the
 right”. So the answer is Rey.
 
 Alternatively, you might have noticed that the symbol for E in CODE also appears
@@ -129,7 +146,7 @@ top mathematicians to make some significant breakthroughs in cracking Enigma?
 
 The Polish mathematicians who cracked the Enigma code changed history and laid
 the foundations for the British codebreakers at Bletchley Park, who went on to
-help win the Second World War. You read more about the Polish contribution to
+help win the Second World War. You can read more about the Polish contribution to
 cracking Enigma in [this Daily Telegraph article](http://www.telegraph.co.uk/science/2016/03/15/polish-codebreakers-cracked-enigma-before-alan-turing/).{target="_blank"}
 :::
 
@@ -142,10 +159,12 @@ the angles _x_ and _y_.
 
 The triangles A and B are both equilateral.
 
+It will probably help if you redraw the diagram – a quick sketch will make it much easier.
+
 ![](/resources/7-01-parallelogram/3-1-angles.png)
 
-Angle x = <input type="number" solution="75"/>°  
-Angle y = <input type="number" solution="165"/>°
+Angle x = <input type="number" solution="155"/>°  
+Angle y = <input type="number" solution="85"/>°
 
 ---
 
@@ -153,8 +172,13 @@ First, you can fill in the six 60° angles of the 2 equilateral triangles. Angle
 a1 is obvious (75°), and so is angle a2 (80°). Once you know a2, then a3 must
 be 35°.
 
-The rest is easy. Angle y must be (180 – a3 – 60)° and angle x must be
-(360 – 60 – 60 – a1)°.
+![](/resources/7-01-parallelogram/3-1-angles-answer.png)
+
+The rest is easy.
+
+Angle y must be (180 – a3 – 60)°, which is 85°.
+
+Angle x must be (360 – 60 – 60 – a1)°, which is 155°.
 :::
 
 
@@ -188,22 +212,22 @@ If the second digit in the age is larger than the first digit, then when
 you reverse the digits you will have a larger number and you will not be able
 to subtract the reversed age from the actual age. Hence, you cross out all
 those numbers AB where B is bigger than A, so you have the strikeouts from Hint
-1, plus the ones shown: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33, _35_,
-_~~37~~_, _39_,…
+1, plus the ones shown in bold: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33,
+_35_, _~~37~~_, _39_,…
 ^^^
 
 ---
 
-It might be reasonable to assume that the teacher is more than 20 and less than
-80. Moreover, the age is odd but not a prime, so you can start by listing all
-the odd numbers and striking out the primes, so you have: 21, ~~23~~, 25, 27,
+It might be reasonable to assume that the teacher is more than 20 and less than 80.
+Moreover, the age is odd but not a prime, so you can start by listing all the
+odd numbers and striking out the primes, so you have: 21, ~~23~~, 25, 27,
 ~~29~~, ~~31~~, 33, 35, ~~37~~, 39,…
 
 If the second digit in the age is larger than the first digit, then when you
 reverse the digits you will have a larger number and you will not be able to
 subtract the reversed age from the actual age. Hence, you cross out all those
 numbers AB where B is bigger than A, so you have the first set of strikeouts
-plus the ones shown as grey: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33,
+plus the ones shown in bold: 21, _~~23~~_, _25_, _27_, _~~29~~_, ~~31~~, 33,
 _35_, _~~37~~_, _39_,…
 
 If you test whatever is left over, then you will eventually realise that one
@@ -217,7 +241,7 @@ and `65 – 56 = 9 = 3^2`.
 If you become a strong mathematician (which just requires lots of practice),
 then you will be well prepared to become a physicist, engineer or computer
 scientist. I think it is largely true to say that you cannot be a top class
-physicists, engineer or computer scientist unless your maths is strong.
+physicist, engineer or computer scientist unless your maths is strong.
 
 Because of this link between maths and other subjects, we will occasionally
 explore topics beyond maths in our Parallelograms, and today I want to show you
@@ -225,10 +249,10 @@ one of my favourite videos about physics.
 
 Walter Lewin is one the world’s best physics lecturers, and this is one of his
 most famous demonstrations. One of the laws of physics says that if you drop a
-ball then it cannot bounce higher than the height from which you dropped it – imagine the
-consequences if the opposite was true – a ball would drop and bounce higher
-than its starting point, then fall and bounce even higher still, then fall and
-bounce higher still, and so on until the ball flew off into space. In short,
+ball then it cannot bounce higher than the height from which you dropped it –
+imagine the consequences if the opposite was true – a ball would drop and bounce
+higher than its starting point, then fall and bounce even higher still, then
+fall and bounce higher still, and so on until the ball flew off into space. In short,
 objects tend to lose energy, often due to friction, so they never quite get
 back to their start position. This is also true of objects that swing back and
 forth, as demonstrated in the video below.
@@ -269,6 +293,8 @@ but only once. Can you work out their positions in the grid so that each of the
 six different sums works? Two of the numbers have been inserted in order to get
 you started. Just identify the other seven numbers.
 
+(NOTE: perform operations in the order they appear, e.g., 3 + 4 x 5 = 35 (not 23))
+
 ![](/resources/7-01-parallelogram/6-1-puzzle.png){style="width:400px"}
 
 a = <input type="number" solution="6"/>  
@@ -283,12 +309,12 @@ g = <input type="number" solution="4"/>
 
 The easiest number to pin down is `d`, which has to be 9.
 
-5/1 x 9 = 45.
+5 ÷ 1 x 9 = 45.
 
-You may have followed a different route, but I then worked `c` and `g`, because
-`9c + g` must equal 67, and `c` and `g` are single digits then `c=7` and `g=4`.
+You may have followed a different route, but I then worked `c` and `g`. We know that
+`9c + g` must equal 67, and `c` and `g` are single digits, so then `c = 7` and `g = 4`.
 
-Now we know `c = 7`, then we also know that `a ** b = 48`.
+Now we know `c = 7`, then we also know that `a x b = 48`.
 
 This means that a = 6 and b = 8 or a = 8 and b = 6.
 
@@ -297,11 +323,22 @@ We know that b + 1 is factor of 18 from the middle column, so `b = 8`.
 We also know that a x 5 is a factor of 90 from the 1st column, so `a = 6`.
 
 And the rest is easy.
+
+![](/resources/7-01-parallelogram/6-1-puzzle-solution.png){style="width:400px"}
 :::
 
-I hope you enjoyed (or at least did not hate) this Parallelogram, the first one of the 2018. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Friday.
+I hope you enjoyed (or at least did not hate) this Parallelogram. There will be
+more next week, and the week after, and the week after that. So check your email
+or return to the website on Friday.
 
-In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
+In the meantime, you can find the answers and go through the answer sheet after
+7pm on Sunday (or perhaps even now if you are late completing this Parallelogram).
+
+Going through the answer sheet is really important. Seriously important. What you
+got right s much less important than what you got wrong, because where you went wrong
+provides you with an opportunity to learn something knew.
+
+First... remember to hit the SUBMIT button below, so that we can mark your answers.
 
 Cheerio,
 Simon.
@@ -312,11 +349,22 @@ Simon.
 
 ## Additional Stuff
 
-If you want to find out more about codebreaker and mathematician Alan Turing, then [this BBC article](http://www.bbc.co.uk/news/uk-england-cambridgeshire-41696274){target="_blank"} reveals what he was like as a school book. It contains his school report, recently displayed at the Fitzwilliam Museum in Cambridge.
+If you want to find out more about codebreaker and mathematician Alan Turing,
+then [this BBC article](http://www.bbc.co.uk/news/uk-england-cambridgeshire-41696274){target="_blank"}
+reveals what he was like as a schoolboy. It contains his school report, recently
+displayed at the Fitzwilliam Museum in Cambridge.
 
-Professor Lewin is a superstar and a hero of mine. He has dedicated his life to exploring physics and explaining it to the rest of the world. In the next clip he shows some of the weird behaviour of spinning objects. Behind the experiment is a blackboard full of mathematics, and these equations predict exactly the strange behaviour of the spinning wheel.
+Professor Lewin is a superstar and a hero of mine. He has dedicated his life to
+exploring physics and explaining it to the rest of the world. In the next clip
+he shows some of the weird behaviour of spinning objects. Behind the experiment
+is a blackboard full of mathematics, and these equations predict exactly the
+strange behaviour of the spinning wheel.
 
-And in the second clip, the professor explains some very advanced ideas about the death of stars, black holes and marshmallows. Interestingly, some of the physics he discuss is the same as the physics need to describe the dangerous swinging ball demonstration. (Don’t worry if you only understand some of this video – just let the ideas blow your mind.)
+And in the second clip, the professor explains some very advanced ideas about the
+death of stars, black holes and marshmallows. Interestingly, some of the physics
+he he discusses is the same as the physics needed to describe the dangerous swinging ball
+demonstration. (Don’t worry if you only understand some of this video – just let
+the ideas blow your mind.)
 
 @[youtube](NeXIV-wMVUk?rel=0)
 

@@ -34,7 +34,7 @@ __IMPORTANT__ – it does not really matter what score you get, the main thing i
 
 Back in 1998, I went to see a film at the cinema called _π_. To be honest, it was fairly dreadful, so I would not recommend watching the whole film. However, take a look at this snippet form the trailer.
 
-@[youtube](r0SC582sJvE?start=0&end=44)
+@[youtube](r0SC582sJvE?start=0&end=44&rel=0)
 
 ![](/resources/8-02-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
@@ -131,7 +131,7 @@ We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 x 4 = 3
 
 Last week’s Parallelogram looked how the length of a pendulum is linked to the time it takes to swing via a formula involving π. The video below from the brilliant Matt Parker (the Stand-up Mathematician) shows how you can use this formula to work out the value of π. Watch carefully and answer the question below.
 
-@[youtube](qYAdXm69l8g?end=220)
+@[youtube](qYAdXm69l8g?end=220&rel=0)
 
 ::: problem id=4_1 marks=1
 __4.1__ If it was a perfect experiment, how long should it have taken for 10 swings of the pendulum?
@@ -210,7 +210,7 @@ __5.3__ Both series make the biggest improvements in approximating π...
 
 Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa Kettle. Here is a similar comedy routine from the great Lou Costello, one of America’s most famous comedians. Watch carefully and see if you can work out why the maths is fundamentally wrong.
 
-@[youtube](MS2aEfbEi7s?start=7)
+@[youtube](MS2aEfbEi7s?start=7&rel=0)
 
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he think the result is?

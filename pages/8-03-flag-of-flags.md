@@ -37,7 +37,7 @@ Here are five puzzles, riddles, challenges or brain-busters designed to baffle t
 
 As each problem is posed, pause the video and see if you can find a solution.
 
-@[youtube](Xg37L5z5r_M)
+@[youtube](Xg37L5z5r_M?rel=0)
 
 
 ## 2. Junior Maths Challenge 2011 (8)
@@ -191,7 +191,7 @@ Listen carefully and see if you can work out why the maths is fundamentally wron
 
 (BTW, visit the Find Out More section below for a link to the most famous and funniest of all the sketches by Abbott and Costello.)
 
-@[youtube](9udNrOh5DyA)
+@[youtube](9udNrOh5DyA?rel=0)
 
 ::: problem id=6_1 marks=2
 __6.1__ Abbott says that 40 + 10 = 50, but Costello says that can’t be right because:
@@ -222,9 +222,9 @@ Simon.
 ## Further Stuff
 
 Here is the most famous sketch by Abbott and Costello – “Who’s on first?” – watch and enjoy:
-@[youtube](WQXwt83hYkE)
+@[youtube](WQXwt83hYkE?rel=0)
 
 This is video by James Grime for the Numberphile channel, and the world’s most mathematical flag:
-@[youtube](f2Gne3UHKHs?start=21)
+@[youtube](f2Gne3UHKHs?start=21&rel=0)
 
 You can find lots of other Numberphile video by just googling – Numberphile means “someone who loves numbers”, so if you love maths then it is the channel for you.
