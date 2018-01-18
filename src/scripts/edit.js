@@ -36,7 +36,7 @@ export default function(user) {
       edit.error = null;
 
       try {
-        let schoolName = edit.schoolName;
+        let schoolName = edit.schoolName || null;
         let country = null;
 
         if (edit.teacherCode) {

@@ -50,11 +50,11 @@ block content
       input(type="text" v-model="signup.schoolName" required)
 
     label(v-if="signup.isTeacher")
-      | Post Code
+      | School Post Code
       input(type="text" v-model="signup.postCode" required)
 
     label(v-if="signup.isTeacher")
-      | Phone Number
+      | School Phone Number
       input(type="text" v-model="signup.phoneNumber" required)
 
     label(v-if="signup.isTeacher || !signup.teacherCode")
