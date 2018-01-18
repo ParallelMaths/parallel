@@ -68,7 +68,9 @@ _“Can I have a small container of coffee?” leads to 3.1415926._
 Alternatively, you can remember π with the fraction 22/7.
 
 ::: problem id=1_1 marks=1
-__1.1.__ How accurate is 22/7 compared to the true value of π?
+__1.1.__ How accurate is 22/7 compared to the true value of π? You will need to
+start by finding the difference between the two number, then dividing by π,
+then converting to a percentage.
 
 * [x] 0.04%
 * [ ] 0.1%
@@ -84,9 +86,9 @@ __1.1.__ How accurate is 22/7 compared to the true value of π?
 Inaccuracy is (22/7 – π ) / π = 0.00127 / 3.14159 = 0.0004 	= 0.04%
 :::
 
-An even better approximation is 355/113 (which is easy to remember because you
+An even better approximation is 355/113 (which is easy to remember, because you
 just have to remember to repeat the first three odd numbers and then split the
-result in the middle (113355).
+result in the middle (113355)).
 
 ::: problem id=1_2 marks=1
 __1.2.__ How accurate is 355/113 compared to the true value of π?
@@ -177,7 +179,7 @@ the time it takes to swing from left to right and back to the left.
 
 ![](/resources/8-01-ma-kettle/4-formula.png)
 
-or   `T = 2π√(L/g)`
+or   T = 2π √(L/g)
 
 where
 * __T__ is the time of a complete swing in seconds.
@@ -212,13 +214,14 @@ how long should the pendulum be? At the moment the equation gives you the time
 (__T__) depending on the length (__L__), so it might be useful to rearrange the
 equation so that you have the length depend on the time.
 
-* [ ] 0.0018 metres
-* [x] 0.18 metres
+* [ ] 0.18 metres
+* [x] 0.248 metres
 * [ ] 0.99 metres
 * [ ] 1.16 metres
 * [ ] 1.8 metres
 
 ^^^ hint id=1 marks=2
+
 
 ![](/resources/8-01-ma-kettle/4-2-first-term.png)
 
@@ -228,10 +231,9 @@ equation so that you have the length depend on the time.
 
 ![](/resources/8-01-ma-kettle/4-2-fourth-term.png)
 
-`T = 2π√(L/g)`  
-So,	 `T/2π = √(L/g) `  
-So,	`(T/2π)^2 = L/g `  
-So,	`g.(T/2π)^2 = L `
+![](/resources/8-01-ma-kettle/4-2-fifth-term.png)
+
+L = g(T÷(2π))^2
 ^^^
 
 ---
@@ -244,27 +246,24 @@ So,	`g.(T/2π)^2 = L `
 
 ![](/resources/8-01-ma-kettle/4-2-fourth-term.png)
 
-So we know that:
-
-  `g.(T/2π)^2 = L`	or	`L = g.(T/2π)^2`
+![](/resources/8-01-ma-kettle/4-2-fifth-term.png)
 
 We want to know L for a T of 1 second, so:
 
-  `L= g.(T/2π)^2`  
-  `L= 9.8 x (1/2π)^2`  
-  `L = 9.8 x 0.043^2`  
-  `L = 0.18 meters`  
+  L= g(T÷(2π))^2
+  L= 9.8 x (1 ÷ 6.28)^2
+  L = 0.248 meters
 
 :::
 
 
 ## 5. Ma and Pa Kettle
 
-Ma and Pa Kettle were hillbilly characters in an American TV fow in the 1940s.
+Ma and Pa Kettle were hillbilly characters in an American TV show in the 1940s.
 The characters featured in nine films, which grossed $35 milllion, which was a
 huge amount of money back then. In fact, without Ma and Pa Kettle, Universal Studios
-would have gone bankrupt, and without Universal there would be no _Jurassic Park_, no
-_Despicable Me_, no _Jaws_, no _Fast and Furious_ franchise.
+would have gone bankrupt, and without Universal there would be no _Jurassic Park_,
+no _Despicable Me_, no _Jaws_, and no _Fast and Furious_ franchise.
 
 In this clip, Ma and Pa Kettle wrestle with some maths. See you can understand
 how and why they think 25/5 = 14.
@@ -272,7 +271,7 @@ how and why they think 25/5 = 14.
 @[youtube](t8XMeocLflc?rel=0)
 
 ::: problem id=5 marks=2
-__5.1__ Using the mistaken approach Ma and Pa Kettle, what is 3 x 16? You might
+__5.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 x 16? You might
 need to watch video again.
 
 ![](/resources/8-01-ma-kettle/blackboard-sum.png)
@@ -284,9 +283,9 @@ need to watch video again.
 
 Andrew Huang has created a song which is a mnemonic for the first 100 decimal
 places of π. It is quite charming, apart from the occasional mentions of "ZERO".
-There must be a better way to deal with zero, rather than just saying "ZERO", e.g.,
-pick one letter and any word that starts with that letter, regardless of its length
-represents zero.
+There must be a better way to deal with zero, rather than just saying "ZERO" - for
+example, you could pick a letter, and then any word that starts with that letter
+(regardless of its length) represents zero.
 
 Anyway, see what you make of it, and maybe make up your own mnemonic for π.
 

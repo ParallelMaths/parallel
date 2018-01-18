@@ -19,7 +19,7 @@ Welcome to our first Parallelogram, a collection of mathematical challenges
 designed to stretch your brain and make your neurons more squiggly.
 
 You can start and stop whenever you like, but you should complete all the
-challenges by 7pm on Sunday, particularly if your teacher has asked to complete
+challenges by 7pm on Sunday, particularly if your teacher has asked you to complete
 this Parallelogram.
 
 You can return to the site any time after 7pm on Sunday and you will find your
@@ -45,7 +45,7 @@ when the answer sheet appears.
 
 ## 1. Secret codes
 
-Over the next few weeks, one of mathematical themes that we will be exploring is
+Over the next few weeks, one of the mathematical themes that we will be exploring is
 secret codes. We’ll be making and breaking codes. The proper word for this is
  **cryptography**, from the Greek words for *“secret”* and *“writing”*.
 
@@ -95,7 +95,7 @@ relate to the row and column containing C?
 ---
 
 By looking at the letters in CODE and the symbols that represent them, you
-should have noticed that the rule is “the letter is in row __x__ and column __y__ is
+should have noticed that the rule is “the letter in row __x__ and column __y__ is
 represented with a symbol which has __x__ branches on the left and __y__ branches on the
 right”. So the answer is Rey.
 
@@ -113,16 +113,17 @@ As one final teaser for the cryptography ahead, here is a trailer for the film
 _The Imitation Game_, released in 2014. The film stars Benedict Cumberbatch
 playing the real-life codebreaker and mathematician Alan Turing, who cracked the
 German Enigma code in the Second World War. This true story shows how
-mathematicians can change history. We’ll be looking at Turing and the Enigma
-code in a few weeks time, but first take a look at this clip and answer the two
-questions. You will find one answer in the film, and the other answer you will
-have to Google (or you might know it).
+mathematicians can change history.
+
+We’ll be looking at Turing and the Enigma code in a few weeks time, but first
+take a look at this clip and answer the two questions. You will find one answer
+in the film, and the other answer you will have to Google (or you might know it).
 
 @[youtube](Fg85ggZSHMw?rel=0)
 
 ::: problem id=2_1 marks=1
-__2.1.__ In a brief conversation lasting just a few seconds, how many people
-have died because of the Enigma cipher?
+__2.1.__ During the course of a brief conversation lasting just a few seconds,
+how many people have died because of the Enigma cipher?
 
 * [ ] 0
 * [ ] 1
@@ -290,7 +291,7 @@ was enough to result in a painful lesson.
 __6.1__ I saw this in a newspaper – it was a puzzle for adults, fully grown humans, but
 I think you will find it easy. All the digits from 1 to 9 are used in this grid,
 but only once. Can you work out their positions in the grid so that each of the
-six different sums works? Two of the numbers have been inserted in order to get
+six different sums work? Two of the numbers have been inserted in order to get
 you started. Just identify the other seven numbers.
 
 (NOTE: perform operations in the order they appear, e.g., 3 + 4 x 5 = 35 (not 23))
@@ -335,7 +336,7 @@ In the meantime, you can find the answers and go through the answer sheet after
 7pm on Sunday (or perhaps even now if you are late completing this Parallelogram).
 
 Going through the answer sheet is really important. Seriously important. What you
-got right s much less important than what you got wrong, because where you went wrong
+got right is much less important than what you got wrong, because where you went wrong
 provides you with an opportunity to learn something knew.
 
 First... remember to hit the SUBMIT button below, so that we can mark your answers.
@@ -362,7 +363,7 @@ strange behaviour of the spinning wheel.
 
 And in the second clip, the professor explains some very advanced ideas about the
 death of stars, black holes and marshmallows. Interestingly, some of the physics
-he he discusses is the same as the physics needed to describe the dangerous swinging ball
+he discusses is the same as the physics needed to describe the dangerous swinging ball
 demonstration. (Don’t worry if you only understand some of this video – just let
 the ideas blow your mind.)
 
