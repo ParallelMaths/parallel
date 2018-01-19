@@ -17,7 +17,7 @@
     "serve": "grunt concurrent & firebase serve",
     "deploy": "grunt && firebase deploy",
     "users": "firebase auth:export /tmp/parallel-users.json --format=json && node get-users.js",
-    "convert-teachers": "firebase auth:export /tmp/parallel-users.json --format=json && node get-users.js"
+    "update-teachers": "firebase auth:export /tmp/parallel-users.json --format=json && node update-teachers.js"
   },
   "devDependencies": {
     "ascii2mathml": "^0.5.4",

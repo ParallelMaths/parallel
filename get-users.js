@@ -16,16 +16,16 @@ fb.database().ref('users').once('value').then(data => {
   const users = data.toJSON();
   const accounts = JSON.parse(fs.readFileSync('/tmp/parallel-users.json')).users;
 
-  let teachers = 'email,first,last,schoolName,phoneNumber,postCode,country\n';
-  let students = 'email,first,last,level,birthYear,schoolName,country,guardianEmail\n';
+  let teachers = 'email,first,last,schoolName,phoneNumber,postCode,country,teacherCode\n';
+  let students = 'email,first,last,level,birthYear,schoolName,country,teacherCode,guardianEmail\n';
 
   for (let a of accounts) {
     const u = users[a.localId];
     if (!u) continue;
     if (u.code) {
-      teachers += `${a.email},${u.first},${u.last},${u.schoolName||''},${u.phoneNumber||''},${u.postCode||''},${u.country||''}\n`;
+      teachers += `${a.email},${u.first},${u.last},"${u.schoolName||''}",${u.phoneNumber||''},${u.postCode||''},${u.country||''},${u.code||''}\n`;
     } else {
-      students += `${a.email},${u.first},${u.last},${u.level||''},${u.birthYear||''},${u.schoolName||''},${u.country||''},${u.guardianEmail||''}\n`;
+      students += `${a.email},${u.first},${u.last},${u.level||''},${u.birthYear||''},"${u.schoolName||''}",${u.country||''},${u.teacherCode||''},${u.guardianEmail||''}\n`;
     }
   }
 

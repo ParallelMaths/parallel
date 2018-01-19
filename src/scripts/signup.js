@@ -52,7 +52,7 @@ export default function() {
         teacher = teacher[Object.keys(teacher)[0]];
 
         signup.schoolName = teacher.schoolName;
-        signup.country = teacher.country;
+        signup.country = teacher.country || null;
         signup.phoneNumber = signup.postCode = signup.guardianEmail = signup.code = null;
 
       } else {

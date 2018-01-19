@@ -47,7 +47,7 @@ export default function(user) {
 
           teacher = teacher[Object.keys(teacher)[0]];
           schoolName = teacher.schoolName;
-          country = teacher.country;
+          country = teacher.country || null;
         }
 
         await fbDatabase.ref('users/' + user.uid).update({
