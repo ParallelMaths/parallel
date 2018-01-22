@@ -14,25 +14,38 @@ __Origin__: late 16th century: from French parallélogramme, via late Latin from
 
 </div>
 
-Welcome to the second of our Parallelograms designed for Year 8 students, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
+Welcome to the next in our series of our Parallelograms designed for Year 8
+students, a collection of mathematical challenges designed to stretch your brain
+and make your neurons more squiggly.
 
-You can start and stop whenever you like, but you should complete all the challenges by 7pm on Sunday, particularly if your teacher has asked you to complete this Parallelogram.
+You can start and stop whenever you like, but you should complete all the
+challenges by 7pm on Sunday, particularly if your teacher has asked you to
+complete this Parallelogram.
 
-You can return to the site any time after 7pm on Sunday and you will find your score and a sheet with answers and explanations… as long as you have completed the challenge and hit the SUBMIT button.
+You can return to the site any time after 7pm on Sunday and you will find your
+score and a sheet with answers and explanations… as long as you have completed the
+challenge and hit the SUBMIT button.
 
 This week’s Parallelogram challenge is in six parts.
 
 
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct answer).
+__IMPORTANT__ – you will get points for every correct answer (or nearly correct
+  answer).
 
-__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
+__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think
+hard and try hard before resorting to the hint. The hints will help you get the
+right answer, but you will lose marks.
 
-__IMPORTANT__ – it does not really matter what score you get, the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, the main thing is
+that you think hard about the problems... and then learn where you went wrong when
+the answer sheet appears.
 
 
 ## 1. Weird film about π
 
-Back in 1998, I went to see a film at the cinema called _π_. To be honest, it was fairly dreadful, so I would not recommend watching the whole film. However, take a look at this snippet form the trailer.
+Back in 1998, I went to see a film at the cinema called _π_. To be honest, it was
+fairly dreadful, so I would not recommend watching the whole film. However, take a
+look at this snippet from the trailer.
 
 @[youtube](r0SC582sJvE?start=0&end=44&rel=0)
 
@@ -54,7 +67,7 @@ __1.2.__ How many red spirals are there?
 
 :::
 
-These numbers come from a sequence in which you add the previous two numbers to get the next number, e.g, 1 + 1 = 2, then 1 + 2 = 3, then 2 + 3 = 5, and so on.
+This numbers come from a sequence in which you add the previous two numbers to get the next number, e.g, 1 + 1 = 2, then 1 + 2 = 3, then 2 + 3 = 5, and so on.
 
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377...
 
@@ -74,14 +87,14 @@ The sunflower below also has two sets of spirals, and the numbers of spirals are
 ![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {image align="center" img alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
 
 ::: problem id=1_4 marks=1
-__1.4.__ How many anticlockwise (y) spirals?
+__1.4.__ How many anticlockwise (x) spirals?
 
 <input type="number" solution="34"/>  
 
 :::
 
 ::: problem id=1_5 marks=1
-__1.5.__ How many clockwise (x) spirals?
+__1.5.__ How many clockwise (y) spirals?
 
 <input type="number" solution="21"/>  
 
@@ -89,6 +102,21 @@ __1.5.__ How many clockwise (x) spirals?
 
 
 ## 2. Junior Maths Challenge 2011 (6)
+
+The Junior Maths Challenge is a national maths competition run by the UK Maths
+Trust, and many of you may have entered last year and might be entering this year.
+Ask your teacher, and he or she will know whether you or your class will be
+entering.  
+
+The Junior Maths Challenge is aimed at confident young mathematicians who want to
+stretch their brains with questions that are bit spicier than those you might
+encounter in the classroom. Each week, the Parallelograms will contain one or two
+Challenge questions from the tests given in previous years.
+
+These will be good practice if you are entering this year, and even if you are not
+entering they will still be good ways to stretch your mathematical mind. To get
+you warmed up, here is a relatively easy question... followed by another one that
+most of you should be able to attack.
 
 ::: problem id=2_1 marks=2
 __2.1.__ What is the sum of the marked angles in the diagram?
@@ -134,7 +162,17 @@ Last week’s Parallelogram looked how the length of a pendulum is linked to the
 @[youtube](qYAdXm69l8g?end=220&rel=0)
 
 ::: problem id=4_1 marks=1
-__4.1__ If it was a perfect experiment, how long should it have taken for 10 swings of the pendulum?
+__4.1__ How long did it take in Matt’s experiment for 1 swing?
+
+* [ ] 3.1 seconds
+* [x] 3.128 seconds
+* [ ] 3.141 seconds
+* [ ] 31.28 seconds
+* [ ] 31.4 seconds
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ If it was a perfect experiment, how long should it have taken for 10 swings of the pendulum?
 
 * [ ] 3.128 seconds
 * [ ] 3.14 seconds
@@ -151,19 +189,21 @@ Matt’s pi-endulum video starts with something astonishing, namely that there a
 About 350 years ago, mathematicians proved that:  
 ![](/resources/8-02-lou-costello/5-equation1.gif)
 
-Why on earth should adding every odd fraction and subtracting every even fraction create a quarter of π? When you’re older, might find out, but for now just be gobsmacked.
+Why on earth should adding half the odd fractions and subtracting the other half
+of odd fractions and multiplying by 4 be equal to π? When you’re older, you might
+find out, but for now just be gobsmacked.
 
-This equation is very slow, by which I mean that you need to contact a large number of terms before you get an answer that becomes accurate. If you work out the first 300 terms of the formula, then you will eventually work out that π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
+This equation is very slow, by which I mean that you need to take into account a large number of terms before you get an answer that becomes accurate. If you work out the first 300 terms of the formula, then you will eventually work out that π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
 
-In 1748, Leonard Euler proved recipe for calculating  
+In 1748, Leonard Euler proved this recipe for calculating  
 ![](/resources/8-02-lou-costello/5-equation2.gif)
 
 We can rearrange this to obtain:  
 ![](/resources/8-02-lou-costello/5-equation3.gif)
 
-Let’s see what happens if use this recipe to calculate π.
+Let’s see what happens if we use this recipe to calculate π.
 
-| ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.50 |
+| ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.92 |
 | ![](/resources/8-02-lou-costello/5-equation4-2.gif) | π = 2.74 |
 | ![](/resources/8-02-lou-costello/5-equation4-3.gif) | π = 2.86 |
 | ![](/resources/8-02-lou-costello/5-equation4-4.gif) | π = 2.91 |
@@ -174,7 +214,7 @@ The result gets closer and closer to the real value of π as we include more and
 
 
 ::: problem id=5_1 marks=2
-__5.1__ What is the value of π accurate when you include the 1/5<sup>2</sup> term?
+__5.1__ What is the value of π when you include the 1/5<sup>2</sup> term?
 
 * [ ] 3.00
 * [ ] 2.99
@@ -194,6 +234,15 @@ __5.2__ Which series always underestimate the value of π?
 * [ ] Both of them
 * [ ] The one on the left
 * [x] The one on the right
+
+---
+
+Because the series on left has positive and negative terms (addition and
+subtraction), then it keeps jumping above the value of π, and then below it, and
+then above it, and then below it, and so on. By contrast, the series on the right
+only has positive terms, so it starts at a very low value and gradually approaches
+the true value from below. Therefore the series on the right always underestimates
+the true value of π.
 :::
 
 ::: problem id=5_3 marks=1
@@ -203,6 +252,13 @@ __5.3__ Both series make the biggest improvements in approximating π...
 * [ ] During the last few terms
 * [ ] During the middle few terms
 * [ ] When they put in the most effort
+
+---
+Initially, both series are wildly inaccurate, but within the first 25 terms they
+both begin to home in on the true value of π. Thereafter the curve is almost flat,
+suggesting that there are only minor improvements in getting close to π. Hence,
+the biggest improvements take place during the first few terms.
+
 :::
 
 
@@ -215,9 +271,7 @@ Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he think the result is?
 
-15  
-+15  
-+15
+![](/resources/8-02-lou-costello/6-blackboard-sum.png )
 
 <input type="number" solution="18"/>  
 :::
