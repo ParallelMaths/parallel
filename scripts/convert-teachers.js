@@ -5,7 +5,7 @@
 
 const fs = require('fs');
 const fb = require('firebase-admin');
-const serviceAccount = require('./private/service-account.json');
+const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE

@@ -14,11 +14,6 @@ year7:
     title: Codes and Physics
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
-  - week: 0
-    url: 6-02-good-will-hunting
-    title: Good Will Hunting
-    available: 2017-11-14T16:00:00
-    deadline: 2017-11-16T18:00:00
 
 year8:
   - week: 3
@@ -36,11 +31,6 @@ year8:
     title: Ma and Pa Kettle Make Pendulum Pi
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
-  - week: 0
-    url: 6-02-good-will-hunting
-    title: Good Will Hunting
-    available: 2017-11-14T16:00:00
-    deadline: 2017-11-16T18:00:00
 
 # - week: 4
 #   url: 6-04-blackboard-equation
