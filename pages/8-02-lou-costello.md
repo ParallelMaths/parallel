@@ -51,7 +51,10 @@ look at this snippet from the trailer.
 
 ![](/resources/8-02-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
-I like the comment that “mathematics is the language of nature”, and you will see that more and more as you study different areas of maths. For example, take a look at this image of the bottom of a pine cone. There are green spirals going clockwise and red spirals going anticlockwise.
+I like the comment that “mathematics is the language of nature”, and you will see
+that more and more as you study different areas of maths. For example, take a look
+at this image of the bottom of a pine cone. There are green spirals going clockwise
+and red spirals going anticlockwise.
 
 ::: problem id=1_1 marks=1
 __1.1.__ How many green spirals are there?
@@ -67,12 +70,13 @@ __1.2.__ How many red spirals are there?
 
 :::
 
-This numbers come from a sequence in which you add the previous two numbers to get the next number, e.g, 1 + 1 = 2, then 1 + 2 = 3, then 2 + 3 = 5, and so on.
+These numbers come from a sequence in which you add the previous two numbers to get
+the next number, e.g, 1 + 1 = 2, then 1 + 2 = 3, then 2 + 3 = 5, and so on.
 
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377...
 
 ::: problem id=1_3 marks=1
-__1.3.__ These series of numbers is called:
+__1.3.__ This series of numbers is called:
 
 * [ ] The triangular sequence
 * [ ] The additive series
@@ -157,7 +161,10 @@ We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 x 4 = 3
 
 ## 4. Calculating π with a pendulum
 
-Last week’s Parallelogram looked how the length of a pendulum is linked to the time it takes to swing via a formula involving π. The video below from the brilliant Matt Parker (the Stand-up Mathematician) shows how you can use this formula to work out the value of π. Watch carefully and answer the question below.
+Last week’s Parallelogram looked how the length of a pendulum is linked to the time
+it takes to swing via a formula involving π. The video below from the brilliant Matt
+Parker (the Stand-up Mathematician) shows how you can use this formula to work out
+the value of π. Watch carefully and answer the question below.
 
 @[youtube](qYAdXm69l8g?end=220&rel=0)
 
@@ -184,7 +191,9 @@ __4.2__ If it was a perfect experiment, how long should it have taken for 10 swi
 
 ## 5. Infinite expressions for π
 
-Matt’s pi-endulum video starts with something astonishing, namely that there are some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ because some things in maths are beautiful. They strike your heart and make you go, wow!)
+Matt’s pi-endulum video starts with something astonishing, namely that there are
+some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ because some
+things in maths are beautiful. They strike your heart and make you go, wow!)
 
 About 350 years ago, mathematicians proved that:  
 ![](/resources/8-02-lou-costello/5-equation1.gif)
@@ -193,7 +202,10 @@ Why on earth should adding half the odd fractions and subtracting the other half
 of odd fractions and multiplying by 4 be equal to π? When you’re older, you might
 find out, but for now just be gobsmacked.
 
-This equation is very slow, by which I mean that you need to take into account a large number of terms before you get an answer that becomes accurate. If you work out the first 300 terms of the formula, then you will eventually work out that π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
+This equation is very slow, by which I mean that you need to take into account a
+large number of terms before you get an answer that becomes accurate. If you work
+out the first 300 terms of the formula, then you will eventually work out that
+π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
 
 In 1748, Leonard Euler proved this recipe for calculating  
 ![](/resources/8-02-lou-costello/5-equation2.gif)
@@ -223,7 +235,9 @@ __5.1__ What is the value of π when you include the 1/5<sup>2</sup> term?
 * [x] 2.96
 :::
 
-Rohit Kumar has created some graphs that show how these two recipes get better and better at approximating π as you include more and more terms. Take a look the graphs below and answer two questions.
+Rohit Kumar has created some graphs that show how these two recipes get better and
+better at approximating π as you include more and more terms. Take a look the graphs
+below and answer two questions.
 
 ![](/resources/8-02-lou-costello/5-2-graphs.png) {img alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
 
@@ -278,7 +292,7 @@ __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he
 
 Well done on completing this week’s Parallelogram. Check your email or return to the website on Friday for the next one.
 
-In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
+In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
 
 First... Remember to hit the SUBMIT button below, so that we can mark your answers.
 
