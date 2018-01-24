@@ -5,7 +5,7 @@
 
 const fs = require('fs');
 const fb = require('firebase-admin');
-const serviceAccount = require('./private/service-account.json');
+const serviceAccount = require('../private/service-account.json');
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
@@ -29,8 +29,8 @@ fb.database().ref('users').once('value').then(data => {
     }
   }
 
-  fs.writeFileSync(`./private/teachers.csv`, teachers);
-  fs.writeFileSync(`./private/students.csv`, students);
+  fs.writeFileSync(`../private/teachers.csv`, teachers);
+  fs.writeFileSync(`../private/students.csv`, students);
 
   process.exit();
 });
