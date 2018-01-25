@@ -6,5 +6,5 @@ div(v-if="isOneOf(c.status, 'open', 'past', 'preview')")
   p Your score and the solutions will be revealed in {{ timeUntil(c.deadline) }}.
 
 .score(v-if="c.status == 'revealed'" v-bind:class="user.getLevel(c.data)")
-  p.large Your scored {{user.getScore(c.data)}}%
+  p.large Score: {{user.getScore(c.data)}}%
   p Level: {{user.getLevel(c.data)}}
