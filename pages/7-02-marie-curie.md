@@ -261,9 +261,9 @@ back into letters, you get:
 * [ ] MBH
 
 ---
-BOX is 2-15-25, and if we add 10 we get 12-25-36, which is L-Y-?.  
+BOX is 1-14-23, and if we add 10 we get 11-14-33, which is L-Y-?.  
 
-36 is bigger than 26, so we apply the modulo arithmetic and subtract 26 to get 10,
+33 is bigger than 26, so we apply the modulo arithmetic and subtract 26 to get 10,
 which means that '?' = 'H'.  
 
 So the answer is LYH.

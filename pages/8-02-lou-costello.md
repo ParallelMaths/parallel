@@ -186,6 +186,14 @@ __4.2__ If it was a perfect experiment, how long should it have taken for 10 swi
 * [ ] 10.0 seconds
 * [ ] 31.28 seconds
 * [x] 31.4 seconds
+
+---
+
+Matt’s experiment was imperfect (in fact all experiments are imperfect), so the
+previous answer and Matt’s result was 3.128 seconds. However, if it was a perfect
+experiment, then each swing would have been π seconds long, or 3.14 seconds. So 10
+swings would have been 31.4 seconds, and that is the answer.
+
 :::
 
 
@@ -207,13 +215,16 @@ large number of terms before you get an answer that becomes accurate. If you wor
 out the first 300 terms of the formula, then you will eventually work out that
 π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
 
-In 1748, Leonard Euler proved this recipe for calculating  
+In 1748, Leonard Euler proved this recipe for calculating π  
+
 ![](/resources/8-02-lou-costello/5-equation2.gif)
 
 We can rearrange this to obtain:  
+
 ![](/resources/8-02-lou-costello/5-equation3.gif)
 
-Let’s see what happens if we use this recipe to calculate π.
+Let’s see what happens if we use this recipe to calculate π, using just one term,
+then two terms, then three, four and five terms.
 
 | ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.92 |
 | ![](/resources/8-02-lou-costello/5-equation4-2.gif) | π = 2.74 |
