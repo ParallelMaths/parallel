@@ -64,7 +64,7 @@ __1.1.__ What is the value of 2 x 0 x 1 + 1?
 ---
 
 This is simply a matter of doing the sum... and remembering the order of
-operations. So, multiplications take priority of addition, so
+operations. So, multiplications take priority over addition, so
 2 x 0 x 1 + 1 = (2 x 0 x 1) + 1 = (0) + 1 = 1
 :::
 
@@ -108,7 +108,7 @@ Also, before marrying Pierre Curie, she fell in love with Kazimierz Żorawski, w
 would become a professor of mathematics. Tragically, his family refused to let him
 marry Curie, a decision that haunted him for the rest of his life. As an old man
 and a retired mathematician, he would regularly visit the statue of Curie that had
-been erected in Warsaw. She was still the great love of his life and now one the
+been erected in Warsaw. She was still the great love of his life, and now one of the
 world’s most famous scientists.
 
 Curie is one of the most heroic and inspiring scientists in history, and below is
@@ -138,7 +138,7 @@ harder to break.
 
 What am I?
 
-The answer involves 6 of these 7 letters: __BCRRDEO__
+The answer is made up of exactly 6 of these 7 letters: __BCRRDEO__
 
 <input type="text" solution="Record">
 
@@ -151,7 +151,7 @@ The answer is __Record.__
 
 ## 5. Caesar cipher
 
-Last week, I said the cryptography (the maths of codes and codebreaking) would be
+Last week, I said that cryptography (the maths of codes and codebreaking) would be
 a theme in the next few Parallelograms, so here is this week’s lesson and puzzle
 relating to the writing of secret messages.
 
@@ -172,7 +172,7 @@ A is encoded as C... B is encoded as D... C is encoded as E, and so on.
 CAT become ECV.
 
 So far, so good, but where is the maths? In the alphabet above, each letter is
-matched with a number from 0 to 25, and in instead of thinking of encoding as
+matched with a number from 0 to 25, and instead of thinking of encoding as
 shifting, we can think of encoding as adding.
 
 CAT     = 2-0-19  
@@ -184,7 +184,7 @@ ECV     = 4-2-21
 ECV – 2 = 2-0-19 = CAT{.text-center}
 
 So far, so good, but what happens if we encode a word such as YES with a shift
-of 3.
+of 3?
 
 YES     = 24-4-18  
 YES + 3 = 27-7-21 = ?HV{.text-center}
@@ -213,7 +213,7 @@ So, if we encoded the word WORD with a shift of 10, then:
 WORD      = 22-14-17-3  
 WORD + 10 = 32-24-27-13{.text-center}
 
-The numbers need to between 0 and 25, so we subtract 26 from the encoded number
+The numbers need to be between 0 and 25, so we subtract 26 from the encoded number
 until it is ok.
 
 WORD + 10 = 6-24-1-13 = GYBN{.text-center}
@@ -378,7 +378,7 @@ that. So check your email or return to the website on Friday.
 In the meantime, you can find the answers and go through the answer sheet after
 7pm on Sunday. This is really important. Seriously important. What you got right
 is much less important that what you got wrong, because where you went wrong
-provides you with an opportunity to learn something knew.
+provides you with an opportunity to learn something new.
 
 Cheerio,
 Simon.
@@ -389,7 +389,7 @@ Simon.
 ## Additional Stuff
 
 *	You can find out more about Marie Curie and why reading her notebooks could
-seriously damage your health [by visit this
+seriously damage your health [by visiting this
 website](https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891){target="_blank"}.
 *	[This website allows you to encode and decode messages using the Caesar shift
 code](https://www.simonsingh.net/The_Black_Chamber/caesar.html){target="_blank"}
