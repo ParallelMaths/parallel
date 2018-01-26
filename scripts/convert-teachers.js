@@ -1,8 +1,3 @@
-// This file can be used to generate a table of scores from the Firebase FB.
-// Export the entire Firebase DB as json, and place it as
-// 'parallel-cf800-export.json' into the root of this directory.
-
-
 const fs = require('fs');
 const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
