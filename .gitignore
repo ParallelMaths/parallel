@@ -61,4 +61,4 @@ typings/
 build
 private
 *.lng
-cmder_mini/vendor/conemu-maximus5/plugins/ConEmu/Background/img/archive.png
+cmder_mini

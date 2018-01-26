@@ -235,10 +235,9 @@ BOX + 1 in numbers  = 2-15-24
 BOX + 1 in letters  = CPY{.text-center}
 
 ::: problem id=5_1 marks=1
-__5.1__ Encode the word BOX with a shift of 2 into a new 3-letter word.
-
-When you translate BOX into numbers, add 2 to each number and convert the result
-back into letters, you get:
+__5.1__ Encode the word BOX with a shift of 2 into a new 3-letter word. In other
+words, translate BOX into numbers, add 2 to each number and convert the result back
+into letters:
 
 * [ ] ZMV
 * [ ] ANW
@@ -249,10 +248,9 @@ back into letters, you get:
 :::
 
 ::: problem id=5_2 marks=1
-__5.2__ Encode the word BOX with a shift of 10 into a new 3-letter word.
-
-When you translate BOX into numbers, add 10 to each number and convert the result
-back into letters, you get:
+__5.2__ Encode the word BOX with a shift of 10 into a new 3-letter word. In other
+words, translate BOX into numbers, add 10 to each number and convert the result back
+into letters:
 
 * [ ] MAG
 * [x] LYH
@@ -261,19 +259,17 @@ back into letters, you get:
 * [ ] MBH
 
 ---
-BOX is 1-14-23, and if we add 10 we get 11-14-33, which is L-Y-?.  
+BOX is 1-14-23, and if we add 10 we get 11-24-33, which is L-Y-?.  
 
-33 is bigger than 26, so we apply the modulo arithmetic and subtract 26 to get 10,
-which means that '?' = 'H'.  
+33 is bigger than 26, so we subtract 26 to get 7, which means that '?' = 'H'.  
 
 So the answer is LYH.
 :::
 
 ::: problem id=5_3 marks=1
-__5.3__ Encode the word BOX with a shift of 25 into a new 3-letter word.
-
-When you translate BOX into numbers, add 25 to each number and convert the result
-back into letters, you get:
+__5.3__ Encode the word BOX with a shift of 25 into a new 3-letter word. In other
+words, translate BOX into numbers, add 25 to each number and convert the result back
+into letters:
 
 * [ ] ZMV
 * [ ] ZNY
@@ -289,10 +285,9 @@ the answer.
 :::
 
 ::: problem id=5_4 marks=1
-__5.4__ Encode the word BOX with a shift of 26 into a new 3-letter word.
-
-When you translate BOX into numbers, add 26 to each number and convert the result
-back into letters, you get:
+__5.4__ Encode the word BOX with a shift of 26 into a new 3-letter word. In other
+words, translate BOX into numbers, add 26 to each number and convert the result back
+into letters:
 
 * [ ] ANW
 * [ ] ZNY
@@ -306,10 +301,9 @@ A shift of 26 gets you back to where you started, so no change.
 :::
 
 ::: problem id=5_5 marks=1
-__5.5__ Encode the word BOX with a shift of 52 into a new 3-letter word.
-
-When you translate BOX into numbers, add 52 to each number and convert the result
-back into letters, you get:
+__5.5__ Encode the word BOX with a shift of 52 into a new 3-letter word. In other
+words, translate BOX into numbers, add 52 to each number and convert the result back
+into letters:
 
 * [ ] APY
 * [x] BOX
@@ -323,10 +317,9 @@ Again, because this is a multiple of 26, no change.
 :::
 
 ::: problem id=5_6 marks=1
-__5.6__ Encode the word BOX with a shift of 260 into a new 3-letter word.
-
-When you translate BOX into numbers, add 260 to each number and convert the result
-back into letters, you get:
+__5.6__ Encode the word BOX with a shift of 260 into a new 3-letter word. In other
+words, translate BOX into numbers, add 260 to each number and convert the result back
+into letters:
 
 * [ ] APY
 * [ ] ANW
@@ -340,10 +333,9 @@ Again, because this is a multiple of 26, no change.
 :::
 
 ::: problem id=5_7 marks=1
-__5.7__ Encode the word BOX with a shift of 261 into a new 3-letter word.
-
-When you translate BOX into numbers, add 261 to each number and convert the result
-back into letters, you get:
+__5.7__ Encode the word BOX with a shift of 261 into a new 3-letter word. In other
+words, translate BOX into numbers, add 261 to each number and convert the result back
+into letters:
 
 * [x] CPY
 * [ ] BOX
