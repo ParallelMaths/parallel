@@ -1,5 +1,5 @@
 <header style="background-image: url('/images/header.jpg')">
-  <h1>Welcome back o the Parallel Maths Project!</h1>
+  <h1>Welcome back to the Parallel Maths Project!</h1>
 </header>
 
 <img class="img-right" src="/images/simpsons.png" width=160 height=280/>
