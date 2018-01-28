@@ -190,9 +190,9 @@ __4.2__ If it was a perfect experiment, how long should it have taken for 10 swi
 ---
 
 Matt’s experiment was imperfect (in fact all experiments are imperfect), so the
-previous answer and Matt’s result was 3.128 seconds. However, if it was a perfect
-experiment, then each swing would have been π seconds long, or 3.14 seconds. So 10
-swings would have been 31.4 seconds, and that is the answer.
+answer to question 4.1 and Matt’s result in the video was 3.128 seconds. However,
+if it was a perfect experiment, then each swing would have been π seconds long, or
+3.14 seconds. So 10 swings would have been 31.4 seconds, and that is the answer.
 
 :::
 

@@ -175,19 +175,19 @@ So far, so good, but where is the maths? In the alphabet above, each letter is
 matched with a number from 0 to 25, and instead of thinking of encoding as
 shifting, we can think of encoding as adding.
 
-CAT     = 2-0-19  
-CAT + 2 = 4-2-21 = ECV{.text-center}
+CAT     = 2¦0¦19  
+CAT + 2 = 4¦2¦21 = ECV{.text-center}
 
 Decoding is the opposite of addition, namely subtraction.
 
-ECV     = 4-2-21  
-ECV – 2 = 2-0-19 = CAT{.text-center}
+ECV     = 4¦2¦21  
+ECV – 2 = 2¦0¦19 = CAT{.text-center}
 
 So far, so good, but what happens if we encode a word such as YES with a shift
 of 3?
 
-YES     = 24-4-18  
-YES + 3 = 27-7-21 = ?HV{.text-center}
+YES     = 24¦4¦18  
+YES + 3 = 27¦7¦21 = ?HV{.text-center}
 
 ![](/resources/7-02-marie-curie/5-encoding-diagram.png)
 
@@ -202,7 +202,7 @@ numbers in a circle, so that three odd things happen.
 the number circle.
 3. That means, for example, 24 + 3 = 1 (not 27).
 
-Therefore, YES is encoded as 27-7-21, which in modulo (26) is 1-7-21, which is BHV.
+Therefore, YES is encoded as 27¦7¦21, which in modulo (26) is 1¦7¦21, which is BHV.
 
 You encounter modulo arithmetic every day, when you look at a clock (and sometimes
 it is called __clock arithmetic__). Two hours after 11pm (or 23.00) is not 13pm
@@ -210,13 +210,13 @@ it is called __clock arithmetic__). Two hours after 11pm (or 23.00) is not 13pm
 
 So, if we encoded the word WORD with a shift of 10, then:
 
-WORD      = 22-14-17-3  
-WORD + 10 = 32-24-27-13{.text-center}
+WORD      = 22¦14¦17¦3  
+WORD + 10 = 32¦24¦27¦13{.text-center}
 
 The numbers need to be between 0 and 25, so we subtract 26 from the encoded number
 until it is ok.
 
-WORD + 10 = 6-24-1-13 = GYBN{.text-center}
+WORD + 10 = 6¦24¦1¦13 = GYBN{.text-center}
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -230,8 +230,8 @@ WORD + 10 = 6-24-1-13 = GYBN{.text-center}
 __Now it is also time to try some simple coding problems, but first here is an
 example__: encode the word BOX with a shift of 1 into a new 3-letter word:  
 
-BOX in numbers      = 1-14-23  
-BOX + 1 in numbers  = 2-15-24  
+BOX in numbers      = 1¦14¦23  
+BOX + 1 in numbers  = 2¦15¦24  
 BOX + 1 in letters  = CPY{.text-center}
 
 ::: problem id=5_1 marks=1
@@ -259,7 +259,7 @@ into letters:
 * [ ] MBH
 
 ---
-BOX is 1-14-23, and if we add 10 we get 11-24-33, which is L-Y-?.  
+BOX is 1¦14¦23, and if we add 10 we get 11¦24¦33, which is L¦Y¦?.  
 
 33 is bigger than 26, so we subtract 26 to get 7, which means that '?' = 'H'.  
 
@@ -281,7 +281,7 @@ into letters:
 Another way of adding 25 in modulo arithmetic is to subtract 1. Instead of going
 forward 25 spaces, you can just do one step back, which is a shortcut to getting
 the answer.  
-0-13-22 = ANW
+0¦13¦22 = ANW
 :::
 
 ::: problem id=5_4 marks=1
@@ -297,7 +297,7 @@ into letters:
 
 ---
 A shift of 26 gets you back to where you started, so no change.  
-1-14-23 = BOX
+1¦14¦23 = BOX
 :::
 
 ::: problem id=5_5 marks=1
@@ -313,7 +313,7 @@ into letters:
 
 ---
 Again, because this is a multiple of 26, no change.  
-1-14-23 = BOX
+1¦14¦23 = BOX
 :::
 
 ::: problem id=5_6 marks=1
@@ -329,7 +329,7 @@ into letters:
 
 ---
 Again, because this is a multiple of 26, no change.  
-1-14-23 = BOX
+1¦14¦23 = BOX
 :::
 
 ::: problem id=5_7 marks=1
@@ -346,7 +346,7 @@ into letters:
 A shift of 261 is the same as a shift of 260 and then a shift of 1. A shift of 260
 makes no difference as it is a multiple of 26, so we are looking simply at a shift
 of 1.  
-2-15-24 = CPY
+2¦15¦24 = CPY
 :::
 
 
@@ -359,8 +359,7 @@ the computer in 1-player mode and see if you can win.
 
 If you do manage to win, then just take a photo or screengrab, which includes the
 date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
-at random and send them a copy of my book “The Simpsons and Their Mathematical
-Secrets”.
+at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
 
 
 I hope you enjoyed (or at least did not hate) this Parallelogram, the second one

@@ -14,7 +14,9 @@ __Origin__: late 16th century: from French parallélogramme, via late Latin from
 
 </div>
 
-Welcome to the third of our Parallelograms designed for Year 8 students, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
+Welcome to our latest Parallelogram designed for Year 8 students, a collection
+of mathematical challenges designed to stretch your brain and make your neurons
+more squiggly.
 
 *	Start and stop whenever you like – your work will be saved each time.
 *	But it is better to tackle each Parallelogram in one go.
@@ -24,16 +26,18 @@ Welcome to the third of our Parallelograms designed for Year 8 students, a colle
 
 This week’s Parallelogram challenge is in six parts.
 
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct answer).
+__IMPORTANT__ – you will get points for every correct answer (or nearly correct
+ answer).
 
-__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
+__IMPORTANT__ – it does not really matter what score you get, the main thing is
+that you think hard about the problems... and then learn where you went wrong
+when the answer sheet appears.
 
-__IMPORTANT__ – it does not really matter what score you get, the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
+## 1.	Five bets you will always win against your teacher
 
-## 1.	5 bets you will always win against your teacher
-
-Here are five puzzles, riddles, challenges or brain-busters designed to baffle the world's greatest brains, including your teachers'.
+Here are five puzzles, riddles, challenges or brain-busters designed to baffle
+the world's greatest brains, including your teachers.
 
 As each problem is posed, pause the video and see if you can find a solution.
 
@@ -42,9 +46,16 @@ As each problem is posed, pause the video and see if you can find a solution.
 
 ## 2. Junior Maths Challenge 2011 (8)
 
-Some of you may have already taken part in the Junior Maths Challenge, and others might be taking part this year for the first time. Either way, each Parallelogram usually contains one or two Junior Maths Challenge questions to help you prepare for the challenge day. These questions are excellent because they encourage you to think in a more creative way, and with practice you might achieve a bronze, silver or gold certificate.
+Some of you may have already taken part in the Junior Maths Challenge, and
+others might be taking part this year for the first time. Either way, each
+Parallelogram usually contains one or two Junior Maths Challenge questions to
+help you prepare for the challenge day. These questions are excellent because
+they encourage you to think in a more creative way, and with practice you might
+achieve a bronze, silver or gold certificate.
 
-(If you are not taking part in the Junior Maths Challenge, then it does not matter – these questions are still great for developing your mathematical skills.)
+(If you are not taking part in the Junior Maths Challenge, then it does not
+matter – these questions are still great for developing your mathematical
+skills.)
 
 ::: problem id=2_1 marks=2
 ![](/resources/8-03-flag-of-flags/2-squares-question.png){image align="right"}
@@ -64,13 +75,13 @@ What is the ratio of the length of the perimeter of the square to the length of 
 
 ![](/resources/8-03-flag-of-flags/2-squares-solution.png){image align="right"}
 
-Suppose that the square has side length 3x. Then the square has perimeter of length 4 X 3x = 12x.
+Suppose that the square has side length 3d. Then the square has perimeter of length 4 x 3d = 12d.
 
-Each rectangle has size 3x X x. So we see that the octagon has a perimeter length:
+Each rectangle has size 3d x d. So we see that the octagon has a perimeter length:
 
-4x + 3x + 4x + x + 3x + x + 3x + x = 20x
+4d + 3d + 4d + d + 3d + d + 3d + d = 20d
 
-Hence ratio of the lengths is 12x:20x = 3:5
+Hence ratio of the lengths is 12d:20d = 3:5
 :::
 
 
@@ -117,6 +128,15 @@ __4.2__ Smaller number:
 __4.3__ Difference between them:
 
 <input type="number" solution="864197532"/>  
+
+---
+
+Now we have the opposite problem, so we want the biggest difference in the
+“hundreds of millions column”, so let’s have 9--------- and 1--------. Then we
+want the next biggest difference in the tens of millions column, so let’s have
+98------- and 12-------. And so on, until we have 987,654,321 and 123,456,789,
+so the difference is 864,197,532.
+
 :::
 
 
@@ -135,6 +155,8 @@ Spot the five other flags. If you are not a vexillologist (an expert in flags), 
 ::: problem id=5_1 marks=1
 __5.1__ Which of these flags is contained in the Norway flag?
 
+![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
 * [ ] Iceland
 * [x] Indonesia
 * [ ] Ireland
@@ -144,6 +166,8 @@ __5.1__ Which of these flags is contained in the Norway flag?
 
 ::: problem id=5_2 marks=1
 __5.2__ Which of these flags is contained in the Norway flag?
+
+![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
 
 * [ ] Nepal
 * [x] Poland
@@ -155,6 +179,8 @@ __5.2__ Which of these flags is contained in the Norway flag?
 ::: problem id=5_3 marks=1
 __5.3__ Which of these flags is contained in the Norway flag?
 
+![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
 * [ ] Denmark
 * [ ] Dominican Republic
 * [x] Finland
@@ -164,6 +190,8 @@ __5.3__ Which of these flags is contained in the Norway flag?
 
 ::: problem id=5_4 marks=1
 __5.4__ Which of these flags is contained in the Norway flag?
+
+![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
 
 * [ ] Sweden
 * [ ] Austria
@@ -175,6 +203,8 @@ __5.4__ Which of these flags is contained in the Norway flag?
 ::: problem id=5_5 marks=1
 __5.5__ Which of these flags is contained in the Norway flag?
 
+![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
 * [ ] USA
 * [ ] UK
 * [ ] India
@@ -185,11 +215,17 @@ __5.5__ Which of these flags is contained in the Norway flag?
 
 ## 6. Abbott & Costello - Loan Me 50 cents
 
-Last week’s Parallelogram had some disturbing arithmetic courtesy of Lou Costello, one of America’s most famous comedians. Here is again, this time being conned by his partner Bud Abbott. Abbott and Costello are one of America’s most famous comedy double-acts.
+Last week’s Parallelogram had some disturbing arithmetic courtesy of Lou
+Costello, one of America’s most famous comedians. Here he is again, this time
+being conned by his partner Bud Abbott. Abbott and Costello are one of
+America’s most famous comedy double-acts.
 
-Listen carefully and see if you can work out why the maths is fundamentally wrong, and how Abbot is conning Costello. Also, answer the question below.
+Listen carefully and see if you can work out why the maths is fundamentally
+wrong, and how Abbot is conning Costello. It might help to know that "dime" is
+the nickname for a 10 cents coin. Also, answer the question below.
 
-(BTW, visit the Find Out More section below for a link to the most famous and funniest of all the sketches by Abbott and Costello.)
+(BTW, visit the Find Out More section below for a link to the most famous and
+funniest of all the sketches by Abbott and Costello.)
 
 @[youtube](9udNrOh5DyA?rel=0)
 
@@ -204,13 +240,19 @@ __6.1__ Abbott says that 40 + 10 = 50, but Costello says that can’t be right b
 
 :::
 
-Well done on completing this week’s Parallelogram. Check your email or return to the website on Friday for the next one.
+Well done on completing this week’s Parallelogram. Check your email or return
+to the website on Friday for the next one.
 
-In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something knew.
+In the meantime, you can find the answers and go through the answer sheet after
+7pm on Sunday. This is really important. Seriously important. What you got
+right is much less important that what you got wrong, because where you went
+wrong provides you with an opportunity to learn something knew.
 
-First... Remember to hit the SUBMIT button below, so that we can mark your answers.
+First... Remember to hit the SUBMIT button below, so that we can mark your
+answers.
 
-Also, once you have hit the SUBMIT button there will an extra bit of optional Parallelogram if you are feeling particularly keen.
+Also, once you have hit the SUBMIT button there will an extra bit of optional
+Parallelogram if you are feeling particularly keen.
 
 Cheerio,
 Simon.
@@ -221,10 +263,14 @@ Simon.
 
 ## Further Stuff
 
-Here is the most famous sketch by Abbott and Costello – “Who’s on first?” – watch and enjoy:
+Here is the most famous sketch by Abbott and Costello – “Who’s on first?” –
+watch and enjoy:
 @[youtube](WQXwt83hYkE?rel=0)
 
-This is video by James Grime for the Numberphile channel, and the world’s most mathematical flag:
+This is a video presented by James Grime for the Numberphile channel. It is all
+about the world’s most mathematical flag:
 @[youtube](f2Gne3UHKHs?start=21&rel=0)
 
-You can find lots of other Numberphile video by just googling – Numberphile means “someone who loves numbers”, so if you love maths then it is the channel for you.
+You can find lots of other Numberphile video by just googling – Numberphile
+means “someone who loves numbers”, so if you love maths then it is the channel
+for you.
