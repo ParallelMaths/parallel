@@ -70,7 +70,7 @@ _“Here is what the Earth looks like during a solar eclipse. The shadow of the 
 ::: problem id=3 marks=5
 
 ![](/resources/8-04-dripping-taps/3-angles-question.png){image align="right"}
-__3.1.__  The diagram shows an equilateral triangle inside a rectangle.  
+__3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles x and y have been labelled.   
 
 What is the value of x + y?
 
@@ -83,6 +83,10 @@ What is the value of x + y?
 ^^^ hint id=1
 ![](/resources/8-04-dripping-taps/3-angles-hint.png){image align="right"}
 Notice that x and y are two of the internal angles of a pentagon.
+
+We have highlighted that pentagon in this graphic.
+
+Consider how this information can help you solve the problem.
 ^^^
 
 ^^^ hint id=2

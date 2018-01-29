@@ -44,7 +44,8 @@ __1.1__ What shape is this second quadrilateral? Make sure you spell it correctl
 
 <input type="text" solution="Parallelogram"/>
 
----
+:::
+
 ![](/resources/7-04-sundogs-random-dots/1-mathematical-image.png)
 
 The reason for the pretty mathematical image above is that I wanted to create a buffer between the question and the answer... which I am now about to tell you.
@@ -54,7 +55,7 @@ If you followed the instructions above, you should have ended up with a parallel
 ![](/resources/7-04-sundogs-random-dots/1-parallelogram-diagram){image align="center"}
 
 You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html). You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
-:::
+
 
 
 ## 2. Sundogs over Sweden
@@ -73,7 +74,7 @@ There is a different Astronomy Picture of the Day each day, so visit regularly i
 ## 3. Junior Maths Challenge 2011 (12)
 
 ::: problem id=3_1 marks=2
-__3.1__ If &#9650; + &#9650; = &#9724; and &#9724; + &#9650; = &#9711; and &#9670; = &#9711; + &#9724; + &#9650;, how many &#9650;s are equal to &#9670;?
+__3.1__ If &#9650; + &#9650; = &#9723; and &#9723; + &#9650; = &#9711; and &#9670; = &#9711; + &#9723; + &#9650;, how many &#9650;s are equal to &#9670;?
 
 * [ ] 2
 * [ ] 3
@@ -144,22 +145,26 @@ Hang on! BAT is encoded as CAM, but BAG is also encoded as CAM. How can two diff
 
 The problem arises because there are two ways of encoding something into M:
 
-__1)__ G = 6  |  2 x 6 = 12  | |  __12 = M__  
-__2)__ T = 19  |  2 x 19 = 38  |  38 – 26 = 12  |  __12 = M__  
+| G = 6  |  2 x 6 = 12  | |  __12 = M__  |
+| T = 19  |  2 x 19 = 38  |  38 – 26 = 12  |  __12 = M__  |
 {.grid}
 
 Actually, there are two ways of encoding into every letter. For example,  
 
-__1)__ A = 0  |  2 x 0 = 0  | |  __0 = A__  
-__2)__ N = 13  |  2 x 13 = 26  |  26 – 26 = 0  |  __0 = A__  
+| A = 0  |  2 x 0 = 0  | |  __0 = A__  |
+| N  = 13  |  2 x 13 = 26  |  26 – 26 = 0  |  __0 = A__  |
 {.grid}
 
-__1)__ B = 1  |  2 x 1 = 2  | |  __2 = C__  
-__2)__ O = 14  |  2 x 14 = 28  |  28 – 26 = 2  |  __2 = C__  
+And:  
+
+| B = 1  |  2 x 1 = 2  | |  __2 = C__  |
+| O = 14  |  2 x 14 = 28  |  28 – 26 = 2  |  __2 = C__  |
 {.grid}
 
-__1)__ C = 2  |  2 x 2 = 4  | |  __4 = E__  
-__2)__ P = 15  |  2 x 15 = 30  |  30 – 26 = 4  |  __4 = E__
+And:  
+
+| C = 2  |  2 x 2 = 4  | |  __4 = E__  |
+| P = 15  |  2 x 15 = 30  |  30 – 26 = 4  |  __4 = E__ |
 {.grid}
 
 There is a pattern here. The two letters that are encoded in the same way (A & N), (B & O), (C & P) are all 13 letters apart. Why 13? Well, we are multiplying by 2 and there are 26 letters in the alphabet, and 26/2 = 13.
@@ -191,11 +196,11 @@ By the way, the notion that encoded numbers must be between 0 and 25 is called m
 ::: problem id=5_1 marks=5
 __5.1.__ If we are encoding by multiplying by 5, what do the following letters become?
 
-The letter __A__ becomes <input type="text" solution="A"/>
-The letter __B__ becomes <input type="text" solution="F"/>
-The letter __D__ becomes <input type="text" solution="P"/>
-The letter __G__ becomes <input type="text" solution="E"/>
-The letter __M__ becomes <input type="text" solution="I"/>
+The letter __A__ becomes <input type="text" solution="A"/>  
+The letter __B__ becomes <input type="text" solution="F"/>  
+The letter __D__ becomes <input type="text" solution="P"/>  
+The letter __G__ becomes <input type="text" solution="E"/>  
+The letter __M__ becomes <input type="text" solution="I"/>  
 
 :::
 
