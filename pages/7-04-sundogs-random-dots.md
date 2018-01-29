@@ -45,13 +45,13 @@ __1.1__ What shape is this second quadrilateral? Make sure you spell it correctl
 <input type="text" solution="Parallelogram"/>
 
 ---
-![](/resources/7-04-sundogs-random-dots/1-mathematical-image.png){style="width:400px"}
+![](/resources/7-04-sundogs-random-dots/1-mathematical-image.png)
 
 The reason for the pretty mathematical image above is that I wanted to create a buffer between the question and the answer... which I am now about to tell you.
 
 If you followed the instructions above, you should have ended up with a parallelogram. I find it shocking that you can start with four random dots and then end up with a perfect parallelogram, as shown here.
 
-![](/resources/7-04-sundogs-random-dots/1-mathematical-image.png){image align="center"}
+![](/resources/7-04-sundogs-random-dots/1-parallelogram-diagram){image align="center"}
 
 You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html). You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
 :::
@@ -73,7 +73,7 @@ There is a different Astronomy Picture of the Day each day, so visit regularly i
 ## 3. Junior Maths Challenge 2011 (12)
 
 ::: problem id=3_1 marks=2
-__3.1__ If &#9650; + &#9650; = &#9726; and &#9726; + &#9650; = &#9679; and &#9670; = &#9679; + &#9726; + &#9650;, how many &#9650;s are equal to &#9670;?
+__3.1__ If &#9650; + &#9650; = &#9724; and &#9724; + &#9650; = &#9711; and &#9670; = &#9711; + &#9724; + &#9650;, how many &#9650;s are equal to &#9670;?
 
 * [ ] 2
 * [ ] 3
@@ -83,11 +83,11 @@ __3.1__ If &#9650; + &#9650; = &#9726; and &#9726; + &#9650; = &#9679; and &#967
 
 ---
 
-We have that &#9726; = &#9650; + &#9650; (1), and &#9679; = &#9726; + &#9650; (2). Substituting from (1) into (2) gives:  
+We have that &#9723; = &#9650; + &#9650; (1), and &#9711; = &#9723; + &#9650; (2). Substituting from (1) into (2) gives:  
 
-&#9679; = &#9650; + &#9650; + &#9650;.  
+&#9711; = &#9650; + &#9650; + &#9650;.  
 
-Hence from &#9670; = &#9679; + &#9726; + &#9650;, we deduce that:  
+Hence from &#9670; = &#9711; + &#9723; + &#9650;, we deduce that:  
 
 &#9670; = (&#9650; + &#9650; + &#9650;) + (&#9650; + &#9650;) + &#9650;.  
 
@@ -105,7 +105,7 @@ __4.1__ John’s mother had three children. The first was named April and the se
 
 ---
 
-The natural inclination is to continue the sequence – April, May and … June. But read the question carefully, because it starts with “John’s mother had three children...”, so John is one of the children, so John must be the answer.
+The natural inclination is to continue the sequence – April, May and... June. But read the question carefully, because it starts with “John’s mother had three children...”, so John is one of the children, so John must be the answer.
 
 :::
 
@@ -128,52 +128,57 @@ Perhaps you are already asking the following question: instead of adding a numbe
 
 Let’s give it a go and find out what happens.  
 
-Let’s encode the word BAT by multiplying by __2__. BAT is first turned into the numbers 1¦0¦19.  
+Let’s encode the word BAT by multiplying by 2. BAT is first turned into the numbers 1¦0¦19.  
 
-If we multiply each number by __2__, then the result is 2¦0¦38, but we don’t allow numbers bigger than 25, because our alphabet only stretches from 0 to 25. Therefore, we subtract 26 from 38, and the result is 2¦0¦12, which translates to the letters CAM.  
+If we multiply each number by 2, then the result is 2¦0¦38, but we don’t allow numbers bigger than 25, because our alphabet only stretches from 0 to 25. Therefore, we subtract 26 from 38, and the result is 2¦0¦12, which translates to the letters CAM.  
 
-__BAT is encoded as CAM.__  
+__BAT is encoded as CAM.__{.text-center}  
 
-So far, so good. Now let’s encode the letters of the word BAG by multiplying by [2]. BAG is first turned into the numbers 1¦0¦6.  
+So far, so good. Now let’s encode the letters of the word BAG by multiplying by 2. BAG is first turned into the numbers 1¦0¦6.  
 
-If we multiply each number by [2], then the result is 2¦0¦12, which translates to the letters CAM.  
+If we multiply each number by 2, then the result is 2¦0¦12, which translates to the letters CAM.  
 
-__BAG is encoded as CAM.__  
+__BAG is encoded as CAM.__{.text-center}  
 
 Hang on! BAT is encoded as CAM, but BAG is also encoded as CAM. How can two different words be encoded into the same word? This is a serious problem. If someone sent you the coded word CAM, then you would not know if they meant BAT or BAG.  
 
 The problem arises because there are two ways of encoding something into M:
 
-1. G = 6,	  2 x 6 = 12, 			12 = M  
-2. T = 19,	2 x 19 = 38,	38 – 26 = 12,	12 = M  
+__1)__ G = 6  |  2 x 6 = 12  | |  __12 = M__  
+__2)__ T = 19  |  2 x 19 = 38  |  38 – 26 = 12  |  __12 = M__  
+{.grid}
 
 Actually, there are two ways of encoding into every letter. For example,  
 
-1. A = 0,	2 x 0 = 0, 			0 = A  
-2. N = 13,	2 x 13 = 26,	26 – 26 = 0,	0 = A  
+__1)__ A = 0  |  2 x 0 = 0  | |  __0 = A__  
+__2)__ N = 13  |  2 x 13 = 26  |  26 – 26 = 0  |  __0 = A__  
+{.grid}
 
-1. B = 1,	2 x 1 = 2, 			2 = C  
-2. O = 14,	2 x 14 = 28,	28 – 26 = 2,	2 = C  
+__1)__ B = 1  |  2 x 1 = 2  | |  __2 = C__  
+__2)__ O = 14  |  2 x 14 = 28  |  28 – 26 = 2  |  __2 = C__  
+{.grid}
 
-1. C = 2,	2 x 2 = 4, 			4 = E  
-2. P = 15,	2 x 15 = 30,	30 – 26 = 4,	4 = E  
+__1)__ C = 2  |  2 x 2 = 4  | |  __4 = E__  
+__2)__ P = 15  |  2 x 15 = 30  |  30 – 26 = 4  |  __4 = E__
+{.grid}
 
-There is a pattern here. The two letters that are encoded in the same way (A & N), (B & O), (C & P) are all 13 letters apart. Why 13? Well, we are multiplying by [2] and there are 26 letters in the alphabet, and 26/2 = 13.
+There is a pattern here. The two letters that are encoded in the same way (A & N), (B & O), (C & P) are all 13 letters apart. Why 13? Well, we are multiplying by 2 and there are 26 letters in the alphabet, and 26/2 = 13.
 
-The problem of different letters being encoded in the same way arises because we are multiplying by [2], and 2 is factor of 26, which is the size of our alphabet.
+The problem of different letters being encoded in the same way arises because we are multiplying by 2, and 2 is factor of 26, which is the size of our alphabet.
 
-A similar problem would arise if we were multiplying by [13], because 13 is a factor of 26. This time the problem is much worse, because A, C, E, G,…. are all encoded in the same way and become A.  
+A similar problem would arise if we were multiplying by 13, because 13 is a factor of 26. This time the problem is much worse, because A, C, E, G,…. are all encoded in the same way and become A.  
 
-A = 0,	13 x 0 = 0, 				0 = A  
-C = 2,	13 x 2 = 26,	26 – 26 = 0,		0 = A  
-E = 4,	13 x 4 = 52,	52 – 26 – 26 = 0,	0 = A  
-G = 6,	13 x 6 = 78, 	78 – 26 – 26 – 26 = 0,	0 = A  
+A = 0  |  13 x 0 = 0  | |  __0 = A__  
+C = 2  |  13 x 2 = 26  |  26 – 26 = 0  |  __0 = A__  
+E = 4  |  13 x 4 = 52  |  52 – 26 – 26 = 0  |  __0 = A__  
+G = 6  |  13 x 6 = 78  |  78 – 26 – 26 – 26 = 0  |  __0 = A__  
+{.grid}
 
 Also, B, D, F, H,... are all encoded in the same way and become N.  
 
-__Everything in this section is probably new maths to you, or at least applied in a new way, so don’t worry if you are a bit confused. If you are a bit confused, then just read this section again – slowly –  and try to make sense of it. Then have a go at the questions below.  
+Everything in this section is probably new maths to you, or at least applied in a new way, so don’t worry if you are a bit confused. If you are a bit confused, then just read this section again – slowly –  and try to make sense of it. Then have a go at the questions below.
 
-By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 2](/7-02-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 MOD (26).__
+By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 2](/7-02-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 MOD (26).
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -205,9 +210,9 @@ __5.2.__ The word "OK" is encoded as:
 
 ---
 
-O = 14, and 5 x 14 = 70, which is bigger than 26 so we have start subtracting 26s to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and 18 is the letter S.  
+O = 14, and 5 x 14 = 70, which is bigger than 26 so we have start subtracting 26s to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
 
-K = 10, and 5 x 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and 24 is the letter Y.
+K = 10, and 5 x 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and __24 is the letter Y__.
 
 :::
 
@@ -254,15 +259,12 @@ The answer is 5, because the Albanian alphabet has 36 letters, and all the other
 ::: problem id=5_5 marks=2
 __5.5.__ Consider the following 8 alphabets, listed with the numbers of letters that each contains. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic:
 
-* Thai - 70		
-* Abkhaz - 41
-* Sinhala - 54 		
-* Albanian - 36
-* Bangla - 52		
-* Russian - 33
-* Hungarian - 44 		
-* English - 26
-{.col-2}
+| Thai - 70  |  Abkhaz - 41  |
+| Sinhala - 54  |  Albanian - 36  |
+| Bangla - 52  |  Russian - 33  |
+| Hungarian - 44  |  English - 26  |
+{.grid}
+
 
 * [ ] 0
 * [ ] 1
@@ -286,7 +288,7 @@ __5.6.__ Which of the eight alphabets above would allow me to multiply by almost
 * [ ] Thai
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=2
 Alphabets with a prime number of letters are generally good, because prime numbers have no factors apart from 1 and the number itself.
 ^^^
 
@@ -300,9 +302,9 @@ Abkhaz with 41 letters has a prime number or letters, so you could multiply by a
 
 Take a look at this.
 
-@[youtube](AfZDwDE1yr8?rel=0)
+@[youtube](-dh7COSiB7g?rel=0)
 
-How did “Magdalen-Binnie” work it out so quickly?  
+How did “Magdalen - Binnie” work it out so quickly?  
 
 As he mentions at the end, it’s all down to modular arithmetic, which is something we’ve been using to work out some of the answers to do with codes over the last week or two.  
 

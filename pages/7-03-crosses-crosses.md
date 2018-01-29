@@ -213,7 +213,7 @@ adding.
 
 A word has been encoded by adding 15 and the result is RDL. To decode it, turn
 the encoded word into numbers, which is 17¦3¦11, then subtract 15, which turns
-it into 2¦(-12)¦(-4). The problem is that neither (-12) nor (-4) are not in our
+it into 2¦-12¦-4. The problem is that neither -12 nor -4 are not in our
 range of 0-25, so we add 26 so that -12 becomes +14, and -4 becomes +22. So now
 we have 2¦14¦22, which is the word COW.
 
@@ -312,7 +312,7 @@ method in order to prepare for the harder questions.
 
 With 5.4 and 5.5, the tricky step is dealing with the correct answer to 5.4,
 which is 5¦11¦-2. The allowable range is 0 to 25, so we have to add 26
-to (-2) to get 24. So we are now dealing with 5-11-24, which is FLY.
+to -2 to get 24. So we are now dealing with 5-11-24, which is FLY.
 
 Step 5.6 requires you to subtract 2,622, which leaves you with three large
 negative numbers, namely:

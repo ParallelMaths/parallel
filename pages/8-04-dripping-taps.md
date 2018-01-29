@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 4_ A flag of flags
+# _Year 8 • Parallelogram 4_ Dripping Taps
 
 <div class="dictionary">
 
@@ -34,7 +34,7 @@ when the answer sheet appears.
 
 Here is a mathematics question that appeared on the highbrow BBC quiz “University Challenge”.
 
-@[youtube](htSelWtA_1?rel=0&end=278)
+@[youtube](htSeIWtA_1I?rel=0&end=26)
 
 ::: problem id=1_1 marks=2
 __1.1.__ A tap leaks 1 ml of water every second. How many 10 L buckets would it fill in a day?
@@ -50,15 +50,15 @@ The number of seconds in a day is 60 × 60 × 24 = 86,400 seconds.
 This means the tap drips 86,400 ml, or 86.4 litres, or enough to fill 8 buckets of 10 litres each.  
 
 The answer is 8 buckets.
-
+:::
 
 ## 2. An eclipse seen from space
 
-I have been lucky enough to see five total solar eclipses, in America, the Faroes, Zambia, Libya and... Devon. But I have never seen one from space.
+I have been lucky enough to see five total solar eclipses: in America, the Faroes, Zambia, Libya and... Devon. But I have never seen one from space.
 
-![](/resources/8-04-dripping-taps/2-eclipse-space.jpg){style="width:400px"}
+![](/resources/8-04-dripping-taps/2-eclipse-space.jpg)
 
-I spotted this image on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap180101.html){target="_blank"}.. There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.  
+I spotted this image on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap180101.html){target="_blank"}. There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.  
 
 According to the NASA website:  
 
@@ -67,7 +67,7 @@ _“Here is what the Earth looks like during a solar eclipse. The shadow of the 
 
 ## 3. Junior Maths Challenge 2011 (11)
 
-::: problem id=3_1 marks=5
+::: problem id=3 marks=5
 
 ![](/resources/8-04-dripping-taps/3-angles-question.png){image align="right"}
 __3.1.__  The diagram shows an equilateral triangle inside a rectangle.  
@@ -81,7 +81,6 @@ What is the value of x + y?
 * [ ] 90
 
 ^^^ hint id=1
-
 ![](/resources/8-04-dripping-taps/3-angles-hint.png){image align="right"}
 Notice that x and y are two of the internal angles of a pentagon.
 ^^^
@@ -101,11 +100,18 @@ You know that two of the angles in the pentagon are right angles.
 ---
 
 ![](/resources/8-04-dripping-taps/3-angles-answer.png){image align="right"}
-This is touch question. Well done if you did it without hints. There are a couple of ways to find the value of x + y degrees, but here is the neatest method.
+This is touch question. Well done if you did it without hints. There are a couple
+of ways to find the value of x + y degrees, but here is the neatest method.
 
 The marked angles are two angles of the pentagon PRSTQ.
 
-The angles Q and T are both 90°. The interior angles of the equilateral triangle are all 60°. Hence the angle in the pentagon at R is 300°. The sum of the angles in a pentagon is 540°. So x + y + 300 + 90 + 90 = 540. Therefore x + y = 60°.
+The angles Q and T are both 90°. The interior angles of the equilateral triangle
+are all 60°. Hence the angle in the pentagon at R is 300°. The sum of the angles
+in a pentagon is 540°.  
+
+So x + y + 300 + 90 + 90 = 540.  
+
+Therefore x + y = 60°.
 
 :::
 
@@ -115,20 +121,20 @@ The angles Q and T are both 90°. The interior angles of the equilateral triangl
 ::: problem id=4_1 marks=2
 __4.1__ What is the mean of `2/3` and `4/9`?
 
-* [ ] `1/2`  
-* [ ] `2/9`  
-* [ ] `7/9`  
-* [ ] `3/4`  
-* [x] `5/9`  
+* [ ] `1/2`
+* [ ] `2/9`
+* [ ] `7/9`
+* [ ] `3/4`
+* [x] `5/9`
  {.col-5}
 
 ---
 
 The mean of two numbers, _a_ and _b_, is the average: `1/2`(_a_+_b_).
 
-Hence the mean of `2/3` and `4/9` is
+Hence the mean of `2/3` and `4/9` is:
 
-![](/resources/8-04-dripping-taps/5-jmc-answer.png)
+![](/resources/8-04-dripping-taps/5-jmc-answer.png){image align="center"}
 
 :::
 
@@ -150,7 +156,7 @@ But why is it true? How can you prove that the second quadrilateral is always a 
 
 On the same page as the interactive graphic, if you scroll down you will find a [short proof](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. A mathematical proof is an extraordinary thing. A thing of beauty. Some are just a few lines, while others run for a hundred pages or more. Each proof is a step-by-step argument that shows why something is true or false with absolute 100% confidence. Once something is proven, then the proof remains solid for eternity.
 
-For this reason, the mathematician G. H. Hardy once wrote: “”
+For this reason, the mathematician G. H. Hardy once wrote: _“Archimedes will be remembered when Aeschylus is forgotten, because languages die and mathematical ideas do not. "Immortality" may be a silly word, but probably a mathematician has the best chance of whatever it may mean.”_
 
 This particular proof is very short, but not simple to follow. Have a go at [understanding the proof](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"} (remember to scroll down to find it), but don’t worry if it does not make complete sense.
 
@@ -176,8 +182,6 @@ Simon.
 
 ## Further Stuff
 
-* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, this video ask who is right? Brits who says MATHS or Americans who say MATH?  
-@[youtube](XPIgR89jv3Q?rel=0)
+* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video ask who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0){target="_blank"}
 
-* And this video, by Matt Parker, shows you how mathematicians tie their shoelaces. I don’t think it is part of the GCSE curriculum yet, but you will need to know about the maths of tying shoe laces for A Level, so it is worth learning the technique now.
-@[youtube](XPIgR89jv3Q?rel=0)
+* And this video, by Matt Parker, [shows you how mathematicians tie their shoelaces](https://www.youtube.com/watch?v=XPIgR89jv3Q){target="_blank"}. I don’t think it is part of the GCSE curriculum yet, but you will need to know about the maths of tying shoe laces for A Level, so it is worth learning the technique now.

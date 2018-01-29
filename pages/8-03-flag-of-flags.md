@@ -69,7 +69,6 @@ What is the ratio of the length of the perimeter of the square to the length of 
 * [ ] 5:8
 * [ ] 1:2
 * [ ] 1:1
-{.col-5}
 
 ---
 

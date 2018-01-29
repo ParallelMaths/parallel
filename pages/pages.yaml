@@ -1,4 +1,9 @@
 year7:
+  - week: 4
+    url: 7-04-sundogs-random-dots
+    title: Sundogs and Random Dots
+    available: 2018-02-09T16:00:00
+    deadline: 2018-02-11T19:00:00
   - week: 3
     url: 7-03-crosses-crosses
     title: Crosses and Crosses
@@ -16,6 +21,11 @@ year7:
     deadline: 2018-01-21T19:00:00
 
 year8:
+  - week: 4
+    url: 8-04-dripping-taps
+    title: Sundogs and Random Dots
+    available: 2018-02-09T16:00:00
+    deadline: 2018-02-11T19:00:00
   - week: 3
     url: 8-03-flag-of-flags
     title: A flag of flags
