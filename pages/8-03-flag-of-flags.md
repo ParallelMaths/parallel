@@ -98,7 +98,7 @@ __3.1.__  What is the smallest possible difference between two different 9-digit
 
 ---
 
-Let x and y be two different numbers each made up of the digits 1, 2, 3, 4, 5, 6, 7, 8 and 9, with x > y . To make x - y as small as possible, it would be best if they differed just in the units digit, but, clearly, this is not possible. So we aim to find x and y which are the same except for their tens and units digits. These could be 21 and 12, for example with x = 987654321 and y = 987654312. This gives x-y=9.
+Let x and y be two different numbers each made up of the digits 1, 2, 3, 4, 5, 6, 7, 8 and 9, with x > y . To make x - y as small as possible, it would be best if they differed just in the units digit, but, clearly, this is not possible. So we aim to find x and y which are the same except for their tens and units digits. These could be 21 and 12, for example with x = 987654321 and y = 987654312. This gives x - y = 9.
 
 Can we do any better? We now use the fact we've seen before, that the remainder when a positive integer is divided by 9 is equal to the remainder when the sum of its digits is divisible by 9, to show we cannot get a smaller difference.
 
@@ -152,9 +152,9 @@ Next, here is the flag of Norway with a black rectangle showing how it contains 
 Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html){target="_blank"}.
 
 ::: problem id=5_1 marks=1
-__5.1__ Which of these flags is contained in the Norway flag?
-
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
+__5.1__ Which of these flags is contained in the Norway flag?
 
 * [ ] Iceland
 * [x] Indonesia
@@ -164,21 +164,21 @@ __5.1__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_2 marks=1
-__5.2__ Which of these flags is contained in the Norway flag?
-
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
+__5.2__ Which of these flags is contained in the Norway flag?
 
 * [ ] Nepal
 * [x] Poland
 * [ ] Reunion
 * [ ] Romania
-* [ ] Russia Federation
+* [ ] Russian Federation
 :::
 
 ::: problem id=5_3 marks=1
-__5.3__ Which of these flags is contained in the Norway flag?
-
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
+__5.3__ Which of these flags is contained in the Norway flag?
 
 * [ ] Denmark
 * [ ] Dominican Republic
@@ -188,9 +188,9 @@ __5.3__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_4 marks=1
-__5.4__ Which of these flags is contained in the Norway flag?
-
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
+__5.4__ Which of these flags is contained in the Norway flag?
 
 * [ ] Sweden
 * [ ] Austria
@@ -200,9 +200,9 @@ __5.4__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_5 marks=1
-__5.5__ Which of these flags is contained in the Norway flag?
-
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+
+__5.5__ Which of these flags is contained in the Norway flag?
 
 * [ ] USA
 * [ ] UK

@@ -34,7 +34,7 @@ when the answer sheet appears.
 
 ## 1. Junior Maths Challenge 2011 (2e)
 
-The Junior Maths Challenge is a national maths competition run the UK Maths
+The Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you might be entering this year. Ask your teacher, and he or
 she will know whether you or your class will be entering. Each week, the
 Parallelograms will contain one or two Challenge questions from the tests given
@@ -132,7 +132,7 @@ In this Parallelogram, we have a video that looks at one of the simplest games:
 noughts and crosses (or tic-tac-toe as it is known in some countries).
 If you have half a brain, then you will know how to play noughts and crosses
 and never lose (and sometimes win if you are playing against a 5-year-old). So,
-this video looks what happens if you change the rules. Professor Thane Plambeck
+this video looks at what happens if you change the rules. Professor Thane Plambeck
 shows you how to become world champion at a version that only involves crosses.
 
 Watch it carefully, pause it if necessary and think about it carefully. If you
@@ -144,7 +144,7 @@ remember to answer the question below.
 
 ::: problem id=3_1 marks=2
 __3.1__ In the Misere version of crosses and crosses, if you really want to
-win, then start in the centre and then make a move that is more usual in chess.
+win, you can start in the centre and then make a move that is more usual in chess.
 Which move is it?
 
 * [ ] Pawn move
@@ -213,7 +213,7 @@ adding.
 
 A word has been encoded by adding 15 and the result is RDL. To decode it, turn
 the encoded word into numbers, which is 17¦3¦11, then subtract 15, which turns
-it into 2¦-12¦-4. The problem is that neither -12 nor -4 are not in our
+it into 2¦-12¦-4. The problem is that neither -12 nor -4 are in our
 range of 0-25, so we add 26 so that -12 becomes +14, and -4 becomes +22. So now
 we have 2¦14¦22, which is the word COW.
 

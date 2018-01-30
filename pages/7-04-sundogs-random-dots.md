@@ -232,9 +232,9 @@ __5.3.__ The Thai alphabet has 70 letters. If I am encoding a message in Thai by
 
 * [ ] 5
 * [ ] 6
-* [x] 7
+* [ ] 7
 * [ ] 8
-* [ ] 9
+* [x] 9
 
 ^^^ hint id=1
 Remember the gold rule: you can multiply by any numbers __“as long as the number has no factors in common with the size of the alphabet that you are using.”__
@@ -251,8 +251,8 @@ __5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Alb
 
 * [ ] 2
 * [ ] 3
-* [x] 4
-* [ ] 5
+* [ ] 4
+* [x] 5
 * [ ] 6
 
 ---
@@ -286,9 +286,9 @@ The answer is 2, because English has 26 letters, and 13 is a factor of 26 AND Ba
 ::: problem id=5_6 marks=2
 __5.6.__ Which of the eight alphabets above would allow me to multiply by almost any number I want?
 
-* [ ] Abkhaz
+* [x] Abkhaz
 * [ ] Russian
-* [x] Hungarian
+* [ ] Hungarian
 * [ ] English
 * [ ] Thai
 {.col-5}
