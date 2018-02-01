@@ -129,15 +129,15 @@ Perhaps you are already asking the following question: instead of adding a numbe
 
 Let’s give it a go and find out what happens.  
 
-Let’s encode the word BAT by multiplying by 2. BAT is first turned into the numbers 1¦0¦19.  
+Let’s encode the word BAT by multiplying by 2. BAT is first turned into the numbers 1 ¦ 0 ¦ 19.  
 
-If we multiply each number by 2, then the result is 2¦0¦38, but we don’t allow numbers bigger than 25, because our alphabet only stretches from 0 to 25. Therefore, we subtract 26 from 38, and the result is 2¦0¦12, which translates to the letters CAM.  
+If we multiply each number by 2, then the result is 2 ¦ 0 ¦ 38, but we don’t allow numbers bigger than 25, because our alphabet only stretches from 0 to 25. Therefore, we subtract 26 from 38, and the result is 2 ¦ 0 ¦ 12, which translates to the letters CAM.  
 
 __BAT is encoded as CAM.__{.text-center}  
 
-So far, so good. Now let’s encode the letters of the word BAG by multiplying by 2. BAG is first turned into the numbers 1¦0¦6.  
+So far, so good. Now let’s encode the letters of the word BAG by multiplying by 2. BAG is first turned into the numbers 1 ¦ 0 ¦ 6.  
 
-If we multiply each number by 2, then the result is 2¦0¦12, which translates to the letters CAM.  
+If we multiply each number by 2, then the result is 2 ¦ 0 ¦ 12, which translates to the letters CAM.  
 
 __BAG is encoded as CAM.__{.text-center}  
 
