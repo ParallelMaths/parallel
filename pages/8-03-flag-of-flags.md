@@ -80,7 +80,7 @@ Each rectangle has size 3d x d. So we see that the octagon has a perimeter lengt
 
 4d + 3d + 4d + d + 3d + d + 3d + d = 20d
 
-Hence ratio of the lengths is 12d:20d = 3:5
+Hence the ratio of the lengths is 12d:20d = 3:5
 :::
 
 
@@ -100,9 +100,9 @@ __3.1.__  What is the smallest possible difference between two different 9-digit
 
 Let x and y be two different numbers each made up of the digits 1, 2, 3, 4, 5, 6, 7, 8 and 9, with x > y . To make x - y as small as possible, it would be best if they differed just in the units digit, but, clearly, this is not possible. So we aim to find x and y which are the same except for their tens and units digits. These could be 21 and 12, for example with x = 987654321 and y = 987654312. This gives x - y = 9.
 
-Can we do any better? We now use the fact we've seen before, that the remainder when a positive integer is divided by 9 is equal to the remainder when the sum of its digits is divisible by 9, to show we cannot get a smaller difference.
+Can we do any better? We now use a fact we've seen before, that the remainder when a positive integer is divided by 9 is equal to the remainder when the sum of its digits is divisible by 9, to show we cannot get a smaller difference.
 
-As x and y are made up of the same digits which add up to 45, they have the remainder 0 when we divide them by 9. So x - y also has remainder 0 when we divide by 9. So, as x ≠ y , 9 is the least possible value for x - y .
+As x and y are made up of the same digits, which add up to 45, they have the remainder 0 when we divide them by 9. So x - y also has remainder 0 when we divide by 9. So, as x ≠ y , 9 is the least possible value for x - y .
 
 :::
 
@@ -149,7 +149,7 @@ Next, here is the flag of Norway with a black rectangle showing how it contains 
 
 ![](/resources/8-03-flag-of-flags/8-norway.jpg)
 
-Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html){target="_blank"}.
+Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might want to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html){target="_blank"}.
 
 ::: problem id=5_1 marks=1
 ![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
@@ -194,7 +194,7 @@ __5.4__ Which of these flags is contained in the Norway flag?
 
 * [ ] Sweden
 * [ ] Austria
-* [ ] Bouvet Island
+* [ ] Faroe Islands
 * [x] France
 * [ ] Yemen
 :::
@@ -221,7 +221,7 @@ America’s most famous comedy double-acts.
 
 Listen carefully and see if you can work out why the maths is fundamentally
 wrong, and how Abbot is conning Costello. It might help to know that "dime" is
-the nickname for a 10 cents coin. Also, answer the question below.
+the nickname for a 10 cent coin. Also, answer the question below.
 
 (BTW, visit the Find Out More section below for a link to the most famous and
 funniest of all the sketches by Abbott and Costello.)
@@ -244,8 +244,8 @@ to the website on Friday for the next one.
 
 In the meantime, you can find the answers and go through the answer sheet after
 7pm on Sunday. This is really important. Seriously important. What you got
-right is much less important that what you got wrong, because where you went
-wrong provides you with an opportunity to learn something knew.
+right is much less important than what you got wrong, because where you went
+wrong provides you with an opportunity to learn something new.
 
 First... Remember to hit the SUBMIT button below, so that we can mark your
 answers.
@@ -270,6 +270,6 @@ This is a video presented by James Grime for the Numberphile channel. It is all
 about the world’s most mathematical flag:
 @[youtube](f2Gne3UHKHs?start=21&rel=0)
 
-You can find lots of other Numberphile video by just googling – Numberphile
-means “someone who loves numbers”, so if you love maths then it is the channel
-for you.
+You can find lots of other Numberphile videos by just googling
+Numberphile. "Numberphile" means “someone who loves numbers”, so if
+you love maths then it is the channel for you.

@@ -20,7 +20,7 @@ Before I sign off, you might wonder who is writing this email. When I was your a
 
 <img class="img-right" src="/images/simpsons.png" width=160 height=280/>
 
-My parents grew up in India in the 1930s and did not have a proper education (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
+My parents grew up in India in the 1930s and did not have a proper education (and mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around with antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating Parallel maths challenges for you.
 
 Cheerio,  
 Dr Singh

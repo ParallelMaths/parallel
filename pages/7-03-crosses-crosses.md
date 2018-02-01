@@ -14,7 +14,7 @@ __Origin__: late 16th century: from French parallélogramme, via late Latin from
 
 </div>
 
-Welcome to this week's Parallelograms designed for Year 7 students, a
+Welcome to this week's Parallelogram designed for Year 7 students, a
 collection of mathematical challenges designed to stretch your brain and make
 your neurons more squiggly.
 
@@ -52,7 +52,7 @@ You should know that there is an easy test to see if a number is divisible
 by 9. If the sum of the digits is divisible by 9, then the actual number is
 also divisible by 9. Anything left over is the remainder.
 
-152 is not divisible by 9, because 1+5+2=8, which obviously is not divisible
+152 is not divisible by 9, because 1 + 5 + 2 = 8, which obviously is not divisible
 by 9. But this does tell us the remainder: 8.
 :::
 
@@ -64,10 +64,10 @@ __1.2__ 9,876,543,210
 ---
 9,876,543,210 is divisible by 9, because the digits add up to 45 which is
 divisible by 9 (as well as knowing our times tables, we know 45 is divisible by
-9 because 4+5=9).
+9 because 4 + 5 = 9).
 
 You might have noticed that the digits in this number can also be paired, so
-that each pair adds up to 9 (9+0, 8+1, 7+2, 6+3, 5+4), so all the digits must
+that each pair adds up to 9 (9 + 0, 8 + 1, 7 + 2, 6 + 3, 5 + 4), so all the digits must
 add up to a multiple of 9.
 :::
 
@@ -85,8 +85,8 @@ __1.4__ 555...555, which is 5 written out 2011 times in a row
 
 ---
 It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x
-2,011, or 10,055. Is that divisible by 9? Well, 1+0+0+5+5=11, so it is not
-divisible by 9, and because 1+1=2, the remainder is 2.
+2,011, or 10,055. Is that divisible by 9? Well, 1 + 0 + 0 + 5 + 5 = 11, so it is not
+divisible by 9, and because 1 + 1 = 2, the remainder is 2.
 :::
 
 ## 2. Junior Maths Challenge 2011 (3)
@@ -113,7 +113,7 @@ __2.1__ How many cells are lit in a bold ‘o’?
 The only thing to do here is to draw (or imagine) the figure corresponding to a
 bold ‘o’, and to count the number of cells that are lit.  
 
-We see that the extra cells that need to be lit are then 10 cells shown in
+We see that the extra cells that need to be lit are the 10 cells shown in
 black.  
 
 This makes 24 lit cells altogether.
@@ -121,7 +121,7 @@ This makes 24 lit cells altogether.
 :::
 
 
-## 3. Tic-tac-toe or nought and crosses
+## 3. Tic-tac-toe or noughts and crosses
 
 Mathematicians love playing games. In fact, there is a whole area of maths
 known as Game Theory, which looks at everything from Monopoly to poker to chess
@@ -195,15 +195,15 @@ turning the new number back into a letter.
 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 {.grid}
 
-So, if we want to encode the word CAT by (+2), then CAT is 2¦0¦19, adding 2
-turns it into 4¦2¦21, which means CAT is encoded as ECV.
+So, if we want to encode the word CAT by (+2), then CAT is 2 ¦ 0 ¦ 19, adding 2
+turns it into 4 ¦ 2 ¦ 21, which means CAT is encoded as ECV.
 
-If, we encode by (+10), then CAT is 2¦0¦19, adding 10 turns it into 12¦10¦29.
+If we encode by (+10), then because CAT is 2 ¦ 0 ¦ 19, adding 10 turns it into 12 ¦ 10 ¦ 29.
 The number 29 is tricky, because no letter is associated with 29, so last week
 we talked about modulo arithmetic. In this case, modulo (26), if we have a
 number that is outside our range of 0 to 25, then we add or subtract 26 again
-and again until we are within the range of 0 to 25. This means that 12¦10¦29
-becomes 12¦10¦3, which means CAT is encoded as MKD.
+and again until we are within the range of 0 to 25. This means that 12 ¦ 10 ¦ 29
+becomes 12 ¦ 10 ¦ 3, which means CAT is encoded as MKD.
 
 If you need to revise this, then go back and look at the
 [previous Paralellogram](/7-02-marie-curie){target="_blank"}.
@@ -212,10 +212,10 @@ But what about __decoding__? You can decode a word by subtracting, instead of
 adding.
 
 A word has been encoded by adding 15 and the result is RDL. To decode it, turn
-the encoded word into numbers, which is 17¦3¦11, then subtract 15, which turns
-it into 2¦-12¦-4. The problem is that neither -12 nor -4 are in our
+the encoded word into numbers, which is 17 ¦ 3 ¦ 11, then subtract 15, which turns
+it into 2 ¦ -12 ¦ -4. The problem is that neither -12 nor -4 are in our
 range of 0-25, so we add 26 so that -12 becomes +14, and -4 becomes +22. So now
-we have 2¦14¦22, which is the word COW.
+we have 2 ¦ 14 ¦ 22, which is the word COW.
 
 Now try these decoding challenges.
 
@@ -231,9 +231,9 @@ Now try these decoding challenges.
 __5.1.__ CBU is the result after a word was encoded with +1. First, turn CBU
 into numbers.
 
-* [ ] 3¦2¦21
-* [x] 2¦1¦20
-* [ ] 1¦0¦19
+* [ ] 3 ¦ 2 ¦ 21
+* [x] 2 ¦ 1 ¦ 20
+* [ ] 1 ¦ 0 ¦ 19
 
 :::
 
@@ -241,9 +241,9 @@ into numbers.
 __5.2.__ Next, if you apply the correct decoding mathematical step, the result
 is:
 
-* [ ] 2¦1¦20
-* [x] 1¦0¦19
-* [ ] 0¦25¦18
+* [ ] 2 ¦ 1 ¦ 20
+* [x] 1 ¦ 0 ¦ 19
+* [ ] 0 ¦ 25 ¦ 18
 :::
 
 ::: problem id=5_3 marks=1
@@ -256,12 +256,12 @@ Answer: BAT
 :::
 
 ::: problem id=5_4 marks=1
-__5.4.__ NTG was encoded with +8. If we turn NTG into numbers we get 13-19-6.
+__5.4.__ NTG was encoded with +8. If we turn NTG into numbers we get 13 ¦ 19 ¦ 6.
 Next, if you apply the correct decoding mathematical step, the result is:
 
-* [ ] 18¦27¦14
-* [ ] 10¦19¦6
-* [x] 5¦11¦-2
+* [ ] 18 ¦ 27 ¦ 14
+* [ ] 10 ¦ 19 ¦ 6
+* [x] 5 ¦ 11 ¦ -2
 
 :::
 
@@ -278,9 +278,9 @@ Answer: FLY
 __5.6.__ BKT was encoded with +2,622. Turn BKT into a number, and apply the
 correct decoding mathematical step (subtract 2,622) to get:
 
-* [ ] -5¦8¦25
-* [x] -2,621¦-2,612¦-2,603
-* [ ] 2,623¦2,632¦2,641
+* [ ] -5 ¦ 8 ¦ 25
+* [x] -2,621 ¦ -2,612 ¦ -2,603
+* [ ] 2,623 ¦ 2,632 ¦ 2,641
 :::
 
 ::: problem id=5_7 marks=2
@@ -289,12 +289,12 @@ range of 0 to 25, so you will need to take any problematic numbers and add or
 subtract 26 again and again (is there a quick way to do this?), until they fall
 within the right range. What is your result?
 
-* [ ] 21¦8¦25
-* [ ] 6¦8¦26
-* [x] 5¦14¦23
-* [ ] 23¦6¦15
-* [ ] 6¦1¦18
-* [ ] 18¦8¦13
+* [ ] 21 ¦ 8 ¦ 25
+* [ ] 6 ¦ 8 ¦ 26
+* [x] 5 ¦ 14 ¦ 23
+* [ ] 23 ¦ 6 ¦ 15
+* [ ] 6 ¦ 1 ¦ 18
+* [ ] 18 ¦ 8 ¦ 13
 
 :::
 
@@ -311,15 +311,15 @@ mathematical step. However, it is important to understand the step-by-step
 method in order to prepare for the harder questions.
 
 With 5.4 and 5.5, the tricky step is dealing with the correct answer to 5.4,
-which is 5¦11¦-2. The allowable range is 0 to 25, so we have to add 26
-to -2 to get 24. So we are now dealing with 5-11-24, which is FLY.
+which is 5 ¦ 11 ¦ -2. The allowable range is 0 to 25, so we have to add 26
+to -2 to get 24. So we are now dealing with 5 ¦ 11 ¦ 24, which is FLY.
 
 Step 5.6 requires you to subtract 2,622, which leaves you with three large
 negative numbers, namely:
 
--2,621¦-2,612¦-2,603{.text-center}  
+-2,621 ¦ -2,612 ¦ -2,603{.text-center}  
 
-You could try adding 26 again and again, but the short cut is to spot that these numbers are close to -2,600, which is -100 x 26. So we can jump to trying to deal with -21¦-12¦-3. Add 26 to these and we get 5¦14¦23, which is FOX.   
+You could try adding 26 again and again, but the short cut is to spot that these numbers are close to -2,600, which is -100 x 26. So we can jump to trying to deal with -21 ¦ -12 ¦ -3. Add 26 to these and we get 5 ¦ 14 ¦ 23, which is FOX.   
 
 :::
 
@@ -330,10 +330,10 @@ the last few decades he has become a champion of rationality and a debunker of
 nonsense, but he started off in show business as a magician and an escapologist.
 
 Well after becoming a pensioner, Randi was performing escapology. See if you
-can work how he escapes from ropes in the video below.
+can work out how he escapes from ropes in the video below.
 
-WARNING – do not try escapology or anything else that Randi does. This stuff is
-DANGEROUS.
+__WARNING – do not try escapology or anything else that Randi does. This stuff is
+DANGEROUS.__
 
 @[youtube](AfZDwDE1yr8?rel=0)
 
