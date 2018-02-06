@@ -78,7 +78,7 @@ function hasClass($el, name) {
 
 function calculateScore(answers) {
   const $problems = document.querySelectorAll('.problem');
-  const $hints = document.querySelectorAll('.hint');
+  const $hints = document.querySelectorAll('.show-hint');
 
   let score = 0;
   let total = 0;
@@ -110,7 +110,7 @@ function calculateScore(answers) {
   }
 
   for (let $h of $hints) {
-    score -= (+$h.dataset.marks || 0);
+    if (answers[$h.id]) score -= (+$h.dataset.marks || 1);
   }
 
   return score / total;

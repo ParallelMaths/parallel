@@ -53,7 +53,7 @@ md.use(markdwonContainer, 'hint', {
         data[split[0]] = split[1];
       }
 
-      return `<div id="hint${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-show="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
+      return `<div id="hint-${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-show="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
       <div class="hint" v-show="c.answers['hint-${data.id}']">
       <div class="hint-marks">–${data.marks || 1} mark</div>`;
     } else {
