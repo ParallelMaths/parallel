@@ -5,12 +5,7 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
-
-1. a four-sided plane rectilinear figure with opposite sides parallel.
-2. a portmanteau word combining parallel and telegram. A message containing
-   mischievous maths problems sent each week by the Parallel Project to bright
-   young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.
 
 </div>
 
@@ -22,8 +17,7 @@ A collection of mathematical challenges designed to stretch your brain.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
 *	Make sure you complete every challenge and hit the SUBMIT button.
 
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct
-  answer).
+__IMPORTANT__ – you will get points for every correct answer, but lose points if you use hints.
 
 __IMPORTANT__ – it does not really matter what score you get, the main thing is
 that you think hard about the problems... and then learn where you went wrong
@@ -37,7 +31,7 @@ Okay. Grab a pencil, paper and ruler.
 *	Make 4 random dots (or ask someone else to make them for you).
 *	Join up the dots to make a quadrilateral.
 *	Put a mark at the midpoint of each line in this first quadrilateral.
-*	Join up the four new point to make a new second quadrilateral.
+*	Join up the four new points to make a new second quadrilateral.
 
 ::: problem id=1_1 marks=2
 __1.1__ What shape is this second quadrilateral? Make sure you spell it correctly.
@@ -54,17 +48,17 @@ If you followed the instructions above, you should have ended up with a parallel
 
 ![](/resources/7-04-sundogs-random-dots/1-parallelogram-diagram.png){image align="center"}
 
-You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html). You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
+You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
 
 
 
 ## 2. Sundogs over Sweden
 
-I spotted this on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap180101.html), even though it is a video, not a picture. It shows the Sun as it was observed in Sweden in 2017.
+I spotted this on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/){target="_blank"}, even though it is a video, not a picture. It shows the Sun as it was observed in Sweden in 2017.
 
 @[youtube](6c0wTtq4xDM?rel=0)
 
-According to the NASA website, the Sun looks weird because it the air is full of ice crystals, which behave like millions of tiny lenses:
+According to the NASA website, the Sun looks weird because the air is full of ice crystals, which behave like millions of tiny lenses:
 
 _“Water may freeze in the atmosphere into small, flat, six-sided, ice crystals. As these crystals flutter to the ground, much time is spent with their faces flat and parallel to the ground. An observer may find themselves in the same plane as many of the falling ice crystals near sunrise or sunset. During this alignment, each crystal can act like a miniature lens, refracting sunlight into our view and creating phenomena like “parhelia”, the technical term for sundogs. Visible in the centre is the most direct image of the Sun, while two bright sundogs glow prominently from both the left and the right. Also visible is the bright 22-degree halo -- as well as the rarer and much fainter 46-degree halo –  also created by sunlight reflecting off of atmospheric ice crystals.”_
 
@@ -129,7 +123,7 @@ Perhaps you are already asking the following question: instead of adding a numbe
 
 Let’s give it a go and find out what happens.  
 
-Let’s encode the word BAT by multiplying by 2. BAT is first turned into the numbers 1 ¦ 0 ¦ 19.  
+Let’s encode the word BAT by multiplying by 2. First, turn BAT into numbers: 1 ¦ 0 ¦ 19.  
 
 If we multiply each number by 2, then the result is 2 ¦ 0 ¦ 38, but we don’t allow numbers bigger than 25, because our alphabet only stretches from 0 to 25. Therefore, we subtract 26 from 38, and the result is 2 ¦ 0 ¦ 12, which translates to the letters CAM.  
 
@@ -181,9 +175,9 @@ G = 6  |  13 x 6 = 78  |  78 – 26 – 26 – 26 = 0  |  __0 = A__
 
 Also, B, D, F, H,... are all encoded in the same way and become N.  
 
-Everything in this section is probably new maths to you, or at least applied in a new way, so don’t worry if you are a bit confused. If you are a bit confused, then just read this section again – slowly –  and try to make sense of it. Then have a go at the questions below.
+Everything in this section is probably new maths to you, or at least applied in a new way, so don’t worry if you are a bit baffled. If you are a bit confused, then just read this section again – slowly –  and try to make sense of it. Then have a go at the questions below.
 
-By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 2](/7-02-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 MOD (26).
+By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 2](/7-02-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 modulo (26).
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -205,7 +199,7 @@ The letter __M__ becomes <input type="text" solution="I"/>
 :::
 
 ::: problem id=5_2 marks=3
-__5.2.__ The word "OK" is encoded as:
+__5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
 
 * [ ] KO
 * [x] SY

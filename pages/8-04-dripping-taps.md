@@ -5,12 +5,7 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
-
-1. a four-sided plane rectilinear figure with opposite sides parallel.
-2. a portmanteau word combining parallel and telegram. A message containing
-   mischievous maths problems sent each week by the Parallel Project to bright
-   young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.
 
 </div>
 
@@ -22,8 +17,7 @@ A collection of mathematical challenges designed to stretch your brain.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
 *	Make sure you complete every challenge and hit the SUBMIT button.
 
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct
- answer).
+__IMPORTANT__ – you will get points for every correct answer, but lose points if you use hints.
 
 __IMPORTANT__ – it does not really matter what score you get, the main thing is
 that you think hard about the problems... and then learn where you went wrong
@@ -58,7 +52,7 @@ I have been lucky enough to see five total solar eclipses: in America, the Faroe
 
 ![](/resources/8-04-dripping-taps/2-eclipse-space.jpg)
 
-I spotted this image on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/ap180101.html){target="_blank"}. There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.  
+I spotted this image on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/){target="_blank"}. There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.  
 
 According to the NASA website:  
 
@@ -105,7 +99,7 @@ You know that two of the angles in the pentagon are right angles.
 ---
 
 ![](/resources/8-04-dripping-taps/3-angles-answer.png){image align="right"}
-This is touch question. Well done if you did it without hints. There are a couple
+This is tough question. Well done if you did it without hints. There are a couple
 of ways to find the value of x + y degrees, but here is the neatest method.
 
 The marked angles are two angles of the pentagon PRSTQ.
@@ -187,6 +181,6 @@ Simon.
 
 ## Further Stuff
 
-* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video ask who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0){target="_blank"}
+* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video asks who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0){target="_blank"}
 
 * And this video, by Matt Parker, [shows you how mathematicians tie their shoelaces](https://www.youtube.com/watch?v=XPIgR89jv3Q){target="_blank"}. I don’t think it is part of the GCSE curriculum yet, but you will need to know about the maths of tying shoe laces for A Level, so it is worth learning the technique now.

@@ -169,8 +169,8 @@ you in now?
 ---
 
 Most people say First, because it feels as if you are now better than the
-Second place person, so you might be First. But think about it for a moment and
-you will realise you are Second for all sorts of reasons:
+Second place person. But think about it for a moment and you will realise you are
+Second for all sorts of reasons:
 * If you overtook Second then you must have been in Third place, and moving up
 one place means you are now Second.
 * You are now better than the Second place person, that person has slipped back
@@ -195,13 +195,13 @@ turning the new number back into a letter.
 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 {.grid}
 
-So, if we want to encode the word CAT by (+2), then CAT is 2 ¦ 0 ¦ 19, adding 2
-turns it into 4 ¦ 2 ¦ 21, which means CAT is encoded as ECV.
+So, if we want to encode the word CAT by (+2), then CAT is 2 ¦ 0 ¦ 19, so adding
+2 transforms it into  4 ¦ 2 ¦ 21, which means CAT is encoded as ECV.
 
-If we encode by (+10), then because CAT is 2 ¦ 0 ¦ 19, adding 10 turns it into 12 ¦ 10 ¦ 29.
-The number 29 is tricky, because no letter is associated with 29, so last week
-we talked about modulo arithmetic. In this case, modulo (26), if we have a
-number that is outside our range of 0 to 25, then we add or subtract 26 again
+If we encode by (+10), then because CAT is 2 ¦ 0 ¦ 19, so adding 10 transforms it
+into 12 ¦ 10 ¦ 29. The number 29 is tricky, because no letter is associated with 29,
+so last week we talked about modulo arithmetic. In this case, modulo (26), if we
+have a number that is outside our range of 0 to 25, then we add or subtract 26 again
 and again until we are within the range of 0 to 25. This means that 12 ¦ 10 ¦ 29
 becomes 12 ¦ 10 ¦ 3, which means CAT is encoded as MKD.
 
@@ -305,7 +305,7 @@ __5.8.__ Finally, enter the three letters of your decoded word.
 
 ---
 
-The early questions (5.1 to 5.3) were easy, and some of you might have been
+The early questions (5.1 to 5.3) are easy, and some of you might have been
 able to jump straight to the answer BAT, without going through each
 mathematical step. However, it is important to understand the step-by-step
 method in order to prepare for the harder questions.
@@ -330,7 +330,7 @@ the last few decades he has become a champion of rationality and a debunker of
 nonsense, but he started off in show business as a magician and an escapologist.
 
 Well after becoming a pensioner, Randi was performing escapology. See if you
-can work out how he escapes from ropes in the video below.
+can work out how he escapes from the ropes in the video below.
 
 __WARNING – do not try escapology or anything else that Randi does. This stuff is
 DANGEROUS.__
