@@ -9,11 +9,10 @@ __Pronunciation__: /ˌparəˈlɛləɡram/
 
 </div>
 
-A collection of mathematical challenges designed to stretch your brain.  
+Here is this week's collection of mathematical challenges designed to stretch your brain.  
 
 *	Start and stop whenever you like – your work will be saved each time.
 *	But it is better to tackle each Parallelogram in one go.
-*	Complete by 7pm Sunday if your whole class is doing Parallelograms.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
 *	Make sure you complete every challenge and hit the SUBMIT button.
 
@@ -69,9 +68,9 @@ __3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle
 
 What is the value of x + y?
 
-* [x] 30
+* [ ] 30
 * [ ] 45
-* [ ] 60
+* [x] 60
 * [ ] 75
 * [ ] 90
 
@@ -146,10 +145,10 @@ Grab a pencil, paper and ruler.
 *	Make 4 random dots (or ask someone else to make them for you).
 *	Join up the dots to make a quadrilateral.
 *	Put a mark at the midpoint of each line in this first quadrilateral.
-*	Join up the four new point to make a new second quadrilateral.
+*	Join up the four new points to make a new second quadrilateral.
 * The second quadrilateral is a __parallelogram__.
 
-You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
+You can test this by playing around with the interactive graphic on this page on the [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
 
 But why is it true? How can you prove that the second quadrilateral is always a parallelogram?
 

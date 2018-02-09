@@ -9,11 +9,10 @@ __Pronunciation__: /ˌparəˈlɛləɡram/
 
 </div>
 
-A collection of mathematical challenges designed to stretch your brain.
+Here is this week's collection of mathematical challenges designed to stretch your brain.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
-*	Complete by 7pm Sunday if your whole class is doing Parallelograms.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
 *	Make sure you complete every challenge and hit the SUBMIT button.
 
@@ -34,7 +33,7 @@ Okay. Grab a pencil, paper and ruler.
 *	Join up the four new points to make a new second quadrilateral.
 
 ::: problem id=1_1 marks=2
-__1.1__ What shape is this second quadrilateral? Make sure you spell it correctly.
+__1.1__ What shape is this second quadrilateral? We are looking for a single word answer, and make sure you spell it correctly.
 
 <input type="text" solution="Parallelogram"/>
 
@@ -48,7 +47,7 @@ If you followed the instructions above, you should have ended up with a parallel
 
 ![](/resources/7-04-sundogs-random-dots/1-parallelogram-diagram.png){image align="center"}
 
-You can test this by playing around with the interactive graphic on this page on [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
+You can test this by playing around with the interactive graphic on this page on the [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
 
 
 
@@ -215,9 +214,9 @@ K = 10, and 5 x 10 = 50. To bring it within the range of 0 – 25, we work out 5
 
 :::
 
-We found that encoding by multiplying by 2 or 13 was a problem, because these numbers are both factors of 26, the size of the English alphabet. In fact, there is also a problem with multiplying by any even number, because all the even numbers have a common factor with 26, namely 2.  
+We found that encoding by multiplying by 2 or 13 was a problem, because these numbers are both factors of 26, the size of the English alphabet. In fact, there is also a problem when you multiply by any even number, because all the even numbers have a common factor with 26, namely 2.  
 
-Here is the rule if you want to encode a message by multiplying: “You can choose to multiply by any number, __as long as the number has no factors in common with the size of the alphabet that you are using.”__  
+Here is the rule if you want to encode a message by multiplying: “You can choose to multiply by any number, __as long as the number has no factors in common with the number of letters in the alphabet that you are using.”__  
 
 With this in mind, answer the questions below.
 
@@ -231,17 +230,17 @@ __5.3.__ The Thai alphabet has 70 letters. If I am encoding a message in Thai by
 * [x] 9
 
 ^^^ hint id=1
-Remember the gold rule: you can multiply by any numbers __“as long as the number has no factors in common with the size of the alphabet that you are using.”__
+Remember the golden rule: you can multiply by any number __“as long as the number has no factors in common with the size of the alphabet that you are using.”__
 ^^^
 
 ---
 
-The answers is 9, because it is the only number tha t has no factors in common with 70 (the size of the alphabet). 5 is a factor 70, 6 shares a factor of 2, 7 is a common factor, and 8 shares a common factor of 2.
+The answer is 9, because it is the only number that has no factors in common with 70 (the size of the alphabet). 5 is a factor of 70, 6 shares a factor of 2, 7 is a common factor, and 8 shares a common factor of 2.
 
 :::
 
 ::: problem id=5_4 marks=2
-__5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Albanian by multiplying, which of the following would be the best number to multiply by.
+__5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Albanian by multiplying, which of the following would be the best number to multiply by?
 
 * [ ] 2
 * [ ] 3
@@ -256,7 +255,7 @@ The answer is 5, because the Albanian alphabet has 36 letters, and all the other
 :::
 
 ::: problem id=5_5 marks=2
-__5.5.__ Consider the following 8 alphabets, listed with the numbers of letters that each contains. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic:
+__5.5.__ Consider the following 8 alphabets, listed with the number of letters that each contains. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic:
 
 | Thai - 70  |  Abkhaz - 41  |
 | Sinhala - 54  |  Albanian - 36  |
@@ -280,12 +279,15 @@ The answer is 2, because English has 26 letters, and 13 is a factor of 26 AND Ba
 ::: problem id=5_6 marks=2
 __5.6.__ Which of the eight alphabets above would allow me to multiply by almost any number I want?
 
+* [ ] Thai
 * [x] Abkhaz
+* [ ] Sinhala
+* [ ] Albanian
+* [ ] Bangla
 * [ ] Russian
 * [ ] Hungarian
 * [ ] English
-* [ ] Thai
-{.col-5}
+{.col-4}
 
 ^^^ hint id=2
 Alphabets with a prime number of letters are generally good, because prime numbers have no factors apart from 1 and the number itself.
