@@ -361,6 +361,7 @@ If you do manage to win, then just take a photo or screengrab, which includes th
 date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
 at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
 
+***
 
 I hope you enjoyed (or at least did not hate) this Parallelogram, the second one
 of 2018. There will be more next week, and the week after, and the week after

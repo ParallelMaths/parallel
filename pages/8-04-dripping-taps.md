@@ -84,7 +84,7 @@ Consider how this information can help you solve the problem.
 ^^^
 
 ^^^ hint id=2
-What do the internal angles of pentagon add up to?
+What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: (n - 2) × 180° where n is the number of sides of the polygon.
 ^^^
 
 ^^^ hint id=3
@@ -164,6 +164,8 @@ This particular proof is very short, but not simple to follow. Have a go at [und
 A couple of weeks ago, we featured Matt Parker in a video talking about measuring π  using a pendulum. To end this Parallelogram, here is a another π-culiar video by Matt, in which he measures pi using pies. Watch and enjoy.
 
 @[youtube](ZNiRzZ66YN0?rel=0)
+
+***
 
 As it is half-term for most students, you have a bit more time to complete this Parallelogram.  
 

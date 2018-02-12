@@ -239,6 +239,8 @@ __6.1__ Abbott says that 40 + 10 = 50, but Costello says that can’t be right b
 
 :::
 
+***
+
 Well done on completing this week’s Parallelogram. Check your email or return
 to the website on Friday for the next one.
 

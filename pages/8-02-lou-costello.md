@@ -301,6 +301,8 @@ __6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he
 <input type="number" solution="18"/>  
 :::
 
+***
+
 Well done on completing this week’s Parallelogram. Check your email or return to the website on Friday for the next one.
 
 In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.

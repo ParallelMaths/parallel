@@ -291,6 +291,7 @@ Anyway, see what you make of it, and maybe make up your own mnemonic for π.
 
 @[youtube](EaDm9G4Ig18?end=88&rel=0)
 
+***
 
 I hope you enjoyed (or at least did not hate) this Parallelogram. There will be
 more next week, and the week after, and the week after that. So check your email

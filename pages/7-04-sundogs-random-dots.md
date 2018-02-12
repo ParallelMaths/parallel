@@ -33,7 +33,7 @@ Okay. Grab a pencil, paper and ruler.
 *	Join up the four new points to make a new second quadrilateral.
 
 ::: problem id=1_1 marks=2
-__1.1__ What shape is this second quadrilateral? We are looking for a single word answer, and make sure you spell it correctly.
+__1.1__ What shape is this second quadrilateral? We are looking for a single word answer, and make sure you spell it correctly. (Clue: your answer should not have an H in it. If it does, then you might need to look for a more generalised answer.)
 
 <input type="text" solution="Parallelogram"/>
 
@@ -317,8 +317,9 @@ In other words, 100 days is 14 weeks + 2 days.
 
 14 weeks after Monday bring us back to Monday, and 2 more days take us to Wednesday.  
 
+***
 
-As it is half-term for most students, you have a bit more time to complete this Parallelogram.  
+As it is half-term for most students, you have a bit more time before the next Parallelogram.  
 
 Check your email or return to the website on Friday 23 February at 4pm for the next Parallelogram.  
 

@@ -328,6 +328,8 @@ And the rest is easy.
 ![](/resources/7-01-parallelogram/6-1-puzzle-solution.png){style="width:400px"}
 :::
 
+***
+
 I hope you enjoyed (or at least did not hate) this Parallelogram. There will be
 more next week, and the week after, and the week after that. So check your email
 or return to the website on Friday.
