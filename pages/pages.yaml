@@ -26,6 +26,11 @@ year7:
     deadline: 2018-01-21T19:00:00
 
 year8:
+  - week: 5
+    url: 8-05-freezing-sports
+    title: Freezing sports and flipping pancakes
+    available: 2018-02-23T16:00:00
+    deadline: 2018-02-25T19:00:00
   - week: 4
     url: 8-04-dripping-taps
     title: Dripping Taps

@@ -367,7 +367,7 @@ escapology. Today, he is back again, this time performing some psychic surgery:
 Check your email or return to the website on Friday at 4pm for the next
 Parallelogram.
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday 18
+In the meantime, you can go through the answer sheet after 7pm on Sunday 25
 February, but first remember to hit the SUBMIT button below, and then maybe
 take a look at the “Additional Stuff” section.
 
