@@ -1,20 +1,6 @@
 {
   "database": {
-    "rules": {
-      "users": {
-        ".indexOn": ["teacherCode", "code"],
-        ".read": true,
-        "$uid": {
-          ".write": "$uid === auth.uid"
-        }
-      },
-      "answers": {
-        ".read": "auth != null",
-        "$uid": {
-          ".write": "$uid === auth.uid"
-        }
-      }
-    }
+    "rules": "database.rules.json"
   },
   "hosting": {
     "public": "build",
