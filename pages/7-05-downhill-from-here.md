@@ -29,13 +29,13 @@ when the answer sheet appears.
 
 ## 1. Winter Olympics Puzzle (A)
 
-__Every four years, the world’s leading winter athletes – the skiers, skaters,
+Every four years, the world’s leading winter athletes – the skiers, skaters,
 sledders and snowboarders – gather to compete for medals in the Winter Olympic
 Games. In 2018, the games have been taking place in Pyeongchang, South Korea.
 
 Of course, among the drama, bravery and triumph, there is plenty of room for
 maths! So, while you’re cheering on your favourites, don’t miss the chance to
-tackle these Winter Olympics maths puzzles.__
+tackle these Winter Olympics maths puzzles.
 
 The Jamaican bobsled team was one of the most famous feel-good stories of the
 1988 Games in Calgary. Jamaica’s Caribbean climate is not the most helpful for
@@ -106,7 +106,7 @@ mile.)
 
 ---
 
-1,450m in 50.86s is 1450÷50.86 = 28.51m/s. In 3,600 seconds, they would travel
+1,450m in 50.86s is 1450 ÷ 50.86 = 28.51m/s. In 3,600 seconds, they would travel
 about 102,636 metres, so they’re moving at 102,636 metres per hour. Dividing
 this by 1,609.344 gives 63.77mph.
 :::
@@ -174,7 +174,7 @@ points was she awarded?
 
 ---
 
-She has 70 for distance, so must have another 50 for style.
+She has 70 for distance, so she must have another 50 for style.
 :::
 
 ::: problem id=2_3 marks=1
@@ -280,7 +280,7 @@ cipher so that we multiply by 9 and add 10:
 
 C = (9 × M) + 10{.text-center}  
 
-CAB. If we turn this into numbers, we obtain 2 ¦ 0 ¦ 1.  
+Again we will start with the word CAB. If we turn this into numbers, we obtain 2 ¦ 0 ¦ 1.  
 
 If we multiply by 9 and add 10, we obtain 28 ¦ 10 ¦ 19.  
 

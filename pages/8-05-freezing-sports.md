@@ -32,7 +32,7 @@ Games. In 2018, the games have been taking place in Pyeongchang, South Korea.
 
 Of course, among the drama, bravery and triumph, there is plenty of room for
 maths! So, while you’re cheering on your favourites, don’t miss the chance to
-tackle this Winter Olympics maths puzzle (adapted from [Komodo Maths Puzzles](https://komodomath.com/blog/winter-olympics-maths-puzzles)){target="_blank"}.
+tackle this Winter Olympics maths puzzle.
 
 ![](/resources/8-05-freezing-sports/1-ice-hockey.jpg)
 
@@ -114,12 +114,12 @@ The final table therefore looks like this:
 
 :::
 
-__This puzzle and the next one come from__ [__the Komodo
+__This puzzle comes from__ [__the Komodo
 website__](https://komodomath.com/){target="_blank"}, __which offers a programme
 of maths, largely aimed at younger children. I’ve used it with my son, and I
 think it offers a great way to practice core arithmetic skills.__
 
-__The puzzles were created by Colin Beveridge - a maths tutor, former NASA
+__The puzzle was created by Colin Beveridge - a maths tutor, former NASA
 researcher, and writer of maths books including _Basic Maths for Dummies_.__
 
 
@@ -229,7 +229,7 @@ Neil deGrasse Tyson is one of the world’s most famous astrophysicists, and in 
 
 At that time, Carl Sagan was probably the most famous astrophysicist in the world, and the video shows the difference that an act of kindness can make.
 
-If you want to find out more about deGrasse Tyson and Sagan, then there are a couple of short videos after you hit the submit button. The Carol Sagan video one of the most memorable scientific statements of the last century. Absolutely worth a few minutes of your time.
+If you want to find out more about deGrasse Tyson and Sagan, then there are a couple of short videos after you hit the submit button. The Carl Sagan video one of the most memorable scientific statements of the last century. Absolutely worth a few minutes of your time.
 
 @[youtube](9ZmU_qTgq8U?rel=0)
 
@@ -248,9 +248,9 @@ Simon.
 
 ## Further Stuff
 
-* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE){target="_blank"} reveals a bit more about the astrophysicist Neil DeGrasse Tyson
+* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0){target="_blank"} reveals a bit more about the astrophysicist Neil DeGrasse Tyson
 
-* [This clip contains one of the most moving and extraordinary monologues by a scientist](https://www.youtube.com/watch?v=wupToqz1e2g){target="_blank"}. It has gone down in the folklore of science, and is all about a photograph called the Pale Blue Dot.
+* [This clip contains one of the most moving and extraordinary monologues by a scientist](https://www.youtube.com/watch?v=wupToqz1e2g?rel=0){target="_blank"}. It has gone down in the folklore of science, and is all about a photograph called the Pale Blue Dot.
 
   Here is how Wikipedia describes the clip:
 
