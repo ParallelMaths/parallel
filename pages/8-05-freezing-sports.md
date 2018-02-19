@@ -89,27 +89,12 @@ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, 
 ::: problem id=1_3 marks=5
 __1.3.__
 
-A = <input type="number" solution="2"/>  
-B = <input type="number" solution="1"/>  
-C = <input type="number" solution="0"/>  
-D = <input type="number" solution="0"/>  
-E = <input type="number" solution="2"/>  
-F = <input type="number" solution="0"/>  
-G = <input type="number" solution="1"/>  
-H = <input type="number" solution="0"/>  
-I = <input type="number" solution="1"/>  
-J = <input type="number" solution="0"/>  
-K = <input type="number" solution="0"/>  
-L = <input type="number" solution="2"/>  
-M = <input type="number" solution="0"/>  
-N = <input type="number" solution="0"/>  
-O = <input type="number" solution="0"/>  
-P = <input type="number" solution="3"/>  
-Q = <input type="number" solution="+9"/>  
-R = <input type="number" solution="7"/>  
-S = <input type="number" solution="7"/>  
-T = <input type="number" solution="7"/>  
-U = <input type="number" solution="-9"/>  
+| __Team__ | __W__ | __OTW__ | __OTL__ | __L__ | __GF__ | __GA__ | __GD__ | __Pts__ |
+| __Canada__ | <input type="number" solution="2"/> | <input type="number" solution="1"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | 11 | 2 | <input type="number" solution="+9"/> | 8 |
+| __Finland__ | <input type="number" solution="2"/> | <input type="number" solution="0"/> | <input type="number" solution="1"/> | <input type="number" solution="0"/> | 15 | <input type="number" solution="7"/> | +/ | <input type="number" solution="7"/> |
+| __Austria__ | <input type="number" solution="1"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="2"/> | <input type="number" solution="7"/> | 15 | -8 | 3 |
+| __Norway__ | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="3"/> | 3 | <input type="number" solution="12"/> | <input type="number" solution="-9"/> | 0 |
+{.grid}
 
 ---
 

@@ -4,7 +4,7 @@ const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
-  "test@test.com"
+  "example@example.com"
 ];
 
 fb.initializeApp({
