@@ -239,7 +239,7 @@ Let the area of the shaded face be ⲭcm². Then each of the visible unshaded
 faces has area 4ⲭcm². Hence the total surface area of the cuboid in cm² is
 ⲭ + ⲭ + 4ⲭ + 4ⲭ + 4ⲭ + 4ⲭ = 18ⲭ (because there are two ends, each of area ⲭ, and four sides, each of area 4ⲭ).
 
-So 18ⲭ = 72. Therefore ⲭ = 4, and the area of one of the visible shaded faces,
+So 18ⲭ = 72. Therefore ⲭ = 4, and the area of one of the visible unshaded faces,
 in cm² is 4ⲭ =  16.
 
 :::
@@ -293,7 +293,7 @@ If you are confused (perhaps you missed some of the earlier Parallelograms),
 then take look at [this video from Chris at Chegg.com](Chegg.com){target="_blank"}. The explanation is
 fairly slow and lengthy, but it should clear up any confusion.
 
-@[youtube](6gkJXu3nxR0?rel)
+@[youtube](6gkJXu3nxR0?rel=0)
 
 Now that you have mastered the affine cipher, answer these questions.
 
@@ -389,7 +389,7 @@ you will notice that some numbers are not allowed – can you remember why this
 is the case?
 
 * Here is [another clip featuring the Amazing James
-Randi](https://www.youtube.com/watch?v=7CASghTzNhc&t=0m25s){target="_blank"},
+Randi](https://www.youtube.com/watch?v=7CASghTzNhc&t=0m25s&rel=0){target="_blank"},
 in which he tests someone who claims he can move objects with the power of his
 mind. I think this clip is terrific because it shows how a bit of clever
 thinking can create a test that demonstrates that this psychic has no special

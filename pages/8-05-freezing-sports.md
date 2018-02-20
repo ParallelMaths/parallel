@@ -15,9 +15,6 @@ Here is this week's collection of mathematical challenges designed to stretch yo
 *	But it is better to tackle each Parallelogram in one go.
 * Complete by 7pm Sunday if your whole class is doing Parallelograms.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
-*	Make sure you complete every challenge and hit the SUBMIT button.
-
-__IMPORTANT__ – you will get points for every correct answer, but you will lose points if you need to use the hints.
 
 __IMPORTANT__ – it does not really matter what score you get, the main thing is
 that you think hard about the problems... and then learn where you went wrong
@@ -127,9 +124,9 @@ researcher, and writer of maths books including _Basic Maths for Dummies_.__
 
 I realise that Shrove Tuesday has come and gone, but I wrote this Parallelogram on Pancake Day, so I was reminded of this video about the maths of pancake flipping. It mentions a friend of mine, David X. Cohen, who is one of the gods of pancake flipping maths. He is probably better known, however, as one of the writers on The Simpsons and one of the driving forces behind Futurama. A lot of mathematicians write for these two shows, and I will return to them in future Parallelograms.
 
-@[youtube](m3drS_8BpU0?end=470&rel=0)
+In the meantime, watch the video and answer the three questions that follow. In fact, perhaps look at the questions first, so you can listen out for the answers when you watch the video.
 
-In the meantime, let's answer these two questions:
+@[youtube](m3drS_8BpU0?end=470&rel=0)
 
 ::: problem id=2_1 marks=1
 __2.1.__ Using the most efficient method for the worst arrangement, how many flips do you need to reorder three pancakes?
@@ -196,7 +193,7 @@ So the smallest number of additional squares that need to be shaded is 3.
 
 ## 4. Basketball and a supernova
 
-This is a cool video from Physics Girl, who presents a terrific YouTube channel, full of fascinating videos. Find out how it is possible for a ball to bounce higher than it has been dropped. Physics Girls suggest that you try this for yourself – my advice is that start with two balls, because the demonstration is easier to do and is still pretty impressive.
+This is a cool video from Physics Girl, who presents a terrific YouTube channel, full of fascinating videos. Find out how it is possible for a ball to bounce higher than it has been dropped. Physics Girl suggests that you try this for yourself – my advice is to start with two balls, because the demonstration is easier to do and is still pretty impressive.
 
 @[youtube](2UHS883_P60?rel=0)
 
@@ -229,7 +226,7 @@ Neil deGrasse Tyson is one of the world’s most famous astrophysicists, and in 
 
 At that time, Carl Sagan was probably the most famous astrophysicist in the world, and the video shows the difference that an act of kindness can make.
 
-If you want to find out more about deGrasse Tyson and Sagan, then there are a couple of short videos after you hit the submit button. The Carl Sagan video one of the most memorable scientific statements of the last century. Absolutely worth a few minutes of your time.
+If you want to find out more about deGrasse Tyson and Sagan, then there are a couple of short videos after you hit the submit button. The Carl Sagan video is one of the most memorable scientific statements of the last century. Absolutely worth a few minutes of your time.
 
 @[youtube](9ZmU_qTgq8U?rel=0)
 
@@ -248,7 +245,7 @@ Simon.
 
 ## Further Stuff
 
-* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0){target="_blank"} reveals a bit more about the astrophysicist Neil DeGrasse Tyson
+* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0){target="_blank"} reveals a bit more about the astrophysicist Neil deGrasse Tyson
 
 * [This clip contains one of the most moving and extraordinary monologues by a scientist](https://www.youtube.com/watch?v=wupToqz1e2g?rel=0){target="_blank"}. It has gone down in the folklore of science, and is all about a photograph called the Pale Blue Dot.
 
