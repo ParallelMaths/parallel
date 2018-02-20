@@ -91,7 +91,7 @@ __1.3.__
 
 | __Team__ | __W__ | __OTW__ | __OTL__ | __L__ | __GF__ | __GA__ | __GD__ | __Pts__ |
 | __Canada__ | <input type="number" solution="2"/> | <input type="number" solution="1"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | 11 | 2 | <input type="number" solution="+9"/> | 8 |
-| __Finland__ | <input type="number" solution="2"/> | <input type="number" solution="0"/> | <input type="number" solution="1"/> | <input type="number" solution="0"/> | 15 | <input type="number" solution="7"/> | +/ | <input type="number" solution="7"/> |
+| __Finland__ | <input type="number" solution="2"/> | <input type="number" solution="0"/> | <input type="number" solution="1"/> | <input type="number" solution="0"/> | 15 | <input type="number" solution="7"/> | +8 | <input type="number" solution="7"/> |
 | __Austria__ | <input type="number" solution="1"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="2"/> | <input type="number" solution="7"/> | 15 | -8 | 3 |
 | __Norway__ | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="0"/> | <input type="number" solution="3"/> | 3 | <input type="number" solution="12"/> | <input type="number" solution="-9"/> | 0 |
 {.grid}

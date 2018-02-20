@@ -17,10 +17,6 @@ your brain.
 * But it is better to tackle each Parallelogram in one go.
 * Complete by 7pm Sunday if your whole class is doing Parallelograms.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
-*	Make sure you complete every challenge and hit the SUBMIT button.
-
-__IMPORTANT__ – you will get points for every correct answer, but you will
-lose points if you use any of the hints.
 
 __IMPORTANT__ – it does not really matter what score you get, the main thing is
 that you think hard about the problems... and then learn where you went wrong
@@ -69,7 +65,9 @@ medal-winning team (USA) were:
 
 What was their total time, in minutes and seconds?
 
-<input type="number" solution="3"/> minutes <input type="number" solution="24.46"/> seconds  
+| minutes | seconds |
+| <input type="number" solution="3"/> | <input type="number" solution="24.46"/> |
+{.grid}
 :::
 
 ::: problem id=1_2 marks=1
@@ -83,7 +81,8 @@ seconds.
 How quickly, in seconds, did the German team have to complete their final run
 to win at least a share of the silver medal?
 
-<input type="number" solution="51.37"/> seconds  
+| seconds |
+| <input type="number" solution="51.37"/> |
 
 ---
 
@@ -101,8 +100,8 @@ What was their average speed in metres per second? Remember, the track was
 Can you convert that to miles per hour? (Note: there are 1,609.344 metres in a
 mile.)
 
-<input type="number" solution="28.51"/> m/s  
-<input type="number" solution="63.77"/> mph  
+| m/s  | mph |
+| <input type="number" solution="28.51"/> | <input type="number" solution="63.77"/> |
 
 ---
 
@@ -179,16 +178,16 @@ She has 70 for distance, so she must have another 50 for style.
 
 ::: problem id=2_3 marks=1
 ![](/resources/7-05-downhill-from-here/1-gold.png){image align="right"}__2.3__ __Gold medal puzzle:__ Lemmy the Lemming (of Latvia) scores a total of zero,
-including no style points at all. How far did he jump?
+including no style points at all. How far did he jump in metres?
 
-<input type="number" solution="60"/> metres
+<input type="number" solution="60"/>
 
 ---
 
 To get 0 points for distance, Lemmy must have jumped exactly 60 metres.
 :::
 
-__This puzzle and the next one come from__ [__the Komodo
+__This puzzle and the previous one come from__ [__the Komodo
 website__](https://komodomath.com/){target="_blank"}, __which offers a programme
 of maths, largely aimed at younger children. I’ve used it with my son, and I
 think it offers a great way to practice core arithmetic skills.__
@@ -236,12 +235,12 @@ cuboid?
 
 ---
 
-Let the area of the shaded face be χcm². Then each of the visible unshaded
-faces has area 4χcm². Hence the total surface area of the cuboid in cm² is
-2(4χ + 4χ + χ) = 18χ.
+Let the area of the shaded face be ⲭcm². Then each of the visible unshaded
+faces has area 4ⲭcm². Hence the total surface area of the cuboid in cm² is
+ⲭ + ⲭ + 4ⲭ + 4ⲭ + 4ⲭ + 4ⲭ = 18ⲭ (because there are two ends, each of area ⲭ, and four sides, each of area 4ⲭ).
 
-So 18x = 72. Therefore χ = 4, and the area of one of the visible shaded faces,
-in cm² is 4χ =  16.
+So 18ⲭ = 72. Therefore ⲭ = 4, and the area of one of the visible shaded faces,
+in cm² is 4ⲭ =  16.
 
 :::
 
