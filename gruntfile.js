@@ -139,8 +139,8 @@ function parseProblemSolution($problem, $hr, doc) {
 
 function parseProblems(doc) {
   for (let $problem of doc.querySelectorAll('.problem')) {
-    const $list = $problem.querySelector('ul');
-    if ($list) parseProblemList($list, $problem);
+    const $choice = $problem.querySelector('.choice');
+    if ($choice) parseProblemList($choice.parentNode.parentNode, $problem);
 
     const $inputs = $problem.querySelectorAll('input[solution]');
     for (let i=0; i<$inputs.length; ++i) parseProblemInput($inputs[i], i, $problem);

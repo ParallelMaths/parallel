@@ -90,11 +90,13 @@ function calculateScore(answers) {
     if (hasClass($p, 'radio')) {
       const $correct = $p.querySelector('.correct');
       if (answers[$p.id] === $correct.dataset.value) score += marks;
+      console.log($p.id, score, marks);
 
     } else if (hasClass($p, 'checkbox')) {
       const $correct = $p.querySelectorAll('.correct');
       for (let $c of $correct) {
         if (answers[$c.dataset.value]) score += marks / $correct.length;
+        console.log($p.id, score, marks / $correct.length);
       }
 
     } else if (hasClass($p, 'input')) {
@@ -102,6 +104,7 @@ function calculateScore(answers) {
       for (let $i of $inputs) {
         if (checkInput(answers[$i.dataset.value], $i.dataset.solution))
           score += marks / $inputs.length;
+        console.log($p.id, score, marks/$inputs.length, checkInput(answers[$i.dataset.value], $i.dataset.solution));
       }
 
     } else if ($p.querySelector('.sumaze')) {
@@ -111,7 +114,10 @@ function calculateScore(answers) {
 
   for (let $h of $hints) {
     if (answers[$h.id]) score -= (+$h.dataset.marks || 1);
+    console.log($h, -(+$h.dataset.marks || 1));
   }
+
+  console.log(score, total);
 
   return score / total;
 }

@@ -77,36 +77,18 @@ __1.2.__ What was the score in the Switzerland v Czech Republic game?
 Switzerland lost to Sweden (who won all their games), and we know Switzerland won its other two games. However, Switzerland only scored two goals, and the only way to win two games with two goals is you win both games 1-0. So the score must have been 1-0 to Switzerland.
 :::
 
-The final table in Group B (Canada, Finland, Austria, Norway) looked like this, only some of the numbers are missing. Can you fill them in?
+::: problem id=1_3 marks=5
+__1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, only some of the numbers are missing. Can you fill them in?
+
+| Team | W                  | OTW                | OTL                | L                  | GF                 | GA                  | GD                    | Pts |
+| ---- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------- | --------------------- | --- |
+| CAN  | <input solution=2> | <input solution=1> | <input solution=0> | <input solution=0> | 11                 | 2                   | <input solution="+9"> | 8 |
+| FIN  | <input solution=2> | <input solution=0> | <input solution=1> | <input solution=0> | 15                 | <input solution=7>  | +8                    | <input solution=7> |
+| AUT  | <input solution=1> | <input solution=0> | <input solution=0> | <input solution=2> | <input solution=7> | 15                  | –8                    | 3 |
+| NOR  | <input solution=0> | <input solution=0> | <input solution=0> | <input solution=3> | 3                  | <input solution=12> | <input solution="-9"> | 0 |
+{.grid}
 
 *Hint: do the left hand side of the table first*
-
-![](/resources/8-05-freezing-sports/1-table-full.png)
-
-::: problem id=1_3 marks=5
-__1.3.__
-
-A = <input type="number" solution="2"/>  
-B = <input type="number" solution="1"/>  
-C = <input type="number" solution="0"/>  
-D = <input type="number" solution="0"/>  
-E = <input type="number" solution="2"/>  
-F = <input type="number" solution="0"/>  
-G = <input type="number" solution="1"/>  
-H = <input type="number" solution="0"/>  
-J = <input type="number" solution="1"/>  
-K = <input type="number" solution="0"/>  
-L = <input type="number" solution="0"/>  
-M = <input type="number" solution="2"/>  
-N = <input type="number" solution="0"/>  
-O = <input type="number" solution="0"/>  
-P = <input type="number" solution="0"/>  
-Q = <input type="number" solution="3"/>  
-R = <input type="number" solution="+9"/>  
-S = <input type="number" solution="7"/>  
-T = <input type="number" solution="7"/>  
-U = <input type="number" solution="12"/>  
-V = <input type="number" solution="-9"/>  
 
 ---
 
