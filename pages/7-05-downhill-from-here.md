@@ -63,7 +63,7 @@ medal-winning team (USA) were:
 * 51.19 seconds
 * 51.52 seconds
 
-What was their total time, in minutes and seconds?
+What was their total time, in minutes and seconds (eg 2 minutes 8.36 seconds)?
 
 | minutes | seconds |
 | <input type="number" solution="3"/> | <input type="number" solution="24.46"/> |
@@ -111,7 +111,7 @@ this by 1,609.344 gives 63.77mph.
 :::
 
 
-## 2. Winter Olympic Puzzle (B)
+## 2. Winter Olympics Puzzle (B)
 
 The most famous ski jumper in history is not exactly famous for being good.
 Eddie “The Eagle” Edwards, self-funded and short-sighted, famously finished in
@@ -205,7 +205,7 @@ question.
 @[youtube](BDpxSLv89Y8?start=41&rel=0)
 
 ::: problem id=3_1 marks=1
-__3.1__ Thirty years ago, what formation did ski jumpers make with their skies?
+__3.1__ In the 1960s, what formation did ski jumpers make with their skies?
 
 * [x] V
 * [ ] X
@@ -261,11 +261,11 @@ back into a letter.
 | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 {.grid}
 
-The affine cipher used both multiplication and addition to encipher a letter,
+The affine cipher uses both multiplication and addition to encipher a letter,
 word or whole message. For example, let’s multiply each letter in the message
-(M) by 5 and then add 2 to get each letter in the code (C). We could say:
+(L<sub>M</sub>) by 5 and then add 2 to get each letter in the code (L<sub>C</sub>). We could say:
 
-C = (5 × M) + 2{.text-center}  
+L<sub>C</sub> = (5 × L<sub>M</sub>) + 2{.text-center}  
 
 Let’s apply this affine cipher to the word CAB. If we turn this into numbers,
 we obtain 2 ¦ 0 ¦ 1.  
@@ -275,22 +275,22 @@ If we multiply by 5 and add 2, we obtain 12 ¦ 2 ¦ 7.
 __If we translate back into letters, the code is MCH.__
 
 Now, let’s encipher the same word, but this time we will change the affine
-cipher so that we multiply by 9 and add 10:
+cipher so that we multiply by 9 and add 11:
 
-C = (9 × M) + 10{.text-center}  
+L<sub>C</sub> = (9 × L<sub>M</sub>) + 11{.text-center}  
 
 Again we will start with the word CAB. If we turn this into numbers, we obtain 2 ¦ 0 ¦ 1.  
 
-If we multiply by 9 and add 10, we obtain 28 ¦ 10 ¦ 19.  
+If we multiply by 9 and add 11, we obtain 29 ¦ 11 ¦ 20.  
 
 Remember, we cannot have numbers bigger than 25, so we subtract 26 from any
-problematic numbers, so that 28 becomes 2. So, the new letter sequence is 3 ¦
-10 ¦ 19.  
+problematic numbers, so that 29 becomes 3. So, the new letter sequence is 3 ¦
+11 ¦ 20.  
 
-__If we translate back into letters, the code is DKT.__  
+__If we translate back into letters, the code is DLU.__  
 
 If you are confused (perhaps you missed some of the earlier Parallelograms),
-then take look at [this video from Chris at Chegg.com](Chegg.com){target="_blank"}. The explanation is
+then take a look at [this video from Chris at Chegg.com](Chegg.com){target="_blank"}. The explanation is
 fairly slow and lengthy, but it should clear up any confusion.
 
 @[youtube](6gkJXu3nxR0?rel=0)
@@ -353,7 +353,7 @@ FCLUO means?
 
 A couple of weeks ago, you watched the Amazing James Randi perform some
 escapology. Today, he is back again, this time performing some psychic surgery:
-*	This video is bloody, so __don’t watch it if you are squeamish__.
+*	This video looks gruesome, so __don’t watch it if you are squeamish__.
 *	Psychic surgery is fake, but some people believe it is real.
 *	People waste time, money and hope visiting psychic surgeons.
 *	See if you can work out how Randi performs his fake surgery.
@@ -393,5 +393,4 @@ Randi](https://www.youtube.com/watch?v=7CASghTzNhc&t=0m25s&rel=0){target="_blank
 in which he tests someone who claims he can move objects with the power of his
 mind. I think this clip is terrific because it shows how a bit of clever
 thinking can create a test that demonstrates that this psychic has no special
-powers. First you will see the fake psychic (I should add that all psychics
-are fake), and then your will see Randi’s clever test.
+powers. First you will see the fake psychic and then you will see Randi’s clever test. (I should add that no psychic has ever convinced the scientific community that they have special superhuman powers, so the assumption is that all psychics are fake.)
