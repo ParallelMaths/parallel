@@ -78,7 +78,7 @@ Switzerland lost to Sweden (who won all their games), and we know Switzerland wo
 :::
 
 ::: problem id=1_3 marks=5
-__1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, only some of the numbers are missing. Can you fill them in?
+__1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, only some of the numbers are missing. Can you fill them in? (Remember, for Goal Difference you need to use + and – immediately before the number, eg +1 or -1.)
 
 | Team | W                  | OTW                | OTL                | L                  | GF                 | GA                  | GD                    | Pts |
 | ---- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------- | --------------------- | --- |
