@@ -207,9 +207,9 @@ question.
 ::: problem id=3_1 marks=1
 __3.1__ In the 1960s, what formation did ski jumpers make with their skies?
 
-* [x] V
+* [ ] V
 * [ ] X
-* [ ] Parallel
+* [x] Parallel
 * [ ] Perpendicular
 * [ ] Sierpinski Triangle
 
