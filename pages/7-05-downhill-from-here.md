@@ -97,8 +97,7 @@ record.
 What was their average speed in metres per second? Remember, the track was
 1,450 metres long
 
-Can you convert that to miles per hour? (Note: there are 1,609.344 metres in a
-mile.)
+Can you convert that to miles per hour? (Note: there are 1,609.344 metres in a mile AND please give your answer to two decimal places.)
 
 | m/s  | mph |
 | <input type="number" solution="28.51"/> | <input type="number" solution="63.77"/> |
