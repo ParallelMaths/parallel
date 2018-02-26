@@ -69,11 +69,13 @@ The solution is B, because primes can end in 7 and 9 (e.g., 7, 17, 19, 29, 37…
 
 ## 3. The Leidenfrost effect – levitating water
 
-This video is by Alex Nickel from his Technicality channel (which is full of fascinating videos). It is quite long (9 minutes), and takes you through an explanation of strange phenomenon known as the Leidenfrost effect. Can you understand the science? Can you follow his explanation? Does it stick in your brain afterward? Here is a question to think about while you watch the video.
+This video is by Alex Nickel from his Technicality channel (which is full of fascinating videos). It is quite long (9 minutes), and takes you through an explanation of strange phenomenon known as the Leidenfrost effect. Can you understand the science? Can you follow his explanation? Does it stick in your brain afterward?
+
+There is a question following the video, which you might want to look at first, so that you can look out for the answer during the video.
 
 __NOTE: If you are going to experiment with the Leidenfrost effect, check with your parents/teachers and be safe.__
 
-@[youtube](PoaVetzlZNE?end=493&rel=0)
+@[youtube](PoaVetzlZNE?end=494&rel=0)
 
 ::: problem id=3 marks=2
 __3.1.__ Which planet could be powered by the Leidenfrost effect?
@@ -110,7 +112,7 @@ If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so
 
 ---
 
-The solid is made up of 7 cubes. So each of them has volume `1/7` (875) = 125 = 5<sup>3</sup>cm<sup>3</sup>. Hence the side length of each of the cubes is 5cm. Each of the 6 faces of the central cube is covered by one face of one of the other 6 cubes, each of which has 5 faces showing. So the surface of the
+The solid is made up of 7 cubes. So each of them has volume `857/7` = 125 = 5<sup>3</sup>cm<sup>3</sup>. Hence the side length of each of the cubes is 5cm. Each of the 6 faces of the central cube is covered by one face of one of the other 6 cubes, each of which has 5 faces showing. So the surface of the
 figure is made up of 6 x 5 = 30 squares, each with side length 5 cm and hence area 25 cm<sup>2</sup>. Hence the total area of the figure is 30 x 25 = 750cm<sup>2</sup>.
 
 :::
@@ -153,7 +155,7 @@ Simon.
 
 ## “Additional Stuff
 
-* Here is [the video showing about the Leidenfrost effect from the University of Bath](https://www.youtube.com/watch?v=w0lMJcAfzU4), mentioned in Alex nickel’s video. It shows a drop of water navigating a maze!
+* Here is [the video showing the Leidenfrost effect from the University of Bath](https://www.youtube.com/watch?v=w0lMJcAfzU4), mentioned in Alex Nickel’s video. It shows a drop of water navigating a maze!
 
 * The article about π, ended with a bit of trivia about pizza and π. This image explains why the area of a pizza is pi.z.z.a. The image was created by Jay Fallon.
 
