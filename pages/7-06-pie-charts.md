@@ -43,14 +43,14 @@ In case you have forgotten, or are new to Parallelograms, these Junior Maths Cha
 
 ::: problem id=2_1 marks=3
 
-The 2010 match at Wimbledon between John Isner and Nicolas Malut, which lasted 11 hours and 5 minutes, set a record for the longest match in tennis history. The fifth set of the match lasted 8 hours and 11 minutes.
+__2.1__ The 2010 match at Wimbledon between John Isner and Nicolas Malut, which lasted 11 hours and 5 minutes, set a record for the longest match in tennis history. The fifth set of the match lasted 8 hours and 11 minutes.
 
 Approximately what fraction of the whole match was taken up by the fifth set?
 
 * [ ] `1/5`
 * [ ] `2/5`
 * [ ] `3/5`
-* [ ] `3/4`
+* [x] `3/4`
 * [ ] `9/10`
 {.col-5}
 
@@ -72,7 +72,7 @@ Another method is to say that:
 ## 3. Speedreading
 
 ::: problem id=3_1 marks=1
-__3.1__ According to this video from the Quirkology YouTube channel, what was your reading speed (if you were able to keep up with the video)?
+__3.1__ According to this video from the Quirkology YouTube channel, what was your reading speed (if you were able to keep up with the video right to the end)?
 
 * [ ] 100 words/minute
 * [ ] 200 words/minute
@@ -102,7 +102,7 @@ travelling. On which day does Peri arrive at Granny’s?
 
 ---
 
-Until Peri reahes Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9 x 9 = 81.
+Until Peri reahes Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9m x 9 = 81m.
 
 Then after a further 9 days he has travelled the final 9m and has reached Granny’s. So the journey takes him 99 days. Now 99 = 14 x 7 + 1, so the journey takes him 14 weeks and 1 day. Therefore he arrives on a
 Tuesday.
@@ -127,7 +127,7 @@ So, according to this random rearrangement (or _“key”_), the word __“hello
 But according to the rearrangement below, the word __“hello”__ would be encoded as __“JQWWH”__.
 
 | a | b | c | d | e | f | g | h | i | j | k | l | m |
-| M | P | O | Z | Q | G | C | J | I | A | D | W | V |
+| M | P | O | B | Q | G | C | J | I | A | D | W | V |
 {.grid}
 
 | n | o | p | q | r | s | t | u | v | w | x | y | z |
@@ -138,7 +138,7 @@ The challenge for the codebreaker, who does not know the key, is to somehow brea
 
 __PAUCGN YH GFA XYBHG GAHG; GFABA YH TZ EABOUTATG EQUVA YT GFA LZBQR XZB CWQN OUGFAOUGYVH.__
 
-Such a coded message would have been unbreakable for centuries, until a 9th century mathematician called al-Kindi developed the oldest known code-breaking. “The Philosopher of the Arabs”, as he was known, realised that every letter has a personality, and if that letter is replaced with a different letter, then the personality is transferred to the new letter, so it should still be recognisable.
+Such a coded message would have been unbreakable for centuries, until a 9th century mathematician called al-Kindi developed the oldest known method of code-breaking. “The Philosopher of the Arabs”, as he was known, realised that every letter has a personality, and if that letter is replaced with a different letter, then the personality is transferred to the new letter, so it should still be recognisable.
 
 The most important part of a letter’s personality is how often it occurs. Some letters are more common than others, and the bar graph below shows the frequency of letters in English.
 
@@ -153,9 +153,9 @@ __PAUCGN YH GFA XYBHG GAHG; GFABA YH TZ EABOUTATG EQUVA YT GFA LZBQR XZB CWQN OU
 
 Tips:
 *	Write a list of all the letters in the coded message and count how many times each one appears.
-*	I created [a code-breaking website](https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html), which has some tools that you might find useful. You can paste in the coded text in the ‘ciphertext’ box, click on ‘Frequency of individual letters’ and it will count the frequency of each letter.
+*	I created [a code-breaking website](https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html){target="_blank"}, which has some tools that you might find useful. You can paste in the coded text in the ‘ciphertext’ box, click on ‘Frequency of individual letters’ and it will count the frequency of each letter.
 *	From the frequency bar graph above, E and then T are generally the two most common letters in a message, so try to match these with the two most common letters in the coded message.
-*	Once you have identified the two most common letters, try to guess/deduce some of the other letters. [The code-breaking website](https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html) can also help with this.
+*	Once you have identified the two most common letters, try to guess/deduce some of the other letters. [The code-breaking website](https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html){target="_blank"} can also help with this.
 *	If you get stuck, be prepared to go backwards and try another letter.
 *	If you get really stuck, then you can click on the hints below, but they will cost you 1 mark for each hint.
 
@@ -178,18 +178,18 @@ The two most common letters in the coded message are A & G, which both account f
 If you cannot decide which letter is E and which is T, then the second hint revealed that THE is the most common 3-letter word. The sequence GFA appears twice, so it probably means ‘the’. As well as knowing that (G = T, A = E), you also know that F = H.
 At this point, breaking the code involves trial and error. However, the third hint reminded you that this is a message about mathematics, so you could guess that OUGFAOUGYVH means ‘mathematics’.
 
-The quote is _"Beauty is the first test: there is no permanent place in the world for ugly mathematics,"_ which was written the British mathematician __G. H. Hardy__. He was commenting on his belief (which other mathematicians share) that ugly maths is probably wrong, or at least there is a more beautiful and satisfying answer. Mathematicians follow logic, but they also have a gut reaction or an emotional reaction to some equations.
+The quote is _"Beauty is the first test; there is no permanent place in the world for ugly mathematics,"_ which was written the British mathematician __G. H. Hardy__. He was commenting on his belief (which other mathematicians share) that ugly maths is probably wrong, or at least there is a more beautiful and satisfying answer. Mathematicians follow logic, but they also have a gut reaction or an emotional reaction to some equations.
 
 :::
 
 
 ## 6. A qustion to tst your writing skills
 
-We have learnt that E is the most letter in English, so how hard would it be to write a message that did not contain a single E? Your challenge is to write at least 20 words explaining what you did today, but you must NOT use any words that contain the letter E.
+We have learnt that E is the most common letter in English, so how hard would it be to write a message that did not contain a single E? Your challenge is to write at least 50 words explaining what you did today, but you must NOT use any words that contain the letter E.
 
 It will be tough, but the French novelist Georges Perec wrote an entire book (La Disparition) that was devoid of the letter E. It was then translated into English by Gilbert Adair, and once again none of the words in the book contained the letter E.
 
-__Contact us with your 50-word account and you could win a copy of my book, which talks about lots of fun maths in Simpsons/Futurama – which I will happily sign for you. (See, it is possible to write without using any E’s!)__
+__Contact us with your 50-word account of your day and you could win a copy of my book, which talks about lots of fun maths in Simpsons/Futurama – which I will happily sign for you. (See, it is possible to write without using any E’s!)__
 
 Email your 50-word account to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and we will pick our favourite.
 
@@ -212,8 +212,8 @@ Simon.
 
 ## Additional Stuff
 
-* The Pig Pen cipher is a simple code that you can quickly learn how to use. You can find out more about it at [my Black Chamber website](https://www.simonsingh.net/The_Black_Chamber/pigpen.html).
+* The Pig Pen cipher is a simple code that you can quickly learn how to use. You can find out more about it at [my Black Chamber website](https://www.simonsingh.net/The_Black_Chamber/pigpen.html){target="_blank"}.
 
-* Codes can be a matter of life and death. Find out about the broken code that led to [the execution of Mary Queen of Scots](https://www.simonsingh.net/The_Black_Chamber/maryqueenofscots.html).
+* Codes can be a matter of life and death. Find out about the broken code that led to [the execution of Mary Queen of Scots](https://www.simonsingh.net/The_Black_Chamber/maryqueenofscots.html){target="_blank"}.
 
-* If you want to learn about a much tougher type of code, then check out [my explanation of the homophonic cipher](https://www.simonsingh.net/The_Black_Chamber/homophonic_cipher.html).
+* If you want to learn about a much tougher type of code, then check out [my explanation of the homophonic cipher](https://www.simonsingh.net/The_Black_Chamber/homophonic_cipher.html){target="_blank"}.
