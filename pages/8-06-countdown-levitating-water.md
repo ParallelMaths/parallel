@@ -16,6 +16,8 @@ Here is this week's collection of mathematical challenges designed to stretch yo
 * Complete by 7pm Sunday if your whole class is doing Parallelograms.
 *	Return after 7pm on Sunday to find your score, answers and explanations.
 
+__IMPORTANT__ – you will get points for every correct answer, but lose points if you use hints.
+
 __IMPORTANT__ – it does not really matter what score you get, the main thing is
 that you think hard about the problems... and then learn where you went wrong
 when the answer sheet appears.
@@ -23,7 +25,7 @@ when the answer sheet appears.
 
 ## 1.	Crazy Coundown numbers
 
-I am guessing that most people have played Countdown, and if you like maths then you have probably played along with the numbers game – you pick six numbers, the show generates a random number less than one thousand, and finally you have create the big number from the smaller six numbers uses the four basic operations of arithmetic.
+I am guessing that most people have played Countdown, and if you like maths then you have probably played along with the numbers game – you pick six numbers, the show generates a random number less than one thousand, and finally you have to create the big number from the smaller six numbers using the four basic operations of arithmetic.
 
 Sometimes it’s easy, sometimes it’s hard, but rarely are the calculations as complex as the numbers game in the clip below. It is taken from the Australian version of Countdown, known as ‘Letters and Numbers’. What I particularly like about this clip is that there is a complex way and a simpler way to get the answer.
 
@@ -107,19 +109,19 @@ What, in cm<sup>2</sup>, is the surface area of the solid?
 {.col-5}
 
 ^^^ hint id=1
-If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so you can now work out the volume of each cube... and therefore length of any side of any cube. When it comes to looking at the surface area, we have no surface area from the cube in the middle, and 5 faces from each of the other 6 cubes. So, just be careful when you work this out. Take it step by step, lay our your calculation clearly and check your answer before you submit it.
+If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so you can now work out the volume of each cube... and therefore the length of any side of any cube. When it comes to looking at the surface area, we have no surface area from the cube in the middle, and 5 faces from each of the other 6 cubes. So, just be careful when you work this out. Take it step by step, lay our your calculation clearly and check your answer before you submit it.
 ^^^
 
 ---
 
-The solid is made up of 7 cubes. So each of them has volume `857/7` = 125 = 5<sup>3</sup>cm<sup>3</sup>. Hence the side length of each of the cubes is 5cm. Each of the 6 faces of the central cube is covered by one face of one of the other 6 cubes, each of which has 5 faces showing. So the surface of the
-figure is made up of 6 × 5 = 30 squares, each with side length 5 cm and hence area 25 cm<sup>2</sup>. Hence the total area of the figure is 30 × 25 = 750cm<sup>2</sup>.
+The solid is made up of 7 cubes. So each of them has volume `875/7` = 125 = 5<sup>3</sup>cm<sup>3</sup>. Hence the side length of each of the cubes is 5cm. Each of the 6 faces of the central cube is covered by one face of one of the other 6 cubes, each of which has 5 faces showing. So the surface of the
+figure is made up of 6 x 5 = 30 squares, each with side length 5 cm and hence area 25 cm<sup>2</sup>. Hence the total area of the figure is 30 x 25 = 750cm<sup>2</sup>.
 
 :::
 
 ## 5. The Indiana π Bill
 
-Here is one of the oddest stories in the history of π – the day when politicians tried to change the value of π. Read [this article from “Today I Found Out”](http://www.todayifoundout.com/index.php/2015/11/time-pi-almost-changed-3-2-4/) and answer the question below.
+Here is one of the oddest stories in the history of π – the day when politicians tried to change the value of π. Read [this article from “Today I Found Out”](http://www.todayifoundout.com/index.php/2015/11/time-pi-almost-changed-3-2-4/){target="_blank"} and answer the question below.
 
 ::: problem id=5 marks=1
 
@@ -155,7 +157,7 @@ Simon.
 
 ## “Additional Stuff
 
-* Here is [the video showing the Leidenfrost effect from the University of Bath](https://www.youtube.com/watch?v=w0lMJcAfzU4), mentioned in Alex Nickel’s video. It shows a drop of water navigating a maze!
+* Here is [the video showing the Leidenfrost effect from the University of Bath](https://www.youtube.com/watch?v=w0lMJcAfzU4){target="_blank"}, mentioned in Alex Nickel’s video. It shows a drop of water navigating a maze!
 
 * The article about π, ended with a bit of trivia about pizza and π. This image explains why the area of a pizza is pi.z.z.a. The image was created by Jay Fallon.
 
