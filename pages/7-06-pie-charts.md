@@ -56,7 +56,7 @@ Approximately what fraction of the whole match was taken up by the fifth set?
 
 ---
 
-We have that 8 hours and 11 minutes is 8 x 60 + 11 = 491 minutes and 11 hours and 5 minutes is 11 x 60 + 5 = 665 minutes. Therefore the exact fraction taken by the last set is `491/665`.
+We have that 8 hours and 11 minutes is 8 × 60 + 11 = 491 minutes and 11 hours and 5 minutes is 11 × 60 + 5 = 665 minutes. Therefore the exact fraction taken by the last set is `491/665`.
 
 So we need to decide which of the given fractions this is closest to. This can be done in more than one way. For example, as 491 is just below 500 and 665 is almost ⅓ of 2000, we have that:  
 
@@ -102,9 +102,9 @@ travelling. On which day does Peri arrive at Granny’s?
 
 ---
 
-Until Peri reahes Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9 x 9 = 81.
+Until Peri reahes Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9 × 9 = 81.
 
-Then after a further 9 days he has travelled the final 9m and has reached Granny’s. So the journey takes him 99 days. Now 99 = 14 x 7 + 1, so the journey takes him 14 weeks and 1 day. Therefore he arrives on a
+Then after a further 9 days he has travelled the final 9m and has reached Granny’s. So the journey takes him 99 days. Now 99 = 14 × 7 + 1, so the journey takes him 14 weeks and 1 day. Therefore he arrives on a
 Tuesday.
 
 :::

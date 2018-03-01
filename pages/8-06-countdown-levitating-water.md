@@ -113,7 +113,7 @@ If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so
 ---
 
 The solid is made up of 7 cubes. So each of them has volume `857/7` = 125 = 5<sup>3</sup>cm<sup>3</sup>. Hence the side length of each of the cubes is 5cm. Each of the 6 faces of the central cube is covered by one face of one of the other 6 cubes, each of which has 5 faces showing. So the surface of the
-figure is made up of 6 x 5 = 30 squares, each with side length 5 cm and hence area 25 cm<sup>2</sup>. Hence the total area of the figure is 30 x 25 = 750cm<sup>2</sup>.
+figure is made up of 6 × 5 = 30 squares, each with side length 5 cm and hence area 25 cm<sup>2</sup>. Hence the total area of the figure is 30 × 25 = 750cm<sup>2</sup>.
 
 :::
 

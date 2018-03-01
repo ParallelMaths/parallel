@@ -74,9 +74,9 @@ What is the ratio of the length of the perimeter of the square to the length of 
 
 ![](/resources/8-03-flag-of-flags/2-squares-solution.png){image align="right"}
 
-Suppose that the square has side length 3d. Then the square has perimeter of length 4 x 3d = 12d.
+Suppose that the square has side length 3d. Then the square has perimeter of length 4 × 3d = 12d.
 
-Each rectangle has size 3d x d. So we see that the octagon has a perimeter length:
+Each rectangle has size 3d × d. So we see that the octagon has a perimeter length:
 
 4d + 3d + 4d + d + 3d + d + 3d + d = 20d
 

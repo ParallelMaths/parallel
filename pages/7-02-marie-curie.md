@@ -53,7 +53,7 @@ you warmed up, here is a relatively easy question... followed by another one tha
 most of you should be able to attack.
 
 ::: problem id=1_1 marks=1
-__1.1.__ What is the value of 2 x 0 x 1 + 1?
+__1.1.__ What is the value of `2 × 0 × 1 + 1`?
 
 * [ ] 0
 * [x] 1
@@ -65,7 +65,7 @@ __1.1.__ What is the value of 2 x 0 x 1 + 1?
 
 This is simply a matter of doing the sum... and remembering the order of
 operations. So, multiplications take priority over addition, so
-2 x 0 x 1 + 1 = (2 x 0 x 1) + 1 = (0) + 1 = 1
+`2 × 0 × 1 + 1 = (2 × 0 × 1) + 1 = (0) + 1 = 1`
 :::
 
 

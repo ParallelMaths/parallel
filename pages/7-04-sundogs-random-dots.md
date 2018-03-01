@@ -138,26 +138,26 @@ Hang on! BAT is encoded as CAM, but BAG is also encoded as CAM. How can two diff
 
 The problem arises because there are two ways of encoding something into M:
 
-| G = 6  |  2 x 6 = 12  | |  __12 = M__  |
-| T = 19  |  2 x 19 = 38  |  38 – 26 = 12  |  __12 = M__  |
+| G = 6  |  2 × 6 = 12  | |  __12 = M__  |
+| T = 19  |  2 × 19 = 38  |  38 – 26 = 12  |  __12 = M__  |
 {.grid}
 
 Actually, there are two ways of encoding into every letter. For example,  
 
-| A = 0  |  2 x 0 = 0  | |  __0 = A__  |
-| N  = 13  |  2 x 13 = 26  |  26 – 26 = 0  |  __0 = A__  |
+| A = 0  |  2 × 0 = 0  | |  __0 = A__  |
+| N  = 13  |  2 × 13 = 26  |  26 – 26 = 0  |  __0 = A__  |
 {.grid}
 
 And:  
 
-| B = 1  |  2 x 1 = 2  | |  __2 = C__  |
-| O = 14  |  2 x 14 = 28  |  28 – 26 = 2  |  __2 = C__  |
+| B = 1  |  2 × 1 = 2  | |  __2 = C__  |
+| O = 14  |  2 × 14 = 28  |  28 – 26 = 2  |  __2 = C__  |
 {.grid}
 
 And:  
 
-| C = 2  |  2 x 2 = 4  | |  __4 = E__  |
-| P = 15  |  2 x 15 = 30  |  30 – 26 = 4  |  __4 = E__ |
+| C = 2  |  2 × 2 = 4  | |  __4 = E__  |
+| P = 15  |  2 × 15 = 30  |  30 – 26 = 4  |  __4 = E__ |
 {.grid}
 
 There is a pattern here. The two letters that are encoded in the same way (A & N), (B & O), (C & P) are all 13 letters apart. Why 13? Well, we are multiplying by 2 and there are 26 letters in the alphabet, and 26/2 = 13.
@@ -166,10 +166,10 @@ The problem of different letters being encoded in the same way arises because we
 
 A similar problem would arise if we were multiplying by 13, because 13 is a factor of 26. This time the problem is much worse, because A, C, E, G,…. are all encoded in the same way and become A.  
 
-A = 0  |  13 x 0 = 0  | |  __0 = A__  
-C = 2  |  13 x 2 = 26  |  26 – 26 = 0  |  __0 = A__  
-E = 4  |  13 x 4 = 52  |  52 – 26 – 26 = 0  |  __0 = A__  
-G = 6  |  13 x 6 = 78  |  78 – 26 – 26 – 26 = 0  |  __0 = A__  
+A = 0  |  13 × 0 = 0  | |  __0 = A__  
+C = 2  |  13 × 2 = 26  |  26 – 26 = 0  |  __0 = A__  
+E = 4  |  13 × 4 = 52  |  52 – 26 – 26 = 0  |  __0 = A__  
+G = 6  |  13 × 6 = 78  |  78 – 26 – 26 – 26 = 0  |  __0 = A__  
 {.grid}
 
 Also, B, D, F, H,... are all encoded in the same way and become N.  
@@ -208,9 +208,9 @@ __5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
 
 ---
 
-O = 14, and 5 x 14 = 70, which is bigger than 26 so we have start subtracting 26s to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
+O = 14, and 5 × 14 = 70, which is bigger than 26 so we have start subtracting 26s to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
 
-K = 10, and 5 x 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and __24 is the letter Y__.
+K = 10, and 5 × 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and __24 is the letter Y__.
 
 :::
 

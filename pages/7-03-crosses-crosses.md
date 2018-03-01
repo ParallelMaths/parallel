@@ -319,7 +319,7 @@ negative numbers, namely:
 
 -2,621 ¦ -2,612 ¦ -2,603{.text-center}  
 
-You could try adding 26 again and again, but the short cut is to spot that these numbers are close to -2,600, which is -100 x 26. So we can jump to trying to deal with -21 ¦ -12 ¦ -3. Add 26 to these and we get 5 ¦ 14 ¦ 23, which is FOX.   
+You could try adding 26 again and again, but the short cut is to spot that these numbers are close to -2,600, which is -100 × 26. So we can jump to trying to deal with -21 ¦ -12 ¦ -3. Add 26 to these and we get 5 ¦ 14 ¦ 23, which is FOX.   
 
 :::
 

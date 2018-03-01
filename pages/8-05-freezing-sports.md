@@ -210,7 +210,7 @@ __5.1.__ The pupils in Year 8 are holding a mock election. A candidate receiving
 
 ---
 
-Since ¼(83) = 20.75, the winner must get at least 21 votes. If one candidate gets 21 votes there are 62 votes to be shared between the other three candidates, and so, as 3 x 20 < 62 one of these candidates must get at least 21 votes. So a candidate with 21 votes cannot be the winner.
+Since ¼(83) = 20.75, the winner must get at least 21 votes. If one candidate gets 21 votes there are 62 votes to be shared between the other three candidates, and so, as 3 × 20 < 62 one of these candidates must get at least 21 votes. So a candidate with 21 votes cannot be the winner.
 
 However if one candidate gets 22 votes and the others 21, 20 and 20 votes respectively, all 83 votes have been used, and the winner receives only 22 votes.
 

@@ -185,8 +185,8 @@ answers is closest?
 
 ---
 To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615
-seconds, which is roughly 18 x 1018 sec = 3 x 1017 mins = 5 x 1015 hours = 2.1 x
-1014 days = 5.8 x 1011 years = 580 billion years, so the answer is roughly 600
+seconds, which is roughly 18 × 1018 sec = 3 × 1017 mins = 5 × 1015 hours = 2.1 ×
+1014 days = 5.8 × 1011 years = 580 billion years, so the answer is roughly 600
 billion years.
 :::
 

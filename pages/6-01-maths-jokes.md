@@ -183,7 +183,7 @@ Here is Gauss's trick in three stages:
 	…
 	50 + 51 = 101
 2.	So, you have 50 pairs of numbers, which all add up to 101.
-3. 	So, the result is 50 x 101 = 5,050!
+3. 	So, the result is 50 × 101 = 5,050!
 
 Another way to think about this is:
 

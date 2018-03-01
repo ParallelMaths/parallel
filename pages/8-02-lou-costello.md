@@ -154,7 +154,7 @@ __3.1.__  Peter Piper picked a peck of pickled peppers. 1 peck = 1/4 bushel and
 
 ---
 
-We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 x 4 = 36 pecks. Peter Piper has already picked 1 peck, so he needs to pick 35 more pecks to fill a barrel.
+We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 × 4 = 36 pecks. Peter Piper has already picked 1 peck, so he needs to pick 35 more pecks to fill a barrel.
 
 :::
 
@@ -294,7 +294,7 @@ Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa
 @[youtube](MS2aEfbEi7s?start=7&rel=0)
 
 ::: problem id=6_1 marks=2
-__6.1__ If Lou Costello were to work out 3 x 15 or (15 + 15 + 15), what would he think the result is?
+__6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would he think the result is?
 
 ![](/resources/8-02-lou-costello/6-blackboard-sum.png )
 

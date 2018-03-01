@@ -294,7 +294,7 @@ but only once. Can you work out their positions in the grid so that each of the
 six different sums work? Two of the numbers have been inserted in order to get
 you started. Just identify the other seven numbers.
 
-(NOTE: perform operations in the order they appear, e.g., 3 + 4 x 5 = 35 (not 23))
+(NOTE: perform operations in the order they appear, e.g., `3 + 4 × 5 = 35` (not 23))
 
 ![](/resources/7-01-parallelogram/6-1-puzzle.png){style="width:400px"}
 
@@ -310,18 +310,18 @@ g = <input type="number" solution="4"/>
 
 The easiest number to pin down is `d`, which has to be 9.
 
-5 ÷ 1 x 9 = 45.
+`5 ÷ 1 × 9 = 45`.
 
 You may have followed a different route, but I then worked `c` and `g`. We know that
 `9c + g` must equal 67, and `c` and `g` are single digits, so then `c = 7` and `g = 4`.
 
-Now we know `c = 7`, then we also know that `a x b = 48`.
+Now we know `c = 7`, then we also know that `a × b = 48`.
 
 This means that a = 6 and b = 8 or a = 8 and b = 6.
 
 We know that b + 1 is factor of 18 from the middle column, so `b = 8`.
 
-We also know that a x 5 is a factor of 90 from the 1st column, so `a = 6`.
+We also know that `a × 5` is a factor of 90 from the 1st column, so `a = 6`.
 
 And the rest is easy.
 

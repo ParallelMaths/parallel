@@ -191,7 +191,7 @@ it is a bit of physics that describes how an object falls due to the Earth’s g
 If you had a pendulum that was as tall as a human, say 2 metres, how long would
 it take to swing? If __L__ = 2 meters, then:
 
-__T__ = 2 x 3.14 x √(2/9.8) = 6.28 x √(0.204) = 6.28 x 0.4517  
+__T__ = `2 × 3.14 × sqrt(2/9.8) = 6.28 × sqrt(0.204) = 6.28 × 0.4517`
 
 __T__ = 2.837 seconds.
 
@@ -250,9 +250,9 @@ L = g(T÷(2π))^2
 
 We want to know L for a T of 1 second, so:
 
-  L= g(T÷(2π))^2
-  L= 9.8 x (1 ÷ 6.28)^2
-  L = 0.248 meters
+  `L= g(T÷(2π))^2`
+  `L= 9.8 × (1 ÷ 6.28)^2`
+  `L = 0.248 "meters"`
 
 :::
 
@@ -271,7 +271,7 @@ how and why they think 25/5 = 14.
 @[youtube](t8XMeocLflc?rel=0)
 
 ::: problem id=5 marks=2
-__5.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 x 16? You might
+__5.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
 need to watch video again.
 
 ![](/resources/8-01-ma-kettle/blackboard-sum.png)
