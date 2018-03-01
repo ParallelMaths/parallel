@@ -8,3 +8,17 @@
 @import './forms';
 @import './maths';
 @import './content';
+
+
+@media print {
+  html { background: none; font-size: 16px; color: black; }
+  .sidebar, .header, footer, .status-banner, .embed-responsive { display: none; }
+  article { box-shadow: none; width: auto; padding: 0; }
+  .problem { background: #ddd; }
+  .marks { background: #aaa; }
+  .marks:before { border-right-color: #aaa; }
+  header { height: auto; margin: 0; background: none !important; }
+  header:before { display: none; }
+  header h1 { color: inherit; position: static; margin: 3rem 0; }
+  figure { margin: 1.5em auto; max-width: 480px; }
+}

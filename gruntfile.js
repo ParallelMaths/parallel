@@ -66,9 +66,7 @@ md.renderer.rules.code_inline = function(tokens, idx) {
   let str = tokens[idx].content.trim();
   str = str.replace(/_(.*?)(\s|$|=|\(|\)|\*|\/|\^)/g, '_($1)$2').replace(/–/g, '-');
 
-  let maths = ascii2mathml(str, {bare: true});
-  maths = maths.replace(/<mo>-<\/mo>/g, '<mo>–</mo>')
-    .replace(/<mo>(.)<\/mo>/g, (_, mo) =>  `<mo value="${mo}">${mo}<\/mo>`);
+  const maths = ascii2mathml(str, {bare: true}).replace(/<mo>-<\/mo>/g, '<mo>–</mo>');
   return `<span class="math" v-pre>${maths}</span>`;
 };
 
