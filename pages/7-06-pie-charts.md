@@ -102,7 +102,7 @@ travelling. On which day does Peri arrive at Granny’s?
 
 ---
 
-Until Peri reahes Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9m x 9 = 81m.
+Until Peri reaches Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9m x 9 = 81m.
 
 Then after a further 9 days he has travelled the final 9m and has reached Granny’s. So the journey takes him 99 days. Now 99 = 14 x 7 + 1, so the journey takes him 14 weeks and 1 day. Therefore he arrives on a
 Tuesday.
