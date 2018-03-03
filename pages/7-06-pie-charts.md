@@ -43,7 +43,7 @@ In case you have forgotten, or are new to Parallelograms, these Junior Maths Cha
 
 ::: problem id=2_1 marks=3
 
-__2.1__ The 2010 match at Wimbledon between John Isner and Nicolas Malut, which lasted 11 hours and 5 minutes, set a record for the longest match in tennis history. The fifth set of the match lasted 8 hours and 11 minutes.
+__2.1__ The 2010 match at Wimbledon between John Isner and Nicolas Mahut, which lasted 11 hours and 5 minutes, set a record for the longest match in tennis history. The fifth set of the match lasted 8 hours and 11 minutes.
 
 Approximately what fraction of the whole match was taken up by the fifth set?
 
