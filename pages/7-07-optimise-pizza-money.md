@@ -29,7 +29,7 @@ This is a very easy Countdown numbers game, but I like the way that Noel decides
 @[youtube](dfwkZ6LSKEE?rel=0)
 
 ::: problem id=1_1 marks=1
-__1.1__ The numbers were (75, 25, 100, 50, 9, 8). Using Countdown rules, is it possible to create 1?
+__1.1__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create 1?
 
 * [x] Yes
 * [ ] No
@@ -40,7 +40,7 @@ Yes, because one solution is (75 + 50) – (100 + 25) + 9 – 8
 :::
 
 ::: problem id=1_2 marks=1
-__1.2__ The numbers were (75, 25, 100, 50, 9, 8). Using Countdown rules, is it possible to create 0?
+__1.2__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create 0?
 
 * [x] Yes
 * [ ] No
@@ -69,7 +69,7 @@ In total, the train travels 27 km + 29 km = 56 km.
 
 So the combined time for these two parts of the journey is `56/96` hours = `7/12` hours = 35 minutes.
 
-The total journey time, therefore, is 38 minutes. So Gill arrives at 09:38.
+There is also the 3 minutes of waiting at Lens. The total journey time, therefore, is 38 minutes. So Gill arrives at 09:38.
 
 :::
 
@@ -107,7 +107,7 @@ __3.2__ Medium pizzas are 45 cm in diameter and cost £10. If the pricing was co
 
 ---
 
-The small pizza is `30/45` or `2/3` as wide as the medium pizza, so its area is (`2/3`)<sup>2</sup> smaller than the ara of the medium pizza. Therefore, the small pizza SHOULD cost (`2/3`)<sup>2</sup> × £10 = £4.44. In practice, it will probably cost more, as the video explained.
+The small pizza is `30/45` or `2/3` as wide as the medium pizza, so its area is (`2/3`)<sup>2</sup> smaller than the area of the medium pizza. Therefore, the small pizza SHOULD cost (`2/3`)<sup>2</sup> × £10 = £4.44. In practice, , it will probably cost more, because of the reasons given in the video.
 :::
 
 
@@ -127,7 +127,7 @@ __4.1__ Evariste and Sophie both bought some stamps for their collections. Each 
 
 Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.00. Hence, 11`x` + 7`y` = 100. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger or equal to zero.
 
-By re-arranging the equation, `y = (100 – 11x)/7`. We need to test different values of `x` and fine a whole number value for `x` that give a whole number value for `y`. in other words, we need to find a value for `x`, such that `(100 – 11x)` is divisible by 7 without a remainder.
+By re-arranging the equation, `y = (100 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `(100 – 11x)` is divisible by 7 without a remainder.
 
 Taking `x = 0, 1, 2,… 9,` we have `y = (100 – 11x) = 100, 89, 78, 67, 56, 45, 34, 23, 12, 1`. We see that only for `x = 4` is `(100 – 11x)` divisible by 7. So `x = 4` and `y = 56/7 = 8`. So Sophie buys 8 stamps and Evariste buys 4 stamps, and they buy 12 stamps in total.
 
@@ -148,7 +148,7 @@ Last week we looked at the monoalphabetic substitution cipher, which swapped one
 
 The challenge for an enemy agent who has intercepted a coded message is to work out the key and read the message. If you're the enemy agent with a coded message, how long would it take you to work out the key? How long would it take to work out how each letter has been substituted?
 
-To answer that question, first we need to know how many different keys are possible. Another way to phrase this question is to ask how many different ways you can re-arrange an alphabet of 26 letters.
+To answer that question, first we need to know how many different keys are possible. Another way to phrase this question is to ask: "How many different ways can you re-arrange an alphabet of 26 letters?""
 
 This is a big question, so let’s start with a smaller alphabet and let’s see if we can find a pattern.
 
@@ -181,7 +181,7 @@ __5.1.__ How many ways can you arrange a 4-letter alphabet (ABCD)?
 
 ---
 
-There 4! ways to arrange a 4-letter alphabet, which is 24 or (4 × 3 × 2 × 1) possibilities.
+There are 4! ways to arrange a 4-letter alphabet, which is 24 or (4 × 3 × 2 × 1) possibilities.
 :::
 
 ::: problem id=5_2 marks=1
@@ -191,13 +191,13 @@ __5.2.__ How many ways can you arrange a 5-letter alphabet (ABCDE)?
 
 ---
 
-There 5! ways to arrange a 4-letter alphabet, which is 120 or (5 × 4 × 3 × 2 × 1) possibilities.
+There are 5! ways to arrange a 4-letter alphabet, which is 120 or (5 × 4 × 3 × 2 × 1) possibilities.
 :::
 
 ::: problem id=5_3 marks=2
 __5.3.__ What is the value of 8! (or how many ways can you arrange an 8-letter alphabet?
 
-You can work it out using your calculator’s factorial button – look for the exclamation mark – or you can work it out by multiplying over and over again
+You can work it out using your calculator’s factorial button – look for the exclamation mark – or you can work it out by multiplying over and over again.
 
 <input solution="40320"/>  
 :::
@@ -229,7 +229,7 @@ __6.2.__ Convert your answer from question 6.1 into an actual number by using a 
 
 ---
 
-If you type 26! into  a calculator, then the answer is 403,291,461,126,605,635,584,000,000, so the answer is 403 (million billion billion).
+If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,584,000,000, so the answer is 403 (million billion billion).
 :::
 
 ***
