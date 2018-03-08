@@ -59,7 +59,7 @@ __2.1__ How many stamps did they buy in total?
 
 ---
 
-Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.70. Hence, 11`x` + 7`y` = 107. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger or equal to zero.
+Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.70. Hence, 11`x` + 7`y` = 107. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger than or equal to zero.
 
 By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `(107 – 11x)` is divisible by 7 without a remainder.
 
@@ -140,7 +140,7 @@ My calculator screamed ERROR when I tried to be lazy. Instead, I started by noti
 You might not have covered how to manipulate exponentials in detail, so don’t worry if you cannot follow this completely, but you can then say:  
   2<sup>42,643,801</sup> ≈ (2<sup>10</sup>)<sup>4,264,380</sup>, because   2<sup>ab</sup> = (2<sup>a</sup>)<sup>b</sup>  
     ≈ (1,000)<sup>4,264,380</sup>  
-    ≈ 10<sup>3</sup>)</sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
+    ≈ 10<sup>3</sup>)<sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
     ≈ 10<sup>3 × 4,264,380</sup>  
     ≈ 10<sup>12,793,140</sup>, so the number has about 12,293,140 digits.
 
@@ -157,11 +157,11 @@ __4.1.__ The points _S_, _T_, _U_ lie on the sides of the triangle _PQR_, as sho
 
 _∠TSU_ = 40°. What is the size of _∠TPU_?  
 
-* [x] 60°
+* [ ] 60°
 * [ ] 70°
 * [ ] 80°
 * [ ] 90°
-* [ ] 100°
+* [x] 100°
 
 ^^^ hint id=1
 Let _∠RST_ = `x`° and _∠QSU_ = `y`°. As _RS_ = _RT_, the triangle _RST_ is isosceles and hence _∠RTS_ = _∠RST_ = `x`°. Hence, as the angles in triangle _RST_ add up to 180°, we have that _∠SRT_ = (180 - 2`x`)°.
@@ -239,7 +239,7 @@ Why does this happen? Let’s look at why the top row adds up to the square of t
 
 ![](/resources/8-07-curious-bear-doctor-who/5-3-number-square.jpg){image align="center"}
 
-A 3 x 3 grid of 9 blocks consists of 1 block in the top left, 3 blocks wrapped around it, and 5 blocks wrapped around those. So 3<sup>2</sup> consists of __(1 + 3 + 5)__, and 1, 3, 5 are he first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.
+A 3 x 3 grid of 9 blocks consists of 1 block in the top left, 3 blocks wrapped around it, and 5 blocks wrapped around those. So 3<sup>2</sup> consists of __(1 + 3 + 5)__, and 1, 3, 5 are the first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.
 
 And why do the diagonals of an n × n grid add up to n<sup>3</sup>? And why do all the numbers in an n × n grid add up to n<sup>4</sup>? That’s something for you to think about.
 
