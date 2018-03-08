@@ -140,7 +140,7 @@ My calculator screamed ERROR when I tried to be lazy. Instead, I started by noti
 You might not have covered how to manipulate exponentials in detail, so don’t worry if you cannot follow this completely, but you can then say:  
   2<sup>42,643,801</sup> ≈ (2<sup>10</sup>)<sup>4,264,380</sup>, because   2<sup>ab</sup> = (2<sup>a</sup>)<sup>b</sup>  
     ≈ (1,000)<sup>4,264,380</sup>  
-    ≈ 10<sup>3</sup>)<sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
+    ≈ (10<sup>3</sup>)<sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
     ≈ 10<sup>3 × 4,264,380</sup>  
     ≈ 10<sup>12,793,140</sup>, so the number has about 12,293,140 digits.
 
