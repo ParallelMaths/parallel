@@ -61,7 +61,7 @@ __2.1__ How many stamps did they buy in total?
 
 Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.70. Hence, 11`x` + 7`y` = 107. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger or equal to zero.
 
-By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and fine a whole number value for `x` that give a whole number value for `y`. in other words, we need to find a value for `x`, such that `(107 – 11x)` is divisible by 7 without a remainder.
+By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `(107 – 11x)` is divisible by 7 without a remainder.
 
 Taking `x = 0, 1, 2,… 9,` we have `y = (107 – 11x) = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `(107 – 11x)` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 8 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
 
@@ -76,11 +76,11 @@ This is my favourite maths clip from Doctor Who.
 
 @[youtube](ee2If8jSxUo?rel=0)
 
-You will know about prime numbers, but here “Alexis Inspired” explains what makes a prime number happy.
+So the Doctor spots that the pattern involves __happy prime numbers__. You will already know about prime numbers, but here “Alexis Inspired” explains what makes a prime number happy.
 
 @[youtube](8ftbFl8tHmY?rel=0)
 
-You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then it is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.
+You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then the original starting number is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.
 
 For example, 91 is happy, because it leads to the following sequence.
 
@@ -92,7 +92,7 @@ For example, 91 is happy, because it leads to the following sequence.
 
 Because 91 is prime, then it is not just a happy number, but also a happy prime.
 
-I am going to define a quantity called “the sum of all happiness” for a number, which is total of all the numbers on the happiness path added together.
+I am going to define a quantity called “the sum of all happiness” for a number, which is the total of all the numbers on the happiness path added together.
 
 So, the sum of all happiness for 91 is (91 + 82 + 68 + 100 + 1), which equals 342.
 
@@ -109,7 +109,7 @@ __3.2.__ 19 is a happy number. What is the sum of all happiness for 19? Is there
 
 ---
 
-Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given about, you can cheat and start with the answer given above, which is 342. However, your path started 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.
+Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given about, you can cheat and start with the answer given above, which is 342. However, your path started with 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.
 :::
 
 ::: problem id=3_3 marks=3
@@ -119,7 +119,7 @@ __3.3.__ 4 is an unhappy number. If you follow the usual process (ie, 4<sup>2</s
 
 ---
 
-You should have found the following loop: 4, 16, 37, 58, 89, 145, 42, 20, 4, ... It consists of eight numbers.
+You should have found the following loop: 4, 16, 37, 58, 89, 145, 42, 20, 4, ... It consists of eight numbers if you only include 4 once.
 :::
 
 ::: problem id=3_4 marks=3
@@ -135,12 +135,13 @@ Instead, if you expressed 2<sup>42,643,801</sup> in the normal way (ie, not as a
 
 ---
 
-My calculator screamed ERROR when I tried to be lazy. Instead, I started by noticing 210 ≈ 1,000.
+My calculator screamed ERROR when I tried to be lazy. Instead, I started by noticing 2<sup>10</sup> ≈ 1,000.
 
 You might not have covered how to manipulate exponentials in detail, so don’t worry if you cannot follow this completely, but you can then say:  
   2<sup>42,643,801</sup> ≈ (2<sup>10</sup>)<sup>4,264,380</sup>, because   2<sup>ab</sup> = (2<sup>a</sup>)<sup>b</sup>  
     ≈ (1,000)<sup>4,264,380</sup>  
-    ≈ 10<sup>3 × 4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
+    ≈ 10<sup>3</sup>)</sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup>  
+    ≈ 10<sup>3 × 4,264,380</sup>  
     ≈ 10<sup>12,793,140</sup>, so the number has about 12,293,140 digits.
 
 :::
@@ -164,8 +165,10 @@ _∠TSU_ = 40°. What is the size of _∠TPU_?
 
 ^^^ hint id=1
 Let _∠RST_ = `x`° and _∠QSU_ = `y`°. As _RS_ = _RT_, the triangle _RST_ is isosceles and hence _∠RTS_ = _∠RST_ = `x`°. Hence, as the angles in triangle _RST_ add up to 180°, we have that _∠SRT_ = (180 - 2`x`)°.
+^^^
 
-Similarly, _∠SQU_ = (180 - 2`y`)°. Hence from triangle _PQR_, we have that _∠TPU_ = (180 - (180 - 2`x`) - (180 - 2`y`))° = (2 (`x` + `y`) - 180)°.
+^^^ hint id=2
+_∠SQU_ = (180 - 2`y`)°. Hence from triangle _PQR_, we have that _∠TPU_ = (180 - (180 - 2`x`) - (180 - 2`y`))° = (2 (`x` + `y`) - 180)°.
 ^^^
 
 ---
@@ -219,7 +222,7 @@ If you add up the numbers in either diagonal, then you get:
 
 Finally, if you add up all the numbers in grid, then you get 6<sup>4</sup>.
 
-The crazy thing is that you can do this this with any number all the way up to infinity. But, for simplicity, let’s try it the number 3 and create a 3 by 3 grid of the first nine odd numbers.
+The crazy thing is that you can do this this with any number all the way up to infinity. But, for simplicity, let’s try it with the number 3 and create a 3 by 3 grid of the first nine odd numbers.
 
 | 1 | 3 | 5 |
 | 7 | 9 | 11 |
