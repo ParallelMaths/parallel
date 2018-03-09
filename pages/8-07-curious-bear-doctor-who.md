@@ -239,7 +239,7 @@ Why does this happen? Let’s look at why the top row adds up to the square of t
 
 ![](/resources/8-07-curious-bear-doctor-who/5-3-number-square.jpg){image align="center"}
 
-A 3 x 3 grid of 9 blocks consists of 1 block in the top left, 3 blocks wrapped around it, and 5 blocks wrapped around those. So 3<sup>2</sup> consists of __(1 + 3 + 5)__, and 1, 3, 5 are the first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.
+A 3 x 3 grid of 9 blocks consists of __1__ block in the top left, __3__ blocks wrapped around it, and __5__ blocks wrapped around those. So a 3<sup>2</sup> grid consists of __(1 + 3 + 5)__ blocks, and __1__, __3__, __5__ are the first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.
 
 And why do the diagonals of an n × n grid add up to n<sup>3</sup>? And why do all the numbers in an n × n grid add up to n<sup>4</sup>? That’s something for you to think about.
 
@@ -248,7 +248,7 @@ And why do the diagonals of an n × n grid add up to n<sup>3</sup>? And why do a
 
 And now for something completely different. Monty Python’s Flying Circus was one of the BBC’s most anarchic and revolutionary comedy shows. The sketches were based on a whole series of absurd premises, such as the Ministry of Silly Walks and a customer complaining about a dead parrot.
 
-As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the “Horrible Histories” silliness was inspired by Monty Python.
+As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.
 
 @[youtube](ur5fGSBsfq8?rel=0)
 
@@ -283,7 +283,8 @@ Simon.
 
 ## Additional Stuff
 
-* If you are interested in studying physics (or maths or engineering) at university, then you might want to [watch this video by Physics Girl, in conversation with Jabril Ashe](https://www.youtube.com/watch?v=n2RhC4JNS7M?rel=0){target="_blank"}. She talks about her path into physics. Jabril, by the way, is a computer programmer, as well as a YouTuber
+* If you are interested in studying physics (or maths or engineering) at university, then you might want to watch this video by Physics Girl, in conversation with Jabril Ashe. She talks about her path into physics. Jabril, by the way, is a computer programmer, as well as a YouTuber:
+@[youtube](n2RhC4JNS7M?rel=0)
 
 * For more Doctor Who stuff, [here is the BBC Doctor Who fun and games website](http://www.bbc.co.uk/programmes/articles/4nH4gHgpmRXh8w8vqLsq1jS/fun-and-games){target="_blank"}.
 

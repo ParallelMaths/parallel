@@ -148,7 +148,7 @@ Last week we looked at the monoalphabetic substitution cipher, which swapped one
 
 The challenge for an enemy agent who has intercepted a coded message is to work out the key and read the message. If you're the enemy agent with a coded message, how long would it take you to work out the key? How long would it take to work out how each letter has been substituted?
 
-To answer that question, first we need to know how many different keys are possible. Another way to phrase this question is to ask: "How many different ways can you re-arrange an alphabet of 26 letters?
+To answer that question, first we need to know how many different keys are possible. Another way to phrase this question is to ask: "How many different ways can you re-arrange an alphabet of 26 letters?"
 
 This is a big question, so let’s start with a smaller alphabet and see if we can find a pattern.
 
@@ -229,7 +229,7 @@ __6.2.__ Convert your answer from question 6.1 into an actual number by using a 
 
 ---
 
-If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,584,000,000, so the answer is 403 (million billion billion).
+If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,584,000,000 000 (or it will look something like 4.0329...e26), so the answer is 403 (million billion billion).
 :::
 
 ***
