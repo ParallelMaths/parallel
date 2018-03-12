@@ -1,4 +1,9 @@
 year7:
+  - week: 8
+    url: 7-08-tricky-parking-problem
+    title: Tricky parking problem
+    available: 2018-03-16T16:00:00
+    deadline: 2018-03-18T19:00:00
   - week: 7
     url: 7-07-optimise-pizza-money
     title: Optimising your pizza money
