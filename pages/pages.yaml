@@ -41,6 +41,11 @@ year7:
     deadline: 2018-01-21T19:00:00
 
 year8:
+  - week: 8
+    url: 8-08-massive-trees
+    title: Massive trees
+    available: 2018-03-16T16:00:00
+    deadline: 2018-03-18T19:00:00
   - week: 7
     url: 8-07-curious-bear-doctor-who
     title: A curious bear and Doctor Who

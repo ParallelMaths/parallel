@@ -41,7 +41,7 @@ In order to solve this puzzle, you need to imagine looking at the numbers from t
 
 Lots of schools offer students a weekly or monthly maths puzzle competition. If your school does not have such a competition, then you could suggest it to your maths teacher.
 
-And if you are a student or teacher that already takes part in or runs a regular puzzle, then let us know if you have a questions that we could included in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
+And if you are a student or teacher that already takes part in or runs a regular maths puzzle competition, then let us know if you have any question that we could include in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
 
 In the meantime, here is a question from a London school, posed to its students earlier this year.
 
@@ -73,9 +73,9 @@ So, 1.6 Dog = 21 kg
 
 __Dog = 13.125 kg__  
 So, __Cat = 7.875 kg__  
-{.text-center}
+{.text-center}  
 
-
+.
 :::
 
 
@@ -87,17 +87,19 @@ By the way... if you are interested in magic or enjoyed being amazed then make s
 
 @[youtube](mQVF_d6VXcE?rel=0)
 
-<HIDE ALL THIS>Imagine I am the magician, and I ask you to you to pick a card or number. We shall call this `X`.  
+^^^ hint id=1 marks=0
+Imagine I am the magician, and I ask you to you to pick a card or number. We shall call this `x`.  
 
-First, I ask you to double `X` to get `2X`.  
+First, I ask you to double `x` to get `(2x)`.  
 
-Then I ask you to add 2 to get `2X + 2`.  
+Then I ask you to add 2 to get `(2x + 2)`.  
 
 Then I ask you multiply by 5 to get `10X + 10`  
 
-Now let’s say I a `Y`-card in my hand, then I work out `10 – Y` and I ask you to subtract this number from your total, so you end up with `(10X + 10) – (10 – Y)`, which is `(10X + Y)`.  
+Now let’s say I have a `y`-card in my hand, then I work out `(10 – y)` and I ask you to subtract this number from your total, so you end up with `(10x + 10) – (10 – y)`, which is `(10x + y)`.  
 
-So the tens number is always `X` (the card that you chose, and the units number is always `Y`, the number I chose. And that’s the mathematical magic behind the trick.</HIDE ALL THIS>
+So the tens number is always `x` (the card that you chose, and the units number is always `y`, the number I chose. And that’s the mathematical magic behind the trick.
+^^^
 
 
 ## 4. Junior Maths Challenge 2011 (25)
@@ -129,11 +131,11 @@ The minimum number of sides for a polygon is 3. So there are just 6 values for `
 
 ## 5. More about factorials
 
-Last week, while continuing to explore codes, we looked asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at last week’s Parallelogram (#7)](/7-07-optimise-pizza-money) if you need to remind yourself what we did.
+Last week, while continuing to explore codes, we asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at last week’s Parallelogram (#7)](/7-07-optimise-pizza-money){target="_blank"} if you need to remind yourself what we did.
 
-In short, there are 26! ways to re-arrange 26 letters, where 26! means `26 × 25 × 24 ... × 1`.
+In short, there are 26! ways to re-arrange 26 letters, where 26! means 26 × 25 × 24 ... × 1.
 
-The (!) is called factorial, and be applied to any number, eg 4! = `4 × 3 × 2 × 1 = 24`.
+The (!) is called factorial, and it can be applied to any number, eg 4! = 4 × 3 × 2 × 1 = 24.
 
 
 ::: problem id=5_1 marks=1
@@ -156,7 +158,7 @@ If you were trying to break a code, where every letter had been replaced with a 
 {.grid}
 
 ::: problem id=5_2 marks=1
-__5.2.__ How long would it take to check every possible arrangement, assuming that it takes 5 seconds to check each arrangement? Which of the following expressions would give you correct answer in years?
+__5.2.__ How long would it take to check every possible arrangement, assuming that it takes 5 seconds to check each arrangement? Which of the following expressions would give you the correct answer in years?
 
 * [x] (26! × 5) × 31,536,000 years
 * [ ] 31,536,000 ÷ (26! × 5) years
@@ -164,7 +166,7 @@ __5.2.__ How long would it take to check every possible arrangement, assuming th
 
 ---
 
-There are 26! different arrangements, and each one takes 5 seconds to check each one, so it would take (26! × 5) seconds to check all of them.
+There are 26! different arrangements, and each one takes 5 seconds to check, so it would take (26! × 5) seconds to check all of them.
 
 There are (60 × 60 × 24 × 365) = 31,536,000 seconds in a year of 365 days.
 
@@ -194,7 +196,7 @@ __5.4.__ The answer from question 5.3 is much bigger than the age of the univers
 
 ## 6. Rocket software
 
-This is a photo of Margaret Hamilton, who spent the 1960s developing the software for the rocket guidance system that took humans to the moon. She helped popularise the term software engineer and was pioneer in computing, particularly when it came to writing software that could cope with errors, by either fixing them or avoiding them or preventing them.
+This is a photo of Margaret Hamilton, who spent the 1960s developing the software for the rocket guidance system that took humans to the moon. She helped popularise the term software engineer and was a pioneer in computing, particularly when it came to writing software that could cope with errors, by either fixing them or avoiding them or preventing them.
 
 While a mother in her twenties, having completed a degree in mathematics, Hamilton was a crucial figure in the Apollo moon project. Below, you can see her standing next to a print out of the computer code that she created. I like the fact that the stack was so tall that they had to remove the printout at the top so that you could see Hamilton when she stood behind it.
 
