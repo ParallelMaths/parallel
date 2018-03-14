@@ -5,7 +5,7 @@ const serviceAccount = require('../private/service-account.json');
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
   "tvandenburgh@gmail.com",
-  
+
 ];
 
 fb.initializeApp({
@@ -13,7 +13,8 @@ fb.initializeApp({
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
-const accounts = JSON.parse(fs.readFileSync('/tmp/parallel-users.json')).users;
+const file = path.join(__dirname, `../private/tmp-users.json`);
+const accounts = JSON.parse(fs.readFileSync(file)).users;
 
 async function makeTeacher(email) {
   const a = accounts.find(a => a.email.toLowerCase() === email.toLowerCase());

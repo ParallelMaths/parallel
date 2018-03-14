@@ -10,7 +10,8 @@ fb.initializeApp({
 
 fb.database().ref('users').once('value').then(data => {
   const users = data.toJSON();
-  const accounts = JSON.parse(fs.readFileSync('/tmp/parallel-users.json')).users;
+  const file = path.join(__dirname, `../private/tmp-users.json`);
+  const accounts = JSON.parse(fs.readFileSync(file)).users;
 
   let teachers = 'email,first,last,schoolName,phoneNumber,postCode,country,teacherCode\n';
   let students = 'email,first,last,level,birthYear,schoolName,country,teacherCode,guardianEmail\n';

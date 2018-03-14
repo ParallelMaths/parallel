@@ -16,9 +16,9 @@
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
     "deploy": "grunt && firebase deploy",
-    "get-users": "firebase auth:export /tmp/parallel-users.json --format=json && node scripts/get-users.js",
+    "get-users": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/get-users.js",
     "get-results": "node scripts/get-results.js",
-    "convert-teachers": "firebase auth:export /tmp/parallel-users.json --format=json && node scripts/convert-teachers.js"
+    "convert-teachers": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/convert-teachers.js"
   },
   "devDependencies": {
     "ascii2mathml": "^0.5.4",
