@@ -41,12 +41,12 @@ In order to solve this puzzle, you need to imagine looking at the numbers from t
 
 Lots of schools offer students a weekly or monthly maths puzzle competition. If your school does not have such a competition, then you could suggest it to your maths teacher.
 
-And if you are a student or teacher that already takes part in or runs a regular maths puzzle competition, then let us know if you have any question that we could include in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
+And if you are a student or teacher that already takes part in or runs a regular maths puzzle competition, then let us know if you have any questions that we could include in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
 
 In the meantime, here is a question from a London school, posed to its students earlier this year.
 
 ::: problem id=2_1 marks=2
-__2.1__ Donald is standing on some scales, holding his cat and dog. The reading is 102kg. Donald weighs 60kg more than the combined weight of his cat and dog. The cat weighs 60% less than the dog. How much, in kg, does the dog weigh?
+__2.1__ Donald is standing on some scales, holding his cat and dog. The reading on the scales is 102kg. Donald weighs 60kg more than the combined weight of his cat and dog. The cat's weight is equivalent to 60% of the dog's weight. How much, in kg, does the dog weigh?
 
 <input solution="13.125"/> kg  
 
@@ -94,7 +94,7 @@ First, I ask you to double `x` to get `(2x)`.
 
 Then I ask you to add 2 to get `(2x + 2)`.  
 
-Then I ask you multiply by 5 to get `10X + 10`.  
+Then I ask you to multiply by 5 to get `10X + 10`.  
 
 Now let’s say I have a `y`-card in my hand, then I work out `(10 – y)` and I ask you to subtract this number from your total, so you end up with `(10x + 10) – (10 – y)`, which is `(10x + y)`.  
 
@@ -160,17 +160,17 @@ If you were trying to break a code, where every letter had been replaced with a 
 ::: problem id=5_2 marks=1
 __5.2.__ How long would it take to check every possible arrangement, assuming that it takes 5 seconds to check each arrangement? Which of the following expressions would give you the correct answer in years?
 
-* [x] (26! × 5) × 31,536,000 years
-* [ ] 31,536,000 ÷ (26! × 5) years
-* [ ] (26! × 5) ÷ 31,536,000 years
+* [ ] (26! × 5) × 31,557,600 years
+* [ ] 31,557,600 ÷ (26! × 5) years
+* [x] (26! × 5) ÷ 31,557,600 years
 
 ---
 
 There are 26! different arrangements, and each one takes 5 seconds to check, so it would take (26! × 5) seconds to check all of them.
 
-There are (60 × 60 × 24 × 365) = 31,536,000 seconds in a year of 365 days.
+There are (60 × 60 × 24 × 365.25) = 31,557,600 seconds in a year of 365.25 days (remember, every fourth year has an extra day!).
 
-So it would take (26! × 5) ÷ 31,536,000 years.
+So it would take (26! × 5) ÷ 31,557,600 years.
 
 :::
 
@@ -188,10 +188,10 @@ __5.3.__ How many years would it take to check every possible arrangement?
 __5.4.__ The answer from question 5.3 is much bigger than the age of the universe. How many times bigger than the age of the universe? Which of these answers is nearest?
 
 * [ ] about double
-* [ ] about 10
-* [ ] about a thousand
-* [ ] about a million
-* [x] about a billion
+* [ ] about 50
+* [ ] about 5 thousand
+* [ ] about 5 million
+* [x] about 5 billion
 :::
 
 ## 6. Rocket software
