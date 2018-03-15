@@ -25,18 +25,18 @@ when the answer sheet appears.
 
 Lots of schools offer students a weekly or monthly maths puzzle competition. If your school does not have such a competition, then you could suggest it to your maths teacher.
 
-And if you are a student or teacher that already takes part in or runs a regular maths puzzle competition, then let us know if you have any question that we could include in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
+And if you are a student or teacher that already takes part in or runs a regular maths puzzle competition, then let us know if you have any questions that we could include in our Parallelograms [by emailing us](mailto:contact@parallel.org.uk).
 
 In the meantime, here is a question from a London school, posed to its students earlier this year.
 
 ::: problem id=1_1 marks=3
-__1.1.__ Who am I? I have 4 digits. I am a perfect square. I look the same upside down. My square root is a prime number.
+__1.1.__ I have 4 digits. I am a perfect square. I look the same upside down. My square root is a prime number. Who am I?
 
 <input solution="6889"/>  
 
 ---
 
-There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 1s, 6s, 8s and 9s. So, we have: 1111, 1691, 1961, 1881, 6119, 6889, 6699, 6969, 8118, 8888, 8698, 8968, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
+There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 1s, 6s, 8s and 9s. So, we have: 1001, 1111, 1691, 1961, 1881, 6009, 6119, 6889, 6699, 6969, 8118, 8888, 8698, 8968, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
 :::
 
 
@@ -46,9 +46,9 @@ There are different ways to tackle this problem. For example, we could identity 
 
 Following last week’s mini-exploration of the mathematics of Doctor Who, here is a short video (from a longer documentary) about Delia Derbyshire, who created the Doctor Who theme tune while she was working at the BBC Radiophonic Workshop.
 
-Derbyshire, whose father was a sheet-metal worker, came from an ordinary family in Coventry, but her talent for mathematics took here on an extraordinary journey. She went to Cambridge University, where she studied both music and mathematics, and later she joined the BBC. Her love of mathematics and technology enabled her to create wholly new types of music, using entirely new electronics. Many credit her with playing a major role in the development of modern music, from techno to grime.
+Derbyshire, whose father was a sheet-metal worker, came from an ordinary family in Coventry, but her talent for mathematics took her on an extraordinary journey. She went to Cambridge University, where she studied both music and mathematics, and later she joined the BBC. Her love of mathematics and technology enabled her to create wholly new types of music, using entirely new electronics. Many credit her with playing a major role in the development of modern music, from techno to grime.
 
-Before watching the video, consider this question.
+While you're watching this video, consider this question.
 
 ::: problem id=2_1 marks=1
 __2.1__ According to Alan Sutcliffe, to do maths you need to be...
@@ -91,7 +91,7 @@ In this way it takes 9 journeys to get everyone across the river.
 
 ## 4. Where do trees get their mass from?
 
-Veritasium is a YouTube channel run by Derek Muller. If often asks apparently easy question, and then explore the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where trees get their mass from?”
+Veritasium is a YouTube channel run by Derek Muller. It often asks apparently easy questions, and then explores the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where trees get their mass from?”
 
 Before watching the video, have a think about how you would answer this question.
 
