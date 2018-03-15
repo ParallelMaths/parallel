@@ -36,7 +36,7 @@ __1.1.__ I have 4 digits. I am a perfect square. I look the same upside down. My
 
 ---
 
-There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 1s, 6s, 8s and 9s. So, we have: 1001, 1111, 1691, 1961, 1881, 6009, 6119, 6889, 6699, 6969, 8118, 8888, 8698, 8968, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
+There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 0s, 1s, 6s, 8s and 9s. So, we have: 1001, 1111, 1691, 1961, 1881, 6009, 6119, 6889, 6699, 6969, 8008, 8118, 8888, 8698, 8968, 9006, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
 :::
 
 
@@ -91,7 +91,7 @@ In this way it takes 9 journeys to get everyone across the river.
 
 ## 4. Where do trees get their mass from?
 
-Veritasium is a YouTube channel run by Derek Muller. It often asks apparently easy questions, and then explores the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where trees get their mass from?”
+Veritasium is a YouTube channel run by Derek Muller. He often asks apparently easy questions, and then explores the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where trees get their mass from?”
 
 Before watching the video, have a think about how you would answer this question.
 
