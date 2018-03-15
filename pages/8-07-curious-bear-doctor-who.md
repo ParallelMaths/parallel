@@ -193,7 +193,7 @@ Now _∠RTS_ = 180° - _∠TRS_ - _∠SQU_
 
 ## 5. An odd square.
 
-Here something curious.
+Here is something curious.
 
 You could pick any number, but let’s try it with the number 6.
 

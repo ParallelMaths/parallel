@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 8_ Massive trees
+# _Year 8 • Parallelogram 8_ Computer music and techno ditties
 
 <div class="dictionary">
 
@@ -36,13 +36,13 @@ __1.1.__ Who am I? I have 4 digits. I am a perfect square. I look the same upsid
 
 ---
 
-There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – that have to contain 1s, 6s, 8s and 9s. So, we have: 1111, 1691, 1961, 1881, 6119, 6889, 6699, 6969, 8118, 8888, 8698, 8968, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
+There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 1s, 6s, 8s and 9s. So, we have: 1111, 1691, 1961, 1881, 6119, 6889, 6699, 6969, 8118, 8888, 8698, 8968, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
 :::
 
 
 ## 2. Delia Derbyshire
 
-![](/resources/8-08-massive-trees/2-delia-derbyshire.jpg){image align="right"}
+![](/resources/8-08-computer-music/2-delia-derbyshire.jpg){image align="right"}
 
 Following last week’s mini-exploration of the mathematics of Doctor Who, here is a short video (from a longer documentary) about Delia Derbyshire, who created the Doctor Who theme tune while she was working at the BBC Radiophonic Workshop.
 
@@ -101,7 +101,7 @@ Before watching the video, have a think about how you would answer this question
 ## 5. An odd house
 
 ::: problem id=5_1 marks=2
-__5.1.__ A house has four walls. All the walls face south. Where is the house?
+__5.1.__ A house has four walls. All the walls face south. Where is the house? The answer consists of a 5-letter word and a 4-letter word.
 
 <input type="text" solution="North Pole" placeholder="????? ????"/>  
 
@@ -115,16 +115,16 @@ If you remember last week’s Parallelogram... the North Pole is an odd place, a
 ## 6. Eight queens puzzle
 
 ::: problem id=6_1 marks=0
-Can you place eight queens on a chess board, so that no queen can capture any other queen? If you don’t play chess, then all you need to know that a queen can move forwards, backwards and diagonally. Hence, the queens need to be placed so that no queen is in the line of sight (straight or diagonally of any other queen).
+Can you place eight queens on a chess board, so that no queen can capture any other queen? If you don’t play chess, then all you need to know is that a queen can move forwards, backwards and diagonally. Hence, the queens need to be placed so that no queen is in the line of sight (straight or diagonally of any other queen). There are no marks for this question – I have included it just to stretch your brain.  
 
 You can use the following website to try different possibilities. Good luck.
 [http://www.brainmetrix.com/8-queens/](http://www.brainmetrix.com/8-queens/){target="_blank"}
 
-If you can’t find a solution, we’ll have it for you on the answer sheet. By the way, I don’t want to make you feel bad, but there are 92 distinct solutions, so it should be easy to find a solution. (Actually, it is a nasty little puzzle, and you will have done well to have solved it.)
+By the way, there are 92 distinct solutions, and we’ll have one of the them in the answer sheet.
 
 ---
 
-![](/resources/8-08-massive-trees/6-eight-queens.png){image align="center"}
+![](/resources/8-08-computer-music/6-eight-queens.png){image align="center"}
 
 :::
 

@@ -94,11 +94,11 @@ First, I ask you to double `x` to get `(2x)`.
 
 Then I ask you to add 2 to get `(2x + 2)`.  
 
-Then I ask you multiply by 5 to get `10X + 10`  
+Then I ask you multiply by 5 to get `10X + 10`.  
 
 Now let’s say I have a `y`-card in my hand, then I work out `(10 – y)` and I ask you to subtract this number from your total, so you end up with `(10x + 10) – (10 – y)`, which is `(10x + y)`.  
 
-So the tens number is always `x` (the card that you chose, and the units number is always `y`, the number I chose. And that’s the mathematical magic behind the trick.
+So the tens number is always `x` (the card that you chose), and the units number is always `y` (the number that I chose). And that’s the mathematical magic behind the trick.
 ^^^
 
 
