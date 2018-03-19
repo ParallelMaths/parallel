@@ -1,4 +1,9 @@
 year7:
+  - week: 9
+    url: 7-09-easter-challenges
+    title: Easter challenges
+    available: 2018-03-23T16:00:00
+    deadline: 2018-03-25T19:00:00
   - week: 8
     url: 7-08-tricky-parking-problem
     title: Tricky parking problem
