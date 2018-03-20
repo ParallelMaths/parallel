@@ -10,8 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Here is this week's collection of mathematical challenges designed to stretch
-your brain.
+Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
 
 * Start and stop whenever you like – your work will be saved each time.
 * The next Parallelogram is not until April 20, so there is no need to rush.
@@ -47,10 +46,10 @@ Finally, afterwards, make sure you go through all the answers and see where you 
 
 __The next Parallelogram will contain our usual mix of videos, humour, puzzles and problems.__
 
-## 3.
+## 2.
 
-::: problem id=3_1 marks=5
-__3.1__ What is half of 1.01?
+::: problem id=2_1 marks=5
+__2.1__ What is half of 1.01?
 
 * [ ] 5.5
 * [ ] 0.55
@@ -70,10 +69,10 @@ Alternatively, we can use fractions:
 :::
 
 
-## 4.
+## 3.
 
-::: problem id=4_1 marks=5
-__4.1__ Beatrix looks at the word __JUNIOR__ in a mirror. How many of the reflected letters never look the same as the original, no matter how Beatrix
+::: problem id=3_1 marks=5
+__3.1__ Beatrix looks at the word __JUNIOR__ in a mirror. How many of the reflected letters never look the same as the original, no matter how Beatrix
 holds the mirror?
 
 * [ ] 1
@@ -90,11 +89,11 @@ The letters J, N and R do not have an axis of symmetry. So these letters cannot 
 :::
 
 
-## 5.
+## 4.
 
-::: problem id=5_1 marks=5
+::: problem id=4_1 marks=5
 ![](/resources/7-09-easter-challenges\4-cubes.jpg){image align="right"}
-__5.1__ The diagrams on the right show three different views of the
+__4.1__ The diagrams on the right show three different views of the
 same cube. Which letter is on the face opposite U?
 
 * [ ] I
@@ -111,10 +110,10 @@ From the left hand diagram we see that K is not opposite either I or M, and from
 :::
 
 
-## 6
+## 5
 
-::: problem id=6_1 marks=5
-__6.1__ Tommy Thomas's tankard holds 480 ml when it is one quarter empty. How much does it hold when it is one quarter full?
+::: problem id=5_1 marks=5
+__5.1__ Tommy Thomas's tankard holds 480 ml when it is one quarter empty. How much does it hold when it is one quarter full?
 
 * [ ] 120 ml
 * [x] 160 ml
@@ -128,11 +127,12 @@ __6.1__ Tommy Thomas's tankard holds 480 ml when it is one quarter empty. How mu
 When Tommy's tankard is one quarter empty it is three quarters full. So 480 ml is three quarters of the capacity of the tankard. So when it is one quarter full it holds `1/3 (480) = 160` ml.
 :::
 
-## 7
 
-::: problem id=7_1 marks=5
+## 6
+
+::: problem id=6_1 marks=5
 ![](/resources/7-09-easter-challenges\7-arrows-question.jpg){image align="right"}
-__7.1__ The diagram shows two arrows drawn on separate 4 cm × 4 cm grids.
+__6.1__ The diagram shows two arrows drawn on separate 4 cm × 4 cm grids.
 One arrow points North and the other points West.
 
 When the two arrows are drawn on the same 4 cm × 4 cm grid (still
@@ -154,11 +154,12 @@ grid is divided, and 4 halves of these squares. So the area of the overlapping
 region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
 :::
 
-## 8
 
-::: problem id=8_1 marks=5
+## 7
+
+::: problem id=7_1 marks=5
 ![](/resources/7-09-easter-challenges\8-l-question.jpg){image align="right"}
-__8.1__ Laura wishes to cut this shape, which is made up of nine small squares,
+__7.1__ Laura wishes to cut this shape, which is made up of nine small squares,
 into pieces that she can then rearrange to make a `3 × 3` square.
 
 What is the smallest number of pieces that she needs to cut the shape
@@ -179,12 +180,14 @@ In a `3 × 3` square each row and column contains just 3 squares. So none of the
 ![](/resources/7-09-easter-challenges\8-l-answer2.jpg){image align="center"}
 :::
 
-## 9
 
-::: problem id=9_1 marks=5
-__9.1__ A pattern that repeats every six symbols starts as shown below:
+## 8
+
+::: problem id=8_1 marks=5
+__8.1__ A pattern that repeats every six symbols starts as shown below:
 
 ♥ ♣ ♥ ♦ ♥ ♠ ♥ ♣ ♥ ♦ ♥ ♠ ...
+{.text-center}
 
 Which are the 100th and 101st symbols, in that order, in the pattern?
 
@@ -201,10 +204,10 @@ The pattern repeats every 6 symbols. Therefore, as 96 is a multiple of 6, the sy
 :::
 
 
-## 10
+## 9
 
-::: problem id=10_1 marks=6
-__10.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma‟s house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
+::: problem id=9_1 marks=6
+__9.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma‟s house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
 
 In total, how many pages are read by the person who usually reads that page?
 
@@ -223,11 +226,11 @@ The pages that George reads both normally and also when Beth is away are those w
 :::
 
 
-## 11
+## 10
 
-::: problem id=11_1 marks=6
+::: problem id=10_1 marks=6
 ![](/resources/7-09-easter-challenges\11-puzzle.jpg){image align="right"}
-__11.1__ The numbers 2, 3, 4, 5, 6, 7, 8 are to be placed, one per square, in the diagram shown such that the four numbers in the horizontal row add up
+__10.1__ The numbers 2, 3, 4, 5, 6, 7, 8 are to be placed, one per square, in the diagram shown such that the four numbers in the horizontal row add up
 to 21 and the four numbers in the vertical column add up to 21.
 
 Which number should replace `x`?
@@ -247,10 +250,10 @@ To complete the solution we should check that with `x` = 7, it is possible to pl
 :::
 
 
-## 12
+## 11
 
-::: problem id=12_1 marks=6
-__12.1__ Aaron says his age is 50 years, 50 months, 50 weeks and 50 days old. What age will he be on his next birthday?
+::: problem id=11_1 marks=6
+__11.1__ Aaron says his age is 50 years, 50 months, 50 weeks and 50 days old. What age will he be on his next birthday?
 
 * [x] 56
 * [ ] 55
@@ -267,11 +270,11 @@ So Aaron‟s age is approximately (50 + 4) years + (2 + 11 `1/2` + 1 `2/3`) mont
 :::
 
 
-## 13
+## 12
 
-::: problem id=13_1 marks=6
+::: problem id=12_1 marks=6
 ![](/resources/7-09-easter-challenges\13-hexagon-question.jpg){image align="right"}
-__13.1__ The diagram shows a design formed by drawing six lines in a regular hexagon. The lines divide each edge of the hexagon into three equal parts.
+__12.1__ The diagram shows a design formed by drawing six lines in a regular hexagon. The lines divide each edge of the hexagon into three equal parts.
 
 What fraction of the hexagon is shaded?
 
@@ -293,14 +296,14 @@ Each of these is made up of 9 of the small equilateral triangles of which 2 are 
 :::
 
 
-## 14
+## 13
 
-::: problem id=14_1 marks=6
-__14.1__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assuming that I win every game from now on, how many extra games do I need to play in order that my success rate increases to 50%?
+::: problem id=13_1 marks=6
+__13.1__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assuming that I win every game from now on, how many extra games do I need to play in order that my success rate increases to 50%?
 
 * [ ] 1
 * [ ] 2
-* [ ] 5`
+* [ ] 5
 * [x] 10
 * [ ] 50
 {.col-5}

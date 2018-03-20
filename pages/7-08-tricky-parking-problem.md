@@ -46,7 +46,7 @@ And if you are a student or teacher that already takes part in or runs a regular
 In the meantime, here is a question from a London school, posed to its students earlier this year.
 
 ::: problem id=2_1 marks=2
-__2.1__ Donald is standing on some scales, holding his cat and dog. The reading on the scales is 102kg. Donald weighs 60kg more than the combined weight of his cat and dog. The cat's weight is equivalent to 60% of the dog's weight. How much, in kg, does the dog weigh?
+__2.1__ Donald is standing on some scales, holding his cat and dog. The reading on the scales is 102kg. Donald weighs 60kg more than the combined weight of his cat and dog. The cat's weight is equivalent to 60% of the dog's weight. How much, in kg, does the dog weigh? (Perfect answer - please do not round up/down any decimal places)
 
 <input solution="13.125"/> kg  
 
@@ -94,11 +94,11 @@ First, I ask you to double `x` to get `(2x)`.
 
 Then I ask you to add 2 to get `(2x + 2)`.  
 
-Then I ask you to multiply by 5 to get `10X + 10`.  
+Then I ask you to multiply by 5 to get `10x + 10`.  
 
 Now let’s say I have a `y`-card in my hand, then I work out `(10 – y)` and I ask you to subtract this number from your total, so you end up with `(10x + 10) – (10 – y)`, which is `(10x + y)`.  
 
-So the tens number is always `x` (the card that you chose), and the units number is always `y` (the number that I chose). And that’s the mathematical magic behind the trick.
+So the tens number is always `x` (the card number that you chose), and the units number is always `y` (the number that I chose). And that’s the mathematical magic behind the trick.
 ^^^
 
 

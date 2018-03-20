@@ -120,7 +120,7 @@ Can you place eight queens on a chess board, so that no queen can capture any ot
 You can use the following website to try different possibilities. Good luck.
 [http://www.brainmetrix.com/8-queens/](http://www.brainmetrix.com/8-queens/){target="_blank"}
 
-By the way, there are 92 distinct solutions, and we’ll have one of the them in the answer sheet.
+By the way, there are 92 distinct solutions, and we’ll have one of them in the answer sheet.
 
 ---
 
