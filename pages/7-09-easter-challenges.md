@@ -23,7 +23,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 This is my all time favourite Venn diagram. What? Doesn’t everyone have favourite Venn Diagram. Anyway …. If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
 
-![](/resources/7-09-easter-challenges\1-venn-diagram.png){image align="center"}
+![](/resources/7-09-easter-challenges/1-venn-diagram.png){image align="center"}
 
 I guess that the left set contains “creatures with flat tails playing guitars”, while the right set contains “creatures with bills playing keyboards”. Hence, the animal in the overlap is a platypus playing a keytar, because it is a creature with a bill AND a flat tail, which is playing a guitar AND a keyboard.
 
@@ -92,7 +92,7 @@ The letters J, N and R do not have an axis of symmetry. So these letters cannot 
 ## 4.
 
 ::: problem id=4_1 marks=5
-![](/resources/7-09-easter-challenges\4-cubes.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/4-cubes.jpg){image align="right"}
 __4.1__ The diagrams on the right show three different views of the
 same cube. Which letter is on the face opposite U?
 
@@ -131,7 +131,7 @@ When Tommy's tankard is one quarter empty it is three quarters full. So 480 ml i
 ## 6
 
 ::: problem id=6_1 marks=5
-![](/resources/7-09-easter-challenges\7-arrows-question.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/7-arrows-question.jpg){image align="right"}
 __6.1__ The diagram shows two arrows drawn on separate 4 cm × 4 cm grids.
 One arrow points North and the other points West.
 
@@ -147,7 +147,7 @@ pointing North and West) they overlap. What is the area of overlap?
 
 ---
 
-![](/resources/7-09-easter-challenges\7-arrows-answer.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/7-arrows-answer.jpg){image align="right"}
 By drawing one arrow on top of the other, as shown, we see that the region
 of overlap covers the whole of 4 of the 1 cm × 1 cm squares into which the
 grid is divided, and 4 halves of these squares. So the area of the overlapping
@@ -158,7 +158,7 @@ region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
 ## 7
 
 ::: problem id=7_1 marks=5
-![](/resources/7-09-easter-challenges\8-l-question.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/8-l-question.jpg){image align="right"}
 __7.1__ Laura wishes to cut this shape, which is made up of nine small squares,
 into pieces that she can then rearrange to make a `3 × 3` square.
 
@@ -174,10 +174,10 @@ into so that she can do this?
 
 ---
 
-![](/resources/7-09-easter-challenges\8-l-answer.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/8-l-answer.jpg){image align="right"}
 In a `3 × 3` square each row and column contains just 3 squares. So none of the pieces that Laura uses to make the square can be more than 3 squares long. It follows that the squares labelled `a` and `b` must be in different pieces, as also must be the squares labelled `b` and `c`. So there must be at least three pieces. The diagrams below show how Laura can fulfill her task using 3 pieces.
 
-![](/resources/7-09-easter-challenges\8-l-answer2.jpg){image align="center"}
+![](/resources/7-09-easter-challenges/8-l-answer2.jpg){image align="center"}
 :::
 
 
@@ -229,7 +229,7 @@ The pages that George reads both normally and also when Beth is away are those w
 ## 10
 
 ::: problem id=10_1 marks=6
-![](/resources/7-09-easter-challenges\11-puzzle.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/11-puzzle.jpg){image align="right"}
 __10.1__ The numbers 2, 3, 4, 5, 6, 7, 8 are to be placed, one per square, in the diagram shown such that the four numbers in the horizontal row add up
 to 21 and the four numbers in the vertical column add up to 21.
 
@@ -266,14 +266,14 @@ __11.1__ Aaron says his age is 50 years, 50 months, 50 weeks and 50 days old. Wh
 
 50 months is 4 years and 2 months. 50 weeks is around 11 `1/2` months and 50 days is about 1 `2/3` months.
 
-So Aaron‟s age is approximately (50 + 4) years + (2 + 11 `1/2` + 1 `2/3`) months = 54 years + 15 `1/6` months = 55 years and 3 `1/6` months. So he will be 56 on his next birthday.
+So Aaron's age is approximately (50 + 4) years + (2 + 11 `1/2` + 1 `2/3`) months = 54 years + 15 `1/6` months = 55 years and 3 `1/6` months. So he will be 56 on his next birthday.
 :::
 
 
 ## 12
 
 ::: problem id=12_1 marks=6
-![](/resources/7-09-easter-challenges\13-hexagon-question.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/13-hexagon-question.jpg){image align="right"}
 __12.1__ The diagram shows a design formed by drawing six lines in a regular hexagon. The lines divide each edge of the hexagon into three equal parts.
 
 What fraction of the hexagon is shaded?
@@ -287,7 +287,7 @@ What fraction of the hexagon is shaded?
 
 ---
 
-![](/resources/7-09-easter-challenges\13-hexagon-answer.jpg){image align="right"}
+![](/resources/7-09-easter-challenges/13-hexagon-answer.jpg){image align="right"}
 If we draw in the additional lines shown in the diagram on the right, the hexagon is divided into 54 small congruent equilateral triangles of which 12 are shaded. So the fraction that is shaded is `12/54` = `2/9`.
 
 In fact, it is easier to note that the hexagon can be divided into 6 congruent equilateral triangles, like the one shown with the bold edges.
