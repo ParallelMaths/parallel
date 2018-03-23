@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. Venn diagrams
 
-This is my all time favourite Venn diagram. What? Doesn’t everyone have favourite Venn Diagram. Anyway …. If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
+This is my all time favourite Venn diagram. What? Doesn’t everyone have a favourite Venn Diagram. Anyway... If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
 
 ![](/resources/7-09-easter-challenges/1-venn-diagram.png){image align="center"}
 
@@ -31,16 +31,16 @@ I guess that the left set contains “creatures with flat tails playing guitars�
 
 Some of you will be doing the UKMT’s Junior Maths Challenge next month, so the rest of this Parallelogram consists of 12 Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
-In the real JMC, you would have one hour to complete 25 questions, so in theory you have roughly thirty minutes to complete these 12 questions. However, don’t rush, don’t guess and don’t worry if you need longer than thirty minutes … you might even need the full hour.
+In the real JMC, you would have one hour to attempt 25 questions, so in theory you have roughly thirty minutes to complete these 12 questions. However, don’t rush, don’t guess and don’t worry if you need longer than thirty minutes … you might even need the full hour.
 
 Here are a few things to bear in mind when you do the real JMC:
 * the first half of the questions are not too tricky (__also true below__).
 * the second half the questions are really tricky (__also true below__).
 * you will lose marks for wrong answers in the second half of the questions (__not true below__).
 
-__We have tried to make our Parallelograms more printer-friendly. In general, it is better to answer questions online, but sometimes (and maybe this is one of those times) it might be worth printing out one or two of the questions, doing them on paper, and then entering your answers back on the screen.__
-
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
+
+__We have tried to make our Parallelograms more printer-friendly. In general, it is better to answer questions online, but sometimes (and maybe this is one of those times) it might be worth printing out one or two of the questions, doing them on paper, and then entering your answers back on the screen. And make sure you have a paper and pencil to hand for sketches and calculations.__
 
 Finally, afterwards, make sure you go through all the answers and see where you went right and where you went wrong. This is 100% the best way to improve your maths skills.
 
@@ -60,9 +60,7 @@ __2.1__ What is half of 1.01?
 
 ---
 
-We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division sum:
-
-Alternatively, we can use fractions:
+We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division sum, or alternatively, we can use fractions:
 
 `1.01 = 1 + 1/100`. So half of `1.01` is `1/2 + 1/200 = 0.5 + 0.005 = 0.505`
 
@@ -105,12 +103,17 @@ same cube. Which letter is on the face opposite U?
 
 ---
 
-From the left hand diagram we see that K is not opposite either I or M, and from the middle diagram that it is not opposite either O or U. Therefore K must be opposite P. So neither K nor P is opposite U. From the middle diagram O is also not opposite U. So U is opposite either I or M. But if U is opposite I, then O must be opposite M, and this possibility is ruled out by the right hand diagram. So U must be opposite to M (and, also, I is opposite O).
+There are two approaches.
+
+![](/resources/7-09-easter-challenges/4-answer.jpg){image align="right"}
+(A) Draw a net of the cube, and straight away the middle diagram allows us to fill in the large letters. If U is in the middle, then the square at the bottom of the net is opposite U. Then, we can look at the first diagram, which gives us the possibilities in small letters, because I and M must be next to K. The third diagram demands that M is next to O, so M must be in the bottom square of the next, so M is opposite U.
+
+(B) From the left hand diagram we see that K is not opposite either I or M, and from the middle diagram that it is not opposite either O or U. Therefore K must be opposite P. So neither K nor P is opposite U. From the middle diagram O is also not opposite U. So U is opposite either I or M. But if U is opposite I, then O must be opposite M, and this possibility is ruled out by the right hand diagram. So U must be opposite to M (and, also, I is opposite O).
 
 :::
 
 
-## 5
+## 5.
 
 ::: problem id=5_1 marks=5
 __5.1__ Tommy Thomas's tankard holds 480 ml when it is one quarter empty. How much does it hold when it is one quarter full?
@@ -128,7 +131,7 @@ When Tommy's tankard is one quarter empty it is three quarters full. So 480 ml i
 :::
 
 
-## 6
+## 6.
 
 ::: problem id=6_1 marks=5
 ![](/resources/7-09-easter-challenges/7-arrows-question.jpg){image align="right"}
@@ -155,7 +158,7 @@ region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
 :::
 
 
-## 7
+## 7.
 
 ::: problem id=7_1 marks=5
 ![](/resources/7-09-easter-challenges/8-l-question.jpg){image align="right"}
@@ -181,7 +184,7 @@ In a `3 × 3` square each row and column contains just 3 squares. So none of the
 :::
 
 
-## 8
+## 8.
 
 ::: problem id=8_1 marks=5
 __8.1__ A pattern that repeats every six symbols starts as shown below:
@@ -201,15 +204,19 @@ Which are the 100th and 101st symbols, in that order, in the pattern?
 ---
 
 The pattern repeats every 6 symbols. Therefore, as 96 is a multiple of 6, the symbols in positions 97, 98, 99, 100, 101, 102, are the same as those in positions 1, 2, 3, 4, 5, 6, that is, they are ♥ ♣ ♥ ♦ ♥ ♠. We see from this that the symbols that are the 100th and 101st in  list are ♦ ♥, in this order.
+
+Can you see the link with modular arithmetic, something we’ve covered in previous Parallelograms?
 :::
 
+__Next up, we have the trickier questions.__
 
-## 9
+
+## 9.
 
 ::: problem id=9_1 marks=6
-__9.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma‟s house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
+__9.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma's house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
 
-In total, how many pages are read by the person who usually reads that page?
+In total, how many pages in total that Carolyn and George read are the same as the pages that they would read if Beth was there?
 
 * [ ] 1
 * [ ] 2
@@ -220,13 +227,27 @@ In total, how many pages are read by the person who usually reads that page?
 
 ---
 
-When all three children are present, Carolyn reads pages 2, 5, 8, ... , that is those pages whose number leaves remainder 2 when divided by 3. George reads pages 3, 6, 9, ... that is, those whose number is a multiple of 3. When Beth stays at Grandma‟s, Carolyn reads pages 1, 3, 5, ... that is the odd numbered pages, and George reads the even numbered pages. So the pages that Carolyn reads both normally and also when Beth is away are those with numbers which have remainder 2 when divided by 3, and are odd. That is, the three pages 5, 11 and 17.
+One way to do this is to write down a list of 20 pages and then label how they would be read usually and then on the night that Beth is away.
+
+| Usual	| B	| C	| G	| B	| C	| G	| B	| C	| G	| B	|
+| Page	| 1	| 2	| 3	| 4	| 5	| 6	| 7	| 8	| 9	| 10 |
+| ~~Beth~~ | C | G | C | G | C | G | C | G | C | G |
+{.grid}
+
+| Usual	| C	| G	| B	| C	| G	| B	| C	| G	| B	| C |
+| Page	| 11	| 12	| 13	| 14	| 15	| 16	| 17	| 18	| 19	| 20 |
+| ~~Beth~~ | C	| G	| C	| G	| C	| G	| C	| G	| C	| G |
+{.grid}
+
+By comparison, you can see that pages 5, 6, 11, 12, 17 & 18 are read by the same person, regardless of Beth’s absence. Next is a more mathematical approach to the problem.
+
+When all three children are present, Carolyn reads pages 2, 5, 8, ... , that is those pages whose number leaves remainder 2 when divided by 3. George reads pages 3, 6, 9, ... that is, those whose number is a multiple of 3. When Beth stays at Grandma's, Carolyn reads pages 1, 3, 5, ... that is the odd numbered pages, and George reads the even numbered pages. So the pages that Carolyn reads both normally and also when Beth is away are those with numbers which have remainder 2 when divided by 3, and are odd. That is, the three pages 5, 11 and 17.
 
 The pages that George reads both normally and also when Beth is away are those with numbers that are multiples of 3 and are even, that is, the three pages 6, 12 and 18. So there are altogether 6 pages which are read by the same person normally and when Beth is away, namely pages 5, 6, 11, 12, 17 and 18.
 :::
 
 
-## 10
+## 10.
 
 ::: problem id=10_1 marks=6
 ![](/resources/7-09-easter-challenges/11-puzzle.jpg){image align="right"}
@@ -250,7 +271,7 @@ To complete the solution we should check that with `x` = 7, it is possible to pl
 :::
 
 
-## 11
+## 11.
 
 ::: problem id=11_1 marks=6
 __11.1__ Aaron says his age is 50 years, 50 months, 50 weeks and 50 days old. What age will he be on his next birthday?
@@ -270,7 +291,7 @@ So Aaron's age is approximately (50 + 4) years + (2 + 11 `1/2` + 1 `2/3`) months
 :::
 
 
-## 12
+## 12.
 
 ::: problem id=12_1 marks=6
 ![](/resources/7-09-easter-challenges/13-hexagon-question.jpg){image align="right"}
@@ -296,7 +317,7 @@ Each of these is made up of 9 of the small equilateral triangles of which 2 are 
 :::
 
 
-## 13
+## 13.
 
 ::: problem id=13_1 marks=6
 __13.1__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assuming that I win every game from now on, how many extra games do I need to play in order that my success rate increases to 50%?
@@ -310,9 +331,19 @@ __13.1__ After playing 500 games, my success rate at Spider Solitaire is 49%. As
 
 ---
 
-Since I have won 49% of my first 500 games, so far I have won `49/100 × = 49 × 5 = 245` games. So I have lost `500 - 245 = 255` games. I need now to win enough games so that I have won as many as I have lost.
+Since I have won 49% of my first 500 games, so far I have won `49/100 × 500 = 49 × 5 = 245` games. So I have lost `500 - 245 = 255` games. I need now to win enough games so that I have won as many as I have lost.
 
 So, assuming I win every game from now on, I need to win `255 - 245 = 10` more games.
+
+Another approach is the say that I am going play and win `W` more games. At that point, the number of games that I win will be:
+
+`(49/100 × 500 + W)/(500 + W) = 50% or 0.5`
+
+Therefore `(245 + W)/(500 + W) = 0.5`
+
+`245 + W = 250 + 0.5W`  
+`0.5W = 5`  
+`W = 10 `
 :::
 
 ***

@@ -30,16 +30,16 @@ This machine is incredible. As you watch the video, look at when it moves the ma
 
 Some of you will be doing the UKMT’s Junior Maths Challenge next month, so the rest of this Parallelogram consists of 12 Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
-In the real JMC, you would have one hour to complete 25 questions, so in theory you have roughly thirty minutes to complete these 12 questions. However, don’t rush, don’t guess and don’t worry if you need longer than thirty minutes … you might even need the full hour.
+In the real JMC, you would have one hour to attempt 25 questions, so in theory you have roughly thirty minutes to complete these 13 questions. However, don’t rush, don’t guess and don’t worry if you need longer than thirty minutes … you might even need the full hour.
 
 Here are a few things to bear in mind when you do the real JMC:
 * the first half of the questions are not too tricky (__also true below__).
 * the second half the questions are really tricky (__also true below__).
 * you will lose marks for wrong answers in the second half of the questions (__not true below__).
 
-__We have tried to make our Parallelograms more printer-friendly. In general, it is better to answer questions online, but sometimes (and maybe this is one of those times) it might be worth printing out one or two of the questions, doing them on paper, and then entering your answers back on the screen.__
-
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
+
+__We have tried to make our Parallelograms more printer-friendly. In general, it is better to answer questions online, but sometimes (and maybe this is one of those times) it might be worth printing out one or two of the questions, doing them on paper, and then entering your answers back on the screen. And make sure you have a paper and pencil to hand for sketches and calculations.__
 
 Finally, afterwards, make sure you go through all the answers and see where you went right and where you went wrong. This is 100% the best way to improve your maths skills.
 
@@ -84,14 +84,14 @@ __3.1__ Which of the following has exactly one factor other than 1 and itself?
 
 ---
 
-The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the factors of 13 are 1, 13; the factors of 19 are 1, 19; and the factors of 25 are 1, 5, 25. We see from this that, of the numbers we are given as options, only 25 has exactly one factor other than 1 and itself.
+The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the factors of 13 are 1 and 13; the factors of 19 are 1 and 19; and the factors of 25 are 1, 5 and 25. We see from this that, of the numbers we are given as options, only 25 has exactly one factor other than 1 and itself. It is worth noticing that 25 is the only square number.
 :::
 
 
 ## 4.
 
 ::: problem id=4_1 marks=5
-__4.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" because the town of Wenlock in Shropshire first held the Wenlock Olympian Games in 1850. How many years ago was that?
+__4.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" because the town of Wenlock in Shropshire first held the Wenlock Olympian Games in 1850. How many years before the 2012 Olympics was that?
 
 * [ ] 62
 * [ ] 152
@@ -103,12 +103,10 @@ __4.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" becaus
 ---
 
 All you have to do is a subtraction: 2012 - 1850 = 162.
-
-For more information about the Wenlock Olympian Games, [go to their website:](http://www.wenlock-olympian-society.org.uk/)
 :::
 
 
-## 5
+## 5.
 
 ::: problem id=5_1 marks=5
 __5.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print has many pages as two large cartridges. How many pages can be printed using a large cartridge?
@@ -132,7 +130,7 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 :::
 
 
-## 6
+## 6.
 
 ::: problem id=6_1 marks=5
 ![](/resources/8-09-easter-challenges/7-gallery-question.jpg){image align="right"}
@@ -148,7 +146,6 @@ Who is at position `p`?
 * [x] Caz
 * [ ] Dan
 * [ ] More information needed.
-{.col-5}
 
 ---
 
@@ -163,15 +160,15 @@ information we are given doesn't enable us to work out which is where.
 :::
 
 
-## 7
+## 7.
 
 ::: problem id=7_1 marks=5
-__7.1__ In the following expression each  is to be replaced with either + or - in such a way that the result of the calculation is 100.
+__7.1__ In the following expression each ▲ is to be replaced with either + or - in such a way that the result of the calculation is 100.
 
-123  45  67  89  
+123 ▲ 45 ▲ 67 ▲ 89  
 {.text-center}
 
-The number of + signs used is `p` and the number of  signs used is `m`. What is the value of `p` - `m` ?
+The number of + signs used is `p` and the number of ▲ signs used is `m`. What is the value of `p` - `m` ?
 
 * [ ] -3
 * [x] -1
@@ -181,6 +178,8 @@ The number of + signs used is `p` and the number of  signs used is `m`. What 
 {.col-5}
 
 ---
+
+One approach is trial and error, as there are only a few combinations. For example, if it is (+ 45) then it is hard to see how we obtain a result of 100. So, we can then explore (- 45). Following this approach quickly leads you to the correct answer, but there is also a more rigorous and mathematical approach.
 
 The sum is made up of 123 and ± 45, ± 67and ± 89. Suppose that the total of the positive terms in the calculation is `x` and the total of the negative terms is `y`. So `x > 0` and `y < 0`. We need to have that:
 
@@ -197,7 +196,7 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 :::
 
 
-## 8
+## 8.
 
 ::: problem id=8_1 marks=5
 ![](/resources/8-09-easter-challenges/9-grid-question.jpg){image align="right"}
@@ -210,25 +209,25 @@ What is the value of A + B + C + D + E ?
 * [x] 161
 * [ ] 178
 * [ ] 193
-{.col-5}
 
 ---
 
 ![](/resources/8-09-easter-challenges/9-grid-answer1.jpg){image align="right"}
-Let the input factors be `p, q, r, s` and t along the top row, and `v, w, x,by` and `z` in the first column, as shown in the grid on the right.
+Let the input factors be `p, q, r, s` and `t` along the top row, and `v, w, x, y` and `z` in the first column, as shown in the grid on the right.
 
-We see that `wp = 15` and `xp = 18`, so that `p` is a divisor of both 15 and 18, and hence is either 1 or 3. However, if `p = 1`, then it would follow that `w = 15`.But this is not possible as `wr = 40`. We deduce that `p = 3`. It follows that `w = 5` and `x = 6`. Since `w = 5` and `wr = 40`, we have that `r = 8`.
+We see that `wp = 15` and `xp = 18`, so that `p` is a divisor of both 15 and 18, and hence is either 1 or 3. However, if `p = 1`, then it would follow that `w = 15`. But this is not possible as `wr = 40`. We deduce that `p = 3`. It follows that `w = 5` and `x = 6`. Since `w = 5` and `wr = 40`, we have that `r = 8`.
 
-![](/resources/8-09-easter-challenges/9-grid-answer2.jpg){image align="left"}
-Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
+Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-09-easter-challenges/9-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
 
 This enables us to complete the table, as shown on the left. (Though, really, we need only to calculate the diagonal entries that we have shown in bold.)
 
 Therefore, we have `A + B + C + D + E = 6 = 25 + 48 + 40 + 42 = 161`.
 :::
 
+__Next up, we have the trickier questions.__
 
-## 9
+
+## 9.
 
 ::: problem id=9_1 marks=6
 __9.1__ Talulah plants 60 tulip bulbs. When they flower, she notes that half are yellow; one third of those which are not yellow are red; and one quarter of those which are neither yellow nor red are pink. The remainder are white.
@@ -244,13 +243,13 @@ What fraction of the tulips are white?
 
 ---
 
-WSince half the 60 bulbs are yellow, 30 are yellow and 30 are not yellow. One third of the 30 bulbs that are not yellow are red, So 10 are red and 20 are neither yellow nor red. One quarter of the 20 that are neither yellow nor red, are pink. So 5 bulbs are pink.
+Since half the 60 bulbs are yellow, 30 are yellow and 30 are not yellow. One third of the 30 bulbs that are not yellow are red, So 10 are red and 20 are neither yellow nor red. One quarter of the 20 that are neither yellow nor red, are pink. So 5 bulbs are pink.
 
 This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15 white bulbs. Therefore the fraction of bulbs that are white is `15/60`, that is, `1/4`.
 :::
 
 
-## 10
+## 10.
 
 ::: problem id=10_1 marks=6
 __10.1__ There are six more girls than boys in Miss Spelling's class of 24 pupils. What is the ratio of girls to boys in this class?
@@ -264,14 +263,14 @@ __10.1__ There are six more girls than boys in Miss Spelling's class of 24 pupil
 
 ---
 
-Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 6 more girls than boys, `g - b = 6`. As there are 24 pupils altogether, `g + b = 24`. Adding these equations gives `2g = 30`, so `g = 15`. Hence `b = 15 - 6 - 9`. So the ratio `g:b` is `15:9` which is the same as `5:3`.
+Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 6 more girls than boys, `g - b = 6`. As there are 24 pupils altogether, `g + b = 24`. Adding these equations gives `2g = 30`, so `g = 15`. Hence `b = 15 - 6 = 9`. So the ratio `g:b` is `15:9` which is the same as `5:3`.
 :::
 
 
-## 11
+## 11.
 
 ::: problem id=11_1 marks=6
-__11.1__ In rectangle _PQRS_, the ratio of _∠PSQ_ to _∠PQS_ is 1:5 . What is the size of _∠QSR_?
+__11.1__ In rectangle PQRS, the ratio of ∠PSQ to ∠PQS is 1:5 . What is the size of ∠QSR?
 
 * [ ] 15°
 * [ ] 18°
@@ -283,19 +282,19 @@ __11.1__ In rectangle _PQRS_, the ratio of _∠PSQ_ to _∠PQS_ is 1:5 . What is
 ---
 
 ![](/resources/8-09-easter-challenges/12-rectangles-answer.jpg){image align="right"}
-Let _∠QSR_ `= x°`. Since _PS_ is parallel to _QR_, the alternate angles _∠PQS_ and _∠QSR_ are equal. So _∠PQS_ `= x°`. Therefore, as _∠PSQ:∠PQS_ `= 1:5`, _∠PSQ_ `= 1/5 x°`. Therefore, from the right angled triangle _PQS_ we deduce that `x + 1/5 x + 90 = 180` and so `6/5 x = 90`. Therefore `x = 5/6 × 90 = 75`.
+Let `∠QSR` `= x°`. Since `PS` is parallel to `QR`, the alternate angles `∠PQS` and `∠QSR` are equal. So `∠PQS` `= x°`. Therefore, as `∠PSQ`:`∠PQS` `= 1:5`, `∠PSQ` `= 1/5 x°`. Therefore, from the right angled triangle `PQS` we deduce that `x + 1/5 x + 90 = 180` and so `6/5 x = 90`. Therefore `x = 5/6 × 90 = 75`.
 
-So _∠QSR_ is 75°.
+So `∠QSR` is 75°.
 :::
 
 
-## 12
+## 12.
 
 ::: problem id=12_1 marks=6
 ![](/resources/8-09-easter-challenges/13-dominoes-question1.jpg){image align="center"}
 
 ![](/resources/8-09-easter-challenges/13-dominoes-question2.jpg){image align="right"}
-__12.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips math. The ring on the right indicates how one adjacent pair match.
+__12.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match. The ring on the right indicates how one adjacent pair match.
 
 In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-09-easter-challenges/13-dominoes-question3.jpg) ?
 
@@ -308,43 +307,25 @@ In a completed ring, how many of the other five dominoes can he definitely not p
 
 ---
 
-There are only two 1-pip dominoes among the five Dominic has. These must therefore be adjacent. Likewise for the two 2-pips and the two 4-pips. So the ring must include the three adjacent dominoes:
+There are only two 1-pip dominoes among the six Dominic has. These must therefore be adjacent. Likewise for the two 2-pips, the two 6-pips and the two 4-pips. So the ring must include the three adjacent dominoes:
 
 ![](/resources/8-09-easter-challenges/13-dominoes-answer1.jpg){image align="center"}
 
-and also the two adjacent dominoes:
+and also the three adjacent dominoes:
 
 ![](/resources/8-09-easter-challenges/13-dominoes-answer2.jpg){image align="center"}
 
-The ring may now be completed by placing the remaining domino:
-
-![](/resources/8-09-easter-challenges/13-dominoes-answer3.jpg){image align="center"}
-
-adjacent to the 5-pips at either end of the block of three dominoes, and to the 6-pips on the domino:
-
-![](/resources/8-09-easter-challenges/13-dominoes-answer4.jpg){image align="center"}
-
-In either case this leaves two 5-pips dominoes which can then be placed adjacent to each other to complete the ring.
+The ring may now be completed two ways, i.e., by connecting top-left 5-pip to bottom-left 5-pip and the top-right 5-pip to bottom-right 5-pip … or by connecting top-left 5-pip to bottom-right 5-pip and the top-right 5-pip to bottom-left 5-pip.
 
 We therefore see that Dominic can create two different rings of six dominoes, as shown below.
 
 ![](/resources/8-09-easter-challenges/13-dominoes-answer5.jpg){image align="center"}
 
-We now see that there are just 2 dominoes that the domino
-
-![](/resources/8-09-easter-challenges/13-dominoes-answer6.jpg){image align="center"}
-
-cannot be adjacent to, namely the domino
-
-![](/resources/8-09-easter-challenges/13-dominoes-answer7.jpg){image align="center"}
-
-and, of course, the domino
-
-![](/resources/8-09-easter-challenges/13-dominoes-answer8.jpg){image align="center"}
+We now see that there are just 2 dominoes that the [1:5] domino cannot be adjacent to, namely the domino [2:5] and, of course, the domino [4:6].
 :::
 
 
-## 13
+## 13.
 
 ::: problem id=13_1 marks=6
 __13.1__ Peter wrote a list of all the numbers that could be produced by changing one digit of the number 200. How many of the numbers in Peter's list are prime?
@@ -360,13 +341,17 @@ __13.1__ Peter wrote a list of all the numbers that could be produced by changin
 
 If the hundreds or tens digit of 200 is changed, but the units digit is unchanged, the resulting number is, like 200, a multiple of 10, and so cannot be prime. So we need only consider the 9 numbers that we can get by changing the units digit. Of these, we can see immediately that 202, 204, 206 and 208 are all divisible by 2 and 205 is divisible by 5. So none of them is prime.
 
-This just leaves 201, 203, 207 and 209. Now `201 = 3 × 67`, `203 = 7 × 29`, `207 = 3 × 3 × 23` and `209 = 11 × 19`. So none of them is prime.
+This just leaves 201, 203, 207 and 209. Now:  
+`201 = 3 × 67`,   
+`203 = 7 × 29`,  
+`207 = 3 × 3 × 23` and  
+`209 = 11 × 19`.
 
-So none of the numbers in Peter's list are prime.
+None of them are prime, so none of the numbers in Peter's list are prime.
 :::
 
 
-## 14
+## 14.
 
 ::: problem id=14_1 marks=6
 ![](/resources/8-09-easter-challenges/15-triangle-question.jpg){image align="right"}
@@ -379,11 +364,10 @@ What is the value of `x + y`?
 * [ ] 13
 * [ ] 12
 * [ ] 11
-{.col-5}
 
 ---
 
-The angles of a triangle add up to 180°. So `(5x + 3y) + (3x + 20) + (10y + 30) = 180`. This gives `8x + 13y + 50 = 180`. Therefore `8x + 13y = 130`, and so
+Crucially, the question said that x and y are positive __integers__. The angles of a triangle add up to 180°. So `(5x + 3y) + (3x + 20) + (10y + 30) = 180`. This gives `8x + 13y + 50 = 180`. Therefore `8x + 13y = 130`, and so
 
 `8x = 130 - 13y = 13(10 - y)`.
 {.text-center}
