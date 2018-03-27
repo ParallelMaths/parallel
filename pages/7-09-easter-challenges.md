@@ -335,7 +335,7 @@ Since I have won 49% of my first 500 games, so far I have won `49/100 × 500 = 4
 
 So, assuming I win every game from now on, I need to win `255 - 245 = 10` more games.
 
-Another approach is the say that I am going play and win `W` more games. At that point, the number of games that I win will be:
+Another approach is to say that I am going play and win `W` more games. At that point, the number of games that I win will be:
 
 `(49/100 × 500 + W)/(500 + W) = 50% or 0.5`
 

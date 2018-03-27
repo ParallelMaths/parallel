@@ -168,7 +168,7 @@ __7.1__ In the following expression each ▲ is to be replaced with either + or 
 123 ▲ 45 ▲ 67 ▲ 89  
 {.text-center}
 
-The number of + signs used is `p` and the number of ▲ signs used is `m`. What is the value of `p` - `m` ?
+The number of + signs used is `p` and the number of - signs used is `m`. What is the value of `p` - `m` ?
 
 * [ ] -3
 * [x] -1
@@ -367,7 +367,9 @@ What is the value of `x + y`?
 
 ---
 
-Crucially, the question said that x and y are positive __integers__. The angles of a triangle add up to 180°. So `(5x + 3y) + (3x + 20) + (10y + 30) = 180`. This gives `8x + 13y + 50 = 180`. Therefore `8x + 13y = 130`, and so
+Crucially, the question said that x and y are positive __integers__.  
+
+The angles of a triangle add up to 180°. So `(5x + 3y) + (3x + 20) + (10y + 30) = 180`. This gives `8x + 13y + 50 = 180`. Therefore `8x + 13y = 130`, and so
 
 `8x = 130 - 13y = 13(10 - y)`.
 {.text-center}

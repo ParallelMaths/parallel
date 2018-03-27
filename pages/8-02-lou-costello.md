@@ -226,10 +226,10 @@ We can rearrange this to obtain:
 Let’s see what happens if we use this recipe to calculate π, using just one term,
 then two terms, then three, four and five terms.
 
-| ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.92 |
+| ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.45 |
 | ![](/resources/8-02-lou-costello/5-equation4-2.gif) | π = 2.74 |
 | ![](/resources/8-02-lou-costello/5-equation4-3.gif) | π = 2.86 |
-| ![](/resources/8-02-lou-costello/5-equation4-4.gif) | π = 2.91 |
+| ![](/resources/8-02-lou-costello/5-equation4-4.gif) | π = 2.92 |
 | ![](/resources/8-02-lou-costello/5-equation4-5.gif) | π =  |
 {.grid}
 

@@ -63,7 +63,7 @@ Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` +
 
 By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `(107 – 11x)` is divisible by 7 without a remainder.
 
-Taking `x = 0, 1, 2,… 9,` we have `y = (107 – 11x) = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `(107 – 11x)` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 8 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
+Taking `x = 0, 1, 2,… 9,` we have `y = (107 – 11x) = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `(107 – 11x)` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 9 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
 
 :::
 
@@ -178,11 +178,11 @@ The question was hard, and the answer is pretty hard, too. Go through it slowly,
 
 Let _∠RTS_ = `x`°. Then _∠RST_ = `x` as _RS_ = _RT_.
 
-Let _∠RTS_ = `y`°. Then _∠RST_ = `y`° as _QS_ = _QU_.
+Let _∠QSU_ = `y`°. Then _∠QUS_ = `y`° as _QS_ = _QU_.
 
 As _RSQ_ is a straight line, `x` + `y` + 40 = 180; so `x` + `y` = 140.
 
-Now _∠RTS_ = 180° - _∠TRS_ - _∠SQU_  
+Now _∠TPU_ = 180° - _∠TRS_ - _∠SQU_  
  = 180° - (180 - 2`x`)° - (180 - 2`y`)°  
  = 180° - 180° + 2`x`° - 180° + 2`y`°  
  = 2(`x` + `y`)° - 180°  
