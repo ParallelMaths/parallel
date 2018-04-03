@@ -1,4 +1,22 @@
-# _Pilot • Parallelogram 4_ Blackboard Equation
+# _Year 7 • Parallelogram 15_ Blackboard Equation
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+
+* Start and stop whenever you like – your work will be saved each time.
+* The next Parallelogram is not until April 20, so there is no need to rush.
+*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
 ## 1. Hidden Figures – the blackboard equation
@@ -10,9 +28,9 @@ A couple of you mentioned the equation that the young Katherine Johnson was
 trying to solve on the school blackboard, which you can see in this still from
 the film.
 
-![](/resources/6-04-blackboard-equation/blackboard.png)
+![](/resources/7-15-blackboard-equation/blackboard.png)
 
-In case it is not clear, the question is: 
+In case it is not clear, the question is:
 
 Solve this equation for _x_: `(x^2 + 6x - 7)(2x^2 - 5x - 3) = 0`. {.text-center}
 
@@ -29,15 +47,15 @@ possible value of x until you find some solutions.
 
 For x = 0,
 
-![](/resources/6-04-blackboard-equation/blackboard-equation-x0.png)
+![](/resources/7-15-blackboard-equation/blackboard-equation-x0.png)
 
 For x = 1,
 
-![](/resources/6-04-blackboard-equation/blackboard-equation-x1.png)
+![](/resources/7-15-blackboard-equation/blackboard-equation-x1.png)
 
 For x = 2,
 
-![](/resources/6-04-blackboard-equation/blackboard-equation-x2.png)
+![](/resources/7-15-blackboard-equation/blackboard-equation-x2.png)
 
 So, after checking three values of x, we found one solution, i.e., the equation
 equals zero when x = 1. In this case, the brute force approach has delivered a
@@ -129,7 +147,7 @@ here are a few important rules and tips:
 
 ::: problem id=2 marks=4.5
 __2__ When you have finished Sumaze, you will receive a score and a code word.
-Please enter your code word here, so that we can add your Sumaze score to your 
+Please enter your code word here, so that we can add your Sumaze score to your
 verall Parallelogram total.
 
 <p class="text-center"><input v-model="c.answers.p_2" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
@@ -194,14 +212,14 @@ Mathigon progress will be automatically added to your Parallel score.
 ## 5. Review Quiz
 
 These quick questions cover three topics that appeared in the previous three
-Parallelograms. If it helps you can refer back to those Parallelograms. 
+Parallelograms. If it helps you can refer back to those Parallelograms.
 
 ::: problem id=5_1 marks=2
 __5.1__ In Parallelogram #1, we talked about a quick way to add up all the
 numbers from, say, 1 to 100. Can you remember it? Hint: sometimes it’s easier
 to pair numbers, perhaps the smallest and the biggest.
 
-The sum of all the numbers from 1 to 40 is: 
+The sum of all the numbers from 1 to 40 is:
 
 * [ ] 800
 * [ ] 810
@@ -220,11 +238,11 @@ the janitor solved a problem about mathematical tree diagrams. Below are five
 tree diagrams, but four of them are essentially the same. Which tree is
 different?
 
-* [ ] ![](/resources/6-04-blackboard-equation/graph-a.png){width=160}
-* [ ] ![](/resources/6-04-blackboard-equation/graph-b.png){width=160}
-* [x] ![](/resources/6-04-blackboard-equation/graph-c.png){width=160}
-* [ ] ![](/resources/6-04-blackboard-equation/graph-d.png){width=160}
-* [ ] ![](/resources/6-04-blackboard-equation/graph-e.png){width=160}
+* [ ] ![](/resources/7-15-blackboard-equation/graph-a.png){width=160}
+* [ ] ![](/resources/7-15-blackboard-equation/graph-b.png){width=160}
+* [x] ![](/resources/7-15-blackboard-equation/graph-c.png){width=160}
+* [ ] ![](/resources/7-15-blackboard-equation/graph-d.png){width=160}
+* [ ] ![](/resources/7-15-blackboard-equation/graph-e.png){width=160}
 {.col-3}
 
 ---
@@ -252,19 +270,23 @@ This video clip explains how to work out the answer:
 @[youtube](S2ec2wpYJ_0)
 :::
 
-And that’s the end of the final Parallelogram for the time being. The feedback
-has been very positive, and you seem to have found the problems fun, interesting
-and challenging. In fact, this little experiment has been so successful that the
-plan is to return next year with a new series of weekly Parallelograms.
+***
 
-In the meantime, there is more maths in the “find out more” section below. Also,
-have a great Summer. And a great Subtracter, Divider and Multiplier. 
+Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.
 
+In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.
+
+Cheerio,
+Simon.
 
 ::: submit
 
 
-## Find out more
+---
+
+## Additional Stuff
 
 If you want to challenge yourself further over the summer, then explore the web
 and you will find a ton of mathematics. In particular, you should check out

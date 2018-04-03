@@ -1,9 +1,22 @@
-# _Pilot • Parallelogram 2_ Good Will Hunting
+# _Year 7 • Parallelogram 13_ Good Will Hunting
 
-Welcome to the second of four weekly Parallelograms, a collection of
-mathematical challenges designed to stretch your brain and make your neurons
-more squiggly. This week’s Parallelogram challenge is in five parts. Be prepared
-to encounter all sorts of weird ideas.
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+
+* Start and stop whenever you like – your work will be saved each time.
+* The next Parallelogram is not until April 20, so there is no need to rush.
+*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
 ## 1. The Good Will Hunting problem
@@ -49,12 +62,12 @@ and one going out. That is just waste of a dot.
 
 Tree (b) is not allowed because it has a loop. Remember, no loops.
 
-![](/resources/6-02-good-will-hunting/graph-1.png)
+![](/resources/7-13-good-will-hunting/graph-1.png)
 
 In fact, the only tree that you can make with 5 dots is this one. No loops. No
 dots with just two lines.
 
-![](/resources/6-02-good-will-hunting/graph-2.png)
+![](/resources/7-13-good-will-hunting/graph-2.png)
 
 The only other thing you need to know about trees is that all of the 5-dot trees
 below are considered to be the same. They are copycat trees because they can be
@@ -63,18 +76,18 @@ That is why we say there is only one 5-dot tree. One way to see that they are
 all the same tree is to note that each tree consists of **one dot with four
 lines** and **four dots with only one line**.
 
-![](/resources/6-02-good-will-hunting/graph-3.png)
+![](/resources/7-13-good-will-hunting/graph-3.png)
 
 Now it’s time to see if you have understood the maths of trees.
 
 ::: problem id=1_1 marks=1
 __1.1__ For 6 dots there are only two irreducible trees. Which of these are they?
 
-* [ ] ![](/resources/6-02-good-will-hunting/graph-4a.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-4b.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-4c.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-4d.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-4e.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-4a.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-4b.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-4c.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-4d.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-4e.png)
 {.col-3}
 
 ---
@@ -111,7 +124,7 @@ they are essentially the same, then you are beginning to grasp the maths of
 trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1
 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.
 
-![](/resources/6-02-good-will-hunting/graph-7-dot-solutions.png) {.text-center}
+![](/resources/7-13-good-will-hunting/graph-7-dot-solutions.png) {.text-center}
 :::
 
 ::: problem id=1_3 marks=1
@@ -120,11 +133,11 @@ must be essentially the same. Which tree can be twisted and reshaped into
 another tree? Which tree should be removed? Obviously, there are two possible
 answers, because you could remove either member of the pair.  
 
-* [ ] ![](/resources/6-02-good-will-hunting/graph-5a.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-5b.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-5c.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-5d.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-5e.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-5a.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-5b.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-5c.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-5d.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-5e.png)
 {.col-3}
 
 ---
@@ -138,12 +151,12 @@ must be essentially the same. Which tree can be twisted and reshaped into
 another tree? Which tree should be removed? Obviously, there are two possible
 answers, because you could remove either member of the pair.  
 
-* [ ] ![](/resources/6-02-good-will-hunting/graph-9a.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-9b.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-9c.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-9d.png)
-* [x] ![](/resources/6-02-good-will-hunting/graph-9e.png)
-* [ ] ![](/resources/6-02-good-will-hunting/graph-9f.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-9a.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-9b.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-9c.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-9d.png)
+* [x] ![](/resources/7-13-good-will-hunting/graph-9e.png)
+* [ ] ![](/resources/7-13-good-will-hunting/graph-9f.png)
 {.col-3}
 
 ---
@@ -168,16 +181,16 @@ or 11, and 1 mark if you answered 8 or 12.
 
 Here are the 10 allowable trees:
 
-![](/resources/6-02-good-will-hunting/graph-10a.png)
-![](/resources/6-02-good-will-hunting/graph-10b.png)
-![](/resources/6-02-good-will-hunting/graph-10c.png)
-![](/resources/6-02-good-will-hunting/graph-10d.png)
-![](/resources/6-02-good-will-hunting/graph-10e.png)
-![](/resources/6-02-good-will-hunting/graph-10f.png)
-![](/resources/6-02-good-will-hunting/graph-10g.png)
-![](/resources/6-02-good-will-hunting/graph-10h.png)
-![](/resources/6-02-good-will-hunting/graph-10i.png)
-![](/resources/6-02-good-will-hunting/graph-10j.png)
+![](/resources/7-13-good-will-hunting/graph-10a.png)
+![](/resources/7-13-good-will-hunting/graph-10b.png)
+![](/resources/7-13-good-will-hunting/graph-10c.png)
+![](/resources/7-13-good-will-hunting/graph-10d.png)
+![](/resources/7-13-good-will-hunting/graph-10e.png)
+![](/resources/7-13-good-will-hunting/graph-10f.png)
+![](/resources/7-13-good-will-hunting/graph-10g.png)
+![](/resources/7-13-good-will-hunting/graph-10h.png)
+![](/resources/7-13-good-will-hunting/graph-10i.png)
+![](/resources/7-13-good-will-hunting/graph-10j.png)
 {.text-center}
 :::
 
@@ -197,7 +210,7 @@ calculating rocket orbits and for getting astronauts to the Moon, and I suppose
 they had to be large so that everyone in the department could watch, learn and
 contribute.
 
-| ![](/resources/6-02-good-will-hunting/nasa-1.jpg) | ![](/resources/6-02-good-will-hunting/nasa-2.jpg) |
+| ![](/resources/7-13-good-will-hunting/nasa-1.jpg) | ![](/resources/7-13-good-will-hunting/nasa-2.jpg) |
 
 Although all the mathematicians in these photos are men, there were lots of
 women mathematicians working at NASA at this time. In fact, there was a film
@@ -205,7 +218,7 @@ all about these NASA women that was released earlier this year, and which
 received three Oscar nominations. Here is a poster for the film with the title
 removed, and a still from the movie.
 
-| ![](/resources/6-02-good-will-hunting/nasa-3.jpg) | ![](/resources/6-02-good-will-hunting/nasa-4.jpg) |
+| ![](/resources/7-13-good-will-hunting/nasa-3.jpg) | ![](/resources/7-13-good-will-hunting/nasa-4.jpg) |
 
 
 ::: problem id=2 marks=0.5
@@ -342,7 +355,7 @@ reason why it’s a good idea to be a confident mathematician.
 ::: problem id=5 marks=1
 __5.1__ What is the value of x?
 
-![](/resources/6-02-good-will-hunting/maths-challenge-angle-question.png)  
+![](/resources/7-13-good-will-hunting/maths-challenge-angle-question.png)  
 
 * [ ] 43
 * [ ] 47
@@ -361,17 +374,23 @@ Because the alternate angles formed by a line which cuts a pair of parallel
 lines are equal, `x = y`. Hence `x = 57`.
 :::
 
-That’s all for this week. Don’t forget to come back at 7.01pm on Sunday to find
-out your score and to obtain the answer sheet. And don’t worry if you didn’t get
-it all right (or even half right), because this is not an exam and I am not
-trying to give you questions that you can do, but rather I am trying to give you
-questions that you might not be able to do.
+***
 
+Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.
+
+In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.
+
+Cheerio,
+Simon.
 
 ::: submit
 
 
-## Find out more
+---
+
+## Additional Stuff
 
 If you want to find out more about **Good Will Hunting**, then just Google it.
 There are tons of articles about one of the greatest films to come out of

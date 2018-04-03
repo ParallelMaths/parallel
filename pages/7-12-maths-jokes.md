@@ -1,12 +1,22 @@
-# _Pilot • Parallelogram 1_ Maths Jokes
-  
-Welcome to the first of four weekly Parallelograms, a collection of mathematical
-challenges designed to stretch your brain and make your neurons more squiggly.
-This week’s Parallelogram challenge is in seven parts… some Challenges will have
-a single theme, while others have sections that shoot off in wildly different
-directions. In short, these challenges are often going to be a random walk
-through the mysteries of mathematics. Be prepared to encounter all sorts of
-weird ideas.
+# _Year 7 • Parallelogram 12_ Maths Jokes
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+
+* Start and stop whenever you like – your work will be saved each time.
+* The next Parallelogram is not until April 20, so there is no need to rush.
+*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
 ## 1. Maths jokes
@@ -50,7 +60,7 @@ __1.3__ What does the “B” in Benoit B Mandelbrot stand for?
 * [ ] Breviation
 
 ---
-![](/resources/6-01-maths-jokes/mandelbrot.png)
+![](/resources/7-12-maths-jokes/mandelbrot.png)
 
 This was a tough one. Benoit B Mandelbrot helped developed the mathematics of
 fractals, which are structures or shapes that appear similar when you zoom in or
@@ -76,7 +86,7 @@ __1.4__ Why did the chicken cross the Möbius strip?
 
 ---
 
-![](/resources/6-01-maths-jokes/mobius.jpg)
+![](/resources/7-12-maths-jokes/mobius.jpg)
 
 Another toughie – a Möbius strip is a strange mathematical shape which only has
 one side, so you can’t get to the other side. As shown here, it is just a loop
@@ -94,7 +104,7 @@ __2__ What is the digit x in this cross-number?
 
 <table><tr><td>
 
-![](/resources/6-01-maths-jokes/crossnumber.png)
+![](/resources/7-12-maths-jokes/crossnumber.png)
 
 </td><td>
 
@@ -130,7 +140,7 @@ works if 1 down is 26, because 3 across can then be 64, which means _x_ = 4.
 
 ## 3. Maryam’s inspiration
 
-![](/resources/6-01-maths-jokes/maryam-mirzakhani.png)
+![](/resources/7-12-maths-jokes/maryam-mirzakhani.png)
 
 You might be surprised to know that there is no Nobel Prize for maths. However,
 there is an even bigger prize for mathematicians, which is called the Fields
@@ -161,17 +171,17 @@ Maryam talks about a problem involving the path of a ball bouncing around a
 billiard table.
 :::
 
-![](/resources/6-01-maths-jokes/gauss.png)
+![](/resources/7-12-maths-jokes/gauss.png)
 
 Maryam has said that she first became fired up about mathematics when her big
 brother told her a story about the great mathematician Carl Friedrich Gauss.
 When Gauss was a schoolboy, his teacher tried to keep the class busy by asking
 them to add up all the numbers from 1 to 100. I suspect that he wanted to nip
 out for a 15-minute nap.
- 
+
 However, before the teacher had even left the room, Gauss’s hand shot up and he
 announced that the answer was 5,050.
- 
+
 Gauss was right, but how did he add up the first 100 numbers in just a few
 seconds?
 
@@ -195,7 +205,7 @@ Another way to think about this is:
   number of numbers divided by 2.  
 * × represents step 3, because you then multiply the sum of each pair by
   the number of pairs.
- 
+
 Let’s see if you can apply Gauss’s trick.
 
 ::: problem id=3_2 marks=1
@@ -215,7 +225,7 @@ __3.3__ Add up all the numbers from 1 to 1,000
 ---
 The correct answer is 500500.
 
-If you got either of these questions wrong, then take a look at 
+If you got either of these questions wrong, then take a look at
 [this website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/),
 which goes into more detail about ways of adding the numbers from 1 to 100, and
 is worth looking at.
@@ -228,7 +238,7 @@ today, it breaks my heart…. Gone far too soon.” Commenting on her brilliant 
 with Alex Eskin, she commented: “If we knew things would be so complicated, I
 think we would have given up … I don’t know; actually, I don’t know. I don’t
 give up easily.”_
- 
+
 _I wanted Mirzakhani to be part of the first Parallelogram because her story is
 so inspirational. In future years, I hope that students working through this
 Parallelogram will continue to be inspired by her achievements._
@@ -312,17 +322,29 @@ The correct answer is (a), because drivers can make errors if their brains are
 fooled by an optical illusion caused by the geometry of the road.
 :::
 
+***
+
+Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.
+
+In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.
+
+Cheerio,
+Simon.
 
 ::: submit
 
 
-## Find out more
- 
+---
+
+## Additional Stuff
+
 You can read more about mathematician Maryam Mirzakhani in [this interview published in the Guardian](https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician): 'The more I spent time on maths, the more excited I got'.
 
 [This article from the Telegraph newspaper](http://www.telegraph.co.uk/news/science/11029161/The-Fields-Medal-is-the-greatest-prize-in-maths.html) provides some history about the Fields Medal, the biggest prize in mathematics.
 
-[This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at. 
+[This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at.
 
 
 ## Credits

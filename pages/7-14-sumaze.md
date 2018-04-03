@@ -1,4 +1,22 @@
-# _Pilot • Parallelogram 3_ Sumaze
+# _Year 7 • Parallelogram 14_ Sumaze
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+
+* Start and stop whenever you like – your work will be saved each time.
+* The next Parallelogram is not until April 20, so there is no need to rush.
+*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
 ## 1. Hidden Figures – another maths movie
@@ -33,7 +51,7 @@ The film tells the story of three brilliant black women who helped send the
 American astronauts into space. These are just a few of the many women who
 played a crucial role in the space race. It is a terrific film, which received
 three Oscar nominations and which is both inspiring and exciting. Well worth
-watching if your parents or teacher can get hold of the DVD. 
+watching if your parents or teacher can get hold of the DVD.
 
 | ![](/resources/6-02-good-will-hunting/nasa-3.jpg) | ![](/resources/6-02-good-will-hunting/nasa-4.jpg) |
 
@@ -86,7 +104,7 @@ scale on the y-axis, which increases by a factor of 10 at each step. So, in 40
 years, the number of transistors on a microprocessor increased from 2,300 to
 2,600,000,000, which is an increase by a factor of more than a million.
 
-![](/resources/6-03-sumaze/moores-law-graph.png)
+![](/resources/7-14-sumaze/moores-law-graph.png)
 
 ::: problem id=1_1 marks=1
 __1.2__ Look at the number of transistors on the 80486 microprocessor (~1990)
@@ -125,7 +143,7 @@ first 32 squares. You will almost certainly need a calculator, and make sure you
 check your answers. I have given you a headstart by listing the answers for the
 first 10 squares.
 
-![](/resources/6-03-sumaze/rice-count-table.png)
+![](/resources/7-14-sumaze/rice-count-table.png)
 
 ::: problem id=2_1 marks=1
 __2.1__ How many grains were on the 15th square?
@@ -139,7 +157,7 @@ worked out (11th = 1,024), (12th, 2,048), (13th, 4,096), (14th, 8,192) and
 :::
 
 ::: problem id=2_2 marks=1
-**2.2** How many grains were on the 20th square? 
+**2.2** How many grains were on the 20th square?
 
 <input type="number" solution="524288"/>  
 
@@ -172,7 +190,7 @@ than the whole Earth grows each year. That is the power of exponential growth.
 
 ::: problem id=2_4 marks=2
 __2.4__ In another version of the story, the King gets revenge by saying that
-the mathematician can only have the rice if he can count them. If the 
+the mathematician can only have the rice if he can count them. If the
 mathematician counts at the rate of 1 grain per second, how long will it take
 him to collect his reward of 18,446,744,073,709,551,615 grains? Which of these
 answers is closest?
@@ -212,7 +230,7 @@ So option B is preferable.
 
 ## 3. Sumaze! Part 1
 
-Sumaze! is a terrific new game that tests your core maths skills. 
+Sumaze! is a terrific new game that tests your core maths skills.
 
 You will have access to 9 levels of the game, starting with some really trivial
 ones to allow you to understand the game, followed by some trickier levels. You
@@ -276,7 +294,7 @@ DOGS are a man’s best friend. So, DIAMOND DOGS is everyone’s best friend!
 
 
 ## 5. Junior Maths Challenge question
- 
+
 ::: problem id=5 marks=2
 __5__ The positive integers from 1 to 150 inclusive are placed in a 10 by 15
 grid so that each cell contains exactly one integer. Then the multiples of 3 are
@@ -374,13 +392,25 @@ Kennedy said: “We choose to go to the moon in this decade and do the other thi
 but because they are hard.”
 
 The Parallel Challenges are not in the same league as going to the moon, but it is the same principle.
-You should do your best to complete them “…not because they are easy, but because they are hard.” 
+You should do your best to complete them “…not because they are easy, but because they are hard.”
 
+***
+
+Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.
+
+In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.
+
+Cheerio,
+Simon.
 
 ::: submit
 
 
-## Find out more
+---
+
+## Additional Stuff
 
 If you want to find out more about the topics in this week’s Parallel Challenge, then I recommend:
 
