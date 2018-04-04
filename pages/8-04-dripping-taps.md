@@ -62,7 +62,7 @@ _“Here is what the Earth looks like during a solar eclipse. The shadow of the 
 
 ::: problem id=3 marks=5
 
-![](/resources/8-04-dripping-taps/3-angles-question.png){image align="right"}
+![](/resources/8-04-dripping-taps/3-angle-question.png){image align="right"}
 
 __3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles x and y have been labelled.   
 
@@ -97,7 +97,7 @@ You know that two of the angles in the pentagon are right angles.
 
 ---
 
-![](/resources/8-04-dripping-taps/3-angles-answer.png){image align="right"}
+![](/resources/8-04-dripping-taps/3-angle-answer.png){image align="right"}
 This is tough question. Well done if you did it without hints. There are a couple
 of ways to find the value of x + y degrees, but here is the neatest method.
 
