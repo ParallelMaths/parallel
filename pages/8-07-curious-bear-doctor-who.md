@@ -109,7 +109,7 @@ __3.2.__ 19 is a happy number. What is the sum of all happiness for 19? Is there
 
 ---
 
-Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given about, you can cheat and start with the answer given above, which is 342. However, your path started with 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.
+Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given above, you can cheat and start with the answer given above, which is 342. However, your path started with 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.
 :::
 
 ::: problem id=3_3 marks=3
