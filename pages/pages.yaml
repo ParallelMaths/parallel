@@ -20,8 +20,8 @@ year7:
     available: 2018-05-04T16:00:00
     deadline: 2018-05-06T19:00:00
   - week: 11
-    url:
-    title:
+    url: 7-11-colour-puzzle
+    title: Colour Puzzle
     available: 2018-04-27T16:00:00
     deadline: 2018-04-29T19:00:00
   - week: 10
@@ -97,8 +97,8 @@ year8:
     available: 2018-05-04T16:00:00
     deadline: 2018-05-06T19:00:00
   - week: 11
-    url:
-    title:
+    url: 8-11-colour-code-challenge
+    title: Colour Code Challenge
     available: 2018-04-27T16:00:00
     deadline: 2018-04-29T19:00:00
   - week: 10
