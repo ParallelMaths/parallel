@@ -1,11 +1,12 @@
+const path = require('path');
 const fs = require('fs');
 const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
-  "bronwyn.tarrier@det.nsw.edu.au",
-
+  "email1@domain.com",
+  "email2@domain.com",
 ];
 
 fb.initializeApp({
