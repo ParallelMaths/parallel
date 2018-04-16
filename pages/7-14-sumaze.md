@@ -148,7 +148,7 @@ first 10 squares.
 ::: problem id=2_1 marks=1
 __2.1__ How many grains were on the 15th square?
 
-<input type="number" solution="16384"/>  
+<input type="text" solution="16384"/>  
 
 ---
 If the tenth square has 512 grains (from the table), then you should have
@@ -159,7 +159,7 @@ worked out (11th = 1,024), (12th, 2,048), (13th, 4,096), (14th, 8,192) and
 ::: problem id=2_2 marks=1
 **2.2** How many grains were on the 20th square?
 
-<input type="number" solution="524288"/>  
+<input type="text" solution="524288"/>  
 
 ---
 The answer is 524,288.
@@ -168,7 +168,7 @@ The answer is 524,288.
 ::: problem id=2_3 marks=1
 **2.3.** How many grains were on the 32nd square?  
 
-<input type="number" solution="2147483648"/>  
+<input type="text" solution="2147483648"/>  
 
 ---
 The answer is 2,147,483,648.
@@ -216,8 +216,8 @@ Option B – a salary that doubles each week, starting at £10/week.
 
 How much would each option deliver in total after 6 weeks?
 
-<input type="number" solution="600" placeholder="Option A Total"/>  
-<input type="number" solution="630" placeholder="Option B Total"/>
+<input type="text" solution="600" placeholder="Option A Total"/>  
+<input type="text" solution="630" placeholder="Option B Total"/>
 
 ---
 Obviously option A delivers 6 x £100 = £600.

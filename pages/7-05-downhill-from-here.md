@@ -66,7 +66,7 @@ medal-winning team (USA) were:
 What was their total time, in minutes and seconds (eg 2 minutes 8.36 seconds)?
 
 | minutes | seconds |
-| <input type="number" solution="3"/> | <input type="number" solution="24.46"/> |
+| <input type="text" solution="3"/> | <input type="text" solution="24.46"/> |
 {.grid}
 :::
 
@@ -82,7 +82,7 @@ How quickly, in seconds, did the German team have to complete their final run
 to win at least a share of the silver medal?
 
 | seconds |
-| <input type="number" solution="51.37"/> |
+| <input type="text" solution="51.37"/> |
 
 ---
 
@@ -100,7 +100,7 @@ What was their average speed in metres per second? Remember, the track was
 Can you convert that to miles per hour? (Note: there are 1,609.344 metres in a mile AND please give your answer to two decimal places.)
 
 | m/s  | mph |
-| <input type="number" solution="28.51"/> | <input type="number" solution="63.77"/> |
+| <input type="text" solution="28.51"/> | <input type="text" solution="63.77"/> |
 
 ---
 
@@ -155,7 +155,7 @@ points altogether.
 Albania) jumps exactly 90 metres and scores a perfect 60 for style. How many
 points does he earn?
 
-<input type="number" solution="120"/>   
+<input type="text" solution="120"/>   
 
 ---
 
@@ -168,7 +168,7 @@ points does he earn?
 Kazakhstan) jumps 95 metres and scores a total of 120 points. How many style
 points was she awarded?
 
-<input type="number" solution="50"/>   
+<input type="text" solution="50"/>   
 
 ---
 
@@ -179,7 +179,7 @@ She has 70 for distance, so she must have another 50 for style.
 ![](/resources/7-05-downhill-from-here/1-gold.png){image align="right"}__2.3__ __Gold medal puzzle:__ Lemmy the Lemming (of Latvia) scores a total of zero,
 including no style points at all. How far did he jump in metres?
 
-<input type="number" solution="60"/>
+<input type="text" solution="60"/>
 
 ---
 

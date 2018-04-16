@@ -59,14 +59,14 @@ and red spirals going anticlockwise.
 ::: problem id=1_1 marks=1
 __1.1.__ How many green spirals are there?
 
-<input type="number" solution="8"/>  
+<input type="text" solution="8"/>  
 
 :::
 
 ::: problem id=1_2 marks=1
 __1.2.__ How many red spirals are there?
 
-<input type="number" solution="13"/>  
+<input type="text" solution="13"/>  
 
 :::
 
@@ -93,14 +93,14 @@ The sunflower below also has two sets of spirals, and the numbers of spirals are
 ::: problem id=1_4 marks=1
 __1.4.__ How many anticlockwise (x) spirals?
 
-<input type="number" solution="34"/>  
+<input type="text" solution="34"/>  
 
 :::
 
 ::: problem id=1_5 marks=1
 __1.5.__ How many clockwise (y) spirals?
 
-<input type="number" solution="21"/>  
+<input type="text" solution="21"/>  
 
 :::
 
@@ -298,7 +298,7 @@ __6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would h
 
 ![](/resources/8-02-lou-costello/6-blackboard-sum.png )
 
-<input type="number" solution="18"/>  
+<input type="text" solution="18"/>  
 :::
 
 ***

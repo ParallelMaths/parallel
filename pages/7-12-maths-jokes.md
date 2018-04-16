@@ -120,7 +120,7 @@ __2.__ A number
 
 </td></tr></table>
 
-_x_ = <input type="number" solution="4"/>
+_x_ = <input type="text" solution="4"/>
 
 > 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they
 > are all 2-digit numbers, which means they are between 10 and 99. There are not
@@ -211,7 +211,7 @@ Let’s see if you can apply Gauss’s trick.
 ::: problem id=3_2 marks=1
 __3.2__ Add up all the numbers from 1 to 50
 
-<input type="number" solution="1275"/>
+<input type="text" solution="1275"/>
 
 ---
 The correct answer is 1275.
@@ -220,7 +220,7 @@ The correct answer is 1275.
 ::: problem id=3_3 marks=1
 __3.3__ Add up all the numbers from 1 to 1,000
 
-<input type="number" solution="500500"/>
+<input type="text" solution="500500"/>
 
 ---
 The correct answer is 500500.

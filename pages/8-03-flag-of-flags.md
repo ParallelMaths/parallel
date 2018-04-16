@@ -114,19 +114,19 @@ What is the largest difference between two 9-digit integers whose digits use eac
 ::: problem id=4_1 marks=1
 __4.1__ Larger number:
 
-<input type="number" solution="987654321"/>  
+<input type="text" solution="987654321"/>  
 :::
 
 ::: problem id=4_2 marks=1
 __4.2__ Smaller number:
 
-<input type="number" solution="123456789"/>  
+<input type="text" solution="123456789"/>  
 :::
 
 ::: problem id=4_3 marks=1
 __4.3__ Difference between them:
 
-<input type="number" solution="864197532"/>  
+<input type="text" solution="864197532"/>  
 
 ---
 

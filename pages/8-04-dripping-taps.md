@@ -34,7 +34,7 @@ __1.1.__ A tap leaks 1 ml of water every second. How many 10 L buckets would it 
 
 I don’t want to pressure you, but after one student got the wrong answer on the TV show, the other student answered it in 20 seconds without pencil or paper.
 
-<input type="number" solution="8"/>  
+<input type="text" solution="8"/>  
 
 ---
 
