@@ -164,8 +164,8 @@ It will probably help if you redraw the diagram – a quick sketch will make it 
 
 ![](/resources/7-01-parallelogram/3-1-angles.png)
 
-Angle x = <input type="number" solution="155"/>°  
-Angle y = <input type="number" solution="85"/>°
+Angle x = <input type="text" solution="155"/>°  
+Angle y = <input type="text" solution="85"/>°
 
 ---
 
@@ -199,7 +199,7 @@ perfect squares.
 ::: problem id=4 marks=3
 __4.1__ How old is the teacher?
 
-<input type="number" solution="65"/>
+<input type="text" solution="65"/>
 
 ^^^ hint id=2
 It might be reasonable to assume that the teacher is more than 20 and
@@ -298,13 +298,13 @@ you started. Just identify the other seven numbers.
 
 ![](/resources/7-01-parallelogram/6-1-puzzle.png){style="width:400px"}
 
-a = <input type="number" solution="6"/>  
-b = <input type="number" solution="8"/>  
-c = <input type="number" solution="7"/>  
-d = <input type="number" solution="9"/>  
-e = <input type="number" solution="3"/>  
-f = <input type="number" solution="2"/>  
-g = <input type="number" solution="4"/>
+a = <input type="text" solution="6"/>  
+b = <input type="text" solution="8"/>  
+c = <input type="text" solution="7"/>  
+d = <input type="text" solution="9"/>  
+e = <input type="text" solution="3"/>  
+f = <input type="text" solution="2"/>  
+g = <input type="text" solution="4"/>
 
 ---
 

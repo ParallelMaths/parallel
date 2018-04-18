@@ -276,7 +276,7 @@ need to watch video again.
 
 ![](/resources/8-01-ma-kettle/blackboard-sum.png)
 
-<input type="number" solution="21"/>  
+<input type="text" solution="21"/>  
 :::
 
 ## 6. Pi mnemonic song

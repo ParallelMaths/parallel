@@ -173,7 +173,7 @@ did you find?
 Take your time. Check you haven’t missed any trees. Check that you have not
 drawn the same tree twice. The correct answer is between 5 and 14.
 
-<input type="number" solution="10"/>
+<input type="text" solution="10"/>
 
 ---
 The correct answer is 10 trees. You would have scored 2 marks if you answered 9
@@ -275,7 +275,7 @@ the children, and therefore the age of the oldest child. If you are still stuck
 after a few minutes of effort, then there are some hints below. There are 4
 marks for this question, but you will lose 1 mark for each clue that you need.
 
-<input type="number" solution="9"/>
+<input type="text" solution="9"/>
 
 ^^^ hint id=1
 Start by creating a list of all the possible ages for the three children,

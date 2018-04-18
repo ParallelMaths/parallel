@@ -45,7 +45,7 @@ What is the remainder when the following numbers are divided by 9?
 ::: problem id=1_1 marks=0.5
 __1.1__ 152
 
-<input type="number" solution="8"/>
+<input type="text" solution="8"/>
 
 ---
 You should know that there is an easy test to see if a number is divisible
@@ -59,7 +59,7 @@ by 9. But this does tell us the remainder: 8.
 ::: problem id=1_2 marks=0.5
 __1.2__ 9,876,543,210
 
-<input type="number" solution="0"/>
+<input type="text" solution="0"/>
 
 ---
 9,876,543,210 is divisible by 9, because the digits add up to 45 which is
@@ -74,14 +74,14 @@ add up to a multiple of 9.
 ::: problem id=1_3 marks=1
 __1.3__ 689,689
 
-<input type="number" solution="1"/>
+<input type="text" solution="1"/>
 
 :::
 
 ::: problem id=1_4 marks=1
 __1.4__ 555...555, which is 5 written out 2011 times in a row
 
-<input type="number" solution="2"/>
+<input type="text" solution="2"/>
 
 ---
 It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x
