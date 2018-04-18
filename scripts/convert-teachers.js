@@ -5,7 +5,7 @@ const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
-  "email1@domain.com",
+  "m.conrad@wlfs.org",
   "email2@domain.com",
 ];
 

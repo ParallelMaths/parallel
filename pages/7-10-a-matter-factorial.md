@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 10_ A matter factorial!
+# _Year 7 • Parallelogram 10_ A matter of factorial!
 
 <div class="dictionary">
 
@@ -39,7 +39,7 @@ __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and
 :::
 
 ::: problem id=1_2 marks=1
-__1.2.__ What is the total of all the numbers in this clip?
+__1.2.__ What is the total of all the numbers in the song at the beginning of this clip?
 
 @[youtube](nZ38tg1342s?start=79&end=95&rel=0)
 
@@ -48,6 +48,8 @@ __1.2.__ What is the total of all the numbers in this clip?
 ---
 
 “`2, 4, 6, 8`” and then “`3, 5, 7, 9`” `= 44`
+
+Note: The questioner, Jeremy Paxman, gives a different and larger answer, because he played a longer clip with more numbers.
 :::
 
 
@@ -79,12 +81,12 @@ The numbers are 4, 9 and 25. So the sum is 38. These numbers are the squares of 
 
 ## 4. Margaret Hamilton shoots for the moon
 
-A couple of weeks ago, we showed you a picture of the amazing software engineer Margaret Hamilton, which showed a print out of the computer code she wrote for the Apollo moon mission. The stack of paper was taller than her. Here is a video in which she talks her incredible career – as you watch it, think about the following question:
+A couple of weeks ago, we showed you a picture of the amazing software engineer Margaret Hamilton, which showed a print out of the computer code she wrote for the Apollo moon mission. The stack of paper was taller than her. Here is a video in which she talks about her incredible career – as you watch it, think about the following question:
 
 ::: problem id=4_1 marks=1
-__4.1__ Margaret Hamilton invented which if the following job title?
+__4.1__ Which of the following job titles did Margaret Hamilton invent?
 
-* [ ] Computer programme
+* [ ] Computer programmer
 * [ ] Computer scientist
 * [x] Software engineer
 * [ ] Software developer
@@ -113,11 +115,11 @@ __5.1.__ Which of these states should sit in the intersection?
 
 ---
 
-Florida is shortened to FL, which is also short for Fluorine.
+Florida is shortened to FL, which is also short for Flerovium.
 :::
 
 ::: problem id=5_2 marks=2
-__5.2.__ Which of these states should sit in the intersection?
+__5.2.__ Which of these elements should sit in the intersection?
 
 * [ ] Lithium
 * [ ] Cadmium
@@ -125,7 +127,7 @@ __5.2.__ Which of these states should sit in the intersection?
 
 ---
 
-Neon is shortened to Ne, which is also short for Nevada.
+Neon is shortened to Ne, which is also short for Nebraska.
 :::
 
 
@@ -135,12 +137,12 @@ A short while ago, we asked: “How many ways can we re-arrange the English alph
 
 In short, there are 26! ways to re-arrange 26 letters, where 26! means 26 × 25 × 24 …. × 1.
 
-The (!) is called factorial, and can be applied to any number, e.g., 4! = 4 × 3 × 2 × 1 = 24.
+The (!) is called "factorial", and can be applied to any number, e.g., 4! = 4 × 3 × 2 × 1 = 24.
 
 ::: problem id=6_1 marks=1
 __6.1.__ 403,291,461,126,605,635,584,000,000 = 26!
 
-It ends six zeroes because 26! involves multiplying by all the numbers from 26 down to 1, which includes multiplying by numbers like:
+It ends in six zeroes because 26! involves multiplying by all the numbers from 26 down to 1, which includes multiplying by numbers like:
 
 * 15 & 2	which adds 1 zero
 * 20 & 5	which adds 2 zeroes
@@ -153,7 +155,7 @@ Which number provides the last zero?
 
 ---
 
-The answer is, of course, 10, because multiplying anything by 10 adds a zero.
+The answer is, of course, 10, because multiplying anything by 10 provides the final zero.
 :::
 
 ::: problem id=6_2 marks=2
@@ -192,7 +194,7 @@ Even if you get the answer right, make sure you come back and check the answer, 
 
 * [ ] 6 hours
 * [ ] 6 days
-* [ ] 6 weeks
+* [x] 6 weeks
 * [ ] 6 months
 * [ ] 6 years
 
@@ -202,7 +204,7 @@ Even if you get the answer right, make sure you come back and check the answer, 
 
 If you ÷3,600 then you get 1,008 hours, and if you ÷24 then you get 42 days, and if you ÷7 then you get 6 weeks.
 
-Another way to think about this is to take the elements of 10! and observe how they can be paired up conveniently turn seconds into weeks.
+Another way to think about this is to take the elements of 10! and observe how they can be paired up conveniently to turn seconds into weeks.
 
 10! = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1
 
@@ -211,11 +213,6 @@ Another way to think about this is to take the elements of 10! and observe how t
 * If we split 9 into 3 × 3, and then take one of those 3s and multiply it by the 8, we get 24, which turns those hours into days.  
 * Multiplying by the 7 turns those days into weeks.  
 * And then we are only left with the 2 and the other 3 (that we got from the 9), which gives us 6 weeks.
-
-| 10! | = | 10× | 3× 3× | 8× | 7× | 6× | 5× | 4× | 3× | 2× | 1× |  
-|  |  | to mins |  |  | to weeks | to mins | to hours | to hours | to hours |  |  |  
-{.grid}
-
 :::
 
 ***

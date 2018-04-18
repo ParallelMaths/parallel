@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 10_ Witchsticks
+# _Year 8 • Parallelogram 10_ Rattlebacks
 
 <div class="dictionary">
 
@@ -26,13 +26,15 @@ when the answer sheet appears.
 ::: problem id=1_1 marks=1
 __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song.
 
-@[youtube](nZ38tg1342s?start=105&end=147&rel=0)
+@[youtube](nZ38tg1342s?start=113&end=139&rel=0)
 
 <input solution="176"/>  
 
 ---
 
 M62 + 39 miles + 45 minutes + 30 miles = 176
+
+Note: The questioner, Jeremy Paxman, gives a different and larger answer, because he played a longer clip with more numbers.
 :::
 
 
@@ -135,19 +137,21 @@ So, it would be easy to assume that I need to play 30 more games, so that the nu
 
 | # games | Wins | Losses |
 | ------- | ---- | ------ |
+| 524 | 261 | 263 |
+| 525 | 262 | 263 |
+| 526 | 263 | 263 |
 | 527 | 263 | 264 |
 | 528 | 264 | 264 |
 | 529 | 265 | 264 |
 | 530 | 265 | 265 |
 {.grid}
 
-So, earliest that the number of wins equals the number of loses is after 528 games, or after 28 more games.
-
+So, the number of wins equals the number of losses three times – after 526, 528 and 530 games. Therefore, the earliest that the number of wins equals the number of loses is after 526 games, or after 26 more games.
 :::
 
 ## 6. Rattleback
 
-Watch this video of one of the most mysterious objects in the universe. It’s called a rattleback, and you can win one if you succeed at the challenge in the _Further Stuff_ section below.
+Watch this video of one of the most mysterious objects in the universe. It’s called a rattleback, and you can win one if you succeed at the challenge in the _Additional Stuff_ section below.
 
 @[youtube](ovZ_n6X__9c?rel=0)
 
@@ -168,20 +172,14 @@ Simon.
 
 __VAX! – a game about epidemic prevention.__
 
-Take a look at the game at the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
+Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
 
 It is definitely worth looking at the whole site and learning about the maths, disease and networks of connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
 
 *	Go to [http://vax.herokuapp.com/game](http://vax.herokuapp.com/game){target="_blank"}
-*	Clink on EASY (try MEDIUM & HARD later)
+*	Click on EASY (try MEDIUM & HARD later)
 *	Start vaccinating those dots that are most likely to spread disease.
 *	When the disease starts, begin quarantining dots.
 *	If you want to try again, hit RETRY after you obtain your score.
 
-Here is my best score and my current score.
-
-![](/resources/8-10-witchsticks/additional-vax.png){image align="center"}
-
-If you can beat __94% (my current score)__ then you will go into the draw for winning a rattleback. If you can beat __96% (my best score)__, then you will definitely win a rattleback.
-
-Just email me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and include an image of your bar chart score. Good luck.
+If you would like to win a rattleback, then please send us your best VAX! score. The top five scores received by 12pm on __Thursday 26th April__ will win a rattleback. Just email me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and include an image of your bar chart score. Good luck.

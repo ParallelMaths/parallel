@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 10_ Colour Code Challenge
+# _Year 8 • Parallelogram 11_ Colour Code Challenge
 
 <div class="dictionary">
 
@@ -31,7 +31,7 @@ Below you can see the numbers from 1 to 20 represented by coloured circles, but 
 __1.1.__ Which number is linked to the wrong numbers? Some hints below if you need them.
 
 ^^^ hint id=1
-Look for patterns. Which colours are linked which numbers? If you are thinking – that was a useless hint, then you wouldn’t be far wrong.
+Look for patterns. Which colours are linked to which numbers?
 ^^^
 
 ^^^ hint id=2
@@ -54,7 +54,7 @@ Which numbers only have a single colour?
 
 ---
 
-The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their factors - so 4 is made up of two yellows, because the 2 is coloured yellow; 18 is made up of two greens (3s) and one yellow (2).
+The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their factors - so 4 is made up of two yellows, because the 2 is coloured yellow, and 4 = 2 × 2; 18 is made up of two greens (3s) and one yellow (2), because 18 = 3 × 3 × 2.
 
 The exception is number 19, which is made up of two yellows (2s) and one green (3). However, 2 × 2 × 3 ≠ 19, and as 19 is a prime number it should be a single colour.
 :::
@@ -75,7 +75,7 @@ Which of the following could be the distance she walked?
 
 ---
 
-Walking at 3 km/h for five hours, Gill would walk 5 × 3 km = 15km, and at 4 km/h she would walk 5 × 4 km = 20 km.
+Walking at 3 km/h for five hours, Gill would walk 5 × 3 km = 15 km, and at 4 km/h she would walk 5 × 4 km = 20 km.
 
 As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 20 km. Of the options given, only 19 km is in this range.
 :::
@@ -110,52 +110,63 @@ April Fools’ Day was back at the start of the month, but it is never too late 
 @[youtube](dv7kStqRFNM?rel=0)
 
 
-## 5. Junior Maths Challenge bonus (2013)
+## 5. Felix Klein’s birthday
+
+This week, back in 1849, it was the birthday of Felix Klein, the great German mathematician. You can find out more about Felix Klein in the “Additional Stuff” section.
 
 ::: problem id=5_1 marks=2
-__5.1.__ What is the value of `( (1 - 1) - 1) - (1 - (1 - 1))`?
+__5.1.__ He was born on 25 April 1849, or 25/4/1849. Why is this this a remarkable birthday for a mathematician?
 
-* [x] -2
-* [ ] +1
-* [ ] 0
-* [ ] 1
-* [ ] 2
-{.col-5}
+* [ ] Each number shares a particular property linked to addition.
+* [ ] Each number shares a particular property linked to subtraction.
+* [x] Each number shares a particular property linked to multiplication.
+* [ ] Each number shares a particular property linked to factorials.
+* [ ] Each number shares a particular property linked to fractions.
+:::
+
+
+## 6. The Möbius loop
+
+Felix Klein is best known for the Klein bottle, a weird bottle (below left) that has no inside and no outside. If you are a fan of the sci-fi comedy “Futurama”, then you might remember a shelf of Klein bottles appearing in the episode “The Route of All Evil” (below right).
+
+![](/resources/8-11-colour-code-challenge/6-klein-bottles.jpg){image align="center"}
+
+Although in many senses it is impossible to create a Klein bottle in our normal 3-D world, it can in theory be constructed by joining two Möbius loops. You might now be wondering, “what is a Möbius loop?”. In short, it is an object that only has one side. Every piece of paper, of course, has two sides – a top and a bottom, or maybe a back and a front. However, you can turn a piece or strip of paper into an object that has only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
+
+Making a Möbius loop involves taking a strip of paper, forming a loop, then twisting one end by half a term, and finally joining the two ends with sticky tape.
+
+The video below shows how you can make a Möbius loop for yourself. Once you have created a couple of Möbius loops, have a go at answering the questions below.
+
+@[youtube](IRVOwuHU-M0?rel=0)
+
+::: problem id=6_1 marks=3
+__6.1.__ What happens when you cut a Möbius loop its length down the middle?
+
+* [ ] You create zero loops.
+* [ ] You create a half a loop.
+* [x] You create one loop.
+* [ ] You create two loops.
+* [ ] You create a mess.
+:::
+
+::: problem id=5_1 marks=4
+__6.2.__ What happens when you cut the Möbius loop along its length, but starting one third of the way from the edge (NOT in the middle)? Keep cutting until you get back to where you started and the cut is complete. What have you created?
+
+* [ ] No loops, just one long strip.
+* [ ] One big loop.
+* [x] Two loops of equal size.
+* [ ] One small loop and one big loop.
+* [ ] Three loops.
 
 ---
 
-We have `( (1 - 1) - 1) - (1 - (1 - 1)) = (0 - 1) - (1 - 0) = -2`
+Hopefully you will have got the rights answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of they way from the edge. It also looks a couple of other cutting mysteries, all in just a couple of minutes.
+
+@[youtube](6q3WcwGcJsU?rel=0)
+
+For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}, but remember to come back and hit the submit button.
 
 :::
-
-## 6. The North Pole riddle – the genius version
-
-This video is titled “Elon Musk’s favorite interview question”, and it is explores in great depth a question that we have covered in two recent Parallelograms. By the way, if you have not heard of Elon Musk, he studied physics at university and he is now labelled the real life Iron Man because he has built a business empire based on developing incredible technology – everything from batteries to rockets. In fact, the second video shows Elon Musk in a cameo in the “Iron Man 2” movie.
-
-@[youtube](c_Vl4T4Anc4?rel=0)
-
-::: problem id=6_1 marks=2
-__6.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km west and 1 km north, and you end up exactly where you started. According to  Musk’s full answer, which of the following is most accurate?
-
-* [ ] You are near the North Pole.
-* [ ] You are near the South Pole.
-* [x] You can be near either North or South Poles.
-* [ ] You are on the Equator.
-* [ ] You are in the centre of the Earth.
-:::
-
-::: problem id=5_1 marks=3
-__6.2.__ Following on from the previous question, which of the following is most accurate?
-
-* [ ] There is no possible location.
-* [ ] The is one possible location.
-* [x] There are two possible locations.
-* [ ] There are 72 possible locations.
-* [ ] There is an infinite number of possible locations.
-:::
-
-@[youtube](EuG2AVFB-g0?rel=0)
-
 
 ***
 
@@ -171,9 +182,8 @@ Simon.
 
 ## Additional Stuff
 
-* [This article – The real-life Iron Man](https://www.theguardian.com/technology/2018/feb/09/elon-musk-the-real-life-iron-man){target="_blank"} – will tell you a bit more about Elon Musk.
+* This week’s Klein birthday mystery was featured in [Alex Bellos’s terrific puzzle column in the Guardian](https://www.theguardian.com/science/series/alex-bellos-monday-puzzle){target="_blank"}. Always worth a visit if you fancy a challenge.
 
-* Today’s first question was based on something I saw on the [www.mathforlove.com](www.mathforlove.com){target="_blank"} website, which (as the name suggests) has lots of great stuff for people who love math…ematics. For example, [this is a whole worksheet about the billiard ball problem](https://mathforlove.com/lesson/billiard-ball-problem/){target="_blank"}. It is quite a project and it is written as if the reader is a teacher preparing something for students, but it will also make sense if you are a student.
+* This animation gives further insights into what happens when you cut a Möbius loop.
 
-* Teachers and parents (and maybe students) might also be interested in this short TEDx talk by Dan Finkel who started the website, in which he explains the best ways to develop a love of maths and some concrete skills – “Five Principles of Extraordinary Math Teaching”
-@[youtube](ytVneQUA5-c?rel=0)
+@[youtube](XlQOipIVFPk?rel=0)

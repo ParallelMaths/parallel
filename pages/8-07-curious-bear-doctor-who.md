@@ -123,7 +123,7 @@ You should have found the following loop: 4, 16, 37, 58, 89, 145, 42, 20, 4, ...
 :::
 
 ::: problem id=3_4 marks=3
-__3.4.__ In 2010, mathematicians discovered the largest known happy prime, which is 2<sup>42,643,801</sup>. Write down the complete path and prove that this number is indeed happy. Only kidding! That would take you several lifetimes.
+__3.4.__ In 2010, mathematicians discovered the largest known happy prime, which is 2<sup>42,643,801</sup> – 1. Write down the complete path and prove that this number is indeed happy. Only kidding! That would take you several lifetimes.
 
 Instead, if you expressed 2<sup>42,643,801</sup> in the normal way (ie, not as a power of 2), how many digits would it contain?
 
