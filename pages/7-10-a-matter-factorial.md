@@ -155,7 +155,7 @@ Which number provides the last zero?
 
 ---
 
-The answer is, of course, 10, because multiplying anything by 10 provides the final zero.
+Multiplying by 10 provides the final zero.
 :::
 
 ::: problem id=6_2 marks=2
