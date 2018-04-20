@@ -6,7 +6,7 @@ Each Friday at 4pm, you will have access to a new set of online mathematical cha
 
 It should take roughly 30 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved.
 
-You have until 7pm on Sunday to complete the challenge and hit the SUBMIT button. Immediately afterwards, you will find be able to see the answers as well as your score.
+You have until 7pm on Sunday to complete the challenge and hit the SUBMIT button. Immediately afterwards, you will be able to see the answers as well as your score.
 
 Why is this project called ‘parallel’? Well, parallel lines don’t cross over – check with Euclid if you don’t believe me – and in general the challenges that I set you will not cross over with what you are doing in school. These maths challenges are often going to involve ideas that are in the unexplored universe of numbers.
 
