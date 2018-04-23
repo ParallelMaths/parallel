@@ -106,7 +106,7 @@ __5.1.__ After playing 500 games, my success rate at Spider Solitaire is 49%. As
 
 What is the least number of extra games I need to play in order that my success rate becomes at least 50%?
 
-<input solution="28"/>  
+<input solution="26"/>  
 
 ---
 
