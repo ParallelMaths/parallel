@@ -23,12 +23,12 @@ when the answer sheet appears.
 
 ## 1.	The Colour Code Challenge
 
-Below you can see the numbers from 1 to 20 represented by coloured circles, but what is the relationship between each number and its colours. If you can work out the relationship, then you will notice that one of the numbers is linked to the wrong colours.
+Below you can see the numbers from 1 to 20 represented by coloured circles, but what is the relationship between each number and its colours? If you can work out the relationship, then you will notice that one of the numbers is linked to the wrong colours.
 
 ![](/resources/8-11-colour-code-challenge/1-colour-code.png){image align="center"}
 
 ::: problem id=1_1 marks=6
-__1.1.__ Which number is linked to the wrong numbers? Some hints below if you need them.
+__1.1.__ Which number is linked to the wrong colours? There are some hints below if you need them.
 
 ^^^ hint id=1
 Look for patterns. Which colours are linked to which numbers?
@@ -47,14 +47,14 @@ Which numbers only have a single colour?
 ^^^
 
 ^^^ hint id=5
-2 is yellow, 3 green and 6 is yellow and green. Why?
+2 is yellow, 3 is green and 6 is yellow and green. Why?
 ^^^
 
 <input solution="19"/>  
 
 ---
 
-The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their factors - so 4 is made up of two yellows, because the 2 is coloured yellow, and 4 = 2 × 2; 18 is made up of two greens (3s) and one yellow (2), because 18 = 3 × 3 × 2.
+The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their prime factors - so 4 is made up of two yellows, because the 2 is coloured yellow, and 4 = 2 × 2; 18 is made up of two greens (3s) and one yellow (2), because 18 = 3 × 3 × 2.
 
 The exception is number 19, which is made up of two yellows (2s) and one green (3). However, 2 × 2 × 3 ≠ 19, and as 19 is a prime number it should be a single colour.
 :::
@@ -122,6 +122,10 @@ __5.1.__ He was born on 25 April 1849, or 25/4/1849. Why is this this a remarkab
 * [x] Each number shares a particular property linked to multiplication.
 * [ ] Each number shares a particular property linked to factorials.
 * [ ] Each number shares a particular property linked to fractions.
+
+---
+
+Each of the date of birth numbers is linked to multiplication because 25/4/1849 could be written as 5<sup>2</sup>/2<sup>2</sup>/43<sup>2</sup> (and squaring is an operation based on multiplication).
 :::
 
 
@@ -133,14 +137,14 @@ Felix Klein is best known for the Klein bottle, a weird bottle (below left) that
 
 Although in many senses it is impossible to create a Klein bottle in our normal 3-D world, it can in theory be constructed by joining two Möbius loops. You might now be wondering, “what is a Möbius loop?”. In short, it is an object that only has one side. Every piece of paper, of course, has two sides – a top and a bottom, or maybe a back and a front. However, you can turn a piece or strip of paper into an object that has only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
 
-Making a Möbius loop involves taking a strip of paper, forming a loop, then twisting one end by half a term, and finally joining the two ends with sticky tape.
+Making a Möbius loop involves taking a strip of paper, forming a loop, then making half a twist in one end, and finally joining the two ends with sticky tape.
 
 The video below shows how you can make a Möbius loop for yourself. Once you have created a couple of Möbius loops, have a go at answering the questions below.
 
 @[youtube](IRVOwuHU-M0?rel=0)
 
 ::: problem id=6_1 marks=3
-__6.1.__ What happens when you cut a Möbius loop its length down the middle?
+__6.1.__ What happens when you cut a Möbius loop in half lengthways?
 
 * [ ] You create zero loops.
 * [ ] You create a half a loop.
@@ -154,13 +158,13 @@ __6.2.__ What happens when you cut the Möbius loop along its length, but starti
 
 * [ ] No loops, just one long strip.
 * [ ] One big loop.
-* [x] Two loops of equal size.
-* [ ] One small loop and one big loop.
+* [ ] Two loops of equal size.
+* [x] One small loop and one big loop.
 * [ ] Three loops.
 
 ---
 
-Hopefully you will have got the rights answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of they way from the edge. It also looks a couple of other cutting mysteries, all in just a couple of minutes.
+Hopefully you will have got the right answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of they way from the edge. It also looks a couple of other cutting mysteries, all in just a couple of minutes.
 
 @[youtube](6q3WcwGcJsU?rel=0)
 

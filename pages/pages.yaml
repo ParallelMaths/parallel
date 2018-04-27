@@ -1,27 +1,27 @@
 year7:
   - week: 15
-    url:
-    title:
+    url: 7-15-blackboard-equation
+    title: Blackboard Equation
     available: 2018-06-08T16:00:00
     deadline: 2018-06-10T19:00:00
   - week: 14
-    url:
-    title:
+    url: 7-14-sumaze
+    title: Sumaze
     available: 2018-05-18T16:00:00
     deadline: 2018-05-20T19:00:00
   - week: 13
-    url:
-    title:
+    url: 7-13-good-will-hunting
+    title: Good Will Hunting
     available: 2018-05-11T16:00:00
     deadline: 2018-05-13T19:00:00
   - week: 12
-    url:
-    title:
+    url: 7-12-maths-jokes
+    title: Maths Jokes
     available: 2018-05-04T16:00:00
     deadline: 2018-05-06T19:00:00
   - week: 11
-    url: 7-11-colour-puzzle
-    title: Colour Puzzle
+    url: 7-11-secret-happiness
+    title: The Secret of Happiness
     available: 2018-04-27T16:00:00
     deadline: 2018-04-29T19:00:00
   - week: 10
@@ -77,23 +77,23 @@ year7:
 
 year8:
   - week: 15
-    url: 7-15-blackboard-equation
-    title: Blackboard Equation
+    url:
+    title:
     available: 2018-06-08T16:00:00
     deadline: 2018-06-10T19:00:00
   - week: 14
-    url: 7-14-sumaze
-    title: Sumaze
+    url:
+    title:
     available: 2018-05-18T16:00:00
     deadline: 2018-05-20T19:00:00
   - week: 13
-    url: 7-13-good-will-hunting
-    title: Good Will Hunting
+    url:
+    title:
     available: 2018-05-11T16:00:00
     deadline: 2018-05-13T19:00:00
   - week: 12
-    url: 7-12-maths-jokes
-    title: Maths Jokes
+    url:
+    title:  
     available: 2018-05-04T16:00:00
     deadline: 2018-05-06T19:00:00
   - week: 11
