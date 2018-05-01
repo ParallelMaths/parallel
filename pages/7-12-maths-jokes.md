@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you successfully complete ALL of these last 4 Parallelograms (12, 13, 14, 15) by June 1 then you will receive a Parallel certificate. An average of more than 40% wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * The next Parallelogram is not until April 20, so there is no need to rush.
@@ -49,7 +49,7 @@ __1.2__ What are the 10 kinds of people in the world?
 * [x] Those who understand binary, and those who don’t
 
 ---
-In binary 10 = 2, so 10 kinds of people could mean 2 kinds of people.
+In binary 10 = 2, so 10 kinds of people could mean 2 kinds of people. (If you haven’t covered binary maths yet then you have something to look forward to.)
 :::
 
 ::: problem id=1_3 marks=0.5
@@ -69,10 +69,11 @@ the right. The bit of the tree in the red box looks just like the whole tree…
 and you zoom in even further and see more and more micro-replicas of the whole
 tree.
 
-[This video](https://www.youtube.com/watch?v=PD2XgQOyCCk) shows what happens if
-you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort
-of seahorse’s tail) reappearing again, and again, and again. So, returning to
-the joke, the B represents Benoit B Mandelbrot, because zooming into the name
+The following video shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again:
+
+@[youtube](PD2XgQOyCCk?rel=0)
+
+So, returning to the joke, the B represents Benoit B Mandelbrot, because zooming into the name
 gives you the whole name again.
 :::
 
@@ -91,9 +92,9 @@ __1.4__ Why did the chicken cross the Möbius strip?
 Another toughie – a Möbius strip is a strange mathematical shape which only has
 one side, so you can’t get to the other side. As shown here, it is just a loop
 with a single twist, but if you imagine running your finger along one side of
-the loop you will find that your finger covers every bit of the loop … so it
+the loop you will find that your finger covers every bit of the loop... so it
 only has one side. Möbius strips are fantastic, one of my favourite bits of
-geometry, and we’ll return to them in a future Parallelogram.
+geometry, and we’ll return to them in next year’s Parallelogram series.
 :::
 
 
@@ -122,10 +123,9 @@ __2.__ A number
 
 _x_ = <input type="text" solution="4"/>
 
-> 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they
-> are all 2-digit numbers, which means they are between 10 and 99. There are not
-> very many cube numbers between 10 and 99, so start by writing them down and
-> then see how they might fit into the grid.
+^^^ hint id=1
+1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
+^^^
 
 ---
 The correct answer is _x_ = 4.
@@ -146,9 +146,11 @@ You might be surprised to know that there is no Nobel Prize for maths. However,
 there is an even bigger prize for mathematicians, which is called the Fields
 Medal. It is only given every 4 years, so it is very rare and precious.
 
-In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal. She was
-born in Iran and now works in America, and you can find out about life and work
-in the short video below.
+In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal, but tragically she died just three years later. The Iranian-born NASA scientist, Firouz Naderi, wrote: “A light was turned off today, it breaks my heart... Gone far too soon.”
+
+Commenting on her own brilliant work with Alex Eskin, Mirzakhani commented: “If we knew things would be so complicated, I think we would have given up... I don’t know, actually. I don’t know. I don’t give up easily.”
+
+Mirzakhani was born in Iran and then worked in America, and you can find out about her life and work in the short video below.
 
 Not surprisingly, Maryam talks about some incredibly complex maths, so don’t
 worry if you find it confusing. In fact, if you think you understand what Maryam
@@ -226,7 +228,7 @@ __3.3__ Add up all the numbers from 1 to 1,000
 The correct answer is 500500.
 
 If you got either of these questions wrong, then take a look at
-[this website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/),
+[this website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/){target="_blank"},
 which goes into more detail about ways of adding the numbers from 1 to 100, and
 is worth looking at.
 :::
@@ -270,7 +272,7 @@ In the meantime, here is an even more extraordinary example of domino toppling
 where the dominos get bigger and bigger. In fact, it was a world record at the
 time.
 
-@[youtube](8yYWILv91YU?rel=0&start=176)
+@[youtube](8yYWILv91YU?rel=0&start=176&end=215)
 
 
 ## 5. Junior Maths Challenge question
@@ -304,8 +306,7 @@ be more ordinary than the angles of a triangle or the symmetry of a square? –
 but your teachers are providing you with the first stepping stones towards
 gaining an understanding of the nature of space, and how you can build the sort
 of flabbergasting structures in this video. There is one question afterwards and
-then you can hit the submit button and your first Parallelogram has been
-completed.
+then you can hit the submit button.
 
 @[youtube](Wx4yi5m8IfI?rel=0)
 
@@ -325,7 +326,7 @@ fooled by an optical illusion caused by the geometry of the road.
 ***
 
 Check your email or return to the website on Friday at 4pm for the next
-Parallelogram.
+Parallelogram. Remember you will also have to complete next week’s Parallelogram and the final two in order to win your Parallel certificate.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
 take a look at the “Additional Stuff” section.

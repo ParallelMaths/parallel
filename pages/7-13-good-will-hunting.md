@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
+There are only 3 more Parallelograms this year, as we will be starting our summer break at half-term. If you successfully complete ALL of the last 4 Parallelograms (12, 13, 14, 15) by June 1 then you will receive a Parallel certificate. An average of more than 40% wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * The next Parallelogram is not until April 20, so there is no need to rush.

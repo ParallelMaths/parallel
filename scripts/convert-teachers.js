@@ -5,8 +5,8 @@ const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
-  "m.conrad@wlfs.org",
-  "email2@domain.com",
+  "sc@bodmincollege.co.uk",
+  "simone.dixon@tts.edu.sg",
 ];
 
 fb.initializeApp({
