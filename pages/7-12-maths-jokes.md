@@ -10,11 +10,13 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you successfully complete ALL of these last 4 Parallelograms (12, 13, 14, 15) by June 1 then you will receive a Parallel certificate. An average of more than 40% wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in these last 4 Parallelograms (12, 13, 14, 15) and complete them by June 1 then you will receive a Parallel certificate. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
-* The next Parallelogram is not until April 20, so there is no need to rush.
-*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+* But it is better to tackle each Parallelogram in one go.
+* Complete by 7pm Sunday if your whole class is doing Parallelograms.
+* Return after 7pm on Sunday to find your score, answers and explanations.
+* Make sure you complete every challenge and hit the SUBMIT button.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -64,9 +66,8 @@ __1.3__ What does the “B” in Benoit B Mandelbrot stand for?
 
 This was a tough one. Benoit B Mandelbrot helped developed the mathematics of
 fractals, which are structures or shapes that appear similar when you zoom in or
-zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown on
-the right. The bit of the tree in the red box looks just like the whole tree…
-and you zoom in even further and see more and more micro-replicas of the whole
+zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown above. The bit of the tree in the red box looks just like the whole tree…
+and you can zoom in even further and see more and more micro-replicas of the whole
 tree.
 
 The following video shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again:
@@ -101,7 +102,7 @@ geometry, and we’ll return to them in next year’s Parallelogram series.
 ## 2. Mini cross-number
 
 ::: problem id=2 marks=2
-__2__ What is the digit x in this cross-number?
+__2__ A cross-number is like a crossword, but with numbers instead of letters. Solve the clues to find the digit `x` in this cross-number.
 
 <table><tr><td>
 
@@ -233,18 +234,6 @@ which goes into more detail about ways of adding the numbers from 1 to 100, and
 is worth looking at.
 :::
 
-_Note: On 15 July 2017, two weeks after this Parallelogram was created, I was
-shocked and saddened to hear about the death of Maryam Mirzakhani. The
-Iranian-born NASA scientist, Firouz Naderi, wrote: “A light was turned off
-today, it breaks my heart…. Gone far too soon.” Commenting on her brilliant work
-with Alex Eskin, she commented: “If we knew things would be so complicated, I
-think we would have given up … I don’t know; actually, I don’t know. I don’t
-give up easily.”_
-
-_I wanted Mirzakhani to be part of the first Parallelogram because her story is
-so inspirational. In future years, I hope that students working through this
-Parallelogram will continue to be inspired by her achievements._
-
 
 ## 4. Domino toppling
 
@@ -254,7 +243,7 @@ afterwards.
 @[youtube](5JCm5FY-dEY?rel=0)
 
 ::: problem id=4 marks=1
-__4__ Starting with 5mm tall domino, how many dominoes would you need to knock
+__4__ Starting with 5mm tall domino, roughly how many dominoes would you need to knock
 down the Empire State Building?
 
 * [x] 30
@@ -278,20 +267,30 @@ time.
 ## 5. Junior Maths Challenge question
 
 ::: problem id=5 marks=1
-__5__ Which of these three statements are true?
+__5__ Consider the following three statements:
 
-* [x] Doubling a positive number always makes it larger.
-* [ ] Squaring a positive number always makes it larger.
-* [ ] Taking the positive square root of a positive number always makes it smaller.
+(i) Doubling a positive number always makes it larger.  
+(ii) Squaring a positive number always makes it larger.  
+(iii) Taking the positive square root of a positive number always makes it smaller.  
+
+Which statements are true?
+
+* [ ] All three
+* [ ] None
+* [x] Only (i)
+* [ ] (i) and (ii)
+* [ ] (ii) and (iii)
 
 ---
 The correct answer is just (i).
 
-Statement (i) is true since 2x > x, if x > 0.  
+Statement (i) is true since `2x > x`, if `x > 0`.  
+
 Statement (ii) is not true. For example, (½)<sup>2</sup> = ¼, which is not
-larger than ½.  
+larger than ½. Also, 1<sup>2</sup> is not bigger than 1.
+
 Statement (iii) is also not true. For example, √¼ = ½, which is not smaller
-than ¼.
+than ¼. Also, √1 is not bigger than 1.
 :::
 
 
@@ -303,7 +302,7 @@ illusions literally mess with your brain.
 
 Sometimes the geometry that you study at school might seem ordinary – what could
 be more ordinary than the angles of a triangle or the symmetry of a square? –
-but your teachers are providing you with the first stepping stones towards
+but your teachers are really providing you with the first stepping stones towards
 gaining an understanding of the nature of space, and how you can build the sort
 of flabbergasting structures in this video. There is one question afterwards and
 then you can hit the submit button.

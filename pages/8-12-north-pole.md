@@ -10,18 +10,20 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you successfully complete ALL of these last 4 Parallelograms (12, 13, 14, 15) by June 1 then you will receive a Parallel certificate. An average of more than 40% wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in these last 4 Parallelograms (12, 13, 14, 15) and complete them by June 1 then you will receive a Parallel certificate. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
-* The next Parallelogram is not until April 20, so there is no need to rush.
-*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
+* But it is better to tackle each Parallelogram in one go.
+* Complete by 7pm Sunday if your whole class is doing Parallelograms.
+* Return after 7pm on Sunday to find your score, answers and explanations.
+* Make sure you complete every challenge and hit the SUBMIT button.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
 ## 1.	The North Pole riddle – the genius version
 
-This video is titled “Elon Musk’s favorite interview question”, and it is explores in great depth a question that we have covered in two recent Parallelograms. By the way, if you have not heard of Elon Musk, he studied physics at university and he is now labelled the real life Iron Man because he has built a business empire based on developing incredible technology – everything from batteries to rockets. In fact, the second video shows Elon Musk in a cameo in the “Iron Man 2” movie.
+This video is titled “Elon Musk’s favorite interview question”, and it explores in great depth a question that we have covered in two recent Parallelograms. By the way, if you have not heard of Elon Musk, he studied physics at university and he is now labelled the real life Iron Man because he has built a business empire based on developing incredible technology – everything from batteries to rockets. In fact, the second video shows Elon Musk in a cameo in the “Iron Man 2” movie.
 
 @[youtube](c_Vl4T4Anc4?rel=0)
 
@@ -30,7 +32,7 @@ __1.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km
 
 * [ ] You are near the North Pole.
 * [ ] You are near the South Pole.
-* [x] You can be near either North or South Poles.
+* [x] You can be near either the North or South Poles.
 * [ ] You are on the Equator.
 * [ ] You are in the centre of the Earth.
 :::
@@ -39,10 +41,10 @@ __1.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km
 __1.2.__ Following on from the previous question, which of the following is most accurate?
 
 * [ ] There is no possible location.
-* [ ] The is one possible location.
-* [x] There are two possible locations.
+* [ ] There is one possible location.
+* [ ] There are two possible locations.
 * [ ] There are 72 possible locations.
-* [ ] There is an infinite number of possible locations.
+* [x] There is an infinite number of possible locations.
 :::
 
 @[youtube](EuG2AVFB-g0?rel=0)
@@ -51,9 +53,9 @@ __1.2.__ Following on from the previous question, which of the following is most
 ## 2. Changing the world
 
 ![](/resources/8-12-north-pole/2-steve-jobs.jpg){image align="right"}
-Scientists and engineers like Elon Musk are literally changing the world... almost certainly for the better. If you also want to change the world then studying mathematics and then becoming an engineer or scientists is probably a very good path to follow.
+Scientists and engineers like Elon Musk are literally changing the world... almost certainly for the better. If you also want to change the world then studying mathematics and then becoming an engineer or scientist is probably a very good path to follow.
 
-Technology companies like Apply and Microsoft have changed the way we communicate with each other and the way we appreciate art and music... indeed the way we live our lives.
+Technology companies like Apple and Microsoft have changed the way we communicate with each other and the way we appreciate art and music... indeed they have changed the way we live our lives.
 
 Once upon a time, Steve Jobs wanted to persuade the head of Pepsi to join him at Apple, when it was a relatively small company. The head of Pepsi could see no reason why he should leave a global giant like Pepsi to join the relatively small Apple Corporation, but Jobs won him over by saying: “Do you want to sell sugar water for the rest of your life, or do you want to come with me and change the world?”
 
@@ -99,7 +101,7 @@ This calculation is easier that the one we gave above, but, if you use this meth
 
 ## 4. As I was going to St Ives
 
-The action movie Die Hard With A Vengeance has a plot in which the two heroes McClane and Carver (played by Bruce Willis and Samuel L. Jackson) had to solve a series of riddles in order to save the city from being evil villain Simon Gruber.
+The action movie Die Hard With A Vengeance has a plot in which the two heroes McClane and Carver (played by Bruce Willis and Samuel L. Jackson) have to solve a series of riddles in order to save the city from the evil villain Simon Gruber.
 
 ::: problem id=4_1 marks=3
 __4.1.__ Have a go at this 200-year-old riddle featured in the film:
@@ -128,8 +130,10 @@ In fact, I am not sure Samuel L. Jackson is right when he is trying to work out 
 ## 5. Junior Maths Challenge (2013)
 
 ::: problem id=5_1 marks=2
-![](/resources/8-12-north-pole/5-rulers-question.jpg){image align="right"}
 __5.1.__ Two identical rulers are placed together, as shown (not to scale).
+
+![](/resources/8-12-north-pole/5-rulers-question.jpg){image align="center"}
+
 Each ruler is exactly 10 cm long and is marked in centimetres from 0 to 10. The 3 cm
 mark on each ruler is aligned with the 4 cm mark on the other.
 
@@ -155,7 +159,7 @@ So, `L = 6 + 6 + 1 = 13`.
 
 ## 6. More Möbius
 
-Last week’s Parallelogram looked at the strange properties of Möbius loops. If you recall, making a Möbius loop involves taking a strip of paper, forming a loop, then making half a twist in one end, and finally joining the two ends with sticky tape. If you follow that process, you will create an object that only has one side. Every piece of paper, of course, is supposed to have two sides – a top and a bottom, or maybe a back and a front. However, the Möbius loop only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
+Last week’s Parallelogram looked at the strange properties of Möbius loops. If you recall, making a Möbius loop involves taking a strip of paper, forming a loop, then making half a twist in one end, and finally joining the two ends with sticky tape. If you follow that process, you will create an object that only has one side. Every piece of paper, of course, is supposed to have two sides – a top and a bottom, or maybe a back and a front. However, the Möbius loop has only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
 
 This is a terrific video by the terrific Vi Hart, who explores the wonders of Möbius loops by making them from something called “Fruit by the Foot”.
 
@@ -178,6 +182,6 @@ Simon.
 
 ## Additional Stuff
 
-* This clip is about Klein bottles and it features the amazing Cliff Stoll. I can sit and watch him talk about mathematics all day. He also has lots of other interests. For example, in 1986 he investigated and captured the computer hacker Markus Hess, who was working for the Russian KGB and trying to breach American military security.
+* This clip is from the Numberphile series and is about Klein bottles, featuring the amazing Cliff. I can sit and watch him talk about mathematics all day. He also has lots of other interests. For example, in 1986 he investigated and captured the computer hacker Markus Hess, who was working for the Russian KGB and trying to breach American military security.
 
 @[youtube](AAsICMPwGPY?rel=0)
