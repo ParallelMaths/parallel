@@ -182,6 +182,6 @@ Simon.
 
 ## Additional Stuff
 
-* This clip is from the Numberphile series and is about Klein bottles, featuring the amazing Cliff. I can sit and watch him talk about mathematics all day. He also has lots of other interests. For example, in 1986 he investigated and captured the computer hacker Markus Hess, who was working for the Russian KGB and trying to breach American military security.
+* This clip is from the Numberphile series and is about Klein bottles, featuring the amazing Cliff Stoll. I can sit and watch him talk about mathematics all day. He also has lots of other interests. For example, in 1986 he investigated and captured the computer hacker Markus Hess, who was working for the Russian KGB and trying to breach American military security.
 
 @[youtube](AAsICMPwGPY?rel=0)

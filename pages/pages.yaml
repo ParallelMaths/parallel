@@ -77,18 +77,18 @@ year7:
 
 year8:
   - week: 15
-    url:
-    title:
+    url: 8-15-seven-bridges-konigsberg
+    title: The Seven Bridges of Konigsberg
     available: 2018-06-08T16:00:00
     deadline: 2018-06-10T19:00:00
   - week: 14
-    url:
-    title:
+    url: 8-14-ada-lovelace
+    title: Ada Lovelace
     available: 2018-05-18T16:00:00
     deadline: 2018-05-20T19:00:00
   - week: 13
-    url:
-    title:
+    url: 8-13-snake-mathematics
+    title: Snake Mathematics
     available: 2018-05-11T16:00:00
     deadline: 2018-05-13T19:00:00
   - week: 12
