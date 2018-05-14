@@ -153,7 +153,7 @@ __6.1.__ What happens when you cut a Möbius loop in half lengthways?
 * [ ] You create a mess.
 :::
 
-::: problem id=5_1 marks=4
+::: problem id=6_2 marks=4
 __6.2.__ What happens when you cut the Möbius loop along its length, but starting one third of the way from the edge (NOT in the middle)? Keep cutting until you get back to where you started and the cut is complete. What have you created?
 
 * [ ] No loops, just one long strip.
@@ -169,7 +169,6 @@ Hopefully you will have got the right answers and been shocked by them. Right or
 @[youtube](6q3WcwGcJsU?rel=0)
 
 For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}, but remember to come back and hit the submit button.
-
 :::
 
 ***

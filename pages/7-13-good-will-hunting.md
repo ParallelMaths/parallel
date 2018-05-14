@@ -139,8 +139,7 @@ line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.
 
 ::: problem id=1_3 marks=1
 __1.3__ For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them
-must be essentially the same. Which tree can be twisted and reshaped into
-another tree? Which pair of trees can be twisted and reshaped into each other?
+must be essentially the same. Which pair of trees can be twisted and reshaped into each other?
 
 ![](/resources/7-13-good-will-hunting/graph-5a.png)
 ![](/resources/7-13-good-will-hunting/graph-5b.png)
@@ -164,8 +163,7 @@ lines, 1 dot connected to 3 lines and 6 dots connected to 1 line.
 
 :::problem id=1_4 marks=1
 __1.4__ For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them
-must be essentially the same. Which tree can be twisted and reshaped into
-another tree? Which pair of trees can be twisted and reshaped into each other?  
+must be essentially the same. Which pair of trees can be twisted and reshaped into each other?  
 
 ![](/resources/7-13-good-will-hunting/graph-9a.png)
 ![](/resources/7-13-good-will-hunting/graph-9b.png)
@@ -312,7 +310,7 @@ the children, and therefore the age of the oldest child.
 
 If you are still stuck... then try harder... but you could also try hint 2.
 
-| Child 1 |   | Child 2 |   | Child 3 |   | Sum     |
+| Child 1 |   | Child 2 |   | Child 3 |   | Product |
 | ------- | - | ------- | - | ------- | - | ------- |
 | 1       | x | 1       | x | 36      | = | 36      |
 | 1       | x | 2       | x | 18      | = | 36      |
@@ -335,7 +333,7 @@ Again, take a look at the table below, copy it onto a piece of paper and fill
 in the gaps. Once you have narrowed it down to a pair of possibilities, then
 take a look at final clue that the mother gave.
 
-| Child 1 |   | Child 2 |   | Child 3 |   | Sum     |
+| Child 1 |   | Child 2 |   | Child 3 |   | Product |
 | ------- | - | ------- | - | ------- | - | ------- |
 | 1       | + | 1       | + | 36      | = | 38      |
 | 1       | + | 2       | + | 18      | = | 21      |

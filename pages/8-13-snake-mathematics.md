@@ -95,13 +95,13 @@ This is a relatively long video about words. It’s eleven minutes long and it i
 
 You might wonder, why have a video about words in a mathematics challenge? First, I think Stevens analyses words in very mathematical way, placing them within a Venn diagram. Second, if you are curious about mathematics, then I hope you are also curious about loads of other things, including words and language.
 
-Watch, and have a go at the three questions below.
+Watch, and have a go at the questions below.
 
 @[youtube](gTKeB8BnzPY?rel=0)
 
 
 ::: problem id=4_1 marks=2
-__4.1.__ “Poecilonum” is means the same as:
+__4.1.__ “Poecilonym” is means the same as:
 
 * [ ] homonym
 * [ ] homophone

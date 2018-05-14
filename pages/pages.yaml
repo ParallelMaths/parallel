@@ -2,8 +2,8 @@ year7:
   - week: 15
     url: 7-15-blackboard-equation
     title: Blackboard Equation
-    available: 2018-06-08T16:00:00
-    deadline: 2018-06-10T19:00:00
+    available: 2018-05-25T16:00:00
+    deadline: 2018-05-27T19:00:00
   - week: 14
     url: 7-14-sumaze
     title: Sumaze
@@ -79,8 +79,8 @@ year8:
   - week: 15
     url: 8-15-seven-bridges-konigsberg
     title: The Seven Bridges of Konigsberg
-    available: 2018-06-08T16:00:00
-    deadline: 2018-06-10T19:00:00
+    available: 2018-05-25T16:00:00
+    deadline: 2018-05-27T19:00:00
   - week: 14
     url: 8-14-ada-lovelace
     title: Ada Lovelace

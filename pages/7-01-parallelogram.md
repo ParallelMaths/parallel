@@ -170,7 +170,7 @@ Angle y = <input type="text" solution="85"/>°
 ---
 
 First, you can fill in the six 60° angles of the 2 equilateral triangles. Angle
-a1 is obvious (75°), and so is angle a2 (80°). Once you know a2, then a3 must
+a1 is obvious (85°), and so is angle a2 (80°). Once you know a2, then a3 must
 be 35°.
 
 ![](/resources/7-01-parallelogram/3-1-angles-answer.png)

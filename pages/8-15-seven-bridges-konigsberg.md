@@ -30,16 +30,18 @@ This week we’ll look at a video that explains the origin of this type of probl
 
 @[youtube](nZwSo4vfw6c?rel=0)
 
+![](/resources/8-15-seven-bridges-konigsberg/1-graph-diagram.jpg){image align="center"}
+
 To summarise:
 * a network is a collection of lines meeting at “nodes”.
 * the number of lines meeting at a node is called the “degree” of the node.
-* if a  network can be drawn with a single line, you typically have to enter each node and exit eacg node, so the degree of any node is going to be even.
+* if a network can be drawn with a single line, you typically have to enter each node and exit each node, so the degree of any node is going to be even.
 * the only exception is if you start at one node and end at another node, in which case only those two nodes are allowed to have an odd degree.
 * if you start and finish at the same node, then all nodes have to have an even degree.
 
-To really summarise, a network can only be drawn with a single if:
-* every node has an even degree.
-* every node has an even degree, except two nodes with odd degrees.
+To really summarise, a network can only be drawn with a single if it obeys one of the two following rules:
+1. every node has an even degree.
+2. every node has an even degree, except two nodes with odd degrees.
 
 Bearing in mind the video and particularly these rules, answer the questions in the next three sections.
 

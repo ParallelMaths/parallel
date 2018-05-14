@@ -66,7 +66,7 @@ A double negative is something like: “I didn't not go to the park today.” Th
 
 This actually means: “I did go to the park today.”  The “not not” cancel each other out. You can think about it mathematically, because (not = -1) and (not not = −1 × −1 = +1).
 
-Sometimes a double negative works differently, such as in the phrase: “I didn't go nowhere today.” It has two NOTs in it, first in (didn’t = did not) and second in (nowhere = not somewhere)... so according to the previous rule this suggests that “I didn’t go nowhere” means “I went somewhere”. However, we all know that if someone says this then they didn’t go anywhere. If we think about it mathematically it is negative add a negative instead of a negative multiplied by a negative, i.e., (−1 + −1 = −2).
+Sometimes a double negative works differently, such as in the phrase: “I didn't go nowhere today.” It has two NOTs in it, first in (didn’t = did not) and second in (nowhere = not somewhere)... so according to the previous rule this suggests that “I didn’t go nowhere” means “I went somewhere”. However, we all know that if someone says this then they didn’t go anywhere. If we think about it mathematically it is a negative added to a negative instead of a negative multiplied by a negative, i.e., (−1 + −1 = −2).
 
 In the second example, the double negative means really, really negative, not positive.
 
@@ -80,8 +80,6 @@ __In the early 1950′s, the esteemed Oxford philosopher J. L. Austin came to Co
 
 This video tells the story of Ada Lovelace, one of history’s most important mathematicians. As you watch it, look out for the answer to the following question.
 
-@[youtube](xiZozgCLHc4?rel=0)
-
 ::: problem id=4_1 marks=2
 __4.1.__ Ada Lovelace worked alongside which famous mathematician?
 
@@ -90,14 +88,17 @@ __4.1.__ Ada Lovelace worked alongside which famous mathematician?
 * [x] Charles Babbage
 * [ ] Lord Byron
 * [ ] Michael Faraday
+{.col-3}
 :::
+
+@[youtube](xiZozgCLHc4?rel=0)
 
 
 ## 5. Ada’s puzzle
 
 By before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
 
-When historians when through archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clearer that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
+When historians went through archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clear that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
 
 ::: problem id=5_1 marks=2
 ![](/resources/8-14-ada-lovelace/5-ada-puzzle.png){image align="right"}
@@ -111,7 +112,7 @@ __5.1.__ The drawing below was made with a single line. In other words, the penc
 
 ---
 
-By trial and error, you should have worked out that the only place you can start from C in the bottom right corner (or the unlabelled bottom left corner). Why? In fact, you have to start at one of the bottom corners and end at the other bottom corner. If you count the number lines connected to each of the intersections, the total is always even apart from the two bottom right and left corners, which have 3 lines. This odd number of connections turns out to be crucial, and we’ll return to it in the next Parallelogram.
+By trial and error, you should have worked out that the only place you can start from is C in the bottom right corner (or the unlabelled bottom left corner). Why? In fact, you have to start at one of the bottom corners and end at the other bottom corner. If you count the number of lines connected to each of the intersections, the total is always even apart from the two bottom right and left corners, which have 3 lines. This odd number of connections turns out to be crucial, and we’ll return to it in the next Parallelogram.
 :::
 
 
