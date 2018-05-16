@@ -104,8 +104,9 @@ function calculateScore(answers) {
           score += marks / $inputs.length;
       }
 
-    } else if ($p.querySelector('.sumaze')) {
-      score += marks * sumaze($p.id) / 45;
+    } else if (hasClass($p, 'sumaze')) {
+      const $i = $p.querySelector('input');
+      score += marks * sumaze(answers[$i.dataset.value]) / 45;
     }
   }
 
