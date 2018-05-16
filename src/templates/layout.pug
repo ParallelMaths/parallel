@@ -81,7 +81,7 @@ html
               a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
               a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
             nav
-              a(v-for="p in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked'")
+              a(v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' && i < 11")
                 .title-meta Week {{ p.week }}
                 .title {{ p.title }}
                 .status.open(v-if="user.getStatus(p) == 'open'") NEW
