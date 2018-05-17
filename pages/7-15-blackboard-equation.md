@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 2 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (12, 13, this one & 15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+This is the final parallelogram of the school year. If you score highly enough in the last 4 Parallelograms (#12, #13, #14 & this one) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
@@ -34,7 +34,7 @@ the film.
 
 In case it is not clear, the question is:
 
-Solve this equation for _x_: `(x^2 + 6x - 7)(2x^2 - 5x - 3) = 0`. {.text-center}
+Solve this equation for `x`: `(x^2 + 6x - 7)(2x^2 - 5x - 3) = 0`. {.text-center}
 
 Some of you might have come across this sort of equation before, or perhaps a
 simpler version of it. Either way, here is a step-by-step method for solving it,
@@ -45,25 +45,25 @@ or rather two methods.
 Brute force means doing it the hard way. If you want to open a locked door, then
 the smart way is to find the key or pick the lock, but the brute force way is to
 just smash through the door. In this case, brute force means testing every
-possible value of x until you find some solutions.
+possible value of `x` until you find some solutions.
 
-For x = 0,
+For `x = 0`,
 
 ![](/resources/7-15-blackboard-equation/blackboard-equation-x0.png)
 
-For x = 1,
+For `x = 1`,
 
 ![](/resources/7-15-blackboard-equation/blackboard-equation-x1.png)
 
-For x = 2,
+For `x = 2`,
 
 ![](/resources/7-15-blackboard-equation/blackboard-equation-x2.png)
 
-So, after checking three values of x, we found one solution, i.e., the equation
-equals zero when x = 1. In this case, the brute force approach has delivered a
+So, after checking three values of `x`, we found one solution, i.e., the equation
+equals zero when `x = 1`. In this case, the brute force approach has delivered a
 solution, but there are 4 solutions in total and it might take ages to find the
 others if we followed the brute force approach, particularly if the other values
-of x are very large or fractions or decimals.
+of `x` are very large or fractions or decimals.
 
 ### Method 2 (Smart Maths)
 
@@ -77,31 +77,26 @@ Therefore, `(x^2 + 6x – 7)(2x^2 – 5x – 3) = 0` can be re-written as
 `(x + 7)(x – 1)(2x + 1)(x – 3) = 0`.
 
 Of course, if the four brackets multiply to make zero, then at least of the
-brackets must equal zero, which means x = –7, 1, –½ or 3.
+brackets must equal zero, which means `x = –7`, 1, –½ or 3.
 
 ::: problem id=1_1 marks=4
-__1.1__ What are values for _x_ in this equation? Try the Smart Maths method
+__1.1__ What are values for `x` in this equation? Try the Smart Maths method
 first, but if you are stuck then try brute force.
 
 `(x^2 – 3x + 2)(x^2 + 3x + 2) = 0` {.text-center}
 
-There are 4 possible answers, so just select four of the answers below.
+There are 4 possible answers, two positive and two negative.
 
-* [ ] –4
-* [ ] –3
-* [x] –2
-* [x] –1
-* [ ] 0
-* [x] 1
-* [x] 2
-* [ ] 3
-* [ ] 4
-{.col-3}
+* Larger positive solution <input solution="2"/>
+* Smaller positive solution <input solution="1"/>
+* Less negative solution <input solution="-1"/>
+* More negative solution <input solution="-2"/>
 
 ---
+
 `(x^2 - 3x + 2)(x^2 + 3x + 2) = (x – 1)(x – 2)(x + 1)(x + 2) = 0`
 
-So, x = 1, 2, -1, -2.
+So, `x` = 1, 2, -1, -2.
 :::
 
 You might not have come across this sort of maths in your classroom – it is
@@ -145,10 +140,10 @@ here are a few important rules and tips:
   your level and score so far, but it is better to finish all the levels once
   you have started.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/"){.external target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/){.external target="_blank"}
 
 ::: problem id=2 marks=4.5
-__2__ When you have finished Sumaze, you will receive a score and a code word.
+__2.1__ When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your
 verall Parallelogram total.
 
@@ -163,7 +158,7 @@ a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram total score._
 ---
 [This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"}
 shows the paths you should or could have taken to solve each stage with a
-perfect score.
+perfect score._
 :::
 
 
@@ -172,9 +167,7 @@ perfect score.
 Each Parallelogram contains challenges about maths, because I know you are a
 keen mathematician, but it is also important to sometimes stray beyond numbers
 and geometry and explore other aspects of the world. You should be curious about
-lots of things, so a few of the challenges that you will encounter will
-encourage you to think creatively, to be ambitious, to develop confidence and to
-see the world from other perspectives. Ultimately, and for unknown reasons,
+lots of things. Ultimately, and for unknown reasons,
 these apparently odd challenges will help you to be a better mathematician.
 
 This part of the Parallelogram is all about a philosophical puzzle called the
@@ -185,41 +178,15 @@ that sometimes it is hard to decide what is right and what is wrong.
 @[youtube](bOpf6KcWYyw?rel=0)
 
 
-## 4. Mathigon – Graphs & Networks
+## 4. Add it up
 
-Philipp Legner, a software engineer at Google, has created a brilliant online
-maths resource called Mathigon. You will visit the Mathigon site and explore the
-topic of Graphs and Networks, an area of maths which is at the heart of
-understanding everything from the brain to the Internet, from railways to
-friendships. We touched on Graphs and Networks in Parallelogram #2 (Good Will
-Hunting and the tree problem), but otherwise I suspect that this a topic that
-will be new to almost of all of you.
+::: problem id=4_1 marks=3
+__4.1__ In Parallelogram #12 (section 3), we described a quick way to add up all the
+numbers from, say, 1 to 100. Can you remember it?
 
-::: problem id=4 marks=5
-__4.__ Click on the link below to open Mathigon. The content is divided into
-many short sections, which are revealed gradually as you solve problems and
-answer questions.
-
-__Remember to log in before clicking this link!__ {v-if="!user"}
-
-[Open Mathigon](https://mathigon.org/parallel/graphs-and-networks){.external target="_blank" v-bind:href="'https://mathigon.org/parallel/graphs-and-networks'}
-
-Progress: {{c.answers.mathigon * 5}} / 5 {.sumaze-score v-show="c.answers.mathigon"}
-
-You can get a maximum of 5 marks for completing the entire chapter, and your
-Mathigon progress will be automatically added to your Parallel score.
-:::
-
-
-## 5. Review Quiz
-
-These quick questions cover three topics that appeared in the previous three
-Parallelograms. If it helps you can refer back to those Parallelograms.
-
-::: problem id=5_1 marks=2
-__5.1__ In Parallelogram #1, we talked about a quick way to add up all the
-numbers from, say, 1 to 100. Can you remember it? Hint: sometimes it’s easier
-to pair numbers, perhaps the smallest and the biggest.
+^^^ hint id=1
+Sometimes it’s easier to pair numbers, perhaps the smallest and the biggest.
+^^^
 
 The sum of all the numbers from 1 to 40 is:
 
@@ -234,33 +201,20 @@ If we pair up all the numbers we get 20 pairs and each one totals 41, namely
 (40 + 1), (39 + 2), (38, 3) and so on. And 20 x 41 = 820.
 :::
 
-::: problem id=5_2 marks=2
-__5.2__ In Parallelogram #2, we talked about the film “Good Will Hunting” and
-the janitor solved a problem about mathematical tree diagrams. Below are five
-tree diagrams, but four of them are essentially the same. Which tree is
-different?
 
-* [ ] ![](/resources/7-15-blackboard-equation/graph-a.png){width=160}
-* [ ] ![](/resources/7-15-blackboard-equation/graph-b.png){width=160}
-* [x] ![](/resources/7-15-blackboard-equation/graph-c.png){width=160}
-* [ ] ![](/resources/7-15-blackboard-equation/graph-d.png){width=160}
-* [ ] ![](/resources/7-15-blackboard-equation/graph-e.png){width=160}
-{.col-3}
+## 5. Double trouble
 
----
-The answer is (c) , because all the other trees can be twisted and stretched to
-form each other. Alternatively, (c) has 2 nodes with 3 lines, and 4 nodes with 2
-lines. By contrast, all the other trees have 1 node with 5 lines, and 5 nodes
-with 1 line.
-:::
-
-::: problem id=5_3 marks=2
-__5.3__ In Parallelogram #3, we covered Moore’s Law and the power of doubling,
+::: problem id=5_1 marks=3
+__5.3__ In Parallelogram #14, we covered Moore’s Law and the power of doubling,
 so here is a doubling question. You have a large piece of paper, which is 0.1 mm
 thick, and you can fold it over and over again as many times as you like. Each
 time you fold the paper, it doubles in thickness. How many times do you have to
 fold the paper in order for it to become so thick that it will reach the Moon?
 (The distance from the Earth to the Moon is 384,000 Km.)
+
+^^^ hint id=1
+If you double a number, say 1, ten times, then how much bigger does it get? Use this value as a stepping stone to solving the whole problem.
+^^^
 
 * [x] 42
 * [ ] 42,000
@@ -268,17 +222,51 @@ fold the paper in order for it to become so thick that it will reach the Moon?
 * [ ] 42,000,000,000
 
 ---
-This video clip explains how to work out the answer:
-@[youtube](S2ec2wpYJ_0)
+This video clip from Chris Seber (at MathMeeting.com) explains how to work out the answer:
+@[youtube](S2ec2wpYJ_0?rel=0)
+:::
+
+
+## 6. OK Go
+
+OK Go is an American rock band, famous for their quirky one-take music videos. This one shows an elaborate machine that employs all sorts of mechanics. Watch and enjoy … and look out for the answers to these two questions.
+
+::: problem id=6_1 marks=1
+__6.1__ In the last minute of the video, there is an interesting version of Newton’s cradle. Normally a series of suspended metal ball bearings swing to and fro, with the one on the left passing its momentum to the right, via the ones in the middle... and then vice versa. What is OK Go’s cradle made from?
+
+* [ ] Water balloons
+* [x] Sledge hammers
+* [ ] Baseball bats
+* [ ] Koala bears
+{.col-2}
+:::
+
+::: problem id=6_2 marks=1
+__6.2__ Such machines often involve domino toppling, and in the second minute of the video there is domino toppling, but there are no dominos. What four objects are toppled?
+
+* [x] Chairs
+* [ ] Tables
+* [ ] Wardrobes
+* [ ] Fridges
+{.col-4}
+:::
+
+@[youtube](qybUFnY7Y8w?rel=0)
+
+::: problem id=6_3 marks=2
+__6.3__ Such machines have different names in the UK and the US, in honour of two eccentric inventors. Search on the internet to complete the names.
+
+* USA: Rube <input type="text" solution="Goldberg"/>
+* UK: Heath <input type="text" solution="Robinson"/>
 :::
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next
-Parallelogram.
+And that’s the end of Parallelograms for this school year. To have a chance of earning your Parallel certificate, make sure you have completed Parallelograms 12, 13, 14 and 15 by June 1st.
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
-take a look at the “Additional Stuff” section.
+In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
+
+Have a great summer. Parallel will be back in September. Thanks for taking part.
 
 Cheerio,
 Simon.

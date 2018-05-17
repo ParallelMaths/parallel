@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the final parallelogram of the school year. If you score highly enough in the last 4 Parallelograms (12, 13, 14 & this one) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+This is the final parallelogram of the school year. If you score highly enough in the last 4 Parallelograms (#12, #13, #14 & this one) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
@@ -39,8 +39,8 @@ To summarise:
 * the only exception is if you start at one node and end at another node, in which case only those two nodes are allowed to have an odd degree.
 * if you start and finish at the same node, then all nodes have to have an even degree.
 
-To really summarise, a network can only be drawn with a single if it obeys one of the two following rules:
-1. every node has an even degree.
+To really summarise, a network can only be drawn with a single line if it obeys one of the two following rules:
+1. every node has an even degree, OR
 2. every node has an even degree, except two nodes with odd degrees.
 
 Bearing in mind the video and particularly these rules, answer the questions in the next three sections.
@@ -81,19 +81,19 @@ __2.3.__
 
 ---
 
-Three nodes have an odd degree, so this network cannot be drawn.
+Four nodes have an odd degree, so this network cannot be drawn.
 :::
 
 ::: problem id=2_4 marks=1
 ![](/resources/8-15-seven-bridges-konigsberg/2-network-4.png){image align="right"}
 __2.4.__
 
-* [ ] Yes
-* [x] No
+* [x] Yes
+* [ ] No
 
 ---
 
-Only one node has an odd degree, so this network cannot be drawn.
+Exactly two nodes (degree 3) have an odd degree, so YES this network can be drawn.
 :::
 
 
@@ -131,34 +131,26 @@ Where should you start?
 
 ---
 
+The nodes (sometimes called vertices) have the following degrees or numbers of connected lines (sometimes called edges):
+
+* P = 4  
+* Q = 2  
+* R = 3  
+* S = 3  
+* T = 2  
+
+From the previous section, we know that a network can only be drawn with a single line if every node has an even number of connected lines... unless there are exactly two nodes with an odd number of lines. The two nodes with an odd number of lines must be the start and end nodes, because otherwise the lines come in pairs (in and then out). Please refer back to the previous section and the video if this does not make sense.
+
 There are several ways to draw the diagram starting at `R` without taking the pen off the paper or going over a line more than once. Here is one example of such a path:
 
 `R` → `P` → `S` → `R` → `Q` → `P` → `T` → `S`.
 {.text-center}  
 
 If we reverse this path, we have a way to draw the diagram starting at `S`.  
-
-How can we be sure that there are no other possible starting points? Notice that each time the path goes through a vertex it uses up two of the edges that have that vertex as one of their endpoints. We use the technical term _degree_ of a vertex, for the number of edges that have that vertex as one of its endpoints. Since the path uses each edge just once, the degree of each vertex must be even (twice the number of times the path goes through the vertex), except for the case where the path starts at one vertex and ends at a different vertex, when these two vertices have degrees that are odd numbers (twice the number of times the path goes through the vertex plus one for the initial or final edge of the path). The degrees of the five vertices in the diagram are shown in the table.
-
-| Vertex | Degree |
-| ------ | ------ |
-| `P`    | 4      |
-| `Q`    | 2      |
-| `R`    | 3      |
-| `S`    | 3      |
-| `T`    | 2      |
-
-We see that there are just two vertices, `R` and `S`, whose degrees are odd numbers. So `R` and `S` must be the endpoints of any path which goes along each edge once, and drawing which does not involve taking your pen off the paper.
-
-We have seen that a _necessary_ condition that we can draw a diagram made up of lines joining points in this way is that _there are at most two vertices whose degrees are odd numbers_.
-
-In fact, it turns out that this condition is also sufficient. So we can draw a diagram of this kind without taking our pen off the paper and without going over any line more than once, if and only if, there are at most two vertices whose degrees are odd numbers. The proof of this, while not very difficult, takes some care.
-
-This problem has its origin in the Königsberg Bridge Problem. You will find it discussed in many books; for example, in Robin Wilson’s book _Introduction to Graph Theory_ where it comes under the heading of Eulerian graphs.
 :::
 
 
-## 5. Junior Maths Challenge 2011 (13
+## 5. Junior Maths Challenge 2011 (13)
 
 ::: problem id=5_1 marks=2
 __5.1__ What is the mean of `2/3` and `4/9`?
@@ -197,7 +189,7 @@ __6.2.__ Why does the paddle wheel not hit Joseph?
 * [ ] Joseph ducks just in time.
 * [ ] The wheel is blocked by a wall.
 * [ ] A bowling bowl redirects the wheel.
-* [x] The wheel is missing section.
+* [x] The wheel is missing a section.
 :::
 
 @[youtube](auIlGqEyTm8?rel=0&end=111)
@@ -231,6 +223,6 @@ Simon.
 
 @[youtube](ulL0uKBX0wQ?rel=0)
 
-* Hopefully you’ll see lots of the Sun over the summer, but I bet it will never look like this. Our Sun is so hot that it emits X-rays, as shown by this photo taken by Japan’s Yohkoh Soft X-ray Telescope. The surface of the Sun has a temperature of thousands of degrees, which is not hot enough to generate X-rays, but the atmosphere of the Sun millions of degrees hotter and this so-called corona is the origin of the X-rays. Why the atmosphere so much hotter than the surface of the Sun? Nobody fully understands, but the Sun’s magnetic field is probably responsible. This picture comes from NASA’s [Astronomy Picture of the Day website](https://apod.nasa.gov/apod/){target="_blank"}, which is worth checking out every morning.
+* Hopefully you’ll see lots of the Sun over the summer, but I bet it will never look like this. Our Sun is so hot that it emits X-rays, as shown by this photo taken by Japan’s Yohkoh Soft X-ray Telescope. The surface of the Sun has a temperature of thousands of degrees, which is not hot enough to generate X-rays, but the atmosphere of the Sun is millions of degrees hotter and this so-called corona is the origin of the X-rays. Why is the atmosphere so much hotter than the surface of the Sun? Nobody fully understands, but the Sun’s magnetic field is probably responsible. This picture comes from NASA’s [Astronomy Picture of the Day website](https://apod.nasa.gov/apod/){target="_blank"}, which is worth checking out every morning.
 
 ![](/resources/8-15-seven-bridges-konigsberg/additional-apod.gif){image align="centre"}

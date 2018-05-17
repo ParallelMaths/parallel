@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in these last 4 Parallelograms (12, 13, 14, 15) and complete them by June 1 then you will receive a Parallel certificate. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 4 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in these last 4 Parallelograms (#12, #13, #14, #15) and complete them by June 1 then you will receive a Parallel certificate. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
@@ -179,8 +179,7 @@ billiard table.
 Maryam has said that she first became fired up about mathematics when her big
 brother told her a story about the great mathematician Carl Friedrich Gauss.
 When Gauss was a schoolboy, his teacher tried to keep the class busy by asking
-them to add up all the numbers from 1 to 100. I suspect that he wanted to nip
-out for a 15-minute nap.
+them to add up all the numbers from 1 to 100.
 
 However, before the teacher had even left the room, Gauss’s hand shot up and he
 announced that the answer was 5,050.

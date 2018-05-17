@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 3 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (12, this one, 14 & 15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 3 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (#12, this one, #14 & #15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.

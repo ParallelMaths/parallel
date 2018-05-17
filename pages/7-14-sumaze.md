@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 2 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (12, 13, this one & 15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 2 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (#12, #13, this one & #15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
@@ -46,7 +46,7 @@ hours did the children say their mother had been gone?
 * [ ] 30,000 hours
 
 ---
-Yes, 300 hours, which the mother immediately converts into 12½ days.
+The answer is 300 hours, which the mother immediately converts into 12½ days.
 :::
 
 The film tells the story of three brilliant black women who helped send the
@@ -56,6 +56,9 @@ three Oscar nominations and which is both inspiring and exciting. Well worth
 watching if your parents or teacher can get hold of the DVD.
 
 | ![](/resources/6-02-good-will-hunting/nasa-3.jpg) | ![](/resources/6-02-good-will-hunting/nasa-4.jpg) |
+
+
+## 2. Moore's Law
 
 The women were known as “computers”, because the original term computer
 referred to a person who did calculations. Only later did the term computer
@@ -84,6 +87,8 @@ instructions 120,000,000 times faster. You wouldn’t be wrong in saying an
 iPhone could be used to guide 120,000,000 Apollo era spacecraft to the moon,
 all at the same time._
 
+Transistors are important components of computer circuitry, and the more transistors a computer circuit has, the more calculations it can do at one time.
+
 This remarkable improvement in computing is known as Moore’s Law. Wikipedia
 says:
 
@@ -108,8 +113,8 @@ years, the number of transistors on a microprocessor increased from 2,300 to
 
 ![](/resources/7-14-sumaze/moores-law-graph.png)
 
-::: problem id=1_1 marks=1
-__1.2__ Look at the number of transistors on the 80486 microprocessor (~1990)
+::: problem id=2_1 marks=1
+__2.1__ Look at the number of transistors on the 80486 microprocessor (~1990)
 and the number of transistors on the AMD K8 microprocessor (~2002). By what
 factor did the number of transistors increase in just 12 years?
 
@@ -125,7 +130,7 @@ transistors, so there was an increase by a factor of 100.
 :::
 
 
-## 2. The Chess Problem
+## 3. The Chess Problem
 
 There is a very old story that demonstrates the power of exponential growth and
 Moore’s Law, but it relates to chess and rice, not computers and transistors.
@@ -147,10 +152,10 @@ first 10 squares.
 
 ![](/resources/7-14-sumaze/rice-count-table.png)
 
-::: problem id=2_1 marks=1
-__2.1__ How many grains were on the 15th square?
+::: problem id=3_1 marks=1
+__3.1__ How many grains were on the 15th square?
 
-<input type="text" solution="16384"/>  
+<input type="text" solution="16,384"/>  
 
 ---
 If the tenth square has 512 grains (from the table), then you should have
@@ -158,28 +163,30 @@ worked out (11th = 1,024), (12th, 2,048), (13th, 4,096), (14th, 8,192) and
 (15th, 16,384). The answer is 16,384.
 :::
 
-::: problem id=2_2 marks=1
-**2.2** How many grains were on the 20th square?
+::: problem id=3_2 marks=1
+__3.2__ How many grains were on the 20th square?
 
-<input type="text" solution="524288"/>  
+<input type="text" solution="524,288"/>  
 
 ---
 The answer is 524,288.
 :::
 
-::: problem id=2_3 marks=1
-**2.3.** How many grains were on the 32nd square?  
+::: problem id=3_3 marks=1
+__3.3.__ How many grains were on the 32nd square?  
 
-<input type="text" solution="2147483648"/>  
+<input type="text" solution="2,147,483,648"/>  
 
 ---
 The answer is 2,147,483,648.
+
+You may have worked out that the number of grains on the `n`<sup>th</sup> square is `2n - 1`. So, instead of doubling over and over again, you could use the `x`<sup>`y`</sup> button on your calculator.
 :::
 
 If you carried on the calculation for the full 64 squares, then you should
 arrive at 9,223,372,036,854,775,808 grains on the 64th square.
 
-If you want to add up all the grains on all the squares, then total is double
+If you want to add up all the grains on all the squares, then the total is double
 the number of grains on the final square minus 1. (You can check this by looking
 at the table above. The total number of grains for the first, say, five squares
 is 1 + 2 + 4 + 8 + 16 = 31, which is the same as \[2 × 16\] – 1 = 31.)  
@@ -190,9 +197,9 @@ This means that the total number of grains on all 64 squares is:
 That is about 100 billion tonnes of rice, which is about hundred times more rice
 than the whole Earth grows each year. That is the power of exponential growth.
 
-::: problem id=2_4 marks=2
-__2.4__ In another version of the story, the King gets revenge by saying that
-the mathematician can only have the rice if he can count them. If the
+::: problem id=3_4 marks=2
+__3.4__ In another version of the story, the King gets revenge by saying that
+the mathematician can only have the grains of rice if he can count them. If the
 mathematician counts at the rate of 1 grain per second, how long will it take
 him to collect his reward of 18,446,744,073,709,551,615 grains? Which of these
 answers is closest?
@@ -210,8 +217,11 @@ seconds, which is roughly 18 × 1018 sec = 3 × 1017 mins = 5 × 1015 hours = 2.
 billion years.
 :::
 
-::: problem id=2_5 marks=2
-__2.5__ You get a summer job that lasts for 6 weeks. You have two salary options:  
+
+## 4. Summer salaries
+
+::: problem id=4_1 marks=2
+__4.1__ You get a summer job that lasts for 6 weeks. You have two salary options:  
 
 Option A – £100/week.  
 Option B – a salary that doubles each week, starting at £10/week.  
@@ -230,7 +240,7 @@ So option B is preferable.
 :::
 
 
-## 3. Sumaze! Part 1
+## 5. Sumaze! Part 1
 
 Sumaze! is a terrific new game that tests your core maths skills.
 
@@ -260,10 +270,10 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/"){.external target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/){.external target="_blank"}
 
-::: problem id=3 marks=4.5
-**3.** When you have finished Sumaze, you will receive a score and a code word.
+::: problem id=5_1 marks=4.5
+**5.1** When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
@@ -277,28 +287,15 @@ ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
 total score.*
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4") shows
+[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4) shows
 the paths you should or could have taken to solve each stage with a perfect score.
 :::
 
 
-## 4. Kooks
+## 6. Junior Maths Challenge question
 
-When you signed up for Parallelograms, I suggested that you had to be a bit “kooky” to want to do maths
-at the weekend. Some of you seemed confused by that word, so it might help to click on the song below and hear
-what David Bowie thought of kooks and being kooky. You can listen to it while doing question 5.
-
-Also, I should mention that we can apply maths to one of David Bowie’s songs to prove that this piece of music
-is everyone’s friend. He wrote a song (and a whole album) called DIAMOND DOGS. DIAMONDS are a girl’s best friend.
-DOGS are a man’s best friend. So, DIAMOND DOGS is everyone’s best friend!
-
-@[youtube](EsSlOGzPM90?rel=0)
-
-
-## 5. Junior Maths Challenge question
-
-::: problem id=5 marks=2
-__5__ The positive integers from 1 to 150 inclusive are placed in a 10 by 15
+::: problem id=6_1 marks=2
+__6.1__ The positive integers from 1 to 150 inclusive are placed in a 10 by 15
 grid so that each cell contains exactly one integer. Then the multiples of 3 are
 given a red mark, the multiples of 5 are given a blue mark, and the multiples of
 7 are given a green mark. How many cells have more than 1 mark?
@@ -316,85 +313,18 @@ and 5 are coprime, that is, they have no common factor other than 1. Therefore
 the integers that are divisible by 3 and 5 are precisely those that are
 divisible by 3 × 5, that is, by 15. Every 15th integer is divisible by 15. Hence
 the number of integers in the range from 1 to 150 that are divisible by
-15 is 150 ÷ 15 = 10.
+15 is (`150 ÷ 15`) which is 10.
 
 Similarly, the integers that are divisible by 3 and 7 are precisely those that
-are divisible by 3 × 7 = 21. Now 150 ÷ 21 = 71/7. Therefore the number of
-integers in the range from 1 to 150 that are divisible by 21 is the integer part
-of 71/7, that is, 7.
+are divisible by `3 × 7 = 21`. The number of integers in the range from 1 to 150 that are divisible by 21 is 7, because 21 divides into 150 only 7 (and a bit) times.
 
-In the same way we see that the integers that are divisible by 5 and 7 are precisely those that are divisible by
-5 × 7 = 35. Now 150 ÷ 35 = 42/7. Therefore the number of integers in the range from 1 to 150 that are divisible by
-35 is the integer part of 42/7, that is, 4.
+Similarly, the integers that are divisible by 5 and 7 are precisely those that are divisible by `5 × 7 = 35`. The number of integers in the range from 1 to 150 that are divisible by 35 is 4, because 35 divides into 150 only 4 (and a bit) times.
 
-We have 10 + 7 + 4 = 21.
+So it seems that we have `10 + 7 + 4` (or 21) numbers that will have multiple marks because they have multiple divisors.
 
-It is important to note that in doing this, integers which are divisible by each of 3, 5 and 7 have been counted
-three times. We need to allow for this over-counting. There is just one integer, namely 105, in the range from 1 to
-150 that is divisible by 3, 5 and 7 and hence which has been counted three times in the sum 10 + 7 + 4.
-
-To allow for this we subtract 2 from this sum, so that 105 is counted just once.
-Therefore the number of squares in the grid that are given more than one mark is 21 – 2 = 19.
+However, you need to check for numbers that are divisible by 3, 5 and 7, because they would have been counted three times, not just once – when you look for numbers that are divisible by 3 and 5, then 3 and 7, then 5 and 7. In fact, the only number less than 150 divisible by 3, 5 and 7 is 105, so you only need to remove 2 from your tally, i.e., the answer is `10 + 7 + 4 – 2 = 19`.
 :::
 
-
-## 6. Hidden Figures – more cool stuff
-
-Finally, here is a 20-minute video about the film “Hidden Figures”.
-Below are three questions about the first 10 minutes, but hopefully you will watch the whole clip.
-This clip won’t teach you much maths, but it will hopefully help you appreciate what mathematicians can do,
-why people love maths and how you often have to struggle to succeed in maths (or in anything else).
-
-@[youtube](XiwBpkyjrmQ?rel=0&start=21)
-
-
-::: problem id=6_1 marks=2
-**6.1.** Which musician was the producer of Hidden Figures?
-
-* [x] Pharrell Williams
-* [ ] Jay Z
-* [ ] Ed Sheeran
-* [ ] Bruno Mars
-* [ ] Gordon Gano
-:::
-
-::: problem id=6_2 marks=2
-**6.2.** When NASA is looking for a mathematician, they need an expert in what sort of geometry?
-
-* [ ] 3-dimensional geometry
-* [x] Analytical geometry
-* [ ] Orbital geometry
-* [ ] Spherical geometry
-:::
-
-::: problem id=6_3 marks=2
-**6.3.** What was the name of NASA's new computer?
-
-* [ ] Sinclair ZX Spectrum
-* [ ] Sinclair C5
-* [ ] Cray CDC 6600
-* [x] IBM 7090 DPS
-
----
-If you watched the clips, you will know that the producer of the film was
-Pharrell Williams, they needed an expert in analytical geometry, and the new
-computer was the IBM 7090 DPS.
-</div>
-:::
-
-And that’s the end of this week’s questions, but I have to quickly correct a question from Parallelogram #1.
-In an off-hand comment, I implied that the great mathematician Carl Friedrich Gauss had a lazy teacher.
-In fact, his teacher was Johann Georg Büttner, one of the world’s first properly trained maths teachers,
-who played a major role in Gauss’s development. Thanks to Alan Parr from Hertfordshire for pointing this out,
-and giving me a chance thank all hardworking teachers throughout the centuries and today.
-
-And that’s everything for this week, except to pick out a very famous quote by President Kennedy,
-which you will have seen in the last video. When he was inspiring America to back NASA’s efforts to explore space,
-Kennedy said: “We choose to go to the moon in this decade and do the other things, not because they are easy,
-but because they are hard.”
-
-The Parallel Challenges are not in the same league as going to the moon, but it is the same principle.
-You should do your best to complete them “…not because they are easy, but because they are hard.”
 
 ***
 
@@ -418,7 +348,10 @@ If you want to find out more about the topics in this week’s Parallel Challeng
 
 * [Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/) – an article on the ZME Science website.
 * [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html) from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
-* Short, but incredible, [clip of mathematician Katherine Johnson](https://www.youtube.com/watch?v=rIWJFNAN4XI?rel=0) receiving the Presidential Medal Of Freedom from President Obama.
+* Short, but incredible, clip of mathematician Katherine Johnson receiving the Presidential Medal Of Freedom from President Obama.
+
+@[youtube](rIWJFNAN4XI?rel=0)
+
 * [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
 one of the women featured in the film “Hidden Figures”, on the NASA website.
 

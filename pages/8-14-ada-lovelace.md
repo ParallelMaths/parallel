@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-There are only 2 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (12, 13, this one & 15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
+There are only 2 more Parallelograms this year, as we will be starting our summer break at half-term. If you score highly enough in the last 4 Parallelograms (#12, #13, this one & #15) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
@@ -47,8 +47,8 @@ Of course, the niece will always be 30 years younger than her aunt.
 __2.1.__ Usain runs twice as fast as his mum. His mum runs five times as fast as his pet tortoise, Turbo. They all set off together for a run down the same straight path. When Usain has run 100 m, how far apart are his mum and Turbo the tortoise?
 
 * [ ] 5 m
-* [x] 10 m
-* [ ] 40 m
+* [ ] 10 m
+* [x] 40 m
 * [ ] 50 m
 * [ ] 55 m
 {.col-5}
@@ -64,7 +64,7 @@ When Usain has run 100 m his mum has run half this distance, that is, 50 m and T
 
 A double negative is something like: “I didn't not go to the park today.” This can be rewritten as: “I did not not go to the park today.”
 
-This actually means: “I did go to the park today.”  The “not not” cancel each other out. You can think about it mathematically, because (not = -1) and (not not = −1 × −1 = +1).
+This actually means: “I did go to the park today.”  The “not not” cancel each other out. You can think about it mathematically, as (not = -1) and (not not = −1 × −1 = +1).
 
 Sometimes a double negative works differently, such as in the phrase: “I didn't go nowhere today.” It has two NOTs in it, first in (didn’t = did not) and second in (nowhere = not somewhere)... so according to the previous rule this suggests that “I didn’t go nowhere” means “I went somewhere”. However, we all know that if someone says this then they didn’t go anywhere. If we think about it mathematically it is a negative added to a negative instead of a negative multiplied by a negative, i.e., (−1 + −1 = −2).
 
@@ -102,7 +102,7 @@ When historians went through archive of Ada’s personal papers in the Bodleian 
 
 ::: problem id=5_1 marks=2
 ![](/resources/8-14-ada-lovelace/5-ada-puzzle.png){image align="right"}
-__5.1.__ The drawing below was made with a single line. In other words, the pencil was placed on the paper, it never left the paper until the drawing was complete, and at no time did the pencil go over any line that had previously been drawn. Where might the drawing have begun?
+__5.1.__ The drawing below was made with a single line. In other words, the pencil was placed on the paper, it never left the paper until the drawing was complete, and at no time did the pencil go back over any line that had previously been drawn. Where might the drawing have begun?
 
 * [ ] A
 * [ ] B
