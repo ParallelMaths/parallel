@@ -104,6 +104,7 @@ function parseProblemList($list, $problem) {
 function parseProblemInput($input, index, $problem) {
   const key = $problem.id + '_' + index;
   const solution = $input.getAttribute('solution');
+  const isSumaze = solution === 'sumaze';
 
   if ($input.parentNode.tagName !== 'P') {
     const $p = $problem.ownerDocument.createElement('p');
@@ -112,13 +113,15 @@ function parseProblemInput($input, index, $problem) {
   }
   $input.parentNode.classList.add('text-center');
 
-  $problem.classList.add('input');
+  $problem.classList.add(isSumaze ? 'sumaze' : 'input');
   $input.removeAttribute('solution');
 
   $input.setAttribute('data-solution', solution);
   $input.setAttribute('data-value', key);
   $input.setAttribute('v-on:change', `c.setInput`);
-  $input.setAttribute('v-model.lazy', `c.answers.${key}`);
+  $input.setAttribute(isSumaze ? 'v-model' : 'v-model.lazy', `c.answers.${key}`);
+
+  if (isSumaze) return;
   $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, '${solution}')}`);
 
   const $solution = $input.ownerDocument.createElement('span');

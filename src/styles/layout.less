@@ -104,10 +104,11 @@ header {
 .sidebar-wrap {
   position: sticky;
   top: 24px;
-  max-height: calc(~"100vh - 24px");
+  max-height: calc(~"100vh - 48px");
   border-radius: 4px 0 0 4px;
   background: mix(@grey, white, 10%);
   line-height: 1.4;
+  overflow: auto;
 }
 
 .user {
@@ -202,7 +203,7 @@ nav a {
     &:last-child { margin: 0; }
     &:first-child { border-top-left-radius: 4px; }
 
-    svg { fill: fade(white, 80%); transition: fill .2s; }
+    svg { display: block; margin: 0 auto; fill: fade(white, 80%); transition: fill .2s; }
     &:hover svg { fill: white; }
   }
 
