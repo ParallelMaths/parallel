@@ -277,9 +277,9 @@ but it is better to finish all the levels once you have started.
 Please enter your code word here, so that we can add your Sumaze score to your
 overall Parallelogram total.
 
-<p class="text-center"><input v-model="c.answers.p_3" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
+<input solution="sumaze" class="correct" placeholder="Sumaze Code Word"/>
 
-Score: {{c.sumaze(c.answers.p_3)}} / 45 {.sumaze-score v-show="c.answers.p_3"}
+Score: {{c.sumaze(c.answers.p_3_0)}} / 45 {.sumaze-score v-show="c.answers.p_3_0"}
 
 *The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
 Sumaze score by 10 and add it to your overall Parallelogram score. So

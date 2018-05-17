@@ -1,0 +1,63 @@
+{
+  "name": "Parallel",
+  "description": "A project to email weekly maths problems and challenges to students.",
+  "url": "https://parallel.co.uk",
+  "authors": [
+    "Simon Singh",
+    "Philipp Legner",
+    "Ed Thorne",
+    "Richard Lissaman"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathigon/parallel.git"
+  },
+  "scripts": {
+    "start": "grunt build && npm run serve",
+    "serve": "grunt concurrent & firebase serve",
+    "deploy": "grunt && firebase deploy",
+    "get-users": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/get-users.js",
+    "get-results": "node scripts/get-results.js",
+    "convert-teachers": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/convert-teachers.js"
+  },
+  "devDependencies": {
+    "ascii2mathml": "^0.5.4",
+    "babel-core": "~6.3.26",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-3": "^6.24.1",
+    "firebase-admin": "^5.8.0",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~3.0.3",
+    "grunt-babel": "^6.0.0",
+    "grunt-concurrent": "~2.1.0",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-copy": "~0.8.2",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-less": "~1.1.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-rollup": "^6.0.0",
+    "jsdom": "^11.4.0",
+    "markdown-it": "^8.3.1",
+    "markdown-it-anchor": "^4.0.0",
+    "markdown-it-attrs": "^1.2.0",
+    "markdown-it-block-image": "0.0.3",
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-implicit-figures": "^0.6.0",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-synapse-table": "^1.0.6",
+    "markdown-it-video": "^0.4.0",
+    "matchdep": "~1.0.0",
+    "pug": "^2.0.3",
+    "yamljs": "^0.2.10"
+  },
+  "dependencies": {
+    "firebase": "^5.0.2",
+    "firebase-tools": "^3.18.4"
+  }
+}
