@@ -5,7 +5,7 @@ const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   // ADD EMAIL ADDRESSES HERE
-  "sc@bodmincollege.co.uk",
+  "kearneyn@stgeorge.es",
   "simone.dixon@tts.edu.sg",
 ];
 

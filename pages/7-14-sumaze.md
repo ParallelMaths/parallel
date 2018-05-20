@@ -266,11 +266,12 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 * Lilac squares (and their operations) can be crossed over and over again.
 * IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a smartphone,
   then type this into your PC/Mac/tablet browser: bit.ly/parallel_sumaze
+* If you want to explore more Sumaze puzzles, then check out the Additional Stuff section.
 
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/){.external target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_i/){target="_blank"}
 
 ::: problem id=5_1 marks=4.5
 **5.1** When you have finished Sumaze, you will receive a score and a code word.
@@ -287,8 +288,7 @@ ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
 total score.*
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4) shows
-the paths you should or could have taken to solve each stage with a perfect score.
+[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a perfect score.
 :::
 
 
@@ -346,16 +346,18 @@ Simon.
 
 If you want to find out more about the topics in this week’s Parallel Challenge, then I recommend:
 
-* [Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/) – an article on the ZME Science website.
-* [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html) from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
+* [Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/){target="_blank"} – an article on the ZME Science website.
+* [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html){target="_blank"} from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
 * Short, but incredible, clip of mathematician Katherine Johnson receiving the Presidential Medal Of Freedom from President Obama.
 
 @[youtube](rIWJFNAN4XI?rel=0)
 
-* [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography),
+* [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography){target="_blank"},
 one of the women featured in the film “Hidden Figures”, on the NASA website.
+
+* The [Sumaze website](http://mei.org.uk/sumaze){target="_blank"} has links to the App Store and Google Play store, where you can download free Sumaze puzzles.
 
 
 ## Credits
 
-Moore's Law graph taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Moore%27s_law)
+Moore's Law graph taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Moore%27s_law){target="_blank"}

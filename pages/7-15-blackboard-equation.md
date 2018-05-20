@@ -76,7 +76,7 @@ Similarly, we can rewrite `(2x^2 – 5x – 3)` as`(2x + 1)(x – 3)`.
 Therefore, `(x^2 + 6x – 7)(2x^2 – 5x – 3) = 0` can be re-written as
 `(x + 7)(x – 1)(2x + 1)(x – 3) = 0`.
 
-Of course, if the four brackets multiply to make zero, then at least of the
+Of course, if the four brackets multiply to make zero, then at least one of the
 brackets must equal zero, which means `x = –7`, 1, –½ or 3.
 
 ::: problem id=1_1 marks=4
@@ -112,15 +112,9 @@ After last week’s taster, it seems that Sumaze! is now a firm favourite with
 lots of you. Huge thanks to Richard Lissaman, who created Sumaze! and who is
 part of MEI (Mathematics in Education & Industry).
 
-You will have access to 9 new levels of the game, starting with some easier ones
-to allow you to get used to the game again, followed by some trickier levels.
-You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so
-on until 9 points for level 9. However, you will lose 2 points for every hint
-you use (available on levels 8 & 9). You have one free restart, after which you
-will lose 1 point every time you restart. If your score reaches zero, you can
-either carry on trying or a ‘skip level’ button will appear. So, if you need one
-hint on level 9, then your maximum score goes from 9 down to 7. And if you
-succeed after restarting three times, then your score drops from 7 down to 4.
+You will have access to 9 levels of the game, starting with some really trivial ones to allow you to understand the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so on until level 9, for which you can score a mazimum of 9 points.
+
+However, you will lose 2 points for every hint you use (available on levels 7, 8 & 9). And if you have to restart a level then you will lose 1 point each time, up to a maximum of 4 lost points. So, if you need one hint on level 9, then your maximum score goes from 9 down to 7. And if you succeed after restarting three times, then your score drops from 7 down to 4.
 
 It is easier to understand Sumaze! by experiencing it, but in case it helps,
 here are a few important rules and tips:
@@ -139,33 +133,33 @@ here are a few important rules and tips:
 * You can stop and start Sumaze!, and the website will use cookies to remember
   your level and score so far, but it is better to finish all the levels once
   you have started.
+* If you want to explore more Sumaze puzzles, then check out the Additional Stuff section.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_4/){.external target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_ii/){target="_blank"}
 
-::: problem id=2 marks=4.5
+::: problem id=2_1 marks=4.5
 __2.1__ When you have finished Sumaze, you will receive a score and a code word.
 Please enter your code word here, so that we can add your Sumaze score to your
 verall Parallelogram total.
 
-<p class="text-center"><input v-model="c.answers.p_2" class="correct sumaze" placeholder="Sumaze Code Word"/></p>
+<input solution="sumaze" class="correct" placeholder="Sumaze Code Word"/>
 
 Score: {{c.sumaze(c.answers.p_2)}} / 45 {.sumaze-score v-show="c.answers.p_2"}
+
 
 _The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
 Sumaze score by 10 and add it to your overall Parallelogram score. So ultimately
 a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram total score._
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"}
-shows the paths you should or could have taken to solve each stage with a
-perfect score._
+[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a
+perfect score.
 :::
 
 
 ## 3. Some Random Philosophy
 
-Each Parallelogram contains challenges about maths, because I know you are a
-keen mathematician, but it is also important to sometimes stray beyond numbers
+Each Parallelogram contains challenges about maths, because I know you are keen mathematicians, but it is also important to sometimes stray beyond numbers
 and geometry and explore other aspects of the world. You should be curious about
 lots of things. Ultimately, and for unknown reasons,
 these apparently odd challenges will help you to be a better mathematician.
@@ -185,7 +179,7 @@ __4.1__ In Parallelogram #12 (section 3), we described a quick way to add up all
 numbers from, say, 1 to 100. Can you remember it?
 
 ^^^ hint id=1
-Sometimes it’s easier to pair numbers, perhaps the smallest and the biggest.
+Sometimes it’s easier to pair numbers - try starting with the smallest and the biggest.
 ^^^
 
 The sum of all the numbers from 1 to 40 is:
@@ -212,7 +206,7 @@ time you fold the paper, it doubles in thickness. How many times do you have to
 fold the paper in order for it to become so thick that it will reach the Moon?
 (The distance from the Earth to the Moon is 384,000 Km.)
 
-^^^ hint id=1
+^^^ hint id=2
 If you double a number, say 1, ten times, then how much bigger does it get? Use this value as a stepping stone to solving the whole problem.
 ^^^
 
@@ -242,7 +236,7 @@ __6.1__ In the last minute of the video, there is an interesting version of Newt
 :::
 
 ::: problem id=6_2 marks=1
-__6.2__ Such machines often involve domino toppling, and in the second minute of the video there is domino toppling, but there are no dominos. What four objects are toppled?
+__6.2__ Such machines often involve domino toppling, and there is domino toppling within the first minute of this video. However, in the second minute of the video there is domino toppling, but there are no dominos. What four objects are toppled?
 
 * [x] Chairs
 * [ ] Tables
@@ -280,21 +274,21 @@ Simon.
 
 If you want to challenge yourself further over the summer, then explore the web
 and you will find a ton of mathematics. In particular, you should check out
-[NRICH](https://nrich.maths.org/), because it has been the source of some of our
+[NRICH](https://nrich.maths.org/){target="_blank"}, because it has been the source of some of our
 Parallelogram puzzles.
 
 One of the best maths sites is the video channel Numberphile, which has hundreds
 of brilliant videos. Here are just a few to get you started (including one
 presented by me):
 
-* [Pi and Four Fingers and The Simpsons](https://www.youtube.com/watch?v=K305Vu7hFg0?rel=0)
-* [Balancing a Ruler](https://www.youtube.com/watch?v=djmec-Bweeg?rel=0)
-* [Chaos Game](https://www.youtube.com/watch?v=kbKtFN71Lfs?rel=0)
-* [The Scientific (Mathematical) Way to Cut a Cake](https://www.youtube.com/watch?v=wBU9N35ZHIw?rel=0)
+* [Pi and Four Fingers and The Simpsons](https://www.youtube.com/watch?v=K305Vu7hFg0?rel=0){target="_blank"}.
+* [Balancing a Ruler](https://www.youtube.com/watch?v=djmec-Bweeg?rel=0){target="_blank"}.
+* [Chaos Game](https://www.youtube.com/watch?v=kbKtFN71Lfs?rel=0){target="_blank"}.
+* [The Scientific (Mathematical) Way to Cut a Cake](https://www.youtube.com/watch?v=wBU9N35ZHIw?rel=0){target="_blank"}.
 
+* The [Sumaze website](http://mei.org.uk/sumaze){target="_blank"} has links to the App Store and Google Play store, where you can download free Sumaze puzzles.
 
 ## Credits
 
 The Trolley Problem video is a spin off from the BBC series
-[A History of Ideas](http://www.bbc.co.uk/programmes/b04bwydw), made with the
-Open University.
+[A History of Ideas](http://www.bbc.co.uk/programmes/b04bwydw){target="_blank"}, made with the Open University.
