@@ -96,7 +96,7 @@ __4.1.__ Ada Lovelace worked alongside which famous mathematician?
 
 ## 5. Ada’s puzzle
 
-By before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
+Before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
 
 When historians went through archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clear that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
 

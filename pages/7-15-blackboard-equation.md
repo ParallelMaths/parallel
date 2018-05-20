@@ -152,7 +152,7 @@ Sumaze score by 10 and add it to your overall Parallelogram score. So ultimately
 a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram total score._
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a
+[This video clip](https://integralmaths.org/games/sumaze_solutions_ii.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a
 perfect score.
 :::
 
