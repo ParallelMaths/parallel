@@ -288,6 +288,32 @@ table.dashboard {
 
 
 // -----------------------------------------------------------------------------
+// GDPR Modal
+
+.modal-background {
+  position: fixed;
+  z-index: 300;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: fade(black, 80%);
+}
+
+.modal-body {
+  z-index: 300;
+  position: fixed;
+  width: 420px;
+  padding: 24px 24px 0;
+  max-width: calc(~"100% - 72px");
+  background: white;
+  border-radius: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 6px 32px rgba(0, 0, 0, .6);
+  > *:first-child { margin-top: 0; }
+}
+
+
+// -----------------------------------------------------------------------------
 // Mobile Display
 
 @media screen and (max-width: 720px) {

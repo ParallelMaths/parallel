@@ -72,7 +72,8 @@ export default function() {
           phoneNumber: signup.phoneNumber,
           postCode: signup.postCode,
           country: signup.country,
-          guardianEmail: signup.guardianEmail
+          guardianEmail: signup.guardianEmail,
+          acceptedTerms: true
         });
       } catch(error) {
         console.error(error);

@@ -17,7 +17,7 @@ form label {
   margin-bottom: 1rem;
 }
 
-input, select, textarea {
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], select, textarea {
   border: none;
   border-bottom: 1px solid fade(black, 40%);
   display: block;
@@ -37,6 +37,13 @@ input, select, textarea {
     border-bottom: 2px solid @red;
     padding-bottom: 1px;
   }
+}
+
+p.checkbox {
+  padding-left: 28px;
+  position: relative;
+  input { position: absolute; left: 0; top: 3px; }
+  label { font-size: 16px; color: inherit; }
 }
 
 select {

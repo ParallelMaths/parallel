@@ -259,6 +259,8 @@ block content
       | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
       input(type="email" v-model="signup.guardianEmail" required)
 
-    p By creating an account, you confirm that you have read and accepted our #[a(href='/terms-and-conditions' onclick="window.open('/terms-and-conditions', 'newwindow', 'width=500, height=500'); return false;") terms and conditions].
+    p.checkbox
+      input#terms(type="checkbox" required)
+      label(for="terms") As part of Parallel, we’ll email you every week when a new challenge is released, when the answers are available, and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallel sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
 
     button(type="submit") Sign up

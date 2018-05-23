@@ -75,6 +75,11 @@ export default function(signup, pages) {
     getLevel(challenge) {
       const score = user.getScore(challenge);
       return getLevel(score);
+    },
+
+    acceptTerms() {
+      user.data.acceptedTerms = true;
+      fbDatabase.ref('users/' + user.uid).update({acceptedTerms: true});
     }
   };
 
