@@ -19,10 +19,16 @@ async function run() {
   const answerData = await fb.database().ref('answers').once('value');
   const answers = answerData.toJSON();
 
-  // ---------------------------------------------------------------------------
+  const emailData = path.join(__dirname, `../private/tmp-users.json`);
+  const accounts = JSON.parse(fs.readFileSync(emailData)).users;
+  const emailMap = {};
+  for (let a of accounts) emailMap[a.localId] = a.email;
+
+
+    // ---------------------------------------------------------------------------
 
   for (let p of pages) {
-    const titles = ['name','schoolName','country','submitted','score'];
+    const titles = ['name','email','schoolName','country','submitted','score'];
     const data = [];
 
     for (let u of Object.keys(answers)) {
@@ -33,6 +39,7 @@ async function run() {
 
       const d = [
         user.first + ' ' + user.last,
+        emailMap[u],
         `"${users[u].schoolName || ''}"`,
         users[u].country,
         answer.submitted ? 1 : '',
@@ -54,12 +61,17 @@ async function run() {
 
   // ---------------------------------------------------------------------------
 
-  const data = [['name', 'school', ...pages, 'total']];
+  const data = [['name', 'email', 'school', ...pages, 'total']];
   for (let u of Object.keys(answers)) {
     if (!users[u]) continue;
     const a = pages.map(p => Math.round(((answers[u][p] || {}).score || 0)*100));
     const sum = a.reduce((a, b) => a + b, 0);
-    if (sum>0) data.push([`"${users[u].first} ${users[u].last}"`, `"${users[u].schoolName || ''}"`, ...a, sum]);
+    if (sum>0) data.push([
+      `"${users[u].first} ${users[u].last}"`,
+      emailMap[u],
+      `"${users[u].schoolName || ''}"`,
+      ...a, sum
+    ]);
   }
   const str = data.map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/results.csv`), str);

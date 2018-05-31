@@ -15,10 +15,11 @@
   "scripts": {
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
+    "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
     "deploy": "grunt && firebase deploy",
-    "get-users": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/get-users.js",
-    "get-results": "node scripts/get-results.js",
-    "convert-teachers": "firebase auth:export ./private/tmp-users.json --format=json && node scripts/convert-teachers.js"
+    "get-users": "npm run export-users && node scripts/get-users.js",
+    "get-results": "npm run export-users && node scripts/get-results.js",
+    "convert-teachers": "npm run export-users && node scripts/convert-teachers.js"
   },
   "devDependencies": {
     "ascii2mathml": "^0.5.4",
