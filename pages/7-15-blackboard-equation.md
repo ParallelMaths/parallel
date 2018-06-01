@@ -135,7 +135,7 @@ here are a few important rules and tips:
   you have started.
 * If you want to explore more Sumaze puzzles, then check out the Additional Stuff section.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_ii/){target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_ii/){.external target="_blank"}
 
 ::: problem id=2_1 marks=4.5
 __2.1__ When you have finished Sumaze, you will receive a score and a code word.

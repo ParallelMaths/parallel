@@ -226,10 +226,10 @@ __4.1__ You get a summer job that lasts for 6 weeks. You have two salary options
 Option A – £100/week.  
 Option B – a salary that doubles each week, starting at £10/week.  
 
-How much would each option deliver in total after 6 weeks?
+How much would each option deliver in total after 6 weeks? (Note: no need to include £ in your answer, as we have done that for you!)
 
-<input type="text" solution="600" placeholder="Option A Total"/>  
-<input type="text" solution="630" placeholder="Option B Total"/>
+£ <input type="text" solution="600" placeholder="Option A Total"/>  
+£ <input type="text" solution="630" placeholder="Option B Total"/>
 
 ---
 Obviously option A delivers 6 x £100 = £600.
@@ -271,7 +271,7 @@ It is easier to understand Sumaze! by experiencing it, but in case it helps here
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_i/){target="_blank"}
+[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_i/){.external target="_blank"}
 
 ::: problem id=5_1 marks=4.5
 **5.1** When you have finished Sumaze, you will receive a score and a code word.
