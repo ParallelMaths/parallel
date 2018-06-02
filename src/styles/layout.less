@@ -128,6 +128,17 @@ header {
   .error { background: transparent; padding: 0; color: @red; font-weight: 600; }
   button[type="submit"] { display: inline-block; margin: 12px 12px 0 0; font-size: 16px; padding: 4px 20px; }
   form a { color: @red; }
+
+  a.gold { background-color: #C98910; }
+  a.gold:hover { background-color: darken(#C98910, 10%); }
+
+  a.silver { background-color: #A8A8A8; }
+  a.silver:hover { background-color: darken(#A8A8A8, 10%); }
+
+  a.bronze { background-color: #965A38; }
+  a.bronze:hover { background-color: darken(#965A38, 10%); }
+
+  a.gold, a.silver, a.bronze { background-image: linear-gradient(fade(black, 0%), fade(black, 25%)); }
 }
 
 .user.account {

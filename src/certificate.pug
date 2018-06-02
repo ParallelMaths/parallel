@@ -1,0 +1,13 @@
+extends templates/layout
+
+block content
+  h1 Certificate
+
+  div(v-if="user.ready && user.data")
+    p Congratulations, you earned a {{ user.data.certificate }} certificate! Well done!
+    p You can download and print your certificate from the link below, and write your name on it (or ask your parent or guardian to!).
+
+    a.external(v-bind:href="'/resources/parallel-' + user.data.certificate + '-certificate.pdf'" target="_blank") Download your certificate
+
+    p I hope you have enjoyed the Parallelogram series this year, and I hope you will be back doing them in September.
+    p Cheerio,#[br]Simon

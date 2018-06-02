@@ -26,7 +26,7 @@ html
 
     //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css?v=14", rel="stylesheet")
+    link(href="/parallel.css?v=15", rel="stylesheet")
 
   body
     #vue
@@ -76,6 +76,7 @@ html
                 | &nbsp;&nbsp;•&nbsp;&nbsp;
                 a(v-on:click="user.logout") Logout
               p.small(v-if="user.data.schoolName") {{ user.data.schoolName }}
+            .user.certificate(v-if="user.data && user.data.certificate"): a(href="/certificate" v-bind:class="user.data.certificate") Your Certificate
             .user(v-if="user.data && user.data.code"): a(href="/dashboard") Teacher Dashboard
             .toggle(v-if="!user.data || user.data.code")
               a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
