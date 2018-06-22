@@ -82,19 +82,18 @@ So the Doctor spots that the pattern involves __happy prime numbers__. You will 
 
 You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then the original starting number is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.
 
-For example, 91 is happy, because it leads to the following sequence.
+For example, 97 is happy, because it leads to the following sequence.
 
-9<sup>2</sup> + 1<sup>2</sup> = 82  
-8<sup>2</sup> + 2<sup>2</sup> = 68  
-6<sup>2</sup> + 8<sup>2</sup> = 100  
-1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1 = happiness
+9<sup>2</sup> + 7<sup>2</sup> = 130  
+1<sup>2</sup> + 3<sup>2</sup> + 3<sup>2</sup> = 10  
+1<sup>2</sup> + 0<sup>2</sup> = 1 = happiness
 {.text-center}  
 
-Because 91 is prime, then it is not just a happy number, but also a happy prime.
+Because 97 is prime, then it is not just a happy number, but also a happy prime.
 
 I am going to define a quantity called “the sum of all happiness” for a number, which is the total of all the numbers on the happiness path added together.
 
-So, the sum of all happiness for 91 is (91 + 82 + 68 + 100 + 1), which equals 342.
+So, the sum of all happiness for 97 is (97 + 130 + 10 + 1), which equals 238.
 
 ::: problem id=3_1 marks=2
 __3.1.__ 32 is a happy number. What is the sum of all happiness for 32?
@@ -287,6 +286,3 @@ Simon.
 @[youtube](n2RhC4JNS7M?rel=0)
 
 * For more Doctor Who stuff, [here is the BBC Doctor Who fun and games website](http://www.bbc.co.uk/programmes/articles/4nH4gHgpmRXh8w8vqLsq1jS/fun-and-games){target="_blank"}.
-
-* For more Monty Python sketches, try the Argument Clinic:
-@[youtube](kQFKtI6gn9Y?start=76&end=226&rel=0)
