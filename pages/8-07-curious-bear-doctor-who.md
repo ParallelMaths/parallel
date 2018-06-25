@@ -61,9 +61,9 @@ __2.1__ How many stamps did they buy in total?
 
 Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.70. Hence, 11`x` + 7`y` = 107. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger than or equal to zero.
 
-By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `(107 – 11x)` is divisible by 7 without a remainder.
+By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `107 – 11x` is divisible by 7 without a remainder.
 
-Taking `x = 0, 1, 2,… 9,` we have `y = (107 – 11x) = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `(107 – 11x)` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 9 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
+Taking `x = 0, 1, 2,… 9,` we have `y = 107 – 11x = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `107 – 11x` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 9 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
 
 :::
 
@@ -85,7 +85,7 @@ You can think about a happy number in the following way. Take a positive integer
 For example, 97 is happy, because it leads to the following sequence.
 
 9<sup>2</sup> + 7<sup>2</sup> = 130  
-1<sup>2</sup> + 3<sup>2</sup> + 3<sup>2</sup> = 10  
+1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10  
 1<sup>2</sup> + 0<sup>2</sup> = 1 = happiness
 {.text-center}  
 
