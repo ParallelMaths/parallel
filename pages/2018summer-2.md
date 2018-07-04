@@ -1,0 +1,196 @@
+# _Summer • Parallelogram 2_
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+This is the second of our special Summer parallelograms.
+
+* Start and stop whenever you like – your work will be saved each time.
+* But it is better to tackle each Parallelogram in one go.
+* Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+
+
+## 1.
+
+::: problem id=1_1 marks=1
+My train was scheduled to leave at 17:40 and to arrive at 18:20. However, it started five
+minutes late and the journey then took 42 minutes. At what time did I arrive?
+
+* [ ] 18:21
+* [ ] 18:23
+* [ ] 18:25
+* [x] 18:27
+* [ ] 18:29
+
+---
+The train arrived 5 + 42 = 47 minutes after 17:40, that is at 18:27.
+:::
+
+
+## 2.
+
+::: problem id=2_1 marks=1
+![](/resources/2018summer-2/2-squares-question.gif){image align="right"}
+In the diagram, the small squares are all the same size. What fraction of
+the large square is shaded?
+
+* [ ] `9/20`
+* [ ] `9/16`
+* [ ] `3/7`
+* [ ] `3/5`
+* [x] `1/2`
+
+---
+
+The area of the large square may be considered to consist of thirteen equal squares (nine of which are shaded) plus eight ‘half squares’ and four ‘quarter squares’ (all of which are unshaded).
+
+So the total unshaded area is `(4 + 8 × 1/2 + 4 × 1/4)` squares = 9 squares.
+
+Hence half of the large square is shaded.
+:::
+
+
+## 3.
+
+::: problem id=3_1 marks=1
+Amy, Ben and Chris are standing in a row. If Amy is to the left of Ben and Chris is to the
+right of Amy, which of these statements must be true?
+
+* [ ] Ben is furthest to the left
+* [ ] Chris is furthest to the right
+* [ ] Amy is in the middle
+* [x] Amy is furthest to the left
+* [ ] None of statements A, B, C, D is true
+
+---
+
+From the information, we see that Amy is to the left of both Ben and Chris. So the three are in the order Amy, Ben, Chris or the order Amy, Chris, Ben.
+
+So Amy is certainly furthest to the left, and the others are all false either in one case or in both.
+:::
+
+
+## 4.
+
+::: problem id=4_1 marks=1
+![](/resources/2018summer-2/4-clock-question.gif){image align="right"}
+A station clock shows each digit by illuminating up to seven bars in a display. For example, the displays for 1, 6, 4 and 9 are shown.
+
+When all the digits from 0 to 9 are shown in turn, which bar is used least?
+
+* [x] ![](/resources/2018summer-2/4-clock-answer1.gif)
+* [ ] ![](/resources/2018summer-2/4-clock-answer2.gif)
+* [ ] ![](/resources/2018summer-2/4-clock-answer3.gif)
+* [ ] ![](/resources/2018summer-2/4-clock-answer4.gif)
+* [ ] ![](/resources/2018summer-2/4-clock-answer5.gif)
+
+---
+
+The number of times each bar is used is: A 4; B 6; C 8; D 7; E 7.
+
+* ![](/resources/2018summer-2/4-clock-answer1.gif) = 4
+* ![](/resources/2018summer-2/4-clock-answer2.gif) = 6
+* ![](/resources/2018summer-2/4-clock-answer3.gif) = 8
+* ![](/resources/2018summer-2/4-clock-answer4.gif) = 7
+* ![](/resources/2018summer-2/4-clock-answer5.gif) = 7
+:::
+
+
+## 5.
+
+::: problem id=5_1 marks=1
+If a straight line is 0.2 mm thick, how many metres long would the line need to be to cover an area of one square metre?
+
+* [ ] 0.5
+* [ ] 5
+* [ ] 50
+* [ ] 500
+* [x] 5000
+
+---
+
+The thickness of the line is 0.2 mm, that is 0.0002 m. So, in order to cover an area of one square metre, the length of the line would need to be `1/0.0002`m, that is 5000m.
+:::
+
+
+## 6.
+
+::: problem id=6_1 marks=1
+Just William's cousin, Sweet William, has a rectangular block of fudge measuring 2 inches
+by 3 inches by 6 inches. He wants to cut the block up into cubes whose side lengths are
+whole numbers of inches. What is the smallest number of cubes he can obtain?
+
+* [ ] 3
+* [ ] 8
+* [x] 15
+* [ ] 29
+* [ ] 36
+
+---
+The only possible cubes have edge size 1 or 2. It takes 8 of the former to replace one of the latter, so William needs to cut as many cubes of edge size 2 as possible, namely 3.
+
+The number of one inch cubes, therefore, is 2 × 3 × 6 - 3 × 8, that is 12.  
+
+So the smallest number of cubes is 3 + 12 = 15.
+:::
+
+
+## 7.
+
+::: problem id=7_1 marks=1
+At halftime, Boarwarts Academy had scored all of the points so far in their annual match
+against Range Hill School. In the second half, each side scored three points. At the end of
+the match, Boarwarts Academy had scored 90% of the points. What fraction of the points
+in the match was scored in the second half?
+
+* [ ] `3/100`
+* [ ] `3/50`
+* [ ] `1/10`
+* [ ] `9/50`
+* [x] `1/5`
+
+---
+Range Hill scored only three points in the match and these were scored in the
+second half. They represent 10% of the total points scored. As Boarwarts
+Academy also scored three points in the second half, the proportion of points
+scored after halftime was 20%, that is `1/5`.
+:::
+
+
+## 8.
+
+::: problem id=8_1 marks=1
+![](/resources/2018summer-2/8-square-question.gif){image align="right"}
+The diagram shows a square with sides of length `y` divided into a square with sides of length `x` and four congruent rectangles.  
+
+What is the length of the longer side of each rectangle?
+
+* [ ] `(y - x)/2`
+* [ ] `(y + 2x)/3`
+* [ ] `y - x`
+* [ ] `2y/x`
+* [x] `(y + x)/2`
+
+---
+Let the length of the longer side of each rectangle be `l`. Then the length of
+each shorter side is `l - x`. So `y = l + l - x` and hence `l = (y + x)/2`.  
+:::
+
+
+***
+
+And that’s the end of the second Summer Parallelogram. Thanks for taking part.
+
+Cheerio,
+Simon.
+
+::: submit

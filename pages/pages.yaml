@@ -1,4 +1,35 @@
 year7:
+
+- week: 6
+  url: 2018summer-6
+  title: Summer Parallelogram 6
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
+- week: 5
+  url: 2018summer-5
+  title: Summer Parallelogram 5
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
+- week: 4
+  url: 2018summer-4
+  title: Summer Parallelogram 4
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
+- week: 3
+  url: 2018summer-3
+  title: Summer Parallelogram 3
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
+- week: 2
+  url: 2018summer-2
+  title: Summer Parallelogram 2
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
+- week: 1
+  url: 2018summer-1
+  title: Summer Parallelogram 1
+  available: 2014-05-25T15:00:00
+  deadline: 2014-05-25T15:00:00
   - week: 15
     url: 7-15-blackboard-equation
     title: Blackboard Equation

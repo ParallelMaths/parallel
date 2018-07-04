@@ -1,0 +1,217 @@
+# _Summer • Parallelogram 1_
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+This is the first of our special Summer parallelograms.
+
+* Start and stop whenever you like – your work will be saved each time.
+* But it is better to tackle each Parallelogram in one go.
+* Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+
+
+## 1.
+
+::: problem id=1_1 marks=1
+What is the value of `0.1 + 0.2 + 0.3 × 0.4`?
+
+* [ ] 0.24
+* [ ] 0.312
+* [x] 0.42
+* [ ] 1.0
+* [ ] 1.5
+
+---
+`0.1 + 0.2 + 0.3 × 0.4 = 0.3 + 0.12 = 0.42`.
+:::
+
+
+## 2.
+
+::: problem id=2_1 marks=1
+Which of the following numbers is three less than a multiple of 5 and three more than a
+multiple of 6?
+
+* [ ] 12
+* [ ] 17
+* [ ] 21
+* [ ] 22
+* [x] 27
+
+---
+
+Of the options given, only 27, which is three less than a multiple of 5,
+namely 30, and three more than a multiple of 6, namely 24, has both of the
+properties in the question.
+:::
+
+
+## 3.
+
+::: problem id=3_1 marks=1
+![](/resources/2018summer-1/3-triangle-question.gif){image align="right"}
+The equilateral triangle `XYZ` is fixed in position. Two of the four small triangles are to be painted black and the other two are to be painted white. In how many different ways can this be done?
+
+
+* [ ] 3
+* [ ] 4
+* [ ] 5
+* [x] 6
+* [ ] More than 6
+
+---
+
+If the top triangle is painted black, then any one of the three remaining triangles may also be painted black. Similarly, if the top triangle is painted white, then any one of the three remaining triangles may also be painted white. So there are __six__ different ways.
+:::
+
+
+## 4.
+
+::: problem id=4_1 marks=1
+Which of the following has the largest value?
+
+* [ ] `1/2` + `1/4`
+* [ ] `1/2` - `1/4`
+* [ ] `1/2` × `1/4`
+* [x] `1/2` ÷ `1/4`
+* [ ] `1/4` ÷ `1/2`
+
+---
+
+The values of the five expressions are:
+
+* `1/2` + `1/4` = `3/4`
+* `1/2` - `1/4` = `1/4`
+* `1/2` × `1/4` = `1/8`
+* `1/2` ÷ `1/4` = `2`
+* `1/4` ÷ `1/2` = `1/2`
+
+So `1/2` ÷ `1/4` has the largest value.
+:::
+
+
+## 5.
+
+::: problem id=5_1 marks=1
+Points `P` and `Q` have coordinates (1, 4) and (1, −2) respectively. For which of the following
+possible coordinates of point `R` would triangle `PQR` __not__ be isosceles?
+
+* [ ] (−5, 4)
+* [ ] (7, 1)
+* [ ] (−6, 1)
+* [x] (−6, −2)
+* [ ] (7, −2)
+{.col-5}
+
+---
+
+If `R` is (−5, 4) then `PQ = PR = 6`.  
+
+If `R` is (7, 1) or if `R` is (−6, 1) then `R` lies on the perpendicular bisector of `PQ` (the line `Y = 1`), so in both cases `PR = QR`.  
+
+If `R` is (7, −2), then `QP = QR = 6`.
+
+However if `R` is (−6, −2), then `PQ = 6`, `QR = 7` and `PR > 7`, so triangle is `PQR` scalene.
+:::
+
+
+## 6.
+
+::: problem id=6_1 marks=1
+![](/resources/2018summer-1/6-angles-quesion.gif){image align="right"}
+What is the sum of the six marked angles?
+
+* [ ] 1080°
+* [x] 1440°
+* [ ] 1620°
+* [ ] 1800°
+* [ ] More information needed
+
+---
+The six marked angles, together with the six interior angles of the two triangles, comprise all of the angles around five separate points. So the required sum is `(5 × 360 - 2 × 180)° = 1440°`.
+:::
+
+
+## 7.
+
+::: problem id=7_1 marks=1
+![](/resources/2018summer-1/7-semicircles-question.gif){image align="right"}
+The points `P, Q, R, S` lie in order along a straight line, with `PA = QR = RS = 2cm` . Semicircles with diameters `PQ, QR, RS` and `SP` join to make the shape shown on the right.
+What, in cm², is the area of the shape?
+
+* [x] `5π`
+* [ ] `9π/2`
+* [ ] `4π`
+* [ ] `7π/2`
+* [ ] `3π`
+
+---
+If the semicircle with diameter `PQ` is rotated through 180° about `Q`, the new shape formed has the same area as the original shape. It consists of a semicircle of diameter 6 cm and a semicircle of diameter 2 cm.
+
+So its area is (`1/2` × π × 3² + `1/2` × π × 1²) cm², that is `5π` cm².
+:::
+
+
+## 8.
+
+::: problem id=8_1 marks=1
+![](/resources/2018summer-1/8-digits-question.gif){image align="right"}
+Only one choice of the digit `d` gives a prime number for each of the three-digit
+numbers read across and downwards in the diagram on the right.
+
+Which digit is `d`?
+
+* [ ] 7
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 8
+
+---
+Four of the given values for `d` may be rejected since `143 = 11 × 13`; `153 = 3 × 51`; `567 = 3 × 189`; `183 = 3 × 61`. However, 173 and 577 are both prime, so `d = 7`.
+:::
+
+
+## 9.
+
+::: problem id=9_1 marks=1
+A piece of paper in the shape of a polygon is folded in half along a line of symmetry. The
+resulting shape is also folded in half, again along a line of symmetry. The final shape is a
+triangle. How many possibilities are there for the number of sides of the original polygon?
+
+* [ ] 3
+* [x] 4
+* [ ] 5
+* [ ] 6
+* [ ] 7
+
+---
+Imagine unfolding the final triangle once. Then one edge of the final triangle is inside the new shape obtained; and the other two triangle edges have ‘mirror image’ copies. So the new shape has at most 4 edges.
+
+After unfolding once more, one of these edges is now on the inside; and the remaining edges get mirror images again. So the shape obtained (the original shape) has no more than 6 edges.
+
+The diagrams below show that 3, 4, 5 and 6 sides are all possible.
+
+![](/resources/2018summer-1/9-triangle-pentagon.gif)
+
+![](/resources/2018summer-1/9-square-hexagon.gif)  
+:::
+
+
+***
+
+And that’s the end of the first Summer Parallelogram. Thanks for taking part.
+
+Cheerio,
+Simon.
+
+::: submit

@@ -1,0 +1,210 @@
+# _Summer • Parallelogram 6_
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+This is the sixth and final of our special Summer parallelograms.
+
+* Start and stop whenever you like – your work will be saved each time.
+* But it is better to tackle each Parallelogram in one go.
+* Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+
+
+## 1.
+
+::: problem id=1_1 marks=1
+All of the Forty Thieves were light-fingered, but only two of them were caught red-handed.
+What percentage is that?
+
+* [ ] 2
+* [x] 5
+* [ ] 10
+* [ ] 20
+* [ ] 50
+
+---
+`2/40 = 1/20 = 5/100 = 5%`
+:::
+
+
+## 2.
+
+::: problem id=2_1 marks=1
+![](/resources/2018summer-6/1-ant-question.gif){image align="right"}
+The diagram shows a single floor tile in which the outer square has side 8cm and the inner square has side 6cm.
+
+If Adam Ant walks once around the perimeter of the inner square and Annabel Ant walks once
+around the perimeter of the outer square, how much further does Annabel walk than Adam?
+
+* [ ] 2 cm
+* [ ] 4 cm
+* [ ] 6 cm
+* [x] 8 cm
+* [ ] 16 cm
+
+---
+
+Adam Ant walks 24 cm, while Annabel Ant walks 32 cm, so Annabel walks 8 cm further.
+:::
+
+
+## 3.
+
+::: problem id=3_1 marks=1
+Which of the following has the smallest value?
+
+* [ ] `1/2 - 1/3`
+* [ ] `1/3 - 1/4`
+* [ ] `1/4 - 1/5`
+* [ ] `1/5 - 1/6`
+* [x] `1/6 - 1/7`
+
+---
+
+The values of the five expressions are `1/6`, `1/12`, `1/20`, `1/30`, `1/42` respectively.
+:::
+
+
+## 4.
+
+::: problem id=4_1 marks=1
+![](/resources/2018summer-6/4-sculpture-question.gif){image align="right"}
+The sculpture ‘Cubo Vazado’ [Emptied Cube] by the Brazilian artist Franz Weissmann is formed by removing cubical blocks from a solid cube to leave the symmetrical shape shown.
+
+If all the edges have length 1, 2 or 3, what is the volume of the sculpture?
+
+* [ ] 9
+* [ ] 11
+* [x] 12
+* [ ] 14
+* [ ] 18
+
+---
+
+Consider the sculpture to consist of three layers, each of height 1. Then the volumes of the bottom, middle and top layers are 5, 2, 5 respectively. So the volume of the sculpture is 12.
+
+Alternatively: the sculpture consists of a `3 × 3 × 3` cube from which two `2 × 2 × 2` cubes have been removed. The `2 × 2 × 2` cubes have exactly one `1 × 1 × 1` cube (the cube at the centre of the `3 × 3 × 3` cube) in common. So the volume of the sculpture `= 27 − (2 × 8 - 1) = 12`.
+:::
+
+
+## 5.
+
+::: problem id=5_1 marks=1
+An active sphagnum bog deposits a depth of about 1 metre of peat per 1000 years. Roughly
+how many millimetres is that per day?
+
+* [ ] 0.0003
+* [x] 0.003
+* [ ] 0.03
+* [ ] 0.3
+* [ ] 3
+
+---
+
+A rate of 1 metre per 1000 years is equivalent to 1 mm per year, that is just under three thousandths of 1 mm per day.
+:::
+
+
+## 6.
+
+::: problem id=6_1 marks=1
+Granny swears that she is getting younger. She has calculated that she is four times as old
+as I am now, but remembers that 5 years ago she was five times as old as I was at that time.
+
+What is the sum of our ages now?
+
+* [ ] 95
+* [x] 100
+* [ ] 105
+* [ ] 110
+* [ ] 115
+
+---
+
+Let my age now be `x`. So Granny's age is `4x`. Considering five years ago:
+
+`4x - 5 = 5 (x - 5)`, giving `x = 20`.
+
+So Granny is 80 and I am 20, and the sum of our ages is 100.
+:::
+
+
+## 7.
+
+::: problem id=7_1 marks=1
+What is the value of ❤ if each row and each column has the total given?
+
+![](/resources/2018summer-6/7-hearts-question.gif){image align="center"}
+
+* [x] 3
+* [ ] 4
+* [ ] 5
+* [ ] 6
+* [ ] More information needed
+
+---
+
+Consider the third column: 2♫ + ❤ = 13  [1]
+
+Consider the second row: ♫ + 2❤ = 11  [2]
+
+`2 × [2] − [1]`
+=> 3❤ = 9, so ❤ = 3.
+
+Although their values are not requested, it is now straightforward to show that ♫ = 5, ☀ = 4.
+:::
+
+
+## 8.
+
+::: problem id=8_1 marks=1
+The list 2, 1; 3, 2; 2, 3; 1, 4; describes itself, since there are two 1s, three 2s, two 3s and one 4. There is exactly one other list of eight numbers containing only the numbers 1, 2, 3, and 4 that, in the same way, describes the numbers of 1s, 2s, 3s and 4s in that order.
+
+What is the total number of 1s and 3s in this other list?
+
+* [ ] 2
+* [ ] 3
+* [ ] 4
+* [ ] 5
+* [x] 6
+
+---
+
+Let the other such list of numbers be `a`, 1; `b`, 2; `c`, 3; `d`, 4 and note that `a + b + c + d = 8` since there are 8 numbers in the list.
+
+
+If `d = 4`, then exactly two of `a`, `b`, `c` equal 4, but this would make `a + b + c + d > 8`, so `d ≠ 4`.
+
+Similar reasoning shows that `d ≠ 3`, so `d = 1` or `d = 2`.
+
+If `d = 2`, then exactly one of `a`, `b`, `c` equals 4 and the remaining two both equal 1 since `a + b + c + d = 8`. So we have `a`, 1; `b`, 2; `c`, 3; 2, 4 and it is `b` which must equal 4 since we already have more than one 2. However, as `a` and `c` are now both equal to 1, we have 1, 1; 4, 2; 1, 3; 2, 4 and this is not correct.
+
+
+So `d = 1` and we have and `a + b + c = 7` and `a`, `b`, `c ≠  4`. Clearly `a ≠ 1`, since that would give at least two 1s so `a = 2` or `a = 3`.
+
+If `a = 2`, then we have 2, 1; `b`, 2; `c`, 3; 1, 4 with `b + c = 45` and `b`, `c ≠  4`. So `b = 2`, `c = 3` or vice versa. This gives either 2, 1; 2, 2; 3, 3; 1, 4 (incorrect), or 2, 1; 3, 2; 2, 3; 1, 4 (the example given in the question).
+
+Finally, if `a = 3`, then we have 3, 1; `b`, 2; `c`, 3; 1, 4 with `b + c = 4`. The possibilities are 3, 1; 1, 2; 3, 3; 1, 4 or 3, 1; 2, 2; 2, 3; 1, 4 or 3, 1; 3, 2; 1, 3; 1,
+4 but only the first of these describes itself correctly.
+
+So the total number of 1s and 3s is 6.
+:::
+
+
+***
+
+And that’s the end of the our sixth and final Summer Parallelogram. Thanks for taking part.
+
+Cheerio,
+Simon.
+
+::: submit
