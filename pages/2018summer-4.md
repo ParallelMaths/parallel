@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1.
 
-::: problem id=1_1 marks=1
+::: problem id=1_1 marks=5
 Which of these calculations produces a multiple of 5?
 
 * [ ] `1 × 2 + 3 + 4`
@@ -37,7 +37,7 @@ The results of the five calculations are 9, 11, 14, 25, 24 respectively.
 
 ## 2.
 
-::: problem id=2_1 marks=1
+::: problem id=2_1 marks=5
 ![](/resources/2018summer-4/2-triangle-question.gif){image align="right"}
 In this diagram, what is the value of `x`?
 
@@ -55,7 +55,7 @@ The unmarked interior angle on the right of the triangle `= (360 - 324)° = 36°
 
 ## 3.
 
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=5
 King Harry's arm is twice as long as his forearm, which is twice as long as his hand, which
 is twice as long as his middle finger, which is twice as long as his thumb. His new bed is as
 long as four arms.
@@ -67,6 +67,7 @@ How many thumbs length is that?
 * [x] 64
 * [ ] 128
 * [ ] 256
+{.col-5}
 
 ---
 
@@ -78,7 +79,7 @@ So 4 arms have the same total length as 64 thumbs.
 
 ## 4.
 
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=5
 The faces of a cube are painted so that any two faces which have an edge in common are
 painted different colours. What is the smallest number of colours required?
 
@@ -87,6 +88,7 @@ painted different colours. What is the smallest number of colours required?
 * [ ] 4
 * [ ] 5
 * [ ] 6
+{.col-5}
 
 ---
 
@@ -96,7 +98,7 @@ Consider one corner of the cube. There are three faces which meet there, and eac
 
 ## 5.
 
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=5
 ![](/resources/2018summer-4/5-rectangle-question.gif){image align="right"}
 A rectangle `PQRS` is cut into two pieces along `PX`, where `PX = XR` and `PS = SX` as shown.
 
@@ -107,6 +109,7 @@ The two pieces are reassembled without turning either piece over, by matching tw
 * [x] 3
 * [ ] 4
 * [ ] 5
+{.col-5}
 
 ---
 
@@ -120,15 +123,15 @@ So there are no other places to position the triangle.
 
 ## 6.
 
-::: problem id=6_1 marks=1
+::: problem id=6_1 marks=6
 The figures below are all drawn to scale. Which figure would result from repeatedly following the following instructions:
 
-__Move forward 2 units.
-Turn right.
-Move forward 15 units.
-Turn right.
-Move forward 20 units.
-Turn right.__
+__Move forward 2 units.  
+Turn right.  
+Move forward 15 units.  
+Turn right.  
+Move forward 20 units.  
+Turn right.__  
 
 * [x] A ![](/resources/2018summer-4/6-shape-1.gif)
 * [ ] B ![](/resources/2018summer-4/6-shape-2.gif)
@@ -147,7 +150,7 @@ Therefore the correct answer is A.
 
 ## 7.
 
-::: problem id=7_1 marks=1
+::: problem id=7_1 marks=6
 ![](/resources/2018summer-4/7-diagram-question.gif){image align="right"}
 In the diagram on the right, `PT = QT = TS`, `QS = SR`, `∠PQT = 20°`.
 
@@ -176,7 +179,7 @@ So `4x + 40 = 180`, hence `x = 35`.
 
 ## 8.
 
-::: problem id=8_1 marks=1
+::: problem id=8_1 marks=6
 ![](/resources/2018summer-4/8-clock-question.gif){image align="right"}
 On a digital clock displaying hours, minutes and seconds, how many times in each 24-hour period do all six digits change simultaneously?
 
@@ -185,6 +188,7 @@ On a digital clock displaying hours, minutes and seconds, how many times in each
 * [ ] 2
 * [x] 3
 * [ ] 24
+{.col-5}
 
 ---
 The only such occasions occur when the clock changes from `09 59 59` to `10 00 00`; from `19 59 59` to `20 00 00` and from `23 59 59` to `00 00 00`.
@@ -193,7 +197,7 @@ The only such occasions occur when the clock changes from `09 59 59` to `10 00 0
 
 ## 9.
 
-::: problem id=9_1 marks=1
+::: problem id=9_1 marks=6
 ![](/resources/2018summer-4/9-square-question.gif){image align="right"}
 A large square is divided into adjacent pairs of smaller squares with integer sides, as shown in the diagram (which is not drawn to scale). Each size of smaller square occurs only twice.
 

@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1.
 
-::: problem id=1_1 marks=1
+::: problem id=1_1 marks=5
 All of the Forty Thieves were light-fingered, but only two of them were caught red-handed.
 What percentage is that?
 
@@ -30,6 +30,7 @@ What percentage is that?
 * [ ] 10
 * [ ] 20
 * [ ] 50
+{.col-5}
 
 ---
 `2/40 = 1/20 = 5/100 = 5%`
@@ -38,7 +39,7 @@ What percentage is that?
 
 ## 2.
 
-::: problem id=2_1 marks=1
+::: problem id=2_1 marks=5
 ![](/resources/2018summer-6/1-ant-question.gif){image align="right"}
 The diagram shows a single floor tile in which the outer square has side 8cm and the inner square has side 6cm.
 
@@ -50,6 +51,7 @@ around the perimeter of the outer square, how much further does Annabel walk tha
 * [ ] 6 cm
 * [x] 8 cm
 * [ ] 16 cm
+{.col-5}
 
 ---
 
@@ -59,7 +61,7 @@ Adam Ant walks 24 cm, while Annabel Ant walks 32 cm, so Annabel walks 8 cm furth
 
 ## 3.
 
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=5
 Which of the following has the smallest value?
 
 * [ ] `1/2 - 1/3`
@@ -67,6 +69,7 @@ Which of the following has the smallest value?
 * [ ] `1/4 - 1/5`
 * [ ] `1/5 - 1/6`
 * [x] `1/6 - 1/7`
+{.col-5}
 
 ---
 
@@ -76,7 +79,7 @@ The values of the five expressions are `1/6`, `1/12`, `1/20`, `1/30`, `1/42` res
 
 ## 4.
 
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=5
 ![](/resources/2018summer-6/4-sculpture-question.gif){image align="right"}
 The sculpture ‘Cubo Vazado’ [Emptied Cube] by the Brazilian artist Franz Weissmann is formed by removing cubical blocks from a solid cube to leave the symmetrical shape shown.
 
@@ -87,6 +90,7 @@ If all the edges have length 1, 2 or 3, what is the volume of the sculpture?
 * [x] 12
 * [ ] 14
 * [ ] 18
+{.col-5}
 
 ---
 
@@ -98,7 +102,7 @@ Alternatively: the sculpture consists of a `3 × 3 × 3` cube from which two `2 
 
 ## 5.
 
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=5
 An active sphagnum bog deposits a depth of about 1 metre of peat per 1000 years. Roughly
 how many millimetres is that per day?
 
@@ -107,6 +111,7 @@ how many millimetres is that per day?
 * [ ] 0.03
 * [ ] 0.3
 * [ ] 3
+{.col-5}
 
 ---
 
@@ -116,7 +121,7 @@ A rate of 1 metre per 1000 years is equivalent to 1 mm per year, that is just un
 
 ## 6.
 
-::: problem id=6_1 marks=1
+::: problem id=6_1 marks=6
 Granny swears that she is getting younger. She has calculated that she is four times as old
 as I am now, but remembers that 5 years ago she was five times as old as I was at that time.
 
@@ -127,6 +132,7 @@ What is the sum of our ages now?
 * [ ] 105
 * [ ] 110
 * [ ] 115
+{.col-5}
 
 ---
 
@@ -140,7 +146,7 @@ So Granny is 80 and I am 20, and the sum of our ages is 100.
 
 ## 7.
 
-::: problem id=7_1 marks=1
+::: problem id=7_1 marks=6
 What is the value of ❤ if each row and each column has the total given?
 
 ![](/resources/2018summer-6/7-hearts-question.gif){image align="center"}
@@ -150,6 +156,7 @@ What is the value of ❤ if each row and each column has the total given?
 * [ ] 5
 * [ ] 6
 * [ ] More information needed
+{.col-5}
 
 ---
 
@@ -166,7 +173,7 @@ Although their values are not requested, it is now straightforward to show that 
 
 ## 8.
 
-::: problem id=8_1 marks=1
+::: problem id=8_1 marks=6
 The list 2, 1; 3, 2; 2, 3; 1, 4; describes itself, since there are two 1s, three 2s, two 3s and one 4. There is exactly one other list of eight numbers containing only the numbers 1, 2, 3, and 4 that, in the same way, describes the numbers of 1s, 2s, 3s and 4s in that order.
 
 What is the total number of 1s and 3s in this other list?
@@ -176,6 +183,7 @@ What is the total number of 1s and 3s in this other list?
 * [ ] 4
 * [ ] 5
 * [x] 6
+{.col-5}
 
 ---
 

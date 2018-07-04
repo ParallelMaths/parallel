@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1.
 
-::: problem id=1_1 marks=1
+::: problem id=1_1 marks=5
 What is the remainder when 354972 is divided by 7?
 
 * [ ] 1
@@ -29,6 +29,7 @@ What is the remainder when 354972 is divided by 7?
 * [ ] 3
 * [ ] 4
 * [ ] 5
+{.col-5}
 
 ---
 Note that 7 divides 35, 49 and 7, so it divides 354970. So the remainder is 2.
@@ -37,7 +38,7 @@ Note that 7 divides 35, 49 and 7, so it divides 354970. So the remainder is 2.
 
 ## 2.
 
-::: problem id=2_1 marks=1
+::: problem id=2_1 marks=5
 When the following fractions are put in their correct places on the number line, which
 fraction is in the middle?
 
@@ -46,6 +47,7 @@ fraction is in the middle?
 * [ ] -`1/5`
 * [ ] `1/4`
 * [ ] -`1/3`
+{.col-5}
 
 ---
 
@@ -56,7 +58,7 @@ is: -`1/3`, -`1/5`, -`1/7`, `1/6`, `1/4`.
 
 ## 3.
 
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=5
 ![](/resources/2018summer-3/3-diagram-question.gif){image align="right"}
 In the diagram on the right, `ST` is parallel to `UV`.
 
@@ -81,7 +83,7 @@ From the exterior angle of a triangle theorem, `∠SQP = ∠QPR + ∠PRQ`, so `x
 
 ## 4.
 
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=5
 The six-member squad for the Ladybirds five-a-side team consists of a 2-spot ladybird, a 10-spot, a 14-spot, an 18-spot, a 24-spot and a pine ladybird (on the bench). The average number of spots for members of the squad is 12. How many spots has the pine ladybird?
 
 * [x] 4
@@ -89,6 +91,7 @@ The six-member squad for the Ladybirds five-a-side team consists of a 2-spot lad
 * [ ] 6
 * [ ] 7
 * [ ] 8
+{.col-5}
 
 ---
 
@@ -99,7 +102,7 @@ the number of spots which the pine ladybird has is `72 - (2 + 10 + 14 + 18 + 24)
 
 ## 5.
 
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=5
 ![](/resources/2018summer-3/5-numbers-question.gif){image align="right"}
 I choose three numbers from this number square, including one number from each row and one number from each column. I then multiply the three numbers together.
 
@@ -110,6 +113,7 @@ What is the largest possible product?
 * [x] 105
 * [ ] 162
 * [ ] 504
+{.col-5}
 
 ---
 
@@ -123,7 +127,7 @@ Finally, if 3 is chosen, the options are 3, 4, 8 and 3, 5, 7 giving products 96 
 
 ## 6.
 
-::: problem id=6_1 marks=1
+::: problem id=6_1 marks=6
 ![](/resources/2018summer-3/6-jmc-question.gif){image align="right"}
 The letters `J`, `M`, `C` represent three different non-zero digits.
 
@@ -149,7 +153,7 @@ Also, the sum of the units column is `10 + C`, so there is exactly `1` to carry 
 
 ## 7.
 
-::: problem id=7_1 marks=1
+::: problem id=7_1 marks=6
 A list of ten numbers contains two of each of the numbers 0, 1, 2, 3, 4. The two 0s are next
 to each other, the two 1s are separated by one number, the two 2s by two numbers, the two
 3s by three numbers and the two 4s by four numbers. The list starts 3, 4, ... . What is the
@@ -160,6 +164,7 @@ last number?
 * [ ] 2
 * [ ] 3
 * [ ] 4
+{.col-5}
 
 ---
 Let the list be `3, 4, a, b, c, d, e, f, g, h`. We can see that `c = 3` and `e = 4`. So the list now reads `3, 4, a, b, 3, d, 4, f, g, h`.
@@ -174,7 +179,7 @@ Now `a, b` are the only pair zero apart. So `a = b = 0` and `g = 2`
 
 ## 8.
 
-::: problem id=8_1 marks=1
+::: problem id=8_1 marks=6
 The pages of a book are numbered 1, 2, 3, ... . In total, it takes 852 digits to number all the
 pages of the book. What is the number of the last page?
 
@@ -183,6 +188,7 @@ pages of the book. What is the number of the last page?
 * [x] 320
 * [ ] 329
 * [ ] 422
+{.col-5}
 
 ---
 Pages 1 to 9 inclusive require 9 digits; pages 10 to 99 inclusive require 180 digits. So, in total, 189 digits are required to number all of the pages before the three-digit page numbers commence with page number 100.
