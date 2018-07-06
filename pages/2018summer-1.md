@@ -10,18 +10,20 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the first of our special Summer parallelograms.
+This is the first of our six special Summer Parallelograms, designed to keep your maths brain busy over the summer. You can do all the Parallelograms in a day (!), or a week, or you can spread them out across the summer holidays. All six need to be completed by September 1.
+
+Unlike our usual Parallelograms, these summer questions don’t involve any videos. Instead, all the questions have been taken from old Junior Maths Challenge papers. That means none of the questions are easy and some of them will be very tough.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
 * Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears. The answer sheet (with explanations) will appear as soon as you hit the submit button.
 
 
 ## 1.
 
-::: problem id=1_1 marks=5
+::: problem id=1_1 marks=1
 What is the value of `0.1 + 0.2 + 0.3 × 0.4`?
 
 * [ ] 0.24
@@ -38,7 +40,7 @@ What is the value of `0.1 + 0.2 + 0.3 × 0.4`?
 
 ## 2.
 
-::: problem id=2_1 marks=5
+::: problem id=2_1 marks=1
 Which of the following numbers is three less than a multiple of 5 and three more than a
 multiple of 6?
 
@@ -59,7 +61,7 @@ properties in the question.
 
 ## 3.
 
-::: problem id=3_1 marks=5
+::: problem id=3_1 marks=1
 ![](/resources/2018summer-1/3-triangle-question.gif){image align="right"}
 The equilateral triangle `XYZ` is fixed in position. Two of the four small triangles are to be painted black and the other two are to be painted white. In how many different ways can this be done?
 
@@ -78,7 +80,7 @@ If the top triangle is painted black, then any one of the three remaining triang
 
 ## 4.
 
-::: problem id=4_1 marks=5
+::: problem id=4_1 marks=1
 Which of the following has the largest value?
 
 * [ ] `1/2` + `1/4`
@@ -104,7 +106,7 @@ So `1/2` ÷ `1/4` has the largest value.
 
 ## 5.
 
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=1
 Points `P` and `Q` have coordinates (1, 4) and (1, −2) respectively. For which of the following
 possible coordinates of point `R` would triangle `PQR` __not__ be isosceles?
 
@@ -123,13 +125,13 @@ If `R` is (7, 1) or if `R` is (−6, 1) then `R` lies on the perpendicular bisec
 
 If `R` is (7, −2), then `QP = QR = 6`.
 
-However if `R` is (−6, −2), then `PQ = 6`, `QR = 7` and `PR > 7`, so triangle is `PQR` scalene.
+However if `R` is (−6, −2), then `PQ = 6`, `QR = 7` and `PR > 7`, so triangle `PQR` is scalene.
 :::
 
 
 ## 6.
 
-::: problem id=6_1 marks=6
+::: problem id=6_1 marks=2
 ![](/resources/2018summer-1/6-angles-quesion.gif){image align="right"}
 What is the sum of the six marked angles?
 
@@ -146,15 +148,15 @@ The six marked angles, together with the six interior angles of the two triangle
 
 ## 7.
 
-::: problem id=7_1 marks=6
+::: problem id=7_1 marks=2
 ![](/resources/2018summer-1/7-semicircles-question.gif){image align="right"}
-The points `P, Q, R, S` lie in order along a straight line, with `PA = QR = RS = 2cm` . Semicircles with diameters `PQ, QR, RS` and `SP` join to make the shape shown on the right.
+The points `P, Q, R, S` lie in order along a straight line, with `PQ = QR = RS = 2cm` . Semicircles with diameters `PQ, QR, RS` and `SP` join to make the shape shown on the right.
 What, in cm², is the area of the shape?
 
 * [x] `5π`
-* [ ] `9π/2`
+* [ ] `(9π)/2`
 * [ ] `4π`
-* [ ] `7π/2`
+* [ ] `(7π)/2`
 * [ ] `3π`
 {.col-5}
 
@@ -167,14 +169,14 @@ So its area is (`1/2` × π × 3² + `1/2` × π × 1²) cm², that is `5π` cm�
 
 ## 8.
 
-::: problem id=8_1 marks=6
+::: problem id=8_1 marks=3
 ![](/resources/2018summer-1/8-digits-question.gif){image align="right"}
-Only one choice of the digit `d` gives a prime number for each of the three-digit
+Only one choice of the digit `d` gives a prime number for both of the three-digit
 numbers read across and downwards in the diagram on the right.
 
 Which digit is `d`?
 
-* [ ] 7
+* [ ] 4
 * [ ] 5
 * [ ] 6
 * [x] 7
@@ -188,7 +190,7 @@ Four of the given values for `d` may be rejected since `143 = 11 × 13`; `153 = 
 
 ## 9.
 
-::: problem id=9_1 marks=6
+::: problem id=9_1 marks=3
 A piece of paper in the shape of a polygon is folded in half along a line of symmetry. The
 resulting shape is also folded in half, again along a line of symmetry. The final shape is a
 triangle. How many possibilities are there for the number of sides of the original polygon?
@@ -201,9 +203,9 @@ triangle. How many possibilities are there for the number of sides of the origin
 {.col-5}
 
 ---
-Imagine unfolding the final triangle once. Then one edge of the final triangle is inside the new shape obtained; and the other two triangle edges have ‘mirror image’ copies. So the new shape has at most 4 edges.
+Imagine unfolding the final triangle once. Then one edge of the final triangle is inside the new shape obtained, and the other two triangle edges have ‘mirror image’ copies. So the new shape has at most 4 edges.
 
-After unfolding once more, one of these edges is now on the inside; and the remaining edges get mirror images again. So the shape obtained (the original shape) has no more than 6 edges.
+After unfolding once more, one of these edges is now on the inside, and the remaining edges get mirror images again. So the shape obtained (the original shape) has no more than 6 edges.
 
 The diagrams below show that 3, 4, 5 and 6 sides are all possible.
 
@@ -215,7 +217,7 @@ The diagrams below show that 3, 4, 5 and 6 sides are all possible.
 
 ***
 
-And that’s the end of the first Summer Parallelogram. Thanks for taking part.
+And that’s the end of the first Summer Parallelogram. Thanks for taking part. Don’t forget to get started on the next one when you have a bit of spare time.
 
 Cheerio,
 Simon.

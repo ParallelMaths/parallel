@@ -10,18 +10,20 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the fifth of our special Summer parallelograms.
+This is the fifth of our six special Summer Parallelograms, designed to keep your maths brain busy over the summer. You can do all the Parallelograms in a day (!), or a week, or you can spread them out across the summer holidays. All six need to be completed by September 1.
+
+Unlike our usual Parallelograms, these summer questions don’t involve any videos. Instead, all the questions have been taken from old Junior Maths Challenge papers. That means none of the questions are easy and some of them will be very tough.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
 * Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears. The answer sheet (with explanations) will appear as soon as you hit the submit button.
 
 
 ## 1.
 
-::: problem id=1_1 marks=5
+::: problem id=1_1 marks=1
 Which of these diagrams could be drawn without taking the pen off the page and without
 drawing along a line already drawn?
 
@@ -41,7 +43,7 @@ Only E satisfies this condition.
 
 ## 2.
 
-::: problem id=2_1 marks=5
+::: problem id=2_1 marks=1
 At Spuds-R-Us, a 2.5kg bag of potatoes costs £1.25. How much would one tonne of potatoes cost?
 
 * [ ] £5
@@ -60,7 +62,7 @@ that is 1000 kg, is `1000 × 50p = £500`.
 
 ## 3.
 
-::: problem id=3_1 marks=5
+::: problem id=3_1 marks=1
 ![](/resources/2018summer-5/5-rectangles-question.gif){image align="right"}
 The shape on the right is made up of three rectangles, each measuring 3cm by 1cm. What is
 the perimeter of the shape?
@@ -82,7 +84,7 @@ From the diagram, in which all lengths are in cm, it can be seen that the perime
 
 ## 4.
 
-::: problem id=4_1 marks=5
+::: problem id=4_1 marks=1
 In 1833 a ship arrived in Calcutta with 120 tons remaining of its cargo of ice. One third of the original cargo was lost because it had melted on the voyage. How many tons of ice was
 the ship carrying when it set sail?
 
@@ -103,7 +105,7 @@ So one-third of the original cargo was 60 tons, and the original cargo was there
 
 ## 5.
 
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=1
 A solid wooden cube is painted blue on the outside. The cube is then cut into eight smaller
 cubes of equal size. What fraction of the total surface area of these new cubes is blue?
 
@@ -126,7 +128,7 @@ So the fraction of the total surface area of the new cubes which is blue equals 
 
 ## 6.
 
-::: problem id=6_1 marks=6
+::: problem id=6_1 marks=2
 ![](/resources/2018summer-5/6-magic-question.gif){image align="right"}
 In this _Multiplication Magic Square_, the product of the three numbers in each row, each column and each of the diagonals is 1.
 
@@ -153,7 +155,7 @@ Therefore `r + s = 1/2 + 1/16 = 9/16`.
 
 ## 7.
 
-::: problem id=7_1 marks=6
+::: problem id=7_1 marks=2
 If all the whole numbers from 1 to 1000 inclusive are written down, which digit appears the
 smallest number of times?
 
@@ -177,7 +179,7 @@ It is left to the reader to check that 0 appears 192 times, 1 appears 301 times 
 
 ## 8.
 
-::: problem id=8_1 marks=6
+::: problem id=8_1 marks=3
 In a 7-digit numerical code each group of four adjacent digits adds to 16 and each group of
 five adjacent digits adds to 19. What is the sum of all seven digits?
 
@@ -199,7 +201,7 @@ As `a + b + c + d = 16`, `d = 7`; so the code is `3337333`.
 
 ***
 
-And that’s the end of the fifth Summer Parallelogram. Thanks for taking part.
+And that’s the end of the fifth Summer Parallelogram. Thanks for taking part. Don’t forget to get started on the next one when you have a bit of spare time.
 
 Cheerio,
 Simon.

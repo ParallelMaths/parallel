@@ -10,18 +10,20 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the second of our special Summer parallelograms.
+This is the second of our six special Summer Parallelograms, designed to keep your maths brain busy over the summer. You can do all the Parallelograms in a day (!), or a week, or you can spread them out across the summer holidays. All six need to be completed by September 1.
+
+Unlike our usual Parallelograms, these summer questions don’t involve any videos. Instead, all the questions have been taken from old Junior Maths Challenge papers. That means none of the questions are easy and some of them will be very tough.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
 * Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears. The answer sheet (with explanations) will appear as soon as you hit the submit button.
 
 
 ## 1.
 
-::: problem id=1_1 marks=5
+::: problem id=1_1 marks=1
 My train was scheduled to leave at 17:40 and to arrive at 18:20. However, it started five
 minutes late and the journey then took 42 minutes. At what time did I arrive?
 
@@ -39,7 +41,7 @@ The train arrived 5 + 42 = 47 minutes after 17:40, that is at 18:27.
 
 ## 2.
 
-::: problem id=2_1 marks=5
+::: problem id=2_1 marks=1
 ![](/resources/2018summer-2/2-squares-question.gif){image align="right"}
 In the diagram, the small squares are all the same size. What fraction of
 the large square is shaded?
@@ -62,7 +64,7 @@ Hence half of the large square is shaded.
 
 ## 3.
 
-::: problem id=3_1 marks=5
+::: problem id=3_1 marks=1
 Amy, Ben and Chris are standing in a row. If Amy is to the left of Ben and Chris is to the
 right of Amy, which of these statements must be true?
 
@@ -82,7 +84,7 @@ So Amy is certainly furthest to the left, and the others are all false either in
 
 ## 4.
 
-::: problem id=4_1 marks=5
+::: problem id=4_1 marks=1
 ![](/resources/2018summer-2/4-clock-question.gif){image align="right"}
 A station clock shows each digit by illuminating up to seven bars in a display. For example, the displays for 1, 6, 4 and 9 are shown.
 
@@ -109,7 +111,7 @@ The number of times each bar is used is: A 4; B 6; C 8; D 7; E 7.
 
 ## 5.
 
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=1
 If a straight line is 0.2 mm thick, how many metres long would the line need to be to cover an area of one square metre?
 
 * [ ] 0.5
@@ -127,7 +129,7 @@ The thickness of the line is 0.2 mm, that is 0.0002 m. So, in order to cover an 
 
 ## 6.
 
-::: problem id=6_1 marks=6
+::: problem id=6_1 marks=2
 Just William's cousin, Sweet William, has a rectangular block of fudge measuring 2 inches
 by 3 inches by 6 inches. He wants to cut the block up into cubes whose side lengths are
 whole numbers of inches. What is the smallest number of cubes he can obtain?
@@ -150,7 +152,7 @@ So the smallest number of cubes is 3 + 12 = 15.
 
 ## 7.
 
-::: problem id=7_1 marks=6
+::: problem id=7_1 marks=2
 At halftime, Boarwarts Academy had scored all of the points so far in their annual match
 against Range Hill School. In the second half, each side scored three points. At the end of
 the match, Boarwarts Academy had scored 90% of the points. What fraction of the points
@@ -173,7 +175,7 @@ scored after halftime was 20%, that is `1/5`.
 
 ## 8.
 
-::: problem id=8_1 marks=6
+::: problem id=8_1 marks=3
 ![](/resources/2018summer-2/8-square-question.gif){image align="right"}
 The diagram shows a square with sides of length `y` divided into a square with sides of length `x` and four congruent rectangles.  
 
@@ -193,7 +195,7 @@ each shorter side is `l - x`. So `y = l + l - x` and hence `l = (y + x)/2`.
 
 ***
 
-And that’s the end of the second Summer Parallelogram. Thanks for taking part.
+And that’s the end of the second Summer Parallelogram. Thanks for taking part. Don’t forget to get started on the next one when you have a bit of spare time.
 
 Cheerio,
 Simon.

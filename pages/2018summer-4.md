@@ -10,18 +10,20 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the fourth of our special Summer parallelograms.
+This is the fourth of our six special Summer Parallelograms, designed to keep your maths brain busy over the summer. You can do all the Parallelograms in a day (!), or a week, or you can spread them out across the summer holidays. All six need to be completed by September 1.
+
+Unlike our usual Parallelograms, these summer questions don’t involve any videos. Instead, all the questions have been taken from old Junior Maths Challenge papers. That means none of the questions are easy and some of them will be very tough.
 
 * Start and stop whenever you like – your work will be saved each time.
 * But it is better to tackle each Parallelogram in one go.
 * Your score, answers and explanations will be displayed as soon as you hit the SUBMIT button.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears. The answer sheet (with explanations) will appear as soon as you hit the submit button.
 
 
 ## 1.
 
-::: problem id=1_1 marks=5
+::: problem id=1_1 marks=1
 Which of these calculations produces a multiple of 5?
 
 * [ ] `1 × 2 + 3 + 4`
@@ -37,7 +39,7 @@ The results of the five calculations are 9, 11, 14, 25, 24 respectively.
 
 ## 2.
 
-::: problem id=2_1 marks=5
+::: problem id=2_1 marks=1
 ![](/resources/2018summer-4/2-triangle-question.gif){image align="right"}
 In this diagram, what is the value of `x`?
 
@@ -55,7 +57,7 @@ The unmarked interior angle on the right of the triangle `= (360 - 324)° = 36°
 
 ## 3.
 
-::: problem id=3_1 marks=5
+::: problem id=3_1 marks=1
 King Harry's arm is twice as long as his forearm, which is twice as long as his hand, which
 is twice as long as his middle finger, which is twice as long as his thumb. His new bed is as
 long as four arms.
@@ -71,7 +73,7 @@ How many thumbs length is that?
 
 ---
 
-n terms of length, 1 arm = 2 forearms = 4 hands = 8 middle fingers = 16 thumbs.
+In terms of length, 1 arm = 2 forearms = 4 hands = 8 middle fingers = 16 thumbs.
 
 So 4 arms have the same total length as 64 thumbs.
 :::
@@ -79,7 +81,7 @@ So 4 arms have the same total length as 64 thumbs.
 
 ## 4.
 
-::: problem id=4_1 marks=5
+::: problem id=4_1 marks=1
 The faces of a cube are painted so that any two faces which have an edge in common are
 painted different colours. What is the smallest number of colours required?
 
@@ -98,7 +100,7 @@ Consider one corner of the cube. There are three faces which meet there, and eac
 
 ## 5.
 
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=1
 ![](/resources/2018summer-4/5-rectangle-question.gif){image align="right"}
 A rectangle `PQRS` is cut into two pieces along `PX`, where `PX = XR` and `PS = SX` as shown.
 
@@ -123,7 +125,7 @@ So there are no other places to position the triangle.
 
 ## 6.
 
-::: problem id=6_1 marks=6
+::: problem id=6_1 marks=2
 The figures below are all drawn to scale. Which figure would result from repeatedly following the following instructions:
 
 __Move forward 2 units.  
@@ -150,7 +152,7 @@ Therefore the correct answer is A.
 
 ## 7.
 
-::: problem id=7_1 marks=6
+::: problem id=7_1 marks=2
 ![](/resources/2018summer-4/7-diagram-question.gif){image align="right"}
 In the diagram on the right, `PT = QT = TS`, `QS = SR`, `∠PQT = 20°`.
 
@@ -179,7 +181,7 @@ So `4x + 40 = 180`, hence `x = 35`.
 
 ## 8.
 
-::: problem id=8_1 marks=6
+::: problem id=8_1 marks=3
 ![](/resources/2018summer-4/8-clock-question.gif){image align="right"}
 On a digital clock displaying hours, minutes and seconds, how many times in each 24-hour period do all six digits change simultaneously?
 
@@ -197,7 +199,7 @@ The only such occasions occur when the clock changes from `09 59 59` to `10 00 0
 
 ## 9.
 
-::: problem id=9_1 marks=6
+::: problem id=9_1 marks=3
 ![](/resources/2018summer-4/9-square-question.gif){image align="right"}
 A large square is divided into adjacent pairs of smaller squares with integer sides, as shown in the diagram (which is not drawn to scale). Each size of smaller square occurs only twice.
 
@@ -228,7 +230,7 @@ _(Note that it was not necessary to find the values of f and i, but it is now qu
 
 ***
 
-And that’s the end of the fourth Summer Parallelogram. Thanks for taking part.
+And that’s the end of the fourth Summer Parallelogram. Thanks for taking part. Don’t forget to get started on the next one when you have a bit of spare time.
 
 Cheerio,
 Simon.
