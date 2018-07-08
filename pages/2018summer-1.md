@@ -1,4 +1,4 @@
-# _Summer • Parallelogram 1_
+# Summer Problems #1
 
 <div class="dictionary">
 

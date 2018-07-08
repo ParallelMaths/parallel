@@ -1,34 +1,4 @@
 year7:
-  - week: 06
-    url: 2018summer-6
-    title: Summer Parallelogram 6
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
-  - week: 05
-    url: 2018summer-5
-    title: Summer Parallelogram 5
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
-  - week: 04
-    url: 2018summer-4
-    title: Summer Parallelogram 4
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
-  - week: 03
-    url: 2018summer-3
-    title: Summer Parallelogram 3
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
-  - week: 02
-    url: 2018summer-2
-    title: Summer Parallelogram 2
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
-  - week: 01
-    url: 2018summer-1
-    title: Summer Parallelogram 1
-    available: 2014-05-25T15:00:00
-    deadline: 2014-05-25T15:00:00
   - week: 15
     url: 7-15-blackboard-equation
     title: Blackboard Equation
@@ -182,23 +152,34 @@ year8:
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
 
-# - week: 4
-#   url: 6-04-blackboard-equation
-#   title: Blackboard Equations
-#   available: 2017-12-03T15:00:00
-#   deadline: 2017-12-07T18:00:00
-# - week: 3
-#   url: 6-03-sumaze
-#   title: Sumaze
-#   available: 2017-11-14T15:00:00
-#   deadline: 2017-11-16T18:00:00
-# - week: 2
-#   url: 6-02-good-will-hunting
-#   title: Good Will Hunting
-#   available: 2017-11-14T15:00:00
-#   deadline: 2017-11-16T18:00:00
-# - week: 1
-#   url: 6-01-maths-jokes
-#   title: Maths Jokes
-#   available: 2017-11-07T15:00:00
-#   deadline: 2017-11-09T18:00:00
+summer:
+  - week: 6
+    url: 2018summer-6
+    title: Summer Problems 6
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 5
+    url: 2018summer-5
+    title: Summer Problems 5
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 4
+    url: 2018summer-4
+    title: Summer Problems 4
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 3
+    url: 2018summer-3
+    title: Summer Problems 3
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 2
+    url: 2018summer-2
+    title: Summer Problems 2
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 1
+    url: 2018summer-1
+    title: Summer Problems 1
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00

@@ -11,7 +11,7 @@ const overrideStatus = query.status;
 
 export default function(challengeId, user, pages) {
   const fbDatabase = firebase.database();
-  const c = [...pages.year7, ...pages.year8].find(x => x.url === challengeId);
+  const c = [...pages.year7, ...pages.year8, ...pages.summer].find(x => x.url === challengeId);
 
   user.onLoad(() => {
     challenge.answers = user.answers[challengeId] || {};

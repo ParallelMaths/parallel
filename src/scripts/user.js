@@ -44,6 +44,8 @@ export default function(signup, pages) {
         const answers = await fbDatabase.ref('answers/' + u.uid).once('value');
         user.answers = answers.toJSON() || {};
 
+        user.showSummer = true;  // TODO
+
         for (let c of callbacks) c();
         user.ready = true;
 

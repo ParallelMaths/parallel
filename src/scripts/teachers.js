@@ -11,6 +11,7 @@ export default function(user, pages) {
 
   const pages7 = pages.year7; //.filter(p => xx);  TODO filter by active
   const pages8 = pages.year8; //.filter(p => xx);
+  const pageSummer = pages.summer; //.filter(p => xx);
 
   user.onLoad(async function() {
     if (!user.data) return location.replace('/signup');
@@ -28,7 +29,7 @@ export default function(user, pages) {
       return teacher.error = 'So far, no students have signed up with your class code.';
 
     for (let s of Object.keys(students)) {
-      for (let p of [...pages7, ...pages8]) {
+      for (let p of [...pages7, ...pages8, ...pageSummer]) {
         let answers = await fbDatabase.ref('answers/' + s + '/' + p.url).once('value');
         answers = answers.toJSON() || {};
         if (answers.submitted) {
@@ -45,7 +46,7 @@ export default function(user, pages) {
   const teacher = {
     students7: [],
     students8: [],
-    pages7, pages8,
+    pages7, pages8, pageSummer,
     answers: {},
     error: 'Loading…',
     ready: false

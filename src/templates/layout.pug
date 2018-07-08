@@ -81,8 +81,14 @@ html
             .toggle(v-if="!user.data || user.data.code")
               a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
               a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
+            nav(v-if="user.showSummer")
+              a(v-for="p in pages.summer" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}")
+                .title {{ p.title }}
+                .status.open(v-if="user.getStatus(p) == 'open'") NEW
+                .status.submitted(v-if="user.getStatus(p) == 'submitted'")
+                .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
             nav
-              a(v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' && i < 11")
+              a(v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' && i < 5")
                 .title-meta Week {{ p.week }}
                 .title {{ p.title }}
                 .status.open(v-if="user.getStatus(p) == 'open'") NEW
