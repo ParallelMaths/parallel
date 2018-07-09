@@ -154,6 +154,36 @@ year8:
 
 summer:
   - week: 6
+    url: 2018summer-8-6
+    title: Summer Problems 6
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 5
+    url: 2018summer-8-5
+    title: Summer Problems 5
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 4
+    url: 2018summer-8-4
+    title: Summer Problems 4
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 3
+    url: 2018summer-8-3
+    title: Summer Problems 3
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 2
+    url: 2018summer-8-2
+    title: Summer Problems 2
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 1
+    url: 2018summer-8-1
+    title: Summer Problems 1
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 6
     url: 2018summer-7-6
     title: Summer Problems 6
     available: 2018-07-01T12:00:00
