@@ -1,4 +1,40 @@
 year7:
+  - week: 6
+    summer: true
+    url: 2018summer-7-6
+    title: Summer Problems 6
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 5
+    summer: true
+    url: 2018summer-7-5
+    title: Summer Problems 5
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 4
+    summer: true
+    url: 2018summer-7-4
+    title: Summer Problems 4
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 3
+    summer: true
+    url: 2018summer-7-3
+    title: Summer Problems 3
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 2
+    summer: true
+    url: 2018summer-7-2
+    title: Summer Problems 2
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 1
+    summer: true
+    url: 2018summer-7-1
+    title: Summer Problems 1
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
   - week: 15
     url: 7-15-blackboard-equation
     title: Blackboard Equation
@@ -29,53 +65,99 @@ year7:
     title: A matter of factorial!
     available: 2018-04-20T16:00:00
     deadline: 2018-04-22T19:00:00
+    hide: true
   - week: 9
     url: 7-09-easter-challenges
     title: Easter challenges
     available: 2018-03-23T16:00:00
     deadline: 2018-03-25T19:00:00
+    hide: true
   - week: 8
     url: 7-08-tricky-parking-problem
     title: Tricky parking problem
     available: 2018-03-16T16:00:00
     deadline: 2018-03-18T19:00:00
+    hide: true
   - week: 7
     url: 7-07-optimise-pizza-money
     title: Optimising your pizza money
     available: 2018-03-09T16:00:00
     deadline: 2018-03-11T19:00:00
+    hide: true
   - week: 6
     url: 7-06-pie-charts
     title: Pie charts and speed-reading
     available: 2018-03-02T16:00:00
     deadline: 2018-03-04T19:00:00
+    hide: true
   - week: 5
     url: 7-05-downhill-from-here
     title: It’s all downhill from here
     available: 2018-02-23T16:00:00
     deadline: 2018-02-25T19:00:00
+    hide: true
   - week: 4
     url: 7-04-sundogs-random-dots
     title: Sundogs and Random Dots
     available: 2018-02-09T16:00:00
     deadline: 2018-02-11T19:00:00
+    hide: true
   - week: 3
     url: 7-03-crosses-crosses
     title: Crosses and Crosses
     available: 2018-02-02T16:00:00
     deadline: 2018-02-04T19:00:00
+    hide: true
   - week: 2
     url: 7-02-marie-curie
     title: Madam Curie’s square riddle
     available: 2018-01-26T16:00:00
     deadline: 2018-01-28T19:00:00
+    hide: true
   - week: 1
     url: 7-01-parallelogram
     title: Codes and Physics
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
+    hide: true
 
 year8:
+  - week: 6
+    summer: true
+    url: 2018summer-8-6
+    title: Summer Problems 6
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 5
+    summer: true
+    url: 2018summer-8-5
+    title: Summer Problems 5
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 4
+    summer: true
+    url: 2018summer-8-4
+    title: Summer Problems 4
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 3
+    summer: true
+    url: 2018summer-8-3
+    title: Summer Problems 3
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 2
+    summer: true
+    url: 2018summer-8-2
+    title: Summer Problems 2
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
+  - week: 1
+    summer: true
+    url: 2018summer-8-1
+    title: Summer Problems 1
+    available: 2018-07-01T12:00:00
+    deadline: 2018-07-01T12:00:00
   - week: 15
     url: 8-15-seven-bridges-konigsberg
     title: The Seven Bridges of Konigsberg
@@ -101,115 +183,64 @@ year8:
     title: Colour Code Challenge
     available: 2018-04-27T16:00:00
     deadline: 2018-04-29T19:00:00
+    hide: true
   - week: 10
     url: 8-10-rattlebacks
     title: Rattlebacks
     available: 2018-04-20T16:00:00
     deadline: 2018-04-22T19:00:00
+    hide: true
   - week: 9
     url: 8-09-easter-challenges
     title: Easter challenges
     available: 2018-03-23T16:00:00
     deadline: 2018-03-25T19:00:00
+    hide: true
   - week: 8
     url: 8-08-computer-music
     title: Computer music and techno ditties
     available: 2018-03-16T16:00:00
     deadline: 2018-03-18T19:00:00
+    hide: true
   - week: 7
     url: 8-07-curious-bear-doctor-who
     title: A curious bear and Doctor Who
     available: 2018-03-09T16:00:00
     deadline: 2018-03-11T19:00:00
+    hide: true
   - week: 6
     url: 8-06-countdown-levitating-water
     title: Countdown and levitating water
     available: 2018-03-02T16:00:00
     deadline: 2018-03-04T19:00:00
+    hide: true
   - week: 5
     url: 8-05-freezing-sports
     title: Freezing sports and flipping pancakes
     available: 2018-02-23T16:00:00
     deadline: 2018-02-25T19:00:00
+    hide: true
   - week: 4
     url: 8-04-dripping-taps
     title: Dripping Taps
     available: 2018-02-09T16:00:00
     deadline: 2018-02-11T19:00:00
+    hide: true
   - week: 3
     url: 8-03-flag-of-flags
     title: A flag of flags
     available: 2018-02-02T16:00:00
     deadline: 2018-02-04T19:00:00
+    hide: true
   - week: 2
     url: 8-02-lou-costello
     title: Lou Costello, Pi and More Pendula
     available: 2018-01-26T16:00:00
     deadline: 2018-01-28T19:00:00
+    hide: true
   - week: 1
     url: 8-01-ma-kettle
     title: Ma and Pa Kettle Make Pendulum Pi
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
-
-summer:
-  - week: 6
-    url: 2018summer-8-6
-    title: Summer Problems 6
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 5
-    url: 2018summer-8-5
-    title: Summer Problems 5
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 4
-    url: 2018summer-8-4
-    title: Summer Problems 4
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 3
-    url: 2018summer-8-3
-    title: Summer Problems 3
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 2
-    url: 2018summer-8-2
-    title: Summer Problems 2
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 1
-    url: 2018summer-8-1
-    title: Summer Problems 1
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 6
-    url: 2018summer-7-6
-    title: Summer Problems 6
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 5
-    url: 2018summer-7-5
-    title: Summer Problems 5
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 4
-    url: 2018summer-7-4
-    title: Summer Problems 4
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 3
-    url: 2018summer-7-3
-    title: Summer Problems 3
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 2
-    url: 2018summer-7-2
-    title: Summer Problems 2
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
-  - week: 1
-    url: 2018summer-7-1
-    title: Summer Problems 1
-    available: 2018-07-01T12:00:00
-    deadline: 2018-07-01T12:00:00
+    hide: true

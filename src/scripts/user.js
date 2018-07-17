@@ -4,6 +4,9 @@
 
 
 
+const summerWhitelist = ['qw6ok', 'h343j', 'yd3qp', 'nww75', 'agv1u', '9knp4',
+  'e96lr', 'e96lr', 't1bmm'];
+
 export default function(signup, pages) {
   const fbAuth = firebase.auth();
   const fbDatabase = firebase.database();
@@ -20,6 +23,7 @@ export default function(signup, pages) {
     level: 'year7',
     answers: {},
     uid: null,
+    showSummer: false,
 
     onLoad(fn) { callbacks.push(fn); },
 
@@ -44,7 +48,8 @@ export default function(signup, pages) {
         const answers = await fbDatabase.ref('answers/' + u.uid).once('value');
         user.answers = answers.toJSON() || {};
 
-        user.showSummer = true;  // TODO
+        const code = user.data.code || user.data.teacherCode;
+        user.showSummer = summerWhitelist.indexOf(code) >= 0;
 
         for (let c of callbacks) c();
         user.ready = true;

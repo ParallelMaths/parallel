@@ -26,7 +26,7 @@ html
 
     //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css?v=15", rel="stylesheet")
+    link(href="/parallel.css?v=16", rel="stylesheet")
 
   body
     #vue
@@ -81,15 +81,9 @@ html
             .toggle(v-if="!user.data || user.data.code")
               a(v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}") Year 7
               a(v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}") Year 8
-            nav(v-if="user.showSummer")
-              a(v-for="p in pages.summer" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}")
-                .title {{ p.title }}
-                .status.open(v-if="user.getStatus(p) == 'open'") NEW
-                .status.submitted(v-if="user.getStatus(p) == 'submitted'")
-                .status.score(v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)") {{ user.getScore(p) }}%
             nav
-              a(v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' && i < 5")
-                .title-meta Week {{ p.week }}
+              a(v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' && !p.hide && (!p.summer || user.showSummer)")
+                .title-meta(v-if="!p.summer") Week {{ p.week }}
                 .title {{ p.title }}
                 .status.open(v-if="user.getStatus(p) == 'open'") NEW
                 .status.submitted(v-if="user.getStatus(p) == 'submitted'")
@@ -127,7 +121,7 @@ html
     script var PAGES = !{pages};
     script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js")
-    script(defer src="/parallel.js?v=13")
+    script(defer src="/parallel.js?v=15")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
