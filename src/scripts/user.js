@@ -5,7 +5,7 @@
 
 
 const summerWhitelist = ['qw6ok', 'h343j', 'yd3qp', 'nww75', 'agv1u', '9knp4',
-  'e96lr', 't1bmm'];
+  'e96lr', 't1bmm', 'c7db', 'a896w', 'cb8sj'];
 
 export default function(signup, pages) {
   const fbAuth = firebase.auth();
