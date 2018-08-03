@@ -120,6 +120,21 @@ year7:
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
     hide: true
+  - week: 3
+    url: 7-03-the-big-bang
+    title: The Big Bang
+    available: 2018-09-20T16:00:00
+    deadline: 2018-09-23T19:00:00
+  - week: 2
+    url: 7-02-the-melancoil
+    title: The Melancoil
+    available: 2018-09-13T16:00:00
+    deadline: 2018-09-16T19:00:00
+  - week: 1
+    url: 7-01-school-of-rock
+    title: School of Rock
+    available: 2018-09-06T16:00:00
+    deadline: 2018-09-09T19:00:00
 
 year8:
   - week: 6
@@ -244,3 +259,35 @@ year8:
     available: 2018-01-19T16:00:00
     deadline: 2018-01-21T19:00:00
     hide: true
+  - week: 3
+    url: 8-03-surfing-chaos
+    title: Surfing Choas
+    available: 2018-09-20T16:00:00
+    deadline: 2018-09-23T19:00:00
+  - week: 2
+    url: 8-02-jurassic-park
+    title: Jurassic Park mathematics
+    available: 2018-09-13T16:00:00
+    deadline: 2018-09-16T19:00:00
+  - week: 1
+    url: 8-01-wizard-of-oz
+    title: Wizard of Oz
+    available: 2018-09-06T16:00:00
+    deadline: 2018-09-09T19:00:00
+
+year9:
+  - week: 3
+    url: 9-03-lots-of-socks
+    title: Lots of Socks
+    available: 2018-09-20T16:00:00
+    deadline: 2018-09-23T19:00:00
+  - week: 2
+    url: 9-02-romantic-mathematics
+    title: Romantic Mathematics
+    available: 2018-09-13T16:00:00
+    deadline: 2018-09-16T19:00:00
+  - week: 1
+    url: 9-01-sing-a-long
+    title: Sing-A-Long-A Googol
+    available: 2018-09-06T16:00:00
+    deadline: 2018-09-09T19:00:00

@@ -1,0 +1,141 @@
+# _Year 7 • Parallelogram 2_ The Melancoil
+
+<div class="dictionary">
+
+__Noun__: Parallelogram
+__Pronunciation__: /ˌparəˈlɛləɡram/
+
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
+
+</div>
+
+Welcome to the second of our Parallelograms designed for Year 7 students, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.
+
+These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
+
+* Tackle each Parallelogram in one go. Don’t get distracted.
+* When you finish, then remember to hit the SUBMIT button.
+* Finish by Sunday night if you’re taking part with your classmates.
+* Extra reward points for Parallelograms finished by Monday.
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+
+
+## 1. Melancoil Numbers
+
+Last week we looked at happy numbers. If you have not completed last week’s Parallelogram, then take a look at it after you complete this week’s list of questions. Remember, you can still earn reward points on a past Parallelogram.
+
+This week, Matt Parker takes a look at melancoil numbers, the opposite of happy numbers. Watch carefully and answer the questions below.
+By the way, melancoil is partly built from the world “melancholy”, which means a sense of sadness..
+
+@[youtube](kC6YObu61_w?end=386&rel=0)
+
+::: problem id=1_1 marks=1
+__1.1.__ 13 is a happy number. Which of the following is very obviously also a happy number?
+
+* [ ] 12
+* [ ] 14
+* [ ] 26
+* [x] 31
+
+---
+
+Of course, 31 is happy, because it has the same digits as 13, but reversed. Happiness is about the digits, not the order they appear in. 3<sup>2</sup> + 1<sup>2</sup> = 10. And 1<sup>2</sup> + 0<sup>2</sup> = 1.
+:::
+
+::: problem id=1_2 marks=2
+__1.2.__ How many numbers are in the melancoil?
+
+* [ ] 7
+* [x] 8
+* [ ] 9
+* [ ] 10
+
+---
+
+Just take a look at Matt’s video. The melancoil is described from 3 minutes 30 seconds onwards.
+:::
+
+::: problem id=1_3 marks=2
+__1.3.__ Which statement seems to be true from Matt’s diagram?
+
+* [ ] Most 2-digit numbers are linked to the happification tree.
+* [x] Most 2-digit numbers are linked to the melancoil.
+* [ ] 2-digit numbers are equally likely to linked to the happification tree or the melancoil.
+
+---
+
+A quick look at Matt’s diagram shows that most 2-digit numbers (roughly 80%) link to the melancoil.
+:::
+
+
+## 2. A very silly song with a very silly maths joke
+
+One of my favourite bands is Barenaked Ladies. Now that some of the band members have become parents, they have written some songs for children, including this song aimed at 5-year-olds and silly mathematicians like me. Have a listen and answer the question below.
+
+@[youtube](x1cnJ_pOAdQ?rel=0)
+
+::: problem id=2_1 marks=2
+__2.1__ The song has the lines:
+
+“Once upon a time in our solar system,  
+We couldn't make do without 9,  
+But Pluto's not a planet now,  
+So 8 will do fine.” Why
+
+ is Pluto no longer classified as a planet? You will probably have to Google this.
+
+* [ ] Pluto is made of gas, not rock.
+* [ ] Pluto does not have any moons.
+* [ ] Pluto is too far from the Sun.
+* [ ] Pluto is a comet.
+* [x] Pluto has a messy neighbourhood.
+
+---
+
+A planet must be round and orbit the Sun, two conditions satisfied by Pluto. However, Pluto fails the third test. A planet should have cleared its orbit of any junk, because its gravity should be big enough to sweep up any nearby space rocks.
+:::
+
+
+## 3.	UKMT Problem
+
+If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
+
+Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+
+::: problem id=3_1 marks=3
+__3.1__ Heidi is 2.1 m tall, while Lola is only 1.4 m tall. What is their average height?
+
+* [ ] 1.525 m
+* [ ] 1.6 m
+* [ ] 1.7 m
+* [ ] 1.725 m
+* [x] 11.75 m
+
+---
+
+Their average height, in metres, is `(2.1 + 1.4)/2` = `3.5/2` = 1.75.
+:::
+
+
+***
+
+If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
+
+There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
+
+In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
+
+It is really important that you go through the solution sheet. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
+
+Cheerio,
+Simon.
+
+
+::: submit
+
+
+---
+
+## Additional Stuff
