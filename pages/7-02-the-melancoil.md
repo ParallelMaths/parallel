@@ -29,7 +29,7 @@ Last week we looked at happy numbers. If you have not completed last week’s Pa
 This week, Matt Parker takes a look at melancoil numbers, the opposite of happy numbers. Watch carefully and answer the questions below.
 By the way, melancoil is partly built from the world “melancholy”, which means a sense of sadness..
 
-@[youtube](kC6YObu61_w?end=386&rel=0)
+@[youtube](_DpzAvb3Vk4?end=386&rel=0)
 
 ::: problem id=1_1 marks=1
 __1.1.__ 13 is a happy number. Which of the following is very obviously also a happy number?
@@ -137,5 +137,3 @@ Simon.
 
 
 ---
-
-## Additional Stuff

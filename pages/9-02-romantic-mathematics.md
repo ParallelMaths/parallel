@@ -114,5 +114,3 @@ Simon.
 
 
 ---
-
-## Additional Stuff

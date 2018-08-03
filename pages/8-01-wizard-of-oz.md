@@ -177,5 +177,3 @@ Simon.
 
 
 ---
-
-## Additional Stuff

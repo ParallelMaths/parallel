@@ -112,5 +112,3 @@ Simon.
 
 
 ---
-
-## Additional Stuff
