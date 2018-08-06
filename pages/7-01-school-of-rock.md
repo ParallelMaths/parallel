@@ -116,17 +116,17 @@ If you are a Year 7 student, then it is likely that you will be taking part in t
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?
+__3.1__ Which of the following has the largest value?
 
-* [x] −2
-* [ ] −1
-* [ ] 0
-* [ ] 1
-* [ ] 2
+* [ ] 1 - 0.1
+* [ ] 1 - 0.01
+* [ ] 1 - 0.001
+* [ ] 1 - 0.0001
+* [x] 1 - 0.00001
 
 ---
 
-We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − (1) = −2.
+In each case a number is subtracted from 1. The smaller the number we subtract, the larger the answer will be. So the largest value is obtained when the smallest number is subtracted.
 :::
 
 
