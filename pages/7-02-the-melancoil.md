@@ -105,17 +105,17 @@ If you are a Year 7 student, then it is likely that you will be taking part in t
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ Heidi is 2.1 m tall, while Lola is only 1.4 m tall. What is their average height?
+__3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?
 
-* [ ] 1.525 m
-* [ ] 1.6 m
-* [ ] 1.7 m
-* [ ] 1.725 m
-* [x] 11.75 m
+* [x] -2
+* [ ] -1
+* [ ] 0
+* [ ] 1
+* [ ] 2
 
 ---
 
-Their average height, in metres, is `(2.1 + 1.4)/2` = `3.5/2` = 1.75.
+We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − (1) = −2 .
 :::
 
 

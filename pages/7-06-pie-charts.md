@@ -37,7 +37,8 @@ You will have come across lots of pie charts, and they are a useful way of repre
 ![](/resources/7-06-pie-charts/1-pie-5-understanding.jpg){image align="center"}
 
 
-## 2. Junior Maths Challenge 2011 (17)
+## 2. Junior Maths Challenge
+<!--- 2011 (17) --->
 
 In case you have forgotten, or are new to Parallelograms, these Junior Maths Challenge questions come from an annual maths challenge that you might already have been part of or which you might be taking part in this year. The questions are sometimes tough, but that is the definition of a challenge.
 
@@ -85,7 +86,8 @@ __3.1__ According to this video from the Quirkology YouTube channel, what was yo
 :::
 
 
-## 4. Junior Maths Challenge 2011 (18)
+## 4. Junior Maths Challenge
+<!--- 2011 (18) --->
 
 ::: problem id=4_1 marks=3
 __4.1__ Peri the winkle leaves on Monday to go and visit Granny, 90m away. Except for rest days, Peri travels 1m each day (24-hour period) at a constant rate and without pause.

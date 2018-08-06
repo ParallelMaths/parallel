@@ -60,7 +60,8 @@ The exception is number 19, which is made up of two yellows (2s) and one green (
 :::
 
 
-## 2. Junior Maths Challenge (2013)
+## 2. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=2_1 marks=2
 __2.1__ Gill went for a five-hour walk. Her average speed was between 3 km/h and 4 km/h.
@@ -81,7 +82,8 @@ As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 2
 :::
 
 
-## 3. Junior Maths Challenge (2013)
+## 3. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=3_1 marks=2
 ![](/resources/8-11-colour-code-challenge/3-rihlelo-question.jpg){image align="right"}

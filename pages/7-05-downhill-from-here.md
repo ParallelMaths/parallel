@@ -214,7 +214,8 @@ __3.1__ In the 1960s, what formation did ski jumpers make with their skies?
 
 :::
 
-## 4. Junior Maths Challenge 2011 (14)
+## 4. Junior Maths Challenge
+<!--- 2011 (14) --->
 
 ![](/resources/7-05-downhill-from-here/4-cuboid.png){image align="right"} The
 diagram shows a cuboid in which the area of the shaded face is one-quarter of

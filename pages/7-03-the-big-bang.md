@@ -108,25 +108,21 @@ If you are a Year 7 student, then it is likely that you will be taking part in t
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-![](/resources/7-03-the-big-bang/3-angles-question.jpg){image align="right"}
-__3.1__ What is the value of `x`?
+__3.1__ When painting the lounge, I used half of a 3 litre can to complete the first coat of paint. I then used two thirds of what was left to complete the second coat.
 
-* [ ] 25
-* [ ] 35
-* [x] 40
-* [ ] 65
-* [ ] 155
+How much paint was left after both coats were complete?
+
+* [ ] 150 ml
+* [ ] 200 ml
+* [ ] 250 ml
+* [x] 500 ml
+* [ ] 600 ml
 
 ---
 
-![](/resources/7-03-the-big-bang/3-angles-answer.jpg){image align="right"}
-Let the other angles be as marked in the diagram. Then `y` = 65 as the angles marked 65° and `y`° are the base angles of an isosceles triangle. Because the angles in a triangle sum to 180°, `z` = 180 − 65 − 65 = 50.
+The first coat uses half the paint, so half remains. Two thirds of this is then used so one third of one half, that is one sixth remains.
 
-Now, `w` = `z`, as the angles marked `w`° and `z`° are vertically opposite. Therefore `w` = 50.
-
-So, the angle marked `x`° is the third angle of a triangle in which the other two angles are 50° and 90°.
-
-Therefore `x` =180 − 50 − 90 = 40.
+So the volume remaining is `1/6 x 3` litres. So there remains 0.5 litres, that is, 500 ml of paint.
 :::
 
 

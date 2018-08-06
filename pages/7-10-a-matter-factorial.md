@@ -53,7 +53,8 @@ Note: The questioner, Jeremy Paxman, gives a different and larger answer, becaus
 :::
 
 
-## 2. Junior Maths Challenge (2012 extension)
+## 2. Junior Maths Challenge
+<!--- (2012 extension) --->
 
 ::: problem id=2_1 marks=1
 __2.1__ This is an extension problem based on an old Junior Maths Challenge question. What is the smallest ten-digit positive integer which has ten different digits?
@@ -66,7 +67,8 @@ The obvious strategy is to put the smallest number on the left, as it represents
 :::
 
 
-## 3. Junior Maths Challenge (2012 extension)
+## 3. Junior Maths Challenge
+<!--- (2012 extension) --->
 
 ::: problem id=3_1 marks=2
 __3.1__ Find all the positive integers greater than 1 and less than 40 which have exactly one factor other than 1 and itself. What is the sum of these integers?

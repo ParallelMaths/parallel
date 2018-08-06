@@ -263,7 +263,7 @@ time.
 @[youtube](8yYWILv91YU?rel=0&start=176&end=215)
 
 
-## 5. Junior Maths Challenge question
+## 5. Junior Maths Challenge 
 
 ::: problem id=5 marks=1
 __5__ Consider the following three statements:

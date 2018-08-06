@@ -102,7 +102,8 @@ So the tens number is always `x` (the card number that you chose), and the units
 ^^^
 
 
-## 4. Junior Maths Challenge 2011 (25)
+## 4. Junior Maths Challenge
+<!--- 2011 (25) --->
 
 ::: problem id=4_1 marks=3
 ![](/resources/7-08-tricky-parking-problem/4-jmc-polygon-question.jpg){image align="right"}

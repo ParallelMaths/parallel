@@ -105,7 +105,8 @@ __1.5.__ How many clockwise (y) spirals?
 :::
 
 
-## 2. Junior Maths Challenge 2011 (6)
+## 2. Junior Maths Challenge
+<!--- 2011 (6) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you may have entered last year and might be entering this year.
@@ -139,7 +140,8 @@ The six marked angles are the interior angles of 2 triangles. The interior angle
 :::
 
 
-## 3. Junior Maths Challenge 2011 (7)
+## 3. Junior Maths Challenge
+<!--- 2011 (7) --->
 
 ::: problem id=3_1 marks=2
 __3.1.__  Peter Piper picked a peck of pickled peppers. 1 peck = 1/4 bushel and

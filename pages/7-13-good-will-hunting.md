@@ -370,7 +370,7 @@ reason why it’s a good idea to be a confident mathematician.
 @[youtube](BbX44YSsQ2I?rel=0)
 
 
-## 5. Junior Maths Challenge question
+## 5. Junior Maths Challenge 
 
 ::: problem id=5 marks=1
 __5.1__ What is the value of `x`?

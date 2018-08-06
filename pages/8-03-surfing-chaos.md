@@ -80,17 +80,35 @@ As I mentioned last week, if you are a Year 8 student, then it is likely that yo
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?
+![](/resources/\8-03-surfing-chaos/3-magicsquare-question.jpg){image align="right"}
+__3.1__ Two numbers in the 4 × 4 grid can be swapped to create a Magic Square (in which all rows, all columns and both main diagonals add
+to the same total).
 
-* [x] −2
-* [ ] −1
-* [ ] 0
-* [ ] 1
-* [ ] 2
+What is the sum of these two numbers?
+
+^^^ hint id=1
+Start by sketching the initial magic square. Next add up all the rows, columns and diagonals, you will notice that most of them sum to 34. If you are going create a magic square by just swapping two numbers, then it is probably going to be easier to make everything add up to 34, rather than making all the 34s add up to something else.
+^^^
+
+^^^ hint id=2
+If a row, column or diagonal already sums to 34, then you probably don’t need to adjust anything, so cross out all the numbers in those columns, rows and diagonal. The numbers that you need to swap will be among whatever numbers are left. (As a bonus hint, you will notice that one of the diagonals adds to less than 34, so you will need to replace a number on the problematic diagonal with a larger number.)
+^^^
+
+* [ ] 12
+* [ ] 15
+* [ ] 22
+* [ ] 26
+* [x] 28
 
 ---
+![](/resources/\8-03-surfing-chaos/3-magicsquare-answer.jpg){image align="right"}
+Start by sketching the initial magic square. Next add up all the rows, columns and diagonals, you will notice that most of them sum to 34. If you are going create a magic square by just swapping two numbers, then it makes sense to force everything else to add up to 34.
 
-We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − (1) = −2.
+If a row, column or diagonal already sums to 34, then you probably don’t need to adjust anything, so cross out all the numbers in those columns, rows and diagonal. The numbers that you need to swap will be among whatever numbers are left.
+
+One of the remaining numbers is the 13 on the diagonal that goes from top left to bottom right, which totals to only 32. So this will need to be swapped with the 15 on the bottom row. As well as correcting the faulty diagonal, this swap also fixes the other problematic rows and columns.
+
+So, the two swapped numbers are 13 + 15 = 28, which means the answer is 28.
 :::
 
 

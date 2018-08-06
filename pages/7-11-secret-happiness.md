@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 11_ The Secret of Happiness 
+# _Year 7 • Parallelogram 11_ The Secret of Happiness
 
 <div class="dictionary">
 
@@ -29,7 +29,8 @@ We have looked at various Venn diagrams in recent weeks, but perhaps this is the
 ![](/resources/7-11-secret-happiness/1-zen-venn.jpg){image align="center"}
 
 
-## 2. Junior Maths Challenge (2013)
+## 2. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=2_1 marks=2
 __2.1__ Which of the following expressions has the largest value?
@@ -46,7 +47,8 @@ In each case a number is subtracted from 1. The smaller the number we subtract, 
 :::
 
 
-## 3. Junior Maths Challenge (2013)
+## 3. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=3_1 marks=2
 __3.1__ Heidi is 2.1 m tall, while Lola is only 1.4 m tall. What is their average height?

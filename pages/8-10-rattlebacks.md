@@ -38,7 +38,8 @@ Note: The questioner, Jeremy Paxman, gives a different and larger answer, becaus
 :::
 
 
-## 2. Junior Maths Challenge (2012 extension)
+## 2. Junior Maths Challenge
+<!--- (2012 extension) --->
 
 ::: problem id=2_1 marks=1
 __2.1__ A pattern that repeats every six symbols starts as shown below:
@@ -64,7 +65,8 @@ So, the 6-symbol pattern repeats itself 166 times, and the 5 symbol will sit in 
 :::
 
 
-## 3. Junior Maths Challenge (2012 extension)
+## 3. Junior Maths Challenge
+<!--- (2012 extension) --->
 
 ::: problem id=3_1 marks=3
 __3.1.__ One day Beth, Carolyn and George read a book of 240 pages. They take it in turns to read a page, always in the order Beth, Carolyn and George.
@@ -97,7 +99,8 @@ Derek Muller from YouTube’s Veritasium channel asks people to explain the mech
 @[youtube](Ux33-5k8cjg?rel=0)
 
 
-## 5. Junior Maths Challenge bonus (2012 extension)
+## 5. Junior Maths Challenge bonus
+<!--- (2012 extension) --->
 
 As the Junior Maths Challenge is only a few days away, here is a bonus (and particularly tough) JMC question to stretch your brain.
 

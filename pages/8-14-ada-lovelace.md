@@ -41,7 +41,8 @@ Of course, the niece will always be 30 years younger than her aunt.
 :::
 
 
-## 2. Junior Maths Challenge 2013 (11)
+## 2. Junior Maths Challenge
+<!--- 2013 (11) --->
 
 ::: problem id=2_1 marks=2
 __2.1.__ Usain runs twice as fast as his mum. His mum runs five times as fast as his pet tortoise, Turbo. They all set off together for a run down the same straight path. When Usain has run 100 m, how far apart are his mum and Turbo the tortoise?
@@ -116,7 +117,8 @@ By trial and error, you should have worked out that the only place you can start
 :::
 
 
-## 6. Junior Maths Challenge 2013 (12)
+## 6. Junior Maths Challenge
+<!--- 2013 (12) --->
 
 ::: problem id=6_1 marks=2
 ![](/resources/8-14-ada-lovelace/6-hexagons-answer.jpg){image align="right"}

@@ -64,7 +64,8 @@ _“Water may freeze in the atmosphere into small, flat, six-sided, ice crystals
 There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.
 
 
-## 3. Junior Maths Challenge 2011 (12)
+## 3. Junior Maths Challenge
+<!--- 2011 (12) --->
 
 ::: problem id=3_1 marks=2
 __3.1__ If &#9650; + &#9650; = &#9723; and &#9723; + &#9650; = &#9711; and &#9670; = &#9711; + &#9723; + &#9650;, how many &#9650;s are equal to &#9670;?

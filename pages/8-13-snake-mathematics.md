@@ -49,7 +49,8 @@ One approach is to draw a snake, then draw a line through it and draw two more h
 :::
 
 
-## 2. Junior Maths Challenge (2013)
+## 2. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=2_1 marks=3
 __2.1.__ Peter has three times as many sisters as brothers. His sister Louise has twice as many sisters as brothers. How many children are there in the family?
@@ -121,7 +122,8 @@ __4.2.__ Which two words are homographs?
 :::
 
 
-## 5. Junior Maths Challenge (2013)
+## 5. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=5_1 marks=2
 ![](/resources/8-13-snake-mathematics/5-dice-question.jpg){image align="right"}

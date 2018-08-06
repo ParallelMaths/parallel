@@ -44,7 +44,8 @@ As each problem is posed, pause the video and see if you can find a solution.
 @[youtube](Xg37L5z5r_M?rel=0)
 
 
-## 2. Junior Maths Challenge 2011 (8)
+## 2. Junior Maths Challenge
+<!--- 2011 (8) --->
 
 Some of you may have already taken part in the Junior Maths Challenge, and
 others might be taking part this year for the first time. Either way, each
@@ -84,7 +85,8 @@ Hence the ratio of the lengths is 12d:20d = 3:5
 :::
 
 
-## 3. Junior Maths Challenge 2011 (9)
+## 3. Junior Maths Challenge
+<!--- 2011 (9) --->
 
 ::: problem id=3_1 marks=2
 __3.1.__  What is the smallest possible difference between two different 9-digit integers, each of which includes all the digits 1 to 9?
@@ -107,7 +109,8 @@ As x and y are made up of the same digits, which add up to 45, they have the rem
 :::
 
 
-## 4. Junior Maths Challenge 2011 (9e)
+## 4. Junior Maths Challenge
+<!--- 2011 (9e) --->
 
 What is the largest difference between two 9-digit integers whose digits use each of the digits 1 to 9 once and once only? Once you've worked it out, fill in the larger number, the smaller number, and the difference between them, below:
 

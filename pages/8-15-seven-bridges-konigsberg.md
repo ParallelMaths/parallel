@@ -115,7 +115,8 @@ All the visible nodes have an even degree. The network can be drawn with a singl
 :::
 
 
-## 4. Junior Maths Challenge 2011 (10)
+## 4. Junior Maths Challenge
+<!--- 2011 (10) --->
 
 ::: problem id=4_1 marks=2
 ![](/resources/8-15-seven-bridges-konigsberg/4-pentagon-question.jpg){image align="right"}
@@ -150,7 +151,8 @@ If we reverse this path, we have a way to draw the diagram starting at `S`.
 :::
 
 
-## 5. Junior Maths Challenge 2011 (13)
+## 5. Junior Maths Challenge
+<!--- 2011 (13) --->
 
 ::: problem id=5_1 marks=2
 __5.1__ What is the mean of `2/3` and `4/9`?

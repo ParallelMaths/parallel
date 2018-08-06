@@ -64,7 +64,8 @@ __2.1__ According to Alan Sutcliffe, to do maths you need to be...
 :::
 
 
-## 3. Junior Maths Challenge 2011 (24)
+## 3. Junior Maths Challenge
+<!--- 2011 (24) --->
 
 ::: problem id=3_1 marks=2
 __3.1.__ Two adults and two children wish to cross a river. They make a raft but it will carry only the weight of one adult or two children. What is the minimum number of times the raft must cross the river to get all four people to the other side? (N.B. The raft may not cross the river without at least one person on board.)

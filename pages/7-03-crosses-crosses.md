@@ -32,7 +32,8 @@ that you think hard about the problems... and then learn where you went wrong
 when the answer sheet appears.
 
 
-## 1. Junior Maths Challenge 2011 (2e)
+## 1. Junior Maths Challenge
+<!--- 2011 (2e) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you might be entering this year. Ask your teacher, and he or
@@ -89,7 +90,8 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x
 divisible by 9, and because 1 + 1 = 2, the remainder is 2.
 :::
 
-## 2. Junior Maths Challenge 2011 (3)
+## 2. Junior Maths Challenge
+<!--- 2011 (3) --->
 
 ![](/resources/7-03-crosses-crosses/3-lightsquestion.png){image align="right"}
 

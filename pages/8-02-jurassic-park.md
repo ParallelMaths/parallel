@@ -100,20 +100,26 @@ If you are a Year 8 student, then it likely that you will taking part in the Uni
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-![](/resources/8-02-jurassic-park/2-rihlelo-question.jpg){image align="right"}
-__3.1__ The diagram shows a weaver’s design for a rihlèlò, a winnowing tray from Mozambique.
+__3.1__ A swimming club has three categories of members: junior, senior, veteran. The ratio of junior to senior members is 3:2 and the ratio of senior members to veterans is 5:2.
 
-How many lines of symmetry does the design have?
+Which of the following could be the total number of members in the swimming club?
 
-* [ ] 0
-* [ ] 1
-* [ ] 2
-* [x] 4
-* [ ] 8
+^^^ hint id=1
+The 5:2 ratio suggest that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible.
+
+However, the 5:2 ratio also suggest that we might have 10 seniors and 4 veterans, and if we have only 10 seniors then the 3:2 ratio would mean 15 juniors, which is much more sensible answer.
+^^^
+
+* [ ] 30
+* [ ] 35
+* [ ] 48
+* [x] 58
+* [ ] 60
 
 ---
-![](/resources/8-02-jurassic-park/2-rihlelo-answer.jpg){image align="right"}
-Their average height, in metres, is `(2.1 + 1.4)/2` = `3.5/2` = 1.75.
+The 5:2 ratio suggest that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible.
+
+However, the 5:2 ratio also suggest that we might have 10 seniors and 4 veterans, and if we have only 10 seniors then the 3:2 ratio would mean 15 juniors, which is much more sensible answer, with a total of 10 + 4 + 15 = 29 members. But this answer is not one of the choices, so we need to look for a multiple of 29, which is 58.
 :::
 
 

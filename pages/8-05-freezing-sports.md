@@ -165,7 +165,8 @@ Astronomers might be interested in pancake flipping, but probably less so than e
 :::
 
 
-## 3. Junior Maths Challenge 2011 (15)
+## 3. Junior Maths Challenge
+<!--- 2011 (15) --->
 
 ::: problem id=3 marks=3
 
@@ -195,7 +196,8 @@ This is a cool video from Physics Girl, who presents a terrific YouTube channel,
 @[youtube](2UHS883_P60?rel=0)
 
 
-## 5. Junior Maths Challenge 2011 (16)
+## 5. Junior Maths Challenge
+<!--- 2011 (16) --->
 
 ::: problem id=5 marks=3
 

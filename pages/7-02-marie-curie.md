@@ -36,7 +36,8 @@ that you think hard about the problems... and then learn where you went wrong wh
 the answer sheet appears.
 
 
-## 1. Junior Maths Challenge 2011 (1)
+## 1. Junior Maths Challenge
+<!--- 2011 (1) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you might be entering this year. Ask your teacher, and he or
@@ -69,7 +70,8 @@ operations. So, multiplications take priority over addition, so
 :::
 
 
-## 2. Junior Maths Challenge 2011 (2)
+## 2. Junior Maths Challenge
+<!--- 2011 (2) --->
 
 ::: problem id=2_1 marks=1
 __2.1.__ How many of the integers 123, 234, 345, 456, 567 are multiples of 3?

@@ -116,7 +116,8 @@ __1.3.__ How accurate is 13/8 compared to the true value of φ?
 
 :::
 
-## 2. Junior Maths Challenge 2011 (4)
+## 2. Junior Maths Challenge
+<!--- 2011 (4) --->
 
 The world's largest coin, made by the Royal Mint of Canada, was auctioned in June
 2010. The coin has mass 100 kg, whereas a standard British £1 coin has mass 10g.
@@ -139,7 +140,8 @@ weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need
 :::
 
 
-## 3. Junior Maths Challenge 2011 (5)
+## 3. Junior Maths Challenge
+<!--- 2011 (5) --->
 
 ::: problem id=3_1 marks=2
 __3.1.__  All old Mother Hubbard had in her cupboard was a Giant Bear chocolate

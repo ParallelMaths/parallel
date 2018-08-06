@@ -62,7 +62,8 @@ Once upon a time, Steve Jobs wanted to persuade the head of Pepsi to join him at
 Studying mathematics is a stepping stone to changing the world.
 
 
-## 3. Junior Maths Challenge (2013)
+## 3. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=3_1 marks=2
 __3.1.__ After tennis training, Andy collects twice as many balls as Roger and five more than
@@ -127,7 +128,8 @@ In fact, I am not sure Samuel L. Jackson is right when he is trying to work out 
 :::
 
 
-## 5. Junior Maths Challenge (2013)
+## 5. Junior Maths Challenge
+<!--- (2013) --->
 
 ::: problem id=5_1 marks=2
 __5.1.__ Two identical rulers are placed together, as shown (not to scale).

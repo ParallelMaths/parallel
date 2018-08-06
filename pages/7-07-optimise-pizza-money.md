@@ -50,7 +50,8 @@ __1.2__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and
 Yes, because one solution is (75 + 50) ÷ (100 + 25) + 8 – 9
 :::
 
-## 2. Junior Maths Challenge 2011 (21)
+## 2. Junior Maths Challenge
+<!--- 2011 (21) --->
 
 ::: problem id=2_1 marks=2
 __2.1__ Gill leaves Lille by train at 09:00. The train travels the first 27 km at 96 km/h. It then stops at Lens for 3 minutes before travelling the final 29 km to Lillers at 96 km/h. At what time does Gill arrive at Lillers?
@@ -111,7 +112,8 @@ The small pizza is `30/45` or `2/3` as wide as the medium pizza, so its area is 
 :::
 
 
-## 4. Junior Maths Challenge 2011 (22)
+## 4. Junior Maths Challenge
+<!--- 2011 (22) --->
 
 ::: problem id=4_1 marks=3
 __4.1__ Evariste and Sophie both bought some stamps for their collections. Each stamp Evariste bought cost him £1.10, whilst Sophie paid 70p for each of her stamps. Between them they spend exactly £10.00. How many stamps did they buy in total?
