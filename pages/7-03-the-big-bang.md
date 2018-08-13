@@ -12,8 +12,8 @@ week by the Parallel Project to bright young mathematicians.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -22,7 +22,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 This video is from the terrific Numberphile channel, and it features Dr James Grime and Professor Roger Bowley (University of Nothingham) talking about zero and asking if it is odd or even. Watch and answer the questions below.
 
-@[youtube](8t1TC-5OLdM?rel=0)
+@[youtube](8t1TC-5OLdM?end=382&rel=0)
 
 ::: problem id=1_1 marks=1
 __1.1.__ Is zero odd or even?
@@ -101,7 +101,7 @@ __2.2__ According to the song (and scientific observations) when did the Big Ban
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Junior Maths Challenge Problem
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
@@ -122,7 +122,7 @@ How much paint was left after both coats were complete?
 
 The first coat uses half the paint, so half remains. Two thirds of this is then used so one third of one half, that is one sixth remains.
 
-So the volume remaining is `1/6 x 3` litres. So there remains 0.5 litres, that is, 500 ml of paint.
+So the volume remaining is `1/6 × 3` litres. So there remains 0.5 litres, that is, 500 ml of paint.
 :::
 
 

@@ -16,8 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -55,6 +55,9 @@ __1.2.__ How many numbers are in the melancoil?
 ---
 
 Just take a look at Matt’s video. The melancoil is described from 3 minutes 30 seconds onwards.
+
+![](/resources/7-02-the-melancoil/1-melancoil-answer){image align="center"}
+
 :::
 
 ::: problem id=1_3 marks=2
@@ -82,9 +85,9 @@ __2.1__ The song has the lines:
 “Once upon a time in our solar system,  
 We couldn't make do without 9,  
 But Pluto's not a planet now,  
-So 8 will do fine.” Why
+So 8 will do fine.”
 
- is Pluto no longer classified as a planet? You will probably have to Google this.
+Why is Pluto no longer classified as a planet? You will probably have to Google this.
 
 * [ ] Pluto is made of gas, not rock.
 * [ ] Pluto does not have any moons.
@@ -98,7 +101,7 @@ A planet must be round and orbit the Sun, two conditions satisfied by Pluto. How
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Junior Maths Challenge Problem
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 

@@ -12,13 +12,13 @@ week by the Parallel Project to bright young mathematicians.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
-## 1. Kaprekar numbers
+## 1. Probability
 
 This week we have a big video question that is all about probability, so here are some warn up questions.
 
@@ -73,10 +73,10 @@ __1.5.__ If I roll two dice, what is the probability that both of them are both 
 
 ---
 
-The first dice has to show 2, as it both even and prime, and the probability of this is 1/6. The second dice also has to show 2, so the chance that the both show 1 is 1/6 x 1/6 = 1/36 = 0.03.
+The first dice has to show 2, as it is both even and prime, and the probability of this is 1/6. The second dice also has to show 2, so the chance that the both show 2 is 1/6 x 1/6 = 1/36 = 0.03.
 :::
 
-Next, take a look at this puzzle posed by Presh Talwalkar of the excellent Mind Your Decisions, and then answer the question in the video, repeated below. It’s a question from the Amazon interview process, so it is supposed to make you think.
+Next, take a look at this puzzle posed by Presh Talwalkar of the excellent Mind Your Decisions video channel, and then answer the question in the video, repeated below. It’s a question from the Amazon interview process, so it is designed to make you think.
 
 @[youtube](wjsG2Os0--o?end=22&rel=0)
 
@@ -104,7 +104,7 @@ It does not matter which card you pick first, but the second card has to be the 
 ## 2. Parking puzzle
 
 ::: problem id=2_1 marks=3
-__2.1.__ What is the number of parking space taken by the car? This is a tough question, so you might need to used the hints, but each hint will cost you 1 mark if you then get the answer right.
+__2.1.__ What is the number of parking space taken by the car? This is a tough question, so you might need to use the hints, but each hint will cost you 1 mark if you then get the answer right.
 
 ![](/resources/9-03-lots-of-socks/2-cars.png){image align="center"}
 
@@ -120,11 +120,11 @@ Look at it from the driver’s point of view.
 
 ---
 
-The answer it 87, because it you look it at from the drivers point of the view, then the numbers read 86 (not 98), 87, 88, 89, 90, 91 (not 16).
+The answer is 87, because if you look it at from the driver's point of the view, then the numbers read 86 (not 98), 87, 88, 89, 90, 91 (not 16).
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Intermediate Maths Challenge Problem
 
 As I mentioned last week, if you are a Year 9 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 

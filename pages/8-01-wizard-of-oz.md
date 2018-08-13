@@ -16,8 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -109,11 +109,13 @@ The answer is between 400 and 500.
 
 ## 2. Wizard of Oz
 
-If you have watched “The Wizard of Oz”, then you might not have spotted the maths that appears towards the end of the film. The Scarecrow famously wants a brain, but the best that the Wizard of Oz can do is to give him a diploma. This does not give the Scarecrow any knowledge or intelligence, but it does give him confidence. List to the Scarecrow’s version of Pythagoras’s Theorem.
+If you have watched “The Wizard of Oz”, then you might not have spotted the maths that appears towards the end of the film. The Scarecrow famously wants a brain, but the best that the Wizard of Oz can do is to give him a diploma. This does not give the Scarecrow any knowledge or intelligence, but it does give him confidence.
+
+Listen to the Scarecrow’s version of Pythagoras’s Theorem.
 
 @[youtube](2pWSwfVDiq8?rel=0)
 
-The Scarecrow recites an incorrect version of the Pythagorean Theorem: "The sum of the square roots of any two sides of an Isosceles triangle is equal to the square root of the remaining side.”
+The Scarecrow recites an incorrect version of the Pythagorean Theorem: "The sum of the square roots of any two sides of an isosceles triangle is equal to the square root of the remaining side.”
 
 ::: problem id=2_1 marks=1
 __2.1__ Instead of “square roots”, what should the Scarecrow have said?
@@ -134,7 +136,7 @@ __2.2__ Instead of “isosceles”, what should the Scarecrow have said?
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Junior Maths Challenge Problem
 
 If you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 

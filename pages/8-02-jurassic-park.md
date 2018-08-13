@@ -16,8 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -26,9 +26,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Last week we looked at 6,174, the Kaprekar constant. If you have not completed last week’s Parallelogram, then take a look at it after you complete this week’s list of questions. Remember, you can still earn reward points on a past Parallelogram.
 
-As well as being the Kaprekar constant for 4-digit numbers, the number 6,174 has a few interesting qualities. For example, it equals (18 + 182 + 183), which is (18 + 324 + 5,832).
-
-Another interesting property begins by working out the prime factors of 6,174 (namely, 2, 3, 3, 7, 7, 7, because 2 x 3 x 3 x 7 x 7 x7 = 6,174). Then square and add the prime factors (2² + 3² + 3² + 7² + 7² + 7²), which equals (4 + 9 + 9 + 49 + 49 + 49 = 169), which is another square number, namely 132.
+As well as being the Kaprekar constant for 4-digit numbers, the number 6,174 has a few interesting qualities. For example, it equals (18<sup>1</sup> + 18<sup>2</sup> + 18<sup>3</sup>), which is (18 + 324 + 5,832).
 
 6,174 is also known as a harshad number, because it is divisible by the sum of its digits:
 
@@ -38,7 +36,7 @@ The umber 18 is another harshad, because it is also divisible by the sum of its 
 
 18 = (1 + 8) x 2.
 
-By the way the word "harshad" comes from the ancient Indian Sanskrit language and it means joy-giver. So, you must enjoy this type of number. If you are finding harshad numbers boring, then work harder to enjoy them.
+By the way the word "harshad" comes from the ancient Indian Sanskrit language and it means joy-giver. So, I hope they are giving you at least a tiny bit of joy.
 
 ::: problem id=1_1 marks=1
 __1.1.__  Is the number 42 a harshad number?
@@ -93,9 +91,9 @@ Jurassic Park is one of Steven Spielberg’s most famous films, and it is based 
 @[youtube](5cVLUPwrSmU?rel=0)
 
 
-## 3.	UKMT Problem
+## 3.	Junior Maths Challenge Problem
 
-If you are a Year 8 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
+If you are a Year 8 student, then it likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
@@ -105,9 +103,9 @@ __3.1__ A swimming club has three categories of members: junior, senior, veteran
 Which of the following could be the total number of members in the swimming club?
 
 ^^^ hint id=1
-The 5:2 ratio suggest that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible.
+The 5:2 ratio suggests that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible.
 
-However, the 5:2 ratio also suggest that we might have 10 seniors and 4 veterans, and if we have only 10 seniors then the 3:2 ratio would mean 15 juniors, which is much more sensible answer.
+However, the 5:2 ratio also suggests that we might have 10 seniors and 4 veterans, and if we have only 10 seniors then the 3:2 ratio would mean 15 juniors, which is a much more sensible answer.
 ^^^
 
 * [ ] 30

@@ -16,8 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -36,13 +36,13 @@ __1.1.__ What is googol squared?
 * [ ] 10<sup>100</sup>
 * [x] 10<sup>200</sup>
 * [ ] 10<sup>10,000</sup>
-* [ ] 10<sup>100 x 100</sup>
+* [ ] 10<sup>100 × 100</sup>
 
 ---
 
 If you are squaring a number with an exponent, then you double the exponent.
 
-(3<sup>3</sup>)<sup>2</sup> = 36  
+(3<sup>3</sup>)<sup>2</sup> = 3<sup>6</sup> = 729  
 27<sup>2</sup> = 729  
 :::
 
@@ -58,16 +58,16 @@ __1.2.__ What is √(googol)?
 
 If you are square rooting a number with an exponent, then you halve the exponent.
 
-√(5<sup>6</sup>) = 5<sup>3</sup>  
+√(5<sup>6</sup>) = 5<sup>3</sup> = 125  
 √15,625 = 125  
 :::
 
 
 ## 2. Googol song
 
-This is Helen Arney, a physicist and geek songstress, singing about a googol… and trying her best to compose a verse about a googolplex. A googolplex = 10googol, and it is a vast number, even compared with a googol.
+This is Helen Arney, a physicist and geek songstress, singing about a googol… and trying her best to compose a verse about a googolplex. A googolplex = 10<sup>googol</sup>, and it is a vast number, even compared with a googol.
 
-Helen is accompanied by Matt Parker, who will reappear in a future Paralellogams.
+Helen is accompanied by Matt Parker, who will reappear in a future Paralellograms.
 
 @[youtube](5JOAoiX1LHA?rel=0)
 
@@ -77,7 +77,7 @@ __2.1__ What is googolplex squared?
 * [ ] 10<sup>googol</sup>
 * [ ] 20<sup>googol</sup>
 * [ ] 100<sup>googol</sup>
-* [x] 10<sup>2 x googol</sup>
+* [x] 10<sup>(2 × googol)</sup>
 
 ---
 
@@ -89,7 +89,7 @@ __2.2__ What is √(googolplex)?
 
 * [ ] 10<sup>googol</sup>
 * [ ] 5<sup>googol</sup>
-* [x] 10<sup>0.5 x googol</sup>
+* [x] 10<sup>(0.5 × googol)</sup>
 * [ ] 3.16<sup>googol</sup>
 
 ---
@@ -98,7 +98,7 @@ If you are square rooting a number with an exponent, then you halve the exponent
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Intermediate Maths Challenge Problem
 
 If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students in Years 9, 10 and 11from across the country.
 
@@ -107,7 +107,7 @@ Your teachers will help you prepare for this national maths competition, but eac
 (If you have already taken the JUNIOR Maths Challenge, aimed at younger students, then you will notice that these INTERMEDIATE Maths Challenge questions are generally a bit more tricky.)
 
 ::: problem id=3_1 marks=2
-__3.1__ Without using a calculator, what is the value of 4.5 x 5.5 + 4.5 x 4.5?
+__3.1__ Without using a calculator, what is the value of 4.5 × 5.5 + 4.5 × 4.5?
 
 * [ ] 36.5
 * [ ] 45
@@ -119,13 +119,17 @@ __3.1__ Without using a calculator, what is the value of 4.5 x 5.5 + 4.5 x 4.5?
 
 Since you are not allowed to use a calculator, it is a good idea to look for a way to avoid having to do multiplication sums. The presence of the factor 4.5 in both products provides a clue to an efficient method. If we take out this common factor, we obtain:
 
-4.5 x 5.5 + 4.5 x 4.5 = 4.5 x (5.5 + 4.5) = 4.5 x 10 = 45.
+4.5 × 5.5 + 4.5 × 4.5 = 4.5 × (5.5 + 4.5) = 4.5 × 10 = 45.
 :::
 
 ::: problem id=3_2 marks=3
-__3.2__ Without using a calculator find the value of 123.4 x 123.4 + 123.4 x 876.6
+__3.2__ Without using a calculator, find the value of 123.4 × 123.4 + 123.4 × 876.6
 
 <input type="text" solution="123,400"/>  
+
+---
+
+123.4 × 123.4 + 123.4 × 876.6 = 123.4 × (123.4 + 876.4) = 123.4 × 1,000 = 1,234.
 :::
 
 

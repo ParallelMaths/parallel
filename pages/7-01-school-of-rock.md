@@ -16,8 +16,9 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, then remember to hit the SUBMIT button.
-* Finish by Sunday night if you’re taking part with your classmates.
-* Extra reward points for Parallelograms finished by Monday.
+*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	Finish by midnight on Saturday to earn a 25% reward bonus.
+
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -32,10 +33,10 @@ Ria Symonds from the University of Nottingham explains why 7 is a happy number. 
 
 So for a number to be happy, just take the digits, square each digit and add all the squares to create a new number. Then repeat the process to the new number, and then repeat. If you end up with the number 1, then the number is happy. For example, 19 is happy, because it has the digits 1 and 9:
 
-1<sup>2</sup> + 9<sup>2</sup> = 8<sup>2</sup>
-8<sup>2</sup> + 2<sup>2</sup> = 68
-6<sup>2</sup> + 8<sup>2</sup> = 100
-1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1.
+1<sup>2</sup> + 9<sup>2</sup> = 8<sup>2</sup>  
+8<sup>2</sup> + 2<sup>2</sup> = 68  
+6<sup>2</sup> + 8<sup>2</sup> = 100  
+1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1.  
 
 Try to work out if the following numbers are happy or unhappy.
 
@@ -105,11 +106,11 @@ __2.1__ The teacher ask what is six multiplied by a billion, but what is a billi
 
 ---
 
-This wiki page explains everything you need to know about the names of large numbers. In short, however, a billion is 10<sup>9</sup>, so a billion times a billion is 1018, which is known as Quintillion.
+If you google “large numbers” later, then you will learn everything you need to know about the names of large numbers. In short, however, a billion is 10<sup>9</sup>, so a billion times a billion is 10<sup>18</sup>, which is known as a quintillion.
 :::
 
 
-## 3.	UKMT Problem
+## 3.	Junior Maths Challenge Problem
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
@@ -118,11 +119,11 @@ Your teachers will help you prepare for this national maths competition, but eac
 ::: problem id=3_1 marks=3
 __3.1__ Which of the following has the largest value?
 
-* [ ] 1 - 0.1
-* [ ] 1 - 0.01
-* [ ] 1 - 0.001
-* [ ] 1 - 0.0001
-* [x] 1 - 0.00001
+* [ ] 1 − 0.1
+* [ ] 1 − 0.01
+* [ ] 1 − 0.001
+* [ ] 1 − 0.0001
+* [x] 1 − 0.00001
 
 ---
 
