@@ -25,6 +25,5 @@ To deploy updates to the [live site](https://parallel.org.uk), use
 Adding a new parallelogram consists of three parts:
 
 * Create a new file at `/pages/<name>.md` with the parallelogram content.
-* Upload all required resources (e.g. images) to `/resources/<name>/`. Note that
-  the names of the `.md` file and the resources directory have to match.
+* Upload all required resources (e.g. images) to `/static/resources/<name>/`.
 * Update `/pages/pages.yaml` with the new parallelogram and the required timings.
