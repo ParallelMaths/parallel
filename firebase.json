@@ -4,10 +4,17 @@
   },
   "hosting": {
     "public": "build",
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "app"
+      }
+    ],
     "cleanUrls": true,
     "trailingSlash": false,
     "ignore": [
-      "firebase.json",
+      "private/**",
+      "pages/**",
       "**/node_modules/**"
     ]
   }

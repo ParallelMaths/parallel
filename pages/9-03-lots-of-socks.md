@@ -161,7 +161,6 @@ if and only if (p - 1)(p - 5) = 0.
 This gives just the two solutions p = 1,5 corresponding to the correct equations 12 ÷ 3 = 4 and 56 ÷ 7 = 8.
 :::
 
-
 ***
 
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
@@ -174,9 +173,3 @@ It is really important that you go through the solution sheet. Seriously importa
 
 Cheerio,
 Simon.
-
-
-::: submit
-
-
----

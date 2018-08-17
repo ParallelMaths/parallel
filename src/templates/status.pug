@@ -1,5 +1,0 @@
-.status-banner(v-if="user.ready && c.status != 'revealed'" v-bind:class="c.status")
-  span(v-if="c.status == 'locked'") [INTERNAL] This parallelogram is locked.
-  span(v-if="c.status == 'preview'") This is a preview of Parallel. You have to login or #[a(href="/signup") create an account], to be able to answer questions and submit answers.
-  span(v-if="c.status == 'open'") This Parallelogram is currently active. You have {{ timeUntil(c.deadline) }} left to submit your answers.
-  span(v-if="c.status == 'submitted'") You've already submitted your answers. The correct solutions will be shown in {{ timeUntil(c.deadline) }}.

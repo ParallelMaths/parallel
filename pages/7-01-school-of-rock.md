@@ -143,9 +143,3 @@ It is really important that you go through the solution sheet. Seriously importa
 
 Cheerio,
 Simon.
-
-
-::: submit
-
-
----
