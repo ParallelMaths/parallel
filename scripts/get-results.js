@@ -10,7 +10,7 @@ fb.initializeApp({
 });
 
 const pageData = yaml.load(path.join(__dirname, '../pages/pages.yaml'));
-const pages = [...pageData.year7.map(p => p.url), ...pageData.year8.map(p => p.url)];
+const pages = [...pageData.year7.map(p => p.url), ...pageData.year8.map(p => p.url), ...pageData.year9.map(p => p.url)];
 
 async function run() {
   const userData = await fb.database().ref('users').once('value');

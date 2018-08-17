@@ -21,4 +21,7 @@ node_modules/
 
 functions/pages/
 functions/pages.json
+functions/badges.json
 private/
+static/parallel.js
+static/parallel.css

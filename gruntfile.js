@@ -34,11 +34,6 @@ grunt.initConfig({
     app: {files: {'static/parallel.css': 'static/parallel.css'}}
   },
 
-  yaml: {
-    options: {spaces: 2},
-    app: {files: {'functions/pages.json': 'pages/pages.yaml'}}
-  },
-
   markdown: {
     app: {files: [{
       expand: true,
@@ -46,6 +41,17 @@ grunt.initConfig({
       src: ['*.md'],
       dest: 'functions/pages',
       ext: '.html'
+    }]}
+  },
+
+  yaml: {
+    options: {spaces: 2},
+    app: {files: [{
+      expand: true,
+      cwd: 'static',
+      src: ['*.yaml'],
+      dest: 'functions',
+      ext: '.json'
     }]}
   },
 
