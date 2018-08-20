@@ -15,7 +15,7 @@ Welcome to the second of our Parallelograms designed for Year 7 students, a coll
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
+* When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if you’re taking part with your classmates.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
@@ -105,7 +105,7 @@ A planet must be round and orbit the Sun, two conditions satisfied by Pluto. How
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?

@@ -15,7 +15,7 @@ Welcome to the first of our Parallelograms designed for Year 9 students, a colle
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
+* When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if you’re taking part with your classmates.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
@@ -28,7 +28,7 @@ The mathematical term “googol” was invented in 1920 by 9-year-old Milton Sir
 
 The fact that it can be written in such a compact form, 10<sup>100</sup>, is deceiving, because it represents a phenomenonally gigantic number of mind-blowing proportions. A googol is about one hundred billion billion times bigger than the number of particles in the visible universe (10<sup>80</sup>).
 
-Although the company and search engine Google is spelt differently, it based its name of the huge number googol, because its ambition was to provide users with huge amounts of information.
+Although the company and search engine Google is spelt differently, it based its name on the huge number googol, because its ambition was to provide users with huge amounts of information.
 
 ::: problem id=1_1 marks=2
 __1.1.__ What is googol squared?
@@ -40,7 +40,7 @@ __1.1.__ What is googol squared?
 
 ---
 
-If you are squaring a number with an exponent, then you double the exponent.
+If you are squaring a number with an exponent, then you double the exponent, for example:
 
 (3<sup>3</sup>)<sup>2</sup> = 3<sup>6</sup> = 729  
 27<sup>2</sup> = 729  
@@ -56,7 +56,7 @@ __1.2.__ What is √(googol)?
 
 ---
 
-If you are square rooting a number with an exponent, then you halve the exponent.
+If you are square rooting a number with an exponent, then you halve the exponent, for example:
 
 √(5<sup>6</sup>) = 5<sup>3</sup> = 125  
 √15,625 = 125  
@@ -102,7 +102,7 @@ If you are square rooting a number with an exponent, then you halve the exponent
 
 If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students in Years 9, 10 and 11from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Intermediate Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Intermediate Maths Challenge question.
 
 (If you have already taken the JUNIOR Maths Challenge, aimed at younger students, then you will notice that these INTERMEDIATE Maths Challenge questions are generally a bit more tricky.)
 
@@ -110,10 +110,10 @@ Your teachers will help you prepare for this national maths competition, but eac
 __3.1__ Without using a calculator, what is the value of 4.5 × 5.5 + 4.5 × 4.5?
 
 * [ ] 36.5
-* [ ] 45
+* [x] 45
 * [ ] 50
 * [ ] 90
-* [x] 100
+* [ ] 100
 
 ---
 
@@ -129,7 +129,7 @@ __3.2__ Without using a calculator, find the value of 123.4 × 123.4 + 123.4 × 
 
 ---
 
-123.4 × 123.4 + 123.4 × 876.6 = 123.4 × (123.4 + 876.4) = 123.4 × 1,000 = 1,234.
+123.4 × 123.4 + 123.4 × 876.6 = 123.4 × (123.4 + 876.6) = 123.4 × 1,000 = 1,234.
 :::
 
 

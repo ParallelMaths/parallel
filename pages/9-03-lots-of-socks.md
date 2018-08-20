@@ -11,7 +11,7 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
+* When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if you’re taking part with your classmates.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
@@ -128,7 +128,7 @@ The answer is 87, because if you look it at from the driver's point of the view,
 
 As I mentioned last week, if you are a Year 9 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ The consecutive digits 1, 2, 3, 4 in that order can be arranged to make the correct division, 12 ÷ 3 = 4. One _other_ sequence of four consecutive digits `p`, `q`, `r`, `s` makes a correct division, `pq` ÷ `r` = `s`. What is the value of `s` in this case?
