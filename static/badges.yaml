@@ -59,43 +59,43 @@ year7:
     type: historic
     score: 1800
     link:
-  - id: 7-number-
-    name:
+  - id: 7-number-zero
+    name: 0
     type: number
     score: 2050
     link:
-  - id: 7-number-
-    name:
+  - id: 7-number-infinity
+    name: ∞
     type: number
     score: 2300
     link:
-  - id: 7-number-
-    name:
+  - id: 7-number-root2
+    name: √2
     type: number
     score: 2550
     link:
-  - id: 7-number-
-    name:
+  - id: 7-number-42
+    name: 42
     type: number
     score: 2800
     link:
-  - id: 7-modern-
-    name:
+  - id: 7-modern-Turing
+    name: Alan Turing
     type: modern
     score: 3100
     link:
-  - id: 7-modern-
-    name:
+  - id: 7-modern-Villani
+    name: Cedric Villani
     type: modern
     score: 3400
     link:
-  - id: 7-modern-
-    name:
+  - id: 7-modern-Tao
+    name: Terence Tao
     type: modern
     score: 3700
     link:
-  - id: 7-modern-
-    name:
+  - id: 7-modern-Hopper
+    name: Grace Hopper
     type: modern
     score: 4000
     link:
@@ -161,43 +161,43 @@ year8:
     type: historic
     score: 1800
     link:
-  - id: 8-number-
-    name:
+  - id: 8-number-googol
+    name: Googol
     type: number
     score: 2050
     link:
-  - id: 8-number-
-    name:
+  - id: 8-number-pi
+    name: π
     type: number
     score: 2300
     link:
-  - id: 8-number-
-    name:
+  - id: 8-number-i
+    name: i
     type: number
     score: 2550
     link:
-  - id: 8-number-
-    name:
+  - id: 8-number-minus1
+    name: -1
     type: number
     score: 2800
     link:
-  - id: 8-modern-
-    name:
+  - id: 8-modern-Wiles
+    name: Andrew Wiles
     type: modern
     score: 3100
     link:
-  - id: 8-modern-
-    name:
+  - id: 8-modern-Erdos
+    name: Paul Erdos
     type: modern
     score: 3400
     link:
-  - id: 8-modern-
-    name:
+  - id: 8-modern-Atiyah
+    name: Michael Atiyah
     type: modern
     score: 3700
     link:
-  - id: 8-modern-
-    name:
+  - id: 8-modern-Johnson
+    name: Katherine Johnson
     type: modern
     score: 4000
     link:
@@ -224,7 +224,7 @@ year9:
     type: ancient
     score: 400
     link:
-  - id: 9-geometry- ImpossibleCube
+  - id: 9-geometry-ImpossibleCube
     name: Impossible Cube
     type: geometry
     score: 550
@@ -264,43 +264,43 @@ year9:
     type: historic
     score: 1800
     link:
-  - id: 9-number-
-    name:
+  - id: 9-number-googolplex
+    name: Googolplex
     type: number
     score: 2050
     link:
-  - id: 9-number-
-    name:
+  - id: 9-number-2
+    name: 2
     type: number
     score: 2300
     link:
-  - id: 9-number-
-    name:
+  - id: 9-number-phi
+    name: φ
     type: number
     score: 2550
     link:
-  - id: 9-number-
-    name:
+  - id: 9-number-e
+    name: e
     type: number
     score: 2800
     link:
-  - id: 9-modern-
-    name:
+  - id: 9-modern-Grigori
+    name: Grigori Perelman
     type: modern
     score: 3100
     link:
-  - id: 9-modern-
-    name:
+  - id: 9-modern-Nash
+    name: John Nash
     type: modern
     score: 3400
     link:
-  - id: 9-modern-
-    name:
+  - id: 9-modern-Avila
+    name: Artur Ávila
     type: modern
     score: 3700
     link:
-  - id: 9-modern-
-    name:
+  - id: 9-modern-Mirzakhani
+    name: Maryam Mirzakhani
     type: modern
     score: 4000
     link:
