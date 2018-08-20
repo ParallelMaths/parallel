@@ -1,306 +1,306 @@
 year7:
-  - id: 7-ancients-Pythagoras
-    name: Pythagoras
-    type: ancient
-    score: 100
-    link:
-  - id: 7-ancients-Hypatia
-    name: Hypatia
-    type: ancient
-    score: 200
-    link:
-  - id: 7-ancients-Alkhwarizmi
-    name: Muhammad Al-Khwarizmi
-    type: ancient
-    score: 300
-    link: http://www.storyofmathematics.com/islamic_alkhwarizmi.html
-  - id: 7-ancients-Euclid
-    name: Euclid
-    type: ancient
-    score: 400
-    link:
-  - id: 7-geometry-Mobius
-    name: Mobius Strip
-    type: geometry
-    score: 550
-    link:
-  - id: 7-geometry-Konigsberg
-    name: Königsberg Bridges
-    type: geometry
-    score: 700
-    link:
-  - id: 7-geometry-BorromeanRings
-    name: Borromean Rings
-    type: geometry
-    score: 850
-    link:
-  - id: 7-geometry-ReuleauxTriangle
-    name: Reuleaux Triangle
-    type: geometry
-    score: 1000
-    link:
-  - id: 7-historic-Babbage
-    name: Charles Babbage
-    type: historic
-    score: 1200
-    link:
-  - id: 7-historic-Ramanujan
-    name: Srinivasa Ramanujan
-    type: historic
-    score: 1400
-    link:
-  - id: 7-historic-Wassilijewna
-    name: Sofia Kovalevskaya
-    type: historic
-    score: 1600
-    link:
-  - id: 7-historic-Germain
-    name: Sophie Germain
-    type: historic
-    score: 1800
-    link:
-  - id: 7-number-
-    name:
-    type: number
-    score: 2050
-    link:
-  - id: 7-number-
-    name:
-    type: number
-    score: 2300
-    link:
-  - id: 7-number-
-    name:
-    type: number
-    score: 2550
-    link:
-  - id: 7-number-
-    name:
-    type: number
-    score: 2800
-    link:
-  - id: 7-modern-
-    name:
-    type: modern
-    score: 3100
-    link:
-  - id: 7-modern-
-    name:
-    type: modern
-    score: 3400
-    link:
-  - id: 7-modern-
-    name:
-    type: modern
-    score: 3700
-    link:
-  - id: 7-modern-
-    name:
-    type: modern
-    score: 4000
-    link:
+- id: 7-ancients-pythagoras
+  name: Pythagoras
+  type: ancient
+  score: 100
+  link:
+- id: 7-ancients-hypatia
+  name: Hypatia
+  type: ancient
+  score: 200
+  link:
+- id: 7-ancients-alkhwarizmi
+  name: Muhammad Al-Khwarizmi
+  type: ancient
+  score: 300
+  link: http://www.storyofmathematics.com/islamic_alkhwarizmi.html
+- id: 7-ancients-euclid
+  name: Euclid
+  type: ancient
+  score: 400
+  link:
+- id: 7-geometry-mobius
+  name: Mobius Strip
+  type: geometry
+  score: 550
+  link:
+- id: 7-geometry-konigsberg
+  name: Königsberg Bridges
+  type: geometry
+  score: 700
+  link:
+- id: 7-geometry-borromean
+  name: Borromean Rings
+  type: geometry
+  score: 850
+  link:
+- id: 7-geometry-reuleaux
+  name: Reuleaux Triangle
+  type: geometry
+  score: 1000
+  link:
+- id: 7-historic-babbage
+  name: Charles Babbage
+  type: historic
+  score: 1200
+  link:
+- id: 7-historic-ramanujan
+  name: Srinivasa Ramanujan
+  type: historic
+  score: 1400
+  link:
+- id: 7-historic-wassilijewna
+  name: Sofia Kovalevskaya
+  type: historic
+  score: 1600
+  link:
+- id: 7-historic-germain
+  name: Sophie Germain
+  type: historic
+  score: 1800
+  link:
+- id: 7-number-zero
+  name: Zero
+  type: number
+  score: 2050
+  link:
+- id: 7-number-infinity
+  name: Infinity
+  type: number
+  score: 2300
+  link:
+- id: 7-number-root2
+  name: √2
+  type: number
+  score: 2550
+  link:
+- id: 7-number-42
+  name: 42
+  type: number
+  score: 2800
+  link:
+- id: 7-modern-turing
+  name: Alan Turing
+  type: modern
+  score: 3100
+  link:
+- id: 7-modern-villani
+  name: Cedric Villani
+  type: modern
+  score: 3400
+  link:
+- id: 7-modern-tao
+  name: Terence Tao
+  type: modern
+  score: 3700
+  link:
+- id: 7-modern-hopper
+  name: Grace Hopper
+  type: modern
+  score: 4000
+  link:
 
 year8:
-  - id: 8-ancients-Brahmagupta
-    name: Brahmagupta
-    type: ancient
-    score: 100
-    link:
-  - id: 8-ancients-Thales
-    name: Thales
-    type: ancient
-    score: 200
-    link:
-  - id: 8-ancients-Plato
-    name: Plato
-    type: ancient
-    score: 300
-    link:
-  - id: 8-ancients-Theano
-    name: Theano
-    type: ancient
-    score: 400
-    link:
-  - id: 8-geometry-Escher
-    name: Escher
-    type: geometry
-    score: 550
-    link:
-  - id: 8-geometry-Penrose
-    name: Penrose triangle
-    type: geometry
-    score: 700
-    link:
-  - id: 8-geometry-Tesseract
-    name: Tesseract
-    type: geometry
-    score: 850
-    link:
-  - id: 8-geometry-KleinBottle
-    name: Klein Bottle
-    type: geometry
-    score: 1000
-    link:
-  - id: 8-historic-Cantor
-    name: Georg Cantor
-    type: historic
-    score: 1200
-    link:
-  - id: 8-historic-Fuller
-    name: Thomas Fuller
-    type: historic
-    score: 1400
-    link:
-  - id: 8-historic-Fermat
-    name: Pierre de Fermat
-    type: historic
-    score: 1600
-    link:
-  - id: 8-historic-Nightingale
-    name: Florence Nightingale
-    type: historic
-    score: 1800
-    link:
-  - id: 8-number-
-    name:
-    type: number
-    score: 2050
-    link:
-  - id: 8-number-
-    name:
-    type: number
-    score: 2300
-    link:
-  - id: 8-number-
-    name:
-    type: number
-    score: 2550
-    link:
-  - id: 8-number-
-    name:
-    type: number
-    score: 2800
-    link:
-  - id: 8-modern-
-    name:
-    type: modern
-    score: 3100
-    link:
-  - id: 8-modern-
-    name:
-    type: modern
-    score: 3400
-    link:
-  - id: 8-modern-
-    name:
-    type: modern
-    score: 3700
-    link:
-  - id: 8-modern-
-    name:
-    type: modern
-    score: 4000
-    link:
+- id: 8-ancients-brahmagupta
+  name: Brahmagupta
+  type: ancient
+  score: 100
+  link:
+- id: 8-ancients-thales
+  name: Thales
+  type: ancient
+  score: 200
+  link:
+- id: 8-ancients-plato
+  name: Plato
+  type: ancient
+  score: 300
+  link:
+- id: 8-ancients-theano
+  name: Theano
+  type: ancient
+  score: 400
+  link:
+- id: 8-geometry-escher
+  name: Escher
+  type: geometry
+  score: 550
+  link:
+- id: 8-geometry-penrose
+  name: Penrose triangle
+  type: geometry
+  score: 700
+  link:
+- id: 8-geometry-tesseract
+  name: Tesseract
+  type: geometry
+  score: 850
+  link:
+- id: 8-geometry-kleinbottle
+  name: Klein Bottle
+  type: geometry
+  score: 1000
+  link:
+- id: 8-historic-cantor
+  name: Georg Cantor
+  type: historic
+  score: 1200
+  link:
+- id: 8-historic-fuller
+  name: Thomas Fuller
+  type: historic
+  score: 1400
+  link:
+- id: 8-historic-fermat
+  name: Pierre de Fermat
+  type: historic
+  score: 1600
+  link:
+- id: 8-historic-nightingale
+  name: Florence Nightingale
+  type: historic
+  score: 1800
+  link:
+- id: 8-number-googol
+  name: Googol
+  type: number
+  score: 2050
+  link:
+- id: 8-number-pi
+  name: π
+  type: number
+  score: 2300
+  link:
+- id: 8-number-i
+  name: i
+  type: number
+  score: 2550
+  link:
+- id: 8-number-minus1
+  name: -1
+  type: number
+  score: 2800
+  link:
+- id: 8-modern-wiles
+  name: Andrew Wiles
+  type: modern
+  score: 3100
+  link:
+- id: 8-modern-erdos
+  name: Paul Erdos
+  type: modern
+  score: 3400
+  link:
+- id: 8-modern-atiyah
+  name: Michael Atiyah
+  type: modern
+  score: 3700
+  link:
+- id: 8-modern-johnson
+  name: Katherine Johnson
+  type: modern
+  score: 4000
+  link:
 
 
 year9:
-  - id: 9-ancients-Aristotle
-    name: Aristotle
-    type: ancient
-    score: 100
-    link:
-  - id: 9-ancients-Tymicha
-    name: Tymicha of Sparta
-    type: ancient
-    score: 200
-    link:
-  - id: 9-ancients-Archimedes
-    name: Archimedes
-    type: ancient
-    score: 300
-    link:
-  - id: 9-ancients-SunTzu
-    name: Sun Tzu
-    type: ancient
-    score: 400
-    link:
-  - id: 9-geometry- ImpossibleCube
-    name: Impossible Cube
-    type: geometry
-    score: 550
-    link:
-  - id: 9-geometry-FibonacciSpirals
-    name: Fibonacci spirals
-    type: geometry
-    score: 700
-    link:
-  - id: 9-geometry-Dodecahedron
-    name: Dodecahedron
-    type: geometry
-    score: 850
-    link:
-  - id: 9-geometry-Torus
-    name: Torus
-    type: geometry
-    score: 1000
-    link:
-  - id: 9-historic-Galois
-    name: Evariste Galois
-    type: historic
-    score: 1200
-    link:
-  - id: 9-historic-Dawei
-    name: Cheng Dawei
-    type: historic
-    score: 1400
-    link:
-  - id: 9-historic-Gauss
-    name: Carl Friedrich Gauss
-    type: historic
-    score: 1600
-    link:
-  - id: 9-historic-Lovelace
-    name: Ada Lovelace
-    type: historic
-    score: 1800
-    link:
-  - id: 9-number-
-    name:
-    type: number
-    score: 2050
-    link:
-  - id: 9-number-
-    name:
-    type: number
-    score: 2300
-    link:
-  - id: 9-number-
-    name:
-    type: number
-    score: 2550
-    link:
-  - id: 9-number-
-    name:
-    type: number
-    score: 2800
-    link:
-  - id: 9-modern-
-    name:
-    type: modern
-    score: 3100
-    link:
-  - id: 9-modern-
-    name:
-    type: modern
-    score: 3400
-    link:
-  - id: 9-modern-
-    name:
-    type: modern
-    score: 3700
-    link:
-  - id: 9-modern-
-    name:
-    type: modern
-    score: 4000
-    link:
+- id: 9-ancients-aristotle
+  name: Aristotle
+  type: ancient
+  score: 100
+  link:
+- id: 9-ancients-tymicha
+  name: Tymicha of Sparta
+  type: ancient
+  score: 200
+  link:
+- id: 9-ancients-archimedes
+  name: Archimedes
+  type: ancient
+  score: 300
+  link:
+- id: 9-ancients-suntzu
+  name: Sun Tzu
+  type: ancient
+  score: 400
+  link:
+- id: 9-geometry-impossiblecube
+  name: Impossible Cube
+  type: geometry
+  score: 550
+  link:
+- id: 9-geometry-fibonaccispiral
+  name: Fibonacci Spiral
+  type: geometry
+  score: 700
+  link:
+- id: 9-geometry-dodecahedron
+  name: Dodecahedron
+  type: geometry
+  score: 850
+  link:
+- id: 9-geometry-torus
+  name: Torus
+  type: geometry
+  score: 1000
+  link:
+- id: 9-historic-galois
+  name: Evariste Galois
+  type: historic
+  score: 1200
+  link:
+- id: 9-historic-dawei
+  name: Cheng Dawei
+  type: historic
+  score: 1400
+  link:
+- id: 9-historic-gauss
+  name: Carl Friedrich Gauss
+  type: historic
+  score: 1600
+  link:
+- id: 9-historic-lovelace
+  name: Ada Lovelace
+  type: historic
+  score: 1800
+  link:
+- id: 9-number-googolplex
+  name: Googolplex
+  type: number
+  score: 2050
+  link:
+- id: 9-number-2
+  name: 2
+  type: number
+  score: 2300
+  link:
+- id: 9-number-phi
+  name: φ
+  type: number
+  score: 2550
+  link:
+- id: 9-number-e
+  name: e
+  type: number
+  score: 2800
+  link:
+- id: 9-modern-perelman
+  name: Grigori Perelman
+  type: modern
+  score: 3100
+  link:
+- id: 9-modern-nash
+  name: John Nash
+  type: modern
+  score: 3400
+  link:
+- id: 9-modern-avila
+  name: Artur Ávila
+  type: modern
+  score: 3700
+  link:
+- id: 9-modern-mirzakhani
+  name: Maryam Mirzakhani
+  type: modern
+  score: 4000
+  link:
