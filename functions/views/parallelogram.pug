@@ -1,0 +1,55 @@
+extends _layout
+
+mixin score()
+  div(class='score ' + scoreClass(userData.score))
+    p.large Score: #{userData.score}%
+    p Level: {{user.getLevel(c.data)}}
+
+block content
+  header(style=`background-image: url('/resources/${pid}/header.jpg')`)
+    h1
+      em= page.subtitle
+      | #{page.title}
+
+  if !user
+    .status-banner This is a preview of Parallel. You have to login or #[a(href="/signup") create an account], to be able to answer questions and submit answers.
+  if user && userData.submitted
+    +score()
+
+  div!= body
+
+  if user
+    if userData.submitted
+      +score()
+    else
+      button#submit(v-on:click="c.submit") Submit Answers
+
+  script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
+  script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
+
+
+//- svg(style="display: none")
+  defs
+    polygon#star(points="19.8,2.2,6.6,43.56,39.6,17.16,0,17.16,33,43.56")
+
+//- mixin stars(label)
+  for i in [1,2,3,4,5]
+    svg(width=40 height=42 v-bind:class="{active:" + i + "&&" + i +"<=answers." + label + "}" v-on:click="answers." + label + "=" + i): use(href="#star")
+
+//- table
+  tr
+    td Too easy
+    td: +stars('difficulty')
+    td Too difficult
+  tr
+    td Too short
+    td: +stars('length')
+    td Too long
+  tr
+    td Horrible
+    td: +stars('fun')
+    td Lots of fun
+  tr
+    td Very boring
+    td: +stars('interesting')
+    td Very interesting

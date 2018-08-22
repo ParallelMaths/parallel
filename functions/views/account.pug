@@ -1,0 +1,44 @@
+extends _layout
+
+block content
+  h1 Edit Account
+
+  form(v-on:submit="user.edit"  v-bind:class="{loading: user.editForm.loading}")
+    .error(v-show="user.editForm.error" style="margin-top: .5em") {{user.editForm.error}}
+
+    if user.code
+      //- Teacher Account Fields
+      label
+        | School Name
+        input(type="text" v-model="user.editForm.schoolName" value=user.schoolName)
+
+      label
+        | School Post Code
+        input(type="text" v-model="user.editForm.postCode" value=user.postCode)
+
+      label
+        | School Phone Number
+        input(type="text" v-model="user.editForm.phoneNumber" value=user.phoneNumber)
+
+    else
+      //- Student Account Fields
+      label
+        | Teacher code (optional)
+        input(type="text" v-model="user.editForm.teacherCode" value=user.teacherCode)
+
+      label
+        | Year
+        select(v-model="user.editForm.level")
+          option(value="year7") Year 7 (age 11–12)
+          option(value="year8") Year 8 (age 12–13)
+          option(value="year9") Year 8 (age 13–14)
+
+    label
+      | Old Password (optional)
+      input(type="password" v-model="user.editForm.old" autocomplete="password")
+
+    label
+      | New Password (optional)
+      input(type="password" pattern=".{6,}" v-model="user.editForm.new" autocomplete="new-password")
+
+    button(type="submit") Update

@@ -1,0 +1,12 @@
+extends _layout
+
+block content
+  h1 #{code} Error!
+  if code === 401
+    p(style="text-align: center") You don't have access to this page.#[br]Please #[a(href="/signup") create an account], or log in using the form on the left.
+  if code === 403
+    p(style="text-align: center") Unfortunately you don't have access to this page.
+  if code === 404
+    p(style="text-align: center") This page does not exist.#[br]Make sure you entered the correct URL, or go back to our #[a(href="/") homepage].
+  if code === 500
+    p(style="text-align: center") Oops! Something went wrong on our server. Please try again later.

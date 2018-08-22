@@ -1,0 +1,22 @@
+extends _layout
+
+block content
+
+  h1 Contact
+
+  p If you have a question about the Parallel Project, please email us via the form below. Unfortunately we can’t give hints or solutions for any of the questions.
+
+  form(action="https://submit.jotformeu.com/submit/71783154084358/" method="post" name="form_71783154084358")
+    input(type="hidden" name="formID" value="71783154084358")
+    input(type="hidden" name="simple_spc" value="71783154084358-71783154084358")
+    input(type="hidden" name="event_id" value="1498649328254_71783154084358_tmhPaIC")
+    label
+      | Name
+      input(type="text" name="q3_name" size="30" required autocomplete="name")
+    label
+      | Email
+      input(type="email" name="q4_email" size="30" required autocomplete="email")
+    label
+      | Message
+      textarea(name="q5_message" cols="40" rows="3" required)
+    button(type="submit") Send

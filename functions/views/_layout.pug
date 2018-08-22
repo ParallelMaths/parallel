@@ -1,0 +1,152 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    title Parallel by Simon Singh
+    meta(name="description" content="Weekly mathematics challenges for secondary school students.")
+
+    //- Mobile Display
+    meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+    meta(name="format-detection", content="telephone=no")
+    meta(http-equiv="cleartype", content="on")
+    meta(name="msapplication-tap-highlight" content="no")
+
+    //- iOS Web Apps
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-title" content="Parallel by Simon Singh")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black")
+
+    //- Web Apps and Images
+    meta(name="mobile-web-app-capable", content="yes")
+    meta(name="mobile-web-app-title", content="Parallel")
+    meta(name="theme-color", content="#181824")
+    link(rel="manifest", href="/manifest.json")
+
+    //- Stylesheets
+    link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
+    link(href="/parallel.css?v=20" rel="stylesheet")
+
+  body
+    #vue
+      .header
+        #menu(v-on:click="showSidebar=true")
+          svg(width=24 height=24)
+            rect(y=2 width=24 height=3 fill="white")
+            rect(y=10 width=24 height=3 fill="white")
+            rect(y=18 width=24 height=3 fill="white")
+
+        a#logo(href="/" title="Home")
+
+      #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
+
+      #container
+        .sidebar
+          .sidebar-wrap(v-bind:class="{visible: showSidebar}")
+            if user
+              .sidebar-field.account
+                p #{user.first} #{user.last}
+                if user.schoolName
+                  p.small= user.schoolName
+                p.small
+                  if !user.code
+                    | Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8: 9}
+                    span.dot •
+                  a(href="/account") Edit Account
+                  span.dot •
+                  a(v-on:click="user.logout") Logout
+              if user.code
+                .sidebar-field: a(href="/dashboard") Teacher Dashboard
+            else
+              .intros
+                a(href="/introduction")
+                  include svgs/backpack.svg
+                  | Students
+                a(href="/teachers")
+                  include svgs/parent.svg
+                  | Teachers
+                a(href="/parents")
+                  include svgs/teacher.svg
+                  | Parents
+              div
+                .sidebar-field: a(href="/signup") Create a free account
+                .sidebar-field
+                  a(v-on:click="user.showLogin = !user.showLogin") Login
+                  form.login(v-bind:class="{active: user.showLogin}" v-on:submit="user.login")
+                    .error(v-show="user.loginForm.error") {{user.loginForm.error}}
+                    input(placeholder="Email" required type="email" v-model="user.loginForm.email" autocomplete="email")
+                    input(placeholder="Password" v-if="!user.loginForm.reset" required type="password" v-model="user.loginForm.password" autocomplete="current-password")
+                    p
+                      button(type="submit") {{ user.loginForm.reset ? 'Reset' : 'Login' }}
+                      a(v-on:click="user.toggleReset()") {{ user.loginForm.reset ? 'Back to login' : 'Reset password' }}
+
+            if !user || user.code
+              .toggle
+                for l in levels
+                  a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
+
+              for l in levels
+                nav(v-show=`user.level == '${l}'`)
+                  for p in pages[l]
+                    a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
+                      .title-meta= p.subtitle
+                      .title= p.title
+            else
+              .sidebar-field: a(href="/badges")
+                | Your Badges
+                if user.badges.length
+                  .badge-row
+                    for b in user.badges.slice(0).reverse().slice(0, 4)
+                      .badge(style=`background-image: url(/images/badges/${b}.jpg)`)
+                    if user.badges.length > 4
+                      .badge.more +
+              nav
+                for p in pages[user.level || 'year7']
+                  a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
+                    .title-meta= p.subtitle
+                    .title= p.title
+                    if user.answers[p.url] && user.answers[p.url].submitted
+                      .status.score(class=scoreClass(user.answers[p.url].score)) #{user.answers[p.url].score}%
+                    else if now <= p.deadline
+                      .status NEW
+
+        if content
+          article!= content
+        else
+          article: block content
+
+      if user && !user.acceptedTerms && path !== '/terms-and-conditions'
+        #accept-terms.modal
+          .modal-background
+          .modal-body
+            h2 Privacy Updates
+            form(v-on:submit="user.acceptTerms")
+              p.checkbox
+                input#terms-modal(type="checkbox" required)
+                label(for="terms-modal") Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
+              button(type="submit") Continue
+
+    footer
+      a(href="/about") About
+      | •
+      a(href="/contact") Contact
+      | •
+      a(href="/terms-and-conditions") Data Protection, Terms and Conditions
+      br
+      | Created by
+      a(href="http://goodthinkingsociety.org" target="_blank") #[img(src="/images/good-thinking.png" width=10 height=16)] Good Thinking Society
+      | and
+      a(href="https://mathigon.org" target="_blank") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
+
+    script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
+    script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js")
+    script(defer src="/parallel.js?v=20")
+
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-37525836-7', 'auto');
+      ga('send', 'pageview');

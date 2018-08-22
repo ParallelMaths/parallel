@@ -1,0 +1,16 @@
+extends _layout
+
+block content
+  h1 Badges
+
+  .badges-grid
+    for b in badges[user.level]
+      .badge
+        if user.badges.indexOf(b.id) >= 0
+          .badge-img(style=`background-image: url(/images/badges/${b.id}.jpg)`)
+          h2= b.name
+          p: a(href=b.link target="_blank") Learn more…
+        else
+          .badge-img
+          h2 [LOCKED]
+          p Reach #{b.score} points to earn this badge.

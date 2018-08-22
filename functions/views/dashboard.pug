@@ -1,0 +1,31 @@
+extends _layout
+
+block content
+  h1 Teacher Dashboard
+  p Welcome to Parallel! Your teacher code is "#[strong #{user.code}]". What to do next:
+  ul
+    li Ask your students to create an account, entering your Teacher Code when prompted.
+    li Your students will then be automatically added to the dashboard below, listed by school year.
+    li Your students will receive a link to the new Parallelogram each Friday at 4pm.
+    li They should complete the Parallelogram and hit submit by 7pm on Sunday.
+    li You’ll be able to see all of your students’ results below.
+
+  if dashboard.error
+    .error.dashboard-error= dashboard.error
+  else
+    for l in levels
+      if dashboard.students[l].length
+        h2= levelNames[l]
+        table.dashboard
+          thead
+            tr
+              th(width=160)
+              for p in dashboard.pages[l]
+                th(width=100)= p.week
+          tbody
+            for s in dashboard.students[l]
+              td(width=200) #{s.first} #{s.last}
+              for p in dashboard.pages[l]
+                td(width=100)
+                  if s.answers[p.url]
+                    span.score(class=scoreClass(s.answers[p.url])) #{s.answers[p.url]}%
