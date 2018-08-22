@@ -1,9 +1,9 @@
 extends _layout
 
-mixin score()
-  div(class='score ' + scoreClass(userData.score))
-    p.large Score: #{userData.score}%
-    p Level: {{user.getLevel(c.data)}}
+mixin score(s)
+  div(class='score ' + scoreClass(s || 0))
+    p.large Score: #{s || 0}%
+    p Level: #{scoreName(s || 0)}
 
 block content
   header(style=`background-image: url('/resources/${pid}/header.jpg')`)
@@ -14,13 +14,13 @@ block content
   if !user
     .status-banner This is a preview of Parallel. You have to login or #[a(href="/signup") create an account], to be able to answer questions and submit answers.
   if user && userData.submitted
-    +score()
+    +score(userData.answers.score)
 
-  div!= body
+  div(class=(userData.submitted ? 'submitted' : ''))!= body
 
   if user
     if userData.submitted
-      +score()
+      +score(userData.answers.score)
     else
       button#submit(v-on:click="c.submit") Submit Answers
 

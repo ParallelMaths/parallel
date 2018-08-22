@@ -11,7 +11,7 @@ export default function() {
   const userData = window.PARALLEL_USER_DATA;
 
   const challenge = {
-    answers: userData.answers || {},
+    answers: userData.answers,
 
     setAnswer(key, value) {
       if (userData.submitted) return;

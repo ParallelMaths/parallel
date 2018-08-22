@@ -19,6 +19,7 @@ function getUserData(uid) {
     const data = user.toJSON();
     if (!data.answers) data.answers = {};
     if (!data.badges) data.badges = [];
+    data.uid = uid;
     return data;
   });
 }

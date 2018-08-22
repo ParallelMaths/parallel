@@ -256,7 +256,7 @@ block content
         option Zambia
         option Zimbabwe
 
-    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2004")
+    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2006")
       | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
       input(type="email" v-model="user.signupForm.guardianEmail" required)
 

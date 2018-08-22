@@ -31,12 +31,12 @@ for (let l of LEVELS) {
   }
 }
 
-function scoreClass(score) {
-  if (score >= 90) return 'tesseract';
-  if (score >= 70) return 'cube';
-  if (score >= 50) return 'square';
-  if (score >= 20) return 'line';
-  return 'point';
+function scoreName(score) {
+  if (score >= 90) return 'Tesseract';
+  if (score >= 70) return 'Cube';
+  if (score >= 50) return 'Square';
+  if (score >= 20) return 'Line';
+  return 'Point';
 }
 
 function error(res, code) {
@@ -67,7 +67,8 @@ app.use((req, res, next) => {
   res.locals.levels = LEVELS;
   res.locals.levelNames = LEVEL_NAMES;
   res.locals.path = req.path.replace(/\/$/, '');
-  res.locals.scoreClass = scoreClass;
+  res.locals.scoreName = scoreName;
+  res.locals.scoreClass = (s) => scoreName(s).toLowerCase();
 
   for (let l of LEVELS) {
     res.locals.pages[l] =
@@ -134,10 +135,10 @@ app.get('/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!PAGES_MAP[pid]) return next();
 
-  const answers = req.user ? (req.user.answers[pid] || null) : null;
+  const answers = req.user ? (req.user.answers[pid] || {}) : {};
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`));
-  const userData = {answers, uid: req.user ? req.user.uid : null,
-    submitted: ('reveal' in req.query) || (answers ? answers.submitted : null)};
+  const userData = {answers, uid: req.user ? req.user.uid : '',
+    submitted: ('reveal' in req.query) || answers.submitted || false};
 
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData})
 });
