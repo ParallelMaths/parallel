@@ -5,7 +5,7 @@ require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 grunt.initConfig({
   banner: '/* (c) 2018, Mathigon/Parallel */\n\n',
-  clean: ['functions/pages'],
+  clean: ['functions/build'],
 
   rollup: {
     app: {files: {'static/parallel.js': ['static/scripts/main.js']}}
@@ -39,7 +39,7 @@ grunt.initConfig({
       expand: true,
       cwd: 'pages',
       src: ['*.md'],
-      dest: 'functions/pages',
+      dest: 'functions/build',
       ext: '.html'
     }]}
   },
@@ -50,7 +50,7 @@ grunt.initConfig({
       expand: true,
       cwd: 'static',
       src: ['*.yaml'],
-      dest: 'functions',
+      dest: 'functions/build',
       ext: '.json'
     }]}
   },

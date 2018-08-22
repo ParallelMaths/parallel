@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 3_ The Big Bang
+# The Big Bang
 
 <div class="dictionary">
 
@@ -125,8 +125,6 @@ The first coat uses half the paint, so half remains. Two thirds of this is then 
 So the volume remaining is `1/6 × 3` litres. So there remains 0.5 litres, that is, 500 ml of paint.
 :::
 
-
-***
 
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 

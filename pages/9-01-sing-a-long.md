@@ -1,4 +1,4 @@
-# _Year 9 • Parallelogram 1_ Sing-A-Long-A Googol
+# Sing-A-Long-A Googol
 
 <div class="dictionary">
 
@@ -132,8 +132,6 @@ __3.2__ Without using a calculator, find the value of 123.4 × 123.4 + 123.4 × 
 123.4 × 123.4 + 123.4 × 876.6 = 123.4 × (123.4 + 876.4) = 123.4 × 1,000 = 1,234.
 :::
 
-
-***
 
 I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
 

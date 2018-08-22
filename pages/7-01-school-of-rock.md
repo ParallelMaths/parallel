@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 1_ School of Rock
+# School of Rock
 
 <div class="dictionary">
 
@@ -130,8 +130,6 @@ __3.1__ Which of the following has the largest value?
 In each case a number is subtracted from 1. The smaller the number we subtract, the larger the answer will be. So the largest value is obtained when the smallest number is subtracted.
 :::
 
-
-***
 
 I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
 

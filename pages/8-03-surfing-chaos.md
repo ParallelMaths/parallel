@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 3_ Surfing Chaos
+# Surfing Chaos
 
 <div class="dictionary">
 
@@ -119,8 +119,6 @@ One of the remaining numbers is the 13 on the diagonal that goes from top left t
 So, the two swapped numbers are 13 + 15 = 28, which means the answer is 28.
 :::
 
-
-***
 
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 

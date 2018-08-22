@@ -146,7 +146,7 @@ table.grid {
   margin: 0 .5rem 2rem;
 }
 
-.revealed {
+.submitted {
   .choice.active:not(.correct) {
     background: fade(@INCORRECT, 50%);
     &:before { background: white @CROSS; border: none; }
@@ -175,9 +175,7 @@ table.grid {
     padding-right: 32px;
     &.correct { background-image: @CHECK; }
   }
-}
 
-.submitted, .locked, .revealed {
   .problem input, .choice { pointer-events: none; }
 }
 
@@ -196,7 +194,7 @@ table.grid {
   color: darken(@green, 8%);
   font-weight: bold;
   margin: -1.5rem 0 2rem;
-  .revealed input:not(.correct) + & { display: block; }
+  .submitted input:not(.correct) + & { display: block; }
 }
 
 .solution {
@@ -218,7 +216,7 @@ table.grid {
   p a:hover { color: white; }
 
   display: none;
-  .revealed & { display: block; }
+  .submitted & { display: block; }
 }
 
 .show-hint {
@@ -232,7 +230,7 @@ table.grid {
   cursor: pointer;
   transition: background .2s;
   &:hover { background: mix(@yellow, #666, 80%); }
-  .revealed & { display: none; }
+  .submitted & { display: none; }
 }
 
 .hint {
@@ -286,7 +284,7 @@ table.grid {
   font-size: 24px;
   margin: 3rem auto;
   outline: none;
-  transition: box-shadow .2s;
+  transition: background .2s, box-shadow .2s;
   width: 300px;
 
   &:hover, &:focus {

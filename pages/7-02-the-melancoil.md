@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 2_ The Melancoil
+# The Melancoil
 
 <div class="dictionary">
 
@@ -121,8 +121,6 @@ __3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?
 We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − (1) = −2 .
 :::
 
-
-***
 
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 

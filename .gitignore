@@ -19,9 +19,7 @@ node_modules/
 .idea
 *.lng
 
-functions/pages/
-functions/pages.json
-functions/badges.json
+functions/build/
 private/
 static/parallel.js
 static/parallel.css

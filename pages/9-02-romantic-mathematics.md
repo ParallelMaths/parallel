@@ -1,4 +1,4 @@
-# _Year 9 • Parallelogram 2_ Romantic Mathematics
+# Romantic Mathematics
 
 <div class="dictionary">
 
@@ -95,8 +95,6 @@ What is the diameter in mm of a size 5 Japanese knitting needle?
 We need to work out 5 x 0.3 + 2.1. This gives 1.5 +  2.1 = 3.6 as the answer.
 :::
 
-
-***
 
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 

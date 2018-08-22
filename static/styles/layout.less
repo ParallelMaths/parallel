@@ -75,14 +75,13 @@ header {
 }
 
 .status-banner {
-  background: #ccc;
+  background: mix(@yellow, white);
   margin: -32px -32px 32px;
-  padding: 12px 32px;
-  line-height: 1.4;
+  padding: 14px 32px;
+  line-height: 1.5;
   font-size: 16px;
   font-style: italic;
-  &.preview { background: @red; color: white; }
-  a { color: lighten(@blue, 15%); text-decoration: underline; }
+  a { color: @blue; text-decoration: underline; }
 }
 
 
@@ -93,12 +92,6 @@ header {
   width: 25%;
   margin-top: 24px;
   flex-shrink: 0;
-  transition: opacity .2s, transform .2s;
-  opacity: 0;
-  transform: translateX(50px);
-  pointer-events: none;
-
-  &.show { opacity: 1; transform: none; pointer-events: all; }
 }
 
 .sidebar-wrap {
@@ -111,41 +104,47 @@ header {
   overflow: auto;
 }
 
-.user {
+.sidebar-field {
   background: mix(@blue, #aaa, 80%);
   color: white;
 
   &:first-child { border-top-left-radius: 4px; }
-  & + .user { margin-top: 1px; }
+  & + .sidebar-field { margin-top: 1px; }
 
   > a { display: block; transition: background .2s; padding: 6px 16px; border-top-left-radius: 4px; }
   > a:hover { background: darken(@blue, 10%); }
 
-  form { height: 0; padding: 0 16px; transition: height .3s; overflow: hidden; background: fade(white, 30%); }
+  form { height: 0; padding: 0 16px; transition: height .3s; overflow: hidden; background: fade(white, 40%); }
   form.active { display: block; height: 190px; }
 
-  .error, input { margin: 12px 0 0 0; }
+  .error, input[type] { margin: 12px 0 0 0; }
   .error { background: transparent; padding: 0; color: @red; font-weight: 600; }
   button[type="submit"] { display: inline-block; margin: 12px 12px 0 0; font-size: 16px; padding: 4px 20px; }
   form a { color: @red; }
 
-  a.gold { background-color: #C98910; }
-  a.gold:hover { background-color: darken(#C98910, 10%); }
-
-  a.silver { background-color: #A8A8A8; }
-  a.silver:hover { background-color: darken(#A8A8A8, 10%); }
-
-  a.bronze { background-color: #965A38; }
-  a.bronze:hover { background-color: darken(#965A38, 10%); }
-
-  a.gold, a.silver, a.bronze { background-image: linear-gradient(fade(black, 0%), fade(black, 25%)); }
+  .badge-row { display: flex; }
+  .badge {
+    border-radius: 4px;
+    margin: 6px 6px 0 0;
+    width: 36px;
+    height: 40px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4);
+    background: fade(white, 80%);
+    background-size: cover;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 40px;
+    font-size: 32px;
+  }
 }
 
-.user.account {
+.sidebar-field.account {
   padding: 8px 16px 10px;
   p { margin: 0; }
-  p.small { font-size: 12px; opacity: 0.6; }
-  p a { color: white; }
+  .dot { margin: 0 6px; }
+  p.small { font-size: 12px; color: fade(white, 60%); }
+  p a { color: inherit; }
+  p a:hover { color: white; }
 }
 
 nav a {
@@ -218,7 +217,7 @@ nav a {
     &:hover svg { fill: white; }
   }
 
-  + div .user:first-child { border-radius: 0; }
+  + div .sidebar-field:first-child { border-radius: 0; }
 }
 
 .status {
@@ -230,13 +229,10 @@ nav a {
   line-height: 1;
   padding: 4px 6px;
   font-size: 14px;
-
-  &.open { background: @red; }
-  &.submitted { width: 10px; height: 14px; background: @grey @WHITE-CHECK no-repeat center; background-size: 16px 16px; }
+  background: @red;
 }
 
 .score {
-  background: @grey;
   &.tesseract{ background: @green; }
   &.cube{ background: #9bdb2a; }
   &.square{ background: #dbc721; }
@@ -265,9 +261,26 @@ footer a {
 
 
 // -----------------------------------------------------------------------------
+// Badges
+
+.badges-grid {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: -10px;
+  justify-content: space-between;
+
+  .badge { width: 140px; margin: 16px 10px; }
+  .badge-img { height: 160px; background: #ddd; background-size: cover; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4); border-radius: 6px; }
+  h2 { font-size: 18px; margin: 12px 0 6px 0; }
+  p { font-size: 16px; line-height: 1.4; margin: 0; }
+}
+
+
+// -----------------------------------------------------------------------------
 // Teacher Dashboard
 
-#dashboard .error {
+.error.dashboard-error {
   text-align: center;
   font-size: 20px;
   max-width: 300px;
@@ -399,7 +412,7 @@ table.dashboard {
     &.visible { transform: none;}
   }
 
-  .user:first-child { border-radius: 0; }
+  .sidebar-field:first-child { border-radius: 0; }
 
     header { height: 240px; margin: -24px -24px 24px -24px; border-radius: 0; }
   .status-banner { margin: -24px -24px 24px; padding: 12px 24px; }

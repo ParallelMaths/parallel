@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 1_ Wizard of Oz
+# Wizard of Oz
 
 <div class="dictionary">
 
@@ -160,8 +160,6 @@ Walking at 3km/h for five hours, Gill would walk 5 × 3 km = 15 km, and at 4km/h
 As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 20km. Of the options given, only 19 km is in this range.
 :::
 
-
-***
 
 I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
 

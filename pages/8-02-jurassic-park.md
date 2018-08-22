@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 2_ Jurassic Park mathematics
+# Jurassic Park mathematics
 
 <div class="dictionary">
 
@@ -120,8 +120,6 @@ The 5:2 ratio suggest that we might have 5 seniors and 2 veterans, but if we hav
 However, the 5:2 ratio also suggest that we might have 10 seniors and 4 veterans, and if we have only 10 seniors then the 3:2 ratio would mean 15 juniors, which is much more sensible answer, with a total of 10 + 4 + 15 = 29 members. But this answer is not one of the choices, so we need to look for a multiple of 29, which is 58.
 :::
 
-
-***
 
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 

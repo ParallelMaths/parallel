@@ -10,32 +10,28 @@ fb.initializeApp({
 });
 
 const pageData = yaml.load(path.join(__dirname, '../pages/pages.yaml'));
-const pages = [...pageData.year7.map(p => p.url), ...pageData.year8.map(p => p.url), ...pageData.year9.map(p => p.url)];
+const pages = [...pageData.year7, ...pageData.year8, ...pageData.year9];
 
 async function run() {
   const userData = await fb.database().ref('users').once('value');
   const users = userData.toJSON();
-
-  const answerData = await fb.database().ref('answers').once('value');
-  const answers = answerData.toJSON();
 
   const emailData = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(emailData)).users;
   const emailMap = {};
   for (let a of accounts) emailMap[a.localId] = a.email;
 
-
-    // ---------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------
 
   for (let p of pages) {
     const titles = ['name','email','schoolName','country','submitted','score'];
     const data = [];
 
-    for (let u of Object.keys(answers)) {
-      if (!answers[u][p] || !users[u]) continue;
+    for (let u of Object.keys(users)) {
+      if (!users[u].answers || !users[u].answers[p.url]) continue;
 
-      const answer = answers[u][p];
       const user = users[u];
+      const answer = users[u].answers[p.url];
 
       const d = [
         user.first + ' ' + user.last,
@@ -56,15 +52,15 @@ async function run() {
 
     const titlesStr = titles.join(',') + '\n';
     const rowsStr = data.map(d => d.join(',')).join('\n');
-    fs.writeFileSync(path.join(__dirname, `../private/results-${p}.csv`), titlesStr + rowsStr);
+    fs.writeFileSync(path.join(__dirname, `../private/results-${p.url}.csv`), titlesStr + rowsStr);
   }
 
   // ---------------------------------------------------------------------------
 
-  const data = [['name', 'email', 'school', ...pages, 'total']];
-  for (let u of Object.keys(answers)) {
-    if (!users[u]) continue;
-    const a = pages.map(p => Math.round(((answers[u][p] || {}).score || 0)*100));
+  const data = [['name', 'email', 'school', ...pages.map(p => p.url), 'total']];
+  for (let u of Object.keys(users)) {
+    if (!users[u].answers) continue;
+    const a = pages.map(p => ((users[u].answers[p.url] || {}).score || 0));
     const sum = a.reduce((a, b) => a + b, 0);
     if (sum>0) data.push([
       `"${users[u].first} ${users[u].last}"`,
