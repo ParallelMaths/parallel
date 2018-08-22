@@ -98,7 +98,7 @@ html
                 if user.badges.length
                   .badge-row
                     for b in user.badges.slice(0).reverse().slice(0, 4)
-                      .badge(style=`background-image: url(/images/badges/${b}.jpg)`)
+                      .badge(style='background-image: url(/images/badges/' + b + '.jpg); color: #' + (badgesMap[b] || {}).color)
                     if user.badges.length > 4
                       .badge.more +
               nav

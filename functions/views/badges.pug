@@ -5,12 +5,13 @@ block content
 
   .badges-grid
     for b in badges[user.level]
-      .badge
-        if user.badges.indexOf(b.id) >= 0
-          .badge-img(style=`background-image: url(/images/badges/${b.id}.jpg)`)
+      if showAllBadges || user.badges.indexOf(b.id) >= 0
+        .badge(style={background: '#' + b.color})
+          .badge-img(style={'background-image': 'url(/images/badges/' + b.id + '.jpg)'})
           h2= b.name
           p: a(href=b.link target="_blank") Learn more…
-        else
+      else
+        .badge
           .badge-img
-          h2 [LOCKED]
-          p Reach #{b.score} points to earn this badge.
+            .points= b.score
+            .small Points needed

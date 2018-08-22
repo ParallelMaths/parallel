@@ -4,24 +4,20 @@
 
 
 
-/* const q = decodeURI(location.search.substring(1));
-const query = q ? JSON.parse('{"' + q.replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}') : {};
-const overrideStatus = query.status; */
-
-
-export default function(page, userData) {
+export default function() {
   const fbDatabase = firebase.database();
 
+  const page = window.PARALLELOGRAM;
+  const userData = window.PARALLEL_USER_DATA;
+
   const challenge = {
-    answers: userData || {},
+    answers: userData.answers || {},
 
     setAnswer(key, value) {
-      if (challenge.answers.submitted) return;
-      if (!userData) return alert('You have to login or create a free account, before you can solve problems.');
-
+      if (userData.submitted) return;
+      if (!userData.uid) return alert('You have to login or create a free account, before you can solve problems.');
       Vue.set(challenge.answers, key, value);
-      /* TODO fbDatabase.ref(`answers/${user.uid}/${challengeId}`)
-        .update({ [key]: value }); */
+      fbDatabase.ref(`answers/${userData.uid}/${page.url}`).update({[key]: value});
     },
 
     setInput(event) {
@@ -30,15 +26,14 @@ export default function(page, userData) {
     },
 
     submit() {
-      /* TODO if (user.ready && !user.data) return alert('You have to login or create a free account, before submitting your answers.');
-      if (challenge.answers.submitted) return;
+      if (userData.submitted || !userData.uid) return;
+      Vue.set(challenge.answers, 'loading', true);
 
-      challenge.setAnswer('score', calculateScore(challenge.answers));
-      challenge.setAnswer('submitted', true);
-      Vue.set(user.answers, challengeId, challenge.answers);
-      challenge.status = 'submitted';
+      fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
+          .update({score: calculateScore(challenge.answers), submitted: true})
+          .then(() => location.reload());
 
-      if (past) document.body.scrollTop = document.documentElement.scrollTop = 0; */
+      // if (past) document.body.scrollTop = document.documentElement.scrollTop = 0;
     },
 
     showHint(id) {
@@ -46,9 +41,9 @@ export default function(page, userData) {
     },
 
     unsubmit() {
-      Vue.set(challenge.answers, 'submitted', false);
-      /* TODO fbDatabase.ref(`user/${user.uid}/answers/${challengeId}`).update({submitted: false});
-      challenge.status = user.getStatus(challengeId); */
+      fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
+          .update({submitted: false})
+          .then(() => localtion.reload());
     },
 
     // Custom scoring functions
@@ -102,7 +97,7 @@ function calculateScore(answers) {
     if (answers[$h.id]) score -= (+$h.dataset.marks || 0);
   }
 
-  return score / total;
+  return Math.max(0, Math.min(100, Math.round(score / total * 100)));
 }
 
 function sumaze(x) {
@@ -124,26 +119,7 @@ function checkInput(a, b) {
 }
 
 
-
-/*
-getStatus(challenge) {
-  if (!user.data) return 'preview';
-  return user.answers[challenge.url].submitted ? 'submitted' : 'open';
-},
-
-getScore(challenge) {
-  if (!user.ready) return 0;
-  const answers = user.answers[challenge.url];
-  if (!answers) return 0;
-  return Math.round((answers.score || 0) * 100);
-},
-
-getLevel(challenge) {
-  const score = user.getScore(challenge);
-  return getLevel(score);
-}
-
-function timeUntil(to) {
+/* function timeUntil(to) {
   let t = (new Date(to) - Date.now()) / 1000;
   if (t < 120) return Math.floor(t) + ' seconds';
   t /= 60;
@@ -152,6 +128,4 @@ function timeUntil(to) {
   if (t < 48) return Math.floor(t) + ' hours';
   t /= 24;
   return Math.floor(t) + ' days';
-}
-
-*/
+} */

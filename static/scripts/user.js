@@ -43,7 +43,6 @@ export default function() {
     } */
 
   fbAuth.addAuthTokenListener((idToken) => {
-    console.log('authchange', idToken);
     const hadSessionCookie = document.cookie.indexOf('__session=') !== -1;
     document.cookie = '__session=' + idToken + ';max-age=' + (idToken ? 3600 : 0);
 

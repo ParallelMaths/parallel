@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const user = getUser();
-  const challenge = window.PARALLELOGRAM ?
-      getChallenge(window.PARALLELOGRAM, window.PARALLEL_USER_DATA) : null;
+  const challenge = window.PARALLELOGRAM ? getChallenge() : null;
 
   window.app = new Vue({
     el: '#vue',

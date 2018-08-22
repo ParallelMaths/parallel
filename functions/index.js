@@ -24,6 +24,13 @@ for (let l of LEVELS) {
   }
 }
 
+const BADGES_MAP = {};
+for (let l of LEVELS) {
+  for (let b of BADGES[l]) {
+    BADGES_MAP[b.id] = b;
+  }
+}
+
 function scoreClass(score) {
   if (score >= 90) return 'tesseract';
   if (score >= 70) return 'cube';
@@ -54,6 +61,7 @@ app.use(user.getActiveUser);
 app.use((req, res, next) => {
   res.locals.user = req.user;
   res.locals.badges = BADGES;
+  res.locals.badgesMap = BADGES_MAP;
   res.locals.pages = {};
   res.locals.now = Date.now();
   res.locals.levels = LEVELS;
@@ -86,9 +94,10 @@ app.get('/account', (req, res) => {
   res.render('account');
 });
 
-app.get('/badges', (req, res, next) => {
+app.get('/badges', (req, res) => {
   if (!req.user) return error(res, 401);
-  res.render('badges');
+  const showAllBadges = ('reveal' in req.query);
+  res.render('badges', {showAllBadges});
 });
 
 app.get('/signup', (req, res) => {
@@ -96,7 +105,7 @@ app.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-app.get('/dashboard', async function(req, res, next) {
+app.get('/dashboard', async function(req, res) {
   if (!req.user) return error(res, 401);
   if (!req.user.code) return error(res, 403);
 
@@ -125,12 +134,18 @@ app.get('/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!PAGES_MAP[pid]) return next();
 
-  const userData = req.user ? (req.user.answers[pid] || {}) : null;
+  const answers = req.user ? (req.user.answers[pid] || null) : null;
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`));
+  const userData = {answers, uid: req.user ? req.user.uid : null,
+    submitted: ('reveal' in req.query) || (answers ? answers.submitted : null)};
+
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData})
 });
 
 app.use((req, res) => error(res, 404));
-app.use((e, req, res, next) => error(res, 500));
+app.use((e, req, res, next) => {
+  console.error(e);
+  error(res, 500);
+});
 
 exports.app = functions.https.onRequest(app);
