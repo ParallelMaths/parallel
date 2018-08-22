@@ -16,7 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	NEW! You can new earn reward points and badges – find out more here.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -40,7 +41,7 @@ __1.1.__ What is googol squared?
 
 ---
 
-If you are squaring a number with an exponent, then you double the exponent, for example:
+If you are squaring a number with an exponent, then you double the exponent. For example:
 
 (3<sup>3</sup>)<sup>2</sup> = 3<sup>6</sup> = 729  
 27<sup>2</sup> = 729  
@@ -56,7 +57,7 @@ __1.2.__ What is √(googol)?
 
 ---
 
-If you are square rooting a number with an exponent, then you halve the exponent, for example:
+If you are square rooting a number with an exponent, then you halve the exponent. For example:
 
 √(5<sup>6</sup>) = 5<sup>3</sup> = 125  
 √15,625 = 125  
@@ -100,7 +101,7 @@ If you are square rooting a number with an exponent, then you halve the exponent
 
 ## 3.	Intermediate Maths Challenge Problem
 
-If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students in Years 9, 10 and 11from across the country.
+If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students in Years 9, 10 and 11 from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Intermediate Maths Challenge question.
 

@@ -16,7 +16,8 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+*	NEW! You can new earn reward points and badges – find out more here.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -39,7 +40,7 @@ In short:
 * Eventually you end up with 6,174.
 
 ::: problem id=1_1 marks=1
-__1.1.__ Start with the number 4,321 – what number (before you re-arrange any digits) is the “next stage number”? Clue: it is between 3,000 and 4,000.
+__1.1.__ Start with the number 4,321. Reverse the digits, take the small number from the big number and what is the result? Clue: it is between 3,000 and 4,000.
 
 <input type="text" solution="3,087"/>  
 
@@ -49,7 +50,7 @@ __1.1.__ Start with the number 4,321 – what number (before you re-arrange any 
 :::
 
 ::: problem id=1_2 marks=1
-__1.2.__ Repeat the process with this number – remember to rearrange the digits into ascending order and descending order to create two numbers (any zeroes go at the front). What number (before you re-arrange any digits) is the “next stage number”? Clue: it is between 8,000 and 9,000.
+__1.2.__ Repeat the process, starting with your previous answer – remember to rearrange the digits into ascending order and descending order before subtracting the smaller number from the larger number. What is the result? Clue: it is between 8,000 and 9,000.
 
 <input type="text" solution="8,352"/>  
 
@@ -59,7 +60,7 @@ __1.2.__ Repeat the process with this number – remember to rearrange the digit
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Repeat the process with this number. What number (before you re-arrange any digits) is the “next stage number”?
+__1.3.__ Repeat the process, starting with your previous answer – remember to rearrange the digits into ascending order and descending order before subtracting the smaller number from the larger number. What is the result?
 
 <input type="text" solution="6,174"/>  
 
