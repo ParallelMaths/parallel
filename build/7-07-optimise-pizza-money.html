@@ -1,0 +1,266 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Parallel by Simon Singh</title><meta name="description" content="Weekly mathematics challenges for secondary school students."><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="msapplication-tap-highlight" content="no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Parallel by Simon Singh"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="mobile-web-app-capable" content="yes"><meta name="mobile-web-app-title" content="Parallel"><meta name="theme-color" content="#181824"><link rel="manifest" href="/manifest.json"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet"><link href="/parallel.css?v=16" rel="stylesheet"></head><body><div id="vue"><div class="header"><div id="menu" v-on:click="showSidebar=true"><svg width="24" height="24"><rect y="2" width="24" height="3" fill="white"></rect><rect y="10" width="24" height="3" fill="white"></rect><rect y="18" width="24" height="3" fill="white"></rect></svg></div><a id="logo" href="/" title="Home"></a></div><div id="shadow" v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}"></div><div id="container"><div class="sidebar" v-bind:class="{show: user.ready}"><div class="sidebar-wrap" v-bind:class="{visible: showSidebar}"><div class="intros" v-if="!user.data"><a href="/introduction"><svg width="40" height="40"><path d="M31.9,10.7v-.5a3.1,3.1,0,0,0-3.1-3.1H24.7V5.7a4.7,4.7,0,0,0-9.4,0V7.1H11.2a3.1,3.1,0,0,0-3.1,3.1v.5C6,13.5,2.5,19.7,2.5,30a1.5,1.5,0,0,0,.4,1.1l1,1.1a9,9,0,0,0,.7,2.2,6,6,0,0,0,3.9,3A3.1,3.1,0,0,0,11.1,39H28.9a3.1,3.1,0,0,0,2.6-1.6,5.7,5.7,0,0,0,3.9-3,9,9,0,0,0,.7-2.2l1-1.1a1.5,1.5,0,0,0,.4-1.1C37.5,19.7,34,13.5,31.9,10.7Zm-14-5a2.1,2.1,0,0,1,4.2,0V7.1H17.9ZM20,11.3a2.4,2.4,0,0,1,2.4,2.4,2.4,2.4,0,0,1-4.8,0A2.4,2.4,0,0,1,20,11.3ZM33.8,33.7a4.1,4.1,0,0,1-1.9,1.8v-7a5.4,5.4,0,0,1-3,1v.4a1.8,1.8,0,0,1-1.8,1.7H23.8A1.8,1.8,0,0,1,22,29.9v-.4H17.9v.4a1.8,1.8,0,0,1-1.8,1.7H12.8A1.8,1.8,0,0,1,11,29.9v-.4a5.3,5.3,0,0,1-2.9-1v7a4.1,4.1,0,0,1-1.9-1.8A5.8,5.8,0,0,1,5.6,32l.9-1.2a2,2,0,0,0,.3-1.1,33.7,33.7,0,0,1,1.3-9.4v3.8A3.1,3.1,0,0,0,11,27.2v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6H22v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6a3.2,3.2,0,0,0,3-3.1V20.3a33.7,33.7,0,0,1,1.3,9.4,2,2,0,0,0,.3,1.1l.9,1.2A5.8,5.8,0,0,1,33.8,33.7Z"></path><path d="M27.1,26H23.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,27.1,26Zm-.5,3.3H24.4V27.1h2.2Z"></path><path d="M16.1,26H12.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,16.1,26Zm-.5,3.3H13.4V27.1h2.2Z"></path></svg>Students</a><a href="/teachers"><svg width="40" height="40"><path d="M39.7,15.5,20,8h-.3l-7.6,2.9L21,14.8l-2.7,1.1L9.2,12.1.3,15.5c-.2,0-.3.2-.3.4v.6a.3.3,0,0,0,.3.3L3,17.9V33.3l3.3-1.4V19.2l3.8,1.6c-.1.1-.1.3-.2.4a15.2,15.2,0,0,0-1.7,6.1.4.4,0,0,0,.1.3h.3a19.2,19.2,0,0,1,11.5,5h.5c5.8-4.9,10.7-5,10.8-5h.3a.4.4,0,0,0,.1-.3,16.1,16.1,0,0,0-1.6-6.1c-.1-.1-.1-.3-.2-.4l9.7-4a.3.3,0,0,0,.3-.3v-.6C40,15.7,39.9,15.5,39.7,15.5Z"></path></svg>Teachers</a><a href="/parents"><svg width="40" height="40"><path d="M34.9,36H5.2A3.2,3.2,0,0,1,2,32.8V17.7l15.2,4.5v3L20,28.1l2.8-2.9V22.1L38,17.7V32.8A3.1,3.1,0,0,1,34.9,36ZM2,15.5V12.7A3.5,3.5,0,0,1,5.4,9.3H9.9V6.4A3.5,3.5,0,0,1,13.2,3H26.8a3.5,3.5,0,0,1,3.3,3.4V9.3h4.5A3.5,3.5,0,0,1,38,12.7v2.8L19.9,20.6ZM27.3,7a1.4,1.4,0,0,0-1.1-1.2H13.8A1.4,1.4,0,0,0,12.7,7V9.3H27.3Z"></path></svg>Parents</a></div><div v-if="!user.data"><div class="user"><a href="/signup">Create a free account</a></div><div class="user"><a v-on:click="login.show = !login.show">Login</a><form class="login" v-bind:class="{active: login.show}" v-on:submit="login.submit"><input placeholder="Email" required type="email" v-model="login.email" autocomplete="email"><input placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password"><div class="error" v-show="login.error">{{login.error}}</div><p><button type="submit">{{ login.reset ? 'Reset' : 'Login' }}</button><a v-on:click="login.toggleReset()">{{ login.reset ? 'Back to login' : 'Reset password' }}</a></p></form></div></div><div class="user account" v-if="user.data"><p>{{ user.data.first }} {{user.data.last }}</p><p class="small"><span v-if="!user.data.code">{{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;</span><a href="/account">Edit Account</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a v-on:click="user.logout">Logout</a></p><p class="small" v-if="user.data.schoolName">{{ user.data.schoolName }}</p></div><div class="user certificate" v-if="user.data &amp;&amp; user.data.certificate"><a href="/certificate" v-bind:class="user.data.certificate">Your Certificate</a></div><div class="user" v-if="user.data &amp;&amp; user.data.code"><a href="/dashboard">Teacher Dashboard</a></div><div class="toggle" v-if="!user.data || user.data.code"><a v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}">Year 7</a><a v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}">Year 8</a></div><nav><a v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' &amp;&amp; !p.hide &amp;&amp; (!p.summer || user.showSummer)"><div class="title-meta" v-if="!p.summer">Week {{ p.week }}</div><div class="title">{{ p.title }}</div><div class="status open" v-if="user.getStatus(p) == 'open'">NEW</div><div class="status submitted" v-if="user.getStatus(p) == 'submitted'"></div><div class="status score" v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)">{{ user.getScore(p) }}%</div></a></nav></div></div><article v-bind:class="c ? c.status : ''"><div>
+<header style="background-image: url(/resources/7-07-optimise-pizza-money/header.jpg);"><h1 id="year-7-parallelogram-7-optimising-your-pizza-money"><em>Year 7 • Parallelogram 7</em> Optimising your pizza money</h1></header><div class="status-banner" v-if="user.ready &amp;&amp; c.status != 'revealed'" v-bind:class="c.status"><span v-if="c.status == 'locked'">[INTERNAL] This parallelogram is locked.</span><span v-if="c.status == 'preview'">This is a preview of Parallel. You have to login or <a href="/signup">create an account</a>, to be able to answer questions and submit answers.</span><span v-if="c.status == 'open'">This Parallelogram is currently active. You have {{ timeUntil(c.deadline) }} left to submit your answers.</span><span v-if="c.status == 'submitted'">You've already submitted your answers. The correct solutions will be shown in {{ timeUntil(c.deadline) }}.</span></div><div class="dictionary">
+<p><strong>Noun</strong>: Parallelogram
+<strong>Pronunciation</strong>: /ˌparəˈlɛləɡram/</p>
+<ol>
+<li>a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.</li>
+</ol>
+</div>
+<p>Here is this week's collection of mathematical challenges designed to stretch
+your brain.</p>
+<ul>
+<li>Start and stop whenever you like – your work will be saved each time.</li>
+<li>But it is better to tackle each Parallelogram in one go.</li>
+<li>Complete by 7pm Sunday if your whole class is doing Parallelograms.</li>
+<li>Return after 7pm on Sunday to find your score, answers and explanations.</li>
+<li>Make sure you complete every challenge and hit the SUBMIT button.</li>
+</ul>
+<p><strong>IMPORTANT</strong> – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.</p>
+<h2 id="1-how-to-make-countdown-harder-than-it-needs-to-be">1. How to make Countdown harder than it needs to be</h2>
+<p>This is a very easy Countdown numbers game, but I like the way that Noel decides to make it ridiculously complicated.</p>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/dfwkZ6LSKEE?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+<div class="problem radio" id="p_1_1" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>1.1</strong> The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create the number 1?</p>
+<ul class="choices">
+<li><div class="choice correct" data-value="a" v-on:click="c.setAnswer('p_1_1', 'a')" v-bind:class="{active: c.answers.p_1_1 == 'a'}">Yes</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_1_1', 'b')" v-bind:class="{active: c.answers.p_1_1 == 'b'}">No</div></li>
+</ul>
+
+
+<div class="solution"><p>Yes, because one solution is (75 + 50) – (100 + 25) + 9 – 8</p></div></div><div class="problem radio" id="p_1_2" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>1.2</strong> The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create the number 0?</p>
+<ul class="choices">
+<li><div class="choice correct" data-value="a" v-on:click="c.setAnswer('p_1_2', 'a')" v-bind:class="{active: c.answers.p_1_2 == 'a'}">Yes</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_1_2', 'b')" v-bind:class="{active: c.answers.p_1_2 == 'b'}">No</div></li>
+</ul>
+
+
+<div class="solution"><p>Yes, because one solution is (75 + 50) ÷ (100 + 25) + 8 – 9</p></div></div><h2 id="2-junior-maths-challenge">2. Junior Maths Challenge</h2>
+<!--- 2011 (21) --->
+<div class="problem radio" id="p_2_1" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>2.1</strong> Gill leaves Lille by train at 09:00. The train travels the first 27 km at 96 km/h. It then stops at Lens for 3 minutes before travelling the final 29 km to Lillers at 96 km/h. At what time does Gill arrive at Lillers?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_2_1', 'a')" v-bind:class="{active: c.answers.p_2_1 == 'a'}">09:35</div></li>
+<li><div class="choice correct" data-value="b" v-on:click="c.setAnswer('p_2_1', 'b')" v-bind:class="{active: c.answers.p_2_1 == 'b'}">09:38</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_2_1', 'c')" v-bind:class="{active: c.answers.p_2_1 == 'c'}">09:40</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_2_1', 'd')" v-bind:class="{active: c.answers.p_2_1 == 'd'}">09:41</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_2_1', 'e')" v-bind:class="{active: c.answers.p_2_1 == 'e'}">09:43</div></li>
+</ul>
+
+
+
+
+<div class="solution"><p>In total, the train travels 27 km + 29 km = 56 km.</p><p>So the combined time for these two parts of the journey is <span class="math" v-pre=""><mfrac><mn>56</mn><mn>96</mn></mfrac></span> hours = <span class="math" v-pre=""><mfrac><mn>7</mn><mn>12</mn></mfrac></span> hours = 35 minutes.</p><p>There is also the 3 minutes of waiting at Lens. The total journey time, therefore, is 38 minutes. So Gill arrives at 09:38.</p></div></div><h2 id="3-the-pizza-equation">3. The pizza equation</h2>
+<p>Your teachers and parents might have told you about the many applications of mathematics, everything from engineering to computer science, but have they told you about pizza economics? This video explains the mathematics behind buying a pizza.</p>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/YAawHbPiQfo?end=102&amp;rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+<div class="problem radio" id="p_3_1" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>3.1</strong> Small pizzas are 30 cm in diameter, while super-sized pizzas are 90 cm in diameter. How many small pizzas do you need in order to get the same amount of pizza as one super-sized pizza?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_3_1', 'a')" v-bind:class="{active: c.answers.p_3_1 == 'a'}">1</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_3_1', 'b')" v-bind:class="{active: c.answers.p_3_1 == 'b'}">3</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_3_1', 'c')" v-bind:class="{active: c.answers.p_3_1 == 'c'}">5</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_3_1', 'd')" v-bind:class="{active: c.answers.p_3_1 == 'd'}">7</div></li>
+<li><div class="choice correct" data-value="e" v-on:click="c.setAnswer('p_3_1', 'e')" v-bind:class="{active: c.answers.p_3_1 == 'e'}">9</div></li>
+</ul>
+
+
+<div class="solution"><p>The video explained that if the radius (or diameter) increases by a factor <span class="math" v-pre=""><mi>x</mi></span>, then the area increases by a factor <span class="math" v-pre=""><mi>x</mi></span><sup>2</sup>. In this case the diameter increases by 3, so the area increases by 3<sup>2</sup> = 9.</p></div></div><div class="problem radio" id="p_3_2" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>3.2</strong> Medium pizzas are 45 cm in diameter and cost £10. If the pricing was completely fair (ie, cost per cm<sup>2</sup> was constant), then how much should the small 30 cm diameter pizza cost?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_3_2', 'a')" v-bind:class="{active: c.answers.p_3_2 == 'a'}">£3.00</div></li>
+<li><div class="choice correct" data-value="b" v-on:click="c.setAnswer('p_3_2', 'b')" v-bind:class="{active: c.answers.p_3_2 == 'b'}">£4.44</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_3_2', 'c')" v-bind:class="{active: c.answers.p_3_2 == 'c'}">£4.50</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_3_2', 'd')" v-bind:class="{active: c.answers.p_3_2 == 'd'}">£5.55</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_3_2', 'e')" v-bind:class="{active: c.answers.p_3_2 == 'e'}">£6.66</div></li>
+</ul>
+
+
+<div class="solution"><p>The small pizza is <span class="math" v-pre=""><mfrac><mn>30</mn><mn>45</mn></mfrac></span> or <span class="math" v-pre=""><mfrac><mn>2</mn><mn>3</mn></mfrac></span> as wide as the medium pizza, so its area is (<span class="math" v-pre=""><mfrac><mn>2</mn><mn>3</mn></mfrac></span>)<sup>2</sup> smaller than the area of the medium pizza. Therefore, the small pizza SHOULD cost (<span class="math" v-pre=""><mfrac><mn>2</mn><mn>3</mn></mfrac></span>)<sup>2</sup> × £10 = £4.44. In practice, it will probably cost more, because of the reasons given in the video.</p></div></div><h2 id="4-junior-maths-challenge">4. Junior Maths Challenge</h2>
+<!--- 2011 (22) --->
+<div class="problem radio" id="p_4_1" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>4.1</strong> Evariste and Sophie both bought some stamps for their collections. Each stamp Evariste bought cost him £1.10, whilst Sophie paid 70p for each of her stamps. Between them they spend exactly £10.00. How many stamps did they buy in total?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_4_1', 'a')" v-bind:class="{active: c.answers.p_4_1 == 'a'}">9</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_4_1', 'b')" v-bind:class="{active: c.answers.p_4_1 == 'b'}">10</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_4_1', 'c')" v-bind:class="{active: c.answers.p_4_1 == 'c'}">11</div></li>
+<li><div class="choice correct" data-value="d" v-on:click="c.setAnswer('p_4_1', 'd')" v-bind:class="{active: c.answers.p_4_1 == 'd'}">12</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_4_1', 'e')" v-bind:class="{active: c.answers.p_4_1 == 'e'}">13</div></li>
+</ul>
+
+
+
+
+<div class="solution"><p>Suppose that Evariste buys <span class="math" v-pre=""><mi>x</mi></span> stamps and Sophie buys <span class="math" v-pre=""><mi>y</mi></span> stamps. Then 1.10<span class="math" v-pre=""><mi>x</mi></span> + 0.70<span class="math" v-pre=""><mi>y</mi></span> = 10.00. Hence, 11<span class="math" v-pre=""><mi>x</mi></span> + 7<span class="math" v-pre=""><mi>y</mi></span> = 100. We have one equation with two unknowns, so we need to use the fact that in this problem <span class="math" v-pre=""><mi>x</mi></span> and <span class="math" v-pre=""><mi>y</mi></span> are non-negative integers. <span class="math" v-pre=""><mi>x</mi></span> and <span class="math" v-pre=""><mi>y</mi></span> are whole numbers and bigger than or equal to zero.</p><p>By re-arranging the equation, <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mfrac><mrow><mn>100</mn><mo>–</mo><mn>11</mn><mi>x</mi></mrow><mn>7</mn></mfrac></span>. We need to test different values of <span class="math" v-pre=""><mi>x</mi></span> and find a whole number value for <span class="math" v-pre=""><mi>x</mi></span> that gives a whole number value for <span class="math" v-pre=""><mi>y</mi></span>. In other words, we need to find a value for <span class="math" v-pre=""><mi>x</mi></span>, such that <span class="math" v-pre=""><mfenced open="(" close=")"><mrow><mn>100</mn><mo>–</mo><mn>11</mn><mi>x</mi></mrow></mfenced></span> is divisible by 7 without a remainder.</p><p>Taking <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mn>9</mn><mo>,</mo></span> we have <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mfenced open="(" close=")"><mrow><mn>100</mn><mo>–</mo><mn>11</mn><mi>x</mi></mrow></mfenced><mo>=</mo><mn>100</mn><mo>,</mo><mn>89</mn><mo>,</mo><mn>78</mn><mo>,</mo><mn>67</mn><mo>,</mo><mn>56</mn><mo>,</mo><mn>45</mn><mo>,</mo><mn>34</mn><mo>,</mo><mn>23</mn><mo>,</mo><mn>12</mn><mo>,</mo><mn>1</mn></span>. We see that only for <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>4</mn></span> is <span class="math" v-pre=""><mfenced open="(" close=")"><mrow><mn>100</mn><mo>–</mo><mn>11</mn><mi>x</mi></mrow></mfenced></span> divisible by 7. So <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>4</mn></span> and <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mfrac><mn>56</mn><mn>7</mn></mfrac><mo>=</mo><mn>8</mn></span>. So Sophie buys 8 stamps and Evariste buys 4 stamps, and they buy 12 stamps in total.</p></div></div><h2 id="5-the-monoalphabetic-substitution-cipher-how-many-keys">5. The monoalphabetic substitution cipher – how many keys?</h2>
+<p>Last week we looked at the monoalphabetic substitution cipher, which swapped one letter for a different letter. The exact way that letters are substituted is known as the key. If the sender uses a key to substitute one letter for a different letter, then the receiver uses the same key to reverse the substitutions and read the original message. Here is one possible key:</p>
+<table class="grid">
+<tbody>
+<tr>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+<td>d</td>
+<td>e</td>
+<td>f</td>
+<td>g</td>
+<td>h</td>
+<td>i</td>
+<td>j</td>
+<td>k</td>
+<td>l</td>
+<td>m</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Z</td>
+<td>G</td>
+<td>Q</td>
+<td>P</td>
+<td>O</td>
+<td>I</td>
+<td>V</td>
+<td>C</td>
+<td>D</td>
+<td>A</td>
+<td>B</td>
+<td>J</td>
+</tr>
+</tbody>
+</table>
+<table class="grid">
+<tbody>
+<tr>
+<td>n</td>
+<td>o</td>
+<td>p</td>
+<td>q</td>
+<td>r</td>
+<td>s</td>
+<td>t</td>
+<td>u</td>
+<td>v</td>
+<td>w</td>
+<td>x</td>
+<td>y</td>
+<td>z</td>
+</tr>
+<tr>
+<td>H</td>
+<td>F</td>
+<td>Y</td>
+<td>E</td>
+<td>M</td>
+<td>S</td>
+<td>R</td>
+<td>X</td>
+<td>N</td>
+<td>L</td>
+<td>T</td>
+<td>W</td>
+<td>K</td>
+</tr>
+</tbody>
+</table>
+<p>The challenge for an enemy agent who has intercepted a coded message is to work out the key and read the message. If you're the enemy agent with a coded message, how long would it take you to work out the key? How long would it take to work out how each letter has been substituted?</p>
+<p>To answer that question, first we need to know how many different keys are possible. Another way to phrase this question is to ask: "How many different ways can you re-arrange an alphabet of 26 letters?"</p>
+<p>This is a big question, so let’s start with a smaller alphabet and see if we can find a pattern.</p>
+<ul>
+<li>A 1-letter alphabet (A) can only be arranged in <strong>1 way</strong> – A.</li>
+<li>A 2-letter alphabet (AB) can be arranged in <strong>2 ways</strong> – AB, BA</li>
+<li>A 3-letter alphabet (ABC) can be arranged in <strong>6 ways</strong> – ABC, ACB, BAC, BCA, CAB, CBA.</li>
+</ul>
+<p>A pattern is emerging, and you can see it below:</p>
+<table class="grid">
+<thead>
+<tr>
+<th>Size of Alphabet</th>
+<th>Number of arrangements</th>
+<th>Why?</th>
+<th>Factorial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1!</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>1 × 2</td>
+<td>2!</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>1 × 2 × 3</td>
+<td>3!</td>
+</tr>
+</tbody>
+</table>
+<p>(1 × 2 × 3) is called “three factorial” and is abbreviated to 3!</p>
+<p>But why is 3! the number of ways that you can arrange a 3-letter alphabet?</p>
+<ul>
+<li>imagine an arrangement.</li>
+<li>the first letter could be any of the 3 letters.</li>
+<li>the second letter could be either of the other 2 letters.</li>
+<li>the third letter must be the 1 remaining letter.</li>
+<li>so we had 3 × 2 × 1 possibilities.</li>
+</ul>
+<div class="problem input" id="p_5_1" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>5.1.</strong> How many ways can you arrange a 4-letter alphabet (ABCD)?</p>
+<p class="text-center"><input data-solution="24" data-value="p_5_1_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_5_1_0" v-bind:class="{correct: c.checkInput(c.answers.p_5_1_0, '24')}"><span class="input-solution">Correct Solution: 24</span></p>  
+
+
+<div class="solution"><p>There are 4! ways to arrange a 4-letter alphabet, which is 24 or (4 × 3 × 2 × 1) possibilities.</p></div></div><div class="problem input" id="p_5_2" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>5.2.</strong> How many ways can you arrange a 5-letter alphabet (ABCDE)?</p>
+<p class="text-center"><input data-solution="120" data-value="p_5_2_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_5_2_0" v-bind:class="{correct: c.checkInput(c.answers.p_5_2_0, '120')}"><span class="input-solution">Correct Solution: 120</span></p>  
+
+
+<div class="solution"><p>There are 5! ways to arrange a 5-letter alphabet, which is 120 or (5 × 4 × 3 × 2 × 1) possibilities.</p></div></div><div class="problem input" id="p_5_3" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>5.3.</strong> What is the value of 8! (or how many ways can you arrange an 8-letter alphabet?)</p>
+<p>You can work it out using your calculator’s factorial button – look for the exclamation mark – or you can work it out by multiplying over and over again.</p>
+<p class="text-center"><input data-solution="40320" data-value="p_5_3_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_5_3_0" v-bind:class="{correct: c.checkInput(c.answers.p_5_3_0, '40320')}"><span class="input-solution">Correct Solution: 40320</span></p>  
+</div><div class="problem radio" id="p_5_4" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>5.4.</strong> By now, you should have grasped that there are n! ways to rearrange n letters or n objects. Now think about how you would write down n! if you were breaking it down into a series of multiplications. How would you write it?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_5_4', 'a')" v-bind:class="{active: c.answers.p_5_4 == 'a'}">n! = n × (n-1) × … × (n – n)</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_5_4', 'b')" v-bind:class="{active: c.answers.p_5_4 == 'b'}">n! = (n-1) × (n – 2) × … × 2 × 1</div></li>
+<li><div class="choice correct" data-value="c" v-on:click="c.setAnswer('p_5_4', 'c')" v-bind:class="{active: c.answers.p_5_4 == 'c'}">n! = n × (n – 1) × … × 2 × 1</div></li>
+</ul>
+</div><h2 id="6-back-to-our-original-question">6. Back to our original question</h2>
+<div class="problem radio" id="p_6_1" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>6.1.</strong> How many ways can you arrange our usual 26-letter alphabet? In other words, how many different keys are there for the monoalphabetic substitution cipher?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_6_1', 'a')" v-bind:class="{active: c.answers.p_6_1 == 'a'}">26</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_6_1', 'b')" v-bind:class="{active: c.answers.p_6_1 == 'b'}">26<sup>26</sup></div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_6_1', 'c')" v-bind:class="{active: c.answers.p_6_1 == 'c'}">26 + 25 + ... + 2 + 1</div></li>
+<li><div class="choice correct" data-value="d" v-on:click="c.setAnswer('p_6_1', 'd')" v-bind:class="{active: c.answers.p_6_1 == 'd'}">26!</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_6_1', 'e')" v-bind:class="{active: c.answers.p_6_1 == 'e'}">26<sup>2</sup></div></li>
+</ul>
+</div><div class="problem input" id="p_6_2" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>6.2.</strong> Convert your answer from question 6.1 into an actual number by using a calculator. The answer is more than 100 million billion billion - how many million billion billions is it? Please provide a three digit answer.</p>
+<p class="text-center"><input data-solution="403" data-value="p_6_2_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_6_2_0" v-bind:class="{correct: c.checkInput(c.answers.p_6_2_0, '403')}"><span class="input-solution">Correct Solution: 403</span> million billion billion</p>
+
+
+<div class="solution"><p>If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,584,000,000 000 (or it will look something like 4.0329...e26), so the answer is 403 (million billion billion).</p></div></div><hr>
+<p>Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.</p>
+<p>In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.</p>
+<p>Cheerio,
+Simon.</p>
+<div v-if="isOneOf(c.status, 'open', 'past', 'preview')"><button id="submit" v-on:click="c.submit" data-challenge="7-07-optimise-pizza-money">Submit Answers</button></div><div class="score" v-if="c.status == 'submitted'"><p class="large">Submitted!</p><p>Your score and the solutions will be revealed in {{ timeUntil(c.deadline) }}.</p></div><div class="score" v-if="c.status == 'revealed'" v-bind:class="user.getLevel(c.data)"><p class="large">Score: {{user.getScore(c.data)}}%</p><p>Level: {{user.getLevel(c.data)}}</p></div>
+<hr>
+<h2 id="additional-stuff">Additional Stuff</h2>
+<ul>
+<li><a href="https://incoherency.co.uk/countdown/practice/#numbers" target="_blank">Here is a neat website that allows you to play the Countdown numbers game (and the letters game)</a>.</li>
+</ul>
+</div></article></div><div id="modal" v-if="user.data &amp;&amp; !user.data.acceptedTerms &amp;&amp; path!='terms-and-conditions'"><div class="modal-background"></div><div class="modal-body"><h2>Privacy Updates</h2><form v-on:submit="user.acceptTerms"><p class="checkbox"><input id="terms-modal" type="checkbox" required><label for="terms-modal">Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our <a href="/terms-and-conditions" target="_blank">Data Protection Terms & Conditions</a>.</label></p><button type="submit">Continue</button></form></div></div></div><footer><a href="/about">About</a>•<a href="/contact">Contact</a>•<a href="/terms-and-conditions">Data Protection, Terms and Conditions</a><br>Created by<a href="http://goodthinkingsociety.org" target="_blank"><img src="/images/good-thinking.png" width="10" height="16"> Good Thinking Society</a>and<a href="https://mathigon.org"><img src="/images/mathigon.png" width="16" height="16"> Mathigon</a></footer><script>var PAGES = {"year7":[{"week":6,"summer":true,"url":"2018summer-7-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-7-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-7-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-7-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-7-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-7-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"7-15-blackboard-equation","title":"Blackboard Equation","available":"2018-05-25T15:00:00.000Z","deadline":"2018-05-27T18:00:00.000Z"},{"week":14,"url":"7-14-sumaze","title":"Sumaze","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"7-13-good-will-hunting","title":"Good Will Hunting","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"7-12-maths-jokes","title":"Maths Jokes","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"7-11-secret-happiness","title":"The Secret of Happiness","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z"},{"week":10,"url":"7-10-a-matter-factorial","title":"A matter of factorial!","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"7-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"7-08-tricky-parking-problem","title":"Tricky parking problem","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"7-07-optimise-pizza-money","title":"Optimising your pizza money","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"7-06-pie-charts","title":"Pie charts and speed-reading","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"7-05-downhill-from-here","title":"It’s all downhill from here","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"7-04-sundogs-random-dots","title":"Sundogs and Random Dots","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-crosses-crosses","title":"Crosses and Crosses","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"7-02-marie-curie","title":"Madam Curie’s square riddle","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"7-01-parallelogram","title":"Codes and Physics","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-the-big-bang","title":"The Big Bang","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"7-02-the-melancoil","title":"The Melancoil","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"7-01-school-of-rock","title":"School of Rock","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}],"year8":[{"week":6,"summer":true,"url":"2018summer-8-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-8-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-8-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-8-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-8-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-8-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"8-15-seven-bridges-konigsberg","title":"The Seven Bridges of Konigsberg","available":"2018-05-25T16:00:00.000Z","deadline":"2018-05-27T19:00:00.000Z"},{"week":14,"url":"8-14-ada-lovelace","title":"Ada Lovelace","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"8-13-snake-mathematics","title":"Snake Mathematics","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"8-12-north-pole","title":"The North Pole Riddle","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"8-11-colour-code-challenge","title":"Colour Code Challenge","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z","hide":true},{"week":10,"url":"8-10-rattlebacks","title":"Rattlebacks","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"8-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"8-08-computer-music","title":"Computer music and techno ditties","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"8-07-curious-bear-doctor-who","title":"A curious bear and Doctor Who","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"8-06-countdown-levitating-water","title":"Countdown and levitating water","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"8-05-freezing-sports","title":"Freezing sports and flipping pancakes","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"8-04-dripping-taps","title":"Dripping Taps","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-flag-of-flags","title":"A flag of flags","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"8-02-lou-costello","title":"Lou Costello, Pi and More Pendula","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"8-01-ma-kettle","title":"Ma and Pa Kettle Make Pendulum Pi","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-surfing-chaos","title":"Surfing Choas","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"8-02-jurassic-park","title":"Jurassic Park mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"8-01-wizard-of-oz","title":"Wizard of Oz","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"},{"week":3,"url":"9-03-lots-of-socks","title":"Lots of Socks","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"9-02-romantic-mathematics","title":"Romantic Mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"9-01-sing-a-long","title":"Sing-A-Long-A Googol","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}]};</script><script defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script><script defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js"></script><script defer src="/parallel.js?v=16"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-37525836-7', 'auto');
+ga('send', 'pageview');</script></body></html>

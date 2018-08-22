@@ -1,0 +1,277 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Parallel by Simon Singh</title><meta name="description" content="Weekly mathematics challenges for secondary school students."><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="msapplication-tap-highlight" content="no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Parallel by Simon Singh"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="mobile-web-app-capable" content="yes"><meta name="mobile-web-app-title" content="Parallel"><meta name="theme-color" content="#181824"><link rel="manifest" href="/manifest.json"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet"><link href="/parallel.css?v=16" rel="stylesheet"></head><body><div id="vue"><div class="header"><div id="menu" v-on:click="showSidebar=true"><svg width="24" height="24"><rect y="2" width="24" height="3" fill="white"></rect><rect y="10" width="24" height="3" fill="white"></rect><rect y="18" width="24" height="3" fill="white"></rect></svg></div><a id="logo" href="/" title="Home"></a></div><div id="shadow" v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}"></div><div id="container"><div class="sidebar" v-bind:class="{show: user.ready}"><div class="sidebar-wrap" v-bind:class="{visible: showSidebar}"><div class="intros" v-if="!user.data"><a href="/introduction"><svg width="40" height="40"><path d="M31.9,10.7v-.5a3.1,3.1,0,0,0-3.1-3.1H24.7V5.7a4.7,4.7,0,0,0-9.4,0V7.1H11.2a3.1,3.1,0,0,0-3.1,3.1v.5C6,13.5,2.5,19.7,2.5,30a1.5,1.5,0,0,0,.4,1.1l1,1.1a9,9,0,0,0,.7,2.2,6,6,0,0,0,3.9,3A3.1,3.1,0,0,0,11.1,39H28.9a3.1,3.1,0,0,0,2.6-1.6,5.7,5.7,0,0,0,3.9-3,9,9,0,0,0,.7-2.2l1-1.1a1.5,1.5,0,0,0,.4-1.1C37.5,19.7,34,13.5,31.9,10.7Zm-14-5a2.1,2.1,0,0,1,4.2,0V7.1H17.9ZM20,11.3a2.4,2.4,0,0,1,2.4,2.4,2.4,2.4,0,0,1-4.8,0A2.4,2.4,0,0,1,20,11.3ZM33.8,33.7a4.1,4.1,0,0,1-1.9,1.8v-7a5.4,5.4,0,0,1-3,1v.4a1.8,1.8,0,0,1-1.8,1.7H23.8A1.8,1.8,0,0,1,22,29.9v-.4H17.9v.4a1.8,1.8,0,0,1-1.8,1.7H12.8A1.8,1.8,0,0,1,11,29.9v-.4a5.3,5.3,0,0,1-2.9-1v7a4.1,4.1,0,0,1-1.9-1.8A5.8,5.8,0,0,1,5.6,32l.9-1.2a2,2,0,0,0,.3-1.1,33.7,33.7,0,0,1,1.3-9.4v3.8A3.1,3.1,0,0,0,11,27.2v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6H22v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6a3.2,3.2,0,0,0,3-3.1V20.3a33.7,33.7,0,0,1,1.3,9.4,2,2,0,0,0,.3,1.1l.9,1.2A5.8,5.8,0,0,1,33.8,33.7Z"></path><path d="M27.1,26H23.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,27.1,26Zm-.5,3.3H24.4V27.1h2.2Z"></path><path d="M16.1,26H12.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,16.1,26Zm-.5,3.3H13.4V27.1h2.2Z"></path></svg>Students</a><a href="/teachers"><svg width="40" height="40"><path d="M39.7,15.5,20,8h-.3l-7.6,2.9L21,14.8l-2.7,1.1L9.2,12.1.3,15.5c-.2,0-.3.2-.3.4v.6a.3.3,0,0,0,.3.3L3,17.9V33.3l3.3-1.4V19.2l3.8,1.6c-.1.1-.1.3-.2.4a15.2,15.2,0,0,0-1.7,6.1.4.4,0,0,0,.1.3h.3a19.2,19.2,0,0,1,11.5,5h.5c5.8-4.9,10.7-5,10.8-5h.3a.4.4,0,0,0,.1-.3,16.1,16.1,0,0,0-1.6-6.1c-.1-.1-.1-.3-.2-.4l9.7-4a.3.3,0,0,0,.3-.3v-.6C40,15.7,39.9,15.5,39.7,15.5Z"></path></svg>Teachers</a><a href="/parents"><svg width="40" height="40"><path d="M34.9,36H5.2A3.2,3.2,0,0,1,2,32.8V17.7l15.2,4.5v3L20,28.1l2.8-2.9V22.1L38,17.7V32.8A3.1,3.1,0,0,1,34.9,36ZM2,15.5V12.7A3.5,3.5,0,0,1,5.4,9.3H9.9V6.4A3.5,3.5,0,0,1,13.2,3H26.8a3.5,3.5,0,0,1,3.3,3.4V9.3h4.5A3.5,3.5,0,0,1,38,12.7v2.8L19.9,20.6ZM27.3,7a1.4,1.4,0,0,0-1.1-1.2H13.8A1.4,1.4,0,0,0,12.7,7V9.3H27.3Z"></path></svg>Parents</a></div><div v-if="!user.data"><div class="user"><a href="/signup">Create a free account</a></div><div class="user"><a v-on:click="login.show = !login.show">Login</a><form class="login" v-bind:class="{active: login.show}" v-on:submit="login.submit"><input placeholder="Email" required type="email" v-model="login.email" autocomplete="email"><input placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password"><div class="error" v-show="login.error">{{login.error}}</div><p><button type="submit">{{ login.reset ? 'Reset' : 'Login' }}</button><a v-on:click="login.toggleReset()">{{ login.reset ? 'Back to login' : 'Reset password' }}</a></p></form></div></div><div class="user account" v-if="user.data"><p>{{ user.data.first }} {{user.data.last }}</p><p class="small"><span v-if="!user.data.code">{{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;</span><a href="/account">Edit Account</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a v-on:click="user.logout">Logout</a></p><p class="small" v-if="user.data.schoolName">{{ user.data.schoolName }}</p></div><div class="user certificate" v-if="user.data &amp;&amp; user.data.certificate"><a href="/certificate" v-bind:class="user.data.certificate">Your Certificate</a></div><div class="user" v-if="user.data &amp;&amp; user.data.code"><a href="/dashboard">Teacher Dashboard</a></div><div class="toggle" v-if="!user.data || user.data.code"><a v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}">Year 7</a><a v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}">Year 8</a></div><nav><a v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' &amp;&amp; !p.hide &amp;&amp; (!p.summer || user.showSummer)"><div class="title-meta" v-if="!p.summer">Week {{ p.week }}</div><div class="title">{{ p.title }}</div><div class="status open" v-if="user.getStatus(p) == 'open'">NEW</div><div class="status submitted" v-if="user.getStatus(p) == 'submitted'"></div><div class="status score" v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)">{{ user.getScore(p) }}%</div></a></nav></div></div><article v-bind:class="c ? c.status : ''"><div>
+<header style="background-image: url(/resources/7-06-pie-charts/header.jpg);"><h1 id="year-7-parallelogram-6-pie-charts-and-speed-reading"><em>Year 7 • Parallelogram 6</em> Pie charts and speed-reading</h1></header><div class="status-banner" v-if="user.ready &amp;&amp; c.status != 'revealed'" v-bind:class="c.status"><span v-if="c.status == 'locked'">[INTERNAL] This parallelogram is locked.</span><span v-if="c.status == 'preview'">This is a preview of Parallel. You have to login or <a href="/signup">create an account</a>, to be able to answer questions and submit answers.</span><span v-if="c.status == 'open'">This Parallelogram is currently active. You have {{ timeUntil(c.deadline) }} left to submit your answers.</span><span v-if="c.status == 'submitted'">You've already submitted your answers. The correct solutions will be shown in {{ timeUntil(c.deadline) }}.</span></div><div class="dictionary">
+<p><strong>Noun</strong>: Parallelogram
+<strong>Pronunciation</strong>: /ˌparəˈlɛləɡram/</p>
+<ol>
+<li>a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.</li>
+</ol>
+</div>
+<p>Here is this week's collection of mathematical challenges designed to stretch
+your brain.</p>
+<ul>
+<li>Start and stop whenever you like – your work will be saved each time.</li>
+<li>But it is better to tackle each Parallelogram in one go.</li>
+<li>Complete by 7pm Sunday if your whole class is doing Parallelograms.</li>
+<li>Return after 7pm on Sunday to find your score, answers and explanations.</li>
+<li>Make sure you complete every challenge and hit the SUBMIT button.</li>
+</ul>
+<p><strong>IMPORTANT</strong> – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.</p>
+<h2 id="1-pie-chart">1. Pie Chart</h2>
+<p>You will have come across lots of pie charts, and they are a useful way of representing information.  However, they are also a useful way of making jokes. These are some of my favourite funny pie charts. I have no idea who created the following pie charts, but well done to whoever invented them.</p>
+<figure><img src="/resources/7-06-pie-charts/1-pie-1-scooby.png" alt="" image="" align="center"></figure>
+<figure><img src="/resources/7-06-pie-charts/1-pie-2-japan.png" alt="" image="" align="center"></figure>
+<figure><img src="/resources/7-06-pie-charts/1-pie-3-pyramid.png" alt="" image="" align="center"></figure>
+<figure><img src="/resources/7-06-pie-charts/1-pie-4-pies.jpg" alt="" image="" align="center"></figure>
+<figure><img src="/resources/7-06-pie-charts/1-pie-5-understanding.jpg" alt="" image="" align="center"></figure>
+<h2 id="2-junior-maths-challenge">2. Junior Maths Challenge</h2>
+<!--- 2011 (17) --->
+<p>In case you have forgotten, or are new to Parallelograms, these Junior Maths Challenge questions come from an annual maths challenge that you might already have been part of or which you might be taking part in this year. The questions are sometimes tough, but that is the definition of a challenge.</p>
+<div class="problem radio" id="p_2_1" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>2.1</strong> The 2010 match at Wimbledon between John Isner and Nicolas Mahut, which lasted 11 hours and 5 minutes, set a record for the longest match in tennis history. The fifth set of the match lasted 8 hours and 11 minutes.</p>
+<p>Approximately what fraction of the whole match was taken up by the fifth set?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_2_1', 'a')" v-bind:class="{active: c.answers.p_2_1 == 'a'}"><span class="math" v-pre=""><mfrac><mn>1</mn><mn>5</mn></mfrac></span></div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_2_1', 'b')" v-bind:class="{active: c.answers.p_2_1 == 'b'}"><span class="math" v-pre=""><mfrac><mn>2</mn><mn>5</mn></mfrac></span></div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_2_1', 'c')" v-bind:class="{active: c.answers.p_2_1 == 'c'}"><span class="math" v-pre=""><mfrac><mn>3</mn><mn>5</mn></mfrac></span></div></li>
+<li><div class="choice correct" data-value="d" v-on:click="c.setAnswer('p_2_1', 'd')" v-bind:class="{active: c.answers.p_2_1 == 'd'}"><span class="math" v-pre=""><mfrac><mn>3</mn><mn>4</mn></mfrac></span></div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_2_1', 'e')" v-bind:class="{active: c.answers.p_2_1 == 'e'}"><span class="math" v-pre=""><mfrac><mn>9</mn><mn>10</mn></mfrac></span></div></li>
+</ul>
+
+
+
+
+
+
+<div class="solution"><p>We have that 8 hours and 11 minutes is 8 x 60 + 11 = 491 minutes and 11 hours and 5 minutes is 11 x 60 + 5 = 665 minutes. Therefore the exact fraction taken by the last set is <span class="math" v-pre=""><mfrac><mn>491</mn><mn>665</mn></mfrac></span>.</p><p>So we need to decide which of the given fractions this is closest to. This can be done in more than one way. For example, as 491 is just below 500 and 665 is almost ⅓ of 2000, we have that:</p><p><span class="math" v-pre=""><mfrac><mn>491</mn><mn>665</mn></mfrac></span> ~ <span class="math" v-pre=""><mfrac><mn>500</mn><mrow><mn>⅓</mn><mfenced open="(" close=")"><mn>2000</mn></mfenced></mrow></mfrac></span> = <span class="math" v-pre=""><mfrac><mn>1</mn><mrow><mn>⅓</mn><mfenced open="(" close=")"><mn>4</mn></mfenced></mrow></mfrac></span> = <span class="math" v-pre=""><mfrac><mn>3</mn><mn>4</mn></mfrac></span>. (Here “~” means “is approximately equal to”.)</p><p>Another method is to say that:</p><p><span class="math" v-pre=""><mfrac><mn>491</mn><mn>665</mn></mfrac></span> ~ <span class="math" v-pre=""><mfrac><mn>490</mn><mn>665</mn></mfrac></span> = <span class="math" v-pre=""><mfrac><mn>98</mn><mn>135</mn></mfrac></span> = <span class="math" v-pre=""><mfrac><mn>14</mn><mn>19</mn></mfrac></span> ~ <span class="math" v-pre=""><mfrac><mn>15</mn><mn>20</mn></mfrac></span> = <span class="math" v-pre=""><mfrac><mn>3</mn><mn>4</mn></mfrac></span></p></div></div><h2 id="3-speedreading">3. Speedreading</h2>
+<div class="problem radio" id="p_3_1" data-marks="1">
+      <div class="marks">1 mark</div><p><strong>3.1</strong> According to this video from the Quirkology YouTube channel, what was your reading speed (if you were able to keep up with the video right to the end)?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_3_1', 'a')" v-bind:class="{active: c.answers.p_3_1 == 'a'}">100 words/minute</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_3_1', 'b')" v-bind:class="{active: c.answers.p_3_1 == 'b'}">200 words/minute</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_3_1', 'c')" v-bind:class="{active: c.answers.p_3_1 == 'c'}">300 words/minute</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_3_1', 'd')" v-bind:class="{active: c.answers.p_3_1 == 'd'}">400 words/minute</div></li>
+<li><div class="choice correct" data-value="e" v-on:click="c.setAnswer('p_3_1', 'e')" v-bind:class="{active: c.answers.p_3_1 == 'e'}">500 words/minute</div></li>
+</ul>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/K8dIVNDMA_0?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+</div><h2 id="4-junior-maths-challenge">4. Junior Maths Challenge</h2>
+<!--- 2011 (18) --->
+<div class="problem radio" id="p_4_1" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>4.1</strong> Peri the winkle leaves on Monday to go and visit Granny, 90m away. Except for rest days, Peri travels 1m each day (24-hour period) at a constant rate and without pause.</p>
+<p>However, Peri stops for a 24-hour rest every tenth day, that is, after nine days
+travelling. On which day does Peri arrive at Granny’s?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_4_1', 'a')" v-bind:class="{active: c.answers.p_4_1 == 'a'}">Sunday</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_4_1', 'b')" v-bind:class="{active: c.answers.p_4_1 == 'b'}">Monday</div></li>
+<li><div class="choice correct" data-value="c" v-on:click="c.setAnswer('p_4_1', 'c')" v-bind:class="{active: c.answers.p_4_1 == 'c'}">Tuesday</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_4_1', 'd')" v-bind:class="{active: c.answers.p_4_1 == 'd'}">Wednesday</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_4_1', 'e')" v-bind:class="{active: c.answers.p_4_1 == 'e'}">Thursday</div></li>
+</ul>
+
+
+
+<div class="solution"><p>Until Peri reaches Granny’s, he travels 9m in 9 days and then rests for a day. So he travels 9m in 10 days. So it takes him 90 days to travel the first 9m x 9 = 81m.</p><p>Then after a further 9 days he has travelled the final 9m and has reached Granny’s. So the journey takes him 99 days. Now 99 = 14 x 7 + 1, so the journey takes him 14 weeks and 1 day. Therefore he arrives on a
+Tuesday.</p></div></div><h2 id="5-the-monoalphabetic-substitution-cipher">5. The monoalphabetic substitution cipher</h2>
+<p>In previous weeks, we have looked at codes that work by turning letters into numbers and then multiplying or adding to get a new number (and therefore a new letter). However, the most common way to send a code is to match each letter with a code-letter according to a random arrangement. For example, here is one such arrangement. The normal letter is in lower case, and the code letter is in upper case.</p>
+<table class="grid">
+<tbody>
+<tr>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+<td>d</td>
+<td>e</td>
+<td>f</td>
+<td>g</td>
+<td>h</td>
+<td>i</td>
+<td>j</td>
+<td>k</td>
+<td>l</td>
+<td>m</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Z</td>
+<td>G</td>
+<td>Q</td>
+<td>P</td>
+<td>O</td>
+<td>I</td>
+<td>V</td>
+<td>C</td>
+<td>D</td>
+<td>A</td>
+<td>B</td>
+<td>J</td>
+</tr>
+</tbody>
+</table>
+<table class="grid">
+<tbody>
+<tr>
+<td>n</td>
+<td>o</td>
+<td>p</td>
+<td>q</td>
+<td>r</td>
+<td>s</td>
+<td>t</td>
+<td>u</td>
+<td>v</td>
+<td>w</td>
+<td>x</td>
+<td>y</td>
+<td>z</td>
+</tr>
+<tr>
+<td>H</td>
+<td>F</td>
+<td>Y</td>
+<td>E</td>
+<td>M</td>
+<td>S</td>
+<td>R</td>
+<td>X</td>
+<td>N</td>
+<td>L</td>
+<td>T</td>
+<td>W</td>
+<td>K</td>
+</tr>
+</tbody>
+</table>
+<p>So, according to this random rearrangement (or <em>“key”</em>), the word <strong>“hello”</strong> is encoded as <strong>“VPBBF”</strong>.</p>
+<p>But according to the rearrangement below, the word <strong>“hello”</strong> would be encoded as <strong>“JQWWH”</strong>.</p>
+<table class="grid">
+<tbody>
+<tr>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+<td>d</td>
+<td>e</td>
+<td>f</td>
+<td>g</td>
+<td>h</td>
+<td>i</td>
+<td>j</td>
+<td>k</td>
+<td>l</td>
+<td>m</td>
+</tr>
+<tr>
+<td>M</td>
+<td>P</td>
+<td>O</td>
+<td>B</td>
+<td>Q</td>
+<td>G</td>
+<td>C</td>
+<td>J</td>
+<td>I</td>
+<td>A</td>
+<td>D</td>
+<td>W</td>
+<td>V</td>
+</tr>
+</tbody>
+</table>
+<table class="grid">
+<tbody>
+<tr>
+<td>n</td>
+<td>o</td>
+<td>p</td>
+<td>q</td>
+<td>r</td>
+<td>s</td>
+<td>t</td>
+<td>u</td>
+<td>v</td>
+<td>w</td>
+<td>x</td>
+<td>y</td>
+<td>z</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>H</td>
+<td>F</td>
+<td>S</td>
+<td>U</td>
+<td>Z</td>
+<td>R</td>
+<td>X</td>
+<td>T</td>
+<td>L</td>
+<td>N</td>
+<td>K</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<p>The challenge for the codebreaker, who does not know the key, is to somehow break the code. For example, what on Earth does the following message mean? It is a famous quote about mathematics.</p>
+<p><strong>PAUCGN YH GFA XYBHG GAHG; GFABA YH TZ EABOUTATG EQUVA YT GFA LZBQR XZB CWQN OUGFAOUGYVH.</strong></p>
+<p>Such a coded message would have been unbreakable for centuries, until a 9th century mathematician called al-Kindi developed the oldest known method of code-breaking. “The Philosopher of the Arabs”, as he was known, realised that every letter has a personality, and if that letter is replaced with a different letter, then the personality is transferred to the new letter, so it should still be recognisable.</p>
+<p>The most important part of a letter’s personality is how often it occurs. Some letters are more common than others, and the bar graph below shows the frequency of letters in English.</p>
+<figure><img src="/resources/7-06-pie-charts/5-letter-distribution.png" alt="" image="" align="center"></figure>
+<div class="problem input" id="p_5_1" data-marks="5">
+      <div class="marks">5 marks</div><p><strong>5.1.</strong> Your challenge is to decipher the coded message about maths. Once you have worked out the quote, Google it to find out the author of the quote, and then type his 5-letter surname into the answer box.</p>
+<p><strong>PAUCGN YH GFA XYBHG GAHG; GFABA YH TZ EABOUTATG EQUVA YT GFA LZBQR XZB CWQN OUGFAOUGYVH.</strong></p>
+<p class="text-center"><input type="text" data-solution="HARDY" data-value="p_5_1_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_5_1_0" v-bind:class="{correct: c.checkInput(c.answers.p_5_1_0, 'HARDY')}"><span class="input-solution">Correct Solution: HARDY</span></p>  
+<p>Tips:</p>
+<ul>
+<li>Write a list of all the letters in the coded message and count how many times each one appears.</li>
+<li>I created <a href="https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html" target="_blank">a code-breaking website</a>, which has some tools that you might find useful. You can paste in the coded text in the ‘ciphertext’ box, click on ‘Frequency of individual letters’ and it will count the frequency of each letter.</li>
+<li>From the frequency bar graph above, E and then T are generally the two most common letters in a message, so try to match these with the two most common letters in the coded message.</li>
+<li>Once you have identified the two most common letters, try to guess/deduce some of the other letters. <a href="https://www.simonsingh.net/The_Black_Chamber/substitutioncrackingtool.html" target="_blank">The code-breaking website</a> can also help with this.</li>
+<li>If you get stuck, be prepared to go backwards and try another letter.</li>
+<li>If you get really stuck, then you can click on the hints below, but they will cost you 1 mark for each hint.</li>
+</ul>
+<div id="hint-1" class="show-hint" data-marks="1" v-show="!c.answers['hint-1']" v-on:click="c.showHint('hint-1')">Show Hint (–1 mark)</div>
+      <div class="hint" v-show="c.answers['hint-1']">
+      <div class="hint-marks">–1 mark</div><p>CWQN = ugly</p>
+</div><div id="hint-2" class="show-hint" data-marks="1" v-show="!c.answers['hint-2']" v-on:click="c.showHint('hint-2')">Show Hint (–1 mark)</div>
+      <div class="hint" v-show="c.answers['hint-2']">
+      <div class="hint-marks">–1 mark</div><p>Words (as well as letters) have frequencies. The most common 3-letter word in English is THE. Can you spot it in the message?</p>
+</div><div id="hint-3" class="show-hint" data-marks="1" v-show="!c.answers['hint-3']" v-on:click="c.showHint('hint-3')">Show Hint (–1 mark)</div>
+      <div class="hint" v-show="c.answers['hint-3']">
+      <div class="hint-marks">–1 mark</div><p>Try to get inside the head of the person who wrote the message. We know this is a message about mathematics, so what word might you expect to find in the message?</p>
+</div>
+
+
+
+<div class="solution"><p>The two most common letters in the coded message are A &amp; G, which both account for 14% of the text. The two most common letters in English are E &amp; T, so try out (A = E, G = T) and (A = T, G = E).</p><p>If you cannot decide which letter is E and which is T, then the second hint revealed that THE is the most common 3-letter word. The sequence GFA appears twice, so it probably means ‘the’. As well as knowing that (G = T, A = E), you also know that F = H.
+At this point, breaking the code involves trial and error. However, the third hint reminded you that this is a message about mathematics, so you could guess that OUGFAOUGYVH means ‘mathematics’.</p><p>The quote is <em>"Beauty is the first test; there is no permanent place in the world for ugly mathematics,"</em> which was written the British mathematician <strong>G. H. Hardy</strong>. He was commenting on his belief (which other mathematicians share) that ugly maths is probably wrong, or at least there is a more beautiful and satisfying answer. Mathematicians follow logic, but they also have a gut reaction or an emotional reaction to some equations.</p></div></div><h2 id="6-a-qustion-to-tst-your-writing-skills">6. A qustion to tst your writing skills</h2>
+<p>We have learnt that E is the most common letter in English, so how hard would it be to write a message that did not contain a single E? Your challenge is to write at least 50 words explaining what you did today, but you must NOT use any words that contain the letter E.</p>
+<p>It will be tough, but the French novelist Georges Perec wrote an entire book (La Disparition) that was devoid of the letter E. It was then translated into English by Gilbert Adair, and once again none of the words in the book contained the letter E.</p>
+<p><strong>Contact us with your 50-word account of your day and you could win a copy of my book, which talks about lots of fun maths in Simpsons/Futurama – which I will happily sign for you. (See, it is possible to write without using any E’s!)</strong></p>
+<p>Email your 50-word account to <a href="mailto:prizes@parallel.org.uk">prizes@parallel.org.uk</a> and we will pick our favourite.</p>
+<hr>
+<p>Check your email or return to the website on Friday at 4pm for the next
+Parallelogram.</p>
+<p>In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
+take a look at the “Additional Stuff” section.</p>
+<p>Cheerio,
+Simon.</p>
+<div v-if="isOneOf(c.status, 'open', 'past', 'preview')"><button id="submit" v-on:click="c.submit" data-challenge="7-06-pie-charts">Submit Answers</button></div><div class="score" v-if="c.status == 'submitted'"><p class="large">Submitted!</p><p>Your score and the solutions will be revealed in {{ timeUntil(c.deadline) }}.</p></div><div class="score" v-if="c.status == 'revealed'" v-bind:class="user.getLevel(c.data)"><p class="large">Score: {{user.getScore(c.data)}}%</p><p>Level: {{user.getLevel(c.data)}}</p></div>
+<hr>
+<h2 id="additional-stuff">Additional Stuff</h2>
+<ul>
+<li>
+<p>The Pig Pen cipher is a simple code that you can quickly learn how to use. You can find out more about it at <a href="https://www.simonsingh.net/The_Black_Chamber/pigpen.html" target="_blank">my Black Chamber website</a>.</p>
+</li>
+<li>
+<p>Codes can be a matter of life and death. Find out about the broken code that led to <a href="https://www.simonsingh.net/The_Black_Chamber/maryqueenofscots.html" target="_blank">the execution of Mary Queen of Scots</a>.</p>
+</li>
+<li>
+<p>If you want to learn about a much tougher type of code, then check out <a href="https://www.simonsingh.net/The_Black_Chamber/homophonic_cipher.html" target="_blank">my explanation of the homophonic cipher</a>.</p>
+</li>
+</ul>
+</div></article></div><div id="modal" v-if="user.data &amp;&amp; !user.data.acceptedTerms &amp;&amp; path!='terms-and-conditions'"><div class="modal-background"></div><div class="modal-body"><h2>Privacy Updates</h2><form v-on:submit="user.acceptTerms"><p class="checkbox"><input id="terms-modal" type="checkbox" required><label for="terms-modal">Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our <a href="/terms-and-conditions" target="_blank">Data Protection Terms & Conditions</a>.</label></p><button type="submit">Continue</button></form></div></div></div><footer><a href="/about">About</a>•<a href="/contact">Contact</a>•<a href="/terms-and-conditions">Data Protection, Terms and Conditions</a><br>Created by<a href="http://goodthinkingsociety.org" target="_blank"><img src="/images/good-thinking.png" width="10" height="16"> Good Thinking Society</a>and<a href="https://mathigon.org"><img src="/images/mathigon.png" width="16" height="16"> Mathigon</a></footer><script>var PAGES = {"year7":[{"week":6,"summer":true,"url":"2018summer-7-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-7-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-7-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-7-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-7-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-7-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"7-15-blackboard-equation","title":"Blackboard Equation","available":"2018-05-25T15:00:00.000Z","deadline":"2018-05-27T18:00:00.000Z"},{"week":14,"url":"7-14-sumaze","title":"Sumaze","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"7-13-good-will-hunting","title":"Good Will Hunting","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"7-12-maths-jokes","title":"Maths Jokes","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"7-11-secret-happiness","title":"The Secret of Happiness","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z"},{"week":10,"url":"7-10-a-matter-factorial","title":"A matter of factorial!","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"7-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"7-08-tricky-parking-problem","title":"Tricky parking problem","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"7-07-optimise-pizza-money","title":"Optimising your pizza money","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"7-06-pie-charts","title":"Pie charts and speed-reading","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"7-05-downhill-from-here","title":"It’s all downhill from here","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"7-04-sundogs-random-dots","title":"Sundogs and Random Dots","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-crosses-crosses","title":"Crosses and Crosses","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"7-02-marie-curie","title":"Madam Curie’s square riddle","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"7-01-parallelogram","title":"Codes and Physics","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-the-big-bang","title":"The Big Bang","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"7-02-the-melancoil","title":"The Melancoil","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"7-01-school-of-rock","title":"School of Rock","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}],"year8":[{"week":6,"summer":true,"url":"2018summer-8-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-8-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-8-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-8-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-8-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-8-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"8-15-seven-bridges-konigsberg","title":"The Seven Bridges of Konigsberg","available":"2018-05-25T16:00:00.000Z","deadline":"2018-05-27T19:00:00.000Z"},{"week":14,"url":"8-14-ada-lovelace","title":"Ada Lovelace","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"8-13-snake-mathematics","title":"Snake Mathematics","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"8-12-north-pole","title":"The North Pole Riddle","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"8-11-colour-code-challenge","title":"Colour Code Challenge","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z","hide":true},{"week":10,"url":"8-10-rattlebacks","title":"Rattlebacks","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"8-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"8-08-computer-music","title":"Computer music and techno ditties","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"8-07-curious-bear-doctor-who","title":"A curious bear and Doctor Who","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"8-06-countdown-levitating-water","title":"Countdown and levitating water","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"8-05-freezing-sports","title":"Freezing sports and flipping pancakes","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"8-04-dripping-taps","title":"Dripping Taps","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-flag-of-flags","title":"A flag of flags","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"8-02-lou-costello","title":"Lou Costello, Pi and More Pendula","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"8-01-ma-kettle","title":"Ma and Pa Kettle Make Pendulum Pi","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-surfing-chaos","title":"Surfing Choas","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"8-02-jurassic-park","title":"Jurassic Park mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"8-01-wizard-of-oz","title":"Wizard of Oz","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"},{"week":3,"url":"9-03-lots-of-socks","title":"Lots of Socks","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"9-02-romantic-mathematics","title":"Romantic Mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"9-01-sing-a-long","title":"Sing-A-Long-A Googol","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}]};</script><script defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script><script defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js"></script><script defer src="/parallel.js?v=16"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-37525836-7', 'auto');
+ga('send', 'pageview');</script></body></html>

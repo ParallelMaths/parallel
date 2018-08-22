@@ -1,0 +1,255 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Parallel by Simon Singh</title><meta name="description" content="Weekly mathematics challenges for secondary school students."><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="msapplication-tap-highlight" content="no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Parallel by Simon Singh"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="mobile-web-app-capable" content="yes"><meta name="mobile-web-app-title" content="Parallel"><meta name="theme-color" content="#181824"><link rel="manifest" href="/manifest.json"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet"><link href="/parallel.css?v=16" rel="stylesheet"></head><body><div id="vue"><div class="header"><div id="menu" v-on:click="showSidebar=true"><svg width="24" height="24"><rect y="2" width="24" height="3" fill="white"></rect><rect y="10" width="24" height="3" fill="white"></rect><rect y="18" width="24" height="3" fill="white"></rect></svg></div><a id="logo" href="/" title="Home"></a></div><div id="shadow" v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}"></div><div id="container"><div class="sidebar" v-bind:class="{show: user.ready}"><div class="sidebar-wrap" v-bind:class="{visible: showSidebar}"><div class="intros" v-if="!user.data"><a href="/introduction"><svg width="40" height="40"><path d="M31.9,10.7v-.5a3.1,3.1,0,0,0-3.1-3.1H24.7V5.7a4.7,4.7,0,0,0-9.4,0V7.1H11.2a3.1,3.1,0,0,0-3.1,3.1v.5C6,13.5,2.5,19.7,2.5,30a1.5,1.5,0,0,0,.4,1.1l1,1.1a9,9,0,0,0,.7,2.2,6,6,0,0,0,3.9,3A3.1,3.1,0,0,0,11.1,39H28.9a3.1,3.1,0,0,0,2.6-1.6,5.7,5.7,0,0,0,3.9-3,9,9,0,0,0,.7-2.2l1-1.1a1.5,1.5,0,0,0,.4-1.1C37.5,19.7,34,13.5,31.9,10.7Zm-14-5a2.1,2.1,0,0,1,4.2,0V7.1H17.9ZM20,11.3a2.4,2.4,0,0,1,2.4,2.4,2.4,2.4,0,0,1-4.8,0A2.4,2.4,0,0,1,20,11.3ZM33.8,33.7a4.1,4.1,0,0,1-1.9,1.8v-7a5.4,5.4,0,0,1-3,1v.4a1.8,1.8,0,0,1-1.8,1.7H23.8A1.8,1.8,0,0,1,22,29.9v-.4H17.9v.4a1.8,1.8,0,0,1-1.8,1.7H12.8A1.8,1.8,0,0,1,11,29.9v-.4a5.3,5.3,0,0,1-2.9-1v7a4.1,4.1,0,0,1-1.9-1.8A5.8,5.8,0,0,1,5.6,32l.9-1.2a2,2,0,0,0,.3-1.1,33.7,33.7,0,0,1,1.3-9.4v3.8A3.1,3.1,0,0,0,11,27.2v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6H22v-.6a1.8,1.8,0,0,1,1.8-1.8v-6a1.6,1.6,0,0,1,1.7-1.6,1.6,1.6,0,0,1,1.6,1.6v6a1.8,1.8,0,0,1,1.8,1.8v.6a3.2,3.2,0,0,0,3-3.1V20.3a33.7,33.7,0,0,1,1.3,9.4,2,2,0,0,0,.3,1.1l.9,1.2A5.8,5.8,0,0,1,33.8,33.7Z"></path><path d="M27.1,26H23.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,27.1,26Zm-.5,3.3H24.4V27.1h2.2Z"></path><path d="M16.1,26H12.8a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V26.6A.6.6,0,0,0,16.1,26Zm-.5,3.3H13.4V27.1h2.2Z"></path></svg>Students</a><a href="/teachers"><svg width="40" height="40"><path d="M39.7,15.5,20,8h-.3l-7.6,2.9L21,14.8l-2.7,1.1L9.2,12.1.3,15.5c-.2,0-.3.2-.3.4v.6a.3.3,0,0,0,.3.3L3,17.9V33.3l3.3-1.4V19.2l3.8,1.6c-.1.1-.1.3-.2.4a15.2,15.2,0,0,0-1.7,6.1.4.4,0,0,0,.1.3h.3a19.2,19.2,0,0,1,11.5,5h.5c5.8-4.9,10.7-5,10.8-5h.3a.4.4,0,0,0,.1-.3,16.1,16.1,0,0,0-1.6-6.1c-.1-.1-.1-.3-.2-.4l9.7-4a.3.3,0,0,0,.3-.3v-.6C40,15.7,39.9,15.5,39.7,15.5Z"></path></svg>Teachers</a><a href="/parents"><svg width="40" height="40"><path d="M34.9,36H5.2A3.2,3.2,0,0,1,2,32.8V17.7l15.2,4.5v3L20,28.1l2.8-2.9V22.1L38,17.7V32.8A3.1,3.1,0,0,1,34.9,36ZM2,15.5V12.7A3.5,3.5,0,0,1,5.4,9.3H9.9V6.4A3.5,3.5,0,0,1,13.2,3H26.8a3.5,3.5,0,0,1,3.3,3.4V9.3h4.5A3.5,3.5,0,0,1,38,12.7v2.8L19.9,20.6ZM27.3,7a1.4,1.4,0,0,0-1.1-1.2H13.8A1.4,1.4,0,0,0,12.7,7V9.3H27.3Z"></path></svg>Parents</a></div><div v-if="!user.data"><div class="user"><a href="/signup">Create a free account</a></div><div class="user"><a v-on:click="login.show = !login.show">Login</a><form class="login" v-bind:class="{active: login.show}" v-on:submit="login.submit"><input placeholder="Email" required type="email" v-model="login.email" autocomplete="email"><input placeholder="Password" v-if="!login.reset" required type="password" v-model="login.password" autocomplete="current-password"><div class="error" v-show="login.error">{{login.error}}</div><p><button type="submit">{{ login.reset ? 'Reset' : 'Login' }}</button><a v-on:click="login.toggleReset()">{{ login.reset ? 'Back to login' : 'Reset password' }}</a></p></form></div></div><div class="user account" v-if="user.data"><p>{{ user.data.first }} {{user.data.last }}</p><p class="small"><span v-if="!user.data.code">{{ user.level == 'year7' ? 'Year 7' : 'Year 8' }}&nbsp;&nbsp;•&nbsp;&nbsp;</span><a href="/account">Edit Account</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a v-on:click="user.logout">Logout</a></p><p class="small" v-if="user.data.schoolName">{{ user.data.schoolName }}</p></div><div class="user certificate" v-if="user.data &amp;&amp; user.data.certificate"><a href="/certificate" v-bind:class="user.data.certificate">Your Certificate</a></div><div class="user" v-if="user.data &amp;&amp; user.data.code"><a href="/dashboard">Teacher Dashboard</a></div><div class="toggle" v-if="!user.data || user.data.code"><a v-on:click="user.level = 'year7'" v-bind:class="{active: user.level == 'year7'}">Year 7</a><a v-on:click="user.level = 'year8'" v-bind:class="{active: user.level == 'year8'}">Year 8</a></div><nav><a v-for="(p, i) in pages[user.level]" v-bind:href="'/' + p.url" v-bind:class="{active: path==p.url}" v-if="user.getStatus(p) != 'locked' &amp;&amp; !p.hide &amp;&amp; (!p.summer || user.showSummer)"><div class="title-meta" v-if="!p.summer">Week {{ p.week }}</div><div class="title">{{ p.title }}</div><div class="status open" v-if="user.getStatus(p) == 'open'">NEW</div><div class="status submitted" v-if="user.getStatus(p) == 'submitted'"></div><div class="status score" v-if="user.getStatus(p) == 'revealed'" v-bind:class="user.getLevel(p)">{{ user.getScore(p) }}%</div></a></nav></div></div><article v-bind:class="c ? c.status : ''"><div>
+<header style="background-image: url(/resources/8-07-curious-bear-doctor-who/header.jpg);"><h1 id="year-8-parallelogram-7-a-curious-bear-and-doctor-who"><em>Year 8 • Parallelogram 7</em> A curious bear and Doctor Who</h1></header><div class="status-banner" v-if="user.ready &amp;&amp; c.status != 'revealed'" v-bind:class="c.status"><span v-if="c.status == 'locked'">[INTERNAL] This parallelogram is locked.</span><span v-if="c.status == 'preview'">This is a preview of Parallel. You have to login or <a href="/signup">create an account</a>, to be able to answer questions and submit answers.</span><span v-if="c.status == 'open'">This Parallelogram is currently active. You have {{ timeUntil(c.deadline) }} left to submit your answers.</span><span v-if="c.status == 'submitted'">You've already submitted your answers. The correct solutions will be shown in {{ timeUntil(c.deadline) }}.</span></div><div class="dictionary">
+<p><strong>Noun</strong>: Parallelogram
+<strong>Pronunciation</strong>: /ˌparəˈlɛləɡram/</p>
+<ol>
+<li>a portmanteaux word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.</li>
+</ol>
+</div>
+<p>Here is this week's collection of mathematical challenges designed to stretch your brain.</p>
+<ul>
+<li>Start and stop whenever you like – your work will be saved each time.</li>
+<li>But it is better to tackle each Parallelogram in one go.</li>
+<li>Complete by 7pm Sunday if your whole class is doing Parallelograms.</li>
+<li>Return after 7pm on Sunday to find your score, answers and explanations.</li>
+</ul>
+<p><strong>IMPORTANT</strong> – it does not really matter what score you get, the main thing is
+that you think hard about the problems... and then learn where you went wrong
+when the answer sheet appears.</p>
+<h2 id="1-what-colour-is-the-bear">1.	What colour is the bear?</h2>
+<p>Here is a classic riddle. A hunter leaves her camp and walks 1 km south. She sees a bear and is about to shoot it, when her gun jams. She escapes by running 1 km east and then heads 1 km north back to camp. Huh! That doesn’t seem to make sense. Here is the question.</p>
+<div class="problem radio" id="p_1_1" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>1.1.</strong> What colour is the bear's fur?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_1_1', 'a')" v-bind:class="{active: c.answers.p_1_1 == 'a'}">Black</div></li>
+<li><div class="choice correct" data-value="b" v-on:click="c.setAnswer('p_1_1', 'b')" v-bind:class="{active: c.answers.p_1_1 == 'b'}">White</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_1_1', 'c')" v-bind:class="{active: c.answers.p_1_1 == 'c'}">Brown</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_1_1', 'd')" v-bind:class="{active: c.answers.p_1_1 == 'd'}">Blue</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_1_1', 'e')" v-bind:class="{active: c.answers.p_1_1 == 'e'}">Red</div></li>
+</ul>
+
+
+
+
+<div class="solution"><p><img src="/resources/8-07-curious-bear-doctor-who/1-north-pole.jpg" alt="" image="" align="right">The answer is white because it is a polar bear, because you are at the North Pole. Why? Normally moving south-east-north does not get you back to where you started, but imagine that you are at the North Pole. On the surface of a sphere (like the Earth), the rules of geometry are different, south-east-north forms a complete triangle!</p><p>Also, the triangle has three right angles, so the internal angles of a triangle on a sphere can add up to 270°.</p><p>By the way... this riddle has hidden depths, and so far you have only heard half the story. More next week.</p></div></div><h2 id="2-junior-maths-challenge">2. Junior Maths Challenge</h2>
+<!--- 2011 (22) --->
+<p>Evariste and Sophie both bought some stamps for their collections. Each stamp Evariste bought cost him £1.10, whilst Sophie paid 70p for each of her stamps. Between them they spend exactly £10.70.</p>
+<div class="problem radio" id="p_2_1" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>2.1</strong> How many stamps did they buy in total?</p>
+<ul class="col-5 choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_2_1', 'a')" v-bind:class="{active: c.answers.p_2_1 == 'a'}">9</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_2_1', 'b')" v-bind:class="{active: c.answers.p_2_1 == 'b'}">10</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_2_1', 'c')" v-bind:class="{active: c.answers.p_2_1 == 'c'}">11</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_2_1', 'd')" v-bind:class="{active: c.answers.p_2_1 == 'd'}">12</div></li>
+<li><div class="choice correct" data-value="e" v-on:click="c.setAnswer('p_2_1', 'e')" v-bind:class="{active: c.answers.p_2_1 == 'e'}">13</div></li>
+</ul>
+
+
+
+
+<div class="solution"><p>Suppose that Evariste buys <span class="math" v-pre=""><mi>x</mi></span> stamps and Sophie buys <span class="math" v-pre=""><mi>y</mi></span> stamps. Then 1.10<span class="math" v-pre=""><mi>x</mi></span> + 0.70<span class="math" v-pre=""><mi>y</mi></span> = 10.70. Hence, 11<span class="math" v-pre=""><mi>x</mi></span> + 7<span class="math" v-pre=""><mi>y</mi></span> = 107. We have one equation with two unknowns, so we need to use the fact that in this problem <span class="math" v-pre=""><mi>x</mi></span> and <span class="math" v-pre=""><mi>y</mi></span> are non-negative integers. <span class="math" v-pre=""><mi>x</mi></span> and <span class="math" v-pre=""><mi>y</mi></span> are whole numbers and bigger than or equal to zero.</p><p>By re-arranging the equation, <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mfrac><mrow><mn>107</mn><mo>–</mo><mn>11</mn><mi>x</mi></mrow><mn>7</mn></mfrac></span>. We need to test different values of <span class="math" v-pre=""><mi>x</mi></span> and find a whole number value for <span class="math" v-pre=""><mi>x</mi></span> that gives a whole number value for <span class="math" v-pre=""><mi>y</mi></span>. In other words, we need to find a value for <span class="math" v-pre=""><mi>x</mi></span>, such that <span class="math" v-pre=""><mn>107</mn><mo>–</mo><mn>11</mn><mi>x</mi></span> is divisible by 7 without a remainder.</p><p>Taking <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mn>9</mn><mo>,</mo></span> we have <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mn>107</mn><mo>–</mo><mrow><mn>11</mn><mi>x</mi></mrow><mo>=</mo><mn>107</mn><mo>,</mo><mn>96</mn><mo>,</mo><mn>85</mn><mo>,</mo><mn>74</mn><mo>,</mo><mn>63</mn><mo>,</mo><mn>52</mn><mo>,</mo><mn>41</mn><mo>,</mo><mn>30</mn><mo>,</mo><mn>19</mn><mo>,</mo><mn>8</mn></span>. We see that only for <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>4</mn></span> is <span class="math" v-pre=""><mn>107</mn><mo>–</mo><mn>11</mn><mi>x</mi></span> divisible by 7. So <span class="math" v-pre=""><mi>x</mi><mo>=</mo><mn>4</mn></span> and <span class="math" v-pre=""><mi>y</mi><mo>=</mo><mfrac><mn>63</mn><mn>7</mn></mfrac><mo>=</mo><mn>9</mn></span>. So Sophie buys 9 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.</p></div></div><h2 id="3-doctor-who-mathematics">3. Doctor Who mathematics</h2>
+<p>If you are fan of Doctor Who, then you might already know that the show regularly features mathematics, and many of the characters are mathematicians (e.g., Romulus and Remus Sylvest (The Twin Dilemma), Danny Pink (Into the Dalek),  Jackson Lake (The Next Doctor), Alistair Gordon Lethbridge-Stewart (Mawdryn Undead), Adric (Full Circle) and Zoe Heriot (The Wheel in Space).</p>
+<p>This is my favourite maths clip from Doctor Who.</p>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/ee2If8jSxUo?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+<p>So the Doctor spots that the pattern involves <strong>happy prime numbers</strong>. You will already know about prime numbers, but here “Alexis Inspired” explains what makes a prime number happy.</p>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/8ftbFl8tHmY?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+<p>You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then the original starting number is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.</p>
+<p>For example, 97 is happy, because it leads to the following sequence.</p>
+<p class="text-center">9<sup>2</sup> + 7<sup>2</sup> = 130<br>
+1<sup>2</sup> + 3<sup>2</sup> + 0<sup>2</sup> = 10<br>
+1<sup>2</sup> + 0<sup>2</sup> = 1 = happiness</p>
+<p>Because 97 is prime, then it is not just a happy number, but also a happy prime.</p>
+<p>I am going to define a quantity called “the sum of all happiness” for a number, which is the total of all the numbers on the happiness path added together.</p>
+<p>So, the sum of all happiness for 97 is (97 + 130 + 10 + 1), which equals 238.</p>
+<div class="problem input" id="p_3_1" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>3.1.</strong> 32 is a happy number. What is the sum of all happiness for 32?</p>
+<p class="text-center"><input data-solution="56" data-value="p_3_1_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_3_1_0" v-bind:class="{correct: c.checkInput(c.answers.p_3_1_0, '56')}"><span class="input-solution">Correct Solution: 56</span></p>  
+</div><div class="problem input" id="p_3_2" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>3.2.</strong> 19 is a happy number. What is the sum of all happiness for 19? Is there a shortcut you can use?</p>
+<p class="text-center"><input data-solution="270" data-value="p_3_2_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_3_2_0" v-bind:class="{correct: c.checkInput(c.answers.p_3_2_0, '270')}"><span class="input-solution">Correct Solution: 270</span></p>  
+
+
+<div class="solution"><p>Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given above, you can cheat and start with the answer given above, which is 342. However, your path started with 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.</p></div></div><div class="problem input" id="p_3_3" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>3.3.</strong> 4 is an unhappy number. If you follow the usual process (ie, 4<sup>2</sup> = 16, and then square the digits of 16 to get a new number, and so on) you end up creating a loop, as opposed to heading towards 1. Including the number 4 once, how many numbers are in the loop.</p>
+<p class="text-center"><input data-solution="8" data-value="p_3_3_0" v-on:change="c.setInput" v-model.lazy="c.answers.p_3_3_0" v-bind:class="{correct: c.checkInput(c.answers.p_3_3_0, '8')}"><span class="input-solution">Correct Solution: 8</span></p>  
+
+
+<div class="solution"><p>You should have found the following loop: 4, 16, 37, 58, 89, 145, 42, 20, 4, ... It consists of eight numbers if you only include 4 once.</p></div></div><div class="problem radio" id="p_3_4" data-marks="3">
+      <div class="marks">3 marks</div><p><strong>3.4.</strong> In 2010, mathematicians discovered the largest known happy prime, which is 2<sup>42,643,801</sup> – 1. Write down the complete path and prove that this number is indeed happy. Only kidding! That would take you several lifetimes.</p>
+<p>Instead, if you expressed 2<sup>42,643,801</sup> in the normal way (ie, not as a power of 2), how many digits would it contain?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_3_4', 'a')" v-bind:class="{active: c.answers.p_3_4 == 'a'}">2 digits</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_3_4', 'b')" v-bind:class="{active: c.answers.p_3_4 == 'b'}">42,643,801 digits</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_3_4', 'c')" v-bind:class="{active: c.answers.p_3_4 == 'c'}">roughly 7 million digits</div></li>
+<li><div class="choice correct" data-value="d" v-on:click="c.setAnswer('p_3_4', 'd')" v-bind:class="{active: c.answers.p_3_4 == 'd'}">more than 10 million digits</div></li>
+<li><div class="choice" data-value="e" v-on:click="c.setAnswer('p_3_4', 'e')" v-bind:class="{active: c.answers.p_3_4 == 'e'}">less than 5 million digits</div></li>
+</ul>
+
+
+
+<div class="solution"><p>My calculator screamed ERROR when I tried to be lazy. Instead, I started by noticing 2<sup>10</sup> ≈ 1,000.</p><p>You might not have covered how to manipulate exponentials in detail, so don’t worry if you cannot follow this completely, but you can then say:<br>
+2<sup>42,643,801</sup> ≈ (2<sup>10</sup>)<sup>4,264,380</sup>, because   2<sup>ab</sup> = (2<sup>a</sup>)<sup>b</sup><br>
+≈ (1,000)<sup>4,264,380</sup><br>
+≈ (10<sup>3</sup>)<sup>4,264,380</sup>, because 1,000 = 10<sup>3</sup><br>
+≈ 10<sup>3 × 4,264,380</sup><br>
+≈ 10<sup>12,793,140</sup>, so the number has about 12,293,140 digits.</p></div></div><h2 id="4-junior-maths-challenge">4. Junior Maths Challenge</h2>
+<!--- 2011 (23) --->
+<p>This is one of the toughest Junior Maths Challenge questions that you will come across, so I have given a hint. Try and solve the problem on your own – and be tenacious – but the hint is there if you need it.</p>
+<div class="problem radio" id="p_4" data-marks="5">
+      <div class="marks">5 marks</div><p><img src="/resources/8-07-curious-bear-doctor-who/4-triangles-question.jpg" alt="" image="" align="right">
+<strong>4.1.</strong> The points <em>S</em>, <em>T</em>, <em>U</em> lie on the sides of the triangle <em>PQR</em>, as shown, so that <em>QS</em> = <em>QU</em> and <em>RS</em> = <em>RT</em>.</p>
+<p><em>∠TSU</em> = 40°. What is the size of <em>∠TPU</em>?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_4', 'a')" v-bind:class="{active: c.answers.p_4 == 'a'}">60°</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_4', 'b')" v-bind:class="{active: c.answers.p_4 == 'b'}">70°</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_4', 'c')" v-bind:class="{active: c.answers.p_4 == 'c'}">80°</div></li>
+<li><div class="choice" data-value="d" v-on:click="c.setAnswer('p_4', 'd')" v-bind:class="{active: c.answers.p_4 == 'd'}">90°</div></li>
+<li><div class="choice correct" data-value="e" v-on:click="c.setAnswer('p_4', 'e')" v-bind:class="{active: c.answers.p_4 == 'e'}">100°</div></li>
+</ul>
+<div id="hint-1" class="show-hint" data-marks="1" v-show="!c.answers['hint-1']" v-on:click="c.showHint('hint-1')">Show Hint (–1 mark)</div>
+      <div class="hint" v-show="c.answers['hint-1']">
+      <div class="hint-marks">–1 mark</div><p>Let <em>∠RST</em> = <span class="math" v-pre=""><mi>x</mi></span>° and <em>∠QSU</em> = <span class="math" v-pre=""><mi>y</mi></span>°. As <em>RS</em> = <em>RT</em>, the triangle <em>RST</em> is isosceles and hence <em>∠RTS</em> = <em>∠RST</em> = <span class="math" v-pre=""><mi>x</mi></span>°. Hence, as the angles in triangle <em>RST</em> add up to 180°, we have that <em>∠SRT</em> = (180 - 2<span class="math" v-pre=""><mi>x</mi></span>)°.</p>
+</div><div id="hint-2" class="show-hint" data-marks="1" v-show="!c.answers['hint-2']" v-on:click="c.showHint('hint-2')">Show Hint (–1 mark)</div>
+      <div class="hint" v-show="c.answers['hint-2']">
+      <div class="hint-marks">–1 mark</div><p><em>∠SQU</em> = (180 - 2<span class="math" v-pre=""><mi>y</mi></span>)°. Hence from triangle <em>PQR</em>, we have that <em>∠TPU</em> = (180 - (180 - 2<span class="math" v-pre=""><mi>x</mi></span>) - (180 - 2<span class="math" v-pre=""><mi>y</mi></span>))° = (2 (<span class="math" v-pre=""><mi>x</mi></span> + <span class="math" v-pre=""><mi>y</mi></span>) - 180)°.</p>
+</div>
+
+
+
+
+
+<div class="solution"><p><img src="/resources/8-07-curious-bear-doctor-who/4-triangle-answer.jpg" alt="" image="" align="right">
+The question was hard, and the answer is pretty hard, too. Go through it slowly, step by step, and you really will understand it. If you are flummoxed by one particular step, then ask your teacher to explain it.</p><p>Let <em>∠RTS</em> = <span class="math" v-pre=""><mi>x</mi></span>°. Then <em>∠RST</em> = <span class="math" v-pre=""><mi>x</mi></span> as <em>RS</em> = <em>RT</em>.</p><p>Let <em>∠QSU</em> = <span class="math" v-pre=""><mi>y</mi></span>°. Then <em>∠QUS</em> = <span class="math" v-pre=""><mi>y</mi></span>° as <em>QS</em> = <em>QU</em>.</p><p>As <em>RSQ</em> is a straight line, <span class="math" v-pre=""><mi>x</mi></span> + <span class="math" v-pre=""><mi>y</mi></span> + 40 = 180; so <span class="math" v-pre=""><mi>x</mi></span> + <span class="math" v-pre=""><mi>y</mi></span> = 140.</p><p>Now <em>∠TPU</em> = 180° - <em>∠TRS</em> - <em>∠SQU</em><br>
+= 180° - (180 - 2<span class="math" v-pre=""><mi>x</mi></span>)° - (180 - 2<span class="math" v-pre=""><mi>y</mi></span>)°<br>
+= 180° - 180° + 2<span class="math" v-pre=""><mi>x</mi></span>° - 180° + 2<span class="math" v-pre=""><mi>y</mi></span>°<br>
+= 2(<span class="math" v-pre=""><mi>x</mi></span> + <span class="math" v-pre=""><mi>y</mi></span>)° - 180°<br>
+= 2 × 140° - 180°<br>
+= 100°</p></div></div><h2 id="5-an-odd-square">5. An odd square.</h2>
+<p>Here is something curious.</p>
+<p>You could pick any number, but let’s try it with the number 6.</p>
+<p>First, write down a 6 by 6 grid of the first 6 × 6 odd numbers.</p>
+<table class="grid">
+<tbody>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>5</td>
+<td>7</td>
+<td>9</td>
+<td>11</td>
+</tr>
+<tr>
+<td>13</td>
+<td>15</td>
+<td>17</td>
+<td>19</td>
+<td>21</td>
+<td>23</td>
+</tr>
+<tr>
+<td>25</td>
+<td>27</td>
+<td>29</td>
+<td>31</td>
+<td>33</td>
+<td>35</td>
+</tr>
+<tr>
+<td>37</td>
+<td>39</td>
+<td>41</td>
+<td>43</td>
+<td>45</td>
+<td>47</td>
+</tr>
+<tr>
+<td>49</td>
+<td>51</td>
+<td>53</td>
+<td>55</td>
+<td>57</td>
+<td>59</td>
+</tr>
+<tr>
+<td>61</td>
+<td>63</td>
+<td>65</td>
+<td>67</td>
+<td>69</td>
+<td>71</td>
+</tr>
+</tbody>
+</table>
+<p>If you add up the numbers to the top row, then you get:</p>
+<p class="text-center">1 + 3 + 5 + 7 + 9 + 11 = 36 = 6<sup>2</sup></p>
+<p>If you add up the numbers in either diagonal, then you get:</p>
+<p class="text-center">1 + 15 + 29 + 43 + 57 + 71 = 216 = 6<sup>3</sup></p>
+<p class="text-center">11 + 21 + 31 + 41 + 51 + 61 = 216 = 6<sup>3</sup></p>
+<p>Finally, if you add up all the numbers in grid, then you get 6<sup>4</sup>.</p>
+<p>The crazy thing is that you can do this this with any number all the way up to infinity. But, for simplicity, let’s try it with the number 3 and create a 3 by 3 grid of the first nine odd numbers.</p>
+<table class="grid">
+<tbody>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>9</td>
+<td>11</td>
+</tr>
+<tr>
+<td>13</td>
+<td>15</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Top row:</strong> 1 + 3 + 5 = 9 = 3<sup>2</sup></p>
+<p><strong>Diagonals:</strong>	1 + 9 + 17 = 5 + 9 + 13 = 27 = 3<sup>3</sup></p>
+<p><strong>All:</strong> 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 = 81 = 3<sup>4</sup></p>
+<p>Why does this happen? Let’s look at why the top row adds up to the square of the number.</p>
+<figure><img src="/resources/8-07-curious-bear-doctor-who/5-3-number-square.jpg" alt="" image="" align="center"></figure>
+<p>A 3 x 3 grid of 9 blocks consists of <strong>1</strong> block in the top left, <strong>3</strong> blocks wrapped around it, and <strong>5</strong> blocks wrapped around those. So a 3<sup>2</sup> grid consists of <strong>(1 + 3 + 5)</strong> blocks, and <strong>1</strong>, <strong>3</strong>, <strong>5</strong> are the first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.</p>
+<p>And why do the diagonals of an n × n grid add up to n<sup>3</sup>? And why do all the numbers in an n × n grid add up to n<sup>4</sup>? That’s something for you to think about.</p>
+<h2 id="6-monty-python">6. Monty Python</h2>
+<p>And now for something completely different. Monty Python’s Flying Circus was one of the BBC’s most anarchic and revolutionary comedy shows. The sketches were based on a whole series of absurd premises, such as the Ministry of Silly Walks and a customer complaining about a dead parrot.</p>
+<p>As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.</p>
+<p></p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/ur5fGSBsfq8?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+<div class="problem radio" id="p_6_1" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>6.1.</strong> Which of the Greek footballing philosophers was killed by a Roman soldier, because he was so busy doing mathematics that he refused to obey the soldier’s orders?</p>
+<ul class="choices">
+<li><div class="choice" data-value="a" v-on:click="c.setAnswer('p_6_1', 'a')" v-bind:class="{active: c.answers.p_6_1 == 'a'}">"Chopper" Sophocles</div></li>
+<li><div class="choice correct" data-value="b" v-on:click="c.setAnswer('p_6_1', 'b')" v-bind:class="{active: c.answers.p_6_1 == 'b'}">Archimedes</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_6_1', 'c')" v-bind:class="{active: c.answers.p_6_1 == 'c'}">Plotinus</div></li>
+</ul>
+</div><div class="problem radio" id="p_6_2" data-marks="2">
+      <div class="marks">2 marks</div><p><strong>6.2.</strong> Which of the German footballing philosophers invented calculus (separately from Isaac Newton), one of the most important topics in mathematics? He also invented the first mass-produced mechanical calculator.</p>
+<ul class="choices">
+<li><div class="choice correct" data-value="a" v-on:click="c.setAnswer('p_6_2', 'a')" v-bind:class="{active: c.answers.p_6_2 == 'a'}">Gottfried Leibniz</div></li>
+<li><div class="choice" data-value="b" v-on:click="c.setAnswer('p_6_2', 'b')" v-bind:class="{active: c.answers.p_6_2 == 'b'}">Immanuel Kant</div></li>
+<li><div class="choice" data-value="c" v-on:click="c.setAnswer('p_6_2', 'c')" v-bind:class="{active: c.answers.p_6_2 == 'c'}">Georg “Nobby” Hegel</div></li>
+</ul>
+</div><hr>
+<p>Check your email or return to the website on Friday at 4pm for the next Parallelogram.</p>
+<p>In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.</p>
+<p>Cheerio,
+Simon.</p>
+<div v-if="isOneOf(c.status, 'open', 'past', 'preview')"><button id="submit" v-on:click="c.submit" data-challenge="8-07-curious-bear-doctor-who">Submit Answers</button></div><div class="score" v-if="c.status == 'submitted'"><p class="large">Submitted!</p><p>Your score and the solutions will be revealed in {{ timeUntil(c.deadline) }}.</p></div><div class="score" v-if="c.status == 'revealed'" v-bind:class="user.getLevel(c.data)"><p class="large">Score: {{user.getScore(c.data)}}%</p><p>Level: {{user.getLevel(c.data)}}</p></div>
+<h2 id="additional-stuff">Additional Stuff</h2>
+<ul>
+<li>
+<p>If you are interested in studying physics (or maths or engineering) at university, then you might want to watch this video by Physics Girl, in conversation with Jabril Ashe. She talks about her path into physics. Jabril, by the way, is a computer programmer, as well as a YouTuber:
+</p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="//www.youtube.com/embed/n2RhC4JNS7M?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div><p></p>
+</li>
+<li>
+<p>For more Doctor Who stuff, <a href="http://www.bbc.co.uk/programmes/articles/4nH4gHgpmRXh8w8vqLsq1jS/fun-and-games" target="_blank">here is the BBC Doctor Who fun and games website</a>.</p>
+</li>
+</ul>
+</div></article></div><div id="modal" v-if="user.data &amp;&amp; !user.data.acceptedTerms &amp;&amp; path!='terms-and-conditions'"><div class="modal-background"></div><div class="modal-body"><h2>Privacy Updates</h2><form v-on:submit="user.acceptTerms"><p class="checkbox"><input id="terms-modal" type="checkbox" required><label for="terms-modal">Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our <a href="/terms-and-conditions" target="_blank">Data Protection Terms & Conditions</a>.</label></p><button type="submit">Continue</button></form></div></div></div><footer><a href="/about">About</a>•<a href="/contact">Contact</a>•<a href="/terms-and-conditions">Data Protection, Terms and Conditions</a><br>Created by<a href="http://goodthinkingsociety.org" target="_blank"><img src="/images/good-thinking.png" width="10" height="16"> Good Thinking Society</a>and<a href="https://mathigon.org"><img src="/images/mathigon.png" width="16" height="16"> Mathigon</a></footer><script>var PAGES = {"year7":[{"week":6,"summer":true,"url":"2018summer-7-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-7-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-7-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-7-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-7-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-7-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"7-15-blackboard-equation","title":"Blackboard Equation","available":"2018-05-25T15:00:00.000Z","deadline":"2018-05-27T18:00:00.000Z"},{"week":14,"url":"7-14-sumaze","title":"Sumaze","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"7-13-good-will-hunting","title":"Good Will Hunting","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"7-12-maths-jokes","title":"Maths Jokes","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"7-11-secret-happiness","title":"The Secret of Happiness","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z"},{"week":10,"url":"7-10-a-matter-factorial","title":"A matter of factorial!","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"7-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"7-08-tricky-parking-problem","title":"Tricky parking problem","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"7-07-optimise-pizza-money","title":"Optimising your pizza money","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"7-06-pie-charts","title":"Pie charts and speed-reading","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"7-05-downhill-from-here","title":"It’s all downhill from here","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"7-04-sundogs-random-dots","title":"Sundogs and Random Dots","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-crosses-crosses","title":"Crosses and Crosses","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"7-02-marie-curie","title":"Madam Curie’s square riddle","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"7-01-parallelogram","title":"Codes and Physics","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"7-03-the-big-bang","title":"The Big Bang","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"7-02-the-melancoil","title":"The Melancoil","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"7-01-school-of-rock","title":"School of Rock","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}],"year8":[{"week":6,"summer":true,"url":"2018summer-8-6","title":"Summer Problems 6","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":5,"summer":true,"url":"2018summer-8-5","title":"Summer Problems 5","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":4,"summer":true,"url":"2018summer-8-4","title":"Summer Problems 4","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":3,"summer":true,"url":"2018summer-8-3","title":"Summer Problems 3","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":2,"summer":true,"url":"2018summer-8-2","title":"Summer Problems 2","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":1,"summer":true,"url":"2018summer-8-1","title":"Summer Problems 1","available":"2018-07-01T12:00:00.000Z","deadline":"2018-07-01T12:00:00.000Z"},{"week":15,"url":"8-15-seven-bridges-konigsberg","title":"The Seven Bridges of Konigsberg","available":"2018-05-25T16:00:00.000Z","deadline":"2018-05-27T19:00:00.000Z"},{"week":14,"url":"8-14-ada-lovelace","title":"Ada Lovelace","available":"2018-05-18T16:00:00.000Z","deadline":"2018-05-20T19:00:00.000Z"},{"week":13,"url":"8-13-snake-mathematics","title":"Snake Mathematics","available":"2018-05-11T16:00:00.000Z","deadline":"2018-05-13T19:00:00.000Z"},{"week":12,"url":"8-12-north-pole","title":"The North Pole Riddle","available":"2018-05-04T16:00:00.000Z","deadline":"2018-05-06T19:00:00.000Z"},{"week":11,"url":"8-11-colour-code-challenge","title":"Colour Code Challenge","available":"2018-04-27T16:00:00.000Z","deadline":"2018-04-29T19:00:00.000Z","hide":true},{"week":10,"url":"8-10-rattlebacks","title":"Rattlebacks","available":"2018-04-20T16:00:00.000Z","deadline":"2018-04-22T19:00:00.000Z","hide":true},{"week":9,"url":"8-09-easter-challenges","title":"Easter challenges","available":"2018-03-23T16:00:00.000Z","deadline":"2018-03-25T19:00:00.000Z","hide":true},{"week":8,"url":"8-08-computer-music","title":"Computer music and techno ditties","available":"2018-03-16T16:00:00.000Z","deadline":"2018-03-18T19:00:00.000Z","hide":true},{"week":7,"url":"8-07-curious-bear-doctor-who","title":"A curious bear and Doctor Who","available":"2018-03-09T16:00:00.000Z","deadline":"2018-03-11T19:00:00.000Z","hide":true},{"week":6,"url":"8-06-countdown-levitating-water","title":"Countdown and levitating water","available":"2018-03-02T16:00:00.000Z","deadline":"2018-03-04T19:00:00.000Z","hide":true},{"week":5,"url":"8-05-freezing-sports","title":"Freezing sports and flipping pancakes","available":"2018-02-23T16:00:00.000Z","deadline":"2018-02-25T19:00:00.000Z","hide":true},{"week":4,"url":"8-04-dripping-taps","title":"Dripping Taps","available":"2018-02-09T16:00:00.000Z","deadline":"2018-02-11T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-flag-of-flags","title":"A flag of flags","available":"2018-02-02T16:00:00.000Z","deadline":"2018-02-04T19:00:00.000Z","hide":true},{"week":2,"url":"8-02-lou-costello","title":"Lou Costello, Pi and More Pendula","available":"2018-01-26T16:00:00.000Z","deadline":"2018-01-28T19:00:00.000Z","hide":true},{"week":1,"url":"8-01-ma-kettle","title":"Ma and Pa Kettle Make Pendulum Pi","available":"2018-01-19T16:00:00.000Z","deadline":"2018-01-21T19:00:00.000Z","hide":true},{"week":3,"url":"8-03-surfing-chaos","title":"Surfing Choas","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"8-02-jurassic-park","title":"Jurassic Park mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"8-01-wizard-of-oz","title":"Wizard of Oz","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"},{"week":3,"url":"9-03-lots-of-socks","title":"Lots of Socks","available":"2018-09-20T16:00:00.000Z","deadline":"2018-09-23T19:00:00.000Z"},{"week":2,"url":"9-02-romantic-mathematics","title":"Romantic Mathematics","available":"2018-09-13T16:00:00.000Z","deadline":"2018-09-16T19:00:00.000Z"},{"week":1,"url":"9-01-sing-a-long","title":"Sing-A-Long-A Googol","available":"2018-09-06T16:00:00.000Z","deadline":"2018-09-09T19:00:00.000Z"}]};</script><script defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script><script defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js"></script><script defer src="/parallel.js?v=16"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-37525836-7', 'auto');
+ga('send', 'pageview');</script></body></html>
