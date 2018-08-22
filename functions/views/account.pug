@@ -6,25 +6,27 @@ block content
   form(v-on:submit="user.edit"  v-bind:class="{loading: user.editForm.loading}")
     .error(v-show="user.editForm.error" style="margin-top: .5em") {{user.editForm.error}}
 
+    script!= 'window.USER_DATA = ' + JSON.stringify(user) + ';'
+
     if user.code
       //- Teacher Account Fields
       label
         | School Name
-        input(type="text" v-model="user.editForm.schoolName" value=user.schoolName)
+        input(type="text" v-model="user.editForm.schoolName")
 
       label
         | School Post Code
-        input(type="text" v-model="user.editForm.postCode" value=user.postCode)
+        input(type="text" v-model="user.editForm.postCode")
 
       label
-        | School Phone Number
-        input(type="text" v-model="user.editForm.phoneNumber" value=user.phoneNumber)
+        | Phone Number
+        input(type="text" v-model="user.editForm.phoneNumber")
 
     else
       //- Student Account Fields
       label
         | Teacher code (optional)
-        input(type="text" v-model="user.editForm.teacherCode" value=user.teacherCode)
+        input(type="text" v-model="user.editForm.teacherCode")
 
       label
         | Year

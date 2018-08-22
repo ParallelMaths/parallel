@@ -2,7 +2,7 @@ extends _layout
 
 block content
 
-  h1 Signup
+  h1 Create New Account
 
   form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}")
 
@@ -37,7 +37,7 @@ block content
       select(v-model="user.signupForm.level")
         option(value="year7") Year 7 (age 11–12)
         option(value="year8") Year 8 (age 12–13)
-        option(value="year9") Year 8 (age 13–14)
+        option(value="year9") Year 9 (age 13–14)
 
     label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode")
       | Year of Birth

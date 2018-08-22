@@ -26,35 +26,32 @@ export default function() {
   const fbAuth = firebase.auth();
   const fbDatabase = firebase.database();
 
+  let nextUrl = '';
   let uid = null;
   fbAuth.onAuthStateChanged((user) => uid = user ? user.uid : null);
 
-  /* Checks if it's likely that there is a signed-in Firebase user and the session cookie expired.
-    // In that case we'll hide the body of the page until it will be reloaded after the cookie has been set.
-    var hasSessionCookie = document.cookie.indexOf('__session=') !== -1;
-    var isProbablySignedInFirebase = typeof Object.keys(localStorage).find(function (key) {
-      return key.startsWith('firebase:authUser')
-    }) !== 'undefined';
-    if (!hasSessionCookie && isProbablySignedInFirebase) {
-      var style = document.createElement('style');
-      style.id = '__bodyHider';
-      style.appendChild(document.createTextNode('body{display:none}'));
-      document.head.appendChild(style);
-    } */
+  // If it is likely that there is a signed-in Firebase user and the session
+  // cookie has expired, we hide the page body until the page is reloaded.
+  const hasSessionCookie = document.cookie.indexOf('__session=') !== -1;
+  const isProbablySignedInFirebase = typeof Object.keys(window.localStorage)
+      .find((key) => key.startsWith('firebase:authUser')) !== 'undefined';
+  if (!hasSessionCookie && isProbablySignedInFirebase) {
+    document.body.style.display = 'none';
+  }
 
-  fbAuth.addAuthTokenListener((idToken) => {
+  fbAuth.addAuthTokenListener((token) => {
     const hadSessionCookie = document.cookie.indexOf('__session=') !== -1;
-    document.cookie = '__session=' + idToken + ';max-age=' + (idToken ? 3600 : 0);
-
-    if ((!hadSessionCookie && idToken) || (hadSessionCookie && !idToken)) {
-      window.location.reload(true);
+    document.cookie = '__session=' + token + ';max-age=' + (token ? 3600 : 0);
+    if ((!hadSessionCookie && token) || (hadSessionCookie && !token)) {
+      if (nextUrl) {
+        window.location.replace(nextUrl);
+      } else {
+        window.location.reload(true);
+      }
     } else {
-      /* In the rare case where there was a user but it could not be signed in (for instance the account has been deleted).
-      // We un-hide the page body.
-      var style = document.getElementById('__bodyHider');
-      if (style) {
-        document.head.removeChild(style);
-      } */
+      // In the rare case where there was a user but it could not be signed in
+      // (e.g. if the account has been deleted), we un-hide the page body.
+      document.body.style.display = 'block';
     }
   });
 
@@ -64,6 +61,12 @@ export default function() {
   const editForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, country: 'United Kingdom',
     level: 'year7', birthYear: 2000, isTeacher: location.hash === '#teacher'};
+
+  if (window.USER_DATA) {
+    for (let key of ['schoolName', 'postCode', 'phoneNumber', 'teacherCode', 'level']) {
+      editForm[key] = window.USER_DATA[key] || null;
+    }
+  }
 
   const user = {
     level: cachedLevel ? cachedLevel[1] : 'year7',
@@ -140,9 +143,7 @@ export default function() {
           await currentUser.updatePassword(editForm.new)
         }
 
-        editForm.loading = false;
-        editForm.error = 'Your account has been updated!';
-        location.reload();
+        location.reload(true);
 
       } catch(error) {
         console.error(error);
@@ -186,29 +187,31 @@ export default function() {
             signupForm.postCode = signupForm.code = null;
       }
 
+      // Redirect after login
+      nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
+
       try {
         const user = await fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password);
         await fbDatabase.ref('users/' + user.uid).set({
-          first: signupForm.first,
-          last: signupForm.last,
-          teacherCode: signupForm.teacherCode,
-          code: signupForm.code,
-          level: signupForm.level,
-          birthYear: signupForm.birthYear,
-          schoolName: signupForm.schoolName,
-          phoneNumber: signupForm.phoneNumber,
-          postCode: signupForm.postCode,
-          country: signupForm.country,
-          guardianEmail: signupForm.guardianEmail,
+          first: signupForm.first || null,
+          last: signupForm.last || null,
+          teacherCode: signupForm.teacherCode || null,
+          code: signupForm.code || null,
+          level: signupForm.level || null,
+          birthYear: signupForm.birthYear || null,
+          schoolName: signupForm.schoolName || null,
+          phoneNumber: signupForm.phoneNumber || null,
+          postCode: signupForm.postCode || null,
+          country: signupForm.country || null,
+          guardianEmail: signupForm.guardianEmail || null,
           acceptedTerms: true
         });
+
       } catch(error) {
         console.error(error);
         signupForm.loading = false;
         signupForm.error = ERRORS[error.code] || ERRORS.default;
       }
-
-      location.replace(signup.isTeacher ? '/dashboard' : '/introduction');
     }
   };
 

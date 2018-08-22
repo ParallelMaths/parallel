@@ -148,7 +148,6 @@ grunt.registerMultiTask('markdown', 'Markdown Grunt Plugin', function() {
   const promises = this.files.map(({src, dest}) => {
     const code = grunt.file.read(src[0]);
     const doc = (new JSDom(md.render(code))).window.document;
-    for (let h1 of doc.querySelectorAll('h1')) h1.remove();
     parseProblems(doc);
     return grunt.file.write(dest, doc.body.innerHTML);
   });

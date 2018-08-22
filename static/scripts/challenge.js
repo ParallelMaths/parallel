@@ -31,7 +31,7 @@ export default function() {
 
       fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
           .update({score: calculateScore(challenge.answers), submitted: true})
-          .then(() => location.reload());
+          .then(() => location.reload(true));
 
       // if (past) document.body.scrollTop = document.documentElement.scrollTop = 0;
     },
@@ -43,7 +43,7 @@ export default function() {
     unsubmit() {
       fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
           .update({submitted: false})
-          .then(() => localtion.reload());
+          .then(() => location.reload(true));
     },
 
     // Custom scoring functions

@@ -21,7 +21,7 @@ block content
             tr
               th(width=160)
               for p in dashboard.pages[l]
-                th(width=100)= p.week
+                th(width=100)= p.subtitle
           tbody
             for s in dashboard.students[l]
               td(width=200) #{s.first} #{s.last}

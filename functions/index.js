@@ -122,7 +122,7 @@ app.get('/dashboard', async function(req, res) {
 
   for (let s of studentKeys) {
     if (!students[s].answers) students[s].answers = {};
-    dashboard.students[s.level || 'year7'].push(students[s]);
+    dashboard.students[students[s].level || 'year7'].push(students[s]);
   }
 
   if (!studentKeys.length)
@@ -135,8 +135,10 @@ app.get('/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!PAGES_MAP[pid]) return next();
 
+  const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
+      .toString().replace(/<h1.*<\/h1>/, '');
+
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
-  const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`));
   const userData = {answers, uid: req.user ? req.user.uid : '',
     submitted: ('reveal' in req.query) || answers.submitted || false};
 
