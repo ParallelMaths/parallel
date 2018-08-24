@@ -260,8 +260,8 @@ year8:
     deadline: 2018-01-21T19:00:00
     hide: true
   - week: 3
-    url: 8-03-surfing-chaos
-    title: Surfing Choas
+    url: 8-03-chaotic-pendulums
+    title: Chaotic Pendulums
     available: 2018-09-20T16:00:00
     deadline: 2018-09-23T19:00:00
   - week: 2

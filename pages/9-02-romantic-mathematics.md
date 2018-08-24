@@ -68,7 +68,7 @@ Unfortunately, 143 is not prime, so by trial and error you would have to work ou
 
 This is a nerdy love song by physics graduate Helen Arney.
 
-No questions, but you can enter a competition. Just write a list of all the maths references in the song. Then email your list to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – in the subject header, just write the number of references. The main rule is that no repetitions are allowed. Also a term like “vulgar fraction” counts as one reference, i.e., don’t enter vulgar separate from fraction and have two entries. The names of mathematicians count as mathematical references. The best entry wins a signed copy of _"The Simpsons and Their Mathematical Secrets"_ written by me. Most importantly of all, the judge’s decision is final.
+There are no questions, but you can enter a competition. Just write a list of all the maths references in the song. Then email your list to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – in the subject header, just write the number of references. The main rule is that no repetitions are allowed. Also a term like “vulgar fraction” counts as one reference, i.e., don’t enter vulgar separate from fraction and have two entries. The names of mathematicians count as mathematical references. The best entry wins a signed copy of _"The Simpsons and Their Mathematical Secrets"_ written by me. Most importantly of all, the judge’s decision is final.
 
 @[youtube](uggtGH0d97k?rel=0)
 

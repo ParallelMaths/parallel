@@ -32,7 +32,7 @@ As well as being the Kaprekar constant for 4-digit numbers, the number 6,174 has
 
 6,174 = (6 + 1 + 7 + 4) x 343.
 
-The umber 18 is another harshad, because it is also divisible by the sum of its digits:
+The number 18 is another harshad number, because it is also divisible by the sum of its digits:
 
 18 = (1 + 8) x 2.
 
@@ -86,7 +86,7 @@ __1.4.__ 152 and 153 are neighbouring harshad numbers. If you look at bigger num
 
 ## 2. Jurassic Park mathematics
 
-Jurassic Park is one of Steven Spielberg’s most famous films, and it is based on the idea that biotechnology could use preserved DNA to bring dinosaurs back to life. However, it stars a mathematician, Dr Ian Malcolm (played by Jeff Goldblum), who specializes in a branch of mathematics known as "Chaos Theory". He tries to explain chaos theory in this clip (but he does not bother discussing the mathematical equations behind chaos theory).
+Jurassic Park is one of Steven Spielberg’s most famous films, and it is based on the idea that biotechnology could use preserved DNA to bring dinosaurs back to life. However, one of its main characters is a mathematician, Dr Ian Malcolm (played by Jeff Goldblum), who specializes in a branch of mathematics known as "Chaos Theory". He tries to explain chaos theory in this clip (but he does not bother discussing the mathematical equations behind chaos theory).
 
 @[youtube](5cVLUPwrSmU?rel=0)
 

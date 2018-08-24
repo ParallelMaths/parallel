@@ -60,6 +60,6 @@
   "dependencies": {
     "firebase": "^5.0.2",
     "firebase-tools": "^3.18.4",
-    "npm": "^6.3.0"
+    "npm": "^6.4.0"
   }
 }
