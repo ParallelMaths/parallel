@@ -169,8 +169,8 @@ year8:
   score: 1000
   color: 9e157e
   link:
-- id: 8-historic-cantor
-  name: Georg Cantor
+- id: 8-historic-noeter
+  name: Emmy Noether
   type: historic
   score: 1200
   color: 892694

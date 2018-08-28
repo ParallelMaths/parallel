@@ -55,6 +55,13 @@ grunt.initConfig({
     }]}
   },
 
+  copy: {
+    app: {
+      src: 'private/service-account.json',
+      dest: 'functions/build/service-account.json'
+    },
+  },
+
   watch: {
     markdown: {
       files: ['pages/*.md'],
@@ -78,5 +85,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('build', ['clean', 'rollup', 'babel', 'less', 'autoprefixer', 'markdown', 'yaml']);
-grunt.registerTask('default', ['build', 'uglify', 'cssmin']);
+grunt.registerTask('build', ['rollup', 'babel', 'less', 'autoprefixer', 'markdown', 'yaml']);
+grunt.registerTask('default', ['clean', 'build', 'uglify', 'cssmin', 'copy']);

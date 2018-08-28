@@ -18,7 +18,7 @@ function getUserData(uid) {
   return firebase.database().ref('users/' + uid).once('value').then(user => {
     const data = user.toJSON();
     if (!data.answers) data.answers = {};
-    if (!data.badges) data.badges = [];
+    data.badges = data.badges ? data.badges.split(',') : [];
     data.uid = uid;
     return data;
   });

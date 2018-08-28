@@ -39,6 +39,11 @@ function scoreName(score) {
   return 'Point';
 }
 
+function userPoints(user) {
+  return PAGES[user.level].map(p => (user.answers[p.url] || {}).score || 0)
+      .reduce((a, b) => a + b, 0);
+}
+
 function error(res, code) {
   res.status(code);
   return res.render('error', {code});
@@ -49,8 +54,8 @@ function error(res, code) {
 // Set up Express App
 
 firebase.initializeApp({
-  credential: firebase.credential.cert(require('../private/service-account.json')),
-  databaseURL: `https://${process.env.GCLOUD_PROJECT}.firebaseio.com`,
+  credential: firebase.credential.cert(require('./build/service-account.json')),
+  databaseURL: `https://parallel-cf800.firebaseio.com`,
 });
 
 const app = express();
@@ -142,7 +147,22 @@ app.get('/:pid', (req, res, next) => {
   const userData = {answers, uid: req.user ? req.user.uid : '',
     submitted: ('reveal' in req.query) || answers.submitted || false};
 
-  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData})
+  let newBadge = null;
+  if (req.user && !req.user.code) {
+    const points = userPoints(req.user);
+    for (let b of BADGES[req.user.level]) {
+      if (b.score <= points && req.user.badges.indexOf(b.id) < 0) {
+        req.user.badges.push(b.id);
+        newBadge = b;
+        firebase.database().ref(`users/${req.user.uid}`) // async
+            .update({badges: req.user.badges.join(',')})
+            .catch(() => console.error('Failed to update badges', req.user.uid));
+      }
+    }
+  }
+
+  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData,
+    newBadge});
 });
 
 app.use((req, res) => error(res, 404));

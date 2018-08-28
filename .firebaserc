@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "parallel-cf800"
+    "default": "parallel-cf800",
+    "staging": "parallel-beta"
   }
 }

@@ -12,12 +12,13 @@ export default function() {
 
   const challenge = {
     answers: userData.answers,
+    showBadgeModal: true,
 
     setAnswer(key, value) {
       if (userData.submitted) return;
       if (!userData.uid) return alert('You have to login or create a free account, before you can solve problems.');
       Vue.set(challenge.answers, key, value);
-      fbDatabase.ref(`answers/${userData.uid}/${page.url}`).update({[key]: value});
+      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`).update({[key]: value});
     },
 
     setInput(event) {
@@ -29,11 +30,13 @@ export default function() {
       if (userData.submitted || !userData.uid) return;
       Vue.set(challenge.answers, 'loading', true);
 
-      fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
+      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`)
           .update({score: calculateScore(challenge.answers), submitted: true})
-          .then(() => location.reload(true));
-
-      // if (past) document.body.scrollTop = document.documentElement.scrollTop = 0;
+          .then(() => {
+            document.body.style.display = 'none';
+            window.scrollTo(0, 0);
+            location.reload(true)
+          });
     },
 
     showHint(id) {
@@ -41,7 +44,7 @@ export default function() {
     },
 
     unsubmit() {
-      fbDatabase.ref(`answers/${userData.uid}/${page.url}`)
+      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`)
           .update({submitted: false})
           .then(() => location.reload(true));
     },

@@ -24,6 +24,16 @@ block content
     else
       button#submit(v-on:click="c.submit") Submit Answers
 
+  if newBadge
+    #new-badge.modal(v-if="c.showBadgeModal")
+      .modal-background(v-on:click="c.showBadgeModal = false")
+      .modal-body(style="background: #" + newBadge.color)
+        h2 Congratulations!
+        p You’ve scored enough points to receive a new badge:
+        img(src='/images/badges/' + newBadge.id + '.jpg' width=160 height-180)
+        h3= newBadge.name
+        .close(v-on:click="c.showBadgeModal = false") ×
+
   script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
   script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
 
