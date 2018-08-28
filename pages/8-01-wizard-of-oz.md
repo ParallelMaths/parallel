@@ -15,8 +15,9 @@ Welcome to the first of our Parallelograms designed for Year 8 students, a colle
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+*	NEW! You can new earn reward points and badges – find out more here.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -35,11 +36,11 @@ In short:
 * Pick any 4 digit number (as longs the digits are not ALL the same).
 * Put the digits in ascending order and descending order to create two numbers.
 * Subtract the small number from the big number, to create a next stage number.
-* Then repeat the process with the next stage number
+* Then repeat the process with the new number
 * Eventually you end up with 6,174.
 
 ::: problem id=1_1 marks=1
-__1.1.__ Start with the number 4,321 – what number (before you re-arrange any digits) is the “next stage number”? Clue: it is between 3,000 and 4,000.
+__1.1.__ Start with the number 4,321. Reverse the digits, take the small number from the big number and what is the result? Clue: it is between 3,000 and 4,000.
 
 <input type="text" solution="3,087"/>  
 
@@ -49,17 +50,17 @@ __1.1.__ Start with the number 4,321 – what number (before you re-arrange any 
 :::
 
 ::: problem id=1_2 marks=1
-__1.2.__ Repeat the process with this number – remember to rearrange the digits into ascending order and descending order to create two numbers (any zeroes go at the front). What number (before you re-arrange any digits) is the “next stage number”? Clue: it is between 8,000 and 9,000.
+__1.2.__ Repeat the process, starting with your previous answer – remember to rearrange the digits into ascending order and descending order before subtracting the smaller number from the larger number. What is the result? Clue: it is between 8,000 and 9,000.
 
 <input type="text" solution="8,352"/>  
 
 ---
 
-8,703 – 0378 = 8,352.
+8,730 – 0378 = 8,352.
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Repeat the process with this number. What number (before you re-arrange any digits) is the “next stage number”?
+__1.3.__ Repeat the process, starting with your previous answer – remember to rearrange the digits into ascending order and descending order before subtracting the smaller number from the larger number. What is the result?
 
 <input type="text" solution="6,174"/>  
 
@@ -69,9 +70,9 @@ __1.3.__ Repeat the process with this number. What number (before you re-arrange
 :::
 
 ::: problem id=1_4 marks=3
-__1.4.__ Every 4-digt number ends up as 6,174 if we follow the instructions above, but some numbers take longer to get there than others. How many stages does it take for 5,200?
+__1.4.__ Every 4-digit number ends up as 6,174 if we follow the instructions above, but some numbers take longer to get there than others. How many stages does it take for 5,200?
 
-CLUE: To get you started, after the first stage we reach 5,200 – 0025 = 5,175.
+Clue: To get you started, after the first stage we reach 5,200 – 0025 = 5,175.
 
 * [ ] 2
 * [ ] 3
@@ -140,7 +141,7 @@ __2.2__ Instead of “isosceles”, what should the Scarecrow have said?
 
 If you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ Gill went for a five-hour walk. Her average speed was between 3 km/h and 4 km/h.

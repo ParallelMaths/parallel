@@ -15,8 +15,8 @@ Welcome to the second of our Parallelograms designed for Year 9 students, a coll
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -68,7 +68,7 @@ Unfortunately, 143 is not prime, so by trial and error you would have to work ou
 
 This is a nerdy love song by physics graduate Helen Arney.
 
-No questions, but you can enter a competition. Just write a list of all the maths references in the song. Then email your list to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – in the subject header, just write the number of references. The main rule is that no repetitions are allowed. Also a term like “vulgar fraction” counts as one reference, i.e., don’t enter vulgar separate from fraction and have two entries. The names of mathematicians count as mathematical references. The best entry wins a signed copy of _"The Simpsons and Their Mathematical Secrets"_ written by me. Most importantly of all, the judge’s decision is final.
+There are no questions, but you can enter a competition. Just write a list of all the maths references in the song. Then email your list to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – in the subject header, just write the number of references. The main rule is that no repetitions are allowed. Also a term like “vulgar fraction” counts as one reference, i.e., don’t enter vulgar separate from fraction and have two entries. The names of mathematicians count as mathematical references. The best entry wins a signed copy of _"The Simpsons and Their Mathematical Secrets"_ written by me. Most importantly of all, the judge’s decision is final.
 
 @[youtube](uggtGH0d97k?rel=0)
 
@@ -77,7 +77,7 @@ No questions, but you can enter a competition. Just write a list of all the math
 
 If you are a Year 9 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ To find the diameter in mm of a Japanese knitting needle, you multiply the size by 0.3 and add 2.1.

@@ -15,8 +15,8 @@ Welcome to the second of our Parallelograms designed for Year 7 students, a coll
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+* Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -27,7 +27,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 Last week we looked at happy numbers. If you have not completed last week’s Parallelogram, then take a look at it after you complete this week’s list of questions. Remember, you can still earn reward points on a past Parallelogram.
 
 This week, Matt Parker takes a look at melancoil numbers, the opposite of happy numbers. Watch carefully and answer the questions below.
-By the way, melancoil is partly built from the world “melancholy”, which means a sense of sadness..
+By the way, melancoil is partly derived from the word “melancholy”, which means a sense of sadness.
 
 @[youtube](_DpzAvb3Vk4?end=386&rel=0)
 
@@ -65,7 +65,7 @@ __1.3.__ Which statement seems to be true from Matt’s diagram?
 
 * [ ] Most 2-digit numbers are linked to the happification tree.
 * [x] Most 2-digit numbers are linked to the melancoil.
-* [ ] 2-digit numbers are equally likely to linked to the happification tree or the melancoil.
+* [ ] 2-digit numbers are equally likely to be linked to the happification tree or the melancoil.
 
 ---
 
@@ -97,7 +97,7 @@ Why is Pluto no longer classified as a planet? You will probably have to Google 
 
 ---
 
-A planet must be round and orbit the Sun, two conditions satisfied by Pluto. However, Pluto fails the third test. A planet should have cleared its orbit of any junk, because its gravity should be big enough to sweep up any nearby space rocks.
+A planet must be round and orbit the Sun, two conditions satisfied by Pluto. However, there is a third test, that Pluto fails: a planet should have cleared its orbit of any junk, because its gravity should be big enough to sweep up any nearby space rocks.
 :::
 
 
@@ -105,7 +105,7 @@ A planet must be round and orbit the Sun, two conditions satisfied by Pluto. How
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ What is the value of ((1−1) −1) − ((1− (1−1))?

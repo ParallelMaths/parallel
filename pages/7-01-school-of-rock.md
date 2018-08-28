@@ -15,8 +15,9 @@ Welcome to the first of our Parallelograms designed for Year 7 students, a colle
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+*	NEW! You can new earn reward points and badges – find out more here.
+* Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 
@@ -31,9 +32,11 @@ Ria Symonds from the University of Nottingham explains why 7 is a happy number. 
 
 @[youtube](kC6YObu61_w?rel=0)
 
-So for a number to be happy, just take the digits, square each digit and add all the squares to create a new number. Then repeat the process to the new number, and then repeat. If you end up with the number 1, then the number is happy. For example, 19 is happy, because it has the digits 1 and 9:
+So for a number to be happy, just take the digits, square each digit and add all the squares to create a new number. Then repeat the process with the new number, and continue until you end up with the number 1 or find the numbers stuck in a repeating loop that does not contain 1.
 
-1<sup>2</sup> + 9<sup>2</sup> = 8<sup>2</sup>  
+If you end up with the number 1, then the number is happy. For example, 19 is happy, because it has the digits 1 and 9:
+
+1<sup>2</sup> + 9<sup>2</sup> = 82  
 8<sup>2</sup> + 2<sup>2</sup> = 68  
 6<sup>2</sup> + 8<sup>2</sup> = 100  
 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1.  
@@ -91,7 +94,7 @@ __1.4.__ Is 5,555 a happy number?
 
 ## 2. School of Rock
 
-I recently watched “School of Rock”, in which Jack Black plays an unemployed musician who pretends to be a teacher. This clips show Black’s attempt to couple of his love of music with his shaky grasp of maths.
+I recently watched “School of Rock”, in which Jack Black plays an unemployed musician who pretends to be a teacher. This clip shows Black’s attempt to couple of his love of music with his shaky grasp of maths.
 
 @[youtube](Qsv4_xOkh4M?rel=0)
 
@@ -114,10 +117,10 @@ If you google “large numbers” later, then you will learn everything you need
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ Which of the following has the largest value?
+__3.1__ Which of the following expressions has the largest value?
 
 * [ ] 1 − 0.1
 * [ ] 1 − 0.01

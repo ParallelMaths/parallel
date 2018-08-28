@@ -11,8 +11,8 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -105,7 +105,7 @@ __2.2__ According to the song (and scientific observations) when did the Big Ban
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ When painting the lounge, I used half of a 3 litre can to complete the first coat of paint. I then used two thirds of what was left to complete the second coat.

@@ -15,8 +15,8 @@ Welcome to the second of our Parallelograms designed for Year 8 students, a coll
 These challenges are a random walk through the mysteries of mathematics. Be prepared to encounter all sorts of weird ideas, including some questions that have nothing to do with mathematics.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, then remember to hit the SUBMIT button.
-*	Finish by midnight on Sunday if you’re taking part with your classmates.
+* When you finish, remember to hit the SUBMIT button.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
@@ -32,7 +32,7 @@ As well as being the Kaprekar constant for 4-digit numbers, the number 6,174 has
 
 6,174 = (6 + 1 + 7 + 4) x 343.
 
-The umber 18 is another harshad, because it is also divisible by the sum of its digits:
+The number 18 is another harshad number, because it is also divisible by the sum of its digits:
 
 18 = (1 + 8) x 2.
 
@@ -86,7 +86,7 @@ __1.4.__ 152 and 153 are neighbouring harshad numbers. If you look at bigger num
 
 ## 2. Jurassic Park mathematics
 
-Jurassic Park is one of Steven Spielberg’s most famous films, and it is based on the idea that biotechnology could use preserved DNA to bring dinosaurs back to life. However, it stars a mathematician, Dr Ian Malcolm (played by Jeff Goldblum), who specializes in a branch of mathematics known as "Chaos Theory". He tries to explain chaos theory in this clip (but he does not bother discussing the mathematical equations behind chaos theory).
+Jurassic Park is one of Steven Spielberg’s most famous films, and it is based on the idea that biotechnology could use preserved DNA to bring dinosaurs back to life. However, one of its main characters is a mathematician, Dr Ian Malcolm (played by Jeff Goldblum), who specializes in a branch of mathematics known as "Chaos Theory". He tries to explain chaos theory in this clip (but he does not bother discussing the mathematical equations behind chaos theory).
 
 @[youtube](5cVLUPwrSmU?rel=0)
 
@@ -95,7 +95,7 @@ Jurassic Park is one of Steven Spielberg’s most famous films, and it is based 
 
 If you are a Year 8 student, then it likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 
-Your teachers will help you prepare for this national maths competition, but each week in Parallelogram we will always include one UKMT Junior Maths Challenge question.
+Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
 __3.1__ A swimming club has three categories of members: junior, senior, veteran. The ratio of junior to senior members is 3:2 and the ratio of senior members to veterans is 5:2.
