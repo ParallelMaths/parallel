@@ -2,11 +2,15 @@
 
 In order to be reading this page you must be slightly kooky, by which I mean you are a keen mathematician. You might be in the Top-Top Set in your school, your teacher or parent might have recommended you, or you might have seen one of our tweets ([@ParallelMaths](https://twitter.com/ParallelMaths)). Alternatively, you might have hacked into our mailing list, in which case you clearly have the right sort of enthusiasm (but perhaps not the right morals) to be part of the project.
 
-Each Friday at 4pm, you will have access to a new set of online mathematical challenges – each set of challenges is called a Parallelogram.
+Each Thursday at 3pm, you will have access to a new set of online mathematical challenges – each set of challenges is called a Parallelogram.
 
-It should take roughly 30 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved.
+It should take just 15 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved. (After Christmas, the Parallelograms will take a bit more time.)
 
-You have until 7pm on Sunday to complete the challenge and hit the SUBMIT button. Immediately afterwards, you will be able to see the answers as well as your score.
+If the rest of your class is also doing Paralellograms, then you will need to complete the challenges and hit the SUBMIT button by midnight on Sunday. Otherwise, try to finish before the next Parallelogram is released on Thursday.
+
+As soon as you hit the SUBMIT button, you will be able to see the answers as well as your score. Most importantly of all, make sure you go through the solution sheet and try to learn by your mistakes.
+
+This year, you will earn points depending on your percentage score on each Parallelogram, which in turn will earn you mathematical badges. There will be prizes for schools and students linked to the badges – more news soon.
 
 Why is this project called ‘parallel’? Well, parallel lines don’t cross over – check with Euclid if you don’t believe me – and in general the challenges that I set you will not cross over with what you are doing in school. These maths challenges are often going to involve ideas that are in the unexplored universe of numbers.
 
