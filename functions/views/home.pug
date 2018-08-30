@@ -2,6 +2,8 @@ extends _layout
 
 block content
   header(style="background-image: url('/images/header.jpg')")
-    h1 Welcome to the Parallel Maths Project!
+    h1
+      | Welcome to the Parallel Maths Project!
+      .subtitle Be challenged, get curious, do maths.#[br]Stretch your brain every week.
   img.img-right(src="/images/simpsons.png" width=160 height=280)
   include ../build/home.html
