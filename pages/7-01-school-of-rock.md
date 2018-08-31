@@ -51,7 +51,7 @@ __1.1.__ Is 100 a happy number?
 
 ---
 
-Of course, 100 is happy, because 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1.
+Of course 100 is happy, because 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1.
 :::
 
 ::: problem id=1_2 marks=2

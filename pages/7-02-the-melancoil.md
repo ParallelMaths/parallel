@@ -41,7 +41,7 @@ __1.1.__ 13 is a happy number. Which of the following is very obviously also a h
 
 ---
 
-Of course, 31 is happy, because it has the same digits as 13, but reversed. Happiness is about the digits, not the order they appear in. 3<sup>2</sup> + 1<sup>2</sup> = 10. And 1<sup>2</sup> + 0<sup>2</sup> = 1.
+Of course 31 is happy, because it has the same digits as 13, but reversed. Happiness is about the digits, not the order they appear in. 3<sup>2</sup> + 1<sup>2</sup> = 10. And 1<sup>2</sup> + 0<sup>2</sup> = 1.
 :::
 
 ::: problem id=1_2 marks=2
@@ -97,7 +97,7 @@ Why is Pluto no longer classified as a planet? You will probably have to Google 
 
 ---
 
-A planet must be round and orbit the Sun, two conditions satisfied by Pluto. However, there is a third test, that Pluto fails: a planet should have cleared its orbit of any junk, because its gravity should be big enough to sweep up any nearby space rocks.
+A planet must be round and orbit the Sun, two conditions satisfied by Pluto. However, there is a third condition, that Pluto fails to meet: a planet should have cleared its orbit of any junk, because its gravity should be big enough to sweep up any nearby space rocks.
 :::
 
 

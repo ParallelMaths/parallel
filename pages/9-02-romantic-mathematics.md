@@ -28,7 +28,10 @@ Dr James Grime on the Numberphile channel tells you about the whether or not 1 i
 
 @[youtube](IQofiPqhJ_s?rel=0)
 
-Just to summarise, “the fundamental theorem of arithmetic” states that every integer greater than 1 either is a prime number itself or can be represented as the product of prime numbers. Moreover, this representation is unique. It is also known as the unique-prime-factorization theorem.
+Just to summarise, “the fundamental theorem of arithmetic” (also known as the “unique-prime-factorization theorem”) states that every integer greater than 1 is either:  
+(a) a prime number itself, or   
+(b) can be represented as the product of prime numbers (in only one way).
+
 
 ::: problem id=1_1 marks=1
 __1.1.__  Is 1 a prime number?
@@ -58,7 +61,7 @@ __1.3.__ If you factorise 1,144 into primes, which is the biggest prime factor?
 
 ---
 
-13 is the largest prime factor. The best way to find it would have been to divide 1,144 by 2 over and over again, which results in 143.
+13 is the largest prime factor. The best way to find it would have been to begin by dividing 1,144 by 2, and then by 2 again, and continuing until it can't divide by 2 any more, which results in 143.
 
 Unfortunately, 143 is not prime, so by trial and error you would have to work out that 143 = 11 x 13.
 :::
