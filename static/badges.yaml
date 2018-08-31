@@ -4,29 +4,29 @@ year7:
   type: ancient
   score: 100
   color: ff941f
-  description: TODO
-  link: TODO
+  description: The most famous theorem in mathematics is named after him, and he started a whole movement to celebrate and study numbers… and he banned his followers from eating beans.
+  link: https://en.wikipedia.org/wiki/Pythagoras
 - id: 7-ancients-hypatia
   name: Hypatia
   type: ancient
   score: 200
   color: f27c2b
-  description: TODO
-  link: TODO
+  description: She is the first known female mathematician and was considered the best in the world in her time. However, she is more often remembered for the brutal way in which she was murdered.
+  link: https://www.britannica.com/biography/Hypatia
 - id: 7-ancients-alkhwarizmi
   name: Muhammad Al-Khwarizmi
   type: ancient
   score: 300
   color: e66438
-  description: TODO
+  description: The word algorithm is derived from his name and his work was the beginning of modern algebra. He was also instrumental in spreading the numbers we use today across the Islamic and Western worlds.
   link: http://www.storyofmathematics.com/islamic_alkhwarizmi.html
 - id: 7-ancients-euclid
   name: Euclid
   type: ancient
   score: 400
   color: d94c44
-  description: TODO
-  link: TODO
+  description: It would be fair to call him a bit of a legend, but while little is known of his life, he is remembered for his comprehensive writings on Mathematics in “The Elements”. Most famously, he proved that there are only five regular 3D shapes.
+  link: https://www.britannica.com/biography/Euclid-Greek-mathematician
 - id: 7-geometry-mobius
   name: Mobius Strip
   type: geometry
@@ -146,36 +146,36 @@ year8:
   type: ancient
   score: 100
   color: ff941f
-  description: TODO
-  link: TODO
+  description: It sounds obvious, but zero was not always a part of mathematics.  Brahmagupta was the first mathematician to figure out the rules for dealing with zero, some 2,600 years ago in India.
+  link: https://en.wikipedia.org/wiki/Brahmagupta
 - id: 8-ancients-thales
   name: Thales
   type: ancient
   score: 200
   color: f27c2b
-  description: TODO
-  link: TODO
+  description: While others still used mythology to explain the world, he used reasoning, and is the first person ever to be credited with a mathematical discovery. In his spare time he calculated the heights of Pyramids.
+  link: https://en.wikipedia.org/wiki/Thales_of_Miletus
 - id: 8-ancients-plato
   name: Plato
   type: ancient
   score: 300
   color: e66438
-  description: TODO
-  link: TODO
+  description: His father claimed to be descended from the Greek God Poseidon, and he was a contemporary of Aristotle and Socrates. He also founded Plato’s Academy - the world’s first university.
+  link: https://www.britannica.com/biography/Plato
 - id: 8-ancients-theano
   name: Theano
   type: ancient
   score: 400
   color: d94c44
-  description: TODO
-  link: TODO
+  description: Nobody really knows anything about her parents, where she was born or whether she Pythagoras’s wife or daughter. She might even have been two people! But she did pioneer the Golden Mean.
+  link: https://nrich.maths.org/2787
 - id: 8-geometry-escher
   name: Escher
   type: geometry
   score: 550
   color: cc3450
-  description: TODO
-  link: TODO
+  description: Although M.C. Escher didn’t consider that he had any mathematical skills, he inspired some the world’s greatest mathematicians by creating art that was often based on geometry.
+  link: https://www.mcescher.com/gallery/mathematical/
 - id: 8-geometry-penrose
   name: Penrose triangle
   type: geometry
@@ -289,29 +289,29 @@ year9:
   type: ancient
   score: 100
   color: ff941f
-  description: TODO
-  link: TODO
+  description: A true polymath, he is known for everything from zoology to poetry, but his most famous work was in Philosophy. He founded formal logic, was a contemporary of Plato and tutored Alexander the Great.
+  link: https://www.britannica.com/biography/Aristotle
 - id: 9-ancients-tymicha
   name: Tymicha of Sparta
   type: ancient
   score: 200
   color: f27c2b
-  description: TODO
-  link: TODO
+  description: A follower of Pythagoras, who worked on amicable numbers. When she was captured by a tyrant, she is said to have bitten off her own tongue rather than give away the secrets of the Pythagorean School.
+  link: https://en.wikipedia.org/wiki/Amicable_numbers
 - id: 9-ancients-archimedes
   name: Archimedes
   type: ancient
   score: 300
   color: e66438
-  description: TODO
-  link: TODO
+  description: He is surrounded by legends and credited with many ingenious inventions, but most famously he is said to have come up with his law of buoyancy when getting into his bath, causing him to shout “Eureka!”
+  link: http://www.bbc.co.uk/history/historic_figures/archimedes.shtml
 - id: 9-ancients-suntzu
   name: Sun Tzu
   type: ancient
   score: 400
   color: d94c44
   description: TODO
-  link: TODO
+  link: https://simple.wikipedia.org/wiki/Sun_Tzu_(mathematician)
 - id: 9-geometry-impossiblecube
   name: Impossible Cube
   type: geometry
@@ -338,8 +338,8 @@ year9:
   type: geometry
   score: 1000
   color: 9e157e
-  description: TODO
-  link: TODO
+  description: Everyone loves donuts, but in maths a donut is called a torus. According to some cosmologists, the universe might be shaped like a donut.
+  link: http://klotza.blogspot.com/2016/01/the-simpson-hawking-donut-universe.html
 - id: 9-historic-galois
   name: Evariste Galois
   type: historic
