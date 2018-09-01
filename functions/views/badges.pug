@@ -3,6 +3,9 @@ extends _layout
 block content
   h1 Badges
 
+  if points > 0
+    .score.user-score You’ve scored #{points} points.
+
   .badges-grid
     for b in badges[user.level]
       if showAllBadges || user.badges.indexOf(b.id) >= 0

@@ -296,14 +296,17 @@ table.grid {
 }
 
 article .score {
-  max-width: 320px;
   margin: 3rem auto;
   line-height: 1.4;
   color: white;
   padding: 12px 24px;
   border-radius: 6px;
   text-align: center;
+  background: @grey;
+  max-width: 260px;
 
+  &.wide { max-width: 360px; }
+  &.user-score { margin: 1rem auto 1.5rem; }
   p { margin: 0; }
   p.large { font-size: 36px; font-weight: bold; }
 }

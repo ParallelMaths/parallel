@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.app = new Vue({
     el: '#vue',
-    data: {showSidebar: false, user, c: challenge}
+    data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge}
   });
 });

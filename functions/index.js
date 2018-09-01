@@ -31,12 +31,12 @@ for (let l of LEVELS) {
   }
 }
 
-function scoreName(score) {
-  if (score >= 90) return 'Tesseract';
-  if (score >= 70) return 'Cube';
-  if (score >= 50) return 'Square';
-  if (score >= 20) return 'Line';
-  return 'Point';
+function scoreClass(score) {
+  if (score >= 90) return 'tesseract';
+  if (score >= 70) return 'cube';
+  if (score >= 50) return 'square';
+  if (score >= 20) return 'line';
+  return 'point';
 }
 
 function userPoints(user) {
@@ -72,8 +72,13 @@ app.use((req, res, next) => {
   res.locals.levels = LEVELS;
   res.locals.levelNames = LEVEL_NAMES;
   res.locals.path = req.path.replace(/\/$/, '');
-  res.locals.scoreName = scoreName;
-  res.locals.scoreClass = (s) => scoreName(s).toLowerCase();
+  res.locals.scoreClass = scoreClass;
+
+  if (req.user && !req.user.hasSeenWelcomeMsg) {
+    firebase.database().ref(`users/${req.user.uid}`) // async
+        .update({hasSeenWelcomeMsg: true})
+        .catch(() => console.error('Failed to update welcome msg', req.user.uid));
+  }
 
   for (let l of LEVELS) {
     res.locals.pages[l] =
@@ -103,7 +108,7 @@ app.get('/account', (req, res) => {
 app.get('/badges', (req, res) => {
   if (!req.user) return error(res, 401);
   const showAllBadges = ('reveal' in req.query);
-  res.render('badges', {showAllBadges});
+  res.render('badges', {showAllBadges, points: userPoints(req.user)});
 });
 
 app.get('/signup', (req, res) => {

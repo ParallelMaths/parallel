@@ -31,7 +31,7 @@ export default function() {
       Vue.set(challenge.answers, 'loading', true);
 
       fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`)
-          .update({score: calculateScore(challenge.answers), submitted: true})
+          .update(calculateScore(challenge.answers))
           .then(() => {
             document.body.style.display = 'none';
             window.scrollTo(0, 0);
@@ -66,7 +66,7 @@ function calculateScore(answers) {
   const $problems = document.querySelectorAll('.problem');
   const $hints = document.querySelectorAll('.show-hint');
 
-  let score = 0;
+  let points = 0;
   let total = 0;
 
   for (let $p of $problems) {
@@ -75,32 +75,37 @@ function calculateScore(answers) {
 
     if (hasClass($p, 'radio')) {
       const $correct = $p.querySelector('.correct');
-      if (answers[$p.id] === $correct.dataset.value) score += marks;
+      if (answers[$p.id] === $correct.dataset.value) points += marks;
 
     } else if (hasClass($p, 'checkbox')) {
       const $correct = $p.querySelectorAll('.correct');
       for (let $c of $correct) {
-        if (answers[$c.dataset.value]) score += marks / $correct.length;
+        if (answers[$c.dataset.value]) points += marks / $correct.length;
       }
 
     } else if (hasClass($p, 'input')) {
       const $inputs = $p.querySelectorAll('input');
       for (let $i of $inputs) {
         if (checkInput(answers[$i.dataset.value], $i.dataset.solution))
-          score += marks / $inputs.length;
+          points += marks / $inputs.length;
       }
 
     } else if (hasClass($p, 'sumaze')) {
       const $i = $p.querySelector('input');
-      score += marks * sumaze(answers[$i.dataset.value]) / 45;
+      points += marks * sumaze(answers[$i.dataset.value]) / 45;
     }
   }
 
   for (let $h of $hints) {
-    if (answers[$h.id]) score -= (+$h.dataset.marks || 0);
+    if (answers[$h.id]) points -= (+$h.dataset.marks || 0);
   }
 
-  return Math.max(0, Math.min(100, Math.round(score / total * 100)));
+  return {
+    points,
+    total,
+    submitted: true,
+    score: Math.max(0, Math.min(100, Math.round(points / total * 100)))
+  };
 }
 
 function sumaze(x) {

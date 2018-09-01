@@ -127,6 +127,14 @@ html
                 label(for="terms-modal") Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
               button(type="submit") Continue
 
+      if user && !user.hasSeenWelcomeMsg
+        .modal(v-if="showWelcomeMsg")
+          .modal-background
+          .modal-body
+            h2 Welcome back to Parallel!
+            p.text-center We’ve increased your level to #[strong Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8 : 9}]. You can always change it on your #[a(href="/account") account settings] page.
+            button(type="submit" v-on:click="showWelcomeMsg = false") Continue
+
     footer
       a(href="/about") About
       | •
