@@ -32,29 +32,29 @@ year7:
   type: geometry
   score: 550
   color: cc3450
-  description: TODO
-  link: TODO
+  description: If you take a strip of paper, make a half twist, and glue the ends together, the two sides (and two edges) become one. Odder still, if you take your twisted loop and cut it lengthways, it will split into one loop, not two.
+  link: https://en.wikipedia.org/wiki/M%C3%B6bius_strip
 - id: 7-geometry-konigsberg
   name: Königsberg Bridges
   type: geometry
   score: 700
   color: c01c5d
-  description: TODO
-  link: TODO
+  description: The town of Konigsberg lies on the Preger river, and contains two islands joined to the banks by seven bridges. Many people tried to find a route that crossed each bridge exactly once, but Euler showed that it was impossible.
+  link: https://nrich.maths.org/2484
 - id: 7-geometry-borromean
   name: Borromean Rings
   type: geometry
   score: 850
   color: b30469
-  description: TODO
-  link: TODO
+  description: Three interlocked rings with the property that if any one is removed, the other two will no longer be joined together. Before mathematicians caught on, they appeared in Norse Mythology as the Valknut, a mysterious ancient symbol.
+  link: https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-borromean-rings/
 - id: 7-geometry-reuleaux
   name: Reuleaux Triangle
   type: geometry
   score: 1000
   color: 9e157e
-  description: TODO
-  link: TODO
+  description: A circle is a shape of constant width – the distance between any two parallel tangent lines is the same, the diameter of the circle. Surprisingly, it is not the only shape with this property – the Reuleaux triangle is another.
+  link: http://www.cut-the-knot.org/do_you_know/cwidth.shtml
 - id: 7-historic-babbage
   name: Charles Babbage
   type: historic
@@ -181,22 +181,22 @@ year8:
   type: geometry
   score: 700
   color: c01c5d
-  description: TODO
-  link: TODO
+  description: A so called ‘impossible object’, it is an optical illusion which depicts a triangle made of three wooden beams which meet at right angles. Although the illusion is convincing, such an object could never exist in our normal 3D space.
+  link: https://en.wikipedia.org/wiki/Penrose_triangle
 - id: 8-geometry-tesseract
   name: Tesseract
   type: geometry
   score: 850
   color: b30469
-  description: TODO
-  link: TODO
+  description: Imagine a 3D square, and you will probably think of a cube. Now – if you can – imagine a 4D cube. This is the tesseract. You can visualise it as 2 identical cubes with a line between each pair of corners, every ‘face’ is a cube.
+  link: https://en.wikipedia.org/wiki/Tesseract
 - id: 8-geometry-kleinbottle
   name: Klein Bottle
   type: geometry
   score: 1000
   color: 9e157e
-  description: TODO
-  link: TODO
+  description: You can visualise the Klein bottle as 2 Mobius strips joined at the edges, or a rubber pipe that is allowed to pass through itself and then connected at the ends. It would actually be a pretty useless bottle as it doesn’t have an inside.
+  link: https://plus.maths.org/content/introducing-klein-bottle
 - id: 8-historic-noether
   name: Emmy Noether
   type: historic
@@ -317,22 +317,22 @@ year9:
   type: geometry
   score: 550
   color: cc3450
-  description: TODO
-  link: TODO
+  description: An invention of M.C. Escher, it is an optical illusion that appears to show a solid cube which could not possibly exist, by using the ambiguity of the standard 2-dimensional way to draw a cube.
+  link: https://en.wikipedia.org/wiki/Impossible_cube
 - id: 9-geometry-fibonaccispiral
   name: Fibonacci Spiral
   type: geometry
   score: 700
   color: c01c5d
-  description: TODO
-  link: TODO
+  description: You have probably heard of the Fibonacci sequence- the spiral is drawn corner to corner of squares connected edge to edge with corresponding side lengths. Its shape approximates the ‘golden spiral’ which is often found in nature.
+  link: https://krazydad.com/tutorials/circles_js/
 - id: 9-geometry-dodecahedron
   name: Dodecahedron
   type: geometry
   score: 850
   color: b30469
-  description: TODO
-  link: TODO
+  description: The regular dodecahedron is one of the five Platonic solids. That is, each of its faces is the same, regular 2D shape (a Pentagon). It has the largest possible number of edges per face, as three Hexagons meeting at a point lie in 2 dimensions.
+  link: https://en.wikipedia.org/wiki/Platonic_solid
 - id: 9-geometry-torus
   name: Torus
   type: geometry
