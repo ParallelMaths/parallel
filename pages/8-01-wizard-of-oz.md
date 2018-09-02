@@ -162,7 +162,7 @@ As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 2
 :::
 
 
-I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
+I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

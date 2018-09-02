@@ -7,11 +7,11 @@ The site is currently aimed at 11- to 14-year olds, but younger students might b
 What is the best way to use the website?
 
 *	Students should sign up and create a free account (everything is free).
-*	We issue a new Parallelogram each Thursday at 4pm, and students are encouraged to complete it by Sunday evening.
+*	We issue a new Parallelogram each Thursday at 3pm, and students are encouraged to complete it by Sunday evening, or before the next Parallegram is released the following Thursday.
 *	The Parallelogram is marked and the score is returned to the student, along with access to the answer sheet. Going through the answer sheet is probably even more important than going through the question sheet.
 *	We are encouraging teachers to assign Parallelograms to their top set students, so you could encourage your son or daughter’s teacher to set Parallelograms for the whole class.
 *	If your child’s teacher is not setting Parallelograms, then he or she can complete them independently at home.
-*	We currently have two streams of Parallelograms:  
+*	We currently have three streams of Parallelograms:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 7 students (for 11/12-year-olds).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 8 students (for 12/13-year-olds).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 9 students (for 13/14-year-olds).  

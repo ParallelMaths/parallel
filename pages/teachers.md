@@ -2,7 +2,7 @@
 
 Parallel is an opportunity for your students to broaden their mathematical
 horizons and stretch their brains via a series of weekly web-based maths sheets,
-known as Parallelograms, published online at 4pm each Thursday.
+known as Parallelograms, published online at 3pm each Thursday.
 
 Each maths sheet is set by Simon Singh, author of several best-selling books,
 and questions are automatically marked and explanations are provided.

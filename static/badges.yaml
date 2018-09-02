@@ -310,7 +310,7 @@ year9:
   type: ancient
   score: 400
   color: d94c44
-  description: TODO
+  description: He developed the Chinese Remainder Theorem, a method for solving algebraic problems with remainder in a specific form. The solution has been used in Ancient Chinese astronomy and, more recently, internet cryptography.
   link: https://simple.wikipedia.org/wiki/Sun_Tzu_(mathematician)
 - id: 9-geometry-impossiblecube
   name: Impossible Cube
