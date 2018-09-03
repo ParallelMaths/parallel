@@ -1,5 +1,7 @@
 const firebase = require('firebase-admin');
 const cookieParser = require('cookie-parser')();
+const PAGES = require('../build/pages.json');
+const BADGES = require('../build/badges.json');
 
 
 function getIdTokenFromRequest(req, res) {
@@ -17,9 +19,17 @@ function getIdTokenFromRequest(req, res) {
 function getUserData(uid) {
   return firebase.database().ref('users/' + uid).once('value').then(user => {
     const data = user.toJSON();
+
     if (!data.answers) data.answers = {};
     data.badges = data.badges ? data.badges.split(',') : [];
     data.uid = uid;
+
+    const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score || 0);
+    data.points = scores.reduce((a, b) => a + b, 0);
+
+    data.visibleBadges = BADGES[data.level]
+        .filter(b => (data.points >= b.score)).reverse().slice(0, 4);
+
     return data;
   });
 }

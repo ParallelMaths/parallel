@@ -45,6 +45,8 @@ export default function() {
     if ((!hadSessionCookie && token) || (hadSessionCookie && !token)) {
       if (nextUrl) {
         window.location.replace(nextUrl);
+      } else if (!token) {
+        window.location.replace('/');
       } else {
         window.location.reload(true);
       }
@@ -56,7 +58,6 @@ export default function() {
   });
 
   const cachedLevel = document.cookie.match(/level=(year[7-9])/);
-  const originalLevel = window.USER_DATA ? window.USER_DATA.level : null;
 
   const loginForm = {error: null, reset: false};
   const editForm = {loading: false, error: ''};
@@ -127,20 +128,13 @@ export default function() {
           country = teacher.country || null;
         }
 
-        const data = {
+        await fbDatabase.ref('users/' + uid).update({
           teacherCode: editForm.teacherCode || null,
           level: editForm.level || null,
           phoneNumber: editForm.phoneNumber || null,
           postCode: editForm.postCode || null,
           schoolName, country
-        };
-
-        if (editForm.level && editForm.level !== originalLevel) {
-          // TODO Recalculate the list of badges.
-          data.badges = '';
-        }
-
-        await fbDatabase.ref('users/' + uid).update(data);
+        });
 
         if (editForm.new) {
           if (!editForm.old) return editForm.error = ERRORS['empty-password'];

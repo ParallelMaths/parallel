@@ -3,12 +3,12 @@ extends _layout
 block content
   h1 Badges
 
-  if points > 0
-    .score.user-score You’ve scored #{points} points.
+  if user.points > 0
+    .score.user-score You’ve scored #{user.points} points.
 
   .badges-grid
     for b in badges[user.level]
-      if showAllBadges || user.badges.indexOf(b.id) >= 0
+      if showAllBadges || user.points >= b.score
         .badge(style={background: '#' + b.color})
           .badge-img(style={'background-image': 'url(/images/badges/' + b.id + '.jpg)'})
           h2= b.name

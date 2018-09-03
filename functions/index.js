@@ -24,24 +24,12 @@ for (let l of LEVELS) {
   }
 }
 
-const BADGES_MAP = {};
-for (let l of LEVELS) {
-  for (let b of BADGES[l]) {
-    BADGES_MAP[b.id] = b;
-  }
-}
-
 function scoreClass(score) {
   if (score >= 90) return 'tesseract';
   if (score >= 70) return 'cube';
   if (score >= 50) return 'square';
   if (score >= 20) return 'line';
   return 'point';
-}
-
-function userPoints(user) {
-  return PAGES[user.level].map(p => (user.answers[p.url] || {}).score || 0)
-      .reduce((a, b) => a + b, 0);
 }
 
 function error(res, code) {
@@ -66,7 +54,6 @@ app.use(user.getActiveUser);
 app.use((req, res, next) => {
   res.locals.user = req.user;
   res.locals.badges = BADGES;
-  res.locals.badgesMap = BADGES_MAP;
   res.locals.pages = {};
   res.locals.now = Date.now();
   res.locals.levels = LEVELS;
@@ -107,8 +94,7 @@ app.get('/account', (req, res) => {
 
 app.get('/badges', (req, res) => {
   if (!req.user) return error(res, 401);
-  const showAllBadges = ('reveal' in req.query);
-  res.render('badges', {showAllBadges, points: userPoints(req.user)});
+  res.render('badges', {showAllBadges: ('reveal' in req.query)});
 });
 
 app.get('/signup', (req, res) => {
@@ -154,9 +140,8 @@ app.get('/:pid', (req, res, next) => {
 
   let newBadge = null;
   if (req.user && !req.user.code) {
-    const points = userPoints(req.user);
     for (let b of BADGES[req.user.level]) {
-      if (b.score <= points && req.user.badges.indexOf(b.id) < 0) {
+      if (b.score <= req.user.points && req.user.badges.indexOf(b.id) < 0) {
         req.user.badges.push(b.id);
         newBadge = b;
         firebase.database().ref(`users/${req.user.uid}`) // async
