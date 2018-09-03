@@ -17,7 +17,6 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
 * Finish by midnight on Sunday if your whole class is doing parallelograms.
-*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -56,7 +55,7 @@ __1.2.__ How many numbers are in the melancoil?
 
 Just take a look at Matt’s video. The melancoil is described from 3 minutes 30 seconds onwards.
 
-![](/resources/7-02-the-melancoil/1-melancoil-answer){image align="center"}
+![](/resources/7-02-the-melancoil/1-melancoil-answer.png){image align="center"}
 
 :::
 

@@ -13,12 +13,11 @@ week by the Parallel Project to bright young mathematicians.
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
-*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
 
-## 1. Kaprekar numbers
+## 1. Hilbert’s Hotel
 
 You all know the word infinity, but do you really understand what it means? The video below explains some of the weird mathematics behind the concept of infinity.
 

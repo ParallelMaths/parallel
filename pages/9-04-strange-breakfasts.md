@@ -13,7 +13,6 @@ week by the Parallel Project to bright young mathematicians.
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
-*	Finish by midnight on Saturday to earn a 25% reward bonus.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
 
@@ -91,7 +90,8 @@ __3.1__ The angles of a triangle are in the ratio 2:3:5. What is the difference 
 
 The sum of the angles in a triangle is 180°. Since the angles are in the ratio 2:3:5 we have to divide 180° in the ratio 2:3:5.
 
-The difference between the largest angle the smallest angle is therefore `(5 - 2)/(2 + 3 + 5)` `× 180°` = `3/10 × 180°` = `54°`
+The difference between the largest angle the smallest angle is therefore  
+`(5 - 2)/(2 + 3 + 5)` `× 180°` = `3/10 × 180°` = `54°`
 :::
 
 
