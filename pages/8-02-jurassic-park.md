@@ -121,7 +121,7 @@ However, the 5:2 ratio also suggests that we might have 10 seniors and 4 veteran
 
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
-There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
+There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

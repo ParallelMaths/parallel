@@ -1,4 +1,9 @@
 year7:
+  - url: 7-04-matts-favourite-number
+    title: Matt’s Favourite Number
+    subtitle: Week 4
+    available: 2018-09-27T16:00:00
+    deadline: 2018-09-30T19:00:00
   - url: 7-03-the-big-bang
     title: The Big Bang
     subtitle: Week 3
@@ -16,6 +21,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-04-infinite-hotel
+    title: The Infinite Hotel
+    subtitle: Week 4
+    available: 2018-09-27T16:00:00
+    deadline: 2018-09-30T19:00:00
   - url: 8-03-chaotic-pendulums
     title: Chaotic Pendulums
     subtitle: Week 3
@@ -33,6 +43,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-04-strange-breakfasts
+    title: Strange Breakfasts
+    subtitle: Week 4
+    available: 2018-09-27T16:00:00
+    deadline: 2018-09-30T19:00:00
   - url: 9-03-lots-of-socks
     title: Lots of Socks
     subtitle: Week 3

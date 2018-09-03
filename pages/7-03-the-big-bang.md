@@ -128,7 +128,7 @@ So the volume remaining is `1/6 × 3` litres. So there remains 0.5 litres, that 
 
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
-There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 4pm.
+There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
