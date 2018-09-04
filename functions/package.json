@@ -1,7 +1,9 @@
 {
   "name": "functions",
   "description": "Firebase Cloud Functions for Parallel",
-  "engines": {"node": "8"},
+  "engines": {
+    "node": "8"
+  },
   "scripts": {
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
@@ -19,4 +21,3 @@
   },
   "private": true
 }
-
