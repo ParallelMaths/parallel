@@ -24,8 +24,9 @@ block content
                 th(width=100)= p.subtitle
           tbody
             for s in dashboard.students[l]
-              td(width=200) #{s.first} #{s.last}
-              for p in dashboard.pages[l]
-                td(width=100)
-                  if s.answers[p.url]
-                    span.score(class=scoreClass(s.answers[p.url])) #{s.answers[p.url]}%
+              tr
+                td(width=200) #{s.first} #{s.last}
+                for p in dashboard.pages[l]
+                  td(width=100)
+                    if s.answers[p.url]
+                      span.score(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score}%
