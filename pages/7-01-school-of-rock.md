@@ -16,7 +16,7 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
-*	NEW! You can new earn reward points and badges – [find out more here](/static/badges).
+*	NEW! You can new earn reward points and badges – [find out more here](/badges).
 * Finish by midnight on Sunday if your whole class is doing parallelograms.
 
 
