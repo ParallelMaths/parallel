@@ -24,11 +24,17 @@ function getUserData(uid) {
     data.badges = data.badges ? data.badges.split(',') : [];
     data.uid = uid;
 
-    const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score || 0);
-    data.points = scores.reduce((a, b) => a + b, 0);
-
-    data.visibleBadges = BADGES[data.level]
-        .filter(b => (data.points >= b.score)).reverse().slice(0, 4);
+    if (data.level) {
+      // For students
+      const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score || 0);
+      data.points = scores.reduce((a, b) => a + b, 0);
+      data.visibleBadges = BADGES[data.level]
+          .filter(b => (data.points >= b.score)).reverse().slice(0, 4);
+    } else {
+      // For teachers
+      data.points = 0;
+      data.visibleBadges = [];
+    }
 
     return data;
   });
