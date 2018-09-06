@@ -26,6 +26,7 @@ export default function() {
   const fbAuth = firebase.auth();
   const fbDatabase = firebase.database();
 
+  let userPromise = null;
   let nextUrl = '';
   let uid = null;
   fbAuth.onAuthStateChanged((user) => uid = user ? user.uid : null);
@@ -39,7 +40,10 @@ export default function() {
     document.body.style.display = 'none';
   }
 
-  fbAuth.addAuthTokenListener((token) => {
+  fbAuth.addAuthTokenListener(async function (token) {
+    // Ensure the user data is uploaded before redirecting.
+    if (userPromise) await userPromise;
+
     const hadSessionCookie = document.cookie.indexOf('__session=') !== -1;
     document.cookie = '__session=' + token + ';max-age=' + (token ? 3600 : 0);
     if ((!hadSessionCookie && token) || (hadSessionCookie && !token)) {
@@ -194,7 +198,7 @@ export default function() {
 
       try {
         const user = await fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password);
-        await fbDatabase.ref('users/' + user.uid).set({
+        userPromise = fbDatabase.ref('users/' + user.uid).set({
           first: signupForm.first || null,
           last: signupForm.last || null,
           teacherCode: signupForm.teacherCode || null,
@@ -206,6 +210,7 @@ export default function() {
           postCode: signupForm.postCode || null,
           country: signupForm.country || null,
           guardianEmail: signupForm.guardianEmail || null,
+          hasSeenWelcomeMsg: true,
           acceptedTerms: true
         });
 
