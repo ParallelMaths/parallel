@@ -19,12 +19,13 @@ function getIdTokenFromRequest(req, res) {
 function getUserData(uid) {
   return firebase.database().ref('users/' + uid).once('value').then(user => {
     const data = user.toJSON();
+    if (!data) throw new Error('User without data: ' + uid);
 
     if (!data.answers) data.answers = {};
     data.badges = data.badges ? data.badges.split(',') : [];
     data.uid = uid;
 
-    if (data.level) {
+    if (data.level === 'year7' || data.level === 'year8' || data.level === 'year9') {
       // For students
       const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score || 0);
       data.points = scores.reduce((a, b) => a + b, 0);
