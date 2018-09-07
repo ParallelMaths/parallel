@@ -205,7 +205,7 @@ While a mother in her twenties, having completed a degree in mathematics, Hamilt
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next
+Check your email or return to the website on Thursday at 3pm for the next
 Parallelogram.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe

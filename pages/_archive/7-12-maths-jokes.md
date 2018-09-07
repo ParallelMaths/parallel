@@ -263,7 +263,7 @@ time.
 @[youtube](8yYWILv91YU?rel=0&start=176&end=215)
 
 
-## 5. Junior Maths Challenge 
+## 5. Junior Maths Challenge
 
 ::: problem id=5 marks=1
 __5__ Consider the following three statements:
@@ -323,7 +323,7 @@ fooled by an optical illusion caused by the geometry of the road.
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next
+Check your email or return to the website on Thursday at 3pm for the next
 Parallelogram. Remember you will also have to complete next week’s Parallelogram and the final two in order to win your Parallel certificate.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe

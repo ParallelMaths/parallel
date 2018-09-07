@@ -139,7 +139,7 @@ The twelve different hexagons are shown shaded in the diagram below.
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next Parallelogram. Remember you will also have to have completed the previous two Parallelograms, this one and the final one in order to win your Parallel certificate.
+Check your email or return to the website on Thursday at 3pm for the next Parallelogram. Remember you will also have to have completed the previous two Parallelograms, this one and the final one in order to win your Parallel certificate.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
 

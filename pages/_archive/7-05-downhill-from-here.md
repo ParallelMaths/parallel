@@ -363,7 +363,7 @@ escapology. Today, he is back again, this time performing some psychic surgery:
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next
+Check your email or return to the website on Thursday at 3pm for the next
 Parallelogram.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday 25

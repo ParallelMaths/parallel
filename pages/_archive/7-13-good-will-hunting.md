@@ -370,7 +370,7 @@ reason why it’s a good idea to be a confident mathematician.
 @[youtube](BbX44YSsQ2I?rel=0)
 
 
-## 5. Junior Maths Challenge 
+## 5. Junior Maths Challenge
 
 ::: problem id=5 marks=1
 __5.1__ What is the value of `x`?
@@ -396,7 +396,7 @@ lines are equal, `x = y`. Hence `x = 57`.
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next Parallelogram. Remember you will also have to have completed last week’s Parallelogram and the final two in order to win your Parallel certificate.
+Check your email or return to the website on Thursday at 3pm for the next Parallelogram. Remember you will also have to have completed last week’s Parallelogram and the final two in order to win your Parallel certificate.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
 take a look at the “Additional Stuff” section.

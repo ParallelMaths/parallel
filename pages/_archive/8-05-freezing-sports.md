@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 5_ Freezing sports and flipping pancakes
+Thursday at 3pm# _Year 8 • Parallelogram 5_ Freezing sports and flipping pancakes
 
 <div class="dictionary">
 
@@ -231,7 +231,7 @@ If you want to find out more about deGrasse Tyson and Sagan, then there are a co
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next Parallelogram.
+Check your email or return to the website on Thursday at 3pm for the next Parallelogram.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday 25 February, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
 

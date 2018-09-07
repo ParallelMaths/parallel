@@ -389,7 +389,7 @@ and hence `10 - y` is a positive number which is a multiple of 8. The only posit
 
 ***
 
-Check your email or return to the website on Friday April 20 at 4pm for the next Parallelogram.
+Check your email or return to the website on Thursday April 20 at 3pm for the next Parallelogram.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below.
 

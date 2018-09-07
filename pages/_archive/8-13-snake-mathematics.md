@@ -161,7 +161,7 @@ The game is a con, as explained in Professor Wiseman’s video below.
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next Parallelogram. Remember you will also have to have completed last week’s Parallelogram and the final two in order to win your Parallel certificate.
+Check your email or return to the website on Thursday at 3pm for the next Parallelogram. Remember you will also have to have completed last week’s Parallelogram and the final two in order to win your Parallel certificate.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
 

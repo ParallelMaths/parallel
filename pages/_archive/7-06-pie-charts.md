@@ -197,7 +197,7 @@ Email your 50-word account to [prizes@parallel.org.uk](mailto:prizes@parallel.or
 
 ***
 
-Check your email or return to the website on Friday at 4pm for the next
+Check your email or return to the website on Thursday at 3pm for the next
 Parallelogram.
 
 In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
