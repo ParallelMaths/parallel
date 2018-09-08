@@ -196,29 +196,29 @@ export default function() {
       // Redirect after login
       nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
 
-      try {
-        const user = await fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password);
-        userPromise = fbDatabase.ref('users/' + user.uid).set({
-          first: signupForm.first || null,
-          last: signupForm.last || null,
-          teacherCode: signupForm.teacherCode || null,
-          code: signupForm.code || null,
-          level: signupForm.level || null,
-          birthYear: signupForm.birthYear || null,
-          schoolName: signupForm.schoolName || null,
-          phoneNumber: signupForm.phoneNumber || null,
-          postCode: signupForm.postCode || null,
-          country: signupForm.country || null,
-          guardianEmail: signupForm.guardianEmail || null,
-          hasSeenWelcomeMsg: true,
-          acceptedTerms: true
-        });
-
-      } catch(error) {
-        console.error(error);
-        signupForm.loading = false;
-        signupForm.error = ERRORS[error.code] || ERRORS.default;
-      }
+      userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
+          .then((user) => {
+            return fbDatabase.ref('users/' + user.uid).set({
+              first: signupForm.first || null,
+              last: signupForm.last || null,
+              teacherCode: signupForm.teacherCode || null,
+              code: signupForm.code || null,
+              level: signupForm.level || null,
+              birthYear: signupForm.birthYear || null,
+              schoolName: signupForm.schoolName || null,
+              phoneNumber: signupForm.phoneNumber || null,
+              postCode: signupForm.postCode || null,
+              country: signupForm.country || null,
+              guardianEmail: signupForm.guardianEmail || null,
+              hasSeenWelcomeMsg: true,
+              acceptedTerms: true
+            });
+          })
+          .catch(error => {
+            console.error(error);
+            signupForm.loading = false;
+            signupForm.error = ERRORS[error.code] || ERRORS.default;
+          });
     }
   };
 
