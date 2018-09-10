@@ -60,85 +60,85 @@ year7:
   type: historic
   score: 1200
   color: 892694
-  description: TODO
-  link: TODO
+  description: A computer pioneer, he collaborated with Ada Lovelace and designed a series of giant calculating machines. Although it was never finished, he is often credited with inventing the first computer.
+  link: http://www.bbc.co.uk/history/historic_figures/babbage_charles.shtml
 - id: 7-historic-ramanujan
   name: Srinivasa Ramanujan
   type: historic
   score: 1400
   color: 7437a9
-  description: TODO
-  link: TODO
+  description: An Indian mathematician who – despite growing up with a limited education, and little knowledge of modern mathematics – became known as one of the greatest mathematical minds of all time. His life is depicted in the film The Man Who Knew Infinity.
+  link: https://www.britannica.com/biography/Srinivasa-Ramanujan
 - id: 7-historic-wassilijewna
   name: Sofia Kovalevskaya
   type: historic
   score: 1600
   color: 5e47bf
-  description: TODO
-  link: TODO
+  description: Despite orginially being refused entry to university because she was female, she was the first woman in modern Europe to gain a PhD in mathematics, and later to become a professor in mathematics. Her most lauded work was in calculus.
+  link: https://www.britannica.com/biography/Sofya-Vasilyevna-Kovalevskaya
 - id: 7-historic-germain
   name: Sophie Germain
   type: historic
   score: 1800
   color: 4958d4
-  description: TODO
-  link: TODO
+  description: As a woman, she was not allowed to study mathematics, so she used a fake male name to obtain lecture notes and correspond with other prominent mathematicians. Her most notable work was on Fermat’s Last Theorem.
+  link: https://www.britannica.com/biography/Sophie-Germain
 - id: 7-number-zero
   name: Zero
   type: number
   score: 2050
   color: 3469ea
-  description: TODO
-  link: TODO
+  description: Today, it seems just as natural as any other number, but actually the first appearance of zero as we use it today was as late as 400CE in India. In Italy they thought it so suspicious it was outlawed.
+  link: https://www.livescience.com/27853-who-invented-zero.html
 - id: 7-number-infinity
   name: Infinity
   type: number
   score: 2300
   color: 1f7aff
-  description: TODO
-  link: TODO
+  description: Whether it really counts as a number is debatable, but modern mathematics couldn’t function without infinity. Georg Cantor suggested that some infinities could be bigger than others.
+  link: https://opinionator.blogs.nytimes.com/2010/05/09/the-hilbert-hotel/
 - id: 7-number-root2
   name: √2
   type: number
   score: 2550
   color: 2284d5
-  description: TODO
-  link: TODO
+  description: √2 is an irrational number, which means that it can’t be written as a fraction. Legend has it that when this was discovered by the Greek Hippasus, it was so controversial that he was exiled and later murdered.
+  link: https://nrich.maths.org/2671
 - id: 7-number-42
   name: 42
   type: number
   score: 2800
   color: 258dab
-  description: TODO
-  link: TODO
+  description: According to the brilliant science fiction writer Douglas Adams, in his book The Hitchhikers Guide to the Galaxy, the number 42 is the answer to ‘life, the universe and everything’.
+  link: https://en.wikipedia.org/wiki/42_(number)
 - id: 7-modern-turing
   name: Alan Turing
   type: modern
   score: 3100
   color: 289782
-  description: TODO
-  link: TODO
+  description: He is most famous for inventing a computing machine to break the ‘enigma code’ used by the Germans in WWII. His work on computers continued after the war, but was cut tragically short after he was arrested for homosexual acts in 1952.
+  link: https://www.bbc.com/timelines/z8bgr82
 - id: 7-modern-villani
   name: Cedric Villani
   type: modern
   score: 3400
   color: 2ba058
-  description: TODO
-  link: TODO
+  description: He is a winner of the Fields Medal – the most coveted prize in mathematics – but has since moved into politics. In 2017, he was elected to the French Parliament as a member of the National Assembly.
+  link: https://en.wikipedia.org/wiki/Cédric_Villani
 - id: 7-modern-tao
   name: Terence Tao
   type: modern
   score: 3700
   color: 2ea92e
-  description: TODO
-  link: TODO
+  description: A child prodigy, at 7 years old he was attending high school. He first competed in the International Maths Olympiad at just 10 years old, and by the age of 24 he had become a full professor at UCLA. He is also a Fields Medal winner.
+  link: https://en.wikipedia.org/wiki/Terence_Tao
 - id: 7-modern-hopper
   name: Grace Hopper
   type: modern
   score: 4000
   color: 31b304
-  description: TODO
-  link: TODO
+  description: During WWII she worked on the MARK I, America’s first electromechanical computer. She developed some of the first programming languages, driven by her belief that writing code in words would make computers more accessible.
+  link: https://president.yale.edu/biography-grace-murray-hopper
 
 year8:
 - id: 8-ancients-brahmagupta
@@ -209,78 +209,78 @@ year8:
   type: historic
   score: 1400
   color: 7437a9
-  description: TODO
-  link: TODO
+  description: He was a naturally gifted calculator, who could outwit the smartest of people, without pen or paper, and in half the time. Sadly, he was sold as a slave at only 14 years old, but his abilities were often cited by pro-abolitionist campaigners to demonstrate how much more he was capable of.
+  link: http://www.mathscareers.org.uk/article/black-heroes-mathematics/
 - id: 8-historic-fermat
   name: Pierre de Fermat
   type: historic
   score: 1600
   color: 5e47bf
-  description: TODO
-  link: TODO
+  description: A French amateur mathematician, he came up with a number of theorems, but is most famous for his ‘last theorem’ the proof of which he claimed was too big for the margin of his page. It was left unsolved for over 350 years.
+  link: http://www.storyofmathematics.com/17th_fermat.html
 - id: 8-historic-nightingale
   name: Florence Nightingale
   type: historic
   score: 1800
   color: 4958d4
-  description: TODO
-  link: TODO
+  description: She is most famous for her work as a nurse in the Crimean War, but did you know she also invented the Pie Chart? She used statistics to back up her calls for medical reform, and was the first woman to be elected to the Royal Statistical Society.
+  link: http://www.florence-nightingale.co.uk/resources/biography/?v=79cba1185463
 - id: 8-number-googol
   name: Googol
   type: number
   score: 2050
   color: 3469ea
-  description: TODO
-  link: TODO
+  description: More famous as the name of a popular search engine (deliberately misspelt as Google), a googol is actually the quantity 1 followed by 100 zeros. That’s more than the number of Hydrogen atoms in the universe.
+  link: https://www.livescience.com/31981-googol.html
 - id: 8-number-pi
   name: π
   type: number
   score: 2300
   color: 1f7aff
-  description: TODO
-  link: TODO
+  description: You probably already know about pi as the ‘circle constant’. It is actually defined as the circumference of a circle divided by the diameter, but it also turns up in a lot of other places.
+  link: http://www.slate.com/articles/health_and_science/science/2017/03/all_the_places_pi_shows_up_beyond_circles.html
 - id: 8-number-i
   name: i
   type: number
   score: 2550
   color: 2284d5
-  description: TODO
-  link: TODO
+  description: For a long time mathematicians thought that you couldn’t take square roots of negative numbers, but Euler realised that if you defined i as √-1, you could write the square root of any negative number in the form x+iy (where x and y were real numbers).
+  link: https://www.khanacademy.org/math/algebra2/introduction-to-complex-numbers-algebra-2/the-complex-numbers-algebra-2/a/intro-to-complex-numbers
 - id: 8-number-minus1
   name: -1
   type: number
   score: 2800
   color: 258dab
-  description: TODO
-  link: TODO
+  description: Negative numbers first appeared in Ancient China in 200BCE, but took another 800 years to arrive in India, and still weren’t properly understood in Europe until the 19th century. The mathematician Euler discovered that e<sup>iπ</sup> = -1
+  link: https://en.wikipedia.org/wiki/−1
 - id: 8-modern-wiles
   name: Andrew Wiles
   type: modern
   score: 3100
   color: 289782
-  description: TODO
-  link: TODO
+  description: He came up with a proof for Fermat’s Last Theorem – a maths problem that had been left unsolved for over 350 years. The proof was his lifelong obsession, and he worked on it for 7 years in secret, focussing on little else.
+  link: https://simonsingh.net/books/fermats-last-theorem/who-is-andrew-wiles/
 - id: 8-modern-erdos
   name: Paul Erdos
   type: modern
   score: 3400
   color: 2ba058
-  description: TODO
-  link: TODO
+  description: An eccentric Hungarian mathematician, he became known for travelling the world to collaborate with other mathematicians – often turning up unexpectedly and staying until he lost interest in their work.
+  link: https://www.britannica.com/biography/Paul-Erdos
 - id: 8-modern-atiyah
   name: Michael Atiyah
   type: modern
   score: 3700
   color: 2ea92e
-  description: TODO
-  link: TODO
+  description: A British mathematician, he has held academic positions in both the UK and the USA. His work earned him a Fields medal and knighthood, and later, induction into the Order of Merit.
+  link: https://www.britannica.com/biography/Michael-Francis-Atiyah
 - id: 8-modern-johnson
   name: Katherine Johnson
   type: modern
   score: 4000
   color: 31b304
-  description: TODO
-  link: TODO
+  description: Even as a child she was an able mathematician, but she is famous for her work at NACA (later NASA) as a human computer – doing incredibly complex calculations by hand. In 2015 she was awarded the Presidential Medal of Freedom.
+  link: https://www.nasa.gov/content/katherine-johnson-biography
 
 
 year9:
@@ -345,82 +345,82 @@ year9:
   type: historic
   score: 1200
   color: 892694
-  description: TODO
-  link: TODO
+  description: He wasn’t very good at school, was arrested several times, and died in a duel at just 20 years old; but in his spare time he pioneered a new field of mathematics called Group Theory.
+  link: http://www.storyofmathematics.com/19th_galois.html
 - id: 9-historic-dawei
   name: Cheng Dawei
   type: historic
   score: 1400
   color: 7437a9
-  description: TODO
-  link: TODO
+  description: A Chinese mathematician, he spent much of his life travelling around China and purchasing books on arithmetic, collecting the most interesting problems for his work ‘Suafa Tongzong’. He focussed particularly on arithmetic for the abacus.
+  link: https://en.wikipedia.org/wiki/Cheng_Dawei
 - id: 9-historic-gauss
   name: Carl Friedrich Gauss
   type: historic
   score: 1600
   color: 5e47bf
-  description: TODO
-  link: TODO
+  description: Even as a child, he was noticeably better than most adults at mathematics, and by the age of 15 he was attending university. He found a pattern in the distribution of prime numbers, and pioneered many new fields of mathematics.
+  link: https://www.storyofmathematics.com/19th_gauss.html
 - id: 9-historic-lovelace
   name: Ada Lovelace
   type: historic
   score: 1800
   color: 4958d4
-  description: TODO
-  link: TODO
+  description: Daughter of the erratic romantic poet Lord Byron, her mother encouraged her into the sciences to keep her disciplined. She worked with Charles Babbage on his Analytical Engine and is remembered as the world’s first computer programmer.
+  link: https://findingada.com/shop/a-passion-for-science-stories-of-discovery-and-invention/ada-lovelace-victorian-computing-visionary/
 - id: 9-number-googolplex
   name: Googolplex
   type: number
   score: 2050
   color: 3469ea
-  description: TODO
-  link: TODO
+  description: A googolplex is an incomprehensibly large number. It is equal to 10<sup>googol</sup>, where a googol is the number 1 followed by 100 zeros. There are more zeroes in a googolplex than particles in the known universe.
+  link: http;/www.googolplexwrittenout.com
 - id: 9-number-2
   name: 2
   type: number
   score: 2300
   color: 1f7aff
-  description: TODO
-  link: TODO
+  description: It is the smallest prime number (see why 1 is not a prime number here), and the only even prime number (because all other even numbers are divisible by 2).
+  link: https://simple.wikipedia.org/wiki/2_(number)
 - id: 9-number-phi
   name: φ
   type: number
   score: 2550
   color: 2284d5
-  description: TODO
-  link: TODO
+  description: Phi or the Golden Ratio is a number representing the ratio between lengths a and b such that a/b = (a+b)/a where a is longer than b. It is thought to be very aesthetically pleasing, and appears everywhere from DNA to hurricanes.
+  link: https://www.livescience.com/37704-phi-golden-ratio.html
 - id: 9-number-e
   name: e
   type: number
   score: 2800
   color: 258dab
-  description: TODO
-  link: TODO
+  description: It is found in many interesting parts of mathematics, and is an irrational number, which means it can’t be written as a fraction. You can calculate e by finding (1+1/n)<sup>n</sup> for a very big n (the number is precisely e when n = infinity).
+  link: https://www.mathsisfun.com/numbers/e-eulers-number.html
 - id: 9-modern-perelman
   name: Grigori Perelman
   type: modern
   score: 3100
   color: 289782
-  description: TODO
-  link: TODO
+  description: His work on the Poincaré Conjecture – one of the famous millennium maths problems – earned him a $1,000,000 prize and a Fields Medal, but he turned down both and has since retired from mathematics.
+  link: https://www.britannica.com/biography/Grigori-Perelman
 - id: 9-modern-nash
   name: John Nash
   type: modern
   score: 3400
   color: 2ba058
-  description: TODO
-  link: TODO
+  description: A Nobel Prize winner (rare amongst mathematicians as there is no Nobel Prize for Maths), he is most famous for his work in game theory and his struggle with schizophrenia. His life is documented in the film A Beautiful Mind.
+  link: https://www.britannica.com/biography/John-Nash
 - id: 9-modern-avila
   name: Artur Ávila
   type: modern
   score: 3700
   color: 2ea92e
-  description: TODO
-  link: TODO
+  description: The first Latin American to win a Fields Medal, it was awarded for his work in ‘chaos’ -  using maths to predict the unpredictable. At school he was a rebel who skipped classes to work on maths problems.
+  link: https://www.vice.com/en_uk/article/vdxxjb/the-art-of-artur-avila-brazils-math-genius-314
 - id: 9-modern-mirzakhani
   name: Maryam Mirzakhani
   type: modern
   score: 4000
   color: 31b304
-  description: TODO
-  link: TODO
+  description: Although as a child she wanted to be a writer, her phenomenal mathematical talent won her two Gold medals in the International Maths Olympiad, and she became the first woman to win a Fields Medal.
+  link: https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician

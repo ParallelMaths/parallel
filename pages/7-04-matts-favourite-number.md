@@ -13,8 +13,7 @@ week by the Parallel Project to bright young mathematicians.
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
-
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+* Make sure you check the solution sheet, celebrate your successes and (most important of all) learn from your mistakes.
 
 
 ## 1. Matt’s favourite number
@@ -85,15 +84,15 @@ __3.1__ The Grand Old Duke of York had 10 000 men. He lost 10% of them on the wa
 
 What percentage of the 10 000 men were still there when they reached the bottom of the hill?
 
-* [x] 76`1/2`%
-* [ ] 75%
-* [ ] 73`1/2`%
-* [ ] 66`2/3`%
-* [ ] 25%
+* [x] `76 1/2%`
+* [ ] `75%`
+* [ ] `73 1/2%`
+* [ ] `66 2/3%`
+* [ ] `25%`
 
 ---
 
-After losing 10% of the men, the Grand Old Duke of York was left with 90% of them. After losing 15% of these, he was left with 85% of the remaining 90% men. So he is left with `85/100` × `90/100` = `7650/10000` × `76.5/100` of the men he started, that is, 76`1/2`% of the original number of men.
+After losing 10% of the men, the Grand Old Duke of York was left with 90% of them. After losing 15% of these, he was left with 85% of the remaining 90% men. So he is left with `85/100` × `90/100` = `7650/10000` × `76.5/100` of the men he started, that is, `76 1/2`% of the original number of men.
 :::
 
 

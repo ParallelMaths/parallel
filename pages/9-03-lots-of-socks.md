@@ -14,7 +14,7 @@ week by the Parallel Project to bright young mathematicians.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes..
 
 
 ## 1. Probability

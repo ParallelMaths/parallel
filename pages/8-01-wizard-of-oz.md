@@ -19,7 +19,7 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 *	NEW! You can new earn reward points and badges – [find out more here](/badges).
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes..
 
 
 ## 1. Kaprekar constant
