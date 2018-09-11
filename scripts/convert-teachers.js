@@ -4,8 +4,9 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
-  // ADD EMAILS HERE
-];
+sdenney@elycollege.co.uk;
+bwinter.jb@alice-smith.edu.my;
+]
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
