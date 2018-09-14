@@ -2,18 +2,18 @@ year7:
   - url: 7-04-matts-favourite-number
     title: Matt’s Favourite Number
     subtitle: Week 4
-    available: 2018-09-27T16:00:00
-    deadline: 2018-09-30T19:00:00
+    available: 2018-10-04T15:00:00
+    deadline: 2018-10-07T15:00:00
   - url: 7-03-the-big-bang
     title: The Big Bang
     subtitle: Week 3
-    available: 2018-09-20T16:00:00
-    deadline: 2018-09-23T19:00:00
+    available: 2018-09-27T15:00:00
+    deadline: 2018-09-30T18:00:00
   - url: 7-02-the-melancoil
     title: The Melancoil
     subtitle: Week 2
-    available: 2018-09-13T16:00:00
-    deadline: 2018-09-16T19:00:00
+    available: 2018-09-20T15:00:00
+    deadline: 2018-09-23T18:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
     subtitle: Week 1
@@ -24,18 +24,18 @@ year8:
   - url: 8-04-infinite-hotel
     title: The Infinite Hotel
     subtitle: Week 4
-    available: 2018-09-27T16:00:00
-    deadline: 2018-09-30T19:00:00
+    available: 2018-10-04T15:00:00
+    deadline: 2018-10-07T15:00:00
   - url: 8-03-chaotic-pendulums
     title: Chaotic Pendulums
     subtitle: Week 3
-    available: 2018-09-20T16:00:00
-    deadline: 2018-09-23T19:00:00
+    available: 2018-09-27T15:00:00
+    deadline: 2018-09-30T18:00:00
   - url: 8-02-jurassic-park
     title: Jurassic Park mathematics
     subtitle: Week 2
-    available: 2018-09-13T16:00:00
-    deadline: 2018-09-16T19:00:00
+    available: 2018-09-20T15:00:00
+    deadline: 2018-09-23T18:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
     subtitle: Week 1
@@ -46,18 +46,18 @@ year9:
   - url: 9-04-strange-breakfasts
     title: Strange Breakfasts
     subtitle: Week 4
-    available: 2018-09-27T16:00:00
-    deadline: 2018-09-30T19:00:00
+    available: 2018-10-04T15:00:00
+    deadline: 2018-10-07T15:00:00
   - url: 9-03-lots-of-socks
     title: Lots of Socks
     subtitle: Week 3
-    available: 2018-09-20T16:00:00
-    deadline: 2018-09-23T19:00:00
+    available: 2018-09-27T15:00:00
+    deadline: 2018-09-30T18:00:00
   - url: 9-02-romantic-mathematics
     title: Romantic Mathematics
     subtitle: Week 2
-    available: 2018-09-13T16:00:00
-    deadline: 2018-09-16T19:00:00
+    available: 2018-09-20T15:00:00
+    deadline: 2018-09-23T18:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
     subtitle: Week 1

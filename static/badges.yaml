@@ -202,8 +202,8 @@ year8:
   type: historic
   score: 1200
   color: 892694
-  description: TODO
-  link: TODO
+  description: One of the most influential mathematicians of the 20th century, her work was praised by the likes of Einstein. Despite this, as a woman she was not allowed to matriculate into university, and had to work for free for many years before being allowed a paid professorship.
+  link: https://www.nytimes.com/2012/03/27/science/emmy-noether-the-most-significant-mathematician-youve-never-heard-of.html
 - id: 8-historic-fuller
   name: Thomas Fuller
   type: historic
