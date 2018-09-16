@@ -19,9 +19,9 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. Probability
 
-This week we have a big video question that is all about probability, so here are some warn up questions.
+This week we have a big video question that is all about probability, so here are some warm up questions.
 
-In every case, __write you answer as a decimal accurate to two decimal places__.
+In every case, __write your answer as a decimal accurate to two decimal places__.
 
 So don’t write 2/3, but instead write 0.67. And don’t write 50%, but instead write 0.5.
 
@@ -42,7 +42,7 @@ __1.2.__ If I roll a dice, what is the probability that I roll a prime number? R
 
 ---
 
-There are 6 numbers on a dice, and 2, 3 and 5 are even, so the probability is 3/6 = 0.5
+There are 6 numbers on a dice, and 2, 3 and 5 are prime, so the probability is 3/6 = 0.5
 :::
 
 ::: problem id=1_3 marks=2
@@ -52,7 +52,7 @@ __1.3.__ If I roll two dice, what is the probability that they show two even num
 
 ---
 
-The chance of an even number is 0.5 for the first dice and 0.05 for the second dice, so the result is 0.5 x 0.5 = 0.25.
+The chance of an even number is 0.5 for the first dice and 0.5 for the second dice, so the result is 0.5 x 0.5 = 0.25.
 :::
 
 ::: problem id=1_4 marks=3
@@ -62,7 +62,7 @@ __1.4.__ If I roll two dice, what is the probability that neither of them are pr
 
 ---
 
-The first dice has to show 1, as all the other number are either prime or even or both, and the probability of this is 1/6. The second dice also has to show 1, so the chance that the both show 1 is 1/6 x 1/6 = 1/36 = 0.03.
+The first dice has to show 1, as all the other numbers are either prime or even or both, and the probability of this is 1/6. The second dice also has to show 1, so the chance that they both show 1 is 1/6 x 1/6 = 1/36 = 0.03.
 :::
 
 ::: problem id=1_5 marks=3
@@ -72,7 +72,7 @@ __1.5.__ If I roll two dice, what is the probability that both of them are both 
 
 ---
 
-The first dice has to show 2, as it is both even and prime, and the probability of this is 1/6. The second dice also has to show 2, so the chance that the both show 2 is 1/6 x 1/6 = 1/36 = 0.03.
+The first dice has to show 2, as it is both even and prime, and the probability of this is 1/6. The second dice also has to show 2, so the chance that they both show 2 is 1/6 x 1/6 = 1/36 = 0.03.
 :::
 
 Next, take a look at this puzzle posed by Presh Talwalkar of the excellent Mind Your Decisions video channel, and then answer the question in the video, repeated below. It’s a question from the Amazon interview process, so it is designed to make you think.
@@ -86,7 +86,7 @@ __1.6.__ If you pick 2 socks at random (from 12 black and 12 white socks), what 
 
 ---
 
-It does not matter which sock you pick first, but the second sock has to be the same colour. Whatever the colour of the first sock, there will only 11 similarly coloured socks out of the remaining 23 socks. So, the probability of two socks of the same colour is 11/23, which is 0.48.
+It does not matter which sock you pick first, but the second sock has to be the same colour. Whatever the colour of the first sock, there will only be 11 similarly coloured socks out of the remaining 23 socks. So, the probability of picking two socks of the same colour is 11/23, which is 0.48.
 :::
 
 ::: problem id=1_7 marks=3
@@ -96,7 +96,7 @@ __1.7.__ If you pick 2 cards at random from a deck of 52 cards, what is the prob
 
 ---
 
-It does not matter which card you pick first, but the second card has to be the same value. Whatever the value of the first card, there will only 3 similarly valued cards out of the remaining 51 cards. So, the probability of two cards of the same value is 3/51, which is 0.06.
+It does not matter which card you pick first, but the second card has to be the same value. Whatever the value of the first card, there will only be 3 similarly valued cards out of the remaining 51 cards. So, the probability of picking two cards of the same value is 3/51, which is 0.06.
 :::
 
 
@@ -125,18 +125,18 @@ The answer is 87, because if you look it at from the driver's point of the view,
 
 ## 3.	Intermediate Maths Challenge Problem
 
-As I mentioned last week, if you are a Year 9 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
+As I mentioned last week, if you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ The consecutive digits 1, 2, 3, 4 in that order can be arranged to make the correct division, 12 ÷ 3 = 4. One _other_ sequence of four consecutive digits `p`, `q`, `r`, `s` makes a correct division, `pq` ÷ `r` = `s`. What is the value of `s` in this case?
+__3.1__ The consecutive digits 1, 2, 3, and 4 in that order can be arranged to make the correct division, 12 ÷ 3 = 4. One _other_ sequence of four consecutive digits `p`, `q`, `r`, `s` makes a correct division, `pq` ÷ `r` = `s`. What is the value of `s` in this case?
 
-* [x] 4
+* [ ] 4
 * [ ] 5
 * [ ] 6
 * [ ] 7
-* [ ] 8
+* [x] 8
 
 ---
 
@@ -167,7 +167,7 @@ There will be another Parallelogram next week, and the week after, and the week 
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
-It is really important that you go through the solution sheet. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
+It is really important that you go through the solution sheet. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
 
 Cheerio,
 Simon.

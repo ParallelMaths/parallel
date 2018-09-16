@@ -89,7 +89,7 @@ __2.2.__ When do the three dots start split apart, with the red dot flying off i
 :::
 
 ::: problem id=2_3 marks=2
-__2.3.__ Which of these statements best describes the motion of the three dots?
+__2.3.__ Which of these statements best describes the settled motion of the three dots?
 
 * [ ] The motion of the dots is totally random.
 * [ ] The dots tend to orbit a single fixed point.
@@ -143,7 +143,7 @@ There will be another Parallelogram next week, and the week after, and the week 
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
-It is really important that you go through the solution sheet. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
+It is really important that you go through the solution sheet. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
 
 Cheerio,
 Simon.

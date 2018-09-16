@@ -51,7 +51,7 @@ __1.3.__ According to James Grime, which of these is the most even number?
 
 ---
 
-If being even means being divisible by 2, then a number is very even if it can be divided by 2 several times. By this definition, 4 is more even than 2, because 4 can be divided by 2 to get an answer of 2, which can be divided by 2 again to get an answer of 1, but that is the end of the road, because 1 cannot be divided by 2. Therefore, 0 is the most even number, because it can be divided by 2 an infinite number of times.
+If being even means being divisible by 2, then a number is very even if it can be divided by 2 several times. By this definition, 4 is more even than 2, because 4 can be divided by 2 to get an answer of 2, which can be divided by 2 again to get an answer of 1, but that is the end of the road, because 1 is not divisible by 2. Therefore, 0 is the most even number, because it can be divided by 2 an infinite number of times.
 :::
 
 ::: problem id=1_4 marks=2
@@ -76,7 +76,7 @@ So, 8 can be divided by 2 three times, which makes it the most even of the five 
 
 ## 2. The Big Bang
 
-Last week’s Parallelogram included a silly (but brilliant) mathematics song by the band Barenaked Ladies. Here is the band’s song about the big bang theory, which is the theme tune to the world’s variety comedy show, The Big Bang Theory. Incidentally, I am very proud that the band’s lead singer Ed Robertson wrote the song because he had just read my book BIG BANG.
+Last week’s Parallelogram included a silly (but brilliant) mathematics song by the band Barenaked Ladies. Here is the band’s song about the big bang theory, which is the theme tune to the comedy show, The Big Bang Theory. Incidentally, I am very proud that the band’s lead singer Ed Robertson wrote the song because he had just read my book BIG BANG.
 
 @[youtube](CMSYv_Z4SI8?rel=0)
 
@@ -131,7 +131,7 @@ There will be another Parallelogram next week, and the week after, and the week 
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
-It is really important that you go through the solution sheet. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
+It is really important that you go through the solution sheet. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
 
 Cheerio,
 Simon.

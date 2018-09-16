@@ -77,7 +77,7 @@ There are no questions, but you can enter a competition. Just write a list of al
 
 ## 3.	Intermediate Maths Challenge Problem
 
-If you are a Year 9 student, then it likely that you will taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
+If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
@@ -104,7 +104,7 @@ There will be another Parallelogram next week, and the week after, and the week 
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
-It is really important that you go through the solution sheet. Seriously important. What you got right is much less important that what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
+It is really important that you go through the solution sheet. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
 
 Cheerio,
 Simon.
