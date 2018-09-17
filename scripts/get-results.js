@@ -41,7 +41,7 @@ async function run() {
         users[u].teacherCode,
         users[u].country,
         answer.submitted ? 1 : '',
-        Math.round(answer.score*100) || 0
+        answer.score || 0
       ];
 
       for (let key of Object.keys(answer)) if (titles.indexOf(key) <= 0) titles.push(key);
