@@ -9,7 +9,7 @@ fb.initializeApp({
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
-const pageData = yaml.load(path.join(__dirname, '../pages/pages.yaml'));
+const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 const pages = [...pageData.year7, ...pageData.year8, ...pageData.year9];
 
 async function run() {
@@ -24,11 +24,12 @@ async function run() {
   // ---------------------------------------------------------------------------
 
   for (let p of pages) {
-    const titles = ['name','email','schoolName','country','submitted','score'];
+    const titles = ['name','email','school','teacher_code','country','submitted','score'];
     const data = [];
 
     for (let u of Object.keys(users)) {
       if (!users[u].answers || !users[u].answers[p.url]) continue;
+      if (users[u].code) continue;  // exclude teachers
 
       const user = users[u];
       const answer = users[u].answers[p.url];
@@ -37,6 +38,7 @@ async function run() {
         user.first + ' ' + user.last,
         emailMap[u],
         `"${users[u].schoolName || ''}"`,
+        users[u].teacherCode,
         users[u].country,
         answer.submitted ? 1 : '',
         Math.round(answer.score*100) || 0
@@ -57,15 +59,17 @@ async function run() {
 
   // ---------------------------------------------------------------------------
 
-  const data = [['name', 'email', 'school', ...pages.map(p => p.url), 'total']];
+  const data = [['name', 'email', 'school', 'teacher_code', ...pages.map(p => p.url), 'total']];
   for (let u of Object.keys(users)) {
-    if (!users[u].answers) continue;
+    if (!users[u].answers || users[u].code) continue;
+
     const a = pages.map(p => ((users[u].answers[p.url] || {}).score || 0));
     const sum = a.reduce((a, b) => a + b, 0);
     if (sum>0) data.push([
       `"${users[u].first} ${users[u].last}"`,
       emailMap[u],
       `"${users[u].schoolName || ''}"`,
+      users[u].teacherCode,
       ...a, sum
     ]);
   }

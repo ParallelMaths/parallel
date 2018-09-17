@@ -123,7 +123,7 @@ function sumaze(x) {
 function checkInput(a, b) {
   a = ('' + a).trim().replace(/[\s,]/g, '').toLowerCase();
   b = ('' + b).trim().replace(/[\s,]/g, '').toLowerCase();
-  return a === b;
+  return (a === b || +a === +b);
 }
 
 
