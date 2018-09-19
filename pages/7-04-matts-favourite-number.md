@@ -46,8 +46,8 @@ __1.3.__ Matt talked about some numbers, such as 48,625, whereby the digits are 
 What difference does reversing the order of the powers make? Does it make the sum bigger or smaller? Consider a 2-digit number XY, where X and Y are different. Which statement is true?
 
 * [ ] X<sup>X</sup> + Y<sup>Y</sup> is always smaller than X<sup>Y</sup> + Y<sup>X</sup>
-* [x] X<sup>X</sup> + Y<sup>Y</sup> is always the same as X<sup>Y</sup> + Y<sup>X</sup>
-* [ ] X<sup>X</sup> + Y<sup>Y</sup> is always bigger than X<sup>Y</sup> + Y<sup>X</sup>
+* [ ] X<sup>X</sup> + Y<sup>Y</sup> is always the same as X<sup>Y</sup> + Y<sup>X</sup>
+* [x] X<sup>X</sup> + Y<sup>Y</sup> is always bigger than X<sup>Y</sup> + Y<sup>X</sup>
 
 ---
 
