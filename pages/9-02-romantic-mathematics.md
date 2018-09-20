@@ -18,7 +18,7 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then look at the solution sheet to see where you went wrong, and then next time you’ll know what to do.
 
 
 ## 1. Is 1 a prime number?

@@ -14,7 +14,7 @@ week by the Parallel Project to bright young mathematicians.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then look at the solution sheet to see where you went wrong, and then next time you’ll know what to do.
 
 
 ## 1. Kaprekar numbers
@@ -57,13 +57,13 @@ When you square each of these numbers, you can then partition or split the resul
 :::
 
 
-## 2. You can’t script this
+## 2. Chaotic pendulum
 
 Last week’s Parallelogram included a brief look at mathematical chaos via a clip from Jurassic Park, but I did not really define chaos. One definition is: “Chaos theory is a branch of mathematics focusing on the behavior of dynamical systems that are highly sensitive to initial conditions.”
 
-Usually, if two systems start off in ALMOST the same way, then a while later they will evolve into two systems that are still quite similar to each other. If one 5-year-old child is 1 mm taller than another 5-year-old child, then ten years later that 15-year old child might be, say, 1cm or few centimetres taller than the other one.
+Usually, if two systems start off in ALMOST the same way, then a while later they will evolve into two systems that are still quite similar to each other. If one 5-year-old child is 1 mm taller than another 5-year-old child, then ten years later that 15-year old child might be, say, 1 cm or few centimetres taller than the other one.
 
-By contrast, in a chaotic system, ten years later one child has grown taller, while the other child has shrunk to the size of a grain of rice. That is not a technical definition of mathematical chaos, but it might give you some idea of what it means.
+In contrast, in a chaotic system, ten years later one child has grown taller, while the other child has shrunk to the size of a grain of rice. That is not a technical definition of mathematical chaos, but it might give you some idea of what it means.
 
 This video shows a double pendulum exhibiting chaos. If you had two identical double-pendulums starting in microscopically different positions, then a minute later they would be in wildly different positions. Watch it, and then answer a question about the video.
 

@@ -14,7 +14,7 @@ week by the Parallel Project to bright young mathematicians.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then look at the solution sheet to see where you went wrong, and then next time you’ll know what to do.
 
 
 ## 1. Is zero odd or even?
@@ -81,7 +81,7 @@ Last week’s Parallelogram included a silly (but brilliant) mathematics song by
 @[youtube](CMSYv_Z4SI8?rel=0)
 
 ::: problem id=2_1 marks=1
-__2.1__ The song mentions that mathematics was created by the Big Bang, and it then mentions two other subjects. Which two?
+__2.1__ The song mentions that mathematics was created by the Big Bang, and it then mentions two other subjects. What are the two other subjects?
 
 * [ ] Science and Physics
 * [ ] Chemistry and Physics

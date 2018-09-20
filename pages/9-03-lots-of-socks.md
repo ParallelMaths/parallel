@@ -14,7 +14,7 @@ week by the Parallel Project to bright young mathematicians.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then look at the solution sheet to see where you went wrong, and then next time you’ll know what to do.
 
 
 ## 1. Probability
@@ -23,26 +23,26 @@ This week we have a big video question that is all about probability, so here ar
 
 In every case, __write your answer as a decimal accurate to two decimal places__.
 
-So don’t write 2/3, but instead write 0.67. And don’t write 50%, but instead write 0.5.
+So don’t write 2/3, but instead write 0.67. And don’t write 50%, but instead write 0.50.
 
 ::: problem id=1_1 marks=1
 __1.1.__ If I roll a dice, what is the probability that I roll an even number?
 
-<input type="text" solution="0.5"/>  
+<input type="text" solution="0.50"/>  
 
 ---
 
-There are 6 numbers on a dice, and three are even, so the probability is 3/6 = 0.5
+There are 6 numbers on a dice, and three are even, so the probability is 3/6 = 0.50
 :::
 
 ::: problem id=1_2 marks=1
 __1.2.__ If I roll a dice, what is the probability that I roll a prime number? Remember 1 is not a prime number.
 
-<input type="text" solution="0.5"/>  
+<input type="text" solution="0.50"/>  
 
 ---
 
-There are 6 numbers on a dice, and 2, 3 and 5 are prime, so the probability is 3/6 = 0.5
+There are 6 numbers on a dice, and 2, 3 and 5 are prime, so the probability is 3/6 = 0.50
 :::
 
 ::: problem id=1_3 marks=2
