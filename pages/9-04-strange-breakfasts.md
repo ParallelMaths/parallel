@@ -43,7 +43,7 @@ If you want to see this for yourself, ask your science teacher to try it out. Yo
 @[youtube](qjY0Wj_pUKg?rel=0)
 
 ::: problem id=2_1 marks=2
-__2.1.__ If you took all the cereal bowls that were on British breakfast tables this morning and tipped them into a Wembley Stadium (before they were eaten), how deep would the pool of cereal be?
+__2.1.__ If you took all the bowls of cereal that were on British breakfast tables this morning and tipped them into Wembley Stadium (before they were eaten), how deep would the pool of cereal be?
 
 You will need to estimate a few things in order to decide the right answer.
 
@@ -57,11 +57,11 @@ You will need to estimate a few things in order to decide the right answer.
 
 The key numbers are the volume of a bowl of cereal, the number of bowls of cereal across the country, and the size of Wembley Stadium.  
 
-I reckon that a bowl cereal might be 12cm x 12 cm x 5 cm ≈ 770 cm<sup>3</sup>.  
+I reckon that a bowl of cereal might be 12cm x 12 cm x 5 cm ≈ 720 cm<sup>3</sup>.  
 
-There are 70 million people in the UK, and maybe 1 in 3 have cereals ≈ 23,000,000 bowls.  
+There are 70 million people in the UK, and maybe 1 in 3 have cereal for breakfast ≈ 23,000,000 bowls.  
 
-Total volume of cereal ≈ 23,000,000 x 770 cm<sup>3</sup> ≈ 20,000,000,000 cm<sup>3</sup> ≈ 20,000 m<sup>3</sup>.  
+Total volume of cereal ≈ 23,000,000 x 720 cm<sup>3</sup> ≈ 20,000,000,000 cm<sup>3</sup> ≈ 20,000 m<sup>3</sup>.  
 
 The pitch at Wembley, and the space around it is roughly 100 m x 150 m = 15,000 m<sup>2</sup>.  
 
@@ -72,7 +72,7 @@ This means that the pool of cereals in Wembley Stadium would be roughly 1.3m dee
 ## 3.	Intermediate Maths Challenge Problem
 <!--- (2011) Q4 --->
 
-As I mentioned last week, if you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
+As I mentioned in previous Parallelograms, if you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 

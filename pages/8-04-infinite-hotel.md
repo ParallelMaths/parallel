@@ -26,7 +26,7 @@ First, to give you a head start, here are some key points about what you are abo
 
 * Mathematician David Hilbert imagined a hotel with an infinite number of rooms.
 * The good news is that it is full with an infinite number of guests.
-* A visitor enters the hotel and ask for a room… but the hotel is full.
+* A visitor enters the hotel and asks for a room… but the hotel is full.
 * How can the hotel fit the visitor into the hotel?
 
 @[youtube](EXgZhkce1bE?end=132&rel=0)
@@ -69,7 +69,7 @@ For the last two weeks, Parallelograms have included a brief look at mathematica
 This clip will be our last time of dipping our toes into chaos. It shows three dots that are all following the exact same mathematical formula for plotting their positions. They start off in almost the same position – they are pretty much right on top of each other – so as they move they seemed to follow a single path and leave the same trace. But, as you should remember, chaos describes things that start off in a similar way, but which end up behaving very differently. Bear in mind the following questions before you watch the clip.
 
 ::: problem id=2_1 marks=1
-__2.1.__ The three dots are different colours – red, blue and green. When do the dots start to diverge (which means they started to move apart)?
+__2.1.__ The three dots are different colours – red, blue and green. When do the dots start to diverge (which means they have started to move apart)?
 
 * [ ] Roughly 40 seconds  
 * [ ] Roughly 43 seconds  
@@ -103,13 +103,12 @@ __2.3.__ Which of these statements best describes the settled motion of the thre
 ## 3.	Junior Maths Challenge Problem
 <!--- (2013) Q14 --->
 
-As I mentioned last week, if you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
+As I mentioned in previous Parallelograms, if you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ Each side of an isosceles triangle is a whole number of centimetres. Its perimeter has
-length 20 cm. How many possibilities are there for the lengths of its sides?
+__3.1__ Each side of an isosceles triangle is a whole number of centimetres. Its perimeter has length 20 cm. How many possibilities are there for the lengths of its sides?
 
 * [ ] 3
 * [x] 4
@@ -117,7 +116,7 @@ length 20 cm. How many possibilities are there for the lengths of its sides?
 * [ ] 6
 * [ ] 7
 
-(We will have similar question next week, so make sure you check the answer thoroughly.)
+(We will have a similar question next week, so make sure you check the answer thoroughly.)
 
 ---
 Let the length of the two equal sides of the isosceles triangle be `a` cm. Since the triangle has perimeter 20cm, the third side will have length `20 − 2a` cm. Since this must be a positive length, `20 − 2a > 0` and so `a < 10`.

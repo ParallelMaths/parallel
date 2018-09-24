@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Matt’s favourite number
 
-Maths Inspirations offers lectures each morning and afternoon, aimed at school across England and sometimes beyond. Here is a clip from one of their lectures, featuring Matt Parker talking about his favourite number… or at least his favourite number that week.
+Maths Inspirations offers lectures each morning and afternoon, aimed at schools across England and sometimes beyond. Here is a clip from one of their lectures, featuring Matt Parker talking about his favourite number… or at least his favourite number that week.
 
 @[youtube](wt5cRQY8F30?end=382&rel=0)
 
@@ -57,7 +57,7 @@ This is not a proof, but if you experiment with a few numbers, then you will see
 
 ## 2. The Big Bang explained
 
-Last week’s Parallelogram included the theme tune to _The Big Band Theory_, written and performed by the band Barenaked Ladies. Here is a short explanation of the big bang theory for you to watch, and after just a couple of minutes you will have some understanding of where the universe came from, and how we know that the big bang actually happened.
+Last week’s Parallelogram included the theme tune to _The Big Bang Theory_, written and performed by the band Barenaked Ladies. Here is a short explanation of the big bang theory for you to watch, and after just a couple of minutes you will have some understanding of where the universe came from, and how we know that the big bang actually happened.
 
 @[youtube](6bPLY7orbVY?rel=0)
 
@@ -92,7 +92,7 @@ What percentage of the 10 000 men were still there when they reached the bottom 
 
 ---
 
-After losing 10% of the men, the Grand Old Duke of York was left with 90% of them. After losing 15% of these, he was left with 85% of the remaining 90% men. So he is left with `85/100` × `90/100` = `7650/10000` × `76.5/100` of the men he started, that is, `76 1/2`% of the original number of men.
+After losing 10% of the men, the Grand Old Duke of York was left with 90% of them. After losing 15% of these, he was left with 85% of the remaining 90% men. So he is left with `85/100` × `90/100` = `7650/10000` = `76.5/100` of the men he started, that is, `76 1/2`% of the original number of men.
 :::
 
 
