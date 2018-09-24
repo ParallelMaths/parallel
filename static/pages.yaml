@@ -1,4 +1,9 @@
 year7:
+  - url: 7-05-supernovae
+    title: Supernovae
+    subtitle: Week 5
+    available: 2018-10-11T13:00:00
+    deadline: 2018-10-14T15:00:00
   - url: 7-04-matts-favourite-number
     title: Matt’s Favourite Number
     subtitle: Week 4
@@ -21,6 +26,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-05-rocket-maths
+    title: Rocket maths
+    subtitle: Week 5
+    available: 2018-10-11T13:00:00
+    deadline: 2018-10-14T15:00:00
   - url: 8-04-infinite-hotel
     title: The Infinite Hotel
     subtitle: Week 4
@@ -43,6 +53,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-05-breakfast-curiosity-part2
+    title: Breakfast curiosity – Part 2
+    subtitle: Week 5
+    available: 2018-10-11T13:00:00
+    deadline: 2018-10-14T15:00:00
   - url: 9-04-strange-breakfasts
     title: Strange Breakfasts
     subtitle: Week 4

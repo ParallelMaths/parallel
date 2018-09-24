@@ -1,4 +1,4 @@
-# Breakfast Curiosity – Part 2
+# Breakfast curiosity – part 2
 
 <div class="dictionary">
 
