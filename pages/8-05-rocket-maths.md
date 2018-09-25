@@ -22,13 +22,13 @@ Have you covered factorials? If not, here is brief introduction.
 
 The factorial of a number is the result of multiplying that particular number by all the numbers smaller than it, all the way down to 1.
 
-For example, `(4 factorial) = 4 × 3 × 2 × 1 = 24`.
+For example, (4 factorial) = 4 × 3 × 2 × 1 = 24.
 
 Instead of writing _“factorial”_, we write _“!”_.
 
-For example, `6! = 6 × 5 × 4 × 3 × 2 × 1 = 720`.
+For example, 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.
 
-But, how do you begin to work out the value of `0!` ?
+But, how do you begin to work out the value of 0! ?
 
 This video explores the meaning and value of 0!.
 
@@ -54,7 +54,7 @@ __1.2.__ What the value of 5! ?
 
 ---
 
-`5! = 5 × 4 × 3 × 2 × 1 = 120`
+5! = 5 × 4 × 3 × 2 × 1 = 120
 :::
 
 ::: problem id=1_3 marks=2
@@ -64,7 +64,7 @@ __1.3.__ Use a calculator to work out 10!
 
 ---
 
-`10! = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 3,628,800`
+10! = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 3,628,800
 
 You can work this out by typing each number into your calculator one by one, or you can type 8 and then the “!” button.
 :::
@@ -76,7 +76,7 @@ __1.4.__ How many ways can you arrange 7 different objects?
 
 ---
 
-`7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5,040`
+7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5,040
 
 The video explains that the number of ways to arrange _n_ objects is the same as _n!_.
 :::
@@ -111,15 +111,15 @@ __2.1__ If an object is dropped from a cliff edge, how far will it fall in 4 sec
 
 ---
 
-`s = ½ × a × t<sup>2</sup> = ½ × 10 × 4<sup>2</sup> = 80` m
+s = ½ × a × t<sup>2</sup> = ½ × 10 × 4<sup>2</sup> = 80 m
 :::
 
-::: problem id=2_2 marks=3
-__2.1__ If a = 10 m/s<sup>2</sup>, then we can simplify the equation:
+If a = 10 m/s<sup>2</sup>, then we can simplify the equation:
 
 s = ½ × a × t<sup>2</sup> = ½ × 10 × t<sup>2</sup> = 5 × t<sup>2</sup>
 
-If an object is dropped from a cliff edge, how long will it take to fall 20 m?  
+::: problem id=2_2 marks=3
+__2.2__ If an object is dropped from a cliff edge, how long will it take to fall 20 m?  
 
 * [x] 2 s
 * [ ] 4 s
@@ -132,13 +132,13 @@ There are 2 ways to solve this problem.
 
 1. Plug numbers into the basic question and solve it:
 
-`s = 5 × t<sup>2</sup>`
-=> `20 = 5× t<sup>2</sup>`
+`s = 5 × t`<sup>2</sup>  
+=> `20 = 5× t`<sup>2</sup>
 
 2.	Re-arrange the equation, so that t is the subject of the equation:
 
-`t = √(s/5)`
-=> `t = √(20/5)`
+`t = √(s/5)`    
+=> `t = √(20/5)`  
 => `t = √4 = 2` seconds.
 :::
 

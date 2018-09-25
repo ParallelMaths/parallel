@@ -43,29 +43,39 @@ If you want to see this for yourself, ask your science teacher to try it out. Yo
 @[youtube](qjY0Wj_pUKg?rel=0)
 
 ::: problem id=2_1 marks=2
-__2.1.__ If you took all the bowls of cereal that were on British breakfast tables this morning and tipped them into Wembley Stadium (before they were eaten), how deep would the pool of cereal be?
+__2.1.__ If you took all the bowls of cereal that were on British breakfast tables this morning and tipped them on to the pitch at Wembley Stadium (before they were eaten), how deep would the pool of cereal be?
+
+Imagine that there was wall built around the pitch, so that the wall and the pitch form a giant cereal dish.
 
 You will need to estimate a few things in order to decide the right answer.
 
-* [x] 1 metre
-* [ ] 10 metres
-* [ ] 50 metres
-* [ ] 100 metres
-* [ ] 1 kilometre
+* [x] 1 m
+* [ ] 10 m
+* [ ] 100 m
+* [ ] 1,000 m
+* [ ] 10,000 m
+
+^^^ hint id=1
+I estimated that the average cereal was 7 cm x 7 cm x 5 cm, assuming a square dish.
+^^^
 
 ---
 
 The key numbers are the volume of a bowl of cereal, the number of bowls of cereal across the country, and the size of Wembley Stadium.  
 
-I reckon that a bowl of cereal might be 12cm x 12 cm x 5 cm ≈ 720 cm<sup>3</sup>.  
+I reckon that a bowl of cereal might be 7 cm x 7 cm x 5 cm ≈ 250 cm<sup>3</sup>.  
 
 There are 70 million people in the UK, and maybe 1 in 3 have cereal for breakfast ≈ 23,000,000 bowls.  
 
-Total volume of cereal ≈ 23,000,000 x 720 cm<sup>3</sup> ≈ 20,000,000,000 cm<sup>3</sup> ≈ 20,000 m<sup>3</sup>.  
+Total volume of cereal ≈ 23,000,000 x 250 cm<sup>3</sup> ≈ 6,000,000,000 cm<sup>3</sup> ≈ 6,000 m<sup>3</sup>.  
 
-The pitch at Wembley, and the space around it is roughly 100 m x 150 m = 15,000 m<sup>2</sup>.  
+The pitch at Wembley is roughly 120 m x 60 m = 7,000 m<sup>2</sup>.  
 
-This means that the pool of cereals in Wembley Stadium would be roughly 1.3m deep.
+This means that the pool of cereals in Wembley Stadium would be roughly 6,000/,7000 ≈ 1 deep.
+
+Obviously, this is a very rough calculation, with lots of estimations along the way, and I have rounded up and rounded down each step. For example, I later googled the area of the pitch, and it is 105 m × 68 m, which is smaller than I estimated. The idea is the sometimes you will overestimate and sometimes you will underestimate and these will errors will cancel out.
+
+I don’t know the actual true answer, but I strongly suspect that it is between ten times less and ten times more than my answer.
 :::
 
 

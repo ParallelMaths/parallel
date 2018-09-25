@@ -66,7 +66,7 @@ If the infinite hotel can deal with infinity-plus-one-more guests (indeed infini
 
 For the last two weeks, Parallelograms have included a brief look at mathematical chaos, first via a clip from Jurassic Park and then by looking at the motion of a chaotic pendulum.
 
-This clip will be our last time of dipping our toes into chaos. It shows three dots that are all following the exact same mathematical formula for plotting their positions. They start off in almost the same position – they are pretty much right on top of each other – so as they move they seemed to follow a single path and leave the same trace. But, as you should remember, chaos describes things that start off in a similar way, but which end up behaving very differently. Bear in mind the following questions before you watch the clip.
+This clip will be our last time of dipping our toes into chaos. It shows three dots moving around the screen (and plotting three curves in the process) according to the exact same formula. They start off in almost the same position – they are pretty much right on top of each other – so as they move they seem to follow a single path and leave the same trace. But, as you should remember, chaos describes things that start off in a similar way, but which end up behaving very differently. After you watch the clip, there are three questions to answer.
 
 ::: problem id=2_1 marks=1
 __2.1.__ The three dots are different colours – red, blue and green. When do the dots start to diverge (which means they have started to move apart)?
@@ -79,7 +79,7 @@ __2.1.__ The three dots are different colours – red, blue and green. When do t
 :::
 
 ::: problem id=2_2 marks=1
-__2.2.__ When do the three dots start split apart, with the red dot flying off in a different direction?
+__2.2.__ After the three dots start split apart, when does the red dot fly off in a different direction?
 
 * [x] Roughly 56 seconds
 * [ ] Roughly 58 seconds

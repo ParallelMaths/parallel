@@ -33,7 +33,7 @@ __1.1.__ How many times could you say the alphabet in 24 hours? Assume that you 
 
 The alphabet contains 26 letters, so you have say 26 words (ay, bee, see, dee, eee) and that takes about 10 seconds at normal speed. So, that’s 6 alphabets in a minute, 360 in an hour, but let’s say 300/hour allowing for breaks. During a day, you might be able to do this for 15 hours (to allow for lunch and sleep and toilet breaks). So I reckon you could say the alphabet 5,400 times in a day.
 
-The idea for this question came from [Teacher Tool Kit](https://www.teachertoolkit.co.uk/2017/04/28/fermi-questions/){target="_blank"}_, where you will find lots of other Fermi questions.
+The idea for this question came from [Teacher Tool Kit](https://www.teachertoolkit.co.uk/2017/04/28/fermi-questions/){target="_blank"}, where you will find lots of other Fermi questions.
 :::
 
 ::: problem id=1_2 marks=4
@@ -51,7 +51,7 @@ First, we need to know the area of Wales. You could look it up and find that the
 
 I could do this now or later, but I am going to convert this into (m<sup>2</sup>), as it will be easier to work with. There are 1 million (1,000 × 1,000) m<sup>2</sup> in a km<sup>2</sup>, so that is 20,000,000,000 m<sup>2</sup> or 20 billion m<sup>2</sup>.  
 
-The world population is 7 billion. You probably already knew this.  
+The world population is 7 billion. This is something you should probably already know.  
 
 That means the area per person = area ÷ population =  20 billion ÷ 7 billion ≈ 3 m<sup>2</sup> per person.
 :::
@@ -59,7 +59,7 @@ That means the area per person = area ÷ population =  20 billion ÷ 7 billion �
 
 ## 2. Curious Cheerios
 
-Last week, we looked at the magnetic properties of cereal, and this week we’ll look at the weird properties associated with cheerio buoyancy. Watch carefully, have your mind blown, rebuild your brain and then answer the two questions that follow.
+Last week, we looked at the magnetic properties of cereal, and this week we’ll look at the weird properties associated with cheerio buoyancy. Watch carefully, have your mind blown, rebuild your brain and then answer the question that follows.
 
 @[youtube](mbKAwk-OG_w?rel=0)
 
@@ -93,7 +93,7 @@ What is the area of the rectangle in cm<sup>2</sup>?
 Try working out the area of everything except the rectangle you are most interested in.
 ^^^
 
-^^^ hint id=1
+^^^ hint id=2
 The area of the big square is 8 × 8 = 64 cm<sup>2</sup>. Each pair of triangles can be joined to form a square of 3 × 3 and 5 × 5 cm<sup>2</sup>.
 ^^^
 
