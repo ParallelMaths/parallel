@@ -42,7 +42,7 @@ If you want to see this for yourself, ask your science teacher to try it out. Yo
 
 @[youtube](qjY0Wj_pUKg?rel=0)
 
-::: problem id=2_1 marks=2
+::: problem id=2_1 marks=3
 __2.1.__ If you took all the bowls of cereal that were on British breakfast tables this morning and tipped them on to the pitch at Wembley Stadium (before they were eaten), how deep would the pool of cereal be?
 
 Imagine that there was wall built around the pitch, so that the wall and the pitch form a giant cereal dish.
@@ -71,11 +71,9 @@ Total volume of cereal ≈ 23,000,000 x 250 cm<sup>3</sup> ≈ 6,000,000,000 cm<
 
 The pitch at Wembley is roughly 120 m x 60 m = 7,000 m<sup>2</sup>.  
 
-This means that the pool of cereals in Wembley Stadium would be roughly 6,000/,7000 ≈ 1 deep.
+This means that the pool of cereals in Wembley Stadium would be roughly 6,000/,7000 ≈ 1 m deep.
 
-Obviously, this is a very rough calculation, with lots of estimations along the way, and I have rounded up and rounded down each step. For example, I later googled the area of the pitch, and it is 105 m × 68 m, which is smaller than I estimated. The idea is the sometimes you will overestimate and sometimes you will underestimate and these will errors will cancel out.
-
-I don’t know the actual true answer, but I strongly suspect that it is between ten times less and ten times more than my answer.
+Obviously, this is a very rough calculation, with lots of estimations along the way, and I have rounded up and rounded down each step. For example, I later googled "Wembley pitch", and it is 105 m × 68 m, which is smaller than I estimated. The idea is that sometimes you will overestimate and sometimes you will underestimate and these errors will generally partly cancel out. I don’t know the actual true answer, but I strongly suspect that it is between five times less and five times more than my answer.
 :::
 
 
