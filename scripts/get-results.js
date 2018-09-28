@@ -105,8 +105,13 @@ async function run() {
       ...a, sum
     ]);
   }
+
   const str = data.map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/results.csv`), str);
+
+  const data1 = data.filter(d => extract.indexOf(d[3]) >= 0);
+  const str1 = data1.map(d => d.join(',')).join('\n');
+  fs.writeFileSync(path.join(__dirname, `../private/results-tts.csv`), str1);
 
   // ---------------------------------------------------------------------------
 
