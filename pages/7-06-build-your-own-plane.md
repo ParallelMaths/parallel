@@ -34,7 +34,9 @@ This is a cute pattern.
 The product, the result of multiplying numbers with repeating 1s, has this beautiful symmetry. The products are palindromes, which means that they are the same whether written forwards or backwards.
 
 ::: problem id=1_1 marks=2
-__1.1.__ What happens if we add one more 1? What is 111111111 × 111111111?  
+__1.1.__ What happens if we add one more 1?  
+
+What is 111111111 × 111111111?  
 
 Of course, you can type this into a calculator, but first try to follow the pattern and work out what the answer might be… then check it with a calculator.
 
@@ -54,8 +56,9 @@ The 10 fits in the middle, but we can’t write 10 where there is only space for
 
 But we can’t write (9 + 1), which is 10, where there is only space for 1 digit. Instead, we could put a 0 in that column and carry the 1 over to the column on the left, which gives us:
 
-1234567900987654321.
-{.text-center}
+1234567900987654321.{.text-center}
+
+
 :::
 
 
@@ -78,7 +81,9 @@ __2.1__ The thrower is an ex-sportsman, but which sport did he play?
 
 ---
 
-The answer is American football, because the paper plane engineer keeps talking about the thrower being a ‘quarterback’. If you didn’t know that a quarterback is an American footballer, then a quick google would have solved the problem.
+The answer is American football, because the paper plane engineer keeps talking about the thrower being a ‘quarterback’.  
+
+If you didn’t know that a quarterback is an American footballer, then a quick google would have solved the problem.
 :::
 
 
@@ -107,7 +112,13 @@ If we look at pieces B and C, they have roughly same perimeter – let’s call 
 
 We let the length of each crooked line be `x` cm. Since this crooked line is longer than the side length of one of the squares, 1 < `x`.  
 
-The perimeters of the five pieces are, in centimetres, A: 4 + 6`x`; B: 2 + 10`x`; C: 7 + 5`x`; D: 6 + 6`x`; and E: 1 + 11`x`, respectively.
+The perimeters of the five pieces are, in centimetres:
+
+* A: 4 + 6`x`  
+* B: 2 + 10`x`  
+* C: 7 + 5`x`  
+* D: 6 + 6`x`  
+* E: 1 + 11`x`  
 
 As 1 < `x`, E has the longest perimeter.
 :::

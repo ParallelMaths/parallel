@@ -41,7 +41,11 @@ The answer is 2, because you can imagine a piece of string that is 2 metres long
 
 That is not a proof that the answer is true, so here is a more rigorous proof. It might make sense if you study it carefully, but don’t worry if it is baffling. Let’s call the series above S, then:
 
-![](/resources/9-06-queen-of-katwe/1-1-infinite-proof.png){image align="center"}
+`S/2 = (1 + 1/2 + 1/4 + 1/8 + ...)/2 = 1/2 + 1/4 + 1/8 + 1/16 + ...`
+
+Therefore,
+
+`S - S/2 = 1` => `S = 2`  
 :::
 
 ::: problem id=1_2 marks=2
@@ -58,7 +62,7 @@ __1.2.__ 9/10 + 9/100 + 9/1,000 + 9/10,000 + … =
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ ![](/resources/9-06-queen-of-katwe/1-3-infinite-question.png){image align="center"}
+__1.3.__ `4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - ... =`
 
 * [ ] 3
 * [ ] 3.14
