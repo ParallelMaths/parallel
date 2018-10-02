@@ -66,7 +66,7 @@ __1.3.__ Use a calculator to work out 10!
 
 10! = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 3,628,800
 
-You can work this out by typing each number into your calculator one by one, or you can type 8 and then the “!” button.
+You can work this out by typing each number into your calculator one by one, or you can type 10 and then press the “!” button.
 :::
 
 ::: problem id=1_4 marks=3
@@ -96,8 +96,8 @@ __s = ½ × a × t<sup>2</sup>__
 
 Crudely, this equation tells you the distance an object falls under the influence of gravity during a given time. This is how you read the equation:
 
-*	_“s”_ is the distance in metres, because the Latin word for space (or distance) is 'spatium’.
-*	_“a”_ is the acceleration due to gravity and has a value of 10 m/s<sup>2</sup> (although it has a different value in the film, because Americans use different units.  
+*	_“s”_ is the distance in metres, because the Latin word for space (or distance) is 'spatium'.
+*	_“a”_ is the acceleration due to gravity and has a value of 10 m/s<sup>2</sup> (although it has a different value in the film, because Americans use different units).  
 *	_“t”_ is the time in seconds.
 
 ::: problem id=2_1 marks=2
@@ -184,14 +184,13 @@ So the answer is 5 isosceles triangles are possible.
 And, of course, (12, 12, 0) is not possible.
 :::
 
-Before you hit the SUBMIT button:
+When you hit the SUBMIT button:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them.
-*	You earn reward points and badges from completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
 
 Cheerio,

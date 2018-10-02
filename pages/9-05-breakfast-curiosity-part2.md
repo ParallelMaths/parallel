@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Fermi questions
 
-Last week, I asked you a question about pouring the UK’s cereal bowls into Wembley stadium. This sort of question is known as a Fermi question, because the great physicist Enrico Fermi enjoyed asking his students these questions. They generally involve some guesswork, some general knowledge and arithmetic. Here are two more Fermi questions for you to think about.
+Last week, I asked you a question about pouring the UK’s cereal bowls into Wembley stadium. This sort of question is known as a Fermi question, because the great physicist Enrico Fermi enjoyed asking his students these questions. They generally involve some guesswork, some general knowledge and some arithmetic. Here are two more Fermi questions for you to think about.
 
 ::: problem id=1_1 marks=2
 __1.1.__ How many times could you say the alphabet in 24 hours? Assume that you will need to take appropriate breaks and will speak at a __normal__ pace.
@@ -31,7 +31,7 @@ __1.1.__ How many times could you say the alphabet in 24 hours? Assume that you 
 
 ---
 
-The alphabet contains 26 letters, so you have say 26 words (ay, bee, see, dee, eee) and that takes about 10 seconds at normal speed. So, that’s 6 alphabets in a minute, 360 in an hour, but let’s say 300/hour allowing for breaks. During a day, you might be able to do this for 15 hours (to allow for lunch and sleep and toilet breaks). So I reckon you could say the alphabet 5,400 times in a day.
+The alphabet contains 26 letters, so you have say 26 words (ay, bee, see, dee, eee) and that takes about 10 seconds at normal speed. So, that’s 6 alphabets in a minute, 360 in an hour, but let’s say 300/hour allowing for breaks. During a day, you might be able to do this for 15 hours (to allow for lunch and sleep and toilet breaks). So I reckon you could say the alphabet 4,500 times in a day.
 
 The idea for this question came from [Teacher Tool Kit](https://www.teachertoolkit.co.uk/2017/04/28/fermi-questions/){target="_blank"}, where you will find lots of other Fermi questions.
 :::
@@ -109,14 +109,13 @@ Hence the area of the rectangle, in cm<sup>2</sup>, 64 - 25 - 9 = 30.
 :::
 
 
-Before you hit the SUBMIT button:
+When you hit the SUBMIT button:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them.
-*	You earn reward points and badges from completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
 
 Cheerio,

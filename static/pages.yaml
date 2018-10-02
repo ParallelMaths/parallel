@@ -1,4 +1,9 @@
 year7:
+  - url: 7-06-build-your-own-plane
+    title: Build your own plane
+    subtitle: Week 6
+    available: 2018-10-18T13:00:00
+    deadline: 2018-10-21T15:00:00
   - url: 7-05-supernovae
     title: Supernovae
     subtitle: Week 5
@@ -26,6 +31,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-06-worlds-greatest-thief
+    title: The world’s greatest thief
+    subtitle: Week 6
+    available: 2018-10-18T13:00:00
+    deadline: 2018-10-21T15:00:00
   - url: 8-05-rocket-maths
     title: Rocket maths
     subtitle: Week 5
@@ -53,6 +63,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-06-queen-of-katwe
+    title: Queen of Katwe
+    subtitle: Week 6
+    available: 2018-10-18T13:00:00
+    deadline: 2018-10-21T15:00:00
   - url: 9-05-breakfast-curiosity-part2
     title: Breakfast curiosity – Part 2
     subtitle: Week 5

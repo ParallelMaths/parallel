@@ -22,7 +22,7 @@ You might not have covered this yet, but there is an equation that that gives th
 
 @[youtube](uWfzWEcm5yU?rel=0)
 
-So, answer the following questions, now that you know that:
+So, now that you know that, try and answer the following questions. Remember:
 
 ![](/resources/7-05-supernovae/1-volume-sphere.png){image align="center"}
 
@@ -42,7 +42,7 @@ Volume `= 4/3 × π × 2`<sup>3</sup> `= 32/3 × π = 33.5` cm<sup>3</sup>.
 ::: problem id=1_2 marks=2
 __1.2.__ What is the volume of a sphere with a radius of 8.4 cm?
 
-(Give you answer accurate to the nearest whole number. And use an accurate value of π, using several decimal places.)
+(Give your answer accurate to the nearest whole number. And use an accurate value of π, using several decimal places.)
 
 <input type="number" solution="2,483"/> cm<sup>3</sup>   
 
@@ -52,7 +52,7 @@ Volume `= 4/3 × π × 8.4`<sup>3</sup>` = 4/3 × 592.70 × π = 2,482.7 = 2,483
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ What is the volume of a sphere with a radius of 0.909 cm?
+__1.3.__ What is the approximate volume of a sphere with a radius of 0.909 cm?
 
 * [ ] 1/π cm<sup>3</sup>
 * [x] π cm<sup>3</sup>
@@ -92,7 +92,7 @@ There are other ways to express this - which one of the following statements is 
 * [x] We are made of nuclear waste. 	
 * [ ] We are built from rainbows and unicorn breath.  
 * [ ] Our nuclear origin means we all have super powers.  
-* [ ] Our bodies are power by nuclear reactions.
+* [ ] Our bodies are powered by nuclear reactions.
 
 ---
 
@@ -119,14 +119,13 @@ In 2013, the total of their ages was `12 + 14 + 15 + 15 = 56`.
 Each year they all grow 1 year older, and so the total of their ages increases by `4`. This needs to increase by `100 - 56 = 44` years in order to reach 100 years. This will take `44/4 = 11` years. In `11` years time it will be `2013 + 11 = 2024`.
 :::
 
-Before you hit the SUBMIT button:
+When you hit the SUBMIT button:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them.
-*	You earn reward points and badges from completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
 
 Cheerio,
