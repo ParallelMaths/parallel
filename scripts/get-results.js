@@ -91,7 +91,8 @@ async function run() {
 
   // ---------------------------------------------------------------------------
 
-  const data = [['name', 'email', 'school', 'teacher_code', ...pages.map(p => p.url), 'total']];
+  const titles = ['name', 'email', 'school', 'teacher_code', ...pages.map(p => p.url), 'total'];
+  const data = [];
   for (let u of Object.keys(users)) {
     if (!users[u].answers || users[u].code) continue;
 
@@ -106,11 +107,11 @@ async function run() {
     ]);
   }
 
-  const str = data.map(d => d.join(',')).join('\n');
+  const str = [titles, ...data].map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/results.csv`), str);
 
   const data1 = data.filter(d => extract.indexOf(d[3]) >= 0);
-  const str1 = data1.map(d => d.join(',')).join('\n');
+  const str1 = [titles, ...data1].map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/results-tts.csv`), str1);
 
   // ---------------------------------------------------------------------------
