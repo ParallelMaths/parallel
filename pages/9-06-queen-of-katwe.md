@@ -39,7 +39,7 @@ __1.1.__ `1 + 1/2 + 1/4 + 1/8 + 1/16 + ... =`
 
 The answer is 2, because you can imagine a piece of string that is 2 metres long. You can cut it in half to make two 1 m pieces. Keep one, and then cut other 1 m piece in half. You can cut this other 1 m piece in half to make two ½ m piece. Keep one, and then cut other ½ m piece in half, and carry on and on forever. You will have pieces that are 1 m + ½ m + ¼ m etc.
 
-That is not a proof that the answer is true, so here is a more rigorous proof. It might make sense if you study it carefully, but don’t worry if it is baffling. Let’s call the series above S, then:
+The argument in the previous paragraph is not completely watertight, but it gives a sense of why the answer is 2. However, next I will give you a more rigorous proof. It might make sense if you study it carefully, but don’t worry if it is baffling. Let’s call the series above S, then:
 
 `S/2 = (1 + 1/2 + 1/4 + 1/8 + ...)/2 = 1/2 + 1/4 + 1/8 + 1/16 + ...`
 
@@ -88,11 +88,11 @@ __1.4.__ `1/2` + `1/3` + `1/4` + `1/5` + `1/6` + `1/7` + `1/8` + ... =
 
 Well done if you realised or guessed that this innocent looking series adds up to infinity. But why?  
 
-Let’s group the fractions, doubling the size of each group as move to the right.  
+Let’s group the fractions, doubling the size of each group as we move to the right.  
 
 (`1/2`) + (`1/3` + `1/4`) + (`1/5` + `1/6` + `1/7` + `1/8`) +...  
 
-Now, let’s reduce each fraction to the smallest fraction in each group.  
+Now, this might seem like a crazy step, but let’s replace each fraction with the smallest fraction in each group.  
 
 (`1/2`) + (`1/4` + `1/4`) + (`1/8` + `1/8` + `1/8` + `1/8`) +...  
 
@@ -100,7 +100,9 @@ Before we move on, remember that the series has been made smaller, because many 
 
 (`1/2`) + (`1/2`) + (`1/2`) +...  
 
-If we have infinite number of halfs, then they would add up to infinity.
+If we have infinite number of halves, then they would add up to infinity.  
+
+And remember, in an earlier step we reduced the series by making many of the fractions smaller, so the series must add up to at least infinity … if that makes any sense. Don’t worry if you didn’t follow this explanation, as it is the sort of maths that many A Level students will not know about. If you managed to follow even a few of the steps, then that is an achievement.
 :::
 
 
