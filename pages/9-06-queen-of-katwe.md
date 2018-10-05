@@ -165,15 +165,14 @@ However, here is a more mathematical way to solve the problem. From the triangle
 From (1) and (2), z = 70 and hence, from (3), x = 30.
 :::
 
-
-When you hit the SUBMIT button:
+Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.

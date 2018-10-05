@@ -74,7 +74,7 @@ __1.4.__ In the video, is the speaker Allison Moffett left-handed or right-hande
 
 At first sight, Allison seems to be left-handed, but look at the writing on the glass: Allisson is writing on the wrong side of the glass, and yet her scribbles make perfect sense. I would expect her to either write very slowly, or make lots of mistakes, because it appears that Allison is writing back-to-front on her side, so it looks correct to us.
 
-Another explanation is that Allison is right-handed, that her writing in reality is completely back-to-front from our point of view, but then the film editor flipped the video so that the writing makes sense to us... and as a side effect Allison now appears to be a left-hander, while she is actually right-handed.
+Another explanation is that Allison is right-handed, that her writing in reality is completely back-to-front from our point of view, but then the film editor flipped the video so that the writing makes sense to us... and as a side effect Allison now appears to be left-handed, while she is actually right-handed.
 :::
 
 
@@ -116,17 +116,17 @@ __3.1__ Ulysses, Kim, Mei, and Tanika had their 12th, 14th, 15th and 15th birthd
 
 In 2013, the total of their ages was `12 + 14 + 15 + 15 = 56`.
 
-Each year they all grow 1 year older, and so the total of their ages increases by `4`. This needs to increase by `100 - 56 = 44` years in order to reach 100 years. This will take `44/4 = 11` years. In `11` years time it will be `2013 + 11 = 2024`.
+This needs to increase by `100 - 56 = 44` years in order to reach 100 years. Each year they all grow 1 year older, and so the total of their ages increases by `4`. This will take `44/4 = 11` years. In `11` years time it will be `2013 + 11 = 2024`.
 :::
 
-When you hit the SUBMIT button:
+Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.

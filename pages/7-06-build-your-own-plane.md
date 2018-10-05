@@ -125,14 +125,14 @@ As 1 < `x`, E has the longest perimeter.
 
 Finally, if you want to find out more about making paper planes, then [watch this video about paper plane guru John Collins](https://www.youtube.com/watch?v=3BNg4fDJC8A){target="_blank"}.
 
-When you hit the SUBMIT button:
+Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.

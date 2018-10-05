@@ -184,14 +184,14 @@ So the answer is 5 isosceles triangles are possible.
 And, of course, (12, 12, 0) is not possible.
 :::
 
-When you hit the SUBMIT button:
+Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges from completing missed Parallelogams.
 *	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
