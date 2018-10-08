@@ -22,9 +22,9 @@ week by the Parallel Project to bright young mathematicians.
 __1.1.__ When was a million seconds ago, roughly?
 
 * [ ] Yesterday
-* [x] A week ago
-* [ ] A month ago
-* [ ] A year ago
+* [x] A week or so ago
+* [ ] A month or so ago
+* [ ] A year or so ago
 
 ---
 
@@ -83,7 +83,7 @@ The Paleogene Period lasted from 23 million to 66 million years ago.
 
 Apollo Robbins is the world’s greatest thief, because he is the most incredible pickpocket that you will ever see. Fortunately, he steals only for entertainment.
 
-When you watch this clip, bear in mind that Apollo Robbins has spent years studying and practicing pickpocketing in order to reach his level of immense skill. It is the same with anything, including mathematics – if you put in the effort, practice and concentration, then you can be a really good mathematician. Nothing worthwhile is ever easy.
+When you watch this clip, bear in mind that Apollo Robbins has spent years studying and practicing pickpocketing in order to reach his level of immense skill. It is the same with anything, including mathematics – if you put in the effort, practice and concentration, then you can be a really good mathematician. True mastery of a discipline is never easy.
 
 You will probably have to watch clip two or three times to appreciate all of Apollo Robbins’s clever manoeuvres.
 
@@ -103,11 +103,11 @@ __2.1__ When the coin falls into his hand from above, where does it come from?
 ## 3.	Junior Maths Challenge Problem
 <!--- (2013) Q24 --->
 
-This is tough Junior Maths Challenge problem, so you might need to rely on the hints. But, first, try it without the hints.
+This is a tough Junior Maths Challenge problem, so you might need to rely on the hints. But, first, try it without the hints.
 
-::: problem id=3_1 marks=3
+::: problem id=3_1 marks=4
 ![](/resources/8-06-worlds-greatest-thief/3-squares-question.jpg){image align="right"}
-__3.1__ Three congruent squares overlap as shown. The area of the three overlapping sections are 2 cm<sup>2</sup>, 5 cm<sup>2</sup> and 8 cm<sup>2</sup> respectively.
+__3.1__ Three congruent squares overlap as shown. The areas of the three overlapping sections are 2 cm<sup>2</sup>, 5 cm<sup>2</sup> and 8 cm<sup>2</sup> respectively.
 
 The total area of the non-overlapping parts of the square is 117 cm<sup>2</sup>.
 
@@ -120,7 +120,7 @@ What is the side-length of each square?
 * [ ] 10 cm
 
 ^^^ hint id=1  marks=2
-The total area of the three squares is the sum of area of the non-overlapping parts and twice the areas of the overlapping sections as each of these forms part of two squares. Why? If we look at, say, the 2 cm<sup>2</sup> overlap, this appears in two overlapping squares, which is why it needs to be counted twice.
+The total area of the three squares is the sum of the area of the non-overlapping parts and twice the areas of the overlapping sections, as each of these forms part of two squares. Why? If we look at, say, the 2 cm<sup>2</sup> overlap, this appears in two overlapping squares, which is why it needs to be counted twice.
 ^^^
 
 ^^^ hint id=2  marks=1
@@ -129,11 +129,11 @@ Once you have the total area of all three squares, remember to divide the total 
 
 ---
 
-The total area of the three squares is the sum of area of the non-overlapping parts and twice the areas of the overlapping sections as each of these forms part of two squares.
+The total area of the three squares is the sum of the area of the non-overlapping parts and twice the areas of the overlapping sections, as each of these forms part of two squares.
 
-So the total area of the squares is, in <sup>2</sup>, 117 + 2 × (2 + 5 + 8) = 117 + 2 × 15 = 177 + 30 = 147.
+So the total area of the squares is, in cm<sup>2</sup>, 117 + 2 × (2 + 5 + 8) = 117 + 2 × 15 = 117 + 30 = 147.
 
-Hence the area of one of the squares is one third of this, that is, 49 <sup>2</sup>.
+Hence the area of one of the squares is one third of this, that is, 49 cm<sup>2</sup>.
 
 Therefore the side-length of each square is 7 cm.
 :::

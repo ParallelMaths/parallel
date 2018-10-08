@@ -36,7 +36,7 @@ The product, the result of multiplying numbers with repeating 1s, has this beaut
 ::: problem id=1_1 marks=2
 __1.1.__ What happens if we add one more 1?  
 
-What is 111111111 × 111111111?  
+What is 1111111111 × 1111111111?  
 
 Of course, you can type this into a calculator, but first try to follow the pattern and work out what the answer might be… then check it with a calculator.
 
@@ -105,7 +105,7 @@ Which piece has the longest perimeter?
 * [x] E
 
 ^^^ hint id=1
-If we look at pieces B and C, they have roughly same perimeter – let’s call it 12 lengths. However, B has a longer perimeter than C, because more of B’s sides are crooked, and crooked sides are longer than straight sides.
+If we look at pieces B and C, they have roughly the same perimeter – let’s call it 12 lengths. However, B has a longer perimeter than C, because more of B’s sides are crooked, and crooked sides are longer than straight sides.
 ^^^
 
 ---

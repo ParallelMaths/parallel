@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Sometimes mathematicians attempt to add up an infinite series of numbers. This sounds impossible, partly because at first sight it feels as if adding up an infinity of numbers will result in infinity.  
 
-It is a tricky are of maths, as we saw in last week’s Parallelogram, when we looked at Grandi’s series.  
+It is a tricky area of maths, as we saw in last week’s Parallelogram, when we looked at Grandi’s series.  
 
 See if you can take an intelligent guess what might be the sum of the following infinite series. The (…) means that the pattern carries on and on forever. One approach is to add up the first few terms of the series and see where the sum is heading.  
 
@@ -37,7 +37,7 @@ __1.1.__ `1 + 1/2 + 1/4 + 1/8 + 1/16 + ... =`
 
 ---
 
-The answer is 2, because you can imagine a piece of string that is 2 metres long. You can cut it in half to make two 1 m pieces. Keep one, and then cut other 1 m piece in half. You can cut this other 1 m piece in half to make two ½ m piece. Keep one, and then cut other ½ m piece in half, and carry on and on forever. You will have pieces that are 1 m + ½ m + ¼ m etc.
+The answer is 2. One way to understand why the answer is 2 is to start by imagining a piece of string that is 2 metres long. You can cut it in half to make two 1 m pieces. Keep one, and then cut other 1 m piece in half to make two ½ m pieces. Keep one, and then cut the other ½ m piece in half again, and then you can carry on and on like this forever. You will have pieces that are 1 m + ½ m + ¼ m etc.
 
 The argument in the previous paragraph is not completely watertight, but it gives a sense of why the answer is 2. However, next I will give you a more rigorous proof. It might make sense if you study it carefully, but don’t worry if it is baffling. Let’s call the series above S, then:
 
@@ -92,7 +92,7 @@ Let’s group the fractions, doubling the size of each group as we move to the r
 
 (`1/2`) + (`1/3` + `1/4`) + (`1/5` + `1/6` + `1/7` + `1/8`) +...  
 
-Now, this might seem like a crazy step, but let’s replace each fraction with the smallest fraction in each group.  
+Now, this might seem like a crazy step, but let’s replace each fraction in a group with the smallest fraction in that particular group.  
 
 (`1/2`) + (`1/4` + `1/4`) + (`1/8` + `1/8` + `1/8` + `1/8`) +...  
 
@@ -108,15 +108,15 @@ And remember, in an earlier step we reduced the series by making many of the fra
 
 ## 2. Queen of Katwe
 
-Phiona Mutesi grew up in Katwe, the largest slum in Uganda. Her father dies of AIDS when she was three, her sister died soon after, and Phiona had to leave school at the age of nine because her mother could not afford to educate her. Despite having all the odds stacked against her, Phiona transformed her future when she discovered chess at a charity mission.  
+Phiona Mutesi grew up in Katwe, the largest slum in Uganda. Her father died of AIDS when she was three, her sister died soon after, and Phiona had to leave school at the age of nine because her mother could not afford to educate her. Despite having all the odds stacked against her, Phiona transformed her future when she discovered chess at a charity mission.  
 
 Her talent, dedication and relentless determination led her to winning the Women’s Junior Chess Championship of Uganda three time. She also represented Uganda at the 2014 and 2016 Chess Olympiads, the equivalent of the chess world cup.  
 
-It is an incredible and inspiring true story, and Disney turned it into a film. Watch the trailer below… and perhaps persuade your teacher to show you the whole film … and the film is also on Netflix (if you are lucky enough to have that at home).  
+It is an incredible and inspiring true story, and Disney turned it into a film. Watch the trailer below, and perhaps persuade your teacher to show you the whole film. The film is also on Netflix, if you are lucky enough to have that at home.  
 
 @[youtube](z4l3-_yub5A?rel=0)
 
-I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess an can teach or your teacher might hold a chess lesson after school. Or you could try https://www.chesskid.com/, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
+I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess and can teach you, or your teacher might hold a chess lesson after school. Or you could try https://www.chesskid.com/, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
 
 ::: problem id=2_1 marks=1
 __2.1.__ In the trailer, at the charity mission, a little girl tells Phiona: “In chess, the small one can become the big one.” The same is true in mathematics (and, of course, in life) but the girl is actually talking about one piece in chess that can be turned into a more powerful piece if it is able to cross the board.  
@@ -142,7 +142,7 @@ The pawn is the weakest piece on the board, but if it reaches the other side of 
 ![](/resources/9-06-queen-of-katwe/3-triangles-question.jpg){image align="right"}
 __3.1__ What is the value of `x` in this diagram?
 
-* [x] 3
+* [x] 30
 * [ ] 35
 * [ ] 40
 * [ ] 45
@@ -150,9 +150,9 @@ __3.1__ What is the value of `x` in this diagram?
 
 ---
 ![](/resources/9-06-queen-of-katwe/3-triangles-amswer.jpg){image align="right"}
-There are a couple ways to solve this problem. The cheeky way is to try each of the multiple-choice options.  
+There are a couple of ways to solve this problem. The cheeky way is to try each of the multiple-choice options.  
 
-Let’s start with option A, where `x = 30`. Looking at the solution triangle below, if `x = 30` in the left triangle, then `y = 80`. So, in the middle triangle, `z = 70`. Then in right triangle we have `x + z + 80 = 180`, or `30 + 70 + 80 = 180`, which is all nicely consistent.  
+Let’s start with option A, where `x = 30`. Looking at the diagram above, if `x = 30` in the left triangle, then `y = 80`. So, in the middle triangle, `z = 70`. Then in the right triangle we have `x + z + 80 = 180`, or `30 + 70 + 80 = 180`, which is all nicely consistent.  
 
 But, if we look at option B, where `x = 35`, then we run into a problem. If `x = 35` in the left triangle, then `y = 75`. So, in the middle triangle, `z = 70`. Then in right triangle we have `x + z + 80 = 180`, or `35 + 75 + 80 ≠ 180`, which is not at all consistent.  
 
