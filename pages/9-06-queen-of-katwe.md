@@ -11,7 +11,7 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Finish by Sunday 28 Oct if your whole class is doing parallelograms.  
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -49,16 +49,16 @@ Therefore,
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ 9/10 + 9/100 + 9/1,000 + 9/10,000 + … =
+__1.2.__ `9/10 + 9/100 + 9/1,000 + 9/10,000 + … =`
 
-* [ ] 1/10
+* [ ] `1/10`
 * [x] 1
 * [ ] 1.8
 * [ ] 10
 
 ---
 
-9/10 + 9/100 + 9/1,000 + 9/10,000 + … = 0.9999…	 = 1
+`9/10 + 9/100 + 9/1,000 + 9/10,000 + … = 0.9999…	 = 1`
 :::
 
 ::: problem id=1_3 marks=2
@@ -168,10 +168,10 @@ From (1) and (2), z = 70 and hence, from (3), x = 30.
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
+*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November. 
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
