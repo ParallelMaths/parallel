@@ -56,7 +56,7 @@ __2.1__ At the end of the clip, Hawking’s supervisor is interested in the idea
 
 ---
 
-In science, particularly physics, it is great to have ideas, but it is crucial that those ideas are based on mathematical equations. If you want to be a scientist, then you need to be a very good mathematician.
+In science, particularly physics, it is great to have ideas, but it is often crucial that those ideas are based on mathematical equations. If you want to be a scientist, then it often helps if you are strong mathematician.
 :::
 
 This clips tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.

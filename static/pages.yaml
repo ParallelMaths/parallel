@@ -73,6 +73,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-07-x-y
+    title: X + Y
+    subtitle: Week 7
+    available: 2018-11-01T13:00:00
+    deadline: 2018-11-04T15:00:00
   - url: 9-06-queen-of-katwe
     title: Queen of Katwe
     subtitle: Week 6
