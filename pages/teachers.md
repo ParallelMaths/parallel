@@ -30,3 +30,10 @@ having a teacher account:
    confidence week after week.
 
 So, why not give it a try. [Signing up as a teacher](/signup#teacher) is quick, easy and free, and if it is not for you then you drop out at any time.
+
+__Please note:__ In order for pupils to receive the weekly email reminder to take part in the latest Parallelograms and successfully manage their account and password, you may need your school's IT department to whitelist the following addresses:
+
+* noreply@parallel-cf800.firebaseapp.com
+* https://parallel-cf800.firebaseapp.com
+* contact@parallel.org.uk
+* https://parallel.org.uk/

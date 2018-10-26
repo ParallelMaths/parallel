@@ -1,4 +1,9 @@
 year7:
+  - url: 7-07-exoplanets
+    title: Exoplanets
+    subtitle: Week 7
+    available: 2018-11-01T13:00:00
+    deadline: 2018-11-04T15:00:00
   - url: 7-06-build-your-own-plane
     title: Build your own plane
     subtitle: Week 6
@@ -31,6 +36,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-07-black-holes
+    title: Black Holes
+    subtitle: Week 7
+    available: 2018-11-01T13:00:00
+    deadline: 2018-11-04T15:00:00
   - url: 8-06-worlds-greatest-thief
     title: The world’s greatest thief
     subtitle: Week 6

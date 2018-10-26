@@ -49,7 +49,7 @@ Therefore,
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ `9/10 + 9/100 + 9/1,000 + 9/10,000 + … =`
+__1.2.__ `9/10 + 9/100 + 9/(1,000) + 9/(10,000) + … =`
 
 * [ ] `1/10`
 * [x] 1
@@ -171,7 +171,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November. 
+*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
