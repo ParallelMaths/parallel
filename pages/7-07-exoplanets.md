@@ -17,9 +17,8 @@ week by the Parallel Project to bright young mathematicians.
 
 
 ## 1. Two riddles
-![](/resources/7-07-exoplanets/1-scale-justice.png){image align="right"}
-
 ::: problem id=1_1 marks=2
+![](/resources/7-07-exoplanets/1-scale-justice.png){image align="right"}
 __1.1.__ You have three coins, which appear identical, except one of them is counterfeit and does not have the same weight as the other two. You have a set of balance scales, so you can compare coins against each other. Can you find the fake coin?
 
 * [ ] No, it’s impossible.
