@@ -19,7 +19,9 @@ week by the Parallel Project to bright young mathematicians.
 ## 1. Two riddles
 ::: problem id=1_1 marks=2
 ![](/resources/7-07-exoplanets/1-scale-justice.png){image align="right"}
-__1.1.__ You have three coins, which appear identical, except one of them is counterfeit and does not have the same weight as the other two. You have a set of balance scales, so you can compare coins against each other. Can you find the fake coin?
+__1.1.__ You have three coins, which appear identical, except one of them is counterfeit and does not have the same weight as the other two. You have a set of balance scales, so you can compare coins against each other.
+
+Can you find the fake coin?
 
 * [ ] No, it’s impossible.
 * [ ] Not enough information to decide.
@@ -42,7 +44,7 @@ __1.2.__ A builder agrees to fix your house in 7 days, and you agree to pay her 
 * [ ] It’s impossible.
 * [ ] 1/7, 1/7, 1/7
 * [ ] 1/7, 1/7, 5/7
-* [ ] 2/7, 2/7. 3/7
+* [ ] 2/7, 2/7, 3/7
 * [x] 1/7, 2/7, 4/7
 
 ---
@@ -97,6 +99,12 @@ __3.2__ What was the baby’s weight?
 <input type="number" solution="5"/> kg
 
 ---
+
+From the previous answer, we know all three (me + nurse + baby) weigh 142 Kg.  
+
+And we already know from the question that (me + nurse) weigh 137 Kg, so the baby must weigh 5Kg.   
+
+Alternatively, there is a longer more methodical approached, outlined below.  
 
 ![](/resources/7-07-exoplanets/3_2-answer.jpg){image align="center"}
 :::

@@ -41,25 +41,25 @@ Therefore, 12 chickens lay 48 eggs in 12 days.
 
 ## 2.	Theory of Everything
 
-“Theory of Everything” is a brilliant movie about the life of the cosmologist Professor Stephen Hawking, with the lead male actor Eddie Redmayne winning an Oscar for his performance. Watch this clip, in which Professor Hawking is listening to a lecture about black holes.
+“Theory of Everything” is a brilliant movie about the life of the cosmologist Professor Stephen Hawking, with the lead male actor Eddie Redmayne winning an Oscar for his performance. Here is the film’s trailer:
 
-@[youtube](8kaJJGWYXxs?rel=0)
+@[youtube](Salz7uGp72c?rel=0)
 
 ::: problem id=2_1 marks=2
-__2.1__ At the end of the clip, Hawking’s supervisor is interested in the idea about black holes and the start of the universe, but he advises Hawking that he should:
+__2.1__ Professor Hawking once said: “We are just an advanced breed of monkeys on a minor planet of a very average star. But we can ____ _____ ____. That makes us something very special.” What are the missing words? Have a guess, but also use Google to find the right answer.
 
-* [ ] Be more creative
-* [ ] Be more logical
-* [ ] Explore the implications of his idea
-* [ ] Develop a foundation
-* [x] Develop the mathematics
+* [ ] create new inventions
+* [ ] think about God
+* [x] understand the Universe
+* [ ] dream and imagine
+* [ ] do clever mathematics
 
 ---
 
 In science, particularly physics, it is great to have ideas, but it is often crucial that those ideas are based on mathematical equations. If you want to be a scientist, then it often helps if you are strong mathematician.
 :::
 
-This clips tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.
+This clip tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.
 
 @[youtube](5p3kBc2FxMQ?rel=0)
 
@@ -74,7 +74,7 @@ __2.2__ After suggesting the idea of a black hole, how long did Chandrasekhar ha
 
 ---
 
-The video mentioned that suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. Radical ideas.
+The video mentioned that he suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. This is often the case with radical ideas.
 :::
 
 
@@ -107,7 +107,7 @@ In the 2 × 2 square sheet, there are 4 positions in which Beatrix could place t
 
 It can be checked that Beatrix can make each of these installations by positioning the two tiles appropriately. [She can create each of the installations in which the black squares occupy the diagonal positions in two ways, and all the other installations in just one way.]
 
-So Beatrix can create 12 differently looking installations.
+So Beatrix can create 12 different looking installations.
 :::
 
 Before you hit the SUBMIT button, here are some quick reminders:
