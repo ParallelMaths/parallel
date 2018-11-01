@@ -69,7 +69,7 @@ app.use((req, res, next) => {
 
   for (let l of LEVELS) {
     res.locals.pages[l] =
-        PAGES[l].filter(p => (res.locals.now >= p.available)).slice(0, 5);
+        PAGES[l].filter(p => (res.locals.now >= p.available));
   }
 
   next();
