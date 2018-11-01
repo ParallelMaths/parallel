@@ -53,13 +53,9 @@ __2.1__ Professor Hawking once said: “We are just an advanced breed of monkeys
 * [x] understand the Universe
 * [ ] dream and imagine
 * [ ] do clever mathematics
-
----
-
-In science, particularly physics, it is great to have ideas, but it is often crucial that those ideas are based on mathematical equations. If you want to be a scientist, then it often helps if you are strong mathematician.
 :::
 
-This clip tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.
+Many of Professor Hawking’s greatest ideas concerned the nature of black holes. This clip tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.
 
 @[youtube](5p3kBc2FxMQ?rel=0)
 
@@ -74,7 +70,7 @@ __2.2__ After suggesting the idea of a black hole, how long did Chandrasekhar ha
 
 ---
 
-The video mentioned that he suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. This is often the case with radical ideas.
+The video mentioned that he suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. This is often the case with radical ideas, because it takes time to find the evidence that process that the idea is correct.
 :::
 
 
