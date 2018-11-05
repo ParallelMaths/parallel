@@ -70,7 +70,7 @@ __2.2__ After suggesting the idea of a black hole, how long did Chandrasekhar ha
 
 ---
 
-The video mentioned that he suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. This is often the case with radical ideas, because it takes time to find the evidence that process that the idea is correct.
+The video mentioned that he suggested the idea in 1931, but Chandrasekhar did not receive a Nobel Prize until 1983. This is often the case with radical ideas, because it takes time to find the evidence that proves that the idea is correct.
 :::
 
 

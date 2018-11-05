@@ -1,4 +1,9 @@
 year7:
+  - url: 7-08-man-who-knew-infinity
+    title: The Man Who Knew Infinity
+    subtitle: Week 8
+    available: 2018-11-08T13:00:00
+    deadline: 2018-11-11T15:00:00
   - url: 7-07-exoplanets
     title: Exoplanets
     subtitle: Week 7
@@ -36,6 +41,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-08-secret-maths-club
+    title: The Secret Maths Club
+    subtitle: Week 8
+    available: 2018-11-08T13:00:00
+    deadline: 2018-11-11T15:00:00
   - url: 8-07-black-holes
     title: Black Holes
     subtitle: Week 7
@@ -73,6 +83,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-08-checkmate
+    title: Checkmate
+    subtitle: Week 8
+    available: 2018-11-08T13:00:00
+    deadline: 2018-11-11T15:00:00
   - url: 9-07-x-y
     title: X + Y
     subtitle: Week 7
