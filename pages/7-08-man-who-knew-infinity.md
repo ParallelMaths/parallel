@@ -55,7 +55,7 @@ Partitions explores how many ways it is possible break up a positive number into
 For example, 1 can only be (1).  
 So, there is only __1 way__ to partition __1__.  
 
-However, 3 can be (2) or (1 + 1).  
+However, 2 can be (2) or (1 + 1).  
 So, there are __2 ways__ to partition __2__.  
 
 3 can be (3) or (1 + 2) or (1 + 1 + 1).  
@@ -81,8 +81,8 @@ __2.2__ How many ways can you partition 5?
 (5) or (4 + 1) or (3 + 2) or (3 + 1 + 1) or (2 + 2 + 1) + (2 + 1 + 1 + 1) or (1 + 1 + 1 + 1)
 :::
 
-::: problem id=2_2 marks=2
-__2.2__ How many ways can you partition 6?
+::: problem id=2_3 marks=2
+__2.3__ How many ways can you partition 6?
 
 <input type="number" solution="11"/>
 

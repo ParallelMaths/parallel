@@ -18,9 +18,9 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Chess puzzles
 
-Before half-term, I mention that there would be some chess puzzles coming up, and here they are. If you had never played chess, then I encouraged you to visit https://www.chesskid.com/ and learn the basics in order to prepare for today. If you forgot to do that, then:
+Before half-term, I mentioned that there would be some chess puzzles coming up, and here they are. If you had never played chess, then I encouraged you to visit [Chesskid](https://www.chesskid.com/){target="_blank"} and learn the basics in order to prepare for today. If you forgot to do that, then:
 
-*	Visit https://www.chesskid.com/ and learn some chess basics if you have not done so already. Or ask a friend or someone in your family to teach you or help with the questions.
+*	Visit [https://www.chesskid.com/](https://www.chesskid.com/){target="_blank"} and learn some chess basics if you have not done so already. Or ask a friend or someone in your family to teach you or help with the questions.
 *	With 15 minutes of learning, you will be able to answer a couple of the questions.
 *	This chess section is only a small part of this week’s Parallelogram. There are loads of other points to earn afterwards.
 
@@ -45,7 +45,7 @@ __1.2.__ The aim of chess is to checkmate your opponent, which means trapping th
 :::
 
 ::: problem id=1_3 marks=1
-__1.3.__ The game has reached the position below. It is white’s move. What black pieces are being attacked by the white queen? Which pieces could the white queen take on the next move?
+__1.3.__ The game has reached the position below. It is white’s move. What black pieces are being attacked by the white queen? In other words, which pieces could the white queen take on the next move?
 
 ![](/resources/9-08-checkmate/1-3-chess-puzzle.png){image align="center"}
 
@@ -69,11 +69,11 @@ __1.4.__ It is white’s move. Moving which piece will result in checkmate?
 
 ---
 
-The Queen can move to the (d8) square, and then the King is trapped by Queen.
+The Queen can move to the (d8) square, and then the King is trapped by the Queen.
 :::
 
 ::: problem id=1_5 marks=1
-__1.5.__ This is not an easy question, but it will stretch those of you who are more than beginners. It is white to move. Find white’s best move, then work out black’s only response and then identify which piece white would take on the next move.
+__1.5.__ This is not an easy question, but it will stretch those of you who are more than beginners. It is white's turn to move. Find white’s best move, then work out black’s only response and then identify which piece white would take on the next move.
 
 ![](/resources/9-08-checkmate/1-5-chess-puzzle.png){image align="center"}
 
@@ -83,7 +83,7 @@ __1.5.__ This is not an easy question, but it will stretch those of you who are 
 
 ---
 
-White moves Queen to H8, which puts the King in check. The black King is then forced to move to d7. This allows the white Queen to take the black Rook/Castle.
+White moves the Queen to H8, which puts the King in check. The black King is then forced to move to d7. This allows the white Queen to take the black Rook/Castle.
 :::
 
 
@@ -103,21 +103,21 @@ __2.1.__ One year, there were exactly four Tuesdays and exactly four Fridays in 
 * [ ] Sunday
 
 ^^^ hint id=1
-1 October cannot be a Tuesday, because then 8, 15, 22 and 29 October would also be Tuesday, and that would be 5 Tuesdays. The question says there are only 4 Tuesdays.
+1 October cannot be a Tuesday, because then 8, 15, 22 and 29 October would also be Tuesdays, and that would be 5 Tuesdays. The question says there are only 4 Tuesdays.
 ^^^
 
 ^^^ hint id=2
-Similarly, 2/3 October cannot be a Friday, because then 9/10, 16/17, 23/24 and 30/31 October would also be Friday, and that would be 5 Fridays. The question says there are only 4 Fridays.
+Similarly, 2/3 October cannot be a Friday, because then 9/10, 16/17, 23/24 and 30/31 October would also be Fridays, and that would be 5 Fridays. The question says there are only 4 Fridays.
 ^^^
 
 ---
 
-1/2/3 October cannot be a Tuesday, because then 8/9/10, 15/16/17, 22/23/24 and 29/30/31 October would also be Tuesday, and that would be 5 Tuesdays. The question says there are only 4 Tuesdays.
+1/2/3 October cannot be a Tuesday, because then 8/9/10, 15/16/17, 22/23/24 and 29/30/31 October would also be Tuesdays, and that would be 5 Tuesdays. The question says there are only 4 Tuesdays.
 
 Exactly the same is true for Friday.
 
 Therefore, the first Tuesday and Friday must both fall on either 4, 5, 6 or 7 October. This can only work if Tuesday is on 4 October and Friday is on 7 October.
-This means that the last Friday of the month will be on 28 October, which means that 31 October will be on Monday.
+This means that the last Friday of the month will be on 28 October, which means that 31 October will be on a Monday.
 :::
 
 
@@ -133,10 +133,10 @@ The remaining card is then folded along the dotted lines shown to form an open b
 What is the volume of the open box in cm<sup>3</sup>?
 
 * [ ] 100
-* [x] 128
+* [ ] 128
 * [ ] 162
 * [ ] 180
-* [ ] 200
+* [x] 200
 
 ^^^ hint id=3
 Suppose that the dotted square corresponding to the base of the box has side length `x` cm. Then the base has area `x`<sup>2</sup> cm, and each of the sides of the box has area `2x` cm.
@@ -149,7 +149,7 @@ Hence the internal surface area of the box, in cm<sup>2</sup>, is `x`<sup>2</sup
 Suppose that the dotted square corresponding to the base of the box has side length `x` cm. Then the base has area `x`<sup>2</sup> cm, and each of the sides of the box has area `2x` cm.
 
 Hence the internal surface area of the box, in cm<sup>2</sup>, is `x`<sup>2</sup> `+ 4 × 2x` , that is, `x`<sup>2</sup> `+ 8x`. Therefore `x`<sup>2</sup> `+ 8x = 180`. Now  
-`x`<sup>2</sup> `+ 8x = 180` if and only if `x`<sup>2</sup> `+ 8x - 180 = 180`  
+`x`<sup>2</sup> `+ 8x = 180` if and only if `x`<sup>2</sup> `+ 8x - 180 = 0`  
 if and only if `(x + 18)(x - 10) = 0`  
 
 with solutions `x = -18` and `x = 10`. Since `x` must be positive, we deduce that `x = 10`.  
@@ -167,7 +167,7 @@ This is an amazing clock at Schiphol Airport, near Amsterdam.
 ::: problem id=4_1 marks=3
 __4.1.__ How many painters are employed to paint the time?
 
-* [x] 0 painter
+* [x] 0 painters
 * [ ] 1 painter who works every day for 24 hours.
 * [ ] 2 painters who swap every 12 hours.
 * [ ] 3 painters who swap every 8 hours.

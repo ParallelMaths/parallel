@@ -37,10 +37,10 @@ Instead of thinking about numbers, think about words. So, doorman says “seven�
 
 ---
 
-You should reply with the number of letters in the word spoken by the doorman. So if the doorman had said, six or ten, the reply would have been 3. Had he said eleven, then the reply would have been 6.
+You should reply with the number of letters in the word spoken by the doorman. So if the doorman had said "six" or "ten", the reply would have been 3. Had he said "eleven", then the reply would have been 6.
 :::
 
-A palindrome that is the same read forwards or backwards, such as “level” or “mum”. One evening, the secret maths club changes its rules, so that the doorman asks questions and the answers have to be palindromes. How would you answer these questions.
+A palindrome is a word that is the same read forwards or backwards, such as “level” or “mum”. One evening, the secret maths club changes its rules, so that the doorman asks questions and the answers have to be palindromes. How would you answer these questions?
 
 ::: problem id=1_2 marks=1
 __1.2.__ Give me another word for midday.
@@ -59,7 +59,7 @@ The answer is a 7-letter word starting RAC_ _ _ _ .
 :::
 
 ::: problem id=1_4 marks=2
-__1.4.__ Name a type of canoe?
+__1.4.__ Name something a bit like a canoe?
 
 <input type="text" solution="kayak"/>
 
@@ -75,14 +75,14 @@ Everyone assumes that you need round wheels for a smooth ride, but that assumes 
 
 @[youtube](S8B11pV8HpU?rel=0)
 
-This clips explains some of the maths needed to make a square wheel work on a bumpy road.
+This clip explains some of the maths needed to make a square wheel work on a bumpy road.
 
 @[youtube](LgbWu8zJubo?rel=0)
 
 ::: problem id=2_1 marks=2
 __2.1__ When describing a smooth ride with square wheels, which of these statements is not true?
 
-* [ ] Each bump must be shaped link a catenary.
+* [ ] Each bump must be shaped like a catenary.
 * [ ] A catenary is the curve formed by a hanging chain.
 * [x] A catenary is the path formed by a leaping cat.
 * [ ] Another name for a catenary is a hyperbolic cosine.
@@ -131,7 +131,7 @@ Therefore, my sister’s team with 5 wins and 2 draws has gained `5 × 5 + 2 × 
 
 This image was tweeted recently by Matthew Syed, author of books such as “You Are Awesome”, which emphasise how we can all get better at everything if are willing to be positive, dedicate some time and put in some practice. This includes getting better at mathematics.
 
-From the audiences point of view, all they see is a magnificent juggler, but he knows that his performance is the result of a gradual rise, step by step, during which time he had a huge number of failures and smashed hundreds of plates.
+From the audience's point of view, all they see is a magnificent juggler, but he knows that his performance is the result of a gradual rise, step by step, during which time he had a huge number of failures and smashed hundreds of plates.
 
 ![](/resources/8-08-secret-maths-club/4-juggler.jpg){image align="center"}
 
