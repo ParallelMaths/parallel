@@ -46,6 +46,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-09-weird-shapes
+    title: Weird Shapes
+    subtitle: Week 9
+    available: 2018-11-15T13:00:00
+    deadline: 2018-11-18T15:00:00
   - url: 8-08-secret-maths-club
     title: The Secret Maths Club
     subtitle: Week 8
