@@ -75,7 +75,7 @@ __2.3__ Which country (very appropriately) had a coin in the shape of a Reuleaux
 * [x] Bermuda
 ---
 
-It is very appropriate that Bermuda has a triangular coin, because of the infamous Bermuda Triangle, where ships were said to disappear. Interestingly, there are lots of reasons to doubt the superstitious beliefs about the Bermuda Triangle, as ships and planes are no more likely to go missing in that area than in any other part of the ocean. If you’re interested, [you can read more about rational explanations for the Bermuda Triangle here]([https://en.wikipedia.org/wiki/Bermuda_Triangle#Criticism_of_the_concept){target="_blank"} .
+It is very appropriate that Bermuda has a triangular coin, because of the infamous Bermuda Triangle, where ships were said to disappear. Interestingly, there are lots of reasons to doubt the superstitious beliefs about the Bermuda Triangle, as ships and planes are no more likely to go missing in that area than in any other part of the ocean. If you’re interested, [you can read more about rational explanations for the Bermuda Triangle here]([https://en.wikipedia.org/wiki/Bermuda_Triangle#Criticism_of_the_concept){target="_blank"}.
 :::
 
 ::: problem id=2_4 marks=2

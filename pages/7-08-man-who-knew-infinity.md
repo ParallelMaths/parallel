@@ -50,7 +50,7 @@ __1.2.__ At one point in the clip, Ramanujan touches the feet of a statue of Isa
 
 Ramanujan was interested in something called partitions.  
 
-Partitions explores how many ways it is possible break up a positive number into positive hole numbers.  
+Partitions explores how many ways it is possible break up a positive number into positive whole numbers.  
 
 For example, 1 can only be (1).  
 So, there is only __1 way__ to partition __1__.  
