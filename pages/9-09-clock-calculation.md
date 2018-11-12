@@ -37,13 +37,15 @@ __1.2.__ Which number is created from the preceding number by removing just one 
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Two numbers require a total of 5 segments to change, when they are created from the preceding number. What is the sum of those two numbers.
+__1.3.__ Creating the digit 2 from the digit 1 requires one segment to be removed and 4 segments to be added, so 5 segments change in total. Creating another digit from the previous digit also requires a total of 5 segment changes. Which digit is this? Which digit is created using 5 segment changes from the previous digit?
 
-<input type="number" solution="9"/>
+<input type="number" solution="7"/>
 
 ---
 
-Creating 2 from 1 requires one segment to be removed and 4 segments to be added. Also, creating 7 from 6 requires 4 segment to be removed and 1 segments to be added. So the total is 7 + 2 = 9.
+Creating 7 from 6 requires 4 segment to be removed and 1 segments to be added.  
+
+So in total 5 segments change.
 :::
 
 ::: problem id=1_4 marks=2
@@ -59,10 +61,10 @@ The diagram below shows that we need to adjust 3 segments in the first three dig
 :::
 
 
-## 2. Chessy (but not chess) puzzle.
+## 2. Chessy (but not chess) puzzle
 
 ::: problem id=2_1 marks=2
-__2.1.__ In the game described in the video below, who wins the game? The player who goes first (Player 1), or the player who goes second ()? Assume that both players make their moves the best possible way.
+__2.1.__ In the game described in the video below, who wins the game? The player who goes first (Player 1), or the player who goes second (Player 2)? Assume that both players make their moves the best possible way.
 
 @[youtube](rVF_08ItvOU?rel=0)
 
@@ -71,7 +73,11 @@ __2.1.__ In the game described in the video below, who wins the game? The player
 
 ---
 
-Player 1 can be guaranteed to win by putting the first pawn in the centre of the board. Player 2 can put a pawn anywhere, and the first player can then place a pawn in the diametrically opposite position. The second player can place another pawn, and the first player can then place a pawn in the diametrically opposite position. This can carry on until the board is almost filled. Then, if second player can place a pawn, then the first players can definitely place a pawn in the diametrically opposite position. If the second player CANNOT place a pawn, then the first player wins.  
+Player 1 can be guaranteed to win by putting the first pawn in the centre of the board. Player 2 can put a pawn anywhere, and the first player can then place a pawn in the diametrically opposite position. The second player can place another pawn, and the first player can then place a pawn in the diametrically opposite position. This can carry on until the board is almost filled. Then, if the second player can place a pawn, then the first player can definitely place a pawn in the diametrically opposite position. If the second player CANNOT place a pawn, then the first player wins.  
+
+Below you can see how player 1 (yellow squares) could make her first 4 moves, and player 2 (red squares) could make his first 3 moves. After the first move, player 1 just places pawns opposite her opponent’s pawns.  
+
+![](/resources/9-09-clock-calculation/2-chess-solution.jpg){image align="center"}
 
 This video was from patrickJMT’s YouTube channel, [which has tons of maths videos](https://www.youtube.com/channel/UCFe6jenM1Bc54qtBsIJGRZQ){target="_blank"}.
 :::
@@ -108,20 +114,18 @@ The exterior angle of a triangle is the sum of the two opposite interior angles.
 
 From (1), `p` = 70 . Hence, from (2), `q` = 30 . Therefore, from (3), `r` = 10 .  
 
-Since the angles on a line add up to 180°, it follows that `x` = 170 .
+Since the angles on a line add up to 180°, it follows that `r + x = 180`, so `x` = 170.
 :::
 
 
 ## 4.	Another 7-segment display question
 
 ::: problem id=4_1 marks=3
-__4.1.__ There are many ways to light up different segments of a 7-segment display, and many of them do not represent numbers or letter. Here are 16 of the arrangements where 3 or fewer segments are lit, and 16 of the arrangements where at least 3 segments are lit.
+__4.1.__ There are many ways to light up different segments of a 7-segment display, and many of them do not represent numbers or letters. Here are 16 of the arrangements where 3 or fewer segments are lit, and 16 of the arrangements where at least 3 segments are lit.
 
-How different ways are there to light up a 7-segment display?
+How many different ways are there to light up a 7-segment display?
 
 ![](/resources/9-09-clock-calculation/4-clock.png){image align="center"}
-
-@[youtube](4wCQwhkSbx8?rel=0)
 
 <input type="number" solution="128"/>
 
@@ -129,7 +133,7 @@ How different ways are there to light up a 7-segment display?
 
 The easiest way to tackle this problem is to realise there are 7 segments and each one can be in one of 2 states, so the answer is 2<sup>7</sup> = 128.  
 
-It might help to look at a simpler version of the problem. For example, imagine if we had only a 3-segment display. The first segment could be off/on, and for each of those two settings the second segment could be off/on, which gives 4 variants. For these 4 variants, the final segment could be off/on, which gives 8 variants, or 2<sup>3</sup>.
+It might help to look at a simpler version of the problem. For example, imagine if we had only a 3-segment display. The first segment could be off/on, and for each of those two settings the second segment could be off/on, which gives 2 × 2 = 4 variants. For these 4 variants, the final segment could be off/on, which gives 8 variants, or 2<sup>3</sup>.
 :::
 
 

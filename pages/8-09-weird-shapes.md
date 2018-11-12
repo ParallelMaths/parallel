@@ -48,9 +48,9 @@ __2.2__ The 2017 £1 coin has 12 sides. Because it has an even number of sides, 
 
 However, to earn your two points, you just have to measure the difference between the narrowest and widest “diameters” of a £1 coin.  
 
-(You can measure it with a ruler and guess, or you could try putting several of them end to end and measuring them when the points touch (wider) and when the edges touch (narrow). This should give you a more accurate answer than just measuring one coin.)
+(You can measure one coin with a ruler and estimate, or you could try putting several of them end to end and measuring them when the points touch (wider) and when the edges touch (narrow). This should give you a more accurate answer than just measuring one coin.)
 
-![](/resources/8-09-weird-shapes/2-2-coins.png){image align="center"}
+![](/resources/8-09-weird-shapes/2-2-coins.jpg){image align="center"}
 
 What is the difference between the narrowest and widest “diameters” of a £1 coin?  
 
@@ -75,17 +75,17 @@ __2.3__ Which country (very appropriately) had a coin in the shape of a Reuleaux
 * [x] Bermuda
 ---
 
-It is very appropriate that Bermuda has a triangular coin, because of the infamous Bermuda Triangle, where ships were said to disappear. Interestingly, there are lots of reasons to doubt the superstitious beliefs about the Bermuda Triangle, as ships and planes are no more likely to go missing in that area than in any other part of the ocean. If you’re interested, [you can read more about rational explanations for the Bermuda Triangle here]([https://en.wikipedia.org/wiki/Bermuda_Triangle#Criticism_of_the_concept){target="_blank"}.
+It is very appropriate that Bermuda has a triangular coin, because of the infamous Bermuda Triangle, where ships were said to disappear. Interestingly, there are lots of reasons to doubt the superstitious beliefs about the Bermuda Triangle, as ships and planes are no more likely to go missing in that area than in any other part of the ocean. If you’re interested, [you can read more about rational explanations for the Bermuda Triangle here](https://en.wikipedia.org/wiki/Bermuda_Triangle#Criticism_of_the_concept){target="_blank"}.
 :::
 
 ::: problem id=2_4 marks=2
-__2.4__ Take a look at this clip showing a bicycle with unusually shaped wheels. Which of these statements is false?
+__2.4__ Take a look at this clip showing a bicycle with unusually shaped wheels. In relation to the bike in the video, which of these statements is false?
 
 * [ ] Only one wheel is a Reuleaux triangle.
 * [ ] The axles move up and down relative to the ground.
 * [ ] The axles move up and down relative to the cyclist.
-* [ ] The cyclist has a smooth ride, because the frame rests on the wheels, not the axles.
-* [x] The ride is only smooth because of the shape of the ground.
+* [ ] The ride is smooth because the frame rests on the wheels, not the axles.
+* [x] The effect of the odd wheel shapes is cancelled by the uneven road to give a smooth ride.
 
 @[youtube](ebRI4kFmR7U?rel=0)
 :::
@@ -105,7 +105,7 @@ __3.1__ Only one of the following statements is true. Which one?
 * [x] E) ‘A is false’
 
 ^^^ hint id=1
-Statements C and D cannot be true. So, that narrows the options to A, B and E.
+Statements C and D cannot be true, so that narrows down the options to A, B and E.
 ^^^
 
 ---

@@ -98,7 +98,7 @@ __2.1__ What is the value of `x`?
 ::: problem id=3_1 marks=2
 __3.1__ In the Futurama episode “Rebirth”, there is a nightclub called “Studio 1<sup>2</sup>.2<sup>1</sup>.3<sup>3</sup>”.
 
-The dot means multiplication, so you could write this as “Studio 1<sup>2</sup> × 2<sup>1</sup> × 3<sup>3</sup>”.
+The dots mean multiplication, so you could write this as “Studio 1<sup>2</sup> × 2<sup>1</sup> × 3<sup>3</sup>”.
 
 It is named after a real New York nightclub from the 1970s and 1980s. What was that nightclub called?
 
@@ -111,7 +111,7 @@ It is named after a real New York nightclub from the 1970s and 1980s. What was t
 :::
 
 ::: problem id=3_2 marks=2
-__3.2__ James Cook, the British explorer was born in the year 1<sup>3</sup> × 3<sup>3</sup> × 4<sup>3</sup>. What year was that?
+__3.2__ James Cook, the British explorer, was born in the year 1<sup>3</sup> × 3<sup>3</sup> × 4<sup>3</sup>. What year was that?
 
 <input type="number" solution="1728"/>
 
