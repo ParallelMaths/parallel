@@ -85,7 +85,7 @@ __2.4__ Take a look at this clip showing a bicycle with unusually shaped wheels.
 * [ ] The axles move up and down relative to the ground.
 * [ ] The axles move up and down relative to the cyclist.
 * [ ] The ride is smooth because the frame rests on the wheels, not the axles.
-* [x] The effect of the odd wheel shapes is cancelled by the uneven road to give a smooth ride.
+* [x] The effect of the odd wheel shape is cancelled by the uneven road to give a smooth ride.
 
 @[youtube](ebRI4kFmR7U?rel=0)
 :::

@@ -37,7 +37,7 @@ __1.2.__ Which number is created from the preceding number by removing just one 
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Creating the digit 2 from the digit 1 requires one segment to be removed and 4 segments to be added, so 5 segments change in total. Creating another digit from the previous digit also requires a total of 5 segment changes. Which digit is this? Which digit is created using 5 segment changes from the previous digit?
+__1.3.__ Creating the digit 2 from the digit 1 requires one segment to be removed and 4 segments to be added, so 5 segments change in total. Creating another digit from the previous digit also requires a total of 5 segment changes. Which digit is this? In other words, which digit (apart from 2) is created using 5 segment changes from the previous digit?
 
 <input type="number" solution="7"/>
 
