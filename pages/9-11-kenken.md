@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. KenKen
 
-Today’s Parallelogram is dedicated to the KenKen – a mathematical puzzle that is ten times more interesting than Sudoku.  
+Today’s Parallelogram is dedicated to KenKen – a mathematical puzzle that is ten times more interesting than Sudoku.  
 
 First of all, these are the rules.  
 
