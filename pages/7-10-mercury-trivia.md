@@ -117,13 +117,13 @@ So there are 38 − 17 = 21 seats between us.
 :::
 
 ::: problem id=3_2 marks=2
-__3.2__ How many integers are there between 100 and 200 (not including either 100 or 200)?
+__3.2 JMC follow-up question__ How many integers are there between 100 and 200 (not including either 100 or 200)?
 
 <input type="number" solution="99"/>
 :::
 
 ::: problem id=3_3 marks=2
-__3.3__ Suppose that `k` is an integer greater than 27, and that there are 50 integers between 27
+__3.3 JMC follow-up question__ Suppose that `k` is an integer greater than 27, and that there are 50 integers between 27
 and `k`, not including 27 and `k`. What is the value of `k`?
 
 <input type="number" solution="78"/>

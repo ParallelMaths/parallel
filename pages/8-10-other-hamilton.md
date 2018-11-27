@@ -53,7 +53,7 @@ From here, we can use trial and error to deduce that A = 3.
 
 ## 2.	Drew’s puzzle #2
 
-A 5 x 5 x 5 cube consisting of 125 cubelets is completely painted.
+A 5 x 5 x 5 cube consisting of 125 smaller cubes (known as cubelets) is completely painted.
 
 ![](/resources/8-10-other-hamilton/2-puzzle-question.png){image align="center"}
 
@@ -158,9 +158,9 @@ __3.3__ The song describes one of the key properties of Hamilton’s newly disco
 ## 4.	Junior Maths Challenge Problem
 <!--- (2014) Q17 --->
 
-::: problem id=3_1 marks=3
+::: problem id=4_1 marks=3
 ![](/resources/8-10-other-hamilton/4-map-question.jpg){image align="right"}
-__3.1__ The diagram is a “map” of Jo’s local rail network, where the dots represent stations and the lines are routes. Jo wants to visit all the stations, travelling only by train, starting at any station and ending at any station, with no restrictions on which routes are taken.  
+__4.1__ The diagram is a “map” of Jo’s local rail network, where the dots represent stations and the lines are routes. Jo wants to visit all the stations, travelling only by train, starting at any station and ending at any station, with no restrictions on which routes are taken.  
 
 What is the smallest number of stations that Jo must go to more than once?
 

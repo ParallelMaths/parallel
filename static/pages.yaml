@@ -1,4 +1,9 @@
 year7:
+  - url: 7-11-kenken
+    title: KenKen Y7
+    subtitle: Week 11
+    available: 2018-11-29T13:00:00
+    deadline: 2018-12-02T15:00:00
   - url: 7-10-mercury-trivia
     title: Mercury Trivia
     subtitle: Week 10
@@ -51,6 +56,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-11-kenken
+    title: KenKen Y8
+    subtitle: Week 11
+    available: 2018-11-29T13:00:00
+    deadline: 2018-12-02T15:00:00
   - url: 8-10-other-hamilton
     title: The Other Hamilton
     subtitle: Week 10
@@ -103,6 +113,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-11-kenken
+    title: KenKen Y9
+    subtitle: Week 11
+    available: 2018-11-29T13:00:00
+    deadline: 2018-12-02T15:00:00
   - url: 9-10-beautiful-mind
     title: A Beautiful Mind
     subtitle: Week 10
