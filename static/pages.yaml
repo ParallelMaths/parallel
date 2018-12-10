@@ -1,4 +1,14 @@
 year7:
+  - url: 7-13-chrismaths
+    title: Chrismaths Y7
+    subtitle: Week 13
+    available: 2018-12-13T13:00:00
+    deadline: 2018-12-16T13:00:00
+  - url: 7-12-prime-time
+    title: Prime Time Y7
+    subtitle: Week 12
+    available: 2018-12-06T13:00:00
+    deadline: 2018-12-09T13:00:00
   - url: 7-11-kenken
     title: KenKen Y7
     subtitle: Week 11
@@ -56,6 +66,16 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-13-chrismaths
+    title: Chrismaths Y8
+    subtitle: Week 13
+    available: 2018-12-13T13:00:00
+    deadline: 2018-12-16T13:00:00
+  - url: 8-12-prime-time
+    title: Prime Time Y8
+    subtitle: Week 12
+    available: 2018-12-06T13:00:00
+    deadline: 2018-12-09T13:00:00
   - url: 8-11-kenken
     title: KenKen Y8
     subtitle: Week 11
@@ -113,6 +133,16 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-13-chrismaths
+    title: Chrismaths Y9
+    subtitle: Week 13
+    available: 2018-12-13T13:00:00
+    deadline: 2018-12-16T13:00:00
+  - url: 9-12-prime-time
+    title: Prime Time Y9
+    subtitle: Week 12
+    available: 2018-12-06T13:00:00
+    deadline: 2018-12-09T13:00:00
   - url: 9-11-kenken
     title: KenKen Y9
     subtitle: Week 11
