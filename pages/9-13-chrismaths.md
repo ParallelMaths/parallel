@@ -74,7 +74,7 @@ It can be seen that 1 + 2 + 4 = 7 and 1 × 2 × 4 = 8, so assuming that there is
 
 In the context of the IMC, that is enough, but if you are asked to give a full solution, you need to give an argument to show there are no other possibilities. This is not difficult.
 
-For suppose `a, b` and `c` are three different positive integers with sum 7, and that `a < b < c`.
+For example, suppose `a, b` and `c` are three different positive integers with sum 7, and that `a < b < c`.
 
 If `a ≥ 2`, then `b ≥ 3` and `c ≥ 4`, and so `a + b + c ≥ 9`.
 
@@ -103,14 +103,14 @@ What is the sum of the interior angles of the resulting polygon?
 
 ---
 
-The sum of the interior angles of the polygon is the sum of the angles in the triangle, the square and the pentagon. The sum of the interior angles of the triangle is 180°, and the sum of the angles of the square is 360° = 2 × 180°, and the sum of the angles of the pentagon is 540° = 3 × 180°.
+The sum of the interior angles of the polygon is the sum of the angles in the triangle, the square and the pentagon. The sum of the interior angles of the triangle is 180°, the sum of the angles of the square is 360° = 2 × 180°, and the sum of the angles of the pentagon is 540° = 3 × 180°.
 
 ![](/resources/9-13-chrismaths/3-shapes-answer.jpg){image align="right"}
 So the sum of the angles is (1 + 2 + 3) × 180° = 6 × 180°.  
 
 _Note:_ There is more than one way to see that the sum of the angles of a pentagon is 540°.  
 
-Here is one method. Join the vertices of the pentagon to some point, say `P`, inside the pentagon. This creates 5 triangles whose angles sum to 5 × 180° .The sum of the angles in these triangles is the sum of the angles in a pentagon plus the sum of the angles at `P`, which is 360° = 2 × 180° . So the sum of the angles in the pentagon is 5 × 180° = 2 × 180° = 3 × 180°.
+Here is one method. Join the vertices of the pentagon to some point, say `P`, inside the pentagon. This creates 5 triangles whose angles sum to 5 × 180° .The sum of the angles in these triangles is the sum of the angles in a pentagon plus the sum of the angles at `P`, which is 360° = 2 × 180° . So the sum of the angles in the pentagon is 5 × 180° - 2 × 180° = 3 × 180°.
 :::
 
 
@@ -273,7 +273,7 @@ Now 99% of a million is `99/100 × 1000000 = 99 × 10000 = 990 000`.
 ## 10.
 
 ::: problem id=10_1 marks=3
-An ‘abundant’ number is a positive integer `N`, such that the sum of the factors of ¬ (excluding `N` itself) is greater than `N`.
+An ‘abundant’ number is a positive integer `N`, such that the sum of the factors of `N` (excluding `N` itself) is greater than `N`.
 
 What is the smallest abundant number?
 
@@ -307,18 +307,18 @@ In the diagram, `PQRS` is a parallelogram; `∠QRS = 50°; ∠SPT = 62°` and `P
 
 What is the size of `∠TQR`?
 
-* [ ] A) 84
-* [ ] B) 90
-* [x] C) 96
-* [ ] D) 112
-* [ ] E) 124
+* [ ] A) 84°
+* [ ] B) 90°
+* [x] C) 96°
+* [ ] D) 112°
+* [ ] E) 124°
 {.col-5}
 
 ---
 
 Because `PQRS` is a parallelogram, `∠SPQ = ∠QRS = 50°`. Therefore `∠TPQ = (62 + 50)° = 112°`.  
 
-Therefore, as the angles in a triangle add up to 180°, `∠PQT = ∠PTQ = 180° - 1120 = 68°`.
+Therefore, as the angles in a triangle add up to 180°, `∠PQT + ∠PTQ = 180° - 1120 = 68°`.
 
 Because `PQ = PT`, the triangle `QPT` is isosceles, and so `∠PQT = ∠PTQ`. Therefore `∠PQT = ∠PTQ = 34°`.  
 
@@ -342,7 +342,7 @@ Which of the following has a different value from the others?
 
 ---
 
-We have that 18% of £30 = £`(18/100 × 30)` = £5.40
+We have that 18% of £30 = £`(18/100 × 30)` = £5.40.
 
 Similarly, 12% of £50 is £6.00, and 6% of £90 is £5.40.  
 
@@ -505,7 +505,7 @@ Where does Peri end this expedition?
 ---
 
 ![](/resources/9-13-chrismaths/18-expedition.jpg){image align="right"}
-As may be seen from the diagram, Peri first moves along the semicircle with centre (4, 0) from the point (0, 0) to the point (8, 0), then along the semicircle with centre (6, 0) to the point (4, 0), and finally along the semicircle with centre (3, 0) to end poup at the point (2, 0).
+As may be seen from the diagram, Peri first moves along the semicircle with centre (4, 0) from the point (0, 0) to the point (8, 0), then along the semicircle with centre (6, 0) to the point (4, 0), and finally along the semicircle with centre (3, 0) to end up at the point (2, 0).
 :::
 
 
@@ -533,14 +533,14 @@ The square has area `(2r)^2 = 4r^2`. The unshaded area inside the square is made
 
 The circle has area `πr^2`. So the fraction of the circle that is shaded is:
 
-`((4 - π)r^2)/(πr^2) = (4 - π)/π = 4/π - 1`
+`((4 - π)r^2)/(πr^2) = (4 - π)/π = 4/π - 1`.
 :::
 
 
 ## 20.
 
 ::: problem id=20_1 marks=4
-A rectangle with area 125 cm2 has sides in the ratio 4:5. What is the perimeter of the rectangle?
+A rectangle with area 125 cm<sup>2</sup> has sides in the ratio 4:5. What is the perimeter of the rectangle?
 
 * [ ] A) 18 cm
 * [ ] B) 22.5 cm
@@ -555,7 +555,7 @@ Since the side lengths of the rectangle are in the ratio 4:5, they are `4a` cm a
 
 This means that the rectangle has area `4a × 5a = 20a^2 cm^2`.
 
-Hence `20a^2 = 125`. So a<sup>2</sup> = `20a^2> = 125/20 = 25/4`, and hence `a = 5/2`.
+Hence `20a^2 = 125`. So `a^2` = `125/20 = 25/4`, and hence `a = 5/2`.
 
 Hence the rectangle has perimeter `2(4a + 5a) = 18a = 18 × 5/2 = 45` cm.
 :::
@@ -706,7 +706,7 @@ It is formed by drawing eight lines connecting points which divide the edges of 
 
 What fraction of the octagon is shaded?
 
-* [ ] A) `1/2`
+* [ ] A) `1/5`
 * [x] B) `2/9`
 * [ ] C) `1/4`
 * [ ] D) `3/10`
