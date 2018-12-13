@@ -19,7 +19,9 @@ block content
     if userData.submitted
       div(class='score ' + scoreClass(userData.answers.score || 0))
         p.large Score: #{userData.answers.score || 0}%
-        p #{userData.answers.points}/#{userData.answers.total} Points
+        p #{userData.answers.points}/#{userData.answers.total} marks
+        if page.scoreFactor
+          p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
     else
       button#submit(v-on:click="c.submit") Submit Answers
 

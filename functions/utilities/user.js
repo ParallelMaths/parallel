@@ -27,7 +27,7 @@ function getUserData(uid) {
 
     if (data.level === 'year7' || data.level === 'year8' || data.level === 'year9') {
       // For students
-      const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score || 0);
+      const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
       data.points = scores.reduce((a, b) => a + b, 0);
       data.visibleBadges = BADGES[data.level]
           .filter(b => (data.points >= b.score)).reverse().slice(0, 4);

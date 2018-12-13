@@ -4,6 +4,7 @@ year7:
     subtitle: Week 13
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
+    scoreFactor: 4
   - url: 7-12-prime-time
     title: Prime Time Y7
     subtitle: Week 12
@@ -71,6 +72,7 @@ year8:
     subtitle: Week 13
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
+    scoreFactor: 4
   - url: 8-12-prime-time
     title: Prime Time Y8
     subtitle: Week 12
@@ -138,6 +140,7 @@ year9:
     subtitle: Week 13
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
+    scoreFactor: 4
   - url: 9-12-prime-time
     title: Prime Time Y9
     subtitle: Week 12
