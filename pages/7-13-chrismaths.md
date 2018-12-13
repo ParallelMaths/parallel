@@ -115,7 +115,7 @@ What number should replace `x`?
 
 ---
 
-![](/resources/7-13-chrismaths/4-pyramid.jpg){image align="right"}
+![](/resources/7-13-chrismaths/4-pyramid-answer.jpg){image align="right"}
 We have used `p, q, r, s` and `t` for the numbers in certain of the rectangles as shown in the diagram.  
 
 We now repeatedly use the fact that the number in each rectangle in the first four rows is the sum of the numbers in the rectangles immediately below it. This enables us to work out the values of `p, q, r, s` and `t`.
@@ -163,7 +163,7 @@ What is the value of `x` in this triangle?
 * [ ] A) 45
 * [x] B) 50
 * [ ] C) 55
-* [ ] D) 30
+* [ ] D) 60
 * [ ] E) 65
 {.col-5}
 
@@ -195,11 +195,11 @@ What is the sum of these two digits?
 
 ---
 
-In the context of the JMC we are entitled to assume the truth of the statement that `123456789 × 8` is obtained by interchanging two of the digits of `987654,321`. This leads to a quick way to answer the question without the need for a lot of arithmetic.  
+In the context of the JMC we are entitled to assume the truth of the statement that `123456789 × 8` is obtained by interchanging two of the digits of `987654321`. This leads to a quick way to answer the question without the need for a lot of arithmetic.  
 
 Because `9 × 8 = 72`, the units digit of `123456789 × 8` is a `2`. Starting from `987654321`, to obtain a `2` as the units digit we need to interchange the digits `1` and `2`. So these are the two digits which are in a different order in the answer to the calculation. Now comes the easy bit, `1 + 2 = 3`.
 
-Alternatively, if we cannot take the statement in the question on trust, the only thing to do is to actually multiply `123456789` by `8`. If you do this you will see that the answer is `987654321`. It follows that it is the digits `1` and `2` that need to be interchanged.  
+Alternatively, if we cannot take the statement in the question on trust, the only thing to do is to actually multiply `123456789` by `8`. If you do this you will see that the answer is `987654312`. It follows that it is the digits `1` and `2` that need to be interchanged.  
 
 Note that, in fact, as soon as we get as far as working out that `89 × 8 = 712` we can deduce that the digits `1` and `2` need to be interchanged. It is, however, necessary to do the whole sum to check that all the other digits are in the right order.  
 
@@ -613,9 +613,7 @@ and therefore:
 = 3120.`  
 
 It follows that:  
-`g = 1  
-3 × 3120  
-= 1040.`  
+`g = 1/3 × 3120 = 1040.`  
 
 The distance between the centres of the middle two pictures is equal to the width of one picture and the width of the gap, that is, in mm, `420 + g = 420 + 1040 = 1460`.  
 
@@ -716,7 +714,7 @@ We use the notation `‘abcde’` for the number which is represented by the dig
 
 Since 45 = 5 × 9, and 5 and 9 have no common factors, the five-digit palindromic number `‘abcba’ `is a multiple of 45 if, and only if, it is a multiple of both 5 and 9.  
 
-A number is a multiple of 5 if, and only if, its units digit is 0 or 5. Here the units digit a cannot be 0, since otherwise `‘abcba’` would not be a five-digit number. We deduce that `a` is 5. Thus `a` five-digit palindromic number which is divisible by 5 is of the form `‘5bcb5’`, where `b `and `c `are digits.  
+A number is a multiple of 5 if, and only if, its units digit is 0 or 5. Here the units digit a cannot be 0, since otherwise `‘abcba’` would not be a five-digit number. We deduce that `a` is 5. Thus `a` five-digit palindromic number which is divisible by 5 is of the form `‘5bcb5’`, where `b `and `c` are digits.  
 
 A number is a multiple of 9 if, and only if, the sum of its digits is a multiple of 9.  
 
@@ -738,10 +736,10 @@ The four straight lines in the diagram are such that `VU = VW`. The sizes of `�
 Which of the following equations gives `x` in terms of `y` and `z`?
 
 * [ ] A) `x = y − z`
-* [x] B) `x = 180 − y − z`
+* [ ] B) `x = 180 − y − z`
 * [ ] C) `x = y − z/2`
 * [ ] D) `x = y + z − 90`
-* [ ] E) `x = (y − z)/2`
+* [x] E) `x = (y − z)/2`
 
 ---
 

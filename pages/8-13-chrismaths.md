@@ -195,11 +195,11 @@ Since 8 km is approximately 5 miles, 1 km is approximately `5/8 `miles.
 
 Hence 1.2 km is approximately `1.2 × 5/8` miles.
 
-We have `1.2 × 5/8 = 1.2 × 5/8 = 6/8 = 0.75`.
+We have `1.2 × 5/8 = (1.2 × 5)/8 = 6/8 = 0.75`.
 
 Therefore 1.2 km is approximately 0.75 miles.
 
-Alternativel, since 8 km is approximately 5 miles, 1 mile is approximately `8/5` km, that is, 1.6 km.
+Alternatively, since 8 km is approximately 5 miles, 1 mile is approximately `8/5` km, that is, 1.6 km.
 
 It follows that 1.2 km is significantly less than 1 mile. So 0.75 miles is the correct option.
 
@@ -245,7 +245,7 @@ One of the three symbols +, −, × is inserted somewhere between the digits of 
 
 How many of the following four numbers can be obtained in this way?
 
-__36, 195, 207, 320__{.text-center}  
+__36;  195;  207;  320__{.text-center}  
 
 * [ ] A) 0
 * [ ] B) 1
@@ -334,11 +334,11 @@ Alternatively, we have the following tests for whether a positive integer is a m
 * 6) A multiple of 2 and a multiple of 3.  
 
 We apply these tests to the statements given in the options:
-* A) The units digits of 12 is 2, which is even. So 12 is a multiple of 2.
-* B) The sum of the digits of 123 is 1 + 2 + 3 = 6. This is a multiple of 3. So 123 is a multiple of by 3.
+* A) The units digit of 12 is 2, which is even. So 12 is a multiple of 2.
+* B) The sum of the digits of 123 is 1 + 2 + 3 = 6. This is a multiple of 3. So 123 is a multiple of 3.
 * C) The tens and units digits make 34. This is not a multiple of 4. So 1,234 is not a multiple of 4.
 * D) The units digit is 5. So 12,345 is a multiple of 5.
-* E) 123,456 has units digit 6 and the sum of its digits 21. So it is a multiple of 2 and 3, and hence of 6.  
+* E) 123,456 has units digit 6 and the sum of its digits is 21. So it is a multiple of 2 and 3, and hence of 6.  
 
 Therefore it is statement C that is false.
 :::
@@ -371,7 +371,7 @@ Since there are 24 hours in one day, 8760 hours is:
 It follows that of the given options a year is closest to the length of time corresponding to the number of seconds mentioned in the song.
 
 __Note__
-A calendar year has 365 days in a normal year, but 366 days in a leap year such as the current year.
+A calendar year has 365 days in a normal year, but 366 days in a leap year such as 2016.
 
 Astronomers use several different definitions of a year which differ a little from each other in length. One common definition is the sidereal year which is the time it takes the earth to complete one revolution about the sun, relative to the distant stars. The sidereal year has length 365.256363004 days.  
 
@@ -453,10 +453,10 @@ How many of these four expressions are perfect squares?
 
 We find the value of each expression to see which of them are squares. After we have found the value of the one expression, we can find the value of the next expression by adding the extra term to the sum we have already calculated. In this way, we obtain:  
 
-* 1<sup>3</sup> + 2<sup>3</sup> = 1 + 8 = 9 = 32.  
-* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> = 9 + 33 = 9 + 27 = 36 = 62.  
-* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup> = 36 + 43 = 36 + 64 = 100 = 102.  
-* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup> + 5<sup>3</sup> = 100 + 53 = 100 + 125 = 225 = 152.  
+* 1<sup>3</sup> + 2<sup>3</sup> = 1 + 8 = 9 = 3<sup>2</sup>.  
+* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> = 9 + 3<sup>3</sup> = 9 + 27 = 36 = 6<sup>2</sup>.  
+* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup> = 36 + 4<sup>3</sup> = 36 + 64 = 100 = 10<sup>2</sup>.  
+* 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup> + 5<sup>3</sup> = 100 + 5<sup>3</sup> = 100 + 125 = 225 = 15<sup>2</sup>.  
 
 We now see that all four of the expressions are perfect squares.  
 
@@ -541,7 +541,7 @@ What digit does `X` represent?
 
 ---
 
-From the units columnwe see that either `E + E = S`, or there is a carry, in which case `E + E = 10 + S`. However, from the tens column, we deduce that `E + E ≠ S`. So there is a carry from the units column to the tens column.  
+From the units column we see that either `E + E = S`, or there is a carry, in which case `E + E = 10 + S`. However, from the tens column, we deduce that `E + E ≠ S`. So there is a carry from the units column to the tens column.  
 
 Therefore, from the tens column we see that: `1 + E + E = 10 + E`.  
 
@@ -577,7 +577,7 @@ Therefore, as the first box holds the same number of pieces of fruit as the othe
 
 Hence the total number of pieces of fruit is 48. Since these are equally divided between the boxes, each of the three boxes contains 16 pieces of fruit.
 
-Alternatively, Since the first box contains one-ninth of the pears, we avoid fractions by supposing that there are `9p` pears. It follows that there are `p` pears in the first box and altogether `8p` pears in the other boxes. As they contain equal numbers of piece of fruit, there are `4p` pears in each of these boxes.  
+Alternatively, Since the first box contains one-ninth of the pears, we avoid fractions by supposing that there are `9p` pears. It follows that there are `p` pears in the first box and altogether `8p` pears in the other boxes. As they contain equal numbers of pieces of fruit, there are `4p` pears in each of these boxes.  
 
 Hence there are `12 + p` pieces of fruit in the first box, and `4p` in each of the other two boxes.  
 
@@ -608,7 +608,7 @@ What is the area of the cyclic quadrilateral with sides of length 4 cm, 5 cm, 7 
 
 ---
 
-In Brahmagupta’s formula, we have` a = 4, b = 5, c = 7` and `d = 10`.  
+In Brahmagupta’s formula, we have `a = 4, b = 5, c = 7` and `d = 10`.  
 
 The total length of the perimeter, in cm, is 4 + 5 + 7 + 10 = 26. Therefore `s = 26 ÷ 2 = 13`.  
 
@@ -632,6 +632,7 @@ Therefore the area of the cyclic quadrilateral is 36 cm<sup>2</sup>.
 ## 21.
 
 ::: problem id=21_1 marks=5
+![](/resources/8-13-chrismaths/21-pentagon.jpg){image align="right"}
 The diagram shows a pentagon drawn on a square grid. All vertices of the pentagon and triangle are grid points.  
 
 What fraction of the area of the pentagon is shaded?
@@ -745,7 +746,7 @@ We need to count the number of different ways in which we can choose to places t
 
 The method we use is to split our choice of how to arrange the tiles into a sequence of independent choices, and to count the number of different ways in which we can make these choices.  
 
-The first choice is to decide the colour of the two tiles with the same colour. There are 3 ways to choose this colour. Once we have made this choices, we have no further choice of colours as we must have one tile of each of the two other colours.  
+The first choice is to decide the colour of the two tiles with the same colour. There are 3 ways to choose this colour. Once we have made this choice, we have no further choice of colours as we must have one tile of each of the two other colours.  
 
 We now need to count the number of different ways to place the four tiles in a row after we have chosen their colours.  
 
