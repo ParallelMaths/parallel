@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 6_ Pie charts and speed-reading
+# Pie charts and speed-reading
 
 <div class="dictionary">
 
@@ -10,16 +10,10 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Here is this week's collection of mathematical challenges designed to stretch
-your brain.
-
-* Start and stop whenever you like – your work will be saved each time.
-* But it is better to tackle each Parallelogram in one go.
-* Complete by 7pm Sunday if your whole class is doing Parallelograms.
-*	Return after 7pm on Sunday to find your score, answers and explanations.
-* Make sure you complete every challenge and hit the SUBMIT button.
-
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. Pie Chart
@@ -195,16 +189,19 @@ __Contact us with your 50-word account of your day and you could win a copy of m
 
 Email your 50-word account to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and we will pick our favourite.
 
-***
 
-Check your email or return to the website on Thursday at 3pm for the next
-Parallelogram.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe
-take a look at the “Additional Stuff” section.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 
 ::: submit

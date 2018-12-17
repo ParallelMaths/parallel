@@ -1,24 +1,19 @@
-# _Year 8 • Parallelogram 11_ Colour Code Challenge
+# Colour Code Challenge
 
 <div class="dictionary">
 
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-1. a portmanteaux word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Here is this week's collection of mathematical challenges designed to stretch your brain.  
-
-*	Start and stop whenever you like – your work will be saved each time.
-*	But it is better to tackle each Parallelogram in one go.
-* Complete by 7pm Sunday if your whole class is doing Parallelograms.
-*	Return after 7pm on Sunday to find your score, answers and explanations.
-
-__IMPORTANT__ – it does not really matter what score you get, the main thing is
-that you think hard about the problems... and then learn where you went wrong
-when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1.	The Colour Code Challenge
@@ -173,14 +168,20 @@ Hopefully you will have got the right answers and been shocked by them. Right or
 For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}, but remember to come back and hit the submit button.
 :::
 
-***
 
-Check your email or return to the website on Thursday at 3pm for the next Parallelogram.
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
+Before you hit the SUBMIT button, here are some quick reminders:
+
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 ::: submit
 

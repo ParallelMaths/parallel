@@ -1,44 +1,19 @@
-# _Year 8 • Parallelogram 2_ Lou Costello, Pi and More Pendula
+# Lou Costello, Pi and More Pendula
 
 <div class="dictionary">
 
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
-
-1. a four-sided plane rectilinear figure with opposite sides parallel.
-2. a portmanteau word combining parallel and telegram. A message containing
-   mischievous maths problems sent each week by the Parallel Project to bright
-   young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Welcome to the next in our series of our Parallelograms designed for Year 8
-students, a collection of mathematical challenges designed to stretch your brain
-and make your neurons more squiggly.
-
-You can start and stop whenever you like, but you should complete all the
-challenges by 7pm on Sunday, particularly if your teacher has asked you to
-complete this Parallelogram.
-
-You can return to the site any time after 7pm on Sunday and you will find your
-score and a sheet with answers and explanations… as long as you have completed the
-challenge and hit the SUBMIT button.
-
-This week’s Parallelogram challenge is in six parts.
-
-
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct
-  answer).
-
-__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think
-hard and try hard before resorting to the hint. The hints will help you get the
-right answer, but you will lose marks.
-
-__IMPORTANT__ – it does not really matter what score you get, the main thing is
-that you think hard about the problems... and then learn where you went wrong when
-the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. Weird film about π
@@ -303,18 +278,19 @@ __6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would h
 <input type="text" solution="18"/>  
 :::
 
-***
 
-Well done on completing this week’s Parallelogram. Check your email or return to the website on Friday for the next one.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-In the meantime, you can find the answers and go through the answer sheet after 7pm on Sunday. This is really important. Seriously important. What you got right is much less important than what you got wrong, because where you went wrong provides you with an opportunity to learn something new.
-
-First... Remember to hit the SUBMIT button below, so that we can mark your answers.
-
-Also, once you have hit the SUBMIT button there will an extra bit of optional Parallelogram if you are feeling particularly keen.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 
 ::: submit

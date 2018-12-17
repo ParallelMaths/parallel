@@ -1,4 +1,4 @@
-# _Year 7 • Parallelogram 9_ Easter challenges
+# Easter challenges
 
 <div class="dictionary">
 
@@ -10,13 +10,10 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Because it is the Easter holidays, this Parallelogram is longer than usual, but you have more time to complete it.
-
-* Start and stop whenever you like – your work will be saved each time.
-* The next Parallelogram is not until April 20, so there is no need to rush.
-*	Return after 7pm on Sunday to find your score, answers and explanations, but only after you have completed the Parallelogram and hit the SUBMIT button.
-
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. Venn diagrams
@@ -346,14 +343,19 @@ Therefore `(245 + W)/(500 + W) = 0.5`
 `W = 10 `
 :::
 
-***
 
-Check your email or return to the website on Thursday April 20 at 3pm for the next Parallelogram.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 
 ::: submit

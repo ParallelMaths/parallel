@@ -1,46 +1,19 @@
-# _Year 7 • Parallelogram 1_ Codes and Physics
+# Codes and Physics
 
 <div class="dictionary">
 
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from
-Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
-
-1. a four-sided plane rectilinear figure with opposite sides parallel.
-2. a portmanteau word combining parallel and telegram. A message containing
-   mischievous maths problems sent each week by the Parallel Project to bright
-   young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Welcome to our first Parallelogram, a collection of mathematical challenges
-designed to stretch your brain and make your neurons more squiggly.
-
-You can start and stop whenever you like, but you should complete all the
-challenges by 7pm on Sunday, particularly if your teacher has asked you to complete
-this Parallelogram.
-
-You can return to the site any time after 7pm on Sunday and you will find your
-score and a sheet with answers and explanations – as long as you have completed
-the challenge and hit the SUBMIT button.
-
-This week’s Parallelogram challenge is in seven parts… some Challenges will have
-a single theme, while others have sections that shoot off in wildly different
-directions. In short, these challenges are often going to be a random walk
-through the mysteries of mathematics. Be prepared to encounter all sorts of
-weird ideas.
-
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct
-  answer).
-
-__IMPORTANT__ – some questions have a hint (sometimes two hints). Please think
-hard and try hard before resorting to the hint. The hints will help you get the right answer, but you will lose marks.
-
-__IMPORTANT__ – it does not really matter what score you get, the main thing is
-that you think hard about the problems... and then learn where you went wrong
-when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. Secret codes
@@ -71,14 +44,14 @@ Here is a (5x5) grid containing all the letters of the alphabet, except Z:
 
 The word CODE is coded with the following series of symbols.
 
-![](/resources/7-01-parallelogram/1-1-code.png)
+![](/resources/7-14-codes-physics/1-1-code.png)
 
 Try to work out how the code works.
 
 ::: problem id=1_1 marks=2
 __1.1.__ Which Star Wars character is represented by symbols below?
 
-![](/resources/7-01-parallelogram/1-2-question.png)
+![](/resources/7-14-codes-physics/1-2-question.png)
 
 ^^^ hint id=1
 In the example, CODE, the first symbol above represents C. It has one line on the
@@ -162,7 +135,7 @@ The triangles A and B are both equilateral.
 
 It will probably help if you redraw the diagram – a quick sketch will make it much easier.
 
-![](/resources/7-01-parallelogram/3-1-angles.png)
+![](/resources/7-14-codes-physics/3-1-angles.png)
 
 Angle x = <input type="text" solution="155"/>°  
 Angle y = <input type="text" solution="85"/>°
@@ -173,7 +146,7 @@ First, you can fill in the six 60° angles of the 2 equilateral triangles. Angle
 a1 is obvious (85°), and so is angle a2 (80°). Once you know a2, then a3 must
 be 35°.
 
-![](/resources/7-01-parallelogram/3-1-angles-answer.png)
+![](/resources/7-14-codes-physics/3-1-angles-answer.png)
 
 The rest is easy.
 
@@ -285,63 +258,15 @@ releasing the ball, moved forward a tiny amount. That tiny movement
 was enough to result in a painful lesson.
 
 
-## 6. An easy puzzle
 
-::: problem id=6 marks=3.5
-__6.1__ I saw this in a newspaper – it was a puzzle for adults, fully grown humans, but
-I think you will find it easy. All the digits from 1 to 9 are used in this grid,
-but only once. Can you work out their positions in the grid so that each of the
-six different sums work? Two of the numbers have been inserted in order to get
-you started. Just identify the other seven numbers.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-(NOTE: perform operations in the order they appear, e.g., `3 + 4 × 5 = 35` (not 23))
-
-![](/resources/7-01-parallelogram/6-1-puzzle.png){style="width:400px"}
-
-a = <input type="text" solution="6"/>  
-b = <input type="text" solution="8"/>  
-c = <input type="text" solution="7"/>  
-d = <input type="text" solution="9"/>  
-e = <input type="text" solution="3"/>  
-f = <input type="text" solution="2"/>  
-g = <input type="text" solution="4"/>
-
----
-
-The easiest number to pin down is `d`, which has to be 9.
-
-`5 ÷ 1 × 9 = 45`.
-
-You may have followed a different route, but I then worked `c` and `g`. We know that
-`9c + g` must equal 67, and `c` and `g` are single digits, so then `c = 7` and `g = 4`.
-
-Now we know `c = 7`, then we also know that `a × b = 48`.
-
-This means that a = 6 and b = 8 or a = 8 and b = 6.
-
-We know that b + 1 is factor of 18 from the middle column, so `b = 8`.
-
-We also know that `a × 5` is a factor of 90 from the 1st column, so `a = 6`.
-
-And the rest is easy.
-
-![](/resources/7-01-parallelogram/6-1-puzzle-solution.png){style="width:400px"}
-:::
-
-***
-
-I hope you enjoyed (or at least did not hate) this Parallelogram. There will be
-more next week, and the week after, and the week after that. So check your email
-or return to the website on Friday.
-
-In the meantime, you can find the answers and go through the answer sheet after
-7pm on Sunday (or perhaps even now if you are late completing this Parallelogram).
-
-Going through the answer sheet is really important. Seriously important. What you
-got right is much less important than what you got wrong, because where you went wrong
-provides you with an opportunity to learn something knew.
-
-First... remember to hit the SUBMIT button below, so that we can mark your answers.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.

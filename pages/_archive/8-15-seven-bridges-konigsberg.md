@@ -1,4 +1,4 @@
-# _Year 8 • Parallelogram 14_ The Seven Bridges of Konigsberg
+# The Seven Bridges of Konigsberg
 
 <div class="dictionary">
 
@@ -10,15 +10,10 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-This is the final parallelogram of the school year. If you score highly enough in the last 4 Parallelograms (#12, #13, #14 & this one) by June 1, __then you will receive a Parallel certificate__. An average of more than 40% in these four Parallelograms wins a bronze certificate, then 60% or more wins silver and 80% or more wins gold.
-
-* Start and stop whenever you like – your work will be saved each time.
-* But it is better to tackle each Parallelogram in one go.
-* Complete by 7pm Sunday if your whole class is doing Parallelograms.
-* Return after 7pm on Sunday to find your score, answers and explanations.
-* Make sure you complete every challenge and hit the SUBMIT button.
-
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then learn where you went wrong when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1.	The Seven Bridges of Königsberg
@@ -203,18 +198,19 @@ The great scientist and comedian Harry Hill made the following startling observa
 “It's only when you look at an ant through a magnifying glass on a sunny day that you realize how often they burst into flames.”
 
 
-***
 
-And that’s the end of Parallelograms for this school year. To have a chance of earning your Parallel certificate, make sure you have completed Parallelograms 12, 13, 14 and 15 by June 1st.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
-
-And... don’t be cruel to ants!
-
-Have a great summer. Parallel will be back in September. Thanks for taking part.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 ::: submit
 

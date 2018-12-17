@@ -1,35 +1,19 @@
-# _Year 7 • Parallelogram 3_ Crosses and Crosses
+# Crosses and Crosses
 
 <div class="dictionary">
 
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-__Origin__: late 16th century: from French parallélogramme, via late Latin from Greek parallēlogrammon, from parallēlos ‘alongside another’ + grammē ‘line’.  
-
-1. a four-sided plane rectilinear figure with opposite sides parallel.
-2. a portmanteau word combining parallel and telegram. A message containing
-   mischievous maths problems sent each week by the Parallel Project to bright
-   young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Welcome to this week's Parallelogram designed for Year 7 students, a
-collection of mathematical challenges designed to stretch your brain and make
-your neurons more squiggly.
-
-* Start and stop whenever you like – your work will be saved each time.
-* But it is better to tackle each Parallelogram in one go.
-*	Complete by 7pm Sunday if your whole class is doing Parallelograms.
-*	Return after 7pm on Sunday to find your score, answers and explanations.
-*	Make sure you complete every challenge and hit the SUBMIT button.
-
-__IMPORTANT__ – you will get points for every correct answer (or nearly correct
-  answer).
-
-__IMPORTANT__ – it does not really matter what score you get, the main thing is
-that you think hard about the problems... and then learn where you went wrong
-when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. Junior Maths Challenge
@@ -339,24 +323,19 @@ DANGEROUS.__
 
 @[youtube](AfZDwDE1yr8?rel=0)
 
-***
 
-Well done on completing this week’s Parallelogram. Check your email or return
-to the website on Friday for the next one.
+Before you hit the SUBMIT button, here are some quick reminders:
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday. This
-is really important. What you got right is much less important than what you
-got wrong, because an incorrect answer provides you with an opportunity to
-learn something new.
-
-First... remember to hit the SUBMIT button below, so that we can mark your
-answers.
-
-Also, once you have hit the SUBMIT button there will an extra bit of optional
-Parallelogram.
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 
 ::: submit

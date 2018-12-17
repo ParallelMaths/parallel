@@ -1,26 +1,19 @@
-# _Year 8 • Parallelogram 6_ Countdown and levitating water
+# Countdown and levitating water
 
 <div class="dictionary">
 
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-1. a portmanteaux word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.
+1. a portmanteaux word combining parallel and telegram. A message sent each
+week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Here is this week's collection of mathematical challenges designed to stretch your brain.  
-
-*	Start and stop whenever you like – your work will be saved each time.
-*	But it is better to tackle each Parallelogram in one go.
-* Complete by 7pm Sunday if your whole class is doing Parallelograms.
-*	Return after 7pm on Sunday to find your score, answers and explanations.
-
-__IMPORTANT__ – you will get points for every correct answer, but lose points if you use hints.
-
-__IMPORTANT__ – it does not really matter what score you get, the main thing is
-that you think hard about the problems... and then learn where you went wrong
-when the answer sheet appears.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1.	Crazy Coundown numbers
@@ -144,14 +137,20 @@ This is a short, curious and odd video about purple. No maths, just chemistry.
 
 @[youtube](CYB-pmNs4VQ?rel=0)
 
-***
 
-Check your email or return to the website on Thursday at 3pm for the next Parallelogram.
 
-In the meantime, you can go through the answer sheet after 7pm on Sunday, but first remember to hit the SUBMIT button below, and then maybe take a look at the “Additional Stuff” section.
+Before you hit the SUBMIT button, here are some quick reminders:
+
+*	You will receive your score immediately, and collect your reward points.
+*	You might earn a new badge... if not, then maybe next week.
+*	Make sure you go through the solution sheet – it is massively important.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	The next Parallelogram is next week, at 3pm on Thursday.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
 
 Cheerio,
 Simon.
+
 
 
 ::: submit
