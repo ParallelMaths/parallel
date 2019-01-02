@@ -133,7 +133,7 @@ of the bar was left. How many children did she have?
 One third of the bar was left, so Mother Hubbard’s children ate two-thirds of
 the bar. Since they ate one-twelfth of the bar each, Mother Hubbard had
 
-![](/resources/8-01-ma-kettle/3-hubbard-solution.png)
+![](/resources/8-14-ma-kettle/3-hubbard-solution.png)
 :::
 
 
@@ -152,7 +152,7 @@ swings at a different rate, because it has a different length. In fact, there is
 a formula that determines the relationship between the length of the pendulum and
 the time it takes to swing from left to right and back to the left.
 
-![](/resources/8-01-ma-kettle/4-formula.png)
+![](/resources/8-14-ma-kettle/4-formula.png)
 
 or   T = 2π √(L/g)
 
@@ -198,30 +198,30 @@ equation so that you have the length depend on the time.
 ^^^ hint id=1 marks=2
 
 
-![](/resources/8-01-ma-kettle/4-2-first-term.png)
+![](/resources/8-14-ma-kettle/4-2-first-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-second-term.png)
+![](/resources/8-14-ma-kettle/4-2-second-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-third-term.png)
+![](/resources/8-14-ma-kettle/4-2-third-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-fourth-term.png)
+![](/resources/8-14-ma-kettle/4-2-fourth-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-fifth-term.png)
+![](/resources/8-14-ma-kettle/4-2-fifth-term.png)
 
 L = g(T÷(2π))^2
 ^^^
 
 ---
 
-![](/resources/8-01-ma-kettle/4-2-first-term.png)
+![](/resources/8-14-ma-kettle/4-2-first-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-second-term.png)
+![](/resources/8-14-ma-kettle/4-2-second-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-third-term.png)
+![](/resources/8-14-ma-kettle/4-2-third-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-fourth-term.png)
+![](/resources/8-14-ma-kettle/4-2-fourth-term.png)
 
-![](/resources/8-01-ma-kettle/4-2-fifth-term.png)
+![](/resources/8-14-ma-kettle/4-2-fifth-term.png)
 
 We want to know L for a T of 1 second, so:
 
@@ -249,7 +249,7 @@ how and why they think 25/5 = 14.
 __5.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
 need to watch video again.
 
-![](/resources/8-01-ma-kettle/blackboard-sum.png)
+![](/resources/8-14-ma-kettle/blackboard-sum.png)
 
 <input type="text" solution="21"/>  
 :::
