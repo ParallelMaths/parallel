@@ -39,7 +39,7 @@ Don’t celebrate too early. Check your work. Don’t leave a job half done.
 @[youtube](9Bu_gn5ChQ4?rel=0)
 
 
-## 3.	Junior Maths Challenge Problem
+## 3.	Junior Maths Challenge Problem (UKMT)
 <!--- (2014) Q6 --->
 
 ::: problem id=3_1 marks=2
@@ -129,7 +129,7 @@ Two sides of the square will be black, as previously. The other two sides will e
 :::
 
 
-## 4.	Another Junior Maths Challenge Problem
+## 4.	Junior Maths Challenge Problem (UKMT)
 <!--- (2014) Q7 --->
 
 ::: problem id=4_1 marks=3
@@ -161,7 +161,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

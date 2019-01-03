@@ -136,7 +136,7 @@ __2.2__ Instead of “isosceles”, what should the Scarecrow have said?
 :::
 
 
-## 3.	Junior Maths Challenge Problem
+## 3.	Junior Maths Challenge Problem (UKMT)
 
 If you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 

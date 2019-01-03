@@ -31,7 +31,7 @@ You will have come across lots of pie charts, and they are a useful way of repre
 ![](/resources/7-06-pie-charts/1-pie-5-understanding.jpg){image align="center"}
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (17) --->
 
 In case you have forgotten, or are new to Parallelograms, these Junior Maths Challenge questions come from an annual maths challenge that you might already have been part of or which you might be taking part in this year. The questions are sometimes tough, but that is the definition of a challenge.
@@ -80,7 +80,7 @@ __3.1__ According to this video from the Quirkology YouTube channel, what was yo
 :::
 
 
-## 4. Junior Maths Challenge
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (18) --->
 
 ::: problem id=4_1 marks=3
@@ -197,7 +197,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

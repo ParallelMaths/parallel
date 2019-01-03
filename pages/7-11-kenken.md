@@ -139,7 +139,7 @@ Focus on the left column. The only way to fill the (6x) cage is with (3, 2, 1). 
 :::
 
 
-## 4.	Junior Maths Challenge Problem
+## 4.	Junior Maths Challenge Problem (UKMT)
 <!--- (2014) Q4 --->
 
 For parts 4.1, 4.2, 4.3 & 4.4 calculators are not allowed. Remember, the Junior Maths Challenge test does not allow any calculators. However, you can use a calculator for part 4.5. And you can use a calculator to check the answers you have worked out by hand.
@@ -196,7 +196,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

@@ -27,7 +27,7 @@ If you want to tackle the puzzle before you watch the clip, then this is the puz
 @[youtube](sKdM82SELsU?rel=0)
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (19) --->
 
 Part 1 of this question is really sneaky. I got it wrong when I tried, then kicked myself afterwards.
@@ -85,7 +85,7 @@ __3.1.__ Which planet could be powered by the Leidenfrost effect?
 :::
 
 
-## 4. Junior Maths Challenge
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (20) --->
 
 In case you have forgotten, or are new to Parallelograms, these Junior Maths Challenge questions come from an annual maths challenge that you might already have been part of or which you might be taking part in this year. The questions are sometimes tough, but that is the definition of a challenge. In fact, this one is so tough that I have added a hint.
@@ -146,7 +146,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

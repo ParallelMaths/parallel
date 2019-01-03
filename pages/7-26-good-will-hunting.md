@@ -365,7 +365,7 @@ reason why it’s a good idea to be a confident mathematician.
 @[youtube](BbX44YSsQ2I?rel=0)
 
 
-## 5. Junior Maths Challenge
+## 5. Junior Maths Challenge Problem (UKMT)
 
 ::: problem id=5 marks=1
 __5.1__ What is the value of `x`?
@@ -397,7 +397,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

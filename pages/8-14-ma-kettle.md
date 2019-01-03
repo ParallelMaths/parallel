@@ -89,7 +89,7 @@ __1.3.__ How accurate is 13/8 compared to the true value of φ?
 
 :::
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (4) --->
 
 The world's largest coin, made by the Royal Mint of Canada, was auctioned in June
@@ -113,7 +113,7 @@ weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need
 :::
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (5) --->
 
 ::: problem id=3_1 marks=2
@@ -137,102 +137,7 @@ the bar. Since they ate one-twelfth of the bar each, Mother Hubbard had
 :::
 
 
-## 4. Harmonic Pendulum
-
-Take a look at this video of a collection of pendula (the plural of pendulum),
-which behave in a beautiful and surprising way. It’s called a wave pendulum or
-harmonic pendulum. It lasts three minutes, and it is worth watching right through
-to the end to see the amazing effect.
-
-@[youtube](RrX2yTGJ6N0?rel=0)
-
-Tom Rowett, who was in the video, has a huge and wonderful collection of odd objects,
-and we will meet more of them in later Parallelograms. In this case, each pendulum
-swings at a different rate, because it has a different length. In fact, there is
-a formula that determines the relationship between the length of the pendulum and
-the time it takes to swing from left to right and back to the left.
-
-![](/resources/8-14-ma-kettle/4-formula.png)
-
-or   T = 2π √(L/g)
-
-where
-* __T__ is the time of a complete swing in seconds.
-* __π__ is 3.14 (Wow! Always nice to see π.)
-* __L__ is the length of the pendulum in meters.
-* __g__ is the acceleration due to gravity (9.8 m/s²). Don’t worry about this –
-it is a bit of physics that describes how an object falls due to the Earth’s gravity.
-
-If you had a pendulum that was as tall as a human, say 2 metres, how long would
-it take to swing? If __L__ = 2 meters, then:
-
-__T__ = `2 × 3.14 × sqrt(2/9.8) = 6.28 × sqrt(0.204) = 6.28 × 0.4517`
-
-__T__ = 2.837 seconds.
-
-So a 2 metre pendulum takes 2.837, or nearly 3 seconds, to swing back and forth.
-
-::: problem id=4_1 marks=2
-__4.1__ If one of the pendula in the video is 0.15 meters long, how long is the
-period of the swing?
-
-* [ ] 0.10 seconds
-* [ ] 0.15 seconds
-* [ ] 0.39 seconds
-* [x] 0.78 seconds
-* [ ] 1.00 second
-:::
-
-::: problem id=4_2 marks=3
-__4.2__ If you wanted a pendulum to have a swing time of 1 second (__T__ = 1 second),
-how long should the pendulum be? At the moment the equation gives you the time
-(__T__) depending on the length (__L__), so it might be useful to rearrange the
-equation so that you have the length depend on the time.
-
-* [ ] 0.18 metres
-* [x] 0.248 metres
-* [ ] 0.99 metres
-* [ ] 1.16 metres
-* [ ] 1.8 metres
-
-^^^ hint id=1 marks=2
-
-
-![](/resources/8-14-ma-kettle/4-2-first-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-second-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-third-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-fourth-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-fifth-term.png)
-
-L = g(T÷(2π))^2
-^^^
-
----
-
-![](/resources/8-14-ma-kettle/4-2-first-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-second-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-third-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-fourth-term.png)
-
-![](/resources/8-14-ma-kettle/4-2-fifth-term.png)
-
-We want to know L for a T of 1 second, so:
-
-  `L= g(T÷(2π))^2`
-  `L= 9.8 × (1 ÷ 6.28)^2`
-  `L = 0.248 "meters"`
-
-:::
-
-
-## 5. Ma and Pa Kettle
+## 4. Ma and Pa Kettle
 
 Ma and Pa Kettle were hillbilly characters in an American TV show in the 1940s.
 The characters featured in nine films, which grossed $35 milllion, which was a
@@ -245,8 +150,8 @@ how and why they think 25/5 = 14.
 
 @[youtube](t8XMeocLflc?rel=0)
 
-::: problem id=5 marks=2
-__5.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
+::: problem id=4 marks=2
+__4.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
 need to watch video again.
 
 ![](/resources/8-14-ma-kettle/blackboard-sum.png)
@@ -254,7 +159,8 @@ need to watch video again.
 <input type="text" solution="21"/>  
 :::
 
-## 6. Pi mnemonic song
+
+## 5. Pi mnemonic song
 
 Andrew Huang has created a song which is a mnemonic for the first 100 decimal
 places of π. It is quite charming, apart from the occasional mentions of "ZERO".
@@ -267,6 +173,27 @@ Anyway, see what you make of it, and maybe make up your own mnemonic for π.
 @[youtube](EaDm9G4Ig18?end=88&rel=0)
 
 
+## 6. A New Year reminder
+
+As it is the start of the year, I thought it would be good just to remind you that Parallelograms are really tough, they cover topics that you might not have seen before and they are designed to confuse you. If too many people get 100%, then I will just have to make the Parallelograms tougher, weirder and more confusing. In short, if you only get 50%, don’t worry. If you get less than 50%, don’t worry. Just make sure you go through the solution sheet and try to find out why you got a question wrong. I really do mean it when I say that I am overjoyed if a student gets 25%, as long as they did their best, looked at the solution sheet, and then learned something. That is far better than getting 100% and learning nothing... although well done if you do get 100%.
+
+Does that make sense? I just wanted to remind students, teachers and parents that Parallelogram are a major challenge, and to a large extent the scores don’t matter.
+
+By the way, it does say at the start of every Parallelogram: “Don’t worry if you score less than 50%, because it means you will learn something new when you check the solutions.”
+
+::: problem id=6_1 marks=3
+__6.1__ Are you cool about Parallelograms being hard and therefore not necessarily getting a high score every week?
+
+* [x] Yes, I am very cool about it. Positively chilled. Or maybe negatively chilled.
+:::
+
+::: problem id=6_2 marks=3
+__6.2__ Are you going to promise to go through the solution sheet every week and learn from your mistakes?
+
+* [x] Yes, I promise to go through the solution sheet every week. Really. Seriously. I mean it. If not, then may the ghosts of dead mathematicians haunt me during maths lessons.
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
@@ -274,14 +201,10 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ## Additional Stuff

@@ -36,7 +36,7 @@ Of course, the niece will always be 30 years younger than her aunt.
 :::
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2013 (11) --->
 
 ::: problem id=2_1 marks=2
@@ -112,7 +112,7 @@ By trial and error, you should have worked out that the only place you can start
 :::
 
 
-## 6. Junior Maths Challenge
+## 6. Junior Maths Challenge Problem (UKMT)
 <!--- 2013 (12) --->
 
 ::: problem id=6_1 marks=2
@@ -141,7 +141,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

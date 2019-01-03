@@ -47,7 +47,7 @@ Note: The questioner, Jeremy Paxman, gives a different and larger answer, becaus
 :::
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- (2012 extension) --->
 
 ::: problem id=2_1 marks=1
@@ -61,7 +61,7 @@ The obvious strategy is to put the smallest number on the left, as it represents
 :::
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- (2012 extension) --->
 
 ::: problem id=3_1 marks=2
@@ -219,7 +219,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

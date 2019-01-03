@@ -123,7 +123,7 @@ The answer is 87, because if you look it at from the driver's point of the view,
 :::
 
 
-## 3.	Intermediate Maths Challenge Problem
+## 3.	Intermediate Maths Challenge Problem (UKMT)
 
 As I mentioned last week, if you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 

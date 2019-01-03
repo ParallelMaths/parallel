@@ -24,7 +24,7 @@ This is my all time favourite Venn diagram. What? Doesn’t everyone have a favo
 
 I guess that the left set contains “creatures with flat tails playing guitars”, while the right set contains “creatures with bills playing keyboards”. Hence, the animal in the overlap is a platypus playing a keytar, because it is a creature with a bill AND a flat tail, which is playing a guitar AND a keyboard.
 
-## Junior Maths Challenge Mock
+## Junior Maths Challenge (UKMT) Mock
 
 Some of you will be doing the UKMT’s Junior Maths Challenge next month, so the rest of this Parallelogram consists of 12 Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
@@ -351,7 +351,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

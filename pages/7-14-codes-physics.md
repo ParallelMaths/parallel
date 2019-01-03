@@ -256,7 +256,28 @@ physics, and it swung forward, and then it swung all the way back, but very
 slightly short of where it started. The problem was that the student, after
 releasing the ball, moved forward a tiny amount. That tiny movement
 was enough to result in a painful lesson.
+:::
 
+
+## 6. A New Year reminder
+
+As it is the start of the year, I thought it would be good just to remind you that Parallelograms are really tough, they cover topics that you might not have seen before and they are designed to confuse you. If too many people get 100%, then I will just have to make the Parallelograms tougher, weirder and more confusing. In short, if you only get 50%, don’t worry. If you get less than 50%, don’t worry. Just make sure you go through the solution sheet and try to find out why you got a question wrong. I really do mean it when I say that I am overjoyed if a student gets 25%, as long as they did their best, looked at the solution sheet, and then learned something. That is far better than getting 100% and learning nothing... although well done if you do get 100%.
+
+Does that make sense? I just wanted to remind students, teachers and parents that Parallelogram are a major challenge, and to a large extent the scores don’t matter.
+
+By the way, it does say at the start of every Parallelogram: “Don’t worry if you score less than 50%, because it means you will learn something new when you check the solutions.”
+
+::: problem id=6_1 marks=3
+__6.1__ Are you cool about Parallelograms being hard and therefore not necessarily getting a high score every week?
+
+* [x] Yes, I am very cool about it. Positively chilled. Or maybe negatively chilled.
+:::
+
+::: problem id=6_2 marks=3
+__6.2__ Are you going to promise to go through the solution sheet every week and learn from your mistakes?
+
+* [x] Yes, I promise to go through the solution sheet every week. Really. Seriously. I mean it. If not, then may the ghosts of dead mathematicians haunt me during maths lessons.
+:::
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -266,13 +287,10 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.
-
-
-::: submit
 
 
 ## Additional Stuff

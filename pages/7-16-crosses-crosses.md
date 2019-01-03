@@ -16,7 +16,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. Junior Maths Challenge
+## 1. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (2e) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
@@ -74,7 +74,7 @@ It is easy to add up the digits of 5 written out 2,011 times. It is just 5 x
 divisible by 9, and because 1 + 1 = 2, the remainder is 2.
 :::
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (3) --->
 
 ![](/resources/7-03-crosses-crosses/3-lightsquestion.png){image align="right"}
@@ -331,7 +331,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

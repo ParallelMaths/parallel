@@ -98,7 +98,7 @@ It’s carved from a pencil, so the steam engine is about 1 cm long.
 :::
 
 
-## 4.	Junior Maths Challenge Problem
+## 4.	Junior Maths Challenge Problem (UKMT)
 <!--- (2014) Q5 --->
 
 ::: problem id=4_1 marks=2
@@ -124,7 +124,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

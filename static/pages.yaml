@@ -1,4 +1,9 @@
 year7:
+  - url: 7-15-marie-curie
+    title: Madam Curie’s square riddle
+    subtitle: Week 15
+    available: 2019-01-17T13:00:00
+    deadline: 2019-01-20T13:00:00
   - url: 7-14-codes-physics
     title: Codes and Physics
     subtitle: Week 14
@@ -72,6 +77,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-15-lou-costello
+    title: Lou Costello, Pi and More Pendula
+    subtitle: Week 15
+    available: 2019-01-17T13:00:00
+    deadline: 2019-01-20T13:00:00
   - url: 8-14-ma-kettle
     title: Ma and Pa Kettle Make Pendulum Pi
     subtitle: Week 14
@@ -145,6 +155,16 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-15-bubble-solution
+    title: Bubble Solution
+    subtitle: Week 15
+    available: 2019-01-17T13:00:00
+    deadline: 2019-01-20T13:00:00
+  - url: 9-14-teapot-time
+    title: Teapot Time
+    subtitle: Week 14
+    available: 2019-01-10T13:00:00
+    deadline: 2019-01-13T13:00:00
   - url: 9-13-chrismaths
     title: Chrismaths Y9
     subtitle: Week 13

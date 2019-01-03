@@ -57,7 +57,7 @@ Once upon a time, Steve Jobs wanted to persuade the head of Pepsi to join him at
 Studying mathematics is a stepping stone to changing the world.
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- (2013) --->
 
 ::: problem id=3_1 marks=2
@@ -123,7 +123,7 @@ In fact, I am not sure Samuel L. Jackson is right when he is trying to work out 
 :::
 
 
-## 5. Junior Maths Challenge
+## 5. Junior Maths Challenge Problem (UKMT)
 <!--- (2013) --->
 
 ::: problem id=5_1 marks=2
@@ -173,7 +173,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

@@ -16,7 +16,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. Junior Maths Challenge
+## 1. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (1) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
@@ -50,7 +50,7 @@ operations. So, multiplications take priority over addition, so
 :::
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (2) --->
 
 ::: problem id=2_1 marks=1
@@ -108,6 +108,9 @@ __3.1.__ Curie’s 1911 Nobel Prize was for the discovery of an element that was
 * [x] Polonium
 * [ ] Newzealandium
 
+---
+
+Polonium was discovered in 1898 by Marie and Pierre Curie, and it was named after Marie Curie's homeland of Poland.
 :::
 
 
@@ -171,7 +174,7 @@ of 3?
 YES     = 24¦4¦18  
 YES + 3 = 27¦7¦21 = ?HV{.text-center}
 
-![](/resources/7-02-marie-curie/5-encoding-diagram.png)
+![](/resources/7-15-marie-curie/5-encoding-diagram.png)
 
 27 does not appear in our alphabet. How do we represent 27 as a letter? What
 letter does Y turn into?
@@ -332,18 +335,6 @@ of 1.
 :::
 
 
-## 6. Square it!
-
-The great maths website NRICH has a tricky game called “Square It”. Play against
-the computer in 1-player mode and see if you can win.
-
-[Play the game](https://nrich.maths.org/2526){target="_blank"}
-
-If you do manage to win, then just take a photo or screengrab, which includes the
-date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
-at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
-
-
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
@@ -351,14 +342,12 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.
 
 
-
-::: submit
 
 ## Additional Stuff
 

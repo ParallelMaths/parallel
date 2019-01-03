@@ -44,7 +44,7 @@ __1.2__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and
 Yes, because one solution is (75 + 50) ÷ (100 + 25) + 8 – 9
 :::
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (21) --->
 
 ::: problem id=2_1 marks=2
@@ -106,7 +106,7 @@ The small pizza is `30/45` or `2/3` as wide as the medium pizza, so its area is 
 :::
 
 
-## 4. Junior Maths Challenge
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (22) --->
 
 ::: problem id=4_1 marks=3
@@ -236,7 +236,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

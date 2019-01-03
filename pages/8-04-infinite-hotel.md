@@ -100,7 +100,7 @@ __2.3.__ Which of these statements best describes the settled motion of the thre
 @[youtube](FYE4JKAXSfY?&rel=0)
 
 
-## 3.	Junior Maths Challenge Problem
+## 3.	Junior Maths Challenge Problem (UKMT)
 <!--- (2013) Q14 --->
 
 As I mentioned in previous Parallelograms, if you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.

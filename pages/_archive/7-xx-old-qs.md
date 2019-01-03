@@ -40,3 +40,18 @@ And the rest is easy.
 
 ![](/resources/7-01-parallelogram/6-1-puzzle-solution.png){style="width:400px"}
 :::
+
+
+
+
+
+## 6. Square it!
+
+The great maths website NRICH has a tricky game called “Square It”. Play against
+the computer in 1-player mode and see if you can win.
+
+[Play the game](https://nrich.maths.org/2526){target="_blank"}
+
+If you do manage to win, then just take a photo or screengrab, which includes the
+date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
+at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.

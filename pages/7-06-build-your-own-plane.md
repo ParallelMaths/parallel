@@ -87,7 +87,7 @@ If you didn’t know that a quarterback is an American footballer, then a quick 
 :::
 
 
-## 3.	Junior Maths Challenge Problem
+## 3.	Junior Maths Challenge Problem (UKMT)
 <!--- (2013) Q17 --->
 
 ::: problem id=3_1 marks=3
@@ -131,8 +131,8 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November. 
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

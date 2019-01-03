@@ -24,7 +24,7 @@ look at this snippet from the trailer.
 
 @[youtube](r0SC582sJvE?start=0&end=44&rel=0)
 
-![](/resources/8-02-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
+![](/resources/8-15-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
 I like the comment that “mathematics is the language of nature”, and you will see
 that more and more as you study different areas of maths. For example, take a look
@@ -63,7 +63,7 @@ __1.3.__ This series of numbers is called:
 
 The sunflower below also has two sets of spirals, and the numbers of spirals are also part of this number series.  
 
-![](/resources/8-02-lou-costello/1-double-fib-spirals.png) {image align="center" img alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
+![](/resources/8-15-lou-costello/1-double-fib-spirals.png) {image align="center" img alt="From https://harmoniaphilosophica.wordpress.com/2012/06/30/fibonacci-young-human-progress/ "}
 
 ::: problem id=1_4 marks=1
 __1.4.__ How many anticlockwise (x) spirals?
@@ -80,7 +80,7 @@ __1.5.__ How many clockwise (y) spirals?
 :::
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (6) --->
 
 The Junior Maths Challenge is a national maths competition run by the UK Maths
@@ -100,7 +100,7 @@ most of you should be able to attack.
 
 ::: problem id=2_1 marks=2
 __2.1.__ What is the sum of the marked angles in the diagram?
-![](/resources/8-02-lou-costello/2-triangles.png)
+![](/resources/8-15-lou-costello/2-triangles.png)
 
 * [ ] 90°
 * [ ] 180°
@@ -115,7 +115,7 @@ The six marked angles are the interior angles of 2 triangles. The interior angle
 :::
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (7) --->
 
 ::: problem id=3_1 marks=2
@@ -181,7 +181,7 @@ some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ beca
 things in maths are beautiful. They strike your heart and make you go, wow!)
 
 About 350 years ago, mathematicians proved that:  
-![](/resources/8-02-lou-costello/5-equation1.gif)
+![](/resources/8-15-lou-costello/5-equation1.gif)
 
 Why on earth should adding half the odd fractions and subtracting the other half
 of odd fractions and multiplying by 4 be equal to π? When you’re older, you might
@@ -194,20 +194,20 @@ out the first 300 terms of the formula, then you will eventually work out that
 
 In 1748, Leonard Euler proved this recipe for calculating π  
 
-![](/resources/8-02-lou-costello/5-equation2.gif)
+![](/resources/8-15-lou-costello/5-equation2.gif)
 
 We can rearrange this to obtain:  
 
-![](/resources/8-02-lou-costello/5-equation3.gif)
+![](/resources/8-15-lou-costello/5-equation3.gif)
 
 Let’s see what happens if we use this recipe to calculate π, using just one term,
 then two terms, then three, four and five terms.
 
-| ![](/resources/8-02-lou-costello/5-equation4-1.gif) | π = 2.45 |
-| ![](/resources/8-02-lou-costello/5-equation4-2.gif) | π = 2.74 |
-| ![](/resources/8-02-lou-costello/5-equation4-3.gif) | π = 2.86 |
-| ![](/resources/8-02-lou-costello/5-equation4-4.gif) | π = 2.92 |
-| ![](/resources/8-02-lou-costello/5-equation4-5.gif) | π =  |
+| ![](/resources/8-15-lou-costello/5-equation4-1.gif) | π = 2.45 |
+| ![](/resources/8-15-lou-costello/5-equation4-2.gif) | π = 2.74 |
+| ![](/resources/8-15-lou-costello/5-equation4-3.gif) | π = 2.86 |
+| ![](/resources/8-15-lou-costello/5-equation4-4.gif) | π = 2.92 |
+| ![](/resources/8-15-lou-costello/5-equation4-5.gif) | π =  |
 {.grid}
 
 The result gets closer and closer to the real value of π as we include more and more terms.
@@ -227,7 +227,7 @@ Rohit Kumar has created some graphs that show how these two recipes get better a
 better at approximating π as you include more and more terms. Take a look the graphs
 below and answer two questions.
 
-![](/resources/8-02-lou-costello/5-2-graphs.png) {img alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
+![](/resources/8-15-lou-costello/5-2-graphs.png) {img alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
 
 ::: problem id=5_2 marks=1
 __5.2__ Which series always underestimate the value of π?
@@ -273,7 +273,7 @@ Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would he think the result is?
 
-![](/resources/8-02-lou-costello/6-blackboard-sum.png )
+![](/resources/8-15-lou-costello/6-blackboard-sum.png )
 
 <input type="text" solution="18"/>  
 :::
@@ -286,14 +286,10 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ## Additional Stuff

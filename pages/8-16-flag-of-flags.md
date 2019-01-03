@@ -26,7 +26,7 @@ As each problem is posed, pause the video and see if you can find a solution.
 @[youtube](Xg37L5z5r_M?rel=0)
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (8) --->
 
 Some of you may have already taken part in the Junior Maths Challenge, and
@@ -67,7 +67,7 @@ Hence the ratio of the lengths is 12d:20d = 3:5
 :::
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (9) --->
 
 ::: problem id=3_1 marks=2
@@ -91,7 +91,7 @@ As x and y are made up of the same digits, which add up to 45, they have the rem
 :::
 
 
-## 4. Junior Maths Challenge
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (9e) --->
 
 What is the largest difference between two 9-digit integers whose digits use each of the digits 1 to 9 once and once only? Once you've worked it out, fill in the larger number, the smaller number, and the difference between them, below:
@@ -232,7 +232,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

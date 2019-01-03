@@ -75,7 +75,7 @@ There are no questions, but you can enter a competition. Just write a list of al
 @[youtube](uggtGH0d97k?rel=0)
 
 
-## 3.	Intermediate Maths Challenge Problem
+## 3.	Intermediate Maths Challenge Problem (UKMT)
 
 If you are a Year 9 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Intermediate Maths Challenge (IMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 9, Year 10 and Year 11 students from across the country.
 

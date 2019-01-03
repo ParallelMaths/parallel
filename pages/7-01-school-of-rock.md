@@ -111,7 +111,7 @@ If you google “large numbers” later, then you will learn everything you need
 :::
 
 
-## 3.	Junior Maths Challenge Problem
+## 3.	Junior Maths Challenge Problem (UKMT)
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 

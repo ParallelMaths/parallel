@@ -134,7 +134,7 @@ The pawn is the weakest piece on the board, but if it reaches the other side of 
 :::
 
 
-## 3.	Intermediate Maths Challenge Problem
+## 3.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2011) Q7 --->
 
 ::: problem id=3_1 marks=3
@@ -171,7 +171,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 1st November.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

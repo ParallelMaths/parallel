@@ -23,7 +23,7 @@ We have looked at various Venn diagrams in recent weeks, but perhaps this is the
 ![](/resources/7-11-secret-happiness/1-zen-venn.jpg){image align="center"}
 
 
-## 2. Junior Maths Challenge
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- (2013) --->
 
 ::: problem id=2_1 marks=2
@@ -41,7 +41,7 @@ In each case a number is subtracted from 1. The smaller the number we subtract, 
 :::
 
 
-## 3. Junior Maths Challenge
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- (2013) --->
 
 ::: problem id=3_1 marks=2
@@ -70,7 +70,7 @@ Perhaps pause the video and think about possible solutions before they give you 
 @[youtube](KWJ6j8o3VPY?rel=0)
 
 
-## 5. Junior Maths Challenge (2013)
+## 5. Junior Maths Challenge Problem (UKMT)
 
 ::: problem id=5_1 marks=3
 ![](/resources/7-11-secret-happiness/5-triangles-question.jpg){image align="right"}
@@ -124,7 +124,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelogams.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.
