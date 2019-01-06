@@ -16,17 +16,24 @@ block content
     for l in levels
       if dashboard.students[l].length
         h2= levelNames[l]
-        table.dashboard
-          thead
-            tr
-              th(width=160)
-              for p in dashboard.pages[l]
-                th(width=100)= p.subtitle
-          tbody
-            for s in dashboard.students[l]
-              tr
-                td(width=200) #{s.first} #{s.last}
-                for p in dashboard.pages[l]
-                  td(width=100)
-                    if s.answers[p.url]
-                      span.score(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score}%
+        .dashboard-table(data-level=l)
+          .dashboard-names
+            .dashboard-label
+            for s, i in dashboard.students[l]
+              .dashboard-label
+                | #{s.first} #{s.last}
+                .remove-student(v-on:click=`removeStudent('${s.uid}',${i},'${l}')`) ×
+          .dashboard-data
+            .dashboard-data-container(style=`width: ${dashboard.pages.length * 80}px`)
+              table
+                thead: tr
+                  for p in dashboard.pages[l]
+                    th(width=80)= p.subtitle
+                tbody
+                  for s in dashboard.students[l]
+                    tr
+                      for p in dashboard.pages[l]
+                        if s.answers[p.url]
+                          td(width=80)(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score}%
+                        else
+                          td(width=80)
