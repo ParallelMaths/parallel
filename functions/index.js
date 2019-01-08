@@ -37,6 +37,10 @@ function error(res, code) {
   return res.render('error', {code});
 }
 
+function letterOrder(a, b) {
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
 
 // -----------------------------------------------------------------------------
 // Set up Express App
@@ -110,14 +114,16 @@ app.get('/dashboard', async function(req, res) {
 
   for (let l of LEVELS) {
     dashboard.students[l] = [];
-    dashboard.pages[l] = PAGES[l];  // TODO filter by active
+    dashboard.pages[l] = PAGES[l].filter((p) => Date.now() >= p.available);
   }
 
   const students = await user.getAllStudents(req.user.code);
-  const studentKeys = Object.keys(students);
+  const studentKeys = Object.keys(students)
+      .sort((a, b) => letterOrder(students[a].first, students[b].first));
 
   for (let s of studentKeys) {
     if (!students[s].answers) students[s].answers = {};
+    students[s].uid = s;
     dashboard.students[students[s].level || 'year7'].push(students[s]);
   }
 
@@ -125,6 +131,19 @@ app.get('/dashboard', async function(req, res) {
     dashboard.error = 'So far, no students have signed up with your class code.';
 
   res.render('dashboard', {dashboard})
+});
+
+app.post('/remove-student', async function(req,res) {
+  if (!req.user) return error(res, 401);
+  if (!req.user.code) return error(res, 403);
+
+  const user = firebase.database().ref(`users/${req.body.id}`);
+
+  const teacherCode = (await user.once('value')).val().teacherCode;
+  if (teacherCode !== req.user.code) return error(res, 403);
+
+  await user.update({teacherCode: null});
+  res.sendStatus(200);
 });
 
 app.get('/:pid', (req, res, next) => {
