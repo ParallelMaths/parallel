@@ -35,12 +35,12 @@ Which film is NOT recycled in a dance scene from “Robin Hood”?
 
 Nowadays most animated films rely on mathematics to draw and animate scenes, which means we have amazing films like “Toy Story” and “Shrek”. In fact, mathematics (and computer science) is at the heart of the animation film industry.  
 
-Below is a short video clip about the Utah teapot, which played an important role in history of computer animation. Take a look at the video and find out how and why mathematics was used to model the teapot, and then answer the question below.
+Below is a short video clip about the Utah teapot, which played an important role in the history of computer animation. Take a look at the video and find out how and why mathematics was used to model the teapot, and then answer the question below.
 
 @[youtube](TIxt9guMbXo?rel=0)
 
 ::: problem id=1_2 marks=2
-__1.2.__ Why was the Utah teapot such a good object for testing how to mathematically model 3-d objects?
+__1.2.__ Why was the Utah teapot such a good object for testing how to mathematically model 3D objects?
 
 * [ ] It has concave surfaces
 * [ ] It has convex surfaces
@@ -69,7 +69,7 @@ Between them, what fraction of the cheese did they eat?
 
 ---
 
-Our first method is a direct calculation: The first mice ate `1/3` of the cheese, leaving `1 - 1/3 = 2/3`.
+Our first method is a direct calculation: The first mouse ate `1/3` of the cheese, leaving `1 - 1/3 = 2/3`.
 
 The second mouse ate `1/3` of this, namely `1/3 × 2/3 = 2/9`. This left `2/3 - 2/9 = 4/9` of the cheese.
 
@@ -104,7 +104,7 @@ For this question, it is easier to work out how much of the cheese is left after
 ^^^ hint id=2
 A crude way to do this problem is to test out the formulae given as with a simple example, or the example you have already looked at in question 2.
 
-If `n = 2`, then mouse eats half the cheese, and then another mouse half the remaining cheese... you will only have `1/4` of the cheese left, and so `3/4` will have been eaten. In this case `n = 2`. Which of the options works for this scenario?
+If `n = 2`, then mouse one eats half the cheese, and then another mouse half the remaining cheese... you will only have `1/4` of the cheese left, and so `3/4` will have been eaten. In this case `n = 2`. Which of the options works for this scenario?
 ^^^
 
 ---
@@ -129,14 +129,14 @@ In case it helps, the letter is taken from this alphabet, with this particular f
 ![](/resources/9-14-teapot-time/4-find-letter-alphabet.png){image align="center"}
 
 ^^^ hint id=3
-If you unfold the folder bit of paper, perhaps there is another bit of paper hidden underneath?
+If you unfold the folded bit of paper, perhaps there is another bit of paper hidden underneath?
 ^^^
 
 <input type="text" solution="F"/>  
 
 ---
 
-The obvious approach is to unfold the paper and then we have an L-shape, but rotated, so that it is almost upside-down. But we have been told that the answer is NOT L. However, it is possible that there is a piece of paper under the folded arm of paper, so when the arm is unfolded we would see another arm, revealing something that looks like a flipped F-shape. Of course, because it is just a bit of paper, we turn it over and make a real F.  
+The obvious approach is to unfold the paper and then we have an L-shape, but rotated, so that it is almost upside-down. But we have been told that the answer is NOT L. However, it is possible that there is a piece of paper under the folded arm of paper, so when the arm is unfolded we would see another arm, revealing something that looks like a flipped F-shape. Of course, because it is just a bit of paper, we can turn it over and make a real F.  
 
 You can find out more about Scott Kim’s thoughts on this puzzle and more generally by [reading this article by him](http://cs.wellesley.edu/~cs215/Lectures/L17-IntroGamesJigsawPuzzle/ScottKim-What_is_a_Puzzle.pdf){target="_blank"}, or you can [visit his website](http://www.scottkim.com/){target="_blank"}.
 :::
@@ -163,7 +163,7 @@ The first approach might be to check each answer A to E. For example, D (21) is 
 
 The second approach is to realise that to fit the rule, then a number, `k`, must obey the following equation `(k – n = n^2 – k)`, which says that the distance between `k` and `n` is the same as the distance between `k` and `n^2`.  
 
-Rearranging this equation gives `k = 1/2 (n + n^2)`. We can input values for `n` (1, 2, 3, 4, 5, 6, 7, 8, …) to generate values for `k ` (1, 3, 6, 10, 15, 21, 28, 36…). And answer E (21) does not appear in this list, so that is the correct answer.
+Rearranging this equation gives `k = 1/2 (n + n^2)`. We can input values for `n` (1, 2, 3, 4, 5, 6, 7, 8, …) to generate values for `k ` (1, 3, 6, 10, 15, 21, 28, 36…). And answer E (30) does not appear in this list, so that is the correct answer.
 :::
 
 
@@ -171,7 +171,7 @@ Rearranging this equation gives `k = 1/2 (n + n^2)`. We can input values for `n`
 
 As it is the start of the year, I thought it would be good just to remind you that Parallelograms are really tough, they cover topics that you might not have seen before and they are designed to confuse you. If too many people get 100%, then I will just have to make the Parallelograms tougher, weirder and more confusing. In short, if you only get 50%, don’t worry. If you get less than 50%, don’t worry. Just make sure you go through the solution sheet and try to find out why you got a question wrong. I really do mean it when I say that I am overjoyed if a student gets 25%, as long as they did their best, looked at the solution sheet, and then learned something. That is far better than getting 100% and learning nothing... although well done if you do get 100%.
 
-Does that make sense? I just wanted to remind students, teachers and parents that Parallelogram are a major challenge, and to a large extent the scores don’t matter.
+Does that make sense? I just wanted to remind students, teachers and parents that Parallelograms are a major challenge, and to a large extent the scores don’t matter.
 
 By the way, it does say at the start of every Parallelogram: “Don’t worry if you score less than 50%, because it means you will learn something new when you check the solutions.”
 

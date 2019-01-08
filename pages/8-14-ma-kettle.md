@@ -41,7 +41,7 @@ _“Can I have a small container of coffee?” leads to 3.1415926._
 Alternatively, you can remember π with the fraction 22/7.
 
 ::: problem id=1_1 marks=1
-__1.1.__ How accurate is 22/7 compared to the true value of π? You will need to
+__1.1.__ How much does 22/7 differ from the true value of π? You will need to
 start by finding the difference between the two number, then dividing by π,
 then converting to a percentage.
 
@@ -64,7 +64,7 @@ just have to remember to repeat the first three odd numbers and then split the
 result in the middle (113355)).
 
 ::: problem id=1_2 marks=1
-__1.2.__ How accurate is 355/113 compared to the true value of π?
+__1.2.__ How much does 355/113 differ from the true value of π?
 
 * [ ] 0.0000000008%
 * [ ] 0.00000008%
@@ -79,7 +79,7 @@ _irrational_ number, but it is not the only irrational number. The _golden ratio
 often represented as φ (pronounced phi), is the number 1.61803398874...
 
 ::: problem id=1_3 marks=1
-__1.3.__ How accurate is 13/8 compared to the true value of φ?
+__1.3.__ How much does 13/8 differ from the true value of φ?
 
 * [ ] 0.1%
 * [ ] 0.2%
@@ -139,16 +139,16 @@ the bar. Since they ate one-twelfth of the bar each, Mother Hubbard had
 
 ## 4. Ma and Pa Kettle
 
-Ma and Pa Kettle were hillbilly characters in an American TV show in the 1940s.
+Ma and Pa Kettle were characters in an American TV show in the 1940s.
 The characters featured in nine films, which grossed $35 milllion, which was a
 huge amount of money back then. In fact, without Ma and Pa Kettle, Universal Studios
 would have gone bankrupt, and without Universal there would be no _Jurassic Park_,
 no _Despicable Me_, no _Jaws_, and no _Fast and Furious_ franchise.
 
-In this clip, Ma and Pa Kettle wrestle with some maths. See you can understand
+In this clip, Ma and Pa Kettle wrestle with some maths. See if you can understand
 how and why they think 25/5 = 14.
 
-@[youtube](t8XMeocLflc?rel=0)
+@[youtube](M2_kQ1Bf1js?start=60&rel=0)
 
 ::: problem id=4 marks=2
 __4.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
@@ -177,7 +177,7 @@ Anyway, see what you make of it, and maybe make up your own mnemonic for π.
 
 As it is the start of the year, I thought it would be good just to remind you that Parallelograms are really tough, they cover topics that you might not have seen before and they are designed to confuse you. If too many people get 100%, then I will just have to make the Parallelograms tougher, weirder and more confusing. In short, if you only get 50%, don’t worry. If you get less than 50%, don’t worry. Just make sure you go through the solution sheet and try to find out why you got a question wrong. I really do mean it when I say that I am overjoyed if a student gets 25%, as long as they did their best, looked at the solution sheet, and then learned something. That is far better than getting 100% and learning nothing... although well done if you do get 100%.
 
-Does that make sense? I just wanted to remind students, teachers and parents that Parallelogram are a major challenge, and to a large extent the scores don’t matter.
+Does that make sense? I just wanted to remind students, teachers and parents that Parallelograms are a major challenge, and to a large extent the scores don’t matter.
 
 By the way, it does say at the start of every Parallelogram: “Don’t worry if you score less than 50%, because it means you will learn something new when you check the solutions.”
 
@@ -219,5 +219,3 @@ And Benjamin has a long way to go to beat the world record for memorising π,
 which stands at 70,030 digits.
 
 Here is [one of my favourite cartoons about π](https://www.smbc-comics.com/?id=2208){target="_blank"} – see if you can understand the joke. If not, ask your teacher to explain it.
-
-And [here is a short article about the history and significance of π.](https://www.scientificamerican.com/article/what-is-pi-and-how-did-it/){target="_blank"}

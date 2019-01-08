@@ -42,7 +42,7 @@ Here is a (5x5) grid containing all the letters of the alphabet, except Z:
 | U | V | W | X | Y |
 {.grid}
 
-The word CODE is coded with the following series of symbols.
+The word CODES is coded with the following series of symbols.
 
 ![](/resources/7-14-codes-physics/1-1-code.png)
 
@@ -54,7 +54,7 @@ __1.1.__ Which Star Wars character is represented by symbols below?
 ![](/resources/7-14-codes-physics/1-2-question.png)
 
 ^^^ hint id=1
-In the example, CODE, the first symbol above represents C. It has one line on the
+In the example, CODES, the first symbol above represents C. It has one line on the
 left side, and three lines on the right side. In the grid, how does this pattern
 relate to the row and column containing C?
 ^^^
@@ -67,7 +67,7 @@ relate to the row and column containing C?
 
 ---
 
-By looking at the letters in CODE and the symbols that represent them, you
+By looking at the letters in CODES and the symbols that represent them, you
 should have noticed that the rule is “the letter in row __x__ and column __y__ is
 represented with a symbol which has __x__ branches on the left and __y__ branches on the
 right”. So the answer is Rey.
@@ -263,7 +263,7 @@ was enough to result in a painful lesson.
 
 As it is the start of the year, I thought it would be good just to remind you that Parallelograms are really tough, they cover topics that you might not have seen before and they are designed to confuse you. If too many people get 100%, then I will just have to make the Parallelograms tougher, weirder and more confusing. In short, if you only get 50%, don’t worry. If you get less than 50%, don’t worry. Just make sure you go through the solution sheet and try to find out why you got a question wrong. I really do mean it when I say that I am overjoyed if a student gets 25%, as long as they did their best, looked at the solution sheet, and then learned something. That is far better than getting 100% and learning nothing... although well done if you do get 100%.
 
-Does that make sense? I just wanted to remind students, teachers and parents that Parallelogram are a major challenge, and to a large extent the scores don’t matter.
+Does that make sense? I just wanted to remind students, teachers and parents that Parallelograms are a major challenge, and to a large extent the scores don’t matter.
 
 By the way, it does say at the start of every Parallelogram: “Don’t worry if you score less than 50%, because it means you will learn something new when you check the solutions.”
 
