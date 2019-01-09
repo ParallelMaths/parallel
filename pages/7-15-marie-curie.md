@@ -351,6 +351,8 @@ Simon.
 
 ## Additional Stuff
 
+From now on, Parallelograms will often contain this Additional Stuff section, which carries no mark, but which you might find interesting. Why not take a look? However, it is optional, so you can also just skip to the SUBMIT button and click.
+
 *	You can find out more about Marie Curie and why reading her notebooks could
 seriously damage your health [by visiting this
 website](https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891){target="_blank"}.

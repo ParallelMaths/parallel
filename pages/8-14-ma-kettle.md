@@ -145,10 +145,9 @@ huge amount of money back then. In fact, without Ma and Pa Kettle, Universal Stu
 would have gone bankrupt, and without Universal there would be no _Jurassic Park_,
 no _Despicable Me_, no _Jaws_, and no _Fast and Furious_ franchise.
 
-In this clip, Ma and Pa Kettle wrestle with some maths. See if you can understand
-how and why they think 25/5 = 14.
+In this clip, Ma and Pa Kettle wrestle with some maths while trying to discuss a contract in which 25% has to be divided among 5 people. See if you can understand how and why they think 25/5 = 14.
 
-@[youtube](M2_kQ1Bf1js?start=60&rel=0)
+@[youtube](M2_kQ1Bf1js?start=66&rel=0)
 
 ::: problem id=4 marks=2
 __4.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
@@ -208,6 +207,8 @@ Simon.
 
 
 ## Additional Stuff
+
+From now on, Parallelograms will often contain this Additional Stuff section, which carries no mark, but which you might find interesting. Why not take a look? However, it is optional, so you can also just skip to the SUBMIT button and click.
 
 This video shows a young lad called Benjamin Most reciting from memory 2,422 digits
 of π. I should stress that memorising numbers has nothing to do with being good
