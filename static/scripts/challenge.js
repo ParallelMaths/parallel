@@ -64,7 +64,6 @@ function hasClass($el, name) {
 
 function calculateScore(answers) {
   const $problems = document.querySelectorAll('.problem');
-  const $hints = document.querySelectorAll('.show-hint');
 
   let points = 0;
   let total = 0;
@@ -72,32 +71,36 @@ function calculateScore(answers) {
   for (let $p of $problems) {
     const marks = +$p.dataset.marks || 0;
     total += marks;
+    let score = 0;
 
     if (hasClass($p, 'radio')) {
       const $correct = $p.querySelector('.correct');
-      if (answers[$p.id] === $correct.dataset.value) points += marks;
+      if (answers[$p.id] === $correct.dataset.value) score = marks;
 
     } else if (hasClass($p, 'checkbox')) {
       const $correct = $p.querySelectorAll('.correct');
       for (let $c of $correct) {
-        if (answers[$c.dataset.value]) points += marks / $correct.length;
+        if (answers[$c.dataset.value]) score = marks / $correct.length;
       }
 
     } else if (hasClass($p, 'input')) {
       const $inputs = $p.querySelectorAll('input');
       for (let $i of $inputs) {
         if (checkInput(answers[$i.dataset.value], $i.dataset.solution))
-          points += marks / $inputs.length;
+          score = marks / $inputs.length;
       }
 
     } else if (hasClass($p, 'sumaze')) {
       const $i = $p.querySelector('input');
-      points += marks * sumaze(answers[$i.dataset.value]) / 45;
+      score = marks * sumaze(answers[$i.dataset.value]) / 45;
     }
-  }
 
-  for (let $h of $hints) {
-    if (answers[$h.id]) points -= (+$h.dataset.marks || 0);
+    const $hints = $p.querySelectorAll('.show-hint');
+    for (let $h of $hints) {
+      if (answers[$h.id]) score -= (+$h.dataset.marks || 0);
+    }
+
+    points += Math.max(0, score);
   }
 
   return {
