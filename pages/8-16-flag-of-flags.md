@@ -41,7 +41,7 @@ matter – these questions are still great for developing your mathematical
 skills.)
 
 ::: problem id=2_1 marks=2
-![](/resources/8-03-flag-of-flags/2-squares-question.png){image align="right"}
+![](/resources/8-16-flag-of-flags/2-squares-question.png){image align="right"}
 
 __2.1.__ A square is divided into three congruent rectangles. The middle rectangle is removed and replaced on the side of the original square to form an octagon as shown.
 
@@ -55,7 +55,7 @@ What is the ratio of the length of the perimeter of the square to the length of 
 
 ---
 
-![](/resources/8-03-flag-of-flags/2-squares-solution.png){image align="right"}
+![](/resources/8-16-flag-of-flags/2-squares-solution.png){image align="right"}
 
 Suppose that the square has side length 3d. Then the square has perimeter of length 4 × 3d = 12d.
 
@@ -128,16 +128,16 @@ so the difference is 864,197,532.
 
 It turns out that the country with the flaggiest flag is Norway. By ‘flaggiest’, I mean that it contains the flags of six other countries. For example, here is the flag of Thailand.
 
-![](/resources/8-03-flag-of-flags/8-thailand.png)
+![](/resources/8-16-flag-of-flags/8-thailand.png)
 
 Next, here is the flag of Norway with a black rectangle showing how it contains the flag of Thailand.
 
-![](/resources/8-03-flag-of-flags/8-norway.jpg)
+![](/resources/8-16-flag-of-flags/8-norway.jpg)
 
 Spot the five other flags. If you are not a vexillologist (an expert in flags), then [you might want to check this page to see what the different flags look like](https://photius.com/flags/alphabetic_list.html){target="_blank"}.
 
 ::: problem id=5_1 marks=1
-![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+![](/resources/8-16-flag-of-flags/8-norway-small.png){image align="right"}
 
 __5.1__ Which of these flags is contained in the Norway flag?
 
@@ -149,7 +149,7 @@ __5.1__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_2 marks=1
-![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+![](/resources/8-16-flag-of-flags/8-norway-small.png){image align="right"}
 
 __5.2__ Which of these flags is contained in the Norway flag?
 
@@ -161,7 +161,7 @@ __5.2__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_3 marks=1
-![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+![](/resources/8-16-flag-of-flags/8-norway-small.png){image align="right"}
 
 __5.3__ Which of these flags is contained in the Norway flag?
 
@@ -173,7 +173,7 @@ __5.3__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_4 marks=1
-![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+![](/resources/8-16-flag-of-flags/8-norway-small.png){image align="right"}
 
 __5.4__ Which of these flags is contained in the Norway flag?
 
@@ -185,7 +185,7 @@ __5.4__ Which of these flags is contained in the Norway flag?
 :::
 
 ::: problem id=5_5 marks=1
-![](/resources/8-03-flag-of-flags/8-norway-small.png){image align="right"}
+![](/resources/8-16-flag-of-flags/8-norway-small.png){image align="right"}
 
 __5.5__ Which of these flags is contained in the Norway flag?
 
@@ -238,11 +238,9 @@ Cheerio,
 Simon.
 
 
+## Additional Stuff
 
-::: submit
-
-
-## Further Stuff
+From now on, Parallelograms will often contain this Additional Stuff section, which carries no mark, but which you might find interesting. Why not take a look? However, it is optional, so you can also just skip to the SUBMIT button and click.
 
 Here is the most famous sketch by Abbott and Costello – “Who’s on first?” –
 watch and enjoy:

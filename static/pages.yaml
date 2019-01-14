@@ -1,4 +1,9 @@
 year7:
+  - url: 7-16-crosses-crosses
+    title: Crosses and Crosses
+    subtitle: Week 16
+    available: 2019-01-24T13:00:00
+    deadline: 2019-01-27T13:00:00
   - url: 7-15-marie-curie
     title: Madam Curie’s square riddle
     subtitle: Week 15
@@ -77,6 +82,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-16-flag-of-flags
+    title: A flag of flags
+    subtitle: Week 16
+    available: 2019-01-24T13:00:00
+    deadline: 2019-01-27T13:00:00
   - url: 8-15-lou-costello
     title: Lou Costello, Pi and More Pendula
     subtitle: Week 15
@@ -155,6 +165,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-16-puzzle-compendium
+    title: Puzzle Compendium
+    subtitle: Week 16
+    available: 2019-01-24T13:00:00
+    deadline: 2019-01-27T13:00:00
   - url: 9-15-bubble-solution
     title: Bubble Solution
     subtitle: Week 15

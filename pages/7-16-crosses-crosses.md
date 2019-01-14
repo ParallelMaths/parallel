@@ -19,7 +19,7 @@ week by the Parallel Project to bright young mathematicians.
 ## 1. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (2e) --->
 
-The Junior Maths Challenge is a national maths competition run by the UK Maths
+As some of you will already know, the Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you might be entering this year. Ask your teacher, and he or
 she will know whether you or your class will be entering. Each week, the
 Parallelograms will contain one or two Challenge questions from the tests given
@@ -77,7 +77,7 @@ divisible by 9, and because 1 + 1 = 2, the remainder is 2.
 ## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (3) --->
 
-![](/resources/7-03-crosses-crosses/3-lightsquestion.png){image align="right"}
+![](/resources/7-16-crosses-crosses/3-lightsquestion.png){image align="right"}
 
 A train display shows letters by lighting cells in a grid, such as the letter
 ‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to
@@ -94,7 +94,7 @@ __2.1__ How many cells are lit in a bold ‘o’?
 
 ---
 
-![](/resources/7-03-crosses-crosses/3-lightssolution.png){image align="right"}
+![](/resources/7-16-crosses-crosses/3-lightssolution.png){image align="right"}
 
 The only thing to do here is to draw (or imagine) the figure corresponding to a
 bold ‘o’, and to count the number of cells that are lit.  
@@ -310,7 +310,7 @@ You could try adding 26 again and again, but the short cut is to spot that these
 :::
 
 ## 6. Amazing James Randi and his rope trick
-![](/resources/7-03-crosses-crosses/3-james-randi.jpg)
+![](/resources/7-16-crosses-crosses/3-james-randi.jpg)
 One of my heroes is James Randi, who is often known as the Amazing Randi. In
 the last few decades he has become a champion of rationality and a debunker of
 nonsense, but he started off in show business as a magician and an escapologist.
@@ -344,6 +344,8 @@ Simon.
 ---
 
 ## Additional Stuff
+
+From now on, Parallelograms will often contain this Additional Stuff section, which carries no mark, but which you might find interesting. Why not take a look? However, it is optional, so you can also just skip to the SUBMIT button and click.
 
 The noughts and crosses video in this week’s Parallelogram reminded me of a
 couple of things.
