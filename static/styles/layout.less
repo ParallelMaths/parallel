@@ -350,6 +350,13 @@ footer a {
   th, .dashboard-label { background: #eee; font-weight: bold; }
   td:last-child, th:last-child { border-right: none; }
   tr:last-child td, .dashboard-label:last-child { border-bottom: none; }
+
+  th, .dashboard-head {
+    cursor: pointer;
+    transition: background .2s, color .2s;
+    &:hover { background: #ddd; }
+    &.dashboard-active { background: @blue; color: white; }
+  }
 }
 
 .remove-student {

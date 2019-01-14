@@ -23,6 +23,32 @@ function removeStudent(id, index, level) {
   }
 }
 
+function getRowValue(row, i) {
+  if (i === 0) return -row[0].dataset.index;
+  return +row[1].childNodes[i - 1].dataset.value;
+}
+
+function sortTable(i, level) {
+  const $table = document.querySelector(`.dashboard-table[data-level="${level}"]`);
+
+  const $active = $table.querySelector('.dashboard-active');
+  if ($active) $active.classList.remove('dashboard-active');
+
+  const $labels = $table.querySelectorAll('.dashboard-head, th');
+  $labels[i].classList.add('dashboard-active');
+
+  const $namesBox = $table.querySelector('.dashboard-labels-body');
+  const $rowsBox = $table.querySelector('tbody');
+  const $names = $namesBox.childNodes;
+  const rows = Array.from($rowsBox.childNodes).map(($r, i) => [$names[i], $r]);
+  const ordered = rows.sort((a, b) => getRowValue(b, i) - getRowValue(a, i));
+
+  for (let row of ordered) {
+    $namesBox.appendChild(row[0]);
+    $rowsBox.appendChild(row[1]);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   firebase.initializeApp({
     apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
@@ -35,6 +61,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.app = new Vue({
     el: '#vue',
-    data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge, removeStudent}
+    data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge, removeStudent, sortTable}
   });
 });

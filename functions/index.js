@@ -119,7 +119,7 @@ app.get('/dashboard', async function(req, res) {
 
   const students = await user.getAllStudents(req.user.code);
   const studentKeys = Object.keys(students)
-      .sort((a, b) => letterOrder(students[a].first, students[b].first));
+      .sort((a, b) => letterOrder(students[a].last, students[b].last));
 
   for (let s of studentKeys) {
     if (!students[s].answers) students[s].answers = {};

@@ -18,22 +18,23 @@ block content
         h2= levelNames[l]
         .dashboard-table(data-level=l)
           .dashboard-names
-            .dashboard-label
-            for s, i in dashboard.students[l]
-              .dashboard-label
-                | #{s.first} #{s.last}
-                .remove-student(v-on:click=`removeStudent('${s.uid}',${i},'${l}')`) ×
+            .dashboard-label.dashboard-head(v-on:click=`sortTable(0, '${l}')`): strong Name
+            .dashboard-labels-body
+              for s, i in dashboard.students[l]
+                .dashboard-label(data-index=i)
+                  | #{s.first} #{s.last}
+                  .remove-student(v-on:click=`removeStudent('${s.uid}',${i},'${l}')`) ×
           .dashboard-data
             .dashboard-data-container(style=`width: ${dashboard.pages.length * 80}px`)
               table
                 thead: tr
-                  for p in dashboard.pages[l]
-                    th(width=80)= p.subtitle
+                  for p, i in dashboard.pages[l]
+                    th(width=80 v-on:click=`sortTable(${i + 1}, '${l}')`)= p.subtitle
                 tbody
                   for s in dashboard.students[l]
                     tr
                       for p in dashboard.pages[l]
                         if s.answers[p.url]
-                          td(width=80)(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score}%
+                          td(width=80 data-value=(s.answers[p.url].score || 0))(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score || 0}%
                         else
-                          td(width=80)
+                          td(width=80 data-value="-1")
