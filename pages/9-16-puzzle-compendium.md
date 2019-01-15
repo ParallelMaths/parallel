@@ -30,19 +30,19 @@ This requires you to imagine the rolling process in your mind. First, 2 will be 
 
 * [ ] 1
 * [ ] 2
-* [ ] 3
+* [x] 3
 * [ ] 4
 * [ ] 5
-* [x] 6
+* [ ] 6
 {.col-3}
 
 ---
 
-This requires you to imagine the rolling process in your mind. First, 2 will be facing down, 4 will still face us, 1 will be facing to the right, and 5 will be on top. Remember, the opposite sides of a dice add up to 7, so if 2 is on the bottom, then 5 is on the top.  
+This requires you to imagine the rolling process in your mind. First, 2 will be facing down, 1 will still face us, 4 will be facing to the right, and 5 will be on top. Remember, the opposite sides of a dice add up to 7, so if 2 is on the bottom, then 5 is on the top.  
 
-On the next roll, it will be 4 on top, 1 facing right, and 2 facing us.  
+On the next roll, it will be 1 on top, 4 facing right, and 2 facing us.  
 
-On the final roll, it will be 2 facing us, 4 to the right, and 6 on top. The answer is 6.  
+On the final roll, it will be 2 facing us, 1 to the right, and 3 on top. The answer is 3.  
 
 I struggle with these, so I had to get a dice and roll it in order to check I was right. In an exam, I guess you could make a dice out of paper and check.
 :::
@@ -50,18 +50,18 @@ I struggle with these, so I had to get a dice and roll it in order to check I wa
 
 ## 2. Extending figures
 
-This is a fascinating video by James Grime, who explores how bubbles can be used to solve maths problems. Watch the video and answers the questions below... and maybe re-answer a previous question.  
-
-![](/resources/9-16-puzzle-compendium/2-extending.png)
-
 ::: problem id=2_1 marks=1
 __2.1.__ How many squares in diagram 9?
+
+![](/resources/9-16-puzzle-compendium/2-extending.png)
 
 <input type="number" solution="39"/>
 
 ---
 
-Each diagram has 4 arms, each having the same number of squares as the number of the diagram. And then we have 3 additional squares connecting the four arms. The number of squares in any diagram D is (4 x D + 3). In this case (4 x 9 + 3) = 39.
+Each diagram has 4 arms, each having the same number of squares as the number of the diagram. And then we have 3 additional squares connecting the four arms.  
+
+The number of squares in any diagram `D` is (4 x `D` + 3). In this case (4 x 9 + 3) = 39.
 :::
 
 ::: problem id=2_2 marks=2
@@ -105,7 +105,7 @@ What is the other equable right-angled triangle with integer length sides? Just 
 ::: problem id=4 marks=3
 __4.1__ A set of cards has a shape on one side and a colour on the other side.  
 
-__Rule: If a card has a circle on one side, then it must have yellow on the other side.__
+__Rule: If a card has a circle on one side, then it must have blue on the other side.__
 
 If you want to check that the rule is being followed, what must you do?
 
@@ -121,11 +121,11 @@ If you want to check that the rule is being followed, what must you do?
 
 The rule says nothing about squares, so ignore card A.  
 
-The rule is clear that circles must be backed by yellow, so we must check card B.  
+The rule is clear that circles must be backed by blue, so we must check card B.  
 
-Card C is not important. Although it is yellow, it could have any colour on the other side. The rule is (circle means yellow, not yellow means circle).  
+Card C is not important. Although it is blue, it could have any colour on the other side. The rule is (circle means blue, not blue means circle).  
 
-Card D is important, because if it has a circle on the other side, then it breaks the rule. Another way to state the rule is: “If the card is not yellow, then it must not be yellow on the other side.”
+Card D is important, because if it has a circle on the other side, then it breaks the rule. Another way to state the rule is: “If the card is not blue, then it must not be blue on the other side.”
 :::
 
 
@@ -229,4 +229,4 @@ Simon.
 
 ## Additional Stuff
 
-Check out Steve Mould’s [website an videos](https://stevemould.com/){target="_blank"}.
+Check out Steve Mould’s [website and videos](https://stevemould.com/){target="_blank"}.

@@ -36,12 +36,12 @@ You probably won’t be able to calculate your way towards a correct answer, but
 
 ## 2. Bubble solution
 
-This is a fascinating video by James Grime, who explores how bubbles can be used to solve maths problems. Watch the video and answers the questions below... and maybe re-answer a previous question.
+This is a fascinating video by James Grime, in which he explores how bubbles can be used to solve maths problems. Watch the video and answer the questions below... and maybe re-answer a previous question.
 
 @[youtube](dAyDi1aa40E?start=0&end=214&rel=0)
 
 ::: problem id=2_1 marks=2
-__2.1.__ If we revisit the problem with four towns positioned in the corner of a square, and we look at the layout for minimum length of roads required to connect them, we see a total of 5 roads meeting at 2 junctions. What is the angle between the roads meeting at each junction?
+__2.1.__ If we revisit the problem with four towns positioned in the corners of a square, and we look at the layout for minimum length of road required to connect them, we see a total of 5 roads meeting at 2 junctions. What is the angle between the roads meeting at each junction?
 
 * [ ] 30 degrees
 * [ ] 45 degrees

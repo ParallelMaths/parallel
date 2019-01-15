@@ -46,7 +46,7 @@ __1.1.__ What is the value of `2 × 0 × 1 + 1`?
 
 This is simply a matter of doing the sum... and remembering the order of
 operations. So, multiplications take priority over addition, so
-`2 × 0 × 1 + 1 = (2 × 0 × 1) + 1 = (0) + 1 = 1`
+`2 × 0 × 1 + 1 = (2 × 0 × 1) + 1 = (0) + 1 = 1`.
 :::
 
 
@@ -75,6 +75,10 @@ divisible by 3 if and only if the sum of its digits is a multiple of 3.
 
 These are all multiples of 3, so all five numbers are multiples of 3, so the
 answer is 5.
+
+In fact, the sum of any 3 consecutive numbers is a multiple of 3, as one of those numbers will already be a multiple of 3, one will be exactly 1 less than a multiple of 3, and one will be exactly one more than a multiple of 3. So, when added together the +1 and –1 will cancel, and give us a multiple of three.
+
+We can show this algebraically for the three consecutive numbers `n - 1`, `n`, and `n + 1`: `(n - 1) + n + (n + 1) = 3n`.
 :::
 
 
@@ -174,8 +178,6 @@ of 3?
 YES     = 24¦4¦18  
 YES + 3 = 27¦7¦21 = ?HV{.text-center}
 
-![](/resources/7-15-marie-curie/5-encoding-diagram.png)
-
 27 does not appear in our alphabet. How do we represent 27 as a letter? What
 letter does Y turn into?
 
@@ -188,6 +190,8 @@ the number circle.
 3. That means, for example, 24 + 3 = 1 (not 27).
 
 Therefore, YES is encoded as 27¦7¦21, which in modulo (26) is 1¦7¦21, which is BHV.
+
+![](/resources/7-15-marie-curie/5-encoding-diagram.png)
 
 You encounter modulo arithmetic every day, when you look at a clock (and sometimes
 it is called __clock arithmetic__). Two hours after 11pm (or 23.00) is not 13pm
@@ -212,7 +216,7 @@ WORD + 10 = 6¦24¦1¦13 = GYBN{.text-center}
 {.grid}
 
 
-__Now it is also time to try some simple coding problems, but first here is an
+__Now it is also time to try some simple encoding problems, but first here is an
 example__: encode the word BOX with a shift of 1 into a new 3-letter word:  
 
 BOX in numbers      = 1¦14¦23  

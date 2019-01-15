@@ -337,12 +337,6 @@ Cheerio,
 Simon.
 
 
-
-::: submit
-
-
----
-
 ## Additional Stuff
 
 From now on, Parallelograms will often contain this Additional Stuff section, which carries no mark, but which you might find interesting. Why not take a look? However, it is optional, so you can also just skip to the SUBMIT button and click.

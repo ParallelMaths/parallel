@@ -1,4 +1,4 @@
-# Ma and Pa Kettle Make Pendulum Pi
+# Ma and Pa Kettle
 
 <div class="dictionary">
 

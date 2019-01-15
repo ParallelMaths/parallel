@@ -1,4 +1,4 @@
-# Lou Costello, Pi and More Pendula
+# Lou Costello, Pi and Pendula
 
 <div class="dictionary">
 
@@ -16,9 +16,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. Weird film about π
+## 1. Weird film about `π`
 
-Back in 1998, I went to see a film at the cinema called _π_. To be honest, it was
+Back in 1998, I went to see a film at the cinema called _`π`_. To be honest, it was
 fairly dreadful, so I would not recommend watching the whole film. However, take a
 look at this snippet from the trailer.
 
@@ -27,9 +27,7 @@ look at this snippet from the trailer.
 ![](/resources/8-15-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
 I like the comment that “mathematics is the language of nature”, and you will see
-that more and more as you study different areas of maths. For example, take a look
-at this image of the bottom of a pine cone. There are green spirals going clockwise
-and red spirals going anticlockwise.
+that more and more as you study different areas of maths. For example, take a look at this image of the bottom of a pine cone you will see mathematical spirals. There are green spirals going in one direction and red spirals going in the opposite direction.
 
 ::: problem id=1_1 marks=1
 __1.1.__ How many green spirals are there?
@@ -136,12 +134,12 @@ We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 × 4 = 
 :::
 
 
-## 4. Calculating π with a pendulum
+## 4. Calculating `π` with a pendulum
 
-Last week’s Parallelogram looked how the length of a pendulum is linked to the time
-it takes to swing via a formula involving π. The video below from the brilliant Matt
+Last week’s Parallelogram looked at how the length of a pendulum is linked to the time
+it takes to swing, via a formula involving `π`. The video below from the brilliant Matt
 Parker (the Stand-up Mathematician) shows how you can use this formula to work out
-the value of π. Watch carefully and answer the question below.
+the value of `π`. Watch carefully and answer the question below.
 
 @[youtube](qYAdXm69l8g?end=220&rel=0)
 
@@ -168,31 +166,29 @@ __4.2__ If it was a perfect experiment, how long should it have taken for 10 swi
 
 Matt’s experiment was imperfect (in fact all experiments are imperfect), so the
 answer to question 4.1 and Matt’s result in the video was 3.128 seconds. However,
-if it was a perfect experiment, then each swing would have been π seconds long, or
+if it was a perfect experiment, then each swing would have been `π` seconds long, or
 3.14 seconds. So 10 swings would have been 31.4 seconds, and that is the answer.
 
 :::
 
 
-## 5. Infinite expressions for π
+## 5. Infinite expressions for `π`
 
 Matt’s pi-endulum video starts with something astonishing, namely that there are
-some beautiful ways of calculating π. (BTW, I use the word ‘beautiful’ because some
+some beautiful ways of calculating `π`. (BTW, I use the word ‘beautiful’ because some
 things in maths are beautiful. They strike your heart and make you go, wow!)
 
 About 350 years ago, mathematicians proved that:  
 ![](/resources/8-15-lou-costello/5-equation1.gif)
 
-Why on earth should adding half the odd fractions and subtracting the other half
-of odd fractions and multiplying by 4 be equal to π? When you’re older, you might
-find out, but for now just be gobsmacked.
+Why on earth should adding half the “odd” fractions and subtracting the other half of “odd” fractions and multiplying by 4 be equal to `π`? When you’re older, you might find out, but for now just be gobsmacked.
 
 This equation is very slow, by which I mean that you need to take into account a
 large number of terms before you get an answer that becomes accurate. If you work
 out the first 300 terms of the formula, then you will eventually work out that
-π ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
+`π` ≈ 3.14. (BTW the squiggly equals sign “≈” means “approximately equal to”.)
 
-In 1748, Leonard Euler proved this recipe for calculating π  
+In 1748, Leonard Euler proved this recipe for calculating `π`  
 
 ![](/resources/8-15-lou-costello/5-equation2.gif)
 
@@ -200,21 +196,21 @@ We can rearrange this to obtain:
 
 ![](/resources/8-15-lou-costello/5-equation3.gif)
 
-Let’s see what happens if we use this recipe to calculate π, using just one term,
+Let’s see what happens if we use this recipe to calculate `π`, using just one term,
 then two terms, then three, four and five terms.
 
-| ![](/resources/8-15-lou-costello/5-equation4-1.gif) | π = 2.45 |
-| ![](/resources/8-15-lou-costello/5-equation4-2.gif) | π = 2.74 |
-| ![](/resources/8-15-lou-costello/5-equation4-3.gif) | π = 2.86 |
-| ![](/resources/8-15-lou-costello/5-equation4-4.gif) | π = 2.92 |
-| ![](/resources/8-15-lou-costello/5-equation4-5.gif) | π =  |
+| ![](/resources/8-15-lou-costello/5-equation4-1.gif) | `π` = 2.45 |
+| ![](/resources/8-15-lou-costello/5-equation4-2.gif) | `π` = 2.74 |
+| ![](/resources/8-15-lou-costello/5-equation4-3.gif) | `π` = 2.86 |
+| ![](/resources/8-15-lou-costello/5-equation4-4.gif) | `π` = 2.92 |
+| ![](/resources/8-15-lou-costello/5-equation4-5.gif) | `π` =  |
 {.grid}
 
-The result gets closer and closer to the real value of π as we include more and more terms.
+The result gets closer and closer to the real value of `π` as we include more and more terms.
 
 
 ::: problem id=5_1 marks=2
-__5.1__ What is the value of π when you include the 1/5<sup>2</sup> term?
+__5.1__ What is the value of `π` when you include the 1/5<sup>2</sup> term?
 
 * [ ] 3.00
 * [ ] 2.99
@@ -224,13 +220,13 @@ __5.1__ What is the value of π when you include the 1/5<sup>2</sup> term?
 :::
 
 Rohit Kumar has created some graphs that show how these two recipes get better and
-better at approximating π as you include more and more terms. Take a look the graphs
+better at approximating `π` as you include more and more terms. Take a look at the graphs
 below and answer two questions.
 
 ![](/resources/8-15-lou-costello/5-2-graphs.png) {img alt="From https://www.slideshare.net/rohit_9aug/pi-495638 "}
 
 ::: problem id=5_2 marks=1
-__5.2__ Which series always underestimate the value of π?
+__5.2__ Which series always underestimates the value of `π`?
 
 * [ ] Neither of them
 * [ ] Both of them
@@ -239,16 +235,16 @@ __5.2__ Which series always underestimate the value of π?
 
 ---
 
-Because the series on left has positive and negative terms (addition and
-subtraction), then it keeps jumping above the value of π, and then below it, and
+Because the series on the left has positive and negative terms (addition and
+subtraction), it keeps jumping above the value of `π`, and then below it, and
 then above it, and then below it, and so on. By contrast, the series on the right
 only has positive terms, so it starts at a very low value and gradually approaches
 the true value from below. Therefore the series on the right always underestimates
-the true value of π.
+the true value of `π`.
 :::
 
 ::: problem id=5_3 marks=1
-__5.3__ Both series make the biggest improvements in approximating π...
+__5.3__ Both series make the biggest improvements in approximating `π`...
 
 * [x] During the first few terms
 * [ ] During the last few terms
@@ -257,8 +253,8 @@ __5.3__ Both series make the biggest improvements in approximating π...
 
 ---
 Initially, both series are wildly inaccurate, but within the first 25 terms they
-both begin to home in on the true value of π. Thereafter the curve is almost flat,
-suggesting that there are only minor improvements in getting close to π. Hence,
+both begin to home in on the true value of `π`. Thereafter the curve is almost flat,
+suggesting that there are only minor improvements in getting close to `π`. Hence,
 the biggest improvements take place during the first few terms.
 
 :::
