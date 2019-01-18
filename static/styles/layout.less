@@ -330,28 +330,32 @@ footer a {
 
   table { margin: 0; }
 
-  th, td, .dashboard-label {
+  th, td {
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
     height: 36px;
     padding: 0;
   }
 
-  .dashboard-label {
+  .dashboard-names td {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     padding-left: 12px;
     position: relative;
+    background: #eee;
+    text-align: left;
     &:hover { padding-right: 20px; }
   }
 
-  td { color: white; }
-  th, .dashboard-label { background: #eee; font-weight: bold; }
-  td:last-child, th:last-child { border-right: none; }
-  tr:last-child td, .dashboard-label:last-child { border-bottom: none; }
+  .dashboard-names th { padding-left: 12px; text-align: left; }
+  tr:last-child td { border-bottom: none; }
+  .dashboard-data td { color: white; }
+  .dashboard-data td:last-child, .dashboard-data th:last-child { border-right: none; }
 
-  th, .dashboard-head {
+  th {
+    background: #eee;
+    font-weight: bold;
     cursor: pointer;
     transition: background .2s, color .2s;
     &:hover { background: #ddd; }
@@ -374,7 +378,7 @@ footer a {
   opacity: 0;
   transition: opacity .2s;
 
-  .dashboard-label:hover & { opacity: 0.5; }
+  td:hover & { opacity: 0.5; }
   &:hover { opacity: 0.8; }
 }
 

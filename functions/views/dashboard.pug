@@ -18,12 +18,13 @@ block content
         h2= levelNames[l]
         .dashboard-table(data-level=l)
           .dashboard-names
-            .dashboard-label.dashboard-head(v-on:click=`sortTable(0, '${l}')`): strong Name
-            .dashboard-labels-body
-              for s, i in dashboard.students[l]
-                .dashboard-label(data-index=i)
-                  | #{s.first} #{s.last}
-                  .remove-student(v-on:click=`removeStudent('${s.uid}',${i},'${l}')`) ×
+            table
+              thead
+                tr: th(v-on:click=`sortTable(0, '${l}')`) Name
+              tbody
+                for s, i in dashboard.students[l]
+                  tr(data-index=i): td #{s.first} #{s.last}
+                    .remove-student(v-on:click=`removeStudent('${s.uid}',${i},'${l}')`) ×
           .dashboard-data
             .dashboard-data-container(style=`width: ${dashboard.pages.length * 80}px`)
               table

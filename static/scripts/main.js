@@ -34,11 +34,11 @@ function sortTable(i, level) {
   const $active = $table.querySelector('.dashboard-active');
   if ($active) $active.classList.remove('dashboard-active');
 
-  const $labels = $table.querySelectorAll('.dashboard-head, th');
+  const $labels = $table.querySelectorAll('th');
   $labels[i].classList.add('dashboard-active');
 
-  const $namesBox = $table.querySelector('.dashboard-labels-body');
-  const $rowsBox = $table.querySelector('tbody');
+  const $namesBox = $table.querySelector('.dashboard-names tbody');
+  const $rowsBox = $table.querySelector('.dashboard-data tbody');
   const $names = $namesBox.childNodes;
   const rows = Array.from($rowsBox.childNodes).map(($r, i) => [$names[i], $r]);
   const ordered = rows.sort((a, b) => getRowValue(b, i) - getRowValue(a, i));
