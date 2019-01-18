@@ -321,7 +321,7 @@ footer a {
 .dashboard-table {
   display: flex;
   font-size: 16px;
-  line-height: 36px;
+  line-height: 35px;
   margin: 1rem 0;
 
   .dashboard-names { flex-shrink: 0; width: 180px; }
@@ -337,13 +337,17 @@ footer a {
     padding: 0;
   }
 
+  .dashboard-names td, th {
+    background: #eee;
+    font-weight: bold;
+  }
+
   .dashboard-names td {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     padding-left: 12px;
     position: relative;
-    background: #eee;
     text-align: left;
     &:hover { padding-right: 20px; }
   }
@@ -354,8 +358,6 @@ footer a {
   .dashboard-data td:last-child, .dashboard-data th:last-child { border-right: none; }
 
   th {
-    background: #eee;
-    font-weight: bold;
     cursor: pointer;
     transition: background .2s, color .2s;
     &:hover { background: #ddd; }
