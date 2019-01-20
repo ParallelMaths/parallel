@@ -16,12 +16,12 @@
     "convert-teachers": "npm run export-users && node scripts/convert-teachers.js"
   },
   "devDependencies": {
-    "ascii2mathml": "^0.5.3",
+    "ascii2mathml": "^0.6.0",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-3": "^6.24.1",
-    "firebase-admin": "^6.0.0",
+    "firebase-admin": "^6.5.0",
     "grunt": "^1.0.3",
     "grunt-autoprefixer": "^3.0.3",
     "grunt-babel": "^7.0.0",
@@ -53,6 +53,6 @@
   },
   "dependencies": {
     "firebase": "^5.4.0",
-    "firebase-tools": "^4.1.1"
+    "firebase-tools": "^6.3.0"
   }
 }

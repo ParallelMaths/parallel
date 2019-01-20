@@ -42,7 +42,7 @@ The answer is 8 buckets.
 
 I have been lucky enough to see five total solar eclipses: in America, the Faroes, Zambia, Libya and... Devon. But I have never seen one from space.
 
-![](/resources/8-04-dripping-taps/2-eclipse-space.jpg)
+![](/resources/8-17-dripping-taps/2-eclipse-space.jpg)
 
 I spotted this image on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/){target="_blank"}. There is a different Astronomy Picture of the Day each day, so visit regularly if you are interested in the universe.  
 
@@ -56,7 +56,7 @@ _“Here is what the Earth looks like during a solar eclipse. The shadow of the 
 
 ::: problem id=3 marks=5
 
-![](/resources/8-04-dripping-taps/3-angle-question.png){image align="right"}
+![](/resources/8-17-dripping-taps/3-angle-question.png){image align="right"}
 
 __3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles x and y have been labelled.   
 
@@ -69,7 +69,7 @@ What is the value of x + y?
 * [ ] 90
 
 ^^^ hint id=1
-![](/resources/8-04-dripping-taps/3-angles-hint.png){image align="right"}
+![](/resources/8-17-dripping-taps/3-angles-hint.png){image align="right"}
 Notice that x and y are two of the internal angles of a pentagon.
 
 We have highlighted that pentagon in this graphic.
@@ -91,7 +91,7 @@ You know that two of the angles in the pentagon are right angles.
 
 ---
 
-![](/resources/8-04-dripping-taps/3-angle-answer.png){image align="right"}
+![](/resources/8-17-dripping-taps/3-angle-answer.png){image align="right"}
 This is tough question. Well done if you did it without hints. There are a couple
 of ways to find the value of x + y degrees, but here is the neatest method.
 
@@ -127,34 +127,12 @@ The mean of two numbers, _a_ and _b_, is the average: `1/2`(_a_+_b_).
 
 Hence the mean of `2/3` and `4/9` is:
 
-![](/resources/8-04-dripping-taps/5-jmc-answer.png){image align="center"}
+![](/resources/8-17-dripping-taps/5-jmc-answer.png){image align="center"}
 
 :::
 
 
-## 5. Proving that four random dots create something wonderful
-
-![](/resources/8-04-dripping-taps/5-random-dots.png){image align="right"}
-Grab a pencil, paper and ruler.
-
-*	Make 4 random dots (or ask someone else to make them for you).
-*	Join up the dots to make a quadrilateral.
-*	Put a mark at the midpoint of each line in this first quadrilateral.
-*	Join up the four new points to make a new second quadrilateral.
-* The second quadrilateral is a __parallelogram__.
-
-You can test this by playing around with the interactive graphic on this page on the [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
-
-But why is it true? How can you prove that the second quadrilateral is always a parallelogram?
-
-On the same page as the interactive graphic, if you scroll down you will find a [short proof](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. A mathematical proof is an extraordinary thing. A thing of beauty. Some are just a few lines, while others run for a hundred pages or more. Each proof is a step-by-step argument that shows why something is true or false with absolute 100% confidence. Once something is proven, then the proof remains solid for eternity.
-
-For this reason, the mathematician G. H. Hardy once wrote: _“Archimedes will be remembered when Aeschylus is forgotten, because languages die and mathematical ideas do not. "Immortality" may be a silly word, but probably a mathematician has the best chance of whatever it may mean.”_
-
-This particular proof is very short, but not simple to follow. Have a go at [understanding the proof](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"} (remember to scroll down to find it), but don’t worry if it does not make complete sense.
-
-
-## 6. Calculating Pi with Real Pies
+## 5. Calculating Pi with Real Pies
 
 A couple of weeks ago, we featured Matt Parker in a video talking about measuring π  using a pendulum. To end this Parallelogram, here is a another π-culiar video by Matt, in which he measures pi using pies. Watch and enjoy.
 
@@ -175,11 +153,7 @@ Cheerio,
 Simon.
 
 
-
-::: submit
-
-
-## Further Stuff
+## Additional Stuff
 
 * Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video asks who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0){target="_blank"}
 

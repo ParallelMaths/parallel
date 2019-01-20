@@ -32,13 +32,13 @@ __1.1__ What shape is this second quadrilateral? We are looking for a single wor
 
 :::
 
-![](/resources/7-04-sundogs-random-dots/1-mathematical-image.png)
+![](/resources/7-17-sundogs-random-dots/1-mathematical-image.png)
 
 The reason for the pretty mathematical image above is that I wanted to create a buffer between the question and the answer... which I am now about to tell you.
 
 If you followed the instructions above, you should have ended up with a parallelogram. I find it shocking that you can start with four random dots and then end up with a perfect parallelogram, as shown here.
 
-![](/resources/7-04-sundogs-random-dots/1-parallelogram-diagram.png){image align="center"}
+![](/resources/7-17-sundogs-random-dots/1-parallelogram-diagram.png){image align="center"}
 
 You can test this by playing around with the interactive graphic on this page on the [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
 
@@ -324,12 +324,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 Cheerio,
 Simon.
 
-
-
-::: submit
-
-
----
 
 ## Additional Stuff
 
