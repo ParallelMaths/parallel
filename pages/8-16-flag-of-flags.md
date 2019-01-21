@@ -82,12 +82,11 @@ __3.1.__  What is the smallest possible difference between two different 9-digit
 
 ---
 
-Let x and y be two different numbers each made up of the digits 1, 2, 3, 4, 5, 6, 7, 8 and 9, with x > y . To make x - y as small as possible, it would be best if they differed just in the units digit, but, clearly, this is not possible. So we aim to find x and y which are the same except for their tens and units digits. These could be 21 and 12, for example with x = 987654321 and y = 987654312. This gives x - y = 9.
+Let x and y be two different numbers each made up of the digits 1, 2, 3, 4, 5, 6, 7, 8 and 9, with `x > y` . To make `x - y` as small as possible, it would be best if they differed just in the units digit, but, clearly, this is not possible. So we aim to find `x` and `y` which are the same except for their tens and units digits. These could be 21 and 12, for example with `x` = 987654321 and `y` = 987654312. This gives `x - y` = 9.
 
-Can we do any better? We now use a fact we've seen before, that the remainder when a positive integer is divided by 9 is equal to the remainder when the sum of its digits is divisible by 9, to show we cannot get a smaller difference.
+Can we do any better? We now use a fact we've seen before, that the remainder when a positive integer is divided by 9 is equal to the remainder when the sum of its digits is divided by 9, to show we cannot get a smaller difference.
 
-As x and y are made up of the same digits, which add up to 45, they have the remainder 0 when we divide them by 9. So x - y also has remainder 0 when we divide by 9. So, as x ≠ y , 9 is the least possible value for x - y .
-
+As `x` and `y` are made up of the same digits, which add up to 45, they have the remainder 0 when we divide them by 9. So `x - y` also has remainder 0 when we divide by 9. So, as `x ≠ y`, 9 is the least possible value for `x - y`.
 :::
 
 

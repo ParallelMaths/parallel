@@ -1,4 +1,4 @@
-# Truncatable Primes & Pencils
+# A Shilling for your Thoughts
 
 <div class="dictionary">
 
@@ -145,7 +145,7 @@ __2.1.__ If you bought a magazine costing 1 shilling and 6 pennies, how much cha
 :::
 
 ::: problem id=2_2 marks=2
-![](/resources/9-17-truncatable-primes-pencils/2-shilling.jpg){image align="right"}
+![](/resources/9-17-shilling-thoughts/2-shilling.jpg){image align="right"}
 __2.1.__ This image shows the back of a one shilling coin, and you can see that it is dated 1963 across the middle. However, why might someone mistakenly think the coin was minted in 1771. Which sector of the coin might give this false impression?
 
 * [ ] 1
@@ -167,7 +167,7 @@ Sector 4 contains the letters ILLI of the word SHILLING, but if you rotate the c
 
 Some of you may have seen this mathematical amusement from a previous year of the Parallel Project, but please look at it again, because this time you will need to think about it a bit more deeply.
 
-![](/resources/9-17-truncatable-primes-pencils/5-random-dots.png){image align="right"}
+![](/resources/9-17-shilling-thoughts/5-random-dots.png){image align="right"}
 Grab a pencil, paper and ruler.
 
 *	Make 4 random dots (or ask someone else to make them for you).
@@ -193,19 +193,32 @@ This particular proof is very short, but not simple to follow. Have a go at [und
 This is one of the toughest questions from a UKMT Intermediate Maths Challenge exam, so be ready to stretch your brain.
 
 ::: problem id=4 marks=4
-__4.1__ xxxx
+__4.1__  Given any positive integer `n`, Paul adds together the distinct factors of `n`, other than `n` itself.
 
-![](/resources/9-16-puzzle-compendium/4-cards.png){image align="center"}
+Which of these numbers can never be Paul’s answer?
 
-* [ ] xxx
-* [ ] xxx
-* [ ] xxx
-* [x] xxx
-* [ ] xxx
+* [ ] 1
+* [ ] 3
+* [x] 5
+* [ ] 7
+* [ ] 9
+{.col-5}
 
 ---
 
-xxxxxx
+The only factor of 2, other than 2 itself is 1. So the sum of these factors is 1. [Note that whenever p is a prime number, the sum of the factors of p, other than p, is 1.]
+
+The factors of 4, other than 4 itself, are 1 and 2, whose sum is 3.  
+
+The factors of 8, other than 8 itself, are 1, 2, 4, whose sum is 7.  
+
+The factors of 15, other than 15 itself, are 1, 3, 5, whose sum is 9.  
+
+So 1, 3, 7 and 9 could each be Paul’s answer.  
+
+In the context of the IMC this is enough for us to be able to select 5 as the correct option. However, to give a mathematically complete answer, we need to give a reason why the sum of the factors of `n`, other than `n` itself, cannot equal 5.
+
+Clearly, we need only consider the case where `n > 1`. So, one of the factors of `n`, other than `n` itself, is 1. Suppose that the other factors are `a, b`,… . Then `a, b`,… are distinct, none of them is 1, and 1 + `a` + `b` + ... = 5. So `a` + `b` + ... = 4. However, there is no way of expressing 4 as the sum of more than one distinct positive integer none of which is 1. So the only possibility is that 4 is the only factor of `n`, other than 1 and `n`. However, this is impossible, since if 4 is a factor of `n`, then so also is 2. Therefore the answer could never be 5.
 :::
 
 

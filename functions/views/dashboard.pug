@@ -5,10 +5,13 @@ block content
   p Welcome to Parallel! Your teacher code is "#[strong #{user.code}]". What to do next:
   ul
     li Ask your students to create an account, entering your Teacher Code when prompted.
-    li Your students will then be automatically added to the dashboard below, listed by school year.
+    li Your students will then be automatically added to your dashboard, listed by school year.
     li Your students will receive a link to the new Parallelogram each Thursday at 3pm.
     li They should complete the Parallelogram and hit submit by 7pm on Sunday.
     li You’ll be able to see all of your students’ results below.
+    li __NEW:__ Click on the week number at the top of each column to sort by score.
+    li __NEW:__ Click on the top of the name column to sort students alphabetically.
+    li __NEW:__ Hover over a student name and click X to remove that student from your dashboard.
 
   if dashboard.error
     .error.dashboard-error= dashboard.error

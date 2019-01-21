@@ -20,7 +20,7 @@ This week’s Parallellogram is a collection of puzzles to confuse your brain. G
 ## 1. Dice puzzle
 
 ::: problem id=1_1 marks=3
-__1.1.__ Roll the dice in the way shown by the arrows – in other words, the dice moves from one square the next by rotating by 90 degrees around one edge. When it lands on the final square, what number will be on top?
+__1.1.__ Roll the dice in the way shown by the arrows – in other words, the dice moves from one square to the next by rotating by 90 degrees around one edge. When it lands on the final square, what number will be on top?
 
 ![](/resources/9-16-puzzle-compendium/1-dice.png)
 
@@ -51,7 +51,7 @@ I struggle with these, so I had to get a dice and roll it in order to check I wa
 ## 2. Extending figures
 
 ::: problem id=2_1 marks=1
-__2.1.__ How many squares in diagram 9?
+__2.1.__ How many squares are there in diagram 9?
 
 ![](/resources/9-16-puzzle-compendium/2-extending.png)
 
@@ -65,7 +65,7 @@ The number of squares in any diagram `D` is (4 x `D` + 3). In this case (4 x 9 +
 :::
 
 ::: problem id=2_2 marks=2
-__2.2.__ How many squares in diagram 25?
+__2.2.__ How many squares are there in diagram 25?
 
 <input type="number" solution="103"/>
 :::
@@ -74,7 +74,7 @@ __2.2.__ How many squares in diagram 25?
 ## 3. Roman matchsticks
 
 ::: problem id=3_1 marks=3
-__3.1.__  The matches are arranged to form Roman numerals, but obviously six subtract four is not nine. Which matchstick (labelled 1 to 12) would you need to move in order to make the equation correct?
+__3.1.__  The matches are arranged to form Roman numerals, but obviously six minus four is not nine. Which matchstick (labelled 1 to 12) would you need to move in order to make the equation correct?
 
 ![](/resources/9-16-puzzle-compendium/3-matchsticks.png)
 
@@ -100,8 +100,6 @@ Take a look at this video by Steve Mould, a physics graduate who now writes book
 
 @[youtube](Hpwd_ns2Wjs?rel=0)
 
-What is the other equable right-angled triangle with integer length sides? Just type in the length of the hypotenuse, so we know that you have identified the correct triangle.
-
 ::: problem id=4 marks=3
 __4.1__ A set of cards has a shape on one side and a colour on the other side.  
 
@@ -123,9 +121,9 @@ The rule says nothing about squares, so ignore card A.
 
 The rule is clear that circles must be backed by blue, so we must check card B.  
 
-Card C is not important. Although it is blue, it could have any colour on the other side. The rule is (circle means blue, not blue means circle).  
+Card C is not important. Although it is blue, it could have any shape on the other side. The rule is "circle means blue", not "blue means circle".  
 
-Card D is important, because if it has a circle on the other side, then it breaks the rule. Another way to state the rule is: “If the card is not blue, then it must not be blue on the other side.”
+Card D is important, because if it has a circle on the other side, then it breaks the rule. Another way to state the rule is: “If the card is not blue, then it must not have a circle on the other side.”
 :::
 
 
@@ -192,7 +190,7 @@ We know `5^p = 9` and `9^q = 12`.
 
 Therefore, `(5^p)^q = 12`.  
 
-Therefore `5^pq = 12`.  
+Therefore `5^(pq) = 12`.  
 
 Just extend this approach, because you know `12^r = 16`.
 ^^^
@@ -206,9 +204,9 @@ Just extend this approach, because you know `12^r = 16`.
 
 ---
 
-The key to the solution is to first calculate the value of `5^pqrst`. We have that
+The key to the solution is to first calculate the value of `5^(pqrst)`. We have that
 
-`5^pqrst = (5^p)^qrst = 9^qrst = (9^q)^rst = 12^rst = (12^r)^st = 16^st = (16^s)^t = 20^t = 25 = 5^2`.
+`5^(pqrst) = (5^p)^(qrst) = 9^(qrst) = (9^q)^(rst) = 12^(rst) = (12^r)^(st) = 16^(st) = (16^s)^t = 20^t = 25 = 5^2`.
 
 Hence `pqrst = 2`.
 :::

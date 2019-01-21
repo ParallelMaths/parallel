@@ -184,7 +184,7 @@ turning the new number back into a letter.
 So, if we want to encode the word CAT by (+2), then CAT is 2 ¦ 0 ¦ 19, so adding
 2 transforms it into  4 ¦ 2 ¦ 21, which means CAT is encoded as ECV.
 
-If we encode by (+10), then because CAT is 2 ¦ 0 ¦ 19, so adding 10 transforms it
+If we encode by (+10), then because CAT is 2 ¦ 0 ¦ 19, adding 10 transforms it
 into 12 ¦ 10 ¦ 29. The number 29 is tricky, because no letter is associated with 29,
 so last week we talked about modulo arithmetic. In this case, modulo (26), if we
 have a number that is outside our range of 0 to 25, then we add or subtract 26 again
@@ -192,7 +192,7 @@ and again until we are within the range of 0 to 25. This means that 12 ¦ 10 ¦ 
 becomes 12 ¦ 10 ¦ 3, which means CAT is encoded as MKD.
 
 If you need to revise this, then go back and look at the
-[previous Paralellogram](/7-02-marie-curie){target="_blank"}.
+[previous Paralellogram](/7-15-marie-curie){target="_blank"}.
 
 But what about __decoding__? You can decode a word by subtracting, instead of
 adding.
@@ -345,7 +345,7 @@ The noughts and crosses video in this week’s Parallelogram reminded me of a
 couple of things.
 
 1. Today’s best computer programmes can beat humans at the most complex games,
-such as Chess or Go, but this video from 1949 shows that has been a long and
+such as Chess or Go, but this video from 1949 shows that it has been a long and
 hard journey to get to where we are now. The black and white video shows an
 early computer mastering how to play noughts and crosses.
 [https://www.britishpathe.com/video/noughts-and-crosses-machine](https://www.britishpathe.com/video/noughts-and-crosses-machine){target="_blank"}
