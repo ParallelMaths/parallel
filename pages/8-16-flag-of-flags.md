@@ -154,7 +154,7 @@ __5.2__ Which of these flags is contained in the Norway flag?
 
 * [ ] Nepal
 * [x] Poland
-* [ ] Reunion
+* [ ] South Africa
 * [ ] Romania
 * [ ] Russian Federation
 :::

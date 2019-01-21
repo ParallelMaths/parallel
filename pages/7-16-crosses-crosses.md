@@ -110,8 +110,8 @@ This makes 24 lit cells altogether.
 ## 3. Tic-tac-toe or noughts and crosses
 
 Mathematicians love playing games. In fact, there is a whole area of maths
-known as Game Theory, which looks at everything from Monopoly to poker to chess
-to football to warfare. You can apply maths to work out the best strategy for
+known as Game Theory, which looks at everything from Monopoly to poker, from chess
+to football, and even warfare. You can apply maths to work out the best strategy for
 winning.
 
 In this Parallelogram, we have a video that looks at one of the simplest games:
