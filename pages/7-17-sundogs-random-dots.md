@@ -68,6 +68,7 @@ __3.1__ If &#9650; + &#9650; = &#9723; and &#9723; + &#9650; = &#9711; and &#967
 * [ ] 4
 * [ ] 5
 * [x] 6
+{.col-5}
 
 ---
 
@@ -199,6 +200,7 @@ __5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
 * [ ] RY
 * [ ] SB
 * [ ] US
+{.col-5}
 
 ---
 
@@ -222,6 +224,7 @@ __5.3.__ The Thai alphabet has 70 letters. If I am encoding a message in Thai by
 * [ ] 7
 * [ ] 8
 * [x] 9
+{.col-5}
 
 ^^^ hint id=1
 Remember the golden rule: you can multiply by any number __“as long as the number has no factors in common with the size of the alphabet that you are using.”__
@@ -241,6 +244,7 @@ __5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Alb
 * [ ] 4
 * [x] 5
 * [ ] 6
+{.col-5}
 
 ---
 
@@ -263,6 +267,7 @@ __5.5.__ Consider the following 8 alphabets, listed with the number of letters t
 * [x] 2
 * [ ] 3
 * [ ] 4
+{.col-5}
 
 ---
 

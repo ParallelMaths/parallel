@@ -67,6 +67,7 @@ What is the value of x + y?
 * [x] 60
 * [ ] 75
 * [ ] 90
+{.col-5}
 
 ^^^ hint id=1
 ![](/resources/8-17-dripping-taps/3-angles-hint.png){image align="right"}
