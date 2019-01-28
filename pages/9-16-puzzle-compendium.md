@@ -74,7 +74,7 @@ __2.2.__ How many squares are there in diagram 25?
 ## 3. Roman matchsticks
 
 ::: problem id=3_1 marks=3
-__3.1.__  The matches are arranged to form Roman numerals, but obviously six minus four is not nine. Which matchstick (labelled 1 to 12) would you need to move in order to make the equation correct?
+__3.1.__  The matches are arranged to form Roman numerals, but obviously six minus four is not nine. Which matchstick (labelled 1 to 9) would you need to move in order to make the equation correct?
 
 ![](/resources/9-16-puzzle-compendium/3-matchsticks.png)
 
