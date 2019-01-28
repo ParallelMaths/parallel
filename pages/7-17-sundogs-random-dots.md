@@ -23,7 +23,7 @@ Okay. Grab a pencil, paper and ruler.
 *	Make 4 random dots (or ask someone else to make them for you).
 *	Join up the dots to make a quadrilateral.
 *	Put a mark at the midpoint of each line in this first quadrilateral.
-*	Join up the four new points to make a new second quadrilateral.
+*	Join up the four new points to make a second quadrilateral.
 
 ::: problem id=1_1 marks=2
 __1.1__ What shape is this second quadrilateral? We are looking for a single word answer, and make sure you spell it correctly. (Clue: your answer should not have an H in it. If it does, then you might need to look for a more generalised answer.)
@@ -103,7 +103,7 @@ The natural inclination is to continue the sequence – April, May and... June. 
 
 Over the last couple of weeks, we discussed how you can encode a message by turning each letter into a number according to the alphabet-number pairings below, adding a fixed number to each letter-number and then turning the new numbers back into letters.
 
-If you want to decode a message, then you just reverse the process, so you subtract the fixed number, rather than adding it. [If any of this sounds unfamiliar or confusing, then revisit Parallelogram 2 by way of revision](/7-02-marie-curie){target="_blank"}.
+If you want to decode a message, then you just reverse the process, so you subtract the fixed number, rather than adding it. [If any of this sounds unfamiliar or confusing, then revisit Parallelogram 2 by way of revision](/7-15-marie-curie){target="_blank"}.
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -171,7 +171,7 @@ Also, B, D, F, H,... are all encoded in the same way and become N.
 
 Everything in this section is probably new maths to you, or at least applied in a new way, so don’t worry if you are a bit baffled. If you are a bit confused, then just read this section again – slowly –  and try to make sense of it. Then have a go at the questions below.
 
-By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 2](/7-02-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 modulo (26).
+By the way, the notion that encoded numbers must be between 0 and 25 is called modulo 26 arithmetic or MOD (26), and this topic was covered in [Parallelogram 15](/7-15-marie-curie){target="_blank"}. It might help to review this if you are unsure why, for example, 30 is the same as 4 modulo (26).
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
@@ -182,7 +182,7 @@ By the way, the notion that encoded numbers must be between 0 and 25 is called m
 {.grid}
 
 ::: problem id=5_1 marks=5
-__5.1.__ If we are encoding by multiplying by 5, what do the following letters become?
+__5.1.__ If we are encoding by multiplying by 5, which letter is each of the following letters transformed into?
 
 The letter __A__ becomes <input type="text" solution="A"/>  
 The letter __B__ becomes <input type="text" solution="F"/>  
@@ -204,7 +204,7 @@ __5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
 
 ---
 
-O = 14, and 5 × 14 = 70, which is bigger than 26 so we have start subtracting 26s to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
+O = 14, and 5 × 14 = 70, which is bigger than 26 so we have to start subtracting multiples of 26 to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
 
 K = 10, and 5 × 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and __24 is the letter Y__.
 
@@ -294,7 +294,7 @@ Alphabets with a prime number of letters are generally good, because prime numbe
 
 ---
 
-Abkhaz with 41 letters has a prime number or letters, so you could multiply by anything and be sure of choosing a number that has no common factors with 41. Of course, if you chose to multiply by 1, then that would not be very clever, as every letter would remain the same. And if you multiplied by 41 there would also be a problem. But otherwise, there are no problems.
+Abkhaz has 41 letters, which is a prime number of letters, so you could multiply by anything and be sure of choosing a number that has no common factors with 41. Of course, if you chose to multiply by 1, then that would not be very clever, as every letter would remain the same. And if you multiplied by 41 there would also be a problem. But otherwise, there are no problems.
 
 :::
 
@@ -331,9 +331,6 @@ Simon.
 
 
 ## Additional Stuff
-
-The noughts and crosses video in this week’s Parallelogram reminded me of a
-couple of things.
 
 * Here is a [short video by Jay about modular arithmetic](https://www.youtube.com/watch?v=OlLns9fkMtk){target="_blank"}. It is a simple introduction, so worth looking at if you are finding modular arithmetic confusing.
 

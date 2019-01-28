@@ -15,8 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-This week’s Parallellogram is a collection of puzzles to confuse your brain. Good luck!
-
 
 ## 1. 357,686,312,646,216,567,629,137
 
@@ -25,7 +23,7 @@ Watch this video by James Grime from the Numberphile YouTube channel, which is a
 @[youtube](azL5ehbw_24?rel=0&end=305)
 
 ::: problem id=1_1 marks=2
-__1.1.__ James showed you a truncatable prime, where by the left digit can be removed one to create a smaller, but still prime, number. Which of these is a left-truncatable prime?
+__1.1.__ James showed you a truncatable prime, whereby the left digits can be removed one by one to create a set of smaller, but still prime, numbers. Which of these is a left-truncatable prime?
 
 * [ ] 981
 * [x] 983
@@ -40,7 +38,7 @@ __1.1.__ James showed you a truncatable prime, where by the left digit can be re
 * 983 looks okay, because 83 seems prime, and 3 is prime.  
 * 985 is not prime, because it ends in 5.  
 * 987 leads to 87 (29 x 3)  
-* 999 is not prime, because it is clearly divisible by 3.  
+* 989 is not prime, because it is clearly divisible by 3.  
 
 So the answer must be 983.
 :::
@@ -95,7 +93,9 @@ As of January 2019, the largest known prime was [ `2^(82,589,933) – 1` ], a nu
 :::
 
 ::: problem id=1_5 marks=2
-__1.5.__ So far, we have been discussing LEFT-truncatable primes, but what about RIGHT-truncatable primes, numbers that remain prime as remove the right-most digit? Which of these numbers is a right-truncatable prime?
+__1.5.__ So far, we have been discussing LEFT-truncatable primes, but what about RIGHT-truncatable primes, numbers that remain prime as you successively remove the right-most digit?
+
+Which of these numbers is NOT a right-truncatable prime?
 
 * [ ] 719
 * [ ] 733
@@ -126,7 +126,7 @@ The largest right-truncatable prime is the 8-digit 73,939,133, compared to the l
 
 ## 2. A shilling coin
 
-Before 1971, Britain hand pounds, shillings and pennies (rather than pounds and pence). There were 20 shillings in a pound, and 12 pennies in a shilling, which means 144 pennies in a pound.
+Before 1971, Britain had pounds, shillings and pennies (rather than pounds and pence). There were 20 shillings in a pound, and 12 pennies in a shilling, which means 240 pennies in a pound.
 
 ::: problem id=2_1 marks=1
 __2.1.__ If you bought a magazine costing 1 shilling and 6 pennies, how much change would you get from a £1 note?
@@ -146,7 +146,7 @@ __2.1.__ If you bought a magazine costing 1 shilling and 6 pennies, how much cha
 
 ::: problem id=2_2 marks=2
 ![](/resources/9-17-shilling-thoughts/2-shilling.jpg){image align="right"}
-__2.1.__ This image shows the back of a one shilling coin, and you can see that it is dated 1963 across the middle. However, why might someone mistakenly think the coin was minted in 1771. Which sector of the coin might give this false impression?
+__2.2.__ This image shows the back of a one shilling coin, and you can see that it is dated 1963 across the middle. However, why might someone mistakenly think the coin was minted in 1771. Which sector of the coin might give this false impression?
 
 * [ ] 1
 * [ ] 2
@@ -173,7 +173,7 @@ Grab a pencil, paper and ruler.
 *	Make 4 random dots (or ask someone else to make them for you).
 *	Join up the dots to make a quadrilateral.
 *	Put a mark at the midpoint of each line in this first quadrilateral.
-*	Join up the four new points to make a new second quadrilateral.
+*	Join up the four new points to make a second quadrilateral.
 * The second quadrilateral is a __parallelogram__.
 
 You can test this by playing around with the interactive graphic on this page on the [Math Open Reference website](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"}. You can drag the four orange dots wherever you want, and it automatically generates the first quadrilateral, the midpoints and the second internal quadrilateral, which is always a parallelogram.
@@ -184,7 +184,7 @@ On the same page as the interactive graphic, if you scroll down you will find a 
 
 For this reason, the mathematician G. H. Hardy once wrote: _“Archimedes will be remembered when Aeschylus is forgotten, because languages die and mathematical ideas do not. "Immortality" may be a silly word, but probably a mathematician has the best chance of whatever it may mean.”_
 
-This particular proof is very short, but not simple to follow. Have a go at [understanding the proof](https://www.mathopenref.com/parallelograminscribed.html){target="_blank"} (remember to scroll down to find it), but don’t worry if it does not make complete sense.
+This particular proof is very short, but not simple to follow. Have a go at understanding the proof (remember to scroll down to find it), but don’t worry if it does not make complete sense.
 
 
 ## 4.	Intermediate Maths Challenge Problem (UKMT)

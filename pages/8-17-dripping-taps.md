@@ -58,9 +58,9 @@ _“Here is what the Earth looks like during a solar eclipse. The shadow of the 
 
 ![](/resources/8-17-dripping-taps/3-angle-question.png){image align="right"}
 
-__3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles x and y have been labelled.   
+__3.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles `x` and `y` have been labelled.   
 
-What is the value of x + y?
+What is the value of `x + y`?
 
 * [ ] 30
 * [ ] 45
@@ -71,7 +71,7 @@ What is the value of x + y?
 
 ^^^ hint id=1
 ![](/resources/8-17-dripping-taps/3-angles-hint.png){image align="right"}
-Notice that x and y are two of the internal angles of a pentagon.
+Notice that `x` and `y` are two of the internal angles of a pentagon.
 
 We have highlighted that pentagon in this graphic.
 
@@ -79,11 +79,11 @@ Consider how this information can help you solve the problem.
 ^^^
 
 ^^^ hint id=2
-What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: (n - 2) × 180° where n is the number of sides of the polygon.
+What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: `(n - 2) × 180°` where `n` is the number of sides of the polygon.
 ^^^
 
 ^^^ hint id=3
-Remember that the triangle is equilateral. What is the value of the biggest angle in the pentagon, above angle x and below angle y?
+Remember that the triangle is equilateral. What is the value of the biggest angle in the pentagon, above angle `x` and below angle `y`?
 ^^^
 
 ^^^ hint id=4
@@ -94,18 +94,19 @@ You know that two of the angles in the pentagon are right angles.
 
 ![](/resources/8-17-dripping-taps/3-angle-answer.png){image align="right"}
 This is tough question. Well done if you did it without hints. There are a couple
-of ways to find the value of x + y degrees, but here is the neatest method.
+of ways to find the value of `x + y` degrees, but here is the neatest method.
 
-The marked angles are two angles of the pentagon PRSTQ.
+The marked angles are two angles of the pentagon `PRSTQ`.
 
-The angles Q and T are both 90°. The interior angles of the equilateral triangle
-are all 60°. Hence the angle in the pentagon at R is 300°. The sum of the angles
+The angles `Q` and `T` are both 90°. The interior angles of the equilateral triangle
+are all 60°. Hence the angle in the pentagon at `R` is 300°. The sum of the angles
 in a pentagon is 540°.  
 
-So x + y + 300 + 90 + 90 = 540.  
+So `x + y + 300 + 90 + 90 = 540`.  
 
-Therefore x + y = 60°.
+Therefore `x + y = 60°`.
 
+Alternatively, if you imagine a line drawn parallel to the top of and bottom of the rectangle, which intersects the triangle at point `R`, you can use alternate angles to find that angle `PRS = x + y`, and as it is an equilateral triangle, this must be 60°.
 :::
 
 
