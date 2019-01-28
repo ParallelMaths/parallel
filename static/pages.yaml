@@ -1,4 +1,9 @@
 year7:
+  - url: 7-18-downhill-from-here
+    title: It’s all downhill from here
+    subtitle: Week 18
+    available: 2019-02-07T13:00:00
+    deadline: 2019-02-10T13:00:00
   - url: 7-17-sundogs-random-dots
     title: Sundogs and Random Dots
     subtitle: Week 17
@@ -87,6 +92,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-18-freezing-sports
+    title: Freezing sports and flipping pancakes
+    subtitle: Week 18
+    available: 2019-02-07T13:00:00
+    deadline: 2019-02-10T13:00:00
   - url: 8-17-dripping-taps
     title: Dripping Taps
     subtitle: Week 17
@@ -175,6 +185,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-18-mean-girls
+    title: Mean Girls
+    subtitle: Week 18
+    available: 2019-02-07T13:00:00
+    deadline: 2019-02-10T13:00:00
   - url: 9-17-shilling-thoughts
     title: A Shilling for your Thoughts
     subtitle: Week 17

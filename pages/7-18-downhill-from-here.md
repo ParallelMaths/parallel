@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Every four years, the world’s leading winter athletes – the skiers, skaters,
 sledders and snowboarders – gather to compete for medals in the Winter Olympic
-Games. In 2018, the games have been taking place in Pyeongchang, South Korea.
+Games.
 
 Of course, among the drama, bravery and triumph, there is plenty of room for
 maths! So, while you’re cheering on your favourites, don’t miss the chance to
@@ -33,7 +33,7 @@ four-man bob team was unplaced after crashing in qualifying, the two-man team
 finished a creditable 30th out of 41. The movie _Cool Runnings_ is – very
 loosely – based on their experience.
 
-![](/resources/7-05-downhill-from-here/1-bobsled.jpg){image align="center"}
+![](/resources/7-18-downhill-from-here/1-bobsled.jpg){image align="center"}
 
 In the bobsled (or bobsleigh), teams of two or four pack into a streamlined
 sled and slide down a twisting, icy course with steep, banked corners as fast
@@ -48,7 +48,7 @@ team with the smallest total time.
 __Feel free to use a calculator for these puzzles!__
 
 ::: problem id=1_1 marks=1
-![](/resources/7-05-downhill-from-here/1-bronze.png){image align="right"}__1.1__ __Bronze medal puzzle:__ The run times for the gold
+![](/resources/7-18-downhill-from-here/1-bronze.png){image align="right"}__1.1__ __Bronze medal puzzle:__ The run times for the gold
 medal-winning team (USA) were:
 
 * 50.89 seconds
@@ -64,7 +64,7 @@ What was their total time, in minutes and seconds (eg 2 minutes 8.36 seconds)?
 :::
 
 ::: problem id=1_2 marks=1
-![](/resources/7-05-downhill-from-here/1-silver.png){image align="right"}__1.2__ __Silver medal puzzle:__ After their final heat,
+![](/resources/7-18-downhill-from-here/1-silver.png){image align="right"}__1.2__ __Silver medal puzzle:__ After their final heat,
 Canada were in second place with total time of 3 minutes, 24.85 seconds –
 but Germany, in third place, still had one run to go.
 
@@ -84,7 +84,7 @@ target time, is 51.37 seconds. In fact, Germany’s final heat time was 51:36!
 :::
 
 ::: problem id=1_3 marks=1
-![](/resources/7-05-downhill-from-here/1-gold.png){image align="right"}__1.3__ __Gold medal puzzle:__ USA’s second heat time of 50.86 seconds was a track
+![](/resources/7-18-downhill-from-here/1-gold.png){image align="right"}__1.3__ __Gold medal puzzle:__ USA’s second heat time of 50.86 seconds was a track
 record.
 
 What was their average speed in metres per second? Remember, the track was
@@ -112,7 +112,7 @@ fewer than half as many points as his nearest competitor. However, these
 scores are still the British records for ski-jumping! In 2016, a film of his
 exploits, _Eddie The Eagle_, was released.
 
-![](/resources/7-05-downhill-from-here/2-ski-jump.jpg){image align="center"}
+![](/resources/7-18-downhill-from-here/2-ski-jump.jpg){image align="center"}
 
 In the ski jump, competitors ski down a huge ramp, reaching speeds of up to
 60mph before jumping as far down the hill as they possibly can.
@@ -144,7 +144,7 @@ Similarly, a jumper who manages 80 metres with 25 style points would score 65
 points altogether.
 
 ::: problem id=2_1 marks=1
-![](/resources/7-05-downhill-from-here/1-bronze.png){image align="right"}__2.1__ __Bronze medal puzzle:__ Albert the Albatross (of
+![](/resources/7-18-downhill-from-here/1-bronze.png){image align="right"}__2.1__ __Bronze medal puzzle:__ Albert the Albatross (of
 Albania) jumps exactly 90 metres and scores a perfect 60 for style. How many
 points does he earn?
 
@@ -157,7 +157,7 @@ points does he earn?
 :::
 
 ::: problem id=2_2 marks=1
-![](/resources/7-05-downhill-from-here/1-silver.png){image align="right"}__2.2__ __Silver medal puzzle:__ Kelly the Kestrel (of
+![](/resources/7-18-downhill-from-here/1-silver.png){image align="right"}__2.2__ __Silver medal puzzle:__ Kelly the Kestrel (of
 Kazakhstan) jumps 95 metres and scores a total of 120 points. How many style
 points was she awarded?
 
@@ -169,7 +169,7 @@ She has 70 for distance, so she must have another 50 for style.
 :::
 
 ::: problem id=2_3 marks=1
-![](/resources/7-05-downhill-from-here/1-gold.png){image align="right"}__2.3__ __Gold medal puzzle:__ Lemmy the Lemming (of Latvia) scores a total of zero,
+![](/resources/7-18-downhill-from-here/1-gold.png){image align="right"}__2.3__ __Gold medal puzzle:__ Lemmy the Lemming (of Latvia) scores a total of zero,
 including no style points at all. How far did he jump in metres?
 
 <input type="text" solution="60"/>
@@ -210,7 +210,7 @@ __3.1__ In the 1960s, what formation did ski jumpers make with their skies?
 ## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (14) --->
 
-![](/resources/7-05-downhill-from-here/4-cuboid.png){image align="right"} The
+![](/resources/7-18-downhill-from-here/4-cuboid.png){image align="right"} The
 diagram shows a cuboid in which the area of the shaded face is one-quarter of
 the area of each of the two visible unshaded faces. The total surface area of
 the cuboid is 72 cm².
@@ -342,19 +342,6 @@ FCLUO means?
 :::
 
 
-## 6. Amazing James Randi and psychic surgery
-
-A couple of weeks ago, you watched the Amazing James Randi perform some
-escapology. Today, he is back again, this time performing some psychic surgery:
-*	This video looks gruesome, so __don’t watch it if you are squeamish__.
-*	Psychic surgery is fake, but some people believe it is real.
-*	People waste time, money and hope visiting psychic surgeons.
-*	See if you can work out how Randi performs his fake surgery.
-*	__Really, don’t watch it if you are squeamish!__
-
-@[youtube](LjF1sUZEy2U?rel=0)
-
-
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
@@ -369,9 +356,6 @@ Simon.
 
 
 
-::: submit
-
-
 ---
 
 ## Additional Stuff
@@ -382,10 +366,3 @@ the multiplication number (labelled “Slope / A”) and the added number
 play around with encrypting messages. If you adjust the multiplication number,
 you will notice that some numbers are not allowed – can you remember why this
 is the case?
-
-* Here is [another clip featuring the Amazing James
-Randi](https://www.youtube.com/watch?v=7CASghTzNhc&t=0m25s&rel=0){target="_blank"},
-in which he tests someone who claims he can move objects with the power of his
-mind. I think this clip is terrific because it shows how a bit of clever
-thinking can create a test that demonstrates that this psychic has no special
-powers. First you will see the fake psychic and then you will see Randi’s clever test. (I should add that no psychic has ever convinced the scientific community that they have special superhuman powers, so the assumption is that all psychics are fake.)

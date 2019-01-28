@@ -20,13 +20,13 @@ week by the Parallel Project to bright young mathematicians.
 
 Every four years, the world’s leading winter athletes – the skiers, skaters,
 sledders and snowboarders – gather to compete for medals in the Winter Olympic
-Games. In 2018, the games have been taking place in Pyeongchang, South Korea.
+Games.
 
 Of course, among the drama, bravery and triumph, there is plenty of room for
 maths! So, while you’re cheering on your favourites, don’t miss the chance to
 tackle this Winter Olympics maths puzzle.
 
-![](/resources/8-05-freezing-sports/1-ice-hockey.jpg)
+![](/resources/8-18-freezing-sports/1-ice-hockey.jpg)
 
 Ice hockey is a high-speed, physical game in which skaters try to hit a small rubber puck into the other team’s goal using a curved stick. Matches consist of three 20-minute periods; if a match is tied, the teams play a fourth ‘overtime’ period, followed by a shoot-out if needed.
 
@@ -42,7 +42,7 @@ The total number of goals each team scores (GF) and concedes (GA) are recorded, 
 
 In the 2014 Winter Olympics in Sochi, the final table in Group C (Sweden, Switzerland, Czech Republic, Latvia) looked like this:
 
-![](/resources/8-05-freezing-sports/1-table-scores.png)
+![](/resources/8-18-freezing-sports/1-table-scores.png)
 
 ::: problem id=1_1 marks=1
 __1.1.__ What was the score in the Switzerland v Sweden game
@@ -89,7 +89,7 @@ __1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked li
 
 To win eight points, Canada must have two wins and an OTW. To get no points, Norway must have lost all three matches. Austria must then have beaten Norway and lost their remaining two matches (to Finland and Canada). Canada’s OTW was therefore over Finland, making the left-hand part of the table look like this:
 
-![](/resources/8-05-freezing-sports/1-table-left-answers.png)
+![](/resources/8-18-freezing-sports/1-table-left-answers.png)
 
 * Canada’s goal difference is 11 - 2 = +9.
 * Finland must have conceded 7 goals to have a GD of +8.
@@ -99,7 +99,7 @@ The last bit is trickier: the total of the goal difference column must be zero, 
 
 The final table therefore looks like this:
 
-![](/resources/8-05-freezing-sports/1-table-full-answers.png)
+![](/resources/8-18-freezing-sports/1-table-full-answers.png)
 
 :::
 
@@ -165,7 +165,7 @@ Astronomers might be interested in pancake flipping, but probably less so than e
 
 ::: problem id=3 marks=3
 
-![](/resources/8-05-freezing-sports/3-squares-question.png){image align="right"}
+![](/resources/8-18-freezing-sports/3-squares-question.png){image align="right"}
 __3.1.__ What is the smallest number of _additional_ squares which must be shaded so that this figure has at least one line of symmetry and rotational symmetry of order 2 ?
 
 * [x] 3
@@ -176,7 +176,7 @@ __3.1.__ What is the smallest number of _additional_ squares which must be shade
 
 ---
 
-![](/resources/8-05-freezing-sports/3-squares-answers.png){image align="right"}
+![](/resources/8-18-freezing-sports/3-squares-answers.png){image align="right"}
 In the diagram on the right we have shaded the three additional squares that must be shaded if the square is to have rotational symmetry of order 2. With these squares shaded the square has both the diagonals as lines of symmetry.
 
 So the smallest number of additional squares that need to be shaded is 3.

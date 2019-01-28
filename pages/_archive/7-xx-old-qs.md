@@ -55,3 +55,18 @@ the computer in 1-player mode and see if you can win.
 If you do manage to win, then just take a photo or screengrab, which includes the
 date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
 at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
+
+
+
+
+## 6. Amazing James Randi and psychic surgery
+
+A couple of weeks ago, you watched the Amazing James Randi perform some
+escapology. Today, he is back again, this time performing some psychic surgery:
+*	This video looks gruesome, so __don’t watch it if you are squeamish__.
+*	Psychic surgery is fake, but some people believe it is real.
+*	People waste time, money and hope visiting psychic surgeons.
+*	See if you can work out how Randi performs his fake surgery.
+*	__Really, don’t watch it if you are squeamish!__
+
+@[youtube](LjF1sUZEy2U?rel=0)
