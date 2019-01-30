@@ -217,13 +217,13 @@ Here is the rule if you want to encode a message by multiplying: “You can choo
 With this in mind, answer the questions below.
 
 ::: problem id=5_3 marks=2
-__5.3.__ The Thai alphabet has 70 letters. If I am encoding a message in Thai by multiplying, which of the following would be the best number to multiply by?
+__5.3.__ The Thai alphabet has 72 letters. If I am encoding a message in Thai by multiplying, which of the following would be the best number to multiply by?
 
-* [ ] 5
+* [ ] 2
+* [ ] 3
+* [ ] 4
+* [x] 5
 * [ ] 6
-* [ ] 7
-* [ ] 8
-* [x] 9
 {.col-5}
 
 ^^^ hint id=1
@@ -253,10 +253,12 @@ The answer is 5, because the Albanian alphabet has 36 letters, and all the other
 :::
 
 ::: problem id=5_5 marks=2
-__5.5.__ Consider the following 8 alphabets, listed with the number of letters that each contains. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic:
+__5.5.__ Consider the following 8 alphabets, listed with the number of letters that each contain. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic?  
 
-| Thai - 70  |  Abkhaz - 41  |
-| Sinhala - 54  |  Albanian - 36  |
+(The number of letters in an alphabet can vary, but please assume these numbers below)
+
+| Thai - 72  |  Early Abkhaz - 37  |
+| Sinhala - 60  |  Albanian - 36  |
 | Bangla - 52  |  Russian - 33  |
 | Hungarian - 44  |  English - 26  |
 {.grid}
@@ -294,7 +296,7 @@ Alphabets with a prime number of letters are generally good, because prime numbe
 
 ---
 
-Abkhaz has 41 letters, which is a prime number of letters, so you could multiply by anything and be sure of choosing a number that has no common factors with 41. Of course, if you chose to multiply by 1, then that would not be very clever, as every letter would remain the same. And if you multiplied by 41 there would also be a problem. But otherwise, there are no problems.
+Abkhaz has 37 letters, which is a prime number of letters, so you could multiply by anything and be sure of choosing a number that has no common factors with 37. Of course, if you chose to multiply by 1, then that would not be very clever, as every letter would remain the same. And if you multiplied by 37 there would also be a problem. But otherwise, there are no problems.
 
 :::
 

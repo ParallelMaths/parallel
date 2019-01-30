@@ -37,7 +37,7 @@ __1.1.__ James showed you a truncatable prime, whereby the left digits can be re
 * 981 is wrong, because it leads to 81 (9 x 9).  
 * 983 looks okay, because 83 seems prime, and 3 is prime.  
 * 985 is not prime, because it ends in 5.  
-* 987 leads to 87 (29 x 3)  
+* 987 is a multiple of 3, because (9 + 8 + 7 = 24), and 24 is a multiple of 3.
 * 989 is not prime, because it is clearly divisible by 3.  
 
 So the answer must be 983.
