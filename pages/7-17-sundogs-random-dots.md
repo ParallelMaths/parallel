@@ -29,7 +29,6 @@ Okay. Grab a pencil, paper and ruler.
 __1.1__ What shape is this second quadrilateral? We are looking for a single word answer, and make sure you spell it correctly. (Clue: your answer should not have an H in it. If it does, then you might need to look for a more generalised answer.)
 
 <input type="text" solution="Parallelogram"/>
-
 :::
 
 ![](/resources/7-17-sundogs-random-dots/1-mathematical-image.png)
@@ -81,7 +80,6 @@ Hence from &#9670; = &#9711; + &#9723; + &#9650;, we deduce that:
 &#9670; = (&#9650; + &#9650; + &#9650;) + (&#9650; + &#9650;) + &#9650;.  
 
 So &#9670; is equal to six &#9650;s.
-
 :::
 
 ## 4. The three siblings riddle
@@ -95,7 +93,6 @@ __4.1__ John’s mother had three children. The first was named April and the se
 ---
 
 The natural inclination is to continue the sequence – April, May and... June. But read the question carefully, because it starts with “John’s mother had three children...”, so John is one of the children, so John must be the answer.
-
 :::
 
 
@@ -189,7 +186,6 @@ The letter __B__ becomes <input type="text" solution="F"/>
 The letter __D__ becomes <input type="text" solution="P"/>  
 The letter __G__ becomes <input type="text" solution="E"/>  
 The letter __M__ becomes <input type="text" solution="I"/>  
-
 :::
 
 ::: problem id=5_2 marks=3
@@ -207,7 +203,6 @@ __5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
 O = 14, and 5 × 14 = 70, which is bigger than 26 so we have to start subtracting multiples of 26 to bring it within the range of 0 to 25. Thus, 70 – 26 – 26 = 18, and __18 is the letter S__.  
 
 K = 10, and 5 × 10 = 50. To bring it within the range of 0 – 25, we work out 50 – 26 = 24, and __24 is the letter Y__.
-
 :::
 
 We found that encoding by multiplying by 2 or 13 was a problem, because these numbers are both factors of 26, the size of the English alphabet. In fact, there is also a problem when you multiply by any even number, because all the even numbers have a common factor with 26, namely 2.  
@@ -232,8 +227,7 @@ Remember the golden rule: you can multiply by any number __“as long as the num
 
 ---
 
-The answer is 9, because it is the only number that has no factors in common with 70 (the size of the alphabet). 5 is a factor of 70, 6 shares a factor of 2, 7 is a common factor, and 8 shares a common factor of 2.
-
+The answer is 5, because it is the only number that has no factors in common with 72 (the size of the alphabet).
 :::
 
 ::: problem id=5_4 marks=2
@@ -249,7 +243,6 @@ __5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Alb
 ---
 
 The answer is 5, because the Albanian alphabet has 36 letters, and all the other options not only share a common factor with 36, they are factors of 36.  
-
 :::
 
 ::: problem id=5_5 marks=2
@@ -297,8 +290,8 @@ Alphabets with a prime number of letters are generally good, because prime numbe
 ---
 
 Abkhaz has 37 letters, which is a prime number of letters, so you could multiply by anything and be sure of choosing a number that has no common factors with 37. Of course, if you chose to multiply by 1, then that would not be very clever, as every letter would remain the same. And if you multiplied by 37 there would also be a problem. But otherwise, there are no problems.
-
 :::
+
 
 ## 6. University Challenge – modular arithmetic
 
