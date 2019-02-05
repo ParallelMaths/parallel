@@ -55,7 +55,7 @@ __1.1.__ What was the score in the Switzerland v Sweden game
 
 ---
 
-Sweden won all their games, because 9 points means 3 wins. Switzerland only had 1 goal scored again them in all three games, so they must have lost 1-0 to Sweden.
+Sweden won all their games, because 9 points means 3 wins. Switzerland only had 1 goal scored against them in all three games, so they must have lost 1-0 to Sweden.
 :::
 
 ::: problem id=1_2 marks=1
@@ -114,7 +114,7 @@ researcher, and writer of maths books including _Basic Maths for Dummies_.__
 
 ## 2. Flipping pancakes
 
-I realise that Shrove Tuesday has come and gone, but I wrote this Parallelogram on Pancake Day, so I was reminded of this video about the maths of pancake flipping. It mentions a friend of mine, David X. Cohen, who is one of the gods of pancake flipping maths. He is probably better known, however, as one of the writers on The Simpsons and one of the driving forces behind Futurama. A lot of mathematicians write for these two shows, and I will return to them in future Parallelograms.
+I realise that Shrove Tuesday is still a little while away, but I wrote this Parallelogram on Pancake Day last year, and I was reminded of this video about the maths of pancake flipping. It mentions a friend of mine, David X. Cohen, who is one of the gods of pancake flipping maths. He is probably better known, however, as one of the writers on The Simpsons and one of the driving forces behind Futurama. A lot of mathematicians write for these two shows, and I will return to them in future Parallelograms.
 
 In the meantime, watch the video and answer the three questions that follow. In fact, perhaps look at the questions first, so you can listen out for the answers when you watch the video.
 
@@ -240,10 +240,7 @@ Simon.
 
 
 
-::: submit
-
-
-## Further Stuff
+## Additional Stuff
 
 * This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0){target="_blank"} reveals a bit more about the astrophysicist Neil deGrasse Tyson
 

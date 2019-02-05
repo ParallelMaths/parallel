@@ -15,8 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-This week’s Parallellogram is a collection of puzzles to confuse your brain. Good luck!
-
 
 ## 1. Mean Girls
 
@@ -24,7 +22,7 @@ Here’s a clip from “Mean Girls”, a 2004 film starring Lindsay Lohan as Cad
 
 @[youtube](oDAKKQuBtDo?rel=0)
 
-Cady answers a question about “limits”, which is something you probably have not covered yet.  
+Cady answers a question about “limits”, which is something you probably haven't covered yet.  
 
 The concept of limits touches on areas such as finding the value of a function in unusual or extreme situations. For example, let’s explore the value of this function.
 
@@ -39,9 +37,9 @@ But what about when `z = 8`?
 
 The denominator is `(8 – 8)`, which is zero, and we cannot divide by zero. So what is the answer? Is there an answer?  
 
-However, we can factor the top half of the equation, so it can be re-written as:
+We can factor the top half of the equation, so it can be re-written as:
 
-`(2z^2 - 17z + 8)/(8 - z) = ((2z - 1)(z - 8))/(-(z - 8)) = (2z - 1)/-1`
+`(2z^2 - 17z + 8)/(8 - z) = ((2z - 1)(z - 8))/(-(z - 8)) = (2z - 1)/(-1)`
 {.text-center}
 
 Now it is clear that when `z = 8`, then `f(z) = -15`.  
@@ -82,7 +80,7 @@ In this short interview, he explains how chess played an important role in his d
 
 @[youtube](nIinTq6KqvM?rel=0)
 
-By the way, there are several great online websites, many of them offering free interactive lessons or the chance to play other people online (or play against a computer). A good place to start is [Chess Kid](https://www.chesskid.com/){target="_blank"}._
+By the way, there are several great online websites, many of them offering free interactive lessons or the chance to play other people online (or play against a computer). A good place to start is [Chess Kid](https://www.chesskid.com/){target="_blank"}.
 
 
 ## 3. Intermediate Maths Challenge Problem (UKMT)
