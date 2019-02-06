@@ -4,6 +4,7 @@ year7:
     subtitle: Week 18
     available: 2019-02-07T13:00:00
     deadline: 2019-02-10T13:00:00
+    scoreFactor: 2
   - url: 7-17-sundogs-random-dots
     title: Sundogs and Random Dots
     subtitle: Week 17

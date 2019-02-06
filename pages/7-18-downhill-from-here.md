@@ -15,6 +15,8 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
+Last week there was a scoring issue, which meant users were not awarded all of the points for their correct answers. To make up for it, this week's Parallelogram will be worth __double points!__.
+
 
 ## 1. Winter Olympics Puzzle (A)
 
