@@ -57,11 +57,9 @@ medal-winning team (USA) were:
 * 51.19 seconds
 * 51.52 seconds
 
-What was their total time, in minutes and seconds (eg 2 minutes 8.36 seconds)?
+What is the total time for the four runs in seconds? (please answer to two decimal places)
 
-| minutes | seconds |
-| <input type="text" solution="3"/> | <input type="text" solution="24.46"/> |
-{.grid}
+<input type="text" solution="204.46"/>
 :::
 
 ::: problem id=1_2 marks=1
@@ -90,19 +88,14 @@ target time, is 51.37 seconds. In fact, Germany’s final heat time was 51:36!
 __1.3__ __Gold medal puzzle:__ The USA’s second heat time of 50.86 seconds was a track
 record.
 
-What was their average speed in metres per second? Remember, the track was
-1,450 metres long
+What was their average speed in metres per second? Give your answer to the nearest whole number, and remember that the track was
+1,450 metres long.
 
-Can you convert that to miles per hour? (Note: there are 1,609.344 metres in a mile AND please give your answer to two decimal places.)
-
-| m/s  | mph |
-| <input type="text" solution="28.51"/> | <input type="text" solution="63.77"/> |
+<input type="number" solution="29"/> m/s
 
 ---
 
-1,450m in 50.86s is 1450 ÷ 50.86 = 28.51m/s. In 3,600 seconds, they would travel
-about 102,636 metres, so they’re moving at 102,636 metres per hour. Dividing
-this by 1,609.344 gives 63.77mph.
+Solutions 1,450/50.86 = 28.5096, which is closest to 29 m/s.
 :::
 
 

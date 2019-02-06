@@ -73,21 +73,23 @@ Switzerland lost to Sweden (who won all their games), and we know Switzerland wo
 :::
 
 ::: problem id=1_3 marks=5
-__1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, only some of the numbers are missing. Can you fill them in? (Remember, for Goal Difference you need to use + and – immediately before the number, eg +1 or -1.)
+__1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, but I have blanked out some of the numbers.
 
-| Team | W                  | OTW                | OTL                | L                  | GF                 | GA                  | GD                    | Pts |
-| ---- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------- | --------------------- | --- |
-| CAN  | <input solution=2> | <input solution=1> | <input solution=0> | <input solution=0> | 11                 | 2                   | <input solution="+9"> | 8 |
-| FIN  | <input solution=2> | <input solution=0> | <input solution=1> | <input solution=0> | 15                 | <input solution=7>  | +8                    | <input solution=7> |
-| AUT  | <input solution=1> | <input solution=0> | <input solution=0> | <input solution=2> | <input solution=7> | 15                  | –8                    | 3 |
-| NOR  | <input solution=0> | <input solution=0> | <input solution=0> | <input solution=3> | 3                  | <input solution=12> | <input solution="-9"> | 0 |
-{.grid}
+![](/resources/8-18-freezing-sports/1-ice-hockey.jpg)
 
-*Hint: do the left hand side of the table first*
+How did Austria get its 3 points?
+
+* [x] 1 win and 2 losses
+* [ ] 1 OTW, 1 OTL and 1 loss
+* [ ] 3 OTLs
 
 ---
 
-To win eight points, Canada must have two wins and an OTW. To get no points, Norway must have lost all three matches. Austria must then have beaten Norway and lost their remaining two matches (to Finland and Canada). Canada’s OTW was therefore over Finland, making the left-hand part of the table look like this:
+You can actually fill in all the gaps, as explained below. However, to answer the question about Austria, you would only need think about the next paragraph.  
+
+To get no points, Norway must have lost all three matches, including their match to Austria. So, if Austria beat Norway, then they lost their remaining two matches (to Finland and Canada).  
+
+To win eight points, Canada must have two wins (against Austria and Norway) and an OTW. Canada’s OTW was therefore over Finland, making the left-hand part of the table look like this:
 
 ![](/resources/8-18-freezing-sports/1-table-left-answers.png)
 
