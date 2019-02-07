@@ -75,7 +75,7 @@ Switzerland lost to Sweden (who won all their games), and we know Switzerland wo
 ::: problem id=1_3 marks=5
 __1.3.__ The final table in Group B (Canada, Finland, Austria, Norway) looked like this, but I have blanked out some of the numbers.
 
-![](/resources/8-18-freezing-sports/1-ice-hockey.jpg)
+![](/resources/8-18-freezing-sports/1-table-full.png)
 
 How did Austria get its 3 points?
 
