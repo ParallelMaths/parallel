@@ -11,24 +11,25 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	As many of you will on half term next week, you have an extra week to finish this parallelogram.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
+* As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 
 
 ## 1. Pie Chart
 
 You will have come across lots of pie charts, and they are a useful way of representing information.  However, they are also a useful way of making jokes. These are some of my favourite funny pie charts. I have no idea who created the following pie charts, but well done to whoever invented them.
 
-![](/resources/7-06-pie-charts/1-pie-1-scooby.png){image align="center"}
+![](/resources/7-19-pie-charts/1-pie-1-scooby.png){image align="center"}
 
-![](/resources/7-06-pie-charts/1-pie-2-japan.png){image align="center"}
+![](/resources/7-19-pie-charts/1-pie-2-japan.png){image align="center"}
 
-![](/resources/7-06-pie-charts/1-pie-3-pyramid.png){image align="center"}
+![](/resources/7-19-pie-charts/1-pie-3-pyramid.png){image align="center"}
 
-![](/resources/7-06-pie-charts/1-pie-4-pies.jpg){image align="center"}
+![](/resources/7-19-pie-charts/1-pie-4-pies.jpg){image align="center"}
 
-![](/resources/7-06-pie-charts/1-pie-5-understanding.jpg){image align="center"}
+![](/resources/7-19-pie-charts/1-pie-5-understanding.jpg){image align="center"}
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
@@ -138,7 +139,7 @@ Such a coded message would have been unbreakable for centuries, until a 9th cent
 
 The most important part of a letter’s personality is how often it occurs. Some letters are more common than others, and the bar graph below shows the frequency of letters in English.
 
-![](/resources/7-06-pie-charts/5-letter-distribution.png){image align="center"}
+![](/resources/7-19-pie-charts/5-letter-distribution.png){image align="center"}
 
 ::: problem id=5_1 marks=5
 __5.1.__ Your challenge is to decipher the coded message about maths. Once you have worked out the quote, Google it to find out the author of the quote, and then type his 5-letter surname into the answer box.
@@ -179,32 +180,18 @@ The quote is _"Beauty is the first test; there is no permanent place in the worl
 :::
 
 
-## 6. A qustion to tst your writing skills
-
-We have learnt that E is the most common letter in English, so how hard would it be to write a message that did not contain a single E? Your challenge is to write at least 50 words explaining what you did today, but you must NOT use any words that contain the letter E.
-
-It will be tough, but the French novelist Georges Perec wrote an entire book (La Disparition) that was devoid of the letter E. It was then translated into English by Gilbert Adair, and once again none of the words in the book contained the letter E.
-
-__Contact us with your 50-word account of your day and you could win a copy of my book, which talks about lots of fun maths in Simpsons/Futurama – which I will happily sign for you. (See, it is possible to write without using any E’s!)__
-
-Email your 50-word account to [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and we will pick our favourite.
-
-
 Before you hit the SUBMIT button, here are some quick reminders:
 
-*	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You will receive your score immediately, and reward points.
+*	You might earn a new badge… if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
-*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+*	A score of less than 50% is ok – it means your learn lots from your mistakes.
+*	Finally, if you missed any earlier Parallelograms, back and complete them.
+*	You earn reward points and badges from completing missed Parallelogams.
+*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ---

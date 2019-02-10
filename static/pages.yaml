@@ -1,4 +1,14 @@
 year7:
+  - url: 7-20-optimise-pizza-money
+    title: Optimising your pizza money
+    subtitle: Week 20
+    available: 2019-02-28T13:00:00
+    deadline: 2019-03-03T13:00:00
+  - url: 7-19-pie-charts
+    title: Pie charts and speed-reading
+    subtitle: Week 19
+    available: 2019-02-14T13:00:00
+    deadline: 2019-02-24T13:00:00
   - url: 7-18-downhill-from-here
     title: It’s all downhill from here
     subtitle: Week 18
@@ -93,6 +103,16 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-20-curious-bear-doctor-who
+    title: A curious bear and Doctor Who
+    subtitle: Week 20
+    available: 2019-02-28T13:00:00
+    deadline: 2019-03-03T13:00:00
+  - url: 8-19-countdown-levitating-water
+    title: Countdown and levitating water
+    subtitle: Week 19
+    available: 2019-02-14T13:00:00
+    deadline: 2019-02-24T13:00:00
   - url: 8-18-freezing-sports
     title: Freezing sports and flipping pancakes
     subtitle: Week 18
@@ -186,6 +206,16 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-20-four-colour-map-theorem
+    title: Four-Colour Map Theorem
+    subtitle: Week 20
+    available: 2019-02-28T13:00:00
+    deadline: 2019-03-03T13:00:00
+  - url: 9-19-collision-mystery
+    title: Collision Mystery
+    subtitle: Week 19
+    available: 2019-02-14T13:00:00
+    deadline: 2019-02-24T13:00:00
   - url: 9-18-mean-girls
     title: Mean Girls
     subtitle: Week 18

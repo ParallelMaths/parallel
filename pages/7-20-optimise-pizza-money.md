@@ -242,10 +242,6 @@ Cheerio,
 Simon.
 
 
-
-::: submit
-
-
 ---
 
 ## Additional Stuff

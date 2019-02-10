@@ -30,7 +30,7 @@ __1.1.__ What colour is the bear's fur?
 
 ---
 
-![](/resources/8-07-curious-bear-doctor-who/1-north-pole.jpg){image align="right"}The answer is white because it is a polar bear, because you are at the North Pole. Why? Normally moving south-east-north does not get you back to where you started, but imagine that you are at the North Pole. On the surface of a sphere (like the Earth), the rules of geometry are different, south-east-north forms a complete triangle!
+![](/resources/8-20-curious-bear-doctor-who/1-north-pole.jpg){image align="right"}The answer is white because it is a polar bear, because you are at the North Pole. Why? Normally moving south-east-north does not get you back to where you started, but imagine that you are at the North Pole. On the surface of a sphere (like the Earth), the rules of geometry are different, south-east-north forms a complete triangle!
 
 Also, the triangle has three right angles, so the internal angles of a triangle on a sphere can add up to 270°.
 
@@ -148,7 +148,7 @@ This is one of the toughest Junior Maths Challenge questions that you will come 
 
 ::: problem id=4 marks=5
 
-![](/resources/8-07-curious-bear-doctor-who/4-triangles-question.jpg){image align="right"}
+![](/resources/8-20-curious-bear-doctor-who/4-triangles-question.jpg){image align="right"}
 __4.1.__ The points _S_, _T_, _U_ lie on the sides of the triangle _PQR_, as shown, so that _QS_ = _QU_ and _RS_ = _RT_.
 
 _∠TSU_ = 40°. What is the size of _∠TPU_?  
@@ -169,7 +169,7 @@ _∠SQU_ = (180 - 2`y`)°. Hence from triangle _PQR_, we have that _∠TPU_ = (1
 
 ---
 
-![](/resources/8-07-curious-bear-doctor-who/4-triangle-answer.jpg){image align="right"}
+![](/resources/8-20-curious-bear-doctor-who/4-triangle-answer.jpg){image align="right"}
 The question was hard, and the answer is pretty hard, too. Go through it slowly, step by step, and you really will understand it. If you are flummoxed by one particular step, then ask your teacher to explain it.
 
 Let _∠RTS_ = `x`°. Then _∠RST_ = `x` as _RS_ = _RT_.
@@ -233,7 +233,7 @@ __All:__ 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 = 81 = 3<sup>4</sup>
 
 Why does this happen? Let’s look at why the top row adds up to the square of the number.
 
-![](/resources/8-07-curious-bear-doctor-who/5-3-number-square.jpg){image align="center"}
+![](/resources/8-20-curious-bear-doctor-who/5-3-number-square.jpg){image align="center"}
 
 A 3 x 3 grid of 9 blocks consists of __1__ block in the top left, __3__ blocks wrapped around it, and __5__ blocks wrapped around those. So a 3<sup>2</sup> grid consists of __(1 + 3 + 5)__ blocks, and __1__, __3__, __5__ are the first three odd numbers and fill up the top row of the grid. That’s why 1 + 3 + 5 = 9 = 3<sup>2</sup>.
 
@@ -277,10 +277,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ## Additional Stuff

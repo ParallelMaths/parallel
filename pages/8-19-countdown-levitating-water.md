@@ -11,9 +11,10 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	As many of you will on half term next week, you have an extra week to finish this parallelogram.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
+* As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 
 
 ## 1.	Crazy Coundown numbers
@@ -91,7 +92,7 @@ __3.1.__ Which planet could be powered by the Leidenfrost effect?
 In case you have forgotten, or are new to Parallelograms, these Junior Maths Challenge questions come from an annual maths challenge that you might already have been part of or which you might be taking part in this year. The questions are sometimes tough, but that is the definition of a challenge. In fact, this one is so tough that I have added a hint.
 
 ::: problem id=4 marks=3
-![](/resources/8-06-countdown-levitating-water/4-cubes.png){image align="right"}
+![](/resources/8-19-countdown-levitating-water/4-cubes.png){image align="right"}
 __4.1.__ One cube has each of its faces covered by one face of an identical cube, making a solid as shown. The volume of the solid is 875cm<sup>3</sup>.
 
 What, in cm<sup>2</sup>, is the surface area of the solid?
@@ -141,19 +142,16 @@ This is a short, curious and odd video about purple. No maths, just chemistry.
 
 Before you hit the SUBMIT button, here are some quick reminders:
 
-*	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You will receive your score immediately, and reward points.
+*	You might earn a new badge… if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
-*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+*	A score of less than 50% is ok – it means your learn lots from your mistakes.
+*	Finally, if you missed any earlier Parallelograms, back and complete them.
+*	You earn reward points and badges from completing missed Parallelogams.
+*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ## Additional Stuff
@@ -162,4 +160,4 @@ Simon.
 
 * The article about π, ended with a bit of trivia about pizza and π. This image explains why the volume of a pizza is pi.z.z.a. The image was created by Jay Fallon.
 
-![](/resources/8-06-countdown-levitating-water/ad-pizza.png)
+![](/resources/8-19-countdown-levitating-water/ad-pizza.png)
