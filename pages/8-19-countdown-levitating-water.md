@@ -25,7 +25,7 @@ Sometimes it’s easy, sometimes it’s hard, but rarely are the calculations as
 
 If you want to tackle the puzzle before you watch the clip, then this is the puzzle: make __821__ from __25, 100, 75, 50, 6, 4__.
 
-@[youtube](sKdM82SELsU?rel=0)
+@[youtube](sKdM82SELsU?end=193&rel=0)
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
@@ -40,7 +40,8 @@ __2.1.__ A list is made of every digit that is the units digit of at least one p
 * [ ] 2  
 * [ ] 3  
 * [x] 4  
-* [ ] 5  
+* [ ] 5
+{.col-5}
 
 ---
 
@@ -55,7 +56,8 @@ __2.2.__ How many of the other digits, 0, 6, 7, 8 and 9 are the units digits of 
 * [x] 2  
 * [ ] 3  
 * [ ] 4  
-* [ ] 5  
+* [ ] 5
+{.col-5}
 
 ---
 
@@ -82,7 +84,7 @@ __3.1.__ Which planet could be powered by the Leidenfrost effect?
 * [ ] Earth
 * [x] Mars
 * [ ] 51 Pegasi b
-
+{.col-3}
 :::
 
 

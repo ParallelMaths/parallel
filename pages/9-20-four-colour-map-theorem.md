@@ -88,7 +88,7 @@ __1.5.__ What is the minimum number of colours needed to colour this map?
 
 In this clip, James go on to explain how we can think about maps in terms of networks. It seems odd, but it actually makes life easier.
 
-@[youtube](NgbK43jB4rQ?start=235end=497&rel=0)
+@[youtube](NgbK43jB4rQ?start=235&end=497&rel=0)
 
 ::: problem id=2_1 marks=2
 __2.1__ Which of the following networks is the odd one out?
@@ -122,7 +122,7 @@ __2.2__ All maps can be turned into networks, but not all networks can be turned
 
 In this section, James dips into how they proved the four-colour map theorem. It is only a sketch outline of the proof, but you might still struggle to follow every detail – don’t worry, I am showing you this video just to give you a glimpse of one of the most interesting problems in maths. And I think you will have no problem answering the questions afterwards.
 
-@[youtube](NgbK43jB4rQ?start=497end=787&rel=0)
+@[youtube](NgbK43jB4rQ?start=497&end=787&rel=0)
 
 ::: problem id=3_1 marks=2
 __3.1__ The proof of the four-colour map theorem was a historic moment for mathematics, because it was the first mathematical proof that:
@@ -175,11 +175,11 @@ So Rachel had 35 pumpkin plants.
 ::: problem id=5_1 marks=5
 __5.1.__ Which diagram shows the graph `y = x` after it has been rotated 90° clockwise about the point (1, 1)?
 
-* [x] A ![](/resources/9-20-four-colour-map-theorem/5-y=x-a.jpg)
-* [ ] B ![](/resources/9-20-four-colour-map-theorem/5-y=x-b.jpg)
-* [ ] C ![](/resources/9-20-four-colour-map-theorem/5-y=x-c.jpg)
-* [ ] D ![](/resources/9-20-four-colour-map-theorem/5-y=x-d.jpg)
-* [ ] E ![](/resources/9-20-four-colour-map-theorem/5-y=x-e.jpg)
+* [x] A ![](/resources/9-20-four-colour-map-theorem/5-y=x-a.jpg)  
+* [ ] B ![](/resources/9-20-four-colour-map-theorem/5-y=x-b.jpg)  
+* [ ] C ![](/resources/9-20-four-colour-map-theorem/5-y=x-c.jpg)  
+* [ ] D ![](/resources/9-20-four-colour-map-theorem/5-y=x-d.jpg)  
+* [ ] E ![](/resources/9-20-four-colour-map-theorem/5-y=x-e.jpg)  
 {.col-2}
 
 ---

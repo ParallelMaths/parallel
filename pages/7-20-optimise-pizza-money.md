@@ -16,33 +16,32 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. How to make Countdown harder than it needs to be
+## 1. Crazy Countdown puzzle
 
-This is a very easy Countdown numbers game, but I like the way that Noel decides to make it ridiculously complicated.
+This is a Countdown numbers game, that John solves in a ridiculously complicated way. The challenge is to make 813 from [1, 10, 25, 50, 75, 100]. Have a go at solving it before watching the video.
 
-@[youtube](dfwkZ6LSKEE?rel=0)
+@[youtube](_JQYYz92-Uk?end=131&rel=0)
 
-::: problem id=1_1 marks=1
-__1.1__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create the number 1?
+There is a simpler solution that avoids heading towards astronomical numbers – the six starting numbers are in bold:
 
-* [x] Yes
-* [ ] No
+First, __75__ - __10__ = 65  
+Then, 65 x __25__ = 1625  
+Then, 1625 + __1__ = 1626  
+Then, __100__ / __50__ = 2  
+Finally, 1626 / 2 = 813
 
----
+::: problem id=1_1 marks=3
+__1.1__ What is the biggest number that you can make with [1, 10, 25, 50, 75, 100] by adding, subtracting, dividing and multiplying? By the way, the answer is not obvious.
 
-Yes, because one solution is (75 + 50) – (100 + 25) + 9 – 8
-:::
-
-::: problem id=1_2 marks=1
-__1.2__ The numbers were (75, 25, 100, 50, 9, 8). Following Countdown rules, and using ALL of the numbers, is it possible to create the number 0?
-
-* [x] Yes
-* [ ] No
+<input solution="103,125,000"/>  
 
 ---
 
-Yes, because one solution is (75 + 50) ÷ (100 + 25) + 8 – 9
+You might multiply all the numbers, which is 93,750,000, but then you are not make any use of the 1, because anything multiplied by 1 remains unchanged. You could multiply all the numbers and then add the 1 at the end, which is 93,750,001, but that does not add much. Instead, add 1 to 10 first, and multiply everything, so you have 11 x 25 x 50 x 75 x 100 = 103,125,000.
+
+If you add 1 to 10, then it makes it 10% bigger, so it makes the final total 10% bigger. If instead you add 1 to 100, then it makes it only 1% bigger, so its make the final total only 1% bigger, which is 94,687,500.
 :::
+
 
 ## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (21) --->
