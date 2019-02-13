@@ -11,7 +11,6 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	As many of you will on half term next week, you have an extra week to finish this parallelogram.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 * As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
@@ -52,7 +51,7 @@ Approximately what fraction of the whole match was taken up by the fifth set?
 
 ---
 
-We have that 8 hours and 11 minutes is 8 x 60 + 11 = 491 minutes and 11 hours and 5 minutes is 11 x 60 + 5 = 665 minutes. Therefore the exact fraction taken by the last set is `491/665`.
+We have that 8 hours and 11 minutes is 8 x 60 + 11 = 491 minutes and 11 hours and 5 minutes is 11 x 60 + 5 = 665 minutes. Therefore the exact fraction taken by the fifth set is `491/665`.
 
 So we need to decide which of the given fractions this is closest to. This can be done in more than one way. For example, as 491 is just below 500 and 665 is almost ⅓ of 2000, we have that:  
 
@@ -142,7 +141,7 @@ The most important part of a letter’s personality is how often it occurs. Some
 ![](/resources/7-19-pie-charts/5-letter-distribution.png){image align="center"}
 
 ::: problem id=5_1 marks=5
-__5.1.__ Your challenge is to decipher the coded message about maths. Once you have worked out the quote, Google it to find out the author of the quote, and then type his 5-letter surname into the answer box.
+__5.1.__ Your challenge is to decipher the coded message about maths. Once you have worked out the quote, Google it to find out who said it, and then type his 5-letter surname into the answer box.
 
 __PAUCGN YH GFA XYBHG GAHG; GFABA YH TZ EABOUTATG EQUVA YT GFA LZBQR XZB CWQN OUGFAOUGYVH.__
 
@@ -185,8 +184,8 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You will receive your score immediately, and reward points.
 *	You might earn a new badge… if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
-*	A score of less than 50% is ok – it means your learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, back and complete them.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
 *	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 

@@ -11,7 +11,6 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	As many of you will on half term next week, you have an extra week to finish this parallelogram.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 * As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
@@ -19,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1.	Collision mystery
 
-This video from the brilliant “3 Blue 1 Brown” YouTube channel posing an interesting puzzle with a very unexpected answer. Take a look and answer the questions below:
+This is a video from the brilliant “3 Blue 1 Brown” YouTube channel posing an interesting puzzle with a very unexpected answer. Take a look and answer the questions below:
 
 @[youtube](HEfHFsfGXjs?rel=0)
 
@@ -36,12 +35,12 @@ __1.1.__ The video shows how you can calculate the value of a number by bouncing
 ::: problem id=1_2 marks=2
 __1.2.__ If you want to calculate 20 digits of pi, and one block weights 1 Kg, how much must the other block weigh?
 
-* [ ] The weight of a bowling ball
-* [ ] The weight of a human
-* [ ] The weight of an elephant
-* [ ] The weight of Earth
-* [ ] The weight of the Sun
-* [x] The weight of a supermassive black hole
+* [ ] About 10 times the weight of a bowling ball
+* [ ] About 10 times the weight of a human
+* [ ] About 10 times the weight of an elephant
+* [ ] About 10 times the weight of Earth
+* [ ] About 10 times the weight of the Sun
+* [x] About 10 times the weight of a supermassive black hole
 :::
 
 
@@ -72,7 +71,7 @@ This makes a total of 4 + 4 + 1 = 9 quadrilaterals altogether. These are shown i
 
 ## 3. The Mathematical Art Of M.C. Escher
 
-If you have never seen any M.C. Escher’s art, then I think you will find this video fascinating. Just take a look and then answer the two questions below.
+If you have never seen any of M.C. Escher’s art, then I think you will find this video fascinating. Just take a look and then answer the two questions below.
 
 @[youtube](Kcc56fRtrKU?rel=0)
 
@@ -150,7 +149,7 @@ You might think the answer is 120 (ie 10 x 12), but 10 and 12 have a common fact
 
 ## 5. More Escher
 
-No questions and no marks – just take a look at this videos which takes you on a flight through weird world of M.C. Escher.
+No questions and no marks – just take a look at this video which takes you on a flight through weird world of M.C. Escher.
 
 @[youtube](kZfRaPBa6dk?rel=0)
 
@@ -160,8 +159,8 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You will receive your score immediately, and reward points.
 *	You might earn a new badge… if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
-*	A score of less than 50% is ok – it means your learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, back and complete them.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
 *	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 

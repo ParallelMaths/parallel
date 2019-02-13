@@ -11,7 +11,6 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	As many of you will on half term next week, you have an extra week to finish this parallelogram.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 * As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
@@ -50,7 +49,7 @@ The numbers 2, 3 and 5 are themselves prime numbers so they occur in this list. 
 :::
 
 ::: problem id=2_2 marks=2
-__2.2.__ How many of the other digits, 0, 6, 7, 8 and 9 are the units digits of at last one prime number?
+__2.2.__ How many of the other digits, 0, 6, 7, 8 and 9 are the units digits of at least one prime number?
 
 * [ ] 1  
 * [x] 2  
@@ -62,13 +61,12 @@ __2.2.__ How many of the other digits, 0, 6, 7, 8 and 9 are the units digits of 
 ---
 
 The solution is B, because primes can end in 7 and 9 (e.g., 7, 17, 19, 29, 37…), but not 0, 6 and 8. If the final digit is 0, 6 or 8, then the number is even and cannot be prime.
-
 :::
 
 
 ## 3. The Leidenfrost effect – levitating water
 
-This video is by Alex Nickel from his Technicality channel (which is full of fascinating videos). It is quite long (9 minutes), and takes you through an explanation of strange phenomenon known as the Leidenfrost effect. Can you understand the science? Can you follow his explanation? Does it stick in your brain afterward?
+This video is by Alex Nickel from his Technicality channel (which is full of fascinating videos). It is quite long (9 minutes), and takes you through an explanation of a strange phenomenon known as the Leidenfrost effect. Can you understand the science? Can you follow his explanation? Does it stick in your brain afterward?
 
 There is a question following the video, which you might want to look at first, so that you can look out for the answer during the video.
 
@@ -147,8 +145,8 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You will receive your score immediately, and reward points.
 *	You might earn a new badge… if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
-*	A score of less than 50% is ok – it means your learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, back and complete them.
+*	A score of less than 50% is ok – it means you can learn lots from your mistakes.
+*	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
 *	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 24. And the next Parallelogram will appear on Thursday 28 February.
 
