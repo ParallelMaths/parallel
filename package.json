@@ -16,7 +16,7 @@
     "convert-teachers": "npm run export-users && node scripts/convert-teachers.js"
   },
   "devDependencies": {
-    "ascii2mathml": "^0.6.0",
+    "ascii2mathml": "0.5.4",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.3.13",
