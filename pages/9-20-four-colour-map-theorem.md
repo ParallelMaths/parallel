@@ -147,8 +147,6 @@ __3.2__ The mathematicians found a proof by showing that the infinite number of 
 ## 4. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2013 (4) --->
 
-This is one of the toughest Junior Maths Challenge questions that you will come across, so I have given a hint. Try and solve the problem on your own – and be tenacious – but the hint is there if you need it.
-
 ::: problem id=4_1 marks=3
 __4.1.__ A standard pack of pumpkin seeds contains 40 seeds. A special pack contains 25% more seeds. Rachel bought a special pack and 70% of the seeds germinated. How many pumpkin plants did Rachel have?
 

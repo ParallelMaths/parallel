@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Parking puzzle
 
-![](/resources/7-08-tricky-parking-problem/7-parking-puzzle.jpg){image align="center"}
+![](/resources/7-21-tricky-parking-problem/7-parking-puzzle.jpg){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ What is the number of the space where the car is parked?
@@ -100,7 +100,7 @@ So the tens number is always `x` (the card number that you chose), and the units
 <!--- 2011 (25) --->
 
 ::: problem id=4_1 marks=3
-![](/resources/7-08-tricky-parking-problem/4-jmc-polygon-question.jpg){image align="right"}
+![](/resources/7-21-tricky-parking-problem/4-jmc-polygon-question.jpg){image align="right"}
 __4.1__ The diagram shows a trapezium made from three equilateral triangles.
 
 Three copies of the trapezium are placed together, without gaps or overlaps and so that complete edges coincide, to form a polygon with `N` sides.
@@ -119,7 +119,7 @@ How many different values of N are possible?
 The three trapeziums have 12 edges in total. Whenever two of them are joined together, the total number of edges is reduced by at least 2. So the maximum possible value of `N` is `12 - 2 × 2 = 8`.
 The minimum number of sides for a polygon is 3. So there are just 6 values for `N`, namely 3, 4, 5, 6, 7 and 8, that could possibly occur. The diagrams below show that they all can be achieved.
 
-![](/resources/7-08-tricky-parking-problem/4-jmc-polygon-solutions.jpg){image align="center"}
+![](/resources/7-21-tricky-parking-problem/4-jmc-polygon-solutions.jpg){image align="center"}
 
 :::
 
@@ -189,13 +189,14 @@ __5.4.__ The answer from question 5.3 is much bigger than the age of the univers
 * [x] about 5 billion
 :::
 
+
 ## 6. Rocket software
 
 This is a photo of Margaret Hamilton, who spent the 1960s developing the software for the rocket guidance system that took humans to the moon. She helped popularise the term software engineer and was a pioneer in computing, particularly when it came to writing software that could cope with errors, by either fixing them or avoiding them or preventing them.
 
 While a mother in her twenties, having completed a degree in mathematics, Hamilton was a crucial figure in the Apollo moon project. Below, you can see her standing next to a print out of the computer code that she created. I like the fact that the stack was so tall that they had to remove the printout at the top so that you could see Hamilton when she stood behind it.
 
-![](/resources/7-08-tricky-parking-problem/6-margaret-hamilton.jpg){image align="center"}
+![](/resources/7-21-tricky-parking-problem/6-margaret-hamilton.jpg){image align="center"}
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -209,10 +210,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ---

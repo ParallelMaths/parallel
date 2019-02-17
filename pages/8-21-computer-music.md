@@ -31,13 +31,13 @@ __1.1.__ I have 4 digits. I am a perfect square. I look the same upside down. My
 
 ---
 
-There are different ways to tackle this problem. For example, we could identity the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 0s, 1s, 6s, 8s and 9s. So, we have: 1001, 1111, 1691, 1961, 1881, 6009, 6119, 6889, 6699, 6969, 8008, 8118, 8888, 8698, 8968, 9006, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
+There are different ways to tackle this problem. For example, we could identify the 4-digit square numbers, but there are more than 60 of them. So, instead, let’s list all the 4-digit numbers that look the same upside down – they have to contain 0s, 1s, 6s, 8s and 9s. So, we have: 1001, 1111, 1691, 1961, 1881, 6009, 6119, 6889, 6699, 6969, 8008, 8118, 8888, 8698, 8968, 9006, 9116, 9886, 9966, 9696. The only perfect square (I think) is 6,889, and the square root is 83, which is indeed a prime. So, the answer is 6,889.
 :::
 
 
 ## 2. Delia Derbyshire
 
-![](/resources/8-08-computer-music/2-delia-derbyshire.jpg){image align="right"}
+![](/resources/8-21-computer-music/2-delia-derbyshire.jpg){image align="right"}
 
 Following last week’s mini-exploration of the mathematics of Doctor Who, here is a short video (from a longer documentary) about Delia Derbyshire, who created the Doctor Who theme tune while she was working at the BBC Radiophonic Workshop.
 
@@ -120,7 +120,7 @@ By the way, there are 92 distinct solutions, and we’ll have one of them in the
 
 ---
 
-![](/resources/8-08-computer-music/6-eight-queens.png){image align="center"}
+![](/resources/8-21-computer-music/6-eight-queens.png){image align="center"}
 
 :::
 
@@ -137,10 +137,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-
-::: submit
 
 
 ## Additional Stuff
