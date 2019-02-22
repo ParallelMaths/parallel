@@ -85,7 +85,7 @@ For example, 97 is happy, because it leads to the following sequence.
 1<sup>2</sup> + 0<sup>2</sup> = 1 = happiness
 {.text-center}  
 
-Because 97 is prime, then it is not just a happy number, but also a happy prime.
+Because 97 is prime, it is not just a happy number, but also a happy prime.
 
 I am going to define a quantity called “the sum of all happiness” for a number, which is the total of all the numbers on the happiness path added together.
 
@@ -98,13 +98,13 @@ __3.1.__ 32 is a happy number. What is the sum of all happiness for 32?
 :::
 
 ::: problem id=3_2 marks=2
-__3.2.__ 19 is a happy number. What is the sum of all happiness for 19? Is there a shortcut you can use?
+__3.2.__ 79 is a happy number. What is the sum of all happiness for 79? Is there a shortcut you can use?
 
-<input solution="270"/>  
+<input solution="220"/>  
 
 ---
 
-Because 19 has the same digits as 91, it will follow the same happiness path. Because 91 was the example given above, you can cheat and start with the answer given above, which is 342. However, your path started with 19, not 91, so you need to subtract 91 and add 19, which gives you a total of 270.
+Because 79 has the same digits as 97, it will follow the same happiness path. Because 97 was the example given above, you can cheat and start with the answer given above, which is 238. However, your path started with 79, not 97, so you need to subtract 97 and add 79, which gives you a total of 220.
 :::
 
 ::: problem id=3_3 marks=3
@@ -244,9 +244,9 @@ And why do the diagonals of an n × n grid add up to n<sup>3</sup>? And why do a
 
 And now for something completely different. Monty Python’s Flying Circus was one of the BBC’s most anarchic and revolutionary comedy shows. The sketches were based on a whole series of absurd premises, such as the Ministry of Silly Walks and a customer complaining about a dead parrot.
 
-As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.
+As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.)
 
-@[youtube](ur5fGSBsfq8?rel=0)
+@[youtube](7E_8EjoxY7Q?start=4&rel=0)
 
 ::: problem id=6_1 marks=2
 __6.1.__ Which of the Greek footballing philosophers was killed by a Roman soldier, because he was so busy doing mathematics that he refused to obey the soldier’s orders?

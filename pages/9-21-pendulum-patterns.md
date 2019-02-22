@@ -29,15 +29,11 @@ Tom Rowett, who was in the video, has a huge and wonderful collection of odd obj
 and we will meet more of them in later Parallelograms. In this case, each pendulum
 swings at a different rate, because it has a different length. In fact, there is
 a formula that determines the relationship between the length of the pendulum and
-the time it takes to swing from left to right and back to the left.
-
-![](/resources/9-21-pendulum-patterns/1-formula.png)
-
-or   `T = 2π √(L/g)`
+the time it takes to swing from left to right and back to the left: `T = 2π √(L/g)`
 
 where
 * __T__ is the time of a complete swing in seconds.
-* __π__ is 3.14 (Wow! Always nice to see π.)
+* __π__ is 3.14... (Wow! Always nice to see π.)
 * __L__ is the length of the pendulum in meters.
 * __g__ is the acceleration due to gravity (9.8 m/s²). Don’t worry about this –
 it is a bit of physics that describes how an object falls due to the Earth’s gravity.
@@ -45,9 +41,9 @@ it is a bit of physics that describes how an object falls due to the Earth’s g
 If you had a pendulum that was as tall as a human, say 2 metres, how long would
 it take to swing? If __L__ = 2 meters, then:
 
-__T__ = `2 × 3.14 × sqrt(2/9.8) = 6.28 × sqrt(0.204) = 6.28 × 0.4517`
+__T__ = `2 × 3.14 × sqrt(2/9.8) = 6.28 × sqrt(0.204) = 6.28 × 0.4518`
 
-__T__ = `2.837 seconds`.
+__T__ = `2.837` seconds.
 
 So a 2 metre pendulum takes 2.837, or nearly 3 seconds, to swing back and forth.
 
@@ -86,8 +82,6 @@ equation so that you have the length depend on the time.
 ![](/resources/9-21-pendulum-patterns/1-2-fourth-term.png)
 
 ![](/resources/9-21-pendulum-patterns/1-2-fifth-term.png)
-
-L = g(T÷(2π))^2
 ^^^
 
 ---
@@ -104,9 +98,11 @@ L = g(T÷(2π))^2
 
 We want to know L for a T of 1 second, so:
 
-  `L= g(T÷(2π))^2`
-  `L= 9.8 × (1 ÷ 6.28)^2`
-  `L = 0.248 "meters"`
+`L = g(T ÷ (2π))^2`  
+
+`L = 9.8 × (1 ÷ 6.28)^2`  
+
+`L = 0.248` metres
 :::
 
 
@@ -152,23 +148,21 @@ __3.1__ Why is it possible to light a match with water?
 <!--- 2013 (17) --->
 
 ::: problem id=4_1 marks=5
-![](/resources/9-20-four-colour-map-theorem/4-circles.jpg){image align="right"}
-__4.1.__ The diagram shows four equal discs and a square. Each disc touches its two neighbouring discs. Each corner of the square is positioned at the centre of a disc. The side length of the square is
-`2/π`. What is the length of the perimeter of the figure?
+![](/resources/9-21-pendulum-patterns/4-circles.jpg){image align="right"}
+__4.1.__ The diagram shows four equal discs and a square. Each disc touches its two neighbouring discs. Each corner of the square is positioned at the centre of a disc. The side length of the square is `2/π`. What is the length of the perimeter of the figure?
 
 * [ ] `3`
-* [x] `4`
+* [ ] `4`
 * [ ] `3π/2`
-* [ ] `6`
+* [x] `6`
 * [ ] `2π`
-{.col-5}
-
-^^^ hint id=1 marks=1
-The radius of each circle is half the length of the square’s sides. If the square has sides of `π/2`, then radius of each circle is `π/4.`
-^^^
 
 ^^^ hint id=2 marks=1
-The perimeter of the shape is made up `4 x 3/4` circles. So the perimeter of the shape `4 x 3/4 x 1` full perimeter.
+The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
+^^^
+
+^^^ hint id=3 marks=1
+The perimeter of the shape is made up `4 × 3/4` circles. So the perimeter of the shape is `4 × 3/4 ×` the circumference of one full circle.
 ^^^
 
 ---
@@ -183,25 +177,24 @@ The perimeter of the figure is made up of three-quarters of each of the four dis
 <!--- 2013 (17.1) --->
 
 ::: problem id=5_1 marks=3
-![](/resources/9-20-four-colour-map-theorem/4-circles.jpg){image align="right"}
-__5.1.__ What is the area of the figure?
+![](/resources/9-21-pendulum-patterns/4-circles.jpg){image align="right"}
+__5.1.__ What is the area of the figure in question 4.1?
 
-* [ ] 8.17
-* [x] 8.27
-* [ ] 8.37
-* [ ] 8.47
-* [ ] 8.57
-{.col-5}
+* [ ] 8.18
+* [x] 8.28
+* [ ] 8.38
+* [ ] 8.48
+* [ ] 8.58
 
-^^^ hint id=3 marks=1
-The radius of each circle is half the length of the square’s sides. If the square has sides of `π/2`, then radius of each circle is `π/4`.
+^^^ hint id=4 marks=1
+The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
 ^^^
 
 ---
 
-The radius of each circle is half the length of the square’s sides. If the square has sides of π/2, then radius of each circle is π/4.
+The radius of each circle is half the length of the square’s sides. If the square has sides of π/2, then the radius of each circle is π/4.
 
-The area of the shape is made up 4 x ¾ circles plus the area of the square. So the area of the shape is [`4 x 3/4 x π x (π/4)^2`] + `(π/2)^2` = `3/16 x π^3 + (π^2)/4` = `8.27`.
+The area of the shape is made up 4 x ¾ circles plus the area of the square. So the area of the shape is `(4 × 3/4 × π × (π/4)^2)` + `(π/2)^2` = `(3/16 × π^3) + (π^2)/4` = `8.27`.
 :::
 
 

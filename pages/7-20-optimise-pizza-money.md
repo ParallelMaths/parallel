@@ -22,7 +22,7 @@ This is a Countdown numbers game, that John solves in a ridiculously complicated
 
 @[youtube](_JQYYz92-Uk?end=131&rel=0)
 
-There is a simpler solution that avoids heading towards astronomical numbers – the six starting numbers are in bold:
+There is a simpler way of writing this solution that avoids heading towards such astronomical numbers – the six starting numbers are in bold:
 
 First, __75__ - __10__ = 65  
 Then, 65 x __25__ = 1625  
@@ -37,9 +37,9 @@ __1.1__ What is the biggest number that you can make with [1, 10, 25, 50, 75, 10
 
 ---
 
-You might multiply all the numbers, which is 93,750,000, but then you are not make any use of the 1, because anything multiplied by 1 remains unchanged. You could multiply all the numbers and then add the 1 at the end, which is 93,750,001, but that does not add much. Instead, add 1 to 10 first, and multiply everything, so you have 11 x 25 x 50 x 75 x 100 = 103,125,000.
+You might multiply all the numbers, which is 93,750,000, but then you are not making any use of the 1, because anything multiplied by 1 remains unchanged. You could multiply all the numbers and then add the 1 at the end, which is 93,750,001, but that does not increase the total much. Instead, add 1 to 10 first, and multiply everything, so you have 11 x 25 x 50 x 75 x 100 = 103,125,000.
 
-If you add 1 to 10, then it makes it 10% bigger, so it makes the final total 10% bigger. If instead you add 1 to 100, then it makes it only 1% bigger, so its make the final total only 1% bigger, which is 94,687,500.
+If you add 1 to 10, the new number (11) is 10% bigger, so it makes the final total 10% bigger. If instead you add 1 to 100, the new number (101) is only 1% bigger, so its makes the final total only 1% bigger, which is 94,687,500.
 :::
 
 
@@ -200,8 +200,8 @@ You can work it out using your calculator’s factorial button – look for the 
 ::: problem id=5_4 marks=2
 __5.4.__ By now, you should have grasped that there are n! ways to rearrange n letters or n objects. Now think about how you would write down n! if you were breaking it down into a series of multiplications. How would you write it?  
 
-* [ ] n! = n × (n-1) × … × (n – n)
-* [ ] n! = (n-1) × (n – 2) × … × 2 × 1
+* [ ] n! = n × (n – 1) × … × (n – n)
+* [ ] n! = (n – 1) × (n – 2) × … × 2 × 1
 * [x] n! = n × (n – 1) × … × 2 × 1
 :::
 

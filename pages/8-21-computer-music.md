@@ -87,7 +87,7 @@ In this way it takes 9 journeys to get everyone across the river.
 
 ## 4. Where do trees get their mass from?
 
-Veritasium is a YouTube channel run by Derek Muller. He often asks apparently easy questions, and then explores the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where trees get their mass from?”
+Veritasium is a YouTube channel run by Derek Muller. He often asks apparently easy questions, and then explores the misunderstandings that many adults have on the topic. In this episode, Muller asks: “Where do trees get their mass from?”
 
 Before watching the video, have a think about how you would answer this question.
 

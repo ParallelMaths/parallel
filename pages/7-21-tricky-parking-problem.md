@@ -77,7 +77,7 @@ So, __Cat = 7.875 kg__
 
 This is a wonderful magic trick by Aleko. Take a look at the video below, and play along by thinking of a number or picking a random card. When the trick has finished, and after you have stopped being astounded, think hard about how the trick is done. You might need to watch the video again and note down the instructions given to you. If you can’t figure out the magic maths behind the trick, then click on the hint below for a full explanation of how Aleko did it, and how you can perform the trick yourself. You will not lose any marks by clicking on the hint.
 
-By the way... if you are interested in magic or enjoyed being amazed then make sure you check out the video in the additional stuff section at the end. Seriously... you will not want to miss it.
+By the way, if you are interested in magic or enjoyed being amazed, make sure you check out the video in the additional stuff section at the end. Seriously... you will not want to miss it.
 
 @[youtube](mQVF_d6VXcE?rel=0)
 
@@ -117,7 +117,8 @@ How many different values of N are possible?
 ---
 
 The three trapeziums have 12 edges in total. Whenever two of them are joined together, the total number of edges is reduced by at least 2. So the maximum possible value of `N` is `12 - 2 × 2 = 8`.
-The minimum number of sides for a polygon is 3. So there are just 6 values for `N`, namely 3, 4, 5, 6, 7 and 8, that could possibly occur. The diagrams below show that they all can be achieved.
+
+The minimum number of sides for a polygon is 3. So there are just 6 values for `N`, namely 3, 4, 5, 6, 7 and 8, that could possibly occur. The diagrams below show that they can all be achieved.
 
 ![](/resources/7-21-tricky-parking-problem/4-jmc-polygon-solutions.jpg){image align="center"}
 
@@ -126,11 +127,11 @@ The minimum number of sides for a polygon is 3. So there are just 6 values for `
 
 ## 5. More about factorials
 
-Last week, while continuing to explore codes, we asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at last week’s Parallelogram (#7)](/7-07-optimise-pizza-money){target="_blank"} if you need to remind yourself what we did.
+Last week, while continuing to explore codes, we asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at last week’s Parallelogram](/7-20-optimise-pizza-money){target="_blank"} if you need to remind yourself what we did.
 
 In short, there are 26! ways to re-arrange 26 letters, where 26! means 26 × 25 × 24 ... × 1.
 
-The (!) is called factorial, and it can be applied to any number, eg 4! = 4 × 3 × 2 × 1 = 24.
+The (!) is called factorial, and it can be applied to any number, eg. 4! = 4 × 3 × 2 × 1 = 24.
 
 
 ::: problem id=5_1 marks=1
@@ -194,7 +195,7 @@ __5.4.__ The answer from question 5.3 is much bigger than the age of the univers
 
 This is a photo of Margaret Hamilton, who spent the 1960s developing the software for the rocket guidance system that took humans to the moon. She helped popularise the term software engineer and was a pioneer in computing, particularly when it came to writing software that could cope with errors, by either fixing them or avoiding them or preventing them.
 
-While a mother in her twenties, having completed a degree in mathematics, Hamilton was a crucial figure in the Apollo moon project. Below, you can see her standing next to a print out of the computer code that she created. I like the fact that the stack was so tall that they had to remove the printout at the top so that you could see Hamilton when she stood behind it.
+While a mother in her twenties, having completed a degree in mathematics, Hamilton was a crucial figure in the Apollo moon project. Below, you can see her standing next to a print out of the computer code that she created. I like the fact that the stack was so tall they had to remove the printout at the top so that you could see Hamilton when she stood behind it.
 
 ![](/resources/7-21-tricky-parking-problem/6-margaret-hamilton.jpg){image align="center"}
 
