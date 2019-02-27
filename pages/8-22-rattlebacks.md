@@ -97,7 +97,7 @@ Derek Muller from YouTube’s Veritasium channel asks people to explain the mech
 ## 5. Junior Maths Challenge UKMT bonus
 <!--- (2012 extension) --->
 
-As the Junior Maths Challenge is only a few days away, here is a bonus (and particularly tough) JMC question to stretch your brain.
+As the Junior Maths Challenge is not far away, here is a bonus (and particularly tough) JMC question to stretch your brain.
 
 ::: problem id=5_1 marks=3
 __5.1.__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assume that I now lose every third game, so that after 500 games my results are Win, Win, Loss, Win, Win, Loss, … .
@@ -168,16 +168,13 @@ Cheerio,
 Simon.
 
 
-::: submit
-
-
 ## Additional Stuff
 
 __VAX! – a game about epidemic prevention.__
 
 Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
 
-It is definitely worth looking at the whole site and learning about the maths, disease and networks of connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
+It is definitely worth looking at the whole site and learning about the maths of disease, networks and connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
 
 *	Go to [http://vax.herokuapp.com/game](http://vax.herokuapp.com/game){target="_blank"}
 *	Click on EASY (try MEDIUM & HARD later)
@@ -185,4 +182,4 @@ It is definitely worth looking at the whole site and learning about the maths, d
 *	When the disease starts, begin quarantining dots.
 *	If you want to try again, hit RETRY after you obtain your score.
 
-If you would like to win a rattleback, then please send us your best VAX! score. The top five scores received by 12pm on __Thursday 26th April__ will win a rattleback. Just email me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and include an image of your bar chart score. Good luck.
+If you would like to win a rattleback, then please send us your best VAX! score. The top three scores received by 12pm on __Tuesday 19th March__ will win a rattleback. Just email me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and include an image of your bar chart score. Good luck.

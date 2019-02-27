@@ -1,324 +1,339 @@
 year7:
+  - url: 7-22-maths-jokes
+    title: Maths Jokes
+    subtitle: PG 22 March 14th
+    available: 2019-03-14T13:00:00
+    deadline: 2019-03-17T13:00:00
   - url: 7-21-tricky-parking-problem
     title: Tricky parking problem
-    subtitle: Week 21
+    subtitle: PG 21 March 7th
     available: 2019-03-07T13:00:00
     deadline: 2019-03-10T13:00:00
   - url: 7-20-optimise-pizza-money
     title: Optimising your pizza money
-    subtitle: Week 20
+    subtitle: PG 20 February 28th
     available: 2019-02-28T13:00:00
     deadline: 2019-03-03T13:00:00
   - url: 7-19-pie-charts
     title: Pie charts and speed-reading
-    subtitle: Week 19
+    subtitle: PG 19 February 14th
     available: 2019-02-14T13:00:00
     deadline: 2019-02-24T13:00:00
   - url: 7-18-downhill-from-here
     title: It’s all downhill from here
-    subtitle: Week 18
+    subtitle: PG 18 February 7th
     available: 2019-02-07T13:00:00
     deadline: 2019-02-10T13:00:00
     scoreFactor: 2
   - url: 7-17-sundogs-random-dots
     title: Sundogs and Random Dots
-    subtitle: Week 17
+    subtitle: PG 17 January 31st
     available: 2019-01-31T13:00:00
     deadline: 2019-02-03T13:00:00
   - url: 7-16-crosses-crosses
     title: Crosses and Crosses
-    subtitle: Week 16
+    subtitle: PG 16 January 24th
     available: 2019-01-24T13:00:00
     deadline: 2019-01-27T13:00:00
   - url: 7-15-marie-curie
     title: Madam Curie’s square riddle
-    subtitle: Week 15
+    subtitle: PG 15 January 17th
     available: 2019-01-17T13:00:00
     deadline: 2019-01-20T13:00:00
   - url: 7-14-codes-physics
     title: Codes and Physics
-    subtitle: Week 14
+    subtitle: PG 14 January 10th
     available: 2019-01-10T13:00:00
     deadline: 2019-01-13T13:00:00
   - url: 7-13-chrismaths
     title: Chrismaths Y7
-    subtitle: Week 13
+    subtitle: PG 13 December 13th
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
     scoreFactor: 4
   - url: 7-12-prime-time
     title: Prime Time Y7
-    subtitle: Week 12
+    subtitle: PG 12 December 6th
     available: 2018-12-06T13:00:00
     deadline: 2018-12-09T13:00:00
   - url: 7-11-kenken
     title: KenKen Y7
-    subtitle: Week 11
+    subtitle: PG 11 November 29th
     available: 2018-11-29T13:00:00
     deadline: 2018-12-02T15:00:00
   - url: 7-10-mercury-trivia
     title: Mercury Trivia
-    subtitle: Week 10
+    subtitle: PG 10 November 22nd
     available: 2018-11-22T13:00:00
     deadline: 2018-11-25T15:00:00
   - url: 7-09-futurama-maths
     title: Futurama Maths
-    subtitle: Week 9
+    subtitle: PG 9 November 15th
     available: 2018-11-15T13:00:00
     deadline: 2018-11-18T15:00:00
   - url: 7-08-man-who-knew-infinity
     title: The Man Who Knew Infinity
-    subtitle: Week 8
+    subtitle: PG 8 November 8th
     available: 2018-11-08T13:00:00
     deadline: 2018-11-11T15:00:00
   - url: 7-07-exoplanets
     title: Exoplanets
-    subtitle: Week 7
+    subtitle: PG 7 November 1st
     available: 2018-11-01T13:00:00
     deadline: 2018-11-04T15:00:00
   - url: 7-06-build-your-own-plane
     title: Build your own plane
-    subtitle: Week 6
+    subtitle: PG 6 October 18th
     available: 2018-10-18T13:00:00
     deadline: 2018-10-21T15:00:00
   - url: 7-05-supernovae
     title: Supernovae
-    subtitle: Week 5
+    subtitle: PG 5 October 11th
     available: 2018-10-11T13:00:00
     deadline: 2018-10-14T15:00:00
   - url: 7-04-matts-favourite-number
     title: Matt’s Favourite Number
-    subtitle: Week 4
+    subtitle: PG 4 October 4th
     available: 2018-10-04T13:00:00
     deadline: 2018-10-07T15:00:00
   - url: 7-03-the-big-bang
     title: The Big Bang
-    subtitle: Week 3
+    subtitle: PG 3 September 27th
     available: 2018-09-27T13:00:00
     deadline: 2018-09-30T18:00:00
   - url: 7-02-the-melancoil
     title: The Melancoil
-    subtitle: Week 2
+    subtitle: PG 2 September 20th
     available: 2018-09-20T11:00:00
     deadline: 2018-09-23T18:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
-    subtitle: Week 1
+    subtitle: PG 1 September 6th
     available: 2018-08-06T16:00:00
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-22-rattlebacks
+    title: Rattlebacks
+    subtitle: PG 22 March 14th
+    available: 2019-03-14T13:00:00
+    deadline: 2019-03-17T13:00:00
   - url: 8-21-computer-music
     title: Computer music and techno ditties
-    subtitle: Week 21
+    subtitle: PG 21 March 7th
     available: 2019-03-07T13:00:00
     deadline: 2019-03-10T13:00:00
   - url: 8-20-curious-bear-doctor-who
     title: A curious bear and Doctor Who
-    subtitle: Week 20
+    subtitle: PG 20 February 28th
     available: 2019-02-28T13:00:00
     deadline: 2019-03-03T13:00:00
   - url: 8-19-countdown-levitating-water
     title: Countdown and levitating water
-    subtitle: Week 19
+    subtitle: PG 19 February 14th
     available: 2019-02-14T13:00:00
     deadline: 2019-02-24T13:00:00
   - url: 8-18-freezing-sports
     title: Freezing sports and flipping pancakes
-    subtitle: Week 18
+    subtitle: PG 18 February 7th
     available: 2019-02-07T13:00:00
     deadline: 2019-02-10T13:00:00
   - url: 8-17-dripping-taps
     title: Dripping Taps
-    subtitle: Week 17
+    subtitle: PG 17 January 31st
     available: 2019-01-31T13:00:00
     deadline: 2019-02-03T13:00:00
   - url: 8-16-flag-of-flags
     title: A flag of flags
-    subtitle: Week 16
+    subtitle: PG 16 January 24th
     available: 2019-01-24T13:00:00
     deadline: 2019-01-27T13:00:00
   - url: 8-15-lou-costello
     title: Lou Costello, Pi and Pendula
-    subtitle: Week 15
+    subtitle: PG 15 January 17th
     available: 2019-01-17T13:00:00
     deadline: 2019-01-20T13:00:00
   - url: 8-14-ma-kettle
     title: Ma and Pa Kettle
-    subtitle: Week 14
+    subtitle: PG 14 January 10th
     available: 2019-01-10T13:00:00
     deadline: 2019-01-13T13:00:00
   - url: 8-13-chrismaths
     title: Chrismaths Y8
-    subtitle: Week 13
+    subtitle: PG 13 December 13th
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
     scoreFactor: 4
   - url: 8-12-prime-time
     title: Prime Time Y8
-    subtitle: Week 12
+    subtitle: PG 12 December 6th
     available: 2018-12-06T13:00:00
     deadline: 2018-12-09T13:00:00
   - url: 8-11-kenken
     title: KenKen Y8
-    subtitle: Week 11
+    subtitle: PG 11 November 29th
     available: 2018-11-29T13:00:00
     deadline: 2018-12-02T15:00:00
   - url: 8-10-other-hamilton
     title: The Other Hamilton
-    subtitle: Week 10
+    subtitle: PG 10 November 22nd
     available: 2018-11-22T13:00:00
     deadline: 2018-11-25T15:00:00
   - url: 8-09-weird-shapes
     title: Weird Shapes
-    subtitle: Week 9
+    subtitle: PG 9 November 15th
     available: 2018-11-15T13:00:00
     deadline: 2018-11-18T15:00:00
   - url: 8-08-secret-maths-club
     title: The Secret Maths Club
-    subtitle: Week 8
+    subtitle: PG 8 November 8th
     available: 2018-11-08T13:00:00
     deadline: 2018-11-11T15:00:00
   - url: 8-07-black-holes
     title: Black Holes
-    subtitle: Week 7
+    subtitle: PG 7 November 1st
     available: 2018-11-01T13:00:00
     deadline: 2018-11-04T15:00:00
   - url: 8-06-worlds-greatest-thief
     title: The world’s greatest thief
-    subtitle: Week 6
+    subtitle: PG 6 October 18th
     available: 2018-10-18T13:00:00
     deadline: 2018-10-21T15:00:00
   - url: 8-05-rocket-maths
     title: Rocket maths
-    subtitle: Week 5
+    subtitle: PG 5 October 11th
     available: 2018-10-11T13:00:00
     deadline: 2018-10-14T15:00:00
   - url: 8-04-infinite-hotel
     title: The Infinite Hotel
-    subtitle: Week 4
+    subtitle: PG 4 October 4th
     available: 2018-10-04T13:00:00
     deadline: 2018-10-07T15:00:00
   - url: 8-03-chaotic-pendulums
     title: Chaotic Pendulums
-    subtitle: Week 3
+    subtitle: PG 3 September 27th
     available: 2018-09-27T13:00:00
     deadline: 2018-09-30T18:00:00
   - url: 8-02-jurassic-park
     title: Jurassic Park mathematics
-    subtitle: Week 2
+    subtitle: PG 2 September 20th
     available: 2018-09-20T11:00:00
     deadline: 2018-09-23T18:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
-    subtitle: Week 1
+    subtitle: PG 1 September 6th
     available: 2018-08-06T16:00:00
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-22-bird-brain
+    title: Bird Brain
+    subtitle: PG 22 March 14th
+    available: 2019-03-14T13:00:00
+    deadline: 2019-03-17T13:00:00
   - url: 9-21-pendulum-patterns
     title: Pendulum Patterns
-    subtitle: Week 21
+    subtitle: PG 21 March 7th
     available: 2019-03-07T13:00:00
     deadline: 2019-03-10T13:00:00
   - url: 9-20-four-colour-map-theorem
     title: Four-Colour Map Theorem
-    subtitle: Week 20
+    subtitle: PG 20 February 28th
     available: 2019-02-28T13:00:00
     deadline: 2019-03-03T13:00:00
   - url: 9-19-collision-mystery
     title: Collision Mystery
-    subtitle: Week 19
+    subtitle: PG 19 February 14th
     available: 2019-02-14T13:00:00
     deadline: 2019-02-24T13:00:00
   - url: 9-18-mean-girls
     title: Mean Girls
-    subtitle: Week 18
+    subtitle: PG 18 February 7th
     available: 2019-02-07T13:00:00
     deadline: 2019-02-10T13:00:00
   - url: 9-17-shilling-thoughts
     title: A Shilling for your Thoughts
-    subtitle: Week 17
+    subtitle: PG 17 January 31st
     available: 2019-01-31T13:00:00
     deadline: 2019-02-03T13:00:00
   - url: 9-16-puzzle-compendium
     title: Puzzle Compendium
-    subtitle: Week 16
+    subtitle: PG 16 January 24th
     available: 2019-01-24T13:00:00
     deadline: 2019-01-27T13:00:00
   - url: 9-15-bubble-solution
     title: Bubble Solution
-    subtitle: Week 15
+    subtitle: PG 15 January 17th
     available: 2019-01-17T13:00:00
     deadline: 2019-01-20T13:00:00
   - url: 9-14-teapot-time
     title: Teapot Time
-    subtitle: Week 14
+    subtitle: PG 14 January 10th
     available: 2019-01-10T13:00:00
     deadline: 2019-01-13T13:00:00
   - url: 9-13-chrismaths
     title: Chrismaths Y9
-    subtitle: Week 13
+    subtitle: PG 13 December 13th
     available: 2018-12-13T13:00:00
     deadline: 2018-12-16T13:00:00
     scoreFactor: 4
   - url: 9-12-prime-time
     title: Prime Time Y9
-    subtitle: Week 12
+    subtitle: PG 12 December 6th
     available: 2018-12-06T13:00:00
     deadline: 2018-12-09T13:00:00
   - url: 9-11-kenken
     title: KenKen Y9
-    subtitle: Week 11
+    subtitle: PG 11 November 29th
     available: 2018-11-29T13:00:00
     deadline: 2018-12-02T15:00:00
   - url: 9-10-beautiful-mind
     title: A Beautiful Mind
-    subtitle: Week 10
+    subtitle: PG 10 November 22nd
     available: 2018-11-22T13:00:00
     deadline: 2018-11-25T15:00:00
   - url: 9-09-clock-calculation
     title: Clock Calculation
-    subtitle: Week 9
+    subtitle: PG 9 November 15th
     available: 2018-11-15T13:00:00
     deadline: 2018-11-18T15:00:00
   - url: 9-08-checkmate
     title: Checkmate
-    subtitle: Week 8
+    subtitle: PG 8 November 8th
     available: 2018-11-08T13:00:00
     deadline: 2018-11-11T15:00:00
   - url: 9-07-x-y
     title: X + Y
-    subtitle: Week 7
+    subtitle: PG 7 November 1st
     available: 2018-11-01T13:00:00
     deadline: 2018-11-04T15:00:00
   - url: 9-06-queen-of-katwe
     title: Queen of Katwe
-    subtitle: Week 6
+    subtitle: PG 6 October 18th
     available: 2018-10-18T13:00:00
     deadline: 2018-10-21T15:00:00
   - url: 9-05-breakfast-curiosity-part2
     title: Breakfast curiosity – Part 2
-    subtitle: Week 5
+    subtitle: PG 5 October 11th
     available: 2018-10-11T13:00:00
     deadline: 2018-10-14T15:00:00
   - url: 9-04-strange-breakfasts
     title: Strange Breakfasts
-    subtitle: Week 4
+    subtitle: PG 4 October 4th
     available: 2018-10-04T13:00:00
     deadline: 2018-10-07T15:00:00
   - url: 9-03-lots-of-socks
     title: Lots of Socks
-    subtitle: Week 3
+    subtitle: PG 3 September 27th
     available: 2018-09-27T13:00:00
     deadline: 2018-09-30T18:00:00
   - url: 9-02-romantic-mathematics
     title: Romantic Mathematics
-    subtitle: Week 2
+    subtitle: PG 2 September 20th
     available: 2018-09-20T11:00:00
     deadline: 2018-09-23T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
-    subtitle: Week 1
+    subtitle: PG 1 September 6th
     available: 2018-08-06T16:00:00
     deadline: 2018-09-09T19:00:00

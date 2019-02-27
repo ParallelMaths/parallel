@@ -92,8 +92,7 @@ __1.3.__ How much does 13/8 differ from the true value of φ?
 ## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (4) --->
 
-The world's largest coin, made by the Royal Mint of Canada, was auctioned in June
-2010. The coin has mass 100 kg, whereas a standard British £1 coin has mass 10g.
+One of the world's largest coins, made by the Royal Mint of Canada, was auctioned in June 2010. The coin has mass 100 kg, whereas a standard British £1 coin has mass 10g.
 
 ::: problem id=2_1 marks=2
 __2.1.__ What sum of money in £1 coins would weigh the same as the record-breaking coin?
@@ -110,6 +109,8 @@ __2.1.__ What sum of money in £1 coins would weigh the same as the record-break
 We have to work out how many £1 coins, each weighing 10 g, we need to get a total
 weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need
 100,000/10 = 10,000 of these coins. That is, £10,000 in money.
+
+(In fact, the current (2019) record for the world's biggest coin is held by the Perth Mint. The coin weighs one tonne and is made of 99.99% pure gold.)
 :::
 
 

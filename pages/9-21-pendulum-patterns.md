@@ -180,11 +180,11 @@ The perimeter of the figure is made up of three-quarters of each of the four dis
 ![](/resources/9-21-pendulum-patterns/4-circles.jpg){image align="right"}
 __5.1.__ What is the area of the figure in question 4.1?
 
-* [ ] 8.18
-* [x] 8.28
-* [ ] 8.38
-* [ ] 8.48
-* [ ] 8.58
+* [ ] 1.16
+* [x] 1.36
+* [ ] 1.56
+* [ ] 1.76
+* [ ] 1.96
 
 ^^^ hint id=4 marks=1
 The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
@@ -192,9 +192,9 @@ The radius of each circle is half the length of the square’s sides. If the squ
 
 ---
 
-The radius of each circle is half the length of the square’s sides. If the square has sides of π/2, then the radius of each circle is π/4.
+The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
 
-The area of the shape is made up 4 x ¾ circles plus the area of the square. So the area of the shape is `(4 × 3/4 × π × (π/4)^2)` + `(π/2)^2` = `(3/16 × π^3) + (π^2)/4` = `8.27`.
+The area of the shape is made up 4 x ¾ circles plus the area of the square. So the area of the shape is `(4 × 3/4 × π × (1/π)^2)` + `(2/π)^2` = `1.36`.
 :::
 
 

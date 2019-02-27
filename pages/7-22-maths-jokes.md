@@ -57,7 +57,7 @@ __1.3__ What does the “B” in Benoit B Mandelbrot stand for?
 * [ ] Breviation
 
 ---
-![](/resources/7-12-maths-jokes/mandelbrot.png)
+![](/resources/7-22-maths-jokes/mandelbrot.png)
 
 This was a tough one. Benoit B Mandelbrot helped developed the mathematics of
 fractals, which are structures or shapes that appear similar when you zoom in or
@@ -83,7 +83,7 @@ __1.4__ Why did the chicken cross the Möbius strip?
 
 ---
 
-![](/resources/7-12-maths-jokes/mobius.jpg)
+![](/resources/7-22-maths-jokes/mobius.jpg)
 
 Another toughie – a Möbius strip is a strange mathematical shape which only has
 one side, so you can’t get to the other side. As shown here, it is just a loop
@@ -101,7 +101,7 @@ __2__ A cross-number is like a crossword, but with numbers instead of letters. S
 
 <table><tr><td>
 
-![](/resources/7-12-maths-jokes/crossnumber.png)
+![](/resources/7-22-maths-jokes/crossnumber.png)
 
 </td><td>
 
@@ -136,7 +136,7 @@ works if 1 down is 26, because 3 across can then be 64, which means _x_ = 4.
 
 ## 3. Maryam’s inspiration
 
-![](/resources/7-12-maths-jokes/maryam-mirzakhani.png)
+![](/resources/7-22-maths-jokes/maryam-mirzakhani.png)
 
 You might be surprised to know that there is no Nobel Prize for maths. However,
 there is an even bigger prize for mathematicians, which is called the Fields
@@ -169,7 +169,7 @@ Maryam talks about a problem involving the path of a ball bouncing around a
 billiard table.
 :::
 
-![](/resources/7-12-maths-jokes/gauss.png)
+![](/resources/7-22-maths-jokes/gauss.png)
 
 Maryam has said that she first became fired up about mathematics when her big
 brother told her a story about the great mathematician Carl Friedrich Gauss.
@@ -328,9 +328,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-::: submit
 
 
 ---
