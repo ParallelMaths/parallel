@@ -92,7 +92,7 @@ __1.3.__ How much does 13/8 differ from the true value of φ?
 ## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2011 (4) --->
 
-One of the world's largest coins, made by the Royal Mint of Canada, was auctioned in June 2010. The coin has mass 100 kg, whereas a standard British £1 coin has mass 10g.
+In 2007, the world record for the largest coin was broken by the Royal Canadian Mint. The coin is 99.999% pure gold and has a mass of 100 kg. A standard British £1 coin has mass of 10g.
 
 ::: problem id=2_1 marks=2
 __2.1.__ What sum of money in £1 coins would weigh the same as the record-breaking coin?
