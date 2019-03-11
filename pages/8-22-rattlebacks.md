@@ -56,7 +56,7 @@ Which is the 1001<sup>st</sup> symbol?
 Our pattern repeats after six symbols, so to find the 1,001<sup>st</sup> symbol we need to work out:
 1,001 ÷ 6 = 166 remainder 5.
 
-So, the 6-symbol pattern repeats itself 166 times, and the 5 symbol will sit in the 1,001<sup>st</sup> position. So the answer is the heart symbol, ♥.
+So, the 6-symbol pattern repeats itself 166 times, and the 5th symbol will sit in the 1,001<sup>st</sup> position. So the answer is the heart symbol, ♥.
 :::
 
 
@@ -66,9 +66,9 @@ So, the 6-symbol pattern repeats itself 166 times, and the 5 symbol will sit in 
 ::: problem id=3_1 marks=3
 __3.1.__ One day Beth, Carolyn and George read a book of 240 pages. They take it in turns to read a page, always in the order Beth, Carolyn and George.
 
-The next day their cousin Sam comes to stay and they read the book again, taking it turns to read a page, always in the order Sam, George, Carolyn and Beth.
+The next day their cousin Sam comes to stay and they read the book again, taking it in turns to read a page, always in the order Sam, George, Carolyn and Beth.
 
-How many pages are read by the same person on the two days?
+How many pages are read by the same person on both days?
 
 <input solution="60"/>  
 
@@ -80,7 +80,7 @@ Now Beth reads every 4<sup>th</sup> page, ie __4__, 8, 12, __16__, 20, 24, __28_
 
 Beth read 1 in 3 of the original pages, and then Beth reads 1 in 4 of them again.
 
-So, if she read 80 pages originally, she now reads 20 of those same pages again.
+So, if she read `240/3 = 80` pages originally, she now reads 20 of those same pages again.
 
 The same will be true for Carolyn and George, so 3 × 20 pages = 60 pages will be read by the same person when the book is re-read with the help of Sam.
 
@@ -97,7 +97,7 @@ Derek Muller from YouTube’s Veritasium channel asks people to explain the mech
 ## 5. Junior Maths Challenge UKMT bonus
 <!--- (2012 extension) --->
 
-As the Junior Maths Challenge is not far away, here is a bonus (and particularly tough) JMC question to stretch your brain.
+As the Junior Maths Challenge is now not far away, here is a bonus (and particularly tough) JMC question to stretch your brain.
 
 ::: problem id=5_1 marks=3
 __5.1.__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assume that I now lose every third game, so that after 500 games my results are Win, Win, Loss, Win, Win, Loss, … .

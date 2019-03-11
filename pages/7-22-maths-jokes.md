@@ -24,8 +24,8 @@ Romesh Ranganathan and Dave Gorman) studied maths at university, and I have
 written a whole book about the mathematicians who write The Simpsons.  
 
 So, how good is your mathematical sense of humour? And how much maths do you
-know? Below are 4 jokes with 3 punchlines each. Can you spot the punchline? You
-will need to a bit of maths in order to work out the right answer.
+know? Below are 4 jokes with 3 possible punchlines each. Can you spot the correct punchline? You
+will need to know a bit of maths in order to work out the right answer.
 
 ::: problem id=1_1 marks=0.5
 __1.1__ Why is 6 afraid of 7?
@@ -59,13 +59,13 @@ __1.3__ What does the “B” in Benoit B Mandelbrot stand for?
 ---
 ![](/resources/7-22-maths-jokes/mandelbrot.png)
 
-This was a tough one. Benoit B Mandelbrot helped developed the mathematics of
+This was a tough one. Benoit B Mandelbrot helped develop the mathematics of
 fractals, which are structures or shapes that appear similar when you zoom in or
-zoom out. Trees, clouds and certain mathematical shapes are fractal, as shown above. The bit of the tree in the red box looks just like the whole tree…
+zoom out. Trees, clouds and certain mathematical shapes are fractals, as shown above. The bit of the tree in the red box looks just like the whole tree…
 and you can zoom in even further and see more and more micro-replicas of the whole
 tree.
 
-The following video shows what happens if you zoom into the so-called Mandelbrot Set, and you see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again:
+The following video shows what happens if you zoom into the so-called Mandelbrot Set. You see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again:
 
 @[youtube](PD2XgQOyCCk?rel=0)
 
@@ -142,9 +142,9 @@ You might be surprised to know that there is no Nobel Prize for maths. However,
 there is an even bigger prize for mathematicians, which is called the Fields
 Medal. It is only given every 4 years, so it is very rare and precious.
 
-In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal, but tragically she died just three years later. The Iranian-born NASA scientist, Firouz Naderi, wrote: “A light was turned off today, it breaks my heart... Gone far too soon.”
+In 2014, Maryam Mirzakhani became the first woman to win a Fields Medal, but tragically she died just three years later. The Iranian-born NASA scientist, Firouz Naderi, wrote: “A light was turned off today, it breaks my heart... gone far too soon.”
 
-Commenting on her own brilliant work with Alex Eskin, Mirzakhani commented: “If we knew things would be so complicated, I think we would have given up... I don’t know, actually. I don’t know. I don’t give up easily.”
+Commenting on a piece of research she did alongside mathematician Alex Eskin, Mirzakhani said: “If we knew things would be so complicated, I think we would have given up... I don’t know, actually. I don’t know. I don’t give up easily.”
 
 Mirzakhani was born in Iran and then worked in America, and you can find out about her life and work in the short video below.
 
@@ -183,7 +183,7 @@ Gauss was right, but how did he add up the first 100 numbers in just a few
 seconds?
 
 Here is Gauss's trick in three stages:  
-1.	Pair up all the numbers in the following way and add them up:
+1.	Pair up all the numbers in the following way and add them together:
 	1 + 100 = 101,  
 	2 + 99 = 101,  
 	3 + 98 = 101  
@@ -246,8 +246,8 @@ down the Empire State Building?
 * [ ] 100,000,000
 :::
 
-Each domino can knock over a domino that 1.5 times bigger, which does not seem
-big, but when this happens over and over again then the dominoes get bigger and
+Each domino can knock over a domino that is 1.5 times bigger, which does not seem
+big, but when this happens over and over again, the dominoes get bigger and
 bigger very quickly. This is known as exponential growth and we will return to
 this in a future Parallelogram.
 
@@ -294,27 +294,9 @@ The amazing, mind-warping objects in this video have been created by
 mathematical artist and engineer Professor Kokichi Sugihara. These incredible
 illusions literally mess with your brain.  
 
-Sometimes the geometry that you study at school might seem ordinary – what could
-be more ordinary than the angles of a triangle or the symmetry of a square? –
-but your teachers are really providing you with the first stepping stones towards
-gaining an understanding of the nature of space, and how you can build the sort
-of flabbergasting structures in this video. There is one question afterwards and
-then you can hit the submit button.
+Sometimes the geometry that you study at school might seem ordinary – what could be more ordinary than the angles of a triangle or the symmetry of a square? – but your teachers are really providing you with the first stepping stones towards gaining an understanding of the nature of space, and how you can build the sort of flabbergasting structures in this video.
 
-@[youtube](Wx4yi5m8IfI?rel=0)
-
-::: problem id=6 marks=1
-__6__ Professor Sugihara’s work could help:
-
-* [x] Drivers
-* [ ] Architects
-* [ ] Surgeons
-{.col-3}
-
----
-The correct answer is (a), because drivers can make errors if their brains are
-fooled by an optical illusion caused by the geometry of the road.
-:::
+@[youtube](PVRyMvYVHGQ?rel=0)
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

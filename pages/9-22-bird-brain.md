@@ -24,12 +24,20 @@ A tree has a left branch and a right branch, with some birds on both branches. I
 __1.1__ Initially, how many birds are on the left branch?
 
 <input type="number" solution="7"/>  
+
+---
+
+Initially there must have been 7 birds on the left branch
 :::
 
 ::: problem id=1_2 marks=2
 __1.2__ Initially, how many birds are on the right branch?
 
 <input type="number" solution="5"/>  
+
+---
+
+Initially there must have been 5 birds on the right branch
 :::
 
 
@@ -37,7 +45,7 @@ __1.2__ Initially, how many birds are on the right branch?
 <!--- 2013 (6) --->
 
 ::: problem id=2_1 marks=3
-__2.1__ What is the value of ((1 - 1) - 1) - ((1 - (1 - 1)))?
+__2.1__ What is the value of ((1 - 1) - 1) - ((1 - 1) - 1) - (1 - (1 - 1))?
 
 * [x] -2
 * [ ] -1
@@ -48,13 +56,13 @@ __2.1__ What is the value of ((1 - 1) - 1) - ((1 - (1 - 1)))?
 
 ---
 
-We have ((1 - 1) - 1) - ((1 - (1 - 1))) = (0 - 1) - (1 - 0) = (-1) - (1) = -2
+We have ((1 - 1) - 1) - (1 - (1 - 1)) = (0 - 1) - (1 - 0) = (-1) - (1) = -2
 :::
 
 
 ## 3. Jugs of water – more interesting than it sounds
 
-There are a whole set of mathematical puzzles based on trying to measure out specific amounts of water using jugs, jars or buckets of fixed volume. One such puzzle was featured in the Hollywood action movie “Die Hard with a Vengeance”, starring Bruce Willis and Samuel L. Jackson, as shown in the clip below. The clip gives you a chance to pause the video, so that you try to solve the problem yourself.
+There are a whole set of mathematical puzzles based on trying to measure out specific amounts of water using jugs, jars or buckets of fixed volume. One such puzzle was featured in the Hollywood action movie “Die Hard with a Vengeance”, starring Bruce Willis and Samuel L. Jackson, as shown in the clip below. In the clip, you are given a chance to pause the video, so that you can try to solve the problem yourself.
 
 @[youtube](qHwcQ7aQlnw?end=154&rel=0)  
 
@@ -81,11 +89,7 @@ What was the combined weight of all three?
 * [ ] 215 kg
 * [ ] 284 kg
 
-^^^ hint id=1 marks=1
-The are of a triangle is half base multiplied by perpendicular height. In this case the base is 6 for one triangle and 8 for the other triangle. You can use Pythagoras to work out the perpendicular height.
-^^^
-
-_(This problem appeared in the first Schools' Mathematical Challenge in 1988 – 25 years ago.)_
+_(This problem appeared in the first Schools' Mathematical Challenge in 1988.)_
 
 ---
 
@@ -103,7 +107,7 @@ It follows that `x + y + z = 142`. So the combined weight of all three was 142 k
 ![](/resources/9-22-bird-brain/5-diagonal.png){image align="right"}
 __5.1.__ The diagram shows a quarter of a circle.  
 
-Within the circle is rectangle `ABCD`, which touched the edge of the circle at point `D`.  
+Within the circle is the rectangle `ABCD`, which touches the edge of the circle at point `D`.  
 
 Point `B` is at the centre of the circle.  
 
