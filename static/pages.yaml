@@ -1,4 +1,9 @@
 year7:
+  - url: 7-23-secret-happiness
+    title: The Secret of Happiness
+    subtitle: PG 23
+    available: 2019-03-21T13:00:00
+    deadline: 2019-03-24T13:00:00
   - url: 7-22-maths-jokes
     title: Maths Jokes
     subtitle: PG 22
@@ -113,6 +118,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-23-colour-code-challenge
+    title: Colour Code Challenge
+    subtitle: PG 23
+    available: 2019-03-21T13:00:00
+    deadline: 2019-03-24T13:00:00
   - url: 8-22-rattlebacks
     title: Rattlebacks
     subtitle: PG 22
@@ -226,6 +236,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-23-more-water-jugs
+    title: More Water Jugs
+    subtitle: PG 23
+    available: 2019-03-21T13:00:00
+    deadline: 2019-03-24T13:00:00
   - url: 9-22-bird-brain
     title: Bird Brain
     subtitle: PG 22

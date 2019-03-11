@@ -27,9 +27,7 @@ __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and
 
 ---
 
-M62 + 39 miles + 45 minutes + 30 miles = 176
-
-Note: The questioner, Jeremy Paxman, gives a different and larger answer, because he played a longer clip with more numbers.
+M62 + 39 miles + 45 minutes + 30 miles = 176.
 :::
 
 

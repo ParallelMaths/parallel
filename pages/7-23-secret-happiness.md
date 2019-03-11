@@ -18,9 +18,9 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. The Zen of Venn
 
-We have looked at various Venn diagrams in recent weeks, but perhaps this is the most important one. It is a guide for life. Ikigai, which is the bit in the centre, is your “reason for being”. It describes the thing that you love, which the world needs, which you are good at and which you can be paid for. Find that thing and you will be happy for your whole life.
+You will come across a lot of Venn diagrams while studying mathematics, but perhaps this is the most important one. It is a guide for life. Ikigai, which is the bit in the centre, is your “reason for being”. It describes the thing that you love, which the world needs, which you are good at and which you can be paid for. Find that thing and you will be happy for your whole life.
 
-![](/resources/7-11-secret-happiness/1-zen-venn.jpg){image align="center"}
+![](/resources/7-23-secret-happiness/1-zen-venn.jpg){image align="center"}
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
@@ -73,7 +73,7 @@ Perhaps pause the video and think about possible solutions before they give you 
 ## 5. Junior Maths Challenge Problem (UKMT)
 
 ::: problem id=5_1 marks=3
-![](/resources/7-11-secret-happiness/5-triangles-question.jpg){image align="right"}
+![](/resources/7-23-secret-happiness/5-triangles-question.jpg){image align="right"}
 What is the value of `x`?
 
 * [ ] 25
@@ -84,7 +84,7 @@ What is the value of `x`?
 
 ---
 
-![](/resources/7-11-secret-happiness/5-triangles-answer.jpg){image align="right"}
+![](/resources/7-23-secret-happiness/5-triangles-answer.jpg){image align="right"}
 Let the other angles be as marked in the diagram. Then `y = 65` as the angles marked 65°
 and `y`° are the base angles of an isosceles triangle.
 
@@ -130,12 +130,6 @@ Cheerio,
 Simon.
 
 
-
-::: submit
-
-
----
-
 ## Additional Stuff
 
 * QI explores physics by seeing what happens when you take two large books and weave the pages – they are impossible to pull apart. Try it for yourself.
@@ -144,4 +138,4 @@ Simon.
 * Mythbusters took the phenomenon to the next level, and then the next level again.
 @[youtube](hOt-D_ee-JE?rel=0)
 
-* ![](/resources/7-11-secret-happiness/7-additional-pages.jpg){image align="right"} [This article from Chalkdust magazine](http://chalkdustmagazine.com/blog/why-is-it-so-hard-to-pull-two-phone-books-apart/ ){target="_blank"} explains why interleaved books are so sticky. It is fairly technical, but worth a quick look. It is written for university students, but it is worth a quick look and don’t worry if you are confused by some bits.  
+* ![](/resources/7-23-secret-happiness/7-additional-pages.jpg){image align="right"} [This article from Chalkdust magazine](http://chalkdustmagazine.com/blog/why-is-it-so-hard-to-pull-two-phone-books-apart/ ){target="_blank"} explains why interleaved books are so sticky. It is fairly technical, but worth a quick look. It is written for university students, but it is worth a quick look and don’t worry if you are confused by some bits.  

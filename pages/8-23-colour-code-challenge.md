@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Below you can see the numbers from 1 to 20 represented by coloured circles, but what is the relationship between each number and its colours? If you can work out the relationship, then you will notice that one of the numbers is linked to the wrong colours.
 
-![](/resources/8-11-colour-code-challenge/1-colour-code.png){image align="center"}
+![](/resources/8-23-colour-code-challenge/1-colour-code.png){image align="center"}
 
 ::: problem id=1_1 marks=6
 __1.1.__ Which number is linked to the wrong colours? There are some hints below if you need them.
@@ -81,7 +81,7 @@ As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 2
 <!--- (2013) --->
 
 ::: problem id=3_1 marks=2
-![](/resources/8-11-colour-code-challenge/3-rihlelo-question.jpg){image align="right"}
+![](/resources/8-23-colour-code-challenge/3-rihlelo-question.jpg){image align="right"}
 __3.1.__ The diagram shows a weaver’s design for a _rihlèlò_, a winnowing tray
 from Mozambique.
 
@@ -95,21 +95,21 @@ How many lines of symmetry does the design have?
 
 ---
 
-![](/resources/8-11-colour-code-challenge/3-rihlelo-answer.jpg){image align="right"}
+![](/resources/8-23-colour-code-challenge/3-rihlelo-answer.jpg){image align="right"}
 The four lines of symmetry are shown in the diagram.
 :::
 
 
-## 4. Belated April Fools’ Day Prank
+## 4. April Fools’ Day Prank
 
-April Fools’ Day was back at the start of the month, but it is never too late to feature this video with Professor Matthew Weathers, lecturer in the Department of Mathematics and Computer Science at Biola University in California. If you study maths or computing at university, I cannot promise that all your lectures will be as fun as this one.
+April Fools’ Day is just a few days away, so I wanted to feature this video with Professor Matthew Weathers, lecturer in the Department of Mathematics and Computer Science at Biola University in California. If you study maths or computing at university, I cannot promise that all your lectures will be as fun as this one.
 
 @[youtube](dv7kStqRFNM?rel=0)
 
 
 ## 5. Felix Klein’s birthday
 
-This week, back in 1849, it was the birthday of Felix Klein, the great German mathematician. You can find out more about Felix Klein in the “Additional Stuff” section.
+Felix Klein is one of the most famous mathematicians in history. You can find out more about Felix Klein in the “Additional Stuff” section, but for this question you only need to know his date of birth.
 
 ::: problem id=5_1 marks=2
 __5.1.__ He was born on 25 April 1849, or 25/4/1849. Why is this this a remarkable birthday for a mathematician?
@@ -130,7 +130,7 @@ Each of the date of birth numbers is linked to multiplication because 25/4/1849 
 
 Felix Klein is best known for the Klein bottle, a weird bottle (below left) that has no inside and no outside. If you are a fan of the sci-fi comedy “Futurama”, then you might remember a shelf of Klein bottles appearing in the episode “The Route of All Evil” (below right).
 
-![](/resources/8-11-colour-code-challenge/6-klein-bottles.jpg){image align="center"}
+![](/resources/8-23-colour-code-challenge/6-klein-bottles.jpg){image align="center"}
 
 Although in many senses it is impossible to create a Klein bottle in our normal 3-D world, it can in theory be constructed by joining two Möbius loops. You might now be wondering, “what is a Möbius loop?”. In short, it is an object that only has one side. Every piece of paper, of course, has two sides – a top and a bottom, or maybe a back and a front. However, you can turn a piece or strip of paper into an object that has only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
 
@@ -181,9 +181,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-::: submit
 
 
 ## Additional Stuff
