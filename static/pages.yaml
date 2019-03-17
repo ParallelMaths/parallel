@@ -1,4 +1,9 @@
 year7:
+  - url: 7-24-a-matter-factorial
+    title: A Matter Of Factorial!
+    subtitle: PG 24
+    available: 2019-03-28T13:00:00
+    deadline: 2019-03-31T13:00:00
   - url: 7-23-secret-happiness
     title: The Secret of Happiness
     subtitle: PG 23
@@ -118,6 +123,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-24-north-pole
+    title: The North Pole Riddle
+    subtitle: PG 24
+    available: 2019-03-28T13:00:00
+    deadline: 2019-03-31T13:00:00
   - url: 8-23-colour-code-challenge
     title: Colour Code Challenge
     subtitle: PG 23
@@ -236,6 +246,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-24-teachers-pets
+    title: Teacher’s Pets
+    subtitle: PG 24
+    available: 2019-03-28T13:00:00
+    deadline: 2019-03-31T13:00:00
   - url: 9-23-more-water-jugs
     title: More Water Jugs
     subtitle: PG 23

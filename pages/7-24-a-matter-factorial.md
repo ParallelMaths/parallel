@@ -1,4 +1,4 @@
-# A matter of factorial!
+# A Matter Of Factorial!
 
 <div class="dictionary">
 

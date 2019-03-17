@@ -35,7 +35,9 @@ What is the smallest number of colours required?
 ---
 
 ![](/resources/9-23-more-water-jugs/1-tetrahedon-answer.png){image align="right"}
-Clearly, more than one colour is needed! On the other hand it is possible to paint the faces using just two colours so that faces with an edge in common are painted in different colours.  
+Clearly, more than one colour is needed!  
+
+On the other hand it is possible to paint the faces using just two colours so that faces with an edge in common are painted in different colours.  
 
 This is done as shown in the diagram.
 :::
@@ -68,7 +70,7 @@ A cube consists of three pairs of opposite faces, so each pair should be a diffe
 __2.1__ Which of the expressions below is equivalent to `(x ÷ ( y ÷ z)) ÷ ((x ÷ y) ÷ z)`?
 
 * [x] 1
-* [ ] `1/xyz`
+* [ ] `1/(xyz)`
 * [ ] `x^2`
 * [ ] `y^2`
 * [ ] `z^2`
@@ -123,6 +125,7 @@ __4.1.__ According to the Geeks for Geeks solution, on [their own website](https
 * [x] 3 times
 * [ ] 4 times
 * [ ] 5 times
+{.col-3}
 :::
 
 

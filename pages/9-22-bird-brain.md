@@ -45,7 +45,7 @@ Initially there must have been 5 birds on the right branch
 <!--- 2013 (6) --->
 
 ::: problem id=2_1 marks=3
-__2.1__ What is the value of ((1 - 1) - 1) - ((1 - 1) - 1) - (1 - (1 - 1))?
+__2.1__ What is the value of ((1 - 1) - 1) - (1 - (1 - 1))?
 
 * [x] -2
 * [ ] -1

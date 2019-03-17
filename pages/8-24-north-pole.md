@@ -47,7 +47,7 @@ __1.2.__ Following on from the previous question, which of the following is most
 
 ## 2. Changing the world
 
-![](/resources/8-12-north-pole/2-steve-jobs.jpg){image align="right"}
+![](/resources/8-24-north-pole/2-steve-jobs.jpg){image align="right"}
 Scientists and engineers like Elon Musk are literally changing the world... almost certainly for the better. If you also want to change the world then studying mathematics and then becoming an engineer or scientist is probably a very good path to follow.
 
 Technology companies like Apple and Microsoft have changed the way we communicate with each other and the way we appreciate art and music... indeed they have changed the way we live our lives.
@@ -69,6 +69,7 @@ Maria. They collect 35 balls in total. How many balls does Andy collect?
 * [ ] 18
 * [x] 16
 * [ ] 8
+{.col-5}
 
 ---
 
@@ -129,7 +130,7 @@ In fact, I am not sure Samuel L. Jackson is right when he is trying to work out 
 ::: problem id=5_1 marks=2
 __5.1.__ Two identical rulers are placed together, as shown (not to scale).
 
-![](/resources/8-12-north-pole/5-rulers-question.jpg){image align="center"}
+![](/resources/8-24-north-pole/5-rulers-question.jpg){image align="center"}
 
 Each ruler is exactly 10 cm long and is marked in centimetres from 0 to 10. The 3 cm
 mark on each ruler is aligned with the 4 cm mark on the other.
@@ -177,9 +178,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-::: submit
 
 
 ## Additional Stuff
