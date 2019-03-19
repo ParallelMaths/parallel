@@ -4,6 +4,7 @@ const JSDom = require('jsdom').JSDOM;
 const markdwonContainer = require('markdown-it-container');
 const ascii2mathml = require('ascii2mathml');
 
+const btoa = (str) => Buffer.from(str).toString('base64');
 
 const md = markdown({html: true});
 
@@ -44,8 +45,8 @@ md.use(markdwonContainer, 'hint', {
         data[split[0]] = split[1];
       }
 
-      return `<div id="hint-${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-show="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
-      <div class="hint" v-show="c.answers['hint-${data.id}']">
+      return `<div id="hint-${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-if="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
+      <div class="hint" v-if="c.answers['hint-${data.id}']">
       <div class="hint-marks">–${data.marks || 1} mark</div>`;
     } else {
       return '</div>';
@@ -66,10 +67,12 @@ function parseProblemList($list, $problem) {
   const isCheckbox = $list.querySelectorAll('[checked]').length > 1;
   $list.classList.add('choices');
   $problem.classList.add(isCheckbox ? 'checkbox' : 'radio');
+  const solution = [];
 
   for (let $item of $list.querySelectorAll('.choice')) {
     const isCorrect = $item.children[0].hasAttribute('checked');
     const itemId = (isCheckbox ? $problem.id + '_' : '') + itemIds.shift();
+    if (isCorrect) solution.push(itemId);
 
     const $label = $item.children[1];
     $item.removeChild($item.children[0]);
@@ -79,17 +82,19 @@ function parseProblemList($list, $problem) {
     for (let $n of $label.childNodes) $item.appendChild($n);
     while ($item.nextSibling) $item.appendChild($item.nextSibling);
 
-    if (isCorrect) $item.classList.add('correct');
+    const correctClass = isCorrect ? `, correct: c.submitted` : '';
 
     if (isCheckbox) {
       $item.setAttribute('v-on:click', `c.setAnswer('${itemId}', !c.answers.${itemId})`);
-      $item.setAttribute('v-bind:class', `{active: c.answers.${itemId}}`);
+      $item.setAttribute('v-bind:class', `{active: c.answers.${itemId}${correctClass}`);
 
     } else {
       $item.setAttribute('v-on:click', `c.setAnswer('${$problem.id}', '${itemId}')`);
-      $item.setAttribute('v-bind:class', `{active: c.answers.${$problem.id} == '${itemId}'}`);
+      $item.setAttribute('v-bind:class', `{active: c.answers.${$problem.id} == '${itemId}'${correctClass}}`);
     }
   }
+
+  $problem.setAttribute('data-solution', btoa(solution.join(',')));
 }
 
 function parseProblemInput($input, index, $problem) {
@@ -107,7 +112,7 @@ function parseProblemInput($input, index, $problem) {
   $problem.classList.add(isSumaze ? 'sumaze' : 'input');
   $input.removeAttribute('solution');
 
-  $input.setAttribute('data-solution', solution);
+  $input.setAttribute('data-solution', btoa(solution));
   $input.setAttribute('data-value', key);
   $input.setAttribute('v-on:change', `c.setInput`);
   $input.setAttribute(isSumaze ? 'v-model' : 'v-model.lazy', `c.answers.${key}`);
@@ -119,11 +124,13 @@ function parseProblemInput($input, index, $problem) {
   $input.parentNode.insertBefore($solution, $input.nextSibling);
   $solution.textContent = 'Correct Solution: ' + solution;
   $solution.classList.add('input-solution');
+  $solution.setAttribute('v-if', 'c.submitted');
 }
 
 function parseProblemSolution($problem, $hr, doc) {
   const $solution = doc.createElement('div');
   $solution.classList.add('solution');
+  $solution.setAttribute('v-if', 'c.submitted');
   while ($hr.nextElementSibling) $solution.appendChild($hr.nextElementSibling);
   $problem.removeChild($hr);
   $problem.appendChild($solution);

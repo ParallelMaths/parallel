@@ -13,6 +13,7 @@ export default function() {
   const challenge = {
     answers: userData.answers,
     showBadgeModal: true,
+    submitted: userData.submitted,
 
     setAnswer(key, value) {
       if (userData.submitted) return;
@@ -74,19 +75,18 @@ function calculateScore(answers) {
     let score = 0;
 
     if (hasClass($p, 'radio')) {
-      const $correct = $p.querySelector('.correct');
-      if (answers[$p.id] === $correct.dataset.value) score = marks;
+      if (answers[$p.id] === atob($p.dataset.solution)) score = marks;
 
     } else if (hasClass($p, 'checkbox')) {
-      const $correct = $p.querySelectorAll('.correct');
-      for (let $c of $correct) {
-        if (answers[$c.dataset.value]) score = marks / $correct.length;
+      const solution = atob($p.dataset.solution).split(',');
+      for (let s of solution) {
+        if (answers[s]) score = marks / solution.length;
       }
 
     } else if (hasClass($p, 'input')) {
       const $inputs = $p.querySelectorAll('input');
       for (let $i of $inputs) {
-        if (checkInput(answers[$i.dataset.value], $i.dataset.solution))
+        if (checkInput(answers[$i.dataset.value], atob($i.dataset.solution)))
           score = marks / $inputs.length;
       }
 
