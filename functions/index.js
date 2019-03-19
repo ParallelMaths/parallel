@@ -14,12 +14,15 @@ const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year7', 'year8', 'year9'];
 const LEVEL_NAMES = {year7: 'Year 7', year8: 'Year 8', year9: 'Year 9'};
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const PAGES_MAP = {};
 for (let l of LEVELS) {
   for (let p of PAGES[l]) {
-    p.available = +(new Date(p.available));
+    const date = new Date(p.available);
+    p.available = +date;
     p.deadline = +(new Date(p.deadline));
+    p.date = `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
     PAGES_MAP[p.url] = p;
   }
 }
