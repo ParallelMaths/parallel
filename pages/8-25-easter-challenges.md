@@ -130,7 +130,7 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 ## 6.
 
 ::: problem id=6_1 marks=5
-![](/resources/8-09-easter-challenges/7-gallery-question.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/7-gallery-question.jpg){image align="right"}
 __6.1__ The diagram on the right shows the positions of four people (each
 marked `x`) in an Art Gallery. In the middle of the room is a stone
 column. Ali can see none of the other three people. Bea can see only
@@ -146,7 +146,7 @@ Who is at position `p`?
 
 ---
 
-![](/resources/8-09-easter-challenges/7-gallery-answer.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/7-gallery-answer.jpg){image align="right"}
 The person in position `p` is the only one who can see two of the others.
 We are told that Caz can see Bea and Dan but everyone else can see
 just one other person or no-one. So it must be Caz who is at position `P`.
@@ -196,7 +196,7 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 ## 8.
 
 ::: problem id=8_1 marks=5
-![](/resources/8-09-easter-challenges/9-grid-question.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/9-grid-question.jpg){image align="right"}
 __8.1__ In the multiplication grid on the right, the input factors (in the first row and the first column) are all missing and only some of the products within the table have been given.
 
 What is the value of A + B + C + D + E ?
@@ -209,12 +209,12 @@ What is the value of A + B + C + D + E ?
 
 ---
 
-![](/resources/8-09-easter-challenges/9-grid-answer1.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/9-grid-answer1.jpg){image align="right"}
 Let the input factors be `p, q, r, s` and `t` along the top row, and `v, w, x, y` and `z` in the first column, as shown in the grid on the right.
 
 We see that `wp = 15` and `xp = 18`, so that `p` is a divisor of both 15 and 18, and hence is either 1 or 3. However, if `p = 1`, then it would follow that `w = 15`. But this is not possible as `wr = 40`. We deduce that `p = 3`. It follows that `w = 5` and `x = 6`. Since `w = 5` and `wr = 40`, we have that `r = 8`.
 
-Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-09-easter-challenges/9-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
+Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-25-easter-challenges/9-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
 
 This enables us to complete the table, as shown on the left. (Though, really, we need only to calculate the diagonal entries that we have shown in bold.)
 
@@ -278,7 +278,7 @@ __11.1__ In rectangle PQRS, the ratio of ∠PSQ to ∠PQS is 1:5 . What is the s
 
 ---
 
-![](/resources/8-09-easter-challenges/12-rectangles-answer.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/12-rectangles-answer.jpg){image align="right"}
 Let `∠QSR` `= x°`. Since `PS` is parallel to `QR`, the alternate angles `∠PQS` and `∠QSR` are equal. So `∠PQS` `= x°`. Therefore, as `∠PSQ`:`∠PQS` `= 1:5`, `∠PSQ` `= 1/5 x°`. Therefore, from the right angled triangle `PQS` we deduce that `x + 1/5 x + 90 = 180` and so `6/5 x = 90`. Therefore `x = 5/6 × 90 = 75`.
 
 So `∠QSR` is 75°.
@@ -288,12 +288,12 @@ So `∠QSR` is 75°.
 ## 12.
 
 ::: problem id=12_1 marks=6
-![](/resources/8-09-easter-challenges/13-dominoes-question1.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/13-dominoes-question1.jpg){image align="center"}
 
-![](/resources/8-09-easter-challenges/13-dominoes-question2.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/13-dominoes-question2.jpg){image align="right"}
 __12.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match. The ring on the right indicates how one adjacent pair match.
 
-In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-09-easter-challenges/13-dominoes-question3.jpg) ?
+In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-25-easter-challenges/13-dominoes-question3.jpg) ?
 
 * [ ] 1
 * [x] 2
@@ -306,17 +306,17 @@ In a completed ring, how many of the other five dominoes can he definitely not p
 
 There are only two 1-pip dominoes among the six Dominic has. These must therefore be adjacent. Likewise for the two 2-pips, the two 6-pips and the two 4-pips. So the ring must include the three adjacent dominoes:
 
-![](/resources/8-09-easter-challenges/13-dominoes-answer1.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/13-dominoes-answer1.jpg){image align="center"}
 
 and also the three adjacent dominoes:
 
-![](/resources/8-09-easter-challenges/13-dominoes-answer2.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/13-dominoes-answer2.jpg){image align="center"}
 
 The ring may now be completed two ways, i.e., by connecting top-left 5-pip to bottom-left 5-pip and the top-right 5-pip to bottom-right 5-pip … or by connecting top-left 5-pip to bottom-right 5-pip and the top-right 5-pip to bottom-left 5-pip.
 
 We therefore see that Dominic can create two different rings of six dominoes, as shown below.
 
-![](/resources/8-09-easter-challenges/13-dominoes-answer5.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/13-dominoes-answer5.jpg){image align="center"}
 
 We now see that there are just 2 dominoes that the [1:5] domino cannot be adjacent to, namely the domino [2:5] and, of course, the domino [4:6].
 :::
@@ -351,7 +351,7 @@ None of them are prime, so none of the numbers in Peter's list are prime.
 ## 14.
 
 ::: problem id=14_1 marks=6
-![](/resources/8-09-easter-challenges/15-triangle-question.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/15-triangle-question.jpg){image align="right"}
 __14.1__ The interior angles of a triangle are `(5x + 3y)`°, `(3x + 20)`° and `(10y + 30)`°, where `x`, `y` are positive integers.
 
 What is the value of `x + y`?

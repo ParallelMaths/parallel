@@ -38,20 +38,20 @@ Which numbers only have a single colour?
 ^^^
 
 ^^^ hint id=4
-2 is yellow, 4 is doubly yellow, 8 is triply yellow. Can you figure out why?
+2 is yellow, 4 is doubly orange, 8 is triply orange. Can you figure out why?
 ^^^
 
 ^^^ hint id=5
-2 is yellow, 3 is green and 6 is yellow and green. Why?
+2 is yellow, 3 is green and 6 is orange and green. Why?
 ^^^
 
 <input solution="19"/>  
 
 ---
 
-The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their prime factors - so 4 is made up of two yellows, because the 2 is coloured yellow, and 4 = 2 × 2; 18 is made up of two greens (3s) and one yellow (2), because 18 = 3 × 3 × 2.
+The prime numbers - 1, 2, 3, 5, 7, 11, 13 and 17 are single colours. All of the other numbers are coloured according to their prime factors - so 4 is made up of two oranges, because the 2 is coloured orange, and 4 = 2 × 2; 18 is made up of two greens (3s) and one orange (2), because 18 = 3 × 3 × 2.
 
-The exception is number 19, which is made up of two yellows (2s) and one green (3). However, 2 × 2 × 3 ≠ 19, and as 19 is a prime number it should be a single colour.
+The exception is number 19, which is made up of two oranges (2s) and one green (3). However, 2 × 2 × 3 ≠ 19, and as 19 is a prime number it should be a single colour.
 :::
 
 
@@ -161,11 +161,11 @@ __6.2.__ What happens when you cut the Möbius loop along its length, but starti
 
 ---
 
-Hopefully you will have got the right answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of they way from the edge. It also looks a couple of other cutting mysteries, all in just a couple of minutes.
+Hopefully you will have got the right answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of the way from the edge. It also looks at a couple of other cutting mysteries, all in just a couple of minutes.
 
 @[youtube](6q3WcwGcJsU?rel=0)
 
-For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}, but remember to come back and hit the submit button.
+For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}.
 :::
 
 

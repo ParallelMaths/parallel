@@ -61,7 +61,7 @@ The average height, in metres, is `(2.1+1.4)/2 = 3.5/2 = 1.75` m.
 
 ## 4. QI – what is the correct way to cut a cake?
 
-Here is something for you to think about from BBC2’s QI show, which often features mathematical puzzles. You will hear the question in the video clip, but here it is so there is no confusion. If you cut a standard slice of cake (basically a triangle, with one curved side), then the sides next to the removed slice are exposed to the air and will dry out.  
+Here is something for you to think about from BBC2’s QI, which often features mathematical puzzles. You will hear the question in the video clip, but here it is so there is no confusion. If you cut a standard slice of cake (basically a triangle, with one curved side), then the sides next to the removed slice are exposed to the air and will dry out.  
 
 __So, how do you cut the cake in a radically difference way (3 cuts, 2 pieces please), so that you minimise the amount of cut cake exposed to the drying effects of the air?__  
 
@@ -138,4 +138,4 @@ Simon.
 * Mythbusters took the phenomenon to the next level, and then the next level again.
 @[youtube](hOt-D_ee-JE?rel=0)
 
-* ![](/resources/7-23-secret-happiness/7-additional-pages.jpg){image align="right"} [This article from Chalkdust magazine](http://chalkdustmagazine.com/blog/why-is-it-so-hard-to-pull-two-phone-books-apart/ ){target="_blank"} explains why interleaved books are so sticky. It is fairly technical, but worth a quick look. It is written for university students, but it is worth a quick look and don’t worry if you are confused by some bits.  
+* ![](/resources/7-23-secret-happiness/7-additional-pages.jpg){image align="right"} [This article from Chalkdust magazine](http://chalkdustmagazine.com/blog/why-is-it-so-hard-to-pull-two-phone-books-apart/ ){target="_blank"} explains why interleaved books are so sticky. It is written for university students, so it is fairly technical, but it is worth a quick look and don’t worry if you are confused by some bits.  

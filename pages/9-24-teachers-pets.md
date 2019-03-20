@@ -66,7 +66,7 @@ So, including the three dice which showed the scores of 2, 3 and 5, there were 2
 
 ## 3. Teacher’s pets
 
-A teacher tells her class that she has some pets at home. She explains that all except two of the pets are cats, all except two are dogs, and all except two are rabbits.
+A teacher tells her class that she has some pets at home. She explains that all of the pets are cats, dogs or rabbits, and that all except two of the pets are cats, all except two are dogs, and all except two are rabbits.
 
 ::: problem id=3_1 marks=1
 __3.1__ How many of cats does she have at home?

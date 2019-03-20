@@ -49,7 +49,7 @@ __1.2__ What is the smallest number of colours required to paint a tetrahedron?
 
 ---
 
-A tetrahedron has 4 faces, which all join each other, so you will require 4 different colours.
+A tetrahedron has 4 faces, which all share an edge in common, so you will require 4 different colours.
 :::
 
 ::: problem id=1_3 marks=2
@@ -69,11 +69,11 @@ A cube consists of three pairs of opposite faces, so each pair should be a diffe
 ::: problem id=2_1 marks=5
 __2.1__ Which of the expressions below is equivalent to `(x ÷ ( y ÷ z)) ÷ ((x ÷ y) ÷ z)`?
 
-* [x] 1
+* [ ] 1
 * [ ] `1/(xyz)`
 * [ ] `x^2`
 * [ ] `y^2`
-* [ ] `z^2`
+* [x] `z^2`
 {.col-5}
 
 ^^^ hint id=1 marks=1
@@ -91,12 +91,13 @@ The expression might be easier to deal with if you translate it into this form:
 ## 3. More about water jug puzzles (part 1)
 
 Last week, we looked at the Die Hard movie that featured a water jug puzzle. This week, we’re going to look at some trickier water jug puzzles.  
-For starters, take a look at this puzzle – can you deliver 6 litres of milk, if you have containers of size 12 litres, 8 litres and 5 litres.  
+
+For starters, take a look at this puzzle: can you deliver 6 litres of milk if you have containers of size 12 litres, 8 litres and 5 litres?
 
 @[youtube](9fZB4s38Ygg?rel=0)  
 
 ::: problem id=3_1 marks=2
-__3.1__ In the solution given in the video, what volumes are in the 12, 8 and 5 litre jugs just before the problem is solved, i.e., just before one of the jugs contains 6 litres?
+__3.1__ In the solution given in the video, what volumes of liquid are in the 12, 8 and 5 litre jugs just before the problem is solved, i.e., just before one of the jugs contains 6 litres?
 
 * [ ] 3, 7 and 2 litres
 * [ ] 2, 7 and 3 litres
@@ -107,13 +108,13 @@ __3.1__ In the solution given in the video, what volumes are in the 12, 8 and 5 
 :::
 
 
-## 4. More about about water jug puzzles (part 2)
+## 4. More about water jug puzzles (part 2)
 
 The Geeks for Geeks website sets the following problem:
 
-_We have two water jugs, one measures 4 Gallons (4G) while the other measure 9 Gallons (9G). But there is no measuring label mentioned on either of these two jugs i.e. we cannot know the exact amount filled in the jug. Now, assuming there is an infinite amount of water supply, can we measure all 1 Gallons, 2 Gallons, 3 Gallons…….. up to 9 Gallons using these unmarked jugs?
+_We have two water jugs. One measures 4 gallons (4G), while the other measures 9 gallons (9G) when full, but there are no increments marked on either, so we cannot directly measure out any other volume of water using these jugs. Now, assuming there is an infinite amount of water supply, is it possible to measure out 1 gallon, 2 gallons, 3 gallons,… all the way up to 9 gallons of water using these unmarked jugs?_
 
-**Hint:** We can empty the jugs, and transfer water from one jug to other._
+_Hint: We can empty the jugs, and transfer water from one jug to other._
 
 The answer is “yes”, you can measure out all the volumes from 1 to 9 Gallons, but can you work out how? See how many of the volumes you can figure out. Once you have spent 5 minutes on this, you can find the full solution at the [Geeks for Geeks](https://www.geeksforgeeks.org/puzzle-water-jug-problem/){target="_blank"} website. Then answer this question.
 
@@ -129,7 +130,7 @@ __4.1.__ According to the Geeks for Geeks solution, on [their own website](https
 :::
 
 
-## 5. More about about water jug puzzles (part 3)
+## 5. More about water jug puzzles (part 3)
 
 Finally, take a look at this video by the Mathologer, otherwise known as Professor Burkard Polster at Monash University in Melbourne, Australia. He starts by looking at the original “Die Hard” problem, and then goes on to use an interesting billiard table technique to solve the problem.
 
@@ -137,8 +138,10 @@ This is a 14-minute video, and it goes into more depth than most videos featured
 
 @[youtube](0Oef3MHYEC0?rel=0)  
 
+Once you have watched the video, answer the questions below.  
+
 ::: problem id=5_1 marks=2
-__5.1.__ When a billiard table is used to represent a water pouring puzzle, the lengths of the sides represents the sizes of the jugs.
+__5.1.__ When a billiard table is used to represent a water pouring puzzle, the lengths of the sides represent the sizes of the jugs.
 
 * [x] True
 * [ ] False

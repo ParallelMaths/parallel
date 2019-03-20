@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1.	The North Pole riddle – the genius version
 
-This video is titled “Elon Musk’s favorite interview question”, and it explores in great depth a question that we have covered in two recent Parallelograms. By the way, if you have not heard of Elon Musk, he studied physics at university and he is now labelled the real life Iron Man because he has built a business empire based on developing incredible technology – everything from batteries to rockets. In fact, the second video shows Elon Musk in a cameo in the “Iron Man 2” movie.
+This video explores in great depth a question that we have covered in two recent Parallelograms.
 
 @[youtube](c_Vl4T4Anc4?rel=0)
 
@@ -41,8 +41,6 @@ __1.2.__ Following on from the previous question, which of the following is most
 * [ ] There are 72 possible locations.
 * [x] There is an infinite number of possible locations.
 :::
-
-@[youtube](EuG2AVFB-g0?rel=0)
 
 
 ## 2. Changing the world
