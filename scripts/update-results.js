@@ -31,12 +31,12 @@ async function updateAnswers() {
     if (answers[QUESTION] !== IF_ANSWER) continue;
 
     const points = Math.min(answers.total, answers.points + ADD_POINTS);
-    const score = points / answers.total;
+    const score = Math.round(100 * points / answers.total);
 
     await fb.database().ref(`users/${u}/answers/${PG}`)
         .update({[QUESTION]: THEN_ANSWER, points, score});
 
-    console.log(`  Updated score for ${users[u].first} ${users[u].last}: ${Math.round(100*score)}%`);
+    console.log(`  Updated score for ${users[u].first} ${users[u].last}: ${score}%`);
     count += 1;
   }
 
