@@ -19,7 +19,7 @@ week by the Parallel Project to bright young mathematicians.
 ## 1. Musical Challenge
 
 ::: problem id=1_1 marks=1
-__1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song.
+__1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song, then write the total in the box below.
 
 @[youtube](nZ38tg1342s?start=19&end=53&rel=0)
 
@@ -27,7 +27,7 @@ __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and
 
 ---
 
-5, 4, 3, 2, 1 repeated five times, ie:  
+5, 4, 3, 2, 1 repeated five times, i.e.:  
 
 `(5 + 4 + 3 + 2 +1 ) × 5 = 15 × 5 = 75`.
 :::
@@ -71,7 +71,7 @@ __3.1__ Find all the positive integers greater than 1 and less than 40 which hav
 
 ---
 
-The numbers are 4, 9 and 25. So the sum is 38. These numbers are the squares of prime numbers.
+The numbers are 4, 9 and 25. So the sum is 38. These numbers are the squares of prime numbers. If a number only has one factor other than one and itself then it must be a repeated factor (as all factors come in pairs)... so the number must be square.
 :::
 
 
@@ -129,7 +129,7 @@ Neon is shortened to Ne, which is also short for Nebraska.
 
 ## 6. Even more about factorials
 
-A short while ago, we asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at Parallelogram (#7)](/7-07-optimise-pizza-money){target="_blank"} if you need to remind yourself what we did.
+A short while ago, we asked: “How many ways can we re-arrange the English alphabet of 26 letters?” [Take a look back at Parallelogram (#7)](/7-20-optimise-pizza-money){target="_blank"} if you need to remind yourself what we did.
 
 In short, there are 26! ways to re-arrange 26 letters, where 26! means 26 × 25 × 24 …. × 1.
 
@@ -160,9 +160,12 @@ __6.2.__ What is the answer to (10! ÷ 9!)?
 <input solution="10"/>
 
 ^^^ hint id=1
-Imagine all the numbers you multiply together to make 10!, and then imagine all the numbers you multiply together to get 9!, and then get rid of common numbers. What are you left with?
+Imagine all the numbers you multiply together to make 10!, and then imagine all the numbers you multiply together to get 9!, and then cancel common numbers. What are you left with?
 ^^^
 
+---
+
+If you imagine all the numbers you multiply together to make 10!, and then imagine all the numbers you multiply together to get 9!, and then cancel common numbers, you are left with just 10.
 :::
 
 ::: problem id=6_3 marks=2

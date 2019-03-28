@@ -31,13 +31,13 @@ The word is "incorrectly".
 ::: problem id=1_2 marks=2
 __1.2__ Which of the following statements is correct?
 
-* [ ] The yolk of the egg is white
-* [ ] The yolk of the egg are white
+* [ ] The yolk of an egg is white
+* [ ] The yolk of an egg are white
 * [x] Neither
 
 ---
 
-Neither, because the yolk of the eggs is yellow.
+Neither, because the yolk of an egg is yellow.
 :::
 
 
@@ -69,19 +69,19 @@ So, including the three dice which showed the scores of 2, 3 and 5, there were 2
 A teacher tells her class that she has some pets at home. She explains that all of the pets are cats, dogs or rabbits, and that all except two of the pets are cats, all except two are dogs, and all except two are rabbits.
 
 ::: problem id=3_1 marks=1
-__3.1__ How many of cats does she have at home?
+__3.1__ How many cats does she have at home?
 
 <input type="number" solution="1"/>  
 :::
 
 ::: problem id=3_2 marks=1
-__3.2__ How many of dogs does she have at home?
+__3.2__ How many dogs does she have at home?
 
 <input type="number" solution="1"/>  
 :::
 
 ::: problem id=3_3 marks=1
-__3.3__ How many of rabbits does she have at home?
+__3.3__ How many rabbits does she have at home?
 
 <input type="number" solution="1"/>  
 
@@ -93,7 +93,7 @@ If C, D and R represent the number of cats, dogs and rabbits, then we can summar
 (b)	C + R = 2  ->  “all except two of the pets are dogs”  
 (c)	C + D = 2  ->  “all except two of the pets are rabbits”  
 
-Substituting (b) into (a) tells us that [D + (2 – c) = 2] or D = C.  
+Substituting (b) into (a) tells us that [D + (2 – C) = 2] or D = C.  
 
 And (c) tells us C + D = 2, so C = 1, D = 1... and therefore R = 1.
 :::
@@ -101,7 +101,7 @@ And (c) tells us C + D = 2, so C = 1, D = 1... and therefore R = 1.
 
 ## 4. Space science
 
-A couple of videos to stretch your brain in the direction of science. Just watch these short videos and answer the questions that follow.
+Here are a couple of videos to stretch your brain in the direction of science. Just watch these short videos and answer the questions that follow.
 
 __Is there life on Mars?__
 
@@ -119,7 +119,7 @@ __Dark side of the Moon__
 @[youtube](46-m4Y4Adto?rel=0)  
 
 ::: problem id=4_2 marks=2
-__4.2.__ Which band recorded the album “Dark side of the Moon”? The answer is not in the video.
+__4.2.__ Which band recorded the album “The Dark side of the Moon”? The answer is not in the video.
 
 * [x] Pink Floyd
 * [ ] Red Hot Chili Peppers

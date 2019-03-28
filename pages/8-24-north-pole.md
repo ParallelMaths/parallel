@@ -71,10 +71,7 @@ Maria. They collect 35 balls in total. How many balls does Andy collect?
 
 ---
 
-Suppose that Andy collects `x` balls. Since Andy collects twice as many balls as Roger, Roger
-collects `1/2 x` balls. Andy collects five more balls than Maria. So Maria collects `x − 5` balls. So between them, Andy, Roger and Maria collect `x + 1/2 x + (x - 5) = 35` balls. They collect 35 balls in total.
-
-Therefore `x + 1/2 x + (x - 5) = 35`
+Suppose that Andy collects `x` balls. Since Andy collects twice as many balls as Roger, Roger collects `1/2 x` balls. Andy collects five more balls than Maria, so Maria collects `x − 5` balls. So between them, Andy, Roger and Maria collect `x + 1/2 x + (x - 5) = 35` balls in total.
 
 Multiplying this equation by 2 gives `2x + x + 2x - 10 = 70`
 
@@ -116,7 +113,7 @@ Lots of people give the answer 2,801 (because there is 1 man + 7 wives + 49 sack
 
 @[youtube](zcUJUOMtfHQ?rel=0)
 
-In fact, I am not sure Samuel L. Jackson is right when he is trying to work out the number of items going away from St Ives. Luckily, in the Sesame Street clip below there is a much better and clearer explanation
+In fact, I am not sure Samuel L. Jackson is right when he is trying to work out the number of items going away from St Ives. Luckily, in the Sesame Street clip below there is a much better and clearer explanation:
 
 @[youtube](ol1h9VB4Lyk?rel=0)
 :::

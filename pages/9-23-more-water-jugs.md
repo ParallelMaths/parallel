@@ -37,7 +37,7 @@ What is the smallest number of colours required?
 ![](/resources/9-23-more-water-jugs/1-tetrahedon-answer.png){image align="right"}
 Clearly, more than one colour is needed!  
 
-On the other hand it is possible to paint the faces using just two colours so that faces with an edge in common are painted in different colours.  
+On the other hand it is possible to paint the faces of the octahedron using just two different colours, so that each of the faces with an edge in common are painted with different colours.  
 
 This is done as shown in the diagram.
 :::
@@ -148,21 +148,21 @@ __5.1.__ When a billiard table is used to represent a water pouring puzzle, the 
 :::
 
 ::: problem id=5_2 marks=2
-__5.2.__ With 5 and 3 gallon jugs, we can measure out volumes of 1, 2, 3, 4 and 5 gallons.
+__5.2.__ With 5 and 3 gallon jugs, we can measure out volumes of 1, 2, 3, 4 and 5 gallons. Assume that you have an unlimited supply of water from a tap, and you can pour out and waste as much water as you like.
 
 * [x] True
 * [ ] False
 :::
 
 ::: problem id=5_3 marks=3
-__5.3.__ With 15 and 6 gallon jugs, we can measure out volumes of 1, 2, 3, 4 and 5 gallons.
+__5.3.__ With 15 and 6 gallon jugs, we can measure out volumes of 1, 2, 3, 4 and 5 gallons. Assume that you have an unlimited supply of water from a tap, and you can pour out and waste as much water as you like.
 
 * [ ] True
 * [x] False
 :::
 
 ::: problem id=5_4 marks=3
-__5.4.__ With 5 and 3 gallon jugs, we can measure out volumes of 3, 6, 9, 12 and 15 gallons.
+__5.4.__ With 5 and 3 gallon jugs, we can measure out volumes of 3, 6, 9, 12 and 15 gallons. Assume that you have an unlimited supply of water from a tap, and you can pour out and waste as much water as you like.
 
 * [x] True
 * [ ] False

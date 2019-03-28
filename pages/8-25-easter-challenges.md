@@ -16,18 +16,11 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. 580-ton monster machine is building bridges across China
-
-This machine is incredible. As you watch the video, look at when it moves the massive bridge sections forwards... what does it have to do before it can redistribute the weight?
-
-@[youtube](cKi8VWRDA_c?rel=0)
-
-
 ## Junior Maths Challenge (UKMT) Mock
 
-Some of you will be doing the UKMT’s Junior Maths Challenge next month, so the rest of this Parallelogram consists of 12 Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
+Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so this Parallelogram consists of __XX__ Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
-In the real JMC, you would have one hour to attempt 25 questions, so in theory you have roughly thirty minutes to complete these 13 questions. However, don’t rush, don’t guess and don’t worry if you need longer than thirty minutes … you might even need the full hour.
+The real JMC allows you one hour to attempt 25 questions, so in theory you have roughly sixty minutes to complete these 25 questions. However, don’t rush, don’t guess and don’t worry if you need longer than sixty minutes.
 
 Here are a few things to bear in mind when you do the real JMC:
 * the first half of the questions are not too tricky (__also true below__).
@@ -36,17 +29,17 @@ Here are a few things to bear in mind when you do the real JMC:
 
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
 
-__We have tried to make our Parallelograms more printer-friendly. In general, it is better to answer questions online, but sometimes (and maybe this is one of those times) it might be worth printing out one or two of the questions, doing them on paper, and then entering your answers back on the screen. And make sure you have a paper and pencil to hand for sketches and calculations.__
+__Make sure you have a paper and pencil to hand for sketches and calculations.__
 
 Finally, afterwards, make sure you go through all the answers and see where you went right and where you went wrong. This is 100% the best way to improve your maths skills.
 
 __The next Parallelogram will contain our usual mix of videos, humour, puzzles and problems.__
 
 
-## 2.
+## 1.
 
-::: problem id=2_1 marks=5
-__2.1__ What is the smallest four-digit positive integer which has four different digits?
+::: problem id=1_1 marks=5
+__1.1__ What is the smallest four-digit positive integer which has four different digits?
 
 * [ ] 1032
 * [ ] 2012
@@ -65,6 +58,30 @@ To get the smallest possible number we must use the four smallest digits, 0, 1, 
 hundreds digit must be the smallest remaining digit, 0. Similarly the tens digit must be 2 and the units digit must be 3.
 
 So the required number is 1023.
+:::
+
+
+## 2.
+
+::: problem id=2_1 marks=5
+__2.1__ Nadiya is baking a cake. The recipe says that her cake should be baked in the oven for 1 hour and 35 minutes. She puts the cake in the oven at 11:40 am.  
+
+At what time should she take the cake out of the oven?
+
+* [ ] 12:15 pm
+* [ ] 12:40 pm
+* [ ] 1:05 pm
+* [x] 1:15 pm
+* [ ] 2:15 pm
+{.col-5}
+
+---
+
+1 hour and 35 minutes is 1 hour plus 20 minutes plus 15 minutes.  
+
+One hour after 11:40 am the time is 12:40 pm. After a further 20 minutes, the time is 1 pm. Then 15 minutes later it is 1:15pm.  
+
+Therefore 1 hour and 35 minutes after 11:40 am the time is 1:15 pm.
 :::
 
 
@@ -88,7 +105,27 @@ The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the fact
 ## 4.
 
 ::: problem id=4_1 marks=5
-__4.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" because the town of Wenlock in Shropshire first held the Wenlock Olympian Games in 1850. How many years before the 2012 Olympics was that?
+__4.1__ A download is 95% complete. What fraction is yet to be downloaded?
+
+* [ ] `1/2`
+* [ ] `1/5`
+* [ ] `1/9`
+* [ ] `1/10`
+* [x] `1/20`
+{.col-5}
+
+---
+
+When the download is 95% complete, 5% remains to be downloaded.
+
+Now 5% means 5 parts in 100. Therefore, expressed as a fraction, 5% is `5/100 = 1/20`.
+:::
+
+
+## 5.
+
+::: problem id=5_1 marks=5
+__5.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" because the town of Wenlock in Shropshire first held the Wenlock Olympian Games in 1850. How many years before the 2012 Olympics was that?
 
 * [ ] 62
 * [ ] 152
@@ -103,10 +140,37 @@ All you have to do is a subtraction: 2012 - 1850 = 162.
 :::
 
 
-## 5.
+## 6.
 
-::: problem id=5_1 marks=5
-__5.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print has many pages as two large cartridges. How many pages can be printed using a large cartridge?
+::: problem id=6_1 marks=5
+![](/resources/8-25-easter-challenges/6-magicsquare-question.png){image align="right"}
+__6.1__ In a magic square, the numbers in each row, each column and the two main diagonals have the same total. This magic square uses the integers 2 to 10.  
+
+Which of the following are the missing cells?
+
+* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-a.png)
+* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-b.png)
+* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-c.png)
+* [x] ![](/resources/8-25-easter-challenges/6-magicsquare-d.png)
+* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-e.png)
+
+---
+
+![](/resources/8-25-easter-challenges/6-magicsquare-answer.png){image align="right"}
+__Method 1:__ The row totals given by the numbers shown in the square in the question are 10 + 5 = 15, 8 + 4 = 12 and 7 + 2 = 9. Therefore to make all the row totals the same, the number we add to the second row must be three more than the number we add to the first row, and the number we add to the third row must be three more than the number we add to the second row.  
+
+Therefore the only possibility for the missing cells among the given options is that given by option D.  
+
+As the square on the right shows, when we add these missing cells, the row totals, the column totals and the totals on the two main diagonals are all equal to 18. So option D is correct.  
+
+__Method 2:__ The numbers in the completed magic square have total 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 54. This is the sum of the three row totals. Since these row totals are equal, each row total in the magic square is 54 ÷ 3 = 18. To achieve these totals from the numbers already shown in the square in the question, the numbers that need to be added to the three rows are 3, 6 and 9 in this order from top to bottom. So the correct option is D.
+:::
+
+
+## 7.
+
+::: problem id=7_1 marks=5
+__7.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print has many pages as two large cartridges. How many pages can be printed using a large cartridge?
 
 * [ ] 1200
 * [x] 1350
@@ -127,11 +191,51 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 :::
 
 
-## 6.
+## 8.
 
-::: problem id=6_1 marks=5
-![](/resources/8-25-easter-challenges/7-gallery-question.jpg){image align="right"}
-__6.1__ The diagram on the right shows the positions of four people (each
+::: problem id=8_1 marks=5
+![](/resources/8-25-easter-challenges/8-rectangle.png){image align="right"}
+__8.1__ The diagram shows a rectangle `PQRS` and `T` is a point on `PS` such that `QT` is perpendicular to `RT`.  
+
+The length of `QT` is 4 cm. The length of `RT` is 2 cm.  
+
+What is the area of the rectangle `PQRS`?
+
+* [ ] 6 cm<sup>2</sup>
+* [x] 8 cm<sup>2</sup>
+* [ ] 10 cm<sup>2</sup>
+* [ ] 12 cm<sup>2</sup>
+* [ ] 16 cm<sup>2</sup>
+
+---
+
+The area of a triangle is given by the formula:  
+
+`1/2 `(base × height)  
+
+whereas the area of a rectangle is given by  
+
+base × height.  
+
+The triangle `QRT` and the rectangle `PQRS` have the same base, `QR`, and the same height.  
+
+It follows that the area of the rectangle `PQRS` is twice the area of the triangle `QRT`.  
+
+Because `QT` is perpendicular to `RT`, if we take `QT` as the base of the triangle `QRT`, its height is given by the length of `RT`. Hence the area of the triangle `QRT` is:
+
+`1/2 (QT × RT) = 1/2 (4 cm × 2 cm) = 4 cm^2`.
+
+Hence the area of the rectangle PQRS is:
+
+`2 × 4 cm^2 = 8 cm^2`.
+:::
+
+
+## 9.
+
+::: problem id=9_1 marks=5
+![](/resources/8-25-easter-challenges/9-gallery-question.jpg){image align="right"}
+__9.1__ The diagram on the right shows the positions of four people (each
 marked `x`) in an Art Gallery. In the middle of the room is a stone
 column. Ali can see none of the other three people. Bea can see only
 Caz. Caz can see Bea and Dan. Dan can only see Caz.
@@ -146,7 +250,7 @@ Who is at position `p`?
 
 ---
 
-![](/resources/8-25-easter-challenges/7-gallery-answer.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/9-gallery-answer.jpg){image align="right"}
 The person in position `p` is the only one who can see two of the others.
 We are told that Caz can see Bea and Dan but everyone else can see
 just one other person or no-one. So it must be Caz who is at position `P`.
@@ -157,10 +261,37 @@ information we are given doesn't enable us to work out which is where.
 :::
 
 
-## 7.
+## 10.
 
-::: problem id=7_1 marks=5
-__7.1__ In the following expression each ▲ is to be replaced with either + or - in such a way that the result of the calculation is 100.
+::: problem id=10_1 marks=5
+__10.1__ Which of the following integers is not a multiple of 45?
+
+* [ ] 765
+* [ ] 675
+* [ ] 585
+* [ ] 495
+* [x] 305.
+
+---
+
+Because 45 = 5 × 9, if an integer is divisible by 45, it is divisible both by 5 and by 9. Conversely, if an integer is divisible both by 5 and by 9, then, because 5 and 9 have no common factors other than 1, the integer is also divisible by 45.  
+
+Each of the integers 765, 675, 585, 495 and 305 has units digit 5, and therefore is divisible by 5.  
+
+The test for whether an integer is divisible by 9 is whether the sum of its digits is divisible by 9.  
+
+We see that 7 + 6 + 5 = 18, 6 + 7 + 5 = 18, 5 + 8 + 5 = 18 and 4 + 9 + 5 = 18. Because 18 is divisible by 9 we deduce that all of the first four integers given as options are divisible by 9.  
+
+However 3 + 0 + 5 = 8 and so the sum of the digits of 305 is not divisible by 9.  
+
+We deduce that 305 is the only one of the given options that is not divisible by 45
+:::
+
+
+## 11.
+
+::: problem id=11_1 marks=5
+__11.1__ In the following expression each ▲ is to be replaced with either + or - in such a way that the result of the calculation is 100.
 
 123 ▲ 45 ▲ 67 ▲ 89  
 {.text-center}
@@ -193,11 +324,37 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 :::
 
 
-## 8.
+## 12. 2017 - 12
 
-::: problem id=8_1 marks=5
-![](/resources/8-25-easter-challenges/9-grid-question.jpg){image align="right"}
-__8.1__ In the multiplication grid on the right, the input factors (in the first row and the first column) are all missing and only some of the products within the table have been given.
+::: problem id=12_1 marks=5
+__12.1__ Last year, at the school where Gill teaches Mathematics, 315 out of the 600 pupils were girls. This year, the number of pupils in the school has increased to 640. The proportion of girls is the same as it was last year.  
+
+How many girls are there at the school this year??
+
+* [ ] 339
+* [ ] 338
+* [ ] 337
+* [x] 336
+* [ ] 335
+{.col-5}
+
+---
+
+The fraction of girls in the school last year was `315/600`. By dividing both the numerator and denominator by 3 and then by 5 we see that  
+
+`315/600 = 105/200 = 21/40`.  
+
+The proportion of girls this year is the same. Therefore, of the 640 pupils in the school this year, the number that are girls is:  
+
+`21/40 × 640 = 21 × 16 = 336`.
+:::
+
+
+## 13.
+
+::: problem id=13_1 marks=5
+![](/resources/8-25-easter-challenges/13-grid-question.jpg){image align="right"}
+__13.1__ In the multiplication grid on the right, the input factors (in the first row and the first column) are all missing and only some of the products within the table have been given.
 
 What is the value of A + B + C + D + E ?
 
@@ -209,12 +366,12 @@ What is the value of A + B + C + D + E ?
 
 ---
 
-![](/resources/8-25-easter-challenges/9-grid-answer1.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/13-grid-answer1.jpg){image align="right"}
 Let the input factors be `p, q, r, s` and `t` along the top row, and `v, w, x, y` and `z` in the first column, as shown in the grid on the right.
 
 We see that `wp = 15` and `xp = 18`, so that `p` is a divisor of both 15 and 18, and hence is either 1 or 3. However, if `p = 1`, then it would follow that `w = 15`. But this is not possible as `wr = 40`. We deduce that `p = 3`. It follows that `w = 5` and `x = 6`. Since `w = 5` and `wr = 40`, we have that `r = 8`.
 
-Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-25-easter-challenges/9-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
+Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-25-easter-challenges/13-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
 
 This enables us to complete the table, as shown on the left. (Though, really, we need only to calculate the diagonal entries that we have shown in bold.)
 
@@ -224,10 +381,10 @@ Therefore, we have `A + B + C + D + E = 6 = 25 + 48 + 40 + 42 = 161`.
 __Next up, we have the trickier questions.__
 
 
-## 9.
+## 14.
 
-::: problem id=9_1 marks=6
-__9.1__ Talulah plants 60 tulip bulbs. When they flower, she notes that half are yellow; one third of those which are not yellow are red; and one quarter of those which are neither yellow nor red are pink. The remainder are white.
+::: problem id=14_1 marks=6
+__14.1__ Talulah plants 60 tulip bulbs. When they flower, she notes that half are yellow; one third of those which are not yellow are red; and one quarter of those which are neither yellow nor red are pink. The remainder are white.
 
 What fraction of the tulips are white?
 
@@ -246,10 +403,13 @@ This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15
 :::
 
 
-## 10.
+15??
 
-::: problem id=10_1 marks=6
-__10.1__ There are six more girls than boys in Miss Spelling's class of 24 pupils. What is the ratio of girls to boys in this class?
+
+## 16.
+
+::: problem id=16_1 marks=6
+__16.1__ There are six more girls than boys in Miss Spelling's class of 24 pupils. What is the ratio of girls to boys in this class?
 
 * [x] 5:3
 * [ ] 4:1
@@ -264,10 +424,42 @@ Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 
 :::
 
 
-## 11.
+## 17.
 
-::: problem id=11_1 marks=6
-__11.1__ In rectangle PQRS, the ratio of ∠PSQ to ∠PQS is 1:5 . What is the size of ∠QSR?
+::: problem id=17_1 marks=6
+![](/resources/8-25-easter-challenges/17-line.png){image align="right"}
+__17.1__ The diagram is a “map” of Jo’s local rail network, where the dots represent stations and the lines are routes.  
+
+Jo wants to visit all the stations, travelling only by train, starting at any station and ending at any station, with no restrictions on which routes are taken.  
+
+What is the smallest number of stations that Jo must go to more than once?
+
+* [ ] 1
+* [ ] 2
+* [x] 3
+* [ ] 4
+* [ ] 5
+{.col-5}
+
+---
+
+![](/resources/8-25-easter-challenges/17-line-answer.png){image align="right"}
+We label the stations as shown in the diagram on the right so that we can refer to them. Jo can visit the stations in the order:  
+
+`O, P, Q, R, S, R, T, X, Y, Z, Y, X, W, V, U`.  
+
+In this way she visits all the stations and goes through just three of them, `R`, `Y` and `X` more than once.  
+
+It remains only to show that Jo cannot visit all the stations without going through at least three of them more than once.  
+
+Jo must go through the junction stations `R` and `X` more than once. If Jo does not start or finish at `O`, she will have to go through `P` more than once. If she does not start or finish at `U` she will have to go through `V` more than once. If she starts at `O` and finishes at `U`, or vice versa, she will have to go through `Y` more than once. It follows that Jo has to go through at least three stations more than once. So this is the smallest number of stations Jo must go through more than once.
+:::
+
+
+## 18.
+
+::: problem id=18_1 marks=6
+__18.1__ In rectangle `PQRS`, the ratio of `∠PSQ` to `∠PQS` is 1:5 . What is the size of `∠QSR`?
 
 * [ ] 15°
 * [ ] 18°
@@ -278,22 +470,40 @@ __11.1__ In rectangle PQRS, the ratio of ∠PSQ to ∠PQS is 1:5 . What is the s
 
 ---
 
-![](/resources/8-25-easter-challenges/12-rectangles-answer.jpg){image align="right"}
+![](/resources/8-25-easter-challenges/18-rectangles-answer.jpg){image align="right"}
 Let `∠QSR` `= x°`. Since `PS` is parallel to `QR`, the alternate angles `∠PQS` and `∠QSR` are equal. So `∠PQS` `= x°`. Therefore, as `∠PSQ`:`∠PQS` `= 1:5`, `∠PSQ` `= 1/5 x°`. Therefore, from the right angled triangle `PQS` we deduce that `x + 1/5 x + 90 = 180` and so `6/5 x = 90`. Therefore `x = 5/6 × 90 = 75`.
 
 So `∠QSR` is 75°.
 :::
 
 
-## 12.
+## 19.
 
-::: problem id=12_1 marks=6
-![](/resources/8-25-easter-challenges/13-dominoes-question1.jpg){image align="center"}
+::: problem id=19_1 marks=6
+__19.1__ Jack and Jill played a game for two people. In each game, the winner was awarded 2 points and the loser 1 point. No games were drawn. Jack won exactly 4 games and Jill had a final score of 10 points. How many games did they play?
 
-![](/resources/8-25-easter-challenges/13-dominoes-question2.jpg){image align="right"}
-__12.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match. The ring on the right indicates how one adjacent pair match.
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 8
+* [ ] impossible to determine
+{.col-5}
 
-In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-25-easter-challenges/13-dominoes-question3.jpg) ?
+---
+
+Jack won exactly 4 games. So Jill lost 4 games and gained 4 points from these losses. Jill gained 10 points altogether and so gained 10 − 4 = 6 points from her wins. Since there are 2 points for a win, Jill won 3 games. So Jack won 4 games, Jill won 3 games and altogether 4 + 3 = 7 games were played.
+:::
+
+
+## 20.
+
+::: problem id=20_1 marks=6
+![](/resources/8-25-easter-challenges/20-dominoes-question1.jpg){image align="center"}
+
+![](/resources/8-25-easter-challenges/20-dominoes-question2.jpg){image align="right"}
+__20.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match. The ring on the right indicates how one adjacent pair match.
+
+In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-25-easter-challenges/20-dominoes-question3.jpg) ?
 
 * [ ] 1
 * [x] 2
@@ -306,26 +516,49 @@ In a completed ring, how many of the other five dominoes can he definitely not p
 
 There are only two 1-pip dominoes among the six Dominic has. These must therefore be adjacent. Likewise for the two 2-pips, the two 6-pips and the two 4-pips. So the ring must include the three adjacent dominoes:
 
-![](/resources/8-25-easter-challenges/13-dominoes-answer1.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/20-dominoes-answer1.jpg){image align="center"}
 
 and also the three adjacent dominoes:
 
-![](/resources/8-25-easter-challenges/13-dominoes-answer2.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/20-dominoes-answer2.jpg){image align="center"}
 
 The ring may now be completed two ways, i.e., by connecting top-left 5-pip to bottom-left 5-pip and the top-right 5-pip to bottom-right 5-pip … or by connecting top-left 5-pip to bottom-right 5-pip and the top-right 5-pip to bottom-left 5-pip.
 
 We therefore see that Dominic can create two different rings of six dominoes, as shown below.
 
-![](/resources/8-25-easter-challenges/13-dominoes-answer5.jpg){image align="center"}
+![](/resources/8-25-easter-challenges/20-dominoes-answer5.jpg){image align="center"}
 
 We now see that there are just 2 dominoes that the [1:5] domino cannot be adjacent to, namely the domino [2:5] and, of course, the domino [4:6].
 :::
 
 
-## 13.
+## 21.
 
-::: problem id=13_1 marks=6
-__13.1__ Peter wrote a list of all the numbers that could be produced by changing one digit of the number 200. How many of the numbers in Peter's list are prime?
+::: problem id=21_1 marks=6
+![](/resources/8-25-easter-challenges/21-cube.png){image align="right"}
+__21.1__ Pablo’s teacher has given him 27 identical white cubes.  
+
+She asks him to paint some of the faces of these cubes grey and then stack the cubes so that they appear as shown.  
+
+What is the largest possible number of the individual white cubes which Pablo can leave with no faces painted grey?
+
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 8
+* [ ] impossible to determine
+{.col-5}
+
+---
+
+We can see 19 of the 27 cubes. Of these there are 12 which we can see have at least one grey face. The remaining cubes could have all their faces white. So the maximum number of cubes that could be all white is 27 − 12 = 15.
+:::
+
+
+## 22.
+
+::: problem id=22_1 marks=6
+__22.1__ Peter wrote a list of all the numbers that could be produced by changing one digit of the number 200. How many of the numbers in Peter's list are prime?
 
 * [x] 0
 * [ ] 1
@@ -348,11 +581,56 @@ None of them are prime, so none of the numbers in Peter's list are prime.
 :::
 
 
-## 14.
+## 23.
 
-::: problem id=14_1 marks=6
-![](/resources/8-25-easter-challenges/15-triangle-question.jpg){image align="right"}
-__14.1__ The interior angles of a triangle are `(5x + 3y)`°, `(3x + 20)`° and `(10y + 30)`°, where `x`, `y` are positive integers.
+::: problem id=23_1 marks=6
+![](/resources/8-25-easter-challenges/23-circles.png){image align="right"}
+__23.1__ Sam wants to complete the diagram so that each of the nine circles contains one of the digits from 1 to 9 inclusive and each contains a different digit.  
+
+Also, the digits in each of the three lines of four circles must have the same total.  
+
+What is this total?
+
+* [ ] 17
+* [ ] 18
+* [ ] 19
+* [x] 20
+* [ ] 21
+{.col-5}
+
+---
+
+![](/resources/8-25-easter-challenges/23-circles-answer1.png){image align="right"}
+We suppose that `x`, `a`, `b`, `c`, `d`, `e`, and `f` are the numbers in the circles, as shown in the diagram. These numbers are the digits 1, 3, 4, 6, 7, 8, and 9, in some order.
+
+Let the common total of the digits in the three lines be `k`.
+
+Then: `(x + a + b + 5) + (x + e + f + 2) + (5 + c + d + 2) = 3k`,  
+
+that is, `(x + a + b + c + d + e + f ) + x + 14 = 3k`.  
+
+Now `x + a + b + c + d + e + f = 1 + 3 + 4 + 6 + 7 + 8 + 9 = 38`  
+
+and therefore  
+
+`52 + x = 3k`.  
+
+It follows that `52 + x` is divisible by 3. Now `x` is one of 1, 3, 4, 6, 7, 8, 9, and the only one of these possible values for which 52 + `x` is divisible by 3 is `x` = 8. This gives 52 + `x` = 60.  
+
+Hence `60 = 3k`, and so `k = 20`.  
+
+![](/resources/8-25-easter-challenges/23-circles-answer2.png){image align="right"}
+In the context of the JMC, we can stop here. But to give a full mathematical solution we should satisfy ourselves that it is possible to place the digits in the circles so that each line adds up to 20.  
+
+One way this can be done is shown in the diagram alongside.
+:::
+
+
+## 24.
+
+::: problem id=24_1 marks=6
+![](/resources/8-25-easter-challenges/24-triangle-question.jpg){image align="right"}
+__24.1__ The interior angles of a triangle are `(5x + 3y)`°, `(3x + 20)`° and `(10y + 30)`°, where `x`, `y` are positive integers.
 
 What is the value of `x + y`?
 
@@ -385,6 +663,33 @@ and hence `10 - y` is a positive number which is a multiple of 8. The only posit
 :::
 
 
+## 25.
+
+::: problem id=25_1 marks=6
+![](/resources/8-25-easter-challenges/25-dice.png){image align="right"}
+__25.1__ A die has the shape of a regular tetrahedron, with the four faces having 1, 2, 3 and 4 pips. The die is placed with 4 pips ‘face down’ in one corner of the triangular grid shown, so that the face with 4 pips precisely covers the triangle marked with 4 pips.  
+
+The die is now ‘rolled’, by rotating about an edge without slipping, so that 1 pip is face down. It is rolled again, so that 2 pips are face down, as indicated. The rolling continues until the die rests on the shaded triangle in the opposite corner of the grid.  
+
+How many pips are now face down?
+
+* [x] 1
+* [ ] 2
+* [ ] 3
+* [ ] 4
+* [ ] it depends on the route taken
+
+---
+
+![](/resources/8-25-easter-challenges/25-dice-answer1.png){image align="right"}
+We first consider what happens if one vertex of the tetrahedral die remains fixed on the grid and the die rolls about this fixed point. In doing this the die covers in succession six faces making up a hexagon. The faces adjacent to the fixed vertex are each face down twice in this hexagon. If the die is rolled about any of the edges on the perimeter of the hexagon, the remaining face is then face down. This is shown in the diagram on the right for the case where the faces with 1, 2 and 3 pips are adjacent to the fixed vertex, and the remaining face has 4 pips on it.  
+
+![](/resources/8-25-easter-challenges/25-dice-answer2.png){image align="right"}
+The pattern shown above can be extended to the whole of the given triangular grid, as shown in the diagram on the right. (Indeed, this pattern could be extended to a triangular grid filling the entire plane.)  
+
+For any triangle in the grid, the face then face down together with the two preceding faces form part of a hexagon, and determine the orientation of the die. (Here, by the orientation of the die, we mean the positions of all four of its faces.) The die can roll to this triangle across any of its edges. However, the pattern implies that the same face is face down in all these cases. From this we see that, however the die reaches a given triangle the same face is face down. In particular, the face with 1 pip is face down when the die reaches the shaded triangle.
+:::
+
 
 Before you hit the SUBMIT button, here are some quick reminders:
 
@@ -397,7 +702,3 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-
-::: submit
