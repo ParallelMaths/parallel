@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## Junior Maths Challenge (UKMT) Mock
 
-Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so this Parallelogram consists of __XX__ Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
+Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so this Parallelogram consists of __25__ Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
 The real JMC allows you one hour to attempt 25 questions, so in theory you have roughly sixty minutes to complete these 25 questions. However, don’t rush, don’t guess and don’t worry if you need longer than sixty minutes.
 
@@ -30,6 +30,8 @@ Here are a few things to bear in mind when you do the real JMC:
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
 
 __Make sure you have a paper and pencil to hand for sketches and calculations.__
+
+Because this Parallelogram is longer and tougher than a typical Parallelogram, we will be awarding TREBLE POINTS for this week's answers! So there's even more reason to give this one your best shot.
 
 Finally, afterwards, make sure you go through all the answers and see where you went right and where you went wrong. This is 100% the best way to improve your maths skills.
 

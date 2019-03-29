@@ -4,6 +4,7 @@ year7:
     subtitle: PG 25
     available: 2019-04-04T13:00:00
     deadline: 2019-04-07T13:00:00
+    scoreFactor: 3
   - url: 7-24-a-matter-factorial
     title: A Matter Of Factorial!
     subtitle: PG 24
@@ -133,6 +134,7 @@ year8:
     subtitle: PG 25
     available: 2019-04-04T13:00:00
     deadline: 2019-04-07T13:00:00
+    scoreFactor: 3
   - url: 8-24-north-pole
     title: The North Pole Riddle
     subtitle: PG 24
@@ -261,6 +263,7 @@ year9:
     subtitle: PG 25
     available: 2019-04-04T13:00:00
     deadline: 2019-04-07T13:00:00
+    scoreFactor: 3
   - url: 9-24-teachers-pets
     title: Teacher’s Pets
     subtitle: PG 24

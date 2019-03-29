@@ -31,6 +31,8 @@ So don’t take wild guesses for the second half of the questions in the real JM
 
 __Make sure you have a paper and pencil to hand for sketches and calculations.__
 
+Because this Parallelogram is longer and tougher than a typical Parallelogram, we will be awarding TREBLE POINTS for this week's answers! So there's even more reason to give this one your best shot.
+
 Finally, afterwards, make sure you go through all the answers and see where you went right and where you went wrong. This is 100% the best way to improve your maths skills.
 
 __The next Parallelogram will contain our usual mix of videos, humour, puzzles and problems.__
@@ -153,6 +155,7 @@ Which of the following are the missing cells?
 * [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-c.png)
 * [x] ![](/resources/8-25-easter-challenges/6-magicsquare-d.png)
 * [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-e.png)
+{.col-3}
 
 ---
 
@@ -206,6 +209,7 @@ What is the area of the rectangle `PQRS`?
 * [ ] 10 cm<sup>2</sup>
 * [ ] 12 cm<sup>2</sup>
 * [ ] 16 cm<sup>2</sup>
+{.col-5}
 
 ---
 
@@ -247,6 +251,7 @@ Who is at position `p`?
 * [x] Caz
 * [ ] Dan
 * [ ] More information needed.
+{.col-3}
 
 ---
 
@@ -271,6 +276,7 @@ __10.1__ Which of the following integers is not a multiple of 45?
 * [ ] 585
 * [ ] 495
 * [x] 305.
+{.col-5}
 
 ---
 
@@ -403,7 +409,41 @@ This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15
 :::
 
 
-15??
+## 15.
+
+::: problem id=15_1 marks=5
+![](/resources/8-25-easter-challenges/15-grid.png){image align="right"}
+__15.1__ Mathias is given a grid of twelve small squares.  
+
+He is asked to shade grey exactly four of the small squares so that his grid has two lines of reflection symmetry.  
+
+How many different grids could he produce?
+
+* [ ] 2
+* [x] 3
+* [ ] 4
+* [ ] 5
+* [ ] 6
+{.col-5}
+
+---
+
+![](/resources/8-25-easter-challenges/15-grid-answer1.png){image align="right"}
+
+The two lines of reflection symmetry of the grid are shown in the figure on the right as broken lines.  
+
+We see from this that if the grid with some of the small squares shaded grey has both these lines of reflection symmetry, then all the four squares labelled P must be the same colour. Similarly, all the four squares labelled Q must be the same colour, the two squares labelled R must be the same colour, and the two squares labelled S must be the same colour.  
+
+It follows that there are only three ways in which Mathias can shade exactly four of the small squares of the grid grey so that the result has two lines of reflection symmetry. These are:  
+
+(i) shade grey all the squares labelled P, and no others,  
+(ii) shade grey all the squares labelled Q, and no others,  
+and (iii) shade grey all the squares labelled R and all those labelled S, and no others.  
+
+The three different grids that Mathias could produce are shown in the figure below.
+
+![](/resources/8-25-easter-challenges/15-grid-answer2.png){image align="center"}
+:::
 
 
 ## 16.
@@ -615,11 +655,11 @@ and therefore
 
 `52 + x = 3k`.  
 
+![](/resources/8-25-easter-challenges/23-circles-answer2.png){image align="right"}
 It follows that `52 + x` is divisible by 3. Now `x` is one of 1, 3, 4, 6, 7, 8, 9, and the only one of these possible values for which 52 + `x` is divisible by 3 is `x` = 8. This gives 52 + `x` = 60.  
 
-Hence `60 = 3k`, and so `k = 20`.  
+Hence `60 = 3k`, and so `k = 20`.   
 
-![](/resources/8-25-easter-challenges/23-circles-answer2.png){image align="right"}
 In the context of the JMC, we can stop here. But to give a full mathematical solution we should satisfy ourselves that it is possible to place the digits in the circles so that each line adds up to 20.  
 
 One way this can be done is shown in the diagram alongside.
@@ -678,6 +718,7 @@ How many pips are now face down?
 * [ ] 3
 * [ ] 4
 * [ ] it depends on the route taken
+{.col-5}
 
 ---
 
