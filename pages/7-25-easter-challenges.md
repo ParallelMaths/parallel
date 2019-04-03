@@ -23,8 +23,9 @@ Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so 
 The real JMC allows you one hour to attempt 25 questions, so in theory you have roughly sixty minutes to complete these 25 questions. However, don’t rush, don’t guess and don’t worry if you need longer than sixty minutes.
 
 Here are a few things to bear in mind when you do the real JMC:
+* you may not use a calculator.
 * the first half of the questions are not too tricky (__also true below__).
-* the second half the questions are really tricky (__also true below__).
+* the second half of the questions are really tricky (__also true below__).
 * you will lose marks for wrong answers in the second half of the questions (__not true below__).
 
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
@@ -96,9 +97,9 @@ same cube. Which letter is on the face opposite U?
 There are two approaches.
 
 ![](/resources/7-25-easter-challenges/3-answer.jpg){image align="right"}
-(A) Draw a net of the cube, and straight away the middle diagram allows us to fill in the large letters. If U is in the middle, then the square at the bottom of the net is opposite U. Then, we can look at the first diagram, which gives us the possibilities in small letters, because I and M must be next to K. The third diagram demands that M is next to O, so M must be in the bottom square of the next, so M is opposite U.
+(A) Draw a net of the cube, and straight away the middle diagram allows us to fill in the large letters. If U is in the middle, then the square at the bottom of the net is opposite U. Then, we can look at the first diagram, which gives us the possibilities in small letters, because I and M must be next to K. The third diagram demands that M is next to O, so M must be in the bottom square of the net, so M is opposite U.
 
-(B) From the left hand diagram we see that K is not opposite either I or M, and from the middle diagram that it is not opposite either O or U. Therefore K must be opposite P. So neither K nor P is opposite U. From the middle diagram O is also not opposite U. So U is opposite either I or M. But if U is opposite I, then O must be opposite M, and this possibility is ruled out by the right hand diagram. So U must be opposite to M (and, also, I is opposite O).
+(B) We see from the left hand diagram that K is not opposite either I or M, and from the middle diagram that it is not opposite either O or U. Therefore K must be opposite P. So neither K nor P is opposite U. From the middle diagram O is also not opposite U. So U is opposite either I or M. But if U is opposite I, then O must be opposite M, and this possibility is ruled out by the right hand diagram. So U must be opposite to M (and, also, I is opposite O).
 
 :::
 
@@ -168,7 +169,7 @@ into so that she can do this?
 ---
 
 ![](/resources/7-25-easter-challenges/6-l-answer.jpg){image align="right"}
-In a `3 × 3` square each row and column contains just 3 squares. So none of the pieces that Laura uses to make the square can be more than 3 squares long. It follows that the squares labelled `a` and `b` must be in different pieces, as also must be the squares labelled `b` and `c`. So there must be at least three pieces. The diagrams below show how Laura can fulfill her task using 3 pieces.
+In a `3 × 3` square each row and column contains just 3 squares. So none of the pieces that Laura uses to make the square can be more than 3 squares long. It follows that the squares labelled `a` and `b` must be in different pieces, as must be the squares labelled `b` and `c`. So there must be at least three pieces. The diagrams below show how Laura can fulfill her task using 3 pieces.
 
 ![](/resources/7-25-easter-challenges/6-l-answer2.jpg){image align="center"}
 :::
@@ -312,7 +313,7 @@ We have:
 
 `3/2 × 5/4 = (3 × 5)/(2 × 4) = 15/8 = 225/120`  
 
-We now see that when the fractions are arranged in increasing numerical order the order is:  
+We now see that when the fractions are arranged in increasing numerical order, the order is:  
 
 `2/3 × 4/5`, `2/3 ÷ 4/5`, `2/3 + 4/5`, `3/2 × 5/4`, `3/2 + 5/4`  
 
@@ -416,7 +417,7 @@ Statement (ii) is false. If a positive number which is less than 1 is squared, t
 
 `x^2 = 1/4 < 1/2`.
 
-Similarly, if we take the square root of a positive number that is less than 1, then the answer is larger than the original number. For example
+Similarly, if we take the positive square root of a number that is less than 1, then the answer is larger than the original number. For example
 
 `√(1/4) = 1/2 > 1/4`.
 
@@ -479,7 +480,7 @@ So statement E is true and all the other statements are false.
 ::: problem id=17_1 marks=6
 __17.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma's house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
 
-In total, how many pages in total that Carolyn and George read are the same as the pages that they would read if Beth was there?
+In total, how many pages that Carolyn and George read are the same as the pages that they would read if Beth was there?
 
 * [ ] 1
 * [ ] 2
@@ -720,7 +721,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
+*	The next Parallelogram is after the Easter holidays.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

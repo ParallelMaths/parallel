@@ -22,7 +22,7 @@ __Because this Parallelogram is longer and tougher than a typical Parallelogram,
 
 ## 1. Venn diagrams
 
-This is my all time favourite Venn diagram. What? Doesn’t everyone have a favourite Venn Diagram. Anyway... If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
+This is my all time favourite Venn diagram. What? Doesn’t everyone have a favourite Venn Diagram? Anyway... If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
 
 ![](/resources/9-25-easter-challenges/1-venn-diagram.png){image align="center"}
 
@@ -46,7 +46,7 @@ Which of the shapes has the shortest perimeter?
 {.col-5}
 
 ^^^ hint id=2
-The isosceles triangle also a right-angle triangle, so it was one long side, and two short sides. So option is to measure the perimeter of each shape in terms of shorts and longs. So, shape (D) is 6 shorts.
+The isosceles triangle is also a right-angle triangle, so it has one long side, and two short sides. So one option is to measure the perimeter of each shape in terms of shorts and longs. So, shape (D) is 6 shorts.
 ^^^
 
 ---
@@ -61,7 +61,7 @@ We then see that the perimeters of the shapes are as follows:
 * A: `4√2x`
 * B: `(4 + 2√2)x`
 * C: `(4 + 2√2)x`
-* D: `6` and
+* D: `6`  
 * E: `(4 + 2√2)x`.  
 
 Now, as `1 < √2 < 1.5`, we have `4√2 < 4 × 1.5 = 6 = 4 + 2 < 4 + 2√2`. So shape A has the shortest perimeter.  
@@ -95,7 +95,7 @@ Since the pentagon `ABCDE` is regular, `BC = AB`. Since the triangle `BCF` is eq
 
 So, from triangle `ABF`, we can deduce that `∠FAB + ∠BFA = 180° − 48° = 132°`.  
 
-Since `∠FAB = ∠BFA`, it follows that `∠FAB = 1/2 (132° ) 66°`.
+Since `∠FAB = ∠BFA`, it follows that `∠FAB = 1/2 (132°) = 66°`.
 :::
 
 
@@ -173,7 +173,8 @@ What is the total area of the shaded region?
 {.col-3}
 
 ^^^ hint id=6
-We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` area 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.
+![](/resources/9-25-easter-challenges/6-square-answer.png){image align="right"}
+We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` has an area of 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.
 ^^^
 
 ---
@@ -191,7 +192,7 @@ So the larger square inside `ABCD` has side length 10 and hence area 100, and th
 
 ::: problem id=7_1 marks=5
 ![](/resources/9-25-easter-challenges/7-semicircles.png){image align="right"}
-__7.1__ The diagrams show squares placed inside two identical semicircles In the lower diagram the two squares are identical.  
+__7.1__ The diagrams show squares placed inside two identical semicircles. In the lower diagram the two squares are identical.  
 
 What is the ratio of the areas of the two shaded regions?
 
@@ -203,13 +204,13 @@ What is the ratio of the areas of the two shaded regions?
 
 ^^^ hint id=7
 ![](/resources/9-25-easter-challenges/7-semicircles-answer.png){image align="right"}
-Choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the upper diagram, and `y` be the side lengths of the squares in the second diagram.
+Choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the first diagram, and `y` be the side lengths of the squares in the second diagram.
 ^^^
 
 ---
 
 ![](/resources/9-25-easter-challenges/7-semicircles-answer.png){image align="right"}
-We choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the upper diagram, and `y` be the side lengths of the squares in the second diagram.  
+We choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the first diagram, and `y` be the side lengths of the squares in the second diagram.
 
 By Pythagoras’ Theorem, we have `x^2 + (1/2 x)^2 = 1` and `y^2 + y^2 = 1`. That is `5/4 x^2 = 1` and `2y^2 = 1`. Therefore `x^2 = 4/5` and `y^2 = 1/2`.  
 
@@ -234,16 +235,16 @@ Bernard: “I’m neither the youngest nor the oldest.”
 * [ ] Inigo and Horatio
 
 ^^^ hint id=8
-Take a look at Horatio says – does it fit with what any of the others say?
+Take a look at what Horatio says – does it fit with what any of the others say?
 ^^^
 
 ---
 
 What Horatio says contradicts each of the statements made by his brothers. So he cannot be one of the two who are telling the truth.  
 
-What Alfred says contradicts what both Inigo says and what Bernard says. So the two who are telling the truth cannot include Alfred.  
+What Alfred says contradicts what both what Inigo says and what Bernard says. So the two who are telling the truth cannot include Alfred.  
 
-We deduce that the two brother who are telling the truth are Bernard and Inigo. This is indeed possible. For example, if Alfred was born first, Horatio second, Bernard third and Inigo last, then just Bernard and Inigo are telling the truth.
+We deduce that the two brothers who are telling the truth are Bernard and Inigo. This is indeed possible. For example, if Alfred was born first, Horatio second, Bernard third and Inigo last, then just Bernard and Inigo are telling the truth.
 :::
 
 
@@ -306,7 +307,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
+*	The next Parallelogram is after the Easter holidays.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

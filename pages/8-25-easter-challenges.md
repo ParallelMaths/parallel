@@ -18,13 +18,14 @@ week by the Parallel Project to bright young mathematicians.
 
 ## Junior Maths Challenge (UKMT) Mock
 
-Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so this Parallelogram consists of __XX__ Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
+Some of you will be doing the UKMT’s Junior Maths Challenge on 30th April, so this Parallelogram consists of __25__ Junior Maths Challenge questions – some easy, some tricky. This is an opportunity to get some practice before the real JMC. And, if you are not doing the JMC, then it is an excellent way to develop your maths skills.
 
 The real JMC allows you one hour to attempt 25 questions, so in theory you have roughly sixty minutes to complete these 25 questions. However, don’t rush, don’t guess and don’t worry if you need longer than sixty minutes.
 
 Here are a few things to bear in mind when you do the real JMC:
+* you may not use a calculator.
 * the first half of the questions are not too tricky (__also true below__).
-* the second half the questions are really tricky (__also true below__).
+* the second half of the questions are really tricky (__also true below__).
 * you will lose marks for wrong answers in the second half of the questions (__not true below__).
 
 So don’t take wild guesses for the second half of the questions in the real JMC, and don’t take wild guesses for trickier questions below. However, if you have a rough idea of the answer or have narrowed it down to a couple of possible answers, then it is worth picking an answer.
@@ -173,7 +174,7 @@ __Method 2:__ The numbers in the completed magic square have total 2 + 3 + 4 + 5
 ## 7.
 
 ::: problem id=7_1 marks=5
-__7.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print has many pages as two large cartridges. How many pages can be printed using a large cartridge?
+__7.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print as many pages as two large cartridges. How many pages can be printed using a large cartridge?
 
 * [ ] 1200
 * [x] 1350
@@ -198,7 +199,7 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 
 ::: problem id=8_1 marks=5
 ![](/resources/8-25-easter-challenges/8-rectangle.png){image align="right"}
-__8.1__ The diagram shows a rectangle `PQRS` and `T` is a point on `PS` such that `QT` is perpendicular to `RT`.  
+__8.1__ The diagram shows a rectangle `PQRS`, with point `T` on `PS` such that `QT` is perpendicular to `RT`.  
 
 The length of `QT` is 4 cm. The length of `RT` is 2 cm.  
 
@@ -330,12 +331,12 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 :::
 
 
-## 12. 2017 - 12
+## 12.
 
 ::: problem id=12_1 marks=5
 __12.1__ Last year, at the school where Gill teaches Mathematics, 315 out of the 600 pupils were girls. This year, the number of pupils in the school has increased to 640. The proportion of girls is the same as it was last year.  
 
-How many girls are there at the school this year??
+How many girls are there at the school this year?
 
 * [ ] 339
 * [ ] 338
@@ -403,7 +404,7 @@ What fraction of the tulips are white?
 
 ---
 
-Since half the 60 bulbs are yellow, 30 are yellow and 30 are not yellow. One third of the 30 bulbs that are not yellow are red, So 10 are red and 20 are neither yellow nor red. One quarter of the 20 that are neither yellow nor red, are pink. So 5 bulbs are pink.
+Since half the 60 bulbs are yellow, 30 are yellow and 30 are not yellow. One third of the 30 bulbs that are not yellow are red, so 10 are red and 20 are neither yellow nor red. One quarter of the 20 that are neither yellow nor red, are pink. So 5 bulbs are pink.
 
 This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15 white bulbs. Therefore the fraction of bulbs that are white is `15/60`, that is, `1/4`.
 :::
@@ -411,7 +412,7 @@ This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15
 
 ## 15.
 
-::: problem id=15_1 marks=5
+::: problem id=15_1 marks=6
 ![](/resources/8-25-easter-challenges/15-grid.png){image align="right"}
 __15.1__ Mathias is given a grid of twelve small squares.  
 
@@ -582,11 +583,11 @@ She asks him to paint some of the faces of these cubes grey and then stack the c
 
 What is the largest possible number of the individual white cubes which Pablo can leave with no faces painted grey?
 
-* [ ] 5
-* [ ] 6
-* [x] 7
 * [ ] 8
-* [ ] impossible to determine
+* [ ] 12
+* [ ] 14
+* [x] 15
+* [ ] 16
 {.col-5}
 
 ---
@@ -662,7 +663,7 @@ Hence `60 = 3k`, and so `k = 20`.
 
 In the context of the JMC, we can stop here. But to give a full mathematical solution we should satisfy ourselves that it is possible to place the digits in the circles so that each line adds up to 20.  
 
-One way this can be done is shown in the diagram alongside.
+One way this can be done is shown in the diagram opposite.
 :::
 
 
@@ -728,7 +729,7 @@ We first consider what happens if one vertex of the tetrahedral die remains fixe
 ![](/resources/8-25-easter-challenges/25-dice-answer2.png){image align="right"}
 The pattern shown above can be extended to the whole of the given triangular grid, as shown in the diagram on the right. (Indeed, this pattern could be extended to a triangular grid filling the entire plane.)  
 
-For any triangle in the grid, the face then face down together with the two preceding faces form part of a hexagon, and determine the orientation of the die. (Here, by the orientation of the die, we mean the positions of all four of its faces.) The die can roll to this triangle across any of its edges. However, the pattern implies that the same face is face down in all these cases. From this we see that, however the die reaches a given triangle the same face is face down. In particular, the face with 1 pip is face down when the die reaches the shaded triangle.
+For any triangle in the grid, the face then face down together with the two preceding faces form part of a hexagon, and determine the orientation of the die. (Here, by the orientation of the die, we mean the positions of all four of its faces.) The die can roll to this triangle across any of its edges. However, the pattern implies that the same face is face down in all these cases. In particular, the face with 1 pip is face down when the die reaches the shaded triangle.
 :::
 
 
@@ -738,7 +739,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
+*	The next Parallelogram is after the Easter holidays.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
