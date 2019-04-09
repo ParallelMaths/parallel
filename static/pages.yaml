@@ -1,4 +1,9 @@
 year7:
+  - url: 7-26-good-will-hunting
+    title: Good Will Hunting
+    subtitle: PG 26
+    available: 2019-04-25T13:00:00
+    deadline: 2019-04-28T13:00:00
   - url: 7-25-easter-challenges
     title: Easter challenges
     subtitle: PG 25
@@ -129,6 +134,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-26-snake-mathematics
+    title: Snake Mathematics
+    subtitle: PG 26
+    available: 2019-04-25T13:00:00
+    deadline: 2019-04-28T13:00:00
   - url: 8-25-easter-challenges
     title: Easter challenges
     subtitle: PG 25
@@ -258,6 +268,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-26-qi-mathematics
+    title: QI Mathematics
+    subtitle: PG 26
+    available: 2019-04-25T13:00:00
+    deadline: 2019-04-28T13:00:00
   - url: 9-25-easter-challenges
     title: Easter challenges
     subtitle: PG 25

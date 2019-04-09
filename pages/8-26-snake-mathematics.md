@@ -15,6 +15,8 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
+__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go taking the Junior Maths Challenge.__
+
 
 ## 1.	Vi Hart snake bonanza
 
@@ -55,14 +57,15 @@ __2.1.__ Peter has three times as many sisters as brothers. His sister Louise ha
 * [ ] 11
 * [ ] 9
 * [ ] 5
+{.col-5}
 
 ---
 
 Suppose Peter has `b` brothers and hence `3b` sisters. So, including Peter, there are `b + 1` boys and `3b` girls in the family. So Louise has `b + 1` brothers and `3b − 1` sisters. Since Louise has twice as many sisters as brothers, `3b − 1 = 2(b + 1)`. This equation is equivalent to `3b − 1 = 2b + 2`. So `b = 3` and there are 4 boys and 9 girls in the family, making 13 children altogether.
 :::
 
+![](/resources/8-26-snake-mathematics/3-stephen-hawking.jpg){image align="right"}  
 
-![](/resources/8-13-snake-mathematics/3-stephen-hawking.jpg){image align="right"}
 ## 3. Stephen Hawking (1942 – 2018)
 
 When the cosmologist Stephen Hawking died, journalists discussed his incredible scientific achievements, and they also emphasised how his life had inspired people all over the world.  
@@ -121,7 +124,7 @@ __4.2.__ Which two words are homographs?
 <!--- (2013) --->
 
 ::: problem id=5_1 marks=2
-![](/resources/8-13-snake-mathematics/5-dice-question.jpg){image align="right"}
+![](/resources/8-26-snake-mathematics/5-dice-question.jpg){image align="right"}
 __5.1.__ On standard dice the total number of pips on each pair of opposite faces is 7. Two standard dice are placed in a stack, as shown, so that the total number of pips on the two touching faces is 5.
 
 What is the total number of pips on the top and bottom faces of the stack?
@@ -131,6 +134,7 @@ What is the total number of pips on the top and bottom faces of the stack?
 * [ ] 7
 * [ ] 8
 * [x] 9
+{.col-5}
 
 ---
 
@@ -168,8 +172,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 Cheerio,
 Simon.
 
-
-::: submit
 
 
 ## Additional Stuff

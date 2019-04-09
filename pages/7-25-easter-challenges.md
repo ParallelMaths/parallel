@@ -11,7 +11,7 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Finish before the end of Easter holidays.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 

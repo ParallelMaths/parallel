@@ -15,6 +15,8 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
+__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go taking the Junior Maths Challenge.__
+
 
 ## 1. The Good Will Hunting problem
 
@@ -59,12 +61,12 @@ and one going out. That is just waste of a dot.
 
 Tree (b) is not allowed because it has a loop. Remember, no loops.
 
-![](/resources/7-13-good-will-hunting/graph-1.png)
+![](/resources/7-26-good-will-hunting/graph-1.png)
 
 In fact, the only tree that you can make with 5 dots is this one. No loops. No
 dots with just two lines.
 
-![](/resources/7-13-good-will-hunting/graph-2.png)
+![](/resources/7-26-good-will-hunting/graph-2.png)
 
 The only other thing you need to know about trees is that all of the 5-dot trees
 below are considered to be the same. They are copycat trees because they can be
@@ -73,18 +75,18 @@ That is why we say there is only one 5-dot tree. One way to see that they are
 all the same tree is to note that each tree consists of **one dot with four
 lines** and **four dots with only one line**.
 
-![](/resources/7-13-good-will-hunting/graph-3.png)
+![](/resources/7-26-good-will-hunting/graph-3.png)
 
 Now it’s time to see if you have understood the maths of trees.
 
 ::: problem id=1_1 marks=1
 __1.1__ For 6 dots there are only two irreducible trees. Which of these are they?
 
-![](/resources/7-13-good-will-hunting/graph-4a.png)
-![](/resources/7-13-good-will-hunting/graph-4b.png)
-![](/resources/7-13-good-will-hunting/graph-4c.png)
-![](/resources/7-13-good-will-hunting/graph-4d.png)
-![](/resources/7-13-good-will-hunting/graph-4e.png)
+![](/resources/7-26-good-will-hunting/graph-4a.png)
+![](/resources/7-26-good-will-hunting/graph-4b.png)
+![](/resources/7-26-good-will-hunting/graph-4c.png)
+![](/resources/7-26-good-will-hunting/graph-4d.png)
+![](/resources/7-26-good-will-hunting/graph-4e.png)
 
 
 * [ ] a & b
@@ -94,6 +96,7 @@ __1.1__ For 6 dots there are only two irreducible trees. Which of these are they
 * [ ] c & d
 * [ ] d & e
 * [ ] b & e
+{.col-4}
 
 ---
 The correct answers are (b) and (c). The other trees do not qualify because (e)
@@ -129,18 +132,18 @@ they are essentially the same, then you are beginning to grasp the maths of
 trees. One tree has 1 dot with 4 lines, 1 dot with 3 lines and 5 dots with 1
 line. The other tree has 1 dot with 6 lines and 6 dots with 1 line.
 
-![](/resources/7-13-good-will-hunting/graph-7-dot-solutions.png) {.text-center}
+![](/resources/7-26-good-will-hunting/graph-7-dot-solutions.png) {.text-center}
 :::
 
 ::: problem id=1_3 marks=1
 __1.3__ For 8 dots, there are 4 distinct trees. Here are 5 trees, so two of them
 must be essentially the same. Which pair of trees can be twisted and reshaped into each other?
 
-![](/resources/7-13-good-will-hunting/graph-5a.png)
-![](/resources/7-13-good-will-hunting/graph-5b.png)
-![](/resources/7-13-good-will-hunting/graph-5c.png)
-![](/resources/7-13-good-will-hunting/graph-5d.png)
-![](/resources/7-13-good-will-hunting/graph-5e.png)
+![](/resources/7-26-good-will-hunting/graph-5a.png)
+![](/resources/7-26-good-will-hunting/graph-5b.png)
+![](/resources/7-26-good-will-hunting/graph-5c.png)
+![](/resources/7-26-good-will-hunting/graph-5d.png)
+![](/resources/7-26-good-will-hunting/graph-5e.png)
 
 
 * [ ] a & b
@@ -150,6 +153,7 @@ must be essentially the same. Which pair of trees can be twisted and reshaped in
 * [ ] c & d
 * [ ] d & e
 * [ ] b & e
+{.col-4}
 
 ---
 The correct answer is (b) or (c). Because both trees have 1 dot connected to 5
@@ -160,12 +164,12 @@ lines, 1 dot connected to 3 lines and 6 dots connected to 1 line.
 __1.4__ For 9 dots, there are 5 distinct trees. Here are 6 trees, so two of them
 must be essentially the same. Which pair of trees can be twisted and reshaped into each other?  
 
-![](/resources/7-13-good-will-hunting/graph-9a.png)
-![](/resources/7-13-good-will-hunting/graph-9b.png)
-![](/resources/7-13-good-will-hunting/graph-9c.png)
-![](/resources/7-13-good-will-hunting/graph-9d.png)
-![](/resources/7-13-good-will-hunting/graph-9e.png)
-![](/resources/7-13-good-will-hunting/graph-9f.png)
+![](/resources/7-26-good-will-hunting/graph-9a.png)
+![](/resources/7-26-good-will-hunting/graph-9b.png)
+![](/resources/7-26-good-will-hunting/graph-9c.png)
+![](/resources/7-26-good-will-hunting/graph-9d.png)
+![](/resources/7-26-good-will-hunting/graph-9e.png)
+![](/resources/7-26-good-will-hunting/graph-9f.png)
 
 
 * [ ] a & b
@@ -175,6 +179,7 @@ must be essentially the same. Which pair of trees can be twisted and reshaped in
 * [ ] c & d
 * [x] d & e
 * [ ] e & f
+{.col-4}
 
 ---
 The correct answer is (d) or (e), because both trees have 1 dot connected to 4
@@ -195,16 +200,16 @@ drawn the same tree twice. The correct answer is between 5 and 14.
 ---
 The correct answer is 10 trees. Here are the 10 allowable trees:
 
-![](/resources/7-13-good-will-hunting/graph-10a.png)
-![](/resources/7-13-good-will-hunting/graph-10b.png)
-![](/resources/7-13-good-will-hunting/graph-10c.png)
-![](/resources/7-13-good-will-hunting/graph-10d.png)
-![](/resources/7-13-good-will-hunting/graph-10e.png)
-![](/resources/7-13-good-will-hunting/graph-10f.png)
-![](/resources/7-13-good-will-hunting/graph-10g.png)
-![](/resources/7-13-good-will-hunting/graph-10h.png)
-![](/resources/7-13-good-will-hunting/graph-10i.png)
-![](/resources/7-13-good-will-hunting/graph-10j.png)
+![](/resources/7-26-good-will-hunting/graph-10a.png)
+![](/resources/7-26-good-will-hunting/graph-10b.png)
+![](/resources/7-26-good-will-hunting/graph-10c.png)
+![](/resources/7-26-good-will-hunting/graph-10d.png)
+![](/resources/7-26-good-will-hunting/graph-10e.png)
+![](/resources/7-26-good-will-hunting/graph-10f.png)
+![](/resources/7-26-good-will-hunting/graph-10g.png)
+![](/resources/7-26-good-will-hunting/graph-10h.png)
+![](/resources/7-26-good-will-hunting/graph-10i.png)
+![](/resources/7-26-good-will-hunting/graph-10j.png)
 {.text-center}
 :::
 
@@ -224,7 +229,7 @@ calculating rocket orbits and for getting astronauts to the Moon, and I suppose
 they had to be large so that everyone in the department could watch, learn and
 contribute.
 
-| ![](/resources/7-13-good-will-hunting/nasa-1.jpg) | ![](/resources/7-13-good-will-hunting/nasa-2.jpg) |
+| ![](/resources/7-26-good-will-hunting/nasa-1.jpg) | ![](/resources/7-26-good-will-hunting/nasa-2.jpg) |
 
 Although all the mathematicians in these photos are men, there were lots of
 female mathematicians working at NASA at this time. In fact, there was a film
@@ -232,7 +237,7 @@ all about these NASA women that was released in 2017, and which
 received three Oscar nominations. Here is a poster for the film with the title
 removed, and a still from the movie.
 
-| ![](/resources/7-13-good-will-hunting/nasa-3.jpg) | ![](/resources/7-13-good-will-hunting/nasa-4.jpg) |
+| ![](/resources/7-26-good-will-hunting/nasa-3.jpg) | ![](/resources/7-26-good-will-hunting/nasa-4.jpg) |
 
 
 ::: problem id=2 marks=1
@@ -370,7 +375,7 @@ reason why it’s a good idea to be a confident mathematician.
 ::: problem id=5 marks=1
 __5.1__ What is the value of `x`?
 
-![](/resources/7-13-good-will-hunting/maths-challenge-angle-question.png)  
+![](/resources/7-26-good-will-hunting/maths-challenge-angle-question.png)  
 
 * [ ] 43
 * [ ] 47
@@ -390,6 +395,49 @@ lines are equal, `x = y`. Hence `x = 57`.
 :::
 
 
+## 6. Junior Maths Challenge Problem (UKMT)
+
+::: problem id=6 marks=4
+__6.1__ In New Threeland there are three coins: the 2p; the 5p; and one other.  
+
+The smallest number of coins needed to make 13p is three.  
+
+The smallest number of coins needed to make 19p is three.  
+
+What is the value of the third type of coin
+
+* [ ] 4p
+* [ ] 6p
+* [ ] 7p
+* [x] 9p
+* [ ] 12p
+{.col-5}
+
+---
+
+
+We have:  
+
+* 2p + 2p + 9p = 13p; and
+* 5p + 5p + 9p = 19p.  
+
+Therefore if the third type of coin is worth 9p, both 13p and 19p may be made using three coins.  
+
+Also, in this case we see that we cannot make either 13p or 19p with just two of the coins. So when the third type of coin is worth 9p, the smallest number of coins needed to make 13p and 19p is three.
+
+^^^ hint id=6
+To make 13p, we have three options, with the ‘other’ coin in brackets:  
+
+* 2 + 2 + [9]  
+* 2 + 5 + [6]  
+* 5 + 5 + [3]  
+* 5 + [4 + 4]  
+
+So the other coin could be 3p, 4p, 6p or 9p. Which of these would allow you to make 19p with just three coins?
+^^^
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
@@ -402,11 +450,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 Cheerio,
 Simon.
 
-
-::: submit
-
-
----
 
 ## Additional Stuff
 
