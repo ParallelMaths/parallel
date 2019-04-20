@@ -18,14 +18,14 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1.	The Seven Bridges of Königsberg
 
-![](/resources/8-15-seven-bridges-konigsberg/1-seven-bridges.png){image align="right"}
-Last week, we had a problem that involved drawing this house with just one single line. [If you haven’t completed last week’s Parallelogram then go back and have a go](/8-14-ada-lovelace){target="_blank"}.
+![](/resources/8-28-seven-bridges-konigsberg/1-seven-bridges.png){image align="right"}
+Last week, we had a problem that involved drawing this house with just one single line. [If you haven’t completed last week’s Parallelogram then go back and have a go](/8-27-ada-lovelace){target="_blank"}.
 
 This week we’ll look at a video that explains the origin of this type of problem and how you can solve such puzzles.
 
 @[youtube](nZwSo4vfw6c?rel=0)
 
-![](/resources/8-15-seven-bridges-konigsberg/1-graph-diagram.jpg){image align="center"}
+![](/resources/8-28-seven-bridges-konigsberg/1-graph-diagram.jpg){image align="center"}
 
 To summarise:
 * a network is a collection of lines meeting at “nodes”.
@@ -44,7 +44,7 @@ Bearing in mind the video and particularly these rules, answer the questions in 
 ## 2. Can you draw it with a single line?
 
 ::: problem id=2_1 marks=1
-![](/resources/8-15-seven-bridges-konigsberg/2-network-1.png){image align="right"}
+![](/resources/8-28-seven-bridges-konigsberg/2-network-1.png){image align="right"}
 __2.1.__
 
 * [x] Yes
@@ -56,7 +56,7 @@ Exactly two nodes (on the left and right) have an odd degree.
 :::
 
 ::: problem id=2_2 marks=1
-![](/resources/8-15-seven-bridges-konigsberg/2-network-2.png){image align="right"}
+![](/resources/8-28-seven-bridges-konigsberg/2-network-2.png){image align="right"}
 __2.2.__
 
 * [x] Yes
@@ -68,7 +68,7 @@ Exactly two nodes (at the upper corners of the square) have an odd degree.
 :::
 
 ::: problem id=2_3 marks=1
-![](/resources/8-15-seven-bridges-konigsberg/2-network-3.png){image align="right"}
+![](/resources/8-28-seven-bridges-konigsberg/2-network-3.png){image align="right"}
 __2.3.__
 
 * [ ] Yes
@@ -80,7 +80,7 @@ Four nodes have an odd degree, so this network cannot be drawn.
 :::
 
 ::: problem id=2_4 marks=1
-![](/resources/8-15-seven-bridges-konigsberg/2-network-4.png){image align="right"}
+![](/resources/8-28-seven-bridges-konigsberg/2-network-4.png){image align="right"}
 __2.4.__
 
 * [x] Yes
@@ -97,7 +97,7 @@ Exactly two nodes (degree 3) have an odd degree, so YES this network can be draw
 ::: problem id=3_1 marks=2
 __3.1__ This network can be drawn with a single line. Unfortunately, I spilt some ink on it, so you cannot see the part of the network on the left. What do you know for sure about the hidden part of the network?
 
-![](/resources/8-15-seven-bridges-konigsberg/3-splodge.png){image align="center"}
+![](/resources/8-28-seven-bridges-konigsberg/3-splodge.png){image align="center"}
 
 * [ ] All the nodes must have an odd degree.
 * [ ] All the nodes must have an even degree.
@@ -114,7 +114,7 @@ All the visible nodes have an even degree. The network can be drawn with a singl
 <!--- 2011 (10) --->
 
 ::: problem id=4_1 marks=2
-![](/resources/8-15-seven-bridges-konigsberg/4-pentagon-question.jpg){image align="right"}
+![](/resources/8-28-seven-bridges-konigsberg/4-pentagon-question.jpg){image align="right"}
 __4.1.__ You want to draw the shape on the right without taking your pen off the paper and without going over any line more than once?  
 
 Where should you start?
@@ -212,15 +212,13 @@ Cheerio,
 Simon.
 
 
-::: submit
-
 
 ## Additional Stuff
 
-* In this video, Joseph reveals some of the tricks behind his video.
+In this video, Joseph reveals some of the tricks behind his video.
 
 @[youtube](ulL0uKBX0wQ?rel=0)
 
-* Hopefully you’ll see lots of the Sun over the summer, but I bet it will never look like this. Our Sun is so hot that it emits X-rays, as shown by this photo taken by Japan’s Yohkoh Soft X-ray Telescope. The surface of the Sun has a temperature of thousands of degrees, which is not hot enough to generate X-rays, but the atmosphere of the Sun is millions of degrees hotter and this so-called corona is the origin of the X-rays. Why is the atmosphere so much hotter than the surface of the Sun? Nobody fully understands, but the Sun’s magnetic field is probably responsible. This picture comes from NASA’s [Astronomy Picture of the Day website](https://apod.nasa.gov/apod/){target="_blank"}, which is worth checking out every morning.
+Hopefully you’ll see lots of the Sun over the summer, but I bet it will never look like this. Our Sun is so hot that it emits X-rays, as shown by this photo taken by Japan’s Yohkoh Soft X-ray Telescope. The surface of the Sun has a temperature of thousands of degrees, which is not hot enough to generate X-rays, but the atmosphere of the Sun is millions of degrees hotter and this so-called corona is the origin of the X-rays. Why is the atmosphere so much hotter than the surface of the Sun? Nobody fully understands, but the Sun’s magnetic field is probably responsible. This picture comes from NASA’s [Astronomy Picture of the Day website](https://apod.nasa.gov/apod/){target="_blank"}, which is worth checking out every morning.
 
-![](/resources/8-15-seven-bridges-konigsberg/additional-apod.gif){image align="centre"}
+![](/resources/8-28-seven-bridges-konigsberg/additional-apod.gif){image align="centre"}

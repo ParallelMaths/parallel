@@ -156,8 +156,8 @@ __3.8__ Pick a 3-digit number (with different digits), then create a new 3-digit
 ## 4. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2013 (25) --->
 
-::: problem id=5_1 marks=5
-__5.1.__ . In 1984 the engineer and prolific prime-finder Harvey Dubner found the biggest known prime each of whose digits is either a one or a zero.  
+::: problem id=4_1 marks=5
+__4.1.__ In 1984 the engineer and prolific prime-finder Harvey Dubner found the biggest known prime each of whose digits is either a one or a zero.  
 
 The prime can be expressed as `(10^641 × (10^640 −1))/9 + 1`.  
 

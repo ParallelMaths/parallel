@@ -97,7 +97,7 @@ Before I forget, make sure you check out the Additional Stuff section, where you
 When historians went through archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clear that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
 
 ::: problem id=5_1 marks=2
-![](/resources/8-14-ada-lovelace/5-ada-puzzle.png){image align="right"}
+![](/resources/8-27-ada-lovelace/5-ada-puzzle.png){image align="right"}
 __5.1.__ The drawing below was made with a single line. In other words, the pencil was placed on the paper, it never left the paper until the drawing was complete, and at no time did the pencil go back over any line that had previously been drawn. Where might the drawing have begun?
 
 * [ ] A
@@ -116,7 +116,7 @@ By trial and error, you should have worked out that the only place you can start
 <!--- 2013 (12) --->
 
 ::: problem id=6_1 marks=2
-![](/resources/8-14-ada-lovelace/6-hexagons-answer.jpg){image align="right"}
+![](/resources/8-27-ada-lovelace/6-hexagons-answer.jpg){image align="right"}
 __6.1.__ How many hexagons are there in the diagram?
 
 * [ ] 3
@@ -129,7 +129,7 @@ __6.1.__ How many hexagons are there in the diagram?
 
 The twelve different hexagons are shown shaded in the diagram below.
 
-![](/resources/8-14-ada-lovelace/6-hexagons-solution.jpg){image align="centre"}
+![](/resources/8-27-ada-lovelace/6-hexagons-solution.jpg){image align="centre"}
 :::
 
 
@@ -146,8 +146,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 Cheerio,
 Simon.
 
-
-::: submit
 
 
 ## Additional Stuff
