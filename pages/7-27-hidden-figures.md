@@ -110,7 +110,7 @@ years, the number of transistors on a microprocessor increased from 2,300 to
 
 ::: problem id=2_1 marks=1
 __2.1__ Look at the number of transistors on the 80486 microprocessor (~1990)
-and the number of transistors on the AMD K8 microprocessor (~2002). By what
+and the number of transistors on the AMD K8 microprocessor (~2003). By what
 factor did the number of transistors increase in just 12 years?
 
 * [ ] 2
@@ -138,7 +138,7 @@ but instead the mathematician asked for a grain of rice on the first square of a
 chessboard, 2 grains on the second square, 4 grains on the third square and so
 on, doubling the number of grains of rice on each square until the 64th square.
 
-The King laughed at what seem like a trivial reward, but he did not laugh for
+The King laughed at what seemed like a trivial reward, but he did not laugh for
 long.
 
 Grab a piece of paper and work out the number of grains of rice on each of the
@@ -176,7 +176,7 @@ __3.3.__ How many grains were on the 32nd square?
 ---
 The answer is 2,147,483,648.
 
-You may have worked out that the number of grains on the `n`<sup>th</sup> square is `2n - 1`. So, instead of doubling over and over again, you could use the `x`<sup>`y`</sup> button on your calculator.
+You may have worked out that the number of grains on the `n`<sup>th</sup> square is `2^(n - 1)`. So, instead of doubling over and over again, you could use the `x^y` button on your calculator.
 :::
 
 If you carried on the calculation for the full 64 squares, then you should
@@ -194,11 +194,7 @@ That is about 100 billion tonnes of rice, which is about hundred times more rice
 than the whole Earth grows each year. That is the power of exponential growth.
 
 ::: problem id=3_4 marks=2
-__3.4__ In another version of the story, the King gets revenge by saying that
-the mathematician can only have the grains of rice if he can count them. If the
-mathematician counts at the rate of 1 grain per second, how long will it take
-him to collect his reward of 18,446,744,073,709,551,615 grains? Which of these
-answers is closest?
+__3.4__ In another version of the story, the King gets revenge by saying that the mathematician can only have the grains of rice if he can count them. If the mathematician counts at the rate of 1 grain per second, how long will it take him to collect his reward of 18,446,744,073,709,551,615 grains? Which of these answers is closest?
 
 * [ ] 400 years
 * [ ] 500 million years
@@ -207,10 +203,7 @@ answers is closest?
 * [ ] 800 quadrillion years
 
 ---
-To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615
-seconds, which is roughly 18 × 1018 sec = 3 × 1017 mins = 5 × 1015 hours = 2.1 ×
-1014 days = 5.8 × 1011 years = 580 billion years, so the answer is roughly 600
-billion years.
+To count 18,446,744,073,709,551,615 grains will take 18,446,744,073,709,551,615 seconds, which is roughly `18 × 10^18` sec = `3 × 10^17` mins = `5 × 10^15` hours = `2.1 × 10^14` days = `5.8 × 10^11` years = 580 billion years, so the answer is roughly 600 billion years.
 :::
 
 

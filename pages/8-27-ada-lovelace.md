@@ -68,7 +68,7 @@ In the second example, the double negative means really, really negative, not po
 
 My friend Len Fisher, an Australian physicist who lives in Bristol, once pointed out an example of something very unusual, namely a double positive.
 
-__In the early 1950′s, the esteemed Oxford philosopher J. L. Austin came to Columbia to present a paper about the structural analysis of language. He pointed out that, in English, although a double negative implies a positive meaning (i.e. “I’m not unlike my father…”), there is no language in which a double positive implies a negative. “Yeah, yeah,” scoffed Morgenbesser from the back of the auditorium.__
+__In the early 1950′s, the esteemed Oxford philosopher J. L. Austin came to Columbia to present a paper about the structural analysis of language. He pointed out that, in English, although a double negative implies a positive meaning (i.e. “I’m not unlike my father…”), there is no language in which a double positive implies a negative. “Yeah, yeah,” scoffed Morgenbesser, a Professor of philosophy at Columbia University, who was sat at the back of the auditorium.__
 {.text-center}  
 
 
@@ -89,12 +89,12 @@ __4.1.__ Ada Lovelace worked alongside which famous mathematician?
 
 @[youtube](xiZozgCLHc4?rel=0)
 
+Before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
+
 
 ## 5. Ada’s puzzle
 
-Before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
-
-When historians went through archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clear that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
+When historians went through the archive of Ada’s personal papers in the Bodleian Library at Oxford, they discovered a piece of paper with baffling doodles. Upon closer inspection, it became clear that Ada was tackling a problem in what we now call graph theory. Here is a related graph theory problem.
 
 ::: problem id=5_1 marks=2
 ![](/resources/8-27-ada-lovelace/5-ada-puzzle.png){image align="right"}

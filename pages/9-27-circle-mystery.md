@@ -62,7 +62,7 @@ This is a video from the terrific Numberphile channel on YouTube. It features on
 @[youtube](bRIL9kMJJSc?end=413&rel=0)  
 
 ::: problem id=3_1 marks=2
-__3.1__ According to the rules in the video, which of these arrangements of two circles is now allowed?
+__3.1__ According to the rules in the video, which of these arrangements of two circles is not allowed?
 
 * [ ] A ![](/resources/9-27-circle-mystery/3-circle-a.png)
 * [ ] B ![](/resources/9-27-circle-mystery/3-circle-b.png)
@@ -112,7 +112,7 @@ __4.1.__ Zac halves a certain number and then adds 8 to the result. He finds tha
 What is Zac’s original number?
 
 * [ ] `8 2/3`
-* [ ] `9 /1/3`
+* [ ] `9 1/3`
 * [ ] `9 2/3`
 * [ ] `10 1/3`
 * [x] `10 2/3`

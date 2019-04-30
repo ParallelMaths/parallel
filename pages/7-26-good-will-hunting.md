@@ -15,7 +15,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go taking the Junior Maths Challenge.__
+__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go at taking the Junior Maths Challenge.__
 
 
 ## 1. The Good Will Hunting problem
@@ -25,7 +25,7 @@ __This is the last Parallelogram before next week’s UKMT Junior Maths Challeng
 “Good Will Hunting” is a 1997 film that won two Oscars and made Matt Damon and
 Ben Affleck famous, as they starred in and wrote the film. It tells the story of
 a janitor called Will Hunting, who keeps the floors clean and the lecture
-heatres tidy at the Massachusetts Institute of Technology (MIT), one of world’s
+theatres tidy at Massachusetts Institute of Technology (MIT), one of world’s
 best universities. However, unknown to the professors, Will is a mathematical
 genius, and the film tells the story of his battle to come to terms with his
 remarkable talent for numbers and his struggle to understand his relationship
@@ -70,7 +70,7 @@ dots with just two lines.
 
 The only other thing you need to know about trees is that all of the 5-dot trees
 below are considered to be the same. They are copycat trees because they can be
-bent, stretched, twisted and flipped, so that they look the 5-dot tree above.
+bent, stretched, twisted and flipped, so that they look like the 5-dot tree above.
 That is why we say there is only one 5-dot tree. One way to see that they are
 all the same tree is to note that each tree consists of **one dot with four
 lines** and **four dots with only one line**.
@@ -113,7 +113,7 @@ trees are sometimes hard to spot, so really twist and turn your trees to check
 that one of them cannot be transformed into another.
 
 ::: problem id=1_2 marks=2
-__1.2__ Draw all homeomorphically irreducible trees of with 7 dots. How many did
+__1.2__ Draw all homeomorphically irreducible trees with 7 dots. How many did
 you find?
 
 * [ ] 1
@@ -301,7 +301,7 @@ Start by creating a list of all the possible ages for the three children,
 bearing in mind that we know that the ages multiply to give 36. If you are
 doing this on your own then try to do it in an order so that you can make sure
 that you have not missed out any possibilities. Luckily, I have given you a
-table (with some gaps) that show that there are 8 possibilities. Copy the
+table (with some gaps) that shows that there are 8 possibilities. Copy the
 table onto a piece of paper and fill in the gaps.
 
 Once you have identified all the possibilities, go back and look at clues 2
@@ -310,7 +310,7 @@ the children, and therefore the age of the oldest child.
 
 If you are still stuck... then try harder... but you could also try hint 2.
 
-| Child 1 |   | Child 2 |   | Child 3 |   | Product |
+| Child 1 |   | Child 2 |   | Child 3 |   | Sum |
 | ------- | - | ------- | - | ------- | - | ------- |
 | 1       | x | 1       | x | 36      | = | 36      |
 | 1       | x | 2       | x | 18      | = | 36      |

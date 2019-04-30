@@ -108,6 +108,10 @@ __3.2__ Can you buy 38 nuggets?
 
 * [x] Yes
 * [ ] No
+
+---
+
+38 = 20 + 9 x 2 or 20 + 6 x 3.
 :::
 
 ::: problem id=3_3 marks=1
@@ -115,6 +119,10 @@ __3.3__ Can you buy 39 nuggets?
 
 * [x] Yes
 * [ ] No
+
+---
+
+39 = 6 x 5 + 9.
 :::
 
 ::: problem id=3_4 marks=1
@@ -122,6 +130,10 @@ __3.4__ Can you buy 40 nuggets?
 
 * [x] Yes
 * [ ] No
+
+---
+
+40 = 20 + 20.
 :::
 
 ::: problem id=3_5 marks=1
@@ -129,6 +141,10 @@ __3.5__ Can you buy 41 nuggets?
 
 * [x] Yes
 * [ ] No
+
+---
+
+41 = 20 + 9 + 2 x 6.
 :::
 
 ::: problem id=3_6 marks=1
@@ -136,6 +152,10 @@ __3.6__ Can you buy 42 nuggets?
 
 * [x] Yes
 * [ ] No
+
+---
+
+42 = 6 x 7.
 :::
 
 ::: problem id=3_7 marks=1

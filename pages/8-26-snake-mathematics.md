@@ -15,7 +15,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go taking the Junior Maths Challenge.__
+__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go at taking the Junior Maths Challenge.__
 
 
 ## 1.	Vi Hart snake bonanza
@@ -36,13 +36,13 @@ __1.1.__ Which ‘slither’ is not valid?
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ If you start off with one snake, removing its head results in two new heads growing in its place. If you chop off all the existing heads, then two new heads will grow in their places. This carries on until you have a snake with 32 heads. How many heads did you have to cut off to get to this situation?
+__1.2.__ If you start off with one snake, removing its head results in two new heads growing in its place. If you chop off all the existing heads, then two new heads will grow in each of their places. This carries on until you have a snake with 32 heads. How many heads did you have to cut off to get to this situation?
 
 <input solution="31"/>
 
 ---
 
-One approach is to draw a snake, then draw a line through it and draw two more heads near it. Then carry on until you get 32 heads and look back and you will see that you have crossed out 31 heads. Another way to think about it is to say: “Every time the snake loses 1 head, it actually ends up 1 more head than it started with. So, to get from 1 to 32 heads, I will have to cut off 31 heads.”
+One approach is to draw a snake, then draw a line through it and draw two more heads near it. Then carry on until you get 32 heads and look back and you will see that you have crossed out 31 heads. Another way to think about it is to say: “Every time the snake loses 1 head, it actually ends up with 1 more head than it started with. So, to get from 1 to 32 heads, I will have to cut off 31 heads.”
 :::
 
 
@@ -100,7 +100,7 @@ Watch, and have a go at the questions below.
 
 
 ::: problem id=4_1 marks=2
-__4.1.__ “Poecilonym” is means the same as:
+__4.1.__ “Poecilonym” means the same as:
 
 * [ ] homonym
 * [ ] homophone
@@ -145,7 +145,7 @@ The total number of pips on the top and bottom faces of the two dice is 7 + 7 = 
 ## 6. Pick a card
 
 ::: problem id=6_1 marks=2
-__6.1.__ This question was inspired by video created by the psychologist Professor Richard Wiseman. I am holding two red cards and two black cards face down. You have to pick two of the cards. If you pick both of the black cards, then you win £4. By the way, it costs you £1 to play the game. Which of these statements is true?
+__6.1.__ This question was inspired by a video created by the psychologist Professor Richard Wiseman. I am holding two red cards and two black cards face down. You have to pick two of the cards. If you pick both of the black cards, then you win £4. By the way, it costs you £1 to play the game. Which of these statements is true?
 
 * [ ] This is a fair game, as you will win one time in four.
 * [ ] This game is great for you, as you will win money in the long run.
