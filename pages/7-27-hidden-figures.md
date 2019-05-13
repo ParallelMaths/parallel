@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Hidden Figures – another maths movie
 
-![](/resources/sumaze/hidden-figures-poster.png){width=170}
+![](/resources/7-27-hidden-figures/hidden-figures-poster.png){width=170}
 
 Last week we looked at the film “Good Will Hunting” and explored one of the
 mathematical problems that appears in it. I also posed a question about another
@@ -50,7 +50,7 @@ played a crucial role in the space race. It is a terrific film, which received
 three Oscar nominations and which is both inspiring and exciting. Well worth
 watching if your parents or teacher can get hold of the DVD.
 
-| ![](/resources/6-02-good-will-hunting/nasa-3.jpg) | ![](/resources/6-02-good-will-hunting/nasa-4.jpg) |
+| ![](/resources/7-27-hidden-figures/nasa-3.jpg) | ![](/resources/7-27-hidden-figures/nasa-4.jpg) |
 
 
 ## 2. Moore's Law

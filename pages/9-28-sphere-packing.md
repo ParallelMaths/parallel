@@ -93,7 +93,7 @@ __3.1__  According Kepler, what was the maximum efficiency for packing spheres?
 :::
 
 ::: problem id=3_2 marks=2
-__3.2__ What was unusual about the proof that showed that “hexagonal packing” was densest way to pack spheres?
+__3.2__ What was unusual about the proof that showed that “hexagonal packing” was the densest way to pack spheres?
 
 * [ ] It was written entirely on a computer
 * [ ] It was written solely by a computer
@@ -129,13 +129,13 @@ Now `3400/84 = 850/21 = 40 10/21`. So, of the given options, 40 km/h is the clos
 ## 5. Table tennis puzzle
 
 ::: problem id=5_1 marks=2
-__5.1.__ 32 students enter a knockout competition. How many matches will be played in order to find a champion?
+__5.1.__ 32 students enter a knockout competition, where the loser of each match is immediately eliminated. How many matches will be played in order to find a champion?
 
 <input type="number" solution="31"/>
 
 ---
 
-There are two ways (at least) to approach this problem. The long way is to work out there are 16 matches in the first round, then 8 matches in the second round, then 4 maths, 2 matches and the final match, which is 31 matches in total (16 + 8 + 4 + 2 + 1 = 31).  
+There are two ways (at least) to approach this problem. The long way is to work out that there are 16 matches in the first round, then 8 matches in the second round, then 4 matches, 2 matches and the final match, which is 31 matches in total (16 + 8 + 4 + 2 + 1 = 31).  
 
 The quick way is to remember that everyone will lose one match, except the champion. This means we have 31 matches, which is (32 – 1) matches.
 :::

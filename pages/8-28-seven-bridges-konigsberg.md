@@ -36,7 +36,7 @@ To summarise:
 
 To really summarise, a network can only be drawn with a single line if it obeys one of the two following rules:
 1. every node has an even degree, OR
-2. every node has an even degree, except two nodes with odd degrees.
+2. every node has an even degree, except two nodes which have odd degrees.
 
 Bearing in mind the video and particularly these rules, answer the questions in the next three sections.
 
@@ -76,7 +76,7 @@ __2.3.__
 
 ---
 
-Four nodes have an odd degree, so this network cannot be drawn.
+Four nodes have an odd degree, so this network cannot be drawn with a single line.
 :::
 
 ::: problem id=2_4 marks=1
@@ -88,7 +88,7 @@ __2.4.__
 
 ---
 
-Exactly two nodes (degree 3) have an odd degree, so YES this network can be drawn.
+With the addition of the new line segment, two of the odd degree nodes become even degree nodes. Now only two of the nodes have an odd degree, so yes, this network can be drawn with a single line.
 :::
 
 
@@ -121,7 +121,7 @@ Where should you start?
 
 * [ ] Only at `T` or `Q`
 * [ ] Only at `P`
-* [x] Only at `S` and `R`
+* [x] Only at `S` or `R`
 * [ ] At any point
 * [ ] The task is impossible
 
@@ -169,7 +169,7 @@ The mean of two numbers, `a` and `b`, is the average `1/2` `(a + b)`. Hence the 
 
 ## 6. Joseph's Most Complex Machine Ever!
 
-This is one of my favourite YouTube videos, which features a complex machine designed to serve cake. It is the work of the crazy inventor Joseph Herscher.
+If you scroll down, you will see one of my favourite YouTube videos, which features a complex machine designed to serve cake. It is the work of the crazy inventor Joseph Herscher.
 
 ::: problem id=6_1 marks=1
 __6.1.__ While you watch it, can you see what makes it easier for the block of butter to slide down the ramp?

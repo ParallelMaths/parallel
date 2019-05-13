@@ -66,6 +66,8 @@ If we have an expression involving something like `(x^2 + 6x – 7)`, then we ca
 often factor it into a pair of simpler bracketed terms, which in this case would
 be `(x + 7)(x – 1)`.
 
+**If you multiply out `(x + 7)(x - 1)`, you get `(x^2 + 7x - x - 7) = (x^2 + 6x + - 7)`, which is what we had to start with.**
+
 Similarly, we can rewrite `(2x^2 – 5x – 3)` as`(2x + 1)(x – 3)`.
 
 Therefore, `(x^2 + 6x – 7)(2x^2 – 5x – 3) = 0` can be re-written as
@@ -177,7 +179,7 @@ If you double a number, say 1, ten times, then how much bigger does it get? Use 
 * [ ] 42,000,000,000
 
 ---
-This video clip from Chris Seber (at MathMeeting.com) explains how to work out the answer:
+This video clip from Chris Seber (at [MathMeeting.com](MathMeeting.com){target="_blank"}) explains how to work out the answer:
 @[youtube](S2ec2wpYJ_0?rel=0)
 :::
 

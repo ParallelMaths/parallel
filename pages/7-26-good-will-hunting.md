@@ -231,13 +231,6 @@ contribute.
 
 | ![](/resources/7-26-good-will-hunting/nasa-1.jpg) | ![](/resources/7-26-good-will-hunting/nasa-2.jpg) |
 
-Although all the mathematicians in these photos are men, there were lots of
-female mathematicians working at NASA at this time. In fact, there was a film
-all about these NASA women that was released in 2017, and which
-received three Oscar nominations. Here is a poster for the film with the title
-removed, and a still from the movie.
-
-| ![](/resources/7-26-good-will-hunting/nasa-3.jpg) | ![](/resources/7-26-good-will-hunting/nasa-4.jpg) |
 
 
 ::: problem id=2 marks=1

@@ -1,9 +1,14 @@
 year7:
+  - url: 7-29-mathematical-timeline
+    title: Mathematical Timeline
+    subtitle: PG 29
+    available: 2019-05-16T13:00:00
+    deadline: 2019-05-19T13:00:00
   - url: 7-28-blackboard-equation
     title: Blackboard Equation
     subtitle: PG 28
     available: 2019-05-09T13:00:00
-    deadline: 2019-05-14T13:00:00
+    deadline: 2019-05-12T13:00:00
   - url: 7-27-hidden-figures
     title: Hidden Figures
     subtitle: PG 27
@@ -144,11 +149,16 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-29-mathematical-timeline
+    title: Mathematical Timeline
+    subtitle: PG 29
+    available: 2019-05-16T13:00:00
+    deadline: 2019-05-19T13:00:00
   - url: 8-28-seven-bridges-konigsberg
     title: Seven Bridges of Konigsberg
     subtitle: PG 28
     available: 2019-05-09T13:00:00
-    deadline: 2019-05-14T13:00:00
+    deadline: 2019-05-12T13:00:00
   - url: 8-27-ada-lovelace
     title: Ada Lovelace
     subtitle: PG 27
@@ -288,11 +298,16 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-29-mathematical-timeline
+    title: Mathematical Timeline
+    subtitle: PG 29
+    available: 2019-05-16T13:00:00
+    deadline: 2019-05-19T13:00:00
   - url: 9-28-sphere-packing
     title: Sphere Packing
     subtitle: PG 28
     available: 2019-05-09T13:00:00
-    deadline: 2019-05-14T13:00:00
+    deadline: 2019-05-12T13:00:00
   - url: 9-27-circle-mystery
     title: Circle Mystery
     subtitle: PG 27
