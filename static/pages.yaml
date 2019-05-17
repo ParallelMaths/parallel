@@ -1,4 +1,10 @@
 year7:
+  - url: 7-30-sumaze
+    title: Sumaze
+    subtitle: PG 30
+    available: 2019-05-23T13:00:00
+    deadline: 2019-05-26T13:00:00
+    scoreFactor: 2
   - url: 7-29-mathematical-timeline
     title: Mathematical Timeline
     subtitle: PG 29
@@ -149,6 +155,12 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-30-amazing-grace
+    title: Amazing Grace
+    subtitle: PG 30
+    available: 2019-05-23T13:00:00
+    deadline: 2019-05-26T13:00:00
+    scoreFactor: 2
   - url: 8-29-mathematical-timeline
     title: Mathematical Timeline
     subtitle: PG 29
@@ -298,6 +310,12 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-30-mathematical-plaques
+    title: Mathematical Plaques
+    subtitle: PG 30
+    available: 2019-05-23T13:00:00
+    deadline: 2019-05-26T13:00:00
+    scoreFactor: 2
   - url: 9-29-mathematical-timeline
     title: Mathematical Timeline
     subtitle: PG 29

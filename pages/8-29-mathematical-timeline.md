@@ -21,19 +21,19 @@ week by the Parallel Project to bright young mathematicians.
 The terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
 
 ::: problem id=1_1 marks=2
-__1.1__ Looking at mathematicians from 1000 to 1500, who invented co-ordinate geometry?
+__1.1__ Looking at mathematicians from 1000 to 1500, what is the surname of the mathematician who invented co-ordinate geometry?
 
 <input type="text" solution="ORESME"/>
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at mathematicians from 1000 to 1500, who used an infinite series to work out an exact value for π?
+__1.2__ Looking at mathematicians from 1000 to 1500, what is the first name of the mathematician who used an infinite series to work out an exact value for π?
 
 <input type="text" solution="MADHAVA"/>
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Looking at mathematicians from 1500 to 1600, who helped discover (or maybe invent) imaginary numbers, as well as working on everything from locks to gyroscopes?
+__1.3__ Looking at mathematicians from 1500 to 1600, what is the surname of the mathematician who helped discover (or maybe invent) imaginary numbers, as well as working on everything from locks to gyroscopes?
 
 <input type="text" solution="CARDANO"/>
 :::

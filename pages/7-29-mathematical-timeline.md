@@ -21,19 +21,19 @@ week by the Parallel Project to bright young mathematicians.
 The terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
 
 ::: problem id=1_1 marks=2
-__1.1__ Looking at mathematicians from the BC era (who lived more than 2,000 years ago), who wrote ELEMENTS and was know as the father of geometry?
+__1.1__ Looking at mathematicians from the BC era (who lived more than 2,000 years ago), what is the first name of the mathematician who wrote ELEMENTS and was know as the father of geometry?
 
 <input type="text" solution="EUCLID"/>
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at mathematicians from 0 to 1000, who lived in Alexandria and constructed astrolabes and hydrometers?
+__1.2__ Looking at mathematicians from 0 to 1000, what is the name of the mathematician who lived in Alexandria and constructed astrolabes and hydrometers?
 
 <input type="text" solution="HYPATIA"/>
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Looking at mathematicians from 0 to 1000 (who lived more than 2,000 years ago), who was called the father of algebra?
+__1.3__ Looking at mathematicians from 0 to 1000, who was called the father of algebra?
 
 * [ ] Hypatia
 * [ ] Aryabhata
@@ -88,7 +88,7 @@ The easiest number to pin down is `d`, which has to be 9.
 
 `5 ÷ 1 × 9 = 45`.
 
-You may have followed a different route, but I then worked `c` and `g`. We know that
+You may have followed a different route, but I then worked out `c` and `g`. We know that
 `9c + g` must equal 67, and `c` and `g` are single digits, so then `c = 7` and `g = 4`.
 
 Now we know `c = 7`, then we also know that `a × b = 48`.
@@ -141,7 +141,7 @@ the computer in 1-player mode and see if you can win.
 
 If you do manage to win, then just take a photo or screengrab, which includes the
 date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
-at random at midnight on Thursday (February 1st) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
+at random at midnight on Thursday (May 23rd) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)

@@ -21,19 +21,19 @@ week by the Parallel Project to bright young mathematicians.
 The terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
 
 ::: problem id=1_1 marks=2
-__1.1__ Looking at mathematicians from 1600 to 1700, who is best know for his Last Theorem?
+__1.1__ Looking at mathematicians from 1600 to 1700, what is the surname of the mathematician who is best know for his Last Theorem?
 
 <input type="text" solution="FERMAT"/>
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at mathematicians from 1700 to 1800, who was from a family of mathematicians and scientists, which meant that he was banned from his father’s house for beating him at an award from the Paris Academy?
+__1.2__ Looking at mathematicians from 1700 to 1800, what is the surname of the mathematician who was from a family of mathematicians and scientists, which meant that he was banned from his father’s house for beating him at an award from the Paris Academy?
 
 <input type="text" solution="BERNOULLI"/>
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Looking at mathematicians from 1800 to 1900, who proved that there are different sizes of infinity?  
+__1.3__ Looking at mathematicians from 1800 to 1900, what is the surname of the mathematician who proved that there are different sizes of infinity?  
 
 (Clue – David Hilbert was so amazed by his work, that he said “No one shall expel us from the paradise that [HE] has created.”)
 
@@ -41,13 +41,13 @@ __1.3__ Looking at mathematicians from 1800 to 1900, who proved that there are d
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ Looking at mathematicians from 1800 to 1900, who used statistics to revolutionise medicine and is even credited with promoting ‘infographics’?
+__1.4__ Looking at mathematicians from 1800 to 1900, what is the surname of the mathematician who used statistics to revolutionise medicine and is even credited with promoting ‘infographics’?
 
 <input type="text" solution="NIGHTINGALE"/>
 :::
 
 
-## 2. Junior Maths Challenge Problem (UKMT)
+## 2. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2014 (3) --->
 
 ::: problem id=2 marks=2
@@ -89,7 +89,7 @@ Therefore `x = 150`.
 
 Last week, you watched a video about the mathematical problem of sphere packing.  
 
-This week, Matt Parker looks a problem all about stacking spheres. Take a look and the question below.
+This week, Matt Parker looks a problem all about stacking spheres. Take a look at the question below.
 
 @[youtube](q6L06pyt9CA?rel=0)
 
@@ -100,7 +100,7 @@ __3.1__  If you stack 90,525,801,730 cannonballs in a pyramid, with a base shape
 :::
 
 
-## 4. Junior Maths Challenge Problem (UKMT)
+## 4. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2014 (17) --->
 
 ::: problem id=4_1 marks=4
