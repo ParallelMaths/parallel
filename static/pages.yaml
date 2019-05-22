@@ -1,4 +1,9 @@
 year7:
+  - url: 7-31-top-of-the-league
+    title: Top of the League
+    subtitle: PG 31
+    available: 2019-06-06T13:00:00
+    deadline: 2019-06-09T13:00:00
   - url: 7-30-sumaze
     title: Sumaze
     subtitle: PG 30
@@ -155,6 +160,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-31-floppy-pizza
+    title: Floppy Pizza
+    subtitle: PG 31
+    available: 2019-06-06T13:00:00
+    deadline: 2019-06-09T13:00:00
   - url: 8-30-amazing-grace
     title: Amazing Grace
     subtitle: PG 30
@@ -310,6 +320,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-31-tangrams
+    title: Tangrams
+    subtitle: PG 31
+    available: 2019-06-06T13:00:00
+    deadline: 2019-06-09T13:00:00
   - url: 9-30-mathematical-plaques
     title: Mathematical Plaques
     subtitle: PG 30

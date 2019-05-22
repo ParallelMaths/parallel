@@ -12,7 +12,7 @@ week by the Parallel Project to bright young mathematicians.
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-*	Finish by midnight on Sunday 2 July if your whole class is doing parallelograms.
+*	Finish by midnight on Sunday 2 June if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -108,7 +108,7 @@ How many litres of petrol would be required for a journey of `d` km?
 
 ---
 
-The car consumes p litres of petrol when travelling 100 km, and so uses 100 p litres for each km.  
+The car consumes p litres of petrol when travelling 100 km, and so uses `p/100` litres for each km.  
 
 Therefore in travelling d km the number of litres of petrol used is `(p/100) × d = (pd)/100`.  
 
@@ -122,7 +122,7 @@ This leaves `(pd)/100` as the only option which could be correct.
 
 ## 5. Another unofficial mathematical plaque
 
-In 2017, I put up an unofficial plaque to recognise a building where two mathematicians had a curious conversation about the number 1,729. [Visit this web page](https://www.bbc.co.uk/iplayer/episode/p00bvbg1/louis-theroux-louis-martin-and-michael){target="_blank"} about the plaque and answer the three questions below.
+In 2017, I put up an unofficial plaque to recognise a building where two mathematicians had a curious conversation about the number 1,729. [Visit this web page](https://www.bbc.co.uk/news/magazine-24459279){target="_blank"} about the plaque and answer the three questions below.
 
 ::: problem id=5_1 marks=2
 __5.1__ Who spotted the unusual property of 1,729?
@@ -196,7 +196,7 @@ I read an interesting article in the Financial Times written by Tim Harford, who
 __This confidence would be reassuring, were it not utterly erroneous. Researchers have been studying this question since the 1920s. They have overwhelmingly concluded both that individual answer changes are more likely to be from wrong to right, and that students who change their answers tend to improve their scores.__"
 {.text-center}
 
-This is something to bear in mind next time you take a test. I would also encourage you to [read the whole article](https://www.ft.com/content/32e4b22e-7197-11e9-bbfb-5c68069fbd15){target="_blank"}, as it covers some interesting idea and explains how you test a theory about changing your mind.
+This is something to bear in mind next time you take a test. I would also encourage you to [read the whole article if you can](https://www.ft.com/content/32e4b22e-7197-11e9-bbfb-5c68069fbd15){target="_blank"}, as it covers some interesting idea and explains how you test a theory about changing your mind.
 
 
 ## 8. Who came top?
@@ -233,7 +233,7 @@ Look at each team. If the statements say that a team has finished below any othe
 
 I drew up a 13 by 13 grid, so I could input all the information above. From (1), we know Turkey and Mexico finished above Italy and New Zealand, so the Turkey and Mexico columns had ticks where they crossed the Italy and New Zealand rows.  
 
-I then tallied up all ticks and crosses and ever team had at least one cross, except Russia, so ever team finished below another team, except presumably Russia.
+I then tallied up all ticks and crosses and every team had at least one cross, except Russia, so every team finished below another team, except presumably Russia.
 :::
 
 ::: problem id=8_2 marks=2

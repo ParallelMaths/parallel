@@ -12,7 +12,7 @@ week by the Parallel Project to bright young mathematicians.
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-*	Finish by midnight on Sunday 2 July if your whole class is doing parallelograms.
+*	Finish by midnight on Sunday 2 June if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -124,7 +124,7 @@ __4.1__ What caused Grace Hopper to invent the word bug, meaning a problem in a 
 * [ ] An ant
 * [ ] A cockroach
 * [ ] A ladybird
-* [ ] A moth
+* [x] A moth
 * [ ] A spider
 :::
 
@@ -181,8 +181,8 @@ __6.1__ How long is a nanosecond?
 * [ ] 1/10 of a second
 * [ ] 1/100 of a second
 * [ ] 1/1,000 of a second
-* [x] 1/1,000,000 of a second
-* [ ] 1/1,000,000,000 of a second
+* [ ] 1/1,000,000 of a second
+* [x] 1/1,000,000,000 of a second
 :::
 
 ::: problem id=6_2 marks=2

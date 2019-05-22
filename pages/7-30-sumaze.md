@@ -12,7 +12,7 @@ week by the Parallel Project to bright young mathematicians.
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-*	Finish by midnight on Sunday 2 July if your whole class is doing parallelograms.
+*	Finish by midnight on Sunday 2 June if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -28,7 +28,7 @@ __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the su
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the Iranian-born mathematician who won the highest prize in mathematics, the Fields Medal?
+__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the Iranian-born mathematician who won the highest honour in mathematics, the Fields Medal?
 
 <input type="text" solution="MIRZAKHANI"/>
 :::
@@ -57,7 +57,7 @@ Similarly, the integers that are divisible by 5 and 7 are precisely those that a
 
 So it seems that we have `10 + 7 + 4` (or 21) numbers that will have multiple marks because they have multiple divisors.
 
-However, you need to check for numbers that are divisible by 3, 5 and 7, because they would have been counted three times, not just once – when you look for numbers that are divisible by 3 and 5, then 3 and 7, then 5 and 7. In fact, the only number less than 150 divisible by 3, 5 and 7 is 105, so you only need to remove 2 from your tally, i.e., the answer is `10 + 7 + 4 – 2 = 19`.
+However, you need to check for numbers that are divisible by 3, 5 and 7, because they would have been counted three times, not just once – when you look for numbers that are divisible by 3 and 5, then 3 and 7, then 5 and 7. In fact, the only number less than 150 divisible by 3, 5 and 7 is 105, so you only need to remove 2 from your tally, so that it is only counted once, i.e., the answer is `10 + 7 + 4 – 2 = 19`.
 :::
 
 
@@ -65,11 +65,11 @@ However, you need to check for numbers that are divisible by 3, 5 and 7, because
 
 Sumaze! is a terrific game that tests your core maths skills. It was created by Richard Lissaman, who is part of MEI (Mathematics in Education & Industry).
 
-You will have access to 9 levels of the game, starting with some really trivial ones to allow you to understand the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so on until 9 points for level 9.
+You will have access to 9 levels of the game, starting with some really trivial ones to allow you to understand the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so on up to 9 points for level 9.
 
 However, you will lose 2 points for every hint you use (available on levels 8 & 9). And if you have to restart a level then you will lose 1 point each time, up to a maximum of 4 lost points. So, if you need one hint on level 9, then your maximum score goes from 9 down to 7. And if you succeed after restarting three times, then your score drops from 7 down to 4.
 
-It is easier to understand Sumaze! by experiencing it, but in case it helps here are a few important rules and tips:
+It is easier to understand Sumaze! by playing it, but in case it helps here are a few important rules and tips:
 
 * Aim – to move your blue box to reach the “end of level” square.
 * Your box cannot at any time contain a number bigger than 1,000.
@@ -122,7 +122,7 @@ __4.1__ The 4-ball encounters three goblets, but it does not drop into any of th
 :::
 
 ::: problem id=4_2 marks=2
-__4.2__ How does the water move from a beaker to a sponge, cause the sponge to get heavier and tip down?
+__4.2__ How does the water move from a beaker to a sponge, causing the sponge to get heavier and tip down?
 
 * [x] Boiling
 * [ ] Freezing
@@ -142,8 +142,7 @@ After the earlier taster, it's time for another set of Sumaze! challenges. The r
 
 ::: problem id=5_1 marks=4.5
 __5.1__ When you have finished Sumaze, you will receive a score and a code word.
-Please enter your code word here, so that we can add your Sumaze score to your
-verall Parallelogram total.
+Please enter your code word here, so that we can add your Sumaze score to your overall Parallelogram total.
 
 <input solution="sumaze" class="correct" placeholder="Sumaze Code Word"/>
 
