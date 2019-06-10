@@ -52,7 +52,7 @@ __1.3__ Who finished third?
 
 ---
 
-If “there were two teams between Manchester City and Derby County”, then they must 1st and 4th. And if “Chelsea finished above Manchester City”, then Manchester must have come 4th and Derby first. Liverpool and Chelsea must, therefore, have finished 2nd and 3rd, but we know Liverpool were not third, so they must have finished 2nd.
+If “there were two teams between Manchester City and Derby County”, then they must have finished 1st and 4th. And if “Chelsea finished above Manchester City”, then Manchester must have come 4th and Derby 1st. Liverpool and Chelsea must, therefore, have finished 2nd and 3rd, but we know Liverpool did not finish 3rd, so they must have finished 2nd.
 :::
 
 
@@ -77,7 +77,7 @@ __2.1__ What is the value of (222 + 22) ÷ 2?
 
 ## 3. Seeing dots
 
-This is a really interesting video by Jo Boaler. I think it illustrates how we might all see a problem differently, how there are many ways to solve a problem, but they all lead to the same answer.
+This is a really interesting video by Jo Boaler. I think it illustrates how we might all see a problem differently, and how there are many ways to solve a problem, but they all lead to the same answer.
 
 @[youtube](-pJhCAiaV-Q?rel=0)
 
@@ -139,7 +139,7 @@ Which statements are true?
 * [ ] (2) and (3)
 
 ^^^ hint id=5_1
-Remembers some numbers are less than 1. Think about what happens to `1/2`.
+Remember some numbers are less than 1. Think about what happens to `1/2`.
 ^^^
 
 ---

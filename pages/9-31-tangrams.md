@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 <!--- 2014 (5) --->
 
 ::: problem id=1_1 marks=3
-__1.1__ A ship’s bell is struck every half hour, starting with one bell at 0030, two bells (meaning the bell is struck twice) at 0100, three bells at 0130 until the cycle is complete with eight bells at 0400. The cycle then starts again with one bell at 0430, two bells at 0500 and so on. What is the total number of times the bell is struck between 0015 on one day and 0015 on the following day?
+__1.1__ A ship’s bell is struck every half hour, starting with one bell at 0030, two bells (meaning the bell is struck twice) at 0100, three bells at 0130, and so on until the cycle is complete with eight bells at 0400. The cycle then starts again with one bell at 0430, two bells at 0500 and so on. What is the total number of times the bell is struck between 0015 on one day and 0015 on the following day?
 
 * [ ] 24
 * [ ] 48
@@ -45,6 +45,15 @@ Here is a puzzle via mathematics specialist teacher and former headteacher Drew 
 __2.1__ Which letter replaces the question mark?
 
 <input solution="q"/>
+
+---
+
+The sum of the three numbers in each square corresponds to the letter of the alphabet in the corner of that square, eg:
+
+*	6 + 4 + 4 = 14 -> the 14th letter of the alphabet is __N__
+*	4 + 1 + 7 = 12 -> the 12th letter of the alphabet is __L__
+*	5 + 6 + 10 = 21 -> the 21st letter of the alphabet is __U__
+*	14 + 1 + 2 = 17 -> the 17th letter of the alphabet is therefore __Q__
 :::
 
 
@@ -73,7 +82,7 @@ Although all standard dice have pips adding up to 7 on opposite faces, dice can 
 
 ![](/resources/9-31-tangrams/3-dice-hint.png)
 
-From the diagrams above, we see that the faces with 4, 5 and 5 pips go round the vertex where these faces meet in clockwise order (left) or in an anticlockwise order (right).
+From the diagrams above, we see that the faces with 4, 5 and 6 pips can go round the vertex where these faces meet in clockwise order (left) or in an anticlockwise order (right).
 ^^^
 
 ---

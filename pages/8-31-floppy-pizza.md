@@ -49,14 +49,14 @@ We see from this calculation that to obtain a total of 1 it is the fraction `1/6
 
 Don Bradman had several pets, but his favourite pet was a duck called Duckminster Fuller...
 
-Actually, that’s not true. Bradman was a heroic cricketer, and this video is all about his sad farewell to the game he loved. Even if you don’t like cricket, I challenge you not be moved by this tale of sporting genius and averages. By the way, a duck is the came given to the score when a batsman scores no runs.
+Actually, that’s not true. Bradman was a heroic cricketer, and this video is all about his sad farewell to the game he loved. Even if you don’t like cricket, I challenge you not be moved by this tale of sporting genius and averages. By the way, a duck is the name given to the score when a batsman scores no runs.
 
 @[youtube](A8Tiba3h9Fw?rel=0)
 
 ::: problem id=2 marks=3
-__2.1__ Prior to the last match, Bradman had scored 6,996 runs from 69 innings and need 4 more runs to have a career average of 100 from 70 innings.  
+__2.1__ Prior to the last match, Bradman had scored 6,996 runs from 69 innings, and needed 4 more runs to have a career average of 100 from 70 innings.  
 
-How many runs would have given Bradman a career average of 99.99 (rounded to 3 significant figures)?
+How many runs would have given Bradman a career average of 99.99 (rounded to 4 significant figures)?
 
 * [ ] 0
 * [ ] 1
@@ -68,7 +68,7 @@ How many runs would have given Bradman a career average of 99.99 (rounded to 3 s
 
 ---
 
-`(6,996 + 3)/70 = 99.9857`, which is 99.99 to s.f.
+`(6,996 + 3)/70 = 99.9857`, which is 99.99 to 4 s.f.
 :::
 
 
@@ -98,12 +98,16 @@ Hence the remainder when the square of 49 is divided by the square root of 49 is
 __3.2__ Find, without using a calculator, the value of `49^2 ÷ √49`.
 
 <input solution="343"/>
+
+---
+
+`49^2 ÷ √49 = (7^2)^2 ÷ 7 = 7^4 ÷ 7 = 7^3 = 343`
 :::
 
 
 ## 4. Floppy pizza
 
-When you are a mathematician, then the world becomes amazing. Even eating pizza becomes amazing, as revealed in this video by Cliff Stoll. You might find some bits of the video confusing, but still with it and see you can understand why we eat pizza slices in a particular way.
+When you are a mathematician, then the world becomes amazing. Even eating pizza becomes amazing, as revealed in this video by Cliff Stoll. You might find some bits of the video confusing, but stick with it and see if you can understand why we eat pizza slices in a particular way.
 
 @[youtube](gi-TBlh44gY?rel=0)
 
