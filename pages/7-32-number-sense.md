@@ -33,10 +33,10 @@ __1.2__ What is the 99<sup>th</sup> odd number?
 
 ---
 
-1<sup>st</sup> odd number is 1
-2<sup>nd</sup> odd number is 3
-3<sup>rd</sup> odd number is 5
-...so the rule is “double the position number and subtract 1 to find the appropriate odd number.”
+1<sup>st</sup> odd number is 1,  
+2<sup>nd</sup> odd number is 3,  
+3<sup>rd</sup> odd number is 5,  
+...so the rule is “double the position of the number and subtract 1 to find the appropriate odd number.”
 
 Therefore the 99<sup>th</sup> odd number is (2 × 99) – 1 = 197.
 :::
@@ -97,19 +97,20 @@ The answer isn't 4!
 
 ---
 
-![](/resources/7-32-number-sense/4-division-answer.png){image align="right"}
-From the long division sum shown on the right, we see that  
+From the long division sum shown below, we see that  
 
 123 123 123 123 ÷ 123 = 1 001 001 001.  
 
 We see that there are 10 digits in this answer.
+
+![](/resources/7-32-number-sense/4-division-answer.png){image align="center"}
 :::
 
 
 ## 5. Simple Code
 
 ::: problem id=5_1 marks=2
-__5.1__ There is a rule that transforms 4-digit numbers into a new number. Try to work our the rule and find out what the number 1,000 would be transformed into
+__5.1__ There is a rule that transforms 4-digit numbers into a new number. Try to work out  the rule and find out what the number 1,000 would be transformed into
 
 * 8809 = 6
 * 7111 = 0
@@ -119,7 +120,7 @@ __5.1__ There is a rule that transforms 4-digit numbers into a new number. Try t
 * 3213 = 0
 * 1000 = ?
 
-<input solution="4"/>
+<input solution="3"/>
 
 ^^^ hint id=5_1
 Look at the number of circles or loops in each digit.
@@ -127,7 +128,7 @@ Look at the number of circles or loops in each digit.
 
 ---
 
-The rule involves counting the number of circles or loops in each digit (e.g., 1, 2 & 3 have no loops, but 6, 9 & 0 have one loop each, and 8 has two loops. These means 1,000 has 4 loops and the answer is, therefore, 4.
+The rule involves counting the number of circles or loops in each digit (e.g., 1, 2 & 3 have no loops, but 6, 9 & 0 have one loop each, and 8 has two loops). This means 1,000 has 3 loops and the answer is, therefore, 3.
 :::
 
 

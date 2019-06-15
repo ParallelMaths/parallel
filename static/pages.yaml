@@ -1,4 +1,9 @@
 year7:
+  - url: 7-33-aluminium-can-engineering
+    title: Aluminium Can Engineering
+    subtitle: PG 33
+    available: 2019-06-20T13:00:00
+    deadline: 2019-06-23T13:00:00
   - url: 7-32-number-sense
     title: Number Sense
     subtitle: PG 32
@@ -165,6 +170,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-33-more-rules-critical-thinking
+    title: More Rules for Critical Thinking
+    subtitle: PG 33
+    available: 2019-06-20T13:00:00
+    deadline: 2019-06-23T13:00:00
   - url: 8-32-rules-critical-thinking
     title: Rules for Critical Thinking
     subtitle: PG 32
@@ -330,6 +340,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-33-number-riddles
+    title: Number Riddles
+    subtitle: PG 33
+    available: 2019-06-20T13:00:00
+    deadline: 2019-06-23T13:00:00
   - url: 9-32-ham-sandwich-problem
     title: The Ham Sandwich Problem
     subtitle: PG 32

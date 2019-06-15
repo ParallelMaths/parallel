@@ -20,6 +20,10 @@ week by the Parallel Project to bright young mathematicians.
 
 The terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
 
+So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
+
+![](/resources/7-29-mathematical-timeline/1-napier.png){image align="center"}
+
 ::: problem id=1_1 marks=2
 __1.1__ Looking at mathematicians from the BC era (who lived more than 2,000 years ago), what is the first name of the mathematician who wrote ELEMENTS and was know as the father of geometry?
 

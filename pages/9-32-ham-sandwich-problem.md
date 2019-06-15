@@ -19,7 +19,7 @@ week by the Parallel Project to bright young mathematicians.
 ## 1. Quick trick
 
 ::: problem id=1_1 marks=2
-__1.1__ Think of any 3-digit number, but make sure that the first digit is the biggest and the third digit is the smallest. So, 531, not 536 or 555.  
+__1.1__ Think of any 3-digit number, but make sure that the first digit is the biggest and the third digit is the smallest. So, for example, you could pick 531, but not 536 or 555.  
 
 Next, reverse your 3-digit number to create a new number.  
 
@@ -35,13 +35,13 @@ When you receive your answers and solutions, make sure that you check them prope
 
 ---
 
-You can present this as a magic trick, where you ask someone to pick a 3-digt number and follow the instructions that you give them. The results will always be 1089. Why?  
+You can present this as a magic trick, where you ask someone to pick a 3-digit number and follow the instructions that you give them. The results will always be 1089. Why?  
 
 If we let a, b, c represent the three digits of the original number, then the three-digit number is abc or 100a + 10b + c.  
 
 The reversed number is 100c + 10b + a.  
 
-When you subtract the new number form the original number, the result is (100a + 10b + c) – (100c + 10b + a) to get 99(a - c).  
+When you subtract the new number from the original number, the result is (100a + 10b + c) – (100c + 10b + a), which equals 99(a - c).  
 
 Since the digits in the original number were decreasing, (a - c) is at least 2 and no greater than 9, so the result must be 198, 297, 396, 495, 594, 693, 792, or 891.  
 
@@ -72,8 +72,8 @@ The large shape is made up of 21 small squares and so can only be assembled by u
 
 In the IMC we are entitled to assume that only one of the given options is correct. So we could stop here.  
 
-![](/resources/9-32-ham-sandwich-problem/2-squares-answer.png){image align="right"}
-However, it is worth considering how we might show convincingly that neither option B nor D can be used. It is easier to think of trying to fit three copies of these shapes into the larger shape without gaps or overlaps, than of assembling the larger shape out of them. If we concentrate on the 2 × 2 block of squares on the left of the larger shape, we can easily see that there is no way that copies of the shape of option B can be fitted into the larger shape to cover these 4 squares. The only way that the shape of option D can do this is shown below. It is easy to see that it is not possible to fit two more copies of the shape into the remaining squares without overlaps.  
+![](/resources/9-32-ham-sandwich-problem/2-squares-answer2.png){image align="right"}
+However, it is worth considering how we might show convincingly that neither option B nor D can be used. It is easier to think of trying to fit three copies of these shapes into the larger shape without gaps or overlaps, than of assembling the larger shape out of them. If we concentrate on the 2 × 2 block of squares on the left of the larger shape, we can easily see that there is no way that copies of the shape of option B can be fitted into the larger shape to cover these 4 squares. The only way that the shape of option D can do this is shown on the left. It is easy to see that it is not possible to fit two more copies of the shape into the remaining squares without overlaps.  
 
 So neither option B nor option D will work. We therefore conclude that the shape of option E is the only one that we can use to make the larger shape.
 :::
@@ -145,7 +145,7 @@ The interior angle of a regular pentagon is 108°. Therefore each of the sectors
 
 ::: problem id=5_1 marks=2
 ![](/resources/9-32-ham-sandwich-problem/5-letter.png){image align="right"}
-__5.1__ I am not sure where this puzzle came from, but I could not resist sharing it.  
+__5.1__ This terrific "funny fold" puzzle is by Martin Gardner & Scott Kim. 
 
 The figure on the right is a letter of the alphabet that has been cut out of paper and folded just once.  
 

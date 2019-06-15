@@ -21,6 +21,10 @@ week by the Parallel Project to bright young mathematicians.
 
 As mentioned last week, the terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
 
+So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
+
+![](/resources/9-30-mathematical-plaques/1-napier.png){image align="center"}
+
 ::: problem id=1_1 marks=2
 __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is best known for proving Fermat’s Last Theorem?
 

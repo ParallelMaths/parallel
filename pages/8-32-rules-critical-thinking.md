@@ -45,7 +45,7 @@ In 24 hours, the 5 appears in the hours `2 × 60 = 120` times.
 
 Therefore, the total is `384 + 120 = 504` times.
 :::
->_
+
 
 ## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (12) --->
@@ -96,12 +96,12 @@ Richard Feynman is a hero of science and a Nobel Prize winner in physics. In thi
 @[youtube](o1dgrvlWML4?rel=0)
 
 ::: problem id=3_1 marks=1
-__3.1__ In science, what is the most exciting moment?
+__3.1__ In science, what does Feynman say is the most interesting moment?
 
 * [ ] When you discover something that you expected.
 * [ ] When you measure something and the answer is what you expected.
 * [ ] When a chemical reaction behaves as expected.
-* [ ] When the mathematical equations correct predict a result in the laboratory.
+* [ ] When the mathematical equations correctly predicts a result in the laboratory.
 * [x] When something unexpected happens, when something does not fit.
 :::
 
@@ -130,7 +130,7 @@ Let the angles of the triangle `STU` be `s°`, `t°` and `u°` as shown in the f
 The angles of a triangle have sum 180°. Therefore
 
 `s + t + u = 180` (1) and  
-`2s + 1/5t + 2u = 180`. (2)  
+`2s + (1/5)t + 2u = 180`. (2)  
 ^^^
 
 ^^^ hint id=4_3
@@ -154,7 +154,7 @@ It follows that the angles of the triangle `PQR` are `2s°`, `1/5t°` and `2u°`
 The angles of a triangle have sum 180°. Therefore
 
 `s + t + u = 180` (1) and  
-`2s + 1/5t + 2u = 180`. (2)  
+`2s + (1/5)t + 2u = 180`. (2)  
 
 By multiplying equation (1) by 2 we obtain  
 
