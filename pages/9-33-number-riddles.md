@@ -110,7 +110,7 @@ Last week we looked at the 1089 trick. Here’s a reminder from Krista King.
 
 @[youtube](rNInNmcgAiY?rel=0)
 
-But, how does it work? James Grime, who has some great videos, both his own website and on Numberphile, explains…. it is not a simple explanation, but see if you can follow it. It is an amazing but of magic, and the maths behind it is neat.
+But, how does it work? James Grime, who has some great videos, both on his own website and on Numberphile, explains…. it is not a simple explanation, but see if you can follow it. It is an amazing bit of magic, and the maths behind it is neat.
 
 @[youtube](ee0xnIywEqk?rel=0)
 
@@ -132,9 +132,9 @@ What is the smallest number of bouts that the Black Knight could have entered?
 
 ---
 
-_In a moment, you will find the formal solution, but here is a quick way to think about and solve the problem. How can one night earn one point more than the other? If the Black Knight wins 6 tournaments, then he wins 18 bonus points, and 18 is 1 more than 17! So the answer is 6._
+_In a moment, you will find the formal solution, but here is a quick way to think about and solve the problem. How can one knight earn one point more than the other? If the Black Knight wins 6 tournaments, then he wins 18 bonus points, and 18 is 1 more than 17! So the answer is 6._
 
-_In other words, the Red Knight could enter 6 tournaments and lose them all, and he would be 18 points behind the Black Knight. But if the Red Knight entered one more tournament and lost again then he would be only 1 point ahead. The Black Knight has entered 6 tournaments, so the answer is D._
+_In other words, the Red Knight could enter 6 tournaments and lose them all, and he would be 18 points behind the Black Knight. But if the Red Knight entered one more tournament and lost again then he would be only 1 point behind. The Black Knight has entered 6 tournaments, so the answer is D._
 
 Suppose the Black Knight enters q bouts and wins x of them and the Red Knight enters r bouts and wins y of them. Then the Black Knight receives `17q + 3x` points and the Red Knight receives `17r + 3y` points. As the Black Knight has exactly one more point than the Red Knight  
 

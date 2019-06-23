@@ -1,4 +1,9 @@
 year7:
+  - url: 7-34-pet-puzzle
+    title: Pet Puzzle
+    subtitle: PG 34
+    available: 2019-06-27T13:00:00
+    deadline: 2019-06-30T13:00:00
   - url: 7-33-aluminium-can-engineering
     title: Aluminium Can Engineering
     subtitle: PG 33
@@ -170,6 +175,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-34-miracle-chocolate
+    title: Miracle Chocolate
+    subtitle: PG 34
+    available: 2019-06-27T13:00:00
+    deadline: 2019-06-30T13:00:00
   - url: 8-33-more-rules-critical-thinking
     title: More Rules for Critical Thinking
     subtitle: PG 33
@@ -340,6 +350,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-34-richard-feynman-superhero
+    title: Richard Feynman - Superhero
+    subtitle: PG 34
+    available: 2019-06-27T13:00:00
+    deadline: 2019-06-30T13:00:00
   - url: 9-33-number-riddles
     title: Number Riddles
     subtitle: PG 33

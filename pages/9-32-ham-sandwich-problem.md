@@ -145,13 +145,13 @@ The interior angle of a regular pentagon is 108°. Therefore each of the sectors
 
 ::: problem id=5_1 marks=2
 ![](/resources/9-32-ham-sandwich-problem/5-letter.png){image align="right"}
-__5.1__ This terrific "funny fold" puzzle is by Martin Gardner & Scott Kim. 
+__5.1__ This terrific "funny fold" puzzle is by Martin Gardner & Scott Kim.
 
 The figure on the right is a letter of the alphabet that has been cut out of paper and folded just once.  
 
 It is __NOT__ the letter __L__.   
 
-What is letter is it?
+What letter is it?
 
 <input solution="F"/>
 :::

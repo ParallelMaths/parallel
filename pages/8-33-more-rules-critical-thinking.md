@@ -19,11 +19,11 @@ week by the Parallel Project to bright young mathematicians.
 ## 1. Digital clock symmetry
 
 ::: problem id=1_1 marks=2
-__1.1__ This time has mirror symmetry:
+__1.1__ This time on a 24-hour clock has mirror symmetry:
 
 ![](/resources/8-33-more-rules-critical-thinking/1-symmetry.png){image align="center"}
 
-How many minutes later will there also be a time with mirror symmetry?
+Of the following options, how many minutes later will there also be a time with mirror symmetry?
 
 * [ ] 404
 * [ ] 414
@@ -114,7 +114,7 @@ __3.1__ What is a?
 ::: problem id=3_2 marks=1
 __3.2__ What is b?  
 
-<input solution="5"/>
+<input solution="7"/>
 
 ---
 
@@ -124,7 +124,7 @@ Instead, you can remove 7s from 49 until you reach a number that is divisible by
 
 49 minus two 7s is 35.  
 
-So the answer is `a = 2` and `b = 5`.
+So the answer is `a = 2` and `b = 7`.
 :::
 
 `a` and `b` are positive integers and `23a + 17b = 320`. Find the values of `a` and `b`.
@@ -147,6 +147,8 @@ Simply try different values for `a` and check to see if there is a value for `b`
 If `a = 1`, then `b = 17.5`ish, so that is not correct.  
 
 But if `a = 8`, then `b = 8`, and that is correct.
+
+Alternatively, you might notice that `23 + 17 = 40`, and that `320 = 40 × 8 = (23 + 17) × 8  = 23 × 8 + 17 × 8`. 
 :::
 
 
