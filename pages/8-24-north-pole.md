@@ -146,7 +146,6 @@ The distance between the 4 cm mark and the 10 cm mark at the end of the ruler is
 The overall length is made up of the length on each ruler from the 4 cm mark to the 10 cm mark, plus the length from the 3 cm mark to the 4 cm mark. This latter distance is 1 cm.
 
 So, `L = 6 + 6 + 1 = 13`.
-
 :::
 
 

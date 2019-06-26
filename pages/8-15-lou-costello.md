@@ -130,7 +130,6 @@ __3.1.__  Peter Piper picked a peck of pickled peppers. 1 peck = 1/4 bushel and
 ---
 
 We have 1 barrel = 9 bushels and 1 bushel = 4 pecks, and so 1 barrel = 9 × 4 = 36 pecks. Peter Piper has already picked 1 peck, so he needs to pick 35 more pecks to fill a barrel.
-
 :::
 
 

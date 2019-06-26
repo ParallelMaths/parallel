@@ -45,7 +45,6 @@ __2.1.__ A list is made of every digit that is the units digit of at least one p
 ---
 
 The numbers 2, 3 and 5 are themselves prime numbers so they occur in this list. Also 1 is the units digit of the prime number 11 (and also 31, 41 and many more). However, a number with units digit 4 is an even number greater than 2 and so is not prime. Thus, there are 4 numbers in the list, namely 1, 2, 3 and 5 which are the units digits of at least one prime number. Therefore the solution is D.
-
 :::
 
 ::: problem id=2_2 marks=2

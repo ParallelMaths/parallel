@@ -1,4 +1,9 @@
 year7:
+  - url: 7-35-summer-sums
+    title: Summer Sums
+    subtitle: PG 35
+    available: 2019-07-04T13:00:00
+    deadline: 2019-07-07T13:00:00
   - url: 7-34-pet-puzzle
     title: Pet Puzzle
     subtitle: PG 34
@@ -175,6 +180,11 @@ year7:
     deadline: 2018-09-09T19:00:00
 
 year8:
+  - url: 8-35-summer-sums
+    title: Summer Sums
+    subtitle: PG 35
+    available: 2019-07-04T13:00:00
+    deadline: 2019-07-07T13:00:00
   - url: 8-34-miracle-chocolate
     title: Miracle Chocolate
     subtitle: PG 34
@@ -350,6 +360,11 @@ year8:
     deadline: 2018-09-09T19:00:00
 
 year9:
+  - url: 9-35-summer-sums
+    title: Summer Sums
+    subtitle: PG 35
+    available: 2019-07-04T13:00:00
+    deadline: 2019-07-07T13:00:00
   - url: 9-34-richard-feynman-superhero
     title: Richard Feynman - Superhero
     subtitle: PG 34

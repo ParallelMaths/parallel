@@ -29,7 +29,7 @@ Richard Feynman is one of my heroes. He was a brilliant physicist (and won a Nob
 One of the first science books I ever read was “Surely You're Joking, Mr. Feynman!” by Richard Feynman. Maybe borrow it from your local library and read it over the summer.
 
 ::: problem id=1_1 marks=3
-__1.1__ An English poet wrote about science “unweaving the rainbow” in a poem titled “Lamia”. He meant that science analyses natural phenomena and thereby reduces the beauty of nature. Who was that foolish poet?
+__1.1__ An English poet wrote about science “unweaving the rainbow” in a poem titled “Lamia”. He meant that science analyses natural phenomena and thereby reduces the beauty of nature. Who was this misguided (but brilliant) poet, who took the opposite view from Feynman?
 
 * [ ] William Wordsworth
 * [x] John Keats
