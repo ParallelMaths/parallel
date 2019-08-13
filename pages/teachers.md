@@ -1,4 +1,4 @@
-# Information for Teachers
+# Introduction for Teachers
 
 Parallel is an opportunity for your students to broaden their mathematical
 horizons and stretch their brains via a series of weekly web-based maths sheets,

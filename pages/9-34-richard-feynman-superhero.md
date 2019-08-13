@@ -149,7 +149,9 @@ Since 1000 = 8 × 125, we have 9000 = 9 × 8 × 125 and therefore
 
 ::: problem id=4_1 marks=4
 ![](/resources/9-34-richard-feynman-superhero/4-circle.jpg){image align="right"}
-__4.1__ How many 4-digit integers (from 1000 to 9999) have at least one digit repeated?
+__4.1__ The diagram shows two concentric circles with radii of 1 and 2 units, together with a shaded octagon, all of whose sides are equal.  
+
+What is the length of the perimeter of the octagon?
 
 * [ ] `8√2`
 * [ ] `8√3`

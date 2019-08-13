@@ -179,7 +179,7 @@ There are `(359 − 39) + 1`, that is, 321 of these integers.
 <!--- 2018 (8) --->
 
 ::: problem id=5_1 marks=2
-__5.1__ Gill scored a goal half way through the second quarter of a ‘teachers versus pupils’ netball match.  
+__5.1__ Gill scored a goal halfway through the second quarter of a ‘teachers versus pupils’ netball match.  
 
 At that point, what fraction of the whole match remained to be played?
 
@@ -217,7 +217,7 @@ __5.2__ Gill scored a second goal one-third of the way through the third quarter
 
 The second goal was scored after:  
 
-`1/4 + 1/4 + (1/3 × 1/4) = 1/4 + 1/4 + 1/12 = 3/12 + 3/12 + 1/12 = 7/12` into the game.  
+`1/4 + 1/4 + (1/3 × 1/4) = 1/4 + 1/4 + 1/12 = 3/12 + 3/12 + 1/12 = 7/12` of the game.  
 
 So, `5/12` of the game remained
 :::

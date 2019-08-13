@@ -115,7 +115,21 @@ As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 2
 :::
 
 
-## 5. <Simon>
+## 5. Airplanes taking off
+
+::: problem id=5_1 marks=3
+__5.1__ When a plane is taking off, which of the following would the pilot prefer?
+
+* [x] Wind blowing in the opposite direction to plane moving along the runway.
+* [ ] Wind blowing the same direction to the plane moving along the runway.
+* [ ] Wind blowing from the side.
+* [ ] Wind blowing from the other side.
+* [ ] No wind.
+
+---
+
+The wings generate more lift if the air passing over them is moving faster. So the plane needs to reach a take-off speed relative to the air. If the wind is blowing in the opposite direction to the plane’s motion, then it is easier to reach the take-off speed.
+:::
 
 
 ## 6.
@@ -209,7 +223,37 @@ Hence the ratio of the lengths is 12d:20d = 3:5
 :::
 
 
-## 10. <Simon>
+## 10. Is it Better to Walk or Run in the Rain?
+
+MinutePhysics is a great YoutTube channel, so dive in and watch loads of them. But, for now, take a look about this video about running in the rain.
+
+@[youtube](3MqYE2UuN24?end=100rel=0)
+
+::: problem id=10_1 marks=2
+__10.1__ If you are outside in the rain and you want to minimise how wet you get, you should…
+
+* [ ] Stand still
+* [ ] Walk slowly
+* [ ] Run fast
+* [x] Use an umbrella
+:::
+
+::: problem id=10_2 marks=2
+__10.2__ If you are outside in the rain and __don’t have an umbrella__ and you want to minimise how wet you get, you should…
+
+* [ ] Stand still
+* [ ] Walk slowly
+* [ ] Run fast
+* [x] Borrow an umbrella
+:::
+
+::: problem id=10_3 marks=2
+__10.3__ If you are outside in the rain and __don’t have an umbrella and can’t borrow an umbrella__ and you want to minimise how wet you get, you should…
+
+* [x] Stand still
+* [ ] Walk slowly
+* [ ] Run fast
+:::
 
 
 ## 11.
@@ -312,7 +356,21 @@ Tuesday.
 :::
 
 
-## 15. <Simon>
+## 15. What if the Earth was made of Blueberries?
+
+Liv Boeree is a physics graduate who has an insatiable curiosity, which includes asking questions about what would happen if the Earth was made of blueberries?
+
+@[youtube](GtlAeeQMOgQ?rel=0)
+
+::: problem id=15_1 marks=3
+__15.1__ After a while, what would the atmosphere consist of?
+
+* [ ] Oxygen
+* [ ] Nitrogen
+* [ ] Carbon dioxide
+* [ ] Helium
+* [x] Steam
+:::
 
 
 ## 16.
@@ -402,7 +460,26 @@ So `∠QSR` is 75°.
 :::
 
 
-## 20. <Simon>
+## 20. Can You Solve This Chess Conundrum?
+
+This puzzle was featured on the BBC TV show “QI”. First, you need to know that the knight in chess moves in an L-shape, as shown in the image below. “L” means 2 squares left/right and 1 up/down, or 2 up/down and 1 left/right.
+
+![](/resources/8-35-summer-sums/20-chess.jpg){image align="center"}
+
+::: problem id=20_1 marks=4
+__20.1__ What is the maximum number of knights that you can place on a chess board (8 x 8 squares), so that none of the knights can take any other night?
+
+<input solution="32"/>
+
+^^^ hint id=20
+When a knight starts on a black square, what colour squares can it attack? Only black? Only white? Black and white?
+^^^
+
+---
+This QI clip explains why the answer is 32 knights.
+
+@[youtube](mV2e2aokU-0?rel=0)
+:::
 
 
 ## 21.
@@ -412,7 +489,7 @@ __21.1__ A swimming club has three categories of members: junior, senior, vetera
 
 Which of the following could be the total number of members in the swimming club?
 
-^^^ hint id=1
+^^^ hint id=21
 The 5:2 ratio suggests that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible. So, instead of 5 seniors and 2 veterans, what other numbers would agree with a 5:2 ratio?
 ^^^
 
@@ -445,7 +522,7 @@ What, in cm<sup>2</sup>, is the surface area of the solid?
 * [ ] 1050
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=22
 If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so you can now work out the volume of each cube... and therefore the length of any side of any cube. When it comes to looking at the surface area, we have no surface area from the cube in the middle, and 5 faces from each of the other 6 cubes. So, just be careful when you work this out. Take it step by step, lay our your calculation clearly and check your answer before you submit it.
 ^^^
 
@@ -485,11 +562,11 @@ to the same total).
 
 What is the sum of these two numbers?
 
-^^^ hint id=1
+^^^ hint id=24_1
 Start by sketching the initial magic square. Next add up all the rows, columns and diagonals, and you will notice that most of them sum to 34. If you are going create a magic square by just swapping two numbers, then it is probably going to be easier to make everything add up to 34, rather than making all the 34s add up to something else.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=24_2
 If a row, column or diagonal already sums to 34, then you probably don’t need to adjust anything, so cross out all the numbers in those columns, rows and diagonal. The numbers that you need to swap will be among whatever numbers are left. (As a bonus hint, you will notice that one of the diagonals adds to less than 34, so you will need to replace a number on the problematic diagonal with a larger number.)
 ^^^
 
@@ -512,8 +589,17 @@ So, the two swapped numbers are 13 + 15 = 28, which means the answer is 28.
 :::
 
 
-## 25. <Simon>
+## 25. Very strange decimal
 
+Here is an interesting mathematical oddity. Very often odd things are interesting. If you are a bit odd, then you might be a bit interesting.
+
+::: problem id=25_1 marks=3
+__25.1__ If you divide 1 by 998,001, the resulting decimal number will give you almost every three-digit number. For example, the decimal starts as follows: 0.000001002003004005006 ... and so on. However, one three-digit number gets skipped in this strange series. Which three-digit number is missing?  
+
+Clue – you can start by trying out the division on your calculator. Then, you will need to [read this article to find the answer](https://curiosity.com/topics/dividing-1-by-998001-yields-a-very-strange-decimal-curiosity/){.external target="_blank"}.
+
+<input solution="998"/>
+:::
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -522,7 +608,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

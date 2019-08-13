@@ -80,7 +80,7 @@ Roughly what did the engine cost to build?
 
 There are 4,000,000 pounds in £4 million. Therefore, the cost of building the engine, in pounds, was roughly  
 
-`1/500 × 4 000 000 = 4000000\500 = 8000`.  
+`1/500 × 4000000 = 4000000/500 = 8000`.  
 
 So, roughly, the engine cost £8000 to build.
 :::

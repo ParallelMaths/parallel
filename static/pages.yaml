@@ -4,6 +4,7 @@ year7:
     subtitle: PG 35
     available: 2019-07-04T13:00:00
     deadline: 2019-07-07T13:00:00
+    scoreFactor: 3
   - url: 7-34-pet-puzzle
     title: Pet Puzzle
     subtitle: PG 34
@@ -185,6 +186,7 @@ year8:
     subtitle: PG 35
     available: 2019-07-04T13:00:00
     deadline: 2019-07-07T13:00:00
+    scoreFactor: 3
   - url: 8-34-miracle-chocolate
     title: Miracle Chocolate
     subtitle: PG 34
@@ -365,6 +367,7 @@ year9:
     subtitle: PG 35
     available: 2019-07-04T13:00:00
     deadline: 2019-07-07T13:00:00
+    scoreFactor: 3
   - url: 9-34-richard-feynman-superhero
     title: Richard Feynman - Superhero
     subtitle: PG 34
@@ -538,3 +541,180 @@ year9:
     subtitle: PG 1
     available: 2018-08-06T16:00:00
     deadline: 2018-09-09T19:00:00
+
+year10:
+  - url:
+    title:
+    subtitle: PG 35
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 34
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 33
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 32
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 31
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 30
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 29
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 28
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 27
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 26
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 25
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 24
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 23
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 22
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 21
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 20
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 19
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 18
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 17
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 16
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 15
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 14
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 13
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 12
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 11
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 10
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 9
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 8
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 7
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 6
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 5
+    available:
+    deadline:
+  - url:
+    title:
+    subtitle: PG 4
+    available:
+    deadline:
+  - url: 10-03-the-kessel-run
+    title: The Kessel Run
+    subtitle: PG 3
+    available: 2018-09-27T13:00:00
+    deadline: 2018-09-30T18:00:00
+  - url: 10-02-little-big-league
+    title: Little Big League
+    subtitle: PG 2
+    available: 2019-09-19T16:00:00
+    deadline: 2019-09-22T19:00:00
+  - url: 10-01-all-dark-things
+    title: All Dark Things
+    subtitle: PG 1
+    available: 2019-09-09T16:00:00
+    deadline: 2019-09-15T19:00:00

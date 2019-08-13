@@ -120,7 +120,31 @@ We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division 
 :::
 
 
-## 5. <Simon>
+## 5. QI : Curious Sporting Loopholes
+
+Mathematics is about rules (e.g., odd plus odd equals even), but it is also about understanding the rules in such detail that you know how to gain an advantage in solving problems. In that spirit, here is a clip from the BBC show “QI” about taking advantage of loopholes in sporting rules.
+
+@[youtube](89o7PIjDyFI?rel=0)
+
+::: problem id=5_1 marks=3
+__5.1__ Because of cricketer Thomas White, cricket bats can no longer be infinitely wide. Today, what is the maximum permitted width of a cricket bat in first class cricket?
+(You might have to googly this.)
+
+* [ ] 4.25 mm
+* [ ] 38 mm
+* [x] 108 mm  
+* [ ] 965 mm
+{.col-5}
+:::
+
+::: problem id=5_2 marks=2
+__5.2__ In the previous question, why did I write that you might have to “googly” the answer, rather than writing “google” the answer?
+
+* [ ] Googly was a typo
+* [x] Googly is a way of bowling a cricket ball
+* [ ] Thomas Googly invented cricket
+* [ ] Googly is the Indian word for Google
+:::
 
 
 ## 6.
@@ -216,7 +240,25 @@ The letters J, N and R do not have an axis of symmetry. So these letters cannot 
 :::
 
 
-## 10. <Simon>
+## 10. Bananas
+
+Here is a tweet that caught my eye recently:
+
+_It turns out a major new study recently found that humans eat more bananas than monkeys._  
+
+_I can't remember the last time I ate a monkey._  
+
+_(from Charina91)_
+
+::: problem id=10_1 marks=3
+__10.1__ How many bananas do humans eat each year?  
+
+* [ ] 100 thousand
+* [ ] 100 million
+* [x] 100 billion
+* [ ] 100 trillion
+{.col-5}
+:::
 
 
 ## 11.
@@ -319,7 +361,22 @@ Suppose Peter has `b` brothers and hence `3b` sisters. So, including Peter, ther
 :::
 
 
-## 15. <Simon>
+## 15. Can you light a match with water?
+
+Watch the video below - there will be a question to follow it:
+
+@[youtube](JkRAaZIZaAQ?end=211rel=0)
+
+::: problem id=15_1 marks=3
+__15.1__ The Statue of Liberty is coated in...
+
+* [ ] copper oxide
+* [ ] chlorophyll
+* [x] malachite
+* [ ] shredded Shrek
+* [ ] jade
+{.col-5}
+:::
 
 
 ## 16.
@@ -346,7 +403,7 @@ The nodes (sometimes called vertices) have the following degrees or numbers of c
 * S = 3  
 * T = 2  
 
-From the previous section, we know that a network can only be drawn with a single line if every node has an even number of connected lines... unless there are exactly two nodes with an odd number of lines. The two nodes with an odd number of lines must be the start and end nodes, because otherwise the lines come in pairs (in and then out). Please refer back to the previous section and the video if this does not make sense.
+We know that a network can only be drawn with a single line if every node has an even number of connected lines... unless there are exactly two nodes with an odd number of lines. The two nodes with an odd number of lines must be the start and end nodes, because otherwise the lines come in pairs (in and then out). Please refer back to the previous section and the video if this does not make sense.
 
 There are several ways to draw the diagram starting at `R` without taking the pen off the paper or going over a line more than once. Here is one example of such a path:
 
@@ -372,7 +429,7 @@ What is the value of `x + y`?
 * [ ] 90
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=17_1
 ![](/resources/7-35-summer-sums/3-angles-hint.png){image align="right"}
 Notice that `x` and `y` are two of the internal angles of a pentagon.
 
@@ -381,15 +438,15 @@ We have highlighted that pentagon in this graphic.
 Consider how this information can help you solve the problem.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=17_2
 What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: `(n - 2) × 180°` where `n` is the number of sides of the polygon.
 ^^^
 
-^^^ hint id=3
+^^^ hint id=17_3
 Remember that the triangle is equilateral. What is the value of the biggest angle in the pentagon, above angle `x` and below angle `y`?
 ^^^
 
-^^^ hint id=4
+^^^ hint id=17_4
 You know that two of the angles in the pentagon are right angles.
 ^^^
 
@@ -477,7 +534,28 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 :::
 
 
-## 20. <Simon>
+## 20. Remainder riddle
+
+::: problem id=20_1 marks=3
+__20.1__ What is the remainder when you divide `2^100` by `10`?
+
+<input solution="6"/>
+
+---
+
+`2^1 = 2`, therefore the last digit = 2  
+`2^2 = 4`, therefore the last digit = 4  
+`2^3 = 8`, therefore the last digit = 8  
+`2^4 = 16`, therefore the last digit = 6  
+`2^5 = 32`, therefore the last digit = 2  
+`2^6 = 64`, therefore the last digit = 4  
+
+The pattern for the last digit (which is also the remainder when dividing by 10) is 2, 4, 8, 6, ... repeated.  
+
+Every 4th remainder is 6.  
+
+As 100 is a multiple of 4, then the remainder for `2^100` will be 6.
+:::
 
 
 ## 21.
@@ -572,8 +650,31 @@ After losing 10% of the men, the Grand Old Duke of York was left with 90% of the
 :::
 
 
-## 25. <Simon>
+## 25. How to See Without Glasses
 
+The video channel “minutephysics” has some great short explanations of scientific mysteries. Take a look at this one about a simple way to fix your eyesight without glasses.
+
+@[youtube](OydqR_7_DjI?end=150rel=0)
+
+::: problem id=25_1 marks=3
+__25.1__ What is the disadvantage of a pinhole when trying to see clearly?
+
+* [ ] You need to have a pin
+* [ ] You need to have a hole
+* [x] The image is relatively dark
+* [ ] The image is stripy
+* [ ] The image seems further away
+:::
+
+::: problem id=25_2 marks=3
+__25.2__ What is another word for a hole?
+
+* [x] Aperture
+* [ ] Apparition
+* [ ] Apartment
+* [ ] Aperitif
+* [ ] Appendicitis
+:::
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -582,7 +683,6 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
