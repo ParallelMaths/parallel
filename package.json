@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.4.5",
     "@mathigon/hilbert": "^0.2.4",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-minify": "^0.5.1",
     "firebase-admin": "^8.3.0",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^3.0.3",
@@ -52,7 +53,7 @@
   "dependencies": {
     "@firebase/app": "^0.4.14",
     "firebase": "^6.4.0",
-    "firebase-tools": "6.3.0"
+    "firebase-tools": "^7.2.3"
   },
   "browserslist": [
     "> 1%",
