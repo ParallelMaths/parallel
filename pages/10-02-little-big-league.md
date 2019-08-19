@@ -91,7 +91,7 @@ Bernie still had 1/3 of the money, while Craig lost money, so it must have been 
 
 ---
 
-This problem is from [the terrific NRICH website](https://nrich.maths.org/), a treasure of mathematical ideas and questions. Go and explore.  
+This problem is from [the terrific NRICH website](https://nrich.maths.org/){target="_blank"}, a treasure of mathematical ideas and questions. Go and explore.  
 
 `7 : 6 : 5 = 7/18 : 6/18 : 5/18`  
 `6 : 5 : 4 = 6/15 : 5/15 : 4/15`   
@@ -105,7 +105,7 @@ We can see that Craig lost `1/90` of the money and Alice gained it. We are told 
 
 Therefore the total amount of money is 90 × $12 = $1,080.  
 
-And don’t forget to [explore NRICH soon](https://nrich.maths.org/).
+And don’t forget to [explore NRICH soon](https://nrich.maths.org/){target="_blank"}.
 :::
 
 

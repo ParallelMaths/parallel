@@ -74,6 +74,17 @@ There are no questions, but you can enter a competition. Just write a list of al
 
 @[youtube](uggtGH0d97k?rel=0)
 
+::: problem id=2_1 marks=3
+__2.1.__  Which of these biscuits is NOT mentioned in the song?
+
+* [ ] Thomas Hobbes Nobbes
+* [ ] Fig Newton
+* [ ] Choco Leibnitz
+* [x] Euclid Wafers
+* [ ] Petits Fourriers
+* [ ] Pythagoras Creams
+:::
+
 
 ## 3.	Intermediate Maths Challenge Problem (UKMT)
 

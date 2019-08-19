@@ -92,7 +92,7 @@ Either way, everyone gets 3 marks.
 
 ---
 
-This problem is from [the terrific NRICH website](https://nrich.maths.org/), a treasure of mathematical ideas and questions. Go and explore.
+This problem is from [the terrific NRICH website](https://nrich.maths.org/){target="_blank"}, a treasure of mathematical ideas and questions. Go and explore.
 
 `8/(3 – (8/3)) = 24`, or  
 
@@ -161,7 +161,7 @@ Which of the following is the quadrilateral?
 ^^^
 
 ---
-![](/resources/xxxxxxxxxx/10-diagram-answer.jpg){image align="right"}
+![](/resources/10-03-the-kessel-run/4-diagram-answer.jpg){image align="right"}
 We let the vertices of the quadrilateral be `P`, `Q`, `R`, `S` with the angles as shown in the diagram.  
 
 The sum of the interior angles of a quadrilateral is `360°`. Therefore, `x + 5x + 2x + 4x = 360`. That is, `(x + 5x) + (2x + 4x) = 360`. Since `x + 5x = 2x + 4x`, it follows that `x + 5x = 2x + 4x = 180`.  

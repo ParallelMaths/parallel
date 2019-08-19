@@ -27,7 +27,15 @@ Below is a simple website that tests how well you know your prime numbers and ho
 
 Just visit the [Is this a prime?](http://isthisprime.com/game/){target="_blank"} website and see how many numbers you can identify as primes or non-primes.
 
-There will be a prize for the top Y9 student, and 100 bonus badge points for everyone in the top 5. If you score more than 10, then email us at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk){target="_blank"} – just send us a screengrab showing your score by **midnight on December 11th**, and in the subject line write Y9 and the number of numbers identified. For example, if you scored 13, then your subject line should read “Y9 13”.
+::: problem id=1_1 marks=3
+__1.1.__ When you get a score bigger than 15, what does “Game over” page say?
+
+* [x] You correctly sorted x numbers.
+* [ ] Well done – you correctly sorted x numbers!
+* [ ] You’re a prime superstar for sorting x numbers!
+* [ ] Bronze level – you correctly sorted x numbers!
+* [ ] Sorting x numbers is great, but now aim for 20 numbers.
+:::
 
 
 ## 2.	A riddle
