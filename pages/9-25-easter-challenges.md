@@ -54,17 +54,17 @@ The isosceles triangle is also a right-angle triangle, so it has one long side, 
 ![](/resources/9-25-easter-challenges/2-triangles-answer.png){image align="right"}
 Let the side lengths of the isosceles right-angled triangle be `x`, `x` and `y` as shown in the diagram.  
 
-By Pythagoras’ Theorem `y^2 = x^2 + x^2 = 2x^2` and hence `y = √2x`.
+By Pythagoras’ Theorem `y^2 = x^2 + x^2 = 2x^2` and hence `y = sqrt(2) x`.
 
 We then see that the perimeters of the shapes are as follows:  
 
-* A: `4√2x`
-* B: `(4 + 2√2)x`
-* C: `(4 + 2√2)x`
+* A: `4 sqrt(2) x`
+* B: `(4 + 2 sqrt(2))x`
+* C: `(4 + 2 sqrt(2))x`
 * D: `6`  
-* E: `(4 + 2√2)x`.  
+* E: `(4 + 2 sqrt(2))x`.  
 
-Now, as `1 < √2 < 1.5`, we have `4√2 < 4 × 1.5 = 6 = 4 + 2 < 4 + 2√2`. So shape A has the shortest perimeter.  
+Now, as `1 < sqrt(2) < 1.5`, we have `4 sqrt(2) < 4 × 1.5 = 6 = 4 + 2 < 4 + 2 sqrt(2)`. So shape A has the shortest perimeter.  
 
 [Note: that, as the value of `x` is irrelevant, we could have, for example, put `x = 1` to begin with.]
 :::

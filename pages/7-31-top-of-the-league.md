@@ -154,7 +154,7 @@ Statement (2) is false. If a positive number which is less than 1 is squared, th
 
 Similarly, if we take the square root of a positive number that is less than 1, then the answer is larger than the original number. For example  
 
-`√1/4 = 1/2 > 1/4`.  
+`sqrt(1/4) = 1/2 > 1/4`.  
 
 Hence statement (3) is false.  
 

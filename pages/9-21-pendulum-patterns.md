@@ -29,7 +29,7 @@ Tom Rowett, who was in the video, has a huge and wonderful collection of odd obj
 and we will meet more of them in later Parallelograms. In this case, each pendulum
 swings at a different rate, because it has a different length. In fact, there is
 a formula that determines the relationship between the length of the pendulum and
-the time it takes to swing from left to right and back to the left: `T = 2π √(L/g)`
+the time it takes to swing from left to right and back to the left: `T = 2π sqrt(L/g)`
 
 where
 * __T__ is the time of a complete swing in seconds.

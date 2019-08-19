@@ -75,7 +75,7 @@ It is then rotated similarly around `C` and then about `A` as shown in the diagr
 What is the length of the path traced out by point `C` during this sequence of rotations?
 
 * [x] `(4π)/3`
-* [ ] `2√3`
+* [ ] `2 sqrt(3)`
 * [ ] `(8π)/3`
 * [ ] `3`
 * [ ] `(2π)/3`

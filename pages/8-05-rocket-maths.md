@@ -140,9 +140,9 @@ There are 2 ways to solve this problem.
 
 2.	Re-arrange the equation, so that t is the subject of the equation:
 
-`t = √(s/5)`    
-=> `t = √(20/5)`  
-=> `t = √4 = 2` seconds.
+`t = sqrt(s/5)`    
+=> `t = sqrt(20/5)`  
+=> `t = sqrt(4) = 2` seconds.
 :::
 
 ::: problem id=2_3 marks=1

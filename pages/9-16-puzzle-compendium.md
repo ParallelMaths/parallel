@@ -141,15 +141,15 @@ What fraction of the outer square is shaded?
 ^^^ hint id=4
 Suppose that the side length of the regular octagon is `s` units. The right angled isosceles triangles in the diagram have hypotenuses of length `s`. Suppose that the length of each of the other sides of these triangles is `t`.  
 
-By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/(√2) s`.
+By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/sqrt(2) s`.
 
 ![](/resources/9-16-puzzle-compendium/5-square-hint.png){image align="center"}
 ^^^
 
-* [ ] `√2 - 1`
+* [ ] `sqrt(2) - 1`
 * [x] `1/2`
-* [ ] `(√2 + 1)/4`
-* [ ] `(√2 + 2)/5`
+* [ ] `(sqrt(2) + 1)/4`
+* [ ] `(sqrt(2) + 2)/5`
 * [ ] `3/4`
 {.col-5}
 
@@ -157,21 +157,21 @@ By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/(√2) s`.
 
 Suppose that the side length of the regular octagon is `s` units. The right angled isosceles triangles in the diagram have hypotenuses of length `s`. Suppose that the length of each of the other sides of these triangles is `t`.  
 
-By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/(√2) s`.
+By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/sqrt(2) s`.
 
 ![](/resources/9-16-puzzle-compendium/5-square-hint.png){image align="center"}
 
-Hence the side length of the larger square is `s + 2t = s + (√2)s = (1 + √2)s`.
+Hence the side length of the larger square is `s + 2t = s + (sqrt(2))s = (1 + sqrt(2))s`.
 
 The side length of the smaller square is `s + 1/2 t + 1/2 t`  
 `= s + t`
-`= s + 1/(√2) s`  
-`= 1/(√2) (√2 + 1)s`  
-`= 1/(√2) (1 + √2)s`.
+`= s + 1/sqrt(2) s`  
+`= 1/sqrt(2) (sqrt(2) + 1)s`  
+`= 1/sqrt(2) (1 + sqrt(2))s`.
 
 Hence the fraction of the outer square that is shaded is
 
-`((1/(√2)(1 + √2)s)^2)/((1 + √2s)^2) = (1/(√2))^2 = 1/2`.
+`((1/sqrt(2)(1 + sqrt(2))s)^2)/((1 + sqrt(2)s)^2) = (1/sqrt(2))^2 = 1/2`.
 :::
 
 

@@ -301,7 +301,7 @@ From this table we see that 12 is the smallest abundant number.
 ## 11.
 
 ::: problem id=11_1 marks=3
-In the diagram, `PQRS` is a parallelogram; `∠QRS = 50°; ∠SPT = 62°` and `PQ = PT`.
+In the diagram, `PQRS` is a parallelogram; `∠QRS = 50°`; `∠SPT = 62°` and `PQ = PT`.
 
 ![](/resources/9-13-chrismaths/11-parallelogram.jpg){image align="center"}
 
@@ -569,11 +569,11 @@ The parallelogram PQRS is formed by joining together four equilateral triangles 
 
 What is the length of the diagonal SQ?
 
-* [x] A) `√7`
-* [ ] B) `√8`
+* [x] A) `sqrt(7)`
+* [ ] B) `sqrt(8)`
 * [ ] C) `3`
-* [ ] D) `√6`
-* [ ] E) `√5`
+* [ ] D) `sqrt(6)`
+* [ ] E) `sqrt(5)`
 {.col-5}
 
 ---
@@ -587,7 +587,7 @@ Therefore `QT^2 = (1)^2 - (1/2)^2 = 1 - 1/4 = 3/4`
 
 Hence, by Pythagoras’ Theorem applied to the right angled triangle `SQT, SQ^2 = ST^2 + QT^2 = (5/2)^2 + 3/4 = 25/4 + 3/4 = 7`.
 
-Therefore, `SQ = √7`.
+Therefore, `SQ = sqrt(7)`.
 :::
 
 

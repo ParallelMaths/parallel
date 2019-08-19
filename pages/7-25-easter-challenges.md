@@ -419,7 +419,7 @@ Statement (ii) is false. If a positive number which is less than 1 is squared, t
 
 Similarly, if we take the positive square root of a number that is less than 1, then the answer is larger than the original number. For example
 
-`√(1/4) = 1/2 > 1/4`.
+`sqrt(1/4) = 1/2 > 1/4`.
 
 Hence statement (iii) is false.  
 
@@ -441,7 +441,7 @@ __15.1__ What is the remainder when the square of 49 is divided by the square ro
 
 ---
 
-Because `49 = 7 × 7`, it follows both that `√49 = 7` and that 7 is a factor of 49.  
+Because `49 = 7 × 7`, it follows both that `sqrt(49) = 7` and that 7 is a factor of 49.  
 
 Therefore 7 is also a factor of `49^2`.  
 

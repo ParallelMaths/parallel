@@ -12,12 +12,18 @@ grunt.initConfig({
   },
 
   babel: {
-    options: {presets: ['es2015', 'stage-3']},
-    app: {files: {'static/parallel.js': 'static/parallel.js'}}
-  },
-
-  uglify: {
-    options: {banner: '<%= banner %>'},
+    options: {
+      presets: [['@babel/preset-env', {
+        modules: false,
+        useBuiltIns: false,
+        loose: true
+      }], ['minify', {
+        builtIns: false,  // This fixes the "Couldn't find intersection" error.
+        mangle: { keepClassName: true }  // Required for duplicate Geometry classes.
+      }]],
+      comments: false,
+      minified: true
+    },
     app: {files: {'static/parallel.js': 'static/parallel.js'}}
   },
 
@@ -85,5 +91,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('build', ['rollup', 'babel', 'less', 'autoprefixer', 'markdown', 'yaml']);
-grunt.registerTask('default', ['clean', 'build', 'uglify', 'cssmin', 'copy']);
+grunt.registerTask('build', ['rollup', 'less', 'autoprefixer', 'markdown', 'yaml']);
+grunt.registerTask('default', ['clean', 'build', 'babel', 'cssmin', 'copy']);

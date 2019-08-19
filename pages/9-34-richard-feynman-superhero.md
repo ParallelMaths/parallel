@@ -153,11 +153,11 @@ __4.1__ The diagram shows two concentric circles with radii of 1 and 2 units, to
 
 What is the length of the perimeter of the octagon?
 
-* [ ] `8√2`
-* [ ] `8√3`
-* [ ] `8√(3π)`
-* [ ] `2√(5 + 2√2)`
-* [x] `8√(5 - 2√2)`
+* [ ] `8 sqrt(2)`
+* [ ] `8 sqrt(3)`
+* [ ] `8 sqrt(3π)`
+* [ ] `2 sqrt(5 + 2 sqrt(2))`
+* [x] `8 sqrt(5 - 2 sqrt(2))`
 
 ^^^ hint id=3_1
 ![](/resources/9-34-richard-feynman-superhero/4-circle-answer.jpg){image align="right"}
@@ -173,18 +173,18 @@ For clarity we have drawn this triangle in a larger scale below.
 ^^^ hint id=3_3
 We let `T` be the point where the perpendicular from `Q` to `OP` meets `OP`.  
 
-In the right-angled triangle `QTO`, `∠TOQ = 45°`. Therefore `∠TQO = 45°` and so the triangle is isosceles. So `OT = TQ`. Since `OQ = 1`, we have, using Pythagoras’ Theorem, that `OT^2 + OT^2 = 1`. Hence `OT^2 = 1/2` and therefore `OT = TQ = 1/(√2)`.  
+In the right-angled triangle `QTO`, `∠TOQ = 45°`. Therefore `∠TQO = 45°` and so the triangle is isosceles. So `OT = TQ`. Since `OQ = 1`, we have, using Pythagoras’ Theorem, that `OT^2 + OT^2 = 1`. Hence `OT^2 = 1/2` and therefore `OT = TQ = 1/sqrt(2)`.  
 ^^^
 
 ^^^ hint id=3_4
-It follows that `PT = 2 − 1/(√2)`. Therefore, by Pythagoras’ Theorem applied to triangle `PTQ`,
+It follows that `PT = 2 − 1/sqrt(2)`. Therefore, by Pythagoras’ Theorem applied to triangle `PTQ`,
 
 `PQ^2 = PT^2 + TQ^2`  
-`= (2 − 1/(√2))^2 + (1/(√2))^2`  
-`= (4 - 2√2 + 1/2) + 1/2`  
-`= 5 - 2√2`.
+`= (2 − 1/sqrt(2))^2 + (1/sqrt(2))^2`  
+`= (4 - 2sqrt(2) + 1/2) + 1/2`  
+`= 5 - 2 sqrt(2)`.
 
-It follows that `PQ = √(5 − 2√2)` and hence the length of the perimeter of the octagon is eight times the length of `PQ`.
+It follows that `PQ = sqrt(5 − 2sqrt(2))` and hence the length of the perimeter of the octagon is eight times the length of `PQ`.
 ^^^
 
 ---
@@ -195,16 +195,16 @@ We need to find the length of one of the sides of the octagon. We consider the s
 We let `T` be the point where the perpendicular from `Q` to `OP` meets `OP`.  
 
 ![](/resources/9-34-richard-feynman-superhero/4-triangle-answer.jpg){image align="right"}
-In the right-angled triangle `QTO`, `∠TOQ = 45°`. Therefore `∠TQO = 45°` and so the triangle is isosceles. So `OT = TQ`. Since `OQ = 1`, we have, using Pythagoras’ Theorem, that `OT^2 + OT^2 = 1`. Hence `OT^2 = 1/2` and therefore `OT = TQ = 1/(√2)`.  
+In the right-angled triangle `QTO`, `∠TOQ = 45°`. Therefore `∠TQO = 45°` and so the triangle is isosceles. So `OT = TQ`. Since `OQ = 1`, we have, using Pythagoras’ Theorem, that `OT^2 + OT^2 = 1`. Hence `OT^2 = 1/2` and therefore `OT = TQ = 1/sqrt(2)`.  
 
-It follows that `PT = 2 − 1/(√2)`. Therefore, by Pythagoras’ Theorem applied to triangle `PTQ`,
+It follows that `PT = 2 − 1/sqrt(2)`. Therefore, by Pythagoras’ Theorem applied to triangle `PTQ`,
 
 `PQ^2 = PT^2 + TQ^2`  
-`= (2 − 1/(√2))^2 + (1/(√2))^2`  
-`= (4 - 2√2 + 1/2) + 1/2`  
-`= 5 - 2√2`.
+`= (2 − 1/sqrt(2))^2 + (1/sqrt(2))^2`  
+`= (4 - 2 sqrt(2) + 1/2) + 1/2`  
+`= 5 - 2 sqrt(2)`.
 
-It follows that `PQ = √(5 − 2√2)` and hence the length of the perimeter of the octagon is `8√(5 − 2√2)`.
+It follows that `PQ = sqrt(5 − 2sqrt(2))` and hence the length of the perimeter of the octagon is `8 sqrt(5 − 2 sqrt(2))`.
 :::
 
 

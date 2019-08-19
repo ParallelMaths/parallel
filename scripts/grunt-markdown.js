@@ -2,7 +2,7 @@ const grunt = require('grunt');
 const markdown = require('markdown-it');
 const JSDom = require('jsdom').JSDOM;
 const markdwonContainer = require('markdown-it-container');
-const ascii2mathml = require('ascii2mathml');
+const Expression = require('@mathigon/hilbert').Expression;
 
 const btoa = (str) => Buffer.from(str).toString('base64');
 
@@ -58,8 +58,13 @@ md.renderer.rules.code_inline = function(tokens, idx) {
   let str = tokens[idx].content.trim();
   str = str.replace(/_(.*?)(\s|$|=|\(|\)|\*|\/|\^)/g, '_($1)$2').replace(/–/g, '-');
 
-  const maths = ascii2mathml(str, {bare: true}).replace(/<mo>-<\/mo>/g, '<mo>–</mo>');
-  return `<span class="math" v-pre>${maths}</span>`;
+  try {
+    const maths = Expression.parse(str).toMathML();
+    return `<span class="math" v-pre>${maths}</span>`;
+  } catch(e) {
+    console.log(`Maths parsing error in "${str}":`, e.toString());
+    return '<span class="math" v-pre></span>';
+  }
 };
 
 function parseProblemList($list, $problem) {

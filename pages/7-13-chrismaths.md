@@ -710,17 +710,17 @@ What is the difference between the largest and smallest five-digit palindromic n
 
 ---
 
-We use the notation `‘abcde’` for the number which is represented by the digits `a, b, c, d` and `e` when expressed using the standard base 10. Using this notation we can write a five-digit palindromic number as `‘abcba’`, where `a, b` and `c` are digits.  
+We use the notation ‘`abcde`’ for the number which is represented by the digits `a, b, c, d` and `e` when expressed using the standard base 10. Using this notation we can write a five-digit palindromic number as ‘`abcde`’, where `a, b` and `c` are digits.  
 
-Since 45 = 5 × 9, and 5 and 9 have no common factors, the five-digit palindromic number `‘abcba’ `is a multiple of 45 if, and only if, it is a multiple of both 5 and 9.  
+Since 45 = 5 × 9, and 5 and 9 have no common factors, the five-digit palindromic number ‘`abcde`’ is a multiple of 45 if, and only if, it is a multiple of both 5 and 9.  
 
-A number is a multiple of 5 if, and only if, its units digit is 0 or 5. Here the units digit a cannot be 0, since otherwise `‘abcba’` would not be a five-digit number. We deduce that `a` is 5. Thus `a` five-digit palindromic number which is divisible by 5 is of the form `‘5bcb5’`, where `b `and `c` are digits.  
+A number is a multiple of 5 if, and only if, its units digit is 0 or 5. Here the units digit a cannot be 0, since otherwise ‘`abcde`’ would not be a five-digit number. We deduce that `a` is 5. Thus `a` five-digit palindromic number which is divisible by 5 is of the form ‘`5bcb5`’, where `b `and `c` are digits.  
 
 A number is a multiple of 9 if, and only if, the sum of its digits is a multiple of 9.  
 
-The smallest five-digit palindromic number that is a multiple of 45 has the form `‘50c05’`, corresponding to taking `b` to be 0. The digit sum of` ‘50c05’` is `10 + c`. For this to be a multiple of 9 we need to take the digit `c` to be `8`. Therefore `50805`, with digit sum 18, is the smallest five-digit palindromic number which is a multiple of 45.  
+The smallest five-digit palindromic number that is a multiple of 45 has the form ‘`50c05`’, corresponding to taking `b` to be 0. The digit sum of ‘`50c05`’ is `10 + c`. For this to be a multiple of 9 we need to take the digit `c` to be `8`. Therefore `50805`, with digit sum 18, is the smallest five-digit palindromic number which is a multiple of 45.  
 
-The largest five-digit palindromic number that is a multiple of 45 has the form `‘59c95’`, corresponding to taking `b` to be 9. The digit sum of` ‘59c95’` is `28 + c`. For this to be a multiple of 9 we need to take the digit` c` to be 8. Therefore `59895`, with digit sum 36, is the largest five-digit palindromic number which is a multiple of 45.  
+The largest five-digit palindromic number that is a multiple of 45 has the form ‘`59c95`’, corresponding to taking `b` to be 9. The digit sum of ‘`59c95`’ is `28 + c`. For this to be a multiple of 9 we need to take the digit` c` to be 8. Therefore `59895`, with digit sum 36, is the largest five-digit palindromic number which is a multiple of 45.  
 
 The difference between these two numbers is `59895 − 50805 = 9090`.
 :::

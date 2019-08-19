@@ -55,7 +55,7 @@ We have that 8 hours and 11 minutes is 8 x 60 + 11 = 491 minutes and 11 hours an
 
 So we need to decide which of the given fractions this is closest to. This can be done in more than one way. For example, as 491 is just below 500 and 665 is almost ⅓ of 2000, we have that:  
 
-`491/665` ~ `500/(⅓(2000))` = `1/(⅓(4))` = `3/4`. (Here “~” means “is approximately equal to”.)
+`491/665` ~ `500/(1/3 (2000))` = `1/(1/3 (4))` = `3/4`. (Here “~” means “is approximately equal to”.)
 
 Another method is to say that:  
 

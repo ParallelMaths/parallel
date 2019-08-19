@@ -27,7 +27,7 @@ See if you can take an intelligent guess what might be the sum of the following 
 By the way, I think these are some of the toughest questions ever included in a Parallelogram, so don’t worry if you find some or all of these questions confusing. Just try your best. You might surprise yourself.
 
 ::: problem id=1_1 marks=1
-__1.1.__ `1 + 1/2 + 1/4 + 1/8 + 1/16 + ... =`
+__1.1.__ `1 + 1/2 + 1/4 + 1/8 + 1/16 + … =`
 
 * [ ] 1.90
 * [ ] 1.99
@@ -41,7 +41,7 @@ The answer is 2. One way to understand why the answer is 2 is to start by imagin
 
 The argument in the previous paragraph is not completely watertight, but it gives a sense of why the answer is 2. However, next I will give you a more rigorous proof. It might make sense if you study it carefully, but don’t worry if it is baffling. Let’s call the series above S, then:
 
-`S/2 = (1 + 1/2 + 1/4 + 1/8 + ...)/2 = 1/2 + 1/4 + 1/8 + 1/16 + ...`
+`S/2 = (1 + 1/2 + 1/4 + 1/8 + …)/2 = 1/2 + 1/4 + 1/8 + 1/16 + …`
 
 Therefore,
 
@@ -62,7 +62,7 @@ __1.2.__ `9/10 + 9/100 + 9/(1,000) + 9/(10,000) + … =`
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ `4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - ... =`
+__1.3.__ `4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - … =`
 
 * [ ] 3
 * [x] π

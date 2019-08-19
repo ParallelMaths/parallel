@@ -92,7 +92,7 @@ This is one of the toughest questions from a UKMT Intermediate Maths Challenge e
 ![](/resources/9-18-mean-girls/3-square.jpg){image align="right"}
 __3.1__  The diagram shows a square, a diagonal and a line joining a vertex to the midpoint of a side. What is the ratio of area `P` to area `Q`?
 
-* [ ] `1 : √2`
+* [ ] `1 : sqrt(2)`
 * [ ] `2 : 3`
 * [ ] `1 : 2`
 * [x] `2 : 5`

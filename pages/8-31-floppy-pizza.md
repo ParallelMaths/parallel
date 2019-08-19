@@ -87,7 +87,7 @@ __3.1__ What is the remainder when the square of 49 is divided by the square roo
 
 ---
 
-Because `49 = 7 × 7`, it follows both that `√49 = 7` and that 7 is a factor of 49.
+Because `49 = 7 × 7`, it follows both that `sqrt(49) = 7` and that 7 is a factor of 49.
 
 Therefore 7 is also a factor of `49^2`.  
 
@@ -95,13 +95,13 @@ Hence the remainder when the square of 49 is divided by the square root of 49 is
 :::
 
 ::: problem id=3_2 marks=1
-__3.2__ Find, without using a calculator, the value of `49^2 ÷ √49`.
+__3.2__ Find, without using a calculator, the value of `49^2 ÷ sqrt(49)`.
 
 <input solution="343"/>
 
 ---
 
-`49^2 ÷ √49 = (7^2)^2 ÷ 7 = 7^4 ÷ 7 = 7^3 = 343`
+`49^2 ÷ sqrt(49) = (7^2)^2 ÷ 7 = 7^4 ÷ 7 = 7^3 = 343`
 :::
 
 

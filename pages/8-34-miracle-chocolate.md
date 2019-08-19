@@ -115,23 +115,23 @@ How many combinations of `p` and `q` do you have?
 
 We have `15 = 3 × 5`. Also, 3 and 5 have no common factors other than 1. It follows that the multiples of 15 are just the numbers that are multiples of both 3 and of 5.  
 
-For `‘p869q’` to be a multiple of 5 we require that its units digit `q` is either 0 or 5.  
+For ‘`p869q`’ to be a multiple of 5 we require that its units digit `q` is either 0 or 5.  
 
-For `‘p869q’` to be a multiple of 3 we require that the sum of its digits is a multiple of 3.  
+For ‘`p869q`’ to be a multiple of 3 we require that the sum of its digits is a multiple of 3.  
 
-We first consider the case where `q` is 0. In this case the sum of the digits of `‘p869q’` is given by  
+We first consider the case where `q` is 0. In this case the sum of the digits of ‘`p869q`’ is given by  
 
 `p + 8 + 6 + 9 + 0 = p + 23`.  
 
-Because `‘p869q’` is a five-digit integer, `p` is not 0. So the possible values of `p` are 1, 2, 3, 4, 5, 6, 7, 8 and 9. It is easily checked that there are three of these digits, namely 1, 4 and 7, for which `p + 23` is a multiple of 3.  
+Because ‘`p869q`’ is a five-digit integer, `p` is not 0. So the possible values of `p` are 1, 2, 3, 4, 5, 6, 7, 8 and 9. It is easily checked that there are three of these digits, namely 1, 4 and 7, for which `p + 23` is a multiple of 3.  
 
-Similarly, when `q` is 5, the sum of the digits of `‘p869q’` is  
+Similarly, when `q` is 5, the sum of the digits of ‘`p869q`’ is  
 
 `p + 8 + 6 + 9 + 5 = p + 28`.  
 
 In this case there are also three choices of `p`, namely 2, 5 and 8, for which `p + 28` is a multiple of 3.  
 
-It follows that the number of pairs of the digits (`p, q`) for which `‘p869q’` is a multiple of 15 is 3 + 3, that is, 6.  
+It follows that the number of pairs of the digits (`p, q`) for which ‘`p869q`’ is a multiple of 15 is 3 + 3, that is, 6.  
 
 [Note: as we have found above, these pairs are (1, 0), (4, 0), (7, 0), (2, 5), (5, 5) and (8, 5).]
 :::

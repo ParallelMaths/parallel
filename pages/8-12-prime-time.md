@@ -110,7 +110,7 @@ How many strips are there?
 
 ---
 
-We know that 2 lengths have no grey, because there is no grey strip that touches any corner or which stretches along any side. We don’t know the number of strips, but we could call it NS, and we know that the number of grey strips is `½(NS – 1)`. So, the fraction of grey is:
+We know that 2 lengths have no grey, because there is no grey strip that touches any corner or which stretches along any side. We don’t know the number of strips, but we could call it NS, and we know that the number of grey strips is `1/2 (NS – 1)`. So, the fraction of grey is:
 
 [ ½(NS – 1) + ½(NS – 1) ] ÷ 4 = 6/25
 
