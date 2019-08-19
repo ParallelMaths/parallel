@@ -37,6 +37,7 @@ __1.1.__ 13 is a happy number. Which of the following is very obviously also a h
 * [ ] 14
 * [ ] 26
 * [x] 31
+{.col-4}
 
 ---
 
@@ -50,6 +51,7 @@ __1.2.__ How many numbers are in the melancoil?
 * [x] 8
 * [ ] 9
 * [ ] 10
+{.col-4}
 
 ---
 
@@ -114,6 +116,7 @@ __3.1__ What is the value of ((1−1) −1) − (1− (1−1))?
 * [ ] 0
 * [ ] 1
 * [ ] 2
+{.col-5}
 
 ---
 

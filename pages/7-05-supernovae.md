@@ -33,6 +33,7 @@ __1.1.__ What is the volume of a sphere with a radius of 2 cm?
 * [ ] 18.8 cm<sup>3</sup>
 * [ ] 25.1 cm<sup>3</sup>
 * [x] 33.5 cm<sup>3</sup>
+{.col-4}
 
 ---
 
@@ -58,6 +59,7 @@ __1.3.__ What is the approximate volume of a sphere with a radius of 0.909 cm?
 * [x] π cm<sup>3</sup>
 * [ ] 2π cm<sup>3</sup>
 * [ ] π<sup>3</sup> cm<sup>3</sup>
+{.col-4}
 
 ---
 
@@ -111,6 +113,7 @@ __3.1__ Ulysses, Kim, Mei, and Tanika had their 12th, 14th, 15th and 15th birthd
 * [ ] 2025
 * [ ] 2057
 * [ ] 2113
+{.col-5}
 
 ---
 

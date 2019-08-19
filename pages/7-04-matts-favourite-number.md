@@ -30,6 +30,7 @@ __1.1.__ It is possible to regenerate 3,435 by raising each digit to its own pow
 * [x] 7.5%
 * [ ] 25.6%
 * [ ] 256%
+{.col-5}
 :::
 
 ::: problem id=1_2 marks=2
@@ -89,6 +90,7 @@ What percentage of the 10 000 men were still there when they reached the bottom 
 * [ ] `73 1/2%`
 * [ ] `66 2/3%`
 * [ ] `25%`
+{.col-5}
 
 ---
 

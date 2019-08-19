@@ -59,6 +59,7 @@ If the infinite hotel can deal with infinity-plus-one-more guests (indeed infini
 * [x] No
 * [ ] Nes
 * [ ] Yo
+{.col-4}
 :::
 
 
@@ -115,6 +116,7 @@ __3.1__ Each side of an isosceles triangle is a whole number of centimetres. Its
 * [ ] 5
 * [ ] 6
 * [ ] 7
+{.col-5}
 
 (We will have a similar question next week, so make sure you check the answer thoroughly.)
 

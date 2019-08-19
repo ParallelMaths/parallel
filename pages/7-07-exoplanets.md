@@ -83,6 +83,7 @@ __3.1__ Weighing the baby at the clinic was a problem. The baby would not keep s
 * [ ] 206 kg
 * [ ] 215 kg
 * [ ] 284 kg
+{.col-5}
 
 ---
 

@@ -118,6 +118,7 @@ What is the side-length of each square?
 * [ ] 8 cm
 * [ ] 9 cm
 * [ ] 10 cm
+{.col-5}
 
 ^^^ hint id=1  marks=2
 The total area of the three squares is the sum of the area of the non-overlapping parts and twice the areas of the overlapping sections, as each of these forms part of two squares. Why? If we look at, say, the 2 cm<sup>2</sup> overlap, this appears in two overlapping squares, which is why it needs to be counted twice.

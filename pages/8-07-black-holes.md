@@ -67,6 +67,7 @@ __2.2__ After suggesting the idea of a black hole, how long did Chandrasekhar ha
 * [ ] Months
 * [ ] Years
 * [x] Decades
+{.col-5}
 
 ---
 
@@ -90,6 +91,7 @@ N.B. If one arrangement can be transformed into another by rotating the installa
 * [x] 12
 * [ ] 14
 * [ ] 24
+{.col-5}
 
 ---
 

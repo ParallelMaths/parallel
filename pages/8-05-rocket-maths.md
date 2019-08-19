@@ -41,6 +41,7 @@ __1.1.__ Choose the value of 0!
 * [ ] 0
 * [x] 1
 * [ ] 2
+{.col-4}
 
 ---
 
@@ -108,6 +109,7 @@ __2.1__ If an object is dropped from a cliff edge, how far will it fall in 4 sec
 * [x] 80 m
 * [ ] 20 m
 * [ ] 160 m
+{.col-5}
 
 ---
 
@@ -125,6 +127,7 @@ __2.2__ If an object is dropped from a cliff edge, how long will it take to fall
 * [ ] 4 s
 * [ ] 10 s
 * [ ] 100 s
+{.col-4}
 
 ---
 
@@ -164,6 +167,7 @@ __3.1__ How many different possibilities are there for the side lengths of an is
 * [ ] 7
 * [ ] 9
 * [ ] 11
+{.col-5}
 
 ---
 

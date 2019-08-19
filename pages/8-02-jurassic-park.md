@@ -110,6 +110,7 @@ The 5:2 ratio suggests that we might have 5 seniors and 2 veterans, but if we ha
 * [ ] 48
 * [x] 58
 * [ ] 60
+{.col-5}
 
 ---
 The 5:2 ratio suggests that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible.

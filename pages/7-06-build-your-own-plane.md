@@ -103,6 +103,7 @@ Which piece has the longest perimeter?
 * [ ] C
 * [ ] D
 * [x] E
+{.col-5}
 
 ^^^ hint id=1
 If we look at pieces B and C, they have roughly the same perimeter – let’s call it 12 lengths. However, B has a longer perimeter than C, because more of B’s sides are crooked, and crooked sides are longer than straight sides.

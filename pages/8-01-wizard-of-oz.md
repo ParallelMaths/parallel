@@ -78,6 +78,7 @@ Clue: To get you started, after the first stage we reach 5,200 – 0025 = 5,175.
 * [x] 7
 * [ ] 9
 * [ ] 10
+{.col-4}
 
 ---
 
@@ -124,6 +125,7 @@ __2.1__ Instead of “square roots”, what should the Scarecrow have said?
 * [ ] Cubes
 * [ ] Lengths
 * [ ] Widths
+{.col-4}
 :::
 
 ::: problem id=2_2 marks=1
@@ -133,6 +135,7 @@ __2.2__ Instead of “isosceles”, what should the Scarecrow have said?
 * [x] Right-angle
 * [ ] Equilateral
 * [ ] Symmetrical
+{.col-4}
 :::
 
 
@@ -152,6 +155,7 @@ Which of the following could be the distance she walked?
 * [x] 19 km
 * [ ] 24 km
 * [ ] 35 km
+{.col-5}
 
 ---
 

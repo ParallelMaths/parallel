@@ -37,6 +37,7 @@ __1.2.__ Is zero positive or negative?
 * [ ] Negative
 * [x] Neither
 * [ ] Both
+{.col-4}
 :::
 
 ::: problem id=1_3 marks=2
@@ -48,6 +49,7 @@ __1.3.__ According to James Grime, which of these is the most even number?
 * [ ] 3
 * [ ] 4
 * [ ] 5
+{.col-6}
 
 ---
 
@@ -63,6 +65,7 @@ __1.4.__ According to James Grime, which is the most even number among the list 
 * [x] 8
 * [ ] 10
 * [ ] 12
+{.col-6}
 
 ---
 
@@ -116,6 +119,7 @@ How much paint was left after both coats were complete?
 * [ ] 250 ml
 * [x] 500 ml
 * [ ] 600 ml
+{.col-5}
 
 ---
 
