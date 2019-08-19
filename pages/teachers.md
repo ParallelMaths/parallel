@@ -1,39 +1,25 @@
 # Introduction for Teachers
 
-Parallel is an opportunity for your students to broaden their mathematical
-horizons and stretch their brains via a series of weekly web-based maths sheets,
-known as Parallelograms, published online at 3pm each Thursday.
+Parallel is an opportunity for your students to broaden their mathematical horizons and stretch their brains via a series of weekly web-based maths sheets, known as Parallelograms, published online at 3pm each Thursday.  
 
-Each maths sheet is set by Simon Singh, author of several best-selling books,
-and questions are automatically marked and explanations are provided.
+Each maths challenge sheet, so-called Parallelogam, is set by Simon Singh, author of several best-selling books, and questions are automatically marked and explanations are provided.  
 
-The material is all FREE and you are welcome to use it in any way that helps.
-You could do each weekly Parallelogram in class as a group, but the material is
-better-suited to being completed at home. You could point your students
-towards the website and they can create their own accounts and continue
-independently of you.
+There is a separate Parallelogram for Year 7, Year 8, Year 9 and Year 10 students.  
 
-However, we think __the best way to use this resource__ is to create a teacher
-account and encourage your whole class or part of your class to complete the
-Parallelograms each week. Your students should be fairly keen and fairly strong
-mathematicians, as this is an extra dose of maths (albeit fun) at the weekend,
-but if you and they are willing to take part then there are big advantages to
-having a teacher account:
+The material is all FREE.  
 
-1. Parallelograms will be automatically marked.
-2. You will have access to all the student scores.
-3. Scoresheets will highlight excellent students and those who are
-   struggling, so that you can easily recognise achievement or offer
-   encouragement.
-4. Students will be more motivated if they are part of a class account.
-5. The Parallelogram becomes a routine that builds skill, interest and
-   confidence week after week.
+We __strongly recommend__ that you use Parallel in the following way.  
 
-So, why not give it a try. [Signing up as a teacher](/signup#teacher) is quick, easy and free, and if it is not for you then you drop out at any time.
+First, select a group of ambitious students, with the expectation that they will complete the Parallel web challenges EVERY week, i.e., it is part of their regular homework. Your students should be keen and fairly strong mathematicians, as this is an extra dose of maths (albeit fun) at the weekend It is better that a dozen students in the top set follow the programme for the whole year, rather than the whole top set starting in September and giving up in October. Once you have decided that you have identified a dedicated group of students who will benefit from Parallel, then:
 
-__Please note:__ In order for pupils to receive the weekly email reminder to take part in the latest Parallelograms and successfully manage their account and password, you may need your school's IT department to whitelist the following addresses:
 
-* noreply@parallel-cf800.firebaseapp.com
-* https://parallel-cf800.firebaseapp.com
-* contact@parallel.org.uk
-* https://parallel.org.uk/
+1.  Create a teacher account, which is quick, easy and free.
+2.	You will then receive your Teacher Code, which you should share with your students.
+3.	Ask your students to create a free student account, entering your Teacher Code when requested.
+4.	Each Thursday, remind your students to complete each Parallel challenge by Monday.
+5.	On Monday, check how well the students have done via your dashboard.
+6.	Make sure any student who hasn’t completed a challenge catches up quickly.
+
+Students can create their own accounts and continue without a teacher code, but they will be more successful and more likely to complete the whole year of Parallel challenges if you are a guiding influence and if there are a few other classmates taking part. Importantly, remember, you don’t have to mark or even discuss and of the Parallel questions or videos.
+
+So, why not give it a try. [Signing up as a teacher](/signup#teacher) is quick, easy and free.

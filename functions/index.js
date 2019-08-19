@@ -89,7 +89,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => res.render('home'));
 app.get('/contact', (req, res) => res.render('contact'));
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (req, res) => res.render('_layout', {content}));
 }

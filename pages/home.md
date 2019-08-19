@@ -7,8 +7,8 @@
   on the Parallelograms on the left.
 * [Teachers](/teachers) can create an account and set Parallelograms for their
   classes.
-* This site is aimed at 11- to 14-year-olds, but everyone is welcome.
-* We’ll be adding material for older and younger students next year.
+* This site is aimed at 11- to 15-year-olds, but everyone is welcome.
+* We’ll be adding material for older students next year.
 
 <div class="dictionary">
 
