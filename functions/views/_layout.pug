@@ -51,7 +51,7 @@ html
                   p.small= user.schoolName
                 p.small
                   if !user.code
-                    | Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8: 9}
+                    | Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8 : user.level === 'year9' ? 9 : 10}
                     span.dot •
                   a(href="/account") Edit Account
                   span.dot •
@@ -132,7 +132,7 @@ html
           .modal-background
           .modal-body
             h2 Welcome back to Parallel!
-            p.text-center We’ve increased your level to #[strong Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8 : 9}]. You can always change it on your #[a(href="/account") account settings] page.
+            p.text-center We’ve increased your level to #[strong Year #{user.level === 'year8' ? 8 : user.level === 'year9' ? 9 : 10}]. You can always change it on your #[a(href="/account") account settings] page.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
     footer

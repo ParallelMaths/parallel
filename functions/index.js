@@ -12,8 +12,8 @@ const user = require('./utilities/user');
 
 const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
-const LEVELS = ['year7', 'year8', 'year9'];
-const LEVEL_NAMES = {year7: 'Year 7', year8: 'Year 8', year9: 'Year 9'};
+const LEVELS = ['year7', 'year8', 'year9',  'year10'];
+const LEVEL_NAMES = {year7: 'Year 7', year8: 'Year 8', year9: 'Year 9', year10: 'Year 10'};
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const PAGES_MAP = {};

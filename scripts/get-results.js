@@ -46,7 +46,7 @@ fb.initializeApp({
 });
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
-const pages = [...pageData.year7, ...pageData.year8, ...pageData.year9];
+const pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10];
 
 async function run() {
   const userData = await fb.database().ref('users').once('value');
