@@ -43,5 +43,7 @@ Students receive badges after accumulating points with each Parallelogram – 10
 
 This a small incentive to encourage students, but you might want to offer a bigger incentive such as house points or certificates at the end of each term or at the end of the year, recognising students who have completed all the relevant Parallelograms.  
 
-* [Downloadable end of Term certificate](/resources/parallel-certificate-term.pdf){target="_blank"}.
-* [Downloadable end of Year certificate](/resources/parallel-certificate-year.pdf){target="_blank"}.
+* [Downloadable Autumn Term certificate](/resources//parallel-certificate-autumn-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-autumn-term-grey.pdf){target="_blank"}.
+* [Downloadable Spring Term certificate](/resources/parallel-certificate-spring-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-spring-term-grey.pdf){target="_blank"}.
+* [Downloadable Summer Term certificate](/resources/parallel-certificate-summer-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-summer-term-grey.pdf){target="_blank"}.
+* [Downloadable End of Year certificate](/resources/parallel-certificate-year.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-year-grey.pdf){target="_blank"}.
