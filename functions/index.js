@@ -18,11 +18,13 @@ const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 
 const PAGES_MAP = {};
 for (let l of LEVELS) {
-  for (let p of PAGES[l]) {
+  for (let [i, p] of PAGES[l].entries()) {
     const date = new Date(p.available);
     p.available = +date;
     p.deadline = +(new Date(p.deadline));
     p.date = `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+    p.year = +l.slice(4);
+    p.index = PAGES[l].length - i;
     PAGES_MAP[p.url] = p;
   }
 }

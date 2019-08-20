@@ -90,7 +90,7 @@ html
                 nav(v-show=`user.level == '${l}'`)
                   for p in pages[l]
                     a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
-                      .title-meta #{p.subtitle} #[span.spaced •] #{p.date}
+                      .title-meta PG #{p.index} #[span.spaced •] #{p.date}
                       .title= p.title
             else
               .sidebar-field: a(href="/badges")
@@ -104,7 +104,7 @@ html
               nav
                 for p in pages[user.level || 'year7']
                   a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
-                    .title-meta #{p.subtitle} #[span.spaced •] #{p.date}
+                    .title-meta Parallelogram #{p.index} #[span.spaced •] #{p.date}
                     .title= p.title
                     if user.answers[p.url] && user.answers[p.url].submitted
                       .status.score(class=scoreClass(user.answers[p.url].score)) #{user.answers[p.url].score}%
