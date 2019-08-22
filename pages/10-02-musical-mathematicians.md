@@ -1,4 +1,4 @@
-# Little Big League
+# Musical Mathematicss
 
 <div class="dictionary">
 
@@ -21,48 +21,44 @@ These challenges are a random walk through the mysteries of mathematics, most of
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
-## 1. Little Big League
+## 1. Musical mathematics
 
-In the 1994 film “Little Big League”, a 12-year-old boy called Billy suddenly becomes the manager of the Minnesota Twins baseball team. In this clip, Billy has to solve a maths problem for his homework before he can focus on the rapidly approaching baseball game.
+It is extraordinary that so much of the universe can be explained using mathematical equations. Indeed, it is often said that mathematics is the language of the universe. It is certainly the language of science.  
 
-@[youtube](5OIUa-mxIhM?rel=0)
+In this clip, from a documentary in the American Nova series, the jazz musician Esperanza Spalding explains how music is also at the heart of music. Pay attention to the way that numbers relate to musical intervals (an octave, a fifth and a fourth).  
+
+@[youtube](mpcpzXuzdQk?start=827&end=1012&rel=0)
 
 A player comes up with a correct solution, but it is not very well explained, so let’s try a similar problem.  
 
 Suppose Mr Smith can paint the entire house in 12 hours, and Mrs Smith takes just 8 hours to paint the same house. How long would it take the Mr and Mrs Smith working together to paint the house?
 
-::: problem id=1_1 marks=1
-__1.1.__ First, which of the following answers is correct?
+::: problem id=1_1 marks=2
+__1.1.__ What ratio in lengths describe a fourth?
 
-* [ ] Working together, they will take even more time than the slower painter.
-* [x] Working together, they will take even less time than the faster painter. CORRECT
-* [ ] Working together, they will take less time than the slower painter, but more time than the quicker painter.
+* [ ] 4:4
+* [x] 4:3
+* [ ] 4:2
+* [ ] 4:1
+* [ ] 1:4
 :::
 
-::: problem id=1_2 marks=4
-__1.2.__ How long will it take Mr and Mrs Smith to paint the house if they work together?  
+::: problem id=1_1 marks=2
+__1.2.__ Pythagoras is said to have noticed the relationship between mathematics and music. According to Pythagoras, the universe is based on numbers, but only whole numbers and their ratios. So, when one of his followers discovered a different type of number, Pythagoras executed him. What sort of number did the follower discover? You might need to do some googling to get the answer.
 
-Give your answer in minutes (not hours and minutes).
+(open) Hint: Pythagoras acted irrationally when he executed the follower.
 
-<input solution="288"/>
 
-^^^ hint id=1_2 marks=1
-How much of the house can Mr Smith paint in 1 hour, and how much of the house can Mrs Smith paint in 1 hour? So, working together, how much of the house can they paint in 1 hour?
-^^^
+* [ ] Negative numbers
+* [ ] Zero
+* [ ] √2
+* [ ] ∞
+* [ ] Fractions
+* [ ] Quaternions
 
 ---
 
-If it takes Mr Smith 12 hours to paint a house, then he paints `1/12` of a house per hour.  
-
-If it takes Mrs Smith 8 hours to paint a house, then she paints `1/8` of a house per hour.  
-
-Together they paint `1/12 + 1/8 = 5/24` of a house per hour.  
-
-This means they will take `24/5` hours to paint the house.  
-
-(This previous step sometimes makes me scratch my head. Imagine they can paint `1/3` of a house in 1 hour, then it will take them `3/1` (or 3) hours to paint the whole house.)  
-
-`24/5` hours = 4.8 hours = 240 minutes + 48 minutes = 288 minutes.
+The square roof of 2 is an irrational number, which means it can never be written as a fraction or ratio (ir-ratio-nal). Pythagoras felt that such numbers were evil or should not exist, which is why he is said to have executed the young mathematician who discovered that √2 is irrational.
 :::
 
 

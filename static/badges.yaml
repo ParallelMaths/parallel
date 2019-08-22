@@ -448,7 +448,7 @@ year10:
   color: e66438
   description: Two theorems which exposed the limitations of formal mathematical systems. They state that for any consistent set of axioms there are truths that cannot be proven or disproven, including the statement that the set of axioms is itself consistent.
   link: https://www.youtube.com/watch?v=O4ndIDcDSGc
-- id: 10-nunber-theory
+- id: 10-number-theory
   name: Number Theory
   type: ???
   score: 400
@@ -605,7 +605,7 @@ year11:
   color: cc3450
   description: The discipline of collecting, analysing, presenting and interpreting data, particularly in the presence of uncertainty. It is often considered as a distinct mathematical science, as opposed to a branch of mathematics.
   link: https://en.wikipedia.org/wiki/Statistics
-- id: 11-bayseian-Statistics
+- id: 11-bayseian-statistics
   name: Bayesian Statistics
   type: ???
   score: 700
