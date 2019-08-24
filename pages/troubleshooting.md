@@ -1,6 +1,6 @@
 # Troubleshooting
 
-## We are not receiving emails from Parallel (e.g., password reset emails or weekly reminder emails).
+### We are not receiving emails from Parallel (e.g., password reset emails or weekly reminder emails).
 
 In order for pupils to receive the weekly email reminder to take part in the latest Parallelograms and successfully manage their account and password, you may need your school's IT department to whitelist the following addresses:
 
@@ -10,7 +10,7 @@ In order for pupils to receive the weekly email reminder to take part in the lat
 * https://parallel.org.uk/
 
 
-## Some of my students claim that they cannot login to Parallel and cannot reset their password.
+### Some of my students claim that they cannot login to Parallel and cannot reset their password.
 
 This could be a genuine problem. For example, a student might forget their password and a school firewall might be blocking the email that would help reset the password. Year students in particular might struggle with password management. However, it is also possible that students are deliberately forgetting passwords in order to avoid doing Parallelograms. There are three approaches to solving the problem, including two that are more or less foolproof:
 

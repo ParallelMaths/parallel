@@ -27,11 +27,7 @@ It is extraordinary that so much of the universe can be explained using mathemat
 
 In this clip, from a documentary in the American Nova series, the jazz musician Esperanza Spalding explains how music is also at the heart of music. Pay attention to the way that numbers relate to musical intervals (an octave, a fifth and a fourth).  
 
-@[youtube](mpcpzXuzdQk?start=827&end=1012&rel=0)
-
-A player comes up with a correct solution, but it is not very well explained, so let’s try a similar problem.  
-
-Suppose Mr Smith can paint the entire house in 12 hours, and Mrs Smith takes just 8 hours to paint the same house. How long would it take the Mr and Mrs Smith working together to paint the house?
+@[youtube](hkSs29ILAeE?start=827&end=1012&rel=0)
 
 ::: problem id=1_1 marks=2
 __1.1.__ What ratio in lengths describe a fourth?

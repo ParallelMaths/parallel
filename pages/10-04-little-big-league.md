@@ -23,7 +23,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 In the 1994 film “Little Big League”, a 12-year-old boy called Billy suddenly becomes the manager of the Minnesota Twins baseball team. In this clip, Billy has to solve a maths problem for his homework before he can focus on the rapidly approaching baseball game.
 
-@[youtube](5OIUa-mxIhM?rel=0)
+@[youtube](pXtFSE7VlL0?rel=0)
 
 A player comes up with a correct solution, but it is not very well explained, so let’s try a similar problem.  
 
@@ -33,7 +33,7 @@ Suppose Mr Smith can paint the entire house in 12 hours, and Mrs Smith takes jus
 __1.1.__ First, which of the following answers is correct?
 
 * [ ] Working together, they will take even more time than the slower painter.
-* [x] Working together, they will take even less time than the faster painter. CORRECT
+* [x] Working together, they will take even less time than the faster painter. 
 * [ ] Working together, they will take less time than the slower painter, but more time than the quicker painter.
 :::
 
