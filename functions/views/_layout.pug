@@ -127,12 +127,20 @@ html
                 label(for="terms-modal") Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
               button(type="submit") Continue
 
-      if user && !user.hasSeenWelcomeMsg && !user.code
+      //- if user && !user.hasSeenWelcomeMsg && !user.code
         .modal(v-if="showWelcomeMsg")
           .modal-background
           .modal-body
             h2 Welcome back to Parallel!
             p.text-center We’ve increased your level to #[strong Year #{user.level === 'year8' ? 8 : user.level === 'year9' ? 9 : 10}]. You can always change it on your #[a(href="/account") account settings] page.
+            button(type="submit" v-on:click="showWelcomeMsg = false") Continue
+
+      if user && !user.hasSeenWelcomeMsg
+        .modal(v-if="showWelcomeMsg")
+          .modal-background
+          .modal-body
+            h2 Important note for students and teachers
+            p.text-center The new school term is about to start. All past Parallelograms will disappear on 4 September, and we will then re-introduce them week by week over the course of the next year. #[strong Teachers], please save any data, as your dashboard will be refreshed. #[strong Students], please complete any Parallelograms you have missed.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
     footer

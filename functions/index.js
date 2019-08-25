@@ -111,10 +111,7 @@ app.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-app.get('/dashboard', async function(req, res) {
-  if (!req.user) return error(res, 401);
-  if (!req.user.code) return error(res, 403);
-
+async function getDashboardData(req) {
   const dashboard = {students: {}, pages: {}, error: null};
 
   for (let l of LEVELS) {
@@ -135,7 +132,50 @@ app.get('/dashboard', async function(req, res) {
   if (!studentKeys.length)
     dashboard.error = 'So far, no students have signed up with your class code.';
 
+  return dashboard;
+}
+
+app.get('/dashboard', async function(req, res) {
+  if (!req.user) return error(res, 401);
+  if (!req.user.code) return error(res, 403);
+
+  const dashboard = await getDashboardData(req);
   res.render('dashboard', {dashboard})
+});
+
+app.get('/dashboard.csv', async function(req, res) {
+  if (!req.user) return error(res, 401);
+  if (!req.user.code) return error(res, 403);
+
+  const dashboard = await getDashboardData(req);
+  const results = [];
+
+  for (let l of LEVELS) {
+    if (!dashboard.students[l].length) continue;
+
+    results.push(LEVEL_NAMES[l]);
+
+    const titles = ['Name'];
+    for (const p of dashboard.pages[l]) titles.push('PG' + p.index);
+    results.push(titles.join(','));
+
+    for (const s of dashboard.students[l]) {
+      const row = [`"${s.first} ${s.last}"`];
+      for (const p of dashboard.pages[l]) {
+        const answers = s.answers[p.url];
+        row.push(answers ? (answers.score || 0) : 0);
+      }
+      results.push(row.join(','));
+    }
+
+    results.push('', '');
+  }
+
+  const response = results.join('\n');
+
+  res.setHeader('Content-disposition', 'attachment; filename=parallel-data.csv');
+  res.set('Content-Type', 'text/csv');
+  res.status(200).send(response);
 });
 
 app.post('/remove-student', async function(req,res) {

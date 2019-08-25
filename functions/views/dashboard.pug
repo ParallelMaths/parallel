@@ -37,7 +37,7 @@ block content
               table
                 thead: tr
                   for p, i in dashboard.pages[l]
-                    th(width=80 v-on:click=`sortTable(${i + 1}, '${l}')`)= p.subtitle
+                    th(width=80 v-on:click=`sortTable(${i + 1}, '${l}')`) PG #{p.index}
                 tbody
                   for s in dashboard.students[l]
                     tr
@@ -46,3 +46,5 @@ block content
                           td(width=80 data-value=(s.answers[p.url].score || 0))(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score || 0}%
                         else
                           td(width=80 data-value="-1")
+
+    a#submit(download href="/dashboard.csv") Download CSV
