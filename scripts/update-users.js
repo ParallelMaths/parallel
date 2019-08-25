@@ -1,5 +1,3 @@
-const fs = require('fs');
-const path = require('path');
 const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
@@ -8,34 +6,23 @@ fb.initializeApp({
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
-const GOLD = [
-  // ADD EMAILS HERE
-];
-
-const SILVER = [
-  // ADD EMAILS HERE
-];
-
-const BRONZE = [
-  // ADD EMAILS HERE
-];
-
 async function run() {
-  const file = path.join(__dirname, `../private/tmp-users.json`);
-  const accounts = JSON.parse(fs.readFileSync(file)).users;
-  let u = 0;
+  const userData = await fb.database().ref('users').once('value');
+  const users = userData.toJSON();
+  console.log(`Loading ${Object.keys(users).length} users...`);
 
-  for (let a of accounts) {
-    let c = null;
-    if (GOLD.indexOf(a.email) >= 0) c = 'gold';
-    if (SILVER.indexOf(a.email) >= 0) c = 'silver';
-    if (BRONZE.indexOf(a.email) >= 0) c = 'bronze';
+  let i = 0;
 
-    if (c) await fb.database().ref('users/' + a.localId).update({certificate: c});
-    if (c) u += 1;
+  for (const [key, user] of Object.entries(users)) {
+    i += 1;
+    if (!(i % 100)) console.log(`Updating ${i}`);
+
+    if (!user.hasSeenWelcomeMsg) continue;
+    await fb.database().ref('users/' + key).update({hasSeenWelcomeMsg: false});
   }
 
-  console.log('updated:', u);
+  console.log('Done!');
+  process.exit();
 }
 
 run();

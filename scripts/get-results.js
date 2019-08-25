@@ -4,42 +4,6 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 const yaml = require('yamljs');
 
-const extract = [
-  "gaqdu",
-  "mg4414",
-  "h343j",
-  "qw6ok",
-  "fd5ryc",
-  "z8yevt",
-  "9h9mga",
-  "frwics",
-  "muigu",
-  "14lq9e",
-  "onwaes",
-  "agv1u",
-  "ahupq9",
-  "et857w",
-  "9knp4",
-  "ojiy8q",
-  "a896w",
-  "cb8sj",
-  "yjhx14",
-  "364052",
-  "3to7uh",
-  "nww75",
-  "2c7db",
-  "9mhdd",
-  "t1bmm",
-  "ywxcsd",
-  "d01m4y",
-  "x6t2nx",
-  "af7eui",
-  "e6h34j",
-  "6h36iy",
-  "dypvzw",
-  "ayidqn"
-];
-
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
   databaseURL: 'https://parallel-cf800.firebaseio.com'
@@ -118,12 +82,6 @@ async function run() {
 
   const str = [titles, ...data].map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/results.csv`), str);
-
-  const data1 = data.filter(d => extract.indexOf(d[3]) >= 0);
-  const str1 = [titles, ...data1].map(d => d.join(',')).join('\n');
-  fs.writeFileSync(path.join(__dirname, `../private/results-tts.csv`), str1);
-
-  // ---------------------------------------------------------------------------
 
   process.exit();
 }
