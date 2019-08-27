@@ -65,8 +65,8 @@ export default function() {
 
   const loginForm = {error: null, reset: false};
   const editForm = {loading: false, error: ''};
-  const signupForm = {error: null, loading: false, country: 'United Kingdom',
-    level: 'year7', birthYear: 2000, isTeacher: location.hash === '#teacher'};
+  const signupForm = {error: null, loading: false, level: 'year7',
+    birthYear: 2000, isTeacher: location.hash === '#teacher'};
 
   if (window.USER_DATA) {
     for (let key of ['schoolName', 'postCode', 'phoneNumber', 'teacherCode', 'level']) {
@@ -119,7 +119,6 @@ export default function() {
 
       try {
         let schoolName = editForm.schoolName || null;
-        let country = null;
 
         if (editForm.teacherCode) {
           let teacher = await fbDatabase.ref('users').orderByChild('code')
@@ -129,7 +128,6 @@ export default function() {
 
           teacher = teacher[Object.keys(teacher)[0]];
           schoolName = teacher.schoolName;
-          country = teacher.country || null;
         }
 
         await fbDatabase.ref('users/' + uid).update({
@@ -137,7 +135,7 @@ export default function() {
           level: editForm.level || null,
           phoneNumber: editForm.phoneNumber || null,
           postCode: editForm.postCode || null,
-          schoolName, country
+          schoolName
         });
 
         if (editForm.new) {
@@ -184,7 +182,6 @@ export default function() {
         teacher = teacher[Object.keys(teacher)[0]];
 
         signupForm.schoolName = teacher.schoolName;
-        signupForm.country = teacher.country || null;
         signupForm.phoneNumber = signupForm.postCode =
             signupForm.guardianEmail = signupForm.code = null;
 
@@ -208,7 +205,6 @@ export default function() {
               schoolName: signupForm.schoolName || null,
               phoneNumber: signupForm.phoneNumber || null,
               postCode: signupForm.postCode || null,
-              country: signupForm.country || null,
               guardianEmail: signupForm.guardianEmail || null,
               hasSeenWelcomeMsg: true,
               acceptedTerms: true

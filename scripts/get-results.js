@@ -24,7 +24,7 @@ async function run() {
   // ---------------------------------------------------------------------------
 
   for (let p of pages) {
-    const titles = ['name','email','school','teacher_code','country','submitted','score'];
+    const titles = ['name','email','school','teacher_code','submitted','score'];
     const data = [];
 
     for (let u of Object.keys(users)) {
@@ -39,7 +39,6 @@ async function run() {
         emailMap[u],
         `"${users[u].schoolName || ''}"`,
         users[u].teacherCode,
-        `"${users[u].country}"`,
         answer.submitted ? 1 : '',
         answer.score || 0
       ];

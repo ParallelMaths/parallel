@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.app = new Vue({
     el: '#vue',
-    data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge, removeStudent, sortTable}
+    data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge,
+      removeStudent, sortTable, badgeLevel: user.level || 'year7'}
   });
 });
