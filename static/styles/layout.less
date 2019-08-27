@@ -286,11 +286,14 @@ footer a {
     background-size: cover;
     border-radius: 4px;
     color: fade(white, 40%);
-    .points { font-size: 40px; font-weight: 600; line-height: 1; padding-top: 32px; }
-    .small { font-size: 16px; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .placeholder { font-size: 26px; font-weight: 600; line-height: 1; }
   }
 
   h2 { font-size: 18px; margin: 10px 0 4px 0; }
+  h2.placeholder { font-size: 16px; opacity: 0.4; padding: 0 4px; }
   p { font-size: 14px; line-height: 1.4; margin: 0; }
   a { color: fade(white, 60%); }
   a:hover, a:focus { color: white; }

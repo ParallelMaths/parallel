@@ -15,6 +15,7 @@ const PAGES = require('./build/pages.json');
 const LEVELS = ['year7', 'year8', 'year9',  'year10'];
 const LEVEL_NAMES = {year7: 'Year 7', year8: 'Year 8', year9: 'Year 9', year10: 'Year 10'};
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const BADGE_NAMES = {ancient: 'Ancient Hero', geometry: 'Geometry', historic: 'Historic Hero', number: 'Number', modern: 'Modern Hero'};
 
 const PAGES_MAP = {};
 for (let l of LEVELS) {
@@ -67,6 +68,7 @@ app.use((req, res, next) => {
   res.locals.now = Date.now();
   res.locals.levels = LEVELS;
   res.locals.levelNames = LEVEL_NAMES;
+  res.locals.badgeNames = BADGE_NAMES;
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
 

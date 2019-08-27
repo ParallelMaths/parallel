@@ -25,17 +25,15 @@ function getUserData(uid) {
     data.badges = data.badges ? data.badges.split(',') : [];
     data.uid = uid;
 
-    if (data.level === 'year7' || data.level === 'year8' || data.level === 'year9' || data.level === 'year10') {
-      // For students
-      const scores = PAGES[data.level].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
-      data.points = scores.reduce((a, b) => a + b, 0);
-      data.visibleBadges = BADGES[data.level]
-          .filter(b => (data.points >= b.score)).reverse().slice(0, 4);
-    } else {
-      // For teachers
-      data.points = 0;
-      data.visibleBadges = [];
+    data.allPoints = {};
+    for (const l of ['year7', 'year8', 'year9', 'year10']) {
+      const scores = PAGES[l].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
+      data.allPoints[l] = scores.reduce((a, b) => a + b, 0);
     }
+
+    data.points = data.level ? (data.allPoints[data.level] || 0) : 0;
+    data.visibleBadges = data.level ? (BADGES[data.level] || [])
+        .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
 
     return data;
   });

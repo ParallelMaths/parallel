@@ -3,18 +3,23 @@ extends _layout
 block content
   h1 Badges
 
-  if user.points > 0
-    .score.user-score You’ve scored #{user.points} points.
+  .toggle
+    for l in levels
+      a(v-on:click=`badgeLevel = '${l}'` v-bind:class=`{active: badgeLevel == '${l}'}`)= levelNames[l]
 
-  .badges-grid
-    for b in badges[user.level]
-      if showAllBadges || user.points >= b.score
-        .badge(style={background: '#' + b.color})
-          .badge-img(style={'background-image': 'url(/images/badges/' + b.id + '.jpg)'})
-          h2= b.name
-          p: a(href=b.link target="_blank") Learn more…
-      else
-        .badge
-          .badge-img
-            .points= b.score
-            .small Points needed
+  for l in levels
+    div(v-if=`badgeLevel == '${l}'`)
+      .score.user-score You’ve scored #{user.allPoints[l]} points.
+
+      .badges-grid
+        for b in badges[l]
+          if showAllBadges || user.allPoints[l] >= b.score
+            .badge(style={background: '#' + b.color})
+              .badge-img(style={'background-image': 'url(/images/badges/' + b.id + '.jpg)'})
+              h2= b.name
+              p: a(href=b.link target="_blank") Learn more…
+          else
+            .badge
+              .badge-img
+                .placeholder= badgeNames[b.type] || b.type
+              h2.placeholder #{b.score} points needed
