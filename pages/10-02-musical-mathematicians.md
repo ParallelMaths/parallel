@@ -25,7 +25,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 It is extraordinary that so much of the universe can be explained using mathematical equations. Indeed, it is often said that mathematics is the language of the universe. It is certainly the language of science.  
 
-In this clip, from a documentary in the American Nova series, the jazz musician Esperanza Spalding explains how music is also at the heart of music. Pay attention to the way that numbers relate to musical intervals (an octave, a fifth and a fourth).  
+In this clip, from a documentary in the American Nova series, the jazz musician Esperanza Spalding explains how maths is also at the heart of music. Pay attention to the way that numbers relate to musical intervals (an octave, a fifth and a fourth).  
 
 @[youtube](hkSs29ILAeE?start=827&end=1012&rel=0)
 
@@ -39,15 +39,15 @@ __1.1.__ What ratio in lengths describe a fourth?
 * [ ] 1:4
 :::
 
-::: problem id=1_1 marks=2
+::: problem id=1_2 marks=2
 __1.2.__ Pythagoras is said to have noticed the relationship between mathematics and music. According to Pythagoras, the universe is based on numbers, but only whole numbers and their ratios. So, when one of his followers discovered a different type of number, Pythagoras executed him. What sort of number did the follower discover? You might need to do some googling to get the answer.
 
-(open) Hint: Pythagoras acted irrationally when he executed the follower.
+Hint: Pythagoras acted irrationally when he executed the follower.
 
 
 * [ ] Negative numbers
 * [ ] Zero
-* [ ] √2
+* [x] √2
 * [ ] ∞
 * [ ] Fractions
 * [ ] Quaternions
@@ -61,7 +61,7 @@ The square roof of 2 is an irrational number, which means it can never be writte
 ## 2. Do Unto Caesar
 
 ::: problem id=2_1 marks=4
-__2.1__ At Caesar's Palace Casino in Vegas, there were three poker players? Alice, Bernie and Craig. At the beginning of the night the amount of money each had was in the ratios 7 : 6 : 5, with Alice starting with the most and Craig the least. At the end of the night, Alice was still ahead and Craig still last, but the money was divided according to the ratio was 6 : 5 : 4.  
+__2.1__ At Caesar's Palace Casino in Vegas, there were three poker players, Alice, Bernie and Craig. At the beginning of the night the amount of money each had was split in the ratio 7 : 6 : 5, with Alice starting with the most and Craig the least. At the end of the night, Alice was still ahead and Craig still last, but the money was divided according to the ratio 6 : 5 : 4.  
 
 This meant that one of the players was up by $12.  
 
@@ -83,7 +83,7 @@ Bernie still had 1/3 of the money, while Craig lost money, so it must have been 
 
 ---
 
-This problem is from [the terrific NRICH website](https://nrich.maths.org/){target="_blank"}, a treasure of mathematical ideas and questions. Go and explore.  
+This problem is from [the terrific NRICH website](https://nrich.maths.org/){target="_blank"}, a treasure trove of mathematical ideas and questions. Go and explore.  
 
 `7 : 6 : 5 = 7/18 : 6/18 : 5/18`  
 `6 : 5 : 4 = 6/15 : 5/15 : 4/15`   
@@ -104,7 +104,7 @@ And don’t forget to [explore NRICH soon](https://nrich.maths.org/){target="_bl
 ## 3.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q2 --->
 
-Every Parallelogram will contain two or more UKMT Intermediate Maths Challenge problems. This first one is fairly simple, but others will be much trickier... and for all of them, remember, NO CALCULATORS!
+Every Parallelogram will contain two or more UKMT Intermediate Maths Challenge problems. This one is fairly simple, but others will be much trickier... and for all of them, remember, NO CALCULATORS!
 
 ::: problem id=3_1 marks=3
 Which of the following fractions is closest to 1?

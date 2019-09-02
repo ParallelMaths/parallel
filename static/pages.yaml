@@ -558,10 +558,10 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-05-philosophy-mathematics
+    title: The Philosophy of Mathematics
+    available: 2019-10-10T13:00:00
+    deadline: 2019-10-13T13:00:00
   - url: 10-04-little-big-league
     title: Little Big League
     available: 2019-10-03T13:00:00

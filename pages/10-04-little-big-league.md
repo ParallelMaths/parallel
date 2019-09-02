@@ -33,7 +33,7 @@ Suppose Mr Smith can paint the entire house in 12 hours, and Mrs Smith takes jus
 __1.1.__ First, which of the following answers is correct?
 
 * [ ] Working together, they will take even more time than the slower painter.
-* [x] Working together, they will take even less time than the faster painter. 
+* [x] Working together, they will take even less time than the faster painter.
 * [ ] Working together, they will take less time than the slower painter, but more time than the quicker painter.
 :::
 
@@ -82,7 +82,7 @@ In fact, __make this the simplest ratio you can have__ - cancelling out any comm
 
 Let's call it `A/B`.
 
-So, `A/B = √2`
+So, `A/B` = √2
 
 Now, let's multiply both sides of the equation by itself, so
 
@@ -122,9 +122,9 @@ Let’s re-arrange a bit more…
 
 `a^2/b^2 = 2`
 
-`a/b = √2`.
+`a/b` = √2.
 
-Wow! We started out by saying `A/B` was the simplest way to represent `√2`, but now we know that `a/b = √2`, and we know that `a` and `b` are only half of `A` and `B`. So we have a simpler ratio for √2… but we started off saying we were already at the simplest ratio.
+Wow! We started out by saying `A/B` was the simplest way to represent √2, but now we know that `a/b` = √2, and we know that `a` and `b` are only half of `A` and `B`. So we have a simpler ratio for √2… but we started off saying we were already at the simplest ratio.
 
 We have contradicted ourselves, so our initial attempt to represent √2 as a fraction must be impossible.
 

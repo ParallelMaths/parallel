@@ -12,7 +12,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Welcome to the first of our Parallelograms designed for Year 10 students, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.  
 
-These challenges are a random walk through the mysteries of mathematics, most of which will be nothing to do with what you are doing at the moment in your classroom. Be prepared to encounter all sorts of weird ideas, including a few questions that appear to have nothing to do with mathematics at all.
+These challenges are a random walk through the mysteries of mathematics, most of which will be nothing to do with what you are studying at the moment in your classroom. Be prepared to encounter all sorts of weird ideas, including a few questions that appear to have nothing to do with mathematics at all.
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
@@ -23,24 +23,26 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. The Rhind Papyrus
 
-The Ancient Egyptian Rhind Papyrus dates to around 1550 BC and is full of mathematical ideas and puzzles. Not surprisingly, it has a section about calculating the slopes of pyramids.  
+The Ancient Egyptian Rhind Papyrus dates back to around 1550 BC and is full of mathematical ideas and puzzles. Not surprisingly, it has a section about calculating the slopes of pyramids.  
 
 I particularly like that it opens with the statement: “Directions for Attaining the Knowledge of All Dark Things”. That’s quite a way to describe mathematics.
 
 ::: problem id=1_1 marks=2
-__1.1.__ The papyrus has a great deal about “Egyptians fractions”, which means that every fraction has to be described in terms of other fractions which have the numerator 1.  
-
-So, instead of `7/10`, you would write `2/3 + 1/30`.  
+__1.1.__ The papyrus has a great deal about “Egyptian fractions”, which means that every fraction has to be described in terms of other fractions which have the numerator 1.  
 
 Or, instead of `2/15`, you would write `1/10 + 1/30`.  
 
-If `2/3` is represented in Egyptian fractions, it could be written as `1/3 + 1/4 + 1/x`. What is the missing numerator `x`?
+So, instead of `7/10`, you would write `2/3 + 1/30`.  
+
+If `2/3` is represented in Egyptian fractions, it could be written as `1/3 + 1/4 + 1/x`. What is the missing denominator `x`?
 
 <input solution="12"/>
 
 ---
 
 `2/3 = 1/3 + 1/4 + 1/x`  
+
+Finding the lowest common denominator, this is:  
 
 `8/12 = 4/12 + 3/12 + 1/x`  
 
@@ -50,7 +52,7 @@ If `2/3` is represented in Egyptian fractions, it could be written as `1/3 + 1/4
 ::: problem id=1_2 marks=3
 __1.2.__ If `2/101` is represented in Egyptian fractions, it equals `1/101 + 1/202 + 1/303 + 1/x`.  
 
-What is the missing numerator?
+What is the missing denominator `x`?
 
 <input solution="606"/>
 
@@ -58,7 +60,11 @@ What is the missing numerator?
 
 `2/101 = 1/101 + 1/202 + 1/303 + 1/x`  
 
+Now subtracting `1/101` from each side:  
+
 `1/101 = 1/202 + 1/303 + 1/x`  
+
+Using the lowest common denominator:  
 
 `6/606 = 3/606 + 2/606 + 1/x`  
 
@@ -66,7 +72,7 @@ What is the missing numerator?
 :::
 
 ::: problem id=1_3 marks=3
-__1.3.__ The Rhind Papyrus also has a riddle about 7 houses, each containing 7 cats, who each eat 7 mice, who each ate 7 stalks of barley, which each contained 7 grains of barley. The question is how many items do we have in total? To get you started, we have 7 houses, 49 cats, so we 56 items in total.  
+__1.3.__ The Rhind Papyrus also has a riddle about 7 houses, each containing 7 cats, who each eat 7 mice, who each ate 7 stalks of barley, which each contained 7 grains of barley. The question is how many items do we have in total? To get you started, we have 7 houses and 49 cats, so we have 56 items in total.  
 
 (BTW, this is similar to the much more modern St Ives riddle. If you have never heard about that puzzle, then google it.)
 
@@ -74,15 +80,15 @@ __1.3.__ The Rhind Papyrus also has a riddle about 7 houses, each containing 7 c
 
 ---
 
-The total number of items is 7 + 72 + 73 + 74 + 75 = 19,607 items.
+The total number of items is `7 + 7^2 + 7^3 + 7^4 + 7^5 = 19,607` items.
 :::
 
 
 ## 2. A Beautiful Mind
 
-“A Beautiful Mind”, an Oscar-winning film from 2001, tells the story of the real-life mathematical genius John Nash. After making an incredible discovery that would have a major impact on the world of economics, Nash began to suffer from mental illness, and the film is about his journey towards recovery and being award the Nobel Prize for Economics.  
+“A Beautiful Mind”, an Oscar-winning film from 2001, tells the story of the real-life mathematical genius John Nash. After making an incredible discovery that would have a major impact on the world of economics, Nash began to suffer from mental illness, and the film is about his journey towards recovery and being awarded the Nobel Prize for Economics.  
 
-This journey is reflected in the clip below. His renewed interest in teaching young mathematicians is a sign that Nash is recovering from his period illness.  
+This journey is reflected in the clip below. His renewed interest in teaching young mathematicians is a sign that Nash is recovering from his period of illness.  
 
 @[youtube](5OIUa-mxIhM?rel=0)
 
@@ -154,7 +160,17 @@ __3.3__ Without using a calculator, find the remainder when 7,777,777 is divided
 ::: problem id=3_4 marks=1
 __3.4__ Without using a calculator, find the remainder when 8,888,888 is divided by 9.
 
-<input type="text" solution="4"/>  
+<input type="text" solution="2"/>  
+
+---
+
+For each of these, sum the digits and then subtract the nearest multiple of 9.
+
+`8 + 8 + 8 + 8 + 8 + 8 + 8 = 56`  
+
+`9 × 6 = 54`  
+
+`54 - 56 = 2`.
 :::
 
 
