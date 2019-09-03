@@ -50,6 +50,8 @@ When I was a kid, I used to make paper poppers or paper crackers – here’s ho
 
 @[youtube](NqNOS51nmZc?rel=0)
 
+It is not easy to build a paper popper, so you might need to check out this list of instructions if your first attempt fails. My main advice is to make sure your initial folding goes up much more than half-way: https://www.wikihow.com/Make-a-Paper-Popper{target="_blank"}  
+
 When I was kid, we told each other that the paper popper created such a loud sound, because somehow something was breaking the sound barrier (or going faster than the speed of sound). In fact, Wikipedia gives the right explanation: “There are many variations of a paper popper, but they all involve a folded sheet of paper being gripped and thrust down. This causes air to be forced into the paper's folded flaps, making the paper flaps pop out in the opposite direction at a high velocity, thus making a loud popping noise. According to popular misconception, the sound is supposed to be caused by the paper breaking the sound barrier. What actually happens is that air rushes in a blast wave to fill the vacuum created in the pocket that opens.”
 
 Sound is a wave or vibration in the air, which has a frequency, wavelength and speed, which combine in the following way:
