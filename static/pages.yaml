@@ -554,10 +554,10 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-06-heroic-hidden-figures
+    title: Heroic Hidden Figures
+    available: 2019-10-17T13:00:00
+    deadline: 2019-10-20T13:00:00
   - url: 10-05-philosophy-mathematics
     title: The Philosophy of Mathematics
     available: 2019-10-10T13:00:00
