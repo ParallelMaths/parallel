@@ -121,6 +121,7 @@ function parseProblemInput($input, index, $problem) {
   $input.setAttribute('data-value', key);
   $input.setAttribute('v-on:change', `c.setInput`);
   $input.setAttribute(isSumaze ? 'v-model' : 'v-model.lazy', `c.answers.${key}`);
+  if (!$input.hasAttribute('type')) $input.setAttribute('type', 'text');
 
   if (isSumaze) return;
   $input.setAttribute('v-bind:class', `{correct: c.checkInput(c.answers.${key}, '${solution}')}`);

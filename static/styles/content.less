@@ -148,6 +148,10 @@ table.grid {
   margin: 0 .5rem 2rem;
 }
 
+.problem input[type="text"], .problem input[type="number"] {
+  &:focus, &:active { border: none; padding: 4px 8px; box-shadow: 0 0 0 2px @blue; }
+}
+
 .submitted {
   .choice.active:not(.correct) {
     background: fade(@INCORRECT, 50%);
