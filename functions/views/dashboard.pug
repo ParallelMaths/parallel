@@ -2,19 +2,15 @@ extends _layout
 
 block content
   h1 Teacher Dashboard
-  p Welcome to Parallel! Your teacher code is "#[strong #{user.code}]". What to do next:
+  p Welcome to Parallel! Your teacher code is "#[strong #{user.code}]". For more information about using Parallel, visit our #[a(href="/hints-tips") Hints and Tips] and #[a(href="/troubleshooting") Troubleshooting] pages. What to do next:
   ul
     li Ask students to create an account, entering your Teacher Code when prompted.
     li Students will also select their Year (7, 8, 9 or 10) when creating an account.
     li Your students will then be added to your dashboard, listed by school year.
-    li Your students will emailed a link to the new Parallelogram each Thursday at 3pm.
-    li Please remind students about a new Parallelogram, in case they’re not receiving emails.
-    li Students should complete the Parallelogram and hit submit by Sunday evening.
-    li If students miss the Sunday evening deadline, they can complete Parallelograms later, but this should not become a habit.
+    li Your students will emailed a link to the new Parallelogram each Thursday at 3pm. Please remind students about a new Parallelogram, in case they’re not receiving emails.
+    li Students should complete the Parallelogram and hit submit by Sunday evening. If students miss the Sunday evening deadline, they can complete Parallelograms later, but this should not become a habit.
     li You’ll be able to see all of your students’ results below.
-    li Click on the week number at the top of each column to sort by score.
-    li Click on the top of the name column to sort students alphabetically.
-    li Hover over a student name and click X to remove them from your dashboard.
+    li Click on header cell of any column below, to sort students. Hover over a student name and click X to remove them from your dashboard.
 
 
   if dashboard.error
