@@ -142,7 +142,7 @@ year7:
     deadline: 2019-09-22T19:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
-    available: 2019-09-09T16:00:00
+    available: 2019-09-04T16:00:00
     deadline: 2019-09-15T19:00:00
 
 year8:
@@ -288,7 +288,7 @@ year8:
     deadline: 2019-09-22T19:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
-    available: 2019-09-09T16:00:00
+    available: 2019-09-04T16:00:00
     deadline: 2019-09-15T19:00:00
 
 year9:
@@ -434,7 +434,7 @@ year9:
     deadline: 2019-09-22T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
-    available: 2019-09-09T16:00:00
+    available: 2019-09-04T16:00:00
     deadline: 2019-09-15T19:00:00
 
 year10:
@@ -576,5 +576,5 @@ year10:
     deadline: 2019-09-22T19:00:00
   - url: 10-01-all-dark-things
     title: All Dark Things
-    available: 2019-09-09T16:00:00
+    available: 2019-09-04T16:00:00
     deadline: 2019-09-15T19:00:00
