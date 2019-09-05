@@ -17,8 +17,11 @@ async function run() {
     i += 1;
     if (!(i % 100)) console.log(`Updating ${i}`);
 
-    if (!user.hasSeenWelcomeMsg) continue;
-    await fb.database().ref('users/' + key).update({hasSeenWelcomeMsg: false});
+    await fb.database().ref('users/' + key).update({
+      level: ({year7: 'year8', year8: 'year9', year9: 'year10'}[user.level] || 'year7'),
+      showWelcomeMsg: true,
+      hasSeenWelcomeMsg: fb.firestore.FieldValue.delete(),
+    });
   }
 
   console.log('Done!');

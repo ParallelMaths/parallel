@@ -127,20 +127,12 @@ html
                 label(for="terms-modal") Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
               button(type="submit") Continue
 
-      //- if user && !user.hasSeenWelcomeMsg && !user.code
+      if user && !user.code && user.showWelcomeMsg
         .modal(v-if="showWelcomeMsg")
           .modal-background
           .modal-body
             h2 Welcome back to Parallel!
-            p.text-center We’ve increased your level to #[strong Year #{user.level === 'year8' ? 8 : user.level === 'year9' ? 9 : 10}]. You can always change it on your #[a(href="/account") account settings] page.
-            button(type="submit" v-on:click="showWelcomeMsg = false") Continue
-
-      if user && !user.hasSeenWelcomeMsg
-        .modal(v-if="showWelcomeMsg")
-          .modal-background
-          .modal-body
-            h2 Important note for students and teachers
-            p.text-center The new school term is about to start. The first Parallelogram is now available to take, but officially it is launched on Sept 12. We will be releasing new parallelograms every week of the school year, so the No.2 appears on September 19th. Don’t worry, you will still be able to access the badges you earned last year.
+            p.text-center We’ve updated your level to #[strong #{levelNames[user.level]}]. You can always change it on your #[a(href="/account") account settings] page.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
     footer

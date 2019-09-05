@@ -72,9 +72,9 @@ app.use((req, res, next) => {
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
 
-  if (req.user && !req.user.hasSeenWelcomeMsg) {
+  if (req.user && req.user.showWelcomeMsg) {
     firebase.database().ref(`users/${req.user.uid}`) // async
-        .update({hasSeenWelcomeMsg: true})
+        .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
 

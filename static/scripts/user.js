@@ -206,7 +206,6 @@ export default function() {
               phoneNumber: signupForm.phoneNumber || null,
               postCode: signupForm.postCode || null,
               guardianEmail: signupForm.guardianEmail || null,
-              hasSeenWelcomeMsg: true,
               acceptedTerms: true
             });
           })
