@@ -66,7 +66,7 @@ This means they will take `24/5` hours to paint the house.
 
 ## 2. Proving √2 is irrational
 
-Two weeks ago, I mentioned that a follower or Pythagoras was executed for proving that the √2 is an irrational number. But, you might be wondering, how does someone prove that a number is a irrational. How can you prove that a number cannot be written down as a fraction of a ratio?  
+Two weeks ago, I mentioned that a follower of Pythagoras was executed for proving that √2 is an irrational number. But, you might be wondering, how does someone prove that a number is a irrational. How can you prove that a number cannot be written down as a fraction or a ratio?  
 
 Here is an outline of such a proof, but...  
 
@@ -83,6 +83,8 @@ In fact, __make this the simplest ratio you can have__ - cancelling out any comm
 Let's call it `A/B`.
 
 So, `A/B` = √2
+
+We know that `A` and `B` could not both be even, because they would then have a common factor of 2, which we would have cancelled out already.
 
 Now, let's multiply both sides of the equation by itself, so
 
@@ -149,7 +151,7 @@ __2.2__ Did you find it at least a bit interesting or boring?
 <!--- (2016) Q4 --->
 
 ::: problem id=3_1 marks=3
-Amrita is baking a cake on a Thursday. She bakes a cake every fifth day.  
+__3.1__ Amrita is baking a cake on a Thursday. She bakes a cake every fifth day.  
 
 How many days will it be before she next bakes a cake on a Thursday?
 
@@ -162,7 +164,7 @@ How many days will it be before she next bakes a cake on a Thursday?
 
 ---
 
-Amrita bakes a cake again after 5, 10, 15, 20, 25, 30, 35 days and so on. Thursdays come after 7, 14, 21, 28, 35 days and so on. The first number in both of these lists is 35. So Amrita next bakes a cake on a Thursday after 35 days.  
+Amrita bakes a cake again after 5, 10, 15, 20, 25, 30, 35 days and so on. Thursdays come after 7, 14, 21, 28, 35 days and so on. The first number which appears in both of these lists is 35. So Amrita next bakes a cake on a Thursday after 35 days.  
 :::
 
 
@@ -170,7 +172,7 @@ Amrita bakes a cake again after 5, 10, 15, 20, 25, 30, 35 days and so on. Thursd
 <!--- (2016) Q11 --->
 
 ::: problem id=4_1 marks=4
-The net shown consists of squares and equilateral triangles. The net is folded to form a rhombicuboctahedron, as shown.  
+__4.1__ The net shown consists of squares and equilateral triangles. The net is folded to form a rhombicuboctahedron, as shown.  
 
 ![](/resources/10-04-little-big-league/11-net.jpg){image align="center"}  
 

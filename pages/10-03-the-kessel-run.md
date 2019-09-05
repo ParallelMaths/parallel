@@ -32,7 +32,7 @@ Take a look at this clip from “Star Wars IV” (A New Hope). In particular, pa
 ::: problem id=1_1 marks=2
 __1.1.__ This clip is controversial, because Han Solo brags that the Falcon made the Kessel Run in "less than twelve parsecs". Normally, when we talk about completing races, we would brag about completing a race in less TIME, but the parsec is a unit of DISTANCE.  
 
-So, this is probably a blunder in the original script, but the George Lucas has explained it away by claiming that Solo modified "the navigational system to get through hyperspace in the shortest possible distance". In other words, the skill in completing the Kessel Run is all about finding the shortest route. Now the question.  
+So, this is probably a blunder in the original script, but George Lucas has explained it away by claiming that Solo modified "the navigational system to get through hyperspace in the shortest possible distance". In other words, the skill in completing the Kessel Run is all about finding the shortest route. Now the question.  
 
 What is a parsec?
 
@@ -84,7 +84,7 @@ The Smoot is named after Oliver R. Smoot, who in 1958 lay down repeatedly on the
 ::: problem id=2_1 marks=3
 __2.1__ Using some or all of the operations of addition, subtraction, multiplication and division and using the digits 3, 3, 8 and 8 each once and only once make an expression equal to 24.  
 
-This is a seriously tricky problem. So, just think hard about it and see if you can figure out the answer. If can solve it, then well done. If not, then answer will be available when you hit submit.  
+This is a seriously tricky problem. So, just think hard about it and see if you can figure out the answer. If you can solve it, then well done. If not, then the answer will be available when you hit submit.  
 
 Either way, everyone gets 3 marks.
 
@@ -103,10 +103,10 @@ This problem is from [the terrific NRICH website](https://nrich.maths.org/){targ
 ## 3.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q3 --->
 
-Every Parallelogram will contain two or more UKMT Intermediate Maths Challenge problems. This first one is fairly simple, but others will be much trickier... and for all of them, remember, NO CALCULATORS!
+Every Parallelogram will contain two or more UKMT Intermediate Maths Challenge problems. Remember, NO CALCULATORS!
 
 ::: problem id=3_1 marks=3
-How many of these five expressions give answers which are _not_ prime numbers?  
+__3.1__ How many of these five expressions give answers which are _not_ prime numbers?  
 
 `1^2 + 2^2`  
 `2^2 + 3^2`  
@@ -141,7 +141,7 @@ Therefore just one of the given options does not work out to be a prime number.
 <!--- (2016) Q10 --->
 
 ::: problem id=4_1 marks=4
-The angles of a quadrilateral taken in order are `x°`, `5x°`, `2x°` and `4x°`.  
+__4.1__ The angles of a quadrilateral taken in order are `x°`, `5x°`, `2x°` and `4x°`.  
 
 Which of the following is the quadrilateral?
 
@@ -153,11 +153,11 @@ Which of the following is the quadrilateral?
 {.col-5}
 
 ^^^ hint id=4_1 marks=1
---Please write a hint here, Martha--
+As the sum of the interior angles in a quadrilateral is `360°`, we know that `x + 5x + 2x + 4x = 360°`.
 ^^^
 
 ^^^ hint id=4_2 marks=1
---Please write a hint here, Martha--
+Sketch out the quadrilateral with the angles at vertices `P`, `Q`, `R`, `S` in the order of the question. If `x + 5x + 2x + 4x = 360°`, then `x + 5x = 2x + 4x = 180°`, so the side connecting vertices `S` and `R` and the side connecting `P` and `Q` must be parallel. (Think about why this is.)
 ^^^
 
 ---
@@ -166,7 +166,7 @@ We let the vertices of the quadrilateral be `P`, `Q`, `R`, `S` with the angles a
 
 The sum of the interior angles of a quadrilateral is `360°`. Therefore, `x + 5x + 2x + 4x = 360`. That is, `(x + 5x) + (2x + 4x) = 360`. Since `x + 5x = 2x + 4x`, it follows that `x + 5x = 2x + 4x = 180`.  
 
-Hence `∠SPQ + ∠RSP = 180°`. Therefore the sides `PQ` and `SR` of the quadrilateral are parallel. Since` x + 4x = 5x`, `180`, we have `∠SPQ + ∠PQR`, `180°`. Therefore the sides `PS` and `QR` are not parallel.  
+Hence `∠SPQ + ∠RSP = 180°`. Therefore the sides `PQ` and `SR` of the quadrilateral are parallel. Since` x + 4x = 5x ≠ 180`, we have `∠SPQ + ∠PQR ≠ 180°`. Therefore the sides `PS` and `QR` are not parallel.  
 
 We therefore see that the quadrilateral has one pair of opposite sides that are parallel and one pair of opposite sides that are not parallel. Therefore the quadrilateral is a trapezium.
 :::

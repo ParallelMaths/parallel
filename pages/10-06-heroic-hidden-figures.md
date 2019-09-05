@@ -21,14 +21,14 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. Heroic Hidden Figures
 
-Parallel back in Year 7 featured a clip from film “Hidden Figures”, but it is such an incredible TRUE story that we are revisiting it. Below is the trailer, but first here’s a reminder of what the film is all about. And, remember, it is TRUE story.  
+Back in year 7, Parallel featured a clip from the film “Hidden Figures”, but it is such an incredible TRUE story that we are revisiting it. Below is the trailer, but first here’s a reminder of what the film is all about. And, remember, it is a TRUE story.  
 
-__Hidden Figures__ tells the incredible story of Katherine Jonson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA who served as the brains behind the launch into orbit of astronaut John Glenn, a stunning achievement that turned around the Space Race. The visionary trio crossed all gender and racial line and inspired generations.
+__Hidden Figures__ tells the incredible story of Katherine Jonson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA who served as the brains behind the launch into orbit of astronaut John Glenn, a stunning achievement that turned around the Space Race. The visionary trio broke all the barriers put in front of them because of their gender and race, and inspired generations.
 
 @[youtube](RK8xHq6dfAo?end=183&rel=0)
 
 ::: problem id=1_1 marks=2
-__1.1.__ When Mary Jackson complains about the car being a pile of junk, Katherine Johnson says that she is welcome to ride in the bus … in particular, the back of the bus. She is probably referring the fact that it had been the rule in some parts of America for black men and women to sit at the back of segregate buses. It was one woman in particular who fought this injustice by refusing to give up her seat to a white passenger in Montgomery (Alabama) on 1 December 1955.  
+__1.1.__ When Mary Jackson complains about the car being a pile of junk, Katherine Johnson says that she is welcome to ride in the bus... in particular, the back of the bus. She is probably referring the fact that it had been the rule in some parts of America for black men and women to sit at the back of segregated buses. It was one woman in particular who fought this injustice by refusing to give up her seat to a white passenger in Montgomery (Alabama) on 1 December 1955.  
 
 In her autobiography, she explained why she refused to give up her seat: “People always say that I didn't give up my seat because I was tired, but that isn't true. I was not tired physically, or no more tired than I usually was at the end of a working day. I was not old, although some people have an image of me as being old then. I was forty-two. No, the only tired I was, was tired of giving in.”  
 
@@ -40,13 +40,11 @@ The surname of the woman was Parks, but was her first name?
 
 ## 2. Euler’s Method
 
-In this clip from “Hidden Figures”, Kathryn Johnson is trying to solve a difficult problem, and realises that some maths from centuries ago might offer a solution. In case it is not clear form the clip, solving this problem is a matter of life and death, as it might decide whether or not the astronaut John Glenn returns to Earth.
+In this clip from “Hidden Figures”, Kathryn Johnson is trying to solve a difficult problem, and realises that some maths from centuries ago might offer a solution. In case it is not clear from the clip, solving this problem is a matter of life and death, as it might decide whether or not the astronaut John Glenn returns to Earth.
 
 @[youtube](v-pbGAts_Fg?rel=0)
 
 Kathryn Johnson relied on Euler’s Method, which allows mathematicians to solve a difficult equation by finding an answer that is not perfectly accurate, but which is accurate enough for the purpose in question.  
-
-Another technique that mathematicians use for finding an approximate answer.  
 
 One approximation that is often used by mathematicians is to say that:  
 
@@ -58,7 +56,7 @@ The actual answer is 1.0201, so it is a very good approximation.
 
 So, `(1 + 0.05)^2 ≈ 1 + (2 × 0.05) ≈  1.1`  
 
-The actual answer is 1.1025, so it is a reasonably good approximation approximation.  
+The actual answer is 1.1025, so it is a reasonably good approximation.  
 
 Now try the approximation for yourself.  
 
@@ -121,9 +119,9 @@ What happens to the approximation as the number gets bigger and bigger?
 
 If we fully expand the bracket `(1 + n)^2`, then we get `(1 + 2n + n^2)`.  
 
-Our approximation of `(1 + 2n)`, as we are ignoring the `n^2` bit. S0, the approximation works very well if `n^2` is very small, which is true when `n` is much smaller than 1.
+Our approximation is just `(1 + 2n)`, as we are ignoring the `n^2` bit. So, the approximation works very well if `n^2` is very small, which is true when `n` is much smaller than 1.
 
-So, this approximation method works very well for number that are only a tiny bit bigger than 1, but very badly for numbers that are much bigger than 1, say 1.2 and bigger.
+So, this approximation method works very well for numbers that are only a tiny bit bigger than 1, but very badly for numbers that are much bigger than 1, say 1.2 and bigger.
 :::
 
 
@@ -131,7 +129,7 @@ So, this approximation method works very well for number that are only a tiny bi
 <!--- (2016) Q5 --->
 
 ::: problem id=3_1 marks=3
-__3.1__ When travelling from London to Edinburgh by train, you pass a sign saying “Edinburgh 200 miles”. Then, 312 miles later, you pass another sign saying “Half way between London and Edinburgh”.  
+__3.1__ When travelling from London to Edinburgh by train, you pass a sign saying “Edinburgh 200 miles”. Then, `3 1/2` miles later, you pass another sign saying “Half way between London and Edinburgh”.  
 
 How many miles is it by train from London to Edinburgh?
 
@@ -164,11 +162,11 @@ What is this total?
 * [ ] 22
 
 
-^^^ id=4_1 marks=1
+^^^ hint id=4_1 marks=1
 Each of the integers from 1 to 7 occurs in exactly two of the seven lines of three circles. Each of the integers from 8 to 14 occurs in exactly one of these lines.
 ^^^
 
-^^^ id=4_2 marks=1
+^^^ hint id=4_2 marks=1
 Therefore, if we add up all the totals of the numbers in the seven lines, we are adding each of the integers from 1 to 7 twice, and each of the integers from 8 to 14 once.
 ^^^
 

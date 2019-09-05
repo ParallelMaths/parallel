@@ -52,9 +52,9 @@ When I was a kid, I used to make paper poppers or paper crackers – here’s ho
 
 It is not easy to build a paper popper, so you might need to check out this list of instructions if your first attempt fails. My main advice is to make sure your initial folding goes up much more than half-way: https://www.wikihow.com/Make-a-Paper-Popper{target="_blank"}  
 
-When I was kid, we told each other that the paper popper created such a loud sound, because somehow something was breaking the sound barrier (or going faster than the speed of sound). In fact, Wikipedia gives the right explanation: “There are many variations of a paper popper, but they all involve a folded sheet of paper being gripped and thrust down. This causes air to be forced into the paper's folded flaps, making the paper flaps pop out in the opposite direction at a high velocity, thus making a loud popping noise. According to popular misconception, the sound is supposed to be caused by the paper breaking the sound barrier. What actually happens is that air rushes in a blast wave to fill the vacuum created in the pocket that opens.”
+My friends and I told each other that the paper popper created such a loud sound, because somehow something was breaking the sound barrier (or going faster than the speed of sound). In fact, Wikipedia gives the right explanation: “There are many variations of a paper popper, but they all involve a folded sheet of paper being gripped and thrust down. This causes air to be forced into the paper's folded flaps, making the paper flaps pop out in the opposite direction at a high velocity, thus making a loud popping noise. According to popular misconception, the sound is supposed to be caused by the paper breaking the sound barrier. What actually happens is that air rushes in a blast wave to fill the vacuum created in the pocket that opens.”
 
-Sound is a wave or vibration in the air, which has a frequency, wavelength and speed, which combine in the following way:
+Sound is a wave or vibration in the air, which has a frequency, wavelength and speed. These combine in the following way:
 
 __Frequency (Hertz) × Wavelength (metres) = Speed (m/s)__
 
@@ -96,9 +96,7 @@ __3.1__ Amrita makes jam and chutney today.  She makes jam every 12 days and mak
 
 ---
 
-<could you check this solution please, Martha?>  
-
-Amrita makes jam again after 12, 24, 36, 48, 60, 72, 84 days and so on. She makes chutney after 20, 40, 60, 80, 100 days and so on. The first number in both of these lists is 60. So Amrita next makes both jam and chutney after 35 days.  
+Amrita makes jam again after 12, 24, 36, 48, 60, 72, 84 days and so on. She makes chutney after 20, 40, 60, 80, 100 days and so on. The first number in both of these lists is 60. So Amrita next makes both jam and chutney after 60 days.  
 :::
 
 
@@ -123,7 +121,7 @@ We have `a + b = 7`. Also, depending on whether `a > b` or `b > a`, the value of
 
 `(a + b)^2 − (a − b)^2 = (a^2 + 2ab + b^2) − (a^2 − 2ab + b^2) = 4ab`.  
 
-Hence `4ab = 45`. It follows that `a × b = 45/4 = 111/4`.  
+Hence `4ab = 45`. It follows that `a × b = 45/4 = 11 1/4`.  
 
 In the above solution we were able to find the value of ab without first finding the values of `a` and `b`. An alternative method would be to first find `a` and `b` and then `ab`.
 :::
