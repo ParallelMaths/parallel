@@ -5,41 +5,44 @@ const yaml = require('yamljs');
 const serviceAccount = require('../private/service-account.json');
 
 // -----------------------------------------------------------------------------
-// Edit below. The number of students is for years [7, 8, 9, 10] respectively.
+// Edit below. You can use the same teacher code for multiple years.
+
+const USE_ARCHIVED_DATA = false;  // Can be 2018 or false
 
 const TTS_SCHOOLS = [
-  {teacherCode: 'mg4414', students: [30, 30, 30, 0]},
-  {teacherCode: 'h343j',  students: [30, 30, 30, 0]},
-  {teacherCode: 'qw6ok',  students: [30, 30, 30, 0]},
-  {teacherCode: 'fd5ryc', students: [30, 30, 30, 0]},
-  {teacherCode: 'z8yevt', students: [30, 30, 30, 0]},
-  {teacherCode: '9h9mga', students: [30, 30, 30, 0]},
-  {teacherCode: 'frwics', students: [30, 30, 30, 0]},
-  {teacherCode: 'muigu',  students: [30, 30, 30, 0]},
-  {teacherCode: '14lq9e', students: [30, 30, 30, 0]},
-  {teacherCode: 'onwaes', students: [30, 30, 30, 0]},
-  {teacherCode: 'agv1u',  students: [30, 30, 30, 0]},
-  {teacherCode: 'ahupq9', students: [30, 30, 30, 0]},
-  {teacherCode: 'et857w', students: [30, 30, 30, 0]},
-  {teacherCode: '9knp4',  students: [30, 30, 30, 0]},
-  {teacherCode: 'ojiy8q', students: [30, 30, 30, 0]},
-  {teacherCode: 'a896w',  students: [30, 30, 30, 0]},
-  {teacherCode: 'cb8sj',  students: [30, 30, 30, 0]},
-  {teacherCode: 'yjhx14', students: [30, 30, 30, 0]},
-  {teacherCode: '364052', students: [30, 30, 30, 0]},
-  {teacherCode: '3to7uh', students: [30, 30, 30, 0]},
-  {teacherCode: 'nww75',  students: [30, 30, 30, 0]},
-  {teacherCode: '2c7db',  students: [30, 30, 30, 0]},
-  {teacherCode: '9mhdd',  students: [30, 30, 30, 0]},
-  {teacherCode: 't1bmm',  students: [30, 30, 30, 0]},
-  {teacherCode: 'ywxcsd', students: [30, 30, 30, 0]},
-  {teacherCode: 'd01m4y', students: [30, 30, 30, 0]},
-  {teacherCode: 'x6t2nx', students: [30, 30, 30, 0]},
-  {teacherCode: 'af7eui', students: [30, 30, 30, 0]},
-  {teacherCode: 'e6h34j', students: [30, 30, 30, 0]},
-  {teacherCode: '6h36iy', students: [30, 30, 30, 0]},
-  {teacherCode: 'dypvzw', students: [30, 30, 30, 0]},
-  {teacherCode: 'ayidqn', students: [30, 30, 30, 0]}
+  {name: 'Bulmershe School', year: 7, teachers: ['mg4414'], students: 30},
+  {name: 'Bulmershe School', year: 8, teachers: ['h343j'], students: 30},
+  {name: 'Bulmershe School', year: 9, teachers: ['qw6ok'], students: 30},
+
+  {name: 'Capital City Academy', year: 7, teachers: ['fd5ryc'], students: 30},
+  {name: 'City Academy Hackney', year: 7, teachers: ['9h9mga'], students: 30},
+  {name: 'City of London Academy Islington', year: 7, teachers: ['frwics'], students: 30},
+  {name: 'City of London Academy Islington', year: 8, teachers: ['muigu'], students: 30},
+  {name: 'City of London Academy Islington', year: 9, teachers: ['frwics'], students: 30},
+  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['14lq9e'], students: 30},
+  {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['onwaes'], students: 30},
+  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['agv1u'], students: 30},
+  {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['ahupq9'], students: 30},
+  {name: 'City of London Academy Southwark', year: 7, teachers: ['et857w'], students: 30},
+
+  {name: 'Cullompton Community College', year: 7, teachers: ['9knp4'], students: 30},
+  {name: 'Cullompton Community College', year: 8, teachers: ['9knp4'], students: 30},
+  {name: 'Cullompton Community College', year: 9, teachers: ['9knp4'], students: 30},
+
+  {name: 'Harris Academy St John\'s Wood', year: 7, teachers: ['a896w', 'cb8sj'], students: 30},
+  {name: 'Harris Academy St John\'s Wood', year: 8, teachers: ['cb8sj', 'yjhx14'], students: 30},
+
+  {name: 'Lister Community School', year: 7, teachers: ['364052'], students: 30},
+  {name: 'Lister Community School', year: 8, teachers: ['3to7uh'], students: 30},
+  {name: 'Lister Community School', year: 9, teachers: ['nww75'], students: 30},
+
+  {name: 'Plashet School', year: 7, teachers: ['9mhdd'], students: 30},
+  {name: 'Plashet School', year: 8, teachers: ['2c7db'], students: 30},
+  {name: 'Plashet School', year: 9, teachers: ['t1bmm'], students: 30},
+
+  {name: 'Torquay Academy', year: 7, teachers: ['d01m4y', 'x6t2nx', 'ayidqn'], students: 30},
+  {name: 'Torquay Academy', year: 8, teachers: ['af7eui', '6h36iy'], students: 30},
+  {name: 'Torquay Academy', year: 9, teachers: ['dypvzw', 'ywxcsd'], students: 30},
 ];
 
 // -----------------------------------------------------------------------------
@@ -59,50 +62,43 @@ async function run() {
 
   const length = Math.max(...[7, 8, 9, 10].map(i => pageData['year' + i].length));
 
-  const results = ['School, Teacher Code, Year, Number of Students'];
+  const results = ['School, Year, Number of Students'];
   for (let i = 1; i <= length; ++i) {
     results[0] += `, PG${i} Completion, PG${i} Avg Score`;
   }
 
   for (const s of TTS_SCHOOLS) {
-    const teacher = users.find(u => u.code === s.teacherCode);
-    if (!teacher) {
-      console.warn(`No teacher with code ${s.teacherCode}!`);
-      continue;
-    }
+    const data = [s.name, s.year, s.students];
 
-    for (const [j, y] of ['year7', 'year8', 'year9', 'year10'].entries()) {
-      if (s.students[j] <= 0) continue;
-      const data = [teacher.schoolName, s.teacherCode, y, s.students[j]];
-      let totalAttempts = 0;
+    for (let i = 0; i < length; ++i) {
+      const p = pageData['year' + s.year][i];
+      if (!p) {
+        console.warn(`No parallelogram with number ${i} for year ${s.year}!`);
+        continue;
+      }
 
-      for (let i = 0; i < length; ++i) {
-        const p = pageData[y][i];
-        if (!p) {
-          console.warn(`No parallelogram with number ${i} for year ${y}!`);
-          continue;
-        }
+      let attempts = 0;
+      let totalScore = 0;
 
-        let attempts = 0;
-        let totalScore = 0;
-
+      for (let t of s.teachers) {
         for (let u of users) {
-          if (u.teacherCode === s.teacherCode && u.level === y && u.answers) {
+          if (u.teacherCode === t && u.answers) {
             const q = u.answers[p.url];
             if (q && q.submitted) {
-              attempts += 1;
-              totalScore += (+q.score || 0);
+              if (USE_ARCHIVED_DATA ? q.archive === USE_ARCHIVED_DATA : !q.archive) {
+                attempts += 1;
+                totalScore += (+q.score || 0);
+              }
             }
           }
         }
-
-        totalAttempts += attempts;
-        data.push(attempts ? Math.round(attempts / s.students[j] * 100) + '%' : '');
-        data.push(attempts ? Math.round(totalScore / attempts) : '');
       }
 
-      if (totalAttempts > 0) results.push(data.join(','));
+      data.push(attempts ? Math.round(attempts / s.students * 100) + '%' : '');
+      data.push(attempts ? Math.round(totalScore / attempts) : '');
     }
+
+    results.push(data.join(','));
   }
 
   const str = results.join('\n');

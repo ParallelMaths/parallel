@@ -9,20 +9,23 @@ fb.initializeApp({
 async function run() {
   const userData = await fb.database().ref('users').once('value');
   const users = userData.toJSON();
-  console.log(`Loading ${Object.keys(users).length} users...`);
+  console.log(`Loaded ${Object.keys(users).length} users...`);
 
-  let i = 0;
+  const updates = {};
 
   for (const [key, user] of Object.entries(users)) {
-    i += 1;
-    if (!(i % 100)) console.log(`Updating ${i}`);
+    updates[`${key}/level`] = ({year7: 'year8', year8: 'year9', year9: 'year10'}[user.level] || 'year7');
+    updates[`${key}/showWelcomeMsg`] = true;
+    updates[`${key}/hasSeenWelcomeMsg`] = fb.firestore.FieldValue.delete();
 
-    await fb.database().ref('users/' + key).update({
-      level: ({year7: 'year8', year8: 'year9', year9: 'year10'}[user.level] || 'year7'),
-      showWelcomeMsg: true,
-      hasSeenWelcomeMsg: fb.firestore.FieldValue.delete(),
-    });
+    const parallelograms = user.answers ? Object.keys(user.answers) : [];
+    for (let p of parallelograms) {
+      updates[`${key}/answers/${p}/archive`] = 2018;
+    }
   }
+
+  console.log(`Updating ${Object.keys(updates).length} entries...`);
+  await fb.database().ref('users').update(updates);
 
   console.log('Done!');
   process.exit();

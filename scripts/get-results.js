@@ -28,11 +28,11 @@ async function run() {
     const data = [];
 
     for (let u of Object.keys(users)) {
-      if (!users[u].answers || !users[u].answers[p.url]) continue;
-      if (users[u].code) continue;  // exclude teachers
+      if (users[u].code || !users[u].answers) continue;  // exclude teachers
 
       const user = users[u];
       const answer = users[u].answers[p.url];
+      if (!answer || answer.archive) continue;
 
       const d = [
         user.first + ' ' + user.last,
