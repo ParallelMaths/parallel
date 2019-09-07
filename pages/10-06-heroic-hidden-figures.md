@@ -16,7 +16,9 @@ These challenges are a random walk through the mysteries of mathematics, most of
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by Sunday night if your whole class is doing parallelograms.
 
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.  
+
+As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time on 31st October__, and it will be appropriately terrifying.
 
 
 ## 1. Heroic Hidden Figures
@@ -189,7 +191,96 @@ the total of the numbers in each line is 19.
 :::
 
 
-There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
+## 5. The world’s top thinker
+
+The magazine Prospect recently asked its readers to vote on the world’s top thinker.  
+
+The winner was a mathematician who had won the world’s most prestigious prize for mathematics, the Fields Medal … arguably harder to win than a Nobel Prize.  
+
+Caucher Birkar grew up in war-torn western Iran in the 1980s, where his family were farmers: “My parents were farmers, as all my ancestors were farmers. We had a piece of land around the village and we—including myself and my brother—were charged with going to work on these fields, and grow all kinds of vegetables… wheat, and barley… My mother never attended any school. My father attended school up to primary school, and then he did not continue because it just wasn’t really practical.”  
+
+You can [read his remarkable story here](https://www.prospectmagazine.co.uk/magazine/prospect-top-thinker-2019-winner-caucher-birkar){target="_blank"} – read the article and answer the two questions below.
+
+::: problem id=5_1 marks=2
+__5.1__ Caucher Birkar is a name he adopted when he came to Britain. What does it mean?
+
+* [ ] magnificent mathematician
+* [ ] modest mathematician
+* [ ] miracle mathematician
+* [ ] magical mathematician
+* [x] migrant mathematician
+:::
+
+::: problem id=5_2 marks=2
+__5.2__ According to Birkar, what is mathematics?
+
+* [x] part science, part art
+* [ ] part science, part engineering
+* [ ] part science, part philosopher
+* [ ] party science, party alchemy
+* [ ] part science, party mystery
+:::
+
+
+
+## 6.	Intermediate Maths Challenge Problem (UKMT)
+<!--- (2016) Q14 --->
+
+::: problem id=6_1 marks=4
+__6.1__ Anna has the same number of brothers as she has sisters. Each one of her brothers has 50% more sisters than brothers.  
+
+How many children are in Anna's family?
+
+* [ ] 5
+* [ ] 7
+* [ ] 9
+* [ ] 11
+* [x] 13
+{.col-5}
+
+^^^ hint id=6_1 marks=1
+It’s not very mathematical, and it's not very productive, but you could try trial and error to reduce the possibilities. For example, is 5 possible? 5 sons & 0 daughters, or 4 & 1, or 3 & 2, or 2 & 3, or 1 & 4, or 0 & 5? No, clearly it is not.  
+
+You could try the same approach with the other options, but it will take you a while… but you would get an answer eventually.
+^^^
+
+^^^ hint id=6_2marks=1
+Suppose that Anna has `n` brothers. Since she has equal numbers of brothers and sisters, she also has `n` sisters.  
+
+Consider one of Anna's brothers, say Ben. All of Anna's sisters are also Ben’s sisters, and Ben also has Anna as one of his sisters. So Ben has `n + 1` sisters. All of Anna brothers, other than Ben himself, are also Ben’s brothers. So Ben has `n − 1` brothers.  
+
+Since Ben has 50% more sisters than brothers, it follows that  
+
+`(n + 1)/(n − 1) = 150/100 = 3/2`  
+^^^
+
+---
+
+Suppose that Anna has `n` brothers. Since she has equal numbers of brothers and sisters, she also has `n` sisters.  
+
+Consider one of Anna's brothers, say Ben. All of Anna's sisters are also Ben’s sisters, and Ben also has Anna as one of his sisters. So Ben has `n + 1` sisters. All of Anna brothers, other than Ben himself, are also Ben’s brothers. So Ben has `n − 1` brothers.  
+
+Since Ben has 50% more sisters than brothers, it follows that  
+
+`(n + 1)/(n − 1) = 150/100 = 3/2`  
+
+and therefore  
+
+`2(n + 1) = 3(n − 1)`,  
+
+that is,  
+
+`2n + 2 = 3n − 3`,  
+
+from which it follows that  
+
+`n = 5`.  
+
+Therefore Anna has 5 brothers and 5 sisters. So, including Anna, there are 5 + 5 + 1 = 11 children in her family.
+:::
+
+
+There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on October 31st.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
