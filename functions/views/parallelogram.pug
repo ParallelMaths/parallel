@@ -33,7 +33,8 @@ block content
         p You’ve scored enough points to receive a new badge:
         img(src='/images/badges/' + newBadge.id + '.jpg' width=160 height-180)
         h3= newBadge.name
-        p #{newBadge.description} #[a(href=newBadge.link target="_blank") Learn more…]
+        p !{newBadge.description}
+        p: a.badge-btn(href=newBadge.link target="_blank") Learn more…
         .close(v-on:click="c.showBadgeModal = false") ×
 
   script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
