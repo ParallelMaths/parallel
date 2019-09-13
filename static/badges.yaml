@@ -432,140 +432,140 @@ year10:
   type: Map of Maths
   score: 100
   color: ff941f
-  description: The application of formal logic to mathematical concepts, commonly through deductive arguments. Used to define the axiomatic systems which underpin the foundations of mathematics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of formal logic to mathematical concepts, commonly through deductive arguments. Used to define the axiomatic systems which underpin the foundations of mathematics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_logic
 - id: 10-set-theory
   name: Set Theory
   type: Map of Maths
   score: 200
   color: f27c2b
-  description: A branch of Mathematical Logic that studies collections of objects, known as sets. Used with a consistent set of axioms (or rules), it is often considered as a foundation of pure mathematics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of Mathematical Logic that studies collections of objects, known as sets. Used with a consistent set of axioms (or rules), it is often considered as a foundation of pure mathematics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Set_theory
 - id: 10-godels-incompleteness
   name: Godel’s Incompleteness Theorems
   type: Map of Maths
   score: 300
   color: e66438
-  description: Two theorems which exposed the limitations of formal mathematical systems. They state that for any consistent set of axioms there are truths that cannot be proven or disproven, including the statement that the set of axioms is itself consistent. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: Two theorems which exposed the limitations of formal mathematical systems. They state that for any consistent set of axioms there are truths that cannot be proven or disproven, including the statement that the set of axioms is itself consistent. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.youtube.com/watch?v=O4ndIDcDSGc
 - id: 10-number-theory
   name: Number Theory
   type: Map of Maths
   score: 400
   color: d94c44
-  description: The study of the system of natural numbers. It is a branch of pure mathematics, with new results built upon previous discoveries, and is often studied using a ‘problem-theorem-proof’ approach. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of the system of natural numbers. It is a branch of pure mathematics, with new results built upon previous discoveries, and is often studied using a ‘problem-theorem-proof’ approach. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://nrich.maths.org/4352
 - id: 10-complex-numbers
   name: Complex Numbers
   type: Map of Maths
   score: 550
   color: cc3450
-  description: The combined system of real and imaginary numbers. Complex numbers are written in the form a + bi where a and b are real numbers, and i is the square root of minus one. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The combined system of real and imaginary numbers. Complex numbers are written in the form a + bi where a and b are real numbers, and i is the square root of minus one. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:complex/x2ec2f6f830c9fb89:complex-num/a/intro-to-complex-numbers
 - id: 10-real-numbers
   name: Real Numbers
   type: Map of Maths
   score: 700
   color: c01c5d
-  description: A value of a continuous quantity that can represent magnitude and the distance along a line. The name ‘real’ was introduced to distinguish them from imaginary numbers such as the square root of minus one. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A value of a continuous quantity that can represent magnitude and the distance along a line. The name ‘real’ was introduced to distinguish them from imaginary numbers such as the square root of minus one. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Real_number
 - id: 10-rational-numbers
   name: Rational Numbers
   type: Map of Maths
   score: 850
   color: b30469
-  description: Numbers which can be written as the ratio of two integers (positive or negative whole numbers). All rational numbers can be written as fractions or decimals, but not all decimals can be written as rational numbers. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: Numbers which can be written as the ratio of two integers (positive or negative whole numbers). All rational numbers can be written as fractions or decimals, but not all decimals can be written as rational numbers. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Rational_number
 - id: 10-integers
   name: Integers
   type: Map of Maths
   score: 1000
   color: 9e157e
-  description: The positive and negative whole numbers. It is possible to write the integers as discreet points on a number line, or by folding the number line in half as 0, ±1, ±2, ±3… Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The positive and negative whole numbers. It is possible to write the integers as discreet points on a number line, or by folding the number line in half as 0, ±1, ±2, ±3… Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Integer
 - id: 10-natural-numbers
   name: Natural Numbers
   type: Map of Maths
   score: 1200
   color: 892694
-  description: The positive whole numbers (or counting numbers). Some definitions also include zero as a natural number. The study of their properties, when combined with a consistent set of rules or axioms, forms the basis of number theory. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The positive whole numbers (or counting numbers). Some definitions also include zero as a natural number. The study of their properties, when combined with a consistent set of rules or axioms, forms the basis of number theory. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Natural_number
 - id: 10-group-theory
   name: Group Theory
   type: Map of Maths
   score: 1400
   color: 7437a9
-  description: The study of groups (sets equipped with an operation such as multiplication or addition). The collection of transformations that can be applied to a shape without causing its appearance to change form a (symmetry) group under composition (‘composing’ multiple consecutive transformations). Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of groups (sets equipped with an operation such as multiplication or addition). The collection of transformations that can be applied to a shape without causing its appearance to change form a (symmetry) group under composition (‘composing’ multiple consecutive transformations). Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://brilliant.org/wiki/group-theory-introduction/
 - id: 10-graph-theory
   name: Graph Theory
   type: Map of Maths
   score: 1600
   color: 5e47bf
-  description: The study of graphs (a collection of points or ‘nodes’, connected by lines or ‘edges’). It can be used to simplify real life problems, for example finding the shortest route between two places. The London Underground map is a famous example of a graph. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of graphs (a collection of points or ‘nodes’, connected by lines or ‘edges’). It can be used to simplify real life problems, for example finding the shortest route between two places. The London Underground map is a famous example of a graph. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Graph_theory
 - id: 10-linear-algebra
   name: Linear Algebra
   type: Map of Maths
   score: 1800
   color: 4958d4
-  description: The study of linear equations and systems, i.e., those which can be represented as a straight line or series of straight lines. They are primarily studied through their representations as vectors and matrices. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of linear equations and systems, i.e., those which can be represented as a straight line or series of straight lines. They are primarily studied through their representations as vectors and matrices. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Linear_algebra
 - id: 10-topology
   name: Topology
   type: Map of Maths
   score: 2050
   color: 3469ea
-  description: A branch of mathematics studying objects which remain the same under continuous deformations such as stretching, bending and twisting. Famously, a mug and a donut are topologically equivalent. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of mathematics studying objects which remain the same under continuous deformations such as stretching, bending and twisting. Famously, a mug and a donut are topologically equivalent. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.britannica.com/science/topology
 - id: 10-geometry
   name: Geometry
   type: Map of Maths
   score: 2300
   color: 1f7aff
-  description: From the ancient Greek for ‘Earth measurement’; the study of points, lines, areas and volumes. The ‘standard’ geometry learnt in school is Euclidean geometry and is governed by Euclid’s axioms. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: From the ancient Greek for ‘Earth measurement’; the study of points, lines, areas and volumes. The ‘standard’ geometry learnt in school is Euclidean geometry and is governed by Euclid’s axioms. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Geometry
 - id: 10-computer-science
   name: Computer Science
   type: Map of Maths
   score: 2550
   color: 2284d5
-  description: The study of processes and machines which can be employed to perform computations, with a focus on efficiency and usability. The foundations of modern computer science were laid by mathematicians as early as the 17th century. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of processes and machines which can be employed to perform computations, with a focus on efficiency and usability. The foundations of modern computer science were laid by mathematicians as early as the 17th century. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Computer_science
 - id: 10-chaos-theory
   name: Chaos Theory
   type: Map of Maths
   score: 2800
   color: 258dab
-  description: A branch of maths focussing on the behaviour of dynamical systems (in which the position of a point in space varies with time) that are highly sensitive to initial conditions and almost completely unpredictable. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of maths focussing on the behaviour of dynamical systems (in which the position of a point in space varies with time) that are highly sensitive to initial conditions and almost completely unpredictable. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://fractalfoundation.org/resources/what-is-chaos-theory/
 - id: 10-mathematical-biology
   name: Mathematical Biology
   type: Map of Maths
   score: 3100
   color: 289782
-  description: The application of mathematical models and techniques to problems in biology. These include the spread of disease, population growth within ecosystems and pattern formation in animals. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of mathematical models and techniques to problems in biology. These include the spread of disease, population growth within ecosystems and pattern formation in animals. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology
 - id: 10-trigonometry
   name: Trigonometry
   type: Map of Maths
   score: 3400
   color: 2ba058
-  description: The branch of mathematics dedicated to studying the relationships between side lengths and angles of triangles. It largely focuses on formulae relating the sine, cosine and tangent functions, which are defined as the ratios of each pair of sides of a right angled triangle. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The branch of mathematics dedicated to studying the relationships between side lengths and angles of triangles. It largely focuses on formulae relating the sine, cosine and tangent functions, which are defined as the ratios of each pair of sides of a right angled triangle. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Trigonometry
 - id: 10-calculus
   name: Calculus
   type: Map of Maths
   score: 3700
   color: 2ea92e
-  description: The mathematical study of continuous change. In their simplest forms, differential calculus can be used to find the gradient of a curve, while integral calculus can be used to find the area under a curve. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The mathematical study of continuous change. In their simplest forms, differential calculus can be used to find the gradient of a curve, while integral calculus can be used to find the area under a curve. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Calculus
 - id: 10-vector-calculus
   name: Vector Calculus
   type: Map of Maths
   score: 4000
   color: 31b304
-  description: A branch of mathematics concerned with the calculus of vector fields. A vector field can be visualised as a collection of arrows each with a given magnitude and direction attached to a point in the plane, for example a magnetic field. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of mathematics concerned with the calculus of vector fields. A vector field can be visualised as a collection of arrows each with a given magnitude and direction attached to a point in the plane, for example a magnetic field. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Vector_calculus
 
 
@@ -575,138 +575,138 @@ year11:
   type: Map of Maths
   score: 100
   color: ff941f
-  description: Equations which relate a function to its derivatives. They are often used to model physical quantities and how they change over time. Often, more complex differential equations are unsolvable, but the solution may be approximated numerically. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: Equations which relate a function to its derivatives. They are often used to model physical quantities and how they change over time. Often, more complex differential equations are unsolvable, but the solution may be approximated numerically. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Differential_equation
 - id: 11-cryptography
   name: Cryptography
   type: Map of Maths
   score: 200
   color: f27c2b
-  description: The practise and study of techniques for sending messages whose content will remain secret in the presence of eavesdropping third parties. Since the development of computers the methods used in cryptography have become increasingly complex. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The practise and study of techniques for sending messages whose content will remain secret in the presence of eavesdropping third parties. Since the development of computers the methods used in cryptography have become increasingly complex. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Cryptography
 - id: 11-machines-learning
   name: Machine Learning
   type: Map of Maths
   score: 300
   color: e66438
-  description: A branch of artificial intelligence which employs algorithms and statistical models to train computers into performing tasks without explicit instructions, using sample ‘training’ data. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of artificial intelligence which employs algorithms and statistical models to train computers into performing tasks without explicit instructions, using sample ‘training’ data. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Machine_learning
 - id: 11-probability-theory
   name: Probability Theory
   type: Map of Maths
   score: 400
   color: d94c44
-  description: The study of probability (the likelihood of an event) according to a series of axioms or rules, within a sample space of possible outcomes. Results from Probability Theory are often used in the field of statistics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of probability (the likelihood of an event) according to a series of axioms or rules, within a sample space of possible outcomes. Results from Probability Theory are often used in the field of statistics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Probability_theory
 - id: 11-statistics
   name: Statistics
   type: Map of Maths
   score: 550
   color: cc3450
-  description: The discipline of collecting, analysing, presenting and interpreting data, particularly in the presence of uncertainty. It is often considered as a distinct mathematical science, as opposed to a branch of mathematics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The discipline of collecting, analysing, presenting and interpreting data, particularly in the presence of uncertainty. It is often considered as a distinct mathematical science, as opposed to a branch of mathematics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Statistics
 - id: 11-bayseian-statistics
   name: Bayesian Statistics
   type: Map of Maths
   score: 700
   color: c01c5d
-  description: An approach in statistics which views probabilities as ‘degrees of belief’ in an event. After obtaining new data, probabilities may be updated according to Bayes’ Theorem, using the prior probability of the event and the likelihood that it is true given the data. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: An approach in statistics which views probabilities as ‘degrees of belief’ in an event. After obtaining new data, probabilities may be updated according to Bayes’ Theorem, using the prior probability of the event and the likelihood that it is true given the data. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Bayesian_statistics
 - id: 11-optimization
   name: Optimization
   type: Map of Maths
   score: 850
   color: b30469
-  description: The application of mathematical methods to find the ‘best’ solution (according to some criterion) to a problem. Optimisation problems often occur in the related fields of computer science, engineering and economics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of mathematical methods to find the ‘best’ solution (according to some criterion) to a problem. Optimisation problems often occur in the related fields of computer science, engineering and economics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_optimization
 - id: 11-game-theory
   name: Game Theory
   type: Map of Maths
   score: 1000
   color: 9e157e
-  description: The application of mathematical models to strategic games between two or more players. Generally, each player is assumed to be using their own optimal strategy. A classic problem in game theory is the Prisoner’s Dilemma. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of mathematical models to strategic games between two or more players. Generally, each player is assumed to be using their own optimal strategy. A classic problem in game theory is the Prisoner’s Dilemma. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.britannica.com/science/game-theory
 - id: 11-mathematical-finance
   name: Mathematical Finance
   type: Map of Maths
   score: 1200
   color: 892694
-  description: A field of applied mathematics concerned with the mathematical modelling of financial markets. It is primarily concerned with predicting the future behaviour of virtual commodities such as the value of shares in a company. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A field of applied mathematics concerned with the mathematical modelling of financial markets. It is primarily concerned with predicting the future behaviour of virtual commodities such as the value of shares in a company. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_finance
 - id: 11-economics
   name: Economics
   type: Map of Maths
   score: 1400
   color: 7437a9
-  description: A social science which focuses on the behaviour and interactions surrounding the production, trade and consumption of goods and services. Since the 20th century, the study of economics has become increasingly influenced by mathematics. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A social science which focuses on the behaviour and interactions surrounding the production, trade and consumption of goods and services. Since the 20th century, the study of economics has become increasingly influenced by mathematics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Economics
 - id: 11-graph-theory
   name: Graph Theory
   type: Map of Maths
   score: 1600
   color: 5e47bf
-  description: The study of graphs (a collection of points or ‘nodes’, connected by lines or ‘edges’). It can be used to simplify real life problems, for example finding the shortest route between two places. The London Underground map is a famous example of a graph. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of graphs (a collection of points or ‘nodes’, connected by lines or ‘edges’). It can be used to simplify real life problems, for example finding the shortest route between two places. The London Underground map is a famous example of a graph. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Graph_theory
 - id: 11-numerical-analysis
   name: Numerical Analysis
   type: Map of Maths
   color: 4958d4
   score: 1800
-  description: The study of algorithmic approximations for solutions to problems of continuous (as opposed to discrete) mathematics. Results from numerical analysis are often applicable to the field of scientific computing. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of algorithmic approximations for solutions to problems of continuous (as opposed to discrete) mathematics. Results from numerical analysis are often applicable to the field of scientific computing. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.britannica.com/science/numerical-analysis
 - id: 11-topology
   name: Topology
   type: Map of Maths
   score: 2050
   color: 3469ea
-  description: A branch of mathematics studying objects which remain the same under continuous deformations such as stretching, bending and twisting. Famously, a mug and a donut are topologically equivalent. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of mathematics studying objects which remain the same under continuous deformations such as stretching, bending and twisting. Famously, a mug and a donut are topologically equivalent. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://www.britannica.com/science/topology
 - id: 11-fractal-geometry
   name: Fractal Geometry
   type: Map of Maths
   score: 2300
   color: 1f7aff
-  description: A branch of topology studying patterns and shapes which look the same at increasingly small scales. Fractals are often visible in nature, for example in pine trees and fern leaves. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of topology studying patterns and shapes which look the same at increasingly small scales. Fractals are often visible in nature, for example in pine trees and fern leaves. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://fractalfoundation.org/resources/what-are-fractals/
 - id: 11-computer-science
   name: Computer Science
   type: Map of Maths
   score: 2550
   color: 2284d5
-  description: The study of processes and machines which can be employed to perform computations, with a focus on efficiency and usability. The foundations of modern computer science were laid by mathematicians as early as the 17th century. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The study of processes and machines which can be employed to perform computations, with a focus on efficiency and usability. The foundations of modern computer science were laid by mathematicians as early as the 17th century. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Computer_science
 - id: 11-chaos-theory
   name: Chaos Theory
   type: Map of Maths
   score: 2800
   color: 258dab
-  description: A branch of maths focussing on the behaviour of dynamical systems (in which the position of a point in space varies with time) that are highly sensitive to initial conditions and almost completely unpredictable. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: A branch of maths focussing on the behaviour of dynamical systems (in which the position of a point in space varies with time) that are highly sensitive to initial conditions and almost completely unpredictable. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://fractalfoundation.org/resources/what-is-chaos-theory/
 - id: 11-mathematical-biology
   name: Mathematical Biology
   type: Map of Maths
   score: 3100
   color: 289782
-  description: The application of mathematical models and techniques to problems in biology. These include the spread of disease, population growth within ecosystems and pattern formation in animals. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of mathematical models and techniques to problems in biology. These include the spread of disease, population growth within ecosystems and pattern formation in animals. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology
 - id: 11-trigonometry
   name: Trigonometry
   type: Map of Maths
   score: 3400
   color: 2ba058
-  description: The branch of mathematics dedicated to studying the relationships between side lengths and angles of triangles. It largely focuses on formulae relating the sine, cosine and tangent functions, which are defined as the ratios of each pair of sides of a right angled triangle. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The branch of mathematics dedicated to studying the relationships between side lengths and angles of triangles. It largely focuses on formulae relating the sine, cosine and tangent functions, which are defined as the ratios of each pair of sides of a right angled triangle. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Trigonometry
 - id: 11-mathematical-physics
   name: Mathematical Physics
   type: Map of Maths
   score: 3700
   color: 2ea92e
-  description: The application of mathematical methods to problems in physics and the use of mathematical models to explain physical phenomena. Its applications range from classical mechanics to quantum theory. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: The application of mathematical methods to problems in physics and the use of mathematical models to explain physical phenomena. Its applications range from classical mechanics to quantum theory. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_physics#Quantum_theory
 - id: 11-exponentials
   name: Exponentials
   type: Map of Maths
   score: 4000
   color: 31b304
-  description: Functions in which the exponent (or power to which a number is raised) is a variable, i.e. y = 2x. Exponentials increase at a rate faster than polynomials. The constant e is the number for which the function y = ex increases at rate ex. Badges bases on icons from Dominic Walliman’s [“Map of Mathematics”]( https://www.youtube.com/user/dominicwalliman/){target="_blank"}.
+  description: Functions in which the exponent (or power to which a number is raised) is a variable, i.e. y = 2x. Exponentials increase at a rate faster than polynomials. The constant e is the number for which the function y = ex increases at rate ex. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Exponential_function
