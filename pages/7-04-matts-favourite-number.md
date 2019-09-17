@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Matt’s favourite number
 
-Maths Inspirations offers lectures each morning and afternoon, aimed at schools across England and sometimes beyond. Here is a clip from one of their lectures, featuring Matt Parker talking about his favourite number… or at least his favourite number that week.
+Maths Inspiration offers lectures each morning and afternoon, aimed at schools across England and sometimes beyond. Here is a clip from one of their lectures, featuring Matt Parker talking about his favourite number… or at least his favourite number that week.
 
 @[youtube](wt5cRQY8F30?end=382&rel=0)
 

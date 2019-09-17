@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Volume of a sphere
 
-You might not have covered this yet, but there is an equation that that gives the volume of a sphere based on the radius. Just like there is an equation that gives the circumference of a circle based on the radius (circumference = `2 × π × r`). This short video reveals that equation.
+You might not have covered this yet, but there is an equation that gives the volume of a sphere based on the radius. Just like there is an equation that gives the circumference of a circle based on the radius (circumference = `2 × π × r`). This short video reveals that equation.
 
 @[youtube](uWfzWEcm5yU?rel=0)
 

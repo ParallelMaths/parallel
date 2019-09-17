@@ -10,52 +10,48 @@ const serviceAccount = require('../private/service-account.json');
 const USE_ARCHIVED_DATA = false;  // Can be 2018 or false
 
 const TTS_SCHOOLS = [
-  {name: 'Bulmershe School', year: 7, teachers: ['mg4414'], students: 30},
-  {name: 'Bulmershe School', year: 8, teachers: ['h343j'], students: 30},
-  {name: 'Bulmershe School', year: 9, teachers: ['qw6ok'], students: 30},
-  {name: 'Bulmershe School', year: 10, teachers: ['qw6ok'], students: 30},
+  {name: 'Bulmershe School', year: 7, teachers: ['4kuds0'], students: 20},
+  {name: 'Bulmershe School', year: 8, teachers: ['mg4414'], students: 20},
+  {name: 'Bulmershe School', year: 9, teachers: ['qw6ok'], students: 20},
+  {name: 'Bulmershe School', year: 10, teachers: ['h343j'], students: 20},
 
-  {name: 'Capital City Academy', year: 7, teachers: ['t2mtbt'], students: 30},
-  {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 30},
+  {name: 'Capital City Academy', year: 7, teachers: ['t2mtbt'], students: 20},
+  {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 20},
 
-  {name: 'City Academy Hackney', year: 7, teachers: ['9h9mga'], students: 30},
-  {name: 'City Academy Hackney', year: 8, teachers: ['9h9mga'], students: 30},
+  {name: 'City Academy Hackney', year: 7, teachers: ['o4xlq9'], students: 20},
+  {name: 'City Academy Hackney', year: 8, teachers: ['4qhg6e'], students: 20},
 
-  {name: 'City of London Academy Islington', year: 7, teachers: ['rxulkx'], students: 30},
-  {name: 'City of London Academy Islington', year: 8, teachers: ['Qgd4av'], students: 30},
+  {name: 'City of London Academy Islington', year: 7, teachers: ['rxulkx'], students: 20},
+  {name: 'City of London Academy Islington', year: 8, teachers: ['Qgd4av'], students: 20},
 
-  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['14lq9e'], students: 30},
-  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['14lq9e'], students: 30},
+  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['wzauuo'], students: 20},
+  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['14lq9e'], students: 20},
 
-  {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 30},
-  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['onwaes'], students: 30},
+  {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 20},
+  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['v64gji'], students: 20},
 
-  {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['ahupq9', 'agv1u'], students: 30},
-  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['ahupq9 '], students: 30},
-  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['agv1u'], students: 30},
+  {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['ahupq9', 'agv1u'], students: 20},
+  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['ahupq9 '], students: 20},
+  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['agv1u'], students: 20},
 
-  {name: 'City of London Academy Southwark', year: 7, teachers: ['lsbnvj'], students: 30},
-  {name: 'City of London Academy Southwark', year: 8, teachers: ['ee89n6'], students: 30},
+  {name: 'City of London Academy Southwark', year: 7, teachers: ['lsbnvj'], students: 20},
+  {name: 'City of London Academy Southwark', year: 8, teachers: ['ee89n6'], students: 20},
 
-  {name: 'Cullompton Community College', year: 7, teachers: ['u9r9lh', 'efctnx'], students: 30},
-  {name: 'Cullompton Community College', year: 8, teachers: ['hc7it0'], students: 30},
-  {name: 'Cullompton Community College', year: 9, teachers: ['iplf3y'], students: 30},
+  {name: 'Cullompton Community College', year: 7, teachers: ['u9r9lh', 'efctnx'], students: 20},
+  {name: 'Cullompton Community College', year: 8, teachers: ['hc7it0'], students: 20},
+  {name: 'Cullompton Community College', year: 9, teachers: ['iplf3y'], students: 20},
 
-  {name: 'Elthorne', year: 8, teachers: ['szvxjp'], students: 30},
+  {name: 'Elthorne', year: 8, teachers: ['szvxjp'], students: 20},
 
-  {name: 'Lister Community School', year: 7, teachers: ['364052'], students: 30},
-  {name: 'Lister Community School', year: 8, teachers: ['3to7uh'], students: 30},
-  {name: 'Lister Community School', year: 9, teachers: ['nww75'], students: 30},
-  {name: 'Lister Community School', year: 10, teachers: ['nww75'], students: 30},
+  {name: 'Lister Community School', year: 7, teachers: ['Ag93qe'], students: 20},
+  {name: 'Lister Community School', year: 8, teachers: ['2jiemd'], students: 20},
+  {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 20},
+  {name: 'Lister Community School', year: 10, teachers: ['nww75'], students: 20},
 
-  {name: 'Plashet School', year: 7, teachers: ['9mhdd'], students: 30},
-  {name: 'Plashet School', year: 8, teachers: ['2c7db'], students: 30},
-  {name: 'Plashet School', year: 9, teachers: ['t1bmm'], students: 30},
-  {name: 'Plashet School', year: 10, teachers: ['t1bmm'], students: 30},
-
-  {name: 'Torquay Academy', year: 7, teachers: ['ayidqn'], students: 30},
-  {name: 'Torquay Academy', year: 8, teachers: ['dypvzw'], students: 30},
-  {name: 'Torquay Academy', year: 9, teachers: ['ayidqn'], students: 30},
+  {name: 'Plashet School', year: 7, teachers: ['9mhdd'], students: 20},
+  {name: 'Plashet School', year: 8, teachers: ['9mhdd'], students: 20},
+  {name: 'Plashet School', year: 9, teachers: ['2c7db'], students: 20},
+  {name: 'Plashet School', year: 10, teachers: ['t1bmm'], students: 20},
 ];
 
 // -----------------------------------------------------------------------------
