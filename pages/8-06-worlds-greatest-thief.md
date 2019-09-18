@@ -141,6 +141,62 @@ Hence the area of one of the squares is one third of this, that is, 49 cm<sup>2<
 Therefore the side-length of each square is 7 cm.
 :::
 
+
+## 4.	Relative speeds
+
+This is an amazing video. Take a look.
+
+@[youtube](RCnHnXB0eOw&rel=0)
+
+It shows that two objects moving at the same speed and in the same direction behave towards each other as if nothing is moving. If the camera only showed the trampoline and the bouncing man, then you would have no idea that anything was moving.  
+
+It is pretty much the same situation when you consider that you are standing on the Earth. The Earth is spinning and you are moving at the same speed on its surface, so when you jump up in the air, you don’t land in a different place.
+
+::: problem id=4_1 marks=3
+__4.1__ How fast, approximately, do people move if they live on the Equator?  
+
+(The answers are given in miles per hour, because the answer works out quite nicely.)
+
+* [ ] 10 mph
+* [ ] 100 mph
+* [x] 1,000 mph
+* [ ] 10,000 mph
+* [ ] 100,000 mph
+{.col-5}
+
+^^^ hint id=4_1  marks=1
+The Earth’s equator is roughly 25,000 miles round.
+^^^
+
+^^^ hint id=4_2  marks=1
+How long does it take for someone at the equator to spin all the way around, along with the Earth, back to starting position?
+^^^
+
+---
+
+The Earth is 25,000 miles round at the equator and it takes 24 hours to pin, so people at the equator move 25,000 miles in 24 hours, or at a speed of roughly 1,000 mph.
+:::
+
+::: problem id=4_2 marks=3
+__4.2__ Do people in the United States of America move faster or slower than people at the equator?
+
+* [ ] Faster
+* [x] Slower
+{.col-2}
+
+---
+
+The United States of America is north of the equator, as you can see in the diagram on the left, so Americans (and Brits, and most of the people in the world) don’t travel so far each day, so they travel slower. The diagram on the right shows how the lines of latitude (the rings around the Earth) get shorter as you head north (or south) of the equator.
+
+![](/resources/8-06-worlds-greatest-thief/4-earth.png){image align="center"}
+:::
+
+
+## 5.	Line Rider
+
+This is one of my favourite “games” at the moment – Line Rider. There is a billion tons of maths and physics involved in playing this game well, but there is a also a hell of a lot of fun. Take a look and see if you build a brilliant track. [Visit Line Rider](https://www.linerider.com/){target="_blank"}... but remember to hit the submit before you get too obsessed with Line Rider.  
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

@@ -126,6 +126,112 @@ The perimeters of the five pieces are, in centimetres:
 As 1 < `x`, E has the longest perimeter.
 :::
 
+
+## 4.	QI
+
+The BBC TV show “QI” is full of interesting facts and ideas. Here are a few interesting bits from “QI” and some follow-up questions.
+
+::: problem id=4_1 marks=2
+__4.1__ “It takes a million cloud droplets to make one raindrop.”  
+
+Clouds consist of microscopic droplets of liquid water, which gather together to form raindrops, which in turn fall to Earth. If the cloud droplets have a radius of 0.002 mm, then what is the radius of a raindrop (based on the idea that a million droplets make a drop)?
+
+* [ ] 0.002 mm
+* [x] 0.2 mm
+* [ ] 2 mm
+* [ ] 20 mm
+* [ ] 2,000 mm
+{.col-5}
+
+---
+
+If it takes one million droplets to make a drop, then you can imagine that the drop is made of 100 droplets across, 100 droplets up and 100 droplets deep, because 100 × 100 × 100 = 1 million.
+
+And, 100 × 0.002 mm = 0.2 mm.
+:::
+
+::: problem id=4_2 marks=2
+![](/resources/7-06-build-your-own-plane/4-clouds.jpg){image align="right"}
+__4.2__ You might need to do some research to answer this question: what is the weight of a cumulus cloud?
+
+* [ ] The same as a mouse.
+* [ ] The same as a cat.
+* [ ] The same as a lion.
+* [ ] The same as an elephant.
+* [x] The same as a blue whale.
+
+---
+
+A typical cumulus cloud weighs about 500 tons, and a blue whale is a couple of hundred tons or more.
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ “A million seconds is 11.6 days”  
+
+How long is a billion seconds?
+
+* [ ] A few days
+* [ ] A few weeks
+* [ ] A few months
+* [x] A few decades
+* [ ] A few centuries
+
+---
+
+1,000,000,000 / (365 × 24 × 60 × 60) = 31.7 years
+:::
+
+::: problem id=4_4 marks=2
+__4.4__ What happened roughly a million days ago?
+
+* [ ] Universe is formed
+* [ ] Earth is formed
+* [ ] Atlantic Ocean is formed
+* [x] Roman kingdom is formed
+* [ ] United States is formed
+
+---
+
+1,000,000 / 365 = 2,721 ago, or roughly 720 BC
+:::
+
+::: problem id=4_5 marks=4
+__4.5__ “The Sun gets 4 billion kilogrammes lighter every second.”  
+
+Einstein’s famous formula is:  
+
+__`E = mc^2`__  
+
+It explains how mass (`m`) can be turned into energy (`E`) at the rate of (`c^2`) per kilo.  
+
+`c` is the speed of light, which is `3 × 10^8` m/s.  
+
+So, 1 Kg creates `1 × (3 × 10^8)^2` Joules of energy, or `9 × 10^16` Joules of energy.  
+
+Bearing in mind the QI quote, roughly how much energy does the Sun generate every second?
+
+* [ ] `4 × 10^16` Joules
+* [ ] `4 × 10^17` Joules
+* [ ] `4 × 10^20` Joules
+* [x] `4 × 10^26` Joules
+* [ ] `4 × 10^35` Joules
+
+^^^ hint id=4_4 marks=1
+Energy per second `= m × c^2`  
+`= 4 × 10^9 × (3 × 10^8)^2`  
+^^^
+
+---
+
+Energy per second `= m × c^2`  
+`= 4 × 10^9 × (3 × 10^8)^2`  
+`= 4 × 10^9 × 9 × 10^16`  
+`= 36 × 10^25`  
+`= 3.6 × 10^26`  
+`~ 4 × 10^26`  
+:::  
+
+
 Finally, if you want to find out more about making paper planes, then [watch this video about paper plane guru John Collins](https://www.youtube.com/watch?v=3BNg4fDJC8A){target="_blank"}.
 
 Before you hit the SUBMIT button, here are some quick reminders:

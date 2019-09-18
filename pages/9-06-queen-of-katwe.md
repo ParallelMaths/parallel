@@ -166,6 +166,143 @@ However, here is a more mathematical way to solve the problem. From the triangle
 From (1) and (2), z = 70 and hence, from (3), x = 30.
 :::
 
+
+## 4.	What come next?
+
+::: problem id=4_1 marks=4
+__4.1__ What comes next in this sequence?  
+
+1,  
+11,  
+21,  
+1211,  
+111221  
+
+* [ ] 1112211
+* [ ] 212121
+* [x] 312211
+* [ ] 2211
+* [ ] 222111
+
+^^^ hint id=4_1  marks=1
+This is called the “say what you see” sequence.
+^^^
+
+^^^ hint id=4_2 marks=1
+The first row has “one 1”  
+The second row has “two 1s”  
+The third row has “one 2, one 1”
+^^^
+
+^^^ hint id=4_3  marks=1
+The first row has “1 1”  
+The second row has “2 1s”  
+The third row has “1 2, 1 1”  
+^^^
+
+---
+
+This is called the “say what you see” sequence.  
+
+The first row is “1”, which we can describe as “one 1” or “1 1”, so the second row is “11” and describes the first row.  
+
+The second row is “11”, which we can describe as “two 1s” or “2 1”, so the third row is “21” and describes the second row.  
+
+The fifth row is “111221”, which we can describe as “three 1s, two 2s, one 1” or “3 1 2 2 1 1”, so the sixth row is “312211” and describes the fifth row.
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ You can create more and more rows for the “say what you see” sequence. What are all the possible numbers that might appear in any possible row?
+
+* [x] 1, 2, 3
+* [ ] 1 and any prime numbers
+* [ ] All positive whole numbers
+* [ ] 1, 2, 3, 4, 5, 6, 7, 8, 9
+* [ ] 1, 2, 3, 4
+
+---
+
+Hmmm... the “say what you see” sequence only ever contains the digits 1, 2 and 3.  
+
+Why?  
+
+This is not a complete proof or explanation, but imagine you had a sequence that contain ...41..., then this probably means the sequence before had ...1111...  
+
+We would read this as “one 1 and one 1”, which means that the previous sequence contained “11”, which we would normally call “two 1s”, not “one 1 and one 1”.  
+
+In other words, we should never reach “...1111...” if we are writing down the sequence properly.  
+
+As I said, this is not a full explanation, so see if you can fill in the gaps.
+:::
+
+
+## 5.	Wason test & burning witches
+
+Thake a look at this clip from the film “Monty Python and the Holy Grail”, and admire the twisted logic.
+
+@[youtube](H9PY_3E3h2c?start=53&rel=0)
+
+The twisted, reversed and corrupted logic... and the very unexpected conclusion are interesting and fun to watch, and they highlight how easy it is to be illogical. For example, take a look at the Wason Test.
+
+::: problem id=5_1 marks=3
+__5.1.__ The Wason Test has many versions, and this particular one comes from Wikipedia.  
+
+_You are shown a set of four cards placed on a table, each of which has a number on one side and a coloured patch on the other side. The visible faces of the cards show 3, 8, red and brown. Which card(s) must you turn over in order to test the truth of the proposition that if a card shows an even number on one face, then its opposite face is red?_
+
+![](/resources/9-06-queen-of-katwe/5-wason-cards.png){image align="center"}
+
+* [x] 8 card & brown card
+* [ ] 8 card & red card
+* [ ] 8 card
+* [ ] red card
+* [ ] all the cards
+
+^^^ hint id=5_1  marks=1
+The key point is that if the card is even on one side, then it is red on the other side. However, if it is red on one side, it does not necessarily have to be even on the other side.
+^^^
+
+^^^ hint id=5_2  marks=1
+If it the card is brown on one side, then what must the other side be?
+^^^
+
+---
+
+From Wikipedia:  
+
+The correct response is to turn over the 8 card and the brown card.  
+
+The rule was "If the card shows an even number on one face, then its opposite face is red." Only a card with both an even number on one face and something other than red on the other face can invalidate this rule:   
+*	If the 3 card is red (or brown), that doesn't violate the rule. The rule makes no claims about odd numbers.  
+*	If the 8 card is not red, it violates the rule.  
+*	If the red card is odd (or even), that doesn't violate the rule. The red colour is not exclusive to even numbers.  
+*	If the brown card is even, it violates the rule.  
+:::
+
+::: problem id=5_2 marks=2
+__5.2.__ Here is another version of the Wason test.  
+
+The rule is this: “If you are drinking alcohol, then you must aged over 18.”  
+
+You see four people drinking at a bar, and each has a card gives their age on one side and their drink on the other side. You can see the following:
+
+![](/resources/9-06-queen-of-katwe/5-wason-cards-2.png){image align="center"}
+
+Which cards do you need to turn over to check everyone is following the rule?
+
+* [x] 16 & beer cards
+* [ ] beer card
+* [ ] 16 card
+* [ ] soda & beer cards
+* [ ] 16 & 25 cards
+
+---
+
+You need to turn over the 16 card (because you need to check that the person is not drinking beer) and the beer card (because you need to check that the person is not under 18).  
+
+While most people get this question right, most people get the previous question wrong. The questions are identical in terms of the logic, but somehow humans are better at solving the problem when it describes a social situation with social rules, rather than more abstract rules.
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
