@@ -26,7 +26,7 @@ html
 
     //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css?v=27" rel="stylesheet")
+    link(href="/parallel.css?v=28" rel="stylesheet")
 
   body
     #vue
@@ -100,7 +100,7 @@ html
               script!= 'window.USER_LEVEL = "' + user.level + '";'
 
             for l in user ? user.sidebarLevels : levels
-              nav(v-show=`user.level == '${l}'` data-nav-level=l)
+              nav(v-show=`user.level == '${l}'`)
                 for p in pages[l]
                   a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
                     .title-meta PG #{p.index} #[span.spaced •] #{p.date}
