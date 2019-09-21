@@ -4,7 +4,7 @@ block content
   h1 Badges
 
   .toggle
-    for l in levels
+    for l in user.sidebarLevels
       a(v-on:click=`badgeLevel = '${l}'` v-bind:class=`{active: badgeLevel == '${l}'}`)= levelNames[l]
 
   for l in levels

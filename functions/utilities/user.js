@@ -3,6 +3,7 @@ const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
 const BADGES = require('../build/badges.json');
 
+const LEVELS = ['year7', 'year8', 'year9', 'year10'];
 
 function getIdTokenFromRequest(req, res) {
   return new Promise((resolve, reject) => {
@@ -26,7 +27,7 @@ function getUserData(uid) {
     data.uid = uid;
 
     data.allPoints = {};
-    for (const l of ['year7', 'year8', 'year9', 'year10']) {
+    for (const l of LEVELS) {
       const scores = PAGES[l].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
       data.allPoints[l] = scores.reduce((a, b) => a + b, 0);
     }
@@ -34,6 +35,8 @@ function getUserData(uid) {
     data.points = data.level ? (data.allPoints[data.level] || 0) : 0;
     data.visibleBadges = data.level ? (BADGES[data.level] || [])
         .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
+
+    data.sidebarLevels = user.code ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
 
     return data;
   });

@@ -81,18 +81,7 @@ html
                       button(type="submit") {{ user.loginForm.reset ? 'Reset' : 'Login' }}
                       a(v-on:click="user.toggleReset()") {{ user.loginForm.reset ? 'Back to login' : 'Reset password' }}
 
-            if !user || user.code
-              .toggle
-                for l in levels
-                  a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
-
-              for l in levels
-                nav(v-show=`user.level == '${l}'`)
-                  for p in pages[l]
-                    a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
-                      .title-meta PG #{p.index} #[span.spaced •] #{p.date}
-                      .title= p.title
-            else
+            if user && !user.code
               .sidebar-field: a(href="/badges")
                 | Your Badges
                 if user.visibleBadges.length
@@ -101,12 +90,22 @@ html
                       .badge(style='background-image: url(/images/badges/' + b.id + '.jpg); color: #' + b.color)
                     if user.visibleBadges.length > 4
                       .badge.more +
-              nav
-                for p in pages[user.level || 'year7']
+
+            if !user || user.level !== 'year7'
+              .toggle
+                for l in user ? user.sidebarLevels : levels
+                  a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
+
+            if user && !user.code
+              script!= 'window.USER_LEVEL = "' + user.level + '";'
+
+            for l in user ? user.sidebarLevels : levels
+              nav(v-show=`user.level == '${l}'` data-nav-level=l)
+                for p in pages[l]
                   a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
-                    .title-meta Week #{p.index} #[span.spaced •] #{p.date}
+                    .title-meta PG #{p.index} #[span.spaced •] #{p.date}
                     .title= p.title
-                    if user.answers[p.url] && user.answers[p.url].submitted
+                    if user && user.answers[p.url] && user.answers[p.url].submitted
                       .status.score(class=scoreClass(user.answers[p.url].score)) #{user.answers[p.url].score}%
                     else if now <= p.deadline
                       .status NEW
@@ -149,7 +148,7 @@ html
 
     script(defer src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js")
     script(defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js")
-    script(defer src="/parallel.js?v=28")
+    script(defer src="/parallel.js?v=29")
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

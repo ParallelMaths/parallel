@@ -75,7 +75,7 @@ export default function() {
   }
 
   const user = {
-    level: cachedLevel ? cachedLevel[1] : 'year7',
+    level: cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7'),
     showLogin: false,
     loginForm, editForm, signupForm,
 
