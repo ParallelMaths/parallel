@@ -21,14 +21,14 @@ const TTS_SCHOOLS = [
   {name: 'City Academy Hackney', year: 7, teachers: ['o4xlq9'], students: 20},
   {name: 'City Academy Hackney', year: 8, teachers: ['4qhg6e'], students: 20},
 
-  {name: 'City of London Academy Islington', year: 7, teachers: ['rxulkx'], students: 20},
-  {name: 'City of London Academy Islington', year: 8, teachers: ['Qgd4av'], students: 20},
+  {name: 'City of London Academy Islington', year: 7, teachers: ['qgd4av'], students: 20},
+  {name: 'City of London Academy Islington', year: 8, teachers: ['rxulkx'], students: 20},
 
   {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['wzauuo'], students: 20},
-  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['14lq9e'], students: 20},
+  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['v64gji'], students: 20},
 
   {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 20},
-  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['v64gji'], students: 20},
+  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['onwaes'], students: 20},
 
   {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['ahupq9', 'agv1u'], students: 20},
   {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['ahupq9 '], students: 20},
@@ -37,13 +37,13 @@ const TTS_SCHOOLS = [
   {name: 'City of London Academy Southwark', year: 7, teachers: ['lsbnvj'], students: 20},
   {name: 'City of London Academy Southwark', year: 8, teachers: ['ee89n6'], students: 20},
 
-  {name: 'Cullompton Community College', year: 7, teachers: ['u9r9lh', 'efctnx'], students: 20},
-  {name: 'Cullompton Community College', year: 8, teachers: ['hc7it0'], students: 20},
-  {name: 'Cullompton Community College', year: 9, teachers: ['iplf3y'], students: 20},
+  {name: 'Cullompton Community College', year: 7, teachers: ['u9r9lh', 'efctnx', '9knp4'], students: 20},
+  {name: 'Cullompton Community College', year: 8, teachers: ['hc7it0', '9knp4'], students: 20},
+  {name: 'Cullompton Community College', year: 9, teachers: ['iplf3y', '9knp4'], students: 20},
 
   {name: 'Elthorne', year: 8, teachers: ['szvxjp'], students: 20},
 
-  {name: 'Lister Community School', year: 7, teachers: ['Ag93qe'], students: 20},
+  {name: 'Lister Community School', year: 7, teachers: ['ag93qe'], students: 20},
   {name: 'Lister Community School', year: 8, teachers: ['2jiemd'], students: 20},
   {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 20},
   {name: 'Lister Community School', year: 10, teachers: ['nww75'], students: 20},
