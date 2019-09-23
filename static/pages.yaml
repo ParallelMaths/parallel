@@ -138,11 +138,11 @@ year7:
     deadline: 2019-09-29T18:00:00
   - url: 7-02-the-melancoil
     title: The Melancoil
-    available: 2019-09-19T16:00:00
+    available: 2019-09-19T13:00:00
     deadline: 2019-09-22T19:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
-    available: 2019-09-04T16:00:00
+    available: 2019-09-04T13:00:00
     deadline: 2019-09-15T19:00:00
 
 year8:
@@ -284,11 +284,11 @@ year8:
     deadline: 2019-09-29T18:00:00
   - url: 8-02-jurassic-park
     title: Jurassic Park mathematics
-    available: 2019-09-19T16:00:00
+    available: 2019-09-19T13:00:00
     deadline: 2019-09-22T19:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
-    available: 2019-09-04T16:00:00
+    available: 2019-09-04T13:00:00
     deadline: 2019-09-15T19:00:00
 
 year9:
@@ -430,11 +430,11 @@ year9:
     deadline: 2019-09-29T18:00:00
   - url: 9-02-romantic-mathematics
     title: Romantic Mathematics
-    available: 2019-09-19T16:00:00
+    available: 2019-09-19T13:00:00
     deadline: 2019-09-22T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
-    available: 2019-09-04T16:00:00
+    available: 2019-09-04T13:00:00
     deadline: 2019-09-15T19:00:00
 
 year10:
@@ -546,14 +546,14 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-08-map-mathematics
+    title: Map of Mathematics
+    available: 2019-11-07T13:00:00
+    deadline: 2019-11-10T15:00:00
+  - url: 10-07-skyscrapers
+    title: Skyscrapers
+    available: 2019-10-31T13:00:00
+    deadline: 2019-11-03T15:00:00
   - url: 10-06-heroic-hidden-figures
     title: Heroic Hidden Figures
     available: 2019-10-17T13:00:00
@@ -572,9 +572,9 @@ year10:
     deadline: 2019-09-29T18:00:00
   - url: 10-02-musical-mathematicians
     title: Musical Mathematics
-    available: 2019-09-19T16:00:00
+    available: 2019-09-19T13:00:00
     deadline: 2019-09-22T19:00:00
   - url: 10-01-all-dark-things
     title: All Dark Things
-    available: 2019-09-04T16:00:00
+    available: 2019-09-04T13:00:00
     deadline: 2019-09-15T19:00:00
