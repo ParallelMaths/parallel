@@ -4,49 +4,15 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 const yaml = require('yamljs');
 
-const extract = [
-  "gaqdu",
-  "mg4414",
-  "h343j",
-  "qw6ok",
-  "fd5ryc",
-  "z8yevt",
-  "9h9mga",
-  "frwics",
-  "muigu",
-  "14lq9e",
-  "onwaes",
-  "agv1u",
-  "ahupq9",
-  "et857w",
-  "9knp4",
-  "ojiy8q",
-  "a896w",
-  "cb8sj",
-  "yjhx14",
-  "364052",
-  "3to7uh",
-  "nww75",
-  "2c7db",
-  "9mhdd",
-  "t1bmm",
-  "ywxcsd",
-  "d01m4y",
-  "x6t2nx",
-  "af7eui",
-  "e6h34j",
-  "6h36iy",
-  "dypvzw",
-  "ayidqn"
-];
-
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
-const pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10];
+
+let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10];
+pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
   const userData = await fb.database().ref('users').once('value');
@@ -60,7 +26,7 @@ async function run() {
   // ---------------------------------------------------------------------------
 
   for (let p of pages) {
-    const titles = ['name','email','school','teacher_code','submitted','score'];
+    const titles = ['name','email','school','submitted','score'];
     const data = [];
 
     for (let u of Object.keys(users)) {
@@ -74,7 +40,6 @@ async function run() {
         user.first + ' ' + user.last,
         emailMap[u],
         `"${users[u].schoolName || ''}"`,
-        users[u].teacherCode,
         answer.submitted ? 1 : '',
         answer.score || 0
       ];
@@ -90,19 +55,14 @@ async function run() {
     const titlesStr = titles.join(',') + '\n';
     const rowsStr = data.map(d => d.join(',')).join('\n');
     fs.writeFileSync(path.join(__dirname, `../private/results-${p.url}.csv`), titlesStr + rowsStr);
-
-    const data1 = data.filter(d => extract.indexOf(d[3]) >= 0);
-    data1.sort((a, b) => { return a[3] < b[3] ? 1 : a[3] > b[3] ? -1 : 0; });
-    const rowsStr1 = data1.map(d => d.join(',')).join('\n');
-    fs.writeFileSync(path.join(__dirname, `../private/results-${p.url}-tts.csv`), titlesStr + rowsStr1);
   }
 
   // ---------------------------------------------------------------------------
 
-  const titles = ['name', 'email', 'school', 'teacher_code', ...pages.map(p => p.url), 'total'];
+  const titles = ['name', 'email', 'school', ...pages.map(p => p.url), 'total'];
   const data = [];
   for (let u of Object.keys(users)) {
-    if (!users[u].answers || users[u].code) continue;
+    if (!users[u].answers || users[u].answers.archive || users[u].code) continue;
 
     const a = pages.map(p => ((users[u].answers[p.url] || {}).score || 0));
     const sum = a.reduce((a, b) => a + b, 0);
@@ -110,7 +70,6 @@ async function run() {
       `"${users[u].first} ${users[u].last}"`,
       emailMap[u],
       `"${users[u].schoolName || ''}"`,
-      users[u].teacherCode,
       ...a, sum
     ]);
   }
