@@ -40,7 +40,7 @@ block content
                     tr
                       for p in dashboard.pages[l]
                         if s.answers[p.url]
-                          td(width=80 data-value=(s.answers[p.url].score || 0))(class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score || 0}%
+                          td(width=80 data-value=(s.answers[p.url].score || 0) class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score || 0}%
                         else
                           td(width=80 data-value="-1")
 
