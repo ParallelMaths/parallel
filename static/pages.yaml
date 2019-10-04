@@ -542,10 +542,10 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-09-paper-mysteries
+    title: Paper Mysteries
+    available: 2019-11-14T13:00:00
+    deadline: 2019-11-17T15:00:00
   - url: 10-08-map-mathematics
     title: Map of Mathematics
     available: 2019-11-07T13:00:00

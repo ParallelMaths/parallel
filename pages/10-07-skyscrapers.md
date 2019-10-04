@@ -53,7 +53,7 @@ Here is a video all about estimating square roots with a high degree of accuracy
 @[youtube](EFVrAk61xjE?rel=0)
 
 ::: problem id=2_1 marks=2
-__2.1__ Use this approach to work out the square root of 10 by hand accurate to one decimal place?  
+__2.1__ Use this approach to work out the square root of 10 by hand accurate to one decimal place.
 
 (Of course, you can cheat and use a calculator, but what’s the point? This is not the world’s most important test, but it is a chance for you to try and stretch your brain.)
 
@@ -66,7 +66,7 @@ __2.1__ Use this approach to work out the square root of 10 by hand accurate to 
 :::
 
 ::: problem id=2_2 marks=3
-__2.2__ Use this approach to work out the square root of 66 by hand accurate to two decimal places?
+__2.2__ Use this approach to work out the square root of 66 by hand accurate to two decimal places.
 
 * [ ] 7.92
 * [x] 8.12
@@ -102,7 +102,8 @@ One third of the animals in Jacob’s flock are goats. Therefore two thirds of t
 
 ::: problem id=4_1 marks=4
 ![](/resources/10-07-skyscrapers/4-circle.jpg){image align="right"}
-The circle has radius 1 cm. Two vertices of the square lie on the circle. One edge of the square goes through the centre of the circle, as shown.  
+
+__4.1__ The circle has radius 1 cm. Two vertices of the square lie on the circle. One edge of the square goes through the centre of the circle, as shown.  
 
 What is the area of the square, in cm<sup>2</sup>?
 
@@ -114,8 +115,8 @@ What is the area of the square, in cm<sup>2</sup>?
 {.col-5}
 
 ^^^ hint id=4_1 marks=1
-![](/resources/10-07-skyscrapers/4-circle-answer.jpg){image align="right"}
 Let the vertices of the square be `P`, `Q`, `R` and `S`, as shown in the diagram. Let `O` be the centre of the circle. We also suppose that the length of the sides of the square is `s` cm. It follows that the area of the square is `s^2` cm<sup>2</sup>.
+![](/resources/10-07-skyscrapers/4-circle-answer.jpg){image align="center"}
 ^^^
 
 ---

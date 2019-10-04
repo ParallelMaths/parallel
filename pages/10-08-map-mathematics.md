@@ -21,14 +21,14 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. Map of Mathematics
 
-If you have been earning a few badges after completing Parallelograms, then might have noticed that the badges are all based on images from the Map of Mathematics diagram designed by Dominic Walliman.  
+If you have been earning badges after completing the first few Parallelograms, then you might have noticed that the badges are all based on images from the Map of Mathematics diagram designed by Dominic Walliman.  
 
 Here is a short video about Dominic’s Map of Mathematics.
 
 @[youtube](OmJ-4B-mS-Y?start=64&end=186&rel=0)
 
 ::: problem id=1_1 marks=2
-__1.1.__ Which of the following statements is the following statements is __not__ true?
+__1.1.__ Which of the following statements is __not__ true?
 
 * [ ] There is an infinite number of integers.
 * [ ] There is an infinite number of real numbers.
@@ -65,7 +65,7 @@ If the vibrations arrived simultaneously, then the seismic event must be equidis
 :::
 
 ::: problem id=2_3 marks=1
-__2.3__ For every second delay between P-waves arriving and the S-waves arriving, we can add 8 km to the distance of the seismic event. In this example, what was the rough delay between the P-waves and the S-waves arriving?
+__2.3__ For every 1 second delay between the P-waves arriving and the S-waves arriving, we can add 8 km to the distance of the seismic event. In this example, what was the rough delay between the P-waves and the S-waves arriving?
 
 * [ ] 20 seconds
 * [x] 20 minutes
@@ -73,9 +73,9 @@ __2.3__ For every second delay between P-waves arriving and the S-waves arriving
 
 ---
 
-If the event took place on the equator, then took place 10,000 Km from the North and South Poles. (The Earth is 40,000 Km in circumference, and the distance between the poles and the equator is one quarter of this.)
+If the event took place on the equator, then it took place 10,000 Km from the North and South Poles. (The circumference of the Earth is 40,000 km, and the distance between the poles and the equator is one quarter of this.)
 
-10,000/8 ~ 1,250 seconds or 20 minutes
+10,000/8 ~ 1,250 seconds or roughly 20 minutes.
 :::
 
 
@@ -83,7 +83,7 @@ If the event took place on the equator, then took place 10,000 Km from the North
 <!--- (2016) Q7 --->
 
 ::: problem id=3_1 marks=3
-![](/resources/10-08-map-mathematics/7-diagram.jpg){image align="right"}
+![](/resources/10-08-map-mathematics/3-diagram.jpg){image align="right"}
 __3.1__ In the diagram, what is the value of `x`?
 
 * [ ] 23
@@ -100,7 +100,7 @@ The sum of the interior angles of a polygon with `n` sides is `(n − 2) × 180�
 ---
 The sum of the interior angles of a polygon with `n` sides is `(n − 2) × 180°`. So the sum of the interior angles of the hexagon in the diagram is `(6 − 2) × 180° = 4 × 180° = 720°`.  
 
-The sum of the angles at a point is `360°`. Therefore interior angle of the hexagon adjacent to the exterior angle of `75°` is `(360 − 75)°`, and the interior angle adjacent to the exterior angle of `x°` is `(360 − x)°`. Since the sum of the interior angles of the hexagon is `720°`, we have `24 + 27 + (360 − 75) + 26 + 23 + (360 − x) = 720`.  
+The sum of the angles at a point is `360°`. Therefore the interior angle of the hexagon adjacent to the exterior angle of `75°` is `(360 − 75)°`, and the interior angle adjacent to the exterior angle of `x°` is `(360 − x)°`. Since the sum of the interior angles of the hexagon is `720°`, we have `24 + 27 + (360 − 75) + 26 + 23 + (360 − x) = 720`.  
 
 We can rearrange the left hand side of this equation to obtain `(24 + 27 + 26 + 23) − 75 + (360 + 360) − x = 720`.  
 
@@ -119,11 +119,11 @@ __4.1__ How many of the following positive integers are divisible by 24?
 `2^2 × 3^3 × 5^2 × 7^2`  
 `2^3 × 3^2 × 5^2 × 7^2`
 
-* [ ] 12
-* [x] 24
-* [ ] 36
-* [ ] 48
-* [ ] 60
+* [ ] 0
+* [x] 1
+* [ ] 2
+* [ ] 3
+* [ ] 4
 {.col-5}
 
 ---
@@ -139,7 +139,7 @@ It follows from this that, of the given numbers, there is just one which is divi
 <!--- (2016) Q17 --->
 
 ::: problem id=4_1 marks=4
-![](/resources/10-08-map-mathematics/17-circle.jpg){image align="right"}
+![](/resources/10-08-map-mathematics/5-circle.jpg){image align="right"}
 The shaded region in the diagram, bounded by two concentric circles, is called an _annulus_. The circles have radii 2cm and 14cm.  
 
 The dashed circle divides the area of this annulus into two equal areas.  
@@ -154,9 +154,9 @@ What is its radius?
 {.col-5}
 
 ^^^ hint id=5_1 marks=1
-In answering this question we use the fact that the area of a circle with radius `r` is `πr2`.  
+In answering this question we use the fact that the area of a circle with radius `r` is `πr^2`.  
 
-The area of the shaded annulus is the area inside the outer circle of radius 14 cm less the area inside the inner circle of radius 2 cm. Therefore this area is, in cm<sup>2</sup>,  
+The area of the shaded annulus is the area inside the outer circle of radius 14 cm minus the area inside the inner circle of radius 2 cm. Therefore this area is, in cm<sup>2</sup>,  
 
 `π(14^2) − π(2^2) = 196π − 4π = 192π`.  
 ^^^
@@ -170,11 +170,11 @@ Similarly, the area between the dashed circle and the inner circle is, in cm<sup
 ^^^
 
 ---
-In answering this question we use the fact that the area of a circle with radius `r` is `πr2`.  
+In answering this question we use the fact that the area of a circle with radius `r` is `πr^2`.  
 
 Let the radius of the dashed circle be `x` cm.  
 
-The area of the shaded annulus is the area inside the outer circle of radius 14 cm less the area inside the inner circle of radius 2 cm. Therefore this area is, in cm<sup>2</sup>,  
+The area of the shaded annulus is the area inside the outer circle of radius 14 cm minus the area inside the inner circle of radius 2 cm. Therefore this area is, in cm<sup>2</sup>,  
 
 `π(14^2) − π(2^2) = 196π − 4π = 192π`.  
 
@@ -197,7 +197,7 @@ and hence that
 The number `x` is positive as it is the radius, in centimetres, of the dashed circle. It follows that `x = 10`. Hence the radius of the dashed circle is 10 cm.
 :::
 
-If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://www.youtube.com/watch?v=RK8xHq6dfAo){target="_blank"} after you hit the SBUMIT button.
+If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://www.youtube.com/watch?v=OmJ-4B-mS-Y){target="_blank"} after you hit the SBUMIT button.
 
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
