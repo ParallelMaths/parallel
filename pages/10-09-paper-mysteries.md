@@ -146,6 +146,7 @@ Which of the following is closest to the fraction of the floor that is shaded bl
 ![](/resources/10-09-paper-mysteries/5-tiling-answer.jpg){image align="center"}
 
 We see that the entire plane can be tessellated by the shape labelled `S` in the above diagram. This shape is made up of one tile in the shape of a regular hexagon and two tiles in the shape of equilateral triangles.  
+^^^
 
 ---
 ![](/resources/10-09-paper-mysteries/5-tiling-answer.jpg){image align="right"}
