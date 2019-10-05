@@ -250,8 +250,8 @@ year8:
     title: KenKen Y8
     available: 2019-11-28T13:00:00
     deadline: 2019-12-01T15:00:00
-  - url: 8-10-other-hamilton
-    title: The Other Hamilton
+  - url: 8-10-chikas-test-seven
+    title: Chika’s Test for Seven
     available: 2019-11-21T13:00:00
     deadline: 2019-11-24T15:00:00
   - url: 8-09-weird-shapes
@@ -538,10 +538,10 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-10-other-hamilton
+    title: The Other Hamilton
+    available: 2019-11-21T13:00:00
+    deadline: 2019-11-24T15:00:00
   - url: 10-09-paper-mysteries
     title: Paper Mysteries
     available: 2019-11-14T13:00:00

@@ -24,8 +24,8 @@ const TTS_SCHOOLS = [
   {name: 'City of London Academy Islington', year: 7, teachers: ['qgd4av'], students: 20},
   {name: 'City of London Academy Islington', year: 8, teachers: ['rxulkx'], students: 20},
 
-  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['wzauuo'], students: 20},
-  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['v64gji'], students: 20},
+  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['wzauuo'], students: 13},
+  {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['v64gji'], students: 13},
 
   {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 19},
   {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['onwaes'], students: 17},

@@ -43,7 +43,7 @@ __1.4.__ If you measure the paper exactly, and divide the length by the width, w
 * [ ] `1.4`
 * [ ] `1.5`
 * [ ] `1.45`
-* [x] `√ 2`
+* [x]  `2`
 * [ ] `1.2^2`
 * [ ] `π/3`
 {.col-3}

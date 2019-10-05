@@ -1,4 +1,4 @@
-# The Other Hamilton
+# Chika’s Test for Seven
 
 <div class="dictionary">
 
@@ -23,7 +23,7 @@ Here is the first of two puzzles via maths specialist teacher and former headtea
 ::: problem id=1_1 marks=5
 __1.1__ This is a tough problem, which is why it is worth so many marks. What is the value of A?
 
-![](/resources/8-10-other-hamilton/1-puzzle-question.jpg){image align="center"}
+![](/resources/8-10-chikas-test-seven/1-puzzle-question.jpg){image align="center"}
 
 <input type="number" solution="3"/>
 
@@ -55,7 +55,7 @@ From here, we can use trial and error to deduce that A = 3.
 
 A 5 x 5 x 5 cube consisting of 125 smaller cubes (known as cubelets) is completely painted.
 
-![](/resources/8-10-other-hamilton/2-puzzle-question.png){image align="center"}
+![](/resources/8-10-chikas-test-seven/2-puzzle-question.png){image align="center"}
 
 ::: problem id=2_1 marks=1
 __2.1__ How many cubelets have 4 faces painted yellow?
@@ -118,48 +118,98 @@ Alternatively, the 5 × 5 × 5 cube consists of 125 cubelets. Our previous answe
 :::
 
 
-## 3. William Rowan Hamilton
+## 3. Chika’s Test for Seven
 
-The biggest theatre show in recent years to hit New York is a musical called “Hamilton”. It tells the story of Alexander Hamilton, one of the founding fathers of the United States of America, and the man responsible for setting up the American banking system. Many of the songs involve rap.  
+As you will know, there are various tests for deciding whether or not a number is divisible by 1, 2, 3, 4, 5, 6, 8, 9, 10, 11 and 12.
 
-It is incredible that someone (the brilliant Lin-Manuel Miranda) was able to create a hit show based on the life of a long-dead politician, whose life story was unknown to many Americans.  
+![](/resources/8-10-chikas-test-seven/3-chika-table.jpg){image align="center"}
 
-Anyway, what this got to do with maths? Tim Blais has a created a song and video based on the opening song from “Hamilton” – it is not about American politician Alexander Hamilton, but rather it is about the Irish mathematician William Rowan Hamilton. Watch the video and answer the two questions below.
+A divisibility test for 7 is trickier, but they do exist.  
 
-@[youtube](SZXHoWwBcDc?rel=0)
+One of them was rediscovered this summer by Chika Ofili (Westminster Under School) – his maths teacher Mary Ellis takes recounts the story:  
+
+__“Something very exciting happened last Friday when one of my pupils, Chika Ofili, popped into the classroom and asked if he could tell me something he had thought of over the summer holidays. He realised that if you take the last digit of any whole number, multiply it by 5 and then add this to the remaining part of the number, you will get a new number. And it turns out that if this new number is divisible by 7, then the original number is divisible by 7. What an easy test!”__  
+
+For example, take the number 532  
+
+53 + 2 x 5 = 63  
+63 is a multiple of 7, so 532 is a multiple of 7 (and therefore divisible by 7)  
+
+Or take the number 987  
+
+98 + 7 x 5 = 133  
+13 + 3 x 5 = 28  
+28 is a multiple of 7, so both 133 and 987 are multiples of 7  
+
+In fact, if you actually keep going, you will always end up with either 7 or 49, if the original number is divisible by 7.
+
+![](/resources/8-10-chikas-test-seven/3-chika.jpg){image align="center"}
 
 ::: problem id=3_1 marks=1
-__3.1__ How cool was that?
+__3.1__ Is 167 divisible by 1?
 
-* [x] Very cool
+* [x] Yes
+* [ ] No
 :::
 
-::: problem id=3_2 marks=2
-__3.2__ William Rowan Hamilton invented (or discovered) a new type of number, which you will not cover during your time in school, even in the sixth form. These numbers are called...
+::: problem id=3_2 marks=1
+__3.2__ Is 167 divisible by 2?
 
-* [ ] imaginary
-* [ ] complex
-* [ ] transcendental
-* [x] quaternions
-* [ ] irrational
+* [ ] Yes
+* [x] No
 :::
 
-::: problem id=3_3 marks=2
-__3.3__ The song describes one of the key properties of Hamilton’s newly discovered number system. Which number is equivalent to all of these?  i<sup>2</sup> = j<sup>2</sup> = k<sup>2</sup> = ijk
+::: problem id=3_3 marks=1
+__3.3__ Is 167 divisible by 3?
 
-* [x] -1
-* [ ] 0
-* [ ] 1
-* [ ] `x`
-* [ ] `e`
+* [ ] Yes
+* [x] No
 :::
+
+::: problem id=3_4 marks=1
+__3.4__ Is 167 divisible by 4?
+
+* [ ] Yes
+* [x] No
+:::
+
+::: problem id=3_5 marks=1
+__3.5__ Is 167 divisible by 5?
+
+* [ ] Yes
+* [x] No
+:::
+
+::: problem id=3_6 marks=1
+__3.6__ Is 168 divisible by 6?
+
+* [x] Yes
+* [ ] No
+:::
+
+::: problem id=3_7 marks=3
+__3.7__ Is 2,401 divisible by 7?
+
+* [x] Yes
+* [ ] No
+:::
+
+::: problem id=3_8 marks=4
+__3.8__ There is also a little know test for whether a number is divisible by 11. You just add and subtract alternate numbers, then see if the result is divisible by 11. For example, if we want to test the divisibility of 14,641, we work out 1 – 4 + 6 – 4 + 1 = 0, which is indeed divisible by 11, so the whole number is divisible by 11.  
+
+Is 1,581,228 divisible by 11?
+
+* [x] Yes
+* [ ] No
+:::
+
 
 
 ## 4.	Junior Maths Challenge Problem (UKMT)
 <!--- (2014) Q17 --->
 
 ::: problem id=4_1 marks=3
-![](/resources/8-10-other-hamilton/4-map-question.jpg){image align="right"}
+![](/resources/8-10-chikas-test-seven/4-map-question.jpg){image align="right"}
 __4.1__ The diagram is a “map” of Jo’s local rail network, where the dots represent stations and the lines are routes. Jo wants to visit all the stations, travelling only by train, starting at any station and ending at any station, with no restrictions on which routes are taken.  
 
 What is the smallest number of stations that Jo must go to more than once?
@@ -171,7 +221,7 @@ What is the smallest number of stations that Jo must go to more than once?
 * [ ] 5
 
 ---
-![](/resources/8-10-other-hamilton/4-map-answer.jpg){image align="right"}
+![](/resources/8-10-chikas-test-seven/4-map-answer.jpg){image align="right"}
 We label the stations as shown in the diagram on the right so that we can refer to them. Jo can visit the stations in the order:
 
 `O, P, Q, R, S, R, T, X, Y, Z, Y, X, W, V, U`
