@@ -26,44 +26,44 @@ Khan Academy has created dozens of great online videos about mathematics, and hu
 Did that make sense? If not, then re-watch the video before trying the questions below.
 
 ::: problem id=1_1 marks=2
-__1.1.__ Which is bigger: `4√2` or `3√3`?
+__1.1.__ Which is bigger: `4 sqrt(2)` or `3sqrt(3)`?
 
-* [x] `4√2` is bigger
-* [ ] `3√3` is bigger
+* [x] `4 sqrt(2)` is bigger
+* [ ] `3sqrt(3)` is bigger
 * [ ] same
 {.col-3}
 
 ---
 
-If we square both numbers `(4√2)^2 = 16 × 2` and `(3√3)^2 = 9 × 3`, so the former is bigger.
+If we square both numbers `(4 sqrt(2))^2 = 16 × 2` and `(3sqrt(3))^2 = 9 × 3`, so the former is bigger.
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ Which is bigger: `2√3` or `√5`?
+__1.2.__ Which is bigger: `2sqrt(3)` or `sqrt(5)`?
 
-* [x] `2√3` is bigger
-* [ ] `√5` is bigger
+* [x] `2sqrt(3)` is bigger
+* [ ] `sqrt(5)` is bigger
 * [ ] same
 {.col-3}
 
 ---
 
-If we square both numbers `(2√3)^2 = 4 × 3` and `(√5)^2 = 5`, so the former is bigger.
+If we square both numbers `(2sqrt(3))^2 = 4 × 3` and `(sqrt(5))^2 = 5`, so the former is bigger.
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Which is bigger: `3√4` or `√36`?
+__1.3.__ Which is bigger: `3 sqrt(4)` or `sqrt(3)6`?
 
-* [ ] `3√4` is bigger
-* [ ] `√36` is bigger
+* [ ] `3 sqrt(4)` is bigger
+* [ ] `sqrt(3)6` is bigger
 * [x] same
 {.col-3}
 
 ---
 
-If we square both numbers `(3√4)^2 = 9 × 4` and `(√36)^2 = 36`, so they are the same.  
+If we square both numbers `(3 sqrt(4))^2 = 9 × 4` and `(sqrt(3)6)^2 = 36`, so they are the same.  
 
-Alternatively, `3√4 = 3 × 2 = 6`, while `√36 = 6`.
+Alternatively, `3 sqrt(4) = 3 × 2 = 6`, while `sqrt(3)6 = 6`.
 :::
 
 
@@ -91,6 +91,7 @@ __2.2__ William Rowan Hamilton invented (or discovered) a new type of number, wh
 * [ ] transcendental
 * [x] quaternions
 * [ ] irrational
+{.col-5}
 :::
 
 ::: problem id=2_3 marks=2
@@ -101,6 +102,7 @@ __2.3__ The song describes one of the key properties of Hamilton’s newly disco
 * [ ] 1
 * [ ] `x`
 * [ ] `e`
+{.col-5}
 :::
 
 
@@ -108,7 +110,7 @@ __2.3__ The song describes one of the key properties of Hamilton’s newly disco
 <!--- (2017) Q2 --->
 
 ::: problem id=3_1 marks=3
-Each of the diagrams below shows a circle and four small squares. In each case, the centre of the circle is the point where all four squares meet.  
+__3.1__ Each of the diagrams below shows a circle and four small squares. In each case, the centre of the circle is the point where all four squares meet.  
 
 In one of the diagrams, exactly one third of the circle is shaded. Which one?
 
@@ -189,7 +191,7 @@ We have found a list of 6 positive integers with the given properties. We have s
 <!--- (2016) Q24 --->
 
 ::: problem id=5_1 marks=5
-Every day, Aimee goes up an escalator on her journey to work. If she stands still, it takes her 60 seconds to travel from the bottom to the top. One day the escalator was broken so she had to walk up it. This took her 90 seconds.  
+__5.1__ Every day, Aimee goes up an escalator on her journey to work. If she stands still, it takes her 60 seconds to travel from the bottom to the top. One day the escalator was broken so she had to walk up it. This took her 90 seconds.  
 
 How many seconds would it take her to travel up the escalator if she walked up at the same speed as before while it was working?
 

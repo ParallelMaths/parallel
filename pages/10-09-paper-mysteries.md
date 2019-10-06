@@ -34,7 +34,7 @@ __1.2.__ What is the width to the nearest centimetre of the same piece of A4 pap
 ::: problem id=1_3 marks=2
 __1.3.__ Divide the length of A4 by the width and give the answer to 1 decimal place.
 
-<input solution="1.4"/> cm
+<input solution="1.4"/>
 :::
 
 ::: problem id=1_4 marks=2
@@ -59,16 +59,16 @@ Take a look at this Numberphile video all about the mathematics behind A4 paper.
 ::: problem id=2_1 marks=2
 __2.1__ Pythagoreans should not urinate towards…
 
-* [x] the sun
-* [ ] the moon
-* [ ] the ground
-* [ ] each other
+* [x] the sun  
+* [ ] the moon  
+* [ ] the ground  
+* [ ] each other  
 * [ ] the wind  
 {.col-5}
 :::
 
 ::: problem id=2_2 marks=4
-__2.2__ Is it possible to write √2 as a fraction a/b?
+__2.2__ Is it possible to write `sqrt(2)` as a fraction a/b?
 
 * [ ] Yes
 * [x] No
@@ -141,6 +141,7 @@ Which of the following is closest to the fraction of the floor that is shaded bl
 * [ ] `1/12`
 * [x] `1/13`
 * [ ] `1/16`
+{.col-5}
 
 ^^^ hint id=5_1 marks=2
 ![](/resources/10-09-paper-mysteries/5-tiling-answer.jpg){image align="center"}

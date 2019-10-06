@@ -66,23 +66,23 @@ This means they will take `24/5` hours to paint the house.
 
 ## 2. Proving √2 is irrational
 
-Two weeks ago, I mentioned that a follower of Pythagoras was executed for proving that √2 is an irrational number. But, you might be wondering, how does someone prove that a number is a irrational. How can you prove that a number cannot be written down as a fraction or a ratio?  
+Two weeks ago, I mentioned that a follower of Pythagoras was executed for proving that `sqrt(2)` is an irrational number. But, you might be wondering, how does someone prove that a number is a irrational. How can you prove that a number cannot be written down as a fraction or a ratio?  
 
 Here is an outline of such a proof, but...  
 
 __WARNING – this proof is not simple. You will have to think carefully about each and every step.__  
 
-This type of proof is known as a ‘proof by contradiction’, which means we are going to start by assuming the opposite of what we want to prove. So, we are going to “try” to prove that √2 is rational! By trying to prove this, we should discover something that would be impossible, which means that our starting point (√2 is rational) must have been impossible.  
+This type of proof is known as a ‘proof by contradiction’, which means we are going to start by assuming the opposite of what we want to prove. So, we are going to “try” to prove that `sqrt(2)` is rational! By trying to prove this, we should discover something that would be impossible, which means that our starting point (`sqrt(2)` is rational) must have been impossible.  
 
 Let’s get going.  
 
-Let's imagine that it is possible to come up with such a ratio to produce √2.  
+Let's imagine that it is possible to come up with such a ratio to produce `sqrt(2)`.  
 
 In fact, __make this the simplest ratio you can have__ - cancelling out any common factors. Remember this. __No common factors__.
 
 Let's call it `A/B`.
 
-So, `A/B` = √2
+So, `A/B` = `sqrt(2)`
 
 We know that `A` and `B` could not both be even, because they would then have a common factor of 2, which we would have cancelled out already.
 
@@ -124,13 +124,13 @@ Let’s re-arrange a bit more…
 
 `a^2/b^2 = 2`
 
-`a/b` = √2.
+`a/b` = `sqrt(2)`.
 
-Wow! We started out by saying `A/B` was the simplest way to represent √2, but now we know that `a/b` = √2, and we know that `a` and `b` are only half of `A` and `B`. So we have a simpler ratio for √2… but we started off saying we were already at the simplest ratio.
+Wow! We started out by saying `A/B` was the simplest way to represent `sqrt(2)`, but now we know that `a/b` = `sqrt(2)`, and we know that `a` and `b` are only half of `A` and `B`. So we have a simpler ratio for `sqrt(2)`… but we started off saying we were already at the simplest ratio.
 
-We have contradicted ourselves, so our initial attempt to represent √2 as a fraction must be impossible.
+We have contradicted ourselves, so our initial attempt to represent `sqrt(2)` as a fraction must be impossible.
 
-CONCLUSION – this proof is tricky, and you need to follow it carefully, but hopefully get a sense of how mathematicians know that √2 is irrational.
+CONCLUSION – this proof is tricky, and you need to follow it carefully, but hopefully get a sense of how mathematicians know that `sqrt(2)` is irrational.
 
 ::: problem id=2_1 marks=2
 __2.1__ Did you follow some or all of that?

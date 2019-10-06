@@ -140,7 +140,7 @@ It follows from this that, of the given numbers, there is just one which is divi
 
 ::: problem id=4_1 marks=4
 ![](/resources/10-08-map-mathematics/5-circle.jpg){image align="right"}
-The shaded region in the diagram, bounded by two concentric circles, is called an _annulus_. The circles have radii 2cm and 14cm.  
+__5.1__ The shaded region in the diagram, bounded by two concentric circles, is called an _annulus_. The circles have radii 2cm and 14cm.  
 
 The dashed circle divides the area of this annulus into two equal areas.  
 

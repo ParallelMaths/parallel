@@ -150,6 +150,7 @@ __3.1__ Is 167 divisible by 1?
 
 * [x] Yes
 * [ ] No
+{.col-2}
 :::
 
 ::: problem id=3_2 marks=1
@@ -157,6 +158,7 @@ __3.2__ Is 167 divisible by 2?
 
 * [ ] Yes
 * [x] No
+{.col-2}
 :::
 
 ::: problem id=3_3 marks=1
@@ -164,6 +166,7 @@ __3.3__ Is 167 divisible by 3?
 
 * [ ] Yes
 * [x] No
+{.col-2}
 :::
 
 ::: problem id=3_4 marks=1
@@ -171,6 +174,7 @@ __3.4__ Is 167 divisible by 4?
 
 * [ ] Yes
 * [x] No
+{.col-2}
 :::
 
 ::: problem id=3_5 marks=1
@@ -178,6 +182,7 @@ __3.5__ Is 167 divisible by 5?
 
 * [ ] Yes
 * [x] No
+{.col-2}
 :::
 
 ::: problem id=3_6 marks=1
@@ -185,6 +190,7 @@ __3.6__ Is 168 divisible by 6?
 
 * [x] Yes
 * [ ] No
+{.col-2}
 :::
 
 ::: problem id=3_7 marks=3
@@ -192,6 +198,7 @@ __3.7__ Is 2,401 divisible by 7?
 
 * [x] Yes
 * [ ] No
+{.col-2}
 :::
 
 ::: problem id=3_8 marks=4
@@ -201,6 +208,7 @@ Is 1,581,228 divisible by 11?
 
 * [x] Yes
 * [ ] No
+{.col-2}
 :::
 
 
@@ -219,6 +227,7 @@ What is the smallest number of stations that Jo must go to more than once?
 * [x] 3
 * [ ] 4
 * [ ] 5
+{.col-5}
 
 ---
 ![](/resources/8-10-chikas-test-seven/4-map-answer.jpg){image align="right"}

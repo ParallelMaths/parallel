@@ -284,7 +284,7 @@ Statement (ii) is not true. For example, (½)<sup>2</sup> = ¼, which is not
 larger than ½. Also, 1<sup>2</sup> is not bigger than 1.
 
 Statement (iii) is also not true. For example, √¼ = ½, which is not smaller
-than ¼. Also, √1 is not bigger than 1.
+than ¼. Also, `sqrt(1)` is not bigger than 1.
 :::
 
 

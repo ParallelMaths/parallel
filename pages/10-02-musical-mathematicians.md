@@ -47,14 +47,14 @@ Hint: Pythagoras acted irrationally when he executed the follower.
 
 * [ ] Negative numbers
 * [ ] Zero
-* [x] √2
+* [x] `sqrt(2)`
 * [ ] ∞
 * [ ] Fractions
 * [ ] Quaternions
 
 ---
 
-The square roof of 2 is an irrational number, which means it can never be written as a fraction or ratio (ir-ratio-nal). Pythagoras felt that such numbers were evil or should not exist, which is why he is said to have executed the young mathematician who discovered that √2 is irrational.
+The square roof of 2 is an irrational number, which means it can never be written as a fraction or ratio (ir-ratio-nal). Pythagoras felt that such numbers were evil or should not exist, which is why he is said to have executed the young mathematician who discovered that `sqrt(2)` is irrational.
 :::
 
 
