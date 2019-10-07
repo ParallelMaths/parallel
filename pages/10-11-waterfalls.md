@@ -76,7 +76,7 @@ __2.3__ For a 20x20 board, nobody’s know for certain the maximum number of bla
 
 ---
 
-In the video, Neil Sloane explained that the number of peaceable queens was at least (`7n^2/48)`, where `n` is the number of squares along one side of the board.  
+In the video, Neil Sloane explained that the number of peaceable queens was at least `(7 n^2)/48`, where `n` is the number of squares along one side of the board.  
 
 `(7 × 20^2)/48 = 58.3`.  
 

@@ -59,12 +59,11 @@ Take a look at this Numberphile video all about the mathematics behind A4 paper.
 ::: problem id=2_1 marks=2
 __2.1__ Pythagoreans should not urinate towards…
 
-* [x] the sun  
-* [ ] the moon  
-* [ ] the ground  
-* [ ] each other  
-* [ ] the wind  
-{.col-5}
+* [x] the sun
+* [ ] the moon
+* [ ] the ground
+* [ ] each other
+* [ ] the wind
 :::
 
 ::: problem id=2_2 marks=4

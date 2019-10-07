@@ -55,7 +55,7 @@ If we square both numbers `(2sqrt(3))^2 = 4 × 3` and `(sqrt(5))^2 = 5`, so the 
 __1.3.__ Which is bigger: `3 sqrt(4)` or `sqrt(3)6`?
 
 * [ ] `3 sqrt(4)` is bigger
-* [ ] `sqrt(3)6` is bigger
+* [ ] `sqrt(36)` is bigger
 * [x] same
 {.col-3}
 
