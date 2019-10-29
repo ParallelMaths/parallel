@@ -526,14 +526,15 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-13-chrismaths
+    title: Chrismaths Y10
+    available: 2019-12-12T13:00:00
+    deadline: 2019-12-15T13:00:00
+    scoreFactor: 4
+  - url: 10-12-gravitation-waves
+    title: Gravitation Waves
+    available: 2019-12-05T13:00:00
+    deadline: 2019-12-08T13:00:00
   - url: 10-11-waterfalls
     title: Waterfalls
     available: 2019-11-28T13:00:00

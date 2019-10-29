@@ -30,7 +30,7 @@ __1.1.__ Which is bigger: `4 sqrt(2)` or `3sqrt(3)`?
 
 * [x] `4 sqrt(2)` is bigger
 * [ ] `3sqrt(3)` is bigger
-* [ ] same
+* [ ] Neither, they are the same
 {.col-3}
 
 ---
@@ -43,7 +43,7 @@ __1.2.__ Which is bigger: `2sqrt(3)` or `sqrt(5)`?
 
 * [x] `2sqrt(3)` is bigger
 * [ ] `sqrt(5)` is bigger
-* [ ] same
+* [ ] Neither, they are the same
 {.col-3}
 
 ---
@@ -52,18 +52,18 @@ If we square both numbers `(2sqrt(3))^2 = 4 × 3` and `(sqrt(5))^2 = 5`, so the 
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ Which is bigger: `3 sqrt(4)` or `sqrt(3)6`?
+__1.3.__ Which is bigger: `3 sqrt(4)` or `sqrt(36)`?
 
 * [ ] `3 sqrt(4)` is bigger
 * [ ] `sqrt(36)` is bigger
-* [x] same
+* [x] Neither, they are the same
 {.col-3}
 
 ---
 
-If we square both numbers `(3 sqrt(4))^2 = 9 × 4` and `(sqrt(3)6)^2 = 36`, so they are the same.  
+If we square both numbers `(3 sqrt(4))^2 = 9 × 4` and `sqrt(36)^2 = 36`, so they are the same.  
 
-Alternatively, `3 sqrt(4) = 3 × 2 = 6`, while `sqrt(3)6 = 6`.
+Alternatively, `3 sqrt(4) = 3 × 2 = 6`, while `sqrt(36) = 6`.
 :::
 
 
@@ -84,7 +84,7 @@ __2.1__ How cool was that?
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ William Rowan Hamilton invented (or discovered) a new type of number, which you will not cover during your time in school, even in the sixth form. These numbers are called...
+__2.2__ William Rowan Hamilton invented (or discovered) a new type of number, which you will not cover during your time in school, even in sixth form. These numbers are called...
 
 * [ ] imaginary
 * [ ] complex

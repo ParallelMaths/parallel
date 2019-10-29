@@ -47,13 +47,13 @@ At first sight, (C + C = A) and (B + C = A) for the middle and right columns, bu
 
 We know that (C + C + 1 = B + C = A). So, B is equal to (C + 1).  And we know (B + C = 11, 12, 13 or 14). So we have B = 6, C = 5 … or B = 7, C = 6).
 
-From here, we can use trial and error to deduce that A = 3.
+From here, we can deduce that A = 3.
 :::
 
 
 ## 2.	Drew’s puzzle #2
 
-A 5 x 5 x 5 cube consisting of 125 smaller cubes (known as cubelets) is completely painted.
+A 5 x 5 x 5 cube consisting of 125 smaller cubes (known as cubelets) is painted yellow so that each of its faces is completely covered.
 
 ![](/resources/8-10-chikas-test-seven/2-puzzle-question.png){image align="center"}
 
@@ -64,7 +64,7 @@ __2.1__ How many cubelets have 4 faces painted yellow?
 
 ---
 
-None of the smaller cubes have more than 3 faces showing.
+None of the cubelets have more than 3 faces showing.
 :::
 
 ::: problem id=2_2 marks=1
@@ -78,7 +78,7 @@ Only the 8 corner cubelets (4 at the top, and 4 at the bottom) have 3 yellow fac
 :::
 
 ::: problem id=2_3 marks=2
-__2.3__ How many cubelets have 2 faces painted yellow?
+__2.3__ How many cubelets have exactly 2 faces painted yellow?
 
 <input type="number" solution="36"/>
 
@@ -88,13 +88,13 @@ The edge cubelets have two yellow faces. There are three cubelets per edge, and 
 :::
 
 ::: problem id=2_4 marks=2
-__2.4__ How many cubelets have 1 faces painted yellow?
+__2.4__ How many cubelets have exactly 1 face painted yellow?
 
 <input type="number" solution="54"/>
 
 ---
 
-The face cubelets have one yellow face. There are (3 × 3 = 9) cubelets per face, and six faces. So the answer is 9 × 6 = 54.
+The face cubelets which are not on a corner or an edge have one yellow face. There are (3 × 3 = 9) cubelets per face, and six faces. So the answer is 9 × 6 = 54.
 
 Another way to arrive at this answer is that the big cube has 6 big faces. There are 25 small yellow faces per big face, so 6 × 25 = 150 small yellow faces in total.
 
@@ -141,7 +141,7 @@ Or take the number 987
 13 + 3 x 5 = 28  
 28 is a multiple of 7, so both 133 and 987 are multiples of 7  
 
-In fact, if you actually keep going, you will always end up with either 7 or 49, if the original number is divisible by 7.
+In fact, if you actually keep going you will always end up with either 7 or 49, if the original number is divisible by 7.
 
 ![](/resources/8-10-chikas-test-seven/3-chika.jpg){image align="center"}
 
@@ -202,7 +202,7 @@ __3.7__ Is 2,401 divisible by 7?
 :::
 
 ::: problem id=3_8 marks=4
-__3.8__ There is also a little know test for whether a number is divisible by 11. You just add and subtract alternate numbers, then see if the result is divisible by 11. For example, if we want to test the divisibility of 14,641, we work out 1 – 4 + 6 – 4 + 1 = 0, which is indeed divisible by 11, so the whole number is divisible by 11.  
+__3.8__ There is also a little known test for whether a number is divisible by 11. You just add and subtract alternate digits, then see if the result is divisible by 11. For example, if we want to test the divisibility of 14,641, we work out 1 – 4 + 6 – 4 + 1 = 0, which is indeed divisible by 11, so the whole number is divisible by 11.  
 
 Is 1,581,228 divisible by 11?
 

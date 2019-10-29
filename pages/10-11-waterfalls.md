@@ -31,7 +31,7 @@ __1.1.__ What is the opposite of a waterfall?
 
 ---
 
-The opposite of water is fire, and the opposite of fall is to fly.
+The opposite of water is fire, and the opposite of to fall is to fly.
 :::
 
 
@@ -53,7 +53,7 @@ __2.1__ What is the maximum number of black and white peaceable queens that a 3x
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ What is the maximum number of black and white peaceable queens that a 8x8 board can support?
+__2.2__ What is the maximum number of black and white peaceable queens that an 8x8 board can support?
 
 * [ ] 5 of each
 * [ ] 6 of each
@@ -64,7 +64,7 @@ __2.2__ What is the maximum number of black and white peaceable queens that a 8x
 :::
 
 ::: problem id=2_3 marks=4
-__2.3__ For a 20x20 board, nobody’s know for certain the maximum number of black and white peaceable queens that can be supported? Which of these numbers is a possible answer?
+__2.3__ For a 20x20 board, nobody knows for certain the maximum number of black and white peaceable queens that can be supported. Which of these numbers is a possible answer?
 
 * [ ] 20
 * [ ] 21
@@ -143,9 +143,13 @@ We now apply Pythagoras’ Theorem to the right-angled triangle `PTR`. This give
 
 ::: problem id=23_1 marks=5
 ![](/resources/10-11-waterfalls/5-shape.jpg){image align="right"}
-__5.1__ The diagram shows a heptagon with a line of three circles on each side. Each circle is to contain exactly one number. The numbers 8 to 14 are distributed as shown and the numbers 1 to 7 are to be distributed to the remaining circles. The total of the numbers in each of the lines of three circles is to be the same.  
+__5.1__ A Saxon silver penny, from the reign of Ethelbert II in the eighth century, was sold in 2014 for £78 000.  
 
-What is this total?
+A design on the coin depicts a circle surrounded by four equal arcs, each a quarter of a circle, as shown.  
+
+The width of the design is 2 cm.  
+
+What is the radius of the small circle, in centimetres?
 
 * [ ] `1/2`
 * [x] `2 - sqrt(2)`
@@ -158,7 +162,7 @@ What is this total?
 ^^^
 
 ^^^ hint id=5_2 marks=2
-We see from the diagram in the previous hint that the quarter circles touch. Let the points where they touch be `K`, `L`, `M` and `N`. Let the centres of the quarter circles be `P`, `Q`, `R` and `S`, arranged as shown in the diagram.  
+We see from the diagram in the previous hint that the quarter circles touch each other tangentially. Let the points where they touch be `K`, `L`, `M` and `N`. Let the centres of the quarter circles be `P`, `Q`, `R` and `S`, arranged as shown in the diagram.  
 
 Because the circles touch, `PKQ`, `QLR`, `RMS` and `SNP` are straight lines.  
 
@@ -169,7 +173,7 @@ Therefore, by Pythagoras’ Theorem applied to the triangle `SMN`, we see that `
 
 ---
 ![](/resources/10-11-waterfalls/5-shape-answer.jpg){image align="right"}
-We see from the diagram that the quarter circles touch. Let the points where they touch be `K`, `L`, `M` and `N`. Let the centres of the quarter circles be `P`, `Q`, `R` and `S`, arranged as shown in the diagram.  
+We see from the diagram that the quarter circles touch each other tangentially. Let the points where they touch be `K`, `L`, `M` and `N`. Let the centres of the quarter circles be `P`, `Q`, `R` and `S`, arranged as shown in the diagram.  
 
 Because the circles touch, `PKQ`, `QLR`, `RMS` and `SNP` are straight lines.  
 
@@ -181,7 +185,7 @@ Similarly `MR` and `NP` both have length `sqrt(2)` cm. Therefore `SPR` is a righ
 
 [Alternatively, we could argue that `SNM` and `SPR` are similar triangles in which `SP` is twice the length of `SN`. Therefore `PR` is twice the length of `NM`.]  
 
-The line segment `PR` is made up of two radii of the quarter circles with centres `P` and `R`, which have total length `2 sqrt(2)` cm, and a diameter of the small circle. It follows that the diameter of the small circle has length `4` cm `− 2 sqrt(2)` cm. The radius of the small circle is half of this, that is, `(2 − sqrt(2))` cm.
+The line segment `PR` is made up of two radii of the quarter circles with centres `P` and `R`, which have total length `2 sqrt(2)` cm, and the diameter of the small circle. It follows that the diameter of the small circle has length `4` cm `− 2 sqrt(2)` cm. The radius of the small circle is half of this, that is, `(2 − sqrt(2))` cm.
 :::
 
 

@@ -234,8 +234,8 @@ How many children are in Anna's family?
 * [ ] 5
 * [ ] 7
 * [ ] 9
-* [ ] 11
-* [x] 13
+* [x] 11
+* [ ] 13
 {.col-5}
 
 ^^^ hint id=6_1 marks=1

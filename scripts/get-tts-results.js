@@ -15,7 +15,7 @@ const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 9, teachers: ['qw6ok'], students: 15},
   {name: 'Bulmershe School', year: 10, teachers: ['h343j'], students: 20},
 
-  {name: 'Capital City Academy', year: 7, teachers: ['t2mtbt'], students: 20},
+  {name: 'Capital City Academy', year: 7, teachers: ['cjbn9o'], students: 20},
   {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 18},
 
   {name: 'City Academy Hackney', year: 7, teachers: ['o4xlq9'], students: 21},
@@ -24,7 +24,7 @@ const TTS_SCHOOLS = [
   {name: 'City of London Academy Islington', year: 7, teachers: ['qgd4av'], students: 20},
   {name: 'City of London Academy Islington', year: 8, teachers: ['rxulkx'], students: 20},
 
-  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['wzauuo'], students: 13},
+  {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['uuynbj'], students: 15},
   {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['v64gji'], students: 13},
 
   {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 19},
@@ -48,10 +48,10 @@ const TTS_SCHOOLS = [
   {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 19},
   {name: 'Lister Community School', year: 10, teachers: ['nww75'], students: 22},
 
-  {name: 'Plashet School', year: 7, teachers: ['15hjxf'], students: 20},
-  {name: 'Plashet School', year: 8, teachers: ['9mhdd'], students: 20},
+  {name: 'Plashet School', year: 7, teachers: ['15hjxf'], students: 25},
+  {name: 'Plashet School', year: 8, teachers: ['9mhdd'], students: 22},
   {name: 'Plashet School', year: 9, teachers: ['2c7db'], students: 20},
-  {name: 'Plashet School', year: 10, teachers: ['t1bmm'], students: 20},
+  {name: 'Plashet School', year: 10, teachers: ['t1bmm'], students: 17},
 ];
 
 // -----------------------------------------------------------------------------

@@ -43,7 +43,7 @@ __1.4.__ If you measure the paper exactly, and divide the length by the width, w
 * [ ] `1.4`
 * [ ] `1.5`
 * [ ] `1.45`
-* [x]  `2`
+* [x]  `sqrt(2)`
 * [ ] `1.2^2`
 * [ ] `π/3`
 {.col-3}
@@ -150,7 +150,7 @@ We see that the entire plane can be tessellated by the shape labelled `S` in the
 
 ---
 ![](/resources/10-09-paper-mysteries/5-tiling-answer.jpg){image align="right"}
-We see that the entire plane can be tessellated by the shape labelled `S` in the above diagram. This shape is made up of one tile in the shape of a regular hexagon and two tiles in the shape of equilateral triangles.  
+We see that the entire plane can be tessellated by the shape labelled `S` in the diagram. This shape is made up of one tile in the shape of a regular hexagon and two tiles in the shape of equilateral triangles.  
 
 The diagram shows that, as the side length of the triangular tiles is half that of the hexagonal tiles, the area of the hexagonal tiles is 24 times the area of the triangular tiles.  
 
