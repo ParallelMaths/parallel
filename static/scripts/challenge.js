@@ -106,6 +106,7 @@ function calculateScore(answers) {
   return {
     points,
     total,
+    time: Date.now(),
     submitted: true,
     score: Math.max(0, Math.min(100, Math.round(points / total * 100)))
   };
