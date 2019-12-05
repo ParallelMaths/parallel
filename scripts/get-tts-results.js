@@ -6,8 +6,12 @@ const serviceAccount = require('../private/service-account.json');
 
 // -----------------------------------------------------------------------------
 // Edit below. You can use the same teacher code for multiple years.
+// Set the time string to '' to stop filtering by submission time.
 
 const USE_ARCHIVED_DATA = false;  // Can be 2018 or false
+
+const START_TIME = '2019-01-01T00:00:00';
+const END_TIME = '2019-12-31T23:59:59';
 
 const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['4kuds0'], students: 17},
@@ -56,6 +60,12 @@ const TTS_SCHOOLS = [
 
 // -----------------------------------------------------------------------------
 
+function inTimeRange(q) {
+  if (START_TIME && (!q.time || q.time < START_TIME)) return false;
+  if (END_TIME && (!q.time || q.time > END_TIME)) return false;
+  return true;
+}
+
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
   databaseURL: 'https://parallel-cf800.firebaseio.com'
@@ -93,7 +103,7 @@ async function run() {
         for (let u of users) {
           if (u.teacherCode === t && u.answers) {
             const q = u.answers[p.url];
-            if (q && q.submitted) {
+            if (q && q.submitted && inTimeRange(q)) {
               if (USE_ARCHIVED_DATA ? q.archive === USE_ARCHIVED_DATA : !q.archive) {
                 attempts += 1;
                 totalScore += (+q.score || 0);

@@ -4,6 +4,21 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 const yaml = require('yamljs');
 
+// -----------------------------------------------------------------------------
+// Edit below.
+// Set the time string to '' to stop filtering by submission time.
+
+const START_TIME = '2019-01-01T00:00:00';
+const END_TIME = '2019-12-31T23:59:59';
+
+// -----------------------------------------------------------------------------
+
+function inTimeRange(q) {
+  if (START_TIME && (!q.time || q.time < START_TIME)) return false;
+  if (END_TIME && (!q.time || q.time > END_TIME)) return false;
+  return true;
+}
+
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
   databaseURL: 'https://parallel-cf800.firebaseio.com'
@@ -34,7 +49,7 @@ async function run() {
 
       const user = users[u];
       const answer = users[u].answers[p.url];
-      if (!answer || answer.archive) continue;
+      if (!answer || answer.archive || !inTimeRange(answer)) continue;
 
       const d = [
         user.first + ' ' + user.last,
