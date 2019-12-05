@@ -514,25 +514,25 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-16-hypatia
+    title: Hypatia
+    available: 2020-01-23T13:00:00
+    deadline: 2020-01-26T13:00:00
+  - url: 10-15-optical-illusions
+    title: Optical Illusions
+    available: 2020-01-16T13:00:00
+    deadline: 2020-01-19T13:00:00
+  - url: 10-14-proof
+    title: Proof
+    available: 2020-01-09T13:00:00
+    deadline: 2020-01-12T13:00:00
   - url: 10-13-chrismaths
     title: Chrismaths Y10
     available: 2019-12-12T13:00:00
     deadline: 2019-12-15T13:00:00
     scoreFactor: 4
   - url: 10-12-gravitation-waves
-    title: Gravitation Waves
+    title: Gravitational Waves
     available: 2019-12-05T13:00:00
     deadline: 2019-12-08T13:00:00
   - url: 10-11-waterfalls

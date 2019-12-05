@@ -112,7 +112,7 @@ In particular, there are no squares which have 7 as their units digit.
 ## 4.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q20 --->
 
-::: problem id=20_1 marks=4
+::: problem id=4_1 marks=4
 ![](/resources/10-11-waterfalls/4-circles.jpg){image align="right"}
 __4.1__ Two semicircles are drawn in a rectangle as shown.  
 
@@ -141,7 +141,7 @@ We now apply Pythagoras’ Theorem to the right-angled triangle `PTR`. This give
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q23 --->
 
-::: problem id=23_1 marks=5
+::: problem id=5_1 marks=5
 ![](/resources/10-11-waterfalls/5-shape.jpg){image align="right"}
 __5.1__ A Saxon silver penny, from the reign of Ethelbert II in the eighth century, was sold in 2014 for £78 000.  
 

@@ -1,4 +1,4 @@
-# Gravitation Waves
+# Gravitational Waves
 
 <div class="dictionary">
 
@@ -30,7 +30,9 @@ The answer is in the short video below, but have a hard think before you click p
 ::: problem id=1_1 marks=2
 __1.1__ How well did you do?
 
-* [x] I got the correct answer as shown in the video, or I got a different answer, but one that was interesting and perhaps equally good. For example, you could write “c”, which is the Roman numeral for 100 and does not require you to you take you pen off the paper
+* [x] I got the correct answer as shown in the video, or I got a different answer, but one that was interesting and perhaps equally good.  
+
+For example, you could write “c”, which is the Roman numeral for 100 and does not require you to you take you pen off the paper
 * [ ]  I had no idea.
 :::
 
@@ -86,7 +88,7 @@ We see that 5 = 3 + 2, 7 = 5 + 2, 9 = 7 + 2, 11 = 9 + 2 and 13 = 11 + 2.
 
 The numbers 3, 5, 7 and 11 are all primes, so each of 5, 7, 9 and 13 is the sum of two primes. However, 9 is not a prime and therefore 11 is not the sum of two primes.  
 
-As we show above, the only odd prime numbers that are the sum of two primes are those of the form `p` + 2, where `p` is an odd prime. In this case the numbers `p`, `p` + 2 form what is called a prime pair, that is, they are consecutive odd numbers that are both prime. It is an unsolved problem as to whether there are infinitely many prime pairs.  
+As we showed above, the only odd prime numbers that are the sum of two primes are those of the form `p` + 2, where `p` is an odd prime. In this case the numbers `p`, `p` + 2 form what is called a twin prime, that is, they are consecutive odd numbers that are both prime. It is an unsolved problem as to whether there are infinitely many twin primes.  
 
 According to the _Goldbach Conjecture_ every even number greater than 2 is the sum of two primes. This has not been proved but, at the time of writing, it has been verified for all even numbers up to `4 × 10^18`. Some partial results are known. For example, Chen’s Theorem (proved by Chen Jingrun in 1973) says that all but a finite number of even numbers can be expressed as the sum of a prime and a number which is either prime or the product of two primes.
 :::
@@ -122,7 +124,7 @@ For the answer to be yes, the two primes would have to be an odd number and an e
 
 ::: problem id=5_1 marks=5
 ![](/resources/10-12-gravitation-waves/5-octgaon.jpg){image align="right"}  
-The diagram shows a regular octagon.  
+__5.1__ The diagram shows a regular octagon.  
 
 What is the ratio of the area of the shaded trapezium to the area of the whole octagon?
 
@@ -141,7 +143,7 @@ Because `PQRSTUVW` is a regular octagon, `QKP`, `WNV`, `SLR` and `UMT` are congr
 ^^^
 
 ^^^ hint id=5_2 marks=1
-Then, by Pythagoras’ Theorem, the hypotenuse of each of these triangles has length `sqrt(1)^2 + 1^2 = sqrt(2)`. Since the octagon is regular, it follows that each of its sides has length `sqrt(2)`.  
+Then, by Pythagoras’ Theorem, the hypotenuse of each of these triangles has length `sqrt(1^2 + 1^2) = sqrt(2)`. Since the octagon is regular, it follows that each of its sides has length `sqrt(2)`.  
 
 Each of the triangles `QKP`, `WNV`, `SLR` and `UMT`, forms half of a square with side length 1, and so has area `1/2`.  
 ^^^
@@ -152,7 +154,7 @@ We let `P`, `Q`, `R`, `S`, `T`, `U`, `V` and `W` be the vertices of the regular 
 
 Because `PQRSTUVW` is a regular octagon, `QKP`, `WNV`, `SLR` and `UMT` are congruent right-angled isosceles triangles. We choose units so that the shorter sides of these triangles have length 1.
 
-Then, by Pythagoras’ Theorem, the hypotenuse of each of these triangles has length `sqrt(1)^2 + 1^2 = sqrt(2)`. Since the octagon is regular, it follows that each of its sides has length `sqrt(2)`.  
+Then, by Pythagoras’ Theorem, the hypotenuse of each of these triangles has length `sqrt(1^2 + 1^2) = sqrt(2)`. Since the octagon is regular, it follows that each of its sides has length `sqrt(2)`.  
 
 Each of the triangles `QKP`, `WNV`, `SLR` and `UMT`, forms half of a square with side length 1, and so has area `1/2`.  
 

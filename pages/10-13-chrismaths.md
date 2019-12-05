@@ -180,7 +180,7 @@ On average, roughly how many rubber bands did he add each day while building the
 
 ---
 
-The average number of rubber bands added each day was approximately `6000000/(5 × 365) = 6000000/1800 ≈ 3300`
+The average number of rubber bands added each day was approximately `6000000/(5 × 365) ≈ 6000000/1800 ≈ 3300`
 :::
 
 
@@ -267,7 +267,7 @@ As the diagram shows, the figure may be cut into two parts which fit together to
 ## 13.
 
 ::: problem id=13_1 marks=4
-Four of these points lie on a single straight line. Which is the odd one out? , ,  and  
+Four of these points lie on a single straight line. Which is the odd one out?
 
 * [ ] (−3, −3)
 * [ ] (−2, −1)
@@ -299,7 +299,7 @@ What is the value of `a + w + a + y`?
 
 ---
 
-We note first that since that `y` = 5 is the only non-zero digit which, when it is multiplied by 3, has itself as the units digit. So there is a carry of 1 into the tens column. We note also that a = 1 or a = 2 as “`fly`” < 1000 and therefore 3 × “`fly`” < 3000.  
+We note first that `y` = 5 is the only non-zero digit which, when it is multiplied by 3, has itself as the units digit. So there is a carry of 1 into the tens column. We note also that a = 1 or a = 2 as “`fly`” < 1000 and therefore 3 × “`fly`” < 3000.  
 
 We now need 3 × `l` + 1 to end in either 1 or 2 and the only possibility is `l` = 7, giving `a` = 2 with a carry of 2 into the hundreds column.  
 
@@ -379,7 +379,7 @@ One of the points represents the product of the numbers presented by P and Q. Wh
 
 As P and Q both lie between 0 and 1, their product will be greater than 0 but smaller than P and smaller than Q. Of the options available, only B satisfies these conditions.  
 
-Furthermore, its position is correct since is approximately equal to `1/2`, which means that the product of P and Q lies approximately halfway between 0 and Q.
+Furthermore, its position is correct since `P` is approximately equal to `1/2`, which means that the product of P and Q lies approximately halfway between 0 and Q.
 :::
 
 
@@ -536,7 +536,7 @@ Hence `∠IJO = 90°` and `∠LJP = 90° − 45° = 45°`. In triangle `JLP`, `�
 
 So triangle `JLP` is isosceles and `LP = LJ =` 1 unit.
 
-By a similar argument, it may be shown that `PM` is also of length 1 unit, so `LM = LP + PM =` 2 unit.
+By a similar argument, it may be shown that `PM` is also of length 1 unit, so `LM = LP + PM =` 2 units.
 :::
 
 
