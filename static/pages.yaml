@@ -502,18 +502,18 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-19-tongue-twisters
+    title: Tongue Twisters
+    available: 2020-02-13T13:00:00
+    deadline: 2020-02-23T13:00:00
+  - url: 10-18-smilla-sense-snow
+    title: Smilla’s Sense of Snow
+    available: 2020-02-06T13:00:00
+    deadline: 2020-02-09T13:00:00
+  - url: 10-17-monkey-magic
+    title: Monkey Magic
+    available: 2020-01-23T13:00:00
+    deadline: 2020-01-26T13:00:00
   - url: 10-16-hypatia
     title: Hypatia
     available: 2020-01-23T13:00:00

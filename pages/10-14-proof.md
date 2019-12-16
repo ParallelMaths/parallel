@@ -157,25 +157,27 @@ Hence the youngest is Dan.
 
 
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2017) Q17 --->
+<!--- (2017) Q24 --->
 
 ::: problem id=5_1 marks=5
-![](/resources/10-14-proof/5-pentagon.jpg){image align="right"}
-__5.1__ The diagram shows two rectangles and a regular pentagon.  
+The `n` th term of a certain sequence is calculated by multiplying together all the numbers
 
-One side of each rectangle has been extended to meet at `X`.  
+![](/resources/10-14-proof/5-formula-1.jpg){image align="center"}
 
-What is the value of `x`?
+where `k` takes all the integer values from 2 to `n + 1` inclusive. For example, the third term in the sequence is:  
 
-* [ ] 52
-* [x] 54
-* [ ] 56
-* [ ] 58
-* [ ] 60
+![](/resources/10-14-proof/5-formula-2.jpg){image align="center"}
+
+What is the smallest value of `n` for which for the `n` th term of the sequence is an integer?
+
+* [ ] 3
+* [ ] 5
+* [x] 6
+* [ ] 7
+* [ ] more than 7
 {.col-5}
 
 ^^^ hint id=5_1 marks=1
-
 It’s not as difficult as it looks.
 ^^^
 
@@ -184,25 +186,28 @@ If you are stuck, just try a brute force approach and try calculating a few valu
 ^^^
 
 ---
-![](/resources/10-14-proof/5-pentagon-answer1.jpg){image align="right"}
-__Method 1__
 
-We use the fact that the sum of the angles of a pentagon is 540°. Hence, each interior angle of a regular pentagon is 108°. We also know that the interior angles of the rectangles are each 90°.  
+Let `n` be a positive integer. The `n` th term of the sequence is
 
-We now consider the pentagon `TUVWX`, as shown in the figure. The interior angles of this polygon at `T` and `W` are each 90°. The interior angle at `U` is the interior angle of the regular polygon, namely 108°. The interior angle at `V` is the sum of an interior angle of the regular pentagon and a right angle, that is, 108° + 90°.  
+![](/resources/10-14-proof/5-formula-answer1.jpg){image align="center"}
 
-Therefore `90 + 108 + (108 + 90) + 90 + x = 540`. Hence, `x + 486 = 540`. Therefore `x = 540 − 486 = 54`.
+This expression may be rewritten as
 
-![](/resources/10-14-proof/5-pentagon-answer2.jpg){image align="right"}
-__Method 2__
+![](/resources/10-14-proof/5-formula-answer2.jpg){image align="center"}
 
-We label the vertices of the pentagon and one of the rectangles as shown in the figure.  
+which is equivalent to
 
-Let `YZ` be a line through `S` that is parallel to `UV`. It follows that the alternate angles, `∠SXU` and `∠XSZ` are equal. Hence `∠XSZ = x°`.  
+![](/resources/10-14-proof/5-formula-answer3.jpg){image align="center"}
 
-By the symmetry of the pentagon about the line through `S` perpendicular to `YZ`, we have `∠YST = ∠RSZ`. Let `∠YST = ∠RSZ = y°`.  
+In the product above we may cancel all the terms other than the denominator of `3/2` and the numerator of `(n + 2)/(n + 1)`.  
 
-The angles on the line at the point `S` have sum 180°. Because it is the angle of a regular pentagon, `∠TSR = 108°`. Because it is the angle of a rectangle, `∠TSX = 90°`. Therefore `2y + 108 = 180`.
+In this way the above expression may be simplified to
+
+![](/resources/10-14-proof/5-formula-answer4.jpg){image align="center"}
+
+For this to be an integer, we require that `(n + 2)/2` be a square and hence that `n + 2` is twice a square. Because `n + 2 > 2`, the least possible value of `n + 2` is `2 × 2^2`, that is, 8. Now `n + 2 = 8` for `n = 6`.  
+
+Therefore 6 is the smallest value of `n` for which the `n` th term of the sequence is an integer.
 :::
 
 

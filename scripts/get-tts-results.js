@@ -10,8 +10,8 @@ const serviceAccount = require('../private/service-account.json');
 
 const USE_ARCHIVED_DATA = false;  // Can be 2018 or false
 
-const START_TIME = '2019-01-01T00:00:00';
-const END_TIME = '2019-12-31T23:59:59';
+const START_TIME = '';
+const END_TIME = '';
 
 const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['4kuds0'], students: 17},
@@ -49,7 +49,7 @@ const TTS_SCHOOLS = [
 
   {name: 'Lister Community School', year: 7, teachers: ['ag93qe'], students: 26},
   {name: 'Lister Community School', year: 8, teachers: ['2jiemd'], students: 24},
-  {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 18},
+  {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 19},
   {name: 'Lister Community School', year: 10, teachers: ['nww75'], students: 22},
 
   {name: 'Plashet School', year: 7, teachers: ['15hjxf'], students: 25},
