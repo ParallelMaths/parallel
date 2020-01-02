@@ -17,7 +17,7 @@ const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['4kuds0'], students: 17},
   {name: 'Bulmershe School', year: 8, teachers: ['mg4414'], students: 17},
   {name: 'Bulmershe School', year: 9, teachers: ['qw6ok'], students: 15},
-  {name: 'Bulmershe School', year: 10, teachers: ['h343j'], students: 16},
+  {name: 'Bulmershe School', year: 10, teachers: ['h343j'], students: 13},
 
   {name: 'Capital City Academy', year: 7, teachers: ['cjbn9o'], students: 20},
   {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 18},
