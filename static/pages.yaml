@@ -490,18 +490,18 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-22-evolution-rap
+    title: Evolution Rap
+    available: 2020-03-12T13:00:00
+    deadline: 2020-03-15T13:00:00
+  - url: 10-21-pieces-of-eight
+    title: Pieces of Eight
+    available: 2020-03-05T13:00:00
+    deadline: 2020-03-08T13:00:00
+  - url: 10-20-earth-look-like
+    title: What does the Earth look like?
+    available: 2020-02-27T13:00:00
+    deadline: 2020-03-02T13:00:00
   - url: 10-19-tongue-twisters
     title: Tongue Twisters
     available: 2020-02-13T13:00:00

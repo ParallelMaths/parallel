@@ -99,12 +99,12 @@ Convert everything into powers of 2.
 ^^^
 
 ^^^ hint id=4_2 marks=1
-`64^x = (2^6)^x = 2^(6x)`
+`64^x = (2^6) ^x = 2^(6x)`
 ^^^
 
 ---
 
-We note first that `64 = 2^6` and `512 = 2^9`. Therefore `64^x = (2^6)^x = 2^(6x)` and `512^5 = (2^9)^5 = 2^(9 × 5) = 2^45`.  
+We note first that `64 = 2^6` and `512 = 2^9`. Therefore `64^x = (2^6) ^x = 2^(6x)` and `512^5 = (2^9) ^5 = 2^(9 × 5) = 2^45`.  
 
 It follows that the equation `64^x = 512^5` is equivalent to the equation `2^(6x) = 2^45`. We deduce from this that `6x = 45`. Hence  
 
@@ -151,7 +151,7 @@ Because `NM` is perpendicular to `OP`, the triangle `OMN` has a right angle at `
 
 Since `M` is the midpoint of `OP` and the circle has radius 8, it follows that `OM = 4`. Also `ON = 8`. Therefore, by the above equation `NM^2 = 8^2 − 4^2 = 64 − 16 = 48`. It follows that `NM = sqrt(48)`.  
 
-In the right-angled triangle `NMP`, we have `NM2 = 48` and `MP^2 = 4^2 = 16`. Therefore, by Pythagoras’ Theorem applied to this triangle, `NP^2 = MN^2 + MP^2 = 48 + 16 = 64`, and therefore `NP = 8`.  
+In the right-angled triangle `NMP`, we have `NM^2 = 48` and `MP^2 = 4^2 = 16`. Therefore, by Pythagoras’ Theorem applied to this triangle, `NP^2 = MN^2 + MP^2 = 48 + 16 = 64`, and therefore `NP = 8`.  
 
 It follows that the perimeter of the triangle `PNM` is `MP + PN + NM = 4 + 8 + sqrt(48) = 12 + sqrt(48)`.  
 

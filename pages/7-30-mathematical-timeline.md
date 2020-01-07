@@ -22,7 +22,7 @@ The terrific Mathigon website has loads of great material, including a timeline 
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/7-29-mathematical-timeline/1-napier.png){image align="center"}
+![](/resources/7-30-mathematical-timeline/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at mathematicians from the BC era (who lived more than 2,000 years ago), what is the first name of the mathematician who wrote ELEMENTS and was know as the father of geometry?
@@ -57,7 +57,7 @@ Two of the numbers have been inserted in order to get you started. Just identify
 
 (NOTE: perform operations in the order they appear, e.g., `3 + 4 × 5 = 35` (not 23))
 
-![](/resources/7-29-mathematical-timeline/6-1-puzzle.png){style="width:400px"}
+![](/resources/7-30-mathematical-timeline/6-1-puzzle.png){style="width:400px"}
 
 ::: problem id=2_1 marks=0.25
 __2.1__ a = <input type="text" solution="6"/>
@@ -105,7 +105,7 @@ We also know that `a × 5` is a factor of 90 from the 1st column, so `a = 6`.
 
 And the rest is easy.
 
-![](/resources/7-29-mathematical-timeline/6-1-puzzle-solution.png){style="width:400px"}
+![](/resources/7-30-mathematical-timeline/6-1-puzzle-solution.png){style="width:400px"}
 :::
 
 
@@ -143,16 +143,12 @@ the computer in 1-player mode and see if you can win.
 
 [Play the game](https://nrich.maths.org/2526){target="_blank"}
 
-If you do manage to win, then just take a photo or screengrab, which includes the
-date and time, and then email it to me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) – we will pick one winner
-at random at midnight on Thursday (May 23rd) and send them a copy of my book “The Simpsons and Their Mathematical Secrets”.
-
 
 ## 5. Junior Maths Challenge Problem (UKMT)
 <!--- 2017 (11) --->
 
 ::: problem id=5_1 marks=4
-![](/resources/7-29-mathematical-timeline/5-squares.png){image align="right"}
+![](/resources/7-30-mathematical-timeline/5-squares.png){image align="right"}
 __5.1__ Seven squares are drawn on the sides of a heptagon so that they are outside the heptagon, as shown in the diagram.  
 
 What is the sum of the seven marked angles?
@@ -166,7 +162,7 @@ What is the sum of the seven marked angles?
 
 ---
 
-![](/resources/7-29-mathematical-timeline/5-squares-answer.png){image align="right"}
+![](/resources/7-30-mathematical-timeline/5-squares-answer.png){image align="right"}
 In the figure we have labelled some of the vertices so that we may refer to them.  
 
 Suppose that there is a flag whose pole is in the direction of `GP` and pointing as shown. Consider the effect of carrying out the following operations. First rotate the flag anti-clockwise about `G` through `∠PGQ` so that now its pole lies along `GQ`. Next slide the flag without rotation so that its pole lies along `HR`. Next rotate the pole about H through `∠RHS` so that it lies along `HS`, and so on, until the flag returns to its original position. The total angle that the flag has turned through is the sum of the seven marked angles. But in returning to its original position the flag has completed a full rotation of 360°.

@@ -147,10 +147,22 @@ So, the number of wins equals the number of losses three times – after 526, 52
 
 ## 6. Rattleback
 
-Watch this video of one of the most mysterious objects in the universe. It’s called a rattleback, and you can win one if you succeed at the challenge in the _Additional Stuff_ section below.
+Watch this video of one of the most mysterious objects in the universe. It’s called a rattleback.
 
 @[youtube](ovZ_n6X__9c?rel=0)
 
+
+## 7. VAX! – a game about epidemic prevention
+
+Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
+
+It is definitely worth looking at the whole site and learning about the maths of disease, networks and connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
+
+*	Go to [http://vax.herokuapp.com/game](http://vax.herokuapp.com/game){target="_blank"}
+*	Click on EASY (try MEDIUM & HARD later)
+*	Start vaccinating those dots that are most likely to spread disease.
+*	When the disease starts, begin quarantining dots.
+*	If you want to try again, hit RETRY after you obtain your score.
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -164,20 +176,3 @@ Before you hit the SUBMIT button, here are some quick reminders:
 
 Cheerio,
 Simon.
-
-
-## Additional Stuff
-
-__VAX! – a game about epidemic prevention.__
-
-Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
-
-It is definitely worth looking at the whole site and learning about the maths of disease, networks and connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
-
-*	Go to [http://vax.herokuapp.com/game](http://vax.herokuapp.com/game){target="_blank"}
-*	Click on EASY (try MEDIUM & HARD later)
-*	Start vaccinating those dots that are most likely to spread disease.
-*	When the disease starts, begin quarantining dots.
-*	If you want to try again, hit RETRY after you obtain your score.
-
-If you would like to win a rattleback, then please send us your best VAX! score. The top three scores received by 12pm on __Tuesday 19th March__ will win a rattleback. Just email me at [prizes@parallel.org.uk](mailto:prizes@parallel.org.uk) and include an image of your bar chart score. Good luck.

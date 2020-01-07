@@ -33,9 +33,9 @@ __1.1__ The circle illusion is the result of 8 dots moving...
 * [ ] randomly
 :::
 
-My favourite among these illusion is the dragon whose eyes follow you around the room.
+My favourite among these illusions is the dragon whose eyes follow you around the room.
 
-You can download a printout via this link and this video shows how to make your own dragon.
+You can [download a printout via this link](https://www.thinkfun.com/wp-content/uploads/2014/10/Dragon-Illusion-BBC.pdf){target="_blank"} and the following video shows how to make your own dragon.
 
 @[youtube](sMmSMpb_FQ8?rel=0)
 
@@ -43,7 +43,7 @@ You can download a printout via this link and this video shows how to make your 
 ## 2. Probability puzzle
 
 ::: problem id=2_1 marks=3
-__2.1__ It’s dark. Your sock drawer contains 10 white socks and 10 black socks. You take out one sock, but you don’t know what colour it is. You take out a second sock – what is the probably that the second sock is white?  
+__2.1__ It’s dark. Your sock drawer contains 10 white socks and 10 black socks. You take out one sock, but you don’t know what colour it is. You take out a second sock – what is the probability that the second sock is white?  
 
 Write down your probability as a decimal, accurate to one decimal place.
 
@@ -57,7 +57,7 @@ The first sock is equally likely to be black or white.
 
 Because the first sock could have been black or white, with equal probability, then it has no real impact on working out the probability of the second.  
 
-If the first sock was black, then the chance of picking a white sock would be 10/19. If the first sock was white, then the chance of picking a white sock would be 9/19. But we don’t know whether the first sock is black or white, so we take the average, which 9.5/19 = ½.
+If the first sock was black, then the chance of picking a white sock would be 10/19. If the first sock was white, then the chance of picking a white sock would be 9/19. But we don’t know whether the first sock is black or white, so we take the average, which is 9.5/19 = ½.
 :::
 
 
@@ -105,11 +105,11 @@ What is the perimeter of `PQRS`?
 * [ ] 45 1/3
 
 ^^^ hint id=4_1 marks=2
-It’s easy to work out PQ. Then you can then try two approaches.
+It’s easy to work out PR. Then you can try two approaches.
 
 (1)	Work out the perimeter of the small triangle. Then you know the perimeter of the large triangle is 5/3 bigger, as QP corresponds to PR in the two similar triangles. So you can work out the perimeter of the small triangle plus the big triangle, but you have to subtract the lengths of the two common sides, which are not part of the perimeter of the quadrilateral.
 
-(2)	The longer way is to work out each of the lengths one by one, using the ratio 5/3 and the Pythagoras theorem.
+(2)	The longer way is to work out each of the lengths one by one, using the ratio 5/3 and Pythagoras' theorem.
 ^^^
 
 ---
@@ -141,14 +141,14 @@ __5.1__ Two brothers and three sisters form a single line for a photograph. The 
 How many different line-ups are possible?
 
 * [ ] 24
-* [x] 36
+* [ ] 36
 * [ ] 60
-* [ ] 72
+* [x] 72
 * [ ] 120
 {.col-5}
 
 ^^^ hint id=5_1 marks=2
-There are only 6 ways to arrange the brothers and sisters that keeps the brothers apart. Now the challenge is to work out how many ways you can position the brothers and sisters within each arrangement.  
+There are only 6 ways to arrange the brothers and sisters that keep the brothers apart. Now the challenge is to work out how many ways you can position the brothers and sisters within each arrangement.  
 
 B, S, B, S, S  
 B, S, S, B, S  
@@ -176,9 +176,9 @@ S, B, S, B, S
 S, B, S, S, B  
 S, S, B, S, B  
 
-For any given two positions which the two brothers occupy, they can be put in these positions in 2 ways. If the brothers are B1 and B2, these are B1, B2 and B2, B1.  
+For any two given positions which the two brothers must occupy, they can stand in one of two ways. If the brothers are B1 and B2, these are B1, B2 and B2, B1.  
 
-For any given three positions which the three sisters occupy, they can be put in these positions in 6 ways. If the sisters are S1, S2 and S3, these are S1, S2, S3; S1, S3, S2; S2, S1, S3; S2, S3, S1; S3, S1, S2 and S3, S2, S1.  
+For any three given positions which the three sisters must occupy, they can stand in one of six ways. If the sisters are S1, S2 and S3, these are S1, S2, S3; S1, S3, S2; S2, S1, S3; S2, S3, S1; S3, S1, S2 and S3, S2, S1.  
 
 Since the 6 choices of which positions the brothers occupy, the 2 choices of how the brothers are put in these positions, and the 6 choices of how the sisters are put in the remaining positions may be made independently, the total number of different line-ups is given by 6 × 2 × 6 = 72.
 :::

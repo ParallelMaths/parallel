@@ -23,7 +23,7 @@ For some reason, there are loads of movies about mathematics, or rather about ma
 
 I say “for some reason”, but actually I know the reason – mathematics is amazing, and so are mathematicians.  
 
-“Proof” is a film starring Anthony Hopkins, Gwyneth Paltrow and Jake Gyllenhaal. The plot concerns a mathematician who dies, and his daughter and one of his students are going through is study and discover an remarkable proof that mathematicians having been struggling to find for centuries. However, does the proof really belong to the father? Is he the real genius?
+“Proof” is a film starring Anthony Hopkins, Gwyneth Paltrow and Jake Gyllenhaal. The plot concerns a mathematician who dies, leaving his daughter with a pile of notebooks full of working. When one of his former students goes through the notebooks, he finds a remarkable proof that mathematicians having been struggling to find for centuries. However, does the proof really belong to the father? Is he the real genius?
 
 @[youtube](pnvy9q4UpZw?end=101&rel=0)
 
@@ -65,14 +65,14 @@ __1.4__ A prime triplet is a set of three primes in which the smallest and large
 
 ---
 
-The first triple prime bigger than 50 is 67, 71 and 73.
+The first prime triplet bigger than 50 is 67, 71 and 73.
 :::
 
 
 ## 2. The fiendish bus puzzle
 
 ::: problem id=2_1 marks=3
-__2.1__ Let’s assume that this bus in London, or Edinburgh... or India... or Bangladesh... or Australia... or Lesotho. Is driving towards the left or the right?
+__2.1__ Let’s assume that this bus in London, or Edinburgh... or India... or Bangladesh... or Australia... or Lesotho. Is it driving towards the left or the right?
 
 ![](/resources/10-14-proof/2-bus.png){image align="center"}  
 
@@ -87,7 +87,7 @@ Where is the door that allows passengers on and off?
 
 The bus looks symmetrical, so you might initially think that the question is impossible to answer.  
 
-However, remember that the bus must have door for passengers to get on and off, and it must be on the other side of the bus (the side we cannot see). That door is always next to the pavement, and vehicles drive on the left side of the road in the countries named in the question.  
+However, remember that the bus must have a door for passengers to get on and off, and it must be on the other side of the bus (the side we cannot see). That door is always next to the pavement, and vehicles drive on the left side of the road in the countries named in the question.  
 
 So if the bus driver was facing to the right, then bus would be on left side of the road and the passengers could safely enter and leave the bus. So the bus must be heading to the right.
 :::
@@ -141,7 +141,7 @@ Which of the five is the youngest?
 {.col-5}
 
 ^^^ hint id=4_1 marks=1
-Eve’s age is the total of all their ages, less the ages of Alice, Bob, Clare and Dan. Therefore wecan find Eve’s age by subtracting from the total of all five ages both the combined total of the ages of Alice and Bob, and the combined total of the ages of Clare and Dan.
+Eve’s age is the total of all their ages, less the ages of Alice, Bob, Clare and Dan. Therefore we can find Eve’s age by subtracting from the total of all five ages both the combined total of the ages of Alice and Bob, and the combined total of the ages of Clare and Dan.
 ^^^
 
 ---
