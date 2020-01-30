@@ -321,7 +321,7 @@ can work out how he escapes from the ropes in the video below.
 __WARNING – do not try escapology or anything else that Randi does. This stuff is
 DANGEROUS.__
 
-@[youtube](AfZDwDE1yr8?rel=0)
+@[youtube](LYukbJnEcTo?rel=0)
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

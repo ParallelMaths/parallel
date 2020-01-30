@@ -25,9 +25,6 @@ const TTS_SCHOOLS = [
   {name: 'City Academy Hackney', year: 7, teachers: ['o4xlq9'], students: 20},
   {name: 'City Academy Hackney', year: 8, teachers: ['4qhg6e'], students: 19},
 
-  {name: 'City of London Academy Islington', year: 7, teachers: ['qgd4av', 'dsdn4l'], students: 13},
-  {name: 'City of London Academy Islington', year: 8, teachers: ['rxulkx'], students: 14},
-
   {name: 'City of London Academy Highbury Grove', year: 7, teachers: ['uuynbj'], students: 15},
   {name: 'City of London Academy Highbury Grove', year: 8, teachers: ['v64gji'], students: 15},
 

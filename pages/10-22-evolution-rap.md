@@ -74,6 +74,7 @@ __3.1__ What is the maximum number of pieces with the shape T which can be place
 * [x] 5
 * [ ] 6
 * [ ] 7
+{.col-5}
 
 ^^^ hint id=3_1 marks=1
 There is a mathsy way to approach this problem, but you can also draw a quick sketch and move forward with trial and error.

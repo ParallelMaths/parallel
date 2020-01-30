@@ -130,7 +130,6 @@ What is the size of angle `QRS`?
 
 ---
 ![](/resources/10-18-smilla-sense-snow/4-triangle-answer1.jpg){image align="right"}
-__Method 1__  
 
 We let `∠QRS = x°`. Because `SQ = QR`, the triangle `SQR` is isosceles. Therefore `∠RSQ = ∠QRS = x°`.  
 
@@ -151,7 +150,7 @@ The diagram shows seven circular arcs and a heptagon with equal sides but unequa
 
 The sides of the heptagon have length 4.  
 
-The centre of each arc is a vertex of the heptagon, and the ends of the arc are the midpoints of the two adjacent sides.  
+The centre of each arc is a vertex of the heptagon, and the ends of the arcs are the midpoints of the two adjacent sides.  
 
 What is the total shaded area?
 
@@ -165,13 +164,13 @@ What is the total shaded area?
 ---
 The shaded area is made up of seven sectors of circles each of radius 2.  
 
-The area of a circle with radius 2 is `π × 22 = 4π`.  
+The area of a circle with radius 2 is `π × 2^2 = 4π`.  
 
 The area of a sector of a circle is directly proportional to the angle subtended by the sector at the centre of the circle. A full circle subtends an angle of 360° at its centre. Therefore, if the total of the angles subtended by the shaded sectors shown in the figure is `x × 360°`, the total shaded area is `x × 4π`.  
 
 The internal angles of a polygon with `n` sides add up to `(n − 2) × 180°`. Therefore, the internal angles of a heptagon add up to `5 × 180°`.  
 
-The total of the angles at a point is 360°. Therefore the total of the angles at the seven vertices of the heptagon is `7 × 360°`. Since the internal angles have total `5 × 180°`, the total of the external angles is `7 × 360° − 5 × 180° = 7 × 360° − 5/2 × 360° = 92 × 360°`.  
+The total of the angles at a point is 360°. Therefore the total of the angles at the seven vertices of the heptagon is `7 × 360°`. Since the internal angles have total `5 × 180°`, the total of the external angles is `7 × 360° − 5 × 180° = 7 × 360° − 5/2 × 360° = 9/2 × 360°`.  
 
 Therefore the total shaded area is `9/2 × 4π`, that is, `18π`.
 :::

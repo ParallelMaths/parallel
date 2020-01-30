@@ -34,7 +34,7 @@ __1.1__ The trick is based on the...
 :::
 
 ::: problem id=1_2 marks=3
-__1.2__ James performed the trick with 10 cards (labelled 1 to 10). What would number would you end up with (the sum of the difference for each pair) if you performed the trick with only 8 cards (labelled 1 to 8)?
+__1.2__ James performed the trick with 10 cards (labelled 1 to 10). What number would you end up with (the sum of the difference for each pair) if you performed the trick with only 8 cards (labelled 1 to 8)?
 
 <input solution="16"/>
 
@@ -48,7 +48,7 @@ James explained that the sum was always the square of half of the biggest number
 
 Young babies, a few months old, are not impressed by magic. The entire world is magical and without rules, so objects disappearing is nothing special. Older infants, who are beginning to learn the laws of the universe, are mildly shocked when a magician uses trickery to make a sweet disappear. And, of course, once we reach school age, we all appreciate that magic is all about tricks that appear to do the impossible. But what about monkeys and apes?  
 
-When you watch this video, please bear in mind that you can sometimes see how the trick is done, but form the animal’s point of view the trick is amazing.
+When you watch this video, please bear in mind that you can sometimes see how the trick is done, but from the animal’s point of view the trick is amazing.
 
 @[youtube](spMkaJp975s?end=120&rel=0)
 
@@ -80,7 +80,7 @@ The place-value notation means that ‘`ab`’ `= 10a + b` and ‘`ba`’ `= 10b
 `= 9a − 9b`  
 `= 9(a − b)`.  
 
-The largest possible value of `9(a − b)` occurs when `a − b` has its largest possible value. Because `a` and `b` are different non-zero digits, the largest value of `a − b` is 8 when `a = 9` and `b = 1`. In this case ‘`ab`’ − ‘`ba`’ `= 91 − 19 = 72`.  
+The largest possible value of `9(a − b)` occurs when `a − b` has its largest possible value. Because `a` and `b` are different non-zero digits, the largest value of `a − b` is 8, when `a = 9` and `b = 1`. In this case ‘`ab`’ − ‘`ba`’ `= 91 − 19 = 72`.  
 
 Therefore the largest possible value of ‘`ab`’ − ‘`ba`’ `= 72`.
 :::
@@ -100,7 +100,7 @@ __4.1__ Each edge of a cube is coloured either red or black. If every face of th
 {.col-5}
 
 ^^^ hint id=4_1 marks=1
-The answer is NOT 4. 
+The answer is NOT 4.
 ^^^
 
 ---
@@ -115,7 +115,7 @@ The diagram shows that the required condition may indeed be satisfied with three
 <!--- (2017) Q21 --->
 
 ::: problem id=5_1 marks=5
-__5.1__ _Brachycephalus_ frogs are tiny – less than 1 cm long – and have three toes on each foot and two fingers on each ‘hand’, whereas the common frog has five toes on each foot and four fingers on each ‘hand’.  
+__5.1__ _Brachycephalus_ frogs are tiny – less than 1 cm long – and have three toes on each foot and two fingers on each ‘hand’, whereas the common frog has five toes on each foot and four fingers on each ‘hand’. All of the frogs have two hands and two feet.  
 
 Some _Brachycephalus_ and common frogs are in a bucket. Each frog has all its fingers and toes. Between them they have 122 toes and 92 fingers.  
 
@@ -149,7 +149,7 @@ Here’s a game you can play.
 
 How many words can you say in 15 seconds that do NOT contain the letter A? As soon as you say a word with an “a” in it, your turn is over.  
 
-How well did you do? 10 words is okay, 15 is good, 20 is very good, but here’s a way that you get 50 words... all you need to do is count quickly from 1 to 50... or maybe even 100 if you can count that quickly. If you remember from last week, the first number containing an “a” is 101.
+How well did you do? 10 words is okay, 15 is good, 20 is very good, but here’s a way that you can get 50 words... all you need to do is count quickly from 1 to 50... or maybe even 100 if you can count that quickly. If you remember from last week, the first number containing an “a” is 101.
 
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

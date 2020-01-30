@@ -183,9 +183,9 @@ __5.3__ The [xkcd comic strip appears online](https://xkcd.com/){target="_blank"
 
 * [ ] A globe
 * [ ] Winkel-Tripel
-* [x] Gall-Peters
+* [ ] Gall-Peters
 * [ ] Dymaxion
-* [ ] Van der Grinton
+* [x] Van der Grinton
 :::
 
 

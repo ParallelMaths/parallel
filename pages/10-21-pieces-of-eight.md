@@ -67,25 +67,21 @@ The words are MILE and YARD.
 
 
 ## 3.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2003) Qxx --->
+<!--- (2003) Q10 --->
 
-::: problem id=3_1 marks=3
-__3.1__ xx
+::: problem id=3_1 marks=4
+__3.1__ The time shown on a digital clock is 5.55. How many minutes will pass before the clock next shows a time for which all the digits are the same?
 
-* [x] 23100
-* [ ] 2310
-* [ ] 23
-* [ ] 23.1
-* [ ] 2.31
+* [ ] 71
+* [ ] 255
+* [x] 316
+* [ ] 377
+* [ ] 436
 {.col-5}
-
-^^^ hint id=3_1 marks=1
-If you are not sure, then try sketching a cube and colouring the edges.
-^^^
 
 ---
 
-643556 ÷ 2786 = 231, so 643566 ÷ 27.86 = 231 × 100 = 23100.
+The digits will next be all the same at 11.11, ie in 5 hours and 16 minutes time.
 :::
 
 
@@ -119,7 +115,9 @@ The angle subtended by an arc at the centre of a circle is twice the angle subte
 ---
 
 ![](/resources/10-21-pieces-of-eight/4-polygon-answer.jpg){image align="right"}
-Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices). Thus `∠AOB - 150°` and, as the angle subtended by an arc at the centre of a circle is twice the angle subtended by that arc at a point of the circumference, `∠APB = 75°`.
+Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices).  
+
+Thus `∠AOB - 150°` and, as the angle subtended by an arc at the centre of a circle is twice the angle subtended by that arc at a point of the circumference, `∠APB = 75°`.
 :::
 
 
