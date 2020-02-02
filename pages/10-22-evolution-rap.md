@@ -101,7 +101,7 @@ Each such combination produces a non-corner square which cannot be covered, eg t
 <!--- (2003) Q23 --->
 
 ::: problem id=4_1 marks=5
-__23.1__ Given that it takes `a` men `b` hours to paint `c` square metres of the Forth Bridge, how long would it take `d` men to paint `e` square metres of the bridge?
+__4.1__ Given that it takes `a` men `b` hours to paint `c` square metres of the Forth Bridge, how long would it take `d` men to paint `e` square metres of the bridge?
 
 * [x] `abe/cd`
 * [ ] `abd/ce`

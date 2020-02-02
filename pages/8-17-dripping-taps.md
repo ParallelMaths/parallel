@@ -20,8 +20,6 @@ week by the Parallel Project to bright young mathematicians.
 
 Here is a mathematics question that appeared on the highbrow BBC quiz “University Challenge”.
 
-@[youtube](htSeIWtA_1I?rel=0&end=26)
-
 ::: problem id=1_1 marks=2
 __1.1.__ A tap leaks 1 ml of water every second. How many 10 L buckets would it fill in a day?
 

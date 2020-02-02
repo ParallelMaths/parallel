@@ -482,14 +482,15 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-24-easter-challlenges
+    title: Easter Challenges
+    available: 2020-03-26T13:00:00
+    deadline: 2020-03-29T13:00:00
+    scoreFactor: 3
+  - url: 10-23-chess-in-church
+    title: Chess In Church
+    available: 2020-03-19T13:00:00
+    deadline: 2020-03-22T13:00:00
   - url: 10-22-evolution-rap
     title: Evolution Rap
     available: 2020-03-12T13:00:00
