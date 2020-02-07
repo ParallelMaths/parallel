@@ -26,13 +26,13 @@ __1.1__ What is interesting about this equation?
 
 * [ ] The answer is the same if it is reflected left/right
 * [ ] The answer is the same if it is reflected up/down
-* [ ] The answer is the same if it rotated by 90°
-* [x] The answer is the same if it rotated by 180°
-* [ ] The answer is the same if it rotated by 270°
+* [ ] The answer is the same if it is rotated by 90°
+* [x] The answer is the same if it is rotated by 180°
+* [ ] The answer is the same if it is rotated by 270°
 
 ---
 
-The answer is the same if it rotated by 180°
+The answer is the same if it is rotated by 180°
 
 61 - (8 + 8 + 8 + 8 + 8)  
 
@@ -81,7 +81,7 @@ __3.1__ The time shown on a digital clock is 5.55. How many minutes will pass be
 
 ---
 
-The digits will next be all the same at 11.11, ie in 5 hours and 16 minutes time.
+The digits will next be all the same at 11.11, i.e. in 5 hours and 16 minutes time.
 :::
 
 
@@ -105,7 +105,7 @@ What is the size of the marked angle?
 ^^^
 
 ^^^ hint id=4_2 marks=1
-Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices). Thus `∠AOB - 150°`
+Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices). Thus `∠AOB = 150°`
 ^^^
 
 ^^^ hint id=4_3 marks=1
@@ -117,7 +117,7 @@ The angle subtended by an arc at the centre of a circle is twice the angle subte
 ![](/resources/10-21-pieces-of-eight/4-polygon-answer.jpg){image align="right"}
 Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices).  
 
-Thus `∠AOB - 150°` and, as the angle subtended by an arc at the centre of a circle is twice the angle subtended by that arc at a point of the circumference, `∠APB = 75°`.
+Thus `∠AOB = 150°` and, as the angle subtended by an arc at the centre of a circle is twice the angle subtended by that arc at a point of the circumference, `∠APB = 75°`.
 :::
 
 

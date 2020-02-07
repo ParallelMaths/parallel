@@ -27,7 +27,7 @@ __1.1__ Alice challenges Bob to an addition duel. She asks Bob for 5 six-digit n
 
 Alice says, ‘The first person to find the sum of these five numbers, without using a calculator, is the winner.’  
 
-They both line up the numbers in an addition sum (‘soldier sums’) and then start adding at the same time. Alice gets the correct answer in 2 seconds – how did she do this?
+They both line up the numbers in a column and then start adding at the same time. Alice gets the correct answer in 2 seconds – how did she do this?
 
 * [ ] She has superhuman powers
 * [ ] Her trick involved squaring and then square rooting
@@ -36,12 +36,12 @@ They both line up the numbers in an addition sum (‘soldier sums’) and then s
 * [ ] Her trick depended on using base 2
 
 ^^^ hint id=1_1 marks=1
-Alice chooses here numbers AFTER Bob, so she is picking numbers that somehow make it easier to add up all five numbers. Maybe each of Alice’s numbers pairs up with one of Bob’s numbers to make something easy to deal with?
+Alice chooses her numbers AFTER Bob, so she is picking numbers that somehow make it easier to add up all five numbers. Maybe each of Alice’s numbers pairs up with one of Bob’s numbers to make something easy to deal with?
 ^^^
 
 ---
 
-Alice chooses here numbers AFTER Bob, so she is picking numbers that somehow make it easier to add up all five numbers. Maybe each of Alice’s numbers pairs up with one of Bob’s numbers to make something easy to deal with?  
+Alice chooses her numbers AFTER Bob, so she is picking numbers that somehow make it easier to add up all five numbers. Maybe each of Alice’s numbers pairs up with one of Bob’s numbers to make something easy to deal with?  
 
 Alice’s first number adds to Bob’s first number to make 999,999 and her second number adds to Bob’s second number to also make 999,999. This is easy to do, because you just need to make sure that each pair of digits adds to 9. If Bob picks 123,456, then you pick 876,543, because 1 + 8 = 9, 2 + 7 = 9, and so on.  
 
@@ -63,7 +63,7 @@ __2.1__ Why is the alveolar ridge (the hard bit of the roof of your mouth, just 
 * [ ] It is triangular, like a pizza slice.
 * [x] It can burn when you eat pizza.
 * [ ] It is the colour of tomato sauce.
-* [ ] It has spots like mini peperoni.
+* [ ] It has spots like mini pepperoni.
 * [ ] It has taste buds that respond to stuffed crusts.
 :::
 
@@ -114,16 +114,16 @@ __4.1__ The product of two positive integers is equal to twice their sum. This p
 What is the sum of these two integers?
 
 * [ ] 6
-* [x] 7
+* [ ] 7
 * [ ] 8
-* [ ] 9
+* [x] 9
 * [ ] 10
 {.col-5}
 
 ^^^ hint id=4_1 marks=2
 This is not really the way you should approach the problem, but if you are really stuck, then remember that it is multiple choice. Can you exclude any of the possible answers and take an educated guess?  
 
-Of course, it is much better to actually use algebra to get to the actual solution.
+Of course, it is much better to actually use algebra to get to the full solution.
 ^^^
 
 ---
@@ -168,7 +168,7 @@ What is the value of `x`?
 {.col-5}
 
 ^^^ hint id=5_1 marks=1
-Regular or regular, the internal angles of a polygon add up to (n – 2) x 180°, where n is the number of sides.
+Regular or irregular, the internal angles of a polygon add up to (n – 2) x 180°, where n is the number of sides.
 ^^^
 
 ^^^ hint id=5_2 marks=2
@@ -203,11 +203,11 @@ How much water does the tank hold when full?
 {.col-3}
 
 ---
-The 30 litres of water removed from the tank is the difference between `5/6` ths and `4/5` ths of the capacity of the tank. Now  
+The 30 litres of water removed from the tank is the difference between `5/6` and `4/5` of the capacity of the tank. Now  
 
 `5/6 − 4/5 = (5 × 5 − 4 × 6)/(5 × 6) = (25 − 24)/30 = 1/30`.  
 
-We therefore see that 30 litres amounts to `1/30` th of the capacity of the tank. It follows that when the tank is full the number of litres that it holds is `30 × 30 = 900`.
+We therefore see that 30 litres amounts to `1/30` of the capacity of the tank. It follows that when the tank is full the number of litres that it holds is `30 × 30 = 900`.
 :::
 
 

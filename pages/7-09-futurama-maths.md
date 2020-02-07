@@ -1,4 +1,4 @@
-# Futurama Maths
+# Ramanujan
 
 <div class="dictionary">
 

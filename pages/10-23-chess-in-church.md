@@ -30,7 +30,7 @@ __1.1__ Which of these statements is not relevant to the picture below?
 
 ---
 
-Chess involves, queens, bishops and knights, but this picture only shows a queen and a bishop on the checkerboard floor of a church.
+Chess involves queens, bishops and knights, but this picture only shows a queen and a bishop on the checkerboard floor of a church.
 :::
 
 
@@ -62,11 +62,11 @@ One mile is approximately equal to 1.6 kilometres so 120 miles are approximately
 
 ::: problem id=3_1 marks=4
 ![](/resources/10-23-chess-in-church/3-diagram.jpg){image align="right"}
-__14.1__ In the diagram, `∠MON = 130°`.  
+__3.1__ In the diagram, `∠MON = 130°`.  
 
 The reflection of `OP` in `OM` is `OQ` and the reflection of `OP` in `ON` is `OR`.  
 
-What is the size of `∠QOR`?
+What is the size of the obtuse angle `∠QOR`?
 
 * [x] 100°
 * [ ] 120°
@@ -96,13 +96,13 @@ Alternatively, if we say `∠MOP = α`, then `∠PON = 130° – α`.
 
 Then, `∠QOR = α + α + (130° – α) + (130° – α)`.  
 
-But, `260° = 100°` (if we measure it in the direction).
+But, if the reflex angle is `260°`, the obtuse angle must be `100°`.
 :::
 
 
 ## 4.	I’m not a robot
 
-This is an interesting video by Tom Scott all about how computers can work out who is human who is a robot (or internet bot).  
+This is an interesting video by Tom Scott all about how computers can work out who is human and who is a robot (or internet bot).  
 
 @[youtube](o1zNIm8GVPY?end=310&rel=0)  
 
@@ -138,7 +138,7 @@ __5.1__ The diagram shows a 1 × `x` rectangular plank which fits neatly inside 
 * [ ] `12`
 
 ^^^ hint id=5_1 marks=1
-The trick with this question it to measure the red line, part of the diagonal of the square, which is the same length as the side of the rectangle.
+The trick with this question is to measure the red line, part of the diagonal of the square, which is the same length as the side of the rectangle.
 ![](/resources/10-23-chess-in-church/5-square-hint1.png){image align="center"}
 ^^^
 
@@ -154,11 +154,11 @@ The figure shows the top left-hand corner of the complete diagram and we see by 
 
 Thus the diagonal of the square may be divided into three sections of length `1/2`, `x` and `1/2` respectively.
 
-Thus length of this diagonal `= sqrt(10^2 = 10^2) = sqrt(200) = 10 sqrt(2)`, so `x = 10 sqrt(2) - 1`.
+Thus the length of this diagonal `= sqrt(10^2 + 10^2) = sqrt(200) = 10 sqrt(2)`, so `x = 10 sqrt(2) - 1`.
 :::
 
 
-There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.  
+There will be more next week, so check your email or return to the website on Thursday at 3pm.  
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

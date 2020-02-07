@@ -35,7 +35,7 @@ We are not given the dimensions of the squares, so the answer must be independen
 
 We are not given the dimensions of the squares, so the answer must be independent of the size of the two squares.  
 
-So, imagine that the squares are of equal size. Then we have two squares with diagonals equal to the radius of 16. The side of each square (by Pythagoras) must be `sqrt(1/2 × 162) = sqrt(128)`.  
+So, imagine that the squares are of equal size. Then we have two squares with diagonals equal to the radius of 16. The side of each square (by Pythagoras) must be `sqrt(1/2 × 16^2) = sqrt(128)`.  
 
 ![](/resources/10-22-evolution-rap/1-semicircle-answer.jpg){image align="center"}
 
@@ -67,7 +67,7 @@ __2.1__ You are given that 2786 × 231 = 643566. What is the value of 643566 / 2
 
 ::: problem id=3_1 marks=4
 ![](/resources/10-22-evolution-rap/3-grid.jpg){image align="right"}
-__3.1__ What is the maximum number of pieces with the shape T which can be placed within the 5 × 5 grid shown, without overlapping, and with their edges along the lines of the grid?
+__3.1__ What is the maximum number of pieces of shape T which can be placed within the 5 × 5 grid shown, without overlapping, and with their edges along the lines of the grid?
 
 * [ ] 3
 * [ ] 4
@@ -81,9 +81,9 @@ There is a mathsy way to approach this problem, but you can also draw a quick sk
 ^^^
 
 ^^^ hint id=3_2 marks=1
-What happens can you exclude? 7 tiles (E) is impossible, because 7 × 4 > 25.  
+What options can you exclude? 7 tiles is impossible, because 7 × 4 > 25.  
 
-And you can ignore 3 tiles (A), because it is fairly easy to place 4 tiles. But can you fit 5 or even 6 tiles?
+And you can ignore 3 tiles, because it is fairly easy to place 4 tiles. But can you fit 5 or even 6 tiles?
 ^^^
 
 ---
@@ -91,7 +91,7 @@ And you can ignore 3 tiles (A), because it is fairly easy to place 4 tiles. But 
 ![](/resources/10-22-evolution-rap/3-grid-answer.jpg){image align="right"}
 The diagram shows that it is possible to fit five T shapes in the square. In order to fit six T shapes into the square, exactly one of the 25 squares would be left uncovered, hence at least three corner squares must be covered.  
 
-We now label a corner square H or V if it covered by a T shape which has the top part of the T horizontal or vertical respectively. If all four corner squares are covered then there must be at least two cases of an H corner with an adjacent V corner.  
+We now label a corner square H or V if it is covered by a T shape which has the top part of the T horizontal or vertical respectively. If all four corner squares are covered then there must be at least two cases of an H corner with an adjacent V corner.  
 
 Each such combination produces a non-corner square which cannot be covered, eg the second square from the right on the diagram. If only three corner squares are covered, there must again be at least one H corner with an adjacent V corner and therefore a non-corner square uncovered, which means that it is impossible to fit six T shapes into the square.
 :::
@@ -115,12 +115,12 @@ I took a different approach to the one in the official solution. The rate (area 
 ^^^
 
 ^^^ hint id=4_2 marks=1
-Another approach – again not the official one – is to see whether the equations make any sense. For example, the more painters (d), the shorter the time, but answers B & D have d on the top of the expression, which implies the that if you increase the number of painters then it will take proportionally longer. So, you can exclude B & D as sensible answers. Perhaps you can exclude one or two other options.   
+Another approach – again not the official one – is to see whether the equations make any sense. For example, the more painters (d), the shorter the time, but answers the second and fourth options have d on the top of the expression, which implies the that if you increase the number of painters then it will take proportionally longer. So, you can exclude the second and fourth options as sensible answers. Perhaps you can exclude one or two other options.   
 ^^^
 
 ---
 
-It takes `ab` man-hours to the paint `c` square metres of the bridge and hence `ab/c` man-hours to paint 1 square metre. So `d` men will take `ab/cd` hours to paint 1 square metre and `abe/cd` hours to paint `e` square metres.
+It takes `ab` man-hours to paint `c` square metres of the bridge and hence `ab/c` man-hours to paint 1 square metre. So `d` men will take `ab/cd` hours to paint 1 square metre and `abe/cd` hours to paint `e` square metres.
 :::
 
 
@@ -136,6 +136,8 @@ One statement is true, three statements are false.
 3. Beth is the mother.  
 4. One of Alice, Diana or Ella is the mother.  
 
+Who is the mother?
+
 <input solution="Ella"/>
 
 ^^^ hint id=5_1 marks=1
@@ -145,11 +147,11 @@ If statement (1) is true, then so is (2), so (1) = false.
 ---
 
 - If statement (1) is true, then so is (2), so (1) = false.  
-- If statement (2) is true, then (1) or (3) is true, so (2) = false.  
+- If statement (2) is true, then (1), (3) or (4) is true, so (2) = false.  
 - If statement (3) is true, then so is (2), so (3) = false.  
 - If statement (4) is true, then it can be true in 3 ways:  
 	1. Alice is the mother, but then (1) is also true.
-	2. Diane is the mother, bur then (2) is also true.
+	2. Diana is the mother, bur then (2) is also true.
 	3. Ella is the mother, in which case all the others are false.
 :::
 

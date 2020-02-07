@@ -24,12 +24,12 @@ As soon as you start learning mathematics, you start learning about patterns and
 1, 2, 3, 4, then 5  
 2, 4, 6, 8, then 10  
 
-But what comes next in the following sequences. WARNING – the answer is NOT the obvious answer.  
+But what comes next in the following sequences? WARNING – the answer is NOT the obvious answer.  
 
 ::: problem id=1_1 marks=2
-__1.1__ 1, 2, 4, 8, 16, ...  
+__1.1__ 1, 2, 4, 8, 16, ... ?  
 
-The obvious answer is 32, as each number appears to be double the previous number. However, this particular pattern is being created in a completely different way. Imagine taking a circle with some dots around the edge and then join every dot to every other dot with a straight line, and then count the number of areas.
+Imagine taking a circle with some dots around the edge and then join every dot to every other dot with a straight line, and then count the number of areas.
 
 ![](/resources/10-20-earth-look-like/1-pattern.gif){image align="center"}
 
@@ -48,9 +48,9 @@ The obvious answer is 32, as each number appears to be double the previous numbe
 :::
 
 ::: problem id=1_2 marks=3
-__1.2__ 2, 3, 5, 7, 11, 13, __ ?  
+__1.2__ 2, 3, 5, 7, 11, 13, ... ?  
 
-The obvious answer is 17, the next prime number. However, this is actually Farey sequence, which is the number of distinct fractions that exist as the denominator increases  
+This is the Farey sequence, which is the number of distinct fractions that exist as the denominator increases  
 
 - If the denominator is 1, then there are only 2 fractions, (0/1,  1/1).
 - If the denominator is 1 or 2, then there are only 3 fractions, (0/1,  1/2,  1/1).
@@ -67,9 +67,9 @@ If the denominator can also be 5, then there are 11 fractions, and if the denomi
 :::
 
 ::: problem id=1_3 marks=3
-__1.3__ 1, 2, 3, 4, ___ ?
+__1.3__ 1, 2, 3, 4, ... ?  
 
-The obvious answer is 5, but that is not the pattern that I am looking for. This sequence is all about perfect numbers, and the number of digits in a perfect number.  
+This sequence is all about perfect numbers, and the number of digits in a perfect number.  
 
 - The 1st perfect number is 6 with 1 digit.
 - The 2nd perfect number is 28 with 2 digit.
@@ -90,7 +90,7 @@ So, how many digits are in the 5th perfect number?
 <!--- (2003) Q1 --->
 
 ::: problem id=2_1 marks=3
-__2.1.__ What is the value of 3 divided by `1/2`?
+__2.1__ What is the value of 3 divided by `1/2`?
 
 * [ ] `1/6`
 * [ ] `2/3`
@@ -109,7 +109,7 @@ __2.1.__ What is the value of 3 divided by `1/2`?
 <!--- (2003) Q11 --->
 
 ::: problem id=3_1 marks=4
-__3.1__ Which of the following fractions is in the middle when they are written in numerical order?
+__3.1__ Which of the following fractions is in the middle when they are written in ascending numerical order?
 
 * [ ] `4/7`
 * [x] `5/8`
@@ -124,7 +124,7 @@ You really should be able to work this out using your fractions skillset. Howeve
 
 ---
 
-The fractions exceed `1/2` by `1/14`, `1/8`, `1/4`, `3/22` and `3/26` respectively, ie by `3/42`, `3/24`, `3/12`, `3/22` and `3/26`. Thus the fraction in the middle will be that which exceeds `1/2` by `3/24`.
+The fractions exceed `1/2` by `1/14`, `1/8`, `1/4`, `3/22` and `3/26` respectively, i.e. by `3/42`, `3/24`, `3/12`, `3/22` and `3/26`. Thus the fraction in the middle will be that which exceeds `1/2` by `3/24`.
 :::
 
 
@@ -147,7 +147,7 @@ In what order do they reach the Finish?
 
 ---
 
-Let radius of R's track be r and let the radius of the first semicircle of P's track be p; then the radius of the second semicircle of this track is r - p. The total length of P's track is πp + π(r - p) = πr, the same as the length of R's track. By a similar argument, the length of Q's track is also πr, so all three runners finish at the same time.
+Let the radius of R's track be r and let the radius of the first semicircle of P's track be p; then the radius of the second semicircle of this track is r - p. The total length of P's track is πp + π(r - p) = πr, the same as the length of R's track. By a similar argument, the length of Q's track is also πr, so all three runners finish at the same time.
 :::
 
 
@@ -177,7 +177,7 @@ __5.2__ Which map has the following properties: “Landmasses are the right rela
 :::
 
 ::: problem id=5_3 marks=2
-__5.3__ The [xkcd comic strip appears online](https://xkcd.com/){target="_blank"}, and written and drawn by the incredibly brilliant Randall Munroe. Knock yourself out and explore his comic strips. If there is an ounce of nerd in you, then you will have a blast.  
+__5.3__ The [xkcd comic strip appears online](https://xkcd.com/){target="_blank"}, written and drawn by the incredibly brilliant Randall Munroe. Knock yourself out and explore his comic strips. If there is an ounce of nerd in you, then you will have a blast.  
 
 [Take a look at his comic strip about map projections](https://xkcd.com/977/){target="_blank"}. Which map is for people who are not complicated, who love the Mercator projection, but prefer circles to squares?
 
