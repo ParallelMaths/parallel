@@ -25,7 +25,7 @@ Have a think about the problem, and perhaps take a lateral approach. That means,
 
 The answer is in the short video below, but have a hard think before you click play. You really need to come up with some sort of answer, even if it is not brilliant, or even correct.
 
-@[youtube](WGtKYcX6_Jo?rel=0)
+@[youtube](WGtKYcX6_Jo?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ How well did you do?
@@ -43,7 +43,7 @@ One of the greatest scientific discoveries this century was the detection of gra
 
 Take a look at the video below, presented by Professor Kelly Holley-Bockelmann. It is longer than the usual videos we have in Parallel, but it is a brilliant lecture, so it is well worth watching all 18 minutes.
 
-@[youtube](DTKGAE4voNM?rel=0)
+@[youtube](DTKGAE4voNM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ When you hug someone, is that hug written on spacetime?

@@ -101,7 +101,7 @@ Curie is one of the most heroic and inspiring scientists in history, and below i
 a short video that tells her story. Watch carefully and answer the question that
 follows.
 
-@[youtube](w6JFRi0Qm_s?rel=0)
+@[youtube](w6JFRi0Qm_s?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1.__ Curie’s 1911 Nobel Prize was for the discovery of an element that was named after a country. What is the name of the element?

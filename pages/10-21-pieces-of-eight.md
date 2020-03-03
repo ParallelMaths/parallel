@@ -125,7 +125,7 @@ Thus `∠AOB = 150°` and, as the angle subtended by an arc at the centre of a c
 
 Some of you will have learned about factoring quadratic equations. This video by Po_Shen Loh gives a new spin on an ancient (and largely forgotten) approach to factoring quadratics, which you might find helpful.
 
-@[youtube](ZBalWWHYFQc?rel=0)  
+@[youtube](ZBalWWHYFQc?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
 
 Using the approach in the video, or any other technique, factorise the quadratic below and find the possible values of `x`.  
 

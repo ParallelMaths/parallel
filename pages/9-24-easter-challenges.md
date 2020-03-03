@@ -298,7 +298,7 @@ So the area of these sectors is `3 × (5/6 (π (1/2)^2)) = 5/8 π`. The area of 
 
 This machine is incredible. As you watch the video, look at when it moves the massive bridge sections forwards... what does it have to do before it can redistribute the weight?
 
-@[youtube](cKi8VWRDA_c?rel=0)
+@[youtube](cKi8VWRDA_c?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

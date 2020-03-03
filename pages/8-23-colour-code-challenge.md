@@ -104,7 +104,7 @@ The four lines of symmetry are shown in the diagram.
 
 April Fools’ Day is just a few days away, so I wanted to feature this video with Professor Matthew Weathers, lecturer in the Department of Mathematics and Computer Science at Biola University in California. If you study maths or computing at university, I cannot promise that all your lectures will be as fun as this one.
 
-@[youtube](dv7kStqRFNM?rel=0)
+@[youtube](dv7kStqRFNM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 5. Felix Klein’s birthday
@@ -138,7 +138,7 @@ Making a Möbius loop involves taking a strip of paper, forming a loop, then mak
 
 The video below shows how you can make a Möbius loop for yourself. Once you have created a couple of Möbius loops, have a go at answering the questions below.
 
-@[youtube](IRVOwuHU-M0?rel=0)
+@[youtube](IRVOwuHU-M0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=6_1 marks=3
 __6.1.__ What happens when you cut a Möbius loop in half lengthways?
@@ -163,7 +163,7 @@ __6.2.__ What happens when you cut the Möbius loop along its length, but starti
 
 Hopefully you will have got the right answers and been shocked by them. Right or wrong, take a look at this video that examines what happens if you cut a Möbius loop a third of the way from the edge. It also looks at a couple of other cutting mysteries, all in just a couple of minutes.
 
-@[youtube](6q3WcwGcJsU?rel=0)
+@[youtube](6q3WcwGcJsU?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 For an easy to read guide to Möbius loops and the solution to the central cutting question (6.1) [visit this website on Möbius loops](https://www.wikihow.com/Make-a-Mobius-Strip){target="_blank"}.
 :::
@@ -189,4 +189,4 @@ Simon.
 
 * This animation gives further insights into what happens when you cut a Möbius loop.
 
-@[youtube](XlQOipIVFPk?rel=0)
+@[youtube](XlQOipIVFPk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_

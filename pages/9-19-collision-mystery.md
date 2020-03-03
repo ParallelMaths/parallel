@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 This is a video from the brilliant “3 Blue 1 Brown” YouTube channel posing an interesting puzzle with a very unexpected answer. Take a look and answer the questions below:
 
-@[youtube](HEfHFsfGXjs?rel=0)
+@[youtube](HEfHFsfGXjs?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ The video shows how you can calculate the value of a number by bouncing two blocks against each other. What is that number?
@@ -73,7 +73,7 @@ This makes a total of 4 + 4 + 1 = 9 quadrilaterals altogether. These are shown i
 
 If you have never seen any of M.C. Escher’s art, then I think you will find this video fascinating. Just take a look and then answer the two questions below.
 
-@[youtube](Kcc56fRtrKU?rel=0)
+@[youtube](Kcc56fRtrKU?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1.__ Which object, invented by Roger Penrose, inspired Escher?
@@ -151,7 +151,7 @@ You might think the answer is 120 (ie 10 x 12), but 10 and 12 have a common fact
 
 No questions and no marks – just take a look at this video which takes you on a flight through weird world of M.C. Escher.
 
-@[youtube](kZfRaPBa6dk?rel=0)
+@[youtube](kZfRaPBa6dk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

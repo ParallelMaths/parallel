@@ -90,7 +90,7 @@ The total number of items is `7 + 7^2 + 7^3 + 7^4 + 7^5 = 19,607` items.
 
 This journey is reflected in the clip below. His renewed interest in teaching young mathematicians is a sign that Nash is recovering from his period of illness.  
 
-@[youtube](5OIUa-mxIhM?rel=0)
+@[youtube](5OIUa-mxIhM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=4
 __2.1__ At the end of the clip, Nash mentions a problem about two bicycles squashing a fly, which is a famous problem in mathematics. Here is one version of that question:  

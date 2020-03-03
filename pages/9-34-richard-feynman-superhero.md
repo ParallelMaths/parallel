@@ -24,7 +24,7 @@ Even better there is a super-giant Parallelogram next week to keep you busy over
 
 Richard Feynman is one of my heroes. He was a brilliant physicist (and won a Nobel Prize) and he was a terrific writer and speaker. Here he is talking about science and how it makes the world even more amazing and beautiful.
 
-@[youtube](ZbFM3rn4ldo?rel=0)
+@[youtube](ZbFM3rn4ldo?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 One of the first science books I ever read was “Surely You're Joking, Mr. Feynman!” by Richard Feynman. Maybe borrow it from your local library and read it over the summer.
 

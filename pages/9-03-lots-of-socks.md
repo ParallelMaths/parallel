@@ -77,7 +77,7 @@ The first dice has to show 2, as it is both even and prime, and the probability 
 
 Next, take a look at this puzzle posed by Presh Talwalkar of the excellent Mind Your Decisions video channel, and then answer the question in the video, repeated below. It’s a question from the Amazon interview process, so it is designed to make you think.
 
-@[youtube](wjsG2Os0--o?end=22&rel=0)
+@[youtube](wjsG2Os0--o?end=22&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_6 marks=3
 __1.6.__ If you pick 2 socks at random (from 12 black and 12 white socks), what is the probability of getting a matching pair?

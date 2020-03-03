@@ -47,7 +47,7 @@ You can test this by playing around with the interactive graphic on this page on
 
 I spotted this on a NASA website called [Astronomy Picture of the Day](https://apod.nasa.gov/apod/){target="_blank"}, even though it is a video, not a picture. It shows the Sun as it was observed in Sweden in 2017.
 
-@[youtube](6c0wTtq4xDM?rel=0)
+@[youtube](6c0wTtq4xDM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 According to the NASA website, the Sun looks weird because the air is full of ice crystals, which behave like millions of tiny lenses:
 
@@ -297,7 +297,7 @@ Abkhaz has 37 letters, which is a prime number of letters, so you could multiply
 
 Take a look at this.
 
-@[youtube](-dh7COSiB7g?rel=0)
+@[youtube](-dh7COSiB7g?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 How did “Magdalen - Binnie” work it out so quickly?  
 

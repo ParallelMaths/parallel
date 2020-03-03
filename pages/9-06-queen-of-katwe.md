@@ -115,7 +115,7 @@ Her talent, dedication and relentless determination led her to winning the Women
 
 It is an incredible and inspiring true story, and Disney turned it into a film. Watch the trailer below, and perhaps persuade your teacher to show you the whole film. The film is also on Netflix, if you are lucky enough to have that at home.  
 
-@[youtube](z4l3-_yub5A?rel=0)
+@[youtube](z4l3-_yub5A?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess and can teach you, or your teacher might hold a chess lesson after school. Or you could try https://www.chesskid.com/, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
 
@@ -240,7 +240,7 @@ As I said, this is not a full explanation, so see if you can fill in the gaps.
 
 Thake a look at this clip from the film “Monty Python and the Holy Grail”, and admire the twisted logic.
 
-@[youtube](H9PY_3E3h2c?start=53&rel=0)
+@[youtube](H9PY_3E3h2c?start=53&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 The twisted, reversed and corrupted logic... and the very unexpected conclusion are interesting and fun to watch, and they highlight how easy it is to be illogical. For example, take a look at the Wason Test.
 

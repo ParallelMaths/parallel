@@ -36,7 +36,7 @@ This video summarises the rules of KenKen.
 
 If you’re still unsure, this video goes through the rules one more time.
 
-@[youtube](q2Un71kE2Xs?rel=0)
+@[youtube](q2Un71kE2Xs?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ Here is your first KenKen. The only mathematical operation is addition.

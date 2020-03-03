@@ -54,7 +54,7 @@ __1.4.__ If you measure the paper exactly, and divide the length by the width, w
 
 Take a look at this Numberphile video all about the mathematics behind A4 paper.
 
-@[youtube](5sKah3pJnHI?rel=0)
+@[youtube](5sKah3pJnHI?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Pythagoreans should not urinate towards…

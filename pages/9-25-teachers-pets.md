@@ -105,7 +105,7 @@ Here are a couple of videos to stretch your brain in the direction of science. J
 
 __Is there life on Mars?__
 
-@[youtube](SIkvVQrOpMM?rel=0)  
+@[youtube](SIkvVQrOpMM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
 
 ::: problem id=4_1 marks=1
 __4.1.__ Which musician is mentioned in the video? 	
@@ -116,7 +116,7 @@ __4.1.__ Which musician is mentioned in the video?
 
 __Dark side of the Moon__
 
-@[youtube](46-m4Y4Adto?rel=0)  
+@[youtube](46-m4Y4Adto?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
 
 ::: problem id=4_2 marks=2
 __4.2.__ Which band recorded the album “The Dark side of the Moon”? The answer is not in the video.

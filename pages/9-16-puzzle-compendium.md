@@ -98,7 +98,7 @@ Move matchstick 3 so that it crosses matchstick 4 to make a plus sign. Then we h
 
 Take a look at this video by Steve Mould, a physics graduate who now writes books about science and who presents nerdy comedy shows. Pause the video when Steve suggests, then think about the right answer.
 
-@[youtube](Hpwd_ns2Wjs?rel=0)
+@[youtube](Hpwd_ns2Wjs?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=4 marks=3
 __4.1__ A set of cards has a shape on one side and a colour on the other side.  

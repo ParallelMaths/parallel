@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 This video explores in great depth a question that we have covered in two recent Parallelograms.
 
-@[youtube](c_Vl4T4Anc4?rel=0)
+@[youtube](c_Vl4T4Anc4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km west and 1 km north, and you end up exactly where you started. According to  Musk’s full answer, which of the following is most accurate?
@@ -111,11 +111,11 @@ How many were going to St. Ives?_
 
 Lots of people give the answer 2,801 (because there is 1 man + 7 wives + 49 sacks + 343 cats + 2,401 kittens). However, the answer is 1, because the rhyme starts with “As I was going to St Ives, I met...”, so only the “I” was going to St Ives, because everyone else was going the other way. Here is how the riddle was solved in the movie.
 
-@[youtube](zcUJUOMtfHQ?rel=0)
+@[youtube](zcUJUOMtfHQ?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 In fact, I am not sure Samuel L. Jackson is right when he is trying to work out the number of items going away from St Ives. Luckily, in the Sesame Street clip below there is a much better and clearer explanation:
 
-@[youtube](ol1h9VB4Lyk?rel=0)
+@[youtube](ol1h9VB4Lyk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 :::
 
 
@@ -157,7 +157,7 @@ This is a terrific video by the terrific Vi Hart, who explores the wonders of M�
 
 By all means watch it to the end, but it gets a bit (only a bit) complicated after 2 minutes 30 seconds.
 
-@[youtube](Am-a5x9DGjg?rel=0)
+@[youtube](Am-a5x9DGjg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 
@@ -178,4 +178,4 @@ Simon.
 
 * This clip is from the Numberphile series and is about Klein bottles, featuring the amazing Cliff Stoll. I can sit and watch him talk about mathematics all day. He also has lots of other interests. For example, in 1986 he investigated and captured the computer hacker Markus Hess, who was working for the Russian KGB and trying to breach American military security.
 
-@[youtube](AAsICMPwGPY?rel=0)
+@[youtube](AAsICMPwGPY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_

@@ -108,11 +108,11 @@ __3.3__ Which positive integers have an odd number of factors?
 
 Last week we looked at the 1089 trick. Here’s a reminder from Krista King.
 
-@[youtube](rNInNmcgAiY?rel=0)
+@[youtube](rNInNmcgAiY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 But, how does it work? James Grime, who has some great videos, both on his own website and on Numberphile, explains…. it is not a simple explanation, but see if you can follow it. It is an amazing bit of magic, and the maths behind it is neat.
 
-@[youtube](ee0xnIywEqk?rel=0)
+@[youtube](ee0xnIywEqk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 5. Intermediate Maths Challenge Problem (UKMT)

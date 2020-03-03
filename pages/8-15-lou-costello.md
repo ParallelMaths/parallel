@@ -22,7 +22,7 @@ Back in 1998, I went to see a film at the cinema called _`π`_. To be honest, it
 fairly dreadful, so I would not recommend watching the whole film. However, take a
 look at this snippet from the trailer.
 
-@[youtube](r0SC582sJvE?start=0&end=44&rel=0)
+@[youtube](r0SC582sJvE?start=0&end=44&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ![](/resources/8-15-lou-costello/1-fib-spirals.jpg){.img-right alt="From http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm"}
 
@@ -140,7 +140,7 @@ it takes to swing, via a formula involving `π`. The video below from the brilli
 Parker (the Stand-up Mathematician) shows how you can use this formula to work out
 the value of `π`. Watch carefully and answer the question below.
 
-@[youtube](qYAdXm69l8g?end=220&rel=0)
+@[youtube](qYAdXm69l8g?end=220&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=4_1 marks=1
 __4.1__ How long did it take in Matt’s experiment for 1 swing?
@@ -263,7 +263,7 @@ the biggest improvements take place during the first few terms.
 
 Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa Kettle. Here is a similar comedy routine from the great Lou Costello, one of America’s most famous comedians. Watch carefully and see if you can work out why the maths is fundamentally wrong.
 
-@[youtube](MS2aEfbEi7s?start=7&rel=0)
+@[youtube](MS2aEfbEi7s?start=7&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would he think the result is?

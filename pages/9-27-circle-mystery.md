@@ -59,7 +59,7 @@ Therefore,
 
 This is a video from the terrific Numberphile channel on YouTube. It features one of the world’s greatest mathematicians, Neil Sloane. As well making breakthroughs in mathematics, he has written two books on rock-climbing. Watch this video, which looks at an apparently simple question about circles … then answer the questions after.
 
-@[youtube](bRIL9kMJJSc?end=413&rel=0)  
+@[youtube](bRIL9kMJJSc?end=413&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
 
 ::: problem id=3_1 marks=2
 __3.1__ According to the rules in the video, which of these arrangements of two circles is not allowed?

@@ -126,7 +126,7 @@ understand how to win at the crosses only version of noughts and crosses, then
 challenge your friends and family and see if you are truly unbeatable. Also,
 remember to answer the question below.
 
-@[youtube](ktPvjr1tiKk?rel=0)
+@[youtube](ktPvjr1tiKk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__ In the Misere version of crosses and crosses, if you really want to
@@ -321,7 +321,7 @@ can work out how he escapes from the ropes in the video below.
 __WARNING – do not try escapology or anything else that Randi does. This stuff is
 DANGEROUS.__
 
-@[youtube](LYukbJnEcTo?rel=0)
+@[youtube](LYukbJnEcTo?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

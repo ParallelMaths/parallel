@@ -79,7 +79,7 @@ __2.1__ What is the value of (222 + 22) ÷ 2?
 
 This is a really interesting video by Jo Boaler. I think it illustrates how we might all see a problem differently, and how there are many ways to solve a problem, but they all lead to the same answer.
 
-@[youtube](-pJhCAiaV-Q?rel=0)
+@[youtube](-pJhCAiaV-Q?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__ Megan visualises the 7 dots as two dots on the sides, and a third dot inside a...

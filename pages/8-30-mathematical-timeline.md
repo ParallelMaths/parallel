@@ -146,7 +146,7 @@ escapology. Today, he is back again, this time performing some psychic surgery:
 *	See if you can work out how Randi performs his fake surgery.
 *	__Really, don’t watch it if you are squeamish!__
 
-@[youtube](LjF1sUZEy2U?rel=0)
+@[youtube](LjF1sUZEy2U?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

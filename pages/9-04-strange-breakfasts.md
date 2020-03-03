@@ -24,7 +24,7 @@ Guido Grandi (1671 – 1742) was an Italian monk, philosopher, mathematician and
 
 James Grime, a presenter on the terrific Numberphile YouTube channel, explains how you might answer this question. But, before you watch it, spend 30 seconds figuring out what you think the answer might be.
 
-@[youtube](PCu_BNNI5x4?start=15&end=213&rel=0)
+@[youtube](PCu_BNNI5x4?start=15&end=213&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ There is no question associated with this video, but instead I want you to try and explain Grandi’s series to a parent or an older sibling and see if you can explain how a mathematical series can add up to three completely different answers. I am assuming that you will do this. Can I trust you?
@@ -40,7 +40,7 @@ I recently came across this video that shows how there is fascinating science (a
 
 If you want to see this for yourself, ask your science teacher to try it out. Your teacher will need a strong magnet (probably neodymium). One of the best cereals to do this with is Kellogg’s Bran Flakes, which contains 11.6mmg of iron per 100g of cereal.
 
-@[youtube](qjY0Wj_pUKg?rel=0)
+@[youtube](qjY0Wj_pUKg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=3
 __2.1.__ If you took all the bowls of cereal that were on British breakfast tables this morning and tipped them on to the pitch at Wembley Stadium (before they were eaten), how deep would the pool of cereal be?

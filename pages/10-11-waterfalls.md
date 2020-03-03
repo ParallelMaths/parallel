@@ -39,7 +39,7 @@ The opposite of water is fire, and the opposite of to fall is to fly.
 
 Watch this video, which reveals a mathematics problem based on chess. Don’t worry – you don’t need to play chess to understand this problem. All you need to know is that the Queen can move forwards, backwards, left, right and diagonally one, two or several squares. Watch carefully and answer the questions below.
 
-@[youtube](IN1fPtY9jYg?end=360&rel=0)
+@[youtube](IN1fPtY9jYg?end=360&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ What is the maximum number of black and white peaceable queens that a 3x3 board can support?

@@ -67,7 +67,7 @@ __So, how do you cut the cake in a radically difference way (3 cuts, 2 pieces pl
 
 Perhaps pause the video and think about possible solutions before they give you the answer.
 
-@[youtube](KWJ6j8o3VPY?rel=0)
+@[youtube](KWJ6j8o3VPY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
@@ -133,9 +133,9 @@ Simon.
 ## Additional Stuff
 
 * QI explores physics by seeing what happens when you take two large books and weave the pages – they are impossible to pull apart. Try it for yourself.
-@[youtube](BSYMao5qPWY?rel=0)
+@[youtube](BSYMao5qPWY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 * Mythbusters took the phenomenon to the next level, and then the next level again.
-@[youtube](hOt-D_ee-JE?rel=0)
+@[youtube](hOt-D_ee-JE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 * ![](/resources/7-23-secret-happiness/7-additional-pages.jpg){image align="right"} [This article from Chalkdust magazine](http://chalkdustmagazine.com/blog/why-is-it-so-hard-to-pull-two-phone-books-apart/ ){target="_blank"} explains why interleaved books are so sticky. It is written for university students, so it is fairly technical, but it is worth a quick look and don’t worry if you are confused by some bits.  

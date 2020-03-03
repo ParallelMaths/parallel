@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Last week I showed you one of Maarten Baas’s remarkable clocks. Here is another one of his very clever clocks.
 
-@[youtube](TdkK3MTjfLY?start=21&end=93&rel=0)
+@[youtube](TdkK3MTjfLY?start=21&end=93&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ![](/resources/9-09-clock-calculation/1-clock.png){image align="center"}
 
@@ -66,7 +66,7 @@ The diagram below shows that we need to adjust 3 segments in the first three dig
 ::: problem id=2_1 marks=2
 __2.1.__ In the game described in the video below, who wins the game? The player who goes first (Player 1), or the player who goes second (Player 2)? Assume that both players make their moves the best possible way.
 
-@[youtube](rVF_08ItvOU?rel=0)
+@[youtube](rVF_08ItvOU?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 * [x] Player 1
 * [ ] Player 2

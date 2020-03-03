@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Take a look at these 10 amazing optical illusions.
 
-@[youtube](-IWk5NkxQF8?rel=0)
+@[youtube](-IWk5NkxQF8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ The circle illusion is the result of 8 dots moving...
@@ -37,7 +37,7 @@ My favourite among these illusions is the dragon whose eyes follow you around th
 
 You can [download a printout via this link](https://www.thinkfun.com/wp-content/uploads/2014/10/Dragon-Illusion-BBC.pdf){target="_blank"} and the following video shows how to make your own dragon.
 
-@[youtube](sMmSMpb_FQ8?rel=0)
+@[youtube](sMmSMpb_FQ8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 2. Probability puzzle

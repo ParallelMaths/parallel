@@ -28,7 +28,7 @@ Last week we looked at happy numbers. If you have not completed last week’s Pa
 This week, Matt Parker takes a look at melancoil numbers, the opposite of happy numbers. Watch carefully and answer the questions below.
 By the way, melancoil is partly derived from the word “melancholy”, which means a sense of sadness.
 
-@[youtube](_DpzAvb3Vk4?end=386&rel=0)
+@[youtube](_DpzAvb3Vk4?end=386&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ 13 is a happy number. Which of the following is very obviously also a happy number?
@@ -78,7 +78,7 @@ A quick look at Matt’s diagram shows that most 2-digit numbers (roughly 80%) l
 
 One of my favourite bands is Barenaked Ladies. Now that some of the band members have become parents, they have written some songs for children, including this song aimed at 5-year-olds and silly mathematicians like me. Have a listen and answer the question below.
 
-@[youtube](x1cnJ_pOAdQ?rel=0)
+@[youtube](x1cnJ_pOAdQ?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ The song has the lines:

@@ -23,7 +23,7 @@ the world's greatest brains, including your teachers.
 
 As each problem is posed, pause the video and see if you can find a solution.
 
-@[youtube](Xg37L5z5r_M?rel=0)
+@[youtube](Xg37L5z5r_M?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
@@ -210,7 +210,7 @@ the nickname for a 10 cent coin. Also, answer the question below.
 (BTW, visit the Find Out More section below for a link to the most famous and
 funniest of all the sketches by Abbott and Costello.)
 
-@[youtube](9udNrOh5DyA?rel=0)
+@[youtube](9udNrOh5DyA?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1__ Abbott says that 40 + 10 = 50, but Costello says that can’t be right because:
@@ -243,11 +243,11 @@ From now on, Parallelograms will often contain this Additional Stuff section, wh
 
 Here is the most famous sketch by Abbott and Costello – “Who’s on first?” –
 watch and enjoy:
-@[youtube](WQXwt83hYkE?rel=0)
+@[youtube](WQXwt83hYkE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 This is a video presented by James Grime for the Numberphile channel. It is all
 about the world’s most mathematical flag:
-@[youtube](f2Gne3UHKHs?start=21&rel=0)
+@[youtube](f2Gne3UHKHs?start=21&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 You can find lots of other Numberphile videos by just googling
 Numberphile. "Numberphile" means “someone who loves numbers”, so if

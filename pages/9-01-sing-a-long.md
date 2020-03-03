@@ -69,7 +69,7 @@ This is Helen Arney, a physicist and geek songstress, singing about a googol… 
 
 Helen is accompanied by Matt Parker, who will reappear in a future Paralellograms.
 
-@[youtube](5JOAoiX1LHA?rel=0)
+@[youtube](5JOAoiX1LHA?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ What is googolplex squared?

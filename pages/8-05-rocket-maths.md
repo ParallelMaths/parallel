@@ -32,7 +32,7 @@ But, how do you begin to work out the value of 0! ?
 
 This video explores the meaning and value of 0!.
 
-@[youtube](Mfk_L4Nx2ZI?end=277&rel=0)
+@[youtube](Mfk_L4Nx2ZI?end=277&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ Choose the value of 0!
@@ -89,7 +89,7 @@ The video explains that the number of ways to arrange _n_ objects is the same as
 
 In this clip, Homer’s headteacher thinks that one of his rockets caused a fire, but Homer uses maths (and physics) to explain that his rocket could not have been responsible.
 
-@[youtube](udHB3tftPz4?rel=0)
+@[youtube](udHB3tftPz4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 Homer writes an equation on the blackboard:
 

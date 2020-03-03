@@ -79,7 +79,7 @@ This is a wonderful magic trick by Aleko. Take a look at the video below, and pl
 
 By the way, if you are interested in magic or enjoyed being amazed, make sure you check out the video in the additional stuff section at the end. Seriously... you will not want to miss it.
 
-@[youtube](mQVF_d6VXcE?rel=0)
+@[youtube](mQVF_d6VXcE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ^^^ hint id=1 marks=0
 Imagine I am the magician, and I ask you to you to pick a card or number. We shall call this `x`.  
@@ -219,4 +219,4 @@ Simon.
 
 * This video shows a trick from the amazing – truly amazing - René Lavand, a magician from Argentina who performed magic with only one hand, because he lost a hand aged nine, in a car crash.
 
-@[youtube](hqzkGEvOOTc?rel=0)
+@[youtube](hqzkGEvOOTc?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_

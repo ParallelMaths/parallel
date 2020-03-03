@@ -75,7 +75,7 @@ __3.1__ According to this video from the Quirkology YouTube channel, what was yo
 * [ ] 400 words/minute
 * [x] 500 words/minute
 
-@[youtube](K8dIVNDMA_0?rel=0)
+@[youtube](K8dIVNDMA_0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 :::
 

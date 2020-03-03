@@ -104,7 +104,7 @@ But, if the reflex angle is `260°`, the obtuse angle must be `100°`.
 
 This is an interesting video by Tom Scott all about how computers can work out who is human and who is a robot (or internet bot).  
 
-@[youtube](o1zNIm8GVPY?end=310&rel=0)  
+@[youtube](o1zNIm8GVPY?end=310&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
 
 ::: problem id=4_1 marks=2
 __4.1__ Which mathematician’s name is abbreviated as part of the term CAPTCHA? Just type his surname.

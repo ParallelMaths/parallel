@@ -89,7 +89,7 @@ When you watch this clip, bear in mind that Apollo Robbins has spent years study
 
 You will probably have to watch clip two or three times to appreciate all of Apollo Robbins’s clever manoeuvres.
 
-@[youtube](VKZlesut-Pk?start=75&rel=0)
+@[youtube](VKZlesut-Pk?start=75&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ When the coin falls into his hand from above, where does it come from?
@@ -146,7 +146,7 @@ Therefore the side-length of each square is 7 cm.
 
 This is an amazing video. Take a look.
 
-@[youtube](RCnHnXB0eOw&rel=0)
+@[youtube](RCnHnXB0eOw&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 It shows that two objects moving at the same speed and in the same direction behave towards each other as if nothing is moving. If the camera only showed the trampoline and the bouncing man, then you would have no idea that anything was moving.  
 

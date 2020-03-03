@@ -135,7 +135,7 @@ __4.2__ How does the water move from a beaker to a sponge, causing the sponge to
 * [ ] Suction
 :::
 
-@[youtube](GOMIBdM6N7Q?rel=0)
+@[youtube](GOMIBdM6N7Q?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 5. Sumaze! Part 2
@@ -171,7 +171,7 @@ __6.1__ Another amazing invention by Joseph Herscher. Just one question. How man
 <input solution="12"/>
 :::
 
-@[youtube](nORRgU8sGdE?rel=0)
+@[youtube](nORRgU8sGdE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

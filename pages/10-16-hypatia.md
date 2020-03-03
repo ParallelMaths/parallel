@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Take a look at this mind-blowing 43 second video from the psychologist Professor Richard Wiseman. If you like it, then take a look at the [Prof’s YouTube channel](https://www.youtube.com/user/Quirkology){target="_blank"} afterwards.
 
-@[youtube](zNbF006Y5x4?rel=0)
+@[youtube](zNbF006Y5x4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 2. The letter A in numbers
@@ -163,7 +163,7 @@ Because `sqrt(48)` is close to 7, the perimeter is close to `12 + 7 = 19`.
 
 If you travelled back in time 1,600 years or so, then one of the greatest mathematicians in the world was Hypatia. She lived a courageous life and who ultimately faced a terrible death, as revealed in this short video.  
 
-@[youtube](n1mwZrVJ-TI?end=283&rel=0)
+@[youtube](n1mwZrVJ-TI?end=283&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1__ One of Hypatia’s interests was “conic sections”, which is all about the different curves that can be created by slicing through a cone. Imagine taking an axe chopping through a cone.  

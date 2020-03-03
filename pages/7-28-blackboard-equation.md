@@ -117,7 +117,7 @@ You might not have come across this sort of maths in your classroom – it is
 known as factoring quadratics. This video gives you an idea of how you factor a
 quadratic.
 
-@[youtube](AMEau9OE6Bs?rel=0)
+@[youtube](AMEau9OE6Bs?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 2. Some Random Philosophy
@@ -132,7 +132,7 @@ Trolley Problem. Watch the following short video. There is no question to answer
 at the end, but the Challenge is to understand the Trolley Problem and realise
 that sometimes it is hard to decide what is right and what is wrong.
 
-@[youtube](bOpf6KcWYyw?rel=0)
+@[youtube](bOpf6KcWYyw?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 
 ## 3. Add it up
@@ -180,7 +180,7 @@ If you double a number, say 1, ten times, then how much bigger does it get? Use 
 
 ---
 This video clip from Chris Seber (at [MathMeeting.com](MathMeeting.com){target="_blank"}) explains how to work out the answer:
-@[youtube](S2ec2wpYJ_0?rel=0)
+@[youtube](S2ec2wpYJ_0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 :::
 
 

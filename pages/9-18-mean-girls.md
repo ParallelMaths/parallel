@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Here’s a clip from “Mean Girls”, a 2004 film starring Lindsay Lohan as Cady, a student trying to settle into a new school. Cady tries to change herself in order to fit in, but in the end she returns to her original personality and joins the Mathletes in the state championship finals.
 
-@[youtube](oDAKKQuBtDo?rel=0)
+@[youtube](oDAKKQuBtDo?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 Cady answers a question about “limits”, which is something you probably haven't covered yet.  
 
@@ -78,7 +78,7 @@ Demis Hassabis is an extraordinary computer scientist, perhaps the greatest pion
 
 In this short interview, he explains how chess played an important role in his development. Take a look and maybe think about starting to learn how to play chess. Or, if you play chess already, start taking it more seriously and join a chess club.
 
-@[youtube](nIinTq6KqvM?rel=0)
+@[youtube](nIinTq6KqvM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
 
 By the way, there are several great online websites, many of them offering free interactive lessons or the chance to play other people online (or play against a computer). A good place to start is [Chess Kid](https://www.chesskid.com/){target="_blank"}.
 
