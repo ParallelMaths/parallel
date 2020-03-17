@@ -56,8 +56,8 @@ year7:
     deadline: 2020-03-23T13:00:00
   - url: 7-22-maths-jokes
     title: Maths Jokes
-    available: 2020-03-13T13:00:00
-    deadline: 2020-03-16T13:00:00
+    available: 2020-03-12T13:00:00
+    deadline: 2020-03-15T13:00:00
   - url: 7-21-tricky-parking-problem
     title: Tricky parking problem
     available: 2020-03-05T13:00:00
@@ -474,14 +474,14 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-26-ignobel-prize
+    title: Ignobel Prize
+    available: 2020-04-30T13:00:00
+    deadline: 2020-05-02T13:00:00
+  - url: 10-25-asteroid-impact
+    title: Asteroid Impact
+    available: 2020-04-23T13:00:00
+    deadline: 2020-04-26T13:00:00
   - url: 10-24-easter-challlenges
     title: Easter Challenges
     available: 2020-03-26T13:00:00
