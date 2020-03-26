@@ -81,7 +81,7 @@ The letters J, N and R do not have an axis of symmetry. So these letters cannot 
 ## 3.
 
 ::: problem id=3_1 marks=5
-![](/resources/7-25-easter-challenges/3-cubes.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/3-cubes.jpg){image align="right"}
 __3.1__ The diagrams on the right show three different views of the
 same cube. Which letter is on the face opposite U?
 
@@ -96,7 +96,7 @@ same cube. Which letter is on the face opposite U?
 
 There are two approaches.
 
-![](/resources/7-25-easter-challenges/3-answer.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/3-answer.jpg){image align="right"}
 (A) Draw a net of the cube, and straight away the middle diagram allows us to fill in the large letters. If U is in the middle, then the square at the bottom of the net is opposite U. Then, we can look at the first diagram, which gives us the possibilities in small letters, because I and M must be next to K. The third diagram demands that M is next to O, so M must be in the bottom square of the net, so M is opposite U.
 
 (B) We see from the left hand diagram that K is not opposite either I or M, and from the middle diagram that it is not opposite either O or U. Therefore K must be opposite P. So neither K nor P is opposite U. From the middle diagram O is also not opposite U. So U is opposite either I or M. But if U is opposite I, then O must be opposite M, and this possibility is ruled out by the right hand diagram. So U must be opposite to M (and, also, I is opposite O).
@@ -125,7 +125,7 @@ When Tommy's tankard is one quarter empty it is three quarters full. So 480 ml i
 ## 5.
 
 ::: problem id=5_1 marks=5
-![](/resources/7-25-easter-challenges/5-arrows-question.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/5-arrows-question.jpg){image align="right"}
 __5.1__ The diagram shows two arrows drawn on separate 4 cm × 4 cm grids.
 One arrow points North and the other points West.
 
@@ -141,7 +141,7 @@ pointing North and West) they overlap. What is the area of overlap?
 
 ---
 
-![](/resources/7-25-easter-challenges/5-arrows-answer.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/5-arrows-answer.jpg){image align="right"}
 By drawing one arrow on top of the other, as shown, we see that the region
 of overlap covers the whole of 4 of the 1 cm × 1 cm squares into which the
 grid is divided, and 4 halves of these squares. So the area of the overlapping
@@ -152,7 +152,7 @@ region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
 ## 6.
 
 ::: problem id=6_1 marks=5
-![](/resources/7-25-easter-challenges/6-l-question.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/6-l-question.jpg){image align="right"}
 __6.1__ Laura wishes to cut this shape, which is made up of nine small squares,
 into pieces that she can then rearrange to make a `3 × 3` square.
 
@@ -168,10 +168,10 @@ into so that she can do this?
 
 ---
 
-![](/resources/7-25-easter-challenges/6-l-answer.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/6-l-answer.jpg){image align="right"}
 In a `3 × 3` square each row and column contains just 3 squares. So none of the pieces that Laura uses to make the square can be more than 3 squares long. It follows that the squares labelled `a` and `b` must be in different pieces, as must be the squares labelled `b` and `c`. So there must be at least three pieces. The diagrams below show how Laura can fulfill her task using 3 pieces.
 
-![](/resources/7-25-easter-challenges/6-l-answer2.jpg){image align="center"}
+![](/resources/7-24-easter-challenges/6-l-answer2.jpg){image align="center"}
 :::
 
 
@@ -233,7 +233,7 @@ We therefore see that 2 + 1 gives the largest value.
 ## 9.
 
 ::: problem id=9_1 marks=5
-![](/resources/7-25-easter-challenges/3-angles.png){image align="right"}
+![](/resources/7-24-easter-challenges/3-angles.png){image align="right"}
 __9.1__ What is the value of `x` ?
 
 * [ ] 43
@@ -244,7 +244,7 @@ __9.1__ What is the value of `x` ?
 
 ---
 
-![](/resources/7-25-easter-challenges/3-angles-answer.png){image align="right"}
+![](/resources/7-24-easter-challenges/3-angles-answer.png){image align="right"}
 Let the angle shown be `y°`.  
 
 Because the angles at a point total 360°, we have `y` + 303 = 360.  
@@ -350,7 +350,7 @@ There are 60 seconds in one minute. Therefore the number of seconds in one thous
 ## 13.
 
 ::: problem id=13_1 marks=5
-![](/resources/7-25-easter-challenges/13-squares.png){image align="right"}
+![](/resources/7-24-easter-challenges/13-squares.png){image align="right"}
 __13.1__ Seven squares are drawn on the sides of a heptagon so that they are outside the heptagon, as shown in the diagram.  
 
 What is the sum of the seven marked angles?
@@ -363,7 +363,7 @@ What is the sum of the seven marked angles?
 
 ---
 
-![](/resources/7-25-easter-challenges/13-squares-answers.png){image align="right"}
+![](/resources/7-24-easter-challenges/13-squares-answers.png){image align="right"}
 __Method 1:__ In the figure we have labelled some of the vertices so that we may refer to them.  
 
 Suppose that there is a flag whose pole is in the direction of `GP` and pointing as shown. Consider the effect of carrying out the following operations. First rotate the flag anti-clockwise about `G` through `∠PGQ` so that now its pole lies along `GQ`. Next slide the flag without rotation so that its pole lies along `HR`. Next rotate the pole about `H` through `∠RHS` so that it lies along `HS`, and so on, until the flag returns to its original position.  
@@ -541,7 +541,7 @@ In this way there is no need to evaluate `5^6`. However, to give a complete answ
 ## 19.
 
 ::: problem id=19_1 marks=6
-![](/resources/7-25-easter-challenges/19-puzzle.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/19-puzzle.jpg){image align="right"}
 __19.1__ The numbers 2, 3, 4, 5, 6, 7, 8 are to be placed, one per square, in the diagram shown such that the four numbers in the horizontal row add up
 to 21 and the four numbers in the vertical column add up to 21.
 
@@ -631,7 +631,7 @@ We obtain 954,273 from 952,473 by swapping the adjacent digits 2 and 4.
 ## 23.
 
 ::: problem id=23_1 marks=6
-![](/resources/7-25-easter-challenges/23-hexagon-question.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/23-hexagon-question.jpg){image align="right"}
 __23.1__ The diagram shows a design formed by drawing six lines in a regular hexagon. The lines divide each edge of the hexagon into three equal parts.
 
 What fraction of the hexagon is shaded?
@@ -645,7 +645,7 @@ What fraction of the hexagon is shaded?
 
 ---
 
-![](/resources/7-25-easter-challenges/23-hexagon-answer.jpg){image align="right"}
+![](/resources/7-24-easter-challenges/23-hexagon-answer.jpg){image align="right"}
 If we draw in the additional lines shown in the diagram on the right, the hexagon is divided into 54 small congruent equilateral triangles of which 12 are shaded. So the fraction that is shaded is `12/54` = `2/9`.
 
 In fact, it is easier to note that the hexagon can be divided into 6 congruent equilateral triangles, like the one shown with the bold edges.
@@ -657,7 +657,7 @@ Each of these is made up of 9 of the small equilateral triangles of which 2 are 
 ## 24.
 
 ::: problem id=24_1 marks=6
-![](/resources/7-25-easter-challenges/24-octagon.png){image align="right"}
+![](/resources/7-24-easter-challenges/24-octagon.png){image align="right"}
 __24.1__ The diagram shows a regular octagon with sides of length 1.  
 
 The octagon is divided into regions by four diagonals.  
@@ -673,14 +673,14 @@ What is the difference between the area of the hatched region and the area of th
 
 ---
 
-![](/resources/7-25-easter-challenges/24-octagon-triangle.png){image align="right"}
+![](/resources/7-24-easter-challenges/24-octagon-triangle.png){image align="right"}
 The octagon is divided into the central square, which has sides of length 1, four congruent rectangles and four congruent right-angled triangles. The hatched region is made up of two of the rectangles, and the square. The grey area is made up of two of the rectangles and three of the triangles. Therefore the difference between their areas is the difference between the area of the square and the area of three of the triangles.  
 
 The square has area 1. Each of the triangles is a right-angled isosceles triangle with hypotenuse of length 1. Let x be the length of each of the other two sides. By Pythagoras’ Theorem, `x^2 + x^2 = 1^2`, that is `2x^2 = 1` and so `x^2 = 1/2`. So the area of each triangle is `1/2 x^2 = 1/4`.  
 
 Therefore the difference between the area of the square and the area of three of the triangles is `1 − 3(1/4) = 1/4`.  
 
-![](/resources/7-25-easter-challenges/24-octagon-square.png){image align="right"}
+![](/resources/7-24-easter-challenges/24-octagon-square.png){image align="right"}
 We can also see this geometrically. The diagram on the right shows that four of the triangles fit together to make a square whose side has length 1. So the difference between the area of the square and that of three of the triangles is the area of one-quarter of the square.
 :::
 

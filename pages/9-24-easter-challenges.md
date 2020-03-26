@@ -24,7 +24,7 @@ __Because this Parallelogram is longer and tougher than a typical Parallelogram,
 
 This is my all time favourite Venn diagram. What? Doesn’t everyone have a favourite Venn Diagram? Anyway... If you don’t yet have a favourite Venn diagram, then you can borrow this one for the time being. Can you work out the label for the two circles? You can find my answer below.
 
-![](/resources/9-25-easter-challenges/1-venn-diagram.png){image align="center"}
+![](/resources/9-24-easter-challenges/1-venn-diagram.png){image align="center"}
 
 I guess that the left set contains “creatures with flat tails playing guitars”, while the right set contains “creatures with bills playing keyboards”. Hence, the animal in the overlap is a platypus playing a keytar, because it is a creature with a bill AND a flat tail, which is playing a guitar AND a keyboard.
 
@@ -36,7 +36,7 @@ __2.1__ Jane has 20 identical cards in the shape of an isosceles right-angled tr
 
 Which of the shapes has the shortest perimeter?
 
-![](/resources/9-25-easter-challenges/2-triangles.png){image align="center"}
+![](/resources/9-24-easter-challenges/2-triangles.png){image align="center"}
 
 * [x] A
 * [ ] B
@@ -51,7 +51,7 @@ The isosceles triangle is also a right-angle triangle, so it has one long side, 
 
 ---
 
-![](/resources/9-25-easter-challenges/2-triangles-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/2-triangles-answer.png){image align="right"}
 Let the side lengths of the isosceles right-angled triangle be `x`, `x` and `y` as shown in the diagram.  
 
 By Pythagoras’ Theorem `y^2 = x^2 + x^2 = 2x^2` and hence `y = sqrt(2) x`.
@@ -88,7 +88,7 @@ __3.1__ `ABCDE` is a regular pentagon and `BCF` is an equilateral triangle such 
 
 ---
 
-![](/resources/9-25-easter-challenges/3-pentagon-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/3-pentagon-answer.png){image align="right"}
 Since the pentagon `ABCDE` is regular, `BC = AB`. Since the triangle `BCF` is equilateral, `BC = FB`. Therefore, `AB = FB`. So the triangle `ABF` is isosceles, and hence `∠FAB = ∠BFA`.  
 
 `∠ABC = 108°`, as it is the interior angle of a regular pentagon. As the triangle `BCF` is equilateral, `∠FBC = 60°`. Therefore `∠ABF = ∠ABC − ∠FBC = 108° − 60° = 48°`.  
@@ -115,11 +115,11 @@ __4.1__ For which of the following numbers is the sum of all its factors not equ
 
 The most straightforward method here is to just list all the factors of the numbers, add them up, and see in which cases this sum is not a square number:
 
-![](/resources/9-25-easter-challenges/4-table1.png){image align="center"}
+![](/resources/9-24-easter-challenges/4-table1.png){image align="center"}
 
 Since 90 is not a square, in the context of the IMC, you could stop here. However, for completeness, we also calculate the sum of the factors of the other two numbers we are given.
 
-![](/resources/9-25-easter-challenges/4-table2.png){image align="center"}
+![](/resources/9-24-easter-challenges/4-table2.png){image align="center"}
 
 So, for each option given, other than 40, the sum of its factors is a square number.
 :::
@@ -158,7 +158,7 @@ Hence `x = 9`. So we need to replace `x` by a word with 9 letters in it. Of the 
 ## 6.
 
 ::: problem id=6_1 marks=5
-![](/resources/9-25-easter-challenges/6-square.png){image align="right"}
+![](/resources/9-24-easter-challenges/6-square.png){image align="right"}
 __6.1__ The square `ABCD` has an area of 196.  
 
 It contains two overlapping squares; the larger of these squares has an area 4 times that of the smaller and the area of their overlap is 1.  
@@ -173,13 +173,13 @@ What is the total area of the shaded region?
 {.col-3}
 
 ^^^ hint id=6
-![](/resources/9-25-easter-challenges/6-square-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/6-square-answer.png){image align="right"}
 We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` has an area of 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.
 ^^^
 
 ---
 
-![](/resources/9-25-easter-challenges/6-square-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/6-square-answer.png){image align="right"}
 We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` area 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.  
 
 We note that the diagram is symmetric about the line `AC`. Hence the overlap of the squares is itself a square. Since this square has area 1, then it has side length 1. So `QR` has length 1. As `UR = AP`, `UR` has length `x`. Now `QS` has length `2x`. Therefore `US` has length `x + 2x − 1 = 3x − 1`. The length of `US` is the same as the side length of the square `ABCD`. Therefore `3x − 1 = 14`. Hence `x = 5`.  
@@ -191,7 +191,7 @@ So the larger square inside `ABCD` has side length 10 and hence area 100, and th
 ## 7.
 
 ::: problem id=7_1 marks=5
-![](/resources/9-25-easter-challenges/7-semicircles.png){image align="right"}
+![](/resources/9-24-easter-challenges/7-semicircles.png){image align="right"}
 __7.1__ The diagrams show squares placed inside two identical semicircles. In the lower diagram the two squares are identical.  
 
 What is the ratio of the areas of the two shaded regions?
@@ -203,13 +203,13 @@ What is the ratio of the areas of the two shaded regions?
 * [ ] 5 : 6
 
 ^^^ hint id=7
-![](/resources/9-25-easter-challenges/7-semicircles-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/7-semicircles-answer.png){image align="right"}
 Choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the first diagram, and `y` be the side lengths of the squares in the second diagram.
 ^^^
 
 ---
 
-![](/resources/9-25-easter-challenges/7-semicircles-answer.png){image align="right"}
+![](/resources/9-24-easter-challenges/7-semicircles-answer.png){image align="right"}
 We choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the first diagram, and `y` be the side lengths of the squares in the second diagram.
 
 By Pythagoras’ Theorem, we have `x^2 + (1/2 x)^2 = 1` and `y^2 + y^2 = 1`. That is `5/4 x^2 = 1` and `2y^2 = 1`. Therefore `x^2 = 4/5` and `y^2 = 1/2`.  
@@ -251,7 +251,7 @@ We deduce that the two brothers who are telling the truth are Bernard and Inigo.
 ## 9.
 
 ::: problem id=9_1 marks=5
-![](/resources/9-25-easter-challenges/9-triangle.png){image align="right"}
+![](/resources/9-24-easter-challenges/9-triangle.png){image align="right"}
 __9.1__ The diagram shows a shaded shape bounded by circular arcs with the same radius. The centres of three arcs are the vertices of an equilateral triangle; the other three centres are the midpoints of the sides of the triangle.  
 
 The sides of the triangle have length 2.  

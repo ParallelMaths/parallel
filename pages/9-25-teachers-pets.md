@@ -149,18 +149,18 @@ How many possibilities are there for the length of the third side of the triangl
 
 This problem could be tackled in several different ways.  
 
-![](/resources/9-24-teachers-pets/5-triangle-angle.png){image align="right"}
+![](/resources/9-25-teachers-pets/5-triangle-angle.png){image align="right"}
 _Method 1:_ This is based on the fact that if a triangle has sides of lengths `a` and `b` and the angle between the sides is `θ`, then the area of the triangle is given by `1/2 ab sin θ`. If you are not familiar with this, ask your teacher.  
 
 Let the angle between the sides of length 8 cm and 6 cm be `θ`. Then the area of the triangle is `1/2 (8 × 6) sin θ = 24 sin θ cm^2`. So we need to have `24 sin θ = 7`, and hence `sin θ = 7/24`. This equation has two solutions in the range `0 < θ < 180`, say `φ` and `ψ` as we see from the graph. Note that `φ + ψ = 180`, and so we can represent the two resulting triangles as shown in the diagram on the right below (for clarity, this is not drawn to scale).
 
-![](/resources/9-24-teachers-pets/5-triangle-graph.png){image align="center"}
+![](/resources/9-25-teachers-pets/5-triangle-graph.png){image align="center"}
 
 In the diagram above on the right `PQ` = `QR` = 8 cm and `QS` = 6 cm. So `PQS` and `QRS` are the two triangles with sides of lengths 6 cm and 8 cm, and area 7 cm<sup>2</sup>. It is evident that the third sides of these triangles, `PS` and `RS` have different lengths. So there are two possibilities for the length of the third side.
 
 _Method 2:_ Here we use the formula `1/2` (base `×` height) for the area of a triangle. We consider triangles which have a base, say `PQ`, of length 8 cm, and where the third vertex, `R`, is such that `PR` has length 6 cm. By symmetry we need only consider triangles where `R` lies above `PQ`.
 
-![](/resources/9-24-teachers-pets/5-triangle-curve.png){image align="right"}
+![](/resources/9-25-teachers-pets/5-triangle-curve.png){image align="right"}
 The third vertex `R` lies on a semicircle with centre `P` and radius 6 cm. The area of the triangle `PQR` is determined by the vertical height of `R` above `PQ`. So the largest area is when `R` is at the point `S` vertically above `P`, and the area is then `1/2 (8 × 6) = 24 `cm<sup>2</sup>. The minimum area is when the height is zero. This occurs when `R` coincides with either the point `T` or the point `U` which are the endpoints of the diameter of the semicircle. In these cases the area of the triangle is 0 cm<sup>2</sup>.  
 
 Since the area drops as the height drops, as `R` moves clockwise around the semicircle from `S` to `U` there will be exactly one point, say R<sub>1</sub>, where the area becomes 7 cm<sup>2</sup>, and when `R` moves anticlockwise from `S` to `T` there will be exactly one point, say R<sub>2</sub>, where the area becomes 7 cm<sup>2</sup>. So there are precisely two values for the length of `QR`.

@@ -146,21 +146,21 @@ All you have to do is a subtraction: 2012 - 1850 = 162.
 ## 6.
 
 ::: problem id=6_1 marks=5
-![](/resources/8-25-easter-challenges/6-magicsquare-question.png){image align="right"}
+![](/resources/8-24-easter-challenges/6-magicsquare-question.png){image align="right"}
 __6.1__ In a magic square, the numbers in each row, each column and the two main diagonals have the same total. This magic square uses the integers 2 to 10.  
 
 Which of the following are the missing cells?
 
-* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-a.png)
-* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-b.png)
-* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-c.png)
-* [x] ![](/resources/8-25-easter-challenges/6-magicsquare-d.png)
-* [ ] ![](/resources/8-25-easter-challenges/6-magicsquare-e.png)
+* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-a.png)
+* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-b.png)
+* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-c.png)
+* [x] ![](/resources/8-24-easter-challenges/6-magicsquare-d.png)
+* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-e.png)
 {.col-3}
 
 ---
 
-![](/resources/8-25-easter-challenges/6-magicsquare-answer.png){image align="right"}
+![](/resources/8-24-easter-challenges/6-magicsquare-answer.png){image align="right"}
 __Method 1:__ The row totals given by the numbers shown in the square in the question are 10 + 5 = 15, 8 + 4 = 12 and 7 + 2 = 9. Therefore to make all the row totals the same, the number we add to the second row must be three more than the number we add to the first row, and the number we add to the third row must be three more than the number we add to the second row.  
 
 Therefore the only possibility for the missing cells among the given options is that given by option D.  
@@ -198,7 +198,7 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 ## 8.
 
 ::: problem id=8_1 marks=5
-![](/resources/8-25-easter-challenges/8-rectangle.png){image align="right"}
+![](/resources/8-24-easter-challenges/8-rectangle.png){image align="right"}
 __8.1__ The diagram shows a rectangle `PQRS`, with point `T` on `PS` such that `QT` is perpendicular to `RT`.  
 
 The length of `QT` is 4 cm. The length of `RT` is 2 cm.  
@@ -239,7 +239,7 @@ Hence the area of the rectangle PQRS is:
 ## 9.
 
 ::: problem id=9_1 marks=5
-![](/resources/8-25-easter-challenges/9-gallery-question.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/9-gallery-question.jpg){image align="right"}
 __9.1__ The diagram on the right shows the positions of four people (each
 marked `x`) in an Art Gallery. In the middle of the room is a stone
 column. Ali can see none of the other three people. Bea can see only
@@ -256,7 +256,7 @@ Who is at position `p`?
 
 ---
 
-![](/resources/8-25-easter-challenges/9-gallery-answer.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/9-gallery-answer.jpg){image align="right"}
 The person in position `p` is the only one who can see two of the others.
 We are told that Caz can see Bea and Dan but everyone else can see
 just one other person or no-one. So it must be Caz who is at position `P`.
@@ -360,7 +360,7 @@ The proportion of girls this year is the same. Therefore, of the 640 pupils in t
 ## 13.
 
 ::: problem id=13_1 marks=5
-![](/resources/8-25-easter-challenges/13-grid-question.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/13-grid-question.jpg){image align="right"}
 __13.1__ In the multiplication grid on the right, the input factors (in the first row and the first column) are all missing and only some of the products within the table have been given.
 
 What is the value of A + B + C + D + E ?
@@ -373,12 +373,12 @@ What is the value of A + B + C + D + E ?
 
 ---
 
-![](/resources/8-25-easter-challenges/13-grid-answer1.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/13-grid-answer1.jpg){image align="right"}
 Let the input factors be `p, q, r, s` and `t` along the top row, and `v, w, x, y` and `z` in the first column, as shown in the grid on the right.
 
 We see that `wp = 15` and `xp = 18`, so that `p` is a divisor of both 15 and 18, and hence is either 1 or 3. However, if `p = 1`, then it would follow that `w = 15`. But this is not possible as `wr = 40`. We deduce that `p = 3`. It follows that `w = 5` and `x = 6`. Since `w = 5` and `wr = 40`, we have that `r = 8`.
 
-Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-25-easter-challenges/13-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
+Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](/resources/8-24-easter-challenges/13-grid-answer2.jpg){image align="right"} Since `vs = 20`, it follows that `v = 2`. Then, as `vq = 10`, `q = 5`. Hence, as `yq = 20`, we have that `y = 4` . Finally, as `yt = 24`, we deduce that `t = 6`.
 
 This enables us to complete the table, as shown on the left. (Though, really, we need only to calculate the diagonal entries that we have shown in bold.)
 
@@ -413,7 +413,7 @@ This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15
 ## 15.
 
 ::: problem id=15_1 marks=6
-![](/resources/8-25-easter-challenges/15-grid.png){image align="right"}
+![](/resources/8-24-easter-challenges/15-grid.png){image align="right"}
 __15.1__ Mathias is given a grid of twelve small squares.  
 
 He is asked to shade grey exactly four of the small squares so that his grid has two lines of reflection symmetry.  
@@ -429,7 +429,7 @@ How many different grids could he produce?
 
 ---
 
-![](/resources/8-25-easter-challenges/15-grid-answer1.png){image align="right"}
+![](/resources/8-24-easter-challenges/15-grid-answer1.png){image align="right"}
 
 The two lines of reflection symmetry of the grid are shown in the figure on the right as broken lines.  
 
@@ -443,7 +443,7 @@ and (iii) shade grey all the squares labelled R and all those labelled S, and no
 
 The three different grids that Mathias could produce are shown in the figure below.
 
-![](/resources/8-25-easter-challenges/15-grid-answer2.png){image align="center"}
+![](/resources/8-24-easter-challenges/15-grid-answer2.png){image align="center"}
 :::
 
 
@@ -468,7 +468,7 @@ Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 
 ## 17.
 
 ::: problem id=17_1 marks=6
-![](/resources/8-25-easter-challenges/17-line.png){image align="right"}
+![](/resources/8-24-easter-challenges/17-line.png){image align="right"}
 __17.1__ The diagram is a “map” of Jo’s local rail network, where the dots represent stations and the lines are routes.  
 
 Jo wants to visit all the stations, travelling only by train, starting at any station and ending at any station, with no restrictions on which routes are taken.  
@@ -484,7 +484,7 @@ What is the smallest number of stations that Jo must go to more than once?
 
 ---
 
-![](/resources/8-25-easter-challenges/17-line-answer.png){image align="right"}
+![](/resources/8-24-easter-challenges/17-line-answer.png){image align="right"}
 We label the stations as shown in the diagram on the right so that we can refer to them. Jo can visit the stations in the order:  
 
 `O, P, Q, R, S, R, T, X, Y, Z, Y, X, W, V, U`.  
@@ -511,7 +511,7 @@ __18.1__ In rectangle `PQRS`, the ratio of `∠PSQ` to `∠PQS` is 1:5 . What is
 
 ---
 
-![](/resources/8-25-easter-challenges/18-rectangles-answer.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/18-rectangles-answer.jpg){image align="right"}
 Let `∠QSR` `= x°`. Since `PS` is parallel to `QR`, the alternate angles `∠PQS` and `∠QSR` are equal. So `∠PQS` `= x°`. Therefore, as `∠PSQ`:`∠PQS` `= 1:5`, `∠PSQ` `= 1/5 x°`. Therefore, from the right angled triangle `PQS` we deduce that `x + 1/5 x + 90 = 180` and so `6/5 x = 90`. Therefore `x = 5/6 × 90 = 75`.
 
 So `∠QSR` is 75°.
@@ -539,12 +539,12 @@ Jack won exactly 4 games. So Jill lost 4 games and gained 4 points from these lo
 ## 20.
 
 ::: problem id=20_1 marks=6
-![](/resources/8-25-easter-challenges/20-dominoes-question1.jpg){image align="center"}
+![](/resources/8-24-easter-challenges/20-dominoes-question1.jpg){image align="center"}
 
-![](/resources/8-25-easter-challenges/20-dominoes-question2.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/20-dominoes-question2.jpg){image align="right"}
 __20.1__ Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match. The ring on the right indicates how one adjacent pair match.
 
-In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-25-easter-challenges/20-dominoes-question3.jpg) ?
+In a completed ring, how many of the other five dominoes can he definitely not place adjacent to ![](/resources/8-24-easter-challenges/20-dominoes-question3.jpg) ?
 
 * [ ] 1
 * [x] 2
@@ -557,17 +557,17 @@ In a completed ring, how many of the other five dominoes can he definitely not p
 
 There are only two 1-pip dominoes among the six Dominic has. These must therefore be adjacent. Likewise for the two 2-pips, the two 6-pips and the two 4-pips. So the ring must include the three adjacent dominoes:
 
-![](/resources/8-25-easter-challenges/20-dominoes-answer1.jpg){image align="center"}
+![](/resources/8-24-easter-challenges/20-dominoes-answer1.jpg){image align="center"}
 
 and also the three adjacent dominoes:
 
-![](/resources/8-25-easter-challenges/20-dominoes-answer2.jpg){image align="center"}
+![](/resources/8-24-easter-challenges/20-dominoes-answer2.jpg){image align="center"}
 
 The ring may now be completed two ways, i.e., by connecting top-left 5-pip to bottom-left 5-pip and the top-right 5-pip to bottom-right 5-pip … or by connecting top-left 5-pip to bottom-right 5-pip and the top-right 5-pip to bottom-left 5-pip.
 
 We therefore see that Dominic can create two different rings of six dominoes, as shown below.
 
-![](/resources/8-25-easter-challenges/20-dominoes-answer5.jpg){image align="center"}
+![](/resources/8-24-easter-challenges/20-dominoes-answer5.jpg){image align="center"}
 
 We now see that there are just 2 dominoes that the [1:5] domino cannot be adjacent to, namely the domino [2:5] and, of course, the domino [4:6].
 :::
@@ -576,7 +576,7 @@ We now see that there are just 2 dominoes that the [1:5] domino cannot be adjace
 ## 21.
 
 ::: problem id=21_1 marks=6
-![](/resources/8-25-easter-challenges/21-cube.png){image align="right"}
+![](/resources/8-24-easter-challenges/21-cube.png){image align="right"}
 __21.1__ Pablo’s teacher has given him 27 identical white cubes.  
 
 She asks him to paint some of the faces of these cubes grey and then stack the cubes so that they appear as shown.  
@@ -625,7 +625,7 @@ None of them are prime, so none of the numbers in Peter's list are prime.
 ## 23.
 
 ::: problem id=23_1 marks=6
-![](/resources/8-25-easter-challenges/23-circles.png){image align="right"}
+![](/resources/8-24-easter-challenges/23-circles.png){image align="right"}
 __23.1__ Sam wants to complete the diagram so that each of the nine circles contains one of the digits from 1 to 9 inclusive and each contains a different digit.  
 
 Also, the digits in each of the three lines of four circles must have the same total.  
@@ -641,7 +641,7 @@ What is this total?
 
 ---
 
-![](/resources/8-25-easter-challenges/23-circles-answer1.png){image align="right"}
+![](/resources/8-24-easter-challenges/23-circles-answer1.png){image align="right"}
 We suppose that `x`, `a`, `b`, `c`, `d`, `e`, and `f` are the numbers in the circles, as shown in the diagram. These numbers are the digits 1, 3, 4, 6, 7, 8, and 9, in some order.
 
 Let the common total of the digits in the three lines be `k`.
@@ -656,7 +656,7 @@ and therefore
 
 `52 + x = 3k`.  
 
-![](/resources/8-25-easter-challenges/23-circles-answer2.png){image align="right"}
+![](/resources/8-24-easter-challenges/23-circles-answer2.png){image align="right"}
 It follows that `52 + x` is divisible by 3. Now `x` is one of 1, 3, 4, 6, 7, 8, 9, and the only one of these possible values for which 52 + `x` is divisible by 3 is `x` = 8. This gives 52 + `x` = 60.  
 
 Hence `60 = 3k`, and so `k = 20`.   
@@ -670,7 +670,7 @@ One way this can be done is shown in the diagram opposite.
 ## 24.
 
 ::: problem id=24_1 marks=6
-![](/resources/8-25-easter-challenges/24-triangle-question.jpg){image align="right"}
+![](/resources/8-24-easter-challenges/24-triangle-question.jpg){image align="right"}
 __24.1__ The interior angles of a triangle are `(5x + 3y)`°, `(3x + 20)`° and `(10y + 30)`°, where `x`, `y` are positive integers.
 
 What is the value of `x + y`?
@@ -707,7 +707,7 @@ and hence `10 - y` is a positive number which is a multiple of 8. The only posit
 ## 25.
 
 ::: problem id=25_1 marks=6
-![](/resources/8-25-easter-challenges/25-dice.png){image align="right"}
+![](/resources/8-24-easter-challenges/25-dice.png){image align="right"}
 __25.1__ A die has the shape of a regular tetrahedron, with the four faces having 1, 2, 3 and 4 pips. The die is placed with 4 pips ‘face down’ in one corner of the triangular grid shown, so that the face with 4 pips precisely covers the triangle marked with 4 pips.  
 
 The die is now ‘rolled’, by rotating about an edge without slipping, so that 1 pip is face down. It is rolled again, so that 2 pips are face down, as indicated. The rolling continues until the die rests on the shaded triangle in the opposite corner of the grid.  
@@ -723,10 +723,10 @@ How many pips are now face down?
 
 ---
 
-![](/resources/8-25-easter-challenges/25-dice-answer1.png){image align="right"}
+![](/resources/8-24-easter-challenges/25-dice-answer1.png){image align="right"}
 We first consider what happens if one vertex of the tetrahedral die remains fixed on the grid and the die rolls about this fixed point. In doing this the die covers in succession six faces making up a hexagon. The faces adjacent to the fixed vertex are each face down twice in this hexagon. If the die is rolled about any of the edges on the perimeter of the hexagon, the remaining face is then face down. This is shown in the diagram on the right for the case where the faces with 1, 2 and 3 pips are adjacent to the fixed vertex, and the remaining face has 4 pips on it.  
 
-![](/resources/8-25-easter-challenges/25-dice-answer2.png){image align="right"}
+![](/resources/8-24-easter-challenges/25-dice-answer2.png){image align="right"}
 The pattern shown above can be extended to the whole of the given triangular grid, as shown in the diagram on the right. (Indeed, this pattern could be extended to a triangular grid filling the entire plane.)  
 
 For any triangle in the grid, the face then face down together with the two preceding faces form part of a hexagon, and determine the orientation of the die. (Here, by the orientation of the die, we mean the positions of all four of its faces.) The die can roll to this triangle across any of its edges. However, the pattern implies that the same face is face down in all these cases. In particular, the face with 1 pip is face down when the die reaches the shaded triangle.

@@ -98,7 +98,7 @@ By the way, if you want to learn a bit more about exactly what Margaret did to s
 
 Following on from last week’s Venn diagram, here is a new one.
 
-![](/resources/7-24-a-matter-factorial/5-venn-diagram.png){image align="center"}
+![](/resources/7-25-a-matter-factorial/5-venn-diagram.png){image align="center"}
 
 The elements of the Periodic Table are represented by 1, 2 or 3 letters, and the states of the USA are represented by 2 letters. Sometimes they coincide, so they sit in the intersection of the Venn diagram. The diagram above is missing six letter pairs. Where should they sit? You might need to google the Periodic Table and a list of abbreviations for US states.
 
