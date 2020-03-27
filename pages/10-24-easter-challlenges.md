@@ -171,19 +171,19 @@ __7.2__ The third number that passes the prime test, but which is not a prime, i
 __8.1__ Each interior angle of a particular polygon is an obtuse angle which is a whole number of degrees. What is the greatest number of sides the polygon could have?
 
 * [ ] 90
-* [x] 179
+* [ ] 179
 * [ ] 180
 * [ ] 359
-* [ ] 360
+* [x] 360
 {.col-5}
 
 ^^^ hint id=8_1 marks=1
-In order for the polygon to have the largest number of sides, the internal angle needs to be as large as possible, which is 179o, as the angle has to be a whole number and it cannot be 180o or larger.
+In order for the polygon to have the largest number of sides, the internal angle needs to be as large as possible, which is 179°, as the angle has to be a whole number and it cannot be 180° or larger.
 ^^^
 
 ---
 
-As each interior angle of the polygon is a whole number of degrees, the same must apply to each exterior angle. the sum of the exterior angles of a polygon is 360° and so the greatest number of sides will be that of a 360-sided polygon in which each interior angle is 179°, thus making each exterior angle 1°.
+As each interior angle of the polygon is a whole number of degrees, the same must apply to each exterior angle. The sum of the exterior angles of a polygon is 360° and so the greatest number of sides will be that of a 360-sided polygon in which each interior angle is 179°, thus making each exterior angle 1°.
 :::
 
 
@@ -219,9 +219,9 @@ __10.1__ The diagram shows three semicircles, each of radius one.
 
 What is the size of the total shaded area?
 
-* [ ] `π + 2`
+* [x] `π + 2`
 * [ ] `3`
-* [x] `3/2π + 1`
+* [ ] `3/2π + 1`
 * [ ] `4`
 * [ ] `2π - 1`
 {.col-5}
@@ -243,7 +243,7 @@ Hence the total area is that of the rectangle plus that of a circle of radius 1,
 ## 11.
 
 ::: problem id=18_1 marks=4
-__18.1__ When dates are written using eight digits, eg 06 02 2020, the 20th February 2002 is a palindromic date, since 20 02 2002 has the ame digits int he same order when read in reverse.  
+__11.1__ When dates are written using eight digits, eg 06 02 2020, the 20th February 2002 is a palindromic date, since 20 02 2002 has the ame digits int he same order when read in reverse.  
 
 The previous palindromic date and the next few all occur in the month of February.  
 
@@ -280,7 +280,7 @@ If you want to practice some Countdown problems, then you can [visit this intera
 
 ::: problem id=13_1 marks=5
 ![](/resources/10-24-easter-challlenges/13-pentagon.jpg){image align="right"}
-__19.1__ What is the area of the pentagon shown?
+__13.1__ What is the area of the pentagon shown?
 
 * [ ] `1/2a (b - c)`
 * [x] `1/2b (a + c)`
