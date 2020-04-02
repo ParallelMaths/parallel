@@ -462,18 +462,18 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-29-a-trapped-knight
+    title: A Trapped Knight
+    available: 2020-05-21T13:00:00
+    deadline: 2020-05-24T13:00:00
+  - url: 10-28-mcnuggets
+    title: McNuggets
+    available: 2020-05-14T13:00:00
+    deadline: 2020-05-17T13:00:00
+  - url: 10-27-alan-turing
+    title: Alan Turing and the £50 Note
+    available: 2020-05-07T13:00:00
+    deadline: 2020-05-10T13:00:00
   - url: 10-26-ignobel-prize
     title: Ignobel Prize
     available: 2020-04-30T13:00:00

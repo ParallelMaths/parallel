@@ -127,7 +127,7 @@ This gives 300 - (112 `1/2` + 12 `1/2` + 100) = 75.
 :::
 
 
-## 5. Senior Maths Team Challenge Problem (UKMT)
+## 6. Senior Maths Team Challenge Problem (UKMT)
 <!--- (2018-19) --->
 
 ::: problem id=6_1 marks=5

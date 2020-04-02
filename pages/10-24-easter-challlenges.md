@@ -318,7 +318,7 @@ We are given that `2n + e = 8 `and `t + e + n = 10`. Subtracting the first equat
 
 ## 15.
 
-::: problem id=15_1 marks=5/
+::: problem id=15_1 marks=5
 __15.1__ The width:height ratio of television screens is changing form the traditional 4:3 to the widescreen 16:9. If a traditional screen and a widescreen have the same area, then what is the ratio widescreen width:traditional width?  
 
 Assume that television screens are rectangles.
