@@ -92,7 +92,7 @@ We’ll be looking at Turing and the Enigma code in a few weeks time, but first
 take a look at this clip and answer the two questions. You will find one answer
 in the film, and the other answer you will have to Google (or you might know it).
 
-@[youtube](Fg85ggZSHMw?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](Fg85ggZSHMw?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1.__ During the course of a brief conversation lasting just a few seconds,
@@ -231,7 +231,7 @@ objects tend to lose energy, often due to friction, so they never quite get
 back to their start position. This is also true of objects that swing back and
 forth, as demonstrated in the video below.
 
-@[youtube](xXXF2C-vrQE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](xXXF2C-vrQE?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=5 marks=3
 __5.1__ There are different types of energy, and Professor Lewin says that the ball’s
@@ -249,7 +249,7 @@ potentially deadly, but there is no doubt that it is dangerous, as demonstrated 
 the clip below. Before you laugh, bear in mind that the bright young student was
 brave and dedicated, but made just one small mistake, and paid a painful price.
 
-@[youtube](teqsNtYbJAY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](teqsNtYbJAY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Why did this experiment go so badly wrong? The ball followed the laws of
 physics, and it swung forward, and then it swung all the way back, but very
@@ -314,6 +314,6 @@ he discusses is the same as the physics needed to describe the dangerous swingin
 demonstration. (Don’t worry if you only understand some of this video – just let
 the ideas blow your mind.)
 
-@[youtube](NeXIV-wMVUk?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](NeXIV-wMVUk?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
-@[youtube](fPtdJZyudd0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](fPtdJZyudd0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_

@@ -24,13 +24,13 @@ Last week, I showed you the missing square illusion, in which some shapes are re
 
 Here is the same illusion made real with the help of a bar of chocolate.
 
-@[youtube](z7tRr49qZfo?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](z7tRr49qZfo?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 These two videos (by James Grime) present the mystery in a different way and explains the maths behind the illusion.
 
-@[youtube](OgfT2myMQl8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](OgfT2myMQl8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
-@[youtube](Rzzct1We-38?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](Rzzct1We-38?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 The missing square illusion could be called a “paradox”, which means “a statement that contradicts itself or a situation which seems to defy logic.”  
 

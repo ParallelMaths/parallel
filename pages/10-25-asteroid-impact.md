@@ -19,12 +19,12 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. Asteroid sizes
 
-This short video shows the sizes of various asteroids that have been spotted in outer space. In fact, some of them have actually struck Earth, such as (2008 TC3).
+This short video shows the sizes of various asteroids that have been spotted in outer space. In fact, some of them have actually struck Earth, such as _2008 TC3_.
 
-@[youtube](bSkPNMjRRio?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](bSkPNMjRRio?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=1_1 marks=1
-__1.1__ Asteroid (99942 Apophis) is the same shape as (2004 FH), but 10 times taller. How much bigger is its mass?
+__1.1__ Asteroid _99942 Apophis_ is the same shape and density as _2004 FH_, but 10 times taller. How much bigger is its mass?
 
 * [ ] 10
 * [ ] 100
@@ -36,11 +36,12 @@ __1.1__ Asteroid (99942 Apophis) is the same shape as (2004 FH), but 10 times ta
 
 ---
 
-If we multiply the length by `x`, then we multiply the volume (and there for the mass by `x^3`, which is `10^3`, which is 1,000.
+If we multiply the length by `x`, then we multiply the volume (and therefore the mass by `x^3`, which is `10^3`, which is 1,000.
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ The formula for kinetic energy (the energy of a moving object) is (`1/2 mv^2`), where `m` = mass and `v` = velocity. If (99942 Apophis) is not only 10 times taller, but also moving 10 times faster than (2004 FH), then how much bigger is its kinetic energy?
+__1.2__ The formula for kinetic energy (the energy of a moving object) is `1/2 mv^2`, where  
+`m` = mass and `v` = velocity. If _99942 Apophis_ is not only 10 times taller, but also moving 10 times faster than _2004 FH_, then how much bigger is its kinetic energy?
 
 * [ ] 10
 * [ ] 100
@@ -102,16 +103,18 @@ These are the only two possibilities.
 
 ## 4.	The shortest known maths paper
 
-A “paper” is a published piece of research, and mathematics papers usually run to a few pages, and sometimes to over 100 pages (eg the proof of Fermat’s Last Theorem).  
+A “paper” is a published piece of research, and mathematics papers usually run to a few pages, and sometimes to over 100 pages (e.g. the proof of Fermat’s Last Theorem).  
 
 This is the shortest-known paper published in a serious mathematics journal.
 
 ![](/resources/10-25-asteroid-impact/4-maths-paper.png){image align="center"}
 
-The mathematician Euler had conjectured (suggested) that you need at four 4th powers to add to a 4th power, or at least five 5th powers to add to a 5th power, and so on. However, this paper gives an example where only four 5th powers add to a 5th power, but I have replaced one of the numbers with a question mark. So the conjecture is wrong.
+The mathematician Euler had conjectured (suggested) that you need at least four 4th powers to sum to a 4th power, or at least five 5th powers to sum to a 5th power, and so on. However, this paper gives an example where only four 5th powers sum to a 5th power (but I have replaced one of the numbers with a question mark). So the conjecture is wrong.
 
 ::: problem id=4_1 marks=3
-__4.1__ What is the missing number? Clue the answer is a two-digit number.  
+__4.1__ What is the missing number?  
+
+Clue: the answer is a two-digit number.  
 
 `x^5 + 84^5 + 110^5 + 133^5 = 144^5`
 
@@ -128,17 +131,17 @@ The numbers involved are very big, so your calculator might struggle. The best a
 
 ::: problem id=5_1 marks=5
 ![](/resources/10-25-asteroid-impact/5-diagram.png){image align="right"}
-__5.1__ Two circles with radii 1 cm and 4 cm touch.  
+__5.1__ Two circles with radii 1 cm and 4 cm touch at a single point.  
 
-The point `P` is on the smaller circle `Q`, is on the larger circle and `PQ` is a tangent to both circles.  
+The point `P` is on the smaller circle, `Q` is on the larger circle, and `PQ` is a tangent to both circles.  
 
 What is the length of `PQ`?
 
 * [ ] `sqrt(17)` cm
-* [x] 3 cm
+* [ ] 3 cm
 * [ ] `2 sqrt(3)` cm
 * [ ] `3 sqrt(2)` cm
-* [ ] 4 cm
+* [x] 4 cm
 
 ^^^ hint id=5_1 marks=1
 This diagram takes you a long way towards the answer. I must admit that, at first, I did not notice that `PA` is parallel to `QB`, because both radii must be perpendicular to the tangent `PQ`. That means `PA = QC`.
@@ -149,7 +152,7 @@ This diagram takes you a long way towards the answer. I must admit that, at firs
 ![](/resources/10-25-asteroid-impact/5-diagram-anwer.png){image align="right"}
 The diagram shows points `A` and `B`, which are the centres of the two circles, and `C`, the point on `BQ` such that `AC` is parallel to `PQ`.  
 
-As radii `PA` and `QB` are both perpendicular to tangent `PQ`, `APQC` is a rectangle. So `ACB` is a right angle.  
+As radii `PA` and `QB` are both perpendicular to tangent `PQ`, `APQC` is a rectangle. So `ACB` is a right angled triangle.  
 
 The length of `AB = 1 + 4 = 5`; the length of `BC = 4 - 1 = 3`.  
 

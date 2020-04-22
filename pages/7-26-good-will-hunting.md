@@ -37,7 +37,7 @@ Take a look at this clip, which starts with a maths professor confronting his
 students, because someone has solved one of his problems and he doesn’t know
 who – of course, we know who solved the problem.
 
-@[youtube](Ta3sClUQmfM?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](Ta3sClUQmfM?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Although the problem that Will is working on is said to be incredibly difficult,
 that is just a bit of Hollywood exaggeration, because this is a problem that
@@ -360,7 +360,7 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one
 reason why it’s a good idea to be a confident mathematician.
 
 
-@[youtube](BbX44YSsQ2I?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](BbX44YSsQ2I?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
@@ -456,4 +456,4 @@ so perhaps wait until you are a bit older.
 Number nerd James Grime has made an interesting video asking
 “Who was the real Good Will Hunting?”
 
-@[youtube](SzjdcPbjaR4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](SzjdcPbjaR4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_

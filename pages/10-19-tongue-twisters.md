@@ -55,7 +55,7 @@ Or, to make it really easy, the sum is 1,000,000 + 1,000,000 + 978,425 – 2.
 
 This video from Tom Scott is all about the language sounds that could exist, but don't. There is no solid connection with mathematics, but it is a fascinating video. It really made me think about the sounds we make with our mouths... and the sounds we don’t or can’t make.
 
-@[youtube](9uZam0ubq-Y?end=370&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](9uZam0ubq-Y?end=370&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Why is the alveolar ridge (the hard bit of the roof of your mouth, just behind your teeth) known as the “pizza ridge”?

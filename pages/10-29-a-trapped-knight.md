@@ -10,9 +10,11 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-* Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, remember to hit the SUBMIT button.
-*	Finish by Sunday night if your whole class is doing parallelograms.
+* Tackle each Parallelogram in one go. Don’t get distracted.  
+* It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!  
+* Finish by midnight on Sunday 31 May if your whole class is doing parallelograms.  
+* When you finish, remember to hit the SUBMIT button.  
+*	Finish by Sunday night if your whole class is doing parallelograms.  
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
@@ -23,7 +25,7 @@ This is a fascinating Numberphile video presented by mathematical genius Neil Sl
 
 ![](/resources/10-29-a-trapped-knight/1-chess.png){image align="center"}
 
-@[youtube](RGQe8waGJ4w?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](RGQe8waGJ4w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=1_1 marks=2
 __1.1__ The knight dashes around the infinite board according to the rules outlined by Neil Sloane, and it eventually gets trapped at square 2,084.  
@@ -93,6 +95,10 @@ She left the 12 in its usual place; what number did she put where the 6 would us
 * [ ] 10
 * [ ] 11
 {.col-5}
+
+^^^ hint id=4_1 marks=2
+It’s easy to work out which numbers are either side of the 12. It does not matter which way side the 3 and 9 go. It is then easy to work out which numbers go the other side 3 and 9. As you get to the end, it gets trickier, as there are some different options, but just remember that what every options clockwise and anticlockwise, the number as to be same at the bottom of the clock.
+^^^
 
 ---
 
@@ -184,7 +190,148 @@ So the average cost per item is the same as four items for the price of three.
 :::
 
 
-There will be more next week, so check your email or return to the website on Thursday at 3pm.  
+## 7. Only Connect
+
+I “borrowed” this questions from the fantastic BBC quiz show ONLY CONNECT. Catch old episodes and watch clips at [the ONLY CONNECT website](https://www.bbc.co.uk/programmes/b00lskhg){target="_blank"}.
+
+::: problem id=7_1 marks=4
+__7.1__ What comes next in this sequence?
+
+![](/resources/10-29-a-trapped-knight/7-only-connect.jpg){image align="center"}
+
+* [x] A
+* [ ] B
+* [ ] C
+* [ ] D
+* [ ] E
+{.col-5}
+
+^^^ hint id=7_1 marks=1
+Each box shows something related to a 7-segment digital display, such as a watch LCD display.
+^^^
+
+^^^ hint id=7_2 marks=1
+Each box relates to a number, but which number? Is there a pattern? What is the most obvious pattern? Where would you start this patter? There are two places to start.
+^^^
+
+^^^ hint id=7_3 marks=1
+Look at which segments are missing. You will find that the missing segments make numbers, so what missing segments should be in the fourth box?
+^^^
+
+---
+
+The answer is A. If you imagine the missing segments, then you get the pattern is 0, 1, 2, ?. So, the next number is 3, but we want the segments left when you remove number three.
+
+![](/resources/10-29-a-trapped-knight/7-only-connect-answer.jpg){image align="center"}
+:::
+
+
+## 8. Intermediate Maths Challenge Problem (UKMT)
+<!--- (2005) Q8 --->
+
+::: problem id=8_1 marks=4
+__8.1__ Which of the following shaded regions has an area different from the other shaded regions?
+
+* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-a.png)
+* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-b.png)
+* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-c.png)
+* [x] ![](/resources/10-29-a-trapped-knight/8-squares-d.png)
+* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-e.png)
+{.col-5}
+
+^^^ hint id=8_1 marks=1
+It might be easier to look at the area outside the triangle in order to work out the area of the triangle, or to see which option has a different triangle area.
+^^^
+
+---
+
+The area of triangle `A = 1/2 × 2 × 3 = 3`;  
+The area of parallelogram `B = 1 × 3 = 3`;  
+The area of triangle `C = 1/2 × 3 × 2 = 3`;  
+The area of rectangle `E = 1 × 3 = 3`.  
+However, the area of triangle `D = 3 × 3 − (3 + 3 + 1//2) = 2 1/2`.
+:::
+
+
+## 9. Social Distancing in San Francisco
+
+I am writing this Parallelogram during the pandemic lockdown (2020), when I received the picture below from Len Fisher, who explained that it was being put up as reminder for people in San Francisco keep 6 feet apart.
+
+![](/resources/10-29-a-trapped-knight/9-san-francisco.png)
+
+::: problem id=9_1 marks=2
+__9.1__ However, there is a problem with this sign. If the people are 6 feet away from the person in the opposite corner, then they are closer than that to the person in the adjacent (or neighbouring) corner. What is that shorter distance? Give your answer to two significant figures.
+
+<input solution="4.2"/>
+
+---
+
+According to Pythagoras, `a^2 + b^2 = c^2`.  
+
+We know that `a = b`, and that `c = 6`, so:  
+
+`2a^2 = 36`,  
+
+So, `a = sqrt(18) = 4.2`.
+
+![](/resources/10-29-a-trapped-knight/9-san-francisco-answer.png)
+:::
+
+
+## 10. Intermediate Maths Challenge Problem (UKMT)
+<!--- (2005) Q17 --->
+
+::: problem id=10_1 marks=4
+__10.1__ Platinum is a very rare metal, even rarer than gold. Its density is 21.45 g/cm<sup>3</sup>.  
+
+Assuming that the world production has been about 110 tonnes for each of the past 50 years, and negligible before that, which of the following has a comparable volume to that of the total amount of platinum ever produced?
+
+
+* [ ] a shoe box
+* [ ] a cupboard
+* [x] a house
+* [ ] Buckingham Palace
+* [ ] the Grand Canyon
+{.col-5}
+
+---
+
+The volume of 1kg of platinum is (1000/21.45)cm<sup>3</sup>, that is approximately 50cm<sup>3</sup>.  
+
+So 1 tonne of platinum has a volume of approximately 50,000cm<sup>3</sup>, which is 1/20m<sup>3</sup>.  
+
+The volume of platinum produced per year is therefore about 5m3 and the total volume of platinum ever produced is approximately 250m<sup>3</sup>.  
+
+This is the volume of a cuboid measuring 10m × 5m × 5m, which is comparable to a house.
+:::
+
+
+## 11. Classroom maths
+
+::: problem id=11_1 marks=3
+__11.1__ If you are in a classroom that is 3 m tall, and 5 m long and 5 m wide, then what is the mass of air in the classroom?
+
+The density of air is 1.3 Kg per cubic metre.
+
+* [ ] roughly the same as the mass of a mouse.
+* [ ] roughly the same as the mass of a bag of sugar.
+* [x] roughly the same as the mass of a teacher.
+* [ ] roughly the same as the mass of an African elephant.
+
+---
+
+Mass of air = volume × density = 3 × 5 × 5 × 1.3 = 97.5 Kg, roughly the same as an adult human.
+:::
+
+
+## 12. The Googol machine      
+
+This machine physically visualizes a googol (`10^100`). Watch and be awe struck. Each gear reduction of 10:1, so when the first wheel makes 10 rotations, the second wheel makes on1y 1 rotation. Then the first wheel makes 100 rotations, the second wheel makes only 10 rotations, and the third wheel rotates once. If the first, or when, the first wheel makes a googol rotations, the final wheel will have made one rotation.
+
+@[youtube](KLAbM9aDupk?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+
+
+The next Parallelogram will be out on Thursday 4 June at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

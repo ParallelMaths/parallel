@@ -24,7 +24,7 @@ Sometimes it’s easy, sometimes it’s hard, but rarely are the calculations as
 
 If you want to tackle the puzzle before you watch the clip, then this is the puzzle: make __821__ from __25, 100, 75, 50, 6, 4__.
 
-@[youtube](sKdM82SELsU?end=193&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](sKdM82SELsU?end=193&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
@@ -71,7 +71,7 @@ There is a question following the video, which you might want to look at first, 
 
 __NOTE: If you are going to experiment with the Leidenfrost effect, check with your parents/teachers and be safe.__
 
-@[youtube](PoaVetzlZNE?end=494&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](PoaVetzlZNE?end=494&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=3 marks=2
 __3.1.__ Which planet could be powered by the Leidenfrost effect?
@@ -135,7 +135,7 @@ __5.1.__ Who coached the politicians in the Senate so that they did not make a s
 
 This is a short, curious and odd video about purple. No maths, just chemistry.
 
-@[youtube](CYB-pmNs4VQ?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](CYB-pmNs4VQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 

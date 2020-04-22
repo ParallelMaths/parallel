@@ -25,7 +25,7 @@ I say “for some reason”, but actually I know the reason – mathematics is a
 
 “Proof” is a film starring Anthony Hopkins, Gwyneth Paltrow and Jake Gyllenhaal. The plot concerns a mathematician who dies, leaving his daughter with a pile of notebooks full of working. When one of his former students goes through the notebooks, he finds a remarkable proof that mathematicians having been struggling to find for centuries. However, does the proof really belong to the father? Is he the real genius?
 
-@[youtube](pnvy9q4UpZw?end=101&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](pnvy9q4UpZw?end=101&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 The film never identifies the proof at the centre of the plot, but in the clip Jake Gyllenhaal mentions that it has something to do with primes. It might be a proof of the twin prime conjecture, which asks whether there is an infinite number of twin primes, namely pairs of primes that are just two apart, such as 3 and 5.
 

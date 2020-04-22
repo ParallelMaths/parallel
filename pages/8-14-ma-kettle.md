@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 Watch this clip from _Night at the Museum 2 (Battle of the Smithsonian)_ and
 listen carefully to the references to π.
 
-@[youtube](l3DXVVSRYdE?start=22&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](l3DXVVSRYdE?start=22&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Although Einstein has no problem remembering the digits of π, most of the rest of
 us find it tricky. 3.14 is about as good as many of us can manage.
@@ -148,7 +148,7 @@ no _Despicable Me_, no _Jaws_, and no _Fast and Furious_ franchise.
 
 In this clip, Ma and Pa Kettle wrestle with some maths while trying to discuss a contract in which 25% has to be divided among 5 people. See if you can understand how and why they think 25/5 = 14.
 
-@[youtube](M2_kQ1Bf1js?start=66&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](M2_kQ1Bf1js?start=66&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=4 marks=2
 __4.1__ Using the mistaken approach of Ma and Pa Kettle, what is 3 × 16? You might
@@ -170,7 +170,7 @@ example, you could pick a letter, and then any word that starts with that letter
 
 Anyway, see what you make of it, and maybe make up your own mnemonic for π.
 
-@[youtube](EaDm9G4Ig18?end=88&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](EaDm9G4Ig18?end=88&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 6. A New Year reminder
@@ -215,7 +215,7 @@ This video shows a young lad called Benjamin Most reciting from memory 2,422 dig
 of π. I should stress that memorising numbers has nothing to do with being good
 at mathematics, but you have to admire his determination to memorise so many digits.
 
-@[youtube](VvNbW5ZoI_k?end=85&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](VvNbW5ZoI_k?end=85&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 And Benjamin has a long way to go to beat the world record for memorising π,
 which stands at 70,030 digits.

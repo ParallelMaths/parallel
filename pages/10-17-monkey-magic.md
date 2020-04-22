@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Here is a lovely mathematical card trick by James Grime, from the terrific Numberphile YouTube channel.
 
-@[youtube](_Wv_qw3nQnI?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](_Wv_qw3nQnI?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ The trick is based on the...
@@ -50,7 +50,7 @@ Young babies, a few months old, are not impressed by magic. The entire world is 
 
 When you watch this video, please bear in mind that you can sometimes see how the trick is done, but from the animal’s point of view the trick is amazing.
 
-@[youtube](spMkaJp975s?end=120&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](spMkaJp975s?end=120&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 3.	Intermediate Maths Challenge Problem (UKMT)
@@ -87,7 +87,7 @@ Therefore the largest possible value of ‘`ab`’ − ‘`ba`’ `= 72`.
 
 
 ## 4.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2003) Q12 --->
+<!--- (2003) Qxx --->
 
 ::: problem id=4_1 marks=4
 __4.1__ Each edge of a cube is coloured either red or black. If every face of the cube has at least one black edge, what is the smallest possible number of black edges?

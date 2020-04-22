@@ -61,7 +61,7 @@ That means the area per person = area ÷ population =  20 billion ÷ 7 billion �
 
 Last week, we looked at the magnetic properties of cereal, and this week we’ll look at the weird properties associated with cheerio buoyancy. Watch carefully, have your mind blown, rebuild your brain and then answer the question that follows.
 
-@[youtube](mbKAwk-OG_w?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](mbKAwk-OG_w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1.__ Which creatures benefit from the Cheerio’s effect?

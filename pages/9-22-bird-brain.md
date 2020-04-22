@@ -64,11 +64,11 @@ We have ((1 - 1) - 1) - (1 - (1 - 1)) = (0 - 1) - (1 - 0) = (-1) - (1) = -2
 
 There are a whole set of mathematical puzzles based on trying to measure out specific amounts of water using jugs, jars or buckets of fixed volume. One such puzzle was featured in the Hollywood action movie “Die Hard with a Vengeance”, starring Bruce Willis and Samuel L. Jackson, as shown in the clip below. In the clip, you are given a chance to pause the video, so that you can try to solve the problem yourself.
 
-@[youtube](qHwcQ7aQlnw?end=154&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](qHwcQ7aQlnw?end=154&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 If you found that previous video confusing – after all, Hollywood movies are not usually designed to explain mathematics - then it might help to watch this second video.
 
-@[youtube](qtg9pSJsRSg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](qtg9pSJsRSg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 Next week, we will look at some trickier water jug problems. In the meantime, I will leave you with one of the happiest surprises in my life, when I appeared in Viz magazine with this rather odd jug puzzle.
 

@@ -66,7 +66,7 @@ __2.2__ Later the same day I left Birmingham by train at 19:04. My train arrived
 
 I am a big fan of Bill Hammack (also known as “Engineer Guy”), whose YouTube channel looks at the clever engineering behind lots of machines and objects. In this video, he looks at the engineering behind an ordinary fizzy drinks can. This is only the opening of the video, but if you are really interested in engineering (or fizzy drinks) then make sure you watch the whole video later.
 
-@[youtube](hUhisi2FBuw?end98&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](hUhisi2FBuw?end98&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ Roughly how many aluminium cans are made each second?
@@ -110,7 +110,7 @@ __3.4__ A cylindrical can looks like...
 
 Try to watch the rest of this video about aluminium cans:
 
-@[youtube](hUhisi2FBuw?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](hUhisi2FBuw?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 :::
 
 

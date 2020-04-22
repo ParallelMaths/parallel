@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Khan Academy has created dozens of great online videos about mathematics, and hundreds more about a ton of other subjects, ranging from history to science. Take a look at this one, which is all about “Comparing irrational numbers with radicals”.  
 
-@[youtube](KibTbfkoPTs?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](KibTbfkoPTs?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Did that make sense? If not, then re-watch the video before trying the questions below.
 
@@ -75,7 +75,7 @@ It is incredible that someone (the brilliant Lin-Manuel Miranda) was able to cre
 
 Anyway, what has this got to do with maths? Tim Blais has a created a song and video based on the opening song from “Hamilton” – it is not about American politician Alexander Hamilton, but rather it is about the Irish mathematician William Rowan Hamilton. Watch the video and answer the three questions below.
 
-@[youtube](SZXHoWwBcDc?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](SZXHoWwBcDc?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1__ How cool was that?

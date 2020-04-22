@@ -23,7 +23,7 @@ Last week, we had a problem that involved drawing this house with just one singl
 
 This week we’ll look at a video that explains the origin of this type of problem and how you can solve such puzzles.
 
-@[youtube](nZwSo4vfw6c?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nZwSo4vfw6c?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ![](/resources/8-28-seven-bridges-konigsberg/1-graph-diagram.jpg){image align="center"}
 
@@ -217,7 +217,7 @@ Simon.
 
 In this video, Joseph reveals some of the tricks behind his video.
 
-@[youtube](ulL0uKBX0wQ?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](ulL0uKBX0wQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Hopefully you’ll see lots of the Sun over the summer, but I bet it will never look like this. Our Sun is so hot that it emits X-rays, as shown by this photo taken by Japan’s Yohkoh Soft X-ray Telescope. The surface of the Sun has a temperature of thousands of degrees, which is not hot enough to generate X-rays, but the atmosphere of the Sun is millions of degrees hotter and this so-called corona is the origin of the X-rays. Why is the atmosphere so much hotter than the surface of the Sun? Nobody fully understands, but the Sun’s magnetic field is probably responsible. This picture comes from NASA’s [Astronomy Picture of the Day website](https://apod.nasa.gov/apod/){target="_blank"}, which is worth checking out every morning.
 

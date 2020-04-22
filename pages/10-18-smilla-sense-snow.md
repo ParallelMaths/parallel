@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 First a book, then a movie, this is the story of Smilla, who grew up in Greenland and who has an incredible knowledge and feeling for snow and all its properties and secrets. Moving from Greenland to Denmark, she finds herself using her scientific and snowy background to explain a mysterious death. In this clip, she talks about the two things that are most important to her, snow and...
 
-@[youtube](BK0Ev84B6HY?end=1280&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](BK0Ev84B6HY?end=1280&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ Which type of number does Smilla hint at, but NOT mention?

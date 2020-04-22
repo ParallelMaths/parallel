@@ -23,7 +23,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 In the 1994 film “Little Big League”, a 12-year-old boy called Billy suddenly becomes the manager of the Minnesota Twins baseball team. In this clip, Billy has to solve a maths problem for his homework before he can focus on the rapidly approaching baseball game.
 
-@[youtube](pXtFSE7VlL0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](pXtFSE7VlL0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 A player comes up with a correct solution, but it is not very well explained, so let’s try a similar problem.  
 

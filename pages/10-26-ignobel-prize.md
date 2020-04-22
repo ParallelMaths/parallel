@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 The Ignobel Prizes are not offered for the greatest discoveries in science, but instead they are awarded to ideas that first make you laugh, and then make you think. Take a look at this video and answer the question below.
 
-@[youtube](FFG2rilqT2g?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](FFG2rilqT2g?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=1_1 marks=2
 __1.1__ in the past, when doctors performed therapeutic colonoscopies, there was a risk of explosion. What gas were the doctors introducing into the colon (the largest part of the large intestine) that was helping cause the explosion?

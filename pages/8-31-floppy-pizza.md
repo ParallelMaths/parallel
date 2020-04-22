@@ -51,7 +51,7 @@ Don Bradman had several pets, but his favourite pet was a duck called Duckminste
 
 Actually, that’s not true. Bradman was a heroic cricketer, and this video is all about his sad farewell to the game he loved. Even if you don’t like cricket, I challenge you not be moved by this tale of sporting genius and averages. By the way, a duck is the name given to the score when a batsman scores no runs.
 
-@[youtube](A8Tiba3h9Fw?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](A8Tiba3h9Fw?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2 marks=3
 __2.1__ Prior to the last match, Bradman had scored 6,996 runs from 69 innings, and needed 4 more runs to have a career average of 100 from 70 innings.  
@@ -109,7 +109,7 @@ __3.2__ Find, without using a calculator, the value of `49^2 ÷ sqrt(49)`.
 
 When you are a mathematician, then the world becomes amazing. Even eating pizza becomes amazing, as revealed in this video by Cliff Stoll. You might find some bits of the video confusing, but stick with it and see if you can understand why we eat pizza slices in a particular way.
 
-@[youtube](gi-TBlh44gY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](gi-TBlh44gY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ![](/resources/8-31-floppy-pizza/4-gaussian-curvature.png){image align="center"}
 

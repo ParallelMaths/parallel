@@ -160,7 +160,7 @@ If statement (1) is true, then so is (2), so (1) = false.
 
 No questions, just something interesting to finish with. A rap by Baba Brinkman, which explains the process of evolution by comparing it to the writing of a rap. Performance. Feedback. Revision.
 
-@[youtube](hod20AzYB4o?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](hod20AzYB4o?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.  

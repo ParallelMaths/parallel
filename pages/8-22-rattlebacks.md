@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 ::: problem id=1_1 marks=1
 __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song.
 
-@[youtube](nZ38tg1342s?start=113&end=139&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nZ38tg1342s?start=113&end=139&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 <input solution="176"/>  
 
@@ -89,7 +89,7 @@ The same will be true for Carolyn and George, so 3 × 20 pages = 60 pages will b
 
 Derek Muller from YouTube’s Veritasium channel asks people to explain the mechanism that is responsible for the sun shining. Have a think yourself before you watch Derek explain the physics behind sunshine.
 
-@[youtube](Ux33-5k8cjg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](Ux33-5k8cjg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 5. Junior Maths Challenge UKMT bonus
@@ -149,7 +149,7 @@ So, the number of wins equals the number of losses three times – after 526, 52
 
 Watch this video of one of the most mysterious objects in the universe. It’s called a rattleback.
 
-@[youtube](ovZ_n6X__9c?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](ovZ_n6X__9c?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 7. VAX! – a game about epidemic prevention

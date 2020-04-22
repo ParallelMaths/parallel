@@ -79,7 +79,7 @@ Last week, you watched one of the world’s greatest mathematicians, Neil Sloane
 The video – presented by James Grime – will explain it in more detail, but essentially the questions is “what is the best way to pack spheres so that you leave the minimum amount of space between the spheres?” Alternatively, if you have a large (actually, infinite) box, then what is the best way to pack oranges, so that you get the most oranges in the box?”
 
 
-@[youtube](CROeIGfr3gs?end=642&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](CROeIGfr3gs?end=642&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=3_1 marks=2
 __3.1__  According Kepler, what was the maximum efficiency for packing spheres?

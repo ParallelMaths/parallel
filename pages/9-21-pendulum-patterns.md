@@ -23,7 +23,7 @@ which behave in a beautiful and surprising way. It’s called a wave pendulum or
 harmonic pendulum. It lasts three minutes, and it is worth watching right through
 to the end to see the amazing effect.
 
-@[youtube](RrX2yTGJ6N0?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](RrX2yTGJ6N0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Tom Rowett, who was in the video, has a huge and wonderful collection of odd objects,
 and we will meet more of them in later Parallelograms. In this case, each pendulum
@@ -131,7 +131,7 @@ Now `15000/50 = 1500/5 = 300`. So the average distance travelled is roughly 300 
 
 This is a surprising video from Steve Mould, who shows that you can light a match using water, or at least the gaseous phase of water.
 
-@[youtube](JkRAaZIZaAQ?end=130&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](JkRAaZIZaAQ?end=130&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__ Why is it possible to light a match with water?

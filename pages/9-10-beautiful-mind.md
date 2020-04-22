@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 This video is from the Khan Academy, which is a great resource for learning about mathematics and many other things. You can watch videos via their website, or via YouTube. This video explains what happens when you raise a number to the power zero, and it gives two reasons for the result.
 
-@[youtube](TWv6f7rwjF4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](TWv6f7rwjF4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ What is 9<sup>0</sup>?
@@ -45,7 +45,7 @@ __1.2.__ What is 0<sup>3</sup>?
 
 This clip shows a grumpy Nash teaching a class in mathematics, and a young student (who later married him) shows him that there can be more than one solution to a problem.
 
-@[youtube](mGe0t4xVvX4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](mGe0t4xVvX4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1.__ Here is another problem with two solutions. Look at these four equations. Try to work out the rule from the first three equations, and then work out the value of (?). First, find the answer that is less than 50.

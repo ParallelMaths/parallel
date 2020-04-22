@@ -12,7 +12,7 @@ week by the Parallel Project to bright young mathematicians.
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-*	Finish by midnight on Sunday 2 June if your whole class is doing parallelograms.
+* Finish by midnight on Sunday 31 May if your whole class is doing parallelograms.  
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -135,7 +135,7 @@ __4.2__ How does the water move from a beaker to a sponge, causing the sponge to
 * [ ] Suction
 :::
 
-@[youtube](GOMIBdM6N7Q?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](GOMIBdM6N7Q?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 5. Sumaze! Part 2
@@ -171,7 +171,7 @@ __6.1__ Another amazing invention by Joseph Herscher. Just one question. How man
 <input solution="12"/>
 :::
 
-@[youtube](nORRgU8sGdE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nORRgU8sGdE?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
@@ -181,7 +181,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* The next Parallelogram will be out on Thursday 6 June at 3pm.
+* The next Parallelogram will be out on Thursday 4 June at 3pm.
 
 
 Cheerio,

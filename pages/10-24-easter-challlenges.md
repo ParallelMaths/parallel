@@ -78,7 +78,7 @@ The transfer fee for a total of 12 players would be three times that for 4 playe
 
 Take a look at this video by James Grime and answer the question below.
 
-@[youtube](ZkVSRwFWjy0?end=766&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](ZkVSRwFWjy0?end=766&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=4_1 marks=2
 __4.1__ How many types of magic hexagon are there?
@@ -142,7 +142,7 @@ __6.1__ It has been estimated that the mass of insects caught by spiders in a ye
 
 Here's another video by the great James Grime:  
 
-@[youtube](jbiaz_aHHUQ?end=408&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](jbiaz_aHHUQ?end=408&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=7_1 marks=4
 __7.1__ Numbers that pass this prime number test, but which are not actually prime, are known as what?
@@ -265,13 +265,13 @@ All palindromic dates this century will fall in February as they will bee of the
 
 Take a look at this classic number game from Countdown.
 
-@[youtube](6mCgiaAFCu8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](6mCgiaAFCu8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 Embded https://www.youtube.com/watch?v=
 
 Here is an explanation of what happened by Junaid Mubeen, Director of Education, at Whizz Education, who was also a Countdown octochamp.
 
-@[youtube](vUpi2r81s00?start=48&end=601&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_  
+@[youtube](vUpi2r81s00?start=48&end=601&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 If you want to practice some Countdown problems, then you can [visit this interactive website](http://happysoft.org.uk/countdown/numgame.php).
 

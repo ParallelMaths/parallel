@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 ::: problem id=1_1 marks=1
 __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song, then write the total in the box below.
 
-@[youtube](nZ38tg1342s?start=19&end=53&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nZ38tg1342s?start=19&end=53&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 <input solution="75"/>  
 
@@ -35,7 +35,7 @@ __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and
 ::: problem id=1_2 marks=1
 __1.2.__ What is the total of all the numbers in the song at the beginning of this clip?
 
-@[youtube](nZ38tg1342s?start=79&end=95&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nZ38tg1342s?start=79&end=95&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 <input solution="44"/>  
 
@@ -88,7 +88,7 @@ __4.1__ Which of the following job titles did Margaret Hamilton invent?
 * [ ] Software developer
 * [ ] Coder
 
-@[youtube](kTn56jJW4zY?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](kTn56jJW4zY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 By the way, if you want to learn a bit more about exactly what Margaret did to save the Apollo moon project, and make us all safer, then watch the video in the additional stuff section.
 :::
@@ -232,4 +232,4 @@ Simon.
 
 * This “Great Minds” video explains a bit more about Margaret Hamilton's software breakthrough that saved the Apollo moon project.
 
-@[youtube](PPLDZMjgaf8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](PPLDZMjgaf8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_

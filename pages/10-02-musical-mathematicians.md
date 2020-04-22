@@ -27,7 +27,7 @@ It is extraordinary that so much of the universe can be explained using mathemat
 
 In this clip, from a documentary in the American Nova series, the jazz musician Esperanza Spalding explains how maths is also at the heart of music. Pay attention to the way that numbers relate to musical intervals (an octave, a fifth and a fourth).  
 
-@[youtube](hkSs29ILAeE?start=827&end=1012&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](hkSs29ILAeE?start=827&end=1012&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ What ratio in lengths describe a fourth?

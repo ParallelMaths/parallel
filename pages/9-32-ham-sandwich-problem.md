@@ -85,7 +85,7 @@ This is an interesting video by the mathematician Hannah Fry, made for the Numbe
 
 WARNING: this video explains how to cut one slice of bread, then a slice of ham and then another slice of bread. The first two cuts are fairly easy to follow, but don’t worry if you can’t quite grasp how the third cut is always possible.
 
-@[youtube](YCXmUi56rao?end=297&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](YCXmUi56rao?end=297&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__  When you imagine cutting the first slice of bread in half, how many ways can you do this?

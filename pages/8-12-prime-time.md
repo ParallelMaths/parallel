@@ -44,7 +44,7 @@ Watch and learn a lesson from this video.
 
 Don’t celebrate too early. Check your work. Don’t leave a job half done.
 
-@[youtube](9Bu_gn5ChQ4?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](9Bu_gn5ChQ4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)

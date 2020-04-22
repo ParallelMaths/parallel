@@ -162,7 +162,7 @@ The volume of the open box is the height multiplied by the area of the base, and
 
 This is an amazing clock at Schiphol Airport, near Amsterdam.
 
-@[youtube](4wCQwhkSbx8?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](4wCQwhkSbx8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=4_1 marks=3
 __4.1.__ How many painters are employed to paint the time?

@@ -54,7 +54,7 @@ __2.1__ According to Alan Sutcliffe, to do maths you need to be...
 * [ ] ...confident
 * [ ] ...fast
 
-@[youtube](nXnmSgaeGAI?start=667&end=765&rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](nXnmSgaeGAI?start=667&end=765&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 :::
 
@@ -91,7 +91,7 @@ Veritasium is a YouTube channel run by Derek Muller. He often asks apparently ea
 
 Before watching the video, have a think about how you would answer this question.
 
-@[youtube](2KZb2_vcNTg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](2KZb2_vcNTg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 
 ## 5. An odd house
@@ -144,4 +144,4 @@ Simon.
 * [This BBC webpage has a video about Delia Derbyshire and her friend Daphne Oram](https://www.bbc.com/ideas/videos/house-techno-grime-did-they-start-with-these-women/p05tdppj?playlist=unsung-heroines){target="_blank"}, who used mathematics and technology to invent a new type of music.  
 
 * Last week’s “additional stuff” contained an interview with Physics Girl, and the interviewer was Jabrils, a YouTuber and software engineer. Here is a video by Jabrils, which recounts his first attempt at writing a machine learning game.
-@[youtube](ZX2Hyu5WoFg?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](ZX2Hyu5WoFg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_

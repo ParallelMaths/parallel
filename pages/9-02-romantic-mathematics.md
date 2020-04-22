@@ -25,7 +25,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Dr James Grime on the Numberphile channel tells you about the whether or not 1 is a prime number... and why.
 
-@[youtube](IQofiPqhJ_s?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](IQofiPqhJ_s?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 Just to summarise, “the fundamental theorem of arithmetic” (also known as the “unique-prime-factorization theorem”) states that every integer greater than 1 is either:  
 (a) a prime number itself, or   
@@ -70,7 +70,7 @@ Unfortunately, 143 is not prime, so by trial and error you would have to work ou
 
 This is a nerdy love song by physics graduate Helen Arney.
 
-@[youtube](uggtGH0d97k?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](uggtGH0d97k?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=3
 __2.1.__  Which of these biscuits is NOT mentioned in the song?

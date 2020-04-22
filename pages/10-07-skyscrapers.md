@@ -23,7 +23,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 No mathematics in this clip, but just extraordinary footage of the skyscraper acrobats who built New York’s skyline.
 
-@[youtube](gDN4c2wnx3E?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](gDN4c2wnx3E?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ The Empire State Building is 381m tall, it has 103 storeys and it was constructed in 410 days.  
@@ -50,7 +50,7 @@ Another approach is to say that the pennies are roughly as tall as 100 storeys, 
 
 Here is a video all about estimating square roots with a high degree of accuracy without using a calculator.
 
-@[youtube](EFVrAk61xjE?rel=0) _(If you have any problem seeing the video then just right-click on the video and open the video in a new window)_
+@[youtube](EFVrAk61xjE?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Use this approach to work out the square root of 10 by hand accurate to one decimal place.
