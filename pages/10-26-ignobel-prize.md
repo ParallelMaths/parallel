@@ -24,7 +24,7 @@ The Ignobel Prizes are not offered for the greatest discoveries in science, but 
 @[youtube](FFG2rilqT2g?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
 ::: problem id=1_1 marks=2
-__1.1__ in the past, when doctors performed therapeutic colonoscopies, there was a risk of explosion. What gas were the doctors introducing into the colon (the largest part of the large intestine) that was helping cause the explosion?
+__1.1__ In the past, when doctors performed therapeutic colonoscopies, there was a risk of explosion. What gas were the doctors introducing into the colon (the largest part of the large intestine) that was helping cause the explosion?
 
 * [ ] Hydrogen
 * [ ] Helium
@@ -79,9 +79,9 @@ So the number of bees which could fly 1000 miles is approximately 70,000,000 ÷ 
 
 ## 4.	Line Rider
 
-This is a fantastic website that allows you to build sled track for Bosh. It allows you to explore the physics in Bosh’s universe and take him on an adventure.  
+Line Rider is a fantastic website that allows you to build a sled track for a cartoon penguin called Bosh. It lets you explore the physics of Bosh’s universe, and take him on an adventure.  
 
-No question, just have fun with [Line Rider](https://www.linerider.com/){target="_blank"}.
+There's no question to go along with this, [just have fun with it](https://www.linerider.com/){target="_blank"}!
 
 
 ## 5. Intermediate Maths Challenge Problem (UKMT)
@@ -117,7 +117,7 @@ The area of the triangle may now be found by enclosing it in a rectangle measuri
 
 ---
 
-The equations of the three lines must be considered in pairs to find the coordinates of their points of intersection, ie the coordinates of the vertices of the triangle.  
+The equations of the three lines must be considered in pairs to find the coordinates of their points of intersection, i.e. the coordinates of the vertices of the triangle.  
 
 It is left to the reader to show that these are (−15, −9), (0, 6) and (5, 1).  
 
@@ -146,7 +146,7 @@ Who is definitely lying?
 
 <input solution="Denzil"/>
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=6_1 marks=2
 Start by assuming that Alex is telling the truth and then try to fill in the table below. Then assume that Alex is lying and fill in another copy of the table. Is anyone lying in both versions of the table?  
 
 | Child | Truth or Lie | How do we know? |  
@@ -155,20 +155,6 @@ Start by assuming that Alex is telling the truth and then try to fill in the tab
 | Beatrice |   |   |  
 | Charmian |   |    |  
 | Denzil |   |    |  
-^^^
-
-^^^ hint id=5_2 marks=1
-If we take the first two lines, `y - x = 6`, `x - 2y = 3` then we can solve these simultaneous equations to show that they cross at (-15, -9).  
-
-You can find out where the other two pairs of lines cross to find the other corners of the triangle.
-^^^
-
-^^^ hint id=5_3 marks=1
-The other two pairs of lines cross at (0, 6) and (5, 1).
-^^^
-
-^^^ hint id=5_4 marks=1
-The area of the triangle may now be found by enclosing it in a rectangle measuring (20 × 15) and subtracting the areas of the three surrounding triangles.
 ^^^
 
 ---
