@@ -450,10 +450,10 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-32-lewis-carroll
+    title: Lewis Carroll's Pillow Problem
+    available: 2020-06-18T13:00:00
+    deadline: 2020-06-21T13:00:00
   - url: 10-31-pi
     title: Pi
     available: 2020-06-11T13:00:00
