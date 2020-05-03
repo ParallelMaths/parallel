@@ -454,14 +454,14 @@ year10:
   #   title:
   #   available:
   #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+  - url: 10-31-pi
+    title: Pi
+    available: 2020-06-11T13:00:00
+    deadline: 2020-06-14T13:00:00
+  - url: 10-30-slinky-physics
+    title: Slinky Physics
+    available: 2020-06-04T13:00:00
+    deadline: 2020-06-07T13:00:00
   - url: 10-29-a-trapped-knight
     title: A Trapped Knight
     available: 2020-05-21T13:00:00
