@@ -30,7 +30,7 @@ Just watch and enjoy this video by the Alex Bellos (author of some great books a
 ::: problem id=2_1 marks=3
 __2.__ A sheet of A4 paper (297 mm × 210 mm) is folded once and then laid flat on the table.  
 
-![](/resources/1999-imc/2-shapes.jpg){image align="center"}
+![](/resources/10-32-lewis-carroll/2-shapes.jpg){image align="center"}
 
 Which of these shapes could not be made?
 

@@ -60,11 +60,11 @@ For example, you can make 29 nuggets from 6, 9 & 20, because 20 + 9 = 29, and 29
 ::: problem id=2_1 marks=3
 __2.1__ Which of the following expressions is equal to 2005?
 
-* [ ] `(1^2 + 1)(10^2 + 1)`
-* [x] `(2^2 + 1)(20^2 + 1)`
-* [ ] `(3^2 + 1)(30^2 + 1)`
-* [ ] `(4^2 + 1)(40^2 + 1)`
-* [ ] `(5^2 + 1)(50^2 + 1)`
+* [ ] (`1^2` + 1)(`10^2` + 1)
+* [x] (`2^2` + 1)(`20^2` + 1)
+* [ ] (`3^2` + 1)(`30^2` + 1)
+* [ ] (`4^2` + 1)(`40^2` + 1)
+* [ ] (`5^2` + 1)(`50^2` + 1)
 {.col-5}
 
 ---
@@ -77,10 +77,10 @@ The values of the expressions are, respectively, 202, 2005, 9010, 27217 and 6502
 <!--- (2005) Q14 --->
 
 ::: problem id=3_1 marks=4
-![](/resources/10-28-mcnuggets/14-arch.png){image align="right"}
-__14.1__ Ten stones, of identical shape and size, are used to make an arch, as shown in the diagram.  
+![](/resources/10-28-mcnuggets/3-arch.png){image align="right"}
+__3.1__ Ten stones, of identical shape and size, are used to make an arch, as shown in the diagram.  
 
-Each stone has a crosssection in the shape of a trapezium with three equal sides.  
+Each stone has a cross section in the shape of a trapezium with three equal sides.  
 
 What is the size of the smallest angles of the trapezium?
 
@@ -92,18 +92,18 @@ What is the size of the smallest angles of the trapezium?
 {.col-5}
 
 ^^^ hint id=3_1 marks=2
-If you unwrap the cube, then this is path that you need to follow to pass through every vertex.
-
 ![](/resources/10-28-mcnuggets/3-arch-hint.png){image align="center"}
 ^^^
 
 ---
-![](/resources/10-28-mcnuggets/14-arch-answer.png){image align="right"}
+![](/resources/10-28-mcnuggets/3-arch-answer.png){image align="right"}
 Let `ABCD` be the cross-section of one of the stones, as shown.  
 
 As `AD = BC`, `ABCD` is an isosceles trapezium with `∠ADC = ∠BCD`.  
 
-If `∠ADC = ∠BCD = θ`, then `2θ` is the interior angle of a regular 20-sided polygon, namely `(180 - 360/20)°`, which equals `162°`. So `θ` is `81°`.   
+If `∠ADC = ∠BCD = θ`, then `2θ` is the interior angle of a regular 20-sided polygon, namely `(180 - 360/20)°`, which equals `162°`.  
+
+So `θ` is `81°`.   
 :::
 
 
@@ -126,16 +126,16 @@ If each of the five sections has the same perimeter, what is the ratio of the le
 {.col-5}
 
 ^^^ hint id=4_1 marks=2
-Each exterior angle of a regular hexagon = 360° ÷ 6 = 60°, so when sides HB and IC are produced to meet at A, an equilateral triangle, ABC, is created.  
+Each exterior angle of a regular hexagon = 360° ÷ 6 = 60°, so when sides HB and IC are extended to meet at A, an equilateral triangle, ABC, is created.  
 
-Let the sides of this triangle be of length x. As BC, DE and FG are all parallel, triangles ABC, ADE and AFG are all equilateral. So `DE = DA = p + x`; `FG = FA = q + p + x`.
+Let the sides of this triangle be of length x. As BC, DE and FG are all parallel, triangles ABC, ADE and AFG are all equilateral. So `DE = DA = p + x`; `FG = FA = q + p + x`.  
 ![](/resources/10-28-mcnuggets/4-hexagon-answer.png){image align="center"}
 ^^^
 
 ---
 
 ![](/resources/10-28-mcnuggets/4-hexagon-answer.png){image align="right"}
-Each exterior angle of a regular hexagon = 360° ÷ 6 = 60°, so when sides HB and IC are produced to meet at A, an equilateral triangle, ABC, is created.  
+Each exterior angle of a regular hexagon = 360° ÷ 6 = 60°, so when sides HB and IC are extended to meet at A, an equilateral triangle, ABC, is created.  
 
 Let the sides of this triangle be of length x. As BC, DE and FG are all parallel, triangles ABC, ADE and AFG are all equilateral. So `DE = DA = p + x`; `FG = FA = q + p + x`.
 
@@ -167,7 +167,11 @@ __5.1__ There are four suspects and one of them has committed a crime.  They mak
 
 ---
 
-If Sid committed the crime, then he is clearly lying, so is James (who says Bob did it), and so is Jon (who says James did it). And Bob is telling the truth, because James is indeed lying. Everything is compatible with the question, which says there is only one criminal and one liar.
+If anyone other than Bob is telling the truth, the other statements produce a contradiction.  
+
+If Sid committed the crime, then he is clearly lying, and so is James (who says Bob did it), and so is Jon (who says James did it). But Bob is telling the truth, because James is indeed lying.  
+
+Everything is compatible with the question, which says there is only one criminal and one liar.
 :::
 
 
@@ -175,7 +179,7 @@ If Sid committed the crime, then he is clearly lying, so is James (who says Bob 
 <!--- (2005) Q7 --->
 
 ::: problem id=6_1 marks=3
-__6.1__ In square metres, what area of this pennant is shaded grey?
+__6.1__ In the diagram, what is the sum of the marked angles?
 
 ![](/resources/10-28-mcnuggets/6-triangles.png){image align="center"}
 
@@ -192,7 +196,7 @@ __6.1__ In square metres, what area of this pennant is shaded grey?
 
 ---
 ![](/resources/10-28-mcnuggets/6-triangles-answer.png){image align="right"}
-Let the sizes of the interior angles of the quadrilateral in the centre of the figure be `a°`, `b°`, `c°` and `d°`. Then `a + b + c + d = 360`.  
+Let the sizes of the interior angles of the quadrilateral in the centre of the figure be `a`°, `b`°, `c`° and `d`°. Then `a + b + c + d = 360`°.  
 
 Each of these angles is vertically opposite to one of the unmarked angles in the four triangles, as shown. So the sum of the marked angles plus the four angles of the quadrilateral is equal to the sum of the interior angles of four triangles, that is 720°.  
 
