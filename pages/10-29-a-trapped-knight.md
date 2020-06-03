@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 ## 1. A Trapped Knight
 
-This is a fascinating Numberphile video presented by mathematical genius Neil Sloane. Although it relates to the knight in chess, you don’t need to know anything about chess, except that the knight moves in an L-shape, which means moving 2 squares in a line, then a turn by 90o, and moving one more square, as shown by the dots on this chessboard.  
+This is a fascinating Numberphile video presented by mathematical genius Neil Sloane. Although it relates to the knight in chess, you don’t need to know anything about chess, except that the knight moves in an L-shape, which means moving 2 squares in a line, then a turn by 90°, and moving one more square, as shown by the dots on this chessboard.  
 
 ![](/resources/10-29-a-trapped-knight/1-chess.png){image align="center"}
 
@@ -30,7 +30,7 @@ This is a fascinating Numberphile video presented by mathematical genius Neil Sl
 ::: problem id=1_1 marks=2
 __1.1__ The knight dashes around the infinite board according to the rules outlined by Neil Sloane, and it eventually gets trapped at square 2,084.  
 
-On its way to this square, it does move through all the smaller numbered squares. What is the smallest numbered square that is not visited by the knight?
+On its way to this square, it doesn't move through all the smaller numbered squares. What is the smallest numbered square that is not visited by the knight?
 
 <input solution="961"/>
 :::
@@ -56,7 +56,7 @@ __2.1__ How many of the following statements are true?
 
 ---
 
-If a number is divisible by 6 then it must also be divisible by 2, so is even. ‘The sum of any two odd numbers is even’ is also true. However, not all multiples of 9 are odd (e.g. 18) and the sum of any two even numbers is even rather than odd, so two of the four statements are true.
+If a number is divisible by 6 then it must also be divisible by 2, so it is even. ‘The sum of any two odd numbers is even’ is also true. However, not all multiples of 9 are odd (e.g. 18) and the sum of any two even numbers is even rather than odd, so two of the four statements are true.
 :::
 
 
@@ -77,7 +77,7 @@ All the bags have the same volume. What percentage of the volume of Goldilocks' 
 
 ---
 
-Four bags of porridge contain one-fifth of a bag of wheat bran. So the proportion of wheat bran in the porridge is `1/20`, that is 5%.
+One quarter of the bags contains one fifth of a bag of wheat bran. So the proportion of wheat bran in the porridge is `1/20`, that is 5%.
 :::
 
 
@@ -85,7 +85,7 @@ Four bags of porridge contain one-fifth of a bag of wheat bran. So the proportio
 <!--- (2005) Q19 --->
 
 ::: problem id=4_1 marks=5
-__19.1__ Trinni is fascinated by triangle numbers (1, 3, 6, 10, 15, 21, etc.) and recently, coming across a clock, she found that she could rearrange the twelve numbers 1, 2, 3, … 12 around the face so that each adjacent pair added up to a triangle number.  
+__4.1__ Trinni is fascinated by triangle numbers (1, 3, 6, 10, 15, 21, etc.) and recently, coming across a clock, she found that she could rearrange the twelve numbers 1, 2, 3, … 12 around the face so that each adjacent pair added up to a triangle number.  
 
 She left the 12 in its usual place; what number did she put where the 6 would usually be?
 
@@ -97,7 +97,7 @@ She left the 12 in its usual place; what number did she put where the 6 would us
 {.col-5}
 
 ^^^ hint id=4_1 marks=2
-It’s easy to work out which numbers are either side of the 12. It does not matter which way side the 3 and 9 go. It is then easy to work out which numbers go the other side 3 and 9. As you get to the end, it gets trickier, as there are some different options, but just remember that what every options clockwise and anticlockwise, the number as to be same at the bottom of the clock.
+It’s easy to work out which numbers are either side of the 12. It then does not matter which side the 3 and 9 go. It is then easy to work out which numbers go the other side of the 3 and 9. As you get to the end, it gets trickier, as there are some different options, but just remember that for every option clockwise and anticlockwise, the number as to be same at the bottom of the clock.
 ^^^
 
 ---
@@ -118,7 +118,7 @@ The remaining values may now be assigned: H = 11, G = 10 and F = 5.
 
 ## 5. Professor Wiseman’s puzzles
 
-Another puzzle from Professor Wiseman, [whose website is worth a visit](https://richardwiseman.wordpress.com/){target="_blank"} when you’ve completed this Parallelogram.
+Another puzzle from the psychologist Professor Wiseman, [whose website is worth a visit](https://richardwiseman.wordpress.com/){target="_blank"} when you’ve completed this Parallelogram.
 
 ::: problem id=5_1 marks=2
 __5.1__ What letter comes next in this sequence?  
@@ -180,7 +180,6 @@ __6.1__ A shop advertises ‘Buy one, get one at half price’. For this offer, 
 * [ ] Three for the price of two  
 * [x] Four for the price of three  
 * [ ] Five for the price of four  
-{.col-5}
 
 ---
 
@@ -192,10 +191,10 @@ So the average cost per item is the same as four items for the price of three.
 
 ## 7. Only Connect
 
-I “borrowed” this questions from the fantastic BBC quiz show ONLY CONNECT. Catch old episodes and watch clips at [the ONLY CONNECT website](https://www.bbc.co.uk/programmes/b00lskhg){target="_blank"}.
+I “borrowed” this question from the fantastic BBC quiz show ONLY CONNECT. Catch old episodes and watch clips at [the ONLY CONNECT website](https://www.bbc.co.uk/programmes/b00lskhg){target="_blank"}.
 
 ::: problem id=7_1 marks=4
-__7.1__ What comes next in this sequence?
+__7.1__ Which option comes next in this sequence?
 
 ![](/resources/10-29-a-trapped-knight/7-only-connect.jpg){image align="center"}
 
@@ -211,7 +210,7 @@ Each box shows something related to a 7-segment digital display, such as a watch
 ^^^
 
 ^^^ hint id=7_2 marks=1
-Each box relates to a number, but which number? Is there a pattern? What is the most obvious pattern? Where would you start this patter? There are two places to start.
+Each box relates to a number, but which number? Is there a pattern? What is the most obvious pattern? Where would you start this pattern? There are two places to start.
 ^^^
 
 ^^^ hint id=7_3 marks=1
@@ -220,7 +219,7 @@ Look at which segments are missing. You will find that the missing segments make
 
 ---
 
-The answer is A. If you imagine the missing segments, then you get the pattern is 0, 1, 2, ?. So, the next number is 3, but we want the segments left when you remove number three.
+The answer is A. If you imagine the missing segments, then you get the pattern 0, 1, 2, ?. So, the next number is 3, but we want the segments left when you remove number three.
 
 ![](/resources/10-29-a-trapped-knight/7-only-connect-answer.jpg){image align="center"}
 :::
@@ -249,13 +248,13 @@ The area of triangle `A = 1/2 × 2 × 3 = 3`;
 The area of parallelogram `B = 1 × 3 = 3`;  
 The area of triangle `C = 1/2 × 3 × 2 = 3`;  
 The area of rectangle `E = 1 × 3 = 3`.  
-However, the area of triangle `D = 3 × 3 − (3 + 3 + 1//2) = 2 1/2`.
+However, the area of triangle `D = 3 × 3 − (3 + 3 + 1/2) = 2 1/2`.
 :::
 
 
 ## 9. Social Distancing in San Francisco
 
-I am writing this Parallelogram during the pandemic lockdown (2020), when I received the picture below from Len Fisher, who explained that it was being put up as reminder for people in San Francisco keep 6 feet apart.
+I am writing this Parallelogram during the pandemic lockdown (2020), when I received the picture below from Len Fisher, who explained that it was being put up as a reminder to people in San Francisco to keep 6 feet apart.
 
 ![](/resources/10-29-a-trapped-knight/9-san-francisco.png)
 
@@ -298,9 +297,9 @@ Assuming that the world production has been about 110 tonnes for each of the pas
 
 The volume of 1kg of platinum is (1000/21.45)cm<sup>3</sup>, that is approximately 50cm<sup>3</sup>.  
 
-So 1 tonne of platinum has a volume of approximately 50,000cm<sup>3</sup>, which is 1/20m<sup>3</sup>.  
+So 1 tonne of platinum has a volume of approximately 50,000cm<sup>3</sup>, which is `1/20`m<sup>3</sup>.  
 
-The volume of platinum produced per year is therefore about 5m3 and the total volume of platinum ever produced is approximately 250m<sup>3</sup>.  
+The volume of platinum produced per year is therefore about 5m<sup>3</sup> and the total volume of platinum ever produced is approximately 250m<sup>3</sup>.  
 
 This is the volume of a cuboid measuring 10m × 5m × 5m, which is comparable to a house.
 :::
@@ -326,7 +325,7 @@ Mass of air = volume × density = 3 × 5 × 5 × 1.3 = 97.5 Kg, roughly the same
 
 ## 12. The Googol machine      
 
-This machine physically visualizes a googol (`10^100`). Watch and be awe struck. Each gear reduction of 10:1, so when the first wheel makes 10 rotations, the second wheel makes on1y 1 rotation. Then the first wheel makes 100 rotations, the second wheel makes only 10 rotations, and the third wheel rotates once. If the first, or when, the first wheel makes a googol rotations, the final wheel will have made one rotation.
+This machine physically visualizes a googol (`10^100`). Watch and be awe struck. Each gear has a reduction of 10:1, so when the first wheel makes 10 rotations, the second wheel makes only 1 rotation. Then when the first wheel makes 100 rotations, the second wheel makes only 10 rotations, and the third wheel rotates once. If the first, or when, the first wheel makes a googol rotations, the final wheel will have made one rotation.
 
 @[youtube](KLAbM9aDupk?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 

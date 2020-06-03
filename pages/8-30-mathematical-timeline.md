@@ -22,7 +22,7 @@ The terrific Mathigon website has loads of great material, including a timeline 
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/8-29-mathematical-timeline/1-napier.png){image align="center"}
+![](/resources/8-30-mathematical-timeline/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at mathematicians from 1000 to 1500, what is the surname of the mathematician who invented co-ordinate geometry?
@@ -103,7 +103,7 @@ There are fifty 1s in this expression, and hence the sum is 50.
 <!--- 2017 (21) --->
 
 ::: problem id=4_1 marks=4
-![](/resources/8-29-mathematical-timeline/4-trapezium.png){image align="right"}
+![](/resources/8-30-mathematical-timeline/4-trapezium.png){image align="right"}
 __4.1__ The small trapezium on the right has three equal sides and angles of 60° and 120°.  
 
 Nine copies of this trapezium can be placed together to make a larger version of it, as shown.  
@@ -125,7 +125,7 @@ The large trapezium and the small trapezium are made from three equilateral tria
 
 ---
 
-![](/resources/8-29-mathematical-timeline/4-trapezium-answer.png){image align="right"}
+![](/resources/8-30-mathematical-timeline/4-trapezium-answer.png){image align="right"}
 The large trapezium and the small trapezium are made from three equilateral triangles. The longer side is twice as long as any of the shorter sides.  
 
 Large trapezium – the total perimeter (18 cm) is equal to (5 x any of the shorter sides), which means any of the shorter side is 3.6 cm in length, and the longer side is 7.2 cm.  

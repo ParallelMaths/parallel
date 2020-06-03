@@ -23,7 +23,7 @@ As mentioned last week, the terrific Mathigon website has loads of great materia
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/9-30-mathematical-plaques/1-napier.png){image align="center"}
+![](/resources/9-29-mathematical-plaques/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is best known for proving Fermat’s Last Theorem?
@@ -60,7 +60,7 @@ __2.1__ You are given that m is an even integer and n is an odd integer. Which o
 
 We make repeated use of the standard facts that the sum of two even integers is even, the sum of two odd integers is also even, and the sum of an even integer and an odd integer is odd. Also, the product of two integers is odd if, and only if, both integers are odd. Note that the following tables give us a convenient way to summarize these facts.
 
-![](/resources/9-30-mathematical-plaques/2-odd-even.png){image align="center"}
+![](/resources/9-29-mathematical-plaques/2-odd-even.png){image align="center"}
 
 We can now check the options, one by one.  
 
@@ -81,7 +81,7 @@ All over the UK, there blue plaques on buildings where famous people lived or wo
 ::: problem id=3_1 marks=3
 __3.1__  This photo by David Harrison shows a plaque erected next the Drypool Bridge in Hull.
 
-![](/resources/9-30-mathematical-plaques/3-mathematician-plaque.jpg){image align="center"}
+![](/resources/9-29-mathematical-plaques/3-mathematician-plaque.jpg){image align="center"}
 
 What is the surname of the mathematician who is being remembered? I have removed his name from the middle section of the plaque.
 
@@ -91,7 +91,7 @@ What is the surname of the mathematician who is being remembered? I have removed
 
 The answer is VENN, because John Venn invented the Venn diagram and he was both (mathematician, philosopher, priest) + (had a strong beard).
 
-![](/resources/9-30-mathematical-plaques/3-mathematician-answer.jpg){image align="center"}
+![](/resources/9-29-mathematical-plaques/3-mathematician-answer.jpg){image align="center"}
 :::
 
 
@@ -178,7 +178,7 @@ How many of the points (6,2), (6,3), (6,4) and (6,5) are _not_ hidden points?
 
 ---
 
-![](/resources/9-30-mathematical-plaques/6-graph.png){image align="right"}
+![](/resources/9-29-mathematical-plaques/6-graph.png){image align="right"}
 We can see that:  
 * the point (6,2) is hidden behind (3,1),  
 * the point (6,3) is hidden behind (2,1), and

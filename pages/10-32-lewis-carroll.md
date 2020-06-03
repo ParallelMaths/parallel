@@ -28,7 +28,7 @@ Just watch and enjoy this video by the Alex Bellos (author of some great books a
 <!--- (1999) Q02 --->
 
 ::: problem id=2_1 marks=3
-__2.__ A sheet of A4 paper (297 mm × 210 mm) is folded once and then laid flat on the table.  
+__2.1.__ A sheet of A4 paper (297 mm × 210 mm) is folded once and then laid flat on the table.  
 
 ![](/resources/10-32-lewis-carroll/2-shapes.jpg){image align="center"}
 
@@ -64,11 +64,11 @@ __3.1__ In a right angled triangle the two shorter sides have lengths 10cm and 5
 
 Let the hypotenuse be of length `h` cm. Then `h^2 = 100 + 25 = 125`.  
 
-Therefore `h = sqrt(125)`; `11^2 - 121` and `12^2 - 144`, therefore 11 < `h` < 12.  
+Therefore `h = sqrt(125)`; `11^2 = 121` and `12^2 = 144`, therefore 11 < `h` < 12.  
 
 `11.5^2 = (11 + 1/2)^2 = 11^2 + 2 × 11 × 1/2 + 1/4 = 132 1/4`, therefore 11 < `h` < 11.5.  
 
-`11.25^2 = (11 + 1/4)^2 = 121 + 2 × 11 × 1/4 + 1/6`, therefore `11.25^2 > 126.5`, therefore 11 < `h` < 11.15.  
+`11.25^2 = (11 + 1/4)^2 = 121 + 2 × 11 × 1/4 + 1/16`, therefore `11.25^2 > 126.5`, therefore 11 < `h` < 11.25.  
 
 The length of the the hypotenuse is therefore closer to 11 cm than 11.5 cm.
 :::
@@ -81,7 +81,7 @@ I spotted this on the internet, a bill from a restaurant, with a very interestin
 ![](/resources/10-32-lewis-carroll/4-tip.jpg){image align="center"}  
 
 ::: problem id=4_1 marks=4
-__4.1__ If the small block is 1 Kg, and you want to calculate 3 digits of π, then what mass would the large block have to be?  
+__4.1__ What is the tip?
 
 * [ ] Something to do with squares
 * [ ] Something to do with triangles
@@ -116,7 +116,7 @@ __5.1__ In the _Soft Boulder Café_ each table has 3 legs, each chair has 4 legs
 
 ## 6. Optical illusions
 
-Here is a great video from YouTuber Zach King, all about optical illusions about furniture. There are all real, except the anamorphic chair becoming real must be a camera trick.
+Here is a great video from YouTuber Zach King, featuring optical illusions about furniture. They are all real, except the anamorphic chair becoming real must be a camera trick.
 
 @[youtube](FHJ3CMWnVxY?rel=0&end=216) _(If you have any problems watching the video then just right click and open it in a new window)_  
 

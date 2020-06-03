@@ -17,20 +17,17 @@ week by the Parallel Project to bright young mathematicians.
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
-## 1. Lewis Carroll's Pillow Problem
+## 1. Juice and water
 
-At break, every student is drinking either water or juice.
+At break, every student in the class chooses to drink either water or juice.
 
-Use this information to work out the values of A, B, C, and D in the table below.
+![](/resources/10-33-juice-water/1-juice.jpg){image align="right"}
+Use this information to work out the values of A, B, C, and D in the table.
 
 * There are 20 students at break
 * There are 13 girls at break
 * 8 students are drinking Juice
 * 2 boys are drinking water
-
-|  | Juice | Water |  
-| Girls | A | B |  
-| Boys | C | D |  
 
 ::: problem id=1_1 marks=1
 __1.1__ A = <input solution="3"/>
@@ -53,10 +50,7 @@ It probably helps to extend the table, so that we have space to talk about the t
 
 And we know that the total number of drinks and the total number of students both add up to 20.
 
-|  | Juice | Water |  |  
-| Girls | A | B | Total girls |   
-| Boys | C | D | Total boys |
-|  | Total juice | Total water | 20 |     
+![](/resources/10-33-juice-water/1-juice-answer1.jpg){image align="center"}  
 
 So, we know from the question that:
 
@@ -66,10 +60,7 @@ So, we know from the question that:
 
 If total water is 12, and 2 boys drink water, then 10 girls drink water, so B = 10.
 
-|  | Juice | Water |  |  
-| Girls | A | B = 10 | Total girls = 13 |   
-| Boys | C | D = 2 | Total boys = 7 |
-|  | Total juice = 8 | Total water = 12 | 20 |     
+![](/resources/10-33-juice-water/1-juice-answer2.jpg){image align="center"}   
 
 It is now obvious that A = 3 and C = 5.
 :::
@@ -101,7 +92,7 @@ The maximum number of days in any month is 31, and 31 × 24 = 744.
 
 ::: problem id=3_1 marks=4
 ![](/resources/10-33-juice-water/3-semicircle.jpg){image align="right"}
-__3.1__ The diagram shows a semicircle containing a circle which touches the circumference of the semicircle and goes through its centre.  
+__3.1__ The diagram shows a semicircle containing a circle which touches the circumference of the semicircle and goes through the midpoint of its diameter.  
 
 What fraction of the semicircle is shaded?
 
@@ -118,14 +109,14 @@ Let the radius of the circle be `r`. This implies that the radius of the semicir
 :::
 
 
-## 4.	How many squares on a chess board 	
+## 4.	Squares on a chess board 	
 
 ::: problem id=4_1 marks=4
-__4.1__ Of course, we know there are 64 small squares on an 8x8 chess board, but how many squares are there in total if we count squares of all sizes.
+__4.1__ Of course, we know there are 64 small squares on an 8x8 chess board, but how many squares are there in total if we count squares of all sizes?
 
 ![](/resources/10-33-juice-water/4-chessboard.png){image align="center"}  
 
-For examples, the board above shows a 1x1 square (top left), a 2x2 square (bottom left) and a 4x4 square, but how many squares are there in total.
+For example, the board above shows a 1x1 square (top left), a 2x2 square (bottom left) and a 4x4 square, but how many squares are there in total?
 
 <input solution="204"/>
 
@@ -143,7 +134,7 @@ You need to break down the problem by looking at different sizes of squares and 
 
 There are 64 squares of size 1x1. There are 49 squares of size 2x2. And so on.  
 
-So you need to add up all the square numbers form 1 to 64. And the answer is 204.
+So you need to add up all the square numbers from 1 to 64. And the answer is 204.
 :::
 
 

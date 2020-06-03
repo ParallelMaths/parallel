@@ -22,7 +22,9 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 Another puzzle from Professor Wiseman, [whose website is really worth a visit](https://richardwiseman.wordpress.com/){target="_blank"} when you’ve completed this Parallelogram.
 
 ::: problem id=1_1 marks=2
-__1.1__ What NUMBER comes next in this sequence?
+__1.1__ Which NUMBER comes next in this sequence?
+
+77, 49, 36, …
 
 <input solution="18"/>
 
@@ -32,7 +34,7 @@ Instead of 77, think of it as 7 and 7... and then think of the 4 basic operation
 
 ---
 
-This of 77 as 7 × 7 = 49, then think of 49 as 4 × 9 = 36, and so on.
+Think of 77 as 7 × 7 = 49, then think of 49 as 4 × 9 = 36, and so on.
 :::
 
 
@@ -51,7 +53,7 @@ __2.1__ What fraction of a 24-hour day does school take up, if school starts at 
 
 ---
 
-The required fraction `= 6 (3/4)/24 = 27/96 = 9/32`.
+The required fraction `= (6 3/4)/24 = 27/96 = 9/32`.
 :::
 
 
@@ -106,9 +108,9 @@ The teacher in question, the great Mr Pigden, passed away in 2017.
 
 ::: problem id=5_1 marks=4
 ![](/resources/10-30-slinky-physics/5-block.png){image align="right"}
-__5.1__ A 1 × 2 × 3 block is placed on an 8 × 8 board, as shown with the 1 × 2 face ‘X’ at the bottom.  
+__5.1__ A 1 × 2 × 3 block is placed on an 8 × 8 board as shown, with the 1 × 2 face ‘X’ at the bottom.  
 
-It is rolled over an edge without slipping onto the 1 × 3 face Y, then onto the 2 × 3 face Z, then onto X, Y, Z again in that order.  
+It is rolled over an edge, without slipping, onto the 1 × 3 face Y, then onto the 2 × 3 face Z, then onto X, then Y, then Z again in that order.  
 
 How many different squares on the board has the block occupied altogether, including the starting and ending positions?
 
@@ -138,8 +140,8 @@ __6.1__ Take a look at this video and decide what will happen.
 
 @[youtube](wGIZKETKKdw?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
 
-* [ ] The bottom end fall first  
-* [x] The top end fall first  
+* [ ] The bottom end falls first  
+* [x] The top end falls first  
 * [ ] The top and bottom fall together (so the slinky maintains its length for a while)  
 * [ ] The top falls down and the bottoms moves up at the same time
 

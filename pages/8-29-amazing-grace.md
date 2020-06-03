@@ -23,7 +23,7 @@ As mentioned last week, the terrific Mathigon website has loads of great materia
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/8-30-amazing-grace/1-napier.png){image align="center"}
+![](/resources/8-29-amazing-grace/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is the only mathematician to have won the Abel Prize and the Nobel Prize for economics?
@@ -42,7 +42,7 @@ __1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the su
 <!--- 2018 (3) --->
 
 ::: problem id=2_1 marks=2
-![](/resources/8-30-amazing-grace/2-shape.png){image align="right"}
+![](/resources/8-29-amazing-grace/2-shape.png){image align="right"}
 __2.1__ The diagram shows an equilateral triangle, a square, and one diagonal of the square.  
 
 What is the value of `x`?
@@ -56,7 +56,7 @@ What is the value of `x`?
 
 ---
 
-![](/resources/8-30-amazing-grace/2-shape-answer.png){image align="right"}
+![](/resources/8-29-amazing-grace/2-shape-answer.png){image align="right"}
 Let `A`, `B`, `C` and `D` be the vertices of the square, and `A`, `D` and `E` be the vertices of the equilateral triangle, as shown.  
 
 `∠EDA = 60°` because it is the angle of an equilateral triangle.  
@@ -74,7 +74,7 @@ Therefore `x = 105`.
 <!--- 2017 (14) --->
 
 ::: problem id=3_1 marks=4
-![](/resources/8-30-amazing-grace/3-squares.png){image align="right"}
+![](/resources/8-29-amazing-grace/3-squares.png){image align="right"}
 __3.1__ Mathias is given a grid of twelve small squares. He is asked to shade grey exactly four of the small squares so that his grid has two lines of reflection symmetry.  
 
 How many different grids could he produce?
@@ -100,7 +100,7 @@ The answer is not 4.
 
 ---
 
-![](/resources/8-30-amazing-grace/3-squares-answers.png){image align="right"}
+![](/resources/8-29-amazing-grace/3-squares-answers.png){image align="right"}
 The two lines of reflection symmetry of the grid are shown in the figure on the right as broken lines.
 
 We see from this that if the grid with some of the small squares shaded grey has both these lines of reflection symmetry, then all the four squares labelled P must be the same colour. Similarly, all the four squares labelled `Q` must be the same colour, the two squares labelled `R` must be the same colour, and the two squares labelled `S` must be the same colour.  
@@ -112,7 +112,7 @@ It follows that there are only three ways in which Mathias can shade exactly fou
 
 The three different grids that Mathias could produce are shown in the figure below.
 
-![](/resources/8-30-amazing-grace/3-squares-grids.png){image align="center"}
+![](/resources/8-29-amazing-grace/3-squares-grids.png){image align="center"}
 :::
 
 
@@ -139,7 +139,7 @@ __4.1__ What caused Grace Hopper to invent the word bug, meaning a problem in a 
 ::: problem id=5_1 marks=4
 __5.1__ What is the sum of the digits in the completed crossnumber?
 
-![](/resources/8-30-amazing-grace/5-crossnumber.png){image align="center"}
+![](/resources/8-29-amazing-grace/5-crossnumber.png){image align="center"}
 
 ^^^ hint id=5_1
 Which power of 11 has 5 digits? Try `11^4`.
@@ -162,7 +162,7 @@ It follows that __2 Down__ is a 2-digit square with units digit 4. Hence __2 Dow
 
 We now see that __1 Across__ is a 3-digit cube with units digit 6. The only such 3-digit cube is 216 (= `6^3`).
 
-![](/resources/8-30-amazing-grace/5-crossnumber-answer.png){image align="right"}
+![](/resources/8-29-amazing-grace/5-crossnumber-answer.png){image align="right"}
 Hence the completed crossnumber is as shown in the figure.
 
 We see that the sum of the digits in the completed crossnumber is:  

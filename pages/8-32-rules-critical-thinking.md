@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 ::: problem id=1_1 marks=3
 __1.1__ In a 24-hour period, how often does the number 5 appear in a digital clock?  
 
-Let me define the question in a bit more detail. Count how many 5's would be on the clock if you looked at it every minute. So, for example, at 05:53 there are two, then at 05:54 there are two, and at 05:55 there are three and so on. By the way, it is a 24-hour clock, so you will also have 15:55 that has three 5’s.
+Let me define the question in a bit more detail. Count how many 5's would be on the clock if you looked at it every minute. So, for example, at 05:53 there are two, then at 05:54 there are two, and at 05:55 there are three and so on. By the way, it is a 24-hour clock, so you will also have 15:55, which has three 5’s.
 
 <input solution="504"/>
 
@@ -91,7 +91,7 @@ Thus the triangle `PQR` has two angles which are each `28°`. Therefore, because
 
 ## 3. Richard Feynman explains science
 
-Richard Feynman is a hero of science and a Nobel Prize winner in physics. In this video, he explains how being a scientist is like watch a game of chess when you don’t understand the rules.  
+Richard Feynman is a hero of science and a Nobel Prize winner in physics. In this video, he explains how being a scientist is like watching a game of chess when you don’t understand the rules.  
 
 @[youtube](o1dgrvlWML4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
