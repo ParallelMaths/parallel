@@ -5,7 +5,7 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-1. a portmanteaux word combining parallel and telegram. A message sent each
+1. a portmanteau word combining parallel and telegram. A message sent each
 week by the Parallel Project to bright young mathematicians.
 
 </div>

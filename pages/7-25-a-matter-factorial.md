@@ -5,7 +5,7 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-1. a portmanteaux word combining parallel and telegram. A message sent each
+1. a portmanteau word combining parallel and telegram. A message sent each
 week by the Parallel Project to bright young mathematicians.
 
 </div>
@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 ::: problem id=1_1 marks=1
 __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song, then write the total in the box below.
 
-@[youtube](nZ38tg1342s?start=19&end=53&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](LAfYPIxkqCw?start=14&end=42&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 <input solution="75"/>  
 
@@ -35,7 +35,7 @@ __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and
 ::: problem id=1_2 marks=1
 __1.2.__ What is the total of all the numbers in the song at the beginning of this clip?
 
-@[youtube](nZ38tg1342s?start=79&end=95&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](LAfYPIxkqCw?start=80&end=98&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
 
 <input solution="44"/>  
 

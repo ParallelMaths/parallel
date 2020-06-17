@@ -6,7 +6,7 @@ Each Thursday at 3pm, you will have access to a new set of online mathematical c
 
 It should take just 15 minutes to complete each Parallelogram. If you quit and return to the Challenges, then your previous answers will be saved. (After Christmas, the Parallelograms will take a bit more time.)
 
-If the rest of your class is also doing Paralellograms, then you will need to complete the challenges and hit the SUBMIT button by midnight on Sunday. Otherwise, try to finish before the next Parallelogram is released on Thursday.
+If the rest of your class are also doing *Paralellograms*, then you will need to complete the challenges and hit the SUBMIT button by midnight on Sunday. Otherwise, try to finish before the next Parallelogram is released on Thursday.
 
 As soon as you hit the SUBMIT button, you will be able to see the answers as well as your score. Most importantly of all, make sure you go through the solution sheet and try to learn by your mistakes.
 

@@ -437,10 +437,11 @@ year9:
     deadline: 2019-09-15T19:00:00
 
 year10:
-  # - url:
-  #   title:
-  #   available:
-  #   deadline:
+#  - url: 10-35-summer-sums
+#    title: Summer Sums
+#    available: 2020-07-09T13:00:00
+#    deadline: 2020-07-12T13:00:00
+#    scoreFactor: 3
   - url: 10-34-revolutionary-riddles
     title: Revolutionary Riddles
     available: 2020-07-02T13:00:00
