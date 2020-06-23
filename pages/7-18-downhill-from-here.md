@@ -195,7 +195,7 @@ To understand the underlying physics in the previous question, take a look at
 this video that explains how to be a ski jump champion... and then answer this
 question.
 
-@[youtube](BDpxSLv89Y8?start=41&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](BDpxSLv89Y8?start=41&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ In the 1960s, what formation did ski jumpers make with their skies?
@@ -287,7 +287,7 @@ If you are confused (perhaps you missed some of the earlier Parallelograms),
 then take a look at this video from [Chris at Chegg.com](http://www.chegg.com){target="_blank"}. The explanation is
 fairly slow and lengthy, but it should clear up any confusion.
 
-@[youtube](6gkJXu3nxR0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](6gkJXu3nxR0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 Now that you have mastered the affine cipher, answer these questions.
 

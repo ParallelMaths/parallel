@@ -73,11 +73,11 @@ The answer starts (and therefore ends) with a K.
 
 Everyone assumes that you need round wheels for a smooth ride, but that assumes that the road is flat. If the road has very particular surface, then a square wheel will give you a much smoother ride than a round wheel, as this video reveals.
 
-@[youtube](S8B11pV8HpU?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](S8B11pV8HpU?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 This clip explains some of the maths needed to make a square wheel work on a bumpy road.
 
-@[youtube](LgbWu8zJubo?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](LgbWu8zJubo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ When describing a smooth ride with square wheels, which of these statements is not true?

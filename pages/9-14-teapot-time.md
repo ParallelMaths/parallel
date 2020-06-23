@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 I was fascinated when I heard that in many of Disney’s classic early animated films, the studio recycled and rehashed earlier sequences to save time on drawing new scenes. The clip below shows some of the most remarkable examples. Watch carefully and answer the question below.
 
-@[youtube](FepHIzaXTyg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](FepHIzaXTyg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ One of my favourite films as a kid – even now – is Disney’s “Robin Hood”. The dance scene is largely built by stealing sequences from other films.
@@ -37,7 +37,7 @@ Nowadays most animated films rely on mathematics to draw and animate scenes, whi
 
 Below is a short video clip about the Utah teapot, which played an important role in the history of computer animation. Take a look at the video and find out how and why mathematics was used to model the teapot, and then answer the question below.
 
-@[youtube](TIxt9guMbXo?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](TIxt9guMbXo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_2 marks=2
 __1.2.__ Why was the Utah teapot such a good object for testing how to mathematically model 3D objects?

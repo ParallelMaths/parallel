@@ -28,7 +28,7 @@ This is a video from the hugely successful maths video channel Numberphile. The 
 
 Professor Roger Bowley from the University of Nottingham explains why 6,174 is such a special number. Watch it and answer the questions below.
 
-@[youtube](d8TRcZklX_Q?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](d8TRcZklX_Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 In short:
 
@@ -114,7 +114,7 @@ If you have watched “The Wizard of Oz”, then you might not have spotted the 
 
 Listen to the Scarecrow’s version of Pythagoras’s Theorem.
 
-@[youtube](2pWSwfVDiq8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](2pWSwfVDiq8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 The Scarecrow recites an incorrect version of the Pythagorean Theorem: "The sum of the square roots of any two sides of an isosceles triangle is equal to the square root of the remaining side.”
 

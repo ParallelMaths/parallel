@@ -79,7 +79,7 @@ __4.1.__ Which of the following does NOT describe the ways in which a mathematic
 * [ ] Mathematicians can pinpoint players who are good value for money.  
 * [ ] Mathematicians use baseball statistics to identify how each player can contribute to the team.  
 
-@[youtube](KWPhV6PUr9o?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](KWPhV6PUr9o?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 

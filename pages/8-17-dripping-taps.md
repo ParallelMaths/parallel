@@ -136,7 +136,7 @@ Hence the mean of `2/3` and `4/9` is:
 
 A couple of weeks ago, we featured Matt Parker in a video talking about measuring π  using a pendulum. To end this Parallelogram, here is a another π-culiar video by Matt, in which he measures pi using pies. Watch and enjoy.
 
-@[youtube](ZNiRzZ66YN0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](ZNiRzZ66YN0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 
@@ -155,6 +155,6 @@ Simon.
 
 ## Additional Stuff
 
-* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video asks who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_{target="_blank"}
+* Matt’s video is from a channel called Numberphile, which is full of fantastic mathematical stuff. Some videos are challenging, others are more straightforward, and a few are about the history or culture of mathematics. For example, [this video asks who is right? Brits who says MATHS or Americans who say MATH?](https://www.youtube.com/watch?v=SbZCECvoaTA?rel=0) _(If you have problems watching the video, right click to open it in a new window)_{target="_blank"}
 
 * And this video, by Matt Parker, [shows you how mathematicians tie their shoelaces](https://www.youtube.com/watch?v=XPIgR89jv3Q){target="_blank"}. I don’t think it is part of the GCSE curriculum yet, but you will need to know about the maths of tying shoe laces for A Level, so it is worth learning the technique now.

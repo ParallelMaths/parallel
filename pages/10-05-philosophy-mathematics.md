@@ -27,7 +27,7 @@ There are many links between mathematics and philosophy ranging from logic to qu
 
 In this clip, from a documentary in the American Nova series, the mathematicians interviewed are all on the “discovered” side of the argument, but there are many who would disagree, and the truth is that nobody really knows.
 
-@[youtube](hkSs29ILAeE?start=1150&end=1211&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](hkSs29ILAeE?start=1150&end=1211&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ Which of the following proofs has yet to be discovered (or invented)? Some googling might be required. Or maybe not.
@@ -48,7 +48,7 @@ All the options, except one, were labelled ‘theorems’, which means that they
 
 When I was a kid, I used to make paper poppers or paper crackers – here’s how to make them.
 
-@[youtube](NqNOS51nmZc?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](NqNOS51nmZc?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 It is not easy to build a paper popper, so you might need to check out this list of instructions if your first attempt fails. My main advice is to make sure your initial folding goes up much more than half-way: https://www.wikihow.com/Make-a-Paper-Popper{target="_blank"}  
 

@@ -155,7 +155,7 @@ Let the radius of R's track be r and let the radius of the first semicircle of P
 
 Here’s a video from Michael Stevens, the man behind the Vsauce YouTube channel, all about the Earth, what it looks like, the physics of vision and the mathematics of maps. Take a look and answer the questions below.  
 
-@[youtube](2lR7s1Y6Zig?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](2lR7s1Y6Zig?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=5_1 marks=2
 __5.1__ No map is perfect, but what are the pros and cons of the Mercator projection map?

@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Just watch and enjoy this video by the Alex Bellos (author of some great books about mathematics (and football)) for the Numberphile YouTube channel. No questions, just a video.  
 
-@[youtube](n2Kp3toDJ9c?rel=0&end=450) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](n2Kp3toDJ9c?rel=0&end=450) _(If you have problems watching the video, right click to open it in a new window)_  
 
 
 ## 2. Intermediate Maths Challenge Problem (UKMT)
@@ -118,7 +118,7 @@ __5.1__ In the _Soft Boulder Café_ each table has 3 legs, each chair has 4 legs
 
 Here is a great video from YouTuber Zach King, featuring optical illusions about furniture. They are all real, except the anamorphic chair becoming real must be a camera trick.
 
-@[youtube](FHJ3CMWnVxY?rel=0&end=216) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](FHJ3CMWnVxY?rel=0&end=216) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=6_1 marks=2
 __6.1__ Ashley HomeStore provided a grey chair, which appears to float after the legs are removed. How?

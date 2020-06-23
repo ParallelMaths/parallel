@@ -25,7 +25,7 @@ This is a fascinating Numberphile video presented by mathematical genius Neil Sl
 
 ![](/resources/10-29-a-trapped-knight/1-chess.png){image align="center"}
 
-@[youtube](RGQe8waGJ4w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](RGQe8waGJ4w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=1_1 marks=2
 __1.1__ The knight dashes around the infinite board according to the rules outlined by Neil Sloane, and it eventually gets trapped at square 2,084.  
@@ -327,7 +327,7 @@ Mass of air = volume × density = 3 × 5 × 5 × 1.3 = 97.5 Kg, roughly the same
 
 This machine physically visualizes a googol (`10^100`). Watch and be awe struck. Each gear has a reduction of 10:1, so when the first wheel makes 10 rotations, the second wheel makes only 1 rotation. Then when the first wheel makes 100 rotations, the second wheel makes only 10 rotations, and the third wheel rotates once. If the first, or when, the first wheel makes a googol rotations, the final wheel will have made one rotation.
 
-@[youtube](KLAbM9aDupk?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](KLAbM9aDupk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 
 The next Parallelogram will be out on Thursday 4 June at 3pm.

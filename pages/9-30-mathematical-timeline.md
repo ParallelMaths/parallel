@@ -97,7 +97,7 @@ Last week, you watched a video about the mathematical problem of sphere packing.
 
 This week, Matt Parker looks a problem all about stacking spheres. Take a look at the question below.
 
-@[youtube](q6L06pyt9CA?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](q6L06pyt9CA?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=4
 __3.1__  If you stack 90,525,801,730 cannonballs in a pyramid, with a base shaped as a 31,265-agon, then how many layers of cannonballs will be in the pyramid?
@@ -134,7 +134,7 @@ I spotted this terrific video on the Great Big Story channel: “Once upon a tim
 
 Take a look and answer this question.
 
-@[youtube](PhNUjg9X4g8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](PhNUjg9X4g8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=5_1 marks=2
 __5.1__ One mathematician likens mathematics to several other activities. Which of the following does he NOT mention?

@@ -94,7 +94,7 @@ Last week, we looked at the Die Hard movie that featured a water jug puzzle. Thi
 
 For starters, take a look at this puzzle: can you deliver 6 litres of milk if you have containers of size 12 litres, 8 litres and 5 litres?
 
-@[youtube](9fZB4s38Ygg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](9fZB4s38Ygg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=3_1 marks=2
 __3.1__ In the solution given in the video, what volumes of liquid are in the 12, 8 and 5 litre jugs just before the problem is solved, i.e., just before one of the jugs contains 6 litres?
@@ -136,7 +136,7 @@ Finally, take a look at this video by the Mathologer, otherwise known as Profess
 
 This is a 14-minute video, and it goes into more depth than most videos featured in Parallelograms, but I would really encourage you to watch all of it and try to understand the method being described. You might have to pause and repeat some sections in order to understand what the Mathologer is saying, but I promise you it is worth persevering.
 
-@[youtube](0Oef3MHYEC0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](0Oef3MHYEC0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 Once you have watched the video, answer the questions below.  
 

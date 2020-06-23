@@ -120,7 +120,7 @@ I realise that Shrove Tuesday is still a little while away, but I wrote this Par
 
 In the meantime, watch the video and answer the three questions that follow. In fact, perhaps look at the questions first, so you can listen out for the answers when you watch the video.
 
-@[youtube](m3drS_8BpU0?end=470&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](m3drS_8BpU0?end=470&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1.__ Using the most efficient method for the worst arrangement, how many flips do you need to reorder three pancakes?
@@ -190,7 +190,7 @@ So the smallest number of additional squares that need to be shaded is 3.
 
 This is a cool video from Physics Girl, who presents a terrific YouTube channel, full of fascinating videos. Find out how it is possible for a ball to bounce higher than it has been dropped. Physics Girl suggests that you try this for yourself – my advice is to start with two balls, because the demonstration is easier to do and is still pretty impressive.
 
-@[youtube](2UHS883_P60?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](2UHS883_P60?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
@@ -224,7 +224,7 @@ At that time, Carl Sagan was probably the most famous astrophysicist in the worl
 
 If you want to find out more about deGrasse Tyson and Sagan, then there are a couple of short videos after you hit the submit button. The Carl Sagan video is one of the most memorable scientific statements of the last century. Absolutely worth a few minutes of your time.
 
-@[youtube](9ZmU_qTgq8U?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](9ZmU_qTgq8U?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 
@@ -244,9 +244,9 @@ Simon.
 
 ## Additional Stuff
 
-* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_{target="_blank"} reveals a bit more about the astrophysicist Neil deGrasse Tyson
+* This [short video from the Secret Life of Scientists and Engineers](https://www.youtube.com/watch?v=D6FT3cMdImE?rel=0) _(If you have problems watching the video, right click to open it in a new window)_{target="_blank"} reveals a bit more about the astrophysicist Neil deGrasse Tyson
 
-* [This clip contains one of the most moving and extraordinary monologues by a scientist](https://www.youtube.com/watch?v=wupToqz1e2g?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_{target="_blank"}. It has gone down in the folklore of science, and is all about a photograph called the Pale Blue Dot.
+* [This clip contains one of the most moving and extraordinary monologues by a scientist](https://www.youtube.com/watch?v=wupToqz1e2g?rel=0) _(If you have problems watching the video, right click to open it in a new window)_{target="_blank"}. It has gone down in the folklore of science, and is all about a photograph called the Pale Blue Dot.
 
   Here is how Wikipedia describes the clip:
 

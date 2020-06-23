@@ -27,7 +27,7 @@ Back in year 7, Parallel featured a clip from the film “Hidden Figures”, but
 
 __Hidden Figures__ tells the incredible story of Katherine Jonson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA who served as the brains behind the launch into orbit of astronaut John Glenn, a stunning achievement that turned around the Space Race. The visionary trio broke all the barriers put in front of them because of their gender and race, and inspired generations.
 
-@[youtube](RK8xHq6dfAo?end=183&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](RK8xHq6dfAo?end=183&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ When Mary Jackson complains about the car being a pile of junk, Katherine Johnson says that she is welcome to ride in the bus... in particular, the back of the bus. She is probably referring the fact that it had been the rule in some parts of America for black men and women to sit at the back of segregated buses. It was one woman in particular who fought this injustice by refusing to give up her seat to a white passenger in Montgomery (Alabama) on 1 December 1955.  
@@ -44,7 +44,7 @@ The surname of the woman was Parks, but was her first name?
 
 In this clip from “Hidden Figures”, Kathryn Johnson is trying to solve a difficult problem, and realises that some maths from centuries ago might offer a solution. In case it is not clear from the clip, solving this problem is a matter of life and death, as it might decide whether or not the astronaut John Glenn returns to Earth.
 
-@[youtube](v-pbGAts_Fg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](v-pbGAts_Fg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 Kathryn Johnson relied on Euler’s Method, which allows mathematicians to solve a difficult equation by finding an answer that is not perfectly accurate, but which is accurate enough for the purpose in question.  
 

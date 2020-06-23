@@ -28,7 +28,7 @@ This is a video from the hugely successful maths video channel Numberphile. The 
 
 Ria Symonds from the University of Nottingham explains why 7 is a happy number. Watch it and answer the questions below.
 
-@[youtube](kC6YObu61_w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](kC6YObu61_w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 So for a number to be happy, just take the digits, square each digit and add all the squares to create a new number. Then repeat the process with the new number, and continue until you end up with the number 1 or find the numbers stuck in a repeating loop that does not contain 1.
 
@@ -94,7 +94,7 @@ __1.4.__ Is 5,555 a happy number?
 
 I recently watched “School of Rock”, in which Jack Black plays an unemployed musician who pretends to be a teacher. This clip shows Black’s attempt to couple of his love of music with his shaky grasp of maths.
 
-@[youtube](Qsv4_xOkh4M?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](Qsv4_xOkh4M?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ The teacher ask what is six multiplied by a billion, but what is a billion times a billion called? You might need to google this.

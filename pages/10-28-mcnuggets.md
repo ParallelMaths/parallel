@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Take a look at this video from Numberphile, presented by Brady Haran and James Grime.
 
-@[youtube](vNTSugyS038?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](vNTSugyS038?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=1_1 marks=1
 __1.1__ McNugget numbers are properly know as F-O-E-I-S numbers. Type the full 9-letter word here.

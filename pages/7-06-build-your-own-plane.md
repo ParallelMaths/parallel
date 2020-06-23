@@ -70,7 +70,7 @@ Here is an interview with John Collins, who broke the world distance record for 
 
 Listen carefully, as I will be asking a question about the thrower.
 
-@[youtube](i2dUM0qjhy4?start=68&end=250&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](i2dUM0qjhy4?start=68&end=250&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1__ The thrower is an ex-sportsman, but which sport did he play?

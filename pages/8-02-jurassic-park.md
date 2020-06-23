@@ -87,7 +87,7 @@ __1.4.__ 152 and 153 are neighbouring harshad numbers. If you look at bigger num
 
 Jurassic Park is one of Steven Spielberg’s most famous films, and it is based on the idea that biotechnology could use preserved DNA to bring dinosaurs back to life. However, one of its main characters is a mathematician, Dr Ian Malcolm (played by Jeff Goldblum), who specializes in a branch of mathematics known as "Chaos Theory". He tries to explain chaos theory in this clip (but he does not bother discussing the mathematical equations behind chaos theory).
 
-@[youtube](5cVLUPwrSmU?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](5cVLUPwrSmU?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)

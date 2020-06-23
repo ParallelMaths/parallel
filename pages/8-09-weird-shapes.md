@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Last week we look at how well square wheels work… as long as you have the right sort of surface. Here is a clip from the BBC series “Bang Goes the Theory”, in which Jem Stansfield attempts to become the first person ever to jump a forty-five degree ramp on a square wheeled motorbike. He is not going to jump over any buses (or even rhombuses), but it is still quite an achievement.
 
-@[youtube](u-hDEEl67_Y?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](u-hDEEl67_Y?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 2.	Shapes of Constant Width
@@ -31,7 +31,7 @@ However, you now know that a square will roll smoothly, as long as the surface i
 
 But what if we demand that the surface is smooth and flat? Are we restricted to circles? The answer is “no”, as this video by science explorer Steve Mould explains.
 
-@[youtube](cUCSSJwO3GU?end=214&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](cUCSSJwO3GU?end=214&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ The 50p coin and the 20p coin are both 7-sided shapes of constant width? Why is that better than the coins being regular heptagons?
@@ -87,7 +87,7 @@ __2.4__ Take a look at this clip showing a bicycle with unusually shaped wheels.
 * [ ] The ride is smooth because the frame rests on the wheels, not the axles.
 * [x] The effect of the odd wheel shape is cancelled by the uneven road to give a smooth ride.
 
-@[youtube](ebRI4kFmR7U?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](ebRI4kFmR7U?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 

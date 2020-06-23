@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Maths Inspiration offers lectures each morning and afternoon, aimed at schools across England and sometimes beyond. Here is a clip from one of their lectures, featuring Matt Parker talking about his favourite number… or at least his favourite number that week.
 
-@[youtube](wt5cRQY8F30?end=382&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](wt5cRQY8F30?end=382&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ It is possible to regenerate 3,435 by raising each digit to its own power. What percentage of 3,435 is given by raising 4 to its own power?
@@ -60,7 +60,7 @@ This is not a proof, but if you experiment with a few numbers, then you will see
 
 Last week’s Parallelogram included the theme tune to _The Big Bang Theory_, written and performed by the band Barenaked Ladies. Here is a short explanation of the big bang theory for you to watch, and after just a couple of minutes you will have some understanding of where the universe came from, and how we know that the big bang actually happened.
 
-@[youtube](6bPLY7orbVY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](6bPLY7orbVY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Who invented the name Big Bang?

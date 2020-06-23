@@ -43,7 +43,7 @@ Therefore, 12 chickens lay 48 eggs in 12 days.
 
 “Theory of Everything” is a brilliant movie about the life of the cosmologist Professor Stephen Hawking, with the lead male actor Eddie Redmayne winning an Oscar for his performance. Here is the film’s trailer:
 
-@[youtube](Salz7uGp72c?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](Salz7uGp72c?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Professor Hawking once said: “We are just an advanced breed of monkeys on a minor planet of a very average star. But we can ____ _____ ____. That makes us something very special.” What are the missing words? Have a guess, but also use Google to find the right answer.
@@ -57,7 +57,7 @@ __2.1__ Professor Hawking once said: “We are just an advanced breed of monkeys
 
 Many of Professor Hawking’s greatest ideas concerned the nature of black holes. This clip tells you a bit more about black holes and the astrophysicist who first suggested that they might exist.
 
-@[youtube](5p3kBc2FxMQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](5p3kBc2FxMQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_2 marks=3
 __2.2__ After suggesting the idea of a black hole, how long did Chandrasekhar have to wait before he received a Nobel Prize.

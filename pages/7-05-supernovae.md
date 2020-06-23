@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 You might not have covered this yet, but there is an equation that gives the volume of a sphere based on the radius. Just like there is an equation that gives the circumference of a circle based on the radius (circumference = `2 × π × r`). This short video reveals that equation.
 
-@[youtube](uWfzWEcm5yU?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](uWfzWEcm5yU?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 So, now that you know that, try and answer the following questions. Remember:
 
@@ -84,7 +84,7 @@ Another explanation is that Allison is right-handed, that her writing in reality
 
 Take a look at this very short Open University video, which is all about what happens when a star explodes.
 
-@[youtube](M7xTwxj-tSc?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](M7xTwxj-tSc?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ The universe began with the lightest elements in the Periodic Table. The video explains that all the heavier atoms were made when stars exploded, so everything around us is made of stardust, including the calcium in our bones and the iron in our blood. So you and I are made of stardust!

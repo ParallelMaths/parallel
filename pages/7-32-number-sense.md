@@ -75,7 +75,7 @@ A decagon has 10 edges. Therefore the length of each edge of `Q` is given by
 
 This is another interesting video by Jo Boaler. Like last week’s video from Jo, I think it illustrates how we might all see a problem differently and how there are many ways to solve a problem, but they all lead to the same answer.
 
-@[youtube](wxE2Kur4AHc?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](wxE2Kur4AHc?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 4. Junior Maths Challenge Problem (UKMT)

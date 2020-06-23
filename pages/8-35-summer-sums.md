@@ -227,7 +227,7 @@ Hence the ratio of the lengths is 12d:20d = 3:5
 
 MinutePhysics is a great YoutTube channel, so dive in and watch loads of them. But, for now, take a look about this video about running in the rain.
 
-@[youtube](3MqYE2UuN24?end=100rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](3MqYE2UuN24?end=100rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=10_1 marks=2
 __10.1__ If you are outside in the rain and you want to minimise how wet you get, you should…
@@ -360,7 +360,7 @@ Tuesday.
 
 Liv Boeree is a physics graduate who has an insatiable curiosity, which includes asking questions about what would happen if the Earth was made of blueberries?
 
-@[youtube](GtlAeeQMOgQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](GtlAeeQMOgQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=15_1 marks=3
 __15.1__ After a while, what would the atmosphere consist of?
@@ -478,7 +478,7 @@ When a knight starts on a black square, what colour squares can it attack? Only 
 ---
 This QI clip explains why the answer is 32 knights.
 
-@[youtube](mV2e2aokU-0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](mV2e2aokU-0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 
@@ -601,6 +601,10 @@ Clue – you can start by trying out the division on your calculator. Then, you 
 <input solution="998"/>
 :::
 
+
+And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have our brand new Year 9 Parallelograms.  
+
+But, before that, a few important points.  
 
 Before you hit the SUBMIT button, here are some quick reminders:
 

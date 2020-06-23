@@ -131,7 +131,7 @@ We conclude that
 
 Tadashi Tokieda is one of my favourite mathematicians. He is one of the most curious people in the world, finding wonder and joy in the most ordinary of objects. I have sprinkled some Tadashi videos through this Parallelogram, and to start with here is a video about paperclips.
 
-@[youtube](wGkvyN6s9cY?end=452rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](wGkvyN6s9cY?end=452rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=5_1 marks=2
 __5.1__ According to Tadashi, in terms of learning and advancing science, “it’s always important to...”
@@ -236,7 +236,7 @@ The two-digit squares are 16, 25, 36, 49, 64 and 81. Of these, just 49 = 50 − 
 
 ## 10. Money catching
 
-@[youtube](AEpQ8YxupfQ?end=203rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](AEpQ8YxupfQ?end=203rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=10_1 marks=2
 __10.1__ Tadashi explained that an object falls a distance equal to (`1/2 × g × t^2`), which is (`1/2 × 10 × t^2`), which is `5 × t^2`.   
@@ -389,7 +389,7 @@ From the final letters of these sequences we see that there are exactly 6 black 
 
 ## 15. An unexpected way to inflate a balloon
 
-@[youtube](un-pTKfC1dQ?end=306rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](un-pTKfC1dQ?end=306rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=15_1 marks=3
 __15.1__ The video shows a graph explaining how “spherical” the balloon is as time passes. What would be a good way to describe the line in the graph?
@@ -552,7 +552,7 @@ Since `m` and `n` are positive integers with `m > n`, we have `m > 1`. Therefore
 
 ## 20. Numberphile – Freaky dot patterns
 
-@[youtube](QAja2jp1VjE?end=420rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](QAja2jp1VjE?end=420rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=20_1 marks=4
 __20.1__ Tadashi slightly moves the pattern on the transparency over the identical pattern on the paper and sees a new pattern of circles. If the transparency is moved left/right, which direction does the centre of the circles move?
@@ -692,7 +692,7 @@ It follows that the total number of voucher codes is `3 × 10 × 9 × 1 = 270`.
 
 ## 25. Catching Kendama
 
-@[youtube](TkGawXjsltc?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](TkGawXjsltc?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=25_1 marks=3
 __25.1__ In order to make one of the toughest Kendama catches, Tadashi has to take advantage of a principle from physics known as…
@@ -705,7 +705,7 @@ __25.1__ In order to make one of the toughest Kendama catches, Tadashi has to ta
 
 Finally, it’s up to you, but you might enjoy watching the rest of Tadashi’s video about paperclips
 
-@[youtube](wGkvyN6s9cY?end=452rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](wGkvyN6s9cY?end=452rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 
@@ -924,6 +924,10 @@ It follows that the fraction of the area of triangle `PQR` that is shaded is
 `1 − 3/16 − 3/16 = 5/8`.
 :::
 
+
+And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have our brand new Year 10 Parallelograms.  
+
+But, before that, a few important points.  
 
 Before you hit the SUBMIT button, here are some quick reminders:
 

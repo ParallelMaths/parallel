@@ -59,7 +59,7 @@ __1.2.__ A builder agrees to fix your house in 7 days, and you agree to pay her 
 
 One of the most exciting new areas of astronomical research in my lifetime has been the hunt for exoplanets. The term describes planets that are not in our solar system, but rather they orbit distant stars. This short video explains how you discover an exoplanet.
 
-@[youtube](I7UtKDEibBg?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](I7UtKDEibBg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1__ Some exoplanets exist in the Goldilocks Zone. Which of these statements does not apply to planets in this zone?

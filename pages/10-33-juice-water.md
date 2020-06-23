@@ -176,11 +176,11 @@ If K = 13, then U = 10; I = 12; M = 9 and C = 11, which is correct.
 
 Here is an interesting video about siphons. If you find siphons boring, then you will just have to suck it up.
 
-@[youtube](4SEv_GxAo70?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](4SEv_GxAo70?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 And here is a video that tells you more about the Pythagoras cup.
 
-@[youtube](ISfIT3B4y6E?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](ISfIT3B4y6E?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=6_1 marks=2
 __6.1__ What liquid does the professor suggest that a greedy student should first put in the cup in order to then fill it with wine?

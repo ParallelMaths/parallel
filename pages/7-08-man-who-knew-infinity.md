@@ -22,7 +22,7 @@ S. Ramanujan was one of the greatest mathematicians who ever lived. His story ha
 
 Here is a clip from “The Man Who Knew Infinity”, all about the life of Ramanujan.
 
-@[youtube](oXGm9Vlfx4w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](oXGm9Vlfx4w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 

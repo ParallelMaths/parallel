@@ -124,7 +124,7 @@ We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division 
 
 Mathematics is about rules (e.g., odd plus odd equals even), but it is also about understanding the rules in such detail that you know how to gain an advantage in solving problems. In that spirit, here is a clip from the BBC show “QI” about taking advantage of loopholes in sporting rules.
 
-@[youtube](89o7PIjDyFI?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](89o7PIjDyFI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=5_1 marks=3
 __5.1__ Because of cricketer Thomas White, cricket bats can no longer be infinitely wide. Today, what is the maximum permitted width of a cricket bat in first class cricket?
@@ -365,7 +365,7 @@ Suppose Peter has `b` brothers and hence `3b` sisters. So, including Peter, ther
 
 Watch the video below - there will be a question to follow it:
 
-@[youtube](JkRAaZIZaAQ?end=211rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](JkRAaZIZaAQ?end=211rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=15_1 marks=3
 __15.1__ The Statue of Liberty is coated in...
@@ -654,7 +654,7 @@ After losing 10% of the men, the Grand Old Duke of York was left with 90% of the
 
 The video channel “minutephysics” has some great short explanations of scientific mysteries. Take a look at this one about a simple way to fix your eyesight without glasses.
 
-@[youtube](OydqR_7_DjI?end=150rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](OydqR_7_DjI?end=150rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=25_1 marks=3
 __25.1__ What is the disadvantage of a pinhole when trying to see clearly?

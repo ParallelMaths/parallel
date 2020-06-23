@@ -24,7 +24,7 @@ This video shows the very amazing Vi Hart playing with flexible chain snakes. By
 
 Watch the video and then have a go at the following questions.
 
-@[youtube](Gx5D09s5X6U?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](Gx5D09s5X6U?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ Which ‘slither’ is not valid?
@@ -96,7 +96,7 @@ You might wonder, why have a video about words in a mathematics challenge? First
 
 Watch, and have a go at the questions below.
 
-@[youtube](gTKeB8BnzPY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](gTKeB8BnzPY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ::: problem id=4_1 marks=2
@@ -155,7 +155,7 @@ __6.1.__ This question was inspired by a video created by the psychologist Profe
 
 The game is a con, as explained in Professor Wiseman’s video below.
 
-@[youtube](JphgHrRRyZ8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](JphgHrRRyZ8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 
@@ -178,4 +178,4 @@ Simon.
 
 * Here is a video entitled “7 amazing bets you will always win” by Professor Wiseman from his Quirkology YouTube channel.
 
-@[youtube](jZRwc5q1ybQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](jZRwc5q1ybQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_

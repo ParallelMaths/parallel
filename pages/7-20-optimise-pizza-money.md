@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 This is a Countdown numbers game, that John solves in a ridiculously complicated way. The challenge is to make 813 from [1, 10, 25, 50, 75, 100]. Have a go at solving it before watching the video.
 
-@[youtube](_JQYYz92-Uk?end=131&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](_JQYYz92-Uk?end=131&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 There is a simpler way of writing this solution that avoids heading towards such astronomical numbers – the six starting numbers are in bold:
 
@@ -72,7 +72,7 @@ There is also the 3 minutes of waiting at Lens. The total journey time, therefor
 
 Your teachers and parents might have told you about the many applications of mathematics, everything from engineering to computer science, but have they told you about pizza economics? This video explains the mathematics behind buying a pizza.
 
-@[youtube](YAawHbPiQfo?end=102&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](YAawHbPiQfo?end=102&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ Small pizzas are 30 cm in diameter, while super-sized pizzas are 90 cm in diameter. How many small pizzas do you need in order to get the same amount of pizza as one super-sized pizza?

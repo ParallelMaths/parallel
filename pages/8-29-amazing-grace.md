@@ -254,7 +254,7 @@ __8.2__ Such machines often involve domino toppling, and there is domino topplin
 {.col-4}
 :::
 
-@[youtube](qybUFnY7Y8w?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](qybUFnY7Y8w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 Such machines have different names in the UK and the US, in honour of two eccentric inventors. Search on the internet to complete the names.
 

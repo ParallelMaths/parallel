@@ -170,7 +170,7 @@ _6. Do not use power to suppress opinions you think pernicious, for if you do th
 
 Take a look at this amazing video from the Mind Your Decisions YouTube channel.
 
-@[youtube](OgR49veBZjE?end76&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](OgR49veBZjE?end76&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=3
 __3.1__ What is the explanation for the missing square?
@@ -187,7 +187,7 @@ There is a full explanation of the problem at [the Mind Your Decisions blog](htt
 
 In case you don’t know what a paradox is, it is a statement that appears to rely on solid reasoning and logic, but which results in nonsense or a contradiction.
 
-@[youtube](ExUV3GOTDqE?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](ExUV3GOTDqE?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 

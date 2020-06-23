@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 Here is a lovely mathematical card trick by James Grime, from the terrific Numberphile YouTube channel.
 
-@[youtube](_Wv_qw3nQnI?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](_Wv_qw3nQnI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ The trick is based on the...
@@ -50,7 +50,7 @@ Young babies, a few months old, are not impressed by magic. The entire world is 
 
 When you watch this video, please bear in mind that you can sometimes see how the trick is done, but from the animal’s point of view the trick is amazing.
 
-@[youtube](spMkaJp975s?end=120&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](spMkaJp975s?end=120&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 3.	Intermediate Maths Challenge Problem (UKMT)

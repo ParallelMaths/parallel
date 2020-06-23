@@ -25,7 +25,7 @@ If you have been earning badges after completing the first few Parallelograms, t
 
 Here is a short video about Dominic’s Map of Mathematics.
 
-@[youtube](OmJ-4B-mS-Y?start=64&end=186&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](OmJ-4B-mS-Y?start=64&end=186&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1.__ Which of the following statements is __not__ true?
@@ -41,7 +41,7 @@ __1.1.__ Which of the following statements is __not__ true?
 
 Here is a clip from YouTuber Steve Mould, all about how geologists can tell the difference between vibrations from an earthquake compared to those from a nuclear test... and how you spot the location of a seismic event.
 
-@[youtube](Oe6D4-4ILBk?end=353&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](Oe6D4-4ILBk?end=353&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ Imagine you have seismometers (vibration detectors) at the North Pole and the South Pole, which detect P-waves at the same time... and then detect S-waves at the same time. What do you know?

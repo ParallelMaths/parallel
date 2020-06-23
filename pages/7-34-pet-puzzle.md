@@ -65,7 +65,7 @@ So, D + C + R = 11 Kg.
 
 ## 2. Three Simple Ways to Time Travel
 
-@[youtube](FflcA85zcOM?end72&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](FflcA85zcOM?end72&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1__ If you want time to slow down, which one of these will help?

@@ -93,7 +93,7 @@ Thus the triangle `PQR` has two angles which are each `28°`. Therefore, because
 
 Richard Feynman is a hero of science and a Nobel Prize winner in physics. In this video, he explains how being a scientist is like watching a game of chess when you don’t understand the rules.  
 
-@[youtube](o1dgrvlWML4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](o1dgrvlWML4?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ In science, what does Feynman say is the most interesting moment?

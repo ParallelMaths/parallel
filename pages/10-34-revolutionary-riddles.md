@@ -99,7 +99,7 @@ The number of diagonals in an `n`-sided polygon is `1/2 n (n - 3)`. This can be 
 
 Take a look at this great video about riddles relating to revolving or rotating objects. It poses 4 mysteries, which will all be answered in the answer section (after you hit the SUBMIT button). And have a go at answering the question below, which relates to one of the mysteries.
 
-@[youtube](HgCXdNhVC1Q?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](HgCXdNhVC1Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=4_1 marks=3
 __4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have to run the second lap so that the average speed for both laps is 20 km/h?
@@ -113,7 +113,7 @@ __4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have
 
 ---
 
-@[youtube](72DCj3BztG4?start=11&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](72DCj3BztG4?start=11&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 

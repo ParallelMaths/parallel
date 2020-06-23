@@ -87,7 +87,7 @@ __4.1.__ Ada Lovelace worked alongside which famous mathematician?
 {.col-3}
 :::
 
-@[youtube](xiZozgCLHc4?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](xiZozgCLHc4?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 Before I forget, make sure you check out the Additional Stuff section, where you will find out about the Ada Lovelace comic book.
 

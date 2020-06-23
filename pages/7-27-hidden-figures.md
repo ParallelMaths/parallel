@@ -28,7 +28,7 @@ women mathematicians at NASA in the 1960s?”
 Most of you correctly identified the film as Hidden Figures. Let’s start by
 watching the trailer.
 
-@[youtube](RK8xHq6dfAo?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](RK8xHq6dfAo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ Just to check that you were concentrating on that trailer, for how many
@@ -257,7 +257,7 @@ If you want to find out more about the topics in this week’s Parallel Challeng
 * [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html){target="_blank"} from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
 * Short, but incredible, clip of mathematician Katherine Johnson receiving the Presidential Medal Of Freedom from President Obama.
 
-@[youtube](rIWJFNAN4XI?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](rIWJFNAN4XI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 * [Biography of Katherine Johnson](https://www.nasa.gov/content/katherine-johnson-biography){target="_blank"},
 one of the women featured in the film “Hidden Figures”, on the NASA website.

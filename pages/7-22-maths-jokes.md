@@ -67,7 +67,7 @@ tree.
 
 The following video shows what happens if you zoom into the so-called Mandelbrot Set. You see the same pattern (a sort of seahorse’s tail) reappearing again, and again, and again:
 
-@[youtube](PD2XgQOyCCk?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](PD2XgQOyCCk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 So, returning to the joke, the B represents Benoit B Mandelbrot, because zooming into the name
 gives you the whole name again.
@@ -153,7 +153,7 @@ worry if you find it confusing. In fact, if you think you understand what Maryam
 is describing, then you probably don’t. Watch it carefully and answer the
 question below.
 
-@[youtube](4GhbMhQLQ_g?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](4GhbMhQLQ_g?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ What indoor sport does Maryam mention in one of her mathematical
@@ -234,7 +234,7 @@ is worth looking at.
 I watched this terrific video last week. Take a look and answer the question
 afterwards.
 
-@[youtube](5JCm5FY-dEY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](5JCm5FY-dEY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=4 marks=1
 __4__ Starting with 5mm tall domino, roughly how many dominoes would you need to knock
@@ -296,7 +296,7 @@ illusions literally mess with your brain.
 
 Sometimes the geometry that you study at school might seem ordinary – what could be more ordinary than the angles of a triangle or the symmetry of a square? – but your teachers are really providing you with the first stepping stones towards gaining an understanding of the nature of space, and how you can build the sort of flabbergasting structures in this video.
 
-@[youtube](PVRyMvYVHGQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](PVRyMvYVHGQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 Before you hit the SUBMIT button, here are some quick reminders:

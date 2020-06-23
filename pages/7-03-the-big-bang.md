@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 This video is from the terrific Numberphile channel, and it features Dr James Grime and Professor Roger Bowley (University of Nothingham) talking about zero and asking if it is odd or even. Watch and answer the questions below.
 
-@[youtube](8t1TC-5OLdM?end=382&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](8t1TC-5OLdM?end=382&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1.__ Is zero odd or even?
@@ -81,7 +81,7 @@ So, 8 can be divided by 2 three times, which makes it the most even of the five 
 
 Last week’s Parallelogram included a silly (but brilliant) mathematics song by the band Barenaked Ladies. Here is the band’s song about the big bang theory, which is the theme tune to the comedy show, The Big Bang Theory. Incidentally, I am very proud that the band’s lead singer Ed Robertson wrote the song because he had just read my book BIG BANG.
 
-@[youtube](CMSYv_Z4SI8?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](CMSYv_Z4SI8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=1
 __2.1__ The song mentions that mathematics was created by the Big Bang, and it then mentions two other subjects. What are the two other subjects?

@@ -70,11 +70,11 @@ If you are fan of Doctor Who, then you might already know that the show regularl
 
 This is my favourite maths clip from Doctor Who.
 
-@[youtube](ee2If8jSxUo?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](ee2If8jSxUo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 So the Doctor spots that the pattern involves __happy prime numbers__. You will already know about prime numbers, but here “Alexis Inspired” explains what makes a prime number happy.
 
-@[youtube](8ftbFl8tHmY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](8ftbFl8tHmY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then the original starting number is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.
 
@@ -246,7 +246,7 @@ And now for something completely different. Monty Python’s Flying Circus was o
 
 As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.)
 
-@[youtube](7E_8EjoxY7Q?start=4&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](7E_8EjoxY7Q?start=4&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1.__ Which of the Greek footballing philosophers was killed by a Roman soldier, because he was so busy doing mathematics that he refused to obey the soldier’s orders?
@@ -282,6 +282,6 @@ Simon.
 ## Additional Stuff
 
 * If you are interested in studying physics (or maths or engineering) at university, then you might want to watch this video by Physics Girl, in conversation with Jabril Ashe. She talks about her path into physics. Jabril, by the way, is a computer programmer, as well as a YouTuber:
-@[youtube](n2RhC4JNS7M?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](n2RhC4JNS7M?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 * For more Doctor Who stuff, [here is the BBC Doctor Who fun and games website](http://www.bbc.co.uk/programmes/articles/4nH4gHgpmRXh8w8vqLsq1jS/fun-and-games){target="_blank"}.

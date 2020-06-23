@@ -94,7 +94,7 @@ We deduce that `(9/5)^3` is the largest of the given cubes.
 
 If you watch QI on BBC2, then you will know that it is full of quite interesting things, including maths. This video is a compilation of some of the interesting maths that has been featured in the programme. Watch carefully, and then answer the questions below.
 
-@[youtube](lwfedNylBXU?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](lwfedNylBXU?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=3_1 marks=1
 __3.1__ Let’s look at McNugget numbers. McNuggets come in boxes of 6, 9 and 20. The biggest number of nuggets that cannot be made from combinations of 6, 9 and 20 is 43 nuggets, as mentioned in the video. But can you buy 37 nuggets?

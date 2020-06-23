@@ -29,7 +29,7 @@ First, to give you a head start, here are some key points about what you are abo
 * A visitor enters the hotel and asks for a room… but the hotel is full.
 * How can the hotel fit the visitor into the hotel?
 
-@[youtube](EXgZhkce1bE?end=132&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](EXgZhkce1bE?end=132&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=3
 __1.1.__ How does the hotel night manager fit in the new guest?
@@ -98,7 +98,7 @@ __2.3.__ Which of these statements best describes the settled motion of the thre
 * [ ] The dots tend to orbit three separate fixed points.
 :::
 
-@[youtube](FYE4JKAXSfY?&rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](FYE4JKAXSfY?&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)

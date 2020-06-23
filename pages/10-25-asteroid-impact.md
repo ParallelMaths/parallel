@@ -21,7 +21,7 @@ __IMPORTANT__ – it does not really matter what score you get, because the main
 
 This short video shows the sizes of various asteroids that have been spotted in outer space. In fact, some of them have actually struck Earth, such as _2008 TC3_.
 
-@[youtube](bSkPNMjRRio?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](bSkPNMjRRio?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=1_1 marks=1
 __1.1__ Asteroid _99942 Apophis_ is the same shape and density as _2004 FH_, but 10 times taller. How much bigger is its mass?

@@ -100,7 +100,7 @@ In the clip below, former England footballer Ian Wright pays tribute to a childh
 
 The teacher in question, the great Mr Pigden, passed away in 2017.  
 
-@[youtube](omPdemwaNzQ?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](omPdemwaNzQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 
 ## 5. Intermediate Maths Challenge Problem (UKMT)
@@ -138,7 +138,7 @@ As can be seen, 19 squares are occupied altogether.
 ::: problem id=6_1 marks=3
 __6.1__ Take a look at this video and decide what will happen.
 
-@[youtube](wGIZKETKKdw?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](wGIZKETKKdw?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 * [ ] The bottom end falls first  
 * [x] The top end falls first  
@@ -146,7 +146,7 @@ __6.1__ Take a look at this video and decide what will happen.
 * [ ] The top falls down and the bottoms moves up at the same time
 
 ---
-@[youtube](eCMmmEEyOO0?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_  
+@[youtube](eCMmmEEyOO0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 :::
 
 There will be more next week, so check your email or return to the website on Thursday at 3pm.  

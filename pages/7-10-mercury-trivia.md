@@ -77,7 +77,7 @@ Reverse the digits and we get 81.
 
 Watch this short video about the rotation and orbit of Mercury and answer the questions below.
 
-@[youtube](OJrl733eyfY?rel=0) _(If you have any problems watching the video then just right click and open it in a new window)_
+@[youtube](OJrl733eyfY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
 __2.1__ How long is a day on Mercury?
