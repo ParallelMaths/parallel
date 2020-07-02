@@ -25,7 +25,9 @@ And... if you have missed any earlier Parallelograms then the summer is a great 
 
 ## 1. QI mathematics
 
-Here is a neat video from the BBC show “QI”, which demonstrates a lovely maths trick.
+Here is a neat video from the BBC show “QI”, which demonstrates a lovely maths trick.  
+
+(This trick was mentioned in a Year 9 Parallelogram, but the video clip is a lovely and funny demonstration of the trick, so it is worth watching and following the explanation again.)
 
 @[youtube](FN8cwiDKrkI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 

@@ -27,7 +27,7 @@ __Instructions__
 2. Multiply it by 3
 3. Add 3
 4. Multiply by 3 again
-5. Add the two digit number you get together
+5. Add the two digits of the number you get together
 6. The number you're left with is where you will be travelling to
 
 ::: problem id=1_1 marks=1
@@ -129,12 +129,12 @@ __5.1__ The Queen of Hearts has lost her tarts! She is sure that those knaves wh
 - K4: "Only four of us ate them"
 - K5: "All five of us ate them"
 
-How many of the knaves were honest?
+How many of the knaves at the tarts?
 
-* [x] 1
+* [ ] 1
 * [ ] 2
 * [ ] 3
-* [ ] 4
+* [x] 4
 * [ ] 5
 {.col-5}
 
@@ -144,7 +144,11 @@ The five knaves all say that a different number ate the tarts, which means that 
 
 ---
 
-The five knaves all say that a different number ate the tarts, which means that only one of them can be telling the truth. K4 is the only honest knave, and K1, K2, K3 and K5 at the tarts.
+The five knaves all say that a different number ate the tarts, which means that only one of them can be telling the truth.  
+
+Only honest knaves who have not eaten any tarts will tell the Queen the truth, so that means that only one knave out of the five did not eat the tarts.
+
+K4 is the only honest knave who didn't eat the tarts, so that means K1, K2, K3 and K5 at the tarts.
 :::
 
 
