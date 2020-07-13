@@ -39,7 +39,7 @@ To summarise...
 * Add the SUB-RESULT to the reverse of itself.  
 * The final RESULT will always be 1089.  
 
-I like how QI turned it in magic trick predicting the 10th word on page 89 of a book. You might like to try this trick.  
+I like how QI turned it into a magic trick, predicting the 10th word on page 89 of a book. You might like to try this trick.  
 
 The big mystery is this – why does it work?  
 
@@ -47,7 +47,7 @@ If the person picks the number ABC, then the reverse would be CBA, and result of
 
 Because the digits were decreasing, (A - C) is between 2 and 9, so the result must be 198, 297, 396, 495, 594, 693, 792, or 891.  
 
-When you add any one of these numbers to the reverse of itself, result is always 1089.
+When you add any one of these numbers to the reverse of itself, the result is always 1089.
 
 
 ## 2.
@@ -82,7 +82,7 @@ __3.1__ In Britain in 1996 we consumed on average 9.6kg of bananas per person pe
 
 ---
 
-250 kg is approximately 25 times 9.6 kg. The consumption in Africa is therefore approximately 25 × 60, ie 1500, per person per year. 4 bananas per day are equivalent to 4 × 365, ie 1460, per year and the best answer is therefore 4 or 5 a day.
+250 kg is approximately 25 times 9.6 kg. The consumption in some parts of Africa is therefore approximately 25 × 60, ie 1500, per person per year. 4 bananas per day are equivalent to 4 × 365, ie 1460, per year and the best answer is therefore 4 or 5 a day.
 :::
 
 
@@ -216,7 +216,7 @@ All powers of 3 are odd and `3^10 = 3^5 × 3^5` which means that `3^10` is also 
 ## 11.
 <!--- 1999 (17) --->
 ::: problem id=11_1 marks=4
-![](/resources/10-35-summer-sums/17-circles.jpg){image align="right"}
+![](/resources/10-35-summer-sums/11-circles.jpg){image align="right"}
 __11.1__ The three circles in the diagram have the same centre and have radii 3cm, 4cm and 5cm.  
 
 What percentage of the area of the largest cirlce is shaded?
@@ -258,7 +258,7 @@ Let the number of boys in Group I be `x`. The number of girls in Group I is ther
 
 Let the number of boys in Group I be `x`. The number of girls in Group I is therefore 40 - `x` and the number of girls in Group II is 33 - (40 - `x`) = `x` - 7.  
 
-There are therefore 7 girls fewer in Group II than there are boys in Group I.
+Therefore there are 7 girls fewer in Group II than there are boys in Group I.
 :::
 
 
@@ -342,7 +342,7 @@ __15.2__ What helps to stabilise the tilt of the Earth?
 <!--- 1999 (25) --->
 ::: problem id=16_1 marks=5
 ![](/resources/10-35-summer-sums/16-paper.jpg){image align="right"}
-__16.1__ A rectangular sheet of paper with sides 1 and `sqrt(2)` has been folded once as show, so that one corner just meets the opposite long edge.  
+__16.1__ A rectangular sheet of paper with sides 1 and `sqrt(2)` has been folded once as shown, so that one corner just meets the opposite long edge.  
 
 What is the value of the length `d`?
 
@@ -358,7 +358,7 @@ The fold is made along `BE`. `A` folds onto `A'`.
 
 ![](/resources/10-35-summer-sums/16-paper-answer.jpg){image align="center"}
 
-`A'B = AB = sqrt(2)`, therefore `A'C - 1` (by Pythagorus).  
+`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagorus).  
 ^^^
 
 ---
@@ -366,9 +366,9 @@ The fold is made along `BE`. `A` folds onto `A'`.
 ![](/resources/10-35-summer-sums/16-paper-answer.jpg){image align="right"}
 The fold is made along `BE`. `A` folds onto `A'`.  
 
-`A'B = AB = sqrt(2)`, therefore `A'C - 1` (by Pythagorus).  
+`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagorus).  
 
-Triangle `A'BC` is therefore a right-angled isosceles triangle, therefore `BA'C = 45°`, therefore `EA'D - 45°`.  
+Triangle `A'BC` is therefore a right-angled isosceles triangle, therefore `BA'C = 45°`, therefore `EA'D = 45°`.  
 
 Thus `ED = A'D = sqrt(2) - 1`.
 :::
@@ -376,12 +376,12 @@ Thus `ED = A'D = sqrt(2) - 1`.
 
 ## 17. Bluetooth
 
-Here is Bluetooth’s origins story, courtesy of Tom Scott.
+Here is Bluetooth’s origin story, courtesy of Tom Scott.
 
 @[youtube](VdmQp9M9jUo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=17_1 marks=2
-__17.1__ What did Harald Bluetooth unite?
+__17.1__ Who did Harald Bluetooth unite?
 
 * [ ] Denmark and Germany
 * [ ] Norway and Sweden
@@ -489,7 +489,7 @@ In the partially completed magic square shown, what number should replace `x`?
 {.col-5}
 
 ^^^ hint id=22 marks=1
-The leading diagonal sums to 58. So every row and column should add to 48.
+The leading diagonal sums to 58. So every row and column should add to 58.
 ^^^
 
 ---
@@ -523,16 +523,10 @@ Space scientist Maggie Aderin-Pocock talks about telescopes.
 @[youtube](_dAAti0APEM?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=24_1 marks=2
-__24.1__ Which type of telescopes is less reliant on the quality of the glass?
+__24.1__ Which type of telescope is less reliant on the quality of the glass?
 
 * [ ] Refractive
 * [x] Reflective
-
----
-
-There are 3 choices for the first character, namely `V`, `X` or `P`. There are 10 choices for the second character, namely one of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 or 9. Because the second and third characters are different digits, the third character can be any one of the 10 digits, other than the second character. Therefore there are 9 choices for the third character. There is just 1 choice for the fourth character as this is the units digit of the sum of the second and third digits.  
-
-It follows that the total number of voucher codes is `3 × 10 × 9 × 1 = 270`.
 :::
 
 
@@ -561,7 +555,7 @@ __26.1__ Timmy, Tammy and Tommy all have tummy ache! They all set off separately
 
 * [ ] Tommy, Timmy, Tammy
 * [ ] Timmy, Tommy, Tammy
-* [ ] Tommy, Tammy, Tommy
+* [ ] Tommy, Tammy, Timmy
 * [ ] Tammy, Timmy, Tommy
 * [x] Tammy, Tommy, Timmy
 {.col-3}

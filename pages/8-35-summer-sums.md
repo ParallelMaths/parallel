@@ -467,7 +467,7 @@ This puzzle was featured on the BBC TV show “QI”. First, you need to know th
 ![](/resources/8-35-summer-sums/20-chess.jpg){image align="center"}
 
 ::: problem id=20_1 marks=4
-__20.1__ What is the maximum number of knights that you can place on a chess board (8 x 8 squares), so that none of the knights can take any other night?
+__20.1__ What is the maximum number of knights that you can place on a chess board (8 x 8 squares), so that none of the knights can take any other knight?
 
 <input solution="32"/>
 
@@ -596,7 +596,7 @@ Here is an interesting mathematical oddity. Very often odd things are interestin
 ::: problem id=25_1 marks=3
 __25.1__ If you divide 1 by 998,001, the resulting decimal number will give you almost every three-digit number. For example, the decimal starts as follows: 0.000001002003004005006 ... and so on. However, one three-digit number gets skipped in this strange series. Which three-digit number is missing?  
 
-Clue – you can start by trying out the division on your calculator. Then, you will need to [read this article to find the answer](https://curiosity.com/topics/dividing-1-by-998001-yields-a-very-strange-decimal-curiosity/){.external target="_blank"}.
+Clue – you can start by trying out the division on your calculator. Then, you will need to [read this article to find the answer](https://brilliantlearning.co.in/2017/06/04/dividing-1-by-998001-yields-a-very-strange-decimal/){.external target="_blank"}.
 
 <input solution="998"/>
 :::

@@ -703,7 +703,7 @@ __25.1__ In order to make one of the toughest Kendama catches, Tadashi has to ta
 * [ ] The conservation of atoms
 * [ ] The conservation of curiosity
 
-Finally, it’s up to you, but you might enjoy watching the rest of Tadashi’s video about paperclips
+Finally, it’s up to you, but if you haven't already you might enjoy watching the rest of Tadashi’s video about paperclips
 
 @[youtube](wGkvyN6s9cY?end=452rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
