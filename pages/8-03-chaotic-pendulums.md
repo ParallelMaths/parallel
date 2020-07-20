@@ -88,6 +88,7 @@ As I mentioned last week, if you are a Year 8 student, then it is likely that yo
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- 2013 (22) --->
 ::: problem id=3_1 marks=3
 ![](/resources/8-03-chaotic-pendulums/3-magicsquare-question.jpg){image align="right"}
 __3.1__ Two numbers in the 4 × 4 grid can be swapped to create a Magic Square (in which all rows, all columns and both main diagonals add

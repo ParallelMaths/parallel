@@ -364,6 +364,7 @@ reason why it’s a good idea to be a confident mathematician.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
+<!--- 2017 (3) --->
 
 ::: problem id=5 marks=1
 __5.1__ What is the value of `x`?
@@ -389,6 +390,7 @@ lines are equal, `x = y`. Hence `x = 57`.
 
 
 ## 6. Junior Maths Challenge Problem (UKMT)
+<!--- 2017 (16) --->
 
 ::: problem id=6 marks=4
 __6.1__ In New Threeland there are three coins: the 2p; the 5p; and one other.  

@@ -142,7 +142,7 @@ We now apply the fact that the angles of a triangle have sum 180° to the triang
 
 
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2017) Qxx --->
+<!--- (2017) Q20 --->
 
 ::: problem id=5_1 marks=5
 __5.1__ ![](/resources/10-18-smilla-sense-snow/5-circles.jpg){image align="right"}

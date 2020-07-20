@@ -40,6 +40,7 @@ __The next Parallelogram will contain our usual mix of videos, humour, puzzles a
 
 
 ## 1.
+<!--- 2012 (1) --->
 
 ::: problem id=1_1 marks=5
 __1.1__ What is the smallest four-digit positive integer which has four different digits?
@@ -65,6 +66,7 @@ So the required number is 1023.
 
 
 ## 2.
+<!--- 2017 (2) --->
 
 ::: problem id=2_1 marks=5
 __2.1__ Nadiya is baking a cake. The recipe says that her cake should be baked in the oven for 1 hour and 35 minutes. She puts the cake in the oven at 11:40 am.  
@@ -89,6 +91,7 @@ Therefore 1 hour and 35 minutes after 11:40 am the time is 1:15 pm.
 
 
 ## 3.
+<!--- 2012 (3) --->
 
 ::: problem id=3_1 marks=5
 __3.1__ Which of the following has exactly one factor other than 1 and itself?
@@ -106,6 +109,7 @@ The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the fact
 
 
 ## 4.
+<!--- 2017 (4) --->
 
 ::: problem id=4_1 marks=5
 __4.1__ A download is 95% complete. What fraction is yet to be downloaded?
@@ -126,6 +130,7 @@ Now 5% means 5 parts in 100. Therefore, expressed as a fraction, 5% is `5/100 = 
 
 
 ## 5.
+<!--- 2012 (5) --->
 
 ::: problem id=5_1 marks=5
 __5.1__ One of the mascots for the 2012 Olympic Games is called "Wenlock" because the town of Wenlock in Shropshire first held the Wenlock Olympian Games in 1850. How many years before the 2012 Olympics was that?
@@ -144,6 +149,7 @@ All you have to do is a subtraction: 2012 - 1850 = 162.
 
 
 ## 6.
+<!--- 2017 (6) --->
 
 ::: problem id=6_1 marks=5
 ![](/resources/8-24-easter-challenges/6-magicsquare-question.png){image align="right"}
@@ -172,6 +178,7 @@ __Method 2:__ The numbers in the completed magic square have total 2 + 3 + 4 + 5
 
 
 ## 7.
+<!--- 2012 (7) --->
 
 ::: problem id=7_1 marks=5
 __7.1__ A small ink cartridge has enough ink to print 600 pages. Three small cartridges can print as many pages as two medium cartridges. Three medium cartridges can print as many pages as two large cartridges. How many pages can be printed using a large cartridge?
@@ -196,6 +203,7 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 
 
 ## 8.
+<!--- 2017 (8) --->
 
 ::: problem id=8_1 marks=5
 ![](/resources/8-24-easter-challenges/8-rectangle.png){image align="right"}
@@ -237,6 +245,7 @@ Hence the area of the rectangle PQRS is:
 
 
 ## 9.
+<!--- 2012 (9) --->
 
 ::: problem id=9_1 marks=5
 ![](/resources/8-24-easter-challenges/9-gallery-question.jpg){image align="right"}
@@ -268,6 +277,7 @@ information we are given doesn't enable us to work out which is where.
 
 
 ## 10.
+<!--- 2017 (10) --->
 
 ::: problem id=10_1 marks=5
 __10.1__ Which of the following integers is not a multiple of 45?
@@ -296,6 +306,7 @@ We deduce that 305 is the only one of the given options that is not divisible by
 
 
 ## 11.
+<!--- 2012 (11) --->
 
 ::: problem id=11_1 marks=5
 __11.1__ In the following expression each ▲ is to be replaced with either + or - in such a way that the result of the calculation is 100.
@@ -332,6 +343,7 @@ Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`.
 
 
 ## 12.
+<!--- 2017 (12) --->
 
 ::: problem id=12_1 marks=5
 __12.1__ Last year, at the school where Gill teaches Mathematics, 315 out of the 600 pupils were girls. This year, the number of pupils in the school has increased to 640. The proportion of girls is the same as it was last year.  
@@ -358,6 +370,7 @@ The proportion of girls this year is the same. Therefore, of the 640 pupils in t
 
 
 ## 13.
+<!--- 2012 (13) --->
 
 ::: problem id=13_1 marks=5
 ![](/resources/8-24-easter-challenges/13-grid-question.jpg){image align="right"}
@@ -389,6 +402,7 @@ __Next up, we have the trickier questions.__
 
 
 ## 14.
+<!--- 2012 (15) --->
 
 ::: problem id=14_1 marks=6
 __14.1__ Talulah plants 60 tulip bulbs. When they flower, she notes that half are yellow; one third of those which are not yellow are red; and one quarter of those which are neither yellow nor red are pink. The remainder are white.
@@ -411,6 +425,7 @@ This leaves 15 bulbs which are neither yellow, nor red nor pink. So there are 15
 
 
 ## 15.
+<!--- 2017 (14) --->
 
 ::: problem id=15_1 marks=6
 ![](/resources/8-24-easter-challenges/15-grid.png){image align="right"}
@@ -448,6 +463,7 @@ The three different grids that Mathias could produce are shown in the figure bel
 
 
 ## 16.
+<!--- 2012 (17) --->
 
 ::: problem id=16_1 marks=6
 __16.1__ There are six more girls than boys in Miss Spelling's class of 24 pupils. What is the ratio of girls to boys in this class?
@@ -466,6 +482,7 @@ Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 
 
 
 ## 17.
+<!--- 2014 (17) --->
 
 ::: problem id=17_1 marks=6
 ![](/resources/8-24-easter-challenges/17-line.png){image align="right"}
@@ -498,6 +515,7 @@ Jo must go through the junction stations `R` and `X` more than once. If Jo does 
 
 
 ## 18.
+<!--- 2012 (19) --->
 
 ::: problem id=18_1 marks=6
 __18.1__ In rectangle `PQRS`, the ratio of `∠PSQ` to `∠PQS` is 1:5 . What is the size of `∠QSR`?
@@ -519,6 +537,7 @@ So `∠QSR` is 75°.
 
 
 ## 19.
+<!--- 2014 (19) --->
 
 ::: problem id=19_1 marks=6
 __19.1__ Jack and Jill played a game for two people. In each game, the winner was awarded 2 points and the loser 1 point. No games were drawn. Jack won exactly 4 games and Jill had a final score of 10 points. How many games did they play?
@@ -537,6 +556,7 @@ Jack won exactly 4 games. So Jill lost 4 games and gained 4 points from these lo
 
 
 ## 20.
+<!--- 2012 (21) --->
 
 ::: problem id=20_1 marks=6
 ![](/resources/8-24-easter-challenges/20-dominoes-question1.jpg){image align="center"}
@@ -574,6 +594,7 @@ We now see that there are just 2 dominoes that the [1:5] domino cannot be adjace
 
 
 ## 21.
+<!--- 2014 (21) --->
 
 ::: problem id=21_1 marks=6
 ![](/resources/8-24-easter-challenges/21-cube.png){image align="right"}
@@ -597,6 +618,7 @@ We can see 19 of the 27 cubes. Of these there are 12 which we can see have at le
 
 
 ## 22.
+<!--- 2012 (23) --->
 
 ::: problem id=22_1 marks=6
 __22.1__ Peter wrote a list of all the numbers that could be produced by changing one digit of the number 200. How many of the numbers in Peter's list are prime?
@@ -623,6 +645,7 @@ None of them are prime, so none of the numbers in Peter's list are prime.
 
 
 ## 23.
+<!--- 2014 (23) --->
 
 ::: problem id=23_1 marks=6
 ![](/resources/8-24-easter-challenges/23-circles.png){image align="right"}
@@ -668,6 +691,7 @@ One way this can be done is shown in the diagram opposite.
 
 
 ## 24.
+<!--- 2012 (25) --->
 
 ::: problem id=24_1 marks=6
 ![](/resources/8-24-easter-challenges/24-triangle-question.jpg){image align="right"}
@@ -705,6 +729,7 @@ and hence `10 - y` is a positive number which is a multiple of 8. The only posit
 
 
 ## 25.
+<!--- 2014 (25) --->
 
 ::: problem id=25_1 marks=6
 ![](/resources/8-24-easter-challenges/25-dice.png){image align="right"}

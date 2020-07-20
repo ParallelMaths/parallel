@@ -108,7 +108,7 @@ how many people have died because of the Enigma cipher?
 
 ::: problem id=2_2 marks=1
 __2.2.__ Before Britain tried to break the Enigma code, which country used its
-top mathematicians to make some significant breakthroughs in cracking Enigma?
+top mathematicians to make some significant breakthroughs in cracking Enigma? The answer is not in the clip, so you might need to google this question.
 
 * [ ] USA
 * [x] Poland

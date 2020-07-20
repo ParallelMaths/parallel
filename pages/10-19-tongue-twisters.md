@@ -150,7 +150,7 @@ Therefore the sum of the two integers is 9.
 
 
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2017) Q1 --->
+<!--- (2017) Q17 --->
 
 ::: problem id=5_1 marks=5
 ![](/resources/10-19-tongue-twisters/5-pentagon.jpg){image align="right"}

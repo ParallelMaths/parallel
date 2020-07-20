@@ -177,7 +177,7 @@ __4.3 JMC follow-up question__ What is the surprising answer to 32,800,328 × 27
 :::
 
 ::: problem id=4_4 marks=2
-__4.4 JMC follow-up question__ question What is the surprising answer to 239 × 4,649?
+__4.4 JMC follow-up question__ What is the surprising answer to 239 × 4,649?
 
 <input type="number" solution="1,111,111"/>
 :::

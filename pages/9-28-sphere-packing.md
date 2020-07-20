@@ -104,7 +104,7 @@ __3.2__ What was unusual about the proof that showed that â€œhexagonal packingâ€
 
 
 ## 4. Intermediate Maths Challenge Problem (UKMT)
-<!--- 2014 (15) --->
+<!--- 2014 (14) --->
 
 ::: problem id=4_1 marks=3
 __4.1.__ In the 2013 _Tour de France_, the total length of the Tour was 3404 km and the winner, Chris Froome, took a total time of 83 hours 56 minutes 40 seconds to cover this distance.

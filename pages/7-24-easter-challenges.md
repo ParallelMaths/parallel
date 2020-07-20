@@ -40,6 +40,7 @@ __The next Parallelogram will contain our usual mix of videos, humour, puzzles a
 
 
 ## 1.
+<!--- 2012 (2) --->
 
 ::: problem id=1_1 marks=5
 __1.1__ What is half of 1.01?
@@ -60,6 +61,7 @@ We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division 
 
 
 ## 2.
+<!--- 2012 (4) --->
 
 ::: problem id=2_1 marks=5
 __2.1__ Beatrix looks at the word __JUNIOR__ in a mirror. How many of the reflected letters never look the same as the original, no matter how Beatrix
@@ -79,6 +81,7 @@ The letters J, N and R do not have an axis of symmetry. So these letters cannot 
 
 
 ## 3.
+<!--- 2012 (6) --->
 
 ::: problem id=3_1 marks=5
 ![](/resources/7-24-easter-challenges/3-cubes.jpg){image align="right"}
@@ -105,6 +108,7 @@ There are two approaches.
 
 
 ## 4.
+<!--- 2012 (8) --->
 
 ::: problem id=4_1 marks=5
 __4.1__ Tommy Thomas's tankard holds 480 ml when it is one quarter empty. How much does it hold when it is one quarter full?
@@ -123,6 +127,7 @@ When Tommy's tankard is one quarter empty it is three quarters full. So 480 ml i
 
 
 ## 5.
+<!--- 2012 (10) --->
 
 ::: problem id=5_1 marks=5
 ![](/resources/7-24-easter-challenges/5-arrows-question.jpg){image align="right"}
@@ -150,6 +155,7 @@ region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
 
 
 ## 6.
+<!--- 2012 (12) --->
 
 ::: problem id=6_1 marks=5
 ![](/resources/7-24-easter-challenges/6-l-question.jpg){image align="right"}
@@ -176,6 +182,7 @@ In a `3 × 3` square each row and column contains just 3 squares. So none of the
 
 
 ## 7.
+<!--- 2012 (14) --->
 
 ::: problem id=7_1 marks=5
 __7.1__ A pattern that repeats every six symbols starts as shown below:
@@ -201,6 +208,7 @@ Can you see the link with modular arithmetic, something we’ve covered in previ
 
 
 ## 8.
+<!--- 2017 (1) --->
 
 ::: problem id=8_1 marks=5
 __8.1__ Which of the following calculations gives the largest answer?
@@ -231,6 +239,7 @@ We therefore see that 2 + 1 gives the largest value.
 
 
 ## 9.
+<!--- 2017 (3) --->
 
 ::: problem id=9_1 marks=5
 ![](/resources/7-24-easter-challenges/3-angles.png){image align="right"}
@@ -258,6 +267,7 @@ Hence `x` = 57.
 
 
 ## 10.
+<!--- 2017 (5) --->
 
 ::: problem id=10_1 marks=5
 __10.1__ What is the value of 201 × 7 − 7 × 102 ?
@@ -286,6 +296,7 @@ This straightforward method does not involve too much hard work. However, as bot
 
 
 ## 11.
+<!--- 2017 (7) --->
 
 ::: problem id=11_1 marks=5
 __11.1__ If you work out the values of the following expressions and then place them in increasing numerical order, which comes in the middle?
@@ -326,6 +337,7 @@ whose value is in the middle.
 
 
 ## 12.
+<!--- 2017 (9) --->
 
 ::: problem id=12_1 marks=5
 __12.1__ In William Shakespeare’s play As You Like It, Rosalind speaks to Orlando about, "He that will divide a minute into a thousand parts".  
@@ -348,6 +360,7 @@ There are 60 seconds in one minute. Therefore the number of seconds in one thous
 
 
 ## 13.
+<!--- 2017 (11) --->
 
 ::: problem id=13_1 marks=5
 ![](/resources/7-24-easter-challenges/13-squares.png){image align="right"}
@@ -390,6 +403,7 @@ The sum of the interior angles of a polygon with n vertices is `(n − 2) × 180
 
 
 ## 14.
+<!--- 2017 (13) --->
 
 ::: problem id=14_1 marks=5
 __14.1__ Consider the following three statements.  
@@ -428,6 +442,7 @@ Therefore statement (i) is the only one that is true.
 
 
 ## 15.
+<!--- 2017 (15) --->
 
 ::: problem id=15_1 marks=5
 __15.1__ What is the remainder when the square of 49 is divided by the square root of 49?
@@ -453,6 +468,7 @@ __Next up, we have the trickier questions.__
 
 
 ## 16.
+<!--- 2014 (16) --->
 
 ::: problem id=16_1 marks=6
 __16.1__ Only one of the following statements is true. Which one?
@@ -476,6 +492,7 @@ So statement E is true and all the other statements are false.
 
 
 ## 17.
+<!--- 2012 (16) --->
 
 ::: problem id=17_1 marks=6
 __17.1__ Beth, Carolyn and George love reading their favourite bedtime stories together. They take it in turns to read a page, always in the order Beth, then Carolyn, then George. All twenty pages of the story are read on each occasion. One evening, Beth is staying at Grandma's house but Carolyn and George still read the same bedtime story and take it in turns to read a page with Carolyn reading the first page.
@@ -512,6 +529,7 @@ The pages that George reads both normally and also when Beth is away are those w
 
 
 ## 18.
+<!--- 2014 (18) --->
 
 ::: problem id=18_1 marks=6
 __18.1__ Which of these statements is true?
@@ -539,6 +557,7 @@ In this way there is no need to evaluate `5^6`. However, to give a complete answ
 
 
 ## 19.
+<!--- 2012 (18) --->
 
 ::: problem id=19_1 marks=6
 ![](/resources/7-24-easter-challenges/19-puzzle.jpg){image align="right"}
@@ -563,6 +582,7 @@ To complete the solution we should check that with `x` = 7, it is possible to pl
 
 
 ## 20.
+<!--- 2014 (20) --->
 
 ::: problem id=20_1 marks=6
 __20.1__ Box `P` has `p` chocolates and box `Q` has `q` chocolates, where `p` and `q` are both odd and `p > q`.  
@@ -588,6 +608,7 @@ Because box `Q` starts with `q` chocolates in it, to end up with `1/2 (p + q) + 
 
 
 ## 21.
+<!--- 2012 (20) --->
 
 ::: problem id=21_1 marks=6
 __21.1__ Aaron says his age is 50 years, 50 months, 50 weeks and 50 days old. What age will he be on his next birthday?
@@ -608,6 +629,7 @@ So Aaron's age is approximately (50 + 4) years + (2 + 11 `1/2` + 1 `2/3`) months
 
 
 ## 22.
+<!--- 2014 (22) --->
 
 ::: problem id=22_1 marks=6
 __22.1__ In the division calculation 952,473 ÷ 18, which two adjacent digits should be swapped in order to increase the result by 100?
@@ -629,6 +651,7 @@ We obtain 954,273 from 952,473 by swapping the adjacent digits 2 and 4.
 
 
 ## 23.
+<!--- 2012 (22) --->
 
 ::: problem id=23_1 marks=6
 ![](/resources/7-24-easter-challenges/23-hexagon-question.jpg){image align="right"}
@@ -655,6 +678,7 @@ Each of these is made up of 9 of the small equilateral triangles of which 2 are 
 
 
 ## 24.
+<!--- 2014 (24) --->
 
 ::: problem id=24_1 marks=6
 ![](/resources/7-24-easter-challenges/24-octagon.png){image align="right"}
@@ -686,6 +710,7 @@ We can also see this geometrically. The diagram on the right shows that four of 
 
 
 ## 25.
+<!--- 2012 (24) --->
 
 ::: problem id=25_1 marks=6
 __25.1__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assuming that I win every game from now on, how many extra games do I need to play in order that my success rate increases to 50%?

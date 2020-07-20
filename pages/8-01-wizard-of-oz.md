@@ -145,6 +145,7 @@ If you are a Year 8 student, then it is likely that you will be taking part in t
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- 2013 (4) --->
 ::: problem id=3_1 marks=3
 __3.1__ Gill went for a five-hour walk. Her average speed was between 3 km/h and 4 km/h.
 

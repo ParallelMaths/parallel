@@ -39,7 +39,7 @@ __1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the su
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- 201x (xx) --->
+<!--- 2017 (23) --->
 
 ::: problem id=2_1 marks=2
 __2.1__ The positive integers from 1 to 150 inclusive are placed in a 10 by 15 grid so that each cell contains exactly one integer. Then the multiples of 3 are given a red mark, the multiples of 5 are given a blue mark, and the multiples of 7 are given a green mark. How many cells have more than 1 mark?

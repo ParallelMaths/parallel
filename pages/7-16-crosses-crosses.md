@@ -17,7 +17,7 @@ week by the Parallel Project to bright young mathematicians.
 
 
 ## 1. Junior Maths Challenge Problem (UKMT)
-<!--- 2011 (2e) --->
+<!--- 2011 (2 ext) --->
 
 As some of you will already know, the Junior Maths Challenge is a national maths competition run by the UK Maths
 Trust, and many of you might be entering this year. Ask your teacher, and he or

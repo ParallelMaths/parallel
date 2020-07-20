@@ -188,7 +188,7 @@ This particular proof is very short, but not simple to follow. Have a go at unde
 
 
 ## 4.	Intermediate Maths Challenge Problem (UKMT)
-<!--- 2011 (4) --->
+<!--- 2011 (24) --->
 
 This is one of the toughest questions from a UKMT Intermediate Maths Challenge exam, so be ready to stretch your brain.
 

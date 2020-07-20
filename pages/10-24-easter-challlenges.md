@@ -21,7 +21,7 @@ __Because this Parallelogram is longer and tougher than a typical Parallelogram,
 
 
 ## 1.
-
+<!--- (2003) Q5 --->
 ::: problem id=1_1 marks=3
 __1.1__ What is the value of `2003^2`?
 
@@ -39,7 +39,7 @@ __1.1__ What is the value of `2003^2`?
 
 
 ## 2.
-
+<!--- (2003) Q6 --->
 ::: problem id=2_1 marks=3
 __2.1__ Think of a number, double it, then add 3. Multiply your answer by 4 and from this take away 5. Now also take away the number you first thought of. No matter what your first number was, your answer will always be a multiple of:
 
@@ -57,7 +57,7 @@ Let the number thought of be `x`. Then the final number is `4 (2x + 3) - 5 - x =
 
 
 ## 3.
-
+<!--- (2003) Q7 --->
 ::: problem id=3_1 marks=3
 __3.1__ A number of years ago, a newspaper reported that Turkish football team Sarigol Municipality transferred four of its players in return for a fee of 225 sacks of cement, needed to repair their stadium. At the same rate of exchange, how many sacks of cement would the transfer fee for a full team of eleven players and one reserve?
 
@@ -93,7 +93,7 @@ __4.1__ How many types of magic hexagon are there?
 
 
 ## 5.
-
+<!--- (2003) Q8 --->
 ::: problem id=5_1 marks=4
 ![](/resources/10-24-easter-challlenges/5-diagram.jpg){image align="right"}
 __5.1__ Lines `AB` and `CD` are parallel and `BC = BD`.  
@@ -121,7 +121,7 @@ The answer is not 2.
 
 
 ## 6.
-
+<!--- (2003) Q9 --->
 ::: problem id=6_1 marks=4
 __6.1__ It has been estimated that the mass of insects caught by spiders in a year in the UK is equal to the mass of the human population of the UK. Assuming this population is 60 million and the average mass of a human is 70kg, what is the mass, in tonnes, of insects caught by spiders per year in the UK?
 
@@ -166,7 +166,7 @@ __7.2__ The third number that passes the prime test, but which is not a prime, i
 
 
 ## 8.
-
+<!--- (2003) Q15 --->
 ::: problem id=8_1 marks=4
 __8.1__ Each interior angle of a particular polygon is an obtuse angle which is a whole number of degrees. What is the greatest number of sides the polygon could have?
 
@@ -188,7 +188,7 @@ As each interior angle of the polygon is a whole number of degrees, the same mus
 
 
 ## 9.
-
+<!--- (2003) Q16 --->
 ::: problem id=9_1 marks=4
 __9.1__ After a year's training, Minnie Midriffe increased her average speed in the London Marathon by 25%.  
 
@@ -212,7 +212,7 @@ Minnie's average speed this year is `5/4` of last year's value. Hence her time t
 
 
 ## 10.
-
+<!--- (2003) Q17 --->
 ::: problem id=10_1 marks=4
 ![](/resources/10-24-easter-challlenges/10-circles.jpg){image align="right"}
 __10.1__ The diagram shows three semicircles, each of radius one.  
@@ -241,7 +241,7 @@ Hence the total area is that of the rectangle plus that of a circle of radius 1,
 
 
 ## 11.
-
+<!--- (2003) Q18 --->
 ::: problem id=18_1 marks=4
 __11.1__ When dates are written using eight digits, eg 06 02 2020, the 20th February 2002 is a palindromic date, since 20 02 2002 has the ame digits int he same order when read in reverse.  
 
@@ -277,7 +277,7 @@ If you want to practice some Countdown problems, then you can [visit this intera
 
 
 ## 13.
-
+<!--- (2003) Q19 --->
 ::: problem id=13_1 marks=5
 ![](/resources/10-24-easter-challlenges/13-pentagon.jpg){image align="right"}
 __13.1__ What is the area of the pentagon shown?
@@ -297,7 +297,7 @@ The area may also be considered to be the sum of the areas of two trapezia which
 
 
 ## 14.
-
+<!--- (2003) Q20 --->
 ::: problem id=14_1 marks=5
 __14.1__ Suppose that `e`, `i`, `n` and `t` represent different positive whole numbers, `n + i + n + e = 9`, `t + e + n = 10` and `i = 1`.  
 
@@ -317,7 +317,7 @@ We are given that `2n + e = 8 `and `t + e + n = 10`. Subtracting the first equat
 
 
 ## 15.
-
+<!--- (2003) Q25 --->
 ::: problem id=15_1 marks=5
 __15.1__ The width:height ratio of television screens is changing form the traditional 4:3 to the widescreen 16:9. If a traditional screen and a widescreen have the same area, then what is the ratio widescreen width:traditional width?  
 

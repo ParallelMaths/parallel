@@ -129,6 +129,7 @@ As I mentioned last week, if you are a Year 9 student, then it is likely that yo
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- (2011) Q3 --->
 ::: problem id=3_1 marks=3
 __3.1__ The consecutive digits 1, 2, 3, and 4 in that order can be arranged to make the correct division, 12 ÷ 3 = 4. One _other_ sequence of four consecutive digits `p`, `q`, `r`, `s` makes a correct division, `pq` ÷ `r` = `s`. What is the value of `s` in this case?
 

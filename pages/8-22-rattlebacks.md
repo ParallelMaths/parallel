@@ -32,7 +32,7 @@ M62 + 39 miles + 45 minutes + 30 miles = 176.
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- (2012 extension) --->
+<!--- 2012 (14) --->
 
 ::: problem id=2_1 marks=1
 __2.1__ A pattern that repeats every six symbols starts as shown below:
@@ -59,7 +59,7 @@ So, the 6-symbol pattern repeats itself 166 times, and the 5th symbol will sit i
 
 
 ## 3. Junior Maths Challenge Problem (UKMT)
-<!--- (2012 extension) --->
+<!--- 2012 (16 ext) --->
 
 ::: problem id=3_1 marks=3
 __3.1.__ One day Beth, Carolyn and George read a book of 240 pages. They take it in turns to read a page, always in the order Beth, Carolyn and George.
@@ -93,7 +93,7 @@ Derek Muller from YouTube’s Veritasium channel asks people to explain the mech
 
 
 ## 5. Junior Maths Challenge UKMT bonus
-<!--- (2012 extension) --->
+<!--- 2012 (24) --->
 
 As the Junior Maths Challenge is now not far away, here is a bonus (and particularly tough) JMC question to stretch your brain.
 

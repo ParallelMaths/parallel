@@ -226,7 +226,7 @@ The answer is A. If you imagine the missing segments, then you get the pattern 0
 
 
 ## 8. Intermediate Maths Challenge Problem (UKMT)
-<!--- (2005) Q8 --->
+<!--- (2005) Q9 --->
 
 ::: problem id=8_1 marks=4
 __8.1__ Which of the following shaded regions has an area different from the other shaded regions?

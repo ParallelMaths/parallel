@@ -109,6 +109,7 @@ If you are a Year 7 student, then it is likely that you will be taking part in t
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- 2013 (13) --->
 ::: problem id=3_1 marks=3
 __3.1__ When painting the lounge, I used half of a 3 litre can to complete the first coat of paint. I then used two thirds of what was left to complete the second coat.
 

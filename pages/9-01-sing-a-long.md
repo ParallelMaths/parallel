@@ -106,6 +106,7 @@ Your teachers will help you prepare for this national maths competition, but in 
 
 (If you have already taken the JUNIOR Maths Challenge, aimed at younger students, then you will notice that these INTERMEDIATE Maths Challenge questions are generally a bit more tricky.)
 
+<!--- (2011) Q1 --->
 ::: problem id=3_1 marks=2
 __3.1__ Without using a calculator, what is the value of 4.5 × 5.5 + 4.5 × 4.5?
 

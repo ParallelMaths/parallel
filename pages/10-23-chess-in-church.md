@@ -125,7 +125,7 @@ __4.2__ Which company is making CAPTCHAs and has servers that are probably being
 
 
 ## 5. Intermediate Maths Challenge Problem (UKMT)
-<!--- (2003) Q23 --->
+<!--- (2003) Q24 --->
 
 ::: problem id=5_1 marks=5
 ![](/resources/10-23-chess-in-church/5-square.jpg){image align="right"}

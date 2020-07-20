@@ -1,4 +1,4 @@
-# Chrismaths Y9
+# Chrismaths Y10
 
 <div class="dictionary">
 
@@ -27,7 +27,7 @@ PS: I want to say thank you to the UK Mathematics Trust, who own the copyright t
 
 
 ## 1.
-
+<!--- (2004) --->
 ::: problem id=1_1 marks=3
 What is the value of 4002 - 2004?
 
@@ -45,7 +45,7 @@ What is the value of 4002 - 2004?
 
 
 ## 2.
-
+<!--- (2004) --->
 ::: problem id=2_1 marks=3
 You are told that 30 pupils have 25 different birthdays between them.  
 
@@ -65,7 +65,7 @@ There must be 25 pupils who all have different birthdays. If the remaining pupil
 
 
 ## 3.
-
+<!--- (2004) --->
 ::: problem id=3_1 marks=3
 Four of these numbers can make two pairs so that each pair adds up to 98,765.  
 
@@ -85,7 +85,7 @@ Which number is the odd one out?
 
 
 ## 4.
-
+<!--- (2004) --->
 ::: problem id=4_1 marks=3
 ![](/resources/10-13-chrismaths/4-triagle.png){image align="right"}
 What is the value of `a + b + c + d + e + f`?
@@ -104,7 +104,7 @@ The angles marked `a°`, `c°` and `e°` may be considered to be the exterior an
 
 
 ## 5.
-
+<!--- (2004) --->
 ::: problem id=5_1 marks=3
 The sum of two numbers is 2. The difference between them is 4. What is their product?
 
@@ -122,7 +122,7 @@ Let the numbers be `x` and `y`. Then `x + y = 2`; `x - y = 4`. Adding these equa
 
 
 ## 6.
-
+<!--- (2004) --->
 ::: problem id=6_1 marks=4
 In Niatirb they use Cibara numerals. These are the same shape as normal Arabic numerals, but with the meanings in the opposite order. So "0" means "nine", "1" means "eight" and so on.  
 
@@ -144,7 +144,7 @@ The sum is what we would write as 162 + 257 and this equals 419. However, in Nia
 
 
 ## 7.
-
+<!--- (2004) --->
 ::: problem id=7_1 marks=4
 ![](/resources/10-13-chrismaths/7-grid.png){image align="right"}
 Which of the following straight lines cuts the shaded area in half?
@@ -165,7 +165,7 @@ Line XD forms one side of a trapezium of area 12.5, since `1/2 (1 + 4) × 5 = 12
 
 
 ## 8.
-
+<!--- (2004) --->
 ::: problem id=8_1 marks=4
 In March 2003, Welshman Tony Evans dropped a ball from an aircraft a mile above the Mojave desert to see if it would bounce. The ball was made from 6 million rubber bands, had a circumference of 14ft 8in, weighed 2600 pounds and took Mr Evans five years to build.  
 
@@ -185,7 +185,7 @@ The average number of rubber bands added each day was approximately `6000000/(5 
 
 
 ## 9.
-
+<!--- (2004) --->
 ::: problem id=9_1 marks=4
 The cuboids below all have the same volume. Which of them has the greatest surface area?  
 
@@ -205,7 +205,7 @@ The surface areas of the cuboids are: A 68; B 70; C 56; D 52; E 76.
 
 
 ## 10.
-
+<!--- (2004) --->
 ::: problem id=10_1 marks=4
 What is the mean of `1/2`, `1/3`, `1/4` and `1/6`?
 
@@ -223,7 +223,7 @@ The four fractions total `5/4`, so their mean is `5/4 ÷ 4 = 5/16`.
 
 
 ## 11.
-
+<!--- (2004) --->
 ::: problem id=11_1 marks=4
 ![](/resources/10-13-chrismaths/11-board.png){image align="right"}
 The diagram shows a square board in which strips of white squares alternate with strips of black and white squares.  A larger board, constructed in the same way, has 49 black squares.
@@ -244,7 +244,7 @@ The 49 black squares will be in a 7 × 7 formation, so the board will measure 15
 
 
 ## 12.
-
+<!--- (2004) --->
 ::: problem id=12_1 marks=4
 ![](/resources/10-13-chrismaths/12-curve.png){image align="right"}
 This figure is made from a straight line 16cm long and two quarter circles, one with its centre at the midpoint of the straight line.  
@@ -265,7 +265,7 @@ As the diagram shows, the figure may be cut into two parts which fit together to
 
 
 ## 13.
-
+<!--- (2004) --->
 ::: problem id=13_1 marks=4
 Four of these points lie on a single straight line. Which is the odd one out?
 
@@ -283,7 +283,7 @@ Points (−3, −3), (−2, −1), (4, 11) and (5, 13) all lie on the line whose
 
 
 ## 14.
-
+<!--- (2004) --->
 ::: problem id=14_1 marks=4
 ![](/resources/10-13-chrismaths/14-sum.png){image align="right"}
 In this addition sum, each letter represents a different non-zero digit.  
@@ -310,7 +310,7 @@ Hence `f` = 8, making `w` = 6 and the letters represent 875 × 3 = 2625.
 
 
 ## 15.
-
+<!--- (2004) --->
 ::: problem id=15_1 marks=4
 Only one of these triangles can actually be made.
 
@@ -340,7 +340,7 @@ Triangle D, however, is obtained by cutting an equilateral triangle of side 6cm 
 
 
 ## 16.
-
+<!--- (2004) --->
 ::: problem id=16_1 marks=4
 ![](/resources/10-13-chrismaths/16-pattern.png){image align="right"}
 If the pattern shown is continued, what number will appear directly below 400?
@@ -360,7 +360,7 @@ The row below will end in `21^2`, ie 441, so the number directly below 400 will 
 
 
 ## 17.
-
+<!--- (2004) --->
 ::: problem id=17_1 marks=4
 A, B, C, D, E, P and Q are points on the number line as shown.
 
@@ -384,7 +384,7 @@ Furthermore, its position is correct since `P` is approximately equal to `1/2`, 
 
 
 ## 18.
-
+<!--- (2004) --->
 ::: problem id=18_1 marks=4
 ![](/resources/10-13-chrismaths/18-triangle.png){image align="right"}
 In the triangle `PQR`, there is a right angle at `Q` and angle `QPR` is 60°.  
@@ -412,7 +412,7 @@ Alternatively, we can use the angle bisector theorem: `(QS)/(SR) = (PQ)/(PR) = 1
 
 
 ## 19.
-
+<!--- (2004) --->
 ::: problem id=19_1 marks=4
 Three rectangular-shaped holes have been drilled passing all the way through a solid 3 x 4 x 5 cuboid. The diagrams show the front, side and top views of the resulting block.
 
@@ -434,7 +434,7 @@ Consider the cuboid to be made up of 60 unit cubes. The front and side views sho
 
 
 ## 20.
-
+<!--- (2004) --->
 ::: problem id=20_1 marks=4
 What is the largest power of 2 that divides `127^2 - 1`?
 
@@ -454,7 +454,7 @@ Using the formula for the difference of two squares:
 
 
 ## 21.
-
+<!--- (2004) --->
 ::: problem id=21_1 marks=5
 ![](/resources/10-13-chrismaths/21-square.png){image align="right"}
 A square is divided into four congruent rectangles and a smaller square, as shown. The diagram is not to scale.  
@@ -482,7 +482,7 @@ Therefore `y + x = 2(y − x)` i.e. `y = 3x` so `x : y = 1 : 3`.
 
 
 ## 22.
-
+<!--- (2004) --->
 ::: problem id=22_1 marks=5
 In a maths exam with `N` questions, you score `m` marks for a correct answer to each of the first `q` questions, and `m + 2` marks for a correct answer to each of the remaining questions.  
 
@@ -504,7 +504,7 @@ So the maximum possible score `= m × N + 2 × (N − q) = mN + 2N − 2q = (m +
 
 
 ## 23.
-
+<!--- (2004) --->
 ::: problem id=23_1 marks=5
 ![](/resources/10-13-chrismaths/23-shape.png){image align="right"}
 In the diagram, the letter `S` is made from two arcs, `KL` and `MN`, which are each five-eights of the circumference of a circle of radius 1, and the line segment `LM`, which is tangent to both circles.  
@@ -541,7 +541,7 @@ By a similar argument, it may be shown that `PM` is also of length 1 unit, so `L
 
 
 ## 24.
-
+<!--- (2004) --->
 ::: problem id=24_1 marks=5
 If `p`, `q` and `p - q` are all positive integers, which of the following is least?
 
@@ -563,7 +563,7 @@ Hence `(q^2)/(p^2)` is the least of the five numbers.
 
 
 ## 25.
-
+<!--- (2004) --->
 ::: problem id=25_1 marks=5
 ![](/resources/10-13-chrismaths/25-square.png){image align="right"}  
 The diagram shows a square with two lines from a corner to the middle of an opposite side.  

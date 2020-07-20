@@ -30,6 +30,7 @@ I guess that the left set contains “creatures with flat tails playing guitars�
 
 
 ## 2.
+<!--- 2013 (9) --->
 
 ::: problem id=2_1 marks=3
 __2.1__ Jane has 20 identical cards in the shape of an isosceles right-angled triangle. She uses the cards to make the five shapes below.  
@@ -71,6 +72,7 @@ Now, as `1 < sqrt(2) < 1.5`, we have `4 sqrt(2) < 4 × 1.5 = 6 = 4 + 2 < 4 + 2 s
 
 
 ## 3.
+<!--- 2013 (10) --->
 
 ::: problem id=3_1 marks=3
 __3.1__ `ABCDE` is a regular pentagon and `BCF` is an equilateral triangle such that `F` is inside `ABCDE`. What is the size of `∠FAB`?
@@ -100,6 +102,7 @@ Since `∠FAB = ∠BFA`, it follows that `∠FAB = 1/2 (132°) = 66°`.
 
 
 ## 4.
+<!--- 2013 (11) --->
 
 ::: problem id=4_1 marks=3
 __4.1__ For which of the following numbers is the sum of all its factors not equal to a square number?
@@ -126,6 +129,7 @@ So, for each option given, other than 40, the sum of its factors is a square num
 
 
 ## 5.
+<!--- 2013 (12) --->
 
 ::: problem id=5_1 marks=3
 __5.1__ The sum:  
@@ -156,6 +160,7 @@ Hence `x = 9`. So we need to replace `x` by a word with 9 letters in it. Of the 
 
 
 ## 6.
+<!--- 2013 (21) --->
 
 ::: problem id=6_1 marks=5
 ![](/resources/9-24-easter-challenges/6-square.png){image align="right"}
@@ -189,6 +194,7 @@ So the larger square inside `ABCD` has side length 10 and hence area 100, and th
 
 
 ## 7.
+<!--- 2013 (22) --->
 
 ::: problem id=7_1 marks=5
 ![](/resources/9-24-easter-challenges/7-semicircles.png){image align="right"}
@@ -219,6 +225,7 @@ The shaded region in the top diagram consists of a square of side length `x` and
 
 
 ## 8.
+<!--- 2013 (23) --->
 
 ::: problem id=8_1 marks=4
 __8.1__ Four brothers are discussing the order in which they were born. Two are lying and two are telling the truth. Which two are telling the truth?
@@ -249,6 +256,7 @@ We deduce that the two brothers who are telling the truth are Bernard and Inigo.
 
 
 ## 9.
+<!--- 2013 (24) --->
 
 ::: problem id=9_1 marks=5
 ![](/resources/9-24-easter-challenges/9-triangle.png){image align="right"}

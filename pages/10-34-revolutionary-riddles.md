@@ -118,7 +118,7 @@ __4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have
 
 
 ## 5. Intermediate Maths Challenge Problem (UKMT)
-<!--- (1999) Q23 --->
+<!--- (1999) Q24 --->
 
 ::: problem id=5_1 marks=5
 __5.1__ The Queen of Hearts has lost her tarts! She is sure that those knaves who have not eaten tarts will tell her the truth and that the guilty knaves will tell lies. When questioned, the five knaves declare:

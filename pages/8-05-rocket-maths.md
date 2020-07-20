@@ -157,7 +157,7 @@ __2.3__ What caused the fire?
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)
-<!--- (2013) Q14.1 --->
+<!--- 2013 (14 ext) --->
 
 ::: problem id=3_1 marks=3
 __3.1__ How many different possibilities are there for the side lengths of an isosceles triangle each of whose sides is a whole number of centimetres and whose perimeter is 24 cm?

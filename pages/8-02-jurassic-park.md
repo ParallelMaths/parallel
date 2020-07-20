@@ -96,6 +96,7 @@ If you are a Year 8 student, then it likely that you will be taking part in the 
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- 2013 (19) --->
 ::: problem id=3_1 marks=3
 __3.1__ A swimming club has three categories of members: junior, senior, veteran. The ratio of junior to senior members is 3:2 and the ratio of senior members to veterans is 5:2.
 

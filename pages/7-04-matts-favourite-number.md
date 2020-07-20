@@ -74,12 +74,12 @@ __2.1__ Who invented the name Big Bang?
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)
-<!--- (2013) --->
 
 If you are a Year 7 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against Year 7 and Year 8 (!) students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
+<!--- 2013 (15) --->
 ::: problem id=3_1 marks=3
 __3.1__ The Grand Old Duke of York had 10 000 men. He lost 10% of them on the way to the top of the hill, and he lost 15% of the rest as he marched them back down the hill.
 

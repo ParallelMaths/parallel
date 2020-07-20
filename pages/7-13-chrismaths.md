@@ -27,6 +27,7 @@ PS: I want to say thank you to the UK Mathematics Trust, who own the copyright t
 
 
 ## 1.
+<!--- 2015 (1) --->
 
 ::: problem id=1_1 marks=3
 Which of the following calculations gives the largest answer?
@@ -54,6 +55,7 @@ and therefore that A gives the largest answer.
 
 
 ## 2.
+<!--- 2015 (2) --->
 
 ::: problem id=2_1 marks=3
 It has just turned 22:22. How many minutes are there until midnight?
@@ -74,6 +76,7 @@ Since 38 + 60 = 98, there are 98 minutes to midnight.
 
 
 ## 3.
+<!--- 2015 (3) --->
 
 ::: problem id=3_1 marks=3
 What is the value of `12345/(1 + 2 + 3 + 4 + 5)`?

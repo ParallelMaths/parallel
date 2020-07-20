@@ -24,7 +24,7 @@ You will come across a lot of Venn diagrams while studying mathematics, but perh
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- (2013) --->
+<!--- 2013 (1) --->
 
 ::: problem id=2_1 marks=2
 __2.1__ Which of the following expressions has the largest value?
@@ -42,7 +42,7 @@ In each case a number is subtracted from 1. The smaller the number we subtract, 
 
 
 ## 3. Junior Maths Challenge Problem (UKMT)
-<!--- (2013) --->
+<!--- 2013 (2) --->
 
 ::: problem id=3_1 marks=2
 __3.1__ Heidi is 2.1 m tall, while Lola is only 1.4 m tall. What is their average height?
@@ -71,6 +71,7 @@ Perhaps pause the video and think about possible solutions before they give you 
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
+<!--- 2013 (3) --->
 
 ::: problem id=5_1 marks=3
 ![](/resources/7-23-secret-happiness/5-triangles-question.jpg){image align="right"}
