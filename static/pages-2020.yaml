@@ -718,11 +718,11 @@ year11:
 #    title:
 #    available: 2020-09-24T13:00:00
 #    deadline: 2020-09-27T18:00:00
-#  - url:
-#    title:
-#    available: 2020-09-17T13:00:00
-#    deadline: 2020-09-20T19:00:00
-#  - url:
-#    title:
-#    available: 2020-09-01T13:00:00
-#    deadline: 2020-09-13T19:00:00
+  - url: 11-02-ok-go
+    title: OK Go
+    available: 2020-09-17T13:00:00
+    deadline: 2020-09-20T19:00:00
+  - url: 11-01-prince-ruperts-drops
+    title: Prince Rupert’s Drops
+    available: 2020-09-01T13:00:00
+    deadline: 2020-09-13T19:00:00
