@@ -182,180 +182,120 @@ In a `3 × 3` square each row and column contains just 3 squares. So none of the
 
 
 ## 7.
-<!--- 2012 (14) --->
+<!--- 2008 (14) --->
 
 ::: problem id=7_1 marks=5
-__7.1__ A pattern that repeats every six symbols starts as shown below:
+__7.1__ A solid wooden cube is painted blue on the outside. The cube is then cut into eight smaller
+cubes of equal size. What fraction of the total surface area of these new cubes is blue?
 
-♥ ♣ ♥ ♦ ♥ ♠ ♥ ♣ ♥ ♦ ♥ ♠ ...
-{.text-center}
-
-Which are the 100th and 101st symbols, in that order, in the pattern?
-
-* [x] ♦ ♥
-* [ ] ♥ ♦
-* [ ] ♥ ♣
-* [ ] ♠ ♥
-* [ ] ♣ ♥
+* [ ] `1/8`
+* [ ] `1/3`
+* [ ] `3/8`
+* [x] `1/2`
+* [ ] `3/4`
 {.col-5}
 
 ---
 
-The pattern repeats every 6 symbols. Therefore, as 96 is a multiple of 6, the symbols in positions 97, 98, 99, 100, 101, 102, are the same as those in positions 1, 2, 3, 4, 5, 6, that is, they are ♥ ♣ ♥ ♦ ♥ ♠. We see from this that the symbols that are the 100th and 101st in  list are ♦ ♥, in this order.
+As the original cube was divided into eight cubes of equal size, these smaller cubes have side equal to half the side of the original cube.
 
-Can you see the link with modular arithmetic, something we’ve covered in previous Parallelograms?
+So each of the new cubes originally occupied one corner of the large cube and hence has three faces painted blue and three faces unpainted.
+
+So the fraction of the total surface area of the new cubes which is blue equals one half.
 :::
 
 
 ## 8.
-<!--- 2017 (1) --->
+<!--- 2009 (1) --->
 
 ::: problem id=8_1 marks=5
-__8.1__ Which of the following calculations gives the largest answer?
+__8.1__ What is the value of 9002 – 2009?
 
-
-* [ ] 2 − 1
-* [ ] 2 ÷ 1
-* [ ] 2 × 1
-* [ ] 1 × 2
-* [x] 2 + 1
+* [ ] 9336
+* [x] 6993
+* [ ] 6339
+* [ ] 3996
+* [ ] 3669
 {.col-5}
 
 ---
-
-We have
-
-2 − 1 = 1,  
-2 ÷ 1 = 2,  
-2 × 1 = 2,  
-1 × 2 = 2,  
-
-and  
-
-2 + 1 = 3.  
-
-We therefore see that 2 + 1 gives the largest value.
+`9002 - 2002 = 7000` so `9002 - 2009 = 7000 - 7 = 6993`.
 :::
 
 
 ## 9.
-<!--- 2017 (3) --->
+<!--- 2009 (3) --->
 
 ::: problem id=9_1 marks=5
-![](/resources/7-24-easter-challenges/3-angles.png){image align="right"}
-__9.1__ What is the value of `x` ?
+__9.1__ Which of the following is correct?
 
-* [ ] 43
-* [ ] 47
-* [ ] 53
-* [x] 57
-* [ ] 67
+* [ ] 0 × 9 + 9 × 0 = 9
+* [ ] 1 × 8 + 8 × 1 = 18
+* [ ] 2 × 7 + 7 × 2 = 27
+* [x] 3 × 6 + 6 × 3 = 36
+* [ ] 4 × 5 + 5 × 4 = 45
 
 ---
 
-![](/resources/7-24-easter-challenges/3-angles-answer.png){image align="right"}
-Let the angle shown be `y°`.  
-
-Because the angles at a point total 360°, we have `y` + 303 = 360.  
-
-Therefore `y` = 360 − 303 = 57.  
-
-Because the alternate angles formed by a line which cuts a pair of parallel lines are equal, `x = y`.  
-
-Hence `x` = 57.
+The values of the left-hand sides of the expressions are 0, 16, 28, 36 and 40 respectively.
 :::
 
 
 ## 10.
-<!--- 2017 (5) --->
+<!--- 2009 (5) --->
 
 ::: problem id=10_1 marks=5
-__10.1__ What is the value of 201 × 7 − 7 × 102 ?
+__10.1__ Which of the following numbers is divisible by 7?
 
-* [ ] 142 800
-* [ ] 793
-* [x] 693
-* [ ] 607
-* [ ] 0
-{.col-5}
+* [ ] 111
+* [ ] 1111
+* [ ] 11111
+* [x] 111111
+* [ ] 1111111
 
 ---
 
-We have 201 × 7 − 7 × 102 = 1407 − 714 = 693.  
-
-This straightforward method does not involve too much hard work. However, as both the products 201 × 7 and 7 × 102 involve the factor 7, there is an alternative method in which we first take out this common factor:  
-
-201 × 7 − 7 × 102  
-= 7 × (201 − 102)  
-= 7 × 99  
-= 7 × (100 − 1)  
-= 7 × 100 − 7 × 1  
-= 700 − 7  
-= 693.  
+The problem may be solved by dividing each of the alternatives in turn by 7,
+but the prime factorisation of 1001, i.e. `1001 = 7 × 11 × 13`, leads to the
+conclusion that 111 111, which is `111 × 1001`, is a multiple of 7.
 :::
 
 
 ## 11.
-<!--- 2017 (7) --->
+<!--- 2009 (7) --->
 
 ::: problem id=11_1 marks=5
-__11.1__ If you work out the values of the following expressions and then place them in increasing numerical order, which comes in the middle?
+__11.1__ How many minutes are there from 11:11 until 23:23 on the same day?
 
-* [x] `2/3 + 4/5`
-* [ ] `2/3 × 4/5`
-* [ ] `3/2 + 5/4`
-* [ ] `2/3 ÷ 4/5`
-* [ ] `3/2 × 5/4`
+* [ ] 12
+* [ ] 720
+* [x] 732
+* [ ] 1212
+* [ ] 7212
 {.col-5}
 
 ---
 
-We evaluate each expression in turn, and we write the answers as fractions with the same denominator so as to make it easy to arrange them in increasing order.  
-
-We have:  
-
-`2/3 + 4/5 = (10 + 12)/15 = 22/15 = 176/120`  
-
-`2/3 × 4/5 = (2 × 4)/(3 × 5) = 8/15 = 64/120`  
-
-`3/2 + 5/4 = (12 + 10)/8 = 22/8 = 330/120`  
-
-`2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 100/120`  
-
-`3/2 × 5/4 = (3 × 5)/(2 × 4) = 15/8 = 225/120`  
-
-We now see that when the fractions are arranged in increasing numerical order, the order is:  
-
-`2/3 × 4/5`, `2/3 ÷ 4/5`, `2/3 + 4/5`, `3/2 × 5/4`, `3/2 + 5/4`  
-
-Therefore it is the expression  
-
- `2/3 + 4/5`  
-
-whose value is in the middle.
+The time difference is 12 hours and 12 minutes, that is 732 minutes.
 :::
 
 
 ## 12.
-<!--- 2017 (9) --->
+<!--- 2009 (9) --->
 
 ::: problem id=12_1 marks=5
-__12.1__ In William Shakespeare’s play As You Like It, Rosalind speaks to Orlando about, "He that will divide a minute into a thousand parts".  
+__12.1__ How many different digits appear when `20/11` is written as a recurring decimal?
 
-Which of the following is equal to the number of seconds in one thousandth of one minute?
-
-* [ ] 0.24
-* [ ] 0.6
-* [ ] 0.024
-* [x] 0.06
-* [ ] 0.006
+* [x] 2
+* [ ] 3
+* [ ] 4
+* [ ] 5
+* [ ] 6
 {.col-5}
 
 ---
 
-There are 60 seconds in one minute. Therefore the number of seconds in one thousandth of a minute is:  
-
-`60/1000 = 6/100 = 0.06`.
+`20/11 = 1 9/11 = 1.818181...`, so only two different digits appear.
 :::
 
 
@@ -403,43 +343,28 @@ The sum of the interior angles of a polygon with n vertices is `(n − 2) × 180
 
 
 ## 14.
-<!--- 2017 (13) --->
+<!--- 2009 (12) --->
 
 ::: problem id=14_1 marks=5
-__14.1__ Consider the following three statements.  
+__14.1__ Gill is 21 this year. At the famous visit to the clinic in 1988, her weight was calculated to
+be 5kg, but she now weighs 50kg.
 
-* (i) Doubling a positive number always makes it larger.  
-* (ii) Squaring a positive number always makes it larger.  
-* (iii) Taking the positive square root of a number always makes it smaller.  
+What has been the percentage increase in Gill's weight
+from 1988 to 2009?
 
-Which statements are true?  
-
-* [ ] All three
-* [ ] None
-* [x] Only (i)
-* [ ] (i) and (ii)
-* [ ] (ii) and (iii)
-{.col-3}
+* [x] 900%
+* [ ] 1000%
+* [ ] 5000%
+* [ ] 9000%
+* [ ] 10,000%
+{.col-5}
 
 ---
 
-Statement (i) is true, because, if `x` is a positive number, then  
+The increase in Gill's weight is 45 kg, which is 9 times her weight in 1988.
 
-`2x = x + x > x`.  
-
-Statement (ii) is false. If a positive number which is less than 1 is squared, then the answer is smaller than the original number. For example, with `x = 1/2`, we have:
-
-`x^2 = 1/4 < 1/2`.
-
-Similarly, if we take the positive square root of a number that is less than 1, then the answer is larger than the original number. For example
-
-`sqrt(1/4) = 1/2 > 1/4`.
-
-Hence statement (iii) is false.  
-
-Therefore statement (i) is the only one that is true.
+So the percentage increase in weight is 900%.
 :::
-
 
 ## 15.
 <!--- 2017 (15) --->

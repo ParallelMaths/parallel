@@ -150,26 +150,27 @@ In fact, we do know the order of (4, 1) in the (3−) cage, because the freebie 
 
 
 ## 4.	Junior Maths Challenge Problem (UKMT)
-<!--- (2014) Q18 --->
+<!--- (2008) Q18 --->
 
 ::: problem id=3_1 marks=4
-__4.1__ Which of these statements is true?
+__4.1__ Granny swears that she is getting younger. She has calculated that she is four times as old as I am now, but remembers that 5 years ago she was five times as old as I was at that time.
 
-* [ ] 15,614 = 1 + 5<sup>6</sup> − 1 × 4
-* [ ] 15,615 = 1 + 5<sup>6</sup> − 1 × 5
-* [ ] 15,616 = 1 + 5<sup>6</sup> − 1 × 6
-* [ ] 15,617 = 1 + 5<sup>6</sup> − 1 × 7
-* [x] 15,618 = 1 + 5<sup>6</sup> − 1 × 8
+What is the sum of our ages now?
+
+* [ ] 95
+* [x] 100
+* [ ] 105
+* [ ] 110
+* [ ] 115
+{.col-5}
 
 ---
-In the context of the JMC we can assume that just one of the given options is correct, so we can find which it is by eliminating the ones that are wrong. We can do this by just considering the last digit (the units digit) of the given options.  
 
-The last digit of 5<sup>6</sup> is 5. Since 1 + 5<sup>6</sup> − 1 × 4 = 1 + 5<sup>6</sup> − 4 its last digit is the same as that of 1 + 5 − 4, that is, 2. So option A is not the correct answer. In a similar way, it follows that the last digit of 1 + 5<sup>6</sup> − 1 × 5 is 1, the last digit of 1 + 5<sup>6</sup> − 1 × 6 is 0, and the last digit of 1 + 5<sup>6</sup> − 1 × 7 is 9. So options B, C and D are also not correct This leaves E as the only possible correct option.  
+Let my age now be `x`. So Granny's age is `4x`. Considering five years ago:
 
-In this way there is no need to evaluate 5<sup>6</sup>. However, to give a complete answer we would need to check that E is correct. This is straightforward:
+`4x - 5 = 5 (x - 5)`, giving `x = 20`.
 
-1 + 5<sup>6</sup> − 1 × 8 = 1 + 15,625 − 8 = 15,626 − 8 = 15,618.
-{.text-center}  
+So Granny is 80 and I am 20, and the sum of our ages is 100.
 :::
 
 

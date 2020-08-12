@@ -56,24 +56,26 @@ The exception is number 19, which is made up of two oranges (2s) and one green (
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- 2013 (4) --->
+<!--- 2010 (5) --->
 
 ::: problem id=2_1 marks=2
-__2.1__ Gill went for a five-hour walk. Her average speed was between 3 km/h and 4 km/h.
-Which of the following could be the distance she walked?
+![](/resources/8-23-colour-code-challenge/2-spiral-question.gif){image align="right"}
+__2.1__ The diagram shows a pattern of 16 circles inside a square.
 
-* [ ] 12 km
-* [ ] 14 km
-* [x] 19 km
-* [ ] 24 km
-* [ ] 35 km
+The central circle passes through the points where the other circles touch.
+
+The circles divide the square into regions. How many regions are there?
+
+* [ ] 17
+* [ ] 26
+* [ ] 30
+* [x] 32
+* [ ] 38
 {.col-5}
 
 ---
 
-Walking at 3 km/h for five hours, Gill would walk 5 × 3 km = 15 km, and at 4 km/h she would walk 5 × 4 km = 20 km.
-
-As her average speed is between 3 km/h and 4 km/h, she walks between 15 km and 20 km. Of the options given, only 19 km is in this range.
+Each of the five outer circles is divided into six regions, giving 30 regions in total. In addition, there is one region in the centre of the diagram and one region between the circles and the sides of the square. So, in all, there are 32 regions.
 :::
 
 

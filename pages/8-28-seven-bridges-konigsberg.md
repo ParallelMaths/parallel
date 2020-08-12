@@ -147,23 +147,28 @@ If we reverse this path, we have a way to draw the diagram starting at `S`.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
-<!--- 2011 (13) --->
+<!--- 2010 (13) --->
 
 ::: problem id=5_1 marks=2
-__5.1__ What is the mean of `2/3` and `4/9`?
+![](/resources/8-28-seven-bridges-konigsberg/5-lusona-question.gif){image align="right"}
+__5.1__ The diagram shows a Lusona, a sand picture of the Tshokwe people from the West Central Bantu area of Africa.
 
-* [ ] `1/2`
-* [ ] `2/9`
-* [ ] `7/9`
-* [ ] `3/4`
-* [x] `5/9`
+To draw a Lusona the artist uses a stick to draw a single line in the sand, starting and ending in the same place without lifting the stick in between.
+
+At which point could this Lusona have started?
+
+* [ ] A
+* [x] B
+* [ ] C
+* [ ] D
+* [ ] E
 {.col-5}
 
 ---
 
-The mean of two numbers, `a` and `b`, is the average `1/2` `(a + b)`. Hence the mean of `2/3` and `4/9` is:
+It is necessary to find a route for which the line is broken the first time it passes through any intersection and solid when it passes through that intersection for the second time.
 
-`1/2` `(2/3 + 4/9)` = `1/2` `((6 + 4)/9)` = `1/2` `(10/9)` = `5/9`.
+Only the route which starts at B and heads away from D satisfies this condition.
 :::
 
 

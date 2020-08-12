@@ -24,20 +24,21 @@ You will come across a lot of Venn diagrams while studying mathematics, but perh
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- 2013 (1) --->
+<!--- 2011 (1) --->
 
 ::: problem id=2_1 marks=2
-__2.1__ Which of the following expressions has the largest value?
+__2.1__ What is 2010 + (+2010) + (-2010) - (+2010) - (-2010)?
 
-* [ ] 1 – 0.1
-* [ ] 1 – 0.01
-* [ ] 1 – 0.001
-* [ ] 1 – 0.0001
-* [x] 1 – 0.00001
+* [ ] 0
+* [X] 2010
+* [ ] 4020
+* [ ] 6030
+* [ ] 8040
+{.col-5}
 
 ---
 
-In each case a number is subtracted from 1. The smaller the number we subtract, the larger the answer will be. So the largest value is obtained when the smallest number is subtracted.
+The expression = 2010 + 2010 - 2010 - 2010 + 2010 = (2010 - 2010) + (2010 - 2010) + 2010 = 2010.
 :::
 
 

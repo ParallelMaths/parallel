@@ -66,27 +66,20 @@ So the required number is 1023.
 
 
 ## 2.
-<!--- 2017 (2) --->
+<!--- 2009 (2) --->
 
 ::: problem id=2_1 marks=5
-__2.1__ Nadiya is baking a cake. The recipe says that her cake should be baked in the oven for 1 hour and 35 minutes. She puts the cake in the oven at 11:40 am.  
+![](/resources/8-24-easter-challenges/2-die-question.gif){image align="right"}
+__2.1__ How many of the six faces of a die have fewer than three lines of symmetry?
 
-At what time should she take the cake out of the oven?
-
-* [ ] 12:15 pm
-* [ ] 12:40 pm
-* [ ] 1:05 pm
-* [x] 1:15 pm
-* [ ] 2:15 pm
-{.col-5}
+* [ ] 2
+* [x] 3
+* [ ] 4
+* [ ] 5
+* [ ] 6
 
 ---
-
-1 hour and 35 minutes is 1 hour plus 20 minutes plus 15 minutes.  
-
-One hour after 11:40 am the time is 12:40 pm. After a further 20 minutes, the time is 1 pm. Then 15 minutes later it is 1:15pm.  
-
-Therefore 1 hour and 35 minutes after 11:40 am the time is 1:15 pm.
+Each of faces 1, 4 and 5 has four axes of symmetry, whilst each of faces 2, 3 and 6 has two axes of symmetry only.
 :::
 
 
@@ -112,20 +105,18 @@ The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the fact
 <!--- 2017 (4) --->
 
 ::: problem id=4_1 marks=5
-__4.1__ A download is 95% complete. What fraction is yet to be downloaded?
+__4.1__ Which of the following points is not at a distance of 1 unit from the origin?
 
-* [ ] `1/2`
-* [ ] `1/5`
-* [ ] `1/9`
-* [ ] `1/10`
-* [x] `1/20`
+* [ ] (0, 1)
+* [ ] (1, 0)
+* [ ] (0, -1)
+* [ ] (-1, 0)
+* [x] (1, 1)
 {.col-5}
 
 ---
 
-When the download is 95% complete, 5% remains to be downloaded.
-
-Now 5% means 5 parts in 100. Therefore, expressed as a fraction, 5% is `5/100 = 1/20`.
+Each of points (0, 1), (1, 0), (0, -1) and (-1, 0) is 1 unit from the origin, but the point (1, 1) is at a distance of `sqrt(2)` units from the origin.
 :::
 
 
@@ -149,31 +140,23 @@ All you have to do is a subtraction: 2012 - 1850 = 162.
 
 
 ## 6.
-<!--- 2017 (6) --->
+<!--- 2009 (6) --->
 
 ::: problem id=6_1 marks=5
-![](/resources/8-24-easter-challenges/6-magicsquare-question.png){image align="right"}
-__6.1__ In a magic square, the numbers in each row, each column and the two main diagonals have the same total. This magic square uses the integers 2 to 10.  
+![](/resources/8-24-easter-challenges/6-triangle-question.gif){image align="right"}
+__6.1__ Each square in the figure is 1 unit by 1 unit.
 
-Which of the following are the missing cells?
+What is the area of triangle ABM (in square units)?
 
-* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-a.png)
-* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-b.png)
-* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-c.png)
-* [x] ![](/resources/8-24-easter-challenges/6-magicsquare-d.png)
-* [ ] ![](/resources/8-24-easter-challenges/6-magicsquare-e.png)
-{.col-3}
+* [ ] 4
+* [x] 4.5
+* [ ] 5
+* [ ] 5.5
+* [ ] 6
 
 ---
 
-![](/resources/8-24-easter-challenges/6-magicsquare-answer.png){image align="right"}
-__Method 1:__ The row totals given by the numbers shown in the square in the question are 10 + 5 = 15, 8 + 4 = 12 and 7 + 2 = 9. Therefore to make all the row totals the same, the number we add to the second row must be three more than the number we add to the first row, and the number we add to the third row must be three more than the number we add to the second row.  
-
-Therefore the only possibility for the missing cells among the given options is that given by option D.  
-
-As the square on the right shows, when we add these missing cells, the row totals, the column totals and the totals on the two main diagonals are all equal to 18. So option D is correct.  
-
-__Method 2:__ The numbers in the completed magic square have total 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 54. This is the sum of the three row totals. Since these row totals are equal, each row total in the magic square is 54 ÷ 3 = 18. To achieve these totals from the numbers already shown in the square in the question, the numbers that need to be added to the three rows are 3, 6 and 9 in this order from top to bottom. So the correct option is D.
+Triangle `ABM` has base 3 units and height 3 units, so its area is `1/2 × 3 × 3` units², that is `4 1/2` units².
 :::
 
 
@@ -203,44 +186,26 @@ From these we can deduce that `l` = `3/2` `m` = `3/2` `×` `(3 × 600)/2` `= 9 �
 
 
 ## 8.
-<!--- 2017 (8) --->
+<!--- 2009 (8) --->
 
 ::: problem id=8_1 marks=5
-![](/resources/8-24-easter-challenges/8-rectangle.png){image align="right"}
-__8.1__ The diagram shows a rectangle `PQRS`, with point `T` on `PS` such that `QT` is perpendicular to `RT`.  
+![](/resources/8-24-easter-challenges/8-perimeter-question.gif){image align="right"}
+__8.1__ The figure on the right shows an arrangement of ten square tiles.
 
-The length of `QT` is 4 cm. The length of `RT` is 2 cm.  
+Which labelled tile could be removed, but still leave the length of the perimeter unchanged?
 
-What is the area of the rectangle `PQRS`?
-
-* [ ] 6 cm<sup>2</sup>
-* [x] 8 cm<sup>2</sup>
-* [ ] 10 cm<sup>2</sup>
-* [ ] 12 cm<sup>2</sup>
-* [ ] 16 cm<sup>2</sup>
+* [ ] A
+* [ ] B
+* [ ] C
+* [ ] D
+* [x] E
 {.col-5}
 
 ---
 
-The area of a triangle is given by the formula:  
+Removing tile A or tile B or tile D has the effect of reducing the perimeter by a distance equal to twice the side of one tile, whilst removing tile C increases the perimeter by that same distance.
 
-`1/2 `(base × height)  
-
-whereas the area of a rectangle is given by  
-
-base × height.  
-
-The triangle `QRT` and the rectangle `PQRS` have the same base, `QR`, and the same height.  
-
-It follows that the area of the rectangle `PQRS` is twice the area of the triangle `QRT`.  
-
-Because `QT` is perpendicular to `RT`, if we take `QT` as the base of the triangle `QRT`, its height is given by the length of `RT`. Hence the area of the triangle `QRT` is:
-
-`1/2 (QT × RT) = 1/2 (4 cm × 2 cm) = 4 cm^2`.
-
-Hence the area of the rectangle PQRS is:
-
-`2 × 4 cm^2 = 8 cm^2`.
+Removing tile E, however, leaves the length of the perimeter unchanged.
 :::
 
 
@@ -277,95 +242,64 @@ information we are given doesn't enable us to work out which is where.
 
 
 ## 10.
-<!--- 2017 (10) --->
+<!--- 2009 (10) --->
 
 ::: problem id=10_1 marks=5
-__10.1__ Which of the following integers is not a multiple of 45?
+![](/resources/8-24-easter-challenges/10-angles-question.gif){image align="right"}
+__10.1__ The diagram shows three squares of the same size. What is the value of `x`?
 
-* [ ] 765
-* [ ] 675
-* [ ] 585
-* [ ] 495
-* [x] 305.
-{.col-5}
+* [ ] 105
+* [x] 120
+* [ ] 135
+* [ ] 150
+* [ ] 165
 
 ---
 
-Because 45 = 5 × 9, if an integer is divisible by 45, it is divisible both by 5 and by 9. Conversely, if an integer is divisible both by 5 and by 9, then, because 5 and 9 have no common factors other than 1, the integer is also divisible by 45.  
-
-Each of the integers 765, 675, 585, 495 and 305 has units digit 5, and therefore is divisible by 5.  
-
-The test for whether an integer is divisible by 9 is whether the sum of its digits is divisible by 9.  
-
-We see that 7 + 6 + 5 = 18, 6 + 7 + 5 = 18, 5 + 8 + 5 = 18 and 4 + 9 + 5 = 18. Because 18 is divisible by 9 we deduce that all of the first four integers given as options are divisible by 9.  
-
-However 3 + 0 + 5 = 8 and so the sum of the digits of 305 is not divisible by 9.  
-
-We deduce that 305 is the only one of the given options that is not divisible by 45
+The triangle in the centre of the diagram is equilateral since each of its sides is equal in length to the side of one of the squares. The sum of the angles at a point is `360°`, so `x = 360 - (90 + 90 + 60) = 120`.
 :::
 
 
 ## 11.
-<!--- 2012 (11) --->
+<!--- 2010 (11) --->
 
 ::: problem id=11_1 marks=5
-__11.1__ In the following expression each ▲ is to be replaced with either + or - in such a way that the result of the calculation is 100.
+![](/resources/8-24-easter-challenges/11-angles-question.gif){image align="right"}
+__11.1__ In the diagram shown, all the angles are right angles and all the sides are of length 1 unit, 2 units or 3 units.
 
-123 ▲ 45 ▲ 67 ▲ 89  
-{.text-center}
+What, in square units, is the area of the shaded region?
 
-The number of + signs used is `p` and the number of - signs used is `m`. What is the value of `p` - `m` ?
-
-* [ ] -3
-* [x] -1
-* [ ] 0
-* [ ] 1
-* [ ] 3
+* [ ] 22
+* [ ] 24
+* [x] 26
+* [ ] 28
+* [ ] 30
 {.col-5}
 
 ---
 
-One approach is trial and error, as there are only a few combinations. For example, if it is (+ 45) then it is hard to see how we obtain a result of 100. So, we can then explore (- 45). Following this approach quickly leads you to the correct answer, but there is also a more rigorous and mathematical approach.
+Divide the whole figure into horizontal strips of height 1 unit: its area is (3 + 6 + 8 + 8 + 8 + 6 + 3) units<sup>2</sup> = 42 units<sup>2</sup>. Similarly, the unshaded area is (1 + 4 + 6 + 4 + 1) units<sup>2</sup> = 16 units<sup>2</sup>. So the shaded area is 26 units<sup>2</sup>.
 
-The sum is made up of 123 and ± 45, ± 67and ± 89. Suppose that the total of the positive terms in the calculation is `x` and the total of the negative terms is `y`. So `x > 0` and `y < 0`. We need to have that:
-
-`x + y = 100`.
-{.text-center}
-
-We also have that:
-
-`x - y = 123 + 45 + 67 + 89 = 324`.
-{.text-center}
-
-Adding these equations, we obtain `2x = 424`. So `x = 212` and hence `y = -112`. It is readily seen that `45 + 67 = 112` and that no other combination of 45, 67 and 89 gives a total of 112. So the correct calculation must be `123 - 45 - 67 + 89 = 100` with 1 plus sign and 2 minus signs. So `p = 1` and
-`m = 2`, giving `p - m = -1`.
+Alternative solution: notice that if the inner polygon is moved a little, the answer remains the same – because it is just the difference between the areas of the two polygons. So, although we are not told it, we may assume that the inner one is so positioned that the outer shaded area can be split neatly into 1 by 1 squares – and there are 26 of these.
 :::
 
-
 ## 12.
-<!--- 2017 (12) --->
+<!--- 2007 (12) --->
 
 ::: problem id=12_1 marks=5
-__12.1__ Last year, at the school where Gill teaches Mathematics, 315 out of the 600 pupils were girls. This year, the number of pupils in the school has increased to 640. The proportion of girls is the same as it was last year.  
+__12.1__ The six-member squad for the Ladybirds five-a-side team consists of a 2-spot ladybird, a 10-spot, a 14-spot, an 18-spot, a 24-spot and a pine ladybird (on the bench). The average number of spots for members of the squad is 12. How many spots does  the pine ladybird have?
 
-How many girls are there at the school this year?
-
-* [ ] 339
-* [ ] 338
-* [ ] 337
-* [x] 336
-* [ ] 335
+* [x] 4
+* [ ] 5
+* [ ] 6
+* [ ] 7
+* [ ] 8
 {.col-5}
 
 ---
 
-The fraction of girls in the school last year was `315/600`. By dividing both the numerator and denominator by 3 and then by 5 we see that  
-
-`315/600 = 105/200 = 21/40`.  
-
-The proportion of girls this year is the same. Therefore, of the 640 pupils in the school this year, the number that are girls is:  
-
-`21/40 × 640 = 21 × 16 = 336`.
+The total number of spots which the six ladybirds have is `6 × 12 = 72`. So
+the number of spots which the pine ladybird has is `72 - (2 + 10 + 14 + 18 + 24) = 4`.
 :::
 
 
@@ -463,21 +397,25 @@ The three different grids that Mathias could produce are shown in the figure bel
 
 
 ## 16.
-<!--- 2012 (17) --->
+<!--- 2010 (17) --->
 
 ::: problem id=16_1 marks=6
-__16.1__ There are six more girls than boys in Miss Spelling's class of 24 pupils. What is the ratio of girls to boys in this class?
+![](/resources/8-24-easter-challenges/16-triangle-question.gif){image align="right"}
+__16.1__ The lengths, in cm, of the sides of the equilateral triangle `PQR` are as shown.
 
-* [x] 5:3
-* [ ] 4:1
-* [ ] 3:1
-* [ ] 1:4
-* [ ] 3:5
-{.col-5}
+Which of the following could not be the values of x and y?
+
+* [ ] (18, 12)
+* [ ] (15, 10)
+* [ ] (12, 8)
+* [x] (10, 6)
+* [ ] (3, 2)
 
 ---
 
-Suppose there are `g` girls and `b` boys in Miss Spelling's class. As there are 6 more girls than boys, `g - b = 6`. As there are 24 pupils altogether, `g + b = 24`. Adding these equations gives `2g = 30`, so `g = 15`. Hence `b = 15 - 6 = 9`. So the ratio `g:b` is `15:9` which is the same as `5:3`.
+As triangle `PQR` is equilateral, `x + 2y = 3x - y = 5y - x`. Equating any two of these expressions gives `2x = 3y`.
+
+The only pair of given values which does not satisfy this equation is `x = 10`, `y = 6`.
 :::
 
 

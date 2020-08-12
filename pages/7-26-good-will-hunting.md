@@ -364,28 +364,20 @@ reason why it’s a good idea to be a confident mathematician.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
-<!--- 2017 (3) --->
+<!--- 2010 (3) --->
 
 ::: problem id=5 marks=1
-__5.1__ What is the value of `x`?
+__5.1__ Which of the following could have a length of 2010 mm?
 
-![](/resources/7-26-good-will-hunting/maths-challenge-angle-question.png)  
-
-* [ ] 43
-* [ ] 47
-* [ ] 53
-* [x] 57
-* [ ] 67
-{.col-5}
+* [x] A table
+* [ ] An oil tanker
+* [ ] A teaspoon
+* [ ] A school hall
+* [ ] A hen's egg
 
 ---
-[](/resources/good-will-hunting/angle-question-answer.png){width=240}
 
-Let the unmarked acute angle be `y°`. Because the angles at a point total 360°, we have
-`y + 303 = 360`. Therefore `y = 360 - 303 = 57`.
-
-Because the alternate angles formed by a line which cuts a pair of parallel
-lines are equal, `x = y`. Hence `x = 57`.
+2010 mm = 2.01 m so, of the alternatives given, only a table could be expected to have a length of 2010 mm.
 :::
 
 

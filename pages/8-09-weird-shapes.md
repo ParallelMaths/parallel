@@ -92,39 +92,20 @@ __2.4__ Take a look at this clip showing a bicycle with unusually shaped wheels.
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)
-<!--- (2014) Q16 --->
+<!--- (2009) Q16 --->
 
 ::: problem id=3_1 marks=3
+__3.1__ The kettle in Keith’s kitchen is 80% full. After 20% of the water in it has been poured out, there are 1152 ml of water left. What volume of water does Keith’s kitchen kettle hold when it is full?
 
-__3.1__ Only one of the following statements is true. Which one?
-
-* [ ] A) ‘B is true’
-* [ ] B) ‘E is false’
-* [ ] C) ‘Statements A to E are true’
-* [ ] D) ‘Statements A to E are false’
-* [x] E) ‘A is false’
-
-^^^ hint id=1
-Statements C and D cannot be true, so that narrows down the options to A, B and E.
-^^^
+* [ ] 1400 ml
+* [ ] 1600 ml
+* [ ] 1700 ml
+* [x] 1800 ml
+* [ ] 2000 ml
+{.col-5}
 
 ---
-
-There are different ways to approach this question, but here is one way to tackle it.  
-
-For statement A to be true, B would also have to be true. But we are told that only one statement is true, so this is not possible. We deduce that statement A is false.  
-
-Therefore, statement E is true.  
-
-We could stop here, because we have found one statement that must be true. However, we really ought to satisfy ourselves that statement E is the only one that is true.  
-
-As statement E is true, statement B is false.  
-
-Statement D can never be true, because if statement D were true, all the statements, including D, would be false, and we would have a contradiction.  
-
-For similar reasons, statement C cannot be true.  
-
-So, statement E is true and all the other statements are false.
+20% of the 80% is 16% of the kettle's capacity. Therefore the volume of water left in the kettle after Keith has poured out 20% of the original amount is 64% of the kettle's capacity. So when full, the kettle holds `1152/64 × 100` ml, that is 1800 ml.
 :::
 
 

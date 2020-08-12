@@ -145,29 +145,22 @@ the computer in 1-player mode and see if you can win.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
-<!--- 2017 (11) --->
+<!--- 2009 (11) --->
 
 ::: problem id=5_1 marks=4
-![](/resources/7-30-mathematical-timeline/5-squares.png){image align="right"}
-__5.1__ Seven squares are drawn on the sides of a heptagon so that they are outside the heptagon, as shown in the diagram.  
+__5.1__ In a sequence of numbers, each term after the first three terms is the sum of the previous three terms. The first three terms are -3, 0, 2. Which is the first term to exceed 100?
 
-What is the sum of the seven marked angles?
-
-* [ ] 315°
-* [x] 360°
-* [ ] 420°
-* [ ] 450°
-* [ ] 630°
+* [ ] 11th term
+* [ ] 12th term
+* [x] 13th term
+* [ ] 14th term
+* [ ] 15th term
 {.col-5}
 
 ---
 
-![](/resources/7-30-mathematical-timeline/5-squares-answer.png){image align="right"}
-In the figure we have labelled some of the vertices so that we may refer to them.  
-
-Suppose that there is a flag whose pole is in the direction of `GP` and pointing as shown. Consider the effect of carrying out the following operations. First rotate the flag anti-clockwise about `G` through `∠PGQ` so that now its pole lies along `GQ`. Next slide the flag without rotation so that its pole lies along `HR`. Next rotate the pole about H through `∠RHS` so that it lies along `HS`, and so on, until the flag returns to its original position. The total angle that the flag has turned through is the sum of the seven marked angles. But in returning to its original position the flag has completed a full rotation of 360°.
-
-Therefore the sum of the seven marked angles is 360°.
+The first thirteen terms of the sequence are −3, 0, 2, −1, 1, 2, 2, 5, 9, 16, 30,
+55, 101, ... .
 :::
 
 

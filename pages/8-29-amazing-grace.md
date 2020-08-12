@@ -71,48 +71,21 @@ Therefore `x = 105`.
 
 
 ## 3. Junior Maths Challenge Problem (UKMT)
-<!--- 2017 (14) --->
+<!--- 2009 (14) --->
 
 ::: problem id=3_1 marks=4
-![](/resources/8-29-amazing-grace/3-squares.png){image align="right"}
-__3.1__ Mathias is given a grid of twelve small squares. He is asked to shade grey exactly four of the small squares so that his grid has two lines of reflection symmetry.  
+__3.1__ Karen was given a mark of 72 for Mayhematics. Her average mark for Mayhematics and Mathemagics was 78. What was her mark for Mathemagics?
 
-How many different grids could he produce?
-
-* [ ] 2
-* [x] 3
-* [ ] 4
-* [ ] 5
 * [ ] 6
+* [ ] 75
+* [ ] 78
+* [ ] 82
+* [x] 84
 {.col-5}
-
-^^^ hint id=3_1
-The answer is not 6.
-^^^
-
-^^^ hint id=3_2
-The answer is not 5.
-^^^
-
-^^^ hint id=3_3
-The answer is not 4.
-^^^
 
 ---
 
-![](/resources/8-29-amazing-grace/3-squares-answers.png){image align="right"}
-The two lines of reflection symmetry of the grid are shown in the figure on the right as broken lines.
-
-We see from this that if the grid with some of the small squares shaded grey has both these lines of reflection symmetry, then all the four squares labelled P must be the same colour. Similarly, all the four squares labelled `Q` must be the same colour, the two squares labelled `R` must be the same colour, and the two squares labelled `S` must be the same colour.  
-
-It follows that there are only three ways in which Mathias can shade exactly four of the small squares of the grid grey so that the result has two lines of reflection symmetry. These are
-* (i) shade grey all the squares labelled `P`, and no others,
-* (ii) shade grey all the squares labelled `Q`, and no others,
-* (iii) shade grey all the squares labelled `R` and all those labelled `S`, and no others.  
-
-The three different grids that Mathias could produce are shown in the figure below.
-
-![](/resources/8-29-amazing-grace/3-squares-grids.png){image align="center"}
+The sum of Karen's two marks was `78 × 2`, that is 156. So her mark for Mathemagics was `156 - 72`, that is 84.
 :::
 
 

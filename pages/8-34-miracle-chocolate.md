@@ -168,70 +168,29 @@ Hence the value of `x` is 4.
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
-<!--- 2018 (23) --->
+<!--- 2010 (23) --->
 
 ::: problem id=5_1 marks=3
-![](/resources/8-34-miracle-chocolate/5-line.jpg){image align="right"}
-__5.1__ Ali wants to fill the empty squares so that the number in each square after the fourth from the left is the sum of the numbers in the four squares to its left.  
+![](/resources/8-34-miracle-chocolate/5-dots-question.gif){image align="right"}
+__5.1__ A single polygon is made by joining dots in the `4 × 4` grid with straight lines, which meet only at dots at their end points. No dot is at more than one corner.
 
-What number should Ali write in the final square?
+The diagram shows a five-sided polygon formed in this way.
 
+What is the greatest possible number of sides of a polygon formed by joining the dots using these same rules?
+
+* [ ] 12
+* [ ] 13
+* [ ] 14
+* [ ] 15
 * [x] 16
-* [ ] 8
-* [ ] 4
-* [ ] 2
-* [ ] 1
 {.col-5}
-
-^^^ hint id=5_1
-Let the numbers that Ali needs to place in the empty squares be `p`, `q`, `r` and `s`, as shown in the figure.  
-
-![](/resources/8-34-miracle-chocolate/5-line-answer.jpg){image align="center"}
-^^^
-
-^^^ hint id=5_2
-Because each of the numbers 8 and `s` is the sum of the four numbers that precede it,  
-
-`0 + q + r + 1 = 8` (1)  
-
-and  
-
-`q + 1 + r + 8 = s`. (2)  
-^^^
-
-^^^ hint id=5_3
-By subtracting equation (1) from equation (2), we have  
-
-`(q + 1 + r + 8) − (0 + q + r + 1) = (s − 8)`,  
-^^^
 
 ---
 
-Let the numbers that Ali needs to place in the empty squares be `p`, `q`, `r` and `s`, as shown in the figure.  
+![](/resources/8-34-miracle-chocolate/5-dots-answer.gif){image align="right"}
+The number of sides of the polygon is equal to the number of corners it has. As no dot is at more than one corner, the maximum number of corners is 16. So the maximum possible number of sides is 16, provided that a 16-sided figure may be drawn.
 
-![](/resources/8-34-miracle-chocolate/5-line-answer.jpg){image align="center"}
-
-Because each of the numbers 8 and `s` is the sum of the four numbers that precede it,  
-
-`0 + q + r + 1 = 8` (1)  
-
-and  
-
-`q + 1 + r + 8 = s`. (2)  
-
-By subtracting equation (1) from equation (2), we have  
-
-`(q + 1 + r + 8) − (0 + q + r + 1) = (s − 8)`,  
-
-and hence,  
-
-`8 = s − 8`.  
-
-Therefore, by adding 8 to both sides, we deduce that  
-
-`16 = s`.  
-
-It follows that Ali should write 16 in the final square.
+The figure on the right shows one of several ways in which this can be achieved.
 :::
 
 

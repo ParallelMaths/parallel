@@ -102,39 +102,27 @@ __2.3.__ Which of these statements best describes the settled motion of the thre
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)
-<!--- (2013) Q14 --->
+<!--- (2010) Q14 --->
 
 As I mentioned in previous Parallelograms, if you are a Year 8 student, then it is likely that you will be taking part in the United Kingdom Maths Trust (UKMT) competition known as the Junior Maths Challenge (JMC). If you do particularly well, you might earn yourself a gold, silver or bronze certificate, but you will have to work hard as you will be competing against students from across the country.
 
 Your teachers will help you prepare for this national maths competition, but in each week's Parallelogram we will always include one UKMT Junior Maths Challenge question.
 
 ::: problem id=3_1 marks=3
-__3.1__ Each side of an isosceles triangle is a whole number of centimetres. Its perimeter has length 20 cm. How many possibilities are there for the lengths of its sides?
+__3.1__ The Severn Bridge has carried just over 300 million vehicles since it was opened in 1966.
 
-* [ ] 3
-* [x] 4
-* [ ] 5
-* [ ] 6
-* [ ] 7
+On average, roughly how many vehicles is this per day?
+
+* [ ] 600
+* [ ] 2,000
+* [ ] 6,000
+* [x] 20,000
+* [ ] 60,000
 {.col-5}
 
-(We will have a similar question next week, so make sure you check the answer thoroughly.)
-
 ---
-Let the length of the two equal sides of the isosceles triangle be `a` cm. Since the triangle has perimeter 20cm, the third side will have length `20 − 2a` cm. Since this must be a positive length, `20 − 2a > 0` and so `a < 10`.
 
-In a triangle, the length of one side must be less than the sum of the lengths of the other two sides. So `20 − 2a < 2a`.
-
-This gives `20 < 4a` and hence `5 < a`. So, we have `5 < a < 10`.
-
-Therefore, as `a` is a whole number, there are just four possible values for `a`, namely 6, 7, 8 and 9.
-
-So there are four possibilities for the side lengths of the triangle:
-
-* 6, 6, 8;
-* 7, 7, 6;
-* 8, 8, 4; and
-* 9, 9, 2.
+The average number of vehicles per day ≈ `(300,000,000)/(44 × 365)` ≈ `(300,000,000)/(40 × 400)` ≈ `(300,000,000)/16,000` ≈ `(300,000,000)/15,000` = 20,000
 :::
 
 

@@ -121,44 +121,25 @@ The proportion of girls this year is the same. Therefore, of the 640 pupils in t
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
-<!--- 2017 (13) --->
+<!--- 2009 (13) --->
 
 ::: problem id=5_1 marks=4
-__5.1__ Consider the following three statements.  
+__5.1__ The sum of ten consecutive integers is 5. What is the largest of these integers?
 
-1. Doubling a positive number always makes it larger.
-2. Squaring a positive number always makes it larger.
-3. Taking the positive square root of a number always makes it smaller.  
-
-Which statements are true?
-
-* [ ] All three
-* [ ] None
-* [x] Only (1)
-* [ ] (1) and (2)
-* [ ] (2) and (3)
-
-^^^ hint id=5_1
-Remember some numbers are less than 1. Think about what happens to `1/2`.
-^^^
+* [ ] 2
+* [ ] 3
+* [ ] 4
+* [x] 5
+* [ ] more information needed
 
 ---
 
-Statement (1) is true, because, if `x` is a positive number, then  
+Let the ten consecutive integers be `x - 4`, `x - 3`, `x - 2`, `x - 1`, `x`, `x + 1`,
+`x + 2`, `x + 3`, `x + 4` and `x + 5` respectively.
 
-`2x = x + x > x`.  
+The sum of these is `10x + 5` so `10x + 5 = 5`, that is `x = 0`.
 
-Statement (2) is false. If a positive number which is less than 1 is squared, then the answer is smaller than the original number. For example, with `x = 1/2`, we have  
-
-`x^2 = 1/4 < 1/2`.  
-
-Similarly, if we take the square root of a positive number that is less than 1, then the answer is larger than the original number. For example  
-
-`sqrt(1/4) = 1/2 > 1/4`.  
-
-Hence statement (3) is false.  
-
-Therefore statement (1) is the only one that is true.
+Hence the largest of the integers is 5.
 :::
 
 

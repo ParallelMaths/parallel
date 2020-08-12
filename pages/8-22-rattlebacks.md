@@ -93,56 +93,31 @@ Derek Muller from YouTube’s Veritasium channel asks people to explain the mech
 
 
 ## 5. Junior Maths Challenge UKMT bonus
-<!--- 2012 (24) --->
+<!--- 2010 (24) --->
 
 As the Junior Maths Challenge is now not far away, here is a bonus (and particularly tough) JMC question to stretch your brain.
 
 ::: problem id=5_1 marks=3
-__5.1.__ After playing 500 games, my success rate at Spider Solitaire is 49%. Assume that I now lose every third game, so that after 500 games my results are Win, Win, Loss, Win, Win, Loss, … .
+__5.1.__ The year 2010 belongs to a special sequence of twenty-five consecutive years: each number from 1988 to 2012 contains a repeated digit.
 
-What is the least number of extra games I need to play in order that my success rate becomes at least 50%?
+Each of the following belongs to a sequence of consecutive years, where each number in the sequence contains at least one repeated digit.
 
-<input solution="26"/>  
+Which of them belongs to the next such sequence of at least twenty year
+
+* [ ] 2099
+* [x] 2120
+* [ ] 2199
+* [ ] 2989
+* [ ] 3299
+{.col-5}
 
 ---
 
-Since I have won 49% of my first 500 games, so far I have won:
+In the 21st Century, to obtain a sequence of two years or more then either a 2 or a 0 must be repeated in each year, or the sequence include years such as 2011, 2033, 2044 etc.
 
-`(49/100) × 500 = 49 × 5 = 245` games.
+So the only sequence after that mentioned in the question will be from 2020 to 2030, but this is too short.
 
-So I have lost `500 – 245 = 255` games. I need now to win enough games so that I have won as many as I have lost.
-
-So, assuming I win 2 out of 3 games from now on, I get the following pattern:
-
-| # games | Wins | Losses |
-| ------- | ---- | ------ |
-| 500 | 245 | 255 |
-| 503 | 247 | 256 |
-| 506 | 249 | 257 |
-| 509 | 251 | 258 |
-| 512 | 253 | 259 |
-| 515 | 255 | 260 |
-| 518 | 257 | 261 |
-| 521 | 259 | 262 |
-| 524 | 261 | 263 |
-| 527 | 263 | 264 |
-| 530 | 265 | 265 |
-{.grid}
-
-So, it would be easy to assume that I need to play 30 more games, so that the number of wins equals the number of losses. However, let’s take a closer look at what happens towards the end, bearing in mind the win-win-loss pattern.
-
-| # games | Wins | Losses |
-| ------- | ---- | ------ |
-| 524 | 261 | 263 |
-| 525 | 262 | 263 |
-| 526 | 263 | 263 |
-| 527 | 263 | 264 |
-| 528 | 264 | 264 |
-| 529 | 265 | 264 |
-| 530 | 265 | 265 |
-{.grid}
-
-So, the number of wins equals the number of losses three times – after 526, 528 and 530 games. Therefore, the earliest that the number of wins equals the number of loses is after 526 games, or after 26 more games.
+In the 22nd Century, either a 2 or a 1 must be repeated. The first such sequence is 2110 to 2129 which does include 20 years, one of which is 2120.
 :::
 
 ## 6. Rattleback

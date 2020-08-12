@@ -39,27 +39,30 @@ By the way... this riddle has hidden depths, and so far you have only heard half
 
 
 ## 2. Junior Maths Challenge Problem (UKMT)
-<!--- 2011 (22) --->
-
-Evariste and Sophie both bought some stamps for their collections. Each stamp Evariste bought cost him £1.10, whilst Sophie paid 70p for each of her stamps. Between them they spend exactly £10.70.
+<!--- 2009 (22) --->
 
 ::: problem id=2_1 marks=3
-__2.1__ How many stamps did they buy in total?
+__2.1__ ![](/resources/2018summer-8-1/8-grid-question.gif){image align="right"}
+Starting at the square containing the 2, you are allowed to move from one square to the next either across a common edge, or diagonally through a common corner.
 
-* [ ] 9
-* [ ] 10
-* [ ] 11
-* [ ] 12
-* [x] 13
+How many different routes are there passing through exactly two squares containing a 0 and ending in one of the squares containing a 9?
+
+* [ ] 7
+* [ ] 13
+* [ ] 15
+* [x] 25
+* [ ] 32
 {.col-5}
 
 ---
 
-Suppose that Evariste buys `x` stamps and Sophie buys `y` stamps. Then 1.10`x` + 0.70`y` = 10.70. Hence, 11`x` + 7`y` = 107. We have one equation with two unknowns, so we need to use the fact that in this problem `x` and `y` are non-negative integers. `x` and `y` are whole numbers and bigger than or equal to zero.
+![](/resources/2018summer-8-1/8-grid-answer.gif){image align="right"}
+In order to reach a 9 in three steps, the first zero must be one of the three adjacent to the 2 and the second zero must be one of the five adjacent to a 9.
 
-By re-arranging the equation, `y = (107 – 11x)/7`. We need to test different values of `x` and find a whole number value for `x` that gives a whole number value for `y`. In other words, we need to find a value for `x`, such that `107 – 11x` is divisible by 7 without a remainder.
+The table shows the number of such routes to that point.
 
-Taking `x = 0, 1, 2,… 9,` we have `y = 107 – 11x = 107, 96, 85, 74, 63, 52, 41, 30, 19, 8`. We see that only for `x = 4` is `107 – 11x` divisible by 7. So `x = 4` and `y = 63/7 = 9`. So Sophie buys 9 stamps and Evariste buys 4 stamps, and they buy 13 stamps in total.
+So the total number of different routes is 25.
+:::
 
 :::
 

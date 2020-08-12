@@ -73,35 +73,25 @@ How many runs would have given Bradman a career average of 99.99 (rounded to 4 s
 
 
 ## 3. Junior Maths Challenge Problem (UKMT)
-<!--- 2017 (15) --->
+<!--- 2009 (15) --->
 
 ::: problem id=3_1 marks=3
-__3.1__ What is the remainder when the square of 49 is divided by the square root of 49?
+__3.1__ In Matt’s pocket there are 8 watermelon jellybeans, 4 vanilla jellybeans and 4 butter popcorn jellybeans.
 
-* [x] 0
-* [ ] 2
+What is the smallest number of jellybeans he must take out of his pocket to be certain that he takes at least one of each flavour?
+
 * [ ] 3
 * [ ] 4
-* [ ] 7
+* [ ] 8
+* [ ] 9
+* [x] 13
 {.col-5}
 
 ---
 
-Because `49 = 7 × 7`, it follows both that `sqrt(49) = 7` and that 7 is a factor of 49.
+If Matt takes 12 jellybeans then he will have taken at least one of each flavour unless he takes all 8 watermelon jellybeans and either all 4 vanilla jellybeans or all 4 butter popcorn jellybeans.
 
-Therefore 7 is also a factor of `49^2`.  
-
-Hence the remainder when the square of 49 is divided by the square root of 49 is 0.
-:::
-
-::: problem id=3_2 marks=1
-__3.2__ Find, without using a calculator, the value of `49^2 ÷ sqrt(49)`.
-
-<input solution="343"/>
-
----
-
-`49^2 ÷ sqrt(49) = (7^2)^2 ÷ 7 = 7^4 ÷ 7 = 7^3 = 343`
+In this case the 4 remaining jellybeans will all be of the flavour he has yet to take, so taking one more jellybean ensures that he will have taken at least one of each flavour.
 :::
 
 

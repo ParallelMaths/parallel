@@ -24,54 +24,37 @@ And... if you have missed any earlier Parallelograms then the summer is a great 
 
 
 ## 1.
-<!--- 2011 (1) --->
+<!--- 2007 (1) --->
 ::: problem id=1_1 marks=1
-__1.1.__ What is the value of `2 × 0 × 1 + 1`?
+__1.1.__ What is the value of `0.1 + 0.2 + 0.3 × 0.4`?
 
-* [ ] 0
-* [x] 1
-* [ ] 2
-* [ ] 3
-* [ ] 4
+* [ ] 0.24
+* [ ] 0.312
+* [x] 0.42
+* [ ] 1.0
+* [ ] 1.5
 {.col-5}
 
 ---
-
-This is simply a matter of doing the sum... and remembering the order of
-operations. So, multiplications take priority over addition, so
-`2 × 0 × 1 + 1 = (2 × 0 × 1) + 1 = (0) + 1 = 1`.
+`0.1 + 0.2 + 0.3 × 0.4 = 0.3 + 0.12 = 0.42`.
 :::
 
 
 ## 2.
-<!--- 2011 (2) --->
+<!--- 2007 (2) --->
 ::: problem id=2_1 marks=1
-__2.1.__ How many of the integers 123, 234, 345, 456, 567 are multiples of 3?
+__2.1.__ My train was scheduled to leave at 17:40 and to arrive at 18:20. However, it started five
+minutes late and the journey then took 42 minutes. At what time did I arrive?
 
-* [ ] 1
-* [ ] 2
-* [ ] 3
-* [ ] 4
-* [x] 5
+* [ ] 18:21
+* [ ] 18:23
+* [ ] 18:25
+* [x] 18:27
+* [ ] 18:29
 {.col-5}
 
 ---
-We could simply divide each of the given numbers by 3, and check that there is no
-remainder in each case. However, it is quicker to use the fact that an integer is
-divisible by 3 if and only if the sum of its digits is a multiple of 3.
-
-123:	1 + 2 + 3 = 6  
-234:	2 + 3 + 4 = 9  
-345:	3 + 4 + 5 = 12  
-456:	4 + 5 + 6 = 15  
-567:	5 + 6 + 7 = 18  
-
-These are all multiples of 3, so all five numbers are multiples of 3, so the
-answer is 5.
-
-In fact, the sum of any 3 consecutive numbers is a multiple of 3, as one of those numbers will already be a multiple of 3, one will be exactly 1 less than a multiple of 3, and one will be exactly one more than a multiple of 3. So, when added together the +1 and –1 will cancel, and give us a multiple of three.
-
-We can show this algebraically for the three consecutive numbers `n - 1`, `n`, and `n + 1`: `(n - 1) + n + (n + 1) = 3n`.
+The train arrived 5 + 42 = 47 minutes after 17:40, that is at 18:27.
 :::
 
 
@@ -101,22 +84,21 @@ So the required number is 1023.
 
 
 ## 4.
-<!--- 2012 (2) --->
+<!--- 2010 (2) --->
 ::: problem id=4_1 marks=1
-__4.1__ What is half of 1.01?
+__4.1__ Each letter in the abbreviation __UKMT__ is rotated through 90° clockwise.
 
-* [ ] 5.5
-* [ ] 0.55
-* [x] 0.505
-* [ ] 0.5005
-* [ ] 0.055
-{.col-5}
+Which of the following could be the result?
+
+* [ ] A ![](/resources/7-35-summer-sums/4-ukmt-question1.gif)
+* [ ] B ![](/resources/7-35-summer-sums/4-ukmt-question2.gif)
+* [ ] C ![](/resources/7-35-summer-sums/4-ukmt-question3.gif)
+* [ ] D ![](/resources/7-35-summer-sums/4-ukmt-question4.gif)
+* [x] E ![](/resources/7-35-summer-sums/4-ukmt-question5.gif)
 
 ---
 
-We obtain half of 1.01 by dividing 1.01 by 2. We can do this as a long division sum, or alternatively, we can use fractions:
-
-`1.01 = 1 + 1/100`. So half of `1.01` is `1/2 + 1/200 = 0.5 + 0.005 = 0.505`
+In A, the letter T is incorrect; in B it is U which is incorrect; in C and D the incorrect letters are M and K respectively.
 :::
 
 
@@ -148,59 +130,41 @@ __5.2__ In the previous question, why did I write that you might have to “goog
 
 
 ## 6.
-<!--- 2011 (3) --->
+<!--- 2007 (3) --->
 
 ::: problem id=6_1 marks=2
-__6.1__ ![](/resources/7-35-summer-sums/3-lightsquestion.png){image align="right"}
+__6.1__ What is the remainder when 354972 is divided by 7?
 
-A train display shows letters by lighting cells in a grid, such as the letter
-‘o’ shown. A letter is made bold by also lighting any unlit cell immediately to
-the right of one in the normal letter.
-
-How many cells are lit in a bold ‘o’?
-
-* [ ] 22
-* [x] 24
-* [ ] 26
-* [ ] 28
-* [ ] 30
+* [ ] 1
+* [x] 2
+* [ ] 3
+* [ ] 4
+* [ ] 5
 {.col-5}
 
 ---
-
-![](/resources/7-35-summer-sums/3-lightssolution.png){image align="right"}
-
-The only thing to do here is to draw (or imagine) the figure corresponding to a
-bold ‘o’, and to count the number of cells that are lit.  
-
-We see that the extra cells that need to be lit are the 10 cells shown in
-black.  
-
-This makes 24 lit cells altogether.
+Note that 7 divides 35, 49 and 7, so it divides 354970. So the remainder is 2.
 :::
 
 
 ## 7.
-<!--- 2011 (4) --->
+<!--- 2007 (4) --->
 ::: problem id=7_1 marks=2
-__7.1.__ In 2007, the world record for the largest coin was broken by the Royal Canadian Mint. The coin is 99.999% pure gold and has a mass of 100 kg. A standard British £1 coin has mass of 10g.
+__7.1.__ Which of the following numbers is three less than a multiple of 5 and three more than a
+multiple of 6?
 
-What sum of money in £1 coins would weigh the same as the record-breaking coin?
-
-* [ ] £100
-* [ ] £1,000
-* [x] £10,000
-* [ ] £100,000
-* [ ] £1,000,000
+* [ ] 12
+* [ ] 17
+* [ ] 21
+* [ ] 22
+* [x] 27
 {.col-5}
 
 ---
 
-We have to work out how many £1 coins, each weighing 10 g, we need to get a total
-weight of 100kg. Now 1kg = 1000g, and so 100kg = 100,000g. So we need
-100,000/10 = 10,000 of these coins. That is, £10,000 in money.
-
-(In fact, the current (2019) record for the world's biggest coin is held by the Perth Mint. The coin weighs one tonne and is made of 99.99% pure gold.)
+Of the options given, only 27, which is three less than a multiple of 5,
+namely 30, and three more than a multiple of 6, namely 24, has both of the
+properties in the question.
 :::
 
 
@@ -222,21 +186,20 @@ The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the fact
 
 
 ## 9.
-<!--- 2012 (4) --->
+<!--- 2010 (4) --->
 ::: problem id=9_1 marks=2
-__9.1__ Beatrix looks at the word __JUNIOR__ in a mirror. How many of the reflected letters never look the same as the original, no matter how Beatrix
-holds the mirror?
+![](/resources/7-35-summer-sums/2-cube-question.gif){image align="right"}
+__9.1__ If the net shown is folded to make a cube, which letter is opposite X?
 
-* [ ] 1
-* [ ] 2
-* [x] 3
-* [ ] 4
-* [ ] 5
-{.col-5}
+* [ ] A
+* [ ] B
+* [ ] C
+* [x] D
+* [ ] E
 
 ---
 
-The letters J, N and R do not have an axis of symmetry. So these letters cannot look the same when reflected in a mirror, however the mirror is held. The letters U, I and O all have at least one axis of symmetry. So each may look the same when reflected in a mirror.
+Let X be on the top face of the cube. If the base is placed on a horizontal surface, then A, B, C, E will all be on vertical faces of the cube and D will be on the base, opposite X.
 :::
 
 
@@ -262,104 +225,91 @@ __10.1__ How many bananas do humans eat each year?
 
 
 ## 11.
-<!--- 2013 (6) --->
+<!--- 2010 (6) --->
 ::: problem id=11_1 marks=3
-__11.1__ What is the value of ((1−1) −1) − (1− (1−1))?
+__11.1__ Which of the following has the largest value?
 
-* [x] -2
-* [ ] -1
-* [ ] 0
-* [ ] 1
-* [ ] 2
+* [ ] `6 ÷ 1/2`
+* [ ] `5 ÷ 1/3`
+* [x] `4 ÷ 1/4`
+* [ ] `3 ÷ 1/5`
+* [ ] `2 ÷ 1/6`
 {.col-5}
 
 ---
 
-We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − (1) = −2 .
+The values of the expressions are as follows:
+
+* `6 ÷ 1/2 = 12`
+* `5 ÷ 1/3 = 15`
+* `4 ÷ 1/4 = 16`
+* `3 ÷ 1/5 = 15`
+* `2 ÷ 1/6 = 12`
 :::
 
 
 ## 12.
-<!--- 2013 (7) --->
+<!--- 2007 (7) --->
 ::: problem id=12_1 marks=3
-__12.1.__ After tennis training, Andy collects twice as many balls as Roger and five more than
-Maria. They collect 35 balls in total. How many balls does Andy collect?
+![](/resources/7-35-summer-sums/12-triangle-question.gif){image align="right"}
+__12.1.__ The equilateral triangle `XYZ` is fixed in position. Two of the four small triangles are to be painted black and the other two are to be painted white. In how many different ways can this be done?
 
-* [ ] 20
-* [ ] 19
-* [ ] 18
-* [x] 16
-* [ ] 8
-{.col-5}
+
+* [ ] 3
+* [ ] 4
+* [ ] 5
+* [x] 6
+* [ ] More than 6
 
 ---
 
-Suppose that Andy collects `x` balls. Since Andy collects twice as many balls as Roger, Roger collects `1/2 x` balls. Andy collects five more balls than Maria, so Maria collects `x − 5` balls. So between them, Andy, Roger and Maria collect `x + 1/2 x + (x - 5) = 35` balls in total.
-
-Multiplying this equation by 2 gives `2x + x + 2x - 10 = 70`
-
-This is equivalent to `5x = 80`.
-
-It follows that `x = 16`.
-
-_Note:_ As we are asked for the number of balls that Andy collects, it is natural to begin the problem by letting `x` be this number. However, we see then see that this leads to an equation which includes a fraction. If you look ahead, you might prefer to let the number of balls that Roger collects be `x`.
-
-Then Andy collects `2x` balls and Maria collects `2x − 5` balls.
-
-We then obtain the equation: `2x + x + (2x - 5) = 35` with no fractions in it.
-
-This equation is equivalent to `5x = 40`, from which we deduce that `x = 8`.
-
-This calculation is easier that the one we gave above, but, if you use this method, you need to remember that the answer we are asked for is `2x` and not just `x`.
+If the top triangle is painted black, then any one of the three remaining triangles may also be painted black. Similarly, if the top triangle is painted white, then any one of the three remaining triangles may also be painted white. So there are __six__ different ways.
 :::
 
 
 ## 13.
-<!--- 2013 (8) --->
+<!--- 2007 (8) --->
 ::: problem id=13_1 marks=3
-__13.1.__ Two identical rulers are placed together, as shown (not to scale).
+__13.1.__ Amy, Ben and Chris are standing in a row. If Amy is to the left of Ben and Chris is to the
+right of Amy, which of these statements must be true?
 
-![](/resources/7-35-summer-sums/5-rulers-question.jpg){image align="center"}
-
-Each ruler is exactly 10 cm long and is marked in centimetres from 0 to 10. The 3 cm
-mark on each ruler is aligned with the 4 cm mark on the other.
-
-The overall length is `L` cm. What is the value of `L`?
-
-* [x] 13
-* [ ] 14
-* [ ] 15
-* [ ] 16
-* [ ] 17
-{.col-5}
+* [ ] Ben is furthest to the left
+* [ ] Chris is furthest to the right
+* [ ] Amy is in the middle
+* [x] Amy is furthest to the left
+* [ ] None of statements A, B, C, D is true
 
 ---
 
-The distance between the 4 cm mark and the 10 cm mark at the end of the ruler is (10 - 4) cm = 6 cm.
+From the information, we see that Amy is to the left of both Ben and Chris. So the three are in the order Amy, Ben, Chris or the order Amy, Chris, Ben.
 
-The overall length is made up of the length on each ruler from the 4 cm mark to the 10 cm mark, plus the length from the 3 cm mark to the 4 cm mark. This latter distance is 1 cm.
-
-So, `L = 6 + 6 + 1 = 13`.
+So Amy is certainly furthest to the left, and the others are all false either in one case or in both.
 :::
 
 
 ## 14.
-<!--- 2013 (9) --->
+<!--- 2007 (9) --->
 ::: problem id=14_1 marks=3
-__14.1.__ Peter has three times as many sisters as brothers. His sister Louise has twice as many sisters as brothers. How many children are there in the family?
+![](/resources/7-35-summer-sums/12-diagram-question.gif){image align="right"}
+__14.1.__ In the diagram on the right, `ST` is parallel to `UV`.
 
-* [ ] 15
-* [x] 13
-* [ ] 11
-* [ ] 9
-* [ ] 5
-{.col-5}
+What is the value of `x`?
+
+* [ ] 46
+* [ ] 48
+* [x] 86
+* [ ] 92
+* [ ] 94
 
 ---
 
-Suppose Peter has `b` brothers and hence `3b` sisters. So, including Peter, there are `b + 1` boys and `3b` girls in the family. So Louise has `b + 1` brothers and `3b − 1` sisters. Since Louise has twice as many sisters as brothers, `3b − 1 = 2(b + 1)`. This equation is equivalent to `3b − 1 = 2b + 2`. So `b = 3` and there are 4 boys and 9 girls in the family, making 13 children altogether.
-:::
+![](/resources/7-35-summer-sums/12-diagram-answer.gif){image align="right"}
+As `ST` is parallel to `UV`, `∠PRT = 132°` (corresponding angles).
 
+So `∠PRQ = 48°` (angles on a straight line).
+
+From the exterior angle of a triangle theorem, `∠SQP = ∠QPR + ∠PRQ`, so `x = 134 - 48 = 86°`.
+:::
 
 ## 15. Can you light a match with water?
 
@@ -380,121 +330,77 @@ __15.1__ The Statue of Liberty is coated in...
 
 
 ## 16.
-<!--- 2011 (10) --->
+<!--- 2007 (10) --->
 ::: problem id=16_1 marks=4
-![](/resources/7-35-summer-sums/4-pentagon-question.jpg){image align="right"}
-__16.1.__ You want to draw the shape on the right without taking your pen off the paper and without going over any line more than once?  
+__16.1.__ Which of the following has the largest value?
 
-Where should you start?
-
-* [ ] Only at `T` or `Q`
-* [ ] Only at `P`
-* [x] Only at `S` or `R`
-* [ ] At any point
-* [ ] The task is impossible
+* [ ] `1/2` + `1/4`
+* [ ] `1/2` - `1/4`
+* [ ] `1/2` × `1/4`
+* [x] `1/2` ÷ `1/4`
+* [ ] `1/4` ÷ `1/2`
+{.col-5}
 
 ---
 
-The nodes (sometimes called vertices) have the following degrees or numbers of connected lines (sometimes called edges):
+The values of the five expressions are:
 
-* P = 4  
-* Q = 2  
-* R = 3  
-* S = 3  
-* T = 2  
+* `1/2` + `1/4` = `3/4`
+* `1/2` - `1/4` = `1/4`
+* `1/2` × `1/4` = `1/8`
+* `1/2` ÷ `1/4` = `2`
+* `1/4` ÷ `1/2` = `1/2`
 
-We know that a network can only be drawn with a single line if every node has an even number of connected lines... unless there are exactly two nodes with an odd number of lines. The two nodes with an odd number of lines must be the start and end nodes, because otherwise the lines come in pairs (in and then out). Please refer back to the previous section and the video if this does not make sense.
-
-There are several ways to draw the diagram starting at `R` without taking the pen off the paper or going over a line more than once. Here is one example of such a path:
-
-`R` → `P` → `S` → `R` → `Q` → `P` → `T` → `S`.
-{.text-center}  
-
-If we reverse this path, we have a way to draw the diagram starting at `S`.  
+So `1/2` ÷ `1/4` has the largest value.
 :::
 
 
 ## 17.
-<!--- 2011 (11) --->
+<!--- 2007 (11) --->
 ::: problem id=17 marks=4
-![](/resources/7-35-summer-sums/3-angle-question.png){image align="right"}
-__17.1.__  The diagram shows an equilateral triangle, drawn inside of a rectangle. Angles `x` and `y` have been labelled.   
+![](/resources/7-35-summer-sums/17-clock-question.gif){image align="right"}
+__17.1.__  A station clock shows each digit by illuminating up to seven bars in a display. For example, the displays for 1, 6, 4 and 9 are shown.
 
-What is the value of `x + y`?
+When all the digits from 0 to 9 are shown in turn, which bar is used least?
 
-* [ ] 30
-* [ ] 45
-* [x] 60
-* [ ] 75
-* [ ] 90
+* [x] ![](/resources/7-35-summer-sums/17-clock-answer1.gif)
+* [ ] ![](/resources/7-35-summer-sums/17-clock-answer2.gif)
+* [ ] ![](/resources/7-35-summer-sums/17-clock-answer3.gif)
+* [ ] ![](/resources/7-35-summer-sums/17-clock-answer4.gif)
+* [ ] ![](/resources/7-35-summer-sums/17-clock-answer5.gif)
 {.col-5}
-
-^^^ hint id=17_1
-![](/resources/7-35-summer-sums/3-angles-hint.png){image align="right"}
-Notice that `x` and `y` are two of the internal angles of a pentagon.
-
-We have highlighted that pentagon in this graphic.
-
-Consider how this information can help you solve the problem.
-^^^
-
-^^^ hint id=17_2
-What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: `(n - 2) × 180°` where `n` is the number of sides of the polygon.
-^^^
-
-^^^ hint id=17_3
-Remember that the triangle is equilateral. What is the value of the biggest angle in the pentagon, above angle `x` and below angle `y`?
-^^^
-
-^^^ hint id=17_4
-You know that two of the angles in the pentagon are right angles.
-^^^
 
 ---
 
-![](/resources/7-35-summer-sums/3-angle-answer.png){image align="right"}
-This is tough question. Well done if you did it without hints. There are a couple
-of ways to find the value of `x + y` degrees, but here is the neatest method.
+The number of times each bar is used is: A 4; B 6; C 8; D 7; E 7.
 
-The marked angles are two angles of the pentagon `PRSTQ`.
-
-The angles `Q` and `T` are both 90°. The interior angles of the equilateral triangle
-are all 60°. Hence the angle in the pentagon at `R` is 300°. The sum of the angles
-in a pentagon is 540°.  
-
-So `x + y + 300 + 90 + 90 = 540`.  
-
-Therefore `x + y = 60°`.
-
-Alternatively, if you imagine a line drawn parallel to the top of and bottom of the rectangle, which intersects the triangle at point `R`, you can use alternate angles to find that angle `PRS = x + y`, and as it is an equilateral triangle, this must be 60°.
+* ![](/resources/7-35-summer-sums/17-clock-answer1.gif) = 4
+* ![](/resources/7-35-summer-sums/17-clock-answer2.gif) = 6
+* ![](/resources/7-35-summer-sums/17-clock-answer3.gif) = 8
+* ![](/resources/7-35-summer-sums/17-clock-answer4.gif) = 7
+* ![](/resources/7-35-summer-sums/17-clock-answer5.gif) = 7
 :::
 
 
 ## 18.
-<!--- 2012 (10) --->
+<!--- 2010 (10) --->
 ::: problem id=18_1 marks=4
-![](/resources/7-35-summer-sums/5-arrows-question.jpg){image align="right"}
-__18.1__ The diagram shows two arrows drawn on separate 4 cm × 4 cm grids.
-One arrow points North and the other points West.
+__18.1__ At the Marldon Apple-Pie-Fayre bake-off, prize money is awarded for 1st, 2nd and 3rd places in the ratio 3 : 2 : 1.  
 
-When the two arrows are drawn on the same 4 cm × 4 cm grid (still
-pointing North and West) they overlap. What is the area of overlap?
+Last year Mrs Keat and Mr Jewell shared third prize equally.  
 
-* [ ] 4 cm<sup>2</sup>
-* [ ] 4 `1/2` cm<sup>2</sup>
-* [ ] 5 cm<sup>2</sup>
-* [ ] 5 `1/2` cm<sup>2</sup>
-* [x] 6 cm<sup>2</sup>
+What fraction of the total prize money did Mrs Keat receive?
+
+* [ ] `1/4`
+* [ ] `1/5`
+* [ ] `1/6`
+* [ ] `1/10`
+* [x] `1/12`
 {.col-5}
 
 ---
 
-![](/resources/7-35-summer-sums/5-arrows-answer.jpg){image align="right"}
-By drawing one arrow on top of the other, as shown, we see that the region
-of overlap covers the whole of 4 of the 1 cm × 1 cm squares into which the
-grid is divided, and 4 halves of these squares.  
-
-So the area of the overlapping region is 4 + 4 (`1/2`) = 6 cm<sup>2</sup>.
+Third prize is worth one-sixth of the total prize money, so Mrs Keat received half of that amount, that is one-twelfth of the total.
 :::
 
 
@@ -559,44 +465,50 @@ As 100 is a multiple of 4, then the remainder for `2^100` will be 6.
 
 
 ## 21.
-<!--- 2013 (12) --->
+<!--- 2007 (12) --->
 ::: problem id=21_1 marks=5
-![](/resources/7-35-summer-sums/6-hexagons-answer.jpg){image align="right"}
-__21.1.__ How many hexagons are there in the diagram?
+![](/resources/7-35-summer-sums/21-sculpture-question.gif){image align="right"}
+__21.1.__ The sculpture ‘Cubo Vazado’ [Emptied Cube] by the Brazilian artist Franz Weissmann is formed by removing cubical blocks from a solid cube to leave the symmetrical shape shown.
 
-* [ ] 3
-* [ ] 6
+If all the edges have length 1, 2 or 3, what is the volume of the sculpture?
+
 * [ ] 9
+* [ ] 11
 * [x] 12
-{.col-4}
-
----
-
-The twelve different hexagons are shown shaded in the diagram below.
-
-![](/resources/7-35-summer-sums/6-hexagons-solution.jpg){image align="centre"}
-:::
-
-
-## 22.
-<!--- 2013 (13) --->
-::: problem id=22_1 marks=5
-__22.1__ When painting the lounge, I used half of a 3 litre can to complete the first coat of paint. I then used two thirds of what was left to complete the second coat.
-
-How much paint was left after both coats were complete?
-
-* [ ] 150 ml
-* [ ] 200 ml
-* [ ] 250 ml
-* [x] 500 ml
-* [ ] 600 ml
+* [ ] 14
+* [ ] 18
 {.col-5}
 
 ---
 
-The first coat uses half the paint, so half remains. Two thirds of this is then used so one third of one half, that is one sixth remains.
+Consider the sculpture to consist of three layers, each of height 1. Then the volumes of the bottom, middle and top layers are 5, 2, 5 respectively. So the volume of the sculpture is 12.
 
-So the volume remaining is `1/6 × 3` litres. So there remains 0.5 litres, that is, 500 ml of paint.
+Alternatively: the sculpture consists of a `3 × 3 × 3` cube from which two `2 × 2 × 2` cubes have been removed. The `2 × 2 × 2` cubes have exactly one `1 × 1 × 1` cube (the cube at the centre of the `3 × 3 × 3` cube) in common. So the volume of the sculpture `= 27 − (2 × 8 - 1) = 12`.
+:::
+
+
+## 22.
+<!--- 2007 (13) --->
+::: problem id=22_1 marks=5
+__22.1__ Points `P` and `Q` have coordinates (1, 4) and (1, −2) respectively. For which of the following
+possible coordinates of point `R` would triangle `PQR` __not__ be isosceles?
+
+* [ ] (−5, 4)
+* [ ] (7, 1)
+* [ ] (−6, 1)
+* [x] (−6, −2)
+* [ ] (7, −2)
+{.col-5}
+
+---
+
+If `R` is (−5, 4) then `PQ = PR = 6`.  
+
+If `R` is (7, 1) or if `R` is (−6, 1) then `R` lies on the perpendicular bisector of `PQ` (the line `Y = 1`), so in both cases `PR = QR`.  
+
+If `R` is (7, −2), then `QP = QR = 6`.
+
+However if `R` is (−6, −2), then `PQ = 6`, `QR = 7` and `PR > 7`, so triangle `PQR` is scalene.
 :::
 
 
@@ -631,23 +543,22 @@ So there are four possibilities for the side lengths of the triangle:
 
 
 ## 24.
-<!--- 2013 (15) --->
+<!--- 2010 (15) --->
 ::: problem id=24_1 marks=5
-__24.1__ The Grand Old Duke of York had 10 000 men. He lost 10% of them on the way to the top of the hill, and he lost 15% of the rest as he marched them back down the hill.
+![](/resources/2018summer-8-6/24-rectagle-question.gif){image align="right"}
+__24.1__ A 6 by 8 and a 7 by 9 rectangle overlap with one corner coinciding as shown.
 
-What percentage of the 10 000 men were still there when they reached the bottom of the hill?
+What is the area (in square units) of the region outside the overlap?
 
-* [x] `76 1/2%`
-* [ ] `75%`
-* [ ] `73 1/2%`
-* [ ] `66 2/3%`
-* [ ] `25%`
-{.col-5}
+* [ ] 6
+* [ ] 21
+* [x] 27
+* [ ] 42
+* [ ] 69
 
 ---
 
-After losing 10% of the men, the Grand Old Duke of York was left with 90% of them. After losing 15% of these, he was left with 85% of the remaining 90% men. So he is left with `85/100` × `90/100` = `7650/10000` = `76.5/100` of the men he started, that is, `76 1/2`% of the original number of men.
-:::
+The two shaded regions measure 3 by 7 and 1 by 6, so the total area outside the overlap is 27 units<sup>2</sup>.
 
 
 ## 25. How to See Without Glasses
