@@ -104,6 +104,10 @@ __3.1__ The kettle in Keith’s kitchen is 80% full. After 20% of the water in i
 * [ ] 2000 ml
 {.col-5}
 
+^^^ hint id=3_1
+20% of the water is the same as saying 20% of 80% of the full kettle. What is 20% of 80%.
+^^^
+
 ---
 20% of the 80% is 16% of the kettle's capacity. Therefore the volume of water left in the kettle after Keith has poured out 20% of the original amount is 64% of the kettle's capacity. So when full, the kettle holds `1152/64 × 100` ml, that is 1800 ml.
 :::

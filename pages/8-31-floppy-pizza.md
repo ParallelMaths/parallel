@@ -87,6 +87,14 @@ What is the smallest number of jellybeans he must take out of his pocket to be c
 * [x] 13
 {.col-5}
 
+^^^ hint id=3_1
+He could pick out a watermelon, then a vanilla, then a butter popcorn. He would have done it in 3 picks. Wouldn’t that be lucky! But what would be the most unlucky way to pick out the jellybeans, picking lots and lots but still not seeing all three flavours.
+^^^
+
+^^^ hint id=3_2
+It would be very unlucky indeed if he had picked out all the watermelon jellybeans first. He’d have picked out 8 jellybeans and only have one flavour. What if his luck is still down, and he picks out all of the vanilla next?
+^^^
+
 ---
 
 If Matt takes 12 jellybeans then he will have taken at least one of each flavour unless he takes all 8 watermelon jellybeans and either all 4 vanilla jellybeans or all 4 butter popcorn jellybeans.

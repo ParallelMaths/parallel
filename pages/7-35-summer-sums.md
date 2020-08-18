@@ -545,7 +545,7 @@ So there are four possibilities for the side lengths of the triangle:
 ## 24.
 <!--- 2010 (15) --->
 ::: problem id=24_1 marks=5
-![](/resources/2018summer-8-6/24-rectagle-question.gif){image align="right"}
+![](/resources/7-35-summer-sums/24-rectagle-question.gif){image align="right"}
 __24.1__ A 6 by 8 and a 7 by 9 rectangle overlap with one corner coinciding as shown.
 
 What is the area (in square units) of the region outside the overlap?
@@ -559,6 +559,7 @@ What is the area (in square units) of the region outside the overlap?
 ---
 
 The two shaded regions measure 3 by 7 and 1 by 6, so the total area outside the overlap is 27 units<sup>2</sup>.
+:::
 
 
 ## 25. How to See Without Glasses

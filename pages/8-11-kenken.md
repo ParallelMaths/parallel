@@ -164,6 +164,14 @@ What is the sum of our ages now?
 * [ ] 115
 {.col-5}
 
+^^^ hint id=4_1
+Let my age now be `x`. How old is Granny in terms of `x`? How old was I going back 5 years, in terms of `x`?
+^^^
+
+^^^ hint id=4_2
+We could say that Granny is now `4x` years old. Five years ago, she was `4x - 5`, and I was `x - 5`. So we can say that `4x – 5 = 5 (x – 5)`, since her age was 5 times bigger than my age.
+^^^
+
 ---
 
 Let my age now be `x`. So Granny's age is `4x`. Considering five years ago:

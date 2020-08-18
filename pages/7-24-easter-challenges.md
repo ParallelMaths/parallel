@@ -295,7 +295,7 @@ __12.1__ How many different digits appear when `20/11` is written as a recurring
 
 ---
 
-`20/11 = 1 9/11 = 1.818181...`, so only two different digits appear.
+`20/11` = `1 9/11` = 1.818181..., so only two different digits appear.
 :::
 
 

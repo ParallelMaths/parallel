@@ -128,7 +128,7 @@ __6.1.__  At Spuds-R-Us, a 2.5kg bag of potatoes costs £1.25. How much would on
 
 ---
 
-The cost of 1 kg of potatoes is `£1.25 ÷ 2.5 = 50p`. So the cost of 1 tonne, that is 1000 kg, is `1000 × 50p = £500`.
+The cost of 1 kg of potatoes is £1.25 ÷ 2.5 = 50p. So the cost of 1 tonne, that is 1000 kg, is 1000 × 50p = £500.
 :::
 
 
@@ -177,7 +177,7 @@ As 2, 5 and 10 are all factors of the correct product, this product is a multipl
 ## 9.
 <!--- 2010 (8) --->
 ::: problem id=9_1 marks=2
-![](/resources/8-35-summer-sums/9-triangle-question.gif)){image align="right"}
+![](/resources/8-35-summer-sums/9-triangle-question.gif){image align="right"}
 __9.1.__ In a triangle which has the angles `x°`, `y°`, `z°` the mean of `y` and `z` is `x`.
 
 What is the value of `x`?
@@ -299,7 +299,7 @@ As 108 marks represented 18% of the final total, 6 marks represented 1% of the f
 <!--- 2007 (18) --->
 ::: problem id=14_1 marks=3
 ![](/resources/8-35-summer-sums/14-jmc-question.gif){image align="right"}
-__14.1__ The letters `J`, `M`, `C` represent three different non-zero digits.
+__14.1__ The letters `J`, `M`, `C` represent three different non-zero digits, where JM + JM + CC = JMC.
 
 What is the value of `J + M + C`?
 
@@ -352,6 +352,10 @@ They agree to have a party the next time they all eat together there. In how man
 * [ ] 360 days
 {.col-5}
 
+^^^ hint id=16_1
+You need the lowest common multiple (LCM) of 1,2,3,4,5 and 6. Since every number is a multiple of 1, and every multiple of 4 is a multiple of 2, and every multiple of 6 is a multiple of 3, you really only need to consider the LCM of 4,5 and 6.
+^^^
+
 ---
 
 The lowest common multiple of 2, 3, 4, 5 and 6 is required. Of these numbers, 2, 3 and 5 are prime whilst 4 = 2² and 6 = 2 × 3.
@@ -396,6 +400,13 @@ What is the value of `x`?
 * [x] 35
 * [ ] 40
 
+^^^ hint id=18_1
+Since `PT = QT`, `PTQ` is an isosceles triangle, so `∠QPT = 20°`.
+^^^
+
+^^^ hint id=18_2
+Since `QS = SR`, `QSR` is an isosceles triangle as well, so `∠QRS = x°`. Now consider the angles which form triangle `PQR`.
+^^^
 ---
 
 ![](/resources/8-35-summer-sums/18-diagram-answer.gif){image align="right"}
@@ -456,9 +467,9 @@ This QI clip explains why the answer is 32 knights.
 
 
 ## 21.
-<!--- 2013 (19) --->
+<!--- 2009 (19) --->
 ::: problem id=21_1 marks=5
-![](/resources/8-35-summer-sums/7-angles-question.gif){image align="right"}
+![](/resources/8-35-summer-sums/21-angles-question.gif){image align="right"}
 __21.1__ The diagram on the right shows a rhombus `FGHI` and an isosceles triangle `FGJ` in which `GF = GJ`. Angle `FHI = 111°`.
 
 What is the size of angle `JFI`?
@@ -469,9 +480,21 @@ What is the size of angle `JFI`?
 * [ ] 33°
 * [ ] 34.5°
 
+^^^ hint id=21_1 marks=1
+Since ∠IJF and ∠FJG form a straight line, they sum to 180, so ∠FJG = 180 – 111 = 69. Since FGJ is an isosceles triangle, ∠GFJ also equals 69.
+^^^
+
+^^^ hint id=21_2 marks=1
+The remaining angle in triangle FGJ is 180 – 2 × 69 = 42. A rhombus is a quadrilateral with four equal sides, so when split along the diagonal makes two isosceles triangles.
+^^^
+
+^^^ hint id=21_3 marks=1
+In isosceles triangle FGI, ∠FGI = ∠GIF = 42. You now have two angles of the triangle FJI.
+^^^
+
 ---
 
-![](/resources/8-35-summer-sums/7-angles-answer.gif){image align="right"}
+![](/resources/8-35-summer-sums/21-angles-answer.gif){image align="right"}
 Adjacent angles on a straight line add up to 180°, so `∠GJF = 180° - 111° = 69°`.
 
 In triangle `FGJ`, `GJ = GF` so `∠GFJ = ∠GJF`. Therefore `∠FGJ = (180 − 2 × 69)° = 42°`.
@@ -495,6 +518,10 @@ What is the value of `x`?
 * [ ] 340
 * [x] 360
 * [ ] More information needed
+
+^^^ hint id=22 marks=2
+You do not have any two entries given which lie in the same three-box stack, so instead of working out a particular value, label the box next to 12 as `a`. Now label the box next to 78 with an expression, using the fact that this box plus `a = 90`.
+^^^
 
 ---
 
@@ -523,6 +550,10 @@ What is the largest possible such number she could choose?
 * [ ] 49
 {.col-5}
 
+^^^ hint id=23
+Since the mean is 7, the total must be `7 × 7 = 49`. She can have one large number, if she makes the others as small as possible.
+^^^
+
 ---
 
 The seven numbers must total 49 if their mean is to be 7. The largest possible number will occur when the other six numbers are as small as possible, that is 1, 2, 3, 4, 5, 6.
@@ -543,6 +574,10 @@ __24.1__ Kiran writes down six different prime numbers, `p`, `q`, `r`, `s`, `t`,
 * [ ] 22
 * [x] 24
 {.col-5}
+
+^^^ hint id=24 marks=2
+The primes less than 20 are 2, 3, 5, 7,  11, 13, 17, 19. The number 2 is the only even prime, so you cannot use it, because otherwise one sum will be (even + odd) and the two others will be (odd + odd) (
+^^^
 
 ---
 

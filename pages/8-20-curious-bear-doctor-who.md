@@ -42,7 +42,7 @@ By the way... this riddle has hidden depths, and so far you have only heard half
 <!--- 2009 (22) --->
 
 ::: problem id=2_1 marks=3
-__2.1__ ![](/resources/2018summer-8-1/8-grid-question.gif){image align="right"}
+__2.1__ ![](/resources/8-20-curious-bear-doctor-who/2-grid-question.gif){image align="right"}
 Starting at the square containing the 2, you are allowed to move from one square to the next either across a common edge, or diagonally through a common corner.
 
 How many different routes are there passing through exactly two squares containing a 0 and ending in one of the squares containing a 9?
@@ -56,7 +56,7 @@ How many different routes are there passing through exactly two squares containi
 
 ---
 
-![](/resources/2018summer-8-1/8-grid-answer.gif){image align="right"}
+![](/resources/8-20-curious-bear-doctor-who/2-grid-answer.gif){image align="right"}
 In order to reach a 9 in three steps, the first zero must be one of the three adjacent to the 2 and the second zero must be one of the five adjacent to a 9.
 
 The table shows the number of such routes to that point.

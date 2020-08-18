@@ -102,7 +102,7 @@ __5.1.__ The year 2010 belongs to a special sequence of twenty-five consecutive 
 
 Each of the following belongs to a sequence of consecutive years, where each number in the sequence contains at least one repeated digit.
 
-Which of them belongs to the next such sequence of at least twenty year
+Which of them belongs to the next such sequence of at least twenty years?
 
 * [ ] 2099
 * [x] 2120
@@ -110,6 +110,12 @@ Which of them belongs to the next such sequence of at least twenty year
 * [ ] 2989
 * [ ] 3299
 {.col-5}
+
+^^^ hint id=5 marks=1
+The only way to have a decade of consecutive years with a repeated digit is if the tens digit and the hundreds digit are the same (as in the decade 1990s).  
+
+The only time that this is followed by another decade following the same rule is when `n99n` is followed by `n00n`.
+^^^
 
 ---
 
