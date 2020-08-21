@@ -108,6 +108,31 @@ The two smaller triangles in the other corners of the grid make up a 3 × 3 squa
 Hence the area of the rectangle, in cm<sup>2</sup>, 64 - 25 - 9 = 30.
 :::
 
+
+## 4. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Algebros.
+* __Punchline B:__ A roamin’ numeral!
+
+::: problem id=4_1 marks=2
+__4.1__ What do you call a number that can’t sit still?
+
+* [ ] Punchline A
+* [x] Punchline B
+{.col-2}
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ What do you call two friends who love math?
+
+* [x] Punchline A
+* [ ] Punchline B
+{.col-2}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

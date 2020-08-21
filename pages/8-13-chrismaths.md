@@ -797,6 +797,43 @@ As this is the largest odd number given as one of the options, we conclude that 
 :::
 
 
+## 26. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Do you know what the square root of 81 is?
+* __Punchline B:__ Numbers that aren’t divisible by two.
+* __Punchline C:__ Sir Cumference. How did he get so round? He ate too many π’s.
+
+::: problem id=26_1 marks=2
+__26.1__ Do you know what seems odd to me?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=26_2 marks=2
+__26.2__ Who was the roundest knight at King Arthur’s table?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=26_3 marks=2
+__26.3__ What math problem do German students have trouble answering?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

@@ -25,7 +25,7 @@ Let me define the question in a bit more detail. Count how many 5's would be on 
 
 <input solution="504"/>
 
-^^^ hint id=1_1
+^^^ hint id=1_1 marks=0.5
 The answer is between 500 and 600.
 ^^^
 
@@ -65,11 +65,11 @@ How large is angle `PQR`?
 * [ ] 28°
 {.col-5}
 
-^^^ hint id=2_1
+^^^ hint id=2_1 marks=0.5
 Because the angles of a triangle have sum 180° and `∠PSR = 110°`, it follows that `∠SPR + ∠PRS = 180° − 110° = 70°`.  
 ^^^
 
-^^^ hint id=2_2
+^^^ hint id=2_2 marks=0.5
 The ratio of `∠SPR` to `∠PRS` is `2 : 3`. It follows that `∠SPR = 2/5 × 70° = 28°`.  
 ^^^
 
@@ -95,7 +95,7 @@ Richard Feynman is a hero of science and a Nobel Prize winner in physics. In thi
 
 @[youtube](o1dgrvlWML4?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=3
 __3.1__ In science, what does Feynman say is the most interesting moment?
 
 * [ ] When you discover something that you expected.
@@ -120,20 +120,20 @@ How large is `∠UTS`?
 * [ ] 150°
 * [ ] more information needed
 
-^^^ hint id=4_1
+^^^ hint id=4_1 marks=0.5
 Let the angles of the triangle `STU` be `s°`, `t°` and `u°` as shown in the figure.
 
 ![](/resources/8-32-rules-critical-thinking/4-triangles.png){image align="center"}
 ^^^
 
-^^^ hint id=4_2
+^^^ hint id=4_2 marks=0.5
 The angles of a triangle have sum 180°. Therefore
 
 `s + t + u = 180` (1) and  
 `2s + (1/5)t + 2u = 180`. (2)  
 ^^^
 
-^^^ hint id=4_3
+^^^ hint id=4_3 marks=0.5
 By multiplying equation (1) by 2 we obtain  
 
 `2s + 2t + 2u = 360`. (3)  

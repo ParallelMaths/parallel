@@ -232,6 +232,43 @@ Energy per second `= m × c^2`
 :::  
 
 
+#5. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Because seven, eight, nine!
+* __Punchline B:__ When I got back, he’d only done jobs one, three, five, and seven.
+* __Punchline C:__ The farmer says, “But I’ve counted them and I’ve only got 36!” The sheepdog replies, “I know, but I rounded them up.”
+
+::: problem id=5_1 marks=2
+__5.1__ Why was six afraid of seven?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=5_2 marks=2
+__5.2__ A talking sheepdog rounds up all the sheep into the pen for his farmer. He comes back and says, “Okay, Chief — all 40 sheep accounted for”.
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=5_3 marks=2
+__5.3__ I hired an odd man to do eight jobs for me.
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Finally, if you want to find out more about making paper planes, then [watch this video about paper plane guru John Collins](https://www.youtube.com/watch?v=3BNg4fDJC8A){target="_blank"}.
 
 Before you hit the SUBMIT button, here are some quick reminders:

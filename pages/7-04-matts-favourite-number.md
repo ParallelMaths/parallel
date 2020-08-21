@@ -98,6 +98,44 @@ After losing 10% of the men, the Grand Old Duke of York was left with 90% of the
 :::
 
 
+## 4. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Every other number!
+* __Punchline B:__ It’s a shame they’ll never meet.
+* __Punchline C:__ Geometry.
+
+::: problem id=4_1 marks=2
+__4.1__ What’s a math teacher’s favourite kind of tree?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ Parallel lines have so much in common...
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=4_3 marks=2
+__4.3__ Do you know what’s odd?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
+
 If you missed any previous Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

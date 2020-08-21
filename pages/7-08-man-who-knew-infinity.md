@@ -121,6 +121,43 @@ Of course, both methods give the same answer.
 :::
 
 
+## 4. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ They already eight!
+* __Punchline B:__ Your fingers.
+* __Punchline C:__ Not unless you Count Dracula.
+
+::: problem id=4_1 marks=2
+__4.1__ What are ten things you can always count on?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ Are monsters good at maths?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=4_3 marks=2
+__4.3__ Why did the two fours skip lunch?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

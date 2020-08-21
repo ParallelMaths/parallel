@@ -125,6 +125,43 @@ We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − 
 :::
 
 
+## 4. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ I think he must be plotting something.
+* __Punchline B:__ “You’re pointless.”
+* __Punchline C:__ With a pro-tractor.
+
+::: problem id=4_1 marks=2
+__4.1__ What did the triangle say to the circle?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ How does a mathematician plough fields?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=4_3 marks=2
+__4.3__ I saw my math teacher with a piece of graph paper yesterday.
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

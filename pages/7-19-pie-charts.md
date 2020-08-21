@@ -175,7 +175,43 @@ If you cannot decide which letter is E and which is T, then the second hint reve
 At this point, breaking the code involves trial and error. However, the third hint reminded you that this is a message about mathematics, so you could guess that OUGFAOUGYVH means ‘mathematics’.
 
 The quote is _"Beauty is the first test; there is no permanent place in the world for ugly mathematics,"_ which was written the British mathematician __G. H. Hardy__. He was commenting on his belief (which other mathematicians share) that ugly maths is probably wrong, or at least there is a more beautiful and satisfying answer. Mathematicians follow logic, but they also have a gut reaction or an emotional reaction to some equations.
+:::
 
+
+## 6. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Nurse: Simple, follow the order of operations.
+* __Punchline B:__ Dinner tables!
+* __Punchline C:__ She really knows how to multiply!
+
+::: problem id=6_1 marks=2
+__6.1__ Which tables do you not have to learn?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=6_2 marks=2
+__6.2__ Surgeon: Nurse, I have so many patients. Who do I work on first?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=6_3 marks=2
+__6.3__ I met a maths teacher who had 12 children.
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
 :::
 
 

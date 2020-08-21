@@ -119,7 +119,7 @@ It is an incredible and inspiring true story, and Disney turned it into a film. 
 
 I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess and can teach you, or your teacher might hold a chess lesson after school. Or you could try https://www.chesskid.com/, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
 
-::: problem id=2_1 marks=1
+::: problem id=2_1 marks=3
 __2.1.__ In the trailer, at the charity mission, a little girl tells Phiona: “In chess, the small one can become the big one.” The same is true in mathematics (and, of course, in life) but the girl is actually talking about one piece in chess that can be turned into a more powerful piece if it is able to cross the board.  
 
 What piece has this power to be transformed or promoted?
@@ -184,17 +184,17 @@ __4.1__ What comes next in this sequence?
 * [ ] 2211
 * [ ] 222111
 
-^^^ hint id=4_1  marks=1
+^^^ hint id=4_1  marks=0.5
 This is called the “say what you see” sequence.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_2 marks=0.5
 The first row has “one 1”  
 The second row has “two 1s”  
 The third row has “one 2, one 1”
 ^^^
 
-^^^ hint id=4_3  marks=1
+^^^ hint id=4_3 marks=0.5
 The first row has “1 1”  
 The second row has “2 1s”  
 The third row has “1 2, 1 1”  
@@ -257,11 +257,11 @@ _You are shown a set of four cards placed on a table, each of which has a number
 * [ ] red card
 * [ ] all the cards
 
-^^^ hint id=5_1  marks=1
+^^^ hint id=5_1 marks=0.5
 The key point is that if the card is even on one side, then it is red on the other side. However, if it is red on one side, it does not necessarily have to be even on the other side.
 ^^^
 
-^^^ hint id=5_2  marks=1
+^^^ hint id=5_2 marks=0.5
 If it the card is brown on one side, then what must the other side be?
 ^^^
 

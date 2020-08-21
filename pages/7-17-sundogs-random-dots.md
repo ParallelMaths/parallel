@@ -312,6 +312,43 @@ In other words, 100 days is 14 weeks + 2 days.
 14 weeks after Monday bring us back to Monday, and 2 more days take us to Wednesday.  
 
 
+## 7. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Multiply both sides by zero.
+* __Punchline B:__ He’ll stop at nothing to avoid them.
+* __Punchline C:__ The teacher told him not to use tables.
+
+::: problem id=7_1 marks=2
+__7.1__ Why did the student do multiplication problems on the floor?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+::: problem id=7_2 marks=2
+__7.2__ Did you hear about the mathematician who’s afraid of negative numbers?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=7_3 marks=2
+__7.3__ How do you solve any equation?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

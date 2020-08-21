@@ -259,9 +259,11 @@ I am writing this Parallelogram during the pandemic lockdown (2020), when I rece
 ![](/resources/10-29-a-trapped-knight/9-san-francisco.png)
 
 ::: problem id=9_1 marks=2
-__9.1__ However, there is a problem with this sign. If the people are 6 feet away from the person in the opposite corner, then they are closer than that to the person in the adjacent (or neighbouring) corner. What is that shorter distance? Give your answer to two significant figures.
+__9.1__ However, there is a problem with this sign. If each person is 6 feet away from the person in the opposite corner, then each person is closer than that to the person in the adjacent (or neighbouring) corner.  
 
-<input solution="4.2"/>
+What is that shorter distance? Give your answer to two significant figures.
+
+<input solution="4.2"/> feet
 
 ---
 

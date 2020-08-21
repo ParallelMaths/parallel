@@ -764,6 +764,43 @@ By dividing both sides of the last equation by 2, we conclude that `x = (y − z
 :::
 
 
+## 26. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ Henry the `1/8`.
+* __Punchline B:__ Remove the S.
+* __Punchline C:__ Because it gives them square roots.
+
+::: problem id=26_1 marks=2
+__26.1__ Which king loved fractions?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=26_2 marks=2
+__26.2__ Why do plants hate math?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=26_3 marks=2
+__26.3__ How do you make seven an even number?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

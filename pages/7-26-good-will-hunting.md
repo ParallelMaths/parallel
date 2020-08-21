@@ -425,6 +425,43 @@ So the other coin could be 3p, 4p, 6p or 9p. Which of these would allow you to m
 :::
 
 
+## 7. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ It improved di-vision.
+* __Punchline B:__ “What’s wrong?” The father asked. “I really don’t like long division,” the son answered, “I always feel bad for the remainders.”
+* __Punchline C:__ Dive-ision!
+
+::: problem id=7_1 marks=2
+__7.1__ Why did the girl wear glasses during math class?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=7_2 marks=2
+__7.2__ A father noticed his son was sad coming home from school one day.
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=7_3 marks=2
+__7.3__ What’s a swimmer's favorite kind of math?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

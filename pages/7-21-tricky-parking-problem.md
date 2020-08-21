@@ -200,6 +200,43 @@ While a mother in her twenties, having completed a degree in mathematics, Hamilt
 ![](/resources/7-21-tricky-parking-problem/6-margaret-hamilton.jpg){image align="center"}
 
 
+## 7. Maths Jokes
+
+Can you match the mathematical joke to the correct punchline?
+
+* __Punchline A:__ He liked to practice gong division!
+* __Punchline B:__ Because he was taught that a double negative in English is bad, but in math, it’s a positive.
+* __Punchline C:__ Multi-pliers.
+
+::: problem id=7_1 marks=2
+__7.1__ Why was the student confused when he went from English class to math class?
+
+* [ ] Punchline A
+* [x] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+::: problem id=7_2 marks=2
+__7.2__ What tool is best suited for math?
+
+* [ ] Punchline A
+* [ ] Punchline B
+* [x] Punchline C
+{.col-3}
+:::
+
+
+::: problem id=7_3 marks=2
+__7.3__ Why was Mr. Gilson’s class so noisy?
+
+* [x] Punchline A
+* [ ] Punchline B
+* [ ] Punchline C
+{.col-3}
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

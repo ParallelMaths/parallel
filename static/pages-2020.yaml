@@ -702,22 +702,22 @@ year11:
 #    title:
 #    available: 2020-10-15T13:00:00
 #    deadline: 2020-10-18T15:00:00
-#  - url:
-#    title:
-#    available: 2020-10-22T13:00:00
-#    deadline: 2020-10-25T13:00:00
-#  - url:
-#    title:
-#    available: 2020-10-08T13:00:00
-#    deadline: 2020-10-11T13:00:00
-#  - url:
-#    title:
-#    available: 2020-10-01T13:00:00
-#    deadline: 2020-10-04T13:00:00
-#  - url: 11-03-mars-ingenuity
-#    title: Mars Ingenuity
-#    available: 2020-09-24T13:00:00
-#    deadline: 2020-09-27T18:00:00
+  - url: 11-06-surprising-values
+    title: Surprising Values
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T13:00:00
+  - url: 11-05-winners
+    title: Winners
+    available: 2020-10-08T13:00:00
+    deadline: 2020-10-11T13:00:00
+  - url: 11-04-game-of-life
+    title: The Game of Life
+    available: 2020-10-01T13:00:00
+    deadline: 2020-10-04T13:00:00
+  - url: 11-03-mars-ingenuity
+    title: Mars Ingenuity
+    available: 2020-09-24T13:00:00
+    deadline: 2020-09-27T18:00:00
   - url: 11-02-ok-go
     title: OK Go
     available: 2020-09-24T13:00:00
