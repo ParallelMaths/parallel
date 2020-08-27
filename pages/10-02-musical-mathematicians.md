@@ -69,15 +69,15 @@ What were the combined assets of the players at the beginning of the evening, in
 
 <input solution="1,080"/>
 
-^^^ hint id=2_1 marks=1
+^^^ hint id=2_1 marks=0.5
 No money entered or left the game. The ratios of how the money was divided changed, but the total amount of money was unchanged.
 ^^^
 
-^^^ hint id=2_2 marks=1
+^^^ hint id=2_2 marks=0.5
 Turn each set of ratios into fractions.
 ^^^
 
-^^^ hint id=2_3 marks=1
+^^^ hint id=2_3 marks=0.5
 Bernie still had 1/3 of the money, while Craig lost money, so it must have been Alice who had won the $12.
 ^^^
 

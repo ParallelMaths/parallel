@@ -122,6 +122,28 @@ In 2013, the total of their ages was `12 + 14 + 15 + 15 = 56`.
 This needs to increase by `100 - 56 = 44` years in order to reach 100 years. Each year they all grow 1 year older, and so the total of their ages increases by `4`. This will take `44/4 = 11` years. In `11` years time it will be `2013 + 11 = 2024`.
 :::
 
+
+## 4. More negative numbers
+
+::: problem id=4_1 marks=2
+__4.1__ What is `1 + -2 + 3 + -4 + 5 + -6 + 7`?
+
+<input solution="4"/>
+:::
+
+::: problem id=4_2 marks=3
+__4.2__ Using the numbers -5, 9, -2, 11, and -4, and the operations add and subtract, what is the largest possible answer you can make?
+
+<input solution="31"/>
+:::
+
+::: problem id=4_3 marks=3
+__4.3__ What is `1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1?`
+
+<input solution="1"/>
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

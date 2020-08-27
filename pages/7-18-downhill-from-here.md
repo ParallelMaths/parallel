@@ -152,7 +152,6 @@ points does he earn?
 ---
 
 60 for distance, 60 for style = 120 altogether
-
 :::
 
 ::: problem id=2_2 marks=1
@@ -205,7 +204,6 @@ __3.1__ In the 1960s, what formation did ski jumpers make with their skies?
 * [x] Parallel
 * [ ] Perpendicular
 * [ ] Sierpinski Triangle
-
 :::
 
 ## 4. Junior Maths Challenge Problem (UKMT)
@@ -235,7 +233,6 @@ faces has area 4ⲭcm². Hence the total surface area of the cuboid in cm² is
 
 So 18ⲭ = 72. Therefore ⲭ = 4, and the area of one of the visible unshaded faces,
 in cm² is 4ⲭ =  16.
-
 :::
 
 
@@ -299,13 +296,11 @@ Now that you have mastered the affine cipher, answer these questions.
 | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
 {.grid}
 
-
 ::: problem id=5_1 marks=1
 __5.1.__ If we are encoding by multiplying by [3] and adding [4], what letter do we
 get if we encipher the letter A?
 
 <input type="text" solution="E"/>  
-
 :::
 
 ::: problem id=5_2 marks=1
@@ -313,7 +308,6 @@ __5.2.__ If we are encoding by multiplying by [3] and adding [4], what letter do
 get if we encipher the letter B?
 
 <input type="text" solution="H"/>  
-
 :::
 
 ::: problem id=5_3 marks=1
@@ -321,7 +315,6 @@ __5.3.__ If we are encoding by multiplying by [3] and adding [4], what letter do
 get if we encipher the letter Z?
 
 <input type="text" solution="B"/>  
-
 :::
 
 ::: problem id=5_4 marks=3
@@ -329,7 +322,6 @@ __5.4.__ If we are encoding by multiplying by [11] and adding [6], what do we
 get if we encipher the word CAT?
 
 <input type="text" solution="CGH"/>
-
 :::
 
 ::: problem id=5_5 marks=3
@@ -339,7 +331,51 @@ multiplied by [3] and then [2] was added. Can you work out what the coded word
 FCLUO means?
 
 <input type="text" solution="BADGE"/>
+:::
 
+
+## 6. Talking maths
+
+Use [this article from Merriam-Webster.com](https://www.merriam-webster.com/words-at-play/algebra-calculus-other-types-of-math/algorithm){target="_blank"} to match each word with its literal meaning.
+
+::: problem id=6_1 marks=2
+__6.1__ Geometry
+
+* [x] Earth measure
+* [ ] Pebble
+* [ ] The name of a mathematician
+* [ ] The reduction
+{.col-4}
+:::
+
+::: problem id=6_2 marks=2
+__6.2__	Algebra
+
+* [ ] Earth measure
+* [ ] Pebble
+* [ ] The name of a mathematician
+* [x] The reduction
+{.col-4}
+:::
+
+::: problem id=6_3 marks=2
+__6.3__ Calculus  
+
+* [ ] Earth measure
+* [x] Pebble
+* [ ] The name of a mathematician
+* [ ] The reduction
+{.col-4}
+:::
+
+::: problem id=6_4 marks=2
+__6.4__	Algorithm
+
+* [ ] Earth measure
+* [ ] Pebble
+* [x] The name of a mathematician
+* [ ] The reduction
+{.col-4}
 :::
 
 

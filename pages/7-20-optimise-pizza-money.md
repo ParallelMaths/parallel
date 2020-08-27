@@ -228,6 +228,40 @@ If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,58
 :::
 
 
+## 7. Negative numbers
+
+::: problem id=7_1 marks=2
+__7.1__ What is the value of the missing number? `– 1 × 2 × -3 × 4 × __ = 120`?
+
+<input solution="5"/>
+:::
+
+::: problem id=7_2 marks=3
+__7.2__ What is the value of `(-1)^10`?
+
+<input solution="1"/>
+:::
+
+::: problem id=7_3 marks=2
+__7.3__ What is the value of `3 × -1/5`? Give your answer as a decimal.
+
+<input solution="-0.6"/>
+:::
+
+::: problem id=7_4 marks=2
+__7.4__ What is the value of `-0.5 × 5 × -2`?
+
+<input solution="5"/>
+:::
+
+::: problem id=7_5 marks=2
+__7.5__ What is the value of `(-1 - 2 - 3 - 4)/(-2)`?
+
+<input solution="5"/>
+:::
+
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

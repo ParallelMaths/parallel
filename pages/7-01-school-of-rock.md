@@ -133,6 +133,37 @@ In each case a number is subtracted from 1. The smaller the number we subtract, 
 :::
 
 
+## 4. Negative numbers
+
+::: problem id=4_1 marks=2
+__4.1__ What is `5 × -1/2`?
+
+* [ ] `4 1/2`
+* [x] `-2 1/2`
+* [ ] `2 1/2`
+* [ ] `-5 1/2`
+{.col-4}
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ What is `-4 + -9`?
+
+<input solution="-13"/>
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ What is `-9 - -4`?
+
+<input solution="-5"/>
+:::
+
+::: problem id=4_4 marks=2
+__4.4__ What is `-5 × -2 × -5`?
+
+<input solution="-50"/>
+:::
+
+
 I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.

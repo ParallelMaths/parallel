@@ -110,6 +110,40 @@ Alternatively, there is a longer more methodical approached, outlined below.
 ![](/resources/7-07-exoplanets/3_2-answer.jpg){image align="center"}
 :::
 
+
+## 4. Order of operations
+
+::: problem id=4_1 marks=2
+__4.1__ What is `4 + 3 × 0.5`?
+
+<input solution="5.5"/>
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ What is `400 – 400 × 5 + 600`?
+
+<input solution="-1,000"/>
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ Harry calculates `4 × 3 + 2 × 10` and gets 140. How far away is he from the correct answer?
+
+<input solution="108"/>
+:::
+
+::: problem id=4_4 marks=2
+__4.4__	Calculate `(3 + 4) × 3 + 4`.
+
+<input solution="25"/>
+:::
+
+::: problem id=4_5 marks=2
+__4.5__	Calculate `2 + 14 × 2 + 14`.
+
+<input solution="44"/>
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

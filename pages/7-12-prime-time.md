@@ -125,6 +125,46 @@ The smallest 4-digit number is 1000. The largest 3-digit number is 999. So their
 :::
 
 
+## 5. Fractions of
+
+::: problem id=5_1 marks=2
+__5.1__ What is `6/8 of 44`?
+
+<input solution="33"/>
+:::
+
+::: problem id=5_2 marks=2
+__5.2__ What is `7/8` of 44? Give your answer as a decimal.
+
+<input solution="38.5"/>
+:::
+
+::: problem id=5_3 marks=2
+__5.3__ What is `1/3` of `6/7`?
+
+* [ ] `7/28`
+* [ ] `18/7`
+* [x] `2/7`
+* [ ] `7/2`
+{.col-4}
+:::
+
+::: problem id=5_4 marks=2
+__5.4__	What is `7/6` of 13.2? Give your answer as a decimal.
+
+<input solution="15.4"/>
+:::
+
+::: problem id=5_5 marks=2
+__5.5__	Which is greater?
+
+* [ ] `4/5` of 60
+* [x] `6/4` of 50
+{.col-2}
+:::
+
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
