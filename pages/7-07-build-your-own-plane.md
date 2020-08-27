@@ -93,7 +93,7 @@ If you didn’t know that a quarterback is an American footballer, then a quick 
 <!--- (2013) Q17 --->
 
 ::: problem id=3_1 marks=3
-![](/resources/7-06-build-your-own-plane/3-square-question.jpg){image align="right"}
+![](/resources/7-07-build-your-own-plane/3-square-question.jpg){image align="right"}
 __3.1__ A 5 cm × 5 cm square is cut into five pieces, as shown.  
 
 Each cut is a sequence of identical copies of the same shape but pointing up, down, left or right.  
@@ -151,7 +151,7 @@ And, 100 × 0.002 mm = 0.2 mm.
 :::
 
 ::: problem id=4_2 marks=2
-![](/resources/7-06-build-your-own-plane/4-clouds.jpg){image align="right"}
+![](/resources/7-07-build-your-own-plane/4-clouds.jpg){image align="right"}
 __4.2__ You might need to do some research to answer this question: what is the weight of a cumulus cloud?
 
 * [ ] The same as a mouse.

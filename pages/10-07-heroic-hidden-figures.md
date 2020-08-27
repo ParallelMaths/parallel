@@ -152,7 +152,7 @@ After travelling a further 3 `1/2` miles towards Edinburgh after passing the "Ed
 <!--- (2016) Q13 --->
 
 ::: problem id=4_1 marks=4
-![](/resources/10-06-heroic-hidden-figures/13-circle.jpg){image align="right"}
+![](/resources/10-07-heroic-hidden-figures/13-circle.jpg){image align="right"}
 __4.1__ The diagram shows a heptagon with a line of three circles on each side. Each circle is to contain exactly one number. The numbers 8 to 14 are distributed as shown and the numbers 1 to 7 are to be distributed to the remaining circles. The total of the numbers in each of the lines of three circles is to be the same.  
 
 What is this total?

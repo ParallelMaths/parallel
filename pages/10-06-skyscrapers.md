@@ -101,7 +101,7 @@ One third of the animals in Jacob’s flock are goats. Therefore two thirds of t
 <!--- (2016) Q15 --->
 
 ::: problem id=4_1 marks=4
-![](/resources/10-07-skyscrapers/4-circle.jpg){image align="right"}
+![](/resources/10-06-skyscrapers/4-circle.jpg){image align="right"}
 
 __4.1__ The circle has radius 1 cm. Two vertices of the square lie on the circle. One edge of the square goes through the centre of the circle, as shown.  
 
@@ -116,11 +116,11 @@ What is the area of the square, in cm<sup>2</sup>?
 
 ^^^ hint id=4_1 marks=1
 Let the vertices of the square be `P`, `Q`, `R` and `S`, as shown in the diagram. Let `O` be the centre of the circle. We also suppose that the length of the sides of the square is `s` cm. It follows that the area of the square is `s^2` cm<sup>2</sup>.
-![](/resources/10-07-skyscrapers/4-circle-answer.jpg){image align="center"}
+![](/resources/10-06-skyscrapers/4-circle-answer.jpg){image align="center"}
 ^^^
 
 ---
-![](/resources/10-07-skyscrapers/4-circle-answer.jpg){image align="right"}
+![](/resources/10-06-skyscrapers/4-circle-answer.jpg){image align="right"}
 Let the vertices of the square be `P`, `Q`, `R` and `S`, as shown in the diagram. Let `O` be the centre of the circle. We also suppose that the length of the sides of the square is `s` cm. It follows that the area of the square is `s^2` cm<sup>2</sup>.  
 
 We consider the triangles `POQ` and `SOR`. In these triangles `∠OPQ = ∠OSR = 90°`, as they are both angles in the square; `OQ = OR`, as they are radii of the same circle; and `PQ = SR`, as they are sides of the same square.  

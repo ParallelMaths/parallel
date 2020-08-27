@@ -79,7 +79,7 @@ The video mentioned that he suggested the idea in 1931, but Chandrasekhar did no
 <!--- (2013) Q25 --->
 
 ::: problem id=3_1 marks=3
-![](/resources/8-07-black-holes/3-question.jpg){image align="right"}
+![](/resources/8-06-black-holes/3-question.jpg){image align="right"}
 __3.1__ For Beatrix's latest art installation, she has fixed a 2 × 2 square sheet of steel to a wall. She has two 1 × 2 magnetic tiles, both of which she attaches to the steel sheet, in any orientation, so that none of the sheet is visible and the line separating the two tiles cannot be seen. As shown alongside, one tile has one black cell and one grey cell; the other tile has one black cell and one spotted cell.
 
 How many different looking 2 × 2 installations can Beatrix obtain?
@@ -97,7 +97,7 @@ N.B. If one arrangement can be transformed into another by rotating the installa
 
 One approach is to write down all the different ways that you could arrange the tiles, but you have to be careful to (a) draw them systematically, so that you don’t miss out any arrangements, and (b) cross out any duplicates. I did this myself and found 12 distinct installations.
 
-![](/resources/8-07-black-holes/3-answer.jpg){image align="center"}
+![](/resources/8-06-black-holes/3-answer.jpg){image align="center"}
 
 Here is another approach to achieving the same answer.
 

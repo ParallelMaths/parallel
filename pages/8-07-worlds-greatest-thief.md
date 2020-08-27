@@ -108,7 +108,7 @@ __2.1__ When the coin falls into his hand from above, where does it come from?
 This is a tough Junior Maths Challenge problem, so you might need to rely on the hints. But, first, try it without the hints.
 
 ::: problem id=3_1 marks=4
-![](/resources/8-06-worlds-greatest-thief/3-squares-question.jpg){image align="right"}
+![](/resources/8-07-worlds-greatest-thief/3-squares-question.jpg){image align="right"}
 __3.1__ Three congruent squares overlap as shown. The areas of the three overlapping sections are 2 cm<sup>2</sup>, 5 cm<sup>2</sup> and 8 cm<sup>2</sup> respectively.
 
 The total area of the non-overlapping parts of the square is 117 cm<sup>2</sup>.
@@ -188,7 +188,7 @@ __4.2__ Do people in the United States of America move faster or slower than peo
 
 The United States of America is north of the equator, as you can see in the diagram on the left, so Americans (and Brits, and most of the people in the world) don’t travel so far each day, so they travel slower. The diagram on the right shows how the lines of latitude (the rings around the Earth) get shorter as you head north (or south) of the equator.
 
-![](/resources/8-06-worlds-greatest-thief/4-earth.png){image align="center"}
+![](/resources/8-07-worlds-greatest-thief/4-earth.png){image align="center"}
 :::
 
 

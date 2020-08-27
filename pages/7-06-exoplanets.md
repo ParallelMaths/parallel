@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Two riddles
 ::: problem id=1_1 marks=2
-![](/resources/7-07-exoplanets/1-scale-justice.png){image align="right"}
+![](/resources/7-06-exoplanets/1-scale-justice.png){image align="right"}
 __1.1.__ You have three coins, which appear identical, except one of them is counterfeit and does not have the same weight as the other two. You have a set of balance scales, so you can compare coins against each other.
 
 Can you find the fake coin?
@@ -51,7 +51,7 @@ __1.2.__ A builder agrees to fix your house in 7 days, and you agree to pay her 
 
 1/7, 2/7, 4/7 works because you can do the following:  
 
-![](/resources/7-07-exoplanets/1_2-answer.jpg){image align="center"}
+![](/resources/7-06-exoplanets/1_2-answer.jpg){image align="center"}
 :::
 
 
@@ -107,7 +107,7 @@ And we already know from the question that (me + nurse) weigh 137 Kg, so the bab
 
 Alternatively, there is a longer more methodical approached, outlined below.  
 
-![](/resources/7-07-exoplanets/3_2-answer.jpg){image align="center"}
+![](/resources/7-06-exoplanets/3_2-answer.jpg){image align="center"}
 :::
 
 

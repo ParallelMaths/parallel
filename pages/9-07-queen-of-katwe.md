@@ -140,7 +140,7 @@ The pawn is the weakest piece on the board, but if it reaches the other side of 
 <!--- (2011) Q7 --->
 
 ::: problem id=3_1 marks=3
-![](/resources/9-06-queen-of-katwe/3-triangles-question.jpg){image align="right"}
+![](/resources/9-07-queen-of-katwe/3-triangles-question.jpg){image align="right"}
 __3.1__ What is the value of `x` in this diagram?
 
 * [x] 30
@@ -150,7 +150,7 @@ __3.1__ What is the value of `x` in this diagram?
 * [ ] 50
 
 ---
-![](/resources/9-06-queen-of-katwe/3-triangles-amswer.jpg){image align="right"}
+![](/resources/9-07-queen-of-katwe/3-triangles-amswer.jpg){image align="right"}
 There are a couple of ways to solve this problem. The cheeky way is to try each of the multiple-choice options.  
 
 Let’s start with option A, where `x = 30`. Looking at the diagram above, if `x = 30` in the left triangle, then `y = 80`. So, in the middle triangle, `z = 70`. Then in the right triangle we have `x + z + 80 = 180`, or `30 + 70 + 80 = 180`, which is all nicely consistent.  
@@ -249,7 +249,7 @@ __5.1.__ The Wason Test has many versions, and this particular one comes from Wi
 
 _You are shown a set of four cards placed on a table, each of which has a number on one side and a coloured patch on the other side. The visible faces of the cards show 3, 8, red and brown. Which card(s) must you turn over in order to test the truth of the proposition that if a card shows an even number on one face, then its opposite face is red?_
 
-![](/resources/9-06-queen-of-katwe/5-wason-cards.png){image align="center"}
+![](/resources/9-07-queen-of-katwe/5-wason-cards.png){image align="center"}
 
 * [x] 8 card & brown card
 * [ ] 8 card & red card
@@ -285,7 +285,7 @@ The rule is this: “If you are drinking alcohol, then you must aged over 18.”
 
 You see four people drinking at a bar, and each has a card gives their age on one side and their drink on the other side. You can see the following:
 
-![](/resources/9-06-queen-of-katwe/5-wason-cards-2.png){image align="center"}
+![](/resources/9-07-queen-of-katwe/5-wason-cards-2.png){image align="center"}
 
 Which cards do you need to turn over to check everyone is following the rule?
 
