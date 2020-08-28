@@ -162,6 +162,33 @@ This gives just the two solutions p = 1,5 corresponding to the correct equations
 :::
 
 
+## 4. Measure for measure
+
+::: problem id=4_1 marks=2
+__4.1__ Convert 0.5432 kilograms into grams.
+
+<input solution="543.2"/>g
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ Convert 3.4 centilitres to millilitres.
+
+<input solution="34"/> ml
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ A marathon is 42.195km. What is a half marathon in m, to the nearest whole metre?
+
+<input solution="21098"/> m
+:::
+
+::: problem id=4_4 marks=2
+__4.4__ How many whole 330ml cans fit into a 2 litre jug?
+
+<input solution="6"/>
+:::
+
+
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

@@ -164,6 +164,27 @@ Therefore Bertie’s approximate average speed was 1 km per hour.
 :::
 
 
+## 5. Decimal operations
+
+::: problem id=8_1 marks=2
+__5.1__ Solve `x + 2x = 9`?
+
+`x` = <input solution="3"/>
+:::
+
+::: problem id=8_2 marks=2
+__5.2__ Solve `3x + 4 = 5x - 6`?
+
+`x` = <input solution="5"/>
+:::
+
+::: problem id=8_3 marks=2
+__5.3__ Solve `2 + 3x + 4 + 5x + 6 = 7x - 8 - 9x`?
+
+`x` = <input solution="-2"/>
+:::
+
+
 I hope you enjoyed the second Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.

@@ -146,6 +146,45 @@ It is definitely worth looking at the whole site and learning about the maths of
 *	If you want to try again, hit RETRY after you obtain your score.
 
 
+## 8. Decimal operations
+
+::: problem id=8_1 marks=2
+__8.1__ What is 8 – 4.563?
+
+<input solution="3.437"/>
+:::
+
+::: problem id=8_2 marks=2
+__8.2__ What is half of 1.01?
+
+<input solution="0.505"/>
+:::
+
+::: problem id=8_3 marks=2
+__8.3__ What is 0.8 × 20?
+
+<input solution="16"/>
+:::
+
+::: problem id=8_4 marks=2
+__8.4__ What is 0.1 + 0.2 + 0.3 + 0.4 + 0.5 + 0.6 + 0.7 + 0.8 + 0.9?
+
+<input solution="4.5"/>
+:::
+
+::: problem id=8_5 marks=2
+__8.5__ What is 0.9 – 0.8 – 0.7 – 0.6 – 0.5 – 0.4 – 0.3 – 0.2 – 0.1?
+
+<input solution="-2.7"/>
+:::
+
+::: problem id=8_6 marks=2
+__8.6__ What is 1.6	1 – 0.9 – 0.08 – 0.007?
+
+<input solution="0.013"/>
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

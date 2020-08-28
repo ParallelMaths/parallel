@@ -134,6 +134,27 @@ __3.2__ Without using a calculator, find the value of 123.4 × 123.4 + 123.4 × 
 :::
 
 
+## 4. History of Mathematics
+
+The terrific Mathigon website has loads of great material, including a timeline showing the great mathematicians of past centuries. Visit the [timeline](https://mathigon.org/timeline){target="_blank"} (click and it will open up in a new tab) and answer the three questions below. __Just enter the name given in the plum box__.
+
+So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
+
+![](/resources/9-01-sing-a-long/4-napier.png){image align="center"}
+
+::: problem id=4_1 marks=2
+__4.1__ Which mathematician from the 1st century CE created detailed maps of the Earth?
+
+<input type="text" solution="Ptolemy"/>
+:::
+
+::: problem id=4_2 marks=2
+__4.2__  Which mathematician from the 1st century CE created detailed maps of the Earth?
+
+<input type="text" solution="Juishao"/>
+:::
+
+
 I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.

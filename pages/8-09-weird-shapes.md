@@ -113,6 +113,27 @@ __3.1__ The kettle in Keith’s kitchen is 80% full. After 20% of the water in i
 :::
 
 
+## 4. Powers of 4
+
+::: problem id=4_1 marks=2
+__4.1__ Calculate `4^3`?
+
+<input solution="64"/>
+:::
+
+::: problem id=4_2 marks=2
+__4.2__ Calculate `(-4)^3`?
+
+<input solution="-64"/>
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ Calculate `0.4^3`?
+
+<input solution="0.064"/>
+:::
+
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
