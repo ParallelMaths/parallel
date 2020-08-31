@@ -41,7 +41,7 @@ async function run() {
   // ---------------------------------------------------------------------------
 
   for (let p of pages) {
-    const titles = ['name','email','school','submitted','score'];
+    const titles = ['name','email','school','submitted','time/min','score'];
     const data = [];
 
     for (let u of Object.keys(users)) {
@@ -56,7 +56,8 @@ async function run() {
         emailMap[u],
         `"${users[u].schoolName || ''}"`,
         answer.submitted ? 1 : '',
-        answer.score || 0
+        Math.round((answer.time - answer.firstAnswer) / 1000 / 60) || '',
+        answer.score || ''
       ];
 
       for (let key of Object.keys(answer)) if (titles.indexOf(key) <= 0) titles.push(key);

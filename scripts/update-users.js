@@ -20,7 +20,7 @@ async function run() {
 
     const parallelograms = user.answers ? Object.keys(user.answers) : [];
     for (let p of parallelograms) {
-      updates[`${key}/answers/${p}/archive`] = 2018;
+      updates[`${key}/answers/${p}/archive`] = 2019;
     }
   }
 

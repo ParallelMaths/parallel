@@ -19,7 +19,14 @@ export default function() {
       if (userData.submitted) return;
       if (!userData.uid) return alert('You have to login or create a free account, before you can solve problems.');
       Vue.set(challenge.answers, key, value);
-      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`).update({[key]: value});
+
+      const path = `users/${userData.uid}/answers/${page.url}`;
+      fbDatabase.ref(path).update({[key]: value});
+
+      // Track the first time that a questions was submitted...
+      fbDatabase.ref(path + '/firstAnswer').once('value').then(c => {
+        if (!c.val()) fbDatabase.ref(path).update({firstAnswer: Date.now()});
+      });
     },
 
     setInput(event) {
