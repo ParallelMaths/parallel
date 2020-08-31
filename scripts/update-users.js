@@ -1,34 +1,20 @@
-const fb = require('firebase-admin');
-const serviceAccount = require('../private/service-account.json');
+const fs = require('fs');
+const path = require('path');
 
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
-});
+// First, export user data JSON from Firebase dashboard.
+const data = require('../private/parallel-cf800-export.json');
 
-async function run() {
-  const userData = await fb.database().ref('users').once('value');
-  const users = userData.toJSON();
-  console.log(`Loaded ${Object.keys(users).length} users...`);
+for (const v of Object.values(data.users)) {
+  delete v.hasSeenWelcomeMsg;
+  if (v.code) delete v.level
 
-  const updates = {};
+  if (!v.code && !v.showWelcomeMsg) v.level = ({year7: 'year8', year8: 'year9', year9: 'year10', year10: 'year11'}[v.level] || 'year7');
+  if (!v.code && v.level !== 'year7') v.showWelcomeMsg = true;
 
-  for (const [key, user] of Object.entries(users)) {
-    updates[`${key}/level`] = ({year7: 'year8', year8: 'year9', year9: 'year10', year10: 'year11'}[user.level] || 'year7');
-    updates[`${key}/showWelcomeMsg`] = true;
-    updates[`${key}/hasSeenWelcomeMsg`] = fb.firestore.FieldValue.delete();
-
-    const parallelograms = user.answers ? Object.keys(user.answers) : [];
-    for (let p of parallelograms) {
-      updates[`${key}/answers/${p}/archive`] = 2019;
-    }
+  for (let p of Object.values(v.answers || {})) {
+    if (!p.archive) p.archive = 2019;
   }
-
-  console.log(`Updating ${Object.keys(updates).length} entries...`);
-  await fb.database().ref('users').update(updates);
-
-  console.log('Done!');
-  process.exit();
 }
 
-run();
+const str = JSON.stringify(data);
+fs.writeFileSync(path.join(__dirname, `../private/parallel-cf800-export-new.json`), str);
