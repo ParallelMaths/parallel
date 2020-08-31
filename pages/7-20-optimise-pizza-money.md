@@ -231,7 +231,7 @@ If you type 26! into a calculator, then the answer is 403,291,461,126,605,635,58
 ## 7. Negative numbers
 
 ::: problem id=7_1 marks=2
-__7.1__ What is the value of the missing number? `– 1 × 2 × -3 × 4 × __ = 120`?
+__7.1__ What is the value of the missing number? `– 1 × 2 × -3 × 4 × "__" = 120`?
 
 <input solution="5"/>
 :::

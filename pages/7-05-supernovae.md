@@ -138,7 +138,7 @@ __4.2__ Using the numbers -5, 9, -2, 11, and -4, and the operations add and subt
 :::
 
 ::: problem id=4_3 marks=3
-__4.3__ What is `1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1?`
+__4.3__ What is `1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 + 1`?
 
 <input solution="1"/>
 :::
