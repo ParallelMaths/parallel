@@ -3,7 +3,7 @@ const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
 const BADGES = require('../build/badges.json');
 
-const LEVELS = ['year7', 'year8', 'year9', 'year10'];
+const LEVELS = ['year7', 'year8', 'year9', 'year10', 'year11'];
 
 function getIdTokenFromRequest(req, res) {
   return new Promise((resolve, reject) => {

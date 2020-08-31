@@ -26,7 +26,7 @@ fb.initializeApp({
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 
-let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10];
+let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11];
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {

@@ -14,7 +14,7 @@ async function run() {
   const updates = {};
 
   for (const [key, user] of Object.entries(users)) {
-    updates[`${key}/level`] = ({year7: 'year8', year8: 'year9', year9: 'year10'}[user.level] || 'year7');
+    updates[`${key}/level`] = ({year7: 'year8', year8: 'year9', year9: 'year10', year10: 'year11'}[user.level] || 'year7');
     updates[`${key}/showWelcomeMsg`] = true;
     updates[`${key}/hasSeenWelcomeMsg`] = fb.firestore.FieldValue.delete();
 
