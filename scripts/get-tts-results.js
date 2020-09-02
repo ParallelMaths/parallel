@@ -42,8 +42,6 @@ const TTS_SCHOOLS = [
   {name: 'Cullompton Community College', year: 8, teachers: ['hc7it0', '9knp4'], students: 15},
   {name: 'Cullompton Community College', year: 9, teachers: ['iplf3y', '9knp4'], students: 16},
 
-  {name: 'Elthorne', year: 8, teachers: ['szvxjp'], students: 21},
-
   {name: 'Lister Community School', year: 7, teachers: ['ag93qe'], students: 26},
   {name: 'Lister Community School', year: 8, teachers: ['2jiemd'], students: 24},
   {name: 'Lister Community School', year: 9, teachers: ['3to7uh'], students: 19},

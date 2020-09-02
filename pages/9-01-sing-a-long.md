@@ -140,18 +140,38 @@ The terrific Mathigon website has loads of great material, including a timeline 
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/9-01-sing-a-long/4-napier.png){image align="center"}
+![](/resources/9-01-sing-a-long/5-napier.png){image align="center"}
 
 ::: problem id=4_1 marks=2
-__4.1__ Which mathematician from the 1st century CE created detailed maps of the Earth?
+__4.1__ Which mathematician from the 19th Century has a surname which is an anagram of “Hanging tile”?
 
-<input type="text" solution="Ptolemy"/>
+<input type="text" solution="Nightingale"/>
 :::
 
 ::: problem id=4_2 marks=2
-__4.2__  Which mathematician from the 1st century CE created detailed maps of the Earth?
+__4.2__  The mathematician from 1.1 was the first to use which type of chart?
 
-<input type="text" solution="Juishao"/>
+* [ ] Gantt Chart
+* [x] Pie Chart
+* [ ] Bar chart
+* [ ] Stem and leaf diagram
+{.col-4}
+:::
+
+::: problem id=4_3 marks=2
+__4.3__ Which mathematician from the 20th Century has a surname which is an anagram of “Not marbled”?
+
+<input type="text" solution="Mandlebrot"/>
+:::
+
+::: problem id=4_4 marks=2
+__4.4__ Which of the following is not stated as an interest of the mathematician from question 1.3?
+
+* [ ] Roughness2012
+* [ ] Chaos
+* [ ] Clouds
+* [x] Trigonometry
+{.col-4}
 :::
 
 

@@ -188,7 +188,7 @@ The factors of 6 are 1, 2, 3 and 6; the factors of 8 are 1, 2, 4 and 8; the fact
 ## 9.
 <!--- 2010 (4) --->
 ::: problem id=9_1 marks=2
-![](/resources/7-35-summer-sums/2-cube-question.gif){image align="right"}
+![](/resources/7-35-summer-sums/9-cube-question.gif){image align="right"}
 __9.1__ If the net shown is folded to make a cube, which letter is opposite X?
 
 * [ ] A
