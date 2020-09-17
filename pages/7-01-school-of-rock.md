@@ -97,7 +97,7 @@ I recently watched “School of Rock”, in which Jack Black plays an unemployed
 @[youtube](Qsv4_xOkh4M?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=2_1 marks=2
-__2.1__ The teacher ask what is six multiplied by a billion, but what is a billion times a billion called? You might need to google this.
+__2.1__ The teacher asks what is six multiplied by a billion, but what is a billion times a billion called? You might need to google this.
 
 * [ ] Gazillion
 * [ ] Trillion

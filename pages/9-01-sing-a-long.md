@@ -149,7 +149,7 @@ __4.1__ Which mathematician from the 19th Century has a surname which is an anag
 :::
 
 ::: problem id=4_2 marks=2
-__4.2__  The mathematician from 1.1 was the first to use which type of chart?
+__4.2__  The mathematician from 4.1 was the first to use which type of chart?
 
 * [ ] Gantt Chart
 * [x] Pie Chart
@@ -161,13 +161,13 @@ __4.2__  The mathematician from 1.1 was the first to use which type of chart?
 ::: problem id=4_3 marks=2
 __4.3__ Which mathematician from the 20th Century has a surname which is an anagram of “Not marbled”?
 
-<input type="text" solution="Mandlebrot"/>
+<input type="text" solution="Mandelbrot"/>
 :::
 
 ::: problem id=4_4 marks=2
-__4.4__ Which of the following is not stated as an interest of the mathematician from question 1.3?
+__4.4__ Which of the following is not stated as an interest of the mathematician from question 4.3?
 
-* [ ] Roughness2012
+* [ ] Roughness
 * [ ] Chaos
 * [ ] Clouds
 * [x] Trigonometry

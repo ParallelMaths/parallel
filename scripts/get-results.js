@@ -8,7 +8,7 @@ const yaml = require('yamljs');
 // Edit below.
 // Set the time string to '' to stop filtering by submission time.
 
-const START_TIME = '';
+const START_TIME = '2020-08-31T09:00:00';
 const END_TIME = '';
 
 // -----------------------------------------------------------------------------

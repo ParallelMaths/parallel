@@ -73,7 +73,7 @@ __3.1__ The pattern 123451234512345... is continued to form a 2000-digit number.
 
 ---
 
-The number may be divided up into 3300 blocks of '12345'. The sum of the digits in each block is 15 and hence the sum of all 2000 digits is 400 × 15 = 6000.  
+The number may be divided up into 400 blocks of '12345'. The sum of the digits in each block is 15 and hence the sum of all 2000 digits is 400 × 15 = 6000.  
 
 Alternatively, the mean of the digits which make up the number is 3, and therefore the sum of the digits is 2000 × 3 = 6000.
 :::
@@ -115,6 +115,8 @@ Which shaded area is the greatest?
 * [ ] D
 * [ ] E
 {.col-5}
+
+Note: as this question is worth 5 marks, using all 5 hints will mean you will score 0 marks.
 
 ^^^ hint id=5_1 marks=1
 Area A `= 2 × π (1/2 R)^2 = 1/2πR^2 ≈ 1.6R^2`.
