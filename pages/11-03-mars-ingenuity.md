@@ -60,7 +60,7 @@ __1.4.__ Perseverance itself weighs one metric tonne, and Ingenuity weighs about
 
 ---
 
-Since one metric tonne is 1000kg. The percentage increase is 1.8kg ÷ 1000kg x 100 = 0.18%.
+Since one metric tonne is 1000kg, the percentage increase is 1.8kg ÷ 1000kg x 100 = 0.18%.
 :::
 
 
@@ -73,7 +73,7 @@ __2.1__ The perimeter of the three shapes shown are made up of straight lines an
 
 They will fit snugly together as in a jigsaw.  
 
-What is the difference between the total perimeter of the three separate pieces and the perimeter of the shapre formed when the three pieces fit together?
+What is the difference between the total perimeter of the three separate pieces and the perimeter of the shape formed when the three pieces fit together?
 
 * [ ] `0`
 * [ ] `2 + 2π`
@@ -95,7 +95,7 @@ So the required difference is `8 × 1 + 4 (1/2 × 2 × π × 1) = 8 + 4π`.
 ## 3.	An index of digits
 
 ::: problem id=3_1 marks=4
-__3.1__ Below the integers from 0 to 8 have been placed in a sequence which follows a rule. If we added the digit 9 to the sequence, where would it go?  
+__3.1__ Below, the integers from 0 to 8 have been placed in a sequence which follows a rule. If we added the digit 9 to the sequence, where would it go?  
 
 8, 5, 4, 1, 7, 6, 3, 2, 0
 
@@ -110,7 +110,7 @@ If you read the last digit as “Nought” instead of “Zero”, the sequence w
 ^^^
 
 ^^^ hint id=3_2 marks=1
-If you read numbers in French (zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf) the sequence would be 5, 2, 8, 9, 4, 7, 6, 3, 1, 0.
+If you read the numbers in French (zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf) the sequence would be 5, 2, 8, 9, 4, 7, 6, 3, 1, 0.
 ^^^
 
 ^^^ hint id=3_3 marks=1
@@ -119,7 +119,7 @@ Consider the first letter of each number when written as a word.
 
 ---
 
-Buying two more parsnips and three fewer turnips does not change the total cost and hence two parsnips cost the same as three turnips. Instead of six parsnips, therefore, Baldrick could have bought nine turnips and, together with seven turnips, this makes a total of sixteen turnips. Alternatively, he could have bought twelve turnips instead of the eight parsnips and, together with four turnips, this makes sixteen turnips.
+If you write out each integer as a word, and then alphabetise them, they fall into our sequence.
 :::
 
 
@@ -152,7 +152,7 @@ At 6mph, Supergran would take `x/6` hours, whereas at 10mph she would take `x/10
 
 ---
 
-Let the distance from the chalet to the top of the mountain be `x` miles. Then, at 6 mph Supergran would `x/6` take hours, whereas at 10 mph she would take `x/10` hours.  
+Let the distance from the chalet to the top of the mountain be `x` miles. Then, at 6 mph Supergran would take `x/6` hours, whereas at 10 mph she would take `x/10` hours.  
 
 So `x/6 - x/10 = 2`, that is `5x - 3x = 60`, so `x = 30`.  
 
