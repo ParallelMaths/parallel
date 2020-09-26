@@ -170,7 +170,7 @@ __5.1__ The diagram shows a pattern of eight equal shaded squares inside a circl
 What is the area (in square units) of the shaded region?
 
 * [ ] `1 1/3`
-* [ ] `1 3/5`
+* [x] `1 3/5`
 * [ ] `1 2/3`
 * [ ] `1 7/9`
 * [ ] `2`
