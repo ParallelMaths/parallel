@@ -1,15 +1,13 @@
-const path = require('path');
-const fs = require('fs');
 const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '9-22-bird-brain';
-const QUESTION = 'p_2_1';
+const PG = '11-03-mars-ingenuity';
+const QUESTION = 'p_5_1';
 const IF_ANSWER = 'b';
-const THEN_ANSWER = 'a';
-const ADD_POINTS = 3;
+const THEN_ANSWER = 'b';
+const ADD_POINTS = 5;
 // ---------------------
 
 
