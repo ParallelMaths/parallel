@@ -694,14 +694,14 @@ year11:
 #    title:
 #    available: 2020-11-12T13:00:00
 #    deadline: 2020-11-15T15:00:00
-#  - url:
-#    title:
-#    available: 2020-11-05T13:00:00
-#    deadline: 2020-11-08T15:00:00
-#  - url:
-#    title:
-#    available: 2020-10-15T13:00:00
-#    deadline: 2020-10-18T15:00:00
+  - url: 11-08-borromean-rings
+    title: Borromean Rings
+    available: 2020-11-05T13:00:00
+    deadline: 2020-11-08T15:00:00
+  - url: 11-07-colliding-vortexes
+    title: Colliding Vortexes
+    available: 2020-10-29T13:00:00
+    deadline: 2020-11-01T15:00:00
   - url: 11-06-surprising-values
     title: Surprising Values
     available: 2020-10-22T13:00:00

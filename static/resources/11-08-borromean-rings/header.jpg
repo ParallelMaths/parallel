@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="650"
+height="672" stroke-width="50" fill="none" stroke="#900">
+<path d="m324,60a174,174 0 1,0 2,0z"/>
+<path stroke="#069" d="m233,264a174,174 0 1,0 2,0z"/>
+<path stroke="#396" d="m415,264a174,174 0 1,0 2,0z"/>
+<path stroke="#069" d="m234,264a174,174 0 0,1 174,174"/>
+<path d="m324,408a174,174 0 0,0 174-174"/>
+</svg>
