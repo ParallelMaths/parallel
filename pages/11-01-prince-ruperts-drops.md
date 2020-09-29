@@ -81,7 +81,7 @@ Alternatively, the mean of the digits which make up the number is 3, and therefo
 
 ## 4.	Prince Rupert’s drops
 
-This video is from one of my favourite YouTube channels, “Smarter Every Day”. I hope you will watch some of the other videos made by Destin Wilson.  
+This video is from one of my favourite YouTube channels, “Smarter Every Day”. I hope you will watch some of the other videos made by Destin Sandlin.  
 
 Take a look at this video about Prince Rupert’s drops, and answer the question below.
 

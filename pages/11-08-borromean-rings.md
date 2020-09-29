@@ -39,11 +39,6 @@ __1.1__ Tadashi's borromean rings consist of 3 rings - one made of pink ribbon, 
 * [x] Tadashi's fingers
 * [ ] The space within the room
 * [ ] A steel ring
-{.col-2}
-
----
-
-Over a two-week period, the required number of visitors is 14 × 30,000 = 420,000. Hence the number required this week is 420,000 = 120,000 = 300,000.
 :::
 
 
@@ -303,7 +298,9 @@ The unshaded area in the original figure is, therefore, `(π - 2)` cm<sup>2</sup
 ---
 
 ![](/resources/11-08-borromean-rings/5-circle-answer.jpg){image align="right"}
-Let `O` be the centre of the circle and let the points where the arcs meet be `C` and `D` respectively. `ABCD` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90deg` (angle in a semicircle).  
+Let `O` be the centre of the circle and let the points where the arcs meet be `C` and `D` respectively.  
+
+`ABCD` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90deg` (angle in a semicircle).  
 
 In triangle `OCB`, `CB^2 = OC^2 + OB^2`, hence `CB = sqrt(2)` cm.  
 
@@ -313,7 +310,9 @@ The area of the segment bounded by arc `CD` and diameter `CD` is equal to the ar
 
 The unshaded area in the original figure is, therefore, `(π - 2)` cm<sup>2</sup>.  
 
-Now the area of the circle is `(π)` cm<sup>2</sup> and hence the shaded area is `2` cm<sup>2</sup>.
+Now the area of the circle is `(π)` cm<sup>2</sup>.  
+
+Hence the shaded area is `2` cm<sup>2</sup>.
 :::
 
 

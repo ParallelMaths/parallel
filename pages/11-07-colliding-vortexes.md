@@ -96,16 +96,17 @@ __3.1__ When Dustin completed his experiment, he realised that his exploration w
 ![](/resources/11-07-colliding-vortexes/4-diagram.jpg){image align="right"}
 __4.1__ The diagram shows that `1 + 3 + 5 + 7 + 5 + 3 + 1 = 3^2 + 4^2`.  
 
-What is `1 + 3 + 5 + ... + 1999 + 2001 + 1999 + ... + 5 + 3 + 1`?
+What is `1 + 3 + 5 + `...` + 1999 + 2001 + 1999 + `...` + 5 + 3 + 1`?
 
 * [ ] `999^2 + 1000^2`
 * [x] `1000^2 + 1001^2`
 * [ ] `1999^2 + 2000^2`
 * [ ] `2000^2 + 2001^2`
 * [ ] none of these
+{.col-5}
 
 ^^^ hint id=4_1 marks=2
-The general form of the example given is `1 + 3 + 5 + ... + (2n – 1) + ... + 5 + 3 + 1 = (n – 1)^2 + n^2`.
+The general form of the example given is `1 + 3 + 5 + `...` + (2n – 1) + `...` + 5 + 3 + 1 = (n – 1)^2 + n^2`.
 ^^^
 
 ^^^ hint id=4_2 marks=2
@@ -114,9 +115,9 @@ The largest number in the sum in question is 2001, so we have `2n – 1 = 2001`,
 
 ---
 
-The general form of the example given is `1 + 3 + 5 + ... + (2n – 1) + ... + 5 + 3 + 1 = (n – 1)^2 + n^2`.  
+The general form of the example given is `1 + 3 + 5 + `...` + (2n – 1) + `...` + 5 + 3 + 1 = (n – 1)^2 + n^2`.  
 
-The largest number in the sum in question is 2001, so we have `2n – 1 = 2001`, so `n = 1001`, which gives `1 + 3 + 5 + ... + 1999 + 2001 + 1999 + ... + 5 + 3 + 1 = 1000^2 + 1001^2`.
+The largest number in the sum in question is 2001, so we have `2n – 1 = 2001`, so `n = 1001`, which gives `1 + 3 + 5 +` ... `+ 1999 + 2001 + 1999 +` ... `+ 5 + 3 + 1 = 1000^2 + 1001^2`.
 
 If the general form was not obvious to you, you could have tried `2 × 2` square or a `6 × 6` square to get some extra clues.
 :::
@@ -187,7 +188,7 @@ It now follows that * must be replaced by 15, since if 15 is placed in one of th
 
 
 ## 7.	Intermediate Maths Challenge Problem (UKMT)
-<!--- (2001) Q24 --->
+<!--- (2000) Q21 --->
 
 ::: problem id=7_1 marks=3
 ![](/resources/11-07-colliding-vortexes/7-wire.jpg){image align="right"}
