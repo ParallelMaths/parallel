@@ -20,7 +20,7 @@ const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 10, teachers: ['qw6ok'], students: 15},
   {name: 'Bulmershe School', year: 11, teachers: [' '], students: 13},
 
-  {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 1},
+  {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 21),
   {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 18},
   {name: 'Capital City Academy', year: 9, teachers: ['pfma1s'], students: 17},
 
@@ -29,8 +29,8 @@ const TTS_SCHOOLS = [
   {name: 'City Academy Hackney', year: 9, teachers: ['ysrvsk'], students: 20},
 
   {name: 'City of London Academy Highgate Hill', year: 7, teachers: [' '], students: 1},
-  {name: 'City of London Academy Highgate Hill', year: 8, teachers: [' '], students: 1},
-  {name: 'City of London Academy Highgate Hill', year: 9, teachers: [' '], students: 1},
+  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['kj8md7'], students: 27},
+  {name: 'City of London Academy Highgate Hill', year: 9, teachers: ['onwaes'], students: 26},
 
   {name: 'City of London Academy Shoreditch Park', year: 7, teachers: [' ', ' '], students: 1},
   {name: 'City of London Academy Shoreditch Park', year: 8, teachers: [' '], students: 24},
@@ -44,7 +44,7 @@ const TTS_SCHOOLS = [
 
   {name: 'Lister Community School', year: 7, teachers: ['hv6udc'], students: 18},
   {name: 'Lister Community School', year: 8, teachers: ['ag93qe'], students: 23},
-  {name: 'Lister Community School', year: 9, teachers: [' '], students: 23},
+  {name: 'Lister Community School', year: 9, teachers: ['2jiemd'], students: 23},
   {name: 'Lister Community School', year: 10, teachers: ['3to7uh'], students: 18},
   {name: 'Lister Community School', year: 11, teachers: ['nww75'], students: 21},
 

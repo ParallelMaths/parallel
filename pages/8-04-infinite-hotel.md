@@ -69,6 +69,8 @@ For the last two weeks, Parallelograms have included a brief look at mathematica
 
 This clip will be our last time of dipping our toes into chaos. It shows three dots moving around the screen (and plotting three curves in the process) according to the exact same formula. They start off in almost the same position – they are pretty much right on top of each other – so as they move they seem to follow a single path and leave the same trace. But, as you should remember, chaos describes things that start off in a similar way, but which end up behaving very differently. After you watch the clip, there are three questions to answer.
 
+@[youtube](FYE4JKAXSfY?&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
 ::: problem id=2_1 marks=1
 __2.1.__ The three dots are different colours – red, blue and green. When do the dots start to diverge (which means they have started to move apart)?
 
@@ -97,8 +99,6 @@ __2.3.__ Which of these statements best describes the settled motion of the thre
 * [x] The dots tend to orbit two separate fixed points.
 * [ ] The dots tend to orbit three separate fixed points.
 :::
-
-@[youtube](FYE4JKAXSfY?&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 3.	Junior Maths Challenge Problem (UKMT)

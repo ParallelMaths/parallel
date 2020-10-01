@@ -34,7 +34,7 @@ __1.1__ Leap years normally occur every four years. However, years at the turn o
 
 ---
 
-The numbers of multiples of 4 between 2001 and 3001 is 250. However the following years will not be leap years: 2100, 2200, 2300, 2500, 2600, 2700, 2900, 3000. This leaves 242 leap years.
+The number of multiples of 4 between 2001 and 3002 is 250. However the following years will not be leap years: 2100, 2200, 2300, 2500, 2600, 2700, 2900, 3000. This leaves 242 leap years.
 :::
 
 
@@ -46,7 +46,7 @@ Watch this interview with one of the greatest mathematicians of the twentieth ce
 
 John Conway described his Game of Life, in which cells in a grid change between dead/alive (empty/filled) according to a simple set of rules:  
 * Cells which are 'alive' die from over-population if they have more than 3 neighbours.  
-*	Cell which are ‘alive’ die from under-population if they have less than 3 neighbours.  
+*	Cells which are ‘alive’ die from under-population if they have less than 2 neighbours.  
 *	Otherwise, they survive.  
 *	Dead cells come to life if they have exactly 3 live neighbours.  
 
@@ -63,7 +63,7 @@ __2.1__ One simple configuration in the Game of Life seems to walk across the pl
 ::: problem id=2_2 marks=3
 __2.2__ What is the next generation of this configuration?   
 
-![](/resources/11-04-game-of-life/2-life-question.png){image align="center"}  
+![](/resources/11-04-game-of-life/2-2-life-question.png){image align="center"}  
 
 * [ ] ![](/resources/11-04-game-of-life/2-2-life-a.png)
 * [ ] ![](/resources/11-04-game-of-life/2-2-life-b.png)
@@ -96,11 +96,13 @@ Try each one of these configurations on this [Game of Life simulator](https://bi
 
 ![](/resources/11-04-game-of-life/2-3-life-e.png){image align="center"}  
 
+Note, various ‘dead’ squares on this configuration have exactly 3 neighbours, so must come to life next round.
+
 If you don’t believe me, try them out on this  [Game of Life simulator](https://bitstorm.org/gameoflife/){target="_blank"}.
 :::
 
 ::: problem id=2_4 marks=3
-__2.4__ 2.4	John Conway was also interested in what he called the ‘look-and-say’ sequence. What would be the next number in this sequence? (See if you can figure out the pattern yourself before you resort to google!)  
+__2.4__ John Conway was also interested in what he called the ‘look-and-say’ sequence. What would be the next number in this sequence? (See if you can figure out the pattern yourself before you resort to google!)  
 
 1, 11, 21, 1211, ...
 
@@ -109,7 +111,7 @@ __2.4__ 2.4	John Conway was also interested in what he called the ‘look-and-sa
 ^^^ hint id=2_4_1 marks=1
 One way to say the number 113221 is “Two ones, one three, two twos, and one one”.  
 
-How would you say the numbers above in this way?
+Try saying the numbers in the sequence in this way.
 ^^^
 
 ^^^ hint id=2_4_2 marks=1
@@ -119,6 +121,17 @@ Then 11 is two ones or 21.
 
 Do you get the idea?
 ^^^
+
+---
+
+The sequence is found by reading aloud the previous item in the sequence:
+
+* 1 = "One one"  
+* 11 = "Two ones"  
+* 21 = "One two, one one"  
+* 1211 = One one, one two, two ones"  
+
+So the next entry must be 111221.
 :::
 
 
@@ -140,7 +153,7 @@ We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a
 ^^^
 
 ^^^ hint id=3_2 marks=1
-`3^4 × 4^5 × 5^6 = 3×4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6`
+`3^4 × 4^5 × 5^6 = 3^4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6`
 ^^^
 
 ^^^ hint id=3_3 marks=1
@@ -149,9 +162,11 @@ We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a
 
 ---
 
-We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a multiple of `3^4 × 4^5 × 5^6 = 3×4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6 = 3^4 × 2^4 × 10^6`.  
+We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a multiple of 10.  
 
-Hence the number ends in six zeroes.
+`3^4 × 4^5 × 5^6 = 3×4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6 = 3^4 × 2^4 × 10^6`.  
+
+Hence the number ends in six zeros.
 :::
 
 
@@ -162,7 +177,7 @@ Have you ever realised that 40% of 80 is the same as 80% of 40? You can see this
 Imagine that someone asks you to work out 8% of 25. That looks horrible, but it is the same as 25% of 8, which is much easier to calculate.
 
 ::: problem id=4_1 marks=4
-__4.1__ 4.1	What is 2.468% of 50?
+__4.1__ What is 2.468% of 50?
 
 <input solution="1.234"/>
 
@@ -176,14 +191,16 @@ __4.1__ 4.1	What is 2.468% of 50?
 <!--- (2010) Q23 --->
 
 ::: problem id=5_1 marks=5
-__5.1__ `ABCDEFGHI` is a regular nine-sided polygon (called a 'nonagon' or 'enneagon'). What is the size of angle `FAE`?
+![](/resources/11-04-game-of-life/5-nonagon.jpg){image align="right"}  
+__5.1__ `ABCDEFGHI` is a regular nine-sided polygon (called a 'nonagon' or 'enneagon').  
+
+What is the size of angle `FAE`?
 
 * [ ] 10°
 * [x] 20°
 * [ ] 30°
 * [ ] 40°
 * [ ] 50°
-{.col-5}
 
 ^^^ hint id=5_1 marks=1
 The interior angle of a regular nine-sided polygon `= 180° - (360° ÷ 9)`
