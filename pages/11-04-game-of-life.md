@@ -164,7 +164,7 @@ We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a
 
 We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a multiple of 10.  
 
-`3^4 × 4^5 × 5^6 = 3×4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6 = 3^4 × 2^4 × 10^6`.  
+`3^4 × 4^5 × 5^6 = 3^4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6 = 3^4 × 2^4 × 10^6`.  
 
 Hence the number ends in six zeros.
 :::
