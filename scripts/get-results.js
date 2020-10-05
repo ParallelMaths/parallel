@@ -8,7 +8,7 @@ const yaml = require('yamljs');
 // Edit below.
 // Set the time string to '' to stop filtering by submission time.
 
-const START_TIME = '2020-08-31T09:00:00';
+const START_TIME = '';
 const END_TIME = '';
 
 // -----------------------------------------------------------------------------
@@ -85,15 +85,20 @@ async function run() {
   const titles = ['name', 'email', 'school', ...pages.map(p => p.url), 'total'];
   const data = [];
   for (let u of Object.keys(users)) {
-    if (!users[u].answers || users[u].answers.archive || users[u].code) continue;
+    const user = users[u];
+    if (!user.answers || user.code) continue;
 
-    const a = pages.map(p => ((users[u].answers[p.url] || {}).score || 0));
-    const sum = a.reduce((a, b) => a + b, 0);
-    if (sum>0) data.push([
+    const answers = pages.map(p => {
+      const a = user.answers[p.url];
+      return (!a || a.archive) ? '' : (a.score || '');
+    });
+
+    const sum = answers.reduce((a, b) => (a || 0) + (b || 0), 0);
+    if (sum > 0) data.push([
       `"${users[u].first} ${users[u].last}"`,
       emailMap[u],
       `"${users[u].schoolName || ''}"`,
-      ...a, sum
+      ...answers, sum
     ]);
   }
 
