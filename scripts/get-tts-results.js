@@ -28,7 +28,7 @@ const TTS_SCHOOLS = [
   {name: 'City Academy Hackney', year: 8, teachers: ['o4xlq9'], students: 20},
   {name: 'City Academy Hackney', year: 9, teachers: ['ysrvsk'], students: 20},
 
-  {name: 'City of London Academy Highgate Hill', year: 7, teachers: [' '], students: 0},
+  {name: 'City of London Academy Highgate Hill', year: 7, teachers: [' '], students: 1},
   {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['kj8md7'], students: 27},
   {name: 'City of London Academy Highgate Hill', year: 9, teachers: ['onwaes'], students: 26},
 
@@ -37,7 +37,7 @@ const TTS_SCHOOLS = [
   {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['cd616b'], students: 27},
   {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['agv1u','avg1u'], students: 18},
 
-  {name: 'Cullompton Community College', year: 7, teachers: ['9knp4'], students: 0},
+  {name: 'Cullompton Community College', year: 7, teachers: ['9knp4'], students: 1},
   {name: 'Cullompton Community College', year: 8, teachers: ['9knp4'], students: 16},
   {name: 'Cullompton Community College', year: 9, teachers: ['9knp4'], students: 16},
   {name: 'Cullompton Community College', year: 10, teachers: ['9knp4'], students: 15},

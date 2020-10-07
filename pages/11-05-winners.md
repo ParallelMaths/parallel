@@ -47,8 +47,8 @@ Watch this video from the BBC about why you might not always want to emulate suc
 ::: problem id=2_1 marks=1
 __2.1__ To protect aeroplanes from being shot down, which of these should you do?
 
-* [ ] Reinforce the areas where the returning planes which were hit the most.  
-* [x] Reinforce the areas where the returning planes which were hit the least.  
+* [ ] Reinforce the areas where the returning planes were hit the most.  
+* [x] Reinforce the areas where the returning planes were hit the least.  
 :::
 
 ::: problem id=2_2 marks=3
@@ -58,27 +58,27 @@ __2.2__ 160 people finished a marathon. 120 of them drank an energy drink along 
 
 ^^^ hint id=2_2_1 marks=1
 |                       | Finished the marathon | Didn’t finish | TOTAL   |
-| Drank an energy drink | 120                   | X             | 120 + x |
+| Drank an energy drink | 120                   | x             | 120 + x |
 | Didn’t drink one      | 40                    | 40 - x        | 80 - x  |
-| TOTAL                 | 160                   | 40            | 250     |
+| TOTAL                 | 160                   | 40            | 200     |
 {.grid}
 ^^^
 
-^^^ hint id=2_2_2 marks=2
-The probability that you finish, given that you had an energy drink is equal to the probability that you finish, given that you don’t have an energy drink, ie `120/(120 + x) = 40/(80 - x)`.
+^^^ hint id=2_2_2 marks=1
+The probability that you finish, given that you have an energy drink is equal to the probability that you finish, given that you don’t have an energy drink, ie `120/(120 + x) = 40/(80 - x)`.
 ^^^
 
 ---
 
 |                       | Finished the marathon | Didn’t finish | TOTAL   |
-| Drank an energy drink | 120                   | X             | 120 + x |
+| Drank an energy drink | 120                   | x             | 120 + x |
 | Didn’t drink one      | 40                    | 40 - x        | 80 - x  |
-| TOTAL                 | 160                   | 40            | 250     |
+| TOTAL                 | 160                   | 40            | 200     |
 {.grid}
 
-The probability that you finish, given that you had an energy drink is equal to the probability that you finish, given that you don’t have an energy drink, ie `120/(120 + x) = 40/(80 - x)`.
+The probability that you finish, given that you have an energy drink is equal to the probability that you finish, given that you don’t have an energy drink, ie `120/(120 + x) = 40/(80 - x)`.
 
-This solves to give `x = 30`, which means that total number of people who drank an energy drink is 150.
+Solving this gives `x = 30`, which means that total number of people who drank an energy drink is 150.
 :::
 
 
@@ -86,7 +86,7 @@ This solves to give `x = 30`, which means that total number of people who drank 
 <!--- (2000) Q19 --->
 
 ::: problem id=3_1 marks=5
-__3.1__ The product of Mary's age in years on her last birthday and her age now in complete months is 1800. How old was Mary on her last birthday?
+__3.1__ The product of Mary's age in years on her last birthday and her age now in complete months is 1,800. How old was Mary on her last birthday?
 
 * [ ] 9
 * [ ] 10
@@ -96,16 +96,16 @@ __3.1__ The product of Mary's age in years on her last birthday and her age now 
 {.col-5}
 
 ^^^ hint id=3_1 marks=1
-We need to express 1,800 as the product of two factors, one of which (her age in complete months) is between 12 and 13 times the other (her age in complete years).
+We need to express 1,800 as the product of two factors, one of which (her age in complete months) is between 12 and 23 times the other (her age in complete years).
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_2 marks=2
 These are 150 and 12 respectively.
 ^^^
 
 ---
 
-We need to express 1800 as the product of two factors, one of which (her age in months) is between twelve and thirteen times the other (her age in complete years). These are 150 and 12 respectively. Mary is 150 months old, ie she was twelve on her last birthday and she is now 12 years 6 months old.
+We need to express 1800 as the product of two factors, one of which (her age in months) is between 12 and 23 times the other (her age in complete years). These are 150 and 12 respectively. Mary is 150 months old, ie she was twelve on her last birthday and she is now 12 years and 6 months old.
 :::
 
 
@@ -113,7 +113,7 @@ We need to express 1800 as the product of two factors, one of which (her age in 
 <!--- (2000) Q20 --->
 
 ::: problem id=4_1 marks=5
-__4.1__ The population of five cities A, B, C, D, E in 1988 and 1998 are shown on these scales:
+__4.1__ The populations of five cities A, B, C, D, E in 1988 and 1998 are shown on these scales:
 
 ![](/resources/11-05-winners/4-scales.jpg){image align="center"}
 
@@ -138,16 +138,16 @@ Here’s a nice party trick you can learn with some hidden mathematics. Watch th
 
 @[youtube](dUXW3Kh_kxo?start=30&end=596&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-In the game, each player picks number from 1 to 10 to add to a shared total. The winner is the player who makes the total up to 100. You may want to practice this game with a friend to be sure you can always win.
+In the game, each player picks numbers from 1 to 10 to add to a shared total. The winner is the player who makes the total up to 100. You may want to practice this game with a friend to be sure you can always win.
 
 ::: problem id=5_1 marks=2
-__5.1__ Let’s suppose you’re playing with a friend and its your go. The total is currently 47. What number should you pick?
+__5.1__ Let’s suppose you’re playing with a friend and it's your go. The total is currently 47. What number should you pick?
 
 <input solution="9"/>
 :::
 
 ::: problem id=5_2 marks=1
-__5.2__ 2 What is the 3-letter name of the game from ancient times which these games are based on?
+__5.2__ What is the 3-letter name of the game from ancient times which these games are based on?
 
 <input solution="Nim"/>
 :::
