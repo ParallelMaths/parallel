@@ -49,10 +49,10 @@ const TTS_SCHOOLS = [
   {name: 'Lister Community School', year: 11, teachers: ['nww75'], students: 21},
 
   {name: 'Plashet School', year: 7, teachers: [' '], students: 1},
-  {name: 'Plashet School', year: 8, teachers: [' '], students: 1},
-  {name: 'Plashet School', year: 9, teachers: [' '], students: 1},
-  {name: 'Plashet School', year: 10, teachers: [' '], students: 1},
-  {name: 'Plashet School', year: 11, teachers: [' '], students: 1},
+  {name: 'Plashet School', year: 8, teachers: ['15hjxf'], students: 25},
+  {name: 'Plashet School', year: 9, teachers: ['9mhdd'], students: 23},
+  {name: 'Plashet School', year: 10, teachers: ['2c7db'], students: 20},
+  {name: 'Plashet School', year: 11, teachers: ['t1bmm'], students: 17},
 ];
 
 // -----------------------------------------------------------------------------

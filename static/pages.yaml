@@ -117,12 +117,12 @@ year7:
     deadline: 2020-11-08T15:00:00
   - url: 7-07-build-your-own-plane
     title: Build your own plane
-    available: 2020-10-15T13:00:00
-    deadline: 2020-10-18T15:00:00
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T15:00:00
   - url: 7-06-exoplanets
     title: Exoplanets
-    available: 2020-10-22T13:00:00
-    deadline: 2020-10-25T13:00:00
+    available: 2020-10-15T13:00:00
+    deadline: 2020-10-18T13:00:00
   - url: 7-05-supernovae
     title: Supernovae
     available: 2020-10-08T13:00:00
@@ -263,12 +263,12 @@ year8:
     deadline: 2020-11-08T15:00:00
   - url: 8-07-worlds-greatest-thief
     title: The world’s greatest thief
-    available: 2020-10-29T13:00:00
-    deadline: 2020-11-01T15:00:00
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T15:00:00
   - url: 8-06-black-holes
     title: Black Holes
-    available: 2020-10-22T13:00:00
-    deadline: 2020-10-25T13:00:00
+    available: 2020-10-15T13:00:00
+    deadline: 2020-10-18T13:00:00
   - url: 8-05-rocket-maths
     title: Rocket maths
     available: 2020-10-08T13:00:00
@@ -409,12 +409,12 @@ year9:
     deadline: 2020-11-08T15:00:00
   - url: 9-07-queen-of-katwe
     title: Queen of Katwe
-    available: 2020-10-29T13:00:00
-    deadline: 2020-11-01T15:00:00
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T15:00:00
   - url: 9-06-x-y
     title: X + Y
-    available: 2020-10-22T13:00:00
-    deadline: 2020-10-25T13:00:00
+    available: 2020-10-15T13:00:00
+    deadline: 2020-10-18T13:00:00
   - url: 9-05-breakfast-curiosity-part2
     title: Breakfast curiosity – Part 2
     available: 2020-10-08T13:00:00
@@ -554,12 +554,12 @@ year10:
     deadline: 2020-11-08T15:00:00
   - url: 10-07-heroic-hidden-figures
     title: Heroic Hidden Figures
-    available: 2020-10-29T13:00:00
-    deadline: 2020-11-01T15:00:00
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T15:00:00
   - url: 10-06-skyscrapers
     title: Skyscrapers
-    available: 2020-10-22T13:00:00
-    deadline: 2020-10-25T13:00:00
+    available: 2020-10-15T13:00:00
+    deadline: 2020-10-18T13:00:00
   - url: 10-05-philosophy-mathematics
     title: The Philosophy of Mathematics
     available: 2020-10-08T13:00:00
@@ -700,12 +700,12 @@ year11:
     deadline: 2020-11-08T15:00:00
   - url: 11-07-colliding-vortexes
     title: Colliding Vortexes
-    available: 2020-10-29T13:00:00
-    deadline: 2020-11-01T15:00:00
+    available: 2020-10-22T13:00:00
+    deadline: 2020-10-25T15:00:00
   - url: 11-06-surprising-values
     title: Surprising Values
-    available: 2020-10-22T13:00:00
-    deadline: 2020-10-25T13:00:00
+    available: 2020-10-15T13:00:00
+    deadline: 2020-10-18T13:00:00
   - url: 11-05-winners
     title: Winners
     available: 2020-10-08T13:00:00

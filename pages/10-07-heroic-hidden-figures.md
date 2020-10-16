@@ -14,11 +14,11 @@ These challenges are a random walk through the mysteries of mathematics, most of
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
-*	Finish by Sunday 27 Oct if your whole class is doing parallelograms.  
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.  
 
-As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time on 31st October__, and it will be appropriately terrifying.
+As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time__.
 
 
 ## 1. Heroic Hidden Figures

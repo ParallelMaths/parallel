@@ -11,11 +11,11 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	Finish by Sunday 27 Oct if your whole class is doing parallelograms.  
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time on 31st October__, and it will be appropriately terrifying.
+As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time__.
 
 
 ## 1. Just a few seconds

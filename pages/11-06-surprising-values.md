@@ -48,7 +48,7 @@ __1.2__ What is the value of -1!?
 :::
 
 ::: problem id=1_2 marks=2
-__1.3__	How many ways are there two arrange 5 objects in a line?
+__1.3__	How many ways are there to arrange 5 objects in a line?
 
 <input solution="120"/>
 :::
@@ -91,7 +91,7 @@ Do you know what 0.9 recurring equals? If so, do you know why? Watch this video 
 @[youtube](x-fUDqXlmHM?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=2
-__3.1__ What is the value of 1.999999...?
+__3.1__ If you choose to believe it has a value, what is the value of 1.999999...?
 
 <input solution="2"/>
 :::
@@ -126,7 +126,7 @@ Solve to find the value of `S`.
 <!--- (2001) Q16 --->
 
 ::: problem id=4_1 marks=4
-__4.1__ The Pythagorus Patisserie sells triangular cakes at 39p each and square buns at 23p each. For her party, Helen spent exactly £5.12 on an assortment of these cakes and buns. How many items in total did she buy?
+__4.1__ The Pythagoras Patisserie sells triangular cakes at 39p each and square buns at 23p each. For her party, Helen spent exactly £5.12 on an assortment of these cakes and buns. How many items in total did she buy?
 
 * [ ] 15
 * [x] 16
@@ -136,16 +136,22 @@ __4.1__ The Pythagorus Patisserie sells triangular cakes at 39p each and square 
 {.col-5}
 
 ^^^ hint id=4_1 marks=1
-One cake and one bun cost a total of 62p. Note that 512 ÷ 62 = 8 remainder 16, that is 512 = 8 (39+23) + 16. Also note that 16 = 39 – 23.
+One cake and one bun cost a total of 62p.  
+
+Note that `512 ÷ 62 = 8` remainder 16, that is `512 = 8 (39 + 23) + 16`.  
+
+Also note that `16 = 39 – 23`.
 ^^^
 
-^^^ hint id=4_2 marks=1
-512 = 8 (39 + 23) + 39 – 23. How many 39s and how many 23s is that?
+^^^ hint id=4_2 marks=2
+`512 = 8 (39 + 23) + 39 – 23`. How many 39s and how many 23s is that?
 ^^^
 
 ---
 
-One cake and one bun cost a total of 62p. Note that 512 ÷ 62 = 8 remainder 16 and note also that 16 = 39 - 23. Hence 512 = 8(39 + 23) + 16 = 8 (39 + 23) + 39 - 23 = 9 × 39 + 7 × 23.  
+One cake and one bun cost a total of 62p. Note that 512 ÷ 62 = 8 remainder 16 and note also that 16 = 39 - 23.  
+
+Hence` 512 = 8 (39 + 23) + 16 = 8 (39 + 23) + 39 - 23 = 9 × 39 + 7 × 23`.  
 
 As 39 and 23 do not have a common factor, other than 1, Helen must have bought 9 cakes and 7 buns.
 :::
@@ -169,8 +175,10 @@ What is the total length of the edges of the resulting solid?
 * [ ] more information needed
 {.col-5}
 
-^^^ hint id=5_1 marks=1
-For the triangular faces of the resulting solid to be equilateral, it is necessary for each of the solids removed at the corners to be a regular tetrahedron. Removing a regular tetrahedron at a corner in this manner does not change the total length of the edges of the solid as the perimeter of the equilateral triangle created is equal to the sum of the other three edges of the removed tetrahedron.  
+^^^ hint id=5_1 marks=2
+For the triangular faces of the resulting solid to be equilateral, it is necessary for each of the solids removed at the corners to be a regular tetrahedron.  
+
+Removing a regular tetrahedron at a corner means that the perimeter of the equilateral triangle created is equal to the sum of the other three edges of the removed tetrahedron.  
 ^^^
 
 ---
