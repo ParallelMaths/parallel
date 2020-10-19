@@ -36,7 +36,7 @@ __1.1__ A tourist attraction which opens every day needs 30,000 visitors per day
 
 ---
 
-Over a two-week period, the required number of visitors is 14 × 30,000 = 420,000. Hence the number required this week is 420,000 = 120,000 = 300,000.
+Over a two-week period, the required number of visitors is 14 × 30,000 = 420,000. Hence the number required this week is 420,000 - 120,000 = 300,000.
 :::
 
 
@@ -54,12 +54,12 @@ __2.1__ Which of the following is the best estimate for the number of seconds in
 {.col-5}
 
 ^^^ hint id=2_1 marks=2
-There are 60 × 60 × 24 × 365 in a non-leap year. This is roughly equal to 60 × 60 × 20 × 400.
+There are 60 × 60 × 24 × 365 seconds in a non-leap year. This is roughly equal to 60 × 60 × 20 × 400.
 ^^^
 
 ---
 
-There are 60 × 60 × 24 × 365 in a non-leap year.  
+There are 60 × 60 × 24 × 365 seconds in a non-leap year.  
 
 This is roughly equal to `60 × 60 × 20 × 400`.  
 
@@ -78,10 +78,10 @@ By the way, a vortex is a mass of gas or liquid with a whirling or circular moti
 @[youtube](EVbdbVhzcM4?rel=0&end=422) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=3
-__3.1__ When Dustin completed his experiment, he realised that his exploration was not about fluid dynamics, but rather about…
+__3.1__ When Destin completed his experiment, he realised that his exploration was not about fluid dynamics, but rather about…
 
 * [ ] Mechanics and dynamics
-* [ ] Cacuums and pressure
+* [ ] Vacuums and pressure
 * [x] Persistence and patience
 * [ ] Accuracy and detail
 * [ ] Tom and Jerry
@@ -94,7 +94,7 @@ __3.1__ When Dustin completed his experiment, he realised that his exploration w
 
 ::: problem id=4_1 marks=4
 ![](/resources/11-07-colliding-vortexes/4-diagram.jpg){image align="right"}
-__4.1__ The diagram shows that `1 + 3 + 5 + 7 + 5 + 3 + 1 = 3^2 + 4^2`.  
+__4.1__ The diagram on the right shows that `1 + 3 + 5 + 7 + 5 + 3 + 1 = 3^2 + 4^2`.  
 
 What is `1 + 3 + 5 + `...` + 1999 + 2001 + 1999 + `...` + 5 + 3 + 1`?
 
@@ -119,7 +119,7 @@ The general form of the example given is `1 + 3 + 5 + `...` + (2n – 1) + `...`
 
 The largest number in the sum in question is 2001, so we have `2n – 1 = 2001`, so `n = 1001`, which gives `1 + 3 + 5 +` ... `+ 1999 + 2001 + 1999 +` ... `+ 5 + 3 + 1 = 1000^2 + 1001^2`.
 
-If the general form was not obvious to you, you could have tried `2 × 2` square or a `6 × 6` square to get some extra clues.
+If the general form was not obvious to you, you could have tried a `2 × 2` square or a `6 × 6` square to get some extra clues.
 :::
 
 
@@ -184,7 +184,6 @@ The number in the bottom right-hand corner must be one of 1, 2, 8, 15 or 16. Tak
 
 It now follows that * must be replaced by 15, since if 15 is placed in one of the other three vacant squares, we get a total of 45 (second column, too big), 34 (third column, same as diagonal) or 47 (third row, too big).
 :::
-:::
 
 
 ## 7.	Intermediate Maths Challenge Problem (UKMT)
@@ -194,7 +193,7 @@ It now follows that * must be replaced by 15, since if 15 is placed in one of th
 ![](/resources/11-07-colliding-vortexes/7-wire.jpg){image align="right"}
 __7.1__ A wire in the shape of an equilateral triangle with sides of length 9 cm is placed on a flat piece of paper.  
 
-A pencil is held in the hole at the centre of a disc of radius 1cm, and the disc is rolled all the way around the outisde of the wire, and then all the way around the inside of the wire.  
+A pencil is held in the hole at the centre of a disc of radius 1cm, and the disc is rolled all the way around the outside of the wire, and then all the way around the inside of the wire.  
 
 What shape is drawn by the pencil?
 
@@ -231,12 +230,12 @@ __8.2__ Follow the same procedure in the video, starting with the number 464. Th
 <input solution="000"/>
 :::
 
-Once you have convinced yourself when it will and will not work, you may want to try to prove that it works algebraically. Watch this video of James Grime showing explaining why it works, and make sure you pause and check his algebra at each stage.
+Once you have convinced yourself when it will and will not work, you may want to try to prove that it works algebraically. Watch this video of James Grime explaining why it works, and make sure you pause and check his algebra at each stage.
 
 @[youtube](ee0xnIywEqk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
-There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on October 31st.
+There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

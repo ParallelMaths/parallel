@@ -146,7 +146,7 @@ Therefore the side-length of each square is 7 cm.
 
 This is an amazing video. Take a look.
 
-@[youtube](RCnHnXB0eOw&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](AuCAhbpsieI?start=1&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 It shows that two objects moving at the same speed and in the same direction behave towards each other as if nothing is moving. If the camera only showed the trampoline and the bouncing man, then you would have no idea that anything was moving.  
 
@@ -203,7 +203,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 31st October.
+*	There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

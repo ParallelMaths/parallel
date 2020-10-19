@@ -30,7 +30,7 @@ __Hidden Figures__ tells the incredible story of Katherine Jonson, Dorothy Vaugh
 @[youtube](RK8xHq6dfAo?end=183&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
-__1.1.__ When Mary Jackson complains about the car being a pile of junk, Katherine Johnson says that she is welcome to ride in the bus... in particular, the back of the bus. She is probably referring the fact that it had been the rule in some parts of America for black men and women to sit at the back of segregated buses. It was one woman in particular who fought this injustice by refusing to give up her seat to a white passenger in Montgomery (Alabama) on 1 December 1955.  
+__1.1.__ When Mary Jackson complains about the car being a pile of junk, Katherine Johnson says that she is welcome to ride in the bus... in particular, the back of the bus. She is probably referring to the fact that it had been the rule in some parts of America for black men and women to sit at the back of segregated buses. It was one woman in particular who fought this injustice by refusing to give up her seat to a white passenger in Montgomery (Alabama) on 1 December 1955.  
 
 In her autobiography, she explained why she refused to give up her seat: “People always say that I didn't give up my seat because I was tired, but that isn't true. I was not tired physically, or no more tired than I usually was at the end of a working day. I was not old, although some people have an image of me as being old then. I was forty-two. No, the only tired I was, was tired of giving in.”  
 
@@ -280,7 +280,7 @@ Therefore Anna has 5 brothers and 5 sisters. So, including Anna, there are 5 + 5
 :::
 
 
-There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on October 31st.
+There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

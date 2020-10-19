@@ -277,7 +277,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 31st October.
+*	There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

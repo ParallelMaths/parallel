@@ -47,7 +47,7 @@ __1.2__ What is the value of -1!?
 {.col-5}
 :::
 
-::: problem id=1_2 marks=2
+::: problem id=1_3 marks=2
 __1.3__	How many ways are there to arrange 5 objects in a line?
 
 <input solution="120"/>

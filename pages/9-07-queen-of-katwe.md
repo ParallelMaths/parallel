@@ -117,7 +117,7 @@ It is an incredible and inspiring true story, and Disney turned it into a film. 
 
 @[youtube](z4l3-_yub5A?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess and can teach you, or your teacher might hold a chess lesson after school. Or you could try https://www.chesskid.com/, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
+I think chess is a great way to learn a whole range of skills (from concentration to logic) that will help you when you study mathematics, so in two weeks there will be five questions based on chess. If you can play already, then you will have a head start. If you can’t play, then I would encourage you to spend some time learning chess over the next two weeks. Perhaps someone in your family can play chess and can teach you, or your teacher might hold a chess lesson after school. Or you could try [https://www.chesskid.com/](https://www.chesskid.com/){target="_blank"}, which is free to use and offers some great interactive lessons. In the meantime, here is a quick chess question based on the trailer that you have just watched.
 
 ::: problem id=2_1 marks=3
 __2.1.__ In the trailer, at the charity mission, a little girl tells Phiona: “In chess, the small one can become the big one.” The same is true in mathematics (and, of course, in life) but the girl is actually talking about one piece in chess that can be turned into a more powerful piece if it is able to cross the board.  
@@ -238,7 +238,7 @@ As I said, this is not a full explanation, so see if you can fill in the gaps.
 
 ## 5.	Wason test & burning witches
 
-Thake a look at this clip from the film “Monty Python and the Holy Grail”, and admire the twisted logic.
+Take a look at this clip from the film “Monty Python and the Holy Grail”, and admire the twisted logic.
 
 @[youtube](H9PY_3E3h2c?start=53&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -281,7 +281,7 @@ The rule was "If the card shows an even number on one face, then its opposite fa
 ::: problem id=5_2 marks=2
 __5.2.__ Here is another version of the Wason test.  
 
-The rule is this: “If you are drinking alcohol, then you must aged over 18.”  
+The rule is this: “If you are drinking alcohol, then you must be aged over 18.”  
 
 You see four people drinking at a bar, and each has a card gives their age on one side and their drink on the other side. You can see the following:
 
@@ -309,7 +309,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	It’s half-term, so the next Parallelogram is at 3pm on Thursday, 31st October.
+*	There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
