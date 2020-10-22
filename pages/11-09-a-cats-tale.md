@@ -72,11 +72,7 @@ __1.4__	Try out Rachel’s second trick with the number 65, and compare it to a 
 
 What answer did you get?
 
-<input solution="120"/>
-
----
-
-xxxx
+<input solution="715"/>
 :::
 
 ::: problem id=1_5 marks=3
@@ -93,7 +89,15 @@ What is your value for `a`?
 
 ---
 
-xxxx
+Expanding, we have `(10x + 5)^2 = 100x^2 + 100x + 25`.  
+
+Factorising `100x^2 + 100x`, we have `100x(x + 1)`.  
+
+So, `(10x + 5)^2 = 100x(x + 1) + 25` and thus `a = 1`.  
+
+This means we have `x` multiplied by `x + 1`, then multiplied by 100. This is why Rachel added one to the first digit, and multiplied. Multiplying by 100 is equivalent to putting the answer to this in the hundreds column.  
+
+Adding 25 completes Rachel’s method where she finishes by writing 25 on the end of her number.
 :::
 
 

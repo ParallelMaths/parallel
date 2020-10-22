@@ -25,8 +25,6 @@ Did you know that throughout history, and even to this day, some numbers are ban
 
 @[youtube](VmWVXOIQblM?end=266&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-Traditional ways of multiplying two-digit numbers require you to multiply every digit in one number by every digit in the other, whilst preserving place value. E.g. for 54 × 11, we calculate 50 × 1, 50 × 10, 4 × 1 and 4 × 10, and add up our answers.
-
 ::: problem id=1_1 marks=2
 __1.1__ According to the video, why have numbers been banned historically?
 
