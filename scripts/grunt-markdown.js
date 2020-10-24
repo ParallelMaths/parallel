@@ -99,6 +99,9 @@ function parseProblemList($list, $problem) {
     }
   }
 
+  // Show an additional bullet if students haven't answered this question at all.
+  $list.innerHTML += `<li v-show="c.submitted && !c.answers.${$problem.id}"><div class="choice active">(Not answered)</div></li>`;
+
   $problem.setAttribute('data-solution', btoa(solution.join(',')));
 }
 
