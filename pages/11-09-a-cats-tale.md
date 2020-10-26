@@ -19,7 +19,7 @@ These challenges are a random walk through the mysteries of mathematics, most of
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
-## 1.	Multiplication trick × 2.
+## 1.	Multiplication tricks
 
 Watch this video, in which Countdown’s Rachel Riley offers a tip for multiplying a two digit number by 11.
 
@@ -63,7 +63,7 @@ Which of the following is true?
 The two digits of Tom’s original number might sum to 5, but the two digits could also have added up to 15 instead, and caused a carry into the hundreds column. E.g. 69 × 11 = 759.
 :::
 
-Here’s another of Rachel Riley’s multiplication tricks. This time for squaring a two digit number ending in 5.
+Here’s another of Rachel Riley’s multiplication tricks. This time for squaring a two-digit number ending in 5.
 
 @[youtube](z56uNCwJbK4?start=67&end=90&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
