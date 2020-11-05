@@ -81,7 +81,7 @@ Only an X directly next to an `X^(-1)` cancels. `XYX^(-1)Y^(-1)` would not cance
 :::
 
 ::: problem id=3_3 marks=4
-__3.3__ What does the link `XX^(-1)YXY(^-1)YY(^-1)Y(^-1)Y` reduce to?
+__3.3__ What does the link `XX^(-1)YXY^(-1)YY^(-1)Y^(-1)Y` reduce to?
 
 * [ ] Nothing, because everything cancels out.
 * [ ] `Y`

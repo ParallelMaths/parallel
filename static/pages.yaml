@@ -587,10 +587,10 @@ year11:
 #    available: 2020-12-10T13:00:00
 #    deadline: 2020-12-13T13:00:00
 #    scoreFactor: 4
-#  - url:
-#    title:
-#    available: 2020-12-03T13:00:00
-#    deadline: 2020-12-06T13:00:00
+  - url: 11-12-gravity
+    title: Gravity
+    available: 2020-12-03T13:00:00
+    deadline: 2020-12-06T13:00:00
   - url: 11-11-fractals
     title: Fractals
     available: 2020-11-26T13:00:00

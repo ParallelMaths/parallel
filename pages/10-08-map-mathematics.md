@@ -197,7 +197,7 @@ and hence that
 The number `x` is positive as it is the radius, in centimetres, of the dashed circle. It follows that `x = 10`. Hence the radius of the dashed circle is 10 cm.
 :::
 
-If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://www.youtube.com/watch?v=OmJ-4B-mS-Y){target="_blank"} after you hit the SBUMIT button.
+If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://dominicwalliman.com/post/157283769280/poster-summarising-the-main-subjects-of){target="_blank"} after you hit the SBUMIT button.
 
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
