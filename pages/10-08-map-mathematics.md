@@ -138,7 +138,7 @@ It follows from this that, of the given numbers, there is just one which is divi
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q17 --->
 
-::: problem id=4_1 marks=4
+::: problem id=5_1 marks=4
 ![](/resources/10-08-map-mathematics/5-circle.jpg){image align="right"}
 __5.1__ The shaded region in the diagram, bounded by two concentric circles, is called an _annulus_. The circles have radii 2cm and 14cm.  
 
