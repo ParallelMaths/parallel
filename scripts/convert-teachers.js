@@ -5,7 +5,7 @@ const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
   "amy.fu@wis.edu.hk",
-  "hgill@hsog.co.uk"
+  "jwright2@pps.net"
 ];
 
 fb.initializeApp({

@@ -654,10 +654,11 @@ But, before that, a few important points.
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You might earn a new badge...  
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+*	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+* This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
 
 Cheerio,
 Simon.
