@@ -28,7 +28,7 @@ Watch this mysterious video by science communicator George Zaidan, with animatio
 ::: problem id=1_1 marks=1
 __1.1__ The Sierpinski Triangle (or Sierpinski Gasket) is the name for the first fractal mentioned by Manny Brot in the video.  
 
-It is made from removing a central triangle from a larger one, and then repeating for the three smaller triangles which are made in the process.  
+It is made by removing a central triangle from a larger one, and then repeating for the three smaller triangles which are made in the process.  
 
 As you repeat this process indefinitely, what is the area of the shape which is left?
 
@@ -56,6 +56,14 @@ Manny Brot mentioned in the video that each time you remove another set of trian
 ^^^ hint id=1_2_1 marks=1
 If three quarters is left each time, then we want three quarters of three quarters of three quarters, since the process has been repeated three times.
 ^^^
+
+---
+
+Manny Brot mentioned in the video that each time you remove another set of triangles, a quarter of the area is removed. Therefore, three quarters is left each time.
+
+If three quarters is left each time, then we want three quarters of three quarters of three quarters, since the process has been repeated three times.  
+
+So the area is `(3 × 3 × 3)/(4 × 4 × 4) = 27/64` units
 :::
 
 ::: problem id=1_3 marks=3
@@ -70,6 +78,12 @@ If the first stage has perimeter 81 units (pictured below left), what is the per
 ^^^ hint id=1_3 marks=1
 Manny Brot mentioned that ‘pinching’ the sides each time increased the area by a third. This is the same as multiplying the area by `4/3`.
 ^^^
+
+---
+
+Manny Brot mentioned that ‘pinching’ the sides each time increased the area by a third. This is the same as multiplying the area by `4/3`.  
+
+In the third stage, the sides have been pinched in twice, so the perimeter is `4/3` of `4/3` of 81. So that is `(81 × 4 × 4)/(3 × 3) = 144` units.
 :::
 
 
@@ -78,13 +92,13 @@ Manny Brot mentioned that ‘pinching’ the sides each time increased the area 
 
 ::: problem id=2_1 marks=3
 ![](/resources/11-11-fractals/2-diagram.jpg){image align="right"}
-__2.1__ In the diagram the lines `PQ` and `SR` are parallel, as are the lines `PS` and `QT`. What is the value of `x`?
+__2.1__ In the diagram the lines `PQ` and `SR` are parallel, as are the lines `PS` and `QT`. What is the size of angle `x`?
 
-* [ ] 139
-* [ ] 138
-* [x] 124
-* [ ] 98
-* [ ] 97
+* [ ] 139°
+* [ ] 138°
+* [x] 124°
+* [ ] 98°
+* [ ] 97°
 
 ---
 
@@ -146,7 +160,7 @@ __4.1__ How many of the following numbers are greater than 10?
 - `6 sqrt(3) = sqrt(36) × sqrt(3) = sqrt(36 × 3) = sqrt(108)`;  
 - `7 sqrt(2) = sqrt(49) × sqrt(2) = sqrt(49 × 2) = sqrt(98)`;  
 
-Hence 4 sqrt(7), 5 sqrt(5), and 6 sqrt(3) are all greater than 10.
+Hence `4 sqrt(7)`, `5 sqrt(5)`, and `6 sqrt(3)` are all greater than 10.
 :::
 
 
@@ -169,7 +183,7 @@ Which of the following could be the area of the large rectangle?
 {.col-5}
 
 ^^^ hint id=5_1 marks=1
-The ratio length:breadth of the smaller rectangles is 5:4, because 5 breadth is equal to 4 lengths. Therefore, let the length and breadth of these rectangles be `5x`cm and `4x`cm respectively. What is the area of the larger rectangle in terms of `x`?
+The length:breadth ratio of the smaller rectangles is 5:4, because 5 breadths is equal to 4 lengths. Therefore, let the length and breadth of these rectangles be `5x`cm and `4x`cm respectively. What is the area of the larger rectangle in terms of `x`?
 ^^^
 
 ^^^ hint id=5_2 marks=1
@@ -182,11 +196,11 @@ The area of the large rectangle, in cm<sup>2</sup>, is `9 × 20x^2 = 180x^2`. Wh
 
 ---
 
-The ratio length:breadth of the smaller rectangles is 5:4, because 5 breadth is equal to 4 lengths.  
+The length:breadth ratio of the smaller rectangles is 5:4, because 5 breadths is equal to 4 lengths.  
 
 Therefore, let the length and breadth of these rectangles be `5x`cm and `4x`cm respectively.  
 
-The area of the large rectangle, in cm<sup>2</sup>, is `9 × 20x^2 = 180x^2` and the only one of the alternative which is a product of 180 and a perfect square is 1620, which corresponds to `x = 3`.
+The area of the large rectangle, in cm<sup>2</sup>, is `9 × 20x^2 = 180x^2` and the only one of the options which is equal to 180 multiplied by a perfect square is 1620, which corresponds to `x = 3`.
 :::
 
 
