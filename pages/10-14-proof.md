@@ -211,6 +211,31 @@ Therefore 6 is the smallest value of `n` for which the `n` th term of the sequen
 :::
 
 
+## 6. Very short songs and very long songs
+
+__This question was suggested by Mr McKennan, a maths tutor from Wimbledon.__
+
+::: problem id=6_1 marks=2
+Famously, the shortest piece of music registered with a publisher is the song _You Suffer_ by the grindcore band Napalm Death, which is 1.316 seconds long.  
+
+You can listen to it here:
+
+@[youtube](ybGOT4d2Hs8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+Meanwhile, the longest piece of music of which I'm aware is _Longplayer_ by ex-Pogues musician Jem Finer. According to the website for the song:
+
+_"Longplayer is a one thousand year long musical composition. It began playing at midnight on the 31st of December 1999, and will continue to play without repetition until the last moment of 2999, at which point it will complete its cycle and begin again."_
+{.text-center}
+
+The phase patterns used to generate 1000 years of unique music are mathematically fascinating, and worth studying themselves.
+
+But my question for you is this: how many times could Napalm Death play _You Suffer_ in the time that it takes _Longplayer_ to play out?
+
+To make it a little fairer, I'd like you to give your answer to __1 significant figures__.
+
+<input type="number" solution="20,000,000,000"/>
+:::
+
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
