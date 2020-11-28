@@ -22,7 +22,7 @@
     "@mathigon/hilbert": "^0.2.4",
     "babel-polyfill": "^6.26.0",
     "babel-preset-minify": "^0.5.1",
-    "firebase-admin": "^8.5.0",
+    "firebase-admin": "^9.4.1",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^3.0.3",
     "grunt-babel": "^8.0.0",
@@ -52,10 +52,10 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "@firebase/app": "^0.4.16",
-    "firebase": "^6.6.1",
-    "firebase-functions": "^3.10.0",
-    "firebase-tools": "^7.3.2"
+    "@firebase/app": "^0.6.13",
+    "firebase": "^8.1.1",
+    "firebase-functions": "^3.11.0",
+    "firebase-tools": "^8.16.2"
   },
   "browserslist": [
     "> 1%",
