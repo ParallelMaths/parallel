@@ -55,7 +55,7 @@ __2.1__	Which of these objects does gravity not attract?
 :::
 
 ::: problem id=2_2 marks=3
-__2.2__	Isaac Newton discovered that the strength of the gravitational force decreases by the square of the distance of the two objects.  
+__2.2__	Isaac Newton discovered that the strength of the gravitational force exerted by two objects on each other decreases by the square of the distance between them.  
 
 Let’s say the gravitational force between objects `A` and `B` is 81 `N`. What is the gravitational force if they move three times further away from each other?
 
@@ -84,7 +84,7 @@ Only edges of the same colour are sewn together.
 
 How many different quilt patterns are possible?  
 
-Two patters are considered to be the same if one can be rotated to look exactly like the other.
+Two patterns are considered to be the same if one can be rotated to look exactly like the other.
 
 * [ ] 3
 * [ ] 4
@@ -147,7 +147,7 @@ An identical hexagon could also be made by cutting the corners off a different e
 ^^^ hint id=5_1 marks=2
 In the construction in the question, the sides with length 13, 11 and 10 are segments of the sides of the original equilateral triangle, and the sides with length 3, 4 and 6 are the ‘cuts’.  
 
-Can you imagine an equilateral triangle in which these roles are reversed, i.e. 3, 4 and 6 are segments of the sides of the equilateral triangle, and 13, 11 and 10 are the ‘cuts’.
+Can you imagine an equilateral triangle in which these roles are reversed, i.e. 3, 4 and 6 are segments of the sides of the equilateral triangle, and 13, 11 and 10 are the ‘cuts’?
 ^^^
 
 ^^^ hint id=5_2 marks=1

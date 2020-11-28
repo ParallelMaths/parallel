@@ -127,7 +127,7 @@ __3.4__ Imagine that the square has trillion-and-one black strips and a trillion
 * [ ] `1/2`
 {.col-5}
 
-^^^ hint id=1 marks=2
+^^^ hint id=3_4 marks=2
 Two sides of the square will be black, as previously. The other two sides will effectively be half black and half grey, because the difference between a trillion and a trillion-and-one is insignificant.
 ^^^
 

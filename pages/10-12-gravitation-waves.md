@@ -31,9 +31,11 @@ The answer is in the short video below, but have a hard think before you click p
 __1.1__ How well did you do?
 
 * [x] I got the correct answer as shown in the video, or I got a different answer, but one that was interesting and perhaps equally good.  
+* [ ] I had no idea.
+
+---
 
 For example, you could write “c”, which is the Roman numeral for 100 and does not require you to you take you pen off the paper
-* [ ]  I had no idea.
 :::
 
 
@@ -53,7 +55,7 @@ __2.1__ When you hug someone, is that hug written on spacetime?
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ When you smile, will those spacetime ripples travel to distant starts?
+__2.2__ When you smile, will those spacetime ripples travel to distant stars?
 
 * [x] Yes
 * [ ] No
