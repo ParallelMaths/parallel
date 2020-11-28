@@ -58,7 +58,7 @@ Martha has 5 children, 20 grandchildren and 60 great grandchildren, ie 85 descen
 
 In the following video, physicist Jade Tan-Holmes solves a puzzle about hanging a picture in a particular way using a branch of mathematics called knot theory. Enjoy (or knot!) – by the way, it contains some quite complex concepts, but stick with Jade until the end and you will definitely understand the core mathematics in this video.
 
-@[youtube](eVd2Ugk9BU?start=12&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](-eVd2Ugk9BU?start=12&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=3
 __3.1__ Jade said that a common technique mathematicians use is to strip away everything but the most important features of a problem. Which of these ideas did she NOT strip away from the problem?
@@ -71,22 +71,36 @@ __3.1__ Jade said that a common technique mathematicians use is to strip away ev
 ::: problem id=3_2 marks=4
 __3.2__ Using the notation from this video, why will the link `XYY^(-1)X^(-1)` come undone?
 
-* [ ] Because first the Xs will cancel, leaving the Ys, which will then cancel.
-* [x] Because first the Ys will cancel, leaving the Xs, which will then cancel.
-* [ ] Because there are the same number of Xs as `X^(-1)` and there are the same number of Ys as `Y^(-1)`s.
+* [ ] Because first the `X`s will cancel, leaving the `Y`s, which will then cancel.
+* [x] Because first the `Y`s will cancel, leaving the `X`s, which will then cancel.
+* [ ] Because there are the same number of `X`s as `X^(-1)`s and there are the same number of `Y`s as `Y^(-1)`s.
 
 ^^^ hint id=3_2_1 marks=1
-Only an X directly next to an `X^(-1)` cancels. `XYX^(-1)Y^(-1)` would not cancel, but `XX^(-1)Y^(-1)Y` would completely cancel.
+Only an `X` directly next to an `X^(-1)` cancels. `XYX^(-1)Y^(-1)` would not cancel, but `XX^(-1)Y^(-1)Y` would completely cancel.
 ^^^
+
+---
+
+Only an `X` directly next to an `X^(-1)` cancels. `XYX^(-1)Y^(-1)` would not cancel, but `XX^(-1)Y^(-1)Y` would completely cancel.  
+
+So `YY^(-1)` cancels, leaving `XX^(-1)`, which then cancels.
 :::
 
 ::: problem id=3_3 marks=4
-__3.3__ What does the link `XX^(-1)YXY(^-1)YY(^-1)Y(^-1)Y` reduce to?
+__3.3__ What does the link `XX^(-1)YXY^(-1)YY^(-1)Y^(-1)Y` reduce to?
 
 * [ ] Nothing, because everything cancels out.
 * [ ] `Y`
 * [ ] `X`
 * [x] `YXY^(-1)`
+
+---
+
+The `XX^(-1)` and `Y^(-1)Y` at each end cancel, leaving `YXY^(-1)YY^(-1)`.  
+
+Then the `YY^(-1)` on the right cancels, leaving `YXY^(-1)`.  
+
+The last `Y` and `Y^(-1)` can't cancel because the `X` is in the middle. 
 :::
 
 

@@ -19,7 +19,7 @@ These challenges are a random walk through the mysteries of mathematics, most of
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
-## 1.	Multiplication trick × 2.
+## 1.	Multiplication tricks
 
 Watch this video, in which Countdown’s Rachel Riley offers a tip for multiplying a two digit number by 11.
 
@@ -63,7 +63,7 @@ Which of the following is true?
 The two digits of Tom’s original number might sum to 5, but the two digits could also have added up to 15 instead, and caused a carry into the hundreds column. E.g. 69 × 11 = 759.
 :::
 
-Here’s another of Rachel Riley’s multiplication tricks. This time for squaring a two digit number ending in 5.
+Here’s another of Rachel Riley’s multiplication tricks. This time for squaring a two-digit number ending in 5.
 
 @[youtube](z56uNCwJbK4?start=67&end=90&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -72,15 +72,15 @@ __1.4__	Try out Rachel’s second trick with the number 65, and compare it to a 
 
 What answer did you get?
 
-<input solution="715"/>
+<input solution="4225"/>
 :::
 
 ::: problem id=1_5 marks=3
 __1.5__  Let’s try to convince ourselves using algebra. A two-digit number ending in 5 (i.e. `x5`) can be written as `10x + 5`, where `x` is a single digit number.  
 
-By expanding and then factorising everything apart from the 25, write the square of this number, `(10x + 5)^2` in the form:
+By expanding and then factorising everything apart from the 25, write the square of this number, `(10x + 5)^2` in the form:  
 
-`100x^2 (ax) + 25`  
+`100x (x + a) + 25`  
 
 What is your value for `a`?
 
@@ -182,7 +182,7 @@ Thus the final appearance will be shape __B__.
 <!--- (2001) Q23 --->
 
 ::: problem id=5_1 marks=5
-__5.1__ For how many values of `n` are both `n` and `(n + 3)(n - 1)` integers?
+__5.1__ For how many values of `n` are both `n` and `(n + 3)/(n - 1)` integers?
 
 * [ ] 7
 * [x] 6
@@ -209,11 +209,11 @@ Consider also that `(n + 3)/(n - 1)` can be a negative integer. `n + 3` would ha
 
 There are only four pairs of numbers which differ by four and have different signs: (-1, 3), (-2, 2), (-3, 1) and (-4, 0).  
 
-Of these, only (-2, 2) and (-4, 0) make `(n+3)/(n-1)` and integer.  
+Of these, only (-1, 3), (-2, 2) and (-4, 0) make `(n+3)/(n-1)` an integer.  
 
-This gives us two more values for `n`, namely -1 and -3.  
+This gives us three more values for `n`, namely -1 and -3.  
 
-0/0 is undefined, so (-3, 1) does not work.
+-1/3 is not an integer, so (-3, 1) doesn’t work.
 
 In total there are 6 possible values for `n`.
 :::

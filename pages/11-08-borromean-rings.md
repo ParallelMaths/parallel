@@ -30,7 +30,7 @@ Watch this video from the YouTube channel Numberphile.
 @[youtube](Ra9I_-o2LHM?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=3
-__1.1__ Tadashi's borromean rings consist of 3 rings - one made of pink ribbon, one made of blue ribbon, and what is third ring?
+__1.1__ Tadashi's borromean rings consist of 3 rings - one made of pink ribbon, one made of blue ribbon, and what is the third ring made of?
 
 * [ ] Black ribbon
 * [ ] Green ribbon
@@ -44,7 +44,7 @@ __1.1__ Tadashi's borromean rings consist of 3 rings - one made of pink ribbon, 
 <!--- (2001) Q3 --->
 
 ::: problem id=2_1 marks=3
-__2.1__ Which of the following is midway between `1/4` and `1/8`?
+__2.1__ Which of the following is exactly halfway between `1/4` and `1/8`?
 
 * [x] `3/16`
 * [ ] `1/6`
@@ -55,7 +55,7 @@ __2.1__ Which of the following is midway between `1/4` and `1/8`?
 
 ---
 
-Since `1/4 = 4/16` and `1/8 = 2/16`, the number midway between them is `3/16`.
+Since `1/4 = 4/16` and `1/8 = 2/16`, the number exactly halfway between them is `3/16`.
 :::
 
 
@@ -141,12 +141,12 @@ Continuing in this way will give us ‘gaps’ of two. When will we be able to �
 
 ^^^ hint id=3_3 marks=1
 167 = 3 × 20 + 50 + 3 × 19.  
-You can’t use the same trick to reduce this by 1, as you can’t have 3 × 22, so 166 is impossible.  
+You can’t use the same trick as with 168 to reduce this by 1, as you can’t have 3 × 22, so 166 is impossible.  
 You can use the same trick to reduce 165 by 1.  
 165 = 3 × 20 + 3 × 20 + 3 × 15, and  
 164 = 3 × 20 + 50+ 3 × 18.  
 
-Again, you can’t increase the last throw by 9, as you can’t have 3 × 21.
+Again, you can’t increase the last throw by 9 to get 163, as you can’t have 3 × 21.
 ^^^
 
 ^^^ hint id=3_4 marks=1
@@ -159,7 +159,7 @@ Can you reduce this by 1, starting by replacing the first throw with a bull’s 
 
 ---
 
-It's all about the spacing between triples. There's always a gap of two. But the bullseye becomes useful at 170 so that one of the gaps between triples disappears. Then another bull comes into play at 160 so that below 160 there is always a combination of triple 20s and 50 that fills in the space between adjacent triples.  
+It's all about the spacing between triples. There's always a gap of two. But the bullseye becomes useful at 170, by making one of the gaps between the triples disappear. Then another bull comes into play at 160 so below 160 there is always a combination of triple 20s and 50s that fills in the space between adjacent triples.  
 
 180 = 3 × 20 + 3 × 20 + 3 × 20  
 179 impossible  
@@ -199,10 +199,6 @@ __3.4__ Which is the largest score which can be obtained in two different ways?
 <input solution="174"/>
 
 ---
-
-164 =  3 × 20 + 50 + 3 × 18.  
-
-165 = 3 × 20 + 3 × 20 + 3 × 15.  
 
 Start by considering the largest score, 180 = 3 × 20 + 3 × 20 + 3 × 20. We can reduce it by 3 by changing any of the 20s to 19s. This gives us only one way to score 177.  
 
@@ -246,7 +242,7 @@ The interior angle of a regular pentagon is 108°.
 
 Therefore each interior angle of the regular polygon formed by the inner sides of the pentagons is (360 - 2 × 108)° = 144°.  
 
-The exterior angle of this regular polygon 36° and hence it has 360 ÷ 36, ie 10 sides.  
+The exterior angle of this regular polygon is 36° and hence it has 360 ÷ 36, ie 10 sides.  
 
 Therefore 7 more pentagons are required.
 :::
@@ -273,16 +269,17 @@ What is the shaded area?
 {.col-5}
 
 ^^^ hint id=5_1 marks=1
-![](/resources/11-08-borromean-rings/5-circle-answer.jpg){image align="right"}
 Let `O` be the centre of the circle and let the points where the arcs meet be `C` and `D` respectively.  
 
-`ABCD` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90deg` (angle in a semicircle).  
+![](/resources/11-08-borromean-rings/5-circle-answer.jpg){image align="center"}
+
+`ADBC` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90°` (angle in a semicircle).  
 
 In triangle `OCB`, `CB^2 = OC^2 + OB^2`, hence `CB = sqrt(2)` cm.  
 ^^^
 
 ^^^ hint id=5_2 marks=1
-The area of the segment bounded by arc `CD` and diameter `CD` is equal to the area of sector `BCD` = the area of triangle `BCD`, ie:  
+The area of the segment bounded by arc `CD` and diameter `CD` is equal to the area of sector `BCD` - the area of triangle `BCD`, ie:  
 
 `(1/4 π (sqrt(2)^2) - 1/2 × sqrt(2) × sqrt(2))` cm<sup>2</sup>
 ^^^
@@ -298,11 +295,11 @@ The unshaded area in the original figure is, therefore, `(π - 2)` cm<sup>2</sup
 ![](/resources/11-08-borromean-rings/5-circle-answer.jpg){image align="right"}
 Let `O` be the centre of the circle and let the points where the arcs meet be `C` and `D` respectively.  
 
-`ABCD` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90deg` (angle in a semicircle).  
+`ADBC` is a square since its sides are all equal to the radius of the arc `CD` and `ACB = 90°` (angle in a semicircle).  
 
 In triangle `OCB`, `CB^2 = OC^2 + OB^2`, hence `CB = sqrt(2)` cm.  
 
-The area of the segment bounded by arc `CD` and diameter `CD` is equal to the area of sector `BCD` = the area of triangle `BCD`, ie:  
+The area of the segment bounded by arc `CD` and diameter `CD` is equal to the area of sector `BCD` - the area of triangle `BCD`, ie:  
 
 `(1/4 π (sqrt(2)^2) - 1/2 × sqrt(2) × sqrt(2))` cm<sup>2</sup>, ie `(1/2 π - 1)` cm<sup>2</sup>.
 

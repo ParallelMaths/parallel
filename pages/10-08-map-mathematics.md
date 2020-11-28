@@ -138,7 +138,7 @@ It follows from this that, of the given numbers, there is just one which is divi
 ## 5.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (2016) Q17 --->
 
-::: problem id=4_1 marks=4
+::: problem id=5_1 marks=4
 ![](/resources/10-08-map-mathematics/5-circle.jpg){image align="right"}
 __5.1__ The shaded region in the diagram, bounded by two concentric circles, is called an _annulus_. The circles have radii 2cm and 14cm.  
 
@@ -197,7 +197,7 @@ and hence that
 The number `x` is positive as it is the radius, in centimetres, of the dashed circle. It follows that `x = 10`. Hence the radius of the dashed circle is 10 cm.
 :::
 
-If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://www.youtube.com/watch?v=OmJ-4B-mS-Y){target="_blank"} after you hit the SBUMIT button.
+If you want to properly explore Dominic Wallimans’ “Map of Mathematics”, then make sure you [visit his webpage](https://dominicwalliman.com/post/157283769280/poster-summarising-the-main-subjects-of){target="_blank"} after you hit the SBUMIT button.
 
 
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
