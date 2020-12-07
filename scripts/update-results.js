@@ -3,11 +3,11 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '11-03-mars-ingenuity';
-const QUESTION = 'p_5_1';
-const IF_ANSWER = 'b';
-const THEN_ANSWER = 'b';
-const ADD_POINTS = 5;
+const PG = '8-12-prime-time';
+const QUESTION = 'p_5_2';
+const IF_ANSWER = 'Jiushao';
+const THEN_ANSWER = 'Jiushao';
+const ADD_POINTS = 2;
 // ---------------------
 
 

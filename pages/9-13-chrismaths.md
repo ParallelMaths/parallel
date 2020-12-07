@@ -254,20 +254,20 @@ So 6 goes in the region marked * .
 ::: problem id=9_1 marks=3
 Auntie Fi’s dog Itchy has a million fleas. His anti-flea shampoo claims to leave no more than 1% of the original number of fleas after use.
 
-What is the least number of fleas that will be eradicated by the treatment?
+What is the least number of fleas that should be eradicated by the treatment?
 
-* [ ] A) 900000
-* [x] B) 990000
-* [ ] C) 999000
-* [ ] D) 999990
-* [ ] E) 999999
+* [ ] A) 900,000
+* [x] B) 990,000
+* [ ] C) 999,000
+* [ ] D) 999,990
+* [ ] E) 999,999
 {.col-5}
 
 ---
 
 Since no more than 1% of the fleas will remain, at least 99% of them will be eradicated.
 
-Now 99% of a million is `99/100 × 1000000 = 99 × 10000 = 990 000`.
+Now 99% of a million is `99/100 × 1000000 = 99 × 10000 = 990,000`.
 :::
 
 
@@ -356,7 +356,7 @@ It is easy to check that 4% of £135 and 2% of £270 are also both £5.40.
 ## 13.
 
 ::: problem id=13_1 marks=3
-Alex Erlich and Paneth Farcas shared an opening rally of 2 hours and 12 minutes during their table tennis match at the 1936 World Games. Each player hit around 45 shots per minute.  
+Alex Erlich and Paneth Farkas shared an opening rally of 2 hours and 12 minutes during their table tennis match at the 1936 World Games. Each player hit around 45 shots per minute.  
 
 Which of the following is closest to the total number of shots played in the rally?
 

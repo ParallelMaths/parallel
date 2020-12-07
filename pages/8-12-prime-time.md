@@ -171,15 +171,15 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 ![](/resources/8-12-prime-time/4-napier.png){image align="center"}
 
 ::: problem id=5_1 marks=2
-__5.1__ Which mathematician from the 1st century CE created detailed maps of the Earth?
+__5.1__ What is the last name of the mathematician from the 1st century CE created detailed maps of the Earth?
 
 <input type="text" solution="Ptolemy"/>
 :::
 
 ::: problem id=5_2 marks=2
-__5.2__  Which mathematician from the 13th century CE (the 1200s) first developed a method which is now named after a British mathematician, William George Horner?
+__5.2__  What is the last name of the mathematician from the 13th century CE (the 1200s) first developed a method which is now named after a British mathematician, William George Horner?
 
-<input type="text" solution="Juishao"/>
+<input type="text" solution="Jiushao"/>
 :::
 
 

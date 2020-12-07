@@ -259,8 +259,9 @@ What is the area of the figure (in cm<sup>2</sup>)?
 {.col-5}
 
 ---
-![](/resources/10-13-chrismaths/12-curve-answer.png){image align="right"}
 As the diagram shows, the figure may be cut into two parts which fit together to form a square measuring 8cm × 8cm.
+
+![](/resources/10-13-chrismaths/12-curve-answer.png){image align="center"}
 :::
 
 
@@ -581,7 +582,7 @@ What fraction of the square is occupied by the shaded rectangle?
 
 ---
 
-![](/resources/10-13-chrismaths/25-square-answer.png){image align="right"}
+![](/resources/10-13-chrismaths/25-square-answer.png){image align="center"}
 Triangles `ABG`, `GFE` and `EFA` are similar, so `AF : FE = EF : FG = GB : BA = 1 : 2`.  
 
 Thus if `AF = a`, then `FE = 2a`, `FG = 4a`, and the shaded area is `8a^2`.  

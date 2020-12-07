@@ -5,15 +5,14 @@
 __Noun__: Parallelogram
 __Pronunciation__: /ˌparəˈlɛləɡram/
 
-1. a portmanteau word combining parallel and telegram. A message sent each
-week by the Parallel Project to bright young mathematicians.
+1. a portmanteau word combining parallel and telegram. A message sent each week by the Parallel Project to bright young mathematicians.
 
 </div>
 
 ![](/resources/11-13-twelve-days-christmas/santa-simon.png){image align="right"}
-Season’s greetings. You will be glad to hear that I have packed in lots of festive cheer into each question this week. Ho, ho, ho!
+Season’s greetings. You will be glad to hear that I have packed lots of festive cheer into each question this week. Ho, ho, ho!
 
-As you all move closer to your exams, you will be getting busier and busier with mocks and revision. With that in mind, this is the last Parallel for the rest of the academic year.
+As you all move closer to your exams, you will be getting busier and busier with mocks and revision. With that in mind, this is the last Parallelogram for the rest of the academic year.
 
 So, whether you started Parallel this year, or have been doing Parallel since Year 7, I hope that you have felt stretched, challenged, and are now considering continuing with mathematics (and science) next year and beyond.
 Have a wonderful Christmas break.
@@ -22,7 +21,7 @@ Cheerio,
 Simon
 
 
-## 1. A Christmassy question based on an Intermediate Maths Challenge
+## 1. A Christmassy question based on an Intermediate Maths Challenge Problem
 <!--- (2006) Q2 --->
 
 ::: problem id=1_1 marks=3
@@ -41,7 +40,7 @@ The configuration includes three pairs of small rings. The rings in each pair ar
 :::
 
 
-## 2. A Christmassy question based on an Intermediate Maths Challenge
+## 2. A Christmassy question based on an Intermediate Maths Challenge Problem
 <!--- (2001) Q18 --->
 ::: problem id=2_1 marks=4
 __2.1__ Father Christmas delivers presents to three neighbouring streets of houses.  
@@ -62,7 +61,7 @@ How long does he take to deliver presents to all three streets?
 {.col-5}
 
 ^^^ hint id=2_1 marks=1
-Let Father Christmas take `x` minutes to cover the last street. Therefore he takes `(3x)/2` minutes to cover the second street and 3x minutes to cover the first street.
+Let Father Christmas take `x` minutes to cover the last street. Then he takes `(3x)/2` minutes to cover the second street and `3x` minutes to cover the first street.
 ^^^
 
 ^^^ hint id=2_2 marks=1
@@ -70,12 +69,12 @@ Since the sum of these three times is 10 minutes more than if he had taken `x` m
 ^^^
 
 ^^^ hint id=2_3 marks=1
-The solution to `3x + (3x)/2 + x = 3x = 10`, ie `x = 4`. Remember, this is the time taken to cover the last street.
+The solution to `3x + (3x)/2 + x = 3x + 10` is `x = 4`. Remember, this is the time taken to cover the last street.
 ^^^
 
 ---
 
-Let Father Christmas take `x` minutes to cycle one mile. Then he takes `(3x)/2` minutes to run one mile, and `3x` minutes to walk one mile. Therefore: `3x + (3x)/2 + x = 3x = 10`, ie `x = 4`.  
+Let Father Christmas take `x` minutes to cycle one mile. Then he takes `(3x)/2` minutes to run one mile, and `3x` minutes to walk one mile. Therefore: `3x + (3x)/2 + x = 3x + 10` is `x = 4`.  
 
 Father Christmas takes 12 minutes to walk the first mile, 6 minutes to run the second mile and 4 minutes to cycle the third mile: a total time of 22 minutes.
 :::
@@ -88,7 +87,7 @@ The next gift in this parallelogram is this video about the twelve days of Chris
 @[youtube](fC8W4s6N9HQ?rel=0&end=173) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=4
-__3.1__ The video introduced you to Pascal’s Triangle, in which every entry (apart from the 1s on either side) is the sum of the two above. What shape, familiar from a previous parallelogram, emerges if you shade all of the even numbers in pascals triangle (you may need to go to around the 9th row before you start seeing the pattern!)
+__3.1__ The video introduced you to Pascal’s Triangle, in which every entry (apart from the 1s on either side) is the sum of the two above. What shape, familiar from a previous parallelogram, emerges if you shade all of the even numbers in Pascal's triangle (you may need to go to around the 9th row before you start seeing the pattern!)
 
 * [ ] A Borromean ring
 * [x] A Sierpinski triangle
@@ -104,7 +103,7 @@ The triangle starts off like this:
 
 ---
 
-As you can see from this video, the shape that appears is a (very pixilated) Sierpinski triangle.  
+As you can see from this video, the shape that appears is a (very pixelated) Sierpinski triangle.  
 
 @[youtube](wcxmdiuYjhk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
@@ -126,7 +125,7 @@ It’s a tie between Geese and Swans. Watch this video for an explanation:
 :::
 
 
-## 4. A Christmassy question based on an Intermediate Maths Challenge
+## 4. A Christmassy question based on an Intermediate Maths Challenge Problem
 <!--- (2002) Q13 --->
 
 ::: problem id=4_1 marks=4
@@ -153,11 +152,11 @@ If the wild guesses were wildly high, they would be 5120g and 5150g. These can�
 
 ---
 
-The guesses were 5040, 5060, 5110, 5120, 5150. The range of these guesses is just 110 so the two 'wild' estimates must both be low or both high. Since the difference between 5040 and 5060 is 20, 5040 is 90 out and 5060 is 70 out.
+The guesses were 5040g, 5060g, 5110g, 5120g, 5150g. The range of these guesses is just 110g so the two 'wild' estimates must both be low or both high. Since the difference between 5040g and 5060g is 20g, 5040g is 90g out and 5060g is 70g out.
 :::
 
 
-## 5. A Christmassy question based on an Intermediate Maths Challenge
+## 5. A Christmassy question based on an Intermediate Maths Challenge Problem
 <!--- (2006) Q16 --->
 ::: problem id=5_1 marks=4
 __5.1__ Four busy elves, Al, Bertie, Chris and Di have made 150 toys between them. Al and Bertie have made 55 between them, and Al and Chris have made 65 between them.  
@@ -180,7 +179,7 @@ Subtracting one from the other we have `c + d = 95`.
 ^^^ hint id=5_2 marks=1
 `a + c = 65`.  
 
-What expression will we get if we subtract `a + c` from `c + d`.
+What expression will we get if we subtract `a + c` from `c + d`?
 ^^^
 
 ^^^ hint id=5_3 marks=1
