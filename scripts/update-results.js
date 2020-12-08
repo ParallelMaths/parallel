@@ -4,8 +4,8 @@ const serviceAccount = require('../private/service-account.json');
 
 // ---------------------
 const PG = '8-12-prime-time';
-const QUESTION = 'p_5_2';
-const IF_ANSWER = 'Jiushao';
+const QUESTION = 'p_5_2_0';
+const IF_ANSWER = 'Qin Jiushao';
 const THEN_ANSWER = 'Jiushao';
 const ADD_POINTS = 2;
 // ---------------------
