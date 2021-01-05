@@ -110,9 +110,17 @@ How many strips are there?
 
 ---
 
-We know that 2 lengths have no grey, because there is no grey strip that touches any corner or which stretches along any side. We don’t know the number of strips, but we could call it NS, and we know that the number of grey strips is `1/2 (NS – 1)`. So, the fraction of grey is:
+We don’t know the number of strips, but we could call it `NS`, and we know that the number of grey strips is `1/2(NS − 1)`.  
 
-[ ½(NS – 1) + ½(NS – 1) ] ÷ 4 = 6/25
+We know that 2 sides of the square have no grey, because there is no grey strip that touches any corner or which stretches along any side.  
+
+We know that along the other two sides, the fraction of grey on the perimeter is `1/2(NS − 1) ÷ NS`.  
+
+So, if we can say the square has unit length 1, then the fraction of grey along the perimeter is:  
+
+`(0 + 0 + (1/2(NS − 1) ÷ NS) + (1/2(NS − 1) ÷ NS))/4` = `6/25`  
+
+`(NS – 1)/NS` = `24/25`  
 
 If you rearrange and simplify this equation, then NS = 25.
 :::

@@ -436,12 +436,14 @@ By the External Angle Theorem, `∠BDC = ∠BAD + ∠ABD`. That is, 70° = 40° 
 ## 15.
 
 ::: problem id=15_1 marks=3
-How many of these four expressions are perfect squares?
+Take a look at these four expressions below:
 
 * 1<sup>3</sup> + 2<sup>3</sup>  
 * 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup>  
 * 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup>  
 * 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + 4<sup>3</sup> + 5<sup>3</sup>  
+
+How many of these are perfect squares?
 
 * [ ] A) 0
 * [ ] B) 1
