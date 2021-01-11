@@ -3,11 +3,11 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '8-12-prime-time';
-const QUESTION = 'p_5_2_0';
-const IF_ANSWER = 'Qin Jiushao';
-const THEN_ANSWER = 'Jiushao';
-const ADD_POINTS = 2;
+const PG = '7-14-codes-physics';
+const QUESTION = 'p_3_1_1';
+const IF_ANSWER = '85';
+const THEN_ANSWER = '85';
+const ADD_POINTS = 1;
 // ---------------------
 
 

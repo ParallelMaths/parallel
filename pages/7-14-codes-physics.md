@@ -121,13 +121,13 @@ top mathematicians to make some significant breakthroughs in cracking Enigma? Th
 The Polish mathematicians who cracked the Enigma code changed history and laid
 the foundations for the British codebreakers at Bletchley Park, who went on to
 help win the Second World War. You can read more about the Polish contribution to
-cracking Enigma in [this Daily Telegraph article](http://www.telegraph.co.uk/science/2016/03/15/polish-codebreakers-cracked-enigma-before-alan-turing/).{target="_blank"}
+cracking Enigma in [this BBC article](https://www.bbc.co.uk/news/magazine-28167071).{target="_blank"}
 :::
 
 
 ## 3. Wangle the angles
 
-::: problem id=3_1 marks=2
+::: problem id=3_1_0 marks=1
 __3.1.__ Look at the diagram below and wangle (obtain by some devious manner)
 the angles _x_ and _y_.
 
@@ -138,6 +138,9 @@ It will probably help if you redraw the diagram – a quick sketch will make it 
 ![](/resources/7-14-codes-physics/3-1-angles.png)
 
 Angle x = <input type="text" solution="155"/>°  
+:::  
+
+::: problem id=3_1_1 marks=1
 Angle y = <input type="text" solution="85"/>°
 
 ---
