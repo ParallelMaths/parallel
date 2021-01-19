@@ -37,6 +37,7 @@ In short:
 * Subtract the small number from the big number, to create a next stage number.
 * Then repeat the process with the new number
 * Eventually you end up with 6,174.
+* Remember that if you encounter any numbers with fewer than has fewer 4 digits, it must be treated as though it had 4 digits, using leading zeroes.
 
 ::: problem id=1_1 marks=1
 __1.1.__ Start with the number 4,321. Reverse the digits, take the small number from the big number and what is the result? Clue: it is between 3,000 and 4,000.
