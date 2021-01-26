@@ -50,7 +50,7 @@ Young babies, a few months old, are not impressed by magic. The entire world is 
 
 When you watch this video, please bear in mind that you can sometimes see how the trick is done, but from the animal’s point of view the trick is amazing.
 
-@[youtube](spMkaJp975s?end=120&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](Iq2-r4k3ru0?end=120&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 3.	Intermediate Maths Challenge Problem (UKMT)

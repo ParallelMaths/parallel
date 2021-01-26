@@ -100,7 +100,7 @@ The natural inclination is to continue the sequence – April, May and... June. 
 
 Over the last couple of weeks, we discussed how you can encode a message by turning each letter into a number according to the alphabet-number pairings below, adding a fixed number to each letter-number and then turning the new numbers back into letters.
 
-If you want to decode a message, then you just reverse the process, so you subtract the fixed number, rather than adding it. [If any of this sounds unfamiliar or confusing, then revisit Parallelogram 2 by way of revision](/7-15-marie-curie){target="_blank"}.
+If you want to decode a message, then you just reverse the process, so you subtract the fixed number, rather than adding it. [If any of this sounds unfamiliar or confusing, then revisit Parallelogram 15 by way of revision](/7-15-marie-curie){target="_blank"}.
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M |
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 |
