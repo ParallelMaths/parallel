@@ -3,10 +3,10 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '7-14-codes-physics';
-const QUESTION = 'p_3_1_1';
-const IF_ANSWER = '85';
-const THEN_ANSWER = '85';
+const PG = '7-17-sundogs-random-dots';
+const QUESTION = 'p_5_1_4';
+const IF_ANSWER = 'I';
+const THEN_ANSWER = 'I';
 const ADD_POINTS = 1;
 // ---------------------
 

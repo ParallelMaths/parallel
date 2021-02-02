@@ -178,18 +178,30 @@ By the way, the notion that encoded numbers must be between 0 and 25 is called m
 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 {.grid}
 
-::: problem id=5_1 marks=5
-__5.1.__ If we are encoding by multiplying by 5, which letter is each of the following letters transformed into?
+If we are encoding by multiplying by 5, which letter is each of the following letters transformed into?
 
-The letter __A__ becomes <input type="text" solution="A"/>  
-The letter __B__ becomes <input type="text" solution="F"/>  
-The letter __D__ becomes <input type="text" solution="P"/>  
-The letter __G__ becomes <input type="text" solution="E"/>  
-The letter __M__ becomes <input type="text" solution="I"/>  
+::: problem id=5_1 marks=5
+__5.1.__ The letter __A__ becomes <input type="text" solution="A"/>  
 :::
 
-::: problem id=5_2 marks=3
-__5.2.__ If we multiply by 5, then the word  "OK" is encoded as:
+::: problem id=5_2 marks=5
+__5.2.__ The letter __B__ becomes <input type="text" solution="F"/>  
+:::
+
+::: problem id=5_3 marks=5
+__5.3.__ The letter __D__ becomes <input type="text" solution="P"/>  
+:::
+
+::: problem id=5_4 marks=5
+__5.4.__ The letter __G__ becomes <input type="text" solution="E"/>
+:::
+
+::: problem id=5_5 marks=5
+__5.5.__ The letter __M__ becomes <input type="text" solution="I"/>  
+:::
+
+::: problem id=5_6 marks=3
+__5.6.__ If we multiply by 5, then the word  "OK" is encoded as:
 
 * [ ] KO
 * [x] SY
@@ -211,8 +223,8 @@ Here is the rule if you want to encode a message by multiplying: “You can choo
 
 With this in mind, answer the questions below.
 
-::: problem id=5_3 marks=2
-__5.3.__ The Thai alphabet has 72 letters. If I am encoding a message in Thai by multiplying, which of the following would be the best number to multiply by?
+::: problem id=5_7 marks=2
+__5.7.__ The Thai alphabet has 72 letters. If I am encoding a message in Thai by multiplying, which of the following would be the best number to multiply by?
 
 * [ ] 2
 * [ ] 3
@@ -230,8 +242,8 @@ Remember the golden rule: you can multiply by any number __“as long as the num
 The answer is 5, because it is the only number that has no factors in common with 72 (the size of the alphabet).
 :::
 
-::: problem id=5_4 marks=2
-__5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Albanian by multiplying, which of the following would be the best number to multiply by?
+::: problem id=5_8 marks=2
+__5.8.__ The Albanian alphabet has 36 letters. If I am encoding a message in Albanian by multiplying, which of the following would be the best number to multiply by?
 
 * [ ] 2
 * [ ] 3
@@ -245,8 +257,8 @@ __5.4.__ The Albanian alphabet has 36 letters. If I am encoding a message in Alb
 The answer is 5, because the Albanian alphabet has 36 letters, and all the other options not only share a common factor with 36, they are factors of 36.  
 :::
 
-::: problem id=5_5 marks=2
-__5.5.__ Consider the following 8 alphabets, listed with the number of letters that each contain. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic?  
+::: problem id=5_9 marks=2
+__5.9.__ Consider the following 8 alphabets, listed with the number of letters that each contain. If I wanted to encode by multiplying by 13, how many of these alphabets would turn out to be problematic?  
 
 (The number of letters in an alphabet can vary, but please assume these numbers below)
 
@@ -270,8 +282,8 @@ The answer is 2, because English has 26 letters, and 13 is a factor of 26 AND Ba
 
 :::
 
-::: problem id=5_6 marks=2
-__5.6.__ Which of the eight alphabets above would allow me to multiply by almost any number I want?
+::: problem id=5_10 marks=2
+__5.10.__ Which of the eight alphabets above would allow me to multiply by almost any number I want?
 
 * [ ] Thai
 * [x] Abkhaz
