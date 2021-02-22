@@ -13,7 +13,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
-* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23 February. And the next Parallelogram will appear on Thursday 27 February.__
+* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21 February. And the next Parallelogram will appear on Thursday 25 February.__
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
 ## 1. Pie Chart
@@ -223,7 +225,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
-*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23. And the next Parallelogram will appear on Thursday 27 February.
+*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21. And the next Parallelogram will appear on Thursday 25 February.
 
 Cheerio,
 Simon.

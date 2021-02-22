@@ -13,7 +13,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
-* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23 February. And the next Parallelogram will appear on Thursday 27 February.__
+* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21 February. And the next Parallelogram will appear on Thursday 25 February.__
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
 ## 1.	Collision mystery
@@ -49,7 +51,7 @@ __1.2.__ If you want to calculate 20 digits of pi, and one block weights 1 Kg, h
 
 ::: problem id=2_1 marks=2
 ![](/resources/9-19-collision-mystery/2-quadrilaterals.jpg){image align="right"}
-__2.1.__ How many quadrilaterals are there is this diagram, which is constructed using 6 straight lines?
+__2.1.__ How many quadrilaterals are there in this diagram, which is constructed using 6 straight lines?
 
 * [ ] 4  
 * [ ] 5  
@@ -149,7 +151,7 @@ You might think the answer is 120 (ie 10 x 12), but 10 and 12 have a common fact
 
 ## 5. More Escher
 
-No questions and no marks – just take a look at this video which takes you on a flight through weird world of M.C. Escher.
+No questions and no marks – just take a look at this video which takes you on a flight through the weird world of M.C. Escher.
 
 @[youtube](kZfRaPBa6dk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -162,7 +164,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
-*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23. And the next Parallelogram will appear on Thursday 27 February.
+*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21. And the next Parallelogram will appear on Thursday 25 February.
 
 Cheerio,
 Simon.

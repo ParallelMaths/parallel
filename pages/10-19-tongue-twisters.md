@@ -13,7 +13,7 @@ week by the Parallel Project to bright young mathematicians.
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
 *	Finish by Sunday night if your whole class is doing parallelograms.
-* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23 February. And the next Parallelogram will appear on Thursday 27 February.__
+* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21 February. And the next Parallelogram will appear on Thursday 25 February.__
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
@@ -247,7 +247,7 @@ It follows that the area of PTUS is given by `PT × TU = 5` cm `× 15` cm `= 75`
 
 
 
-As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23. And the next Parallelogram will appear on Thursday 27 February.
+As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21. And the next Parallelogram will appear on Thursday 25 February.  
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

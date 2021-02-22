@@ -44,7 +44,7 @@ We can factor the top half of the equation, so it can be re-written as:
 
 Now it is clear that when `z = 8`, then `f(z) = -15`.  
 
-Now, answer the question below, which relate to the function:
+Now, answer the question below, which relates to the function:
 
 `(y^2 - 4y - 21)/(y - 7)`
 {.text-center}

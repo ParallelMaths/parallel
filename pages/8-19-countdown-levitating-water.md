@@ -13,7 +13,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Tackle each Parallelogram in one go. Don’t get distracted.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
-* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23 February. And the next Parallelogram will appear on Thursday 27 February.__
+* __As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21 February. And the next Parallelogram will appear on Thursday 25 February.__
+
+__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
 ## 1.	Crazy Coundown numbers
@@ -44,7 +46,7 @@ __2.1.__ A list is made of every digit that is the units digit of at least one p
 
 ---
 
-The numbers 2, 3 and 5 are themselves prime numbers so they occur in this list. Also 1 is the units digit of the prime number 11 (and also 31, 41 and many more). However, a number with units digit 4 is an even number greater than 2 and so is not prime. Thus, there are 4 numbers in the list, namely 1, 2, 3 and 5 which are the units digits of at least one prime number. Therefore the solution is D.
+The numbers 2, 3 and 5 are themselves prime numbers so they occur in this list. Also 1 is the units digit of the prime number 11 (and also 31, 41 and many more). However, a number with units digit 4 is an even number greater than 2 and so is not prime. Thus, there are 4 numbers in the list, namely 1, 2, 3 and 5 which are the units digits of at least one prime number. Therefore the answer is 4.
 :::
 
 ::: problem id=2_2 marks=2
@@ -59,7 +61,7 @@ __2.2.__ How many of the other digits, 0, 6, 7, 8 and 9 are the units digits of 
 
 ---
 
-The solution is B, because primes can end in 7 and 9 (e.g., 7, 17, 19, 29, 37…), but not 0, 6 and 8. If the final digit is 0, 6 or 8, then the number is even and cannot be prime.
+The answe is 2, because primes can end in 7 and 9 (e.g., 7, 17, 19, 29, 37…), but not 0, 6 and 8. If the final digit is 0, 6 or 8, then the number is even and cannot be prime.
 :::
 
 
@@ -147,7 +149,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	Finally, if you missed any earlier Parallelograms, don't forget to go back and complete them.
 *	You earn reward points and badges from completing missed Parallelogams.
-*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 23. And the next Parallelogram will appear on Thursday 27 February.
+*	As it is half-term, you have a bit of extra time to complete this Parallelogram. You should finish it by Sunday 21. And the next Parallelogram will appear on Thursday 25 February.
 
 Cheerio,
 Simon.
