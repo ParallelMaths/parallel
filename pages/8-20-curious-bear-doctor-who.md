@@ -64,8 +64,6 @@ The table shows the number of such routes to that point.
 So the total number of different routes is 25.
 :::
 
-:::
-
 
 ## 3. Doctor Who mathematics
 

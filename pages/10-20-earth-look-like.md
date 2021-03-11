@@ -72,9 +72,9 @@ __1.3__ 1, 2, 3, 4, ... ?
 This sequence is all about perfect numbers, and the number of digits in a perfect number.  
 
 - The 1st perfect number is 6 with 1 digit.
-- The 2nd perfect number is 28 with 2 digit.
-- The 3rd perfect number is 496 with 3 digit.
-- The 4th perfect number is 8,128 with 4 digit.  
+- The 2nd perfect number is 28 with 2 digits.
+- The 3rd perfect number is 496 with 3 digits.
+- The 4th perfect number is 8,128 with 4 digits.  
 
 So, how many digits are in the 5th perfect number?
 

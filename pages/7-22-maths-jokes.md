@@ -231,14 +231,12 @@ is worth looking at.
 
 ## 4. Domino toppling
 
-I watched this terrific video last week. Take a look and answer the question
-afterwards.
+I watched this terrific video last week. Take a look and answer the question afterwards.
 
 @[youtube](5JCm5FY-dEY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=4 marks=1
-__4__ Starting with 5mm tall domino, roughly how many dominoes would you need to knock
-down the Empire State Building?
+__4.1__ Starting with a 5mm tall domino, roughly how many dominoes would you need to knock down the Empire State Building?
 
 * [x] 30
 * [ ] 100
@@ -246,14 +244,9 @@ down the Empire State Building?
 * [ ] 100,000,000
 :::
 
-Each domino can knock over a domino that is 1.5 times bigger, which does not seem
-big, but when this happens over and over again, the dominoes get bigger and
-bigger very quickly. This is known as exponential growth and we will return to
-this in a future Parallelogram.
+Each domino can knock over a domino that is 1.5 times bigger, which does not seem big, but when this happens over and over again, the dominoes get bigger and bigger very quickly. This is known as exponential growth and we will return to this in a future Parallelogram.
 
-In the meantime, here is an even more extraordinary example of domino toppling
-where the dominos get bigger and bigger. In fact, it was a world record at the
-time.
+In the meantime, here is an even more extraordinary example of domino toppling where the dominos get bigger and bigger. In fact, it was a world record at the time.
 
 @[youtube](8yYWILv91YU?rel=0&start=176&end=215)
 
@@ -262,7 +255,7 @@ time.
 <!--- 2017 (13) --->
 
 ::: problem id=5 marks=1
-__5__ Consider the following three statements:
+__5.1__ Consider the following three statements:
 
 (i) Doubling a positive number always makes it larger.  
 (ii) Squaring a positive number always makes it larger.  
@@ -318,8 +311,6 @@ Simon.
 ## Additional Stuff
 
 You can read more about mathematician Maryam Mirzakhani in [this interview published in the Guardian](https://www.theguardian.com/science/2014/aug/13/interview-maryam-mirzakhani-fields-medal-winner-mathematician): 'The more I spent time on maths, the more excited I got'.
-
-[This article from the Telegraph newspaper](http://www.telegraph.co.uk/news/science/11029161/The-Fields-Medal-is-the-greatest-prize-in-maths.html) provides some history about the Fields Medal, the biggest prize in mathematics.
 
 [This website](https://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/) goes into more detail about ways of adding the numbers from 1 to 100, and is worth looking at.
 

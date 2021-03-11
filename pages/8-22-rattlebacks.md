@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 ::: problem id=1_1 marks=1
 __1.1.__ This clip is from University Challenge on BBC2 – listen carefully and add up all the numbers in the song.
 
-@[youtube](nZ38tg1342s?start=113&end=139&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](LAfYPIxkqCw?start=116&end=143&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 <input solution="176"/>  
 
@@ -112,9 +112,7 @@ Which of them belongs to the next such sequence of at least twenty years?
 {.col-5}
 
 ^^^ hint id=5 marks=1
-The only way to have a decade of consecutive years with a repeated digit is if the tens digit and the hundreds digit are the same (as in the decade 1990s).  
-
-The only time that this is followed by another decade following the same rule is when `n99n` is followed by `n00n`.
+The only way to have a decade of consecutive years with a repeated digit is if the tens digit and the hundreds or thousands digit are the same (as in the decade 1990s).  
 ^^^
 
 ---
@@ -135,7 +133,9 @@ Watch this video of one of the most mysterious objects in the universe. It’s c
 
 ## 7. VAX! – a game about epidemic prevention
 
-Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
+Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. This game was interesting when we first featured it in 2017, but since 2020 it has become part of our daily lives.
+
+We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
 
 It is definitely worth looking at the whole site and learning about the maths of disease, networks and connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
 
