@@ -38,11 +38,11 @@ Which numbers only have a single colour?
 ^^^
 
 ^^^ hint id=4
-2 is yellow, 4 is doubly orange, 8 is triply orange. Can you figure out why?
+2 is orange, 4 is doubly orange, 8 is triply orange. Can you figure out why?
 ^^^
 
 ^^^ hint id=5
-2 is yellow, 3 is green and 6 is orange and green. Why?
+2 is orange, 3 is green and 6 is orange and green. Why?
 ^^^
 
 <input solution="19"/>  

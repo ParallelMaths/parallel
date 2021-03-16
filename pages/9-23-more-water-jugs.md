@@ -59,7 +59,7 @@ __1.3__ What is the smallest number of colours required to paint a cube?
 
 ---
 
-A cube consists of three pairs of opposite faces, so each pair should be a different colour. Top and bottom are red, front and back are blue, while left and right faces are turquoise.
+A cube consists of three pairs of opposite faces, so each pair should be a different colour. For example, the top and bottom could be red, the front and back blue, and the left and right faces turquoise.
 :::
 
 
