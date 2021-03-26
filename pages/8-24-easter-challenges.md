@@ -329,7 +329,7 @@ Therefore, as `zr = 56`, `z = 7`. Also, as `x = 6` and `xs = 60`, `s = 10`. ![](
 
 This enables us to complete the table, as shown on the left. (Though, really, we need only to calculate the diagonal entries that we have shown in bold.)
 
-Therefore, we have `A + B + C + D + E = 6 = 25 + 48 + 40 + 42 = 161`.
+Therefore, we have `A + B + C + D + E = 6 + 25 + 48 + 40 + 42 = 161`.
 :::
 
 __Next up, we have the trickier questions.__

@@ -346,11 +346,9 @@ The sum of the interior angles of a polygon with n vertices is `(n − 2) × 180
 <!--- 2009 (12) --->
 
 ::: problem id=14_1 marks=5
-__14.1__ Gill is 21 this year. At the famous visit to the clinic in 1988, her weight was calculated to
-be 5kg, but she now weighs 50kg.
+__14.1__ Gill is 21 this year. When she was born, her weight was calculated to be 5kg. She now weighs 50kg.
 
-What has been the percentage increase in Gill's weight
-from 1988 to 2009?
+What has been the percentage increase in Gill's weight from when she was born to now?
 
 * [x] 900%
 * [ ] 1000%
@@ -361,7 +359,7 @@ from 1988 to 2009?
 
 ---
 
-The increase in Gill's weight is 45 kg, which is 9 times her weight in 1988.
+The increase in Gill's weight is 45 kg, which is 9 times her birth weight.
 
 So the percentage increase in weight is 900%.
 :::
@@ -653,11 +651,11 @@ Since I have won 49% of my first 500 games, so far I have won `49/100 × 500 = 4
 
 So, assuming I win every game from now on, I need to win `255 - 245 = 10` more games.
 
-Another approach is to say that I am going play and win `W` more games. At that point, the number of games that I win will be:
+Another approach is to say that I am going play and win `W` more games. At that point, the number of games that I win will be:  
 
-`(49/100 × 500 + W)/(500 + W) = 50% or 0.5`
+`(49/100 × 500 + W)/(500 + W) = 50% or 0.5`  
 
-Therefore `(245 + W)/(500 + W) = 0.5`
+Therefore `(245 + W)/(500 + W) = 0.5`  
 
 `245 + W = 250 + 0.5W`  
 `0.5W = 5`  

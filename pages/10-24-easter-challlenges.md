@@ -228,7 +228,7 @@ What is the size of the total shaded area?
 
 ^^^ hint id=10_1 marks=2
 Redraw the diagram as shown below and the problem becomes much easier.  
-![](/resources/10-24-easter-challlenges/10-circles.jpg){image align="center"}
+![](/resources/10-24-easter-challlenges/10-circles-answer.jpg){image align="center"}
 ^^^
 
 ---
@@ -243,7 +243,7 @@ Hence the total area is that of the rectangle plus that of a circle of radius 1,
 ## 11.
 <!--- (2003) Q18 --->
 ::: problem id=18_1 marks=4
-__11.1__ When dates are written using eight digits, eg 06 02 2020, the 20th February 2002 is a palindromic date, since 20 02 2002 has the ame digits int he same order when read in reverse.  
+__11.1__ When dates are written using eight digits, eg 06 02 2020, the 20th February 2002 is a palindromic date, since 20 02 2002 has the same digits in the same order when read in reverse.  
 
 The previous palindromic date and the next few all occur in the month of February.  
 
@@ -257,7 +257,9 @@ What will be the next month other than February to have a palindromic date in it
 
 ---
 
-All palindromic dates this century will fall in February as they will bee of the form ab 02 20ba. The palindromic dates next century will fall in December as they will be of the form cd 12 21dc and the first of these will be the 10th December 2101, ie 10 12 2101.
+All palindromic dates this century will fall in February as they will be of the form ab 02 20ba.  
+
+The palindromic dates next century will fall in December as they will be of the form cd 12 21dc and the first of these will be the 10th December 2101, ie 10 12 2101.
 :::
 
 
@@ -266,8 +268,6 @@ All palindromic dates this century will fall in February as they will bee of the
 Take a look at this classic number game from Countdown.
 
 @[youtube](6mCgiaAFCu8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
-
-Embded https://www.youtube.com/watch?v=
 
 Here is an explanation of what happened by Junaid Mubeen, Director of Education, at Whizz Education, who was also a Countdown octochamp.
 
@@ -312,14 +312,18 @@ What is `t`?
 
 ---
 
-We are given that `2n + e = 8 `and `t + e + n = 10`. Subtracting the first equation from the second gives `t - n = 2`.  As `n` cannot equal 1, the minimum value of `t` is 4 but this gives `n = 2`, `e = 4` which is impossible. If `t = 5` then `n = 3` and `e = 2`, which is allowed. If `t > 5` then `n > 3` and `e` is not a positive whole number, so 5 is the only possible value of `t`.
+We are given that `2n + e = 8` and `t + e + n = 10`. Subtracting the first equation from the second gives `t - n = 2`.  
+
+As `n` cannot equal 1, the minimum value of `t` is 4 but this gives `n = 2`, `e = 4` which is impossible.  
+
+If `t = 5` then `n = 3` and `e = 2`, which is allowed. If `t > 5` then `n > 3` and `e` is not a positive whole number, so 5 is the only possible value of `t`.
 :::
 
 
 ## 15.
 <!--- (2003) Q25 --->
 ::: problem id=15_1 marks=5
-__15.1__ The width:height ratio of television screens is changing form the traditional 4:3 to the widescreen 16:9. If a traditional screen and a widescreen have the same area, then what is the ratio widescreen width:traditional width?  
+__15.1__ The width:height ratio of television screens is changing from the traditional 4:3 to the widescreen 16:9. If a traditional screen and a widescreen have the same area, then what is the ratio widescreen width:traditional width?  
 
 Assume that television screens are rectangles.
 

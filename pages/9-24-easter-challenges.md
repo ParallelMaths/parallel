@@ -179,13 +179,19 @@ What is the total area of the shaded region?
 
 ^^^ hint id=6
 ![](/resources/9-24-easter-challenges/6-square-answer.png){image align="right"}
-We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` has an area of 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.
+We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram.  
+
+Since the square `ABCD` has an area of 196, it has side length 14.  
+
+We suppose that the smaller square inside `ABCD` has side length `x`.  
+
+Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.
 ^^^
 
 ---
 
 ![](/resources/9-24-easter-challenges/6-square-answer.png){image align="right"}
-We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` area 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.  
+We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram. Since the square `ABCD` has area 196, it has side length 14. We suppose that the smaller square inside `ABCD` has side length `x`. Since the larger square inside `ABCD` has area 4 times that of the smaller square it will have side length `2x`.  
 
 We note that the diagram is symmetric about the line `AC`. Hence the overlap of the squares is itself a square. Since this square has area 1, then it has side length 1. So `QR` has length 1. As `UR = AP`, `UR` has length `x`. Now `QS` has length `2x`. Therefore `US` has length `x + 2x − 1 = 3x − 1`. The length of `US` is the same as the side length of the square `ABCD`. Therefore `3x − 1 = 14`. Hence `x = 5`.  
 
@@ -249,7 +255,7 @@ Take a look at what Horatio says – does it fit with what any of the others say
 
 What Horatio says contradicts each of the statements made by his brothers. So he cannot be one of the two who are telling the truth.  
 
-What Alfred says contradicts what both what Inigo says and what Bernard says. So the two who are telling the truth cannot include Alfred.  
+What Alfred says contradicts both what Inigo says and what Bernard says. So the two who are telling the truth cannot include Alfred.  
 
 We deduce that the two brothers who are telling the truth are Bernard and Inigo. This is indeed possible. For example, if Alfred was born first, Horatio second, Bernard third and Inigo last, then just Bernard and Inigo are telling the truth.
 :::
@@ -298,7 +304,7 @@ Since the sides of the triangle have length 2, each of the circular arcs has rad
 
 The angles of the equilateral triangle are 60° which is `1/6`th of a complete revolution. So the areas of the shaded sectors of circles outside the triangle are `5/6`ths of the total areas of these circles, each of which has radius `1/2`.  
 
-So the area of these sectors is `3 × (5/6 (π (1/2)^2)) = 5/8 π`. The area of the 3 unshaded semicircles inside the triangle is `3 × (1/2 (π (1/2)^2)) = 3/8 π`. The difference between these is `5/8 π - 3/8 π = 1/4 π`. Hence, the is the difference between the area of the shaded shape and the area of the triangle is `π/4`.
+So the area of these sectors is `3 × (5/6 (π (1/2)^2)) = 5/8 π`. The area of the 3 unshaded semicircles inside the triangle is `3 × (1/2 (π (1/2)^2)) = 3/8 π`. The difference between these is `5/8 π - 3/8 π = 1/4 π`. Hence, the the difference between the area of the shaded shape and the area of the triangle is `π/4`.
 :::
 
 
