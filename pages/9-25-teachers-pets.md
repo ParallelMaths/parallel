@@ -33,7 +33,7 @@ __1.2__ Which of the following statements is correct?
 
 * [ ] The yolk of an egg is white
 * [ ] The yolk of an egg are white
-* [x] Neither
+* [x] Neither of the above statements is correct
 
 ---
 

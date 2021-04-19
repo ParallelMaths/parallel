@@ -33,7 +33,7 @@ const TTS_SCHOOLS = [
 
   {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['gj8tlp'], students: 23},
   {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['mfhd1p'], students: 22},
-  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['cd616b'], students: 21},
+  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['cd616b','ue9lwo'], students: 21},
   {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['agv1u','avg1u'], students: 18},
 
   {name: 'Cullompton Community College', year: 8, teachers: ['9knp4'], students: 16},
