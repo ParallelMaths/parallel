@@ -15,8 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go at taking the Junior Maths Challenge.__
-
 
 ## 1. The Good Will Hunting problem
 
@@ -156,8 +154,7 @@ must be essentially the same. Which pair of trees can be twisted and reshaped in
 {.col-4}
 
 ---
-The correct answer is (b) or (c). Because both trees have 1 dot connected to 5
-lines, 1 dot connected to 3 lines and 6 dots connected to 1 line.
+The correct answer is (b) & (c). Because both trees have 1 dot connected to 5 lines, 1 dot connected to 3 lines and 6 dots connected to 1 line.
 :::
 
 :::problem id=1_4 marks=1
@@ -182,8 +179,7 @@ must be essentially the same. Which pair of trees can be twisted and reshaped in
 {.col-4}
 
 ---
-The correct answer is (d) or (e), because both trees have 1 dot connected to 4
-lines, 2 dots connected to 3 lines and 6 dots connected to 1 line.
+The correct answer is (d) & (e), because both trees have 1 dot connected to 4 lines, 2 dots connected to 3 lines and 6 dots connected to 1 line.
 :::
 
 Now you are ready for the full Will Hunting problem.
@@ -223,14 +219,13 @@ then double well done.
 
 ## 2. NASA’s massive blackboard photograph
 
-This week I can across two terrific photographs of NASA mathematicians writing
+This week I came across two terrific photographs of NASA mathematicians writing
 down some mathematics on their giant blackboards. The boards were used for
 calculating rocket orbits and for getting astronauts to the Moon, and I suppose
 they had to be large so that everyone in the department could watch, learn and
 contribute.
 
 | ![](/resources/7-26-good-will-hunting/nasa-1.jpg) | ![](/resources/7-26-good-will-hunting/nasa-2.jpg) |
-
 
 
 ::: problem id=2 marks=1

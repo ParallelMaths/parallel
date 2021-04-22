@@ -15,9 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-__This is the last Parallelogram before next week’s UKMT Junior Maths Challenge, so good luck if you are taking the test. Do the best you can and you might get a bronze, silver or gold certificate. And if you don’t get a certificate, then at least you had a go at taking the Junior Maths Challenge.__
-
-
 ## 1.	Vi Hart snake bonanza
 
 This video shows the very amazing Vi Hart playing with flexible chain snakes. By the way, mathematicians love to just play with things, because mathematicians are bit odd and often interesting ideas emerge out of playing.

@@ -196,8 +196,11 @@ The answer is odd.
 
 ---
 
-The number 10^640 − 1 consists of a string of 640 nines when written out in standard form. So the
-number `10^641 × (10^640 - 1)` consists of a string of 640 nines followed by 641 zeros. Therefore `(10^641 × (10^640 - 1))/9` consists of a string of 640 ones followed by 641 zeros. Adding 1 just changes the final digit from zero to a one. So the prime is:  
+The number `10^640 − 1` consists of a string of 640 nines when written out in standard form. So the number `10^641 × (10^640 - 1)` consists of a string of 640 nines followed by 641 zeros.  
+
+Therefore `(10^641 × (10^640 - 1))/9` consists of a string of 640 ones followed by 641 zeros. Adding 1 just changes the final digit from zero to a one.  
+
+So the prime is:  
 
 ![](/resources/9-26-qi-mathematics/4-prime-answer.png){image align="center"}
 
