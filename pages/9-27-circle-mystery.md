@@ -122,7 +122,7 @@ What is Zac’s original number?
 
 Let Zac’s original number be `x`. When Zac halves this and adds 8 he obtains `1/2 x + 8`. When he doubles his original number and subtracts 8, the result is `2x − 8`.  
 
-As these answers are the same, `1/2 x + 8 = 2x - 8`. Therefore 3/2 x = 16. Hence `x = 2/3 × 16 = 32/3 = 10 2/3`.
+As these answers are the same, `1/2 x + 8 = 2x - 8`. Therefore `3/2 x = 16`. Hence `x = 2/3 × 16 = 32/3 = 10 2/3`.
 :::
 
 

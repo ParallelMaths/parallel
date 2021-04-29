@@ -125,13 +125,13 @@ What is the value of `x`?
 * [ ] 30
 
 ^^^ hint id=3_1 marks=2
-First, you know that the angles at A, B, C, D, E and F are all 60o. Then you can work out the angles marked with red circles. Then you can work out angle BHE, and from there you can go on to solve the problem.
+First, you know that the angles at A, B, C, D, E and F are all 60°. Then you can work out the angles marked with red circles. Then you can work out angle BHE, and from there you can go on to solve the problem.
 
 ![](/resources/10-27-alan-turing/3-triangles-hint.png){image align="center"}
 ^^^
 
 ^^^ hint id=3_2 marks=1
-Once you know the angle at BHE, then you know the vertical angle, the angle at DHC. You already know that the angle at C is 60o, so you can work out the angle at xo.
+Once you know the angle at BHE, then you know the vertically opposite angle, the angle at DHC. You already know that the angle at C is 60°, so you can work out the angle at `x`°.
 ^^^
 
 ---
@@ -147,11 +147,11 @@ Therefore ∠GHB = (45 + 55)° = 100° (exterior angle theorem) and, using the s
 
 ## 4.	John Snow
 
-I am writing this Parallelogram at the end of the first week of the UK corona virus lockdown in March 2020. I thought it might be a good time to tell you the story of John Snow, a nineteenth century medical superstar, who invented “epidemiology”, a new mathematical science that has saved millions of lives. Here’s a paragraph about Snow from the website Open Culture.  
+I wrote this Parallelogram at the end of the first week of the UK coronavirus lockdown in March 2020. I thought it might be a good time to tell you the story of John Snow, a nineteenth century medical superstar, who invented “epidemiology”, a new mathematical science that has saved millions of lives. Here’s a paragraph about Snow from the website Open Culture.  
 
 _During the 1854 outbreak of cholera in London, Snow convinced authorities and critics that the disease spread from a contaminated water pump on Broad Street, leading to the now-legendary infographic map below showing the incidences of cholera clustered around the pump. Snow’s persistence resulted in the removal of the handle from the Broad Street pump and has been credited with ending an epidemic that claimed 500 lives. The Broad Street pump map has become “an enduring feature of the folklore of public health and epidemiology," write the authors of an article published in The Lancet._  
 
-By finding the location of cholera victims, Snow was able to pinpoint the source of the infection, the water pump, which he was able to disable and thereby halt the spread of the disease. Ever since Snow, doctors and mathematicians have worked hard to use mathematical models to stop the spread of disease. Of course, this is happening right now in order to bring the spread of the corona virus under control.
+By finding the location of cholera victims, Snow was able to pinpoint the source of the infection, the water pump, which he was able to disable and thereby halt the spread of the disease. Ever since Snow, doctors and mathematicians have worked hard to use mathematical models to stop the spread of disease. Of course, this is happening right now in order to bring the spread of the coronavirus under control.
 
 ![](/resources/10-27-alan-turing/4-john-snow.jpg){image align="center"}
 
@@ -161,7 +161,7 @@ By finding the location of cholera victims, Snow was able to pinpoint the source
 
 ::: problem id=5_1 marks=5
 ![](/resources/10-27-alan-turing/24-cube.png){image align="right"}
-__5.1__ The figure shows a cube of side 1 on which all twelve face diagonals have been drawn - creating a network with 14 vertices (the original eight corners, plus the six face centres) and 36 edges (the original twelve edges of the cube plus four extra edges on each face).  
+__5.1__ The figure shows a cube of side 1 on which all twelve faces diagonals have been drawn - creating a network with 14 vertices (the original eight corners, plus the six face centres) and 36 edges (the original twelve edges of the cube plus four extra edges on each face).  
 
 What is the length of the shortest path along the edges of the network which passes through all 14 vertices?
 
@@ -181,13 +181,15 @@ If you unwrap the cube, then this is path that you need to follow to pass throug
 
 Figure (i) shows a net of the cube on which a possible path has been drawn, while figure (ii) shows a diagram of the cube on which the same path has been drawn.  
 
-Each edge of the network which joins a corner to a face centre has length, while each edge which joins two adjacent corners has length `1/sqrt(2)`.   
+Each edge of the network which joins two corners diagonally via a face centre has length `1/sqrt(2)`, while each edge which joins two adjacent corners has length 1.   
 
 So the length of the path shown is `1 + 12 × 1/sqrt(2)`, that is `1 + 6sqrt(2)`. This is the length of the shortest path along the edges of the network which passes through all 14 vertices.  
 
 To prove this, we first note that to connect the 14 vertices we need a minimum of 13 edges, so the length of the shortest path must be at least `13 × 1/sqrt(2)`.  
 
 A path of this length would move alternately between corners and face centres, but as there are 8 corners and 6 face centres this is impossible. At least one of the edges on the shortest path, therefore, must join two corners. So the length of the shortest path must be at least `1 + 12 × 1/sqrt(2)`.  
+
+`12 × 1/sqrt(2) = 12 × sqrt(2)/2 = 6 × sqrt(2)`
 
 The diagrams show that such a path does exist so we are able to conclude that is indeed the length of the shortest path.
 

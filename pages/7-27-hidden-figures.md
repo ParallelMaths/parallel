@@ -44,7 +44,7 @@ hours did the children say their mother had been gone?
 The answer is 300 hours, which the mother immediately converts into 12½ days.
 :::
 
-The film tells the story of three brilliant black women who helped send the
+The film tells the story of three brilliant black women who helped send some of the first
 American astronauts into space. These are just a few of the many women who
 played a crucial role in the space race. It is a terrific film, which received
 three Oscar nominations and which is both inspiring and exciting. Well worth
@@ -121,7 +121,7 @@ factor did the number of transistors increase in just 12 years?
 {.col-5}
 
 ---
-The 80486 had roughly 1,000,00 transistors, and the AMD K8 had about 100,000,000
+The 80486 had roughly 1,000,000 transistors, and the AMD K8 had about 100,000,000
 transistors, so there was an increase by a factor of 100.
 :::
 
@@ -255,7 +255,7 @@ If you want to find out more about the topics in this week’s Parallel Challeng
 
 * [Your smartphone is millions of times more powerful than all of NASA’s combined computing in 1969](http://www.zmescience.com/research/technology/smartphone-power-compared-to-apollo-432/){target="_blank"} – an article on the ZME Science website.
 * [Here is a great article](http://www.latimes.com/science/sciencenow/la-sci-sn-hidden-figures-katherine-johnson-20170109-story.html){target="_blank"} from the Los Angeles Times titled “Meet the ‘Hidden Figures’ mathematician who helped send Americans into space”.
-* Short, but incredible, clip of mathematician Katherine Johnson receiving the Presidential Medal Of Freedom from President Obama.
+* This short, but incredible, clip of mathematician Katherine Johnson receiving the Presidential Medal Of Freedom from President Obama.
 
 @[youtube](rIWJFNAN4XI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 

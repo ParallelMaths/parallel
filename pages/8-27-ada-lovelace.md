@@ -60,7 +60,7 @@ When Usain has run 100 m his mum has run half this distance, that is, 50 m and T
 
 A double negative is something like: “I didn't not go to the park today.” This can be rewritten as: “I did not not go to the park today.”
 
-This actually means: “I did go to the park today.”  The “not not” cancel each other out. You can think about it mathematically, as (not = -1) and (not not = −1 × −1 = +1).
+This actually means: “I did go to the park today.”  The “not not” cancel each other out. You can think about it mathematically, as (not = −1) and (not not = −1 × −1 = +1).
 
 Sometimes a double negative works differently, such as in the phrase: “I didn't go nowhere today.” It has two NOTs in it, first in (didn’t = did not) and second in (nowhere = not somewhere)... so according to the previous rule this suggests that “I didn’t go nowhere” means “I went somewhere”. However, we all know that if someone says this then they didn’t go anywhere. If we think about it mathematically it is a negative added to a negative instead of a negative multiplied by a negative, i.e., (−1 + −1 = −2).
 
