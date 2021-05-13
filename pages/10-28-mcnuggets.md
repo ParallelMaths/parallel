@@ -101,9 +101,9 @@ Let `ABCD` be the cross-section of one of the stones, as shown.
 
 As `AD = BC`, `ABCD` is an isosceles trapezium with `∠ADC = ∠BCD`.  
 
-If `∠ADC = ∠BCD = θ`, then `2θ` is the interior angle of a regular 20-sided polygon, namely `(180 - 360/20)°`, which equals `162°`.  
+If `∠ADC = ∠BCD = θ`, then `2θ` is the interior angle of a regular 20-sided polygon, namely `(180 - 360/20)`°, which equals 162°.  
 
-So `θ` is `81°`.   
+So `θ` is 81°.   
 :::
 
 
@@ -128,7 +128,7 @@ If each of the five sections has the same perimeter, what is the ratio of the le
 ^^^ hint id=4_1 marks=2
 Each exterior angle of a regular hexagon = 360° ÷ 6 = 60°, so when sides HB and IC are extended to meet at A, an equilateral triangle, ABC, is created.  
 
-Let the sides of this triangle be of length x. As BC, DE and FG are all parallel, triangles ABC, ADE and AFG are all equilateral. So `DE = DA = p + x`; `FG = FA = q + p + x`.  
+Let the sides of this triangle be of length `x`. As BC, DE and FG are all parallel, triangles ABC, ADE and AFG are all equilateral. So `DE = DA = p + x`; `FG = FA = q + p + x`.  
 ![](/resources/10-28-mcnuggets/4-hexagon-answer.png){image align="center"}
 ^^^
 

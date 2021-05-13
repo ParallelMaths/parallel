@@ -76,13 +76,13 @@ In fact, they are the only three consecutive odd prime numbers, and we can prove
 
 Last week, you watched one of the world’s greatest mathematicians, Neil Sloane, talking about circle patterns. He is also interested in spheres, and this video introduces you to mathematical problem of sphere packing.  
 
-The video – presented by James Grime – will explain it in more detail, but essentially the questions is “what is the best way to pack spheres so that you leave the minimum amount of space between the spheres?” Alternatively, if you have a large (actually, infinite) box, then what is the best way to pack oranges, so that you get the most oranges in the box?”
+The video – presented by James Grime – will explain it in more detail, but essentially the questions is “what is the best way to pack spheres so that you leave the minimum amount of space between the spheres?” Alternatively, "If you have a large (actually, infinite) box, then what is the best way to pack oranges, so that you get the most oranges in the box?”
 
 
 @[youtube](CROeIGfr3gs?end=642&rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=3_1 marks=2
-__3.1__  According Kepler, what was the maximum efficiency for packing spheres?
+__3.1__  According to Kepler, what was the maximum efficiency for packing spheres?
 
 * [ ] 50%
 * [ ] 66%

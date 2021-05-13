@@ -190,7 +190,7 @@ __6.2.__ Why does the paddle wheel not hit Joseph?
 
 * [ ] Joseph ducks just in time.
 * [ ] The wheel is blocked by a wall.
-* [ ] A bowling bowl redirects the wheel.
+* [ ] A bowling ball redirects the wheel.
 * [x] The wheel is missing a section.
 :::
 

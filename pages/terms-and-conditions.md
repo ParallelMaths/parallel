@@ -16,7 +16,6 @@ For students:
 *	Name
 *	Email address
 *	Year of birth
-*	Country of origin
 *	Identifying code to link students to their teachers (optional)  
 
 For teachers:
@@ -24,7 +23,6 @@ For teachers:
 *	Email address
 *	School name
 *	School contact details
-*	Country of origin
 
 We will also ask users to register a password so you can gain secure access to your account in the future.
 

@@ -155,7 +155,7 @@ The sum of all the numbers from 1 to 40 is:
 
 ---
 If we pair up all the numbers we get 20 pairs and each one totals 41, namely
-(40 + 1), (39 + 2), (38, 3) and so on. And 20 x 41 = 820.
+(40 + 1), (39 + 2), (38 + 3) and so on. And 20 x 41 = 820.
 :::
 
 
@@ -179,7 +179,7 @@ If you double a number, say 1, ten times, then how much bigger does it get? Use 
 * [ ] 42,000,000,000
 
 ---
-This video clip from Chris Seber (at [MathMeeting.com](MathMeeting.com){target="_blank"}) explains how to work out the answer:
+This video clip from Chris Seber (at [MathMeeting.com](http://www.mathmeeting.com/){target="_blank"}) explains how to work out the answer:
 @[youtube](S2ec2wpYJ_0?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
