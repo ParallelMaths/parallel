@@ -22,7 +22,7 @@ The terrific Mathigon website has loads of great material, including a timeline 
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/9-30-mathematical-timeline/1-napier.png){image align="center"}
+![](/resources/9-29-mathematical-timeline/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at mathematicians from 1600 to 1700, what is the surname of the mathematician who is best know for his Last Theorem?
@@ -55,7 +55,7 @@ __1.4__ Looking at mathematicians from 1800 to 1900, what is the surname of the 
 <!--- 2014 (3) --->
 
 ::: problem id=2 marks=2
-![](/resources/9-30-mathematical-timeline/3-triangle.png){image align="right"}
+![](/resources/9-29-mathematical-timeline/3-triangle.png){image align="right"}
 __2.1__ An equilateral triangle is placed inside a larger equilateral triangle so that the diagram has three lines of symmetry.  
 
 What is the value of `x`?
@@ -68,7 +68,7 @@ What is the value of `x`?
 
 ---
 
-![](/resources/9-30-mathematical-timeline/3-triangle-answer.png){image align="right"}
+![](/resources/9-29-mathematical-timeline/3-triangle-answer.png){image align="right"}
 We label the vertices in the diagram as shown.  
 
 Because the figure is symmetrical about the line `PS`, `∠PSU = ∠PST`.  

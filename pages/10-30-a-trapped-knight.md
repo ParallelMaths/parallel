@@ -10,20 +10,18 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-* Tackle each Parallelogram in one go. Don’t get distracted.  
-* It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!  
-* Finish by midnight on Sunday 31 May if your whole class is doing parallelograms.  
-* When you finish, remember to hit the SUBMIT button.  
-*	Finish by Sunday night if your whole class is doing parallelograms.  
-
-__IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
+*	Tackle each Parallelogram in one go. Don’t get distracted.
+* It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
+*	Your score & answer sheet will appear immediately after you hit SUBMIT.
+*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
 ## 1. A Trapped Knight
 
 This is a fascinating Numberphile video presented by mathematical genius Neil Sloane. Although it relates to the knight in chess, you don’t need to know anything about chess, except that the knight moves in an L-shape, which means moving 2 squares in a line, then a turn by 90°, and moving one more square, as shown by the dots on this chessboard.  
 
-![](/resources/10-29-a-trapped-knight/1-chess.png){image align="center"}
+![](/resources/10-30-a-trapped-knight/1-chess.png){image align="center"}
 
 @[youtube](RGQe8waGJ4w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
@@ -97,12 +95,12 @@ She left the 12 in its usual place; what number did she put where the 6 would us
 {.col-5}
 
 ^^^ hint id=4_1 marks=2
-It’s easy to work out which numbers are either side of the 12. It then does not matter which side the 3 and 9 go. It is then easy to work out which numbers go the other side of the 3 and 9. As you get to the end, it gets trickier, as there are some different options, but just remember that for every option clockwise and anticlockwise, the number as to be same at the bottom of the clock.
+It’s easy to work out which numbers are either side of the 12. It then does not matter which side the 3 and 9 go. It is then easy to work out which numbers go the other side of the 3 and 9. As you get to the end, it gets trickier, as there are some different options, but just remember that for every option clockwise and anticlockwise, the number has to be same at the bottom of the clock.
 ^^^
 
 ---
 
-![](/resources/10-29-a-trapped-knight/4-circle-answer.png){image align="right"}
+![](/resources/10-30-a-trapped-knight/4-circle-answer.png){image align="right"}
 For ease of reference, label the points A, B, C,…, K as shown.  
 
 First note that A = 3 and K = 9 or vice versa. With no loss of generality, let A = 3. Then the only possible values for B, C, and D are 7, 8 and 2 respectively. This gives E = 1 or 4 and, as K = 9, J = 1 or 6.  
@@ -196,7 +194,7 @@ I “borrowed” this question from the fantastic BBC quiz show ONLY CONNECT. Ca
 ::: problem id=7_1 marks=4
 __7.1__ Which option comes next in this sequence?
 
-![](/resources/10-29-a-trapped-knight/7-only-connect.jpg){image align="center"}
+![](/resources/10-30-a-trapped-knight/7-only-connect.jpg){image align="center"}
 
 * [x] A
 * [ ] B
@@ -219,9 +217,9 @@ Look at which segments are missing. You will find that the missing segments make
 
 ---
 
-The answer is A. If you imagine the missing segments, then you get the pattern 0, 1, 2, ?. So, the next number is 3, but we want the segments left when you remove number three.
+The answer is A. If you imagine the missing segments, then you get the pattern 0, 1, 2, ?. So, the next number is 3, but we want the segments left when you remove the number three.
 
-![](/resources/10-29-a-trapped-knight/7-only-connect-answer.jpg){image align="center"}
+![](/resources/10-30-a-trapped-knight/7-only-connect-answer.jpg){image align="center"}
 :::
 
 
@@ -231,11 +229,11 @@ The answer is A. If you imagine the missing segments, then you get the pattern 0
 ::: problem id=8_1 marks=4
 __8.1__ Which of the following shaded regions has an area different from the other shaded regions?
 
-* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-a.png)
-* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-b.png)
-* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-c.png)
-* [x] ![](/resources/10-29-a-trapped-knight/8-squares-d.png)
-* [ ] ![](/resources/10-29-a-trapped-knight/8-squares-e.png)
+* [ ] ![](/resources/10-30-a-trapped-knight/8-squares-a.png)
+* [ ] ![](/resources/10-30-a-trapped-knight/8-squares-b.png)
+* [ ] ![](/resources/10-30-a-trapped-knight/8-squares-c.png)
+* [x] ![](/resources/10-30-a-trapped-knight/8-squares-d.png)
+* [ ] ![](/resources/10-30-a-trapped-knight/8-squares-e.png)
 {.col-5}
 
 ^^^ hint id=8_1 marks=1
@@ -256,7 +254,7 @@ However, the area of triangle `D = 3 × 3 − (3 + 3 + 1/2) = 2 1/2`.
 
 I am writing this Parallelogram during the pandemic lockdown (2020), when I received the picture below from Len Fisher, who explained that it was being put up as a reminder to people in San Francisco to keep 6 feet apart.
 
-![](/resources/10-29-a-trapped-knight/9-san-francisco.png)
+![](/resources/10-30-a-trapped-knight/9-san-francisco.png)
 
 ::: problem id=9_1 marks=2
 __9.1__ However, there is a problem with this sign. If each person is 6 feet away from the person in the opposite corner, then each person is closer than that to the person in the adjacent (or neighbouring) corner.  
@@ -275,7 +273,7 @@ We know that `a = b`, and that `c = 6`, so:
 
 So, `a = sqrt(18) = 4.2`.
 
-![](/resources/10-29-a-trapped-knight/9-san-francisco-answer.png)
+![](/resources/10-30-a-trapped-knight/9-san-francisco-answer.png)
 :::
 
 
@@ -332,7 +330,7 @@ This machine physically visualizes a googol (`10^100`). Watch and be awe struck.
 @[youtube](KLAbM9aDupk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 
-The next Parallelogram will be out on Thursday 4 June at 3pm.
+The next Parallelogram will be out next Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

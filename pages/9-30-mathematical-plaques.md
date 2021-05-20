@@ -11,8 +11,8 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-* Finish by midnight on Sunday 31 May if your whole class is doing parallelograms.  
+* It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -23,7 +23,7 @@ As mentioned last week, the terrific Mathigon website has loads of great materia
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/9-29-mathematical-plaques/1-napier.png){image align="center"}
+![](/resources/9-30-mathematical-plaques/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is best known for proving Fermat’s Last Theorem?
@@ -60,7 +60,7 @@ __2.1__ You are given that m is an even integer and n is an odd integer. Which o
 
 We make repeated use of the standard facts that the sum of two even integers is even, the sum of two odd integers is also even, and the sum of an even integer and an odd integer is odd. Also, the product of two integers is odd if, and only if, both integers are odd. Note that the following tables give us a convenient way to summarize these facts.
 
-![](/resources/9-29-mathematical-plaques/2-odd-even.png){image align="center"}
+![](/resources/9-30-mathematical-plaques/2-odd-even.png){image align="center"}
 
 We can now check the options, one by one.  
 
@@ -81,7 +81,7 @@ All over the UK, there blue plaques on buildings where famous people lived or wo
 ::: problem id=3_1 marks=3
 __3.1__  This photo by David Harrison shows a plaque erected next the Drypool Bridge in Hull.
 
-![](/resources/9-29-mathematical-plaques/3-mathematician-plaque.jpg){image align="center"}
+![](/resources/9-30-mathematical-plaques/3-mathematician-plaque.jpg){image align="center"}
 
 What is the surname of the mathematician who is being remembered? I have removed his name from the middle section of the plaque.
 
@@ -91,7 +91,7 @@ What is the surname of the mathematician who is being remembered? I have removed
 
 The answer is VENN, because John Venn invented the Venn diagram and he was both (mathematician, philosopher, priest) + (had a strong beard).
 
-![](/resources/9-29-mathematical-plaques/3-mathematician-answer.jpg){image align="center"}
+![](/resources/9-30-mathematical-plaques/3-mathematician-answer.jpg){image align="center"}
 :::
 
 
@@ -126,7 +126,7 @@ This leaves `(pd)/100` as the only option which could be correct.
 
 ## 5. Another unofficial mathematical plaque
 
-In 2017, I put up an unofficial plaque to recognise a building where two mathematicians had a curious conversation about the number 1,729. [Visit this web page](https://www.bbc.co.uk/news/magazine-24459279){target="_blank"} about the plaque and answer the three questions below.
+In 2017, I put up an unofficial plaque to recognise a building where two mathematicians had a curious conversation about the number 1,729. [Visit this web page](https://www.bbc.co.uk/news/magazine-24459279){target="_blank"} about the number 1729 and answer the three questions below.
 
 ::: problem id=5_1 marks=2
 __5.1__ Who spotted the unusual property of 1,729?
@@ -178,7 +178,7 @@ How many of the points (6,2), (6,3), (6,4) and (6,5) are _not_ hidden points?
 
 ---
 
-![](/resources/9-29-mathematical-plaques/6-graph.png){image align="right"}
+![](/resources/9-30-mathematical-plaques/6-graph.png){image align="right"}
 We can see that:  
 * the point (6,2) is hidden behind (3,1),  
 * the point (6,3) is hidden behind (2,1), and
@@ -200,7 +200,7 @@ I read an interesting article in the Financial Times written by Tim Harford, who
 __This confidence would be reassuring, were it not utterly erroneous. Researchers have been studying this question since the 1920s. They have overwhelmingly concluded both that individual answer changes are more likely to be from wrong to right, and that students who change their answers tend to improve their scores.__"
 {.text-center}
 
-This is something to bear in mind next time you take a test. I would also encourage you to [read the whole article if you can](https://www.ft.com/content/32e4b22e-7197-11e9-bbfb-5c68069fbd15){target="_blank"}, as it covers some interesting idea and explains how you test a theory about changing your mind.
+This is something to bear in mind next time you take a test. I would also encourage you to [read the whole article if you are able to (it is behind a paywall)](https://www.ft.com/content/32e4b22e-7197-11e9-bbfb-5c68069fbd15){target="_blank"}, as it covers some interesting idea and explains how you test a theory about changing your mind.
 
 
 ## 8. Who came top?
@@ -269,7 +269,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* The next Parallelogram will be out on Thursday 4 June at 3pm.
+* The next Parallelogram will be out next Thursday at 3pm.
 
 Cheerio,
 Simon.

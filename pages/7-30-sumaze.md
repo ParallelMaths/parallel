@@ -11,8 +11,8 @@ week by the Parallel Project to bright young mathematicians.
 </div>
 
 *	Tackle each Parallelogram in one go. Don’t get distracted.
-*	It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
-* Finish by midnight on Sunday 31 May if your whole class is doing parallelograms.  
+* It’s half-term for most of you, so this Parallelogram is a bit longer and you have a bit more time to complete it. Importantly, double badge points!
+*	Finish by midnight on Sunday if your whole class is doing parallelograms.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
@@ -75,7 +75,7 @@ However, you will lose 2 points for every hint you use (available on levels 8 & 
 
 It is easier to understand Sumaze! by playing it, but in case it helps here are a few important rules and tips:
 
-* Aim – to move your blue box to reach the “end of level” square.
+* Aim to move your blue box to reach the “end of level” square.
 * Your box cannot at any time contain a number bigger than 1,000.
 * Your box cannot at any time contain a number that is a fraction.
 * You sometimes need keys to open doors to reach the “end of level” square.
@@ -85,7 +85,6 @@ It is easier to understand Sumaze! by playing it, but in case it helps here are 
 * Lilac squares (and their operations) can be crossed over and over again.
 * IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a smartphone,
   then type this into your PC/Mac/tablet browser: bit.ly/parallel_sumaze
-* If you want to explore more Sumaze puzzles, then check out the Additional Stuff section.
 
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
@@ -181,7 +180,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* The next Parallelogram will be out on Thursday 4 June at 3pm.
+* The next Parallelogram will be out next Thursday at 3pm.
 
 
 Cheerio,

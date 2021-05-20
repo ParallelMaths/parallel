@@ -22,7 +22,7 @@ The terrific Mathigon website has loads of great material, including a timeline 
 
 So, if the answer is John Napier, just enter __Napier__, because that is the name that appears in the plum-coloured box on the timeline:
 
-![](/resources/7-30-mathematical-timeline/1-napier.png){image align="center"}
+![](/resources/7-29-mathematical-timeline/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 __1.1__ Looking at mathematicians from the BC era (who lived more than 2,000 years ago), what is the first name of the mathematician who wrote ELEMENTS and was know as the father of geometry?
@@ -57,7 +57,7 @@ Two of the numbers have been inserted in order to get you started. Just identify
 
 (NOTE: perform operations in the order they appear, e.g., `3 + 4 × 5 = 35` (not 23))
 
-![](/resources/7-30-mathematical-timeline/6-1-puzzle.png){style="width:400px"}
+![](/resources/7-29-mathematical-timeline/6-1-puzzle.png){style="width:400px"}
 
 ::: problem id=2_1 marks=0.25
 __2.1__ a = <input type="text" solution="6"/>
@@ -105,7 +105,7 @@ We also know that `a × 5` is a factor of 90 from the 1st column, so `a = 6`.
 
 And the rest is easy.
 
-![](/resources/7-30-mathematical-timeline/6-1-puzzle-solution.png){style="width:400px"}
+![](/resources/7-29-mathematical-timeline/6-1-puzzle-solution.png){style="width:400px"}
 :::
 
 

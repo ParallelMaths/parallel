@@ -107,7 +107,7 @@ The teacher in question, the great Mr Pigden, passed away in 2017.
 <!--- (2005) Q16 --->
 
 ::: problem id=5_1 marks=4
-![](/resources/10-30-slinky-physics/5-block.png){image align="right"}
+![](/resources/10-29-slinky-physics/5-block.png){image align="right"}
 __5.1__ A 1 × 2 × 3 block is placed on an 8 × 8 board as shown, with the 1 × 2 face ‘X’ at the bottom.  
 
 It is rolled over an edge, without slipping, onto the 1 × 3 face Y, then onto the 2 × 3 face Z, then onto X, then Y, then Z again in that order.  
@@ -122,7 +122,7 @@ How many different squares on the board has the block occupied altogether, inclu
 {.col-5}
 
 ---
-![](/resources/10-30-slinky-physics/5-block-answer.png){image align="right"}
+![](/resources/10-29-slinky-physics/5-block-answer.png){image align="right"}
 The two dark squares are those on which the block stands originally.  
 
 After the first move, it occupies the squares labelled ‘1’ or ‘1/5’. After the second move it occupies the squares labelled ‘2’ and so on.  

@@ -20,12 +20,13 @@ year7:
     title: Top of the League
     available: 2021-06-10T13:00:00
     deadline: 2021-06-14T13:00:00
-  - url: 7-30-mathematical-timeline
-    title: Mathematical Timeline
-    available: 2021-06-03T13:00:00
-    deadline: 2021-06-06T13:00:00
-  - url: 7-29-sumaze
+  - url: 7-30-sumaze
     title: Joseph’s Machines
+    available: 2021-05-27T13:00:00
+    deadline: 2021-05-30T13:00:00
+    scoreFactor: 2
+  - url: 7-29-mathematical-timeline
+    title: Mathematical Timeline
     available: 2021-05-20T13:00:00
     deadline: 2021-05-23T13:00:00
   - url: 7-28-blackboard-equation
@@ -166,15 +167,15 @@ year8:
     title: Floppy Pizza
     available: 2021-06-10T13:00:00
     deadline: 2020-06-14T13:00:00
-  - url: 8-30-mathematical-timeline
-    title: Mathematical Timeline
-    available: 2021-06-03T13:00:00
-    deadline: 2021-06-06T13:00:00
-  - url: 8-29-amazing-grace
+  - url: 8-30-amazing-grace
     title: Amazing Grace
+    available: 2021-05-27T13:00:00
+    deadline: 2021-05-30T13:00:00
+    scoreFactor: 2
+  - url: 8-29-mathematical-timeline
+    title: Mathematical Timeline
     available: 2021-05-20T13:00:00
     deadline: 2021-05-23T13:00:00
-    scoreFactor: 2
   - url: 8-28-seven-bridges-konigsberg
     title: Seven Bridges of Konigsberg
     available: 2021-05-13T13:00:00
@@ -312,15 +313,15 @@ year9:
     title: Tangrams
     available: 2021-06-10T13:00:00
     deadline: 2020-06-14T13:00:00
-  - url: 9-30-mathematical-timeline
-    title: Mathematical Timeline
-    available: 2021-06-03T13:00:00
-    deadline: 2021-06-06T13:00:00
-  - url: 9-29-mathematical-plaques
+  - url: 9-30-mathematical-plaques
     title: Mathematical Plaques
+    available: 2021-05-27T13:00:00
+    deadline: 2021-05-30T13:00:00
+    scoreFactor: 2
+  - url: 9-29-mathematical-timeline
+    title: Mathematical Timeline
     available: 2021-05-20T13:00:00
     deadline: 2021-05-23T13:00:00
-    scoreFactor: 2
   - url: 9-28-sphere-packing
     title: Sphere Packing
     available: 2021-05-13T13:00:00
@@ -458,12 +459,13 @@ year10:
     title: Pi
     available: 2021-06-10T13:00:00
     deadline: 2020-06-14T13:00:00
-  - url: 10-30-slinky-physics
-    title: Slinky Physics
-    available: 2021-06-03T13:00:00
-    deadline: 2021-06-06T13:00:00
-  - url: 10-29-a-trapped-knight
+  - url: 10-30-a-trapped-knight
     title: A Trapped Knight
+    available: 2021-05-27T13:00:00
+    deadline: 2021-05-30T13:00:00
+    scoreFactor: 2
+  - url: 10-29-slinky-physics
+    title: Slinky Physics
     available: 2021-05-20T13:00:00
     deadline: 2021-05-23T13:00:00
   - url: 10-28-mcnuggets
