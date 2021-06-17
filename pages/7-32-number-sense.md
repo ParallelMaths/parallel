@@ -61,13 +61,13 @@ How long is each edge of the regular decagon `P`?
 
 ---
 
-An octagon has eight edges. Therefore the perimeter of the regular octagon `Q` is `8 × 10 cm = 80` cm.  
+An octagon has eight edges. Therefore the perimeter of the regular octagon `Q` is `8 × 10` cm = 80 cm.  
 
 The perimeter of the regular decagon `P` is eight times that of the regular octagon `Q` and is therefore `8 × 80` cm, that is, `640` cm.  
 
 A decagon has 10 edges. Therefore the length of each edge of `Q` is given by  
 
-`(640 ÷ 10) cm = 64` cm.
+`(640 ÷ 10)` cm = 64 cm.
 :::
 
 
@@ -92,7 +92,7 @@ __4.1__ How many digits are there in the correct answer to the calculation 123,1
 {.col-5}
 
 ^^^ hint id=4_1
-The answer isn't 4!
+The answer isn't 4...
 ^^^
 
 ---

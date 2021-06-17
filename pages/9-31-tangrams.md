@@ -53,7 +53,7 @@ The sum of the three numbers in each square corresponds to the letter of the alp
 *	6 + 4 + 4 = 14 -> the 14th letter of the alphabet is __N__
 *	4 + 1 + 7 = 12 -> the 12th letter of the alphabet is __L__
 *	5 + 6 + 10 = 21 -> the 21st letter of the alphabet is __U__
-*	14 + 1 + 2 = 17 -> the 17th letter of the alphabet is therefore __Q__
+*	14 + 1 + 2 = 17 -> the 17th letter of the alphabet is __Q__
 :::
 
 
@@ -133,9 +133,11 @@ So `8^m = 27` may be written as `(2^3)^m = 3^3`.
 
 ---
 
-Notice that `8 = 2^3` and `27 = 3^3`. So `8^m = 27` may be written as `(2^3)^m = 3^3`.
+Notice that `8 = 2^3` and `27 = 3^3`. So `8^m = 27` may be written as ( `2^3` ) <sup>m</sup> = `3^3`.
 
-So `2^(3m) = 3^3`, and hence `(2^m)^3 = 3^3`. It follows that `2^m = 3`. So `4^m = (2^2)^m = 2^(2m) = (2^m)^2 = 3^2 = 9`.
+So `2^(3m) = 3^3`, and hence ( `2^m` ) <sup>3</sup> = `3^3`. It follows that `2^m = 3`.  
+
+So `4^m` = ( `2^2` ) <sup>m</sup> = `2^(2m)` = ( `2^m` ) <sup>2</sup> = `3^2 = 9`.
 :::
 
 

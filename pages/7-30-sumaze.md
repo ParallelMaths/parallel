@@ -89,7 +89,7 @@ It is easier to understand Sumaze! by playing it, but in case it helps here are 
 You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
 but it is better to finish all the levels once you have started.
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_i/){.external target="_blank"}
+[Open Sumaze](https://sumaze.mei.org.uk/games/parallel_sumaze_1/){.external target="_blank"}
 
 ::: problem id=3_1 marks=4.5
 **3.1** When you have finished Sumaze, you will receive a score and a code word.
@@ -106,7 +106,7 @@ ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
 total score.*
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a perfect score.
+[This video clip](https://vimeo.com/553295210){target="_blank"} shows the paths you should or could have taken to solve each stage with a perfect score.
 :::
 
 
@@ -141,7 +141,7 @@ __4.2__ How does the water move from a beaker to a sponge, causing the sponge to
 
 After the earlier taster, it's time for another set of Sumaze! challenges. The rules are the same, and you have 9 more levels to puzzle your way through!
 
-[Open Sumaze](https://integralmaths.org/games/parallel_sumaze_ii/){.external target="_blank"}
+[Open Sumaze](https://sumaze.mei.org.uk/games/parallel_sumaze_2/){.external target="_blank"}
 
 ::: problem id=5_1 marks=4.5
 __5.1__ When you have finished Sumaze, you will receive a score and a code word.
@@ -157,7 +157,7 @@ Sumaze score by 10 and add it to your overall Parallelogram score. So ultimately
 a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram total score._
 
 ---
-[This video clip](https://integralmaths.org/games/sumaze_solutions_ii.mp4){target="_blank"} shows the paths you should or could have taken to solve each stage with a
+[This video clip](https://vimeo.com/553295163){target="_blank"} shows the paths you should or could have taken to solve each stage with a
 perfect score.
 :::
 

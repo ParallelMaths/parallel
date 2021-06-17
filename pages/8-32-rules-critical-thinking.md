@@ -33,15 +33,15 @@ The answer is between 500 and 600.
 
 This question appeared on [the NRICH website](https://nrich.maths.org/){target="_blank"}, which has lots of great maths resources.  
 
-In one hour, the 5 appears in the minutes 16 times.  
+In one hour, the `5` appears in the minutes `16` times.  
 
-In 24 hours, the 5 appears in the minutes `24 × 16 = 384` times.  
+In `24` hours, the `5` appears in the minutes `24 × 16 = 384` times.  
 
-The 5 appears 60 more times when the hour is `05`.  
+The `5` appears `60` more times when the hour is `05`.  
 
-The 5 appears 60 more times when the hour is `15`.  
+The `5` appears `60` more times when the hour is `15`.  
 
-In 24 hours, the 5 appears in the hours `2 × 60 = 120` times.  
+In `24` hours, the `5` appears in the hours `2 × 60 = 120` times.  
 
 Therefore, the total is `384 + 120 = 504` times.
 :::
@@ -185,7 +185,7 @@ I want you to think about each one in detail, so here are the first five … the
 ![](/resources/8-32-rules-critical-thinking/5-bertrand-russell.jpg){image align="right"}
 _1. Do not feel absolutely certain of anything.  
 2. Do not think it worth while to proceed by concealing evidence, for the evidence is sure to come to light.  
-3. Never try to discourage thinking for you are sure to succeed.  
+3. Never try to discourage thinking, for you are sure to succeed.  
 4. When you meet with opposition, even if it should be from your husband or your children, endeavor to overcome it by argument and not by authority, for a victory dependent upon authority is unreal and illusory.  
 5. Have no respect for the authority of others, for there are always contrary authorities to be found._
 

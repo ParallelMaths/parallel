@@ -68,7 +68,7 @@ How many runs would have given Bradman a career average of 99.99 (rounded to 4 s
 
 ---
 
-`(6,996 + 3)/70 = 99.9857`, which is 99.99 to 4 s.f.
+`(6996 + 3)/70 = 99.9857`, which is 99.99 to 4 s.f.
 :::
 
 
@@ -105,7 +105,7 @@ In this case the 4 remaining jellybeans will all be of the flavour he has yet to
 
 ## 4. Floppy pizza
 
-When you are a mathematician, then the world becomes amazing. Even eating pizza becomes amazing, as revealed in this video by Cliff Stoll. You might find some bits of the video confusing, but stick with it and see if you can understand why we eat pizza slices in a particular way.
+When you are a mathematician, the world becomes amazing. Even eating pizza becomes amazing, as revealed in this video by Cliff Stoll. You might find some bits of the video confusing, but stick with it and see if you can understand why we eat pizza slices in a particular way.
 
 @[youtube](gi-TBlh44gY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 

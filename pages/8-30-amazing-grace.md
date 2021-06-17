@@ -25,13 +25,13 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 
 ![](/resources/8-30-amazing-grace/1-napier.png){image align="center"}
 
-::: problem id=1_1 marks=2
+::: problem id=1_1 marks=1
 __1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is the only mathematician to have won the Abel Prize and the Nobel Prize for economics?
 
 <input type="text" solution="NASH"/>
 :::
 
-::: problem id=1_2 marks=2
+::: problem id=1_2 marks=1
 __1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who won $1 million for proving the Poincaré conjecture, but refused to accept the money, stating: _“I’m not interested in money or fame; I don’t want to be on display like an animal in a zoo.”_?
 
 <input type="text" solution="PERELMAN"/>
@@ -95,7 +95,7 @@ Grace Hopper was a force of nature. A rear admiral in the American Navy, a pione
 
 @[youtube](meeCAFacrG0?rel=0&end=113)
 
-::: problem id=4_1 marks=2
+::: problem id=4_1 marks=1
 __4.1__ What caused Grace Hopper to invent the word bug, meaning a problem in a piece of computer hardware or software?
 
 * [ ] An ant
@@ -152,7 +152,7 @@ As you might have guessed, Grace Hopper is one of my heroes.
 
 @[youtube](3N_ywhx6_K0?rel=0&start=35end=523)
 
-::: problem id=6_1 marks=2
+::: problem id=6_1 marks=1
 __6.1__ How long is a nanosecond?
 
 * [ ] 1/10 of a second
@@ -162,7 +162,7 @@ __6.1__ How long is a nanosecond?
 * [x] 1/1,000,000,000 of a second
 :::
 
-::: problem id=6_2 marks=2
+::: problem id=6_2 marks=1
 __6.2__ How long is a nanosecond?
 
 * [ ] 3 mm

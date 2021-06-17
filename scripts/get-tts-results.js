@@ -14,14 +14,14 @@ const START_TIME = '';
 const END_TIME = '';
 
 const TTS_SCHOOLS = [
-  {name: 'Bulmershe School', year: 7, teachers: ['4kuds0'], students: 21},
+  {name: 'Bulmershe School', year: 7, teachers: ['qh6b6r'], students: 21},
   {name: 'Bulmershe School', year: 8, teachers: ['4kuds0'], students: 17},
   {name: 'Bulmershe School', year: 9, teachers: ['mg4414'], students: 18},
   {name: 'Bulmershe School', year: 10, teachers: ['qw6ok'], students: 15},
   {name: 'Bulmershe School', year: 11, teachers: ['h343j'], students: 12},
 
   {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 21},
-  {name: 'Capital City Academy', year: 8, teachers: ['z8yevt'], students: 18},
+  {name: 'Capital City Academy', year: 8, teachers: ['dsz35i'], students: 18},
   {name: 'Capital City Academy', year: 9, teachers: ['pfma1s'], students: 17},
 
   {name: 'City Academy Hackney', year: 7, teachers: ['4qhg6e'], students: 20},

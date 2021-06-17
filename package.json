@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@firebase/app": "^0.6.13",
+    "caniuse-lite": "^1.0.30001236",
     "firebase": "^8.1.1",
     "firebase-functions": "^3.11.0",
     "firebase-tools": "^8.20.0"

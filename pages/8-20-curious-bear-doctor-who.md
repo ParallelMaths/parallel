@@ -73,9 +73,9 @@ This is my favourite maths clip from Doctor Who.
 
 @[youtube](ee2If8jSxUo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-So the Doctor spots that the pattern involves __happy prime numbers__. You will already know about prime numbers, but here “Alexis Inspired” explains what makes a prime number happy.
+So the Doctor spots that the pattern involves __happy prime numbers__. You will already know about prime numbers, but here Dr Ria Symonds is from the University of Nottingham explains what makes a number happy.
 
-@[youtube](8ftbFl8tHmY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](kC6YObu61_w?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 You can think about a happy number in the following way. Take a positive integer, then replace the number by the sum of the squares of its digits. Take the new number, and repeat the process again and again. If the process eventually takes you to 1, then the original starting number is a happy number. If the process avoids 1 and goes into a cycle of numbers, then it is an unhappy number.
 
@@ -247,7 +247,7 @@ And now for something completely different. Monty Python’s Flying Circus was o
 
 As far as I know, they only once touched on mathematics. Maths and philosophy overlap when it comes to the subject of logic, so take a look at this sketch titled “The Philosophers’ Football Match” and try to answer these two questions. You might need to do some googling. (By the way, as you watch this video, does it remind you of something that might appear on "Horrible Histories"? I suspect that some of the "Horrible Histories" silliness was inspired by Monty Python.)
 
-@[youtube](7E_8EjoxY7Q?start=4&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](LfduUFF_i1A?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1.__ Which of the Greek footballing philosophers was killed by a Roman soldier, because he was so busy doing mathematics that he refused to obey the soldier’s orders?
