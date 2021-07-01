@@ -20,13 +20,13 @@ It’s the last normal Parallelogram of the school year... so it’s a toughie -
 
 ## 1. Paradoxes
 
-Last week, I showed you the missing square illusion, in which some shapes are re-arranged … and somehow the area at the end is less the area at the start. It seemed impossible.  
+Last week, I showed you the missing square illusion, in which some shapes are re-arranged... and somehow the area at the end is less the area at the start. It seemed impossible.  
 
 Here is the same illusion made real with the help of a bar of chocolate.
 
 @[youtube](z7tRr49qZfo?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-These two videos (by James Grime) present the mystery in a different way and explains the maths behind the illusion.
+These two videos (by James Grime) present the mystery in a different way and explain the maths behind the illusion.
 
 @[youtube](OgfT2myMQl8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -38,7 +38,7 @@ Here is an example of a paradox:
 
 __Your mission is not to accept the mission. Do you accept?__  
 
-If you accept the mission, then you have failed, because the mission is to not accept the mission. But if you do not accept the mission, then you also have failed, because you did not accept the mission.  
+If you accept the mission, then you have failed, because the mission is to not accept the mission. But if you do not accept the mission, then you have also failed, because you did not accept the mission.  
 
 Try this one:  
 

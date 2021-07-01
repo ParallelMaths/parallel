@@ -20,29 +20,31 @@ const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 10, teachers: ['qw6ok'], students: 15},
   {name: 'Bulmershe School', year: 11, teachers: ['h343j'], students: 12},
 
-  {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 21},
-  {name: 'Capital City Academy', year: 8, teachers: ['dsz35i'], students: 18},
+  {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 22},
+  {name: 'Capital City Academy', year: 8, teachers: ['dsz35i'], students: 19},
   {name: 'Capital City Academy', year: 9, teachers: ['pfma1s'], students: 17},
 
   {name: 'City Academy Hackney', year: 7, teachers: ['4qhg6e'], students: 20},
   {name: 'City Academy Hackney', year: 8, teachers: ['o4xlq9'], students: 20},
   {name: 'City Academy Hackney', year: 9, teachers: ['ysrvsk'], students: 20},
 
-  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['kj8md7'], students: 27},
+  {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 16},
+  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['kj8md7'], students: 17},
   {name: 'City of London Academy Highgate Hill', year: 9, teachers: ['onwaes'], students: 26},
 
   {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['gj8tlp'], students: 23},
-  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['mfhd1p'], students: 22},
+  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['mfhd1p'], students: 23},
   {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['cd616b','ue9lwo'], students: 21},
   {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['agv1u','avg1u'], students: 18},
 
-  {name: 'Cullompton Community College', year: 8, teachers: ['9knp4'], students: 16},
+  {name: 'Cullompton Community College', year: 7, teachers: ['9knp4'], students: 15},
+  {name: 'Cullompton Community College', year: 8, teachers: ['9knp4'], students: 17},
   {name: 'Cullompton Community College', year: 9, teachers: ['9knp4'], students: 16},
   {name: 'Cullompton Community College', year: 10, teachers: ['9knp4'], students: 15},
 
   {name: 'Lister Community School', year: 7, teachers: ['hv6udc'], students: 17},
   {name: 'Lister Community School', year: 8, teachers: ['ag93qe'], students: 23},
-  {name: 'Lister Community School', year: 9, teachers: ['2jiemd'], students: 25},
+  {name: 'Lister Community School', year: 9, teachers: ['k5ifm7'], students: 25},
   {name: 'Lister Community School', year: 10, teachers: ['3to7uh'], students: 17},
   {name: 'Lister Community School', year: 11, teachers: ['nww75'], students: 20},
 

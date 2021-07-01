@@ -56,7 +56,7 @@ So, we know from the question that:
 
 * total girls = 13, so total boys = 7
 * total juice = 8, so total water = 12
-* 2 boys drink water = 2, so D = 2.
+* two boys drink water, so D = 2.
 
 If total water is 12, and 2 boys drink water, then 10 girls drink water, so B = 10.
 

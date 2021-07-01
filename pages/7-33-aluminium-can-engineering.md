@@ -66,7 +66,7 @@ __2.2__ Later the same day I left Birmingham by train at 19:04. My train arrived
 
 I am a big fan of Bill Hammack (also known as “Engineer Guy”), whose YouTube channel looks at the clever engineering behind lots of machines and objects. In this video, he looks at the engineering behind an ordinary fizzy drinks can. This is only the opening of the video, but if you are really interested in engineering (or fizzy drinks) then make sure you watch the whole video later.
 
-@[youtube](hUhisi2FBuw?end98&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](hUhisi2FBuw?end=98&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=1
 __3.1__ Roughly how many aluminium cans are made each second?
@@ -171,7 +171,7 @@ The 6 separate cubes have a total of 36 faces.
 
 Two cubes in the base layer have 3 hidden faces each. Two cubes in the base layer have 2 hidden faces each. Two cubes in the top layer have 1 hidden face each. So, in total, there are 12 hidden faces.
 
-24 faces are exposed, each with an area of 1 <sup>2</sup>, so the total surface area is 24 cm<sup>2</sup>.
+24 faces are exposed, each with an area of 1 cm<sup>2</sup>, so the total surface area is 24 cm<sup>2</sup>.
 :::
 
 

@@ -102,7 +102,7 @@ Take a look at this great video about riddles relating to revolving or rotating 
 @[youtube](HgCXdNhVC1Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=4_1 marks=3
-__4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have to run the second lap so that the average speed for each laps is 20 km/h?
+__4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have to run the second lap so that the average speed for each lap is 20 km/h?
 
 * [ ] 5 km/h
 * [ ] 10 km/h

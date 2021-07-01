@@ -34,7 +34,7 @@ Of the following options, how many minutes later will there also be a time with 
 
 ---
 
-434 minutes is 7 hours and 14 minutes later, which 20.04, which has mirror symmetry.
+434 minutes is 7 hours and 14 minutes later, which 20.05, which has mirror symmetry.
 
 ![](/resources/8-33-more-rules-critical-thinking/1-symmetry-answer.png){image align="center"}
 :::
@@ -148,7 +148,7 @@ If `a = 1`, then `b = 17.5`ish, so that is not correct.
 
 But if `a = 8`, then `b = 8`, and that is correct.
 
-Alternatively, you might notice that `23 + 17 = 40`, and that `320 = 40 × 8 = (23 + 17) × 8  = 23 × 8 + 17 × 8`. 
+Alternatively, you might notice that `23 + 17 = 40`, and that `320 = 40 × 8 = (23 + 17) × 8  = 23 × 8 + 17 × 8`.
 :::
 
 
