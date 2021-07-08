@@ -198,7 +198,7 @@ angles of the triangle is `(x + y + z) ° = 3x°`. So `3x = 180`, that is `x = 6
 
 ## 10. Is it Better to Walk or Run in the Rain?
 
-MinutePhysics is a great YoutTube channel, so dive in and watch loads of them. But, for now, take a look about this video about running in the rain.
+MinutePhysics is a great YoutTube channel, so dive in and watch loads of them. But, for now, take a look at this video about running in the rain.
 
 @[youtube](3MqYE2UuN24?end=100rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -299,7 +299,7 @@ As 108 marks represented 18% of the final total, 6 marks represented 1% of the f
 <!--- 2007 (18) --->
 ::: problem id=14_1 marks=3
 ![](/resources/8-35-summer-sums/14-jmc-question.gif){image align="right"}
-__14.1__ The letters `J`, `M`, `C` represent three different non-zero digits, where JM + JM + CC = JMC.
+__14.1__ The letters `J`, `M`, `C` represent three different non-zero digits, where JJ + MM + CC = JMC.
 
 What is the value of `J + M + C`?
 
@@ -310,12 +310,9 @@ What is the value of `J + M + C`?
 * [ ] 15
 
 ---
-The hundreds column shows us that `J = 1` or `2`. [We can’t carry more than 2
-from the units to the tens; and 2 plus the biggest feasible values 7, 8, 9 for the
-three letters is only 26.]
+The hundreds column shows us that `J = 1` or `2`. [We can’t carry more than 2 from the units to the tens; and 2 plus the biggest feasible values 7, 8, 9 for the three letters is only 26.]
 
-The units column shows that `J + M` is a multiple
-of 10 and it can’t be 0 (or else `J + M = 0`); so `J + M = 10` and `M = 9` or `8` respectively.
+The units column shows that `J + M` is a multiple of 10 and it can’t be 0 (or else `J + M = 0`); so `J + M = 10` and `M = 9` or `8` respectively.
 
 Also, the sum of the units column is `10 + C`, so there is exactly `1` to carry to the tens column. The tens column now tells us that `J + C + 1 = 10J`. So `J = 2` is not possible and therefore `J = 1`, `C = 8` and `M = 9`.
 :::
@@ -446,7 +443,7 @@ The route Home, Bentonville, Greendale, Wytham, Bentonville, Pencaster, Home, Wy
 
 ## 20. Can You Solve This Chess Conundrum?
 
-This puzzle was featured on the BBC TV show “QI”. First, you need to know that the knight in chess moves in an L-shape, as shown in the image below. “L” means 2 squares left/right and 1 up/down, or 2 up/down and 1 left/right.
+This puzzle was featured on the BBC TV show “QI”. First, you need to know that the knight in chess moves in an L-shape, as shown in the image below. “L” means 2 squares left/right and 1 up/down, or 2 up/down and 1 left/right. The below diagram shows all of the spaces the knight could move to next.  
 
 ![](/resources/8-35-summer-sums/20-chess.jpg){image align="center"}
 
@@ -585,8 +582,7 @@ The prime numbers less than 20 are 2, 3, 5, 7, 11, 13, 17, 19. It is not possibl
 
 The sum of the remaining 7 primes is 75 which is a multiple of 3. The sum of the six primes making up the three pairs must also be a multiple of 3 since each pair has the same total.
 
-So the odd prime not used in the six pairs must be a multiple of 3 too. Therefore 3 is the
-odd prime not used. So each pair totals 72 ÷ 3, that is 24, and the pairs are 5 + 19 7 + 17 11 + 13.
+So the odd prime not used in the six pairs must be a multiple of 3 too. Therefore 3 is the odd prime not used. So each pair totals 72 ÷ 3, that is 24, and the pairs are 5 + 19, 7 + 17, and 11 + 13.
 :::
 
 

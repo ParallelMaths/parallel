@@ -185,7 +185,7 @@ What is the ratio of the total distances moved by A and by C?
 
 ---
 
-Let AB be of length 3r. The distanced moved by A is then the circumference of a semicircle of radius 3r, ie 3πr. C moves along the circumference of a semicircle of radius 2r, ie 2πr, followed by the circumference of a semicircle of radius r, ie πr. The total distance moved by C is therefore also 3πr.
+Let AB be of length 3r. The distance moved by A is then the circumference of a semicircle of radius 3r, ie 3πr. C moves along the circumference of a semicircle of radius 2r, ie 2πr, followed by the circumference of a semicircle of radius r, ie πr. The total distance moved by C is therefore also 3πr.
 :::
 
 
@@ -219,7 +219,7 @@ All powers of 3 are odd and `3^10 = 3^5 × 3^5` which means that `3^10` is also 
 ![](/resources/10-35-summer-sums/11-circles.jpg){image align="right"}
 __11.1__ The three circles in the diagram have the same centre and have radii 3cm, 4cm and 5cm.  
 
-What percentage of the area of the largest cirlce is shaded?
+What percentage of the area of the largest circle is shaded?
 
 * [ ] 20%
 * [ ] 25%
@@ -358,7 +358,7 @@ The fold is made along `BE`. `A` folds onto `A'`.
 
 ![](/resources/10-35-summer-sums/16-paper-answer.jpg){image align="center"}
 
-`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagorus).  
+`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagoras).  
 ^^^
 
 ---
@@ -366,7 +366,7 @@ The fold is made along `BE`. `A` folds onto `A'`.
 ![](/resources/10-35-summer-sums/16-paper-answer.jpg){image align="right"}
 The fold is made along `BE`. `A` folds onto `A'`.  
 
-`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagorus).  
+`A'B = AB = sqrt(2)`, therefore `A'C = 1` (by Pythagoras).  
 
 Triangle `A'BC` is therefore a right-angled isosceles triangle, therefore `BA'C = 45°`, therefore `EA'D = 45°`.  
 

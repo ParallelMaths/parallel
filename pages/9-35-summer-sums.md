@@ -492,7 +492,7 @@ What, in cm<sup>2</sup>, is the difference between the areas of any two adjacent
 {.col-5}
 
 ^^^ hint id=18
-I did not follow the approach of the solution you will after you have completed the Parallelogram, but here is something to get you started. If the difference in area is the same for any two stripes, then just consider the two smallest stripes. They make up a sub-triangle that is only a third the size of the whole triangle. And the shaded mini-triangle is half the length, so a quarter of the area of the outlined sub-triangle.
+I did not follow the approach of the solution you will see after you have completed the Parallelogram, but here is something to get you started. If the difference in area is the same for any two stripes, then just consider the two smallest stripes. They make up a sub-triangle that is only a third the size of the whole triangle. And the shaded mini-triangle is half the length, so a quarter of the area of the outlined sub-triangle.
 
 ![](/resources/9-35-summer-sums/18-triangle-hint.jpg){image align="centre"}
 ^^^
@@ -837,11 +837,11 @@ What is the length of the side of square `RSTU`?
 This is a tough geometry question. So here is an unusual hint – the answer is a vowel.
 ^^^
 
-* [ ] 9
-* [ ] 10
-* [ ] 11
-* [ ] 12
-* [x] 13
+* [ ] A: 9
+* [ ] B: 10
+* [ ] C: 11
+* [ ] D: 12
+* [x] E: 13
 {.col-5}
 
 ---

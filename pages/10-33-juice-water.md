@@ -72,7 +72,7 @@ It is now obvious that A = 3 and C = 5.
 ::: problem id=2_1 marks=3
 __2.1__ A certain company offers "750 hours of free Internet use for new subscribers". On closer inspection it becomes clear that this time must be used during the new subscriber's first month of membership!
 
-What is the maximum number of hours in any one month of the year?
+Assuming we do not account for daylight savings, what is the maximum number of hours in any one month of the year?
 
 * [ ] 168
 * [ ] 692

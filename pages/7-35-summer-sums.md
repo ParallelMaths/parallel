@@ -76,8 +76,7 @@ Here it is easy just to check the options that are given. A, D and E are the onl
 
 For a complete solution we need to give an argument to show that 1023 really is the smallest four digit positive integer with four different digits. It is easy to do this.
 
-To get the smallest possible number we must use the four smallest digits, 0, 1, 2 and 3. A four digit number cannot begin with a 0. So we must put the next smallest digit, 1, in the thousands place, as a four-digit number beginning with 2 or 3 is larger than one beginning with a 1. For similar reason the
-hundreds digit must be the smallest remaining digit, 0. Similarly the tens digit must be 2 and the units digit must be 3.
+To get the smallest possible number we must use the four smallest digits, 0, 1, 2 and 3. A four digit number cannot begin with a 0. So we must put the next smallest digit, 1, in the thousands place, as a four-digit number beginning with 2 or 3 is larger than one beginning with a 1. For similar reasons the hundreds digit must be the smallest remaining digit, 0. Similarly the tens digit must be 2 and the units digit must be 3.
 
 So the required number is 1023.
 :::
