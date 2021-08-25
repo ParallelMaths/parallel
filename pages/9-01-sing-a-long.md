@@ -143,7 +143,7 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 ![](/resources/9-01-sing-a-long/5-napier.png){image align="center"}
 
 ::: problem id=4_1 marks=2
-__4.1__ Which mathematician from the 19th Century has a surname which is an anagram of “Hanging tile”? Please give their __surname only__.
+__4.1__ Which mathematician from the 19th Century has a surname which is an anagram of “Hanging tile”? Please give their __surname only__. (Clue: initials FN)
 
 <input type="text" solution="Nightingale"/>
 :::
@@ -159,7 +159,7 @@ __4.2__  The mathematician from 4.1 was the first to use which type of chart?
 :::
 
 ::: problem id=4_3 marks=2
-__4.3__ Which mathematician from the 20th Century has a surname which is an anagram of “Not marbled”? Please give their __surname only__.
+__4.3__ Which mathematician from the 20th Century has a surname which is an anagram of “Not marbled”? Please give their __surname only__. (Clue: initials BM)
 
 <input type="text" solution="Mandelbrot"/>
 :::

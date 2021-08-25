@@ -39,13 +39,14 @@ __1.2__ Looking at mathematicians from 1700 to 1800, what is the surname of the 
 ::: problem id=1_3 marks=2
 __1.3__ Looking at mathematicians from 1800 to 1900, what is the surname of the mathematician who proved that there are different sizes of infinity?  
 
-(Clue – David Hilbert was so amazed by his work, that he said “No one shall expel us from the paradise that [HE] has created.”)
+(Clue 1: David Hilbert was so amazed by his work, that he said “No one shall expel us from the paradise that [HE] has created.”)  
+(Clue 2: initials GC)
 
 <input type="text" solution="CANTOR"/>
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ Looking at mathematicians from 1800 to 1900, what is the surname of the mathematician who used statistics to revolutionise medicine and is even credited with promoting ‘infographics’?
+__1.4__ Looking at mathematicians from 1800 to 1900, what is the surname of the mathematician who used statistics to revolutionise medicine and is even credited with promoting ‘infographics’? (Clue: initials FN)
 
 <input type="text" solution="NIGHTINGALE"/>
 :::

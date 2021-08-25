@@ -37,7 +37,7 @@ __1.2__ Looking at mathematicians from 1000 to 1500, what is the first name of t
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Looking at mathematicians from 1500 to 1600, what is the surname of the mathematician who helped discover (or maybe invent) imaginary numbers, as well as working on everything from locks to gyroscopes?
+__1.3__ Looking at mathematicians from 1500 to 1600, what is the surname of the mathematician who helped discover (or maybe invent) imaginary numbers, as well as working on everything from locks to gyroscopes? (Clue: initials GC)
 
 <input type="text" solution="CARDANO"/>
 :::

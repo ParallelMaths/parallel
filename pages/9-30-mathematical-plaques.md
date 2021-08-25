@@ -26,19 +26,19 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 ![](/resources/9-30-mathematical-plaques/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
-__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is best known for proving Fermat’s Last Theorem?
+__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is best known for proving Fermat’s Last Theorem? (Clue: initials AW)
 
 <input type="text" solution="WILES"/>
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who played a critical role in breaking the German Enigma cipher?
+__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who played a critical role in breaking the German Enigma cipher? (Clue: initials AT)
 
 <input type="text" solution="TURING"/>
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who pioneered fractal geometry and the mathematics of chaos?
+__1.3__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who pioneered fractal geometry and the mathematics of chaos? (Clue: initials BM)
 
 <input type="text" solution="MANDELBROT"/>
 :::

@@ -26,13 +26,13 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 ![](/resources/7-30-sumaze/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=2
-__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who invented the Game of Life?
+__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who invented the Game of Life? (Clue: initials JHC)
 
 <input type="text" solution="CONWAY"/>
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the Iranian-born mathematician who won the highest honour in mathematics, the Fields Medal?
+__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the Iranian-born mathematician who won the highest honour in mathematics, the Fields Medal? (Clue: initials MM)
 
 <input type="text" solution="MIRZAKHANI"/>
 :::

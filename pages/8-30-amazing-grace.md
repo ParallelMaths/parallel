@@ -26,13 +26,13 @@ So, if the answer is John Napier, just enter __Napier__, because that is the nam
 ![](/resources/8-30-amazing-grace/1-napier.png){image align="center"}
 
 ::: problem id=1_1 marks=1
-__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is the only mathematician to have won the Abel Prize and the Nobel Prize for economics?
+__1.1__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who is the only mathematician to have won the Abel Prize and the Nobel Prize for economics? (Clue: initials JFN)
 
 <input type="text" solution="NASH"/>
 :::
 
 ::: problem id=1_2 marks=1
-__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who won $1 million for proving the Poincaré conjecture, but refused to accept the money, stating: _“I’m not interested in money or fame; I don’t want to be on display like an animal in a zoo.”_?
+__1.2__ Looking at twentieth century mathematicians 1900 to 1999, what is the surname of the mathematician who won $1 million for proving the Poincaré conjecture, but refused to accept the money, stating: _“I’m not interested in money or fame; I don’t want to be on display like an animal in a zoo.”_? (Clue: initials GP)
 
 <input type="text" solution="PERELMAN"/>
 :::
