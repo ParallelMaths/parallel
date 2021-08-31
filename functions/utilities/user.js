@@ -36,7 +36,8 @@ function getUserData(uid) {
     data.visibleBadges = data.level ? (BADGES[data.level] || [])
         .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
 
-    data.sidebarLevels = data.code ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
+    const showAll = (data.code || data.level === 'graduated');
+    data.sidebarLevels = showAll ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
 
     return data;
   });

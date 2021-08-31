@@ -51,7 +51,7 @@ html
                   p.small= user.schoolName
                 p.small
                   if !user.code
-                    | Year #{user.level === 'year7' ? 7 : user.level === 'year8' ? 8 : user.level === 'year9' ? 9 : 10}
+                    | #{levelNames[user.level]}
                     span.dot •
                   a(href="/account") Edit Account
                   span.dot •

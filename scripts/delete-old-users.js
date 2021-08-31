@@ -15,7 +15,7 @@ fb.initializeApp({
   console.log('Number of accounts:', accounts.length);
 
   const oldAccounts = accounts
-    .filter(a => (new Date(+a.lastSignedInAt)).getFullYear() < 2019)
+    .filter(a => (new Date(+a.lastSignedInAt)).getFullYear() < 2020)
     .map(a => a.localId);
 
   console.log('Accounts to delete:', oldAccounts.length);
