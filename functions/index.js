@@ -123,6 +123,7 @@ async function getDashboardData(req) {
 
   const students = await user.getAllStudents(req.user.code);
   const studentKeys = Object.keys(students)
+      .filter(s => students[s].level !== 'graduated')
       .sort((a, b) => letterOrder(students[a].last, students[b].last));
 
   for (let s of studentKeys) {
