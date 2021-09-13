@@ -4,7 +4,7 @@ const fb = require('firebase-admin');
 const yaml = require('yamljs');
 const serviceAccount = require('../private/service-account.json');
 
-const TEACHER_CODE = 'xxxxx';
+const TEACHER_CODE = 'oj49wo';
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
