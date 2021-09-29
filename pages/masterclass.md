@@ -1,6 +1,6 @@
 # Maths Masterclass
 
-As part of our Maths Masterclass sessions, students are required to take part in our weekly Parallel maths puzzles.
+As part of the Maths Masterclass sessions, students in Year 10 are required to take part in our weekly Parallel maths puzzles. And, students in other years are strongly encouraged to complete the so-called Parallelograms each week.
 
 Getting started with Parallel is very easy to do, and only takes a few minutes. Simply [visit our sign up page](https://parallel.org.uk/signup) and:
 1.	Enter your first name
