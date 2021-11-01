@@ -4,8 +4,8 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
-  "smilnes@batleygirls.co.uk",
-  "dlb@rgshw.com"
+  "kims@kamcs.org",
+  "rachellchapman@hotmail.co.uk"
 ];
 
 fb.initializeApp({

@@ -164,7 +164,7 @@ Therefore Bertie’s approximate average speed was 1 km per hour.
 :::
 
 
-## 5. Decimal operations
+## 5. Solving equations practice
 
 ::: problem id=8_1 marks=2
 __5.1__ Solve `x + 2x = 9`?

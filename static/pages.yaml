@@ -130,7 +130,7 @@ year7:
     deadline: 2021-10-10T13:00:00
   - url: 7-04-matts-favourite-number
     title: Matt’s Favourite Number
-    available: 2021-10-01T13:00:00
+    available: 2021-09-30T13:00:00
     deadline: 2021-10-03T13:00:00
   - url: 7-03-the-big-bang
     title: The Big Bang
@@ -276,7 +276,7 @@ year8:
     deadline: 2021-10-10T13:00:00
   - url: 8-04-infinite-hotel
     title: The Infinite Hotel
-    available: 2021-10-01T13:00:00
+    available: 2021-09-30T13:00:00
     deadline: 2021-10-03T13:00:00
   - url: 8-03-chaotic-pendulums
     title: Chaotic Pendulums
@@ -422,7 +422,7 @@ year9:
     deadline: 2021-10-10T13:00:00
   - url: 9-04-strange-breakfasts
     title: Strange Breakfasts
-    available: 2021-10-01T13:00:00
+    available: 2021-09-30T13:00:00
     deadline: 2021-10-03T13:00:00
   - url: 9-03-lots-of-socks
     title: Lots of Socks
@@ -568,7 +568,7 @@ year10:
     deadline: 2021-10-10T13:00:00
   - url: 10-04-little-big-league
     title: Little Big League
-    available: 2021-10-01T13:00:00
+    available: 2021-09-30T13:00:00
     deadline: 2021-10-03T13:00:00
   - url: 10-03-the-kessel-run
     title: The Kessel Run
@@ -623,7 +623,7 @@ year11:
     deadline: 2021-10-10T13:00:00
   - url: 11-04-game-of-life
     title: The Game of Life
-    available: 2021-10-01T13:00:00
+    available: 2021-09-30T13:00:00
     deadline: 2021-10-03T13:00:00
   - url: 11-03-mars-ingenuity
     title: Mars Ingenuity

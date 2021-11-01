@@ -41,8 +41,8 @@ __1.1.__ First, which of the following answers is correct?
 __1.2.__ How long will it take Mr and Mrs Smith to paint the house if they work together?  
 
 Give your answer in minutes (not hours and minutes).
-
-<input solution="288"/>
+  
+<input type="number" solution="288"/>
 
 ^^^ hint id=1_2 marks=1
 How much of the house can Mr Smith paint in 1 hour, and how much of the house can Mrs Smith paint in 1 hour? So, working together, how much of the house can they paint in 1 hour?
