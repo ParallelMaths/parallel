@@ -28,3 +28,6 @@ If you are already a Parallel user, you’ll just need to update your account. S
 ## What if you are already a Parallel user at school?
 
 Some schools have already been using Parallel for some time, and so you may have already been given a different Teacher Code, so your class teacher can keep track of your progress. If so, we would like all students in Year 10 to email a screenshot of your score each week to [maths.masterclasses@talent-ed.uk](mailto:maths.masterclasses@talent-ed.uk), so we can see how you are doing.
+
+
+Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up
