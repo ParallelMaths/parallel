@@ -13,12 +13,12 @@ const ERRORS = {
 
   'reset-instructions': 'We’ve sent you an email with instructions how to reset your password.',
   'empty-password': 'To change your password, please enter your existing one.',
-  'teacher-code': 'This teacher code is invalid.',
+  'teacher-code': 'The teacher code "$0" is invalid.',
   'default':  'Something went wrong. Please try again!'
 };
 
 function generateClassCode() {
-  return 'xxxxxx'.replace(/x/g, () => ((Math.random()*36)%36 | 0).toString(36));
+  return 'xxxx-xxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toUpperCase();
 }
 
 
@@ -64,20 +64,24 @@ export default function() {
   const cachedLevel = document.cookie.match(/level=(year[7-9])/);
 
   const loginForm = {error: null, reset: false};
-  const editForm = {loading: false, error: ''};
+  const editForm = {loading: false, error: '', teacherCode: '', teacherCodes: []};
+  const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
     birthYear: 2000, isTeacher: location.hash === '#teacher'};
 
   if (window.USER_DATA) {
-    for (let key of ['schoolName', 'postCode', 'phoneNumber', 'teacherCode', 'level']) {
+    for (let key of ['schoolName', 'postCode', 'phoneNumber', 'level']) {
       editForm[key] = window.USER_DATA[key] || null;
+    }
+    if (window.USER_DATA.teacherCode) {
+      editForm.teacherCodes = window.USER_DATA.teacherCode.split(',');
     }
   }
 
   const user = {
     level: cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7'),
     showLogin: false,
-    loginForm, editForm, signupForm,
+    loginForm, editForm, signupForm, passwordForm,
 
     setLevel(l) {
       user.level = l;
@@ -119,36 +123,50 @@ export default function() {
 
       try {
         let schoolName = editForm.schoolName || null;
+        const teacherCodes = editForm.teacherCodes.map(c => c.text.trim());
 
-        if (editForm.teacherCode) {
-          let teacher = await fbDatabase.ref('users').orderByChild('code')
-              .equalTo(editForm.teacherCode).once('value');
-          teacher = teacher.toJSON();
-          if (!teacher) return editForm.error = ERRORS['teacher-code'];
-
-          teacher = teacher[Object.keys(teacher)[0]];
-          schoolName = teacher.schoolName;
+        for (const code of teacherCodes) {
+          const res = await fetch(`/validate/${code}`);
+          const json = await res.json();
+          if (!json.school) {
+            editForm.loading = false;
+            return editForm.error = ERRORS['teacher-code'].replace('$0', code);
+          }
+          schoolName = json.school;
         }
 
         await fbDatabase.ref('users/' + uid).update({
-          teacherCode: editForm.teacherCode || null,
+          teacherCode: teacherCodes.length ? teacherCodes.join(',') : '',
           level: editForm.level || null,
           phoneNumber: editForm.phoneNumber || null,
           postCode: editForm.postCode || null,
-          schoolName
+          schoolName: teacherCodes.length ? schoolName : ''
         });
 
-        if (editForm.new) {
-          if (!editForm.old) return editForm.error = ERRORS['empty-password'];
-          const currentUser = fbAuth.currentUser;
-          const cred = firebase.auth.EmailAuthProvider
-              .credential(currentUser.email, editForm.new);
-          await currentUser.reauthenticateWithCredential(cred);
-          await currentUser.updatePassword(editForm.new)
-        }
+        editForm.loading = false;
+        editForm.error = null;
 
+      } catch(error) {
+        console.error(error);
+        editForm.loading = false;
+        editForm.error = ERRORS[e.code] || ERRORS.default;
+      }
+    },
+
+    async password(e) {
+      e.preventDefault();
+      if (!editForm.new || !editForm.old) return editForm.error = ERRORS['empty-password'];
+
+      editForm.loading = true;
+      editForm.error = null;
+
+      try {
+        const currentUser = fbAuth.currentUser;
+        const cred = firebase.auth.EmailAuthProvider
+        .credential(currentUser.email, editForm.new);
+        await currentUser.reauthenticateWithCredential(cred);
+        await currentUser.updatePassword(editForm.new)
         location.reload(true);
-
       } catch(error) {
         console.error(error);
         editForm.loading = false;
@@ -171,17 +189,14 @@ export default function() {
             signupForm.guardianEmail = signupForm.teacherCode = null;
 
       } else if (signupForm.teacherCode) {
-        let teacher = (await fbDatabase.ref('users').orderByChild('code')
-            .equalTo(signupForm.teacherCode).once('value')).toJSON();
-
-        if (!teacher) {
+        const res = await fetch(`/validate/${signupForm.teacherCode}`);
+        const json = await res.json();
+        if (!json.school) {
           signupForm.loading = false;
-          return signupForm.error = ERRORS['teacher-code'];
+          return signupForm.error = ERRORS['teacher-code'].replace('$0', signupForm.teacherCode);
         }
 
-        teacher = teacher[Object.keys(teacher)[0]];
-
-        signupForm.schoolName = teacher.schoolName;
+        signupForm.schoolName = json.school;
         signupForm.phoneNumber = signupForm.postCode =
             signupForm.guardianEmail = signupForm.code = null;
 

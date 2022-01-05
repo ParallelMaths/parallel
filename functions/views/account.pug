@@ -1,7 +1,8 @@
 extends _layout
 
 block content
-  h1 Edit Account
+  h1 Settings
+  h2 Account Details
 
   form(v-on:submit="user.edit"  v-bind:class="{loading: user.editForm.loading}")
     .error(v-show="user.editForm.error" style="margin-top: .5em") {{user.editForm.error}}
@@ -25,8 +26,8 @@ block content
     else
       //- Student Account Fields
       label
-        | Teacher code (optional)
-        input(type="text" v-model="user.editForm.teacherCode")
+        | Teacher codes
+        vue-tags-input#ti(v-model="user.editForm.teacherCode" :tags="user.editForm.teacherCodes" @tags-changed="t => user.editForm.teacherCodes = t" placeholder="Add Code")
 
       label
         | Year
@@ -38,12 +39,20 @@ block content
           option(value="year11") Year 11 (age 15 or above)
           option(value="graduated") Graduated
 
-    label
-      | Old Password (optional)
-      input(type="password" v-model="user.editForm.old" autocomplete="password")
+    button(type="submit") Update
+
+  hr
+  h2 Change Password
+
+  form(v-on:submit="user.password"  v-bind:class="{loading: user.passwordForm.loading}")
+    .error(v-show="user.passwordForm.error" style="margin-top: .5em") {{user.passwordForm.error}}
 
     label
-      | New Password (optional)
-      input(type="password" pattern=".{6,}" v-model="user.editForm.new" autocomplete="new-password")
+      | Old Password
+      input(type="password" v-model="user.passwordForm.old" autocomplete="password" required)
+
+    label
+      | New Password
+      input(type="password" pattern=".{6,}" v-model="user.passwordForm.new" autocomplete="new-password" required)
 
     button(type="submit") Update

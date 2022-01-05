@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
+    "@johmun/vue-tags-input": "^2.1.0",
     "@mathigon/hilbert": "^0.6.8",
     "babel-polyfill": "^6.26.0",
     "babel-preset-minify": "^0.5.1",

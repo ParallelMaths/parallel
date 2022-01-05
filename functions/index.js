@@ -194,6 +194,13 @@ app.post('/remove-student', async function(req,res) {
   res.sendStatus(200);
 });
 
+app.get('/validate/:code', async (req, res) => {
+  const code = req.params.code;
+  const data = await firebase.database().ref('users').orderByChild('code').equalTo(code).once('value');
+  const teacher = data?.val();
+  res.json(teacher ? {school: teacher.schoolName || 'Unknown School'} : {error: 'invalid-code'});
+});
+
 app.get('/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!PAGES_MAP[pid]) return next();

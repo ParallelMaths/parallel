@@ -7,6 +7,7 @@
 import '../../node_modules/babel-polyfill/dist/polyfill';
 import getUser from './user';
 import getChallenge from './challenge';
+import '../../node_modules/@johmun/vue-tags-input/dist/vue-tags-input';
 
 function removeStudent(id, index, level) {
   if (window.confirm('Are you sure you want to remove this student?')) {
@@ -61,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.app = new Vue({
     el: '#vue',
+    components: {VueTagsInput: window.vueTagsInput.default},
     data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge,
       removeStudent, sortTable, badgeLevel: user.level || 'year7'}
   });
