@@ -234,7 +234,7 @@ objects tend to lose energy, often due to friction, so they never quite get
 back to their start position. This is also true of objects that swing back and
 forth, as demonstrated in the video below.
 
-@[youtube](xXXF2C-vrQE?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](77ZF50ve6rs?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=5 marks=3
 __5.1__ There are different types of energy, and Professor Lewin says that the ball’s
