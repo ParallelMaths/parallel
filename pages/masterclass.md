@@ -1,6 +1,14 @@
 # Maths Masterclass
 
-As part of the Maths Masterclass sessions, students in Year 10 are required to take part in our weekly Parallel maths puzzles. And, students in other years are strongly encouraged to complete the so-called Parallelograms each week.
+As part of the Maths Masterclass sessions, students in Years 8-10 are required to take part in our weekly Parallel maths puzzles. And, students in other years are strongly encouraged to complete the so-called Parallelograms each week.
+
+* [What if you already have a personal Parallel account?](#no-account)
+* [What if you don't already have a Parallel account?](#already-account)
+* [What if you are already a Parallel user at school?](#already-user)
+
+
+<a name="no-account"></a>
+## What if you don't already have a Parallel account?
 
 Getting started with Parallel is very easy to do, and only takes a few minutes. Simply [visit our sign up page](https://parallel.org.uk/signup) and:
 1.	Enter your first name
@@ -17,6 +25,7 @@ That’s all there is to it!
 Each week, you will be asked to complete the next parallelogram. Ask your tutor if you’re not sure which parallelogram you should be completing. Students whose email accounts allow for external emails will receive a weekly email reminder whenever a new Parallel is released.
 
 
+<a name="already-account"></a>
 ## What if you already have a personal Parallel account?
 
 If you are already a Parallel user, you’ll just need to update your account. Simply [go to your Edit Account page](https://parallel.org.uk/account), and:
@@ -25,9 +34,9 @@ If you are already a Parallel user, you’ll just need to update your account. S
 2.	In the field marked “Teacher code”, enter the Maths Masterclass code: **n4zjt4**  
 
 
+<a name="already-user"></a>
 ## What if you are already a Parallel user at school?
 
-Some schools have already been using Parallel for some time, and so you may have already been given a different Teacher Code, so your class teacher can keep track of your progress. If so, we would like all students in Year 10 to email a screenshot of your score each week to [maths.masterclasses@talent-ed.uk](mailto:maths.masterclasses@talent-ed.uk), so we can see how you are doing.
+Some schools have already been using Parallel for some time, and so you may have already been given a different Teacher Code, so your class teacher can keep track of your progress. If so, please do carry on doing parallel as normal for your school teacher, and [email us to let us know that you are doing so](mailto:maths.masterclasses@talent-ed.uk).
 
-
-Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up
+Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up.
