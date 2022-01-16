@@ -3,10 +3,15 @@
 // =============================================================================
 
 
+const firebase = require('firebase-admin');
+firebase.initializeApp({
+  credential: firebase.credential.cert(require('./build/service-account.json')),
+  databaseURL: `https://parallel-cf800.firebaseio.com`,
+});
+
 const fs = require('fs');
 const path = require('path');
 const functions = require('firebase-functions');
-const firebase = require('firebase-admin');
 const express = require('express');
 const user = require('./utilities/user');
 
@@ -51,11 +56,7 @@ function letterOrder(a, b) {
 // -----------------------------------------------------------------------------
 // Set up Express App
 
-firebase.initializeApp({
-  credential: firebase.credential.cert(require('./build/service-account.json')),
-  databaseURL: `https://parallel-cf800.firebaseio.com`,
-});
-
+const userDB = firebase.firestore().collection('users');
 const app = express();
 app.set('view engine', 'pug');
 
@@ -73,7 +74,7 @@ app.use((req, res, next) => {
   res.locals.scoreClass = scoreClass;
 
   if (req.user && req.user.showWelcomeMsg) {
-    firebase.database().ref(`users/${req.user.uid}`) // async
+    userDB.doc(req.user.uid) // async
         .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
@@ -185,19 +186,19 @@ app.post('/remove-student', async function(req,res) {
   if (!req.user) return error(res, 401);
   if (!req.user.code) return error(res, 403);
 
-  const user = firebase.database().ref(`users/${req.body.id}`);
+  const student = userDB.doc(req.body.id).get();
+  if (!(await student).exists) return error(res, 403);
+  const studentCodes = student.data().teacherCode || [];
+  if (!studentCodes.includes(req.user.code)) return error(res, 403);
 
-  const teacherCode = (await user.once('value')).val().teacherCode;
-  if (teacherCode !== req.user.code) return error(res, 403);
-
-  await user.update({teacherCode: null});
+  await userDB.doc(req.body.id).update({teacherCode: studentCodes.filter(c => c !== req.user.code)});
   res.sendStatus(200);
 });
 
 app.get('/validate/:code', async (req, res) => {
   const code = req.params.code;
-  const data = await firebase.database().ref('users').orderByChild('code').equalTo(code).once('value');
-  const teacher = data?.val();
+  const data = await userDB.where('code', '==', code).limit(1).get();
+  const teacher = data[0]?.data();
   res.json(teacher ? {school: teacher.schoolName || 'Unknown School'} : {error: 'invalid-code'});
 });
 
@@ -218,15 +219,14 @@ app.get('/:pid', (req, res, next) => {
       if (b.score <= req.user.points && req.user.badges.indexOf(b.id) < 0) {
         req.user.badges.push(b.id);
         newBadge = b;
-        firebase.database().ref(`users/${req.user.uid}`) // async
+        userDB.doc(req.user.uid) // async
             .update({badges: req.user.badges.join(',')})
             .catch(() => console.error('Failed to update badges', req.user.uid));
       }
     }
   }
 
-  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData,
-    newBadge});
+  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData, newBadge});
 });
 
 app.use((req, res) => error(res, 404));

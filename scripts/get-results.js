@@ -30,8 +30,8 @@ let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageDat
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
-  const userData = await fb.database().ref('users').once('value');
-  const users = userData.toJSON();
+  const userData = await fb.firestore().collection('users').get();
+  const users = userData.map(u => [u.id, u.data()]);
 
   const emailData = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(emailData)).users;
@@ -46,11 +46,10 @@ async function run() {
     const titles = ['name', 'email', 'school', 'time (min)', 'score'];
     const data = [];
 
-    for (let u of Object.keys(users)) {
-      if (users[u].code || !users[u].answers) continue;  // exclude teachers
+    for (let [id, user] of users) {
+      if (user.code || !user.answers) continue;  // exclude teachers
 
-      const user = users[u];
-      const answer = users[u].answers[p.url];
+      const answer = user.answers[p.url];
       if (!answer || answer.archive || !answer.submitted || !inTimeRange(answer)) continue;
 
       const name = p.url.split('-').map(i => +i).slice(0, 2).join('-');
@@ -58,8 +57,8 @@ async function run() {
 
       const d = [
         user.first + ' ' + user.last,
-        emailMap[u],
-        `"${users[u].schoolName || ''}"`,
+        emailMap[id],
+        `"${user.schoolName || ''}"`,
         Math.round((answer.time - answer.firstAnswer) / 1000 / 60) || '',
         answer.score ? (answer.score + '%') : ''
       ];
@@ -84,8 +83,7 @@ async function run() {
 
   const titles = ['name', 'email', 'school', ...pages.map(p => p.url), 'total'];
   const data = [];
-  for (let u of Object.keys(users)) {
-    const user = users[u];
+  for (let [id, user] of users) {
     if (!user.answers || user.code) continue;
 
     const answers = pages.map(p => {
@@ -95,9 +93,9 @@ async function run() {
 
     const sum = answers.reduce((a, b) => (a || 0) + (b || 0), 0);
     if (sum > 0) data.push([
-      `"${users[u].first} ${users[u].last}"`,
-      emailMap[u],
-      `"${users[u].schoolName || ''}"`,
+      `"${user.first} ${user.last}"`,
+      emailMap[id],
+      `"${user.schoolName || ''}"`,
       ...answers, sum
     ]);
   }

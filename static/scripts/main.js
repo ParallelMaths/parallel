@@ -53,8 +53,8 @@ function sortTable(i, level) {
 document.addEventListener('DOMContentLoaded', function() {
   firebase.initializeApp({
     apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
+    projectId: "parallel-cf800",
     authDomain: "parallel-cf800.firebaseapp.com",
-    databaseURL: "https://parallel-cf800.firebaseio.com"
   });
 
   const user = getUser();

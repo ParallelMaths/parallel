@@ -24,7 +24,7 @@ function generateClassCode() {
 
 export default function() {
   const fbAuth = firebase.auth();
-  const fbDatabase = firebase.database();
+  const fbDatabase = firebase.firestore();
 
   let userPromise = null;
   let nextUrl = '';
@@ -64,7 +64,7 @@ export default function() {
   const cachedLevel = document.cookie.match(/level=(year[7-9])/);
 
   const loginForm = {error: null, reset: false};
-  const editForm = {loading: false, error: '', teacherCode: '', teacherCodes: []};
+  const editForm = {loading: false, error: '', teacherCodes: []};
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
     birthYear: 2000, isTeacher: location.hash === '#teacher'};
@@ -74,7 +74,7 @@ export default function() {
       editForm[key] = window.USER_DATA[key] || null;
     }
     if (window.USER_DATA.teacherCode) {
-      editForm.teacherCodes = window.USER_DATA.teacherCode.split(',');
+      editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
   }
 
@@ -93,7 +93,7 @@ export default function() {
     },
 
     acceptTerms() {
-      fbDatabase.ref('users/' + uid).update({acceptedTerms: true});
+      fbDatabase.collection('users').doc(uid).update({acceptedTerms: true});
       document.querySelector('#accept-terms').remove();
     },
 
@@ -135,8 +135,8 @@ export default function() {
           schoolName = json.school;
         }
 
-        await fbDatabase.ref('users/' + uid).update({
-          teacherCode: teacherCodes.length ? teacherCodes.join(',') : '',
+        await fbDatabase.collection('users').doc(uid).update({
+          teacherCode: teacherCodes || [],
           level: editForm.level || null,
           phoneNumber: editForm.phoneNumber || null,
           postCode: editForm.postCode || null,
@@ -208,12 +208,15 @@ export default function() {
       // Redirect after login
       nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
 
+      // Ensure that there are no existing cookies
+      document.cookie = '__session=;max-age=-999';
+
       userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
-          .then((user) => {
-            return fbDatabase.ref('users/' + user.uid).set({
+          .then(({user}) => {
+            return fbDatabase.collection('users').doc(user.uid).set({
               first: signupForm.first || null,
               last: signupForm.last || null,
-              teacherCode: signupForm.teacherCode || null,
+              teacherCode: signupForm.teacherCode ? [signupForm.teacherCode] : null,
               code: signupForm.code || null,
               level: signupForm.level || null,
               birthYear: signupForm.birthYear || null,

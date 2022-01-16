@@ -71,8 +71,8 @@ const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 for (const y of Object.keys(pageData)) pageData[y].reverse();
 
 async function run() {
-  const userData = await fb.database().ref('users').once('value');
-  const users = Object.values(userData.toJSON());
+  const userData = await fb.firestore().collection('users').get();
+  const users = userData.map(u => u.data());
   console.log(`Loading ${users.length} users...`);
 
   const length = Math.max(...[7, 8, 9, 10].map(i => pageData['year' + i].length));

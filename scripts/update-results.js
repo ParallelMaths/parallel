@@ -15,24 +15,22 @@ fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
+const userDb = fb.firestore().collection('users');
 
 async function updateAnswers() {
-  const userData = await fb.database().ref('users').once('value');
-  const users = userData.toJSON();
+  const userData = await userDb.get();
+  const users = userData.map(u => [u.id, u.data()])
   let count = 0;
 
-  for (let u of Object.keys(users)) {
-    if (!users[u].answers) continue;
-
-    const answers = users[u].answers[PG];
+  for (let [u, user] of users) {
+    const answers = user.answers?.[PG];
     if (!answers || !answers.submitted) continue;
     if (answers[QUESTION] !== IF_ANSWER) continue;
 
     const points = Math.min(answers.total, answers.points + ADD_POINTS);
     const score = Math.round(100 * points / answers.total);
 
-    await fb.database().ref(`users/${u}/answers/${PG}`)
-        .update({[QUESTION]: THEN_ANSWER, points, score});
+    await userDb.doc(u).set({answers: {[PG]: {[QUESTION]: THEN_ANSWER, points, score}}}, {merge: true});
 
     console.log(`  Updated score for ${users[u].first} ${users[u].last}: ${score}%`);
     count += 1;

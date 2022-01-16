@@ -12,13 +12,13 @@ fb.initializeApp({
 const badges = yaml.load(path.join(__dirname, '../static/badges.yaml'));
 
 async function run() {
-  const userData = await fb.database().ref('users').once('value');
-  const users = Object.values(userData.toJSON());
+  const userData = await fb.firestore().collection('users').get();
+  const users = userData.map(d => d.data());
   console.log(`Loading ${users.length} users...`);
 
   const results = ['year, badge, points, recipients'];
 
-  for (let y of ['year7', 'year8', 'year9']) {
+  for (let y of ['year7', 'year8', 'year9', 'year10', 'year11']) {
     for (let b of badges[y]) {
       const row = [y, b.name, b.score, 0];
       for (let u of users) {

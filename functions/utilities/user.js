@@ -5,6 +5,8 @@ const BADGES = require('../build/badges.json');
 
 const LEVELS = ['year7', 'year8', 'year9', 'year10', 'year11'];
 
+const userDB = firebase.firestore().collection('users');
+
 function getIdTokenFromRequest(req, res) {
   return new Promise((resolve, reject) => {
     cookieParser(req, res, () => {
@@ -17,30 +19,30 @@ function getIdTokenFromRequest(req, res) {
   });
 }
 
-function getUserData(uid) {
-  return firebase.database().ref('users/' + uid).once('value').then(user => {
-    const data = user.toJSON();
-    if (!data) throw new Error('User without data: ' + uid);
+async function getUserData(uid) {
+  const doc = await userDB.doc(uid).get();
+  if (!doc.exists) throw new Error('User without data: ' + uid);
+  const data = doc.data();
 
-    if (!data.answers) data.answers = {};
-    data.badges = data.badges ? data.badges.split(',') : [];
-    data.uid = uid;
+  if (!data.level) data.level = 'year8';
+  if (!data.answers) data.answers = {};
+  data.badges = data.badges ? data.badges.split(',') : [];
+  data.uid = uid;
 
-    data.allPoints = {};
-    for (const l of LEVELS) {
-      const scores = PAGES[l].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
-      data.allPoints[l] = scores.reduce((a, b) => a + b, 0);
-    }
+  data.allPoints = {};
+  for (const l of LEVELS) {
+    const scores = PAGES[l].map(p => (data.answers[p.url] || {}).score * (p.scoreFactor || 1) || 0);
+    data.allPoints[l] = scores.reduce((a, b) => a + b, 0);
+  }
 
-    data.points = data.level ? (data.allPoints[data.level] || 0) : 0;
-    data.visibleBadges = data.level ? (BADGES[data.level] || [])
-        .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
+  data.points = data.level ? (data.allPoints[data.level] || 0) : 0;
+  data.visibleBadges = data.level ? (BADGES[data.level] || [])
+      .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
 
-    const showAll = (data.code || data.level === 'graduated');
-    data.sidebarLevels = showAll ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
+  const showAll = (data.code || data.level === 'graduated');
+  data.sidebarLevels = showAll ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
 
-    return data;
-  });
+  return data;
 }
 
 function getActiveUser(req, res, next) {
@@ -52,10 +54,9 @@ function getActiveUser(req, res, next) {
       .then(() => next());
 }
 
-async function getAllStudents(teacherCode) {
-  const fbDatabase = firebase.database();
-  const students = await fbDatabase.ref('users').orderByChild('teacherCode').equalTo(teacherCode).once('value');
-  return students.toJSON() || {};
+async function getAllStudents(code) {
+  const query = await userDB.where('teacherCode', 'array-contains', code).get();
+  return query.map(d => d.data());
 }
 
 exports.getUserData = getUserData;

@@ -16,7 +16,7 @@ async function deleteAccount(email) {
   return fb.auth().getUserByEmail(email)
     .then(user => id = user.uid)
     .then(() => fb.auth().deleteUser(id))
-    .then(() => fb.database().ref('users/' + id).remove())
+    .then(() => fb.firestore().collection('users').doc(id).delete())
     .catch(e => console.log('Error deleting account:', email, e.message));
 }
 

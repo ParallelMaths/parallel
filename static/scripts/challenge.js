@@ -5,7 +5,7 @@
 
 
 export default function() {
-  const fbDatabase = firebase.database();
+  const fbDatabase = firebase.firestore();
 
   const page = window.PARALLELOGRAM;
   const userData = window.PARALLEL_USER_DATA;
@@ -20,13 +20,13 @@ export default function() {
       if (!userData.uid) return alert('You have to login or create a free account, before you can solve problems.');
       Vue.set(challenge.answers, key, value);
 
-      const path = `users/${userData.uid}/answers/${page.url}`;
-      fbDatabase.ref(path).update({[key]: value});
+      const userRef = fbDatabase.collection('users').doc(userData.uid);
+      userRef.set({answers: {[page.url]: {[key]: value}}}, {merge: true});
 
       // Track the first time that a questions was submitted...
-      fbDatabase.ref(path + '/firstAnswer').once('value').then(c => {
-        if (!c.val()) fbDatabase.ref(path).update({firstAnswer: Date.now()});
-      });
+      if (userData.answers.firstAnswer) return;
+      userData.answers.firstAnswer = true;
+      userRef.set({answers: {[page.url]: {firstAnswer: Date.now()}}}, {merge: true});
     },
 
     setInput(event) {
@@ -34,27 +34,19 @@ export default function() {
       challenge.setAnswer(event.target.dataset.value, event.target.value);
     },
 
-    submit() {
+    async submit() {
       if (userData.submitted || !userData.uid) return;
       Vue.set(challenge.answers, 'loading', true);
 
-      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`)
-          .update(calculateScore(challenge.answers))
-          .then(() => {
-            document.body.style.display = 'none';
-            window.scrollTo(0, 0);
-            location.reload(true)
-          });
+      const userRef = fbDatabase.collection('users').doc(userData.uid);
+      await userRef.set({answers: {[page.url]: calculateScore(challenge.answers)}}, {merge: true});
+      document.body.style.display = 'none';
+      window.scrollTo(0, 0);
+      location.reload(true);
     },
 
     showHint(id) {
       challenge.setAnswer(id, true);
-    },
-
-    unsubmit() {
-      fbDatabase.ref(`users/${userData.uid}/answers/${page.url}`)
-          .update({submitted: false})
-          .then(() => location.reload(true));
     },
 
     // Custom scoring functions
@@ -136,15 +128,3 @@ function checkInput(a, b) {
   b = ('' + b).trim().replace(/[\s,]/g, '').toLowerCase();
   return (a === b || +a === +b);
 }
-
-
-/* function timeUntil(to) {
-  let t = (new Date(to) - Date.now()) / 1000;
-  if (t < 120) return Math.floor(t) + ' seconds';
-  t /= 60;
-  if (t < 120) return Math.floor(t) + ' minutes';
-  t /= 60;
-  if (t < 48) return Math.floor(t) + ' hours';
-  t /= 24;
-  return Math.floor(t) + ' days';
-} */

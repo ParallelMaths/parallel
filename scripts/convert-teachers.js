@@ -20,7 +20,7 @@ async function makeTeacher(email) {
   const a = accounts.find(a => a.email.toLowerCase() === email.toLowerCase());
   if (!a) return console.error('Could not find ' + email);
 
-  return fb.database().ref('users/' + a.localId).update({
+  return fb.firestore().collection('users').doc(a.localId).update({
     schoolName: '<<SCHOOL NAME>>',
     code: 'xxxxx'.replace(/x/g, () => ((Math.random()*36)%36 | 0).toString(36)),
     level: null,
