@@ -19,7 +19,7 @@ const userDb = fb.firestore().collection('users');
 
 async function updateAnswers() {
   const userData = await userDb.get();
-  const users = userData.map(u => [u.id, u.data()])
+  const users = userData.docs.map(u => [u.id, u.data()])
   let count = 0;
 
   for (let [u, user] of users) {

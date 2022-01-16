@@ -13,7 +13,7 @@ const badges = yaml.load(path.join(__dirname, '../static/badges.yaml'));
 
 async function run() {
   const userData = await fb.firestore().collection('users').get();
-  const users = userData.map(d => d.data());
+  const users = userData.docs.map(d => d.data());
   console.log(`Loading ${users.length} users...`);
 
   const results = ['year, badge, points, recipients'];

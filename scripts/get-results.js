@@ -31,7 +31,7 @@ pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
   const userData = await fb.firestore().collection('users').get();
-  const users = userData.map(u => [u.id, u.data()]);
+  const users = userData.docs.map(u => [u.id, u.data()]);
 
   const emailData = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(emailData)).users;
