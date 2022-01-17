@@ -2,8 +2,8 @@
 
 As part of the Maths Masterclass sessions, students in Years 8-10 are required to take part in our weekly Parallel maths puzzles. And, students in other years are strongly encouraged to complete the so-called Parallelograms each week.
 
-* [What if you already have a personal Parallel account?](#no-account)
-* [What if you don't already have a Parallel account?](#already-account)
+* [What if you don't already have a Parallel account?](#no-account)
+* [What if you already have a personal Parallel account?](#already-account)
 * [What if you are already a Parallel user at school?](#already-user)
 
 
@@ -15,7 +15,7 @@ Getting started with Parallel is very easy to do, and only takes a few minutes. 
 2.	Where asked to add your surname, instead input your MATHS MASTERCLASS ID (You should find this in an email from [maths.masterclasses@talent-ed.uk](mailto:maths.masterclasses@talent-ed.uk))
 3.	Enter your email address
 4.	Enter your password. Make sure it is a password you can remember – perhaps make a note of it somewhere.
-5.	In the field marked “Teacher code”, enter the Maths Masterclass code: **n4zjt4**  
+5.	In the field marked “Teacher Code”, enter the Maths Masterclass code: **n4zjt4**  
 6.	Select your school year, and your year of birth
 7.	Tick the box to say you have read our Data Protection Terms and Conditions
 8.	Hit Sign-Up to finalise your sign up.
@@ -31,12 +31,15 @@ Each week, you will be asked to complete the next parallelogram. Ask your tutor 
 If you are already a Parallel user, you’ll just need to update your account. Simply [go to your Edit Account page](https://parallel.org.uk/account), and:
 
 1.	Change your surname to your MATHS MASTERCLASS ID
-2.	In the field marked “Teacher code”, enter the Maths Masterclass code: **n4zjt4**  
+2.	In the field marked “Teacher Code”, enter the Maths Masterclass code: **n4zjt4**  
+3.  If (for some reason) you already have a Teacher Code, then please [go to your account page](/account) and add **n4zjt4** as a second Teacher Code
 
 
 <a name="already-user"></a>
 ## What if you are already a Parallel user at school?
 
-Some schools have already been using Parallel for some time, and so you may have already been given a different Teacher Code, so your class teacher can keep track of your progress. If so, please do carry on doing parallel as normal for your school teacher, and [email us to let us know that you are doing so](mailto:maths.masterclasses@talent-ed.uk).
+Some schools have already been using Parallel for some time, so you may have already been given a different Teacher Code, which allows your class teacher to keep track of your progress. If so you already have a Teacher Code from your school, then please [go to your account page](/account) and add **n4zjt4**  as a second Teacher Code, so that we can also keep track of your progress.
+
+Please complete the Parallelograms required by your own teacher and in additional complete those set by the Maths Masterclass programme. If the Parallelogram set by the Maths Masterclass programme is one that you have already completed, then we will be able to set this, so you will not need to do it again... indeed you can only complete each Parallelogram once.
 
 Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up.
