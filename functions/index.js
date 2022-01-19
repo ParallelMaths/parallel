@@ -198,7 +198,7 @@ app.post('/remove-student', async function(req,res) {
 app.get('/validate/:code', async (req, res) => {
   const code = req.params.code;
   const data = await userDB.where('code', '==', code).limit(1).get();
-  const teacher = data[0]?.data();
+  const teacher = data.docs[0]?.data();
   res.json(teacher ? {school: teacher.schoolName || 'Unknown School'} : {error: 'invalid-code'});
 });
 
