@@ -243,7 +243,7 @@ From now on, Parallelograms will often contain this Additional Stuff section, wh
 
 Here is the most famous sketch by Abbott and Costello – “Who’s on first?” –
 watch and enjoy:
-@[youtube](WQXwt83hYkE?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](kTcRRaXV-fg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 This is a video presented by James Grime for the Numberphile channel. It is all
 about the world’s most mathematical flag:

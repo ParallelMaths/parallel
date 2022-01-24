@@ -38,8 +38,8 @@ If you are already a Parallel user, you’ll just need to update your account. S
 <a name="already-user"></a>
 ## What if you are already a Parallel user at school?
 
-Some schools have already been using Parallel for some time, so you may have already been given a different Teacher Code, which allows your class teacher to keep track of your progress. If so you already have a Teacher Code from your school, then please [go to your account page](/account) and add **n4zjt4**  as a second Teacher Code, so that we can also keep track of your progress.
+Some schools have already been using Parallel for some time, so you may have already been given a different Teacher Code, which allows your class teacher to keep track of your progress. If you already have a Teacher Code from your school, then please [go to your account page](/account) and add **n4zjt4**  as a second Teacher Code, so that we can also keep track of your progress.
 
-Please complete the Parallelograms required by your own teacher and in additional complete those set by the Maths Masterclass programme. If the Parallelogram set by the Maths Masterclass programme is one that you have already completed, then we will be able to set this, so you will not need to do it again... indeed you can only complete each Parallelogram once.
+Please complete the Parallelograms required by your own teacher and in addition complete those set by the Maths Masterclass programme. If the Parallelogram set by the Maths Masterclass programme is one that you have already completed, then we will be able to see this, so you will not need to do it again... indeed you can only complete each Parallelogram once.
 
 Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up.
