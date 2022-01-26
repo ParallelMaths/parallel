@@ -30,9 +30,8 @@ Each week, you will be asked to complete the next parallelogram. Ask your tutor 
 
 If you are already a Parallel user, you’ll just need to update your account. Simply [go to your Edit Account page](https://parallel.org.uk/account), and:
 
-1.	Change your surname to your MATHS MASTERCLASS ID
-2.	In the field marked “Teacher Code”, enter the Maths Masterclass code: **n4zjt4**  
-3.  If (for some reason) you already have a Teacher Code, then please [go to your account page](/account) and add **n4zjt4** as a second Teacher Code
+1.	In the field marked “Teacher Code”, enter the Maths Masterclass code: **n4zjt4**  
+2.  If (for some reason) you already have a Teacher Code, then please [go to your account page](/account) and add **n4zjt4** as a second Teacher Code
 
 
 <a name="already-user"></a>
