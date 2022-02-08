@@ -45,7 +45,7 @@ block content
       | Year of Birth
       select(v-model="user.signupForm.birthYear")
         - var year = 1920;
-        while year < 2014
+        while year < 2016
           option= year++
 
     label(v-if="user.signupForm.isTeacher")
@@ -60,7 +60,8 @@ block content
       | School Phone Number
       input(type="text" v-model="user.signupForm.phoneNumber" required)
 
-    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2006")
+    //- TODO Calculate the age dynamically
+    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009")
       | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
       input(type="email" v-model="user.signupForm.guardianEmail" required)
 
