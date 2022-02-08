@@ -149,28 +149,28 @@ export default function() {
       } catch(error) {
         console.error(error);
         editForm.loading = false;
-        editForm.error = ERRORS[e.code] || ERRORS.default;
+        editForm.error = ERRORS[error.code] || ERRORS.default;
       }
     },
 
     async password(e) {
       e.preventDefault();
-      if (!editForm.new || !editForm.old) return editForm.error = ERRORS['empty-password'];
+      if (!passwordForm.new || !passwordForm.old) return passwordForm.error = ERRORS['empty-password'];
 
-      editForm.loading = true;
-      editForm.error = null;
+      passwordForm.loading = true;
+      passwordForm.error = null;
 
       try {
         const currentUser = fbAuth.currentUser;
         const cred = firebase.auth.EmailAuthProvider
-        .credential(currentUser.email, editForm.new);
+        .credential(currentUser.email, passwordForm.new);
         await currentUser.reauthenticateWithCredential(cred);
-        await currentUser.updatePassword(editForm.new)
+        await currentUser.updatePassword(passwordForm.new)
         location.reload(true);
       } catch(error) {
         console.error(error);
-        editForm.loading = false;
-        editForm.error = ERRORS[e.code] || ERRORS.default;
+        passwordForm.loading = false;
+        passwordForm.error = ERRORS[error.code] || ERRORS.default;
       }
     },
 
