@@ -91,5 +91,5 @@ grunt.initConfig({
   }
 });
 
-grunt.registerTask('build', ['rollup', 'less', 'autoprefixer', 'markdown', 'yaml']);
-grunt.registerTask('default', ['clean', 'build', 'babel', 'cssmin', 'copy']);
+grunt.registerTask('build', ['rollup', 'less', 'autoprefixer', 'markdown', 'yaml', 'copy']);
+grunt.registerTask('default', ['clean', 'build', 'babel', 'cssmin']);

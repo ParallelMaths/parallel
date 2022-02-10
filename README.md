@@ -13,8 +13,33 @@ This repo contains a static website that hosts the content of each week's
 parallelogram. Using Firebase, students can create accounts, save their
 progress and see their scores.
 
-To run the server locally, you need `npm`. Install all dependencies using
-`npm install`, and then start the server on port 5000 by running `npm start`.
+**Firstly clone the repository and enter the directory**
+
+```bash
+git clone git@github.com:ParallelMaths/parallel.git
+cd parallel
+```
+
+**Next you need to setup your service account information**
+```bash
+mkdir private
+touch private/service-account.json # put your service account json in here
+```
+
+**Then you can install the node dependancies using our version of Node**
+```bash
+nvm use # If you dont have nvm it can be installed here https://github.com/nvm-sh/nvm#installing-and-updating
+npm install
+```
+
+**Finally you can start the app locally**
+```bash
+npm start
+```
+
+**You can access the local server on http://localhost:500**
+
+## Deployments
 
 To deploy updates to the [live site](https://parallel.org.uk), use
 `npm run deploy`. (This requires access to the linked Firebase account.)
