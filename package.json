@@ -7,7 +7,8 @@
     "url": "https://github.com/mathigon/parallel.git"
   },
   "scripts": {
-    "start": "grunt build && npm run serve",
+    "build": "grunt build",
+    "start": "npm run build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
     "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
     "deploy": "grunt && firebase deploy",
@@ -24,9 +25,10 @@
     "@mathigon/hilbert": "^0.6.8",
     "babel-polyfill": "^6.26.0",
     "babel-preset-minify": "^0.5.1",
+    "cookie-parser": "^1.4.6",
     "firebase-admin": "^9.11.1",
     "grunt": "^1.4.1",
-    "grunt-autoprefixer": "^0.4.2",
+    "grunt-autoprefixer": "^3.0.3",
     "grunt-babel": "^8.0.0",
     "grunt-concurrent": "^3.0.0",
     "grunt-contrib-clean": "^2.0.0",
