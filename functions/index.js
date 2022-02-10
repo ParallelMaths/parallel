@@ -63,6 +63,7 @@ app.set('view engine', 'pug');
 app.use(user.getActiveUser);
 
 app.use((req, res, next) => {
+  res.locals.isProduction = process.env.NODE_ENV === 'production';
   res.locals.user = req.user;
   res.locals.badges = BADGES;
   res.locals.pages = {};
