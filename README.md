@@ -37,7 +37,7 @@ npm install
 npm start
 ```
 
-**You can access the local server on http://localhost:500**
+**You can access the local server on http://localhost:5000**
 
 ## Deployments
 
