@@ -26,3 +26,5 @@ static/parallel.css
 build/
 cmder_mini/
 .firebase
+
+.DS_Store
