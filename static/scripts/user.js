@@ -163,7 +163,7 @@ export default function() {
       try {
         const currentUser = fbAuth.currentUser;
         const cred = firebase.auth.EmailAuthProvider
-        .credential(currentUser.email, passwordForm.new);
+        .credential(currentUser.email, passwordForm.old);
         await currentUser.reauthenticateWithCredential(cred);
         await currentUser.updatePassword(passwordForm.new)
         location.reload(true);
