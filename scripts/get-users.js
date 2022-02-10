@@ -8,8 +8,12 @@ fb.initializeApp({
   databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
-fb.database().ref('users').once('value').then(data => {
-  const users = data.toJSON();
+fb.firestore().collection('users').get().then(data => {
+  const users = data.docs.reduce((acc, doc) => {
+    acc[doc.id] = doc.data();
+    return acc;
+  }, {});
+
   const file = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(file)).users;
 
