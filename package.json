@@ -7,6 +7,7 @@
     "url": "https://github.com/mathigon/parallel.git"
   },
   "scripts": {
+    "build": "grunt build",
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
     "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
