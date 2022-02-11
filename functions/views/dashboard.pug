@@ -36,8 +36,8 @@ block content
                   for p, i in dashboard.pages[l]
                     th(width=80 v-on:click=`sortTable(${i + 1}, '${l}')`) PG #{p.index}
                 tbody
-                  for s in dashboard.students[l]
-                    tr
+                  for s, i in dashboard.students[l]
+                    tr(data-index=i)
                       for p in dashboard.pages[l]
                         if s.answers[p.url]
                           td(width=80 data-value=(s.answers[p.url].score || 0) class=scoreClass(s.answers[p.url].score)) #{s.answers[p.url].score || 0}%

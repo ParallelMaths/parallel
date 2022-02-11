@@ -18,8 +18,8 @@ function removeStudent(id, index, level) {
     }).then((response) => {
       if (!response.ok) return alert('Something went wrong. Please try again!');
       const table = document.querySelector(`.dashboard-table[data-level='${level}']`);
-      table.querySelector('.dashboard-names').childNodes[index + 1].remove();
-      table.querySelector('tbody').childNodes[index].remove();
+      table.querySelector(`.dashboard-names tr[data-index='${index}']`).remove();
+      table.querySelector(`.dashboard-data tr[data-index='${index}']`).remove();
    });
   }
 }

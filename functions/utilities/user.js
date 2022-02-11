@@ -56,7 +56,10 @@ function getActiveUser(req, res, next) {
 
 async function getAllStudents(code) {
   const query = await userDB.where('teacherCode', 'array-contains', code).get();
-  return query.docs.map(d => d.data());
+  return query.docs.map(d => ({
+    ...d.data(),
+    uid: d.id,
+  }));
 }
 
 exports.getUserData = getUserData;

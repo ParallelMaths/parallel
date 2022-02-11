@@ -130,7 +130,6 @@ async function getDashboardData(req) {
 
   for (let s of studentKeys) {
     if (!students[s].answers) students[s].answers = {};
-    students[s].uid = s;
     dashboard.students[students[s].level || 'year7'].push(students[s]);
   }
 
@@ -187,8 +186,8 @@ app.post('/remove-student', async function(req,res) {
   if (!req.user) return error(res, 401);
   if (!req.user.code) return error(res, 403);
 
-  const student = userDB.doc(req.body.id).get();
-  if (!(await student).exists) return error(res, 403);
+  const student = await userDB.doc(req.body.id).get();
+  if (!student.exists) return error(res, 403);
   const studentCodes = student.data().teacherCode || [];
   if (!studentCodes.includes(req.user.code)) return error(res, 403);
 
