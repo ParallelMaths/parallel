@@ -56,3 +56,6 @@ block content
       input(type="password" pattern=".{6,}" v-model="user.passwordForm.new" autocomplete="new-password" required)
 
     button(type="submit") Update
+
+  if user && !user.code && user.userReference
+    p(style="font-size: 16px; text-align: center; color: #555; margin-top: 3rem;") Student Reference: #{user.userReference}

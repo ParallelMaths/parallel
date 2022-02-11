@@ -159,15 +159,15 @@ app.get('/dashboard.csv', async function(req, res) {
 
     results.push(LEVEL_NAMES[l]);
 
-    const titles = ['Name'];
+    const titles = ['Name', "Student Reference"];
     for (const p of dashboard.pages[l]) titles.push('PG' + p.index);
     results.push(titles.join(','));
 
     for (const s of dashboard.students[l]) {
-      const row = [`"${s.first} ${s.last}"`];
+      const row = [`"${s.first} ${s.last}"`, `"${s.userReference || ''}"`];
       for (const p of dashboard.pages[l]) {
         const answers = s.answers[p.url];
-        row.push(answers ? (answers.score || 0) : 0);
+        row.push(answers?.score !== undefined ? answers.score : ``);
       }
       results.push(row.join(','));
     }

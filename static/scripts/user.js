@@ -21,6 +21,9 @@ function generateClassCode() {
   return 'xxxx-xxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toUpperCase();
 }
 
+function generateUserReference() {
+  return 'xxxxxxxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toUpperCase();
+}
 
 export default function() {
   const fbAuth = firebase.auth();
@@ -224,7 +227,8 @@ export default function() {
               phoneNumber: signupForm.phoneNumber || null,
               postCode: signupForm.postCode || null,
               guardianEmail: signupForm.guardianEmail || null,
-              acceptedTerms: true
+              acceptedTerms: true,
+              userReference: generateUserReference()
             });
           })
           .catch(error => {
