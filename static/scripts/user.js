@@ -51,11 +51,20 @@ export default function() {
     document.cookie = '__session=' + token + ';max-age=' + (token ? 3600 : 0);
     if ((!hadSessionCookie && token) || (hadSessionCookie && !token)) {
       if (nextUrl) {
+        // Just signed up
         window.location.replace(nextUrl);
       } else if (!token) {
+        // Just logged out
         window.location.replace('/');
       } else {
-        window.location.reload(true);
+        // Just signed in
+        if (window.location.pathname.match(/^\/\d/)) {
+          // If they log in from parallelogram, keep them there
+          window.location.reload(true);
+        } else {
+          // If they're not on parallelogram, send them to the /login redirect
+          window.location.replace('/login');
+        }
       }
     } else {
       // In the rare case where there was a user but it could not be signed in
@@ -73,7 +82,7 @@ export default function() {
     birthYear: 2000, isTeacher: location.hash === '#teacher'};
 
   if (window.USER_DATA) {
-    for (let key of ['schoolName', 'postCode', 'phoneNumber', 'level']) {
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
       editForm[key] = window.USER_DATA[key] || null;
     }
     if (window.USER_DATA.teacherCode) {
@@ -124,8 +133,10 @@ export default function() {
       editForm.loading = true;
       editForm.error = null;
 
+      const isTeacher = !!window.USER_DATA.code
+
       try {
-        let schoolName = editForm.schoolName || null;
+        let schoolName = editForm.schoolName || '';
         const teacherCodes = editForm.teacherCodes.map(c => c.text.trim());
 
         for (const code of teacherCodes) {
@@ -138,17 +149,23 @@ export default function() {
           schoolName = json.school;
         }
 
+        if (!isTeacher && !teacherCodes.length) {
+          schoolName = '';
+        }
+
         await fbDatabase.collection('users').doc(uid).update({
           teacherCode: teacherCodes || [],
           level: editForm.level || null,
           phoneNumber: editForm.phoneNumber || null,
           postCode: editForm.postCode || null,
-          schoolName: teacherCodes.length ? schoolName : ''
+          first: editForm.first || null,
+          last: editForm.last || null,
+          schoolName: schoolName,
         });
 
         editForm.loading = false;
         editForm.error = null;
-
+        location.reload(true);
       } catch(error) {
         console.error(error);
         editForm.loading = false;

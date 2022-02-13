@@ -9,6 +9,14 @@ block content
 
     script!= 'window.USER_DATA = ' + JSON.stringify(user) + ';'
 
+    label
+      | First Name
+      input(type="text" v-model="user.editForm.first")
+
+    label
+      | Surname
+      input(type="text" v-model="user.editForm.last")
+
     if user.code
       //- Teacher Account Fields
       label

@@ -100,6 +100,18 @@ for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-condit
   app.get('/' + p, (req, res) => res.render('_layout', {content}));
 }
 
+app.get('/login', (req, res) => {
+  // When logging in we dont load their details before the "login redirect" (see addAuthTokenListener)
+  // So we send them to this path to redirect them correctly
+  if(res?.locals?.user?.code){
+    res.redirect('/dashboard')
+  }
+  if(res?.locals?.user){
+    res.redirect('/badges')
+  }
+  res.redirect('/');
+})
+
 app.get('/account', (req, res) => {
   if (!req.user) return error(res, 401);
   res.render('account');
