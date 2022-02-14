@@ -103,6 +103,7 @@ html
                     div Current streak: #{streak.value}
                     if(streak.multiplier)
                       .multiplier + #{streak.multiplier}%
+                      script!= 'window.__STREAK_MULTIPLIER__ = ' + JSON.stringify(streak.multiplier) + ';'
                     .motivator #{streak.motivator}
                     .next #{streak.next}
 

@@ -80,6 +80,10 @@ const getStreakValue = (activePageIndex, levels, answers) => {
 const getStreak = (req, PAGES, now) => {
   const levelName = req?.user?.level;
 
+  if (!levelName || req?.user?.code) {
+    return undefined;
+  }
+
   const activePageIndex = PAGES[levelName].findIndex(({ available }) => now > new Date(available));
 
   const yearHasNotStartedYet = activePageIndex == -1;
