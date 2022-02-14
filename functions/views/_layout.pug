@@ -93,6 +93,18 @@ html
                       .badge(style='background-image: url(/images/badges/' + b.id + '.jpg); color: #' + b.color)
                     if user.visibleBadges.length > 4
                       .badge.more +
+              if streak
+                .sidebar-field.streak
+                  if !streak.value
+                    .intro #{streak.motivator}
+                    if streak.next
+                    .next #{streak.next}
+                  if streak.value
+                    div Current streak: #{streak.value}
+                    if(streak.multiplier)
+                      .multiplier + #{streak.multiplier}%
+                    .motivator #{streak.motivator}
+                    .next #{streak.next}
 
             if !user || user.code || user.level !== 'year7'
               .toggle
