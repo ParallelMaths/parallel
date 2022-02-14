@@ -32,6 +32,7 @@ export default function() {
   let userPromise = null;
   let nextUrl = '';
   let uid = null;
+  let justManuallySignedIn = false;
   fbAuth.onAuthStateChanged((user) => uid = user ? user.uid : null);
 
   // If it is likely that there is a signed-in Firebase user and the session
@@ -57,7 +58,14 @@ export default function() {
         // Just logged out
         window.location.replace('/');
       } else {
-        // Just signed in
+        // Just signed in OR revalidating login on return
+
+        if(!justManuallySignedIn){
+          // If revalidating login, just reload
+          window.location.reload(true);
+        }
+
+        // If manually logging in
         if (window.location.pathname.match(/^\/\d/)) {
           // If they log in from parallelogram, keep them there
           window.location.reload(true);
@@ -124,6 +132,7 @@ export default function() {
           .catch((e) => loginForm.error = ERRORS[e.code] || ERRORS.default);
       }
 
+      justManuallySignedIn = true;
       fbAuth.signInWithEmailAndPassword(loginForm.email, loginForm.password)
         .catch((e) => loginForm.error = ERRORS[e.code] || ERRORS.default);
     },
