@@ -50,28 +50,29 @@ export default function() {
 
     const hadSessionCookie = document.cookie.indexOf('__session=') !== -1;
     document.cookie = '__session=' + token + ';max-age=' + (token ? 3600 : 0);
+
     if ((!hadSessionCookie && token) || (hadSessionCookie && !token)) {
       if (nextUrl) {
         // Just signed up
-        window.location.replace(nextUrl);
+        return window.location.replace(nextUrl);
       } else if (!token) {
         // Just logged out
-        window.location.replace('/');
+        return window.location.replace('/');
       } else {
         // Just signed in OR revalidating login on return
 
         if(!justManuallySignedIn){
           // If revalidating login, just reload
-          window.location.reload(true);
+          return window.location.reload(true);
         }
 
         // If manually logging in
         if (window.location.pathname.match(/^\/\d/)) {
           // If they log in from parallelogram, keep them there
-          window.location.reload(true);
+          return window.location.reload(true);
         } else {
           // If they're not on parallelogram, send them to the /login redirect
-          window.location.replace('/login');
+          return window.location.replace('/login');
         }
       }
     } else {
