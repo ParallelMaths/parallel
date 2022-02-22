@@ -136,7 +136,7 @@ In each case a number is subtracted from 1. The smaller the number we subtract, 
 ## 4. Negative numbers
 
 ::: problem id=4_1 marks=2
-__4.1__ What is `5 × -1/2`?
+__4.1__ What is `5 × (-1/2)`?
 
 * [ ] `4 1/2`
 * [x] `-2 1/2`
@@ -146,19 +146,19 @@ __4.1__ What is `5 × -1/2`?
 :::
 
 ::: problem id=4_2 marks=2
-__4.2__ What is `-4 + -9`?
+__4.2__ What is `(-4) + (-9)`?
 
 <input solution="-13"/>
 :::
 
 ::: problem id=4_3 marks=2
-__4.3__ What is `-9 - -4`?
+__4.3__ What is `(-9) - (-4)`?
 
 <input solution="-5"/>
 :::
 
 ::: problem id=4_4 marks=2
-__4.4__ What is `-5 × -2 × -5`?
+__4.4__ What is `(-5) × (-2) × (-5)`?
 
 <input solution="-50"/>
 :::

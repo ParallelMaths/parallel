@@ -58,7 +58,7 @@
     "@firebase/app": "^0.7.0",
     "caniuse-lite": "^1.0.3",
     "firebase": "^9.0.0",
-    "firebase-functions": "^3.15.4",
+    "firebase-functions": "^3.18.0",
     "firebase-tools": "^9.6.1"
   },
   "browserslist": [
