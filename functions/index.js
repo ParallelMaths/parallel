@@ -14,6 +14,7 @@ const path = require('path');
 const functions = require('firebase-functions');
 const express = require('express');
 const user = require('./utilities/user');
+const { getStreak } = require('./utilities/streak');
 
 const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
@@ -84,6 +85,8 @@ app.use((req, res, next) => {
     res.locals.pages[l] =
         PAGES[l].filter(p => (res.locals.now >= p.available));
   }
+
+  res.locals.streak = getStreak(req, PAGES, new Date(res.locals.now));
 
   next();
 });

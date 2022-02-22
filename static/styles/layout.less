@@ -139,13 +139,42 @@ header {
   }
 }
 
-.sidebar-field.account {
+.sidebar-field.account, .sidebar-field.next, .sidebar-field.streak {
   padding: 8px 16px 10px;
   p { margin: 0; }
   .dot { margin: 0 6px; }
   p.small { font-size: 12px; color: fade(white, 60%); }
   p a { color: inherit; }
   p a:hover { color: white; }
+}
+
+.streak {
+  position: relative;
+}
+
+.streak .intro {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.streak .motivator {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 4px;
+}
+
+.streak .next {
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.sidebar-field.streak .multiplier {
+  top: 11px !important;
+  background: #01d500;
+}
+
+.sidebar-field.next {
+  font-size: 16px;
 }
 
 nav a {
@@ -220,7 +249,7 @@ nav a {
   + div .sidebar-field:first-child { border-radius: 0; }
 }
 
-.status {
+.status, .multiplier {
   position: absolute;
   right: 12px;
   top: 16px;

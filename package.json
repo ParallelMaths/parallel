@@ -15,7 +15,8 @@
     "get-users": "npm run export-users && node scripts/get-users.js",
     "get-results": "npm run export-users && node scripts/get-results.js",
     "get-tts-results": "node scripts/get-tts-results.js",
-    "update-results": "node scripts/update-results.js"
+    "update-results": "node scripts/update-results.js",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -37,6 +38,7 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-rollup": "^11.9.0-0",
     "grunt-yaml": "^0.4.2",
+    "jest": "^27.5.1",
     "jsdom": "^17.0.0",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.1.3",
