@@ -95,9 +95,14 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => res.render('home'));
 app.get('/contact', (req, res) => res.render('contact'));
 
+const pagesWithoutSidebar = ['primary-parallel']
+
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'masterclass', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
-  app.get('/' + p, (req, res) => res.render('_layout', {content}));
+  app.get('/' + p, (_, res) => {
+    res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
+    res.render('_layout', {content})
+  });
 }
 
 app.get('/login', (req, res) => {

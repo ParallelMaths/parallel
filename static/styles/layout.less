@@ -42,6 +42,10 @@ html {
   margin: 0 auto;
 }
 
+article.sidebarDisabled {
+  width: 100%;
+}
+
 article {
   background: white;
   border-radius: 4px;
@@ -456,6 +460,10 @@ footer a {
 
   #logo { float: left; height: 40px; margin: 8px 0; width: 110px; }
 
+  #logo.sidebarDisabled {
+    margin-left: 16px;
+  }
+
   #shadow {
     position: fixed;
     width: 100%;
@@ -473,7 +481,7 @@ footer a {
     }
   }
 
-  article {
+  article, article.sidebarDisabled {
     border-radius: 0;
     box-shadow: none;
     padding: 80px 24px 24px;

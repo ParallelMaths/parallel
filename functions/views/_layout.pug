@@ -34,89 +34,90 @@ html
   body
     #vue
       .header
-        #menu(v-on:click="showSidebar=true")
-          svg(width=24 height=24)
-            rect(y=2 width=24 height=3 fill="white")
-            rect(y=10 width=24 height=3 fill="white")
-            rect(y=18 width=24 height=3 fill="white")
+        if !sidebarDisabled
+          #menu(v-on:click="showSidebar=true")
+            svg(width=24 height=24)
+              rect(y=2 width=24 height=3 fill="white")
+              rect(y=10 width=24 height=3 fill="white")
+              rect(y=18 width=24 height=3 fill="white")
 
-        a#logo(href="/" title="Home")
+        a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
 
       #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
       #container
-        .sidebar
-          .sidebar-wrap(v-bind:class="{visible: showSidebar}")
-            if user
-              .sidebar-field.account
-                p #{user.first} #{user.last}
-                if user.schoolName
-                  p.small= user.schoolName
-                p.small
-                  if !user.code
-                    | #{levelNames[user.level]}
+        if !sidebarDisabled
+          .sidebar
+            .sidebar-wrap(v-bind:class="{visible: showSidebar}")
+              if user
+                .sidebar-field.account
+                  p #{user.first} #{user.last}
+                  if user.schoolName
+                    p.small= user.schoolName
+                  p.small
+                    if !user.code
+                      | #{levelNames[user.level]}
+                      span.dot •
+                    a(href="/account") Settings
                     span.dot •
-                  a(href="/account") Settings
-                  span.dot •
-                  a(v-on:click="user.logout") Logout
-              if user.code
-                .sidebar-field: a(href="/dashboard") Teacher Dashboard
-            else
-              .intros
-                a(href="/introduction")
-                  include svgs/backpack.svg
-                  | Students
-                a(href="/teachers")
-                  include svgs/parent.svg
-                  | Teachers
-                a(href="/parents")
-                  include svgs/teacher.svg
-                  | Parents
-              div
-                .sidebar-field: a(href="/signup") Create a free account
-                .sidebar-field
-                  a(v-on:click="user.showLogin = !user.showLogin") Login
-                  form.login(v-bind:class="{active: user.showLogin}" v-on:submit="user.login")
-                    .error(v-show="user.loginForm.error") {{user.loginForm.error}}
-                    input(placeholder="Email" required type="email" v-model="user.loginForm.email" autocomplete="email")
-                    input(placeholder="Password" v-if="!user.loginForm.reset" required type="password" v-model="user.loginForm.password" autocomplete="current-password")
-                    p
-                      button(type="submit") {{ user.loginForm.reset ? 'Reset' : 'Login' }}
-                      a(v-on:click="user.toggleReset()") {{ user.loginForm.reset ? 'Back to login' : 'Reset password' }}
+                    a(v-on:click="user.logout") Logout
+                if user.code
+                  .sidebar-field: a(href="/dashboard") Teacher Dashboard
+              else
+                .intros
+                  a(href="/introduction")
+                    include svgs/backpack.svg
+                    | Students
+                  a(href="/teachers")
+                    include svgs/parent.svg
+                    | Teachers
+                  a(href="/parents")
+                    include svgs/teacher.svg
+                    | Parents
+                div
+                  .sidebar-field: a(href="/signup") Create a free account
+                  .sidebar-field
+                    a(v-on:click="user.showLogin = !user.showLogin") Login
+                    form.login(v-bind:class="{active: user.showLogin}" v-on:submit="user.login")
+                      .error(v-show="user.loginForm.error") {{user.loginForm.error}}
+                      input(placeholder="Email" required type="email" v-model="user.loginForm.email" autocomplete="email")
+                      input(placeholder="Password" v-if="!user.loginForm.reset" required type="password" v-model="user.loginForm.password" autocomplete="current-password")
+                      p
+                        button(type="submit") {{ user.loginForm.reset ? 'Reset' : 'Login' }}
+                        a(v-on:click="user.toggleReset()") {{ user.loginForm.reset ? 'Back to login' : 'Reset password' }}
 
-            if user && !user.code
-              .sidebar-field: a(href="/badges")
-                | Your Badges
-                if user.visibleBadges.length
-                  .badge-row
-                    for b in user.visibleBadges
-                      .badge(style='background-image: url(/images/badges/' + b.id + '.jpg); color: #' + b.color)
-                    if user.visibleBadges.length > 4
-                      .badge.more +
+              if user && !user.code
+                .sidebar-field: a(href="/badges")
+                  | Your Badges
+                  if user.visibleBadges.length
+                    .badge-row
+                      for b in user.visibleBadges
+                        .badge(style='background-image: url(/images/badges/' + b.id + '.jpg); color: #' + b.color)
+                      if user.visibleBadges.length > 4
+                        .badge.more +
 
-            if !user || user.code || user.level !== 'year7'
-              .toggle
-                for l in user ? user.sidebarLevels : levels
-                  a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
+              if !user || user.code || user.level !== 'year7'
+                .toggle
+                  for l in user ? user.sidebarLevels : levels
+                    a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
 
-            if user && !user.code
-              script!= 'window.USER_LEVEL = "' + user.level + '";'
+              if user && !user.code
+                script!= 'window.USER_LEVEL = "' + user.level + '";'
 
-            for l in user ? user.sidebarLevels : levels
-              nav(v-show=`user.level == '${l}'`)
-                for p in pages[l]
-                  a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
-                    .title-meta PG #{p.index} #[span.spaced •] #{p.date}
-                    .title= p.title
-                    if user && user.answers[p.url] && user.answers[p.url].submitted
-                      .status.score(class=scoreClass(user.answers[p.url].score)) #{user.answers[p.url].score}%
-                    else if now <= p.deadline
-                      .status NEW
-
+              for l in user ? user.sidebarLevels : levels
+                nav(v-show=`user.level == '${l}'`)
+                  for p in pages[l]
+                    a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
+                      .title-meta PG #{p.index} #[span.spaced •] #{p.date}
+                      .title= p.title
+                      if user && user.answers[p.url] && user.answers[p.url].submitted
+                        .status.score(class=scoreClass(user.answers[p.url].score)) #{user.answers[p.url].score}%
+                      else if now <= p.deadline
+                        .status NEW
         if content
-          article!= content
+          article(class=(sidebarDisabled ? 'sidebarDisabled' : ''))!= content
         else
-          article: block content
+          article(class=(sidebarDisabled ? 'sidebarDisabled' : '')): block content
 
       if user && !user.acceptedTerms && path !== '/terms-and-conditions'
         #accept-terms.modal
