@@ -8,6 +8,7 @@ Interactive maths webinars for talented and ambitious primary school students in
 * Questions, puzzles and activities to push your child's maths thinking to the next level
 * Resources and recommendations for summer learning
 * Designed for high-attaining Year 5 and Year 6 students
+* Imagine what would happen if Joe Wicks was a mathematician
 
 Schedule:
 
@@ -17,7 +18,7 @@ Schedule:
 * Week 4 - June 28th or 20th at 5pm
 
 
-##About Parallel Primary
+## About Parallel Primary
 
 Parallel Primary is the latest education initiative from bestselling science author Simon Singh.
 
@@ -37,25 +38,22 @@ __A springboard to future maths programmes__
 
 This summer programme leads on to two longer-term opportunities:
 
-* Year 5 students can progress to our year-round Year 6 programme when it launches this Autumn.
-* Year 6 students will be well placed to apply for our Year 7 Masterclass and Monthly Maths Challenge programmes, also available in the next academic year.
+* Next year, Year 5 students can progress to our Junior Challenge programme when it launches this Autumn.
+* Next year, Year 6 students will be well placed to apply for our Year 7 Masterclass and Monthly Maths Challenge programmes when it launches this Autumn.
 
 
-##FAQs
+## FAQs
 
-__What technology is involved?__
-All of our sessions are live streamed on YouTube. The streams are set to ‘Made for Kids’ and, rest assured, the session is designed to safeguard your child’s privacy at all times. If you have trouble accessing YouTube on your device, [take a look at this help page](https://support.google.com/youtube/answer/6159254?hl=en-GB){target="_blank"}.
+__What technology is involved?__  
+All of our sessions are live streamed on YouTube. The streams are set to ‘Made for Kids’ and, rest assured, the session is designed to safeguard your child’s privacy at all times.
 
-__Is it compulsory for students to attend all four webinars?__
-
+__Is it compulsory for students to attend all four webinars?__  
 We would prefer students to attend all four webinars, but we also appreciate that sometimes students will have to miss one or two sessions due to a range of circumstances. We offer each session twice to allow for some flexibility.
 
-__How do I register?__
-Parents can register their child from May 5 2022.
-
-Note for teachers: please share this page with parents of students that you think will benefit from the programme. They will need to include the name and email of their maths teacher, which we hope you are happy to provide.
+__How do I register?__  
+Parents can register their children from May 5 2022.
 
 
-##Contacts
+## Contacts
 
-Got questions? Want to learn more? We’d love to hear from you - just email [primaryparallel@goodthinkingsociety.org](mailto:primaryparallel@goodthinkingsociety.org?subject=Priimary%20Parallel)
+Got questions? Want to learn more? We’d love to hear from you - just email [contact@parallel.org.uk](mailto:contact@parallel.org.uk?subject=Priimary%20Parallel)
