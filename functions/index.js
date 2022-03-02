@@ -97,7 +97,7 @@ app.get('/contact', (req, res) => res.render('contact'));
 
 const pagesWithoutSidebar = ['primary-parallel']
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'masterclass', 'troubleshooting']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'primary-parallel', 'masterclass', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
