@@ -34,7 +34,7 @@ We’re seeking talented and enthusiastic Year 5 and 6 maths students from anywh
 ![](/images/cloud.jpg){image align="right" padding-left:10px"}
 ### A springboard to future maths programmes
 
-This summer programme leads on to two longer-term opportunities: Next year, Year 5 students can progress to our Junior Challenge programme when it launches this Autumn. Next year, Year 6 students will be well placed to apply for our Year 7 Masterclass and Monthly Maths Challenge programmes when it launches this Autumn.
+This summer programme leads on to two longer-term opportunities. Next year, Year 5 students can progress to our Junior Challenge programme when it launches this Autumn. Year 6 students will be well placed to apply for our Year 7 Masterclass and Monthly Maths Challenge programmes when it launches this Autumn.
 
 
 ## Schedule
