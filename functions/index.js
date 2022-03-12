@@ -95,6 +95,20 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => res.render('home'));
 app.get('/contact', (req, res) => res.render('contact'));
 
+app.get('/api/user', async (req, res) => {
+  const token = req.headers['parallel-token'];
+
+  if(!token) return res.status(400).send('Missing token');
+
+  await user.getUserFromToken(token).then((user) => {
+    const {level, code, userReference, first, schoolName, last, uid} = user;
+    res.status(200).send({level, code, userReference, first, schoolName, last, uid})
+  }).catch((err) => {
+    console.error(err);
+    res.status(400).send('Error')
+  })
+});
+
 const pagesWithoutSidebar = ['primary-parallel']
 
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'primary-parallel', 'masterclass', 'troubleshooting']) {

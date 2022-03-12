@@ -54,6 +54,11 @@ function getActiveUser(req, res, next) {
       .then(() => next());
 }
 
+function getUserFromToken(idToken) {
+  return firebase.auth().verifyIdToken(idToken)
+  .then(decodedIdToken => getUserData(decodedIdToken.uid))
+}
+
 async function getAllStudents(code) {
   const query = await userDB.where('teacherCode', 'array-contains', code).get();
   return query.docs.map(d => ({
@@ -64,4 +69,5 @@ async function getAllStudents(code) {
 
 exports.getUserData = getUserData;
 exports.getActiveUser = getActiveUser;
+exports.getUserFromToken = getUserFromToken;
 exports.getAllStudents = getAllStudents;
