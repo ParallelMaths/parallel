@@ -1,15 +1,20 @@
 # Primary Parallel
 ## Interactive maths webinars for talented and ambitious primary school students in Years 5 and 6
 
-![](/images/primary-parallel-boy.jpg){image align="right" width="450px" padding-left:25px"}
+;;; columns columnMinWidth=350
+^^^ column
 * 4 sessions, run by leading maths educators Simon Singh and Junaid Mubeen
 * Questions, puzzles and activities to push your child's maths thinking to the next level
 * Resources and recommendations for summer learning
 * Designed for high-attaining Year 5 and Year 6 students
 * It's like Joe Wicks, but for maths
+^^^
+^^^ column centerContent
+![](/images/primary-parallel-boy.jpg)
+^^^
+;;;
 
 [Find out about Parallel for secondary schools >>](/)
-
 
 ## About Parallel Primary
 
@@ -47,8 +52,9 @@ This summer programme leads on to two longer-term opportunities. Next year, Year
 
 ## FAQs
 
+;;; columns columnMinWidth=400
+^^^ column
 __What technology is involved?__  
-![](/images/primary-parallel-girl.jpg){image align="right" width="450px" padding-left:25px"}
 All of our sessions are live streamed on YouTube. The streams are set to ‘Made for Kids’ and, rest assured, the session is designed to safeguard your child’s privacy at all times.
 
 __Is it compulsory for students to attend all four webinars?__  
@@ -56,8 +62,11 @@ We would prefer students to attend all four webinars, but we also appreciate tha
 
 __How do I register?__  
 Parents can register their children from May 5th, 2022. A registration form will be available here shortly.
-
-
+^^^
+^^^ column centerContent
+![](/images/primary-parallel-girl.jpg)
+^^^
+;;;
 ## Contact Us
 
 Got questions? Want to learn more? We’d love to hear from you - just email [contact@parallel.org.uk](mailto:contact@parallel.org.uk?subject=Primary%20Parallel)

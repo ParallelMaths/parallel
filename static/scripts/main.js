@@ -60,6 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const user = getUser();
   const challenge = window.PARALLELOGRAM ? getChallenge() : null;
 
+  Vue.component('v-style', {
+    render: function (createElement) {
+      return createElement('style', this.$slots.default)
+    }
+  });
+
   window.app = new Vue({
     el: '#vue',
     components: {VueTagsInput: window.vueTagsInput.default},

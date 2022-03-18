@@ -34,6 +34,61 @@ md.use(markdwonContainer, 'problem', { render(tokens, idx) {
     }
   }});
 
+md.use(markdwonContainer, 'columns', { marker: ';', render(tokens, idx) {
+  const data = {};
+  const options = tokens[idx].info.trim().split(' ').slice(1);
+  for (let o of options) {
+    const split = o.split('=');
+    data[split[0]] = split[1];
+  }
+
+  let width = Number(data.columnMinWidth || '320')
+
+  if(Number.isNaN(width)) {
+    width = 320;
+  }
+
+  let maxWidth = Number(data.maxWidth)
+
+  if(Number.isNaN(maxWidth)) {
+    maxWidth = undefined;
+  } else if(maxWidth > 896) {
+    maxWidth = undefined;
+  }
+
+  const styles = `
+    .columns-wrapper-open-${width} {
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(${width}px, 1fr));
+      grid-column-gap: 16px;
+      ${maxWidth ? `max-width: ${maxWidth}px;` : ''}
+      margin: 0 auto;
+    }
+    @media screen and (max-width: ${width + 30}px) {
+      .columns-wrapper-open-${width} { display: block }
+    }
+  `;
+
+  if(tokens[idx].type === 'container_columns_open'){
+    // need v-style & style as vue removes style, need both to avoid flicker
+    return `<v-style style="display: none;">${styles}</v-style><style>${styles}</style>
+    <div class="columns-wrapper-open-${width}">`
+  }
+
+  return `</div>`
+}});
+
+md.use(markdwonContainer, 'column', { marker: '^', render(tokens, idx) {
+  const options = tokens[idx].info.trim().split(' ').slice(1);
+
+  const centerContent = options.includes('centerContent');
+
+  if(tokens[idx].type === 'container_column_open'){
+    return `<div style="${centerContent ? 'display: flex; align-items: center; justify-content: center;' : ''}"><div>`
+  }
+  return `</div></div>`
+}});
+
 md.use(markdwonContainer, 'hint', {
   marker: '^',
   render(tokens, idx) {
