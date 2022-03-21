@@ -131,55 +131,40 @@ Watch this video of one of the most mysterious objects in the universe. It’s c
 @[youtube](ovZ_n6X__9c?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
-## 7. VAX! – a game about epidemic prevention
-
-Take a look at the game on the [__VAX!__ website](http://vax.herokuapp.com/){target="_blank"}, which is all about showing how maths can help reduce the spread of disease. This game was interesting when we first featured it in 2017, but since 2020 it has become part of our daily lives.
-
-We are all connected to each other and it is through these connections that diseases spread. You can reduce the spread of disease by breaking these connections, either by vaccinating people or putting them in quarantine.
-
-It is definitely worth looking at the whole site and learning about the maths of disease, networks and connections, but if you want to jump straight in to the game then this is how to find it and how to win a rattleback.
-
-*	Go to [http://vax.herokuapp.com/game](http://vax.herokuapp.com/game){target="_blank"}
-*	Click on EASY (try MEDIUM & HARD later)
-*	Start vaccinating those dots that are most likely to spread disease.
-*	When the disease starts, begin quarantining dots.
-*	If you want to try again, hit RETRY after you obtain your score.
-
-
-## 8. Decimal operations
+## 7. Decimal operations
 
 ::: problem id=8_1 marks=2
-__8.1__ What is 8 – 4.563?
+__7.1__ What is 8 – 4.563?
 
 <input solution="3.437"/>
 :::
 
 ::: problem id=8_2 marks=2
-__8.2__ What is half of 1.01?
+__7.2__ What is half of 1.01?
 
 <input solution="0.505"/>
 :::
 
 ::: problem id=8_3 marks=2
-__8.3__ What is 0.8 × 20?
+__7.3__ What is 0.8 × 20?
 
 <input solution="16"/>
 :::
 
 ::: problem id=8_4 marks=2
-__8.4__ What is 0.1 + 0.2 + 0.3 + 0.4 + 0.5 + 0.6 + 0.7 + 0.8 + 0.9?
+__7.4__ What is 0.1 + 0.2 + 0.3 + 0.4 + 0.5 + 0.6 + 0.7 + 0.8 + 0.9?
 
 <input solution="4.5"/>
 :::
 
 ::: problem id=8_5 marks=2
-__8.5__ What is 0.9 – 0.8 – 0.7 – 0.6 – 0.5 – 0.4 – 0.3 – 0.2 – 0.1?
+__7.5__ What is 0.9 – 0.8 – 0.7 – 0.6 – 0.5 – 0.4 – 0.3 – 0.2 – 0.1?
 
 <input solution="-2.7"/>
 :::
 
 ::: problem id=8_6 marks=2
-__8.6__ What is 1 – 0.9 – 0.08 – 0.007?
+__7.6__ What is 1 – 0.9 – 0.08 – 0.007?
 
 <input solution="0.013"/>
 :::
