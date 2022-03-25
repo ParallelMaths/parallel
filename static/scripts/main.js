@@ -50,6 +50,13 @@ function sortTable(i, level) {
   }
 }
 
+// Disables scroll on number inputs to avoid accidental changes
+document.addEventListener("wheel", function(event){
+  if(document.activeElement.type === "number"){
+      document.activeElement.blur();
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
   firebase.initializeApp({
     apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
