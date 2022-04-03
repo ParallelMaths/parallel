@@ -109,9 +109,9 @@ app.get('/api/user', async (req, res) => {
   })
 });
 
-const pagesWithoutSidebar = ['primary-parallel']
+const pagesWithoutSidebar = ['primary-parallel', 'primary-parallel-2']
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'primary-parallel', 'masterclass', 'troubleshooting']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'primary-parallel', 'primary-parallel-2', 'masterclass', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
