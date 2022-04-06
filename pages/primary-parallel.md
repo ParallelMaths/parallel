@@ -65,7 +65,7 @@ __What is Parallel for Secondary Schools?__
 
 <a name="register"></a>
 __How do I register?__  
-Parents can register their children from May 5th, 2022. A registration form will be available here shortly.  
+Parents can register their children from May 3rd, 2022. A registration form will be available here shortly.  
 
 Teachers can register their interest in Primary Parallel via the form below:  
 ^^^
