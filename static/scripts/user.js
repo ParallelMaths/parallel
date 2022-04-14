@@ -239,10 +239,10 @@ export default function() {
       nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
 
       // user has come from parallel live, send them back
-      if(window.location.href.includes('#live')) {
+      if(window.location.href.includes('#live') || window.location.href.includes('?live')) {
         nextUrl = '/live'
       }
-      
+
       // Ensure that there are no existing cookies
       document.cookie = '__session=;max-age=-999';
 

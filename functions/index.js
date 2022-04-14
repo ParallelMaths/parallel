@@ -143,6 +143,11 @@ app.get('/badges', (req, res) => {
 
 app.get('/signup', (req, res) => {
   if (req.user) res.redirect('/');
+
+  if(req.query.live) {
+    res.locals.sidebarDisabled = true
+  }
+
   res.render('signup');
 });
 
