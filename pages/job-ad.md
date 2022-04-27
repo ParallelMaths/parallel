@@ -19,7 +19,7 @@ We’re seeking a new team member who can drive these projects, optimise our del
 
 This is a remote role with flexible hours - this could be a part or full time position depending on your circumstances and ambitions.  
 
-You’ll have the opportunity to work closely (albeit virtually for the most part) with Simon himself, as well as leading maths educator (and Countdown winner) Junaid Mubeen. As the third ‘founding member’ of our team you will have the space to bring your own ideas to the table, and to shape our work as we strive to develop the world’s largest community of budding young mathematicians.
+You’ll have the opportunity to work closely (albeit virtually for the most part) with Simon himself, as well as leading maths educator (and Countdown winner) Junaid Mubeen. As a ‘founding member’ of our team you will have the space to bring your own ideas to the table, and to shape our work as we strive to develop the world’s largest community of budding young mathematicians.
 
 In the first 6-12 months you will help us to:
 
@@ -36,7 +36,7 @@ If you are keen to remain in teaching on a part-time basis as you pursue this ro
 
 You share our passion for equalising opportunities for talented students who may otherwise be left on the margins. You are excited to help us figure out how to expand our current offerings to thousands of students worldwide.
 
-You may not be a ‘techie’ but you are always excited to explore new tools and technologies, particularly when you see the potential for them to enhance the online learning and teaching experience. A flavour of the tools we’re currently working with: Calendly, Mailerlite, Open Broadcaster Software, Zoom, Microsoft Teams, Trello, Kahoot! In time, you will be expected to be across all of these tools, and will recommend new and improved ways of working.
+You may not be a ‘techie’ but you are always excited to explore new tools and technologies, particularly when you see the potential for them to enhance the online learning and teaching experience. A flavour of the tools we’re currently working with: Calendly, Mailerlite, OBS (Open Broadcaster Software), Zoom, Microsoft Teams, Trello, Kahoot! In time, you will be expected to be across all of these tools, and will recommend new and improved ways of working.
 
 You have a maths-based STEM degree and have taught at secondary level, ideally in a school setting (or as a private tutor otherwise), and you can empathise with the need to stretch high-potential students with rich maths content.
 
@@ -50,4 +50,4 @@ You have excellent written and verbal communication skills.
 
 Please email a cover letter and CV to [junaid@goodthinkingsociety.org](mailto:junaid@goodthinkingsociety.org){target="_blank"}
 
-Applications close May 13th, 2022. 
+Applications close May 13th, 2022.
