@@ -3,7 +3,7 @@
 
 ;;; columns columnMinWidth=350
 ^^^ column
-* 4 sessions, run by leading maths educators Simon Singh and Junaid Mubeen
+* Weekly sessions, run by leading maths educators Simon Singh and Junaid Mubeen
 * Questions, puzzles and activities to push your child's maths thinking to the next level
 * Designed for high-attaining upper primary students
 * It's like Joe Wicks, but for maths!
@@ -24,10 +24,10 @@ Parallel Primary is the latest education initiative from bestselling science aut
 
 We are on a mission to increase the number and diversity of excellent mathematicians. Our other projects include [Parallelograms](/) (free weekly maths problem sheets on a range of interesting maths topics), the [Maths Masterclass programme](https://www.talent-ed.uk/maths-masterclass-tutorials-1){target="_blank"} (small-group online tutorials for high-attaining students) and Monthly Maths Challenge (live webinars for enthusiastic students). They are aimed at secondary students, so Parallel Primary is our first venture designed for younger mathematicians.
 
-We are now inviting up to 1,000 of the most talented and ambitious upper primary students to join us for 4 interactive maths webinars this June.
+We are now inviting up to 1,000 of the most talented and ambitious upper primary students to join us for weekly interactive maths webinars this June.
 
 ![](/images/screen.jpg){image align="right" padding-left:10px"}
-### 4 weeks of challenging, exciting mathematics
+### Weekly sessions challenging, exciting mathematics
 
 The sessions will be run by Simon and Countdown champion Junaid Mubeen. We’ve hand-selected a range of questions from the Primary Maths Challenge and other competitions. In exploring these questions, students will develop their problem solving and reasoning skills. We have also lined up a series of more playful ‘Maths Magic’ activities that are sure to stretch and engage students. We use a range of secure audience interaction tools such as live polls and Q&A to keep students actively engaged throughout our sessions.
 
@@ -46,10 +46,10 @@ This summer programme leads on to two longer-term opportunities. Next year, Year
 
 ## Schedule
 
-* Week 1 - June 7th or 9th at 5pm
-* Week 2 - June 14th or 16th at 5pm
-* Week 3 - June 21st or 23rd at 5pm
-* Week 4 - June 28th or 20th at 5pm
+* Week 1 - June 6th at 6pm
+* Week 2 - June 13th at 6pm
+* Week 3 - June 20th or 6pm
+* Week 4 - June 27th at 6pm
 
 
 ## FAQs
@@ -67,8 +67,8 @@ All of our sessions are live streamed on YouTube. The streams are set to ‘Made
 ^^^
 ;;;
 
-__Is it compulsory for students to attend all four webinars?__  
-We would prefer students to attend all four webinars, but we also appreciate that sometimes students will have to miss one or two sessions due to a range of circumstances. We offer each session twice to allow for some flexibility.
+__Is it compulsory for students to attend all webinars?__  
+We would prefer students to attend all webinars, but we also appreciate that sometimes students will have to miss one or two sessions due to a range of circumstances. We offer each session twice to allow for some flexibility.
 
 __Is this opportunity only for students in the United Kingdom?__  
 Sessions will be conducted in English and we are largely reaching out to students in the United Kingdom, but we welcome every student from anywhere in the world. As longs you love maths and have a moderate grasp of English, then please join us.  
