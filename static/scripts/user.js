@@ -239,8 +239,8 @@ export default function() {
       nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
 
       // user has come from parallel live, send them back
-      if(window.location.href.includes('#live') || window.location.href.includes('?live')) {
-        nextUrl = '/live'
+      if(window.location.href.includes('#live') || window.location.href.includes('?live') || window.location.href.includes('#circles') || window.location.href.includes('?circles')) {
+        nextUrl = '/circles'
       }
 
       // Ensure that there are no existing cookies

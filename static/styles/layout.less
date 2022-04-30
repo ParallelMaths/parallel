@@ -109,6 +109,25 @@ header {
   overflow: auto;
 }
 
+.sidebar-circles-item {
+  a {
+    border-bottom: 1px solid white;
+    background-color: @purple;
+    transition: background .2s;
+    padding: 6px 16px;
+    display: block;
+    position: relative;
+    color: white;
+    margin-top: 1px;
+  }
+
+  > a:hover { background: darken(@purple, 10%); }
+
+  .sidebar-circles-subtext {
+    font-size: 13px;
+  }
+}
+
 .sidebar-field {
   background: mix(@blue, #aaa, 80%);
   color: white;
@@ -234,6 +253,14 @@ nav a {
   padding: 4px 6px;
   font-size: 14px;
   background: @red;
+}
+
+.live {
+  background: @liveRed
+}
+
+.hidden {
+  display: none;
 }
 
 .score, td {

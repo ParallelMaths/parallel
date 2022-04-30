@@ -63,7 +63,8 @@ html
                     a(v-on:click="user.logout") Logout
                 if user.code
                   .sidebar-field: a(href="/dashboard") Teacher Dashboard
-              else
+
+              if !user
                 .intros
                   a(href="/introduction")
                     include svgs/backpack.svg
@@ -74,6 +75,13 @@ html
                   a(href="/parents")
                     include svgs/teacher.svg
                     | Parents
+
+              .sidebar-circles-item: a(href="/circles")
+                div Parallel Circles
+                .sidebar-circles-subtext(id="sidebar-circles-text") Interactive live maths events
+                .status.live.hidden(id="sidebar-circles-marker") LIVE
+
+              if !user
                 div
                   .sidebar-field: a(href="/signup") Create a free account
                   .sidebar-field

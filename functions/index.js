@@ -109,6 +109,16 @@ app.get('/api/user', async (req, res) => {
   })
 });
 
+// Redirect from left path to right path
+const redirects = {
+  '/lives': '/circles',
+  '/live': '/circles',
+  '/live/admin': '/circles/admin',
+  '/circle': '/circles'
+}
+
+Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
+
 const pagesWithoutSidebar = ['primary-parallel', 'primary-parallel-2', 'job-ad']
 
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'primary-parallel', 'primary-parallel-2', 'masterclass', 'troubleshooting']) {
