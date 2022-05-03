@@ -19,7 +19,7 @@ We’re seeking a new team member who can drive these projects, optimise our del
 
 This is a remote role with flexible hours - this could be a part or full time position depending on your circumstances and ambitions.  
 
-You’ll have the opportunity to work closely (albeit virtually for the most part) with Simon himself, as well as leading maths educator (and Countdown winner) Junaid Mubeen. As a ‘founding member’ of our team you will have the space to bring your own ideas to the table, and to shape our work as we strive to develop the world’s largest community of budding young mathematicians.
+You’ll have the opportunity to work closely (albeit virtually for the most part) with Simon himself, as well as leading maths educator (and Countdown series champion) Junaid Mubeen. As a key member of our team you will have the space to bring your own ideas to the table, and to shape our work as we strive to develop the world’s largest community of budding young mathematicians.
 
 In the first 6-12 months you will help us to:
 
@@ -44,7 +44,7 @@ You thrive on the autonomy of independent work, are comfortable with ambiguity, 
 
 At the same time, you have ruthless attention to detail, take pride in how organised you are, and never miss a deadline without good reason.
 
-You have excellent written and verbal communication skills.
+You have strong written and verbal communication skills.
 
 ## How to apply
 
