@@ -93,7 +93,15 @@ app.use((req, res, next) => {
 // Request Handlers
 
 app.get('/', (req, res) => res.render('home'));
-app.get('/parallelograms', (req, res) => res.render('parallelograms'))
+app.get('/parallelograms', (req, res) => {
+  const latest = res.locals?.pages[res.locals?.user?.level]?.[0];
+
+  if(latest && req.query.latest) {
+    return res.redirect(`/${latest.url}`)
+  }
+
+  res.render('parallelograms')
+})
 app.get('/contact', (req, res) => res.render('contact'));
 
 app.get('/api/user', async (req, res) => {
