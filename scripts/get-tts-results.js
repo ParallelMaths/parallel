@@ -16,41 +16,37 @@ const END_TIME = '';
 const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['h343j'], students: 21},
   {name: 'Bulmershe School', year: 8, teachers: ['4kuds0'], students: 17},
-  {name: 'Bulmershe School', year: 9, teachers: ['qh6b6r'], students: 18},
-  {name: 'Bulmershe School', year: 10, teachers: ['mg4414'], students: 15},
-  {name: 'Bulmershe School', year: 11, teachers: ['qw6ok'], students: 12},
+  {name: 'Bulmershe School', year: 9, teachers: ['qh6b6r'], students: 14},
+  {name: 'Bulmershe School', year: 10, teachers: ['mg4414'], students: 14},
+  {name: 'Bulmershe School', year: 11, teachers: ['qw6ok'], students: 18},
 
   {name: 'Capital City Academy', year: 7, teachers: ['wpe0u5'], students: 22},
-  {name: 'Capital City Academy', year: 8, teachers: ['dsz35i'], students: 19},
-  {name: 'Capital City Academy', year: 9, teachers: ['pfma1s'], students: 17},
-  {name: 'Capital City Academy', year: 10, teachers: ['cndwm0'], students: 15},
+  {name: 'Capital City Academy', year: 8, teachers: ['cndwm0'], students: 19},
+  {name: 'Capital City Academy', year: 9, teachers: ['cjbn9o'], students: 16},
+  {name: 'Capital City Academy', year: 10, teachers: ['z8yevt'], students: 15},
 
   {name: 'City Academy Hackney', year: 7, teachers: ['hz9rp0','4qhg6e'], students: 20},
   {name: 'City Academy Hackney', year: 8, teachers: ['ysrvsk'], students: 20},
   {name: 'City Academy Hackney', year: 9, teachers: ['o4xlq9'], students: 17},
   {name: 'City Academy Hackney', year: 10, teachers: ['o4xlq9'], students: 16},
 
-  {name: 'City of London Academy Highgate Hill', year: 7, teachers: ['kj8md7'], students: 16},
-  {name: 'City of London Academy Highgate Hill', year: 8, teachers: ['kj8md7'], students: 17},
-  {name: 'City of London Academy Highgate Hill', year: 9, teachers: ['onwaes'], students: 26},
-  {name: 'City of London Academy Highgate Hill', year: 10, teachers: ['onwaes','kj8md7','hw8mw7'], students: 26},
+  {name: 'City of London Academy Highgate Hill', year: 10, teachers: ['onwaes','kj8md7','hw8mw7'], students: 17},
 
   {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['gj8tlp'], students: 23},
   {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['mfhd1p'], students: 23},
-  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: ['cd616b','ue9lwo'], students: 21},
   {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['agv1u','avg1u','gj8tlp','cd616b','ue9lwo','mfhd1p'], students: 17},
-  {name: 'City of London Academy Shoreditch Park', year: 11, teachers: ['agv1u','avg1u'], students: 18},
 
-  {name: 'Lister Community School', year: 7, teachers: ['hv6udc'], students: 17},
-  {name: 'Lister Community School', year: 8, teachers: ['ag93qe'], students: 23},
-  {name: 'Lister Community School', year: 9, teachers: ['k5ifm7'], students: 25},
-  {name: 'Lister Community School', year: 10, teachers: ['3to7uh'], students: 17},
-  {name: 'Lister Community School', year: 11, teachers: ['nww75'], students: 20},
+  {name: 'Lister Community School', year: 7, teachers: ['5448sn'], students: 17},
+  {name: 'Lister Community School', year: 8, teachers: ['hv6udc'], students: 23},
+  {name: 'Lister Community School', year: 9, teachers: ['ag93qe'], students: 22},
+  {name: 'Lister Community School', year: 10, teachers: ['k5ifm7'], students: 18},
+  {name: 'Lister Community School', year: 11, teachers: ['3to7uh'], students: 20},
 
-  {name: 'Plashet School', year: 8, teachers: ['15hjxf'], students: 25},
+  {name: 'Plashet School', year: 7, teachers: ['8o84e1'], students: 25},
+  {name: 'Plashet School', year: 8, teachers: ['5te44x'], students: 25},
   {name: 'Plashet School', year: 9, teachers: ['15hjxf'], students: 24},
   {name: 'Plashet School', year: 10, teachers: ['9mhdd'], students: 21},
-  {name: 'Plashet School', year: 11, teachers: ['2c7db', 't1bmm'], students: 17},
+  {name: 'Plashet School', year: 11, teachers: ['9mhdd'], students: 16},
 ];
 
 // -----------------------------------------------------------------------------
@@ -74,7 +70,7 @@ async function run() {
   const users = userData.docs.map(u => u.data());
   console.log(`Loading ${users.length} users...`);
 
-  const length = Math.max(...[7, 8, 9, 10].map(i => pageData['year' + i].length));
+  const length = Math.max(...[7, 8, 9, 10, 11].map(i => pageData['year' + i].length));
 
   const results = ['School, Year, Number of Students'];
   for (let i = 1; i <= length; ++i) {
