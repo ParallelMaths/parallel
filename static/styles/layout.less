@@ -459,6 +459,49 @@ footer a {
   line-height: 1;
 }
 
+.headerWrapper {
+  max-width: 1008px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+}
+
+// -----------------------------------------------------------------------------
+// Copy of component from the new site
+.homeButton {
+  padding: 8px 12px;
+  border: 1px solid rgb(179, 4, 105);
+  border-radius: 4px;
+  color: rgb(179, 4, 105);
+  font-weight: bold;
+  background-color: white;
+  font-size: 13.3333px;
+  margin-left: 24px;
+  line-height: normal;
+  position: absolute;
+  padding-left: 2.25rem;
+  top: 1.5rem;
+  left: 0px;
+
+  &:hover {
+    color: white;
+    background-color: rgb(179, 4, 105);
+
+    svg {
+      fill: white
+    }
+  }
+
+  svg {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.25rem;
+    fill: rgb(179, 4, 105);
+  }
+}
+
 
 // -----------------------------------------------------------------------------
 // Mobile Display
@@ -466,6 +509,10 @@ footer a {
 @media screen and (max-width: 720px) {
   html { font-size: 16px; }
   #container { max-width: 100%; display: block; }
+
+  .homeButton {
+    display: none;
+  }
 
   .header {
     width: 100%;

@@ -33,15 +33,21 @@ html
 
   body
     #vue
-      .header
-        if !sidebarDisabled
-          #menu(v-on:click="showSidebar=true")
-            svg(width=24 height=24)
-              rect(y=2 width=24 height=3 fill="white")
-              rect(y=10 width=24 height=3 fill="white")
-              rect(y=18 width=24 height=3 fill="white")
+      .headerWrapper
+        .header
+          if !sidebarDisabled
+            #menu(v-on:click="showSidebar=true")
+              svg(width=24 height=24)
+                rect(y=2 width=24 height=3 fill="white")
+                rect(y=10 width=24 height=3 fill="white")
+                rect(y=18 width=24 height=3 fill="white")
 
-        a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
+          if path
+            a#home(href="/" title="Home" class="homeButton")
+              include svgs/home.svg
+              | Home
+
+          a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
 
       #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
