@@ -141,7 +141,7 @@ html
             form(v-on:submit="user.acceptTerms")
               p.checkbox
                 input#terms-modal(type="checkbox" required)
-                label(for="terms-modal") Each week, as part of Parallelogram, we will email you to let you know that a new challenge has been released, and when the answers are available and when there are special competitions, prizes and opportunities. By checking this box you consent to Parallelogram sending those weekly emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
+                label(for="terms-modal") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
               button(type="submit") Continue
 
       if user && !user.code && user.showWelcomeMsg
