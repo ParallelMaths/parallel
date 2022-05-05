@@ -123,6 +123,17 @@ So, the two swapped numbers are 13 + 15 = 28, which means the answer is 28.
 :::
 
 
+## 4. Parallel emails
+
+If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}.
+
+::: problem id=4_1 marks=1
+__4.1__ Here's a free mark, just for clicking the link above, and for entering an email address if you needed to.
+
+* [x] Thank you!
+:::
+
+
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

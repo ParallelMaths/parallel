@@ -203,6 +203,18 @@ By Pythagoras' Theorem: `OB^2 = OA^2 + AB^2`, that is `1^2 = (2x)^2 + x^2`.
 So `5x^2 = 1`. Now the total shaded area is `8x^2 = 8 × 1/5 = 1 3/5` units².
 :::
 
+
+## 6. Parallel emails
+
+If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}.
+
+::: problem id=6_1 marks=1
+__6.1__ Here's a free mark, just for clicking the link above, and for entering an email address if you needed to.
+
+* [x] Thank you!
+:::
+
+
 I hope you enjoyed the third Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.

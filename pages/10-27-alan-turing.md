@@ -226,6 +226,17 @@ For example, the solution to the first one is “Just between you and me”, bec
 :::
 
 
+## 7. Parallel emails
+
+If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}.
+
+::: problem id=7_1 marks=1
+__7.1__ Here's a free mark, just for clicking the link above, and for entering an email address if you needed to.
+
+* [x] Thank you!
+:::
+
+
 There will be more next week, so check your email or return to the website on Thursday at 3pm.  
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
