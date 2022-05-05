@@ -15,8 +15,8 @@ const END_TIME = '';
 
 const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['h343j'], students: 21},
-  {name: 'Bulmershe School', year: 8, teachers: ['4kuds0'], students: 17},
-  {name: 'Bulmershe School', year: 9, teachers: ['qh6b6r'], students: 14},
+  {name: 'Bulmershe School', year: 8, teachers: ['qh6b6r'], students: 17},
+  {name: 'Bulmershe School', year: 9, teachers: ['4kuds0'], students: 14},
   {name: 'Bulmershe School', year: 10, teachers: ['mg4414'], students: 14},
   {name: 'Bulmershe School', year: 11, teachers: ['qw6ok'], students: 18},
 
@@ -32,9 +32,9 @@ const TTS_SCHOOLS = [
 
   {name: 'City of London Academy Highgate Hill', year: 10, teachers: ['onwaes','kj8md7','hw8mw7'], students: 17},
 
-  {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['gj8tlp'], students: 23},
-  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['mfhd1p'], students: 23},
-  {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['agv1u','avg1u','gj8tlp','cd616b','ue9lwo','mfhd1p'], students: 17},
+  {name: 'City of London Academy Shoreditch Park', year: 7, teachers: ['9XB4-M0B9'], students: 23},
+  {name: 'City of London Academy Shoreditch Park', year: 8, teachers: ['gj8tlp'], students: 23},
+  {name: 'City of London Academy Shoreditch Park', year: 10, teachers: ['ue9lwo'], students: 17},
 
   {name: 'Lister Community School', year: 7, teachers: ['5448sn'], students: 17},
   {name: 'Lister Community School', year: 8, teachers: ['hv6udc'], students: 23},
