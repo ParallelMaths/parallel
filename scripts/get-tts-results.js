@@ -92,7 +92,7 @@ async function run() {
 
       for (let t of s.teachers) {
         for (let u of users) {
-          if (u.teacherCode === t && u.answers) {
+          if (u?.teacherCode?.includes(t) && u.answers) {
             const q = u.answers[p.url];
             if (q && q.submitted && inTimeRange(q)) {
               if (USE_ARCHIVED_DATA ? q.archive === USE_ARCHIVED_DATA : !q.archive) {
