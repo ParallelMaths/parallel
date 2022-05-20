@@ -35,9 +35,10 @@ block content
       span(v-if="user.signupForm.type === 'parent'") Is this your child's own email or a parent's email?
       div(style="text-align: center")
         input(type='radio' v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
-        label(class="radio-label" for="is-student-email-student") Child's
+        label(v-if="user.signupForm.type === 'student'" class="radio-label" for="is-student-email-student") My own
+        label(v-if="user.signupForm.type === 'parent'" class="radio-label" for="is-student-email-student") Child's
         input(type='radio' v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
-        label(class="radio-label" for="is-student-email-parent") Parent's
+        label(class="radio-label" for="is-student-email-parent") A Parent's
 
     //- label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.primaryEmailType === 'student' && user.signupForm.birthYear < 2009")
     //-   span Parent's Email

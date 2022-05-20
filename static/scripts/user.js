@@ -246,6 +246,14 @@ export default function() {
       // Ensure that there are no existing cookies
       document.cookie = '__session=;max-age=-999';
 
+      let guardianEmail = signupForm.guardianEmail || null;
+
+      if (signupForm.primaryEmailType === 'parent') {
+        guardianEmail = signupForm.email;
+      }
+
+      let primaryEmailType = signupForm.type === 'teacher' ? 'teacher' : signupForm.primaryEmailType
+
       const signupData = {
         first: signupForm.first || null,
         last: signupForm.last || null,
@@ -256,10 +264,10 @@ export default function() {
         schoolName: signupForm.schoolName || null,
         phoneNumber: signupForm.phoneNumber || null,
         postCode: signupForm.postCode || null,
-        guardianEmail: signupForm.guardianEmail || null,
+        guardianEmail,
         acceptedTerms: true,
         userReference: generateUserReference(),
-        primaryEmailType: signupForm.type === 'teacher' ? 'teacher' : signupForm.primaryEmailType
+        primaryEmailType
       }
 
       userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
