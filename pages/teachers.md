@@ -1,27 +1,43 @@
 # Introduction for Teachers
+ 
+The Parallel Universe offers two great ways for your students to learn some brilliant ideas, stretch their brains and explore the wild west of mathematics:
 
-Parallel is an opportunity for your students to broaden their mathematical horizons and stretch their brains via:  
-* a series of weekly web-based maths sheets, known as Parallelograms, published online at 3pm each Thursday; and  
-*	weekly online maths tutorials, known as Parallel Circles.  
+* weekly web-based maths sheets, known as Parallelograms.
+* weekly online Maths Circles.
+* Importantly, everything in the Parallel Universe is entirely free, both to schools and students.
 
-Each Parallelogam is set by Simon Singh, author of several best-selling books, and questions are automatically marked and explanations are provided. There is a separate Parallelogram for Year 7, Year 8, Year 9, Year 10 and Year 11 students.  
+__Parallel Maths Circles (age guide 9 to 18)__
 
-Parallel Circles will be a series of weekly online tutorials hosted by Simon Singh, Countdown series champion Junaid Mubeen, or one of our other talented maths tutors. This project will be launched later in the summer.  
+A Maths Circle is a group of students and a mentor who come together to explore the mathematical universe. Maths Circles help to build curiosity, creativity, logic and tenacity. Face to face Maths Circles exist all over the world, from California to Mumbai, from Iceland to South Africa, but they are hard to find and are often expensive, but now your students can join the biggest Maths Circle in the world for free, every week.
 
-Everything on the Parallel website is FREE for both schools and students.  
+We have different Maths Circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
 
-We __recommend__ that you use Parallel in the following way.  
+Best of all, our Maths Circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-First, select a group of ambitious students, with the expectation that they will complete the Parallel web challenges (almost) EVERY week, i.e., it is part of their regular homework. Your students should be keen and fairly strong mathematicians, as this is an extra dose of maths (albeit fun).It is better that a dozen students follow the programme for the whole year, rather than a whole year group starting in September and giving up in October. Once you have decided that you have identified a dedicated group of students who will benefit from Parallel, then:  
+__Parallelogram Puzzles (age guide 11 to 16)__
 
-1.  Create a teacher account, which is quick, easy and free.  
-2.	You will then receive your Teacher Code, which you should share with your students.  
-3.	Ask your students to create a free student account, entering your Teacher Code when requested.  
-4.	Each Thursday, remind your students to complete each Parallel challenge within seven days.  
-5.	Make sure any student who hasn’t completed a challenge catches up quickly.  
+Each Thursday at 3pm (UK time), students will have access to a new set of online mathematical challenges tailored to their age – each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
 
-Students can create their own accounts and continue without a teacher code, but they will be more successful and more likely to complete the whole year of Parallel challenges if you are a guiding influence and if there are a few other classmates taking part.  
+Each Parallelogam is set by Simon Singh, author of several best-selling books. There is a separate Parallelogram for Year 7, Year 8, Year 9, Year 10 and Year 11 students.
 
-Importantly, remember, you don’t have to mark the Parallelograms or go through the solutions - the website does that automatically.
+It should take just 15 to 30 minutes to complete each Parallelogram.
 
-So, why not give it a try. [Signing up as a teacher](/signup#teacher) is quick, easy and free.
+As soon as students hit the SUBMIT button, their Parallelogram will be marked, so they will be able to see their score and the full solutions.
+
+As you can tell, we have tried to make everything as easy as possible for teachers, as we realise you are already very busy.
+
+__Certificates and diplomas__
+
+Students can earn certificates each year for completing Parallelograms and attending Maths Circles, and when they leave at age 16 or 18 they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.
+
+__How do teachers make the most of the Parallel Universe?__
+
+We recommend that you use Parallel in the following way.
+
+Parallel Circles and Parallelograms are free and open to all students, but we have found that there is generally a better uptake if teachers select a group of keen and ambitious students, with the expectation that they will complete the Parallelograms and attend our Maths Circles (almost) every week, i.e., it is part of their regular maths routine.
+
+Students can create their own accounts if they visit [https://parallel.org.uk](https://parallel.org.uk) - they can sign up for free using their personal email, school email or a parent email address.
+
+Next, we encourage teachers to create a Teacher Account, which is quick, easy and free. You will then receive your Teacher Code, which you should share with your students. If they enter this code into their Parallel dashboard, then you will be able to follow their progress on your dashboard, e.g., completion rates and scores.
+
+So, why not give it a try. [Creating a teacher account](/signup#teacher) is quick, easy and free.

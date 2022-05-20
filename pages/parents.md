@@ -1,27 +1,40 @@
 # Parallel for Parents
 
-We have designed the Parallel website to help students expand their mathematical horizons beyond the school curriculum and to stretch their ambitions.  
+We have designed the Parallel Universe to help students expand their mathematical horizons beyond the school curriculum and to stretch their ambitions.
 
-The site is currently aimed at 11- to 16-year olds, but younger students might benefit if they are confident mathematicians and if you are able to occasionally give them a helping hand. Moreover, older students will find some interesting problems and topics. In short, everyone is welcome.  
+And, remember, if your son or daughter aspires to study a degree in science, engineering, computing, economics, etc., then they will need a strong background in mathematics and mathematical thinking skills.
 
-What is the best way to use the website?  
+The good news is that the Parallel Universe offers two great ways for your child to learn some brilliant ideas, stretch their brain and explore the wild west of mathematics.
 
-*	Students should sign up and create a free account (everything is free).  
-*	We issue a new Parallelogram each Thursday at 3pm (UK TIme), and students are encouraged to complete it before the next Parallelogram is released the following Thursday.  
-*	The Parallelogram is marked and the score is returned to the student, along with access to the answer sheet, which includes full solutions. Going through the answer sheet is probably even more important than going through the question sheet.  
-*	We currently have five streams of Parallelograms:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 7 students (for 11/12-year-olds).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 8 students (for 12/13-year-olds).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 9 students (for 13/14-year-olds).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 10 students (for 14/15-year-olds).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Year 11 students (for 15/16-year-olds).  
-*	Your child will be assigned to one of the streams according to their age or year group, with younger children being assigned to the Year 7 stream, and older students being assigned to the Year 11 stream.  
-*	If your child is in Year 6 or below, then they will benefit from following the Year 7 Parallelograms, as long as you are able to sit with them and guide them through any material that might be too challenging.  
-*	Crucially, please stress to your child that getting answers wrong does not matter – it is an opportunity to learn something. Moreover, the Parallelograms are designed to include new and challenging material, and we would not be doing our job if every student was getting 100%.  
+__Parallel Maths Circles (age guide 9 to 18)__
 
-Cheerio,  
-Dr Singh  
+A Maths Circle is a group of students and a mentor who come together to explore the mathematical universe. Maths Circles help to build #curiosity, creativity, logic and tenacity. Face to face Maths Circles exist all over the world, from California to Mumbai, from Iceland to South Africa, but they are hard to find and are often expensive, but now students can join the biggest Maths Circle in the world for free, every week.
 
-Ps. Before I sign off, you might wonder who is writing this message. When I was a kid, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge. Determination was the key.  
+We have different Maths Circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
 
-My parents grew up in India in the 1930s and did not have a proper education (and my mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around with antimatter, bosons and quarks – all very exciting. Since then, I have written books and presented radio/TV programmes about maths/science, and now I am creating the Parallel universe for students who love maths and who want to work towards a future in science, technology, engineering, computing, economics or mathematics.
+Best of all, our Maths Circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
+
+And, at the end of the summer, students will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many Maths Circles they have attended.
+
+__Parallelogram Puzzles (age guide 11 to 16)__
+
+Each Thursday at 3pm (UK time), students will have access to a new set of online mathematical challenges tailored to their age – each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
+
+It should take just 15 to 30 minutes to complete each Parallelogram. As soon as students hit the SUBMIT button, they will be able to see the answers as well as their score. Most importantly of all, students can go through the solution sheet and try to learn from their mistakes.
+
+Students earn points depending on their percentage score on each Parallelogram, which in turn will earn them mathematical badges. And, at the end of the summer, students will earn a Parallelogram certificate, which will be gold, silver or bronze, depending on how many points they have accumulated.
+
+__Get ready for the challenges ahead__
+
+Students will be entering a peculiar Numberverse. Some of the mathematics will be a deeper exploration of the maths that they have studied at school, while some of the topics will go far beyond what they will encounter in the classroom. Moreover, we will sometimes dip into science, engineering, philosophy and much more.
+
+A few of the puzzles, riddles and problems in Parallelograms and Parallel Circles will make everyone’s brain ache. But students should not worry, because doing real maths means meeting difficult ideas and having to wrestle with them.
+
+If you would like your son or daughter to join a Maths Circle or start solving a Parallelogram, then  [create a free account now](/signup).
+
+Cheerio
+Dr Singh
+
+Ps. Before I sign off, you might wonder who is writing this message. When I was a kid, I loved maths. I definitely wasn’t the best in the class and I often found maths hard, but I always enjoyed the challenge. Determination was the key.
+
+My parents grew up in India in the 1930s and did not have a proper education (and my mum still can’t read or write), so they were both very keen that I made the best of my time at school … and sure enough I left school and earned a place to study physics at Imperial College in London, and then I went to Cambridge University and CERN and completed a doctorate (a PhD) in particle physics. We were messing around with antimatter, bosons and quarks – all very exciting. Since then, I have written [books](https://www.amazon.co.uk/Books-Simon-Singh/s?rh=n%3A266239%2Cp_27%3ASimon+Singh) and presented [radio](https://www.bbc.co.uk/programmes/p00cl73s/episodes/player)/[TV](https://www.youtube.com/watch?v=qzyvc3v27Qo&ab_channel=VHSVideovault) programmes about maths/science, and now I am creating the Parallel universe for students who love maths and who want to work towards a future in science, technology, engineering, computing, economics or mathematics.
