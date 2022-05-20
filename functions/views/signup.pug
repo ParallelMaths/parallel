@@ -4,36 +4,61 @@ block content
 
   h1 Create New Account
 
-  form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}")
+  form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}" class="signup-form")
 
     .toggle
-      a(v-on:click="user.signupForm.isTeacher = false" v-bind:class="{active: !user.signupForm.isTeacher}") Student
-      a(v-on:click="user.signupForm.isTeacher = true" v-bind:class="{active: user.signupForm.isTeacher}") Teacher
+      a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
+      a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
+      a(v-on:click="user.signupForm.type = 'parent'" v-bind:class="{active: user.signupForm.type === 'parent'}") Parent
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
 
     label
-      | First Name
+      span(v-if="user.signupForm.type !== 'parent'") First Name
+      span(v-if="user.signupForm.type === 'parent'") Your child's first name
       input(type="text" required v-model="user.signupForm.first" autocomplete="given-name")
 
     label
-      | Surname
+      span(v-if="user.signupForm.type !== 'parent'") Surname
+      span(v-if="user.signupForm.type === 'parent'") Your child's surname
       input(type="text" required v-model="user.signupForm.last" autocomplete="family-name")
 
     label
-      | Email
+      span Email
+      br
+      div(class="info" v-if="user.signupForm.type === 'student'") (We sometimes find that our emails are blocked by school firewalls and therefore suggest that you do not use a school email address if possible.)
+      div(class="info" v-if="user.signupForm.type === 'parent'") (Used to log in)
       input(type="email" required v-model="user.signupForm.email" autocomplete="email")
 
+    label(v-if="user.signupForm.type !== 'teacher'")
+      span(v-if="user.signupForm.type === 'student'") Is your own email or a parent's email?
+      span(v-if="user.signupForm.type === 'parent'") Is this your child's own email or a parent's email?
+      div(style="text-align: center")
+        input(type='radio' v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
+        label(class="radio-label" for="is-student-email-student") Child's
+        input(type='radio' v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
+        label(class="radio-label" for="is-student-email-parent") Parent's
+
+    //- label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.primaryEmailType === 'student' && user.signupForm.birthYear < 2009")
+    //-   span Parent's Email
+    //-   br
+    //-   div(class="info" v-if="user.signupForm.type === 'student'") (NEED STUDENT TEXT)
+    //-   div(class="info" v-if="user.signupForm.type === 'parent'") (NEED PARENT TEXT)
+    //-   input(type="email" required v-model="user.signupForm.guardianEmail" autocomplete="email")
+
     label
-      | Password (min 6 characters)
+      span Password
+      div(class="info") (min 6 characters)
       input(type="password" required pattern=".{6,}" v-model="user.signupForm.password" autocomplete="password")
 
-    label(v-if="!user.signupForm.isTeacher")
-      | Teacher code (if you are participating as part of a school)
+    label(v-if="user.signupForm.type !== 'teacher'")
+      span Teacher code 
+      div(class="info") (if you are participating as part of a school)
       input(type="text" v-model="user.signupForm.teacherCode")
 
-    label(v-if="!user.signupForm.isTeacher")
-      | Year
+    label(v-if="user.signupForm.type !== 'teacher'")
+      span(v-if="user.signupForm.type === 'student'") Year
+      span(v-if="user.signupForm.type === 'parent'") Your child's year group
       select(v-model="user.signupForm.level")
         option(value="year7") Year 7 (age 12 or below)
         option(value="year8") Year 8 (age 12–13)
@@ -41,28 +66,33 @@ block content
         option(value="year10") Year 10 (age 14–15)
         option(value="year11") Year 11 (age 15 or above)
 
-    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode")
-      | Year of Birth
+    label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode")
+      span(v-if="user.signupForm.type === 'student'") Year of Birth
+      span(v-if="user.signupForm.type === 'parent'") Your child's year of birth
       select(v-model="user.signupForm.birthYear")
         - var year = 1920;
         while year < 2016
           option= year++
 
-    label(v-if="user.signupForm.isTeacher")
-      | School Name
+    label(v-if="user.signupForm.type === 'teacher'")
+      span School Name
       input(type="text" v-model="user.signupForm.schoolName" required)
 
-    label(v-if="user.signupForm.isTeacher")
-      | School Post Code
+    label(v-if="user.signupForm.type === 'teacher'")
+      span School Post Code
       input(type="text" v-model="user.signupForm.postCode" required)
 
-    label(v-if="user.signupForm.isTeacher")
-      | School Phone Number
+    label(v-if="user.signupForm.type === 'teacher'")
+      span School Phone Number
       input(type="text" v-model="user.signupForm.phoneNumber" required)
 
     //- TODO Calculate the age dynamically
-    label(v-if="!user.signupForm.isTeacher && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009")
-      | Email of a parent or guardian#[br]#[em This is required because you are not yet 13 years old.]
+    label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009 && user.signupForm.primaryEmailType !== 'parent'")
+      span Email of a parent or guardian
+      div(class="info" v-if="user.signupForm.type === 'student'") This is required because you are not yet 13 years old.
+      div(class="info" v-if="user.signupForm.type === 'parent'") This is required because your child is not yet 13 years old.
+
+
       input(type="email" v-model="user.signupForm.guardianEmail" required)
 
     p.checkbox

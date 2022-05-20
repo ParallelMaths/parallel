@@ -88,7 +88,7 @@ export default function() {
   const editForm = {loading: false, error: '', teacherCodes: []};
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
-    birthYear: 2000, isTeacher: location.hash === '#teacher'};
+    birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : location.hash === '#parent' ? 'parent' : 'student', primaryEmailType: null};
 
   if (window.USER_DATA) {
     for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
@@ -209,7 +209,7 @@ export default function() {
       signupForm.loading = true;
       signupForm.error = null;
 
-      if (signupForm.isTeacher) {
+      if (signupForm.type === 'teacher') {
         if (!signupForm.schoolName) {
           signupForm.loading = false;
           return signupForm.error = 'Please provide a valid school name.';
@@ -236,7 +236,7 @@ export default function() {
       }
 
       // Redirect after login
-      nextUrl = signupForm.isTeacher ? '/dashboard' : '/introduction';
+      nextUrl = signupForm.type === 'teacher' ? '/dashboard' : '/introduction';
 
       // user has come from parallel live, send them back
       if(window.location.href.includes('#live') || window.location.href.includes('?live') || window.location.href.includes('#circles') || window.location.href.includes('?circles')) {
@@ -246,22 +246,25 @@ export default function() {
       // Ensure that there are no existing cookies
       document.cookie = '__session=;max-age=-999';
 
+      const signupData = {
+        first: signupForm.first || null,
+        last: signupForm.last || null,
+        teacherCode: signupForm.teacherCode ? [signupForm.teacherCode] : null,
+        code: signupForm.code || null,
+        level: signupForm.level || null,
+        birthYear: signupForm.birthYear || null,
+        schoolName: signupForm.schoolName || null,
+        phoneNumber: signupForm.phoneNumber || null,
+        postCode: signupForm.postCode || null,
+        guardianEmail: signupForm.guardianEmail || null,
+        acceptedTerms: true,
+        userReference: generateUserReference(),
+        primaryEmailType: signupForm.type === 'teacher' ? 'teacher' : signupForm.primaryEmailType
+      }
+
       userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
           .then(({user}) => {
-            return fbDatabase.collection('users').doc(user.uid).set({
-              first: signupForm.first || null,
-              last: signupForm.last || null,
-              teacherCode: signupForm.teacherCode ? [signupForm.teacherCode] : null,
-              code: signupForm.code || null,
-              level: signupForm.level || null,
-              birthYear: signupForm.birthYear || null,
-              schoolName: signupForm.schoolName || null,
-              phoneNumber: signupForm.phoneNumber || null,
-              postCode: signupForm.postCode || null,
-              guardianEmail: signupForm.guardianEmail || null,
-              acceptedTerms: true,
-              userReference: generateUserReference()
-            });
+            return fbDatabase.collection('users').doc(user.uid).set(signupData);
           })
           .catch(error => {
             console.error(error);
