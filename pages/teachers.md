@@ -38,6 +38,8 @@ Parallel Circles and Parallelograms are free and open to all students, but we ha
 
 Students can create their own accounts if they visit [https://parallel.org.uk](https://parallel.org.uk) - they can sign up for free using their personal email, school email or a parent email address.
 
+Alternatively, here is a [short note](https://beta.parallel.org.uk/short-note) that you can send to parents and students that explains how and why they should get involved.
+
 Next, we encourage teachers to create a Teacher Account, which is quick, easy and free. You will then receive your Teacher Code, which you should share with your students. If they enter this code into their Parallel dashboard, then you will be able to follow their progress on your dashboard, e.g., completion rates and scores.
 
 So, why not give it a try. [Creating a teacher account](/signup#teacher) is quick, easy and free.

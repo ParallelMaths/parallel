@@ -28,7 +28,7 @@ You are going to be entering a peculiar Numberverse. Some of the mathematics wil
 
 Some of the puzzles, riddles and problems that you encounter in Parallelograms and Parallel Circles will make your brain ache. But don’t worry, because doing real maths means meeting difficult ideas and having to wrestle with them. If too many of you find the challenges too easy, then we are doing something wrong. At the same time, we think you will be able to do most of the challenges, otherwise you would not be on this website.
 
-If you want to join a Maths Circle or start solving a Parallelogram, then [create a free account now](/signup).
+If you want to join a Maths Circle or start solving a Parallelogram, then [create a free account now](/signup). Or, if you still have questions, visit our [FAQ page](/?faqs).
 
 Cheerio
 Dr Singh

@@ -30,7 +30,7 @@ Students will be entering a peculiar Numberverse. Some of the mathematics will b
 
 A few of the puzzles, riddles and problems in Parallelograms and Parallel Circles will make everyone’s brain ache. But students should not worry, because doing real maths means meeting difficult ideas and having to wrestle with them.
 
-If you would like your son or daughter to join a Maths Circle or start solving a Parallelogram, then  [create a free account now](/signup).
+If you would like your son or daughter to join a Maths Circle or start solving a Parallelogram, then  [create a free account now](/signup). Or, if you still have questions, visit our [FAQ page](/?faqs).
 
 Cheerio
 Dr Singh
