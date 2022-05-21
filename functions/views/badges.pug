@@ -3,7 +3,7 @@ extends _layout
 block content
   include ../build/badges.html
 
-  .toggle
+  .toggle.largeToggle
     for l in user.sidebarLevels
       a(v-on:click=`badgeLevel = '${l}'` v-bind:class=`{active: badgeLevel == '${l}'}`)= levelNames[l]
 

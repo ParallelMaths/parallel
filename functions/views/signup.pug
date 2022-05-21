@@ -34,10 +34,10 @@ block content
       span(v-if="user.signupForm.type === 'student'") Is your own email or a parent's email?
       span(v-if="user.signupForm.type === 'parent'") Is this your child's own email or a parent's email?
       div(style="text-align: center")
-        input(type='radio' v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
+        input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
         label(v-if="user.signupForm.type === 'student'" class="radio-label" for="is-student-email-student") My own
         label(v-if="user.signupForm.type === 'parent'" class="radio-label" for="is-student-email-student") Child's
-        input(type='radio' v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
+        input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
         label(class="radio-label" for="is-student-email-parent") A Parent's
 
     //- label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.primaryEmailType === 'student' && user.signupForm.birthYear < 2009")
@@ -54,7 +54,8 @@ block content
 
     label(v-if="user.signupForm.type !== 'teacher'")
       span Teacher code 
-      div(class="info") (if you are participating as part of a school)
+      div(v-if="user.signupForm.type === 'student'" class="info") (Your teacher will give you this code, if you are participating as part of a school)
+      div(v-if="user.signupForm.type === 'parent'" class="info") (Your child's teacher will give them this code, if they are participating as part of a school)
       input(type="text" v-model="user.signupForm.teacherCode")
 
     label(v-if="user.signupForm.type !== 'teacher'")
