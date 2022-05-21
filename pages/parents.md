@@ -2,19 +2,19 @@
 
 We have designed the Parallel Universe to help students expand their mathematical horizons beyond the school curriculum and to stretch their ambitions.
 
-And, remember, if your son or daughter aspires to study a degree in science, engineering, computing, economics, etc., then they will need a strong background in mathematics and mathematical thinking skills.
+If your son or daughter aspires to study a degree in science, engineering, computing, economics, etc., then they will need a strong background in mathematics and mathematical thinking skills.
 
 The good news is that the Parallel Universe offers two great ways for your child to learn some brilliant ideas, stretch their brain and explore the wild west of mathematics.
 
 __Parallel Maths Circles (age guide 9 to 18)__
 
-A Maths Circle is a group of students and a mentor who come together to explore the mathematical universe. Maths Circles help to build #curiosity, creativity, logic and tenacity. Face to face Maths Circles exist all over the world, from California to Mumbai, from Iceland to South Africa, but they are hard to find and are often expensive, but now students can join the biggest Maths Circle in the world for free, every week.
+A maths circle is a group of students and a mentor who come together to explore the mathematical universe. Maths circles help to build #curiosity, creativity, logic and tenacity. Face to face maths circles exist all over the world, from California to Mumbai, and from Iceland to South Africa, but they are hard to find and are often expensive... however they can now join the biggest maths circle in the world for free, every week.
 
-We have different Maths Circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
+We have different Parallel Circles maths circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
 
-Best of all, our Maths Circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
+Best of all, our maths circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-And, at the end of the summer, students will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many Maths Circles they have attended.
+And, at the end of the summer, students will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles they have attended.
 
 __Parallelogram Puzzles (age guide 11 to 16)__
 

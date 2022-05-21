@@ -3,16 +3,16 @@
 The Parallel Universe offers two great ways for your students to learn some brilliant ideas, stretch their brains and explore the wild west of mathematics:
 
 * weekly web-based maths sheets, known as Parallelograms.
-* weekly online Maths Circles.
+* weekly online Parallel Circles.
 * Importantly, everything in the Parallel Universe is entirely free, both to schools and students.
 
 __Parallel Maths Circles (age guide 9 to 18)__
 
-A Maths Circle is a group of students and a mentor who come together to explore the mathematical universe. Maths Circles help to build curiosity, creativity, logic and tenacity. Face to face Maths Circles exist all over the world, from California to Mumbai, from Iceland to South Africa, but they are hard to find and are often expensive, but now your students can join the biggest Maths Circle in the world for free, every week.
+A maths circle is a group of students and a mentor who come together to explore the mathematical universe. Maths circles help to build curiosity, creativity, logic and tenacity. Face to face maths circles exist all over the world, from California to Mumbai, and from Iceland to South Africa, but they are hard to find and are often expensive... however now your students can join the biggest maths circle in the world for free, every week.
 
-We have different Maths Circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
+We have different Parallel Circles maths circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
 
-Best of all, our Maths Circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
+Best of all, our maths circles are 100% interactive, so students won’t just watch mathematics, you will actually do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
 __Parallelogram Puzzles (age guide 11 to 16)__
 
@@ -28,13 +28,13 @@ As you can tell, we have tried to make everything as easy as possible for teache
 
 __Certificates and diplomas__
 
-Students can earn certificates each year for completing Parallelograms and attending Maths Circles, and when they leave at age 16 or 18 they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.
+Students can earn certificates each year for completing Parallelograms and attending maths circles, and when they leave at age 16 or 18 they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.
 
 __How do teachers make the most of the Parallel Universe?__
 
 We recommend that you use Parallel in the following way.
 
-Parallel Circles and Parallelograms are free and open to all students, but we have found that there is generally a better uptake if teachers select a group of keen and ambitious students, with the expectation that they will complete the Parallelograms and attend our Maths Circles (almost) every week, i.e., it is part of their regular maths routine.
+Parallel Circles and Parallelograms are free and open to all students, but we have found that there is generally a better uptake if teachers select a group of keen and ambitious students, with the expectation that they will complete the Parallelograms and attend our Parallel Circles (almost) every week, i.e., it is part of their regular maths routine.
 
 Students can create their own accounts if they visit [https://parallel.org.uk](https://parallel.org.uk) - they can sign up for free using their personal email, school email or a parent email address.
 

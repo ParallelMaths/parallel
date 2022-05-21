@@ -4,17 +4,17 @@ In order to be reading this page, you must be slightly kooky, by which I mean yo
 
 __Parallel Maths Circles (age guide 9 to 18)__
 
-A Maths Circle is a group of students and a mentor who come together to explore the mathematical universe. Maths Circles help to build your curiosity, creativity, logic and tenacity. Face to face Maths Circles exist all over the world, from California to Mumbai, from Iceland to South Africa, but they are hard to find and are often expensive, but now you can join the biggest Maths Circle in the world for free, every week.
+A maths circle is a group of students and a mentor who come together to explore the mathematical universe. Maths circles help to build your curiosity, creativity, logic and tenacity. Face to face maths circles exist all over the world, from California to Mumbai, and Iceland to South Africa, but they are hard to find and are often expensive... however, you can now join the biggest maths circle in the world for free, every week.
 
-We have different Maths Circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
+We have different Parallel Circles maths circles for different age groups, and each one is led by a so-called Ring Master, someone who is well-known for being a brilliant maths teacher.
 
-Best of all, our Maths Circles are 100% interactive, so you won’t just watch mathematics, but you will do mathematics. You can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
+Best of all, our maths circles are 100% interactive, so you won’t just watch mathematics, but you will do mathematics. You can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-And, at the end of the summer, you will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many Maths Circles you have attended.
+And, at the end of the summer, you will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles you have attended.
 
 __Parallelogram Puzzles (age guide 11 to 16)__
 
-Each Thursday at 3pm (UK time), you will have access to a new set of online mathematical challenges tailored to your age – each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
+Each Thursday at 3pm (UK time), you will have access to a new set of online mathematical challenges tailored to your age. Each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
 
 It should take just 15 to 30 minutes to complete each Parallelogram. If you have not finished a Parallelogram, then you can disappear and return later and find that your previous answers will have been saved.
 
