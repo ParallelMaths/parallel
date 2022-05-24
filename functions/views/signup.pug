@@ -31,7 +31,7 @@ block content
       input(type="email" required v-model="user.signupForm.email" autocomplete="email")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span(v-if="user.signupForm.type === 'student'") Is your own email or a parent's email?
+      span(v-if="user.signupForm.type === 'student'") Is this a student's email or a parent's?
       span(v-if="user.signupForm.type === 'parent'") Is this your child's own email or a parent's email?
       div(style="text-align: center")
         input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
@@ -53,9 +53,9 @@ block content
       input(type="password" required pattern=".{6,}" v-model="user.signupForm.password" autocomplete="password")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span Teacher code 
-      div(v-if="user.signupForm.type === 'student'" class="info") (Your teacher will give you this code, if you are participating as part of a school)
-      div(v-if="user.signupForm.type === 'parent'" class="info") (Your child's teacher will give them this code, if they are participating as part of a school)
+      span Teacher code
+      div(v-if="user.signupForm.type === 'student'" class="info") (Your teacher will give you this code, if you are participating as part of a school. If not, or you're not sure, no problem - just leave this blank for now)
+      div(v-if="user.signupForm.type === 'parent'" class="info") (If your child is participating in Parallel via their school, their teacher may have given them this code. If not, or you're not sure, no problem - just leave this blank for now)
       input(type="text" v-model="user.signupForm.teacherCode")
 
     label(v-if="user.signupForm.type !== 'teacher'")
