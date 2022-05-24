@@ -48,7 +48,7 @@ This summer programme leads on to two longer-term opportunities. Next year, Year
 
 * Week 1 - June 6th at 6pm
 * Week 2 - June 13th at 6pm
-* Week 3 - June 20th or 6pm
+* Week 3 - June 20th at 6pm
 * Week 4 - June 27th at 6pm
 
 
