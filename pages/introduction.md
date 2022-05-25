@@ -2,7 +2,7 @@
 
 In order to be reading this page, you must be slightly kooky, by which I mean you are a keen mathematician who is hungry to explore the mathematical universe. The good news is that the Parallel Universe offers two great ways for you to learn some brilliant ideas, stretch your brain and explore the wild west of mathematics.
 
-__Parallel Maths Circles (age guide 9 to 18)__
+## Parallel Maths Circles (age guide 9 to 18)
 
 A maths circle is a group of students and a mentor who come together to explore the mathematical universe. Maths circles help to build your curiosity, creativity, logic and tenacity. Face to face maths circles exist all over the world, from California to Mumbai, and Iceland to South Africa, but they are hard to find and are often expensive... however, you can now join the biggest maths circle in the world for free, every week.
 
@@ -12,7 +12,7 @@ Best of all, our maths circles are 100% interactive, so you won’t just watch m
 
 And, at the end of the summer, you will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles you have attended.
 
-__Parallelogram Puzzles (age guide 11 to 16)__
+## Parallelogram Puzzles (age guide 11 to 16)
 
 Each Thursday at 3pm (UK time), you will have access to a new set of online mathematical challenges tailored to your age. Each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
 
@@ -22,7 +22,7 @@ As soon as you hit the SUBMIT button, you will be able to see the answers as wel
 
 You will earn points depending on your percentage score on each Parallelogram, which in turn will earn mathematical badges. And, at the end of the summer, you will earn a Parallellogram certificate, which will be gold, silver or bronze, depending on how many points you have accumulated.
 
-__Get ready for the challenges ahead__
+## Get ready for the challenges ahead
 
 You are going to be entering a peculiar Numberverse. Some of the mathematics will be a deeper exploration of the maths you have studied at school, while some of the topics will go far beyond what you encounter in the classroom. Moreover, we will sometimes dip into science, engineering, philosophy and much more.
 

@@ -162,8 +162,6 @@ perfect score.
 :::
 
 
-
-
 ## 6. Another of Joseph’s machines – his longest machine ever
 
 ::: problem id=6_1 marks=4

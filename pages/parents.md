@@ -6,7 +6,7 @@ If your son or daughter aspires to study a degree in science, engineering, compu
 
 The good news is that the Parallel Universe offers two great ways for your child to learn some brilliant ideas, stretch their brain and explore the wild west of mathematics.
 
-__Parallel Maths Circles (age guide 9 to 18)__
+## Parallel Maths Circles (age guide 9 to 18)
 
 A maths circle is a group of students and a mentor who come together to explore the mathematical universe. Maths circles help to build #curiosity, creativity, logic and tenacity. Face to face maths circles exist all over the world, from California to Mumbai, and from Iceland to South Africa, but they are hard to find and are often expensive... however they can now join the biggest maths circle in the world for free, every week.
 
@@ -16,7 +16,10 @@ Best of all, our maths circles are 100% interactive, so students won’t just wa
 
 And, at the end of the summer, students will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles they have attended.
 
-__Parallelogram Puzzles (age guide 11 to 16)__
+__We take safeguarding very seriously, so students cannot switch on their webcams or microphones, and are unable to message each other.__
+
+
+## Parallelogram Puzzles (age guide 11 to 16)
 
 Each Thursday at 3pm (UK time), students will have access to a new set of online mathematical challenges tailored to their age – each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
 
@@ -24,7 +27,7 @@ It should take just 15 to 30 minutes to complete each Parallelogram. As soon as 
 
 Students earn points depending on their percentage score on each Parallelogram, which in turn will earn them mathematical badges. And, at the end of the summer, students will earn a Parallelogram certificate, which will be gold, silver or bronze, depending on how many points they have accumulated.
 
-__Get ready for the challenges ahead__
+## Get ready for the challenges ahead
 
 Students will be entering a peculiar Numberverse. Some of the mathematics will be a deeper exploration of the maths that they have studied at school, while some of the topics will go far beyond what they will encounter in the classroom. Moreover, we will sometimes dip into science, engineering, philosophy and much more.
 
