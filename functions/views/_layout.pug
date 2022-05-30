@@ -152,6 +152,15 @@ html
             p.text-center We’ve updated your level to #[strong #{levelNames[user.level]}]. You can always change it on your #[a(href="/account") account settings] page. The first Parallelogram is now available to take, but officially it is launched on September 12th. We will be releasing new parallelograms every week of the school year, so the second one appears on September 19th. Don’t worry, you will still be able to access the badges you earned last year.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
+      if user
+        .modal(v-if="user.showYearScopeMessage")
+          .modal-background
+          .modal-body
+            h2 Welcome to Parallel!
+            p.text-center(v-if="user.showYearScopeMessage === 1") We don’t yet have Parallelograms maths puzzle sheets for students aged 10 or below, but you might like to try some of the Year 7 Parallelograms, which contains some curious problems.
+            p.text-center(v-if="user.showYearScopeMessage === 2") We don’t yet have Parallelograms maths puzzle sheets for students aged 17 or older, but you might like to try some of the Year 11 Parallelograms, which contains some curious problems.
+            button(type="submit" v-on:click=`user.hideYearScopeMessage()`) Continue
+
     footer
       a(href="/about") About
       | •

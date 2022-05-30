@@ -109,10 +109,22 @@ export default function() {
     level = 'year11'
   }
 
+
+  const hasSeenYearScopeMessage = document.cookie.match(/yearScopeMessageSeen/);
+  const isTooYoung = window.USER_LEVEL === "year5" || window.USER_LEVEL === "year6";
+  const isTooOld = window.USER_LEVEL === "year12" || window.USER_LEVEL === "year13";
+  const showYearScopeMessage = hasSeenYearScopeMessage ? false : isTooYoung ? 1 : isTooOld ? 2 : false;
+
   const user = {
     level,
     showLogin: false,
+    showYearScopeMessage,
     loginForm, editForm, signupForm, passwordForm,
+
+    hideYearScopeMessage() {
+      user.showYearScopeMessage = false;
+      document.cookie = `yearScopeMessageSeen=1;path=/;max-age=${60 * 60* 24 * 365}`;
+    },
 
     setLevel(l) {
       user.level = l;
