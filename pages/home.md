@@ -1,14 +1,9 @@
-[Dr Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh), author of the No. 1 bestseller [Fermat’s Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem_(book)) and [The Simpsons and Their Mathematical Secrets](https://en.wikipedia.org/wiki/The_Simpsons_and_Their_Mathematical_Secrets) has created a set of weekly maths challenges – just 15 minutes of interesting, fun and challenging material that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems. (After Christmas, the challenges will take a bit longer.)
+[Dr Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh), author of the No. 1 bestseller [Fermat’s Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem_(book)) and [The Simpsons and Their Mathematical Secrets](https://en.wikipedia.org/wiki/The_Simpsons_and_Their_Mathematical_Secrets) has created a set of weekly maths challenges – just 15-30 minutes of interesting, fun and challenging material that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems.
 
-* [Sign up](/signup) and each week on Thursday you will receive a Parallelogram, a weekly
-  set of maths challenges.
+* [Sign up](/signup) and each week on Thursday you will receive a Parallelogram, a weekly set of maths challenges.
 * It’s __FREE__ to sign up and all the materials we offer are __FREE__.
-* Even without an account, you can get a taste of what we offer by just clicking
-  on the Parallelograms on the left.
-* [Teachers](/teachers) can create an account and set Parallelograms for their
-  classes.
-* This site is aimed at 11- to 15-year-olds, but everyone is welcome.
-* We’ll be adding material for older students next year.
+* Even without an account, you can get a taste of what we offer by just clicking on the Parallelograms on the left.
+* [Teachers](/teachers) can create an account and set Parallelograms for their classes.
 
 <div class="dictionary">
 
@@ -20,4 +15,4 @@ __Pronunciation__: /ˌparəˈlɛləɡram/
 
 </div>
 
-The project was devised as an add-on for the [Top-Top Set Project](/about#top-top-set) and is supported by the [Good Thinking Society](/about#good-thinking). All the materials are __completely free__.
+All the materials are __completely free__.
