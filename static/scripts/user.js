@@ -99,8 +99,18 @@ export default function() {
     }
   }
 
+  let level = cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7');
+
+  if (level === 'year5' || level === 'year6') {
+    level = 'year7'
+  }
+
+  if (level === 'year12' || level === 'year13') {
+    level = 'year11'
+  }
+
   const user = {
-    level: cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7'),
+    level,
     showLogin: false,
     loginForm, editForm, signupForm, passwordForm,
 

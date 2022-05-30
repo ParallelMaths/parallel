@@ -19,6 +19,18 @@ function getIdTokenFromRequest(req, res) {
   });
 }
 
+function getSidebarLevels(data) {
+  if(['year5', 'year6'].includes(data.level)) {
+    return [LEVELS[0]];
+  }
+  
+  if(data.code || ['year12', 'year13', 'graduated'].includes(data.level)) {
+    return LEVELS;
+  }
+
+  return LEVELS.slice(0, +data.level.slice(4) - 6);
+}
+
 async function getUserData(uid) {
   const doc = await userDB.doc(uid).get();
   if (!doc.exists) throw new Error('User without data: ' + uid);
@@ -39,8 +51,10 @@ async function getUserData(uid) {
   data.visibleBadges = data.level ? (BADGES[data.level] || [])
       .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
 
-  const showAll = (data.code || data.level === 'graduated');
-  data.sidebarLevels = showAll ? LEVELS : LEVELS.slice(0, +data.level.slice(4) - 6);
+  data.sidebarLevels = getSidebarLevels(data)
+
+  data.displayedLevel = data.level;
+
 
   return data;
 }

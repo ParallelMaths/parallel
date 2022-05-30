@@ -62,11 +62,15 @@ block content
       span(v-if="user.signupForm.type === 'student'") Year
       span(v-if="user.signupForm.type === 'parent'") Your child's year group
       select(v-model="user.signupForm.level")
-        option(value="year7") Year 7 (age 12 or below)
+        option(value="year5") Year 5 (age 9 or below)
+        option(value="year6") Year 6 (age 10-11)
+        option(value="year7") Year 7 (age 11-12)
         option(value="year8") Year 8 (age 12–13)
         option(value="year9") Year 9 (age 13–14)
         option(value="year10") Year 10 (age 14–15)
-        option(value="year11") Year 11 (age 15 or above)
+        option(value="year11") Year 11 (age 15-16)
+        option(value="year12") Year 12  (age 16-17)
+        option(value="year13") Year 13 (age 17 or above)
 
     label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode")
       span(v-if="user.signupForm.type === 'student'") Year of Birth
