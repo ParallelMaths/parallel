@@ -268,9 +268,14 @@ app.get('/:pid', (req, res, next) => {
   const userData = {answers, uid: req.user ? req.user.uid : '',
     submitted: ('reveal' in req.query) || answers.submitted || false};
 
+  let badgeLevel = req.user.level;
+
+  if(['year5', 'year6'].includes(req.user.level)) badgeLevel = 'year7';
+  if(['year12', 'year13'].includes(req.user.level)) badgeLevel = 'year11';
+
   let newBadge = null;
   if (req.user && !req.user.code) {
-    for (let b of BADGES[req.user.level]) {
+    for (let b of BADGES[badgeLevel]) {
       if (b.score <= req.user.points && req.user.badges.indexOf(b.id) < 0) {
         req.user.badges.push(b.id);
         newBadge = b;
