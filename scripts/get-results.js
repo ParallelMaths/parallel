@@ -29,9 +29,26 @@ const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11];
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
+const loadAllUserData = async (limit, offset, users) => {
+  const newUsers = await fb.firestore().collection('users').offset(offset).limit(limit).get().then(data => 
+    data.docs.reduce((acc, doc) => {
+    acc[doc.id] = doc.data();
+    return acc;
+  }, {}));
+
+  const newUserCount = Object.keys(newUsers).length;
+
+  if (Object.keys(newUsers).length > 1) {
+    console.log('Found', newUserCount, 'users');
+    return loadAllUserData(limit, offset + limit, {...users, ...newUsers})
+  }
+
+  return {...users, ...newUsers};
+}
+
 async function run() {
-  const userData = await fb.firestore().collection('users').get();
-  const users = userData.docs.map(u => [u.id, u.data()]);
+  const usersObject = await loadAllUserData(10000, 0, {});
+  const users = Object.entries(usersObject);
 
   const emailData = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(emailData)).users;
