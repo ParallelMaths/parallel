@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const fb = require('firebase-admin');
 const yaml = require('yamljs');
-const serviceAccount = require('../private/service-account.json');
+const downloadUsers = require('./utils/downloadUsers');
 
 // -----------------------------------------------------------------------------
 // Edit below. You can use the same teacher code for multiple years.
@@ -57,34 +56,12 @@ function inTimeRange(q) {
   return true;
 }
 
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
-});
-
-const loadAllUserData = async (limit, offset, users) => {
-  const newUsers = await fb.firestore().collection('users').offset(offset).limit(limit).get().then(data => 
-    data.docs.reduce((acc, doc) => {
-    acc[doc.id] = doc.data();
-    return acc;
-  }, {}));
-
-  const newUserCount = Object.keys(newUsers).length;
-
-  if (Object.keys(newUsers).length > 1) {
-    console.log('Found', newUserCount, 'users');
-    return loadAllUserData(limit, offset + limit, {...users, ...newUsers})
-  }
-
-  return {...users, ...newUsers};
-}
-
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 for (const y of Object.keys(pageData)) pageData[y].reverse();
 
 async function run() {
-  const userObj = await loadAllUserData(10000,0,{});
-  const users = Object.values(userObj);
+  const usersObject = await downloadUsers();
+  const users = Object.values(usersObject);
   console.log(`Loading ${users.length} users...`);
 
   const length = Math.max(...[7, 8, 9, 10, 11].map(i => pageData['year' + i].length));
