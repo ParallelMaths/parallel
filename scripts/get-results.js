@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const fb = require('firebase-admin');
-const serviceAccount = require('../private/service-account.json');
 const yaml = require('yamljs');
+const downloadUsers = require('./utils/downloadUsers');
 
 // -----------------------------------------------------------------------------
 // Edit below.
@@ -19,10 +18,6 @@ function inTimeRange(q) {
   return true;
 }
 
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
-});
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 
@@ -30,8 +25,8 @@ let pages = [...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageDat
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
-  const userData = await fb.firestore().collection('users').get();
-  const users = userData.docs.map(u => [u.id, u.data()]);
+  const usersObject = await downloadUsers();
+  const users = Object.entries(usersObject);
 
   const emailData = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(emailData)).users;
@@ -113,7 +108,7 @@ async function run() {
 
   const str1 = rows.map(d => d.join(',')).join('\n');
   fs.writeFileSync(path.join(__dirname, `../private/summary.csv`), str1);
-
+  console.log('Results saved')
   process.exit();
 }
 

@@ -12,8 +12,8 @@
     "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
     "deploy": "grunt && firebase deploy",
     "convert-teachers": "node scripts/convert-teachers.js",
-    "get-users": "npm run export-users && node scripts/get-users.js",
-    "get-results": "npm run export-users && node scripts/get-results.js",
+    "get-users": "node scripts/get-users.js",
+    "get-results": "node scripts/get-results.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js"
   },
