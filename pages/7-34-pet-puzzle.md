@@ -29,16 +29,17 @@ __1.1__ Which mathematical constant was Simon asking about?
 
 * [ ] `e`  
 * [ ] `π`  
-* [x] `Τ`  
+* [x] Τ  
 * [ ] `i`
+{.col-4}
 
 ---
 
-June 28th is Tau (`Τ`) day, because Tau is equal to `2π`, which is approximately 6.28.
+June 28th is Tau (Τ) day, because Tau is equal to `2π`, which is approximately 6.28.
 :::
 
 
-##2. Pet Puzzle
+## 2. Pet Puzzle
 
 A cat and a dog weigh 10 Kg. A dog and a rat weigh 7 Kg. And a cat and a rat weigh 5 Kg.
 
