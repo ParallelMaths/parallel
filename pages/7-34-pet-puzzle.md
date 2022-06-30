@@ -18,16 +18,37 @@ week by the Parallel Project to bright young mathematicians.
 It’s the last normal Parallelogram of the school year... so it’s a toughie - and even better there is a super-giant Parallelogram next week to keep you busy over the summer holidays. Actually, it is not super-giant, just bigger than a normal Parallelogram. That’s because it is important that you do a bit of mathematics every week between the end of the summer term and the start of the autumn term to stop your brain from turning to sludge. Good luck!
 
 
-## 1. Pet Puzzle
+## 1. An end of year message from Simon Singh
+
+As this is the penultimate Parallelogram of the year, Simon has a special end of year message for you... and a quiz question for you to answer:
+
+@[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=1_1 marks=2
+__1.1__ Which mathematical constant was Simon asking about?
+
+* [ ] `e`  
+* [ ] `π`  
+* [x] `Τ`  
+* [ ] `i`
+
+---
+
+June 28th is Tau (`Τ`) day, because Tau is equal to `2π`, which is approximately 6.28.
+:::
+
+
+##2. Pet Puzzle
 
 A cat and a dog weigh 10 Kg. A dog and a rat weigh 7 Kg. And a cat and a rat weigh 5 Kg.
 
-::: problem id=1_1 marks=3
-__1.1__ What is the combined weight of a dog, cat and rat?  
+::: problem id=2_1 marks=3
+__2.1__ What is the combined weight of a dog, cat and rat?  
 
-(See if you can find a quick way to solve this problem.)
-
-<input solution="11"/> kg
+* [ ] Do nothing  
+* [x] Go for a walk  
+* [ ] Climb to the top of a mountain  
+* [ ] Watch paint dry  
 
 ---
 
@@ -63,12 +84,12 @@ So, D + C + R = 11 Kg.
 :::
 
 
-## 2. Three Simple Ways to Time Travel
+## 3. Three Simple Ways to Time Travel
 
 @[youtube](FflcA85zcOM?end72&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=2_1 marks=1
-__2.1__ If you want time to slow down, which one of these will help?
+::: problem id=3_1 marks=1
+__3.1__ If you want time to slow down, which one of these will help?
 
 * [ ] Do nothing  
 * [x] Go for a walk  
@@ -76,8 +97,8 @@ __2.1__ If you want time to slow down, which one of these will help?
 * [ ] Watch paint dry  
 :::
 
-::: problem id=2_2 marks=1
-__2.2__ Because of the stronger gravity, which part of your body ages most slowly? Which part of your body generally experiences time passing more slowly?
+::: problem id=3_2 marks=1
+__3.2__ Because of the stronger gravity, which part of your body ages most slowly? Which part of your body generally experiences time passing more slowly?
 
 * [ ] The top of your head
 * [ ] Your nose
@@ -86,8 +107,8 @@ __2.2__ Because of the stronger gravity, which part of your body ages most slowl
 * [x] Your ankles
 :::
 
-::: problem id=2_3 marks=2
-__2.3__ How big is a femtosecond?
+::: problem id=3_3 marks=2
+__3.3__ How big is a femtosecond?
 
 * [ ] Thousandth of a second
 * [ ] Millionth of a second
@@ -96,8 +117,8 @@ __2.3__ How big is a femtosecond?
 * [x] Quadrillionth of a second
 :::
 
-::: problem id=2_4 marks=2
-__2.4__ How big is a femtosecond?
+::: problem id=3_4 marks=2
+__3.4__ How big is a femtosecond?
 
 * [ ] One millionth of one millionth, of a second
 * [ ] One thousandth of one billionth, of a second
@@ -107,12 +128,12 @@ __2.4__ How big is a femtosecond?
 :::
 
 
-## 3. Junior Maths Challenge Problem (UKMT)
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (6) --->
 
-::: problem id=3_1 marks=3
+::: problem id=4_1 marks=3
 ![](/resources/7-34-pet-puzzle/3-magic.jpg){image align="right"}
-__3.1__ The diagram shows a partially completed magic square, in which all rows, all columns and both main diagonals have the same total.  
+__4.1__ The diagram shows a partially completed magic square, in which all rows, all columns and both main diagonals have the same total.  
 
 What is the value of `x + y`?
 
@@ -152,11 +173,11 @@ It follows that
 :::
 
 
-## 4. Junior Maths Challenge Problem (UKMT)
+## 5. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (7) --->
 
-::: problem id=4_1 marks=2
-__4.1__ How many integers are greater than `20 + 18` and also less than `20 × 18`?
+::: problem id=5_1 marks=2
+__5.1__ How many integers are greater than `20 + 18` and also less than `20 × 18`?
 
 * [ ] 320
 * [x] 321
@@ -175,11 +196,11 @@ There are `(359 − 39) + 1`, that is, 321 of these integers.
 :::
 
 
-## 5. Junior Maths Challenge Problem (UKMT)
+## 6. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (8) --->
 
-::: problem id=5_1 marks=2
-__5.1__ Gill scored a goal halfway through the second quarter of a ‘teachers versus pupils’ netball match.  
+::: problem id=6_1 marks=2
+__6.1__ Gill scored a goal halfway through the second quarter of a ‘teachers versus pupils’ netball match.  
 
 At that point, what fraction of the whole match remained to be played?
 
@@ -203,8 +224,8 @@ Therefore the fraction of the game that remained to be played was
 `1 − 3/8 = 8/8 − 3/8 = 5/8`
 :::
 
-::: problem id=5_2 marks=2
-__5.2__ Gill scored a second goal one-third of the way through the third quarter of the netball match. At that point, what fraction of the whole match remained to be played?
+::: problem id=6_2 marks=2
+__6.2__ Gill scored a second goal one-third of the way through the third quarter of the netball match. At that point, what fraction of the whole match remained to be played?
 
 * [ ] `7/12`
 * [ ] `1/3`
@@ -223,12 +244,12 @@ So, `5/12` of the game remained
 :::
 
 
-## 6. Junior Maths Challenge Problem (UKMT)
+## 7. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (15) --->
 
-::: problem id=6_1 marks=3
+::: problem id=7_1 marks=3
 ![](/resources/7-34-pet-puzzle/6-l-squares.jpg){image align="right"}
-__6.1__ Beatrix places copies of the L-shape shown on a `4 × 4` board so that each L-shape covers exactly three cells of the board.  
+__7.1__ Beatrix places copies of the L-shape shown on a `4 × 4` board so that each L-shape covers exactly three cells of the board.  
 
 She is allowed to turn around or turn over an L-shape.  
 
@@ -241,7 +262,7 @@ What is the largest number of L-shapes she can place on the board without overla
 * [ ] 6
 {.col-5}
 
-^^^ hint id=6_1
+^^^ hint id=7_1
 The answer is not 4 shapes.
 ^^^
 

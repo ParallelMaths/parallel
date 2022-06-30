@@ -18,7 +18,27 @@ week by the Parallel Project to bright young mathematicians.
 It’s the last normal Parallelogram of the school year... so it’s a toughie - and even better there is a super-giant Parallelogram next week to keep you busy over the summer holidays. Actually, it is not super-giant, just bigger than a normal Parallelogram. That’s because it is important that you do a bit of mathematics every week between the end of the summer term and the start of the autumn term to stop your brain from turning to sludge. Good luck!
 
 
-## 1. Paradoxes
+## 1. An end of year message from Simon Singh
+
+As this is the penultimate Parallelogram of the year, Simon has a special end of year message for you... and a quiz question for you to answer:
+
+@[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=1_1 marks=2
+__1.1__ Which mathematical constant was Simon asking about?
+
+* [ ] `e`  
+* [ ] `π`  
+* [x] `Τ`  
+* [ ] `i`
+
+---
+
+June 28th is Tau (`Τ`) day, because Tau is equal to `2π`, which is approximately 6.28.
+:::
+
+
+## 2. Paradoxes
 
 Last week, I showed you the missing square illusion, in which some shapes are re-arranged... and somehow the area at the end is less the area at the start. It seemed impossible.  
 
@@ -50,8 +70,8 @@ And paradoxes can also come in the form of pictures. Take a look at this odd ele
 
 ![](/resources/8-34-miracle-chocolate/1-paradox.png){image align="center"}
 
-::: problem id=1_1 marks=3
-__1.1__ What is odd about the elephant?
+::: problem id=2_1 marks=3
+__2.1__ What is odd about the elephant?
 
 * [ ] Its tusks are uneven.
 * [ ] Its ears are too small.
@@ -61,11 +81,11 @@ __1.1__ What is odd about the elephant?
 :::
 
 
-## 2. Junior Maths Challenge Problem (UKMT)
+## 3. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (9) --->
 
-::: problem id=2_1 marks=2
-__2.1__ The approximate cost of restoring the Flying Scotsman was £4 million. This was about 500 times the cost of building the steam engine in 1923.  
+::: problem id=3_1 marks=2
+__3.1__ The approximate cost of restoring the Flying Scotsman was £4 million. This was about 500 times the cost of building the steam engine in 1923.  
 
 Roughly what did the engine cost to build?
 
@@ -86,11 +106,11 @@ So, roughly, the engine cost £8000 to build.
 :::
 
 
-## 3. Junior Maths Challenge Problem (UKMT)
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (16) --->
 
-::: problem id=3_1 marks=3
-__3.1__ How many pairs of digits (`p, q`) are there so that the five-digit integer ‘`p869q`’ is a multiple of 15?
+::: problem id=4_1 marks=3
+__4.1__ How many pairs of digits (`p, q`) are there so that the five-digit integer ‘`p869q`’ is a multiple of 15?
 
 * [ ] 2
 * [ ] 3
@@ -99,11 +119,11 @@ __3.1__ How many pairs of digits (`p, q`) are there so that the five-digit integ
 * [x] 6
 {.col-5}
 
-^^^ hint id=3_1
+^^^ hint id=4_1
 If the number is a multiple of 15, then it must also be a multiple of both 3 and 5, so the last digit (`q`) must be 0 or 5.
 ^^^
 
-^^^ hint id=3_2
+^^^ hint id=4_2
 If `q = 0`, then what values for `p` would make the number divisible by 3?  
 
 If `q = 5`, then what values for `p` would make the number divisible by 3?  
@@ -137,12 +157,12 @@ It follows that the number of pairs of the digits (`p, q`) for which ‘`p869q`�
 :::
 
 
-## 4. Junior Maths Challenge Problem (UKMT)
+## 5. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (17) --->
 
-::: problem id=4_1 marks=3
+::: problem id=5_1 marks=3
 ![](/resources/8-34-miracle-chocolate/4-square.jpg){image align="right"}
-__4.1__ The areas of the two rectangles in the diagram are 25 cm<sup>2</sup> and 13 cm<sup>2</sup> as indicated.  
+__5.1__ The areas of the two rectangles in the diagram are 25 cm<sup>2</sup> and 13 cm<sup>2</sup> as indicated.  
 
 What is the value of `x`?
 
@@ -167,12 +187,12 @@ Hence the value of `x` is 4.
 :::
 
 
-## 5. Junior Maths Challenge Problem (UKMT)
+## 6. Junior Maths Challenge Problem (UKMT)
 <!--- 2010 (23) --->
 
-::: problem id=5_1 marks=3
+::: problem id=6_1 marks=3
 ![](/resources/8-34-miracle-chocolate/5-dots-question.gif){image align="right"}
-__5.1__ A single polygon is made by joining dots in the `4 × 4` grid with straight lines, which meet only at dots at their end points. No dot is at more than one corner.
+__6.1__ A single polygon is made by joining dots in the `4 × 4` grid with straight lines, which meet only at dots at their end points. No dot is at more than one corner.
 
 The diagram shows a five-sided polygon formed in this way.
 

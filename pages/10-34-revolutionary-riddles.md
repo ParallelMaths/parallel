@@ -17,7 +17,27 @@ week by the Parallel Project to bright young mathematicians.
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
 
 
-## 1. Lockdown maths
+## 1. An end of year message from Simon Singh
+
+As this is the penultimate Parallelogram of the year, Simon has a special end of year message for you... and a quiz question for you to answer:  
+
+@[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=1_1 marks=2
+__1.1__ Which mathematical constant was Simon asking about?
+
+* [ ] `e`  
+* [ ] `π`  
+* [x] `Τ`  
+* [ ] `i`
+
+---
+
+June 28th is Tau (`Τ`) day, because Tau is equal to `2π`, which is approximately 6.28.
+:::
+
+
+## 2. Lockdown maths
 
 I am writing this Parallelogram during lockdown (May 2020), and I recently saw this neat little trick.
 
@@ -30,8 +50,8 @@ __Instructions__
 5. Add the two digits of the number you get together
 6. The number you're left with is where you will be travelling to
 
-::: problem id=1_1 marks=1
-__1.1__ Can you calculate your next travel destination?
+::: problem id=2_1 marks=1
+__2.1__ Can you calculate your next travel destination?
 
 * [ ] 1. Singapore
 * [ ] 2. Spain
@@ -58,11 +78,11 @@ If you pick `x`, then you will arrive at the number `3(3x + 3)`, or `(9x + 9)`, 
 :::
 
 
-## 2. Intermediate Maths Challenge Problem (UKMT)
+## 3. Intermediate Maths Challenge Problem (UKMT)
 <!--- (1999) Q04 --->
 
-::: problem id=2_1 marks=3
-__2.1__ Imogen used her calculator and multiplied a number by 20 instead of by 2. What could she now do to obtain the correct answer?
+::: problem id=3_1 marks=3
+__3.1__ Imogen used her calculator and multiplied a number by 20 instead of by 2. What could she now do to obtain the correct answer?
 
 * [ ] Divide by 20
 * [ ] Divide by 40
@@ -77,11 +97,11 @@ Imogen's result is ten times bigger than it should be, and therefore dividing by
 :::
 
 
-## 3.	Intermediate Maths Challenge Problem (UKMT)
+## 4.	Intermediate Maths Challenge Problem (UKMT)
 <!--- (1999) Q14 --->
 
-::: problem id=3_1 marks=4
-__3.1__ Which of the following statements is false?
+::: problem id=4_1 marks=4
+__4.1__ Which of the following statements is false?
 
 * [ ] An octagon has twenty diagonals.
 * [ ] A hexagon has nine diagonals.
@@ -95,14 +115,14 @@ The number of diagonals in an `n`-sided polygon is `1/2 n (n - 3)`. This can be 
 :::
 
 
-## 4.	Revolutionary Riddles
+## 5.	Revolutionary Riddles
 
 Take a look at this great video about riddles relating to revolving or rotating objects. It poses 4 mysteries, which will all be answered in the answer section (after you hit the SUBMIT button). And have a go at answering the question below, which relates to one of the mysteries.
 
 @[youtube](HgCXdNhVC1Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=4_1 marks=3
-__4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have to run the second lap so that the average speed for each lap is 20 km/h?
+::: problem id=5_1 marks=3
+__5.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have to run the second lap so that the average speed for each lap is 20 km/h?
 
 * [ ] 5 km/h
 * [ ] 10 km/h
@@ -117,11 +137,11 @@ __4.1__ If you gently jog one lap at a speed of 10 km/h, how fast would you have
 :::
 
 
-## 5. Intermediate Maths Challenge Problem (UKMT)
+## 6. Intermediate Maths Challenge Problem (UKMT)
 <!--- (1999) Q24 --->
 
-::: problem id=5_1 marks=5
-__5.1__ The Queen of Hearts has lost her tarts! She is sure that those knaves who have not eaten tarts will tell her the truth and that the guilty knaves will tell lies. When questioned, the five knaves declare:
+::: problem id=6_1 marks=5
+__6.1__ The Queen of Hearts has lost her tarts! She is sure that those knaves who have not eaten tarts will tell her the truth and that the guilty knaves will tell lies. When questioned, the five knaves declare:
 
 - K1: "Only one of us ate them"
 - K2: "Only two of us ate them"
@@ -138,7 +158,7 @@ How many of the knaves ate the tarts?
 * [ ] 5
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=6_1 marks=1
 The five knaves all say that a different number ate the tarts, which means that only one of them can be telling the truth.
 ^^^
 
@@ -152,10 +172,10 @@ K4 is the only honest knave who didn't eat the tarts, so that means K1, K2, K3 a
 :::
 
 
-## 6. Thanks, and how long are all the fish?
+## 7. Thanks, and how long are all the fish?
 
-::: problem id=6_1 marks=2
-__6.1__ Fred went fishing.  He caught a fish that had a length of 30 cm plus half its own length.  
+::: problem id=7_1 marks=2
+__7.1__ Fred went fishing.  He caught a fish that had a length of 30 cm plus half its own length.  
 
 How long was the fish?
 
@@ -170,8 +190,8 @@ If L = Length of fish, then
 `L = 60` cm
 :::
 
-::: problem id=6_2 marks=2
-__6.2__ Fred went fishing again. This time he claimed that he caught a fish that had a length of 30 cm plus double its own length. Nobody saw the fish. Maybe he was telling a lie. If fish really was (30 cm plus double its own length), then what would this mean for the length of the fish? Don’t worry if your answer seems impossible.
+::: problem id=7_2 marks=2
+__7.2__ Fred went fishing again. This time he claimed that he caught a fish that had a length of 30 cm plus double its own length. Nobody saw the fish. Maybe he was telling a lie. If fish really was (30 cm plus double its own length), then what would this mean for the length of the fish? Don’t worry if your answer seems impossible.
 
 <input solution="-30"/> cm
 
