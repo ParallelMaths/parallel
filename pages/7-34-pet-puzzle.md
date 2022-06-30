@@ -44,12 +44,11 @@ June 28th is Tau (Τ) day, because Tau is equal to `2π`, which is approximately
 A cat and a dog weigh 10 Kg. A dog and a rat weigh 7 Kg. And a cat and a rat weigh 5 Kg.
 
 ::: problem id=2_1 marks=3
-__2.1__ What is the combined weight of a dog, cat and rat?  
+__2.1__ What is the combined weight of a dog, cat and rat?   
 
-* [ ] Do nothing  
-* [x] Go for a walk  
-* [ ] Climb to the top of a mountain  
-* [ ] Watch paint dry  
+(See if you can find a quick way to solve this problem.)  
+
+<input solution="11"/> kg  
 
 ---
 
