@@ -88,7 +88,56 @@ export default function() {
   const editForm = {loading: false, error: '', teacherCodes: []};
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
-    birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : location.hash === '#parent' ? 'parent' : 'student', primaryEmailType: null};
+    birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : location.hash === '#parent' ? 'parent' : 'student', primaryEmailType: null, messages: {}};
+
+  signupForm.messages.student = {
+    firstName: "First Name",
+    surname: "Surname",
+    email: "Email",
+    emailSubtext:
+      "(We sometimes find that our emails are blocked by school firewalls and therefore suggest that you do not use a school email address if possible.)",
+    emailQuestion: "Is this a student's email or a parent's?",
+    emailQuestionStudent: "My own",
+    teacherCode: "Teacher code",
+    teacherCodeSubtext:
+      "(Your teacher will give you this code, if you are participating as part of a school. If not, or you're not sure, no problem - just leave this blank for now)",
+    yearGroup: "Year",
+    yearOfBirth: "Year of Birth",
+    emailOfParent: "Email of a parent or guardian",
+    emailOfParentSubtext:
+      "This is required because you are not yet 13 years old.",
+  };
+
+  signupForm.messages.teacher =  {
+    ...signupForm.messages.student,
+    emailSubtext: undefined
+  }
+
+  signupForm.messages.parent = {
+    ...signupForm.messages.student,
+    firstName: "Your child's first name",
+    surname: "Your child's surname",
+    emailSubtext: "(Used to log in)",
+    emailQuestion: "Is this your child's own email or a parent's email?",
+    emailQuestionStudent: "Child's",
+    teacherCodeSubtext: "(If your child is participating in Parallel via their school, their teacher may have given them this code. If not, or you're not sure, no problem - just leave this blank for now)",
+    yearGroup: "Your child's year group",
+    yearOfBirth: "Your child's year of birth",
+    emailOfParentSubtext: "This is required because your child is not yet 13 years old."
+  }
+
+  signupForm.messages.homeschool_student = {
+    ...signupForm.messages.student,
+    firstName: "Student's First Name",
+    surname: "Student's Surname",
+    emailSubtext: undefined,
+    teacherCodeSubtext: "(optional)",
+    monthOfBirth: "Month of Birth"
+  }
+
+  if (document.location.pathname.match(/homeschool/)) {
+    signupForm.type = 'homeschool_student';
+  }
 
   if (window.USER_DATA) {
     for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
@@ -282,6 +331,7 @@ export default function() {
         teacherCode: signupForm.teacherCode ? [signupForm.teacherCode] : null,
         code: signupForm.code || null,
         level: signupForm.level || null,
+        birthMonth: signupForm.birthMonth || null,
         birthYear: signupForm.birthYear || null,
         schoolName: signupForm.schoolName || null,
         phoneNumber: signupForm.phoneNumber || null,
@@ -289,7 +339,8 @@ export default function() {
         guardianEmail,
         acceptedTerms: true,
         userReference: generateUserReference(),
-        primaryEmailType
+        primaryEmailType,
+        accountType: signupForm.type
       }
 
       userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
