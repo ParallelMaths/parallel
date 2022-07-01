@@ -10,7 +10,6 @@ block content
       .toggle
         a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
         a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
-        a(v-on:click="user.signupForm.type = 'parent'" v-bind:class="{active: user.signupForm.type === 'parent'}") Parent
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
 
@@ -35,6 +34,11 @@ block content
         label(class="radio-label" for="is-student-email-student") {{user.signupForm.messages[user.signupForm.type].emailQuestionStudent}}
         input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
         label(class="radio-label" for="is-student-email-parent") A Parent's
+
+    label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.birthYear < 2009 && user.signupForm.primaryEmailType !== 'parent'")
+      span {{user.signupForm.messages[user.signupForm.type].parentsEmail}}
+      div(class="info") {{user.signupForm.messages[user.signupForm.type].parentsEmailSubtext}}
+      input(type="email" v-model="user.signupForm.guardianEmail")
 
     label
       span Password
@@ -98,8 +102,6 @@ block content
     label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009 && user.signupForm.primaryEmailType !== 'parent'")
       span {{user.signupForm.messages[user.signupForm.type].emailOfParent}}
       div(class="info") {{user.signupForm.messages[user.signupForm.type].emailOfParentSubtext}}
-
-
       input(type="email" v-model="user.signupForm.guardianEmail" required)
 
     p.checkbox
