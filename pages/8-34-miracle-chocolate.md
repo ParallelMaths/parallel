@@ -24,7 +24,7 @@ As this is the penultimate Parallelogram of the year, Simon has a special end of
 
 @[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=1_1 marks=2
+::: problem id=9_1 marks=2
 __1.1__ Which mathematical constant was Simon asking about?
 
 * [ ] `e`  
@@ -71,7 +71,7 @@ And paradoxes can also come in the form of pictures. Take a look at this odd ele
 
 ![](/resources/8-34-miracle-chocolate/1-paradox.png){image align="center"}
 
-::: problem id=2_1 marks=3
+::: problem id=1_1 marks=3
 __2.1__ What is odd about the elephant?
 
 * [ ] Its tusks are uneven.
@@ -85,7 +85,7 @@ __2.1__ What is odd about the elephant?
 ## 3. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (9) --->
 
-::: problem id=3_1 marks=2
+::: problem id=2_1 marks=2
 __3.1__ The approximate cost of restoring the Flying Scotsman was £4 million. This was about 500 times the cost of building the steam engine in 1923.  
 
 Roughly what did the engine cost to build?
@@ -110,7 +110,7 @@ So, roughly, the engine cost £8000 to build.
 ## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (16) --->
 
-::: problem id=4_1 marks=3
+::: problem id=3_1 marks=3
 __4.1__ How many pairs of digits (`p, q`) are there so that the five-digit integer ‘`p869q`’ is a multiple of 15?
 
 * [ ] 2
@@ -120,11 +120,11 @@ __4.1__ How many pairs of digits (`p, q`) are there so that the five-digit integ
 * [x] 6
 {.col-5}
 
-^^^ hint id=4_1
+^^^ hint id=3_1
 If the number is a multiple of 15, then it must also be a multiple of both 3 and 5, so the last digit (`q`) must be 0 or 5.
 ^^^
 
-^^^ hint id=4_2
+^^^ hint id=3_2
 If `q = 0`, then what values for `p` would make the number divisible by 3?  
 
 If `q = 5`, then what values for `p` would make the number divisible by 3?  
@@ -161,7 +161,7 @@ It follows that the number of pairs of the digits (`p, q`) for which ‘`p869q`�
 ## 5. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (17) --->
 
-::: problem id=5_1 marks=3
+::: problem id=4_1 marks=3
 ![](/resources/8-34-miracle-chocolate/4-square.jpg){image align="right"}
 __5.1__ The areas of the two rectangles in the diagram are 25 cm<sup>2</sup> and 13 cm<sup>2</sup> as indicated.  
 
@@ -191,7 +191,7 @@ Hence the value of `x` is 4.
 ## 6. Junior Maths Challenge Problem (UKMT)
 <!--- 2010 (23) --->
 
-::: problem id=6_1 marks=3
+::: problem id=5_1 marks=3
 ![](/resources/8-34-miracle-chocolate/5-dots-question.gif){image align="right"}
 __6.1__ A single polygon is made by joining dots in the `4 × 4` grid with straight lines, which meet only at dots at their end points. No dot is at more than one corner.
 

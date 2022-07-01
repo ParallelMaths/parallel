@@ -24,7 +24,7 @@ As this is the penultimate Parallelogram of the year, Simon has a special end of
 
 @[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=1_1 marks=2
+::: problem id=9_1 marks=2
 __1.1__ Which mathematical constant was Simon asking about?
 
 * [ ] `e`  
@@ -43,7 +43,7 @@ June 28th is Tau (Τ) day, because Tau is equal to `2π`, which is approximately
 
 A cat and a dog weigh 10 Kg. A dog and a rat weigh 7 Kg. And a cat and a rat weigh 5 Kg.
 
-::: problem id=2_1 marks=3
+::: problem id=1_1 marks=3
 __2.1__ What is the combined weight of a dog, cat and rat?   
 
 (See if you can find a quick way to solve this problem.)  
@@ -88,7 +88,7 @@ So, D + C + R = 11 Kg.
 
 @[youtube](FflcA85zcOM?end72&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=3_1 marks=1
+::: problem id=2_1 marks=1
 __3.1__ If you want time to slow down, which one of these will help?
 
 * [ ] Do nothing  
@@ -131,7 +131,7 @@ __3.4__ How big is a femtosecond?
 ## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (6) --->
 
-::: problem id=4_1 marks=3
+::: problem id=3_1 marks=3
 ![](/resources/7-34-pet-puzzle/3-magic.jpg){image align="right"}
 __4.1__ The diagram shows a partially completed magic square, in which all rows, all columns and both main diagonals have the same total.  
 
@@ -176,7 +176,7 @@ It follows that
 ## 5. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (7) --->
 
-::: problem id=5_1 marks=2
+::: problem id=4_1 marks=2
 __5.1__ How many integers are greater than `20 + 18` and also less than `20 × 18`?
 
 * [ ] 320
@@ -199,7 +199,7 @@ There are `(359 − 39) + 1`, that is, 321 of these integers.
 ## 6. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (8) --->
 
-::: problem id=6_1 marks=2
+::: problem id=5_1 marks=2
 __6.1__ Gill scored a goal halfway through the second quarter of a ‘teachers versus pupils’ netball match.  
 
 At that point, what fraction of the whole match remained to be played?
@@ -224,7 +224,7 @@ Therefore the fraction of the game that remained to be played was
 `1 − 3/8 = 8/8 − 3/8 = 5/8`
 :::
 
-::: problem id=6_2 marks=2
+::: problem id=5_2 marks=2
 __6.2__ Gill scored a second goal one-third of the way through the third quarter of the netball match. At that point, what fraction of the whole match remained to be played?
 
 * [ ] `7/12`
@@ -247,7 +247,7 @@ So, `5/12` of the game remained
 ## 7. Junior Maths Challenge Problem (UKMT)
 <!--- 2018 (15) --->
 
-::: problem id=7_1 marks=3
+::: problem id=6_1 marks=3
 ![](/resources/7-34-pet-puzzle/6-l-squares.jpg){image align="right"}
 __7.1__ Beatrix places copies of the L-shape shown on a `4 × 4` board so that each L-shape covers exactly three cells of the board.  
 
@@ -262,7 +262,7 @@ What is the largest number of L-shapes she can place on the board without overla
 * [ ] 6
 {.col-5}
 
-^^^ hint id=7_1
+^^^ hint id=6_1
 The answer is not 4 shapes.
 ^^^
 
