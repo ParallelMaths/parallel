@@ -4,48 +4,37 @@ block content
 
   h1 Create New Account
 
-  form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}" class="signup-form")
+  form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}" class="signup-form" v-if="user.signupForm.messages")
 
-    .toggle
-      a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
-      a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
-      a(v-on:click="user.signupForm.type = 'parent'" v-bind:class="{active: user.signupForm.type === 'parent'}") Parent
+    if !homeschoolSignup
+      .toggle
+        a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
+        a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
+        a(v-on:click="user.signupForm.type = 'parent'" v-bind:class="{active: user.signupForm.type === 'parent'}") Parent
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
 
     label
-      span(v-if="user.signupForm.type !== 'parent'") First Name
-      span(v-if="user.signupForm.type === 'parent'") Your child's first name
+      span {{user.signupForm.messages[user.signupForm.type].firstName}}
       input(type="text" required v-model="user.signupForm.first" autocomplete="given-name")
 
     label
-      span(v-if="user.signupForm.type !== 'parent'") Surname
-      span(v-if="user.signupForm.type === 'parent'") Your child's surname
+      span {{user.signupForm.messages[user.signupForm.type].surname}}
       input(type="text" required v-model="user.signupForm.last" autocomplete="family-name")
 
     label
-      span Email
+      span {{user.signupForm.messages[user.signupForm.type].email}}
       br
-      div(class="info" v-if="user.signupForm.type === 'student'") (We sometimes find that our emails are blocked by school firewalls and therefore suggest that you do not use a school email address if possible.)
-      div(class="info" v-if="user.signupForm.type === 'parent'") (Used to log in)
+      div(class="info" v-if="user.signupForm.messages[user.signupForm.type].emailSubtext") {{user.signupForm.messages[user.signupForm.type].emailSubtext}}
       input(type="email" required v-model="user.signupForm.email" autocomplete="email")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span(v-if="user.signupForm.type === 'student'") Is this a student's email or a parent's?
-      span(v-if="user.signupForm.type === 'parent'") Is this your child's own email or a parent's email?
+      span {{user.signupForm.messages[user.signupForm.type].emailQuestion}}
       div(style="text-align: center")
         input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='student')#is-student-email-student
-        label(v-if="user.signupForm.type === 'student'" class="radio-label" for="is-student-email-student") My own
-        label(v-if="user.signupForm.type === 'parent'" class="radio-label" for="is-student-email-student") Child's
+        label(class="radio-label" for="is-student-email-student") {{user.signupForm.messages[user.signupForm.type].emailQuestionStudent}}
         input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
         label(class="radio-label" for="is-student-email-parent") A Parent's
-
-    //- label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.primaryEmailType === 'student' && user.signupForm.birthYear < 2009")
-    //-   span Parent's Email
-    //-   br
-    //-   div(class="info" v-if="user.signupForm.type === 'student'") (NEED STUDENT TEXT)
-    //-   div(class="info" v-if="user.signupForm.type === 'parent'") (NEED PARENT TEXT)
-    //-   input(type="email" required v-model="user.signupForm.guardianEmail" autocomplete="email")
 
     label
       span Password
@@ -53,14 +42,12 @@ block content
       input(type="password" required pattern=".{6,}" v-model="user.signupForm.password" autocomplete="password")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span Teacher code
-      div(v-if="user.signupForm.type === 'student'" class="info") (Your teacher will give you this code, if you are participating as part of a school. If not, or you're not sure, no problem - just leave this blank for now)
-      div(v-if="user.signupForm.type === 'parent'" class="info") (If your child is participating in Parallel via their school, their teacher may have given them this code. If not, or you're not sure, no problem - just leave this blank for now)
+      span {{user.signupForm.messages[user.signupForm.type].teacherCode}}
+      div(class="info") {{user.signupForm.messages[user.signupForm.type].teacherCodeSubtext}}
       input(type="text" v-model="user.signupForm.teacherCode")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span(v-if="user.signupForm.type === 'student'") Year
-      span(v-if="user.signupForm.type === 'parent'") Your child's year group
+      span {{user.signupForm.messages[user.signupForm.type].yearGroup}}
       select(v-model="user.signupForm.level")
         option(value="year5") Year 5 (age 9 or below)
         option(value="year6") Year 6 (age 10-11)
@@ -72,12 +59,27 @@ block content
         option(value="year12") Year 12  (age 16-17)
         option(value="year13") Year 13 (age 17 or above)
 
+    label(v-if="user.signupForm.type === 'homeschool_student'")
+      span {{user.signupForm.messages[user.signupForm.type].monthOfBirth}}
+      select(v-model="user.signupForm.birthMonth" required)
+        option(value="1") January
+        option(value="2") February
+        option(value="3") March
+        option(value="4") April
+        option(value="5") May
+        option(value="6") June
+        option(value="7") July
+        option(value="8") August
+        option(value="9") September
+        option(value="10") October
+        option(value="11") November
+        option(value="12") December
+
     label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode")
-      span(v-if="user.signupForm.type === 'student'") Year of Birth
-      span(v-if="user.signupForm.type === 'parent'") Your child's year of birth
+      span {{user.signupForm.messages[user.signupForm.type].yearOfBirth}}
       select(v-model="user.signupForm.birthYear")
         - var year = 1920;
-        while year < 2016
+        while year < 2019
           option= year++
 
     label(v-if="user.signupForm.type === 'teacher'")
@@ -94,9 +96,8 @@ block content
 
     //- TODO Calculate the age dynamically
     label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009 && user.signupForm.primaryEmailType !== 'parent'")
-      span Email of a parent or guardian
-      div(class="info" v-if="user.signupForm.type === 'student'") This is required because you are not yet 13 years old.
-      div(class="info" v-if="user.signupForm.type === 'parent'") This is required because your child is not yet 13 years old.
+      span {{user.signupForm.messages[user.signupForm.type].emailOfParent}}
+      div(class="info") {{user.signupForm.messages[user.signupForm.type].emailOfParentSubtext}}
 
 
       input(type="email" v-model="user.signupForm.guardianEmail" required)
@@ -106,3 +107,6 @@ block content
       label(for="terms") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/terms-and-conditions" target="_blank") Data Protection Terms & Conditions].
 
     button(type="submit") Sign up
+
+    if !homeschoolSignup
+      p(class="homeschool-signup-text") If you're homeschooled, #[a(href="mailto:contact@parallel.org.uk" target="_blank") contact us to find out how to create an account.]
