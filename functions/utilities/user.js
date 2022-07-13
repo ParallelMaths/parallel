@@ -68,9 +68,13 @@ function getActiveUser(req, res, next) {
       .then(() => next());
 }
 
-function getUserFromToken(idToken) {
-  return firebase.auth().verifyIdToken(idToken)
-  .then(decodedIdToken => getUserData(decodedIdToken.uid))
+async function getUserFromToken(idToken) {
+  const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
+  const userData = await getUserData(decodedIdToken.uid);
+  return {
+    ...userData,
+    accountType: decodedIdToken.account_type
+  }
 }
 
 async function getAllStudents(code) {

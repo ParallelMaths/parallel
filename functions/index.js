@@ -110,8 +110,8 @@ app.get('/api/user', async (req, res) => {
   if(!token) return res.status(400).send('Missing token');
 
   await user.getUserFromToken(token).then((user) => {
-    const {level, code, userReference, first, schoolName, last, uid} = user;
-    res.status(200).send({level, code, userReference, first, schoolName, last, uid})
+    const {level, code, userReference, first, schoolName, last, uid, accountType} = user;
+    res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType})
   }).catch((err) => {
     console.error(err);
     res.status(400).send('Error')
