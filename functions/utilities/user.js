@@ -73,7 +73,7 @@ async function getUserFromToken(idToken) {
   const userData = await getUserData(decodedIdToken.uid);
   return {
     ...userData,
-    accountType: decodedIdToken.account_type
+    accountType: decodedIdToken.account_type || null
   }
 }
 
