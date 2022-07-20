@@ -155,6 +155,11 @@ app.get('/account', (req, res) => {
   res.render('account');
 });
 
+app.get('/account-new', (req, res) => {
+  if (!req.user) return error(res, 401);
+  res.render('account-new');
+});
+
 app.get('/badges', (req, res) => {
   if (!req.user) return error(res, 401);
   res.render('badges', {showAllBadges: ('reveal' in req.query)});

@@ -1,0 +1,212 @@
+extends _layout
+
+block content
+  h1 Settings
+  h2 Account Details New
+
+  form(v-on:submit="user.editNew"  v-bind:class="{loading: user.editFormNew.loading}" class="edit-account-form")
+    .error(v-show="user.editFormNew.error" style="margin-top: .5em") {{user.editFormNew.error}}
+
+    script!= 'window.USER_DATA = ' + JSON.stringify(user) + ';'
+
+    label
+      | First Name
+      input(type="text" v-model="user.editFormNew.first")
+
+    label
+      | Surname
+      input(type="text" v-model="user.editFormNew.last")
+
+    if user.code
+      //- Teacher Account Fields
+      label
+        | School Name
+        input(type="text" v-model="user.editFormNew.schoolName")
+
+      label
+        | School Post Code
+        input(type="text" v-model="user.editFormNew.postCode")
+
+      label
+        | Phone Number
+        input(type="text" v-model="user.editFormNew.phoneNumber")
+
+    else
+      //- Student Account Fields
+      label
+        | Teacher codes
+        vue-tags-input#ti(v-model="user.editFormNew.teacherCode" :tags="user.editFormNew.teacherCodes" @tags-changed="t => user.editFormNew.teacherCodes = t" placeholder="Add Code")
+
+      label
+        | Year
+        select(v-model="user.editFormNew.level")
+          option(value="year5") Year 5 (age 9 or below)
+          option(value="year6") Year 6 (age 10-11)
+          option(value="year7") Year 7 (age 11-12)
+          option(value="year8") Year 8 (age 12–13)
+          option(value="year9") Year 9 (age 13–14)
+          option(value="year10") Year 10 (age 14–15)
+          option(value="year11") Year 11 (age 15-16)
+          option(value="year12") Year 12  (age 16-17)
+          option(value="year13") Year 13 (age 17 or above)
+          option(value="graduated") Graduated
+      
+      label
+        | Guardian Email
+        input(type="text" v-model="user.editFormNew.guardianEmail")
+
+      button(type="submit") Update
+      
+      h2 Complete your profile to access terrific bonus Parallel opportunities
+
+      p Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
+
+      div(class="input-other-wrapper")
+        label
+          | Month of Birth
+          select(v-model="user.editFormNew.birthMonth")
+            option(value="1") January
+            option(value="2") February
+            option(value="3") March
+            option(value="4") April
+            option(value="5") May
+            option(value="6") June
+            option(value="7") July
+            option(value="8") August
+            option(value="9") September
+            option(value="10") October
+            option(value="11") November
+            option(value="12") December
+        label
+          | Year of Birth:
+          select(v-model="user.editFormNew.birthYear")
+            - var year = 1920;
+            while year < 2019
+              option= year++
+
+      div(class="input-other-wrapper")
+        label(v-bind:class="{'input-other-two-span': user.editFormNew.gender !== 'other'}")
+          | Gender
+          select(v-model="user.editFormNew.gender")
+            option(value="male") Male
+            option(value="female") Female
+            option(value="non-binary") Non-binary
+            option(value="other") Other
+            option(value="prefer-not-to-say") Prefer not to say
+        label(v-if="user.editFormNew.gender === 'other'")
+          | Other:
+          input(type="text" v-model="user.editFormNew.otherGender")
+
+      div(class="input-other-wrapper")
+        label(v-bind:class="{'input-other-two-span': user.editFormNew.ethnicity !== 'other'}")
+          | Ethnicity
+          select(v-model="user.editFormNew.ethnicity")
+            option(value="asian") Asian or Asian British
+            option(value="black") Black, Black British, Carribean or African
+            option(value="white") White
+            option(value="other") Other
+            option(value="prefer-not-to-say") Prefer not to say
+        label(v-if="user.editFormNew.ethnicity === 'other'")
+          | Other:
+          input(type="text" v-model="user.editFormNew.otherEthnicity")
+
+      div(class="input-other-wrapper")
+        label(v-bind:class="{'input-other-two-span': user.editFormNew.country !== 'unitedKingdom'}")
+          | Country
+          select(v-model="user.editFormNew.country")
+            option(value="earth") Earth
+            option(value="unitedKingdom") United Kingdom
+        label(v-if="user.editFormNew.country === 'unitedKingdom'")
+          | Country
+          select(v-model="user.editFormNew.ukCountry")
+            option(value="england") England
+            option(value="scotland") Scotland
+            option(value="wales") Wales
+            option(value="northernIreland") Northern Ireland
+
+      p.checkbox(v-if="!!user.editFormNew.ukCountry")
+        input#pupilPremium(type="checkbox" required)
+        label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'england'") Do you qualify for Pupil Premium funding?
+        label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'wales'") Do you qualify for Pupil Premium funding?
+        label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'northernIreland'") Do you qualify for Pupil Premium funding?
+        label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'scotland'") Do you qualify for Pupil Equity Fund?
+
+      h4 About your school 
+
+      label
+        | School Name
+        input(type="text" v-model="user.editFormNew.schoolName")
+
+      label(v-if="!!user.editFormNew.ukCountry")
+        | School postcode
+        input(type="text" v-model="user.editFormNew.postCode")
+
+      label
+        span Email address for a school contact
+        br
+        div(class="info") (Ideally your maths teacher, but it could also be your form tutor or head of maths. Make sure you have their permission before sharing this)
+        input(type="text" v-model="user.editFormNew.schoolEmail")
+
+      div(class="home-educated")
+        span(class="bold") If you are home-educated, 
+        span please confirm that this is the case by ticking the box and asking a parent to complete the form in the link below.
+        br 
+        
+        p.checkbox
+          input#homeEducated(type="checkbox" required)
+          label(for="homeEducated") 
+          | I can confirm that I am home-educated and I would like to complete the home-education form 
+          a(href="https://google.com") LINK
+
+      h4 Student Panel
+
+      label
+        | Would you like to be considered to appear on screen during Parallel Circles?
+        select(v-model="user.editFormNew.studentPanelConsidered")
+          option(value="" disabled)
+          option(value="1") Yes
+          option(value="0") No
+
+      label(v-if="user.editFormNew.studentPanelConsidered === '1'")
+        | Which circle do you usually attend?
+        select(v-model="user.editFormNew.studentPanelCircle")
+          option(value="primary") Primary
+          option(value="junior") Junior
+          option(value="intermediate") Intermediate
+          option(value="senior") Senior
+
+      div(v-if="user.editFormNew.studentPanelConsidered === '1'")
+        p We will need to speak with a parent or guardian to confirm that they are happy for you to participate in the Student Panel. Please provide their name phone number below (get their permission!)
+
+        label
+          | Parent/Guardian Name
+          input(type="text" v-model="user.editFormNew.studentPanelGuardianName" required)
+
+        label
+          | Parent/Guardian Phone Number
+          input(type="text" v-model="user.editFormNew.studentPanelGuardianNumber" required)
+
+        p.checkbox
+          input#terms(type="checkbox" required)
+          label(for="terms") By ticking this box, you confirm that you have the permission of a parent or guardian to participate in the Student Panel.
+
+    button(type="submit") Update
+
+  hr
+  h2 Change Password
+
+  form(v-on:submit="user.password"  v-bind:class="{loading: user.passwordForm.loading}")
+    .error(v-show="user.passwordForm.error" style="margin-top: .5em") {{user.passwordForm.error}}
+
+    label
+      | Old Password
+      input(type="password" v-model="user.passwordForm.old" autocomplete="password" required)
+
+    label
+      | New Password
+      input(type="password" pattern=".{6,}" v-model="user.passwordForm.new" autocomplete="new-password" required)
+
+    button(type="submit") Update
+
+  if user && !user.code && user.userReference
+    p(style="font-size: 16px; text-align: center; color: #555; margin-top: 3rem;") Student Reference: #{user.userReference}

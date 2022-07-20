@@ -86,6 +86,9 @@ export default function() {
 
   const loginForm = {error: null, reset: false};
   const editForm = {loading: false, error: '', teacherCodes: []};
+
+  const editFormNew = {loading: false, error: '', teacherCodes: []};
+
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
     birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
@@ -135,6 +138,13 @@ export default function() {
     if (window.USER_DATA.teacherCode) {
       editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
+
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
+      editFormNew[key] = window.USER_DATA[key] || null;
+    }
+    if (window.USER_DATA.teacherCode) {
+      editFormNew.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
+    }
   }
 
   let level = cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7');
@@ -157,7 +167,7 @@ export default function() {
     level,
     showLogin: false,
     showYearScopeMessage,
-    loginForm, editForm, signupForm, passwordForm,
+    loginForm, editForm, editFormNew, signupForm, passwordForm,
 
     hideYearScopeMessage() {
       user.showYearScopeMessage = false;
@@ -240,6 +250,51 @@ export default function() {
         console.error(error);
         editForm.loading = false;
         editForm.error = ERRORS[error.code] || ERRORS.default;
+      }
+    },
+
+    async editNew(e) {
+      e.preventDefault();
+      editFormNew.loading = true;
+      editFormNew.error = null;
+
+      const isTeacher = !!window.USER_DATA.code
+
+      try {
+        let schoolName = editFormNew.schoolName || '';
+        const teacherCodes = editFormNew.teacherCodes.map(c => c.text.trim());
+
+        for (const code of teacherCodes) {
+          const res = await fetch(`/validate/${code}`);
+          const json = await res.json();
+          if (!json.school) {
+            editFormNew.loading = false;
+            return editFormNew.error = ERRORS['teacher-code'].replace('$0', code);
+          }
+          schoolName = json.school;
+        }
+
+        if (!isTeacher && !teacherCodes.length) {
+          schoolName = '';
+        }
+
+        // await fbDatabase.collection('users').doc(uid).update({
+        //   teacherCode: teacherCodes || [],
+        //   level: editForm.level || null,
+        //   phoneNumber: editForm.phoneNumber || null,
+        //   postCode: editForm.postCode || null,
+        //   first: editForm.first || null,
+        //   last: editForm.last || null,
+        //   schoolName: schoolName,
+        // });
+
+        editFormNew.loading = false;
+        editFormNew.error = null;
+        location.reload(true);
+      } catch(error) {
+        console.error(error);
+        editFormNew.loading = false;
+        editFormNew.error = ERRORS[error.code] || ERRORS.default;
       }
     },
 
