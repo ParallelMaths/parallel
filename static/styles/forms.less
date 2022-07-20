@@ -2,6 +2,40 @@
 // Parallel Forms
 // =============================================================================
 
+.edit-account-form {
+  .subheading {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #aaa;
+  }
+
+  .home-educated {
+    border: 1px solid #b30469;
+    padding: 0.65rem;
+    font-size: 12px;
+    margin-bottom: 1rem;
+
+    label {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+
+    .checkbox {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      font-size: 12px;
+
+      input {
+        top: 0;
+      }
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  }
+}
+
 .signup-form {
   span {
     font-size: 16px;
@@ -33,6 +67,17 @@ form label {
   display: block;
   font-size: 12px;
   margin-bottom: 1rem;
+}
+
+.input-other-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  margin-bottom: -1rem;
+}
+
+.input-other-two-span {
+  grid-column: 1 /  span 2;
 }
 
 input[type="text"], input[type="number"], input[type="email"], input[type="password"], select, textarea {
