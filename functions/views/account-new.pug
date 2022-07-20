@@ -124,12 +124,12 @@ block content
           input(type="text" v-model="user.editFormNew.otherEthnicity" :required="user.editFormNew.studentPanelConsidered === '1'")
 
       div(class="input-other-wrapper")
-        label(v-bind:class="{'input-other-two-span': user.editFormNew.country !== 'UK'}")
+        label(v-bind:class="{'input-other-two-span': user.editFormNew.country !== 'GB'}")
           | Country
           select(v-model="user.editFormNew.country" :required="user.editFormNew.studentPanelConsidered === '1'")
-            option(value="UK") United Kingdom
+            option(value="GB") United Kingdom
             option(v-for="(code, name) in user.editFormNew.countries" :value="name") {{ code }}
-        label(v-if="user.editFormNew.country === 'UK'")
+        label(v-if="user.editFormNew.country === 'GB'")
           | Country
           select(v-model="user.editFormNew.ukCountry" :required="user.editFormNew.studentPanelConsidered === '1'")
             option(value="england") England
