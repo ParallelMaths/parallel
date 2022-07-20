@@ -6,11 +6,11 @@ block content
     ul 
       li Enter Countries list ✅
       li Make inputs only required if user selects circles "yes" ✅
-      li Data submitting/saving
+      li Data submitting/saving ✅ NEEDS TESTING
       li Update homeschooling link
       li Change "Year" to "Parallel level"
       li Add student email to form
-      li Add "profile completed" message
+      li Add "profile completed" message ✅ NEEDS TESTING
 
   h1 Settings
   h2 Account Details New
@@ -70,9 +70,11 @@ block content
 
       button(type="submit") Update
       
-      h2 Complete your profile to access terrific bonus Parallel opportunities
+      h2(v-if="!user.editFormNew.profileComplete") Complete your profile to access terrific bonus Parallel opportunities
 
-      p Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
+      h2(v-if="user.editFormNew.profileComplete") Congrats, you’re all set! Do make sure to update your info whenever it changes.
+
+      p(v-if="!user.editFormNew.profileComplete") Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
 
       div(class="input-other-wrapper")
         label
@@ -101,11 +103,11 @@ block content
         label(v-bind:class="{'input-other-two-span': user.editFormNew.gender !== 'other'}")
           | Gender
           select(v-model="user.editFormNew.gender" :required="user.editFormNew.studentPanelConsidered === '1'")
-            option(value="male") Male
-            option(value="female") Female
-            option(value="non-binary") Non-binary
+            option(value="001_male") Male
+            option(value="002_female") Female
+            option(value="003_non_binary") Non-binary
             option(value="other") Other
-            option(value="prefer-not-to-say") Prefer not to say
+            option(value="000_prefer_not_to_say") Prefer not to say
         label(v-if="user.editFormNew.gender === 'other'")
           | Other:
           input(type="text" v-model="user.editFormNew.otherGender" :required="user.editFormNew.studentPanelConsidered === '1'")
@@ -114,11 +116,11 @@ block content
         label(v-bind:class="{'input-other-two-span': user.editFormNew.ethnicity !== 'other'}")
           | Ethnicity
           select(v-model="user.editFormNew.ethnicity" :required="user.editFormNew.studentPanelConsidered === '1'")
-            option(value="asian") Asian or Asian British
-            option(value="black") Black, Black British, Carribean or African
-            option(value="white") White
+            option(value="001_asian_or_asian_british") Asian or Asian British
+            option(value="002_black_black_british_caribbean_or_african") Black, Black British, Caribbean or African
+            option(value="003_white") White
             option(value="other") Other
-            option(value="prefer-not-to-say") Prefer not to say
+            option(value="000_prefer_not_to_say") Prefer not to say
         label(v-if="user.editFormNew.ethnicity === 'other'")
           | Other:
           input(type="text" v-model="user.editFormNew.otherEthnicity" :required="user.editFormNew.studentPanelConsidered === '1'")
@@ -138,7 +140,7 @@ block content
             option(value="northernIreland") Northern Ireland
 
       p.checkbox(v-if="!!user.editFormNew.ukCountry")
-        input#pupilPremium(type="checkbox")
+        input#pupilPremium(type="checkbox" v-model="user.editFormNew.pupilPremium")
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'england'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'wales'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'northernIreland'") Do you qualify for Pupil Premium funding?
@@ -164,7 +166,7 @@ block content
 
         label(v-if="!!user.editFormNew.ukCountry")
           | School postcode
-          input(type="text" v-model="user.editFormNew.postCode" :required="user.editFormNew.studentPanelConsidered === '1'")
+          input(type="text" v-model="user.editFormNew.schoolPostcode" :required="user.editFormNew.studentPanelConsidered === '1'")
 
         label
           span Email address for a school contact
@@ -177,13 +179,12 @@ block content
       label
         | Would you like to be considered to appear on screen during Parallel Circles?
         select(v-model="user.editFormNew.studentPanelConsidered")
-          option(value="" disabled)
           option(value="1") Yes
           option(value="0") No
 
       label(v-if="user.editFormNew.studentPanelConsidered === '1'")
         | Which circle do you usually attend?
-        select(v-model="user.editFormNew.studentPanelCircle" required)
+        select(v-model="user.editFormNew.studentPanelUsualCircle" required)
           option(value="primary") Primary
           option(value="junior") Junior
           option(value="intermediate") Intermediate
@@ -201,7 +202,7 @@ block content
           input(type="text" v-model="user.editFormNew.studentPanelGuardianNumber" required)
 
         p.checkbox
-          input#terms(type="checkbox" required)
+          input#terms(type="checkbox" required v-model="user.editFormNew.studentPanelGuardianPermission")
           label(for="terms") By ticking this box, you confirm that you have the permission of a parent or guardian to participate in the Student Panel.
 
     button(type="submit") Update

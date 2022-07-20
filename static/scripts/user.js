@@ -141,9 +141,34 @@ export default function() {
       editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
 
-    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelUsualCircle', 'studentPanelGuardianName', 'studentPanelGuardianNumber', 'studentPanelGuardianPermission']) {
       editFormNew[key] = window.USER_DATA[key] || null;
     }
+
+    const profileIsIncomplete = ['birthMonth', 'birthYear', 'country', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered'].find(key => !window.USER_DATA[key])
+
+    editFormNew.profileComplete = !profileIsIncomplete;
+
+    if(window.USER_DATA.gender) {
+      if(window.USER_DATA.gender.includes('00')) {
+        editFormNew.gender = window.USER_DATA.gender;
+        editFormNew.otherGender = null
+      } else {
+        editFormNew.gender = 'other';
+        editFormNew.otherGender =  window.USER_DATA.gender;
+      }
+    }
+
+    if(window.USER_DATA.ethnicity) {
+      if(window.USER_DATA.ethnicity.includes('00')) {
+        editFormNew.ethnicity = window.USER_DATA.ethnicity;
+        editFormNew.otherEthnicity = null
+      } else {
+        editFormNew.ethnicity = 'other';
+        editFormNew.otherEthnicity =  window.USER_DATA.ethnicity;
+      }
+    }
+
     if (window.USER_DATA.teacherCode) {
       editFormNew.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
@@ -263,32 +288,59 @@ export default function() {
       const isTeacher = !!window.USER_DATA.code
 
       try {
-        let schoolName = editFormNew.schoolName || '';
+        let schoolName = editFormNew.schoolName || null;
         const teacherCodes = editFormNew.teacherCodes.map(c => c.text.trim());
 
-        for (const code of teacherCodes) {
-          const res = await fetch(`/validate/${code}`);
-          const json = await res.json();
-          if (!json.school) {
-            editFormNew.loading = false;
-            return editFormNew.error = ERRORS['teacher-code'].replace('$0', code);
+        if(!isTeacher && teacherCodes.length) {
+          for (const code of teacherCodes) {
+            const res = await fetch(`/validate/${code}`);
+            const json = await res.json();
+            if (!json.school) {
+              editFormNew.loading = false;
+              return editFormNew.error = ERRORS['teacher-code'].replace('$0', code);
+            }
+            schoolName = json.school;
           }
-          schoolName = json.school;
         }
 
-        if (!isTeacher && !teacherCodes.length) {
-          schoolName = '';
+        let schoolPostcode = editFormNew.schoolPostcode || null;
+        let schoolEmail = editFormNew.schoolEmail || null;
+
+        if (editFormNew.homeEducated) {
+          schoolEmail = null;
+          schoolPostcode = null;
+          schoolName = null;
         }
 
-        // await fbDatabase.collection('users').doc(uid).update({
-        //   teacherCode: teacherCodes || [],
-        //   level: editForm.level || null,
-        //   phoneNumber: editForm.phoneNumber || null,
-        //   postCode: editForm.postCode || null,
-        //   first: editForm.first || null,
-        //   last: editForm.last || null,
-        //   schoolName: schoolName,
-        // });
+        const newData = {
+          teacherCode: teacherCodes || [],
+          level: editFormNew.level || null,
+          phoneNumber: editFormNew.phoneNumber || null,
+          postCode: editFormNew.postCode || null,
+          first: editFormNew.first || null,
+          last: editFormNew.last || null,
+          schoolName: schoolName,
+          guardianEmail: editFormNew.guardianEmail || null,
+          birthMonth: editFormNew.birthMonth || null,
+          birthYear: editFormNew.birthYear || null,
+          gender: (editFormNew.gender === 'other' ? editFormNew.otherGender : editFormNew.gender) || null,
+          ethnicity: (editFormNew.ethnicity === 'other' ? editFormNew.otherEthnicity : editFormNew.ethnicity) || null,
+          country: editFormNew.country || null,
+          ukCountry: editFormNew.ukCountry || null,
+          pupilPremium: editFormNew.pupilPremium || null,
+          homeEducated: editFormNew.homeEducated || null,
+          schoolPostcode: schoolPostcode,
+          schoolEmail: schoolEmail,
+          studentPanelConsidered: editFormNew.studentPanelConsidered || null,
+          studentPanelUsualCircle: editFormNew.studentPanelUsualCircle || null,
+          studentPanelGuardianName: editFormNew.studentPanelGuardianName || null,
+          studentPanelGuardianNumber: editFormNew.studentPanelGuardianNumber || null,
+          studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
+        };
+
+        console.log(JSON.stringify(newData, null, 4))
+
+        await fbDatabase.collection('users').doc(uid).update(newData);
 
         editFormNew.loading = false;
         editFormNew.error = null;
