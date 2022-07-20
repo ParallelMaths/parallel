@@ -131,6 +131,8 @@ export default function() {
     signupForm.type = 'homeschool_student';
   }
 
+  editFormNew.countries = window.COUNTRY_CODES || {};
+
   if (window.USER_DATA) {
     for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
       editForm[key] = window.USER_DATA[key] || null;

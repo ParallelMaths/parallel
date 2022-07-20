@@ -9,6 +9,8 @@ block content
 
     script!= 'window.USER_DATA = ' + JSON.stringify(user) + ';'
 
+    script!= 'window.COUNTRY_CODES = ' + JSON.stringify(countries) + ';'
+
     label
       | First Name
       input(type="text" v-model="user.editFormNew.first")
@@ -111,12 +113,12 @@ block content
           input(type="text" v-model="user.editFormNew.otherEthnicity")
 
       div(class="input-other-wrapper")
-        label(v-bind:class="{'input-other-two-span': user.editFormNew.country !== 'unitedKingdom'}")
+        label(v-bind:class="{'input-other-two-span': user.editFormNew.country !== 'UK'}")
           | Country
           select(v-model="user.editFormNew.country")
-            option(value="earth") Earth
-            option(value="unitedKingdom") United Kingdom
-        label(v-if="user.editFormNew.country === 'unitedKingdom'")
+            option(value="UK") United Kingdom
+            option(v-for="(code, name) in user.editFormNew.countries" :value="name") {{ code }}
+        label(v-if="user.editFormNew.country === 'UK'")
           | Country
           select(v-model="user.editFormNew.ukCountry")
             option(value="england") England
@@ -131,32 +133,33 @@ block content
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'northernIreland'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'scotland'") Do you qualify for Pupil Equity Fund?
 
-      h4 About your school 
-
-      label
-        | School Name
-        input(type="text" v-model="user.editFormNew.schoolName")
-
-      label(v-if="!!user.editFormNew.ukCountry")
-        | School postcode
-        input(type="text" v-model="user.editFormNew.postCode")
-
-      label
-        span Email address for a school contact
-        br
-        div(class="info") (Ideally your maths teacher, but it could also be your form tutor or head of maths. Make sure you have their permission before sharing this)
-        input(type="text" v-model="user.editFormNew.schoolEmail")
-
       div(class="home-educated")
         span(class="bold") If you are home-educated, 
         span please confirm that this is the case by ticking the box and asking a parent to complete the form in the link below.
         br 
         
         p.checkbox
-          input#homeEducated(type="checkbox" required)
+          input#homeEducated(type="checkbox" v-model="user.editFormNew.homeEducated")
           label(for="homeEducated") 
-          | I can confirm that I am home-educated and I would like to complete the home-education form 
-          a(href="https://google.com") LINK
+            | I can confirm that I am home-educated and I would like to complete the home-education form 
+            a(href="https://google.com") LINK
+
+      div(v-if="!user.editFormNew.homeEducated")
+        h4 About your school 
+
+        label
+          | School Name
+          input(type="text" v-model="user.editFormNew.schoolName")
+
+        label(v-if="!!user.editFormNew.ukCountry")
+          | School postcode
+          input(type="text" v-model="user.editFormNew.postCode")
+
+        label
+          span Email address for a school contact
+          br
+          div(class="info") (Ideally your maths teacher, but it could also be your form tutor or head of maths. Make sure you have their permission before sharing this)
+          input(type="text" v-model="user.editFormNew.schoolEmail")
 
       h4 Student Panel
 

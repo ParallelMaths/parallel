@@ -14,6 +14,7 @@ const path = require('path');
 const functions = require('firebase-functions');
 const express = require('express');
 const user = require('./utilities/user');
+const { countries } = require('./utilities/countries')
 
 const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
@@ -157,7 +158,7 @@ app.get('/account', (req, res) => {
 
 app.get('/account-new', (req, res) => {
   if (!req.user) return error(res, 401);
-  res.render('account-new');
+  res.render('account-new', { countries });
 });
 
 app.get('/badges', (req, res) => {
