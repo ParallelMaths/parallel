@@ -6,12 +6,13 @@ block content
     ul 
       li Enter Countries list ✅
       li Make inputs only required if user selects circles "yes" ✅
-      li Data submitting/saving ✅ NEEDS TESTING
+      li Data submitting/saving ✅
       li Update homeschooling link
       li Change "Year" to "Parallel level"
       li Add student email to form
-      li Add "profile completed" message ✅ NEEDS TESTING
+      li Add "profile completed" message ✅
       li Fix side panel school showing
+      li Need block guardian email being removed if < 13 years old ✅
 
   h1 Settings
   h2 Account Details New
@@ -67,7 +68,8 @@ block content
       
       label
         | Guardian Email
-        input(type="text" v-model="user.editFormNew.guardianEmail")
+        div(class="info" v-if="user.editFormNew.birthYear >= 2009") {{user.signupForm.messages[user.signupForm.type].emailOfParentSubtext}}
+        input(type="text" v-model="user.editFormNew.guardianEmail" :required="user.editFormNew.birthYear >= 2009")
 
       button(type="submit") Update
       
@@ -95,7 +97,7 @@ block content
             option(value="12") December
         label
           | Year of Birth:
-          select(v-model="user.editFormNew.birthYear" :required="user.editFormNew.studentPanelConsidered === '1'")
+          select(v-model="user.editFormNew.birthYear" required)
             - var year = 1920;
             while year < 2019
               option= year++
@@ -159,7 +161,7 @@ block content
             a(href="https://google.com") LINK
 
       div(v-if="!user.editFormNew.homeEducated")
-        h4 About your school 
+        h3 About your school 
 
         label
           | School Name
@@ -175,36 +177,17 @@ block content
           div(class="info") (Ideally your maths teacher, but it could also be your form tutor or head of maths. Make sure you have their permission before sharing this)
           input(type="email" v-model="user.editFormNew.schoolEmail" :required="user.editFormNew.studentPanelConsidered === '1'")
 
-      h4 Student Panel
+      h3 Student Panel
 
       label
         | Would you like to be considered to appear on screen during Parallel Circles?
         select(v-model="user.editFormNew.studentPanelConsidered")
           option(value="1") Yes
           option(value="0") No
-
+      
       label(v-if="user.editFormNew.studentPanelConsidered === '1'")
-        | Which circle do you usually attend?
-        select(v-model="user.editFormNew.studentPanelUsualCircle" required)
-          option(value="primary") Primary
-          option(value="junior") Junior
-          option(value="intermediate") Intermediate
-          option(value="senior") Senior
-
-      div(v-if="user.editFormNew.studentPanelConsidered === '1'")
-        p We will need to speak with a parent or guardian to confirm that they are happy for you to participate in the Student Panel. Please provide their name phone number below (get their permission!)
-
-        label
-          | Parent/Guardian Name
-          input(type="text" v-model="user.editFormNew.studentPanelGuardianName" required)
-
-        label
-          | Parent/Guardian Phone Number
-          input(type="text" v-model="user.editFormNew.studentPanelGuardianNumber" required)
-
-        p.checkbox
-          input#terms(type="checkbox" required v-model="user.editFormNew.studentPanelGuardianPermission")
-          label(for="terms") By ticking this box, you confirm that you have the permission of a parent or guardian to participate in the Student Panel.
+        | Guardian Email
+        input(type="text" v-model="user.editFormNew.guardianEmail" :required="user.editFormNew.studentPanelConsidered === '1'")
 
     button(type="submit") Update
 
