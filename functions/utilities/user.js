@@ -59,13 +59,21 @@ async function getUserData(uid) {
   return data;
 }
 
-function getActiveUser(req, res, next) {
-  getIdTokenFromRequest(req, res)
-      .then(idToken => firebase.auth().verifyIdToken(idToken))
-      .then(decodedIdToken => getUserData(decodedIdToken.uid))
-      .then(user => (req.user = user))
-      .catch(error => console.error(error))
-      .then(() => next());
+async function getActiveUser(req, res, next) {
+  try {
+    const idToken = await getIdTokenFromRequest(req, res);
+    const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
+    const user = await getUserData(decodedIdToken.uid);
+    
+    req.user = {
+      ...user,
+      email: decodedIdToken.email
+    }
+  } catch (error) {
+    console.error(error)
+  }
+
+  next();
 }
 
 async function getUserFromToken(idToken) {
