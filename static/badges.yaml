@@ -605,7 +605,7 @@ year11:
   color: cc3450
   description: The discipline of collecting, analysing, presenting and interpreting data, particularly in the presence of uncertainty. It is often considered as a distinct mathematical science, as opposed to a branch of mathematics. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Statistics
-- id: 11-bayseian-statistics
+- id: 11-bayesian-statistics
   name: Bayesian Statistics
   type: Map of Maths
   score: 300
