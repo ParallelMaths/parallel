@@ -25,6 +25,27 @@ function generateUserReference() {
   return 'xxxxxxxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toUpperCase();
 }
 
+function isProfileComplete(userData) {
+
+  if(!userData.birthMonth) return false;
+  if(!userData.birthYear) return false;
+  if(!userData.country) return false;
+  if(!userData.studentPanelConsidered) return false;
+
+  if(userData.homeEducated) {
+
+    if(!userData.homeEducatedConfirm) return false;
+
+  } else {
+
+    if(!userData.schoolEmail) return false;
+    if (userData.country === 'GB' && !window.USER_DATA.schoolPostcode) return false;
+
+  }
+
+  return true;
+}
+
 export default function() {
   const fbAuth = firebase.auth();
   const fbDatabase = firebase.firestore();
@@ -89,6 +110,8 @@ export default function() {
 
   const editFormNew = {loading: false, error: '', teacherCodes: []};
 
+  const homeEducatorForm = { loading: false, error: '' };
+
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year7',
     birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
@@ -141,13 +164,20 @@ export default function() {
       editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
 
+    for (let key of ['guardianName', 'guardianEmail', 'homeEducatedConfirm', 'homeEducatedYears']) {
+      homeEducatorForm[key] = window.USER_DATA[key] || null;
+    }
+
+    if(window.USER_DATA.homeEducatedConfirm) {
+      homeEducatorForm.homeEducatedUpdate = true;
+      homeEducatorForm.homeEducatedVerified = true;
+    }
+
     for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email']) {
       editFormNew[key] = window.USER_DATA[key] || null;
     }
 
-    const profileIsIncomplete = ['birthMonth', 'birthYear', 'country', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered'].find(key => !window.USER_DATA[key])
-
-    editFormNew.profileComplete = !profileIsIncomplete;
+    editFormNew.profileComplete = isProfileComplete(window.USER_DATA)
 
     if(window.USER_DATA.gender) {
       if(window.USER_DATA.gender.includes('00')) {
@@ -194,7 +224,7 @@ export default function() {
     level,
     showLogin: false,
     showYearScopeMessage,
-    loginForm, editForm, editFormNew, signupForm, passwordForm,
+    loginForm, editForm, editFormNew, signupForm, passwordForm, homeEducatorForm,
 
     hideYearScopeMessage() {
       user.showYearScopeMessage = false;
@@ -326,7 +356,7 @@ export default function() {
           gender: (editFormNew.gender === 'other' ? editFormNew.otherGender : editFormNew.gender) || null,
           ethnicity: (editFormNew.ethnicity === 'other' ? editFormNew.otherEthnicity : editFormNew.ethnicity) || null,
           country: editFormNew.country || null,
-          ukCountry: editFormNew.ukCountry || null,
+          ukCountry: (editFormNew.country === 'GB' ? editFormNew.ukCountry : null) || null,
           pupilPremium: editFormNew.pupilPremium || null,
           homeEducated: editFormNew.homeEducated || null,
           schoolPostcode: schoolPostcode,
@@ -335,17 +365,45 @@ export default function() {
           studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
         };
 
-        console.log(JSON.stringify(newData, null, 4))
+        if(!newData.homeEducated) {
+          newData.homeEducatedConfirm = false;
+        }
 
         await fbDatabase.collection('users').doc(uid).update(newData);
 
         editFormNew.loading = false;
         editFormNew.error = null;
-        location.reload(true);
+        window.location.pathname = window.location.pathname;
       } catch(error) {
         console.error(error);
         editFormNew.loading = false;
         editFormNew.error = ERRORS[error.code] || ERRORS.default;
+      }
+    },
+
+    async homeEducator(e) {
+      e.preventDefault();
+      homeEducatorForm.loading = true;
+      homeEducatorForm.error = null;
+
+      try {
+        const newData = {
+          guardianName: homeEducatorForm.guardianName || null,
+          guardianEmail: homeEducatorForm.guardianEmail || null,
+          homeEducatedConfirm: homeEducatorForm.homeEducatedConfirm || null,
+          homeEducatedYears: homeEducatorForm.homeEducatedYears || null,
+          homeEducated: homeEducatorForm.homeEducatedConfirm || null,
+        };
+
+        await fbDatabase.collection('users').doc(uid).update(newData);
+
+        homeEducatorForm.loading = false;
+        homeEducatorForm.error = null;
+        window.location.pathname = '/account';
+      } catch(error) {
+        console.error(error);
+        homeEducatorForm.loading = false;
+        homeEducatorForm.error = ERRORS[error.code] || ERRORS.default;
       }
     },
 

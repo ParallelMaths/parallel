@@ -158,7 +158,14 @@ app.get('/account', (req, res) => {
 
 app.get('/account-new', (req, res) => {
   if (!req.user) return error(res, 401);
+  res.locals.sidebarDisabled = true
   res.render('account-new', { countries });
+});
+
+app.get('/home-educator-form', (req, res) => {
+  if (!req.user) return error(res, 401);
+  res.locals.sidebarDisabled = true
+  res.render('home-educator');
 });
 
 app.get('/badges', (req, res) => {

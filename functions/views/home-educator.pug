@@ -1,0 +1,40 @@
+extends _layout
+
+block content
+  h1 Home-educator form
+
+  form(v-on:submit="user.homeEducator"  v-bind:class="{loading: user.homeEducatorForm.loading}")
+    .error(v-show="user.homeEducatorForm.error" style="margin-top: .5em") {{user.homeEducatorForm.error}}
+
+    p This form should be completed by the student's parent or guardian. You must complete all fields.
+
+    script!= 'window.USER_DATA = ' + JSON.stringify(user) + ';'
+
+    label
+      | Parent/guardian name
+      input(type="text" v-model="user.homeEducatorForm.guardianName" required)
+
+    label
+      | Parent/guardian email
+      input(type="email" v-model="user.homeEducatorForm.guardianEmail" required)
+
+    p.checkbox
+      input#homeEducatedConfirm(type="checkbox" v-model="user.homeEducatorForm.homeEducatedConfirm" required)
+      label(for="homeEducatedConfirm") 
+        | I confirm, as the parent or guardian, that this student is currently home-educated
+
+    p.checkbox
+      input#homeEducatedUpdate(type="checkbox" v-model="user.homeEducatorForm.homeEducatedUpdate" required)
+      label(for="homeEducatedUpdate") 
+        | I confirm that I will update the student's Account Settings page if they attend school and are no longer home-educated
+
+    p.checkbox
+      input#homeEducatedVerified(type="checkbox" v-model="user.homeEducatorForm.homeEducatedVerified" required)
+      label(for="homeEducatedVerified") 
+        | I have verified that all the details in this student's Account Settings page are accurate and up-to-date
+
+    label
+      | How many years has this student been home-educated in total?
+      input(type="text" v-model="user.homeEducatorForm.homeEducatedYears" required)
+
+    button(type="submit") Submit

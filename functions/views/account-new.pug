@@ -2,19 +2,8 @@ extends _layout
 
 block content
   div(style="font-size: 12px; margin-bottom: 2rem")
-    p TODO List (✅ = done)
-    ul 
-      li Enter Countries list ✅
-      li Make inputs only required if user selects circles "yes" ✅
-      li Data submitting/saving ✅
-      li Update homeschooling link
-      li Change "Year" to "Parallel level"
-      li Add student email to form ✅
-      li Add "profile completed" message ✅
-      li Need block guardian email being removed if < 13 years old ✅
 
-  h1 Settings
-  h2 Account Details New
+  h1 Account Settings
 
   form(v-on:submit="user.editNew"  v-bind:class="{loading: user.editFormNew.loading}" class="edit-account-form")
     .error(v-show="user.editFormNew.error" style="margin-top: .5em") {{user.editFormNew.error}}
@@ -145,32 +134,32 @@ block content
             option(value="wales") Wales
             option(value="northernIreland") Northern Ireland
 
-      p.checkbox(v-if="!!user.editFormNew.ukCountry")
+      p.checkbox(v-if="!!user.editFormNew.ukCountry && user.editFormNew.country === 'GB'")
         input#pupilPremium(type="checkbox" v-model="user.editFormNew.pupilPremium")
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'england'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'wales'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'northernIreland'") Do you qualify for Pupil Premium funding?
         label(for="pupilPremium" v-if="user.editFormNew.ukCountry === 'scotland'") Do you qualify for Pupil Equity Fund?
 
+      h3(v-if="!user.editFormNew.homeEducated") About your school
+      h3(v-if="user.editFormNew.homeEducated") About your home education 
+
       div(class="home-educated")
         span(class="bold") If you are home-educated, 
         span please confirm that this is the case by ticking the box and asking a parent to complete the form in the link below.
         br 
-        
         p.checkbox
           input#homeEducated(type="checkbox" v-model="user.editFormNew.homeEducated")
           label(for="homeEducated") 
             | I can confirm that I am home-educated and I would like to complete the home-education form 
-            a(href="https://google.com") LINK
+            a(href="/home-educator-form") here
 
       div(v-if="!user.editFormNew.homeEducated")
-        h3 About your school 
-
         label
           | School Name
           input(type="text" v-model="user.editFormNew.schoolName" :required="user.editFormNew.studentPanelConsidered === '1'")
 
-        label(v-if="!!user.editFormNew.ukCountry")
+        label(v-if="user.editFormNew.country === 'GB'")
           | School postcode
           input(type="text" v-model="user.editFormNew.schoolPostcode" :required="user.editFormNew.studentPanelConsidered === '1'")
 
