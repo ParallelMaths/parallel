@@ -173,7 +173,7 @@ export default function() {
       homeEducatorForm.homeEducatedVerified = true;
     }
 
-    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email']) {
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'emails']) {
       editFormNew[key] = window.USER_DATA[key] || null;
     }
 
@@ -201,6 +201,26 @@ export default function() {
 
     if (window.USER_DATA.teacherCode) {
       editFormNew.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
+    }
+
+    editFormNew.guardianEmails = [];
+    editFormNew.studentEmails = [];
+
+    if(editFormNew.guardianEmail) {
+      editFormNew.guardianEmails.push({ email: editFormNew.guardianEmail, type: 'guardian' });
+      editFormNew.guardianEmail = '';
+    }
+
+    if(Array.isArray(editFormNew.emails)) {
+      editFormNew.guardianEmails = [
+        ...editFormNew.guardianEmails,
+        ...editFormNew.emails.filter((e) => e.type === 'guardian')
+      ];
+
+      editFormNew.studentEmails = [
+        ...editFormNew.studentEmails,
+        ...editFormNew.emails.filter((e) => e.type === 'student')
+      ];
     }
   }
 
@@ -350,7 +370,6 @@ export default function() {
           first: editFormNew.first || null,
           last: editFormNew.last || null,
           schoolName: schoolName,
-          guardianEmail: editFormNew.guardianEmail || null,
           birthMonth: editFormNew.birthMonth || null,
           birthYear: editFormNew.birthYear || null,
           gender: (editFormNew.gender === 'other' ? editFormNew.otherGender : editFormNew.gender) || null,
@@ -363,6 +382,11 @@ export default function() {
           schoolEmail: schoolEmail,
           studentPanelConsidered: editFormNew.studentPanelConsidered || null,
           studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
+          guardianEmail: firebase.firestore.FieldValue.delete(),
+          emails: [
+            ...editFormNew.guardianEmails,
+            ...editFormNew.studentEmails,
+          ]
         };
 
         if(!newData.homeEducated) {
