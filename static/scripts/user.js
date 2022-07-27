@@ -46,6 +46,16 @@ function isProfileComplete(userData) {
   return true;
 }
 
+function removeDuplicateEmails(emails) {
+  const store = {};
+
+  emails.forEach((email) => {
+    store[`${String(email.type)}${String(email.email).trim()}`] = email;
+  });
+
+  return Object.values(store);
+}
+
 export default function() {
   const fbAuth = firebase.auth();
   const fbDatabase = firebase.firestore();
@@ -164,8 +174,12 @@ export default function() {
       editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
 
-    for (let key of ['guardianName', 'guardianEmail', 'homeEducatedConfirm', 'homeEducatedYears']) {
+    for (let key of ['guardianName', 'guardianEmail', 'homeEducatedConfirm', 'homeEducatedYears', 'emails']) {
       homeEducatorForm[key] = window.USER_DATA[key] || null;
+    }
+
+    if(!homeEducatorForm.guardianEmail && homeEducatorForm.emails) {
+      homeEducatorForm.guardianEmail = homeEducatorForm.emails.find(e => e.type === 'guardian')?.email;
     }
 
     if(window.USER_DATA.homeEducatedConfirm) {
@@ -383,10 +397,10 @@ export default function() {
           studentPanelConsidered: editFormNew.studentPanelConsidered || null,
           studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
           guardianEmail: firebase.firestore.FieldValue.delete(),
-          emails: [
+          emails: removeDuplicateEmails([
             ...editFormNew.guardianEmails,
             ...editFormNew.studentEmails,
-          ]
+          ])
         };
 
         if(!newData.homeEducated) {
@@ -413,10 +427,14 @@ export default function() {
       try {
         const newData = {
           guardianName: homeEducatorForm.guardianName || null,
-          guardianEmail: homeEducatorForm.guardianEmail || null,
+          guardianEmail: firebase.firestore.FieldValue.delete(),
           homeEducatedConfirm: homeEducatorForm.homeEducatedConfirm || null,
           homeEducatedYears: homeEducatorForm.homeEducatedYears || null,
           homeEducated: homeEducatorForm.homeEducatedConfirm || null,
+          emails: removeDuplicateEmails([
+            ...(homeEducatorForm.emails || []),
+            { email: homeEducatorForm.guardianEmail, type: 'guardian'}
+          ])
         };
 
         await fbDatabase.collection('users').doc(uid).update(newData);
