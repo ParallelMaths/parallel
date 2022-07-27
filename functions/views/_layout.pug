@@ -43,9 +43,17 @@ html
                 rect(y=18 width=24 height=3 fill="white")
 
           if path
-            a#home(href="/" title="Home" class="homeButton")
-              include svgs/home.svg
-              | Home
+            div(class="homeButtonsLeft")
+              a#home(href="/" title="Home" class="homeButton homeButtonWithSvg")
+                include svgs/home.svg
+                | Home
+
+          if user
+            div(class="homeButtonsRight")
+              a#home(href="/account" title="Home" class="homeButton")
+                | Settings
+              a#home(href="/" title="Home" class="homeButton" @click="user.logout")
+                | Sign out
 
           a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
 

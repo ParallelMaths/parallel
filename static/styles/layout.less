@@ -470,6 +470,24 @@ footer a {
 
 // -----------------------------------------------------------------------------
 // Copy of component from the new site
+.homeButtonsLeft {
+  position: absolute;
+  top: 1.5rem;
+  left: 0px;
+  margin-left: 24px;
+}
+
+.homeButtonsRight {
+  position: absolute;
+  top: 1.5rem;
+  right: 0px;
+  margin-right: 24px;
+
+  a {
+    margin-left: 8px;
+  }
+}
+
 .homeButton {
   padding: 8px 12px;
   border: 1px solid rgb(179, 4, 105);
@@ -478,17 +496,20 @@ footer a {
   font-weight: bold;
   background-color: white;
   font-size: 13.3333px;
-  margin-left: 24px;
   line-height: normal;
-  position: absolute;
-  padding-left: 2.25rem;
-  top: 1.5rem;
-  left: 0px;
+
+  position: relative;
 
   &:hover {
     color: white;
     background-color: rgb(179, 4, 105);
+  }
+}
 
+.homeButtonWithSvg {
+  padding-left: 2.25rem;
+
+  &:hover {
     svg {
       fill: white
     }
