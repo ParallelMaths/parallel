@@ -55,13 +55,24 @@ block content
           option(value="graduated") Graduated
 
       label
-        | Email
+        | Primary Email
         input(type="text" v-model="user.editFormNew.email" disabled)
-      
-      label
-        | Guardian Email
-        div(class="info" v-if="user.editFormNew.birthYear >= 2009") {{user.signupForm.messages[user.signupForm.type].emailOfParentSubtext}}
-        input(type="text" v-model="user.editFormNew.guardianEmail" :required="user.editFormNew.birthYear >= 2009")
+
+      div(class="email-section" v-if="user.editFormNew.emails")
+        label(v-if="user.editFormNew.emails.length <= 1") Additional Student Email
+        label(v-if="user.editFormNew.emails.length > 1") Additional Student Emails
+        div(class="email-item" v-for="(email, index) in user.editFormNew.emails")
+          input(type="text" v-model="user.editFormNew.emails[index].email" :key="index")
+          button(class="email-edit" type="button" @click="user.editFormNew.emails.splice(index, 1);") ×
+        button(class="new-email" type="button" @click="user.editFormNew.emails.push({ email: '' });") Add additional student email
+
+      div(class="email-section" v-if="user.editFormNew.guardianEmails")
+        label(v-if="user.editFormNew.guardianEmails.length <= 1") Guardian Email
+        label(v-if="user.editFormNew.guardianEmails.length > 1") Guardian Emails
+        div(class="email-item" v-for="(email, index) in user.editFormNew.guardianEmails")
+          input(type="text" v-model="user.editFormNew.guardianEmails[index].email" :key="index" :required="index === 0 && user.editFormNew.birthYear >= 2009")
+          button(class="email-edit" type="button" @click="user.editFormNew.guardianEmails.splice(index, 1);" v-if="index !== 0") ×
+        button(class="new-email" type="button" @click="user.editFormNew.guardianEmails.push({ email: '' });" v-if="user.editFormNew.guardianEmails[0].email !== ''") Add additional guardian email
 
       button(type="submit") Update
       

@@ -3,15 +3,56 @@
 // =============================================================================
 
 .edit-account-form {
-  .subheading {
-    font-weight: bold;
-    margin-top: 0.5rem;
-    color: #aaa;
-  }
-
   h3 {
     margin-top: 2rem;
     margin-bottom: 0.75rem;
+  }
+
+  .email-section {
+    margin: 0 auto 1rem;
+
+    label {
+      margin: 0;
+    }
+
+    .email-item {
+      align-items: center;
+      margin-bottom: 1rem;
+      display: flex;
+
+      input {
+        margin-bottom: 0;
+      }
+  
+      p {
+        margin: 0;
+      }
+    }
+  
+    .email-edit {
+      background: none;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    .new-email {
+      background: #b30469;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      display: block;
+      font: inherit;
+      margin: 1rem auto 0 auto; 
+      outline: none;
+      padding: 4px 16px;
+      max-width: 240px;
+      text-decoration: none;
+      text-align: center;
+      transition: background-color 0.2s;
+      font-size: 14px;
+    }
   }
 
   input:disabled {

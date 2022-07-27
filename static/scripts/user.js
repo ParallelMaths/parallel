@@ -202,6 +202,14 @@ export default function() {
     if (window.USER_DATA.teacherCode) {
       editFormNew.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
+
+    editFormNew.guardianEmails = [
+      { email: editFormNew.guardianEmail }
+    ]
+
+    editFormNew.emails = [
+      { email: 'hey@heh.com' },
+    ]
   }
 
   let level = cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7');
