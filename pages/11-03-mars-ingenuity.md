@@ -206,10 +206,10 @@ So `5x^2 = 1`. Now the total shaded area is `8x^2 = 8 × 1/5 = 1 3/5` units².
 
 ## 6. Parallel emails
 
-If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}.
+If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}, but please ask a parent first if you are not yet 13 years old.
 
 ::: problem id=6_1 marks=1
-__6.1__ Here's a free mark, just for clicking the link above, and for entering an email address if you needed to.
+__6.1__ Here's a free mark, just for reading the above. If you do want to give us an alternate email address, be sure to click the link above (if you haven't already).
 
 * [x] Thank you!
 :::
