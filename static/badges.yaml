@@ -1,4 +1,160 @@
+year6:
+- id: 6-big-mega
+  name: Mega
+  type: big
+  score: 50
+  color: ff941f
+  description: xxxxx
+  link: xxxx
+- id: 6-big-giga
+  name: Giga
+  type: big
+  score: 100
+  color: ff941f
+  description: xxxxx
+  link: xxxx
+- id: 6-big-tera
+  name: Tera
+  type: big
+  score: 200
+  color: f27c2b
+  description: xxxxx
+  link: xxxx
+- id: 6-big-peta
+  name: Peta
+  type: big
+  score: 300
+  color: e66438
+  description: xxxxx
+  link: xxxx
+- id: 6-big-exa
+  name: Exa
+  type: big
+  score: 400
+  color: d94c44
+  description: The total storage need by Gmail is in excess of an exabyte, which means more than 1018 bytes, or more than a billion billion bytes. The age of the universe is roughly half an exasecond.
+  link: https://en.wikipedia.org/wiki/Exa-
+- id: 6-sporting-urschel
+  name: John Urschel
+  type: sporting
+  score: 550
+  color: cc3450
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/John_Urschel
+- id: 6-sporting-bohr
+  name: Harald Bohr
+  type: sporting
+  score: 700
+  color: c01c5d
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/Harald_Bohr
+- id: 6-sporting-depodesta
+  name: Paul DePodesta
+  type: sporting
+  score: 850
+  color: b30469
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/Paul_DePodesta
+- id: 6-sporting-johnson
+  name: Glen Johnson
+  type: sporting
+  score: 1000
+  color: 9e157e
+  description: xxxxx
+  link: https://www.liverpoolecho.co.uk/news/uk-world-news/footballers-who-are-good-maths-19384283
+- id: 6-greek-alpha
+  name: α
+  type: greek
+  score: 1150
+  color: 892694
+  description: xxxxx
+  link: xxxx
+- id: 6-greek-epsilon
+  name: ε
+  type: greek
+  score: 1300
+  color: 7437a9
+  description: The Greek letter epsilon (ε) is often used to indicate a small positive quantity. So, (1 + ε) is a value just a tiny bit bigger than one.
+  link: https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%95%CE%B5_(epsilon)
+- id: 6-greek-theta
+  name: θ
+  type: greek
+  score: 1450
+  color: 5e47bf
+  description: xxxxx
+  link: xxxx
+- id: 6-greek-pi
+  name: π
+  type: greek
+  score: 1600
+  color: 4958d4
+  description: xxxxx
+  link: xxxx
+- id: 6-heroes-conway
+  name: John Conway
+  type: Heroes
+  score: 1600
+  color: 3469ea
+  description: xxxxx
+  link: xxxx
+- id: 6-heroes-viazovska
+  name: Maryna Viazovska
+  type: Heroes
+  score: 1900
+  color: 1f7aff
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/Maryna_Viazovska
+- id: 6-heroes-chudnovsky
+  name: The Chudnovsky brothers
+  type: Heroes
+  score: 2050
+  color: 2284d5
+  description: xxxxx
+  link: xxxx
+- id: 6-heroes-cartwright
+  name: Dame Mary Lucy Cartwright
+  type: Heroes
+  score: 2200
+  color: 258dab
+  description: xxxxx
+  link: xxxx
+- id: 6-shocking-green
+  name: Andy Green
+  type: Shocking
+  score: 2350
+  color: 289782
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/Andy_Green_(RAF_officer)#Early_life
+- id: 6-shocking-hatcher
+  name: Lois Lane (Teri Hatcher)
+  type: Shocking
+  score: 2500
+  color: 2ba058
+  description: xxxxx
+  link: https://www.mathscareers.org.uk/15-celebrities-who-studied-for-a-maths-degree/
+- id: 6-shocking-mitchell
+  name: Keith Mitchell
+  type: Shocking
+  score: 2650
+  color: 2ea92e
+  description: xxxxx
+  link: https://en.wikipedia.org/wiki/Keith_Mitchell
+- id: 6-shocking-mckellar
+  name: Danica McKellar
+  type: Shocking
+  score: 2800
+  color: 31b304
+  description: xxxxx
+  link: xxxx
+
 year7:
+- id: 7-ancients-ptolemy
+  name: Ptolemy
+  type: ancient
+  score: 50
+  color: ff941f
+  description: Born in roughly AD 100, Ptolemy lived and worked in Alexandria, Egypt. He used mathematics to develop complex astronomical models, which he documented in Almagest, the only surviving ancient book on astronomy. He made the mistake of putting the Earth at the centre of the universe.
+  link: https://www.khanacademy.org/humanities/big-history-project/big-bang/how-did-big-bang-change/a/claudius-ptolemy
 - id: 7-ancients-pythagoras
   name: Pythagoras
   type: ancient
@@ -141,6 +297,13 @@ year7:
   link: https://president.yale.edu/biography-grace-murray-hopper
 
 year8:
+- id: 8-ancients-diophantus
+  name: Diophantus
+  type: ancient
+  score: 50
+  color: ff941f
+  description: Born in roughly AD 200, Diophantus lived and worked in Alexandria, Egypt, solving algebraic equations that are now known as Diophantine equations. His book Arithmetica inspired Pierre de Fermat to develop the infamous problem known as Fermat’s Last Theorem.
+  link: https://en.wikipedia.org/wiki/Diophantus
 - id: 8-ancients-brahmagupta
   name: Brahmagupta
   type: ancient
@@ -284,6 +447,13 @@ year8:
 
 
 year9:
+- id: 9-ancients-apollonius
+  name: Apollonius of Perga
+  type: ancient
+  score: 50
+  color: ff941f
+  description: Apollonius of Perga was an Ancient Greek mathematician, who worked on the geometry of cones and curves created when we slice through a gone. We still use his definitions of the ellipse, parabola and hyperbola.
+  link: https://greatestgreeks.wordpress.com/2016/09/18/apollonius-of-perga/
 - id: 9-ancients-aristotle
   name: Aristotle
   type: ancient
