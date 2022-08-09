@@ -146,6 +146,22 @@ year6:
     deadline: 2021-09-09T19:00:00
 
 year7:
+  - url: 6-04-polyominoes
+    title: Polyominoes
+    available: 2023-09-30T13:00:00
+    deadline: 2023-10-03T13:00:00
+  - url: 6-03-tie-your-shoes
+    title: Use Maths to Tie Your Shoes Fast
+    available: 2023-09-23T13:00:00
+    deadline: 2023-09-26T18:00:00
+  - url: 6-02-one-and-primes
+    title: Prime Numbers (and their buddy, one)
+    available: 2023-09-16T13:00:00
+    deadline: 2023-09-19T19:00:00
+  - url: 6-01-mathematics-of-cake
+    title: The Mathematics of Cake
+    available: 2023-08-30T10:00:00
+    deadline: 2023-09-09T19:00:00
   - url: 7-35-summer-sums
     title: Summer Sums
     available: 2022-07-07T13:00:00

@@ -30,7 +30,7 @@ __1.1__ Which important theorem excludes 1 from being considered a prime number?
 * [x] The Fundamental Theorem of Arithmetic
 :::
 
-:::problem id=1_2 marks=2
+::: problem id=1_2 marks=2
 __1.2__ How would 42 be written as a product of primes?
 
 * [ ] 6 × 7
@@ -39,7 +39,7 @@ __1.2__ How would 42 be written as a product of primes?
 * [ ] 2 × 21
 :::
 
-:::problem id=1_3 marks=2
+::: problem id=1_3 marks=2
 __1.3__ In the the video, James followed a pattern to show 1 is a product of zero prime numbers. What is this called?
 
 * [ ] Null Product
@@ -56,7 +56,7 @@ As a quick reminder: if you multiply a number by itself you get a square number,
 
 If you multiply by itself again it is now a cube number 4 × 4 × 4 = 64, 64 is a cube.  
 
-:::problem id=2.1 marks=2
+::: problem id=2_1 marks=2
 __2.1__ How many prime numbers are there between 1 and 20 (inclusive)
 
 * [ ] 7
@@ -65,7 +65,7 @@ __2.1__ How many prime numbers are there between 1 and 20 (inclusive)
 {.col-5}
 :::
 
-:::problem id=2.2 marks=2
+::: problem id=2_2 marks=2
 __2.2__ How many square numbers are there between 1 and 20 (inclusive)
 
 * [ ] 3
@@ -74,15 +74,15 @@ __2.2__ How many square numbers are there between 1 and 20 (inclusive)
 {.col-5}
 :::
 
-:::problem id=2.3 marks=2
+::: problem id=2_3 marks=2
 __2.3__ Are there more prime numbers or square numbers in existence?
 
 * [ ] Prime Numbers
 * [ ] Square Numbers
-* [ ] There is an infinite amount of both Prime and Square Numbers
+* [x] There is an infinite amount of both Prime and Square Numbers
 :::
 
-:::problem id=2.4 marks=2
+::: problem id=2_4 marks=2
 __2.4__ Can you find a positive number which is one bigger than a square number, but one less than a cube number? (There is only one out there, but it is less than 50.)
 <input type="number" solution="26"/>
 :::
