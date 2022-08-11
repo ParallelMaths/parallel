@@ -34,7 +34,7 @@ function isProfileComplete(userData) {
 
   if(userData.homeEducated) {
 
-    if(!userData.homeEducatedConfirm) return false;
+    // if(!userData.homeEducatedConfirm) return false;
 
   } else {
 
@@ -187,7 +187,7 @@ export default function() {
       homeEducatorForm.homeEducatedVerified = true;
     }
 
-    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'emails']) {
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'emails', 'homeEducatedConfirm']) {
       editFormNew[key] = window.USER_DATA[key] || null;
     }
 

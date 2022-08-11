@@ -19,22 +19,22 @@ block content
       input(type="email" v-model="user.homeEducatorForm.guardianEmail" required)
 
     p.checkbox
-      input#homeEducatedConfirm(type="checkbox" v-model="user.homeEducatorForm.homeEducatedConfirm" required)
+      input#homeEducatedConfirm(type="checkbox" v-model="user.homeEducatorForm.homeEducatedConfirm")
       label(for="homeEducatedConfirm") 
         | I confirm, as the parent or guardian, that this student is currently home-educated
 
     p.checkbox
-      input#homeEducatedUpdate(type="checkbox" v-model="user.homeEducatorForm.homeEducatedUpdate" required)
+      input#homeEducatedUpdate(type="checkbox" v-model="user.homeEducatorForm.homeEducatedUpdate" :required="user.homeEducatorForm.homeEducatedConfirm")
       label(for="homeEducatedUpdate") 
         | I confirm that I will update the student's Account Settings page if they attend school and are no longer home-educated
 
     p.checkbox
-      input#homeEducatedVerified(type="checkbox" v-model="user.homeEducatorForm.homeEducatedVerified" required)
+      input#homeEducatedVerified(type="checkbox" v-model="user.homeEducatorForm.homeEducatedVerified" :required="user.homeEducatorForm.homeEducatedConfirm")
       label(for="homeEducatedVerified") 
         | I have verified that all the details in this student's Account Settings page are accurate and up-to-date
 
     label
       | How many years has this student been home-educated in total?
-      input(type="text" v-model="user.homeEducatorForm.homeEducatedYears" required)
+      input(type="text" v-model="user.homeEducatorForm.homeEducatedYears" :required="user.homeEducatorForm.homeEducatedConfirm")
 
     button(type="submit") Submit

@@ -55,7 +55,9 @@ block content
           option(value="graduated") Graduated
 
       label
-        | Primary Email
+        span Primary Email
+        br
+        div(class="info") (This is what you'll log in with)
         input(type="text" v-model="user.editFormNew.email" disabled)
 
       div(class="email-section" v-if="user.editFormNew.studentEmails")
@@ -75,12 +77,19 @@ block content
         button(class="new-email" type="button" @click="user.editFormNew.guardianEmails.push({ email: '', type: 'guardian' });" v-if="user.editFormNew.guardianEmails[0].email !== ''") Add additional guardian email
 
       button(type="submit") Update
-      
-      h2(v-if="!user.editFormNew.profileComplete") Complete your profile to access terrific bonus Parallel opportunities
 
-      h2(v-if="user.editFormNew.profileComplete") Congrats, you’re all set! Do make sure to update your info whenever it changes.
+      h2 Additional information
 
-      p(v-if="!user.editFormNew.profileComplete") Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
+      div(v-if="user.editFormNew.profileComplete")
+        div(v-if="user.editFormNew.homeEducated && !user.editFormNew.homeEducatedConfirm")
+          h3(class="pink") You're almost done! Fill out the home-education form 
+            a(href="/home-educator-form") here 
+            | to complete your profile
+        div(v-if="!(user.editFormNew.homeEducated && !user.editFormNew.homeEducatedConfirm)")
+          h3 Congrats, you’re all set! Do make sure to update your info whenever it changes.
+      div(v-if="!user.editFormNew.profileComplete")
+        h3 Complete your profile to access terrific bonus Parallel opportunities
+        p Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
 
       div(class="input-other-wrapper")
         label
