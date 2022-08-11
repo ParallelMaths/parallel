@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Watch this Numberphile video showing a super fast way to tie your shoes
 
-@[youtube](watch?v=wBU9N35ZHIw?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](watch?v=XPIgR89jv3Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
 __1.1__ What was the name of Matt's "base knot", which had a minimum of three crossings?
@@ -45,10 +45,10 @@ __1.2__ Before the loops are passed over to the other hand they must be going:
 
 :::problem id=1_3 marks=2
 __1.3__ This Trefoil Knot has three "crossings"
-![](TREFOIL KNOT IMAGE){image align="center"}  
+![](/resources/6-03-tie-your-shoes/3-trefoil-knot.png){image align="center"}
 
 What is the combined total of the crossings of these knots?
-![](MULTIPLE KNOT IMAGE){image align="center"}  
+![](/resources/6-03-tie-your-shoes/3-multipleknots.png){image align="center"}  
 
 <input type="number" solution="18"/> crossings
 :::
