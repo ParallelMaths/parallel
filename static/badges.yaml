@@ -737,6 +737,13 @@ year10:
   color: 31b304
   description: A branch of mathematics concerned with the calculus of vector fields. A vector field can be visualised as a collection of arrows each with a given magnitude and direction attached to a point in the plane, for example a magnetic field. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Vector_calculus
+- id: 10-theoretical-physics
+  name: Theoretical Physics
+  type: Map of Maths
+  score: 3000
+  color: 31b304
+  description: xxxxxx. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
+  link: https://en.wikipedia.org/wiki/Theoretical_physics
 
 
 year11:
@@ -880,3 +887,10 @@ year11:
   color: 31b304
   description: Functions in which the exponent (or power to which a number is raised) is a variable, i.e. y = 2x. Exponentials increase at a rate faster than polynomials. The constant e is the number for which the function y = ex increases at rate ex. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Exponential_function
+- id: 11-biomathematics
+  name: Biomathematics
+  type: Map of Maths
+  score: 1150
+  color: 31b304
+  description: xxxxxx. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
+  link: https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology

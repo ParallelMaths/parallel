@@ -195,7 +195,7 @@ __4.4__ How many whole 330ml cans fit into a 2 litre jug?
 If you use Parallel on an email address from your school, some school IT systems prevent you from receiving the emails we send out to remind you when a new Parallelogram is released, or when we have another exciting and nerdy maths thing to tell you about. To avoid this, you could give us a different email address we can contact you on - either a personal email address, or one for you parents or guardian. If you'd like to do that, [you can put it in this form](https://landing.mailerlite.com/webforms/landing/k6y9h6){target="_blank"}, but please ask a parent first if you are not yet 13 years old.
 
 ::: problem id=5_1 marks=1
-__5.1__ Here's a free mark, just for reading the above. If you do want to give us an alternate email address, be sure to click the link above (if you haven't already).
+__5.1__ If you do want to give us an alternate email address, be sure to click the link above (if you haven’t already). Either way, here's a free mark, just for being a fan of Parallel.
 
 * [x] Thank you!
 :::
