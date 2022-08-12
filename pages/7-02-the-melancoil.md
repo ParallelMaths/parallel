@@ -129,7 +129,7 @@ We have ((1−1) −1) − ((1− (1−1)) = (0 −1) − (1− 0) = (−1) − 
 
 Can you match the mathematical joke to the correct punchline?
 
-* __Punchline A:__ I think he must be plotting something.
+* __Punchline A:__ I think they must be plotting something.
 * __Punchline B:__ “You’re pointless.”
 * __Punchline C:__ With a pro-tractor.
 
