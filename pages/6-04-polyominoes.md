@@ -18,7 +18,9 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Polyominoes
 
-Yes, like Dominoes but better! Watch this Numberphile video about Pentominoes and answer a few questions.
+Yes, Polyominoes are just like Dominoes, but better!  
+
+Watch this Numberphile video about Pentominoes and answer a few questions.
 
 @[youtube](watch?v=wZ1E_CM7MqA?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -37,24 +39,40 @@ __1.2__ How many different Pentominoes are there?
 <input type="number" solution="12"/>
 :::
 
-::: problem id=1_3 marks=2
-__1.3__ Investigate the perimeter of the Pentominoes. What is the sum of the perimeters of ALL the pentominoes?
+Investigate the perimeter of the Pentominoes.
 
 ![](/resources/6-04-polyominoes/4-pentominoes.png){image align="center"}
 
-* [x] 142
-* [ ] 144
-* [ ] 120
-* [ ] 143
-{.col-5}
+::: problem id=1_3 marks=1
+__1.3__ How many Pentominoes have a perimeter of 10?
+
+<input type="number" solution="1"/>
+:::
+
+::: problem id=1_4 marks=1
+__1.4__ How many Pentominoes have a perimeter of 11?
+
+<input type="number" solution="0"/>
+:::
+
+::: problem id=1_5 marks=1
+__1.5__ How many Pentominoes have a perimeter of 12?
+
+<input type="number" solution="11"/>
+:::
+
+::: problem id=1_6 marks=1
+__1.6__ What is the total perimeter of all the Pentominoes?
+
+<input type="number" solution="142"/>
 
 ---
 
-All but one of the pentominoes have a perimeter of 12.  
+All but one of the Pentominoes have a perimeter of 12.  
 
 The odd pentomino out has a perimeter of 10.  
 
-12 × 11 + 10 × 1 gives us a total combined perimeter of 142.
+(12 × 11) + (10 × 1) gives us a total combined perimeter of 142.
 :::
 
 ## 2 Hexominoes and Nets of Cubes

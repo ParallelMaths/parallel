@@ -18,8 +18,6 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. One and Prime Numbers
 
-Watch this Numberphile video about the best way to cut a cake and answer a few questions.
-
 @[youtube](watch?v=IQofiPqhJ_s?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 :::problem id=1_1 marks=2
@@ -48,16 +46,18 @@ __1.3__ In the the video, James followed a pattern to show 1 is a product of zer
 * [ ] NP Product
 :::
 
-##2. Primes, Squares and Cubes
+## 2. Primes, Squares and Cubes
 
 Primes, Square Numbers and Cube Numbers are the gems of the number world!  
 
-As a quick reminder: if you multiply a number by itself you get a square number, 4 × 4 = 16, 16 is square.  
+As a quick reminder:  
 
-If you multiply by itself again it is now a cube number 4 × 4 × 4 = 64, 64 is a cube.  
+if you multiply a number by itself you get a square number, 4 × 4 = 16, so 16 is square.  
+
+If you multiply by itself again it is now a cube number 4 × 4 × 4 = 64, so 64 is a cube.  
 
 ::: problem id=2_1 marks=2
-__2.1__ How many prime numbers are there between 1 and 20 (inclusive)
+__2.1__ How many prime numbers are there between 1 and 20 (including 1 and 20)
 
 * [ ] 7
 * [x] 8
@@ -66,7 +66,7 @@ __2.1__ How many prime numbers are there between 1 and 20 (inclusive)
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ How many square numbers are there between 1 and 20 (inclusive)
+__2.2__ How many square numbers are there between 1 and 20 (including 1 and 20)
 
 * [ ] 3
 * [x] 4
@@ -85,6 +85,10 @@ __2.3__ Are there more prime numbers or square numbers in existence?
 ::: problem id=2_4 marks=2
 __2.4__ Can you find a positive number which is one bigger than a square number, but one less than a cube number? (There is only one out there, but it is less than 50.)
 <input type="number" solution="26"/>
+
+---
+
+26 is the answer, because it is between 5 × 5 and 3 × 3 × 3.
 :::
 
 

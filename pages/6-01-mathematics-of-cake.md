@@ -46,6 +46,10 @@ __1.2.__ To solve the problem, according to Alex, what is the best way to slice 
 ::: problem id=1_3 marks=2
 __1.3__ This video does not discuss the volume of a cake, but perhaps you can calculate the volume of a circular cake with radius 20cm, and a height of 10cm ... to the nearest cubic centimetre (cc).
 
+^^^ hint id=1_3_1 marks=1
+A round cake is effectively a cylinder. The volume of a cylinder is the height multiplied by the area of the top (or bottom surface). The area of a circle is pi multiplied by the square of the radius.
+^^^
+
 <input type="number" solution="12566"/> cm<sup>3</sup>
 
 ---
