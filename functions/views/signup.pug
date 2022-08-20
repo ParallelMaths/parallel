@@ -6,10 +6,9 @@ block content
 
   form(v-on:submit="user.signup"  v-bind:class="{loading: user.signupForm.loading}" class="signup-form" v-if="user.signupForm.messages")
 
-    if !homeschoolSignup
-      .toggle
-        a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
-        a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
+    .toggle
+      a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
+      a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
 
@@ -51,19 +50,6 @@ block content
       input(type="text" v-model="user.signupForm.teacherCode")
 
     label(v-if="user.signupForm.type !== 'teacher'")
-      span {{user.signupForm.messages[user.signupForm.type].yearGroup}}
-      select(v-model="user.signupForm.level")
-        option(value="year5") Year 5 (age 9 or below)
-        option(value="year6") Year 6 (age 10-11)
-        option(value="year7") Year 7 (age 11-12)
-        option(value="year8") Year 8 (age 12–13)
-        option(value="year9") Year 9 (age 13–14)
-        option(value="year10") Year 10 (age 14–15)
-        option(value="year11") Year 11 (age 15-16)
-        option(value="year12") Year 12  (age 16-17)
-        option(value="year13") Year 13 (age 17 or above)
-
-    label(v-if="user.signupForm.type === 'homeschool_student'")
       span {{user.signupForm.messages[user.signupForm.type].monthOfBirth}}
       select(v-model="user.signupForm.birthMonth" required)
         option(value="1") January

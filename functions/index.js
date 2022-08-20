@@ -184,15 +184,6 @@ app.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-app.get('/homeschool-signup', (req, res) => {
-  if (req.user) res.redirect('/');
-
-  res.locals.sidebarDisabled = true
-  res.locals.homeschoolSignup = true
-
-  res.render('signup');
-});
-
 async function getDashboardData(req) {
   const dashboard = {students: {}, pages: {}, error: null};
 

@@ -49,11 +49,40 @@ function isProfileComplete(userData) {
 function removeDuplicateEmails(emails) {
   const store = {};
 
-  emails.forEach((email) => {
+  emails.filter(Boolean).forEach((email) => {
+    if(!email.email) return;
+
     store[`${String(email.type)}${String(email.email).trim()}`] = email;
   });
 
   return Object.values(store);
+}
+
+function getSignupLevel(signupForm) {
+  let level = 'year6';
+  let age = 0;
+
+  if(!signupForm.birthMonth || !signupForm.birthYear) return level;
+
+  const currentYear = new Date().getFullYear();
+
+  // Born before september
+  if(signupForm.birthMonth < 9) {
+    age = currentYear - signupForm.birthYear;
+  } else {
+    age = currentYear - signupForm.birthYear - 1;
+  }
+
+  if (age >= 15) return 'year11';
+
+  if (age == 14) return 'year10';
+  if (age == 13) return 'year9';
+  if (age == 12) return 'year8';
+  if (age == 11) return 'year7';
+
+  if (age <= 10) return 'year6';
+
+  return level;
 }
 
 export default function() {
@@ -144,24 +173,12 @@ export default function() {
     emailOfParent: "Email of a parent or guardian",
     emailOfParentSubtext:
       "This is required because you are not yet 13 years old.",
+    monthOfBirth: "Month of Birth"
   };
 
   signupForm.messages.teacher =  {
     ...signupForm.messages.student,
     emailSubtext: undefined
-  }
-
-  signupForm.messages.homeschool_student = {
-    ...signupForm.messages.student,
-    firstName: "Student's First Name",
-    surname: "Student's Surname",
-    emailSubtext: undefined,
-    teacherCodeSubtext: "(optional)",
-    monthOfBirth: "Month of Birth"
-  }
-
-  if (document.location.pathname.match(/homeschool/)) {
-    signupForm.type = 'homeschool_student';
   }
 
   editFormNew.countries = window.COUNTRY_CODES || {};
@@ -187,9 +204,11 @@ export default function() {
       homeEducatorForm.homeEducatedVerified = true;
     }
 
-    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'emails', 'homeEducatedConfirm']) {
+    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'homeEducatedConfirm']) {
       editFormNew[key] = window.USER_DATA[key] || null;
     }
+
+    editFormNew.emails = removeDuplicateEmails(window.USER_DATA.emails || []);
 
     editFormNew.profileComplete = isProfileComplete(window.USER_DATA)
 
@@ -222,8 +241,10 @@ export default function() {
 
     if(editFormNew.guardianEmail) {
       editFormNew.guardianEmails.push({ email: editFormNew.guardianEmail, type: 'guardian' });
-      editFormNew.guardianEmail = '';
     }
+
+    // Used by student panel section
+    editFormNew.guardianEmail = homeEducatorForm?.emails?.find(e => e.type === 'guardian')?.email;
 
     if(Array.isArray(editFormNew.emails)) {
       editFormNew.guardianEmails = [
@@ -376,6 +397,8 @@ export default function() {
           schoolName = null;
         }
 
+        const guardianEmail = editFormNew.guardianEmail ? { email: editFormNew.guardianEmail, type: 'guardian'} : null; 
+
         const newData = {
           teacherCode: teacherCodes || [],
           level: editFormNew.level || null,
@@ -383,7 +406,7 @@ export default function() {
           postCode: editFormNew.postCode || null,
           first: editFormNew.first || null,
           last: editFormNew.last || null,
-          schoolName: schoolName,
+          schoolName: schoolName || null,
           birthMonth: editFormNew.birthMonth || null,
           birthYear: editFormNew.birthYear || null,
           gender: (editFormNew.gender === 'other' ? editFormNew.otherGender : editFormNew.gender) || null,
@@ -392,14 +415,15 @@ export default function() {
           ukCountry: (editFormNew.country === 'GB' ? editFormNew.ukCountry : null) || null,
           pupilPremium: editFormNew.pupilPremium || null,
           homeEducated: editFormNew.homeEducated || null,
-          schoolPostcode: schoolPostcode,
-          schoolEmail: schoolEmail,
+          schoolPostcode: schoolPostcode || null,
+          schoolEmail: schoolEmail || null,
           studentPanelConsidered: editFormNew.studentPanelConsidered || null,
           studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
           guardianEmail: firebase.firestore.FieldValue.delete(),
           emails: removeDuplicateEmails([
             ...editFormNew.guardianEmails,
             ...editFormNew.studentEmails,
+            guardianEmail
           ])
         };
 
@@ -474,6 +498,8 @@ export default function() {
       e.preventDefault();
       signupForm.loading = true;
       signupForm.error = null;
+
+      signupForm.level = getSignupLevel(signupForm);
 
       if (signupForm.type === 'teacher') {
         if (!signupForm.schoolName) {
