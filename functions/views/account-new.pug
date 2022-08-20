@@ -43,15 +43,12 @@ block content
       label
         | Year
         select(v-model="user.editFormNew.level")
-          option(value="year5") Year 5 (age 9 or below)
-          option(value="year6") Year 6 (age 10-11)
-          option(value="year7") Year 7 (age 11-12)
-          option(value="year8") Year 8 (age 12–13)
-          option(value="year9") Year 9 (age 13–14)
-          option(value="year10") Year 10 (age 14–15)
-          option(value="year11") Year 11 (age 15-16)
-          option(value="year12") Year 12  (age 16-17)
-          option(value="year13") Year 13 (age 17 or above)
+          option(value="year6") Level 1 (ages 11 and below)
+          option(value="year7") Level 2 (age 11-12)
+          option(value="year8") Level 3 (age 12–13)
+          option(value="year9") Level 4 (age 13–14)
+          option(value="year10") Level 5 (age 14–15)
+          option(value="year11") Level 6 (ages 15 and above)
           option(value="graduated") Graduated
 
       label
@@ -74,9 +71,11 @@ block content
         div(class="email-item" v-for="(email, index) in user.editFormNew.guardianEmails")
           input(type="email" v-model="user.editFormNew.guardianEmails[index].email" :key="index" :required="index === 0 && user.editFormNew.birthYear >= 2009")
           button(class="email-edit" type="button" @click="user.editFormNew.guardianEmails.splice(index, 1);" v-if="user.editFormNew.guardianEmails.length > 1") ×
-        button(class="new-email" type="button" @click="user.editFormNew.guardianEmails.push({ email: '', type: 'guardian' });" v-if="user.editFormNew.guardianEmails[0].email !== ''") Add additional guardian email
+        button(class="new-email" type="button" @click="user.editFormNew.guardianEmails.push({ email: '', type: 'guardian' });" v-if="user.editFormNew.guardianEmails[0]?.email !== ''") Add additional guardian email
 
       button(type="submit") Update
+
+      hr
 
       h2 Additional information
 
