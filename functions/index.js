@@ -30,7 +30,7 @@ for (let l of LEVELS) {
     p.available = +date;
     p.deadline = +(new Date(p.deadline));
     p.date = `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
-    p.year = +l.slice(4);
+    p.level = +l.slice(4) - 5; // -5 turns year 6 into level 1
     p.index = PAGES[l].length - i;
     PAGES_MAP[p.url] = p;
   }
