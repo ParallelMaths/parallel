@@ -156,8 +156,8 @@ export default function() {
     birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
 
   signupForm.messages.student = {
-    firstName: "First Name",
-    surname: "Surname",
+    firstName: "Student first name",
+    surname: "Student surname",
     email: "Email",
     emailSubtext:
       "(We sometimes find that our emails are blocked by school firewalls and therefore suggest that you do not use a school email address if possible.)",
