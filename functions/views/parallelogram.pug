@@ -3,7 +3,7 @@ extends _layout
 block content
   header(style=`background-image: url('/resources/${pid}/header.jpg')`)
     h1
-      em Parallelogram #{page.index} #[span.spaced •] Year #{page.year} #[span.spaced •] #{page.date}
+      em Parallelogram #{page.index} #[span.spaced •] Level #{page.year} #[span.spaced •] #{page.date}
       | #{page.title}
 
   if !user

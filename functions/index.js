@@ -18,14 +18,13 @@ const { countries } = require('./utilities/countries')
 
 const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
-const LEVELS = ['year7', 'year8', 'year9',  'year10', 'year11'];
-const LEVELS_WITH_6 = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
-const LEVEL_NAMES = {year5: 'Year 5', year6: 'Year 6', year7: 'Year 7', year8: 'Year 8', year9: 'Year 9', year10: 'Year 10', year11: 'Year 11', year12: 'Year 12', year13: 'Year 13', graduated: 'Graduated'};
+const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
+const LEVEL_NAMES = {year6: 'Level 1', year7: 'Level 2', year8: 'Level 3', year9: 'Level 4', year10: 'Level 5', year11: 'Level 6', graduated: 'Graduated'};
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const BADGE_NAMES = {ancient: 'Ancient Hero', geometry: 'Geometry', historic: 'Historic Hero', number: 'Number', modern: 'Modern Hero'};
 
 const PAGES_MAP = {};
-for (let l of LEVELS_WITH_6) {
+for (let l of LEVELS) {
   for (let [i, p] of PAGES[l].entries()) {
     const date = new Date(p.available);
     p.available = +date;
@@ -82,7 +81,7 @@ app.use((req, res, next) => {
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
 
-  for (let l of LEVELS_WITH_6) {
+  for (let l of LEVELS) {
     res.locals.pages[l] =
         PAGES[l].filter(p => (res.locals.now >= p.available));
   }

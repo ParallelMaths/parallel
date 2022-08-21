@@ -13,7 +13,7 @@ async function run() {
 
   const results = ['year, badge, points, recipients'];
 
-  for (let y of ['year7', 'year8', 'year9', 'year10', 'year11']) {
+  for (let y of ['year6', 'year7', 'year8', 'year9', 'year10', 'year11']) {
     for (let b of badges[y]) {
       const row = [y, b.name, b.score, 0];
       for (let u of users) {

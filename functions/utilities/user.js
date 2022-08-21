@@ -3,7 +3,7 @@ const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
 const BADGES = require('../build/badges.json');
 
-const LEVELS = ['year7', 'year8', 'year9', 'year10', 'year11'];
+const LEVELS = ['year6', 'year7', 'year8', 'year9', 'year10', 'year11'];
 
 const userDB = firebase.firestore().collection('users');
 

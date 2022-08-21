@@ -119,7 +119,7 @@ html
                         .badge.more +
 
               if !user || user.code || user.level !== 'year7'
-                .toggle
+                div(class="toggle space-around")
                   for l in user ? user.sidebarLevels : levels
                     a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]
 

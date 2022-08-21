@@ -152,7 +152,7 @@ export default function() {
   const homeEducatorForm = { loading: false, error: '' };
 
   const passwordForm = {loading: false, error: ''};
-  const signupForm = {error: null, loading: false, level: 'year7',
+  const signupForm = {error: null, loading: false, level: 'year6',
     birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
 
   signupForm.messages.student = {
@@ -259,10 +259,10 @@ export default function() {
     }
   }
 
-  let level = cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year7');
+  let level = cachedLevel ? cachedLevel[1] : (window.USER_LEVEL || 'year6');
 
-  if (level === 'year5' || level === 'year6') {
-    level = 'year7'
+  if (level === 'year5') {
+    level = 'year6'
   }
 
   if (level === 'year12' || level === 'year13') {
