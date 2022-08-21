@@ -118,7 +118,7 @@ html
                       if user.visibleBadges.length > 4
                         .badge.more +
 
-              if !user || user.code || user.level !== 'year7'
+              if !user || user.code || user.level !== 'year6'
                 div(class="toggle space-around")
                   for l in user ? user.sidebarLevels : levels
                     a(v-on:click=`user.setLevel('${l}')` v-bind:class=`{active: user.level == '${l}'}`)= levelNames[l]

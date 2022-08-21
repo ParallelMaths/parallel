@@ -20,7 +20,7 @@ function getIdTokenFromRequest(req, res) {
 }
 
 function getSidebarLevels(data) {
-  if(['year5', 'year6'].includes(data.level)) {
+  if(['year5'].includes(data.level)) {
     return [LEVELS[0]];
   }
   
@@ -28,7 +28,7 @@ function getSidebarLevels(data) {
     return LEVELS;
   }
 
-  return LEVELS.slice(0, +data.level.slice(4) - 6);
+  return LEVELS.slice(0, +data.level.slice(4) - 5);
 }
 
 async function getUserData(uid) {
