@@ -15,8 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time__.
-
 
 ## 1. Just a few seconds
 
@@ -192,18 +190,13 @@ The United States of America is north of the equator, as you can see in the diag
 :::
 
 
-## 5.	Line Rider
-
-This is one of my favourite “games” at the moment – Line Rider. There is a billion tons of maths and physics involved in playing this game well, but there is a also a hell of a lot of fun. Take a look and see if you build a brilliant track. [Visit Line Rider](https://www.linerider.com/){target="_blank"}... but remember to hit the submit before you get too obsessed with Line Rider.  
-
-
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
 *	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
+*	The next Parallelogram is next week, at 3pm on Thursday.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

@@ -18,12 +18,10 @@ These challenges are a random walk through the mysteries of mathematics, most of
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.  
 
-As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time__.
-
 
 ## 1. Heroic Hidden Figures
 
-Back in year 7, Parallel featured a clip from the film “Hidden Figures”, but it is such an incredible TRUE story that we are revisiting it. Below is the trailer, but first here’s a reminder of what the film is all about. And, remember, it is a TRUE story.  
+Back in a previous level, Parallel featured a clip from the film “Hidden Figures”, but it is such an incredible TRUE story that we are revisiting it. Below is the trailer, but first here’s a reminder of what the film is all about. And, remember, it is a TRUE story.  
 
 __Hidden Figures__ tells the incredible story of Katherine Jonson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA who served as the brains behind the launch into orbit of astronaut John Glenn, a stunning achievement that turned around the Space Race. The visionary trio broke all the barriers put in front of them because of their gender and race, and inspired generations.
 
@@ -280,7 +278,7 @@ Therefore Anna has 5 brothers and 5 sisters. So, including Anna, there are 5 + 5
 :::
 
 
-There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
+There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 

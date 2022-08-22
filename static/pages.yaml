@@ -1,786 +1,1028 @@
 year6:
-  - url:
+  - url: 6-48-
     title:
-    available: 2022-07-07T13:00:00
-    deadline: 2022-07-10T13:00:00
-    scoreFactor: 3
-  - url:
+    available: 2023-08-03T13:00:00
+    deadline: 2023-08-06T13:00:00
+  - url: 6-47-
     title:
-    available: 2022-06-30T13:00:00
-    deadline: 2022-07-02T13:00:00
-  - url:
+    available: 2023-07-27T13:00:00
+    deadline: 2023-07-30T13:00:00
+  - url: 6-46-
     title:
-    available: 2022-06-23T13:00:00
-    deadline: 2022-06-26T13:00:00
-  - url:
+    available: 2023-07-20T13:00:00
+    deadline: 2023-07-23T13:00:00
+  - url: 6-45-
     title:
-    available: 2022-06-16T13:00:00
-    deadline: 2022-06-19T13:00:00
-  - url:
+    available: 2023-07-13T13:00:00
+    deadline: 2023-07-16T13:00:00
+  - url: 6-44-
     title:
-    available: 2022-06-09T13:00:00
-    deadline: 2022-06-12T13:00:00
-  - url:
+    available: 2023-07-06T13:00:00
+    deadline: 2023-07-09T13:00:00
+  - url: 6-43-
     title:
-    available: 2022-05-26T13:00:00
-    deadline: 2022-05-29T13:00:00
-    scoreFactor: 2
-  - url:
+    available: 2023-06-29T13:00:00
+    deadline: 2023-07-02T13:00:00
+  - url: 6-42-
     title:
-    available: 2022-05-19T13:00:00
-    deadline: 2022-05-21T13:00:00
-  - url:
+    available: 2023-06-22T13:00:00
+    deadline: 2023-06-25T13:00:00
+  - url: 6-41-
     title:
-    available: 2022-05-12T13:00:00
-    deadline: 2022-05-15T13:00:00
-  - url:
+    available: 2023-06-15T13:00:00
+    deadline: 2023-06-18T13:00:00
+  - url: 6-40-
     title:
-    available: 2022-05-05T13:00:00
-    deadline: 2022-05-08T13:00:00
-  - url:
+    available: 2023-06-08T13:00:00
+    deadline: 2023-06-11T13:00:00
+  - url: 6-39-
     title:
-    available: 2022-04-28T13:00:00
-    deadline: 2022-04-30T13:00:00
-  - url:
+    available: 2023-06-01T13:00:00
+    deadline: 2023-06-04T13:00:00
+  - url: 6-38-
     title:
-    available: 2022-04-21T13:00:00
-    deadline: 2022-04-24T13:00:00
-  - url:
+    available: 2023-05-25T13:00:00
+    deadline: 2023-05-28T13:00:00
+  - url: 6-37-
     title:
-    available: 2022-03-24T13:00:00
-    deadline: 2022-03-27T13:00:00
-    scoreFactor: 3
-  - url:
+    available: 2023-05-18T13:00:00
+    deadline: 2023-05-21T13:00:00
+  - url: 6-36-
     title:
-    available: 2022-03-17T13:00:00
-    deadline: 2022-03-20T13:00:00
-  - url:
+    available: 2023-05-11T13:00:00
+    deadline: 2023-05-14T13:00:00
+  - url: 6-35-
     title:
-    available: 2022-03-10T13:00:00
-    deadline: 2021-03-13T13:00:00
-  - url:
+    available: 2023-05-04T13:00:00
+    deadline: 2023-05-07T13:00:00
+  - url: 6-34-
     title:
-    available: 2022-03-03T13:00:00
-    deadline: 2022-03-06T13:00:00
-  - url:
+    available: 2023-04-27T13:00:00
+    deadline: 2023-04-30T13:00:00
+  - url: 6-33-
     title:
-    available: 2022-02-24T13:00:00
-    deadline: 2022-02-27T13:00:00
-  - url:
+    available: 2023-04-20T13:00:00
+    deadline: 2023-04-23T13:00:00
+  - url: 6-32-
     title:
-    available: 2022-02-10T13:00:00
-    deadline: 2022-02-13T13:00:00
-  - url:
+    available: 2023-04-13T13:00:00
+    deadline: 2023-04-16T13:00:00
+  - url: 6-31-
     title:
-    available: 2022-02-03T13:00:00
-    deadline: 2022-02-06T13:00:00
-    scoreFactor: 2
-  - url:
+    available: 2023-04-06T13:00:00
+    deadline: 2023-04-09T13:00:00
+  - url: 6-30-
     title:
-    available: 2022-01-27T13:00:00
-    deadline: 2022-01-30T13:00:00
-  - url:
+    available: 2023-03-30T13:00:00
+    deadline: 2023-04-02T13:00:00
+  - url: 6-29-
     title:
-    available: 2022-01-20T13:00:00
-    deadline: 2022-01-23T13:00:00
-  - url:
+    available: 2023-03-23T13:00:00
+    deadline: 2023-03-26T13:00:00
+  - url: 6-28-
     title:
-    available: 2022-01-13T13:00:00
-    deadline: 2022-01-16T13:00:00
-  - url:
+    available: 2023-03-16T13:00:00
+    deadline: 2023-03-19T13:00:00
+  - url: 6-27-
     title:
-    available: 2022-01-06T13:00:00
-    deadline: 2022-01-09T13:00:00
-  - url:
+    available: 2023-03-09T13:00:00
+    deadline: 2023-03-12T13:00:00
+  - url: 6-26-
     title:
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
-    scoreFactor: 3
-  - url:
+    available: 2023-03-02T13:00:00
+    deadline: 2023-03-06T13:00:00
+  - url: 6-25-
     title:
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url:
+    available: 2023-02-23T13:00:00
+    deadline: 2023-02-26T13:00:00
+  - url: 6-24-
     title:
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url:
+    available: 2023-02-16T13:00:00
+    deadline: 2023-02-19T13:00:00
+  - url: 6-23-
     title:
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url:
+    available: 2022-02-09T13:00:00
+    deadline: 2022-02-12T13:00:00
+  - url: 6-22-
     title:
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url:
+    available: 2023-02-02T13:00:00
+    deadline: 2023-02-05T13:00:00
+  - url: 6-21-
     title:
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
-  - url:
+    available: 2023-01-26T13:00:00
+    deadline: 2023-01-29T13:00:00
+  - url: 6-20-
     title:
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
-  - url:
+    available: 2023-01-19T13:00:00
+    deadline: 2023-01-22T13:00:00
+  - url: 6-19-
     title:
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
-  - url:
+    available: 2023-01-12T13:00:00
+    deadline: 2023-01-15T13:00:00
+  - url: 6-18-
     title:
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2023-01-05T13:00:00
+    deadline: 2023-01-08T13:00:00
+  - url: 6-17-
+    title:
+    available: 2022-12-29T13:00:00
+    deadline: 2023-01-01T13:00:00
+  - url: 6-16-
+    title:
+    available: 2022-12-22T13:00:00
+    deadline: 2022-12-25T13:00:00
+  - url: 6-15-
+    title:
+    available: 2022-12-15T13:00:00
+    deadline: 2022-12-18T13:00:00
+  - url: 6-14-
+    title:
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
+  - url: 6-13-
+    title:
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 6-12-
+    title:
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 6-11-
+    title:
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 6-10-
+    title:
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 6-09-
+    title:
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 6-08-
+    title:
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
+  - url: 6-07-
+    title:
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
+  - url: 6-06-
+    title:
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
+  - url: 6-05-
+    title:
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 6-04-polyominoes
     title: Polyominoes
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 6-03-tie-your-shoes
     title: Use Maths to Tie Your Shoes Fast
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 6-02-one-and-primes
     title: Prime Numbers (and their buddy, one)
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 6-01-mathematics-of-cake
     title: The Mathematics of Cake
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-25T10:00:00
+    deadline: 2022-09-11T19:00:00
 
 year7:
-  - url: 7-35-summer-sums
-    title: Summer Sums
-    available: 2022-07-07T13:00:00
-    deadline: 2022-07-10T13:00:00
-    scoreFactor: 3
-  - url: 7-34-pet-puzzle
+  - url: 7-48-sporting-loopholes
+    title: Sporting Loopholes
+    available: 2023-08-03T13:00:00
+    deadline: 2023-08-06T13:00:00
+  - url: 7-47-fire-water
+    title: Fire and water
+    available: 2023-07-27T13:00:00
+    deadline: 2023-07-30T13:00:00
+  - url: 7-46-apple-pie
+    title: The apple pie bake-off
+    available: 2023-07-20T13:00:00
+    deadline: 2023-07-23T13:00:00
+  - url: 7-45-trains-clocks
+    title: Trains and clocks
+    available: 2023-07-13T13:00:00
+    deadline: 2023-07-16T13:00:00
+  - url: 7-44-bananas-monkeys
+    title: Bananas and monkeys
+    available: 2023-07-06T13:00:00
+    deadline: 2023-07-09T13:00:00
+  - url: 7-43-
+    title:
+    available: 2023-06-29T13:00:00
+    deadline: 2023-07-02T13:00:00
+  - url: 7-42-pet-puzzle
     title: Pet Puzzle
-    available: 2022-06-30T13:00:00
-    deadline: 2022-07-02T13:00:00
-  - url: 7-33-aluminium-can-engineering
+    available: 2023-06-22T13:00:00
+    deadline: 2023-06-25T13:00:00
+  - url: 7-41-aluminium-can-engineering
     title: Aluminium Can Engineering
-    available: 2022-06-23T13:00:00
-    deadline: 2022-06-26T13:00:00
-  - url: 7-32-number-sense
+    available: 2023-06-15T13:00:00
+    deadline: 2023-06-18T13:00:00
+  - url: 7-40-number-sense
     title: Number Sense
-    available: 2022-06-16T13:00:00
-    deadline: 2022-06-19T13:00:00
-  - url: 7-31-top-of-the-league
+    available: 2023-06-08T13:00:00
+    deadline: 2023-06-11T13:00:00
+  - url: 7-39-top-of-the-league
     title: Top of the League
-    available: 2022-06-09T13:00:00
-    deadline: 2022-06-12T13:00:00
-  - url: 7-30-sumaze
+    available: 2023-06-01T13:00:00
+    deadline: 2023-06-04T13:00:00
+  - url: 7-38-josephs-machines
     title: Joseph’s Machines
-    available: 2022-05-26T13:00:00
-    deadline: 2022-05-29T13:00:00
-    scoreFactor: 2
-  - url: 7-29-mathematical-timeline
+    available: 2023-05-25T13:00:00
+    deadline: 2023-05-28T13:00:00
+  - url: 7-37-mathematical-timeline
     title: Mathematical Timeline
-    available: 2022-05-19T13:00:00
-    deadline: 2022-05-21T13:00:00
-  - url: 7-28-blackboard-equation
+    available: 2023-05-18T13:00:00
+    deadline: 2023-05-21T13:00:00
+  - url: 7-36-blackboard-equation
     title: Blackboard Equation
-    available: 2022-05-12T13:00:00
-    deadline: 2022-05-15T13:00:00
-  - url: 7-27-hidden-figures
+    available: 2023-05-11T13:00:00
+    deadline: 2023-05-14T13:00:00
+  - url: 7-35-hidden-figures
     title: Hidden Figures
-    available: 2022-05-05T13:00:00
-    deadline: 2022-05-08T13:00:00
-  - url: 7-26-good-will-hunting
+    available: 2023-05-04T13:00:00
+    deadline: 2023-05-07T13:00:00
+  - url: 7-34-good-will-hunting
     title: Good Will Hunting
-    available: 2022-04-28T13:00:00
-    deadline: 2022-04-30T13:00:00
-  - url: 7-25-a-matter-factorial
+    available: 2023-04-27T13:00:00
+    deadline: 2023-04-30T13:00:00
+  - url: 7-33-a-matter-factorial
     title: A Matter Of Factorial!
-    available: 2022-04-21T13:00:00
-    deadline: 2022-04-24T13:00:00
-  - url: 7-24-easter-challenges
-    title: Easter challenges
-    available: 2022-03-24T13:00:00
-    deadline: 2022-03-27T13:00:00
-    scoreFactor: 3
-  - url: 7-23-secret-happiness
+    available: 2023-04-20T13:00:00
+    deadline: 2023-04-23T13:00:00
+  - url: 7-32-chocolate-algebra
+    title: Chocolate algebra
+    available: 2023-04-13T13:00:00
+    deadline: 2023-04-16T13:00:00
+  - url: 7-31-testing-tankards
+    title: Testing tankards
+    available: 2023-04-06T13:00:00
+    deadline: 2023-04-09T13:00:00
+  - url: 7-30-manipulating-cubes
+    title: Manipulating cubes
+    available: 2023-03-30T13:00:00
+    deadline: 2023-04-02T13:00:00
+  - url: 7-29-bedtime-stories
+    title: Bedtime stories
+    available: 2023-03-23T13:00:00
+    deadline: 2023-03-26T13:00:00
+  - url: 7-28-eleven-eleven
+    title: Eleven eleven
+    available: 2023-03-16T13:00:00
+    deadline: 2023-03-19T13:00:00
+  - url: 7-27-secret-happiness
     title: The Secret of Happiness
-    available: 2022-03-17T13:00:00
-    deadline: 2022-03-20T13:00:00
-  - url: 7-22-maths-jokes
+    available: 2023-03-09T13:00:00
+    deadline: 2023-03-12T13:00:00
+  - url: 7-26-maths-jokes
     title: Maths Jokes
-    available: 2022-03-10T13:00:00
-    deadline: 2021-03-13T13:00:00
-  - url: 7-21-tricky-parking-problem
+    available: 2023-03-02T13:00:00
+    deadline: 2023-03-06T13:00:00
+  - url: 7-25-tricky-parking-problem
     title: Tricky parking problem
-    available: 2022-03-03T13:00:00
-    deadline: 2022-03-06T13:00:00
-  - url: 7-20-optimise-pizza-money
+    available: 2023-02-23T13:00:00
+    deadline: 2023-02-26T13:00:00
+  - url: 7-24-optimise-pizza-money
     title: Optimising your pizza money
-    available: 2022-02-24T13:00:00
-    deadline: 2022-02-27T13:00:00
-  - url: 7-19-pie-charts
+    available: 2023-02-16T13:00:00
+    deadline: 2023-02-19T13:00:00
+  - url: 7-23-pie-charts
     title: Pie charts and speed-reading
-    available: 2022-02-10T13:00:00
-    deadline: 2022-02-13T13:00:00
-  - url: 7-18-downhill-from-here
+    available: 2023-02-09T13:00:00
+    deadline: 2023-02-12T13:00:00
+  - url: 7-22-downhill-from-here
     title: It’s all downhill from here
-    available: 2022-02-03T13:00:00
-    deadline: 2022-02-06T13:00:00
-    scoreFactor: 2
-  - url: 7-17-sundogs-random-dots
+    available: 2023-02-02T13:00:00
+    deadline: 2023-02-05T13:00:00
+  - url: 7-21-sundogs-random-dots
     title: Sundogs and Random Dots
-    available: 2022-01-27T13:00:00
-    deadline: 2022-01-30T13:00:00
-  - url: 7-16-crosses-crosses
+    available: 2023-01-26T13:00:00
+    deadline: 2023-01-29T13:00:00
+  - url: 7-20-crosses-crosses
     title: Crosses and Crosses
-    available: 2022-01-20T13:00:00
-    deadline: 2022-01-23T13:00:00
-  - url: 7-15-marie-curie
+    available: 2023-01-19T13:00:00
+    deadline: 2023-01-22T13:00:00
+  - url: 7-19-marie-curie
     title: Madam Curie’s square riddle
-    available: 2022-01-13T13:00:00
-    deadline: 2022-01-16T13:00:00
-  - url: 7-14-codes-physics
+    available: 2023-01-12T13:00:00
+    deadline: 2023-01-15T13:00:00
+  - url: 7-18-codes-physics
     title: Codes and Physics
-    available: 2022-01-06T13:00:00
-    deadline: 2022-01-09T13:00:00
-  - url: 7-13-chrismaths
-    title: Chrismaths Y7
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
-    scoreFactor: 3
-  - url: 7-12-prime-time
+    available: 2023-01-05T13:00:00
+    deadline: 2023-01-08T13:00:00
+  - url: 7-17-chrismaths
+    title: Chrismaths - Part 4
+    available: 2022-12-29T13:00:00
+    deadline: 2023-01-01T13:00:00
+  - url: 7-16-chrismaths
+    title: Chrismaths - Part 3
+    available: 2022-12-22T13:00:00
+    deadline: 2022-12-25T13:00:00
+  - url: 7-15-chrismaths
+    title: Chrismaths - Part 2
+    available: 2022-12-15T13:00:00
+    deadline: 2022-12-18T13:00:00
+  - url: 7-14-chrismaths
+    title: Chrismaths - Part 1
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
+  - url: 7-13-prime-time
     title: Prime Time Y7
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url: 7-11-kenken
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 7-12-kenken
     title: KenKen Y7
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url: 7-10-mercury-trivia
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 7-11-mercury-trivia
     title: Mercury Trivia
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url: 7-09-futurama-maths
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 7-10-futurama-maths
     title: Ramanujan
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url: 7-08-man-who-knew-infinity
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 7-09-man-who-knew-infinity
     title: The Man Who Knew Infinity
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 7-08-maths-jokes
+    title: Maths Jokes
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
   - url: 7-07-build-your-own-plane
     title: Build your own plane
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
   - url: 7-06-exoplanets
     title: Exoplanets
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
   - url: 7-05-supernovae
     title: Supernovae
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 7-04-matts-favourite-number
     title: Matt’s Favourite Number
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 7-03-the-big-bang
     title: The Big Bang
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 7-02-the-melancoil
     title: The Melancoil
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-25T10:00:00
+    deadline: 2022-09-11T19:00:00
 
 year8:
-  - url: 8-35-summer-sums
-    title: Summer Sums
-    available: 2022-07-07T13:00:00
-    deadline: 2022-07-10T13:00:00
-    scoreFactor: 3
-  - url: 8-34-miracle-chocolate
+  - url: 8-48-plane-physics
+    title: Plane physics
+    available: 2023-08-03T13:00:00
+    deadline: 2023-08-06T13:00:00
+  - url: 8-47-pat-village-visit
+    title: Pat's village visit
+    available: 2023-07-27T13:00:00
+    deadline: 2023-07-30T13:00:00
+  - url: 8-46-chess-conundrum
+    title: Chess conundrum
+    available: 2023-07-20T13:00:00
+    deadline: 2023-07-23T13:00:00
+  - url: 8-45-blueberry-planet
+    title: Bluberry planet
+    available: 2023-07-13T13:00:00
+    deadline: 2023-07-16T13:00:00
+  - url: 8-44-spuds-sums
+    title: Spuds Sums
+    available: 2023-07-06T13:00:00
+    deadline: 2023-07-09T13:00:00
+  - url:
+    title:
+    available: 2023-06-29T13:00:00
+    deadline: 2023-07-02T13:00:00
+  - url: 8-42-miracle-chocolate
     title: Miracle Chocolate
-    available: 2022-06-30T13:00:00
-    deadline: 2022-07-02T13:00:00
-  - url: 8-33-more-rules-critical-thinking
+    available: 2023-06-22T13:00:00
+    deadline: 2023-06-25T13:00:00
+  - url: 8-41-more-rules-critical-thinking
     title: More Rules for Critical Thinking
-    available: 2022-06-23T13:00:00
-    deadline: 2022-06-26T13:00:00
-  - url: 8-32-rules-critical-thinking
+    available: 2023-06-15T13:00:00
+    deadline: 2023-06-18T13:00:00
+  - url: 8-40-rules-critical-thinking
     title: Rules for Critical Thinking
-    available: 2022-06-16T13:00:00
-    deadline: 2022-06-19T13:00:00
-  - url: 8-31-floppy-pizza
+    available: 2023-06-08T13:00:00
+    deadline: 2023-06-11T13:00:00
+  - url: 8-39-floppy-pizza
     title: Floppy Pizza
-    available: 2022-06-09T13:00:00
-    deadline: 2022-06-12T13:00:00
-  - url: 8-30-amazing-grace
+    available: 2023-06-01T13:00:00
+    deadline: 2023-06-04T13:00:00
+  - url: 8-38-amazing-grace
     title: Amazing Grace
-    available: 2022-05-26T13:00:00
-    deadline: 2022-05-29T13:00:00
-    scoreFactor: 2
-  - url: 8-29-mathematical-timeline
+    available: 2023-05-25T13:00:00
+    deadline: 2023-05-28T13:00:00
+  - url: 8-37-mathematical-timeline
     title: Mathematical Timeline
-    available: 2022-05-19T13:00:00
-    deadline: 2022-05-21T13:00:00
-  - url: 8-28-seven-bridges-konigsberg
+    available: 2023-05-18T13:00:00
+    deadline: 2023-05-21T13:00:00
+  - url: 8-36-seven-bridges-konigsberg
     title: Seven Bridges of Konigsberg
-    available: 2022-05-12T13:00:00
-    deadline: 2022-05-15T13:00:00
-  - url: 8-27-ada-lovelace
+    available: 2023-05-11T13:00:00
+    deadline: 2023-05-14T13:00:00
+  - url: 8-35-ada-lovelace
     title: Ada Lovelace
-    available: 2022-05-05T13:00:00
-    deadline: 2022-05-08T13:00:00
-  - url: 8-26-snake-mathematics
+    available: 2023-05-04T13:00:00
+    deadline: 2023-05-07T13:00:00
+  - url: 8-34-snake-mathematics
     title: Snake Mathematics
-    available: 2022-04-28T13:00:00
-    deadline: 2022-04-30T13:00:00
-  - url: 8-25-north-pole
+    available: 2023-04-27T13:00:00
+    deadline: 2023-04-30T13:00:00
+  - url: 8-33-north-pole
     title: The North Pole Riddle
-    available: 2022-04-21T13:00:00
-    deadline: 2022-04-24T13:00:00
-  - url: 8-24-easter-challenges
+    available: 2023-04-20T13:00:00
+    deadline: 2023-04-23T13:00:00
+  - url: 8-32-olympic-mascots
+    title: Olympic mascots
+    available: 2023-04-13T13:00:00
+    deadline: 2023-04-16T13:00:00
+  - url: 8-31-art-gallery
+    title: In the art gallery
+    available: 2023-04-06T13:00:00
+    deadline: 2023-04-09T13:00:00
+  - url: 8-30-easter-challenges
     title: Easter challenges
-    available: 2022-03-24T13:00:00
-    deadline: 2022-03-27T13:00:00
-    scoreFactor: 3
-  - url: 8-23-colour-code-challenge
+    available: 2023-03-30T13:00:00
+    deadline: 2023-04-02T13:00:00
+  - url: 8-29-paper-ink
+    title: Paper and ink
+    available: 2023-03-23T13:00:00
+    deadline: 2023-03-26T13:00:00
+  - url: 8-28-easter-challenges
+    title: Easter challenges
+    available: 2023-03-16T13:00:00
+    deadline: 2023-03-19T13:00:00
+  - url: 8-27-colour-code-challenge
     title: Colour Code Challenge
-    available: 2022-03-17T13:00:00
-    deadline: 2022-03-20T13:00:00
-  - url: 8-22-rattlebacks
+    available: 2023-03-09T13:00:00
+    deadline: 2023-03-12T13:00:00
+  - url: 8-26-rattlebacks
     title: Rattlebacks
-    available: 2022-03-10T13:00:00
-    deadline: 2021-03-13T13:00:00
-  - url: 8-21-computer-music
+    available: 2023-03-02T13:00:00
+    deadline: 2023-03-06T13:00:00
+  - url: 8-25-computer-music
     title: Computer music and techno ditties
-    available: 2022-03-03T13:00:00
-    deadline: 2022-03-06T13:00:00
-  - url: 8-20-curious-bear-doctor-who
+    available: 2023-02-23T13:00:00
+    deadline: 2023-02-26T13:00:00
+  - url: 8-24-curious-bear-doctor-who
     title: A curious bear and Doctor Who
-    available: 2022-02-24T13:00:00
-    deadline: 2022-02-27T13:00:00
-  - url: 8-19-countdown-levitating-water
+    available: 2023-02-16T13:00:00
+    deadline: 2023-02-19T13:00:00
+  - url: 8-23-countdown-levitating-water
     title: Countdown and levitating water
-    available: 2022-02-10T13:00:00
-    deadline: 2022-02-13T13:00:00
-  - url: 8-18-freezing-sports
+    available: 2023-02-09T13:00:00
+    deadline: 2023-02-12T13:00:00
+  - url: 8-22-freezing-sports
     title: Freezing sports and flipping pancakes
-    available: 2022-02-03T13:00:00
-    deadline: 2022-02-06T13:00:00
-  - url: 8-17-dripping-taps
+    available: 2023-02-02T13:00:00
+    deadline: 2023-02-05T13:00:00
+  - url: 8-21-dripping-taps
     title: Dripping Taps
-    available: 2022-01-27T13:00:00
-    deadline: 2022-01-30T13:00:00
-  - url: 8-16-flag-of-flags
+    available: 2023-01-26T13:00:00
+    deadline: 2023-01-29T13:00:00
+  - url: 8-20-flag-of-flags
     title: A flag of flags
-    available: 2022-01-20T13:00:00
-    deadline: 2022-01-23T13:00:00
-  - url: 8-15-lou-costello
+    available: 2023-01-19T13:00:00
+    deadline: 2023-01-22T13:00:00
+  - url: 8-19-lou-costello
     title: Lou Costello, Pi and Pendula
-    available: 2022-01-13T13:00:00
-    deadline: 2022-01-16T13:00:00
-  - url: 8-14-ma-kettle
+    available: 2023-01-12T13:00:00
+    deadline: 2023-01-15T13:00:00
+  - url: 8-18-ma-kettle
     title: Ma and Pa Kettle
-    available: 2022-01-06T13:00:00
-    deadline: 2022-01-09T13:00:00
-  - url: 8-13-chrismaths
-    title: Chrismaths Y8
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
-    scoreFactor: 4
-  - url: 8-12-prime-time
-    title: Prime Time Y8
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url: 8-11-kenken
-    title: KenKen Y8
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url: 8-10-chikas-test-seven
+    available: 2023-01-05T13:00:00
+    deadline: 2023-01-08T13:00:00
+  - url: 8-17-chrismaths
+    title: Chrismaths - Part 4
+    available: 2022-12-29T13:00:00
+    deadline: 2023-01-01T13:00:00
+  - url: 8-16-chrismaths
+    title: Chrismaths - Part 3
+    available: 2022-12-22T13:00:00
+    deadline: 2022-12-25T13:00:00
+  - url: 8-15-chrismaths
+    title: Chrismaths - Part 2
+    available: 2022-12-15T13:00:00
+    deadline: 2022-12-18T13:00:00
+  - url: 8-14-chrismaths
+    title: Chrismaths - Part 1
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
+  - url: 8-13-prime-time
+    title: Prime Time L3
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 8-12-kenken
+    title: KenKen L3
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 8-11-chikas-test-seven
     title: Chika’s Test for Seven
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url: 8-09-weird-shapes
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 8-10-weird-shapes
     title: Weird Shapes
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url: 8-08-secret-maths-club
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 8-09-secret-maths-club
     title: The Secret Maths Club
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 8-08-line-rider
+    title: Line Rider
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
   - url: 8-07-worlds-greatest-thief
     title: The world’s greatest thief
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
   - url: 8-06-black-holes
     title: Black Holes
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
   - url: 8-05-rocket-maths
     title: Rocket maths
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 8-04-infinite-hotel
     title: The Infinite Hotel
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 8-03-chaotic-pendulums
     title: Chaotic Pendulums
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 8-02-jurassic-park
     title: Jurassic Park mathematics
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-25T10:00:00
+    deadline: 2022-09-11T19:00:00
 
 year9:
-  - url: 9-35-summer-sums
+  - url: 9-48-perplexing-paperclips
+    title: Perplexing paperclips
+    available: 2023-08-03T13:00:00
+    deadline: 2023-08-06T13:00:00
+  - url: 9-47-inflating-balloon
+    title: Inflating a balloon
+    available: 2023-07-27T13:00:00
+    deadline: 2023-07-30T13:00:00
+  - url: 9-46-freaky-dots
+    title: Freaky dot patterns
+    available: 2023-07-20T13:00:00
+    deadline: 2023-07-23T13:00:00
+  - url: 9-45-catching-kendama
+    title: Catching Kendama
+    available: 2023-07-13T13:00:00
+    deadline: 2023-07-16T13:00:00
+  - url: 9-44-summer-sums
+    title: Money catching
+    available: 2023-07-06T13:00:00
+    deadline: 2023-07-09T13:00:00
+  - url: 9-43-summer-sums
     title: Summer Sums
-    available: 2022-07-07T13:00:00
-    deadline: 2022-07-10T13:00:00
-    scoreFactor: 3
-  - url: 9-34-richard-feynman-superhero
+    available: 2023-06-29T13:00:00
+    deadline: 2023-07-02T13:00:00
+  - url: 9-42
+    title:
+    available: 2023-06-22T13:00:00
+    deadline: 2023-06-25T13:00:00
+  - url: 9-41
+    title:
+    available: 2023-06-15T13:00:00
+    deadline: 2023-06-18T13:00:00
+  - url: 9-40
+    title:
+    available: 2023-06-08T13:00:00
+    deadline: 2023-06-11T13:00:00
+  - url: 9-39-richard-feynman-superhero
     title: Richard Feynman - Superhero
-    available: 2022-06-30T13:00:00
-    deadline: 2022-07-02T13:00:00
-  - url: 9-33-number-riddles
+    available: 2023-06-01T13:00:00
+    deadline: 2023-06-04T13:00:00
+  - url: 9-38-number-riddles
     title: Number Riddles
-    available: 2022-06-23T13:00:00
-    deadline: 2022-06-26T13:00:00
-  - url: 9-32-ham-sandwich-problem
+    available: 2023-05-25T13:00:00
+    deadline: 2023-05-28T13:00:00
+  - url: 9-37-ham-sandwich-problem
     title: The Ham Sandwich Problem
-    available: 2022-06-16T13:00:00
-    deadline: 2022-06-19T13:00:00
-  - url: 9-31-tangrams
+    available: 2023-05-18T13:00:00
+    deadline: 2023-05-21T13:00:00
+  - url: 9-36-tangrams
     title: Tangrams
-    available: 2022-06-09T13:00:00
-    deadline: 2022-06-12T13:00:00
-  - url: 9-30-mathematical-plaques
+    available: 2023-05-11T13:00:00
+    deadline: 2023-05-14T13:00:00
+  - url: 9-35-mathematical-plaques
     title: Mathematical Plaques
-    available: 2022-05-26T13:00:00
-    deadline: 2022-05-29T13:00:00
-    scoreFactor: 2
-  - url: 9-29-mathematical-timeline
+    available: 2023-05-04T13:00:00
+    deadline: 2023-05-07T13:00:00
+  - url: 9-34-mathematical-timeline
     title: Mathematical Timeline
-    available: 2022-05-19T13:00:00
-    deadline: 2022-05-21T13:00:00
-  - url: 9-28-sphere-packing
+    available: 2023-04-27T13:00:00
+    deadline: 2023-04-30T13:00:00
+  - url: 9-33-sphere-packing
     title: Sphere Packing
-    available: 2022-05-12T13:00:00
-    deadline: 2022-05-15T13:00:00
-  - url: 9-27-circle-mystery
+    available: 2023-04-20T13:00:00
+    deadline: 2023-04-23T13:00:00
+  - url: 9-32-circle-mystery
     title: Circle Mystery
-    available: 2022-05-05T13:00:00
-    deadline: 2022-05-08T13:00:00
-  - url: 9-26-qi-mathematics
+    available: 2023-04-13T13:00:00
+    deadline: 2023-04-16T13:00:00
+  - url: 9-31-qi-mathematics
     title: QI Mathematics
-    available: 2022-04-28T13:00:00
-    deadline: 2022-04-30T13:00:00
-  - url: 9-25-teachers-pets
+    available: 2023-04-06T13:00:00
+    deadline: 2023-04-09T13:00:00
+  - url: 9-30-teachers-pets
     title: Teacher’s Pets
-    available: 2022-04-21T13:00:00
-    deadline: 2022-04-24T13:00:00
-  - url: 9-24-easter-challenges
-    title: Easter challenges
-    available: 2022-03-24T13:00:00
-    deadline: 2022-03-27T13:00:00
-    scoreFactor: 3
-  - url: 9-23-more-water-jugs
+    available: 2023-03-30T13:00:00
+    deadline: 2023-04-02T13:00:00
+  - url: 9-29-four-brothers
+    title: Four brothers
+    available: 2023-03-23T13:00:00
+    deadline: 2023-03-26T13:00:00
+  - url: 9-28-venn-diagrams
+    title: Venn diagrams
+    available: 2023-03-16T13:00:00
+    deadline: 2023-03-19T13:00:00
+  - url: 9-27-more-water-jugs
     title: More Water Jugs
-    available: 2022-03-17T13:00:00
-    deadline: 2022-03-20T13:00:00
-  - url: 9-22-bird-brain
+    available: 2023-03-09T13:00:00
+    deadline: 2023-03-12T13:00:00
+  - url: 9-26-bird-brain
     title: Bird Brain
-    available: 2022-03-10T13:00:00
-    deadline: 2021-03-13T13:00:00
-  - url: 9-21-pendulum-patterns
+    available: 2023-03-02T13:00:00
+    deadline: 2023-03-06T13:00:00
+  - url: 9-25-pendulum-patterns
     title: Pendulum Patterns
-    available: 2022-03-03T13:00:00
-    deadline: 2022-03-06T13:00:00
-  - url: 9-20-four-colour-map-theorem
+    available: 2023-02-23T13:00:00
+    deadline: 2023-02-26T13:00:00
+  - url: 9-24-four-colour-map-theorem
     title: Four-Colour Map Theorem
-    available: 2022-02-24T13:00:00
-    deadline: 2022-02-27T13:00:00
-  - url: 9-19-collision-mystery
+    available: 2023-02-16T13:00:00
+    deadline: 2023-02-19T13:00:00
+  - url: 9-23-collision-mystery
     title: Collision Mystery
-    available: 2022-02-10T13:00:00
-    deadline: 2022-02-13T13:00:00
-  - url: 9-18-mean-girls
+    available: 2023-02-09T13:00:00
+    deadline: 2023-02-12T13:00:00
+  - url: 9-22-mean-girls
     title: Mean Girls
-    available: 2022-02-03T13:00:00
-    deadline: 2022-02-06T13:00:00
-  - url: 9-17-shilling-thoughts
+    available: 2023-02-02T13:00:00
+    deadline: 2023-02-05T13:00:00
+  - url: 9-21-shilling-thoughts
     title: A Shilling for your Thoughts
-    available: 2022-01-27T13:00:00
-    deadline: 2022-01-30T13:00:00
-  - url: 9-16-puzzle-compendium
+    available: 2023-01-26T13:00:00
+    deadline: 2023-01-29T13:00:00
+  - url: 9-20-puzzle-compendium
     title: Puzzle Compendium
-    available: 2022-01-20T13:00:00
-    deadline: 2022-01-23T13:00:00
-  - url: 9-15-bubble-solution
+    available: 2023-01-19T13:00:00
+    deadline: 2023-01-22T13:00:00
+  - url: 9-19-bubble-solution
     title: Bubble Solution
-    available: 2022-01-13T13:00:00
-    deadline: 2022-01-16T13:00:00
-  - url: 9-14-teapot-time
+    available: 2023-01-12T13:00:00
+    deadline: 2023-01-15T13:00:00
+  - url: 9-18-teapot-time
     title: Teapot Time
-    available: 2022-01-06T13:00:00
-    deadline: 2022-01-09T13:00:00
-  - url: 9-13-chrismaths
-    title: Chrismaths Y9
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
-    scoreFactor: 4
-  - url: 9-12-prime-time
-    title: Prime Time Y9
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url: 9-11-kenken
-    title: KenKen Y9
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url: 9-10-beautiful-mind
+    available: 2023-01-05T13:00:00
+    deadline: 2023-01-08T13:00:00
+  - url: 9-17-chrismaths
+    title: Chrismaths - Part 4
+    available: 2022-12-29T13:00:00
+    deadline: 2023-01-01T13:00:00
+  - url: 9-16-chrismaths
+    title: Chrismaths - Part 3
+    available: 2022-12-22T13:00:00
+    deadline: 2022-12-25T13:00:00
+  - url: 9-15-chrismaths
+    title: Chrismaths - Part 2
+    available: 2022-12-15T13:00:00
+    deadline: 2022-12-18T13:00:00
+  - url: 9-14-chrismaths
+    title: Chrismaths - Part 1
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
+  - url: 9-13-prime-time
+    title: Prime Time L4
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 9-12-kenken
+    title: KenKen L4
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 9-11-beautiful-mind
     title: A Beautiful Mind
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url: 9-09-clock-calculation
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 9-10-clock-calculation
     title: Clock Calculation
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url: 9-08-checkmate
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 9-09-checkmate
     title: Checkmate
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 9-08-chrismaths
+    title: Checkmate
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
   - url: 9-07-queen-of-katwe
     title: Queen of Katwe
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
   - url: 9-06-x-y
     title: X + Y
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
   - url: 9-05-breakfast-curiosity-part2
     title: Breakfast curiosity – Part 2
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 9-04-strange-breakfasts
     title: Strange Breakfasts
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 9-03-lots-of-socks
     title: Lots of Socks
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 9-02-romantic-mathematics
     title: Romantic Mathematics
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-25T10:00:00
+    deadline: 2022-09-11T19:00:00
 
 year10:
-  - url: 10-35-summer-sums
-    title: Summer Sums
-    available: 2022-07-07T13:00:00
-    deadline: 2022-07-10T13:00:00
-    scoreFactor: 3
-  - url: 10-34-revolutionary-riddles
-    title: Revolutionary Riddles
-    available: 2022-06-30T13:00:00
-    deadline: 2022-07-02T13:00:00
-  - url: 10-33-juice-water
-    title: Juice and Water
-    available: 2022-06-23T13:00:00
-    deadline: 2022-06-26T13:00:00
-  - url: 10-32-lewis-carroll
-    title: Lewis Carroll's Pillow Problem
-    available: 2022-06-16T13:00:00
-    deadline: 2022-06-19T13:00:00
-  - url: 10-31-pi
-    title: Pi
-    available: 2022-06-09T13:00:00
-    deadline: 2022-06-12T13:00:00
-  - url: 10-30-a-trapped-knight
+  - url: 10-48-harald-bluetooth
+    title: Harald Bluetooth
+    available: 2023-08-03T13:00:00
+    deadline: 2023-08-06T13:00:00
+  - url: 10-47-oxford-bell
+    title: The Oxford Bell
+    available: 2023-07-27T13:00:00
+    deadline: 2023-07-30T13:00:00
+  - url: 10-46-bananas
+    title: Bananas!
+    available: 2023-07-20T13:00:00
+    deadline: 2023-07-23T13:00:00
+  - url: 10-45-efficient-detective
+    title: The efficient detective
+    available: 2023-07-13T13:00:00
+    deadline: 2023-07-16T13:00:00
+  - url: 10-44-ice-cream
+    title: Ice cream pie charts
+    available: 2023-07-06T13:00:00
+    deadline: 2023-07-09T13:00:00
+  - url: 10-43-telescopes
+    title: Telescopes
+    available: 2023-06-29T13:00:00
+    deadline: 2023-07-02T13:00:00
+  - url: 10-42-
+    title:
+    available: 2023-06-22T13:00:00
+    deadline: 2023-06-25T13:00:00
+  - url: 10-41-concrete-transfer
+    title: A concrete transfer
+    available: 2023-06-15T13:00:00
+    deadline: 2023-06-18T13:00:00
+  - url: 10-40-classic-countdown
+    title: Classic Countdown
+    available: 2023-06-08T13:00:00
+    deadline: 2023-06-11T13:00:00
+  - url: 10-39-a-trapped-knight
     title: A Trapped Knight
-    available: 2022-05-26T13:00:00
-    deadline: 2022-05-29T13:00:00
-    scoreFactor: 2
-  - url: 10-29-slinky-physics
+    available: 2023-06-01T13:00:00
+    deadline: 2023-06-04T13:00:00
+  - url: 10-38-revolutionary-riddles
+    title: Revolutionary Riddles
+    available: 2023-05-25T13:00:00
+    deadline: 2023-05-28T13:00:00
+  - url: 10-37-juice-water
+    title: Juice and Water
+    available: 2023-05-18T13:00:00
+    deadline: 2023-05-21T13:00:00
+  - url: 10-36-lewis-carroll
+    title: Lewis Carroll's Pillow Problem
+    available: 2023-05-11T13:00:00
+    deadline: 2023-05-14T13:00:00
+  - url: 10-35-pi
+    title: Pi
+    available: 2023-05-04T13:00:00
+    deadline: 2023-05-07T13:00:00
+  - url: 10-34-a-trapped-knight
+    title: A Trapped Knight
+    available: 2023-04-27T13:00:00
+    deadline: 2023-04-30T13:00:00
+  - url: 10-33-slinky-physics
     title: Slinky Physics
-    available: 2022-05-19T13:00:00
-    deadline: 2022-05-21T13:00:00
-  - url: 10-28-mcnuggets
+    available: 2023-04-20T13:00:00
+    deadline: 2023-04-23T13:00:00
+  - url: 10-32-mcnuggets
     title: McNuggets
-    available: 2022-05-12T13:00:00
-    deadline: 2022-05-15T13:00:00
-  - url: 10-27-alan-turing
+    available: 2023-04-13T13:00:00
+    deadline: 2023-04-16T13:00:00
+  - url: 10-31-alan-turing
     title: Alan Turing and the £50 Note
-    available: 2022-05-05T13:00:00
-    deadline: 2022-05-08T13:00:00
-  - url: 10-26-ignobel-prize
+    available: 2023-04-06T13:00:00
+    deadline: 2023-04-09T13:00:00
+  - url: 10-30-ignobel-prize
     title: Ignobel Prize
-    available: 2022-04-28T13:00:00
-    deadline: 2022-04-30T13:00:00
-  - url: 10-25-asteroid-impact
+    available: 2023-03-30T13:00:00
+    deadline: 2023-04-02T13:00:00
+  - url: 10-29-asteroid-impact
     title: Asteroid Impact
-    available: 2022-04-21T13:00:00
-    deadline: 2022-04-24T13:00:00
-  - url: 10-24-easter-challlenges
-    title: Easter Challenges
-    available: 2022-03-24T13:00:00
-    deadline: 2022-03-27T13:00:00
-    scoreFactor: 3
-  - url: 10-23-chess-in-church
+    available: 2023-03-23T13:00:00
+    deadline: 2023-03-26T13:00:00
+  - url: 10-28-magic-hexagons
+    title: Magic Hexagons
+    available: 2023-03-16T13:00:00
+    deadline: 2023-03-19T13:00:00
+  - url: 10-27-chess-in-church
     title: Chess In Church
-    available: 2022-03-17T13:00:00
-    deadline: 2022-03-20T13:00:00
-  - url: 10-22-evolution-rap
+    available: 2023-03-09T13:00:00
+    deadline: 2023-03-12T13:00:00
+  - url: 10-26-evolution-rap
     title: Evolution Rap
-    available: 2022-03-10T13:00:00
-    deadline: 2021-03-13T13:00:00
-  - url: 10-21-pieces-of-eight
+    available: 2023-03-02T13:00:00
+    deadline: 2023-03-06T13:00:00
+  - url: 10-25-pieces-of-eight
     title: Pieces of Eight
-    available: 2022-03-03T13:00:00
-    deadline: 2022-03-06T13:00:00
-  - url: 10-20-earth-look-like
+    available: 2023-02-23T13:00:00
+    deadline: 2023-02-26T13:00:00
+  - url: 10-24-earth-look-like
     title: What does the Earth look like?
-    available: 2022-02-24T13:00:00
-    deadline: 2022-02-27T13:00:00
-  - url: 10-19-tongue-twisters
+    available: 2023-02-16T13:00:00
+    deadline: 2023-02-19T13:00:00
+  - url: 10-23-tongue-twisters
     title: Tongue Twisters
-    available: 2022-02-10T13:00:00
-    deadline: 2022-02-13T13:00:00
-  - url: 10-18-smilla-sense-snow
+    available: 2023-02-09T13:00:00
+    deadline: 2023-02-12T13:00:00
+  - url: 10-22-smilla-sense-snow
     title: Smilla’s Sense of Snow
-    available: 2022-02-03T13:00:00
-    deadline: 2022-02-06T13:00:00
-  - url: 10-17-monkey-magic
+    available: 2023-02-02T13:00:00
+    deadline: 2023-02-05T13:00:00
+  - url: 10-21-monkey-magic
     title: Monkey Magic
-    available: 2022-01-27T13:00:00
-    deadline: 2022-01-30T13:00:00
-  - url: 10-16-hypatia
+    available: 2023-01-26T13:00:00
+    deadline: 2023-01-29T13:00:00
+  - url: 10-20-hypatia
     title: Hypatia
-    available: 2022-01-20T13:00:00
-    deadline: 2022-01-23T13:00:00
-  - url: 10-15-optical-illusions
+    available: 2023-01-19T13:00:00
+    deadline: 2023-01-22T13:00:00
+  - url: 10-19-optical-illusions
     title: Optical Illusions
-    available: 2022-01-13T13:00:00
-    deadline: 2022-01-16T13:00:00
-  - url: 10-14-proof
+    available: 2023-01-12T13:00:00
+    deadline: 2023-01-15T13:00:00
+  - url: 10-18-proof
     title: Proof
-    available: 2022-01-06T13:00:00
-    deadline: 2022-01-09T13:00:00
-  - url: 10-13-chrismaths
-    title: Chrismaths Y10
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
-    scoreFactor: 4
-  - url: 10-12-gravitation-waves
+    available: 2023-01-05T13:00:00
+    deadline: 2023-01-08T13:00:00
+  - url: 10-17-chrismaths
+    title: Chrismaths - Part 4
+    available: 2022-12-29T13:00:00
+    deadline: 2023-01-01T13:00:00
+  - url: 10-16-chrismaths
+    title: Chrismaths - Part 3
+    available: 2022-12-22T13:00:00
+    deadline: 2022-12-25T13:00:00
+  - url: 10-15-chrismaths
+    title: Chrismaths - Part 2
+    available: 2022-12-15T13:00:00
+    deadline: 2022-12-18T13:00:00
+  - url: 10-14-chrismaths
+    title: Chrismaths - Part 1
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
+  - url: 10-13-gravitation-waves
     title: Gravitational Waves
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url: 10-11-waterfalls
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 10-12-waterfalls
     title: Waterfalls
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url: 10-10-other-hamilton
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 10-11-other-hamilton
     title: The Other Hamilton
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url: 10-09-paper-mysteries
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 10-10-paper-mysteries
     title: Paper Mysteries
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url: 10-08-map-mathematics
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 10-09-map-mathematics
     title: Map of Mathematics
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 10-08-cibara-numerals
+    title: Cibara numerals
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
   - url: 10-07-heroic-hidden-figures
     title: Heroic Hidden Figures
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
   - url: 10-06-skyscrapers
     title: Skyscrapers
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
   - url: 10-05-philosophy-mathematics
     title: The Philosophy of Mathematics
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 10-04-little-big-league
     title: Little Big League
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 10-03-the-kessel-run
     title: The Kessel Run
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 10-02-musical-mathematicians
     title: Musical Mathematics
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 10-01-all-dark-things
     title: All Dark Things
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-25T10:00:00
+    deadline: 2022-09-11T19:00:00
 
 year11:
-  - url: 11-13-twelve-days-christmas
+  - url: 11-14-twelve-days-christmas
     title: The Twelve Days of Christmas
-    available: 2021-12-09T13:00:00
-    deadline: 2021-12-12T13:00:00
+    available: 2022-12-08T13:00:00
+    deadline: 2022-12-11T13:00:00
     scoreFactor: 4
-  - url: 11-12-gravity
+  - url: 11-13-gravity
     title: Gravity
-    available: 2021-12-02T13:00:00
-    deadline: 2021-12-05T13:00:00
-  - url: 11-11-fractals
+    available: 2022-12-01T13:00:00
+    deadline: 2022-12-04T13:00:00
+  - url: 11-12-fractals
     title: Fractals
-    available: 2021-11-25T13:00:00
-    deadline: 2021-11-28T15:00:00
-  - url: 11-10-hanging-a-picture
+    available: 2022-11-24T13:00:00
+    deadline: 2022-11-27T15:00:00
+  - url: 11-11-hanging-a-picture
     title: Hanging a Picture
-    available: 2021-11-18T13:00:00
-    deadline: 2021-11-21T15:00:00
-  - url: 11-09-a-cats-tale
+    available: 2022-11-17T13:00:00
+    deadline: 2022-11-20T15:00:00
+  - url: 11-10-a-cats-tale
     title: A Cat’s Tale
-    available: 2021-11-11T13:00:00
-    deadline: 2021-11-14T15:00:00
-  - url: 11-08-borromean-rings
+    available: 2022-11-10T13:00:00
+    deadline: 2022-11-13T15:00:00
+  - url: 11-09-borromean-rings
     title: Borromean Rings
-    available: 2021-11-04T13:00:00
-    deadline: 2021-11-07T15:00:00
+    available: 2022-11-03T13:00:00
+    deadline: 2022-11-06T15:00:00
+  - url: 11-08-colliding-vortexes
+    title: Colliding Vortexes
+    available: 2022-10-27T13:00:00
+    deadline: 2022-10-30T15:00:00
   - url: 11-07-colliding-vortexes
     title: Colliding Vortexes
-    available: 2021-10-21T13:00:00
-    deadline: 2021-10-24T15:00:00
+    available: 2022-10-20T13:00:00
+    deadline: 2022-10-23T15:00:00
   - url: 11-06-surprising-values
     title: Surprising Values
-    available: 2021-10-14T13:00:00
-    deadline: 2021-10-17T13:00:00
+    available: 2022-10-13T13:00:00
+    deadline: 2022-10-16T13:00:00
   - url: 11-05-winners
     title: Winners
-    available: 2021-10-07T13:00:00
-    deadline: 2021-10-10T13:00:00
+    available: 2022-10-06T13:00:00
+    deadline: 2022-10-09T13:00:00
   - url: 11-04-game-of-life
     title: The Game of Life
-    available: 2021-09-30T13:00:00
-    deadline: 2021-10-03T13:00:00
+    available: 2022-09-29T13:00:00
+    deadline: 2022-10-02T13:00:00
   - url: 11-03-mars-ingenuity
     title: Mars Ingenuity
-    available: 2021-09-23T13:00:00
-    deadline: 2021-09-26T18:00:00
+    available: 2022-09-22T13:00:00
+    deadline: 2022-09-25T18:00:00
   - url: 11-02-ok-go
     title: OK Go
-    available: 2021-09-16T13:00:00
-    deadline: 2021-09-19T19:00:00
+    available: 2022-09-15T13:00:00
+    deadline: 2022-09-18T19:00:00
   - url: 11-01-prince-ruperts-drops
     title: Prince Rupert’s Drops
-    available: 2021-08-30T10:00:00
-    deadline: 2021-09-09T19:00:00
+    available: 2022-08-30T10:00:00
+    deadline: 2022-09-11T19:00:00

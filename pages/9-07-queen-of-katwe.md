@@ -15,8 +15,6 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
-As most of you will have a half-term coming up, this Parallelogram is longer than usual and has a couple of extra questions. And your next parallelogram will be in __two weeks time__.
-
 
 ## 1. Infinite series
 
@@ -306,10 +304,10 @@ While most people get this question right, most people get the previous question
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next time.
+*	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	There will be more in TWO weeks, so check your email or return to the website on Thursday at 3pm on November 5th.
+*	The next Parallelogram is next week, at 3pm on Thursday.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

@@ -10,7 +10,7 @@ week by the Parallel Project to bright young mathematicians.
 
 </div>
 
-Welcome to the first of our Parallelograms designed for Year 11 students, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.  
+Welcome to the first of our Parallelograms, a collection of mathematical challenges designed to stretch your brain and make your neurons more squiggly.  
 
 These challenges are a random walk through the mysteries of mathematics, most of which will be nothing to do with what you are studying at the moment in your classroom. Be prepared to encounter all sorts of weird ideas, including a few questions that appear to have nothing to do with mathematics at all.
 

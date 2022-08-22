@@ -51,13 +51,6 @@ The biggest concern that students seem to have is that they sometimes score less
 
 
 <a name="reward"></a>
-### Is there a way to reward students who complete Parallel every week?  
+### How do students receive awards for taking part in Parallel every week?  
 
-Students receive badges after accumulating points with each Parallelogram – 100% = 100 points, with some badges needing just 100 points and others requiring 300 points.  
-
-This a small incentive to encourage students, but you might want to offer a bigger incentive such as house points or certificates at the end of each term or at the end of the year, recognising students who have completed all the relevant Parallelograms.  
-
-* [Downloadable Autumn Term certificate](/resources//parallel-certificate-autumn-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-autumn-term-grey.pdf){target="_blank"}.
-* [Downloadable Spring Term certificate](/resources/parallel-certificate-spring-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-spring-term-grey.pdf){target="_blank"}.
-* [Downloadable Summer Term certificate](/resources/parallel-certificate-summer-term.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-summer-term-grey.pdf){target="_blank"}.
-* [Downloadable End of Year certificate](/resources/parallel-certificate-year.pdf){target="_blank"} [(Greyscale version)](/resources/parallel-certificate-year-grey.pdf){target="_blank"}.
+Students can earn certificates each year for completing Parallelograms and attending maths circles, and when they leave at age 16 they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.

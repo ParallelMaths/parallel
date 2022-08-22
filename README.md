@@ -4,8 +4,6 @@ _Parallel_ is a weekly bulletin written by Simon Singh, author of No.1 bestselle
 
 Every week, participating students will receive an email that contains 60 minutes of interesting, fun and challenging maths that goes beyond school maths: mystery and history, activities and oddities, puzzles and problems.
 
-Parallel is designed for students in Year 7 and Year 8, and the pilot will run for four weeks, starting on June 30.
-
 
 ## Getting started
 
