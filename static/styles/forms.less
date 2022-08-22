@@ -216,23 +216,27 @@ form.loading button[type="submit"] {
   color: transparent;
 }
 
-
 .toggle {
   display: flex;
   flex-direction: row;
   margin: 6px 0 4px;;
   justify-content: center;
+  padding: 0 2px;
+}
+
+.space-around {
+  justify-content: space-around;
 }
 
 .toggle a {
   display: block;
-  padding: 5px 6px 6px;
+  padding: 5px 2px 6px;
   color: #999;
   border-bottom: 2px solid transparent;
   transition: color .2s, border .2s;
   font-size: 13px;
   text-align: center;
-  line-height: 1;
+  line-height: 16px;
 
   &.active {
     color: black;

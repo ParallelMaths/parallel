@@ -3,7 +3,7 @@ const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
 const BADGES = require('../build/badges.json');
 
-const LEVELS = ['year7', 'year8', 'year9', 'year10', 'year11'];
+const LEVELS = ['year6', 'year7', 'year8', 'year9', 'year10', 'year11'];
 
 const userDB = firebase.firestore().collection('users');
 
@@ -20,7 +20,7 @@ function getIdTokenFromRequest(req, res) {
 }
 
 function getSidebarLevels(data) {
-  if(['year5', 'year6'].includes(data.level)) {
+  if(['year5'].includes(data.level)) {
     return [LEVELS[0]];
   }
   
@@ -28,7 +28,7 @@ function getSidebarLevels(data) {
     return LEVELS;
   }
 
-  return LEVELS.slice(0, +data.level.slice(4) - 6);
+  return LEVELS.slice(0, +data.level.slice(4) - 5);
 }
 
 async function getUserData(uid) {

@@ -8,8 +8,8 @@ for (const v of Object.values(data.users)) {
   delete v.hasSeenWelcomeMsg;
   if (v.code || v.level === 'graduated') continue;
 
-  if (!v.showWelcomeMsg) v.level = ({year7: 'year8', year8: 'year9', year9: 'year10', year10: 'year11', year11: 'graduated'}[v.level] || 'year7');
-  if (v.level !== 'year7') v.showWelcomeMsg = true;
+  if (!v.showWelcomeMsg) v.level = ({year7: 'year8', year8: 'year9', year9: 'year10', year10: 'year11', year11: 'graduated'}[v.level] || 'year6');
+  if (v.level !== 'year6') v.showWelcomeMsg = true;
 
   for (let p of Object.values(v.answers || {})) {
     if (!p.archive) p.archive = 2020;
