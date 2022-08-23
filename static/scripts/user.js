@@ -177,6 +177,8 @@ export default function() {
 
   signupForm.messages.teacher =  {
     ...signupForm.messages.student,
+    firstName: "First name",
+    surname: "Surname",
     emailSubtext: undefined
   }
 

@@ -153,13 +153,8 @@ app.get('/login', (req, res) => {
 
 app.get('/account', (req, res) => {
   if (!req.user) return error(res, 401);
-  res.render('account');
-});
-
-app.get('/account-new', (req, res) => {
-  if (!req.user) return error(res, 401);
   res.locals.sidebarDisabled = true
-  res.render('account-new', { countries });
+  res.render('account', { countries });
 });
 
 app.get('/home-educator-form', (req, res) => {
