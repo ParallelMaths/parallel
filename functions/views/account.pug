@@ -81,7 +81,7 @@ block content
 
         div(v-if="user.editForm.profileComplete")
           div(v-if="user.editForm.homeEducated && !user.editForm.homeEducatedConfirm")
-            h4(class="pink") You're almost done! Fill out the home-education form
+            h4(class="pink") You're almost done! Fill out the home-education form 
               a(href="/home-educator-form") here 
               | to complete your profile
           div(v-if="!(user.editForm.homeEducated && !user.editForm.homeEducatedConfirm)")
@@ -170,7 +170,7 @@ block content
           p.checkbox
             input#homeEducated(type="checkbox" v-model="user.editForm.homeEducated")
             label(for="homeEducated") 
-              | I can confirm that I am home-educated and I would like to complete the home-education form
+              | I can confirm that I am home-educated and I would like to complete the home-education form 
               a(href="/home-educator-form") here
 
         div(v-if="!user.editForm.homeEducated")
