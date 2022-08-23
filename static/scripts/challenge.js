@@ -39,7 +39,7 @@ export default function() {
       Vue.set(challenge.answers, 'loading', true);
 
       const userRef = fbDatabase.collection('users').doc(userData.uid);
-      await userRef.set({answers: {[page.url]: calculateScore(challenge.answers)}}, {merge: true});
+      await userRef.set({answers: {[page.url]: calculateScore(challenge.answers, page)}}, {merge: true});
       document.body.style.display = 'none';
       window.scrollTo(0, 0);
       location.reload(true);
@@ -62,7 +62,7 @@ function hasClass($el, name) {
   return (' ' + $el.getAttribute('class') + ' ').indexOf(' ' + name + ' ') >= 0;
 }
 
-function calculateScore(answers) {
+function calculateScore(answers, page) {
   const $problems = document.querySelectorAll('.problem');
 
   let points = 0;
@@ -102,12 +102,19 @@ function calculateScore(answers) {
     points += Math.max(0, score);
   }
 
+  const time = Date.now();
+
+  const timeDifference = time - (page.available || 0);
+
+  const sameWeek = timeDifference < (7 * 24 * 60 * 60 * 1000);
+
   return {
     points,
     total,
-    time: Date.now(),
+    time,
     submitted: true,
-    score: Math.max(0, Math.min(100, Math.round(points / total * 100)))
+    score: Math.max(0, Math.min(100, Math.round(points / total * 100))),
+    sameWeek
   };
 }
 
