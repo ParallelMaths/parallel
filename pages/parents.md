@@ -14,7 +14,7 @@ We have different Parallel Circles maths circles for different age groups, and e
 
 Best of all, our maths circles are 100% interactive, so students won’t just watch mathematics, but they will do mathematics. They can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-And, at the end of the summer, students will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles they have attended.
+Students will earn Parallel certificates and diplomas for participating in Circles, depending on how many they have attended.
 
 __We take safeguarding very seriously, so students cannot switch on their webcams or microphones, and are unable to message each other.__
 

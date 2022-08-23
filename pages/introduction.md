@@ -10,7 +10,7 @@ We have different Parallel Circles maths circles for different age groups, and e
 
 Best of all, our maths circles are 100% interactive, so you won’t just watch mathematics, but you will do mathematics. You can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-And, at the end of the summer, you will earn a Parallel Circles certificate, which will be gold, silver or bronze, depending on how many maths circles you have attended.
+You will earn Parallel certificates and diplomas for participating in Circles, depending on how many you have attended.
 
 ## Parallelogram Puzzles (age guide 11 to 16)
 

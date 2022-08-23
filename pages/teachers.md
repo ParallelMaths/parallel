@@ -33,6 +33,8 @@ As you can tell, we have tried to make everything as easy as possible for teache
 
 Students can earn certificates each year for completing Parallelograms and attending maths circles, and when they leave at age 16 they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.
 
+Students can earn certificates each year for completing Parallelograms and attending maths circles, and when they graduate (usually at age 16) they will receive their graduation diploma, which will document everything they have achieved in the Parallel Universe.
+
 ## How do teachers make the most of the Parallel Universe?
 
 We recommend that you use Parallel in the following way.
