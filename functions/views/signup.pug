@@ -65,7 +65,7 @@ block content
         option(value="11") November
         option(value="12") December
 
-    label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode")
+    label(v-if="user.signupForm.type !== 'teacher'")
       span {{user.signupForm.messages[user.signupForm.type].yearOfBirth}}
       select(v-model="user.signupForm.birthYear")
         - var year = 1920;

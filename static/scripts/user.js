@@ -145,9 +145,8 @@ export default function() {
   const cachedLevel = document.cookie.match(/level=(year[7-9])/);
 
   const loginForm = {error: null, reset: false};
-  const editForm = {loading: false, error: '', teacherCodes: []};
 
-  const editFormNew = {loading: false, error: '', teacherCodes: []};
+  const editForm = {loading: false, error: '', teacherCodes: []};
 
   const homeEducatorForm = { loading: false, error: '' };
 
@@ -178,19 +177,14 @@ export default function() {
 
   signupForm.messages.teacher =  {
     ...signupForm.messages.student,
+    firstName: "First name",
+    surname: "Surname",
     emailSubtext: undefined
   }
 
-  editFormNew.countries = window.COUNTRY_CODES || {};
+  editForm.countries = window.COUNTRY_CODES || {};
 
   if (window.USER_DATA) {
-    for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level']) {
-      editForm[key] = window.USER_DATA[key] || null;
-    }
-    if (window.USER_DATA.teacherCode) {
-      editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
-    }
-
     for (let key of ['guardianName', 'guardianEmail', 'homeEducatedConfirm', 'homeEducatedYears', 'emails']) {
       homeEducatorForm[key] = window.USER_DATA[key] || null;
     }
@@ -205,56 +199,56 @@ export default function() {
     }
 
     for (let key of ['first', 'last', 'schoolName', 'postCode', 'phoneNumber', 'level', 'guardianEmail', 'birthMonth', 'birthYear', 'country', 'ukCountry', 'pupilPremium', 'homeEducated', 'schoolPostcode', 'schoolEmail', 'studentPanelConsidered', 'studentPanelGuardianPermission', 'email', 'homeEducatedConfirm']) {
-      editFormNew[key] = window.USER_DATA[key] || null;
+      editForm[key] = window.USER_DATA[key] || null;
     }
 
-    editFormNew.emails = removeDuplicateEmails(window.USER_DATA.emails || []);
+    editForm.emails = removeDuplicateEmails(window.USER_DATA.emails || []);
 
-    editFormNew.profileComplete = isProfileComplete(window.USER_DATA)
+    editForm.profileComplete = isProfileComplete(window.USER_DATA)
 
     if(window.USER_DATA.gender) {
       if(window.USER_DATA.gender.includes('00')) {
-        editFormNew.gender = window.USER_DATA.gender;
-        editFormNew.otherGender = null
+        editForm.gender = window.USER_DATA.gender;
+        editForm.otherGender = null
       } else {
-        editFormNew.gender = 'other';
-        editFormNew.otherGender =  window.USER_DATA.gender;
+        editForm.gender = 'other';
+        editForm.otherGender =  window.USER_DATA.gender;
       }
     }
 
     if(window.USER_DATA.ethnicity) {
       if(window.USER_DATA.ethnicity.includes('00')) {
-        editFormNew.ethnicity = window.USER_DATA.ethnicity;
-        editFormNew.otherEthnicity = null
+        editForm.ethnicity = window.USER_DATA.ethnicity;
+        editForm.otherEthnicity = null
       } else {
-        editFormNew.ethnicity = 'other';
-        editFormNew.otherEthnicity =  window.USER_DATA.ethnicity;
+        editForm.ethnicity = 'other';
+        editForm.otherEthnicity =  window.USER_DATA.ethnicity;
       }
     }
 
     if (window.USER_DATA.teacherCode) {
-      editFormNew.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
+      editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
     }
 
-    editFormNew.guardianEmails = [];
-    editFormNew.studentEmails = [];
+    editForm.guardianEmails = [];
+    editForm.studentEmails = [];
 
-    if(editFormNew.guardianEmail) {
-      editFormNew.guardianEmails.push({ email: editFormNew.guardianEmail, type: 'guardian' });
+    if(editForm.guardianEmail) {
+      editForm.guardianEmails.push({ email: editForm.guardianEmail, type: 'guardian' });
     }
 
     // Used by student panel section
-    editFormNew.guardianEmail = homeEducatorForm?.emails?.find(e => e.type === 'guardian')?.email;
+    editForm.guardianEmail = homeEducatorForm?.emails?.find(e => e.type === 'guardian')?.email;
 
-    if(Array.isArray(editFormNew.emails)) {
-      editFormNew.guardianEmails = [
-        ...editFormNew.guardianEmails,
-        ...editFormNew.emails.filter((e) => e.type === 'guardian')
+    if(Array.isArray(editForm.emails)) {
+      editForm.guardianEmails = [
+        ...editForm.guardianEmails,
+        ...editForm.emails.filter((e) => e.type === 'guardian')
       ];
 
-      editFormNew.studentEmails = [
-        ...editFormNew.studentEmails,
-        ...editFormNew.emails.filter((e) => e.type === 'student')
+      editForm.studentEmails = [
+        ...editForm.studentEmails,
+        ...editForm.emails.filter((e) => e.type === 'student')
       ];
     }
   }
@@ -279,7 +273,7 @@ export default function() {
     level,
     showLogin: false,
     showYearScopeMessage,
-    loginForm, editForm, editFormNew, signupForm, passwordForm, homeEducatorForm,
+    loginForm, editForm, signupForm, passwordForm, homeEducatorForm,
 
     hideYearScopeMessage() {
       user.showYearScopeMessage = false;
@@ -328,101 +322,56 @@ export default function() {
       const isTeacher = !!window.USER_DATA.code
 
       try {
-        let schoolName = editForm.schoolName || '';
+        let schoolName = editForm.schoolName || null;
         const teacherCodes = editForm.teacherCodes.map(c => c.text.trim());
-
-        for (const code of teacherCodes) {
-          const res = await fetch(`/validate/${code}`);
-          const json = await res.json();
-          if (!json.school) {
-            editForm.loading = false;
-            return editForm.error = ERRORS['teacher-code'].replace('$0', code);
-          }
-          schoolName = json.school;
-        }
-
-        if (!isTeacher && !teacherCodes.length) {
-          schoolName = '';
-        }
-
-        await fbDatabase.collection('users').doc(uid).update({
-          teacherCode: teacherCodes || [],
-          level: editForm.level || null,
-          phoneNumber: editForm.phoneNumber || null,
-          postCode: editForm.postCode || null,
-          first: editForm.first || null,
-          last: editForm.last || null,
-          schoolName: schoolName,
-        });
-
-        editForm.loading = false;
-        editForm.error = null;
-        location.reload(true);
-      } catch(error) {
-        console.error(error);
-        editForm.loading = false;
-        editForm.error = ERRORS[error.code] || ERRORS.default;
-      }
-    },
-
-    async editNew(e) {
-      e.preventDefault();
-      editFormNew.loading = true;
-      editFormNew.error = null;
-
-      const isTeacher = !!window.USER_DATA.code
-
-      try {
-        let schoolName = editFormNew.schoolName || null;
-        const teacherCodes = editFormNew.teacherCodes.map(c => c.text.trim());
 
         if(!isTeacher && teacherCodes.length) {
           for (const code of teacherCodes) {
             const res = await fetch(`/validate/${code}`);
             const json = await res.json();
             if (!json.school) {
-              editFormNew.loading = false;
-              return editFormNew.error = ERRORS['teacher-code'].replace('$0', code);
+              editForm.loading = false;
+              return editForm.error = ERRORS['teacher-code'].replace('$0', code);
             }
             schoolName = json.school;
           }
         }
 
-        let schoolPostcode = editFormNew.schoolPostcode || null;
-        let schoolEmail = editFormNew.schoolEmail || null;
+        let schoolPostcode = editForm.schoolPostcode || null;
+        let schoolEmail = editForm.schoolEmail || null;
 
-        if (editFormNew.homeEducated) {
+        if (editForm.homeEducated) {
           schoolEmail = null;
           schoolPostcode = null;
           schoolName = null;
         }
 
-        const guardianEmail = editFormNew.guardianEmail ? { email: editFormNew.guardianEmail, type: 'guardian'} : null; 
+        const guardianEmail = editForm.guardianEmail ? { email: editForm.guardianEmail, type: 'guardian'} : null; 
 
         const newData = {
           teacherCode: teacherCodes || [],
-          level: editFormNew.level || null,
-          phoneNumber: editFormNew.phoneNumber || null,
-          postCode: editFormNew.postCode || null,
-          first: editFormNew.first || null,
-          last: editFormNew.last || null,
+          level: editForm.level || null,
+          phoneNumber: editForm.phoneNumber || null,
+          postCode: editForm.postCode || null,
+          first: editForm.first || null,
+          last: editForm.last || null,
           schoolName: schoolName || null,
-          birthMonth: editFormNew.birthMonth || null,
-          birthYear: editFormNew.birthYear || null,
-          gender: (editFormNew.gender === 'other' ? editFormNew.otherGender : editFormNew.gender) || null,
-          ethnicity: (editFormNew.ethnicity === 'other' ? editFormNew.otherEthnicity : editFormNew.ethnicity) || null,
-          country: editFormNew.country || null,
-          ukCountry: (editFormNew.country === 'GB' ? editFormNew.ukCountry : null) || null,
-          pupilPremium: editFormNew.pupilPremium || null,
-          homeEducated: editFormNew.homeEducated || null,
+          birthMonth: editForm.birthMonth || null,
+          birthYear: editForm.birthYear || null,
+          gender: (editForm.gender === 'other' ? editForm.otherGender : editForm.gender) || null,
+          ethnicity: (editForm.ethnicity === 'other' ? editForm.otherEthnicity : editForm.ethnicity) || null,
+          country: editForm.country || null,
+          ukCountry: (editForm.country === 'GB' ? editForm.ukCountry : null) || null,
+          pupilPremium: editForm.pupilPremium || null,
+          homeEducated: editForm.homeEducated || null,
           schoolPostcode: schoolPostcode || null,
           schoolEmail: schoolEmail || null,
-          studentPanelConsidered: editFormNew.studentPanelConsidered || null,
-          studentPanelGuardianPermission: editFormNew.studentPanelGuardianPermission || null,
+          studentPanelConsidered: editForm.studentPanelConsidered || null,
+          studentPanelGuardianPermission: editForm.studentPanelGuardianPermission || null,
           guardianEmail: firebase.firestore.FieldValue.delete(),
           emails: removeDuplicateEmails([
-            ...editFormNew.guardianEmails,
-            ...editFormNew.studentEmails,
+            ...editForm.guardianEmails,
+            ...editForm.studentEmails,
             guardianEmail
           ])
         };
@@ -433,13 +382,13 @@ export default function() {
 
         await fbDatabase.collection('users').doc(uid).update(newData);
 
-        editFormNew.loading = false;
-        editFormNew.error = null;
+        editForm.loading = false;
+        editForm.error = null;
         window.location.pathname = window.location.pathname;
       } catch(error) {
         console.error(error);
-        editFormNew.loading = false;
-        editFormNew.error = ERRORS[error.code] || ERRORS.default;
+        editForm.loading = false;
+        editForm.error = ERRORS[error.code] || ERRORS.default;
       }
     },
 
