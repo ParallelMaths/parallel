@@ -81,13 +81,13 @@ block content
 
         div(v-if="user.editFormNew.profileComplete")
           div(v-if="user.editFormNew.homeEducated && !user.editFormNew.homeEducatedConfirm")
-            h3(class="pink") You're almost done! Fill out the home-education form 
+            h4(class="pink") You're almost done! Fill out the home-education form
               a(href="/home-educator-form") here 
               | to complete your profile
           div(v-if="!(user.editFormNew.homeEducated && !user.editFormNew.homeEducatedConfirm)")
-            h3 Congrats, you’re all set! Do make sure to update your info whenever it changes.
+            h4 Congrats, you’re all set! Do make sure to update your info whenever it changes.
         div(v-if="!user.editFormNew.profileComplete")
-          h3 Complete your profile to access terrific bonus Parallel opportunities
+          h4 Complete your profile to access terrific bonus Parallel opportunities
           p Parallel offers students lots of exciting rewards and opportunities, such as prizes, special events for your school, exclusive access to special Parallel features and events, certificates, diplomas and the chance to appear on screen during our mathematics circles as part of our Student Panel. To qualify for all this good stuff, you just need to complete the information below.
 
         div(class="input-other-wrapper")
@@ -170,7 +170,7 @@ block content
           p.checkbox
             input#homeEducated(type="checkbox" v-model="user.editFormNew.homeEducated")
             label(for="homeEducated") 
-              | I can confirm that I am home-educated and I would like to complete the home-education form 
+              | I can confirm that I am home-educated and I would like to complete the home-education form
               a(href="/home-educator-form") here
 
         div(v-if="!user.editFormNew.homeEducated")
