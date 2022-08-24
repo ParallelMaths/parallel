@@ -4,29 +4,29 @@ year6:
   type: big
   score: 50
   color: ff941f
-  description: xxxxx
-  link: xxxx
+  description: The great wall of China is about 6.4 megametres long, which is approximately the distance from the centre to the surface of the Earth. One megametre is equal to 1000 km or 10^6 (one million) metres.
+  link: https://en.wikipedia.org/wiki/Mega-
 - id: 6-big-giga
   name: Giga
   type: big
   score: 100
   color: ff941f
-  description: xxxxx
-  link: xxxx
+  description: A standard definition feature length film ususally requires between 1 and 2 gigabytes of data.  One gigabyte is equal to 1000 Megabytes, or 10^9 - that's one billion - bytes.
+  link: https://en.wikipedia.org/wiki/Giga-
 - id: 6-big-tera
   name: Tera
   type: big
   score: 200
   color: f27c2b
-  description: xxxxx
-  link: xxxx
+  description: The distance between Neptune and the Sun is 4.5 terametres, which is the roughly the same as doing 6000 return trips from the Earth to the Moon.  One terametre is equal to 10^12 (one trillion) metres.
+  link: https://en.wikipedia.org/wiki/Tera-
 - id: 6-big-peta
   name: Peta
   type: big
   score: 300
   color: e66438
-  description: xxxxx
-  link: xxxx
+  description: During the Large Hadron Collider's second run, about one petabyte (10^15, or a quadrillion bytes) of data was processed each day.  That's the same as more than 3.4 years of non-stop HD video recording.
+  link: https://en.wikipedia.org/wiki/Peta-
 - id: 6-big-exa
   name: Exa
   type: big
@@ -39,36 +39,36 @@ year6:
   type: sporting
   score: 550
   color: cc3450
-  description: xxxxx
+  description: A former American football player who studied for his PhD and published research papers while still playing professionally in the NFL. He has won awards for his abilities both in American football and in maths.
   link: https://en.wikipedia.org/wiki/John_Urschel
 - id: 6-sporting-bohr
   name: Harald Bohr
   type: sporting
   score: 700
   color: c01c5d
-  description: xxxxx
+  description: A Danish mathematician who founded the field of 'almost periodic functions'. He also won a silver medal as part of the Danish football team at the 1908 Olympic games.  His brother was the Physicist Niels Bohr.
   link: https://en.wikipedia.org/wiki/Harald_Bohr
 - id: 6-sporting-depodesta
   name: Paul DePodesta
   type: sporting
   score: 850
   color: b30469
-  description: xxxxx
+  description: An American football (and former baseball) executive who pioneered the use of Sabermetrics, leading the Oakland A's baseball team to win a record 20 games in a row.  He was the inspiration for the film Moneyball.
   link: https://en.wikipedia.org/wiki/Paul_DePodesta
 - id: 6-sporting-johnson
   name: Glen Johnson
   type: sporting
   score: 1000
   color: 9e157e
-  description: xxxxx
+  description: A former professional footballer who studied for a maths degree in his spare time between training and matches.  As a footballer, he was part of the England squad in two World Cups and the Euros between 2010 and 2014.
   link: https://www.liverpoolecho.co.uk/news/uk-world-news/footballers-who-are-good-maths-19384283
 - id: 6-greek-alpha
   name: α
   type: greek
   score: 1150
   color: 892694
-  description: xxxxx
-  link: xxxx
+  description: The first letter in the Greek alphabet, α is used in maths and physics to represent an unknown value or angle. In statistical tests it is used to represent an acceptable rate of false positive results.
+  link: https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%91%CE%B1_(alpha)
 - id: 6-greek-epsilon
   name: ε
   type: greek
@@ -81,15 +81,15 @@ year6:
   type: greek
   score: 1450
   color: 5e47bf
-  description: xxxxx
-  link: xxxx
+  description: A Greek letter that is commonly used in maths to represent an unknown angle, often one in a right angled-triangle.
+  link: https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%98%CE%B8_(theta)
 - id: 6-greek-pi
   name: π
   type: greek
   score: 1600
   color: 4958d4
-  description: xxxxx
-  link: xxxx
+  description: The circumference of a circle divided by the diameter, π = 3.14159265…  The capital letter Π is used as a shorthand for multiplying together a series of numbers that fit a certain rule.
+  link: https://wumbo.net/operators/product/
 - id: 6-heroes-conway
   name: John Conway
   type: Heroes
