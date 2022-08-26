@@ -157,7 +157,7 @@ html
           .modal-background
           .modal-body
             h2 Welcome back to Parallel!
-            p.text-center We’ve updated your level to #[strong #{levelNames[user.level]}]. You can always change it on your #[a(href="/account") account settings] page. The first Parallelogram is now available, but officially it is launched in early September. We will be releasing new Parallelograms every week, from mid-September.
+            p.text-center We’ve updated your level to #[strong #{levelNamesWithAges[user.level]}]. You can always change it on your #[a(href="/account") account settings] page. The first Parallelogram is now available, but officially it is launched in early September. We will be releasing new Parallelograms every week, from mid-September.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
       //- if user
