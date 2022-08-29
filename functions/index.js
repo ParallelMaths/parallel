@@ -121,6 +121,30 @@ app.get('/api/user', async (req, res) => {
   })
 });
 
+app.get('/api/scores', async (req, res) => {
+  const answers = res?.locals?.user?.answers || {};
+
+  const clean = Object.keys(answers).reduce((acc, key) => {
+    const { submitted, score, time, sameWeek} = answers[key];
+
+    const year = 'year' + key.split('-')[0];
+
+    if(!submitted) return acc;
+    if(!Object.keys(PAGES_MAP).includes(key)) return acc;
+    if(!LEVELS.includes(year)) return acc;
+
+    acc[year] = acc[year] || {};
+
+    acc[year][key] = {
+      score, time, sameWeek
+    }
+
+    return acc;
+  }, {})
+
+  res.status(200).send(clean);
+});
+
 // Redirect from left path to right path
 const redirects = {
   '/lives': '/circles',
