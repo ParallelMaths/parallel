@@ -79,18 +79,18 @@ __2.1__ The cake should be cut into shapes that look like which letter:
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ When the cake is cut into these shapes (L,U,V,T, or I), how much of the whole cake does each piece represent?
+__2.2__ When the cake is cut into these shapes (L,U,V,T, or I), how much of the whole original square cake does each piece represent?
 
-* [ ] `1/6`
-* [ ] `1/5`
-* [x] `1/4`
-* [ ] `1/3`
-* [ ] `1/2`
+* [ ] `1/16`
+* [ ] `1/17`
+* [x] `3/16`
+* [ ] `3/17`
+* [ ] `5/16`
 {.col-5}
 
 ---
 
-The original square piece is a quarter of the whole cake. The remaining 3/4 is divided into three pieces, so each of those pieces must equal a `1/4` of the original cake.
+The original square piece is a quarter of the whole cake. The remaining 3/4 is divided into four pieces, so each of those pieces must equal a `3/16` of the original cake.
 :::
 
 
