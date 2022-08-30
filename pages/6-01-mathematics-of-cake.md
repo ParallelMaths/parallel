@@ -58,7 +58,7 @@ The cake shape is a cylinder, which could also be called a circular prism. The v
 
 If you have been taught about `π`, then you might know that that the area of a circle is `πr^2`, so the total volume is:
 
-`πr^2 × h = π × 202 × 10 = 12,566` cm<sup>3</sup>
+`πr^2 × h = π × 20^2 × 10 = 12,566` cm<sup>3</sup>
 :::
 
 ## 2. A Cake Conundrum
