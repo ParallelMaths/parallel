@@ -109,43 +109,43 @@ year6:
   type: Heroes
   score: 2050
   color: 2284d5
-  description: xxxxx
-  link: xxxx
+  description: Siblings who worked together as mathematicians and developed an algorithm to calculate pi with extreme precision (which is still used today).  They broke multiple records for calculating pi to the largest number of decimal places, using their homemade supercomputer.
+  link: https://en.wikipedia.org/wiki/Chudnovsky_brothers
 - id: 6-heroes-cartwright
   name: Dame Mary Lucy Cartwright
   type: Heroes
   score: 2200
   color: 258dab
-  description: xxxxx
-  link: xxxx
+  description: One of the pioneers of Chaos Theory.  She received many awards and honours for her work as a mathematician, many of which had only previously been awarded to men.
+  link: https://en.wikipedia.org/wiki/Mary_Cartwright
 - id: 6-shocking-green
   name: Andy Green
   type: Shocking
   score: 2350
   color: 289782
-  description: xxxxx
+  description: A retired fighter pilot and holder of the world land speed record since 1997.  He studied maths at Oxford and later became the first person to break the sound barrier on land, travelling at 763.035 mph.
   link: https://en.wikipedia.org/wiki/Andy_Green_(RAF_officer)#Early_life
 - id: 6-shocking-hatcher
   name: Lois Lane (Teri Hatcher)
   type: Shocking
   score: 2500
   color: 2ba058
-  description: xxxxx
+  description: An American actress best known for playing Lois Lane in Superman and starring in the TV seires Desperate Housewives.  She studied Maths and Engineering at community college before becoming an actress.
   link: https://www.mathscareers.org.uk/15-celebrities-who-studied-for-a-maths-degree/
 - id: 6-shocking-mitchell
   name: Keith Mitchell
   type: Shocking
   score: 2650
   color: 2ea92e
-  description: xxxxx
+  description: The former Prime Minister and current Leader of the Opposition in Grenada.  He has a PhD in maths and statistics, and previously worked as a statistician (and a cricketer!) before switching to politics.
   link: https://en.wikipedia.org/wiki/Keith_Mitchell
 - id: 6-shocking-mckellar
   name: Danica McKellar
   type: Shocking
   score: 2800
   color: 31b304
-  description: xxxxx
-  link: xxxx
+  description: An American actress and author who has written many books about maths for a teens.  She studied for a degree in maths alongside her acting career, and co-authored a research paper while still a student.
+  link: https://en.wikipedia.org/wiki/Danica_McKellar
 
 year7:
 - id: 7-ancients-ptolemy
@@ -742,7 +742,7 @@ year10:
   type: Map of Maths
   score: 3000
   color: 31b304
-  description: xxxxxx. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
+  description: A branch of Physics which uses mathematical models, rather than experiments, to explain and predict the physical world.  Famous theoretical physicists include Albert Einstein and Lisa Randall. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Theoretical_physics
 
 
@@ -892,5 +892,5 @@ year11:
   type: Map of Maths
   score: 1150
   color: 31b304
-  description: xxxxxx. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
+  description: The use of mathematical models to study the structure, development and behaviour of ecosystems and organisms.  Examples of biomathematics in action include predator-prey equations and models of pattern formation on animal coats. Badges based on icons from Dominic Walliman’s <a href="https://www.youtube.com/user/dominicwalliman/" target="_blank"> “Map of Mathematics”</a>.
   link: https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology
