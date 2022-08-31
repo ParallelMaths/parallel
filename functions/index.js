@@ -123,6 +123,11 @@ app.get('/api/user', async (req, res) => {
 
 app.get('/api/scores', async (req, res) => {
   const answers = res?.locals?.user?.answers || {};
+  const level = res?.locals?.user?.level || 'year6';
+
+  if(!res?.locals?.user) {
+    return res.status(200).send({ error: true });
+  }
 
   const clean = Object.keys(answers).reduce((acc, key) => {
     const { submitted, score, time, sameWeek} = answers[key];
@@ -130,7 +135,6 @@ app.get('/api/scores', async (req, res) => {
     const year = 'year' + key.split('-')[0];
 
     if(!submitted) return acc;
-    if(!Object.keys(PAGES_MAP).includes(key)) return acc;
     if(!LEVELS.includes(year)) return acc;
 
     acc[year] = acc[year] || {};
@@ -142,7 +146,10 @@ app.get('/api/scores', async (req, res) => {
     return acc;
   }, {})
 
-  res.status(200).send(clean);
+  res.status(200).send({
+    level,
+    answers: clean
+  });
 });
 
 // Redirect from left path to right path
