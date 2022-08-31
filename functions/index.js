@@ -162,9 +162,9 @@ const redirects = {
 
 Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
 
-const pagesWithoutSidebar = ['primary-parallel', 'primary-parallel-2', 'job-ad']
+const pagesWithoutSidebar = ['primary-parallel', 'job-ad']
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'primary-parallel', 'primary-parallel-2', 'masterclass', 'troubleshooting']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'primary-parallel', 'masterclass', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
