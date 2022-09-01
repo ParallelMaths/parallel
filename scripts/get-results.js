@@ -101,9 +101,9 @@ async function run() {
   // ---------------------------------------------------------------------------
 
   const weeks = Math.max(...Object.keys(summary).map(c => +c.split('-')[1]));
-  const rows = [['', 'Year 7', 'Year 8', 'Year 9', 'Year 10', 'Year 11']];
+  const rows = [['', 'Year 6', 'Year 7', 'Year 8', 'Year 9', 'Year 10', 'Year 11']];
   for (let w = 1; w <= weeks; ++w) {
-    rows.push([`Week ${w}`, ...[7, 8, 9, 10, 11].map(i => summary[`${i}-${w}`])])
+    rows.push([`Week ${w}`, ...[6, 7, 8, 9, 10, 11].map(i => summary[`${i}-${w}`])])
   }
 
   const str1 = rows.map(d => d.join(',')).join('\n');
