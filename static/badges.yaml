@@ -95,14 +95,14 @@ year6:
   type: Heroes
   score: 1600
   color: 3469ea
-  description: xxxxx
-  link: xxxx
+  description: An English mathematician who contributed to a variety of different fields of research, mainly in branches of pure maths.  He is also widely known for inventing Conway's Game of Life.
+  link: https://en.wikipedia.org/wiki/John_Horton_Conway
 - id: 6-heroes-viazovska
   name: Maryna Viazovska
   type: Heroes
   score: 1900
   color: 1f7aff
-  description: xxxxx
+  description: A Ukranian mathematician who has won a number of awards, including a Fields Medal, for her "stunningly simple" solutions to the Sphere Packing Problem in 8 and 24 dimensions.  The problem had previously only been solved in three or fewer dimensions.
   link: https://en.wikipedia.org/wiki/Maryna_Viazovska
 - id: 6-heroes-chudnovsky
   name: The Chudnovsky brothers
