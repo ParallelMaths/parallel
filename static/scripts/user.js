@@ -25,27 +25,6 @@ function generateUserReference() {
   return 'xxxxxxxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toUpperCase();
 }
 
-function isProfileComplete(userData) {
-
-  if(!userData.birthMonth) return false;
-  if(!userData.birthYear) return false;
-  if(!userData.country) return false;
-  if(!userData.studentPanelConsidered) return false;
-
-  if(userData.homeEducated) {
-
-    // if(!userData.homeEducatedConfirm) return false;
-
-  } else {
-
-    if(!userData.schoolEmail) return false;
-    if (userData.country === 'GB' && !window.USER_DATA.schoolPostcode) return false;
-
-  }
-
-  return true;
-}
-
 function removeDuplicateEmails(emails) {
   const store = {};
 
@@ -204,7 +183,7 @@ export default function() {
 
     editForm.emails = removeDuplicateEmails(window.USER_DATA.emails || []);
 
-    editForm.profileComplete = isProfileComplete(window.USER_DATA)
+    editForm.profileComplete = window.PROFILE_COMPLETE;
 
     if(window.USER_DATA.gender) {
       if(window.USER_DATA.gender.includes('00')) {

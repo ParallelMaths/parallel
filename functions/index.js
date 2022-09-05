@@ -54,6 +54,21 @@ function letterOrder(a, b) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
 
+function isProfileComplete(userData) {
+  if(!userData) return false;
+  if(!userData.birthMonth) return false;
+  if(!userData.birthYear) return false;
+  if(!userData.country) return false;
+  if(!userData.studentPanelConsidered) return false;
+
+  if(!userData.homeEducated) {
+    if(!userData.schoolEmail) return false;
+    if (userData.country === 'GB' && !userData.schoolPostcode) return false;
+  }
+
+  return true;
+}
+
 
 // -----------------------------------------------------------------------------
 // Set up Express App
@@ -67,6 +82,7 @@ app.use(user.getActiveUser);
 app.use((req, res, next) => {
   res.locals.isProduction = process.env.NODE_ENV === 'production';
   res.locals.user = req.user;
+  res.locals.profileComplete = isProfileComplete(req.user);
   res.locals.badges = BADGES;
   res.locals.pages = {};
   res.locals.now = Date.now();
@@ -147,6 +163,7 @@ app.get('/api/scores', async (req, res) => {
   }, {})
 
   res.status(200).send({
+    profileComplete: res.locals.profileComplete,
     level,
     answers: clean
   });
