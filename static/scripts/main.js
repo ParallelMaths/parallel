@@ -77,6 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
     el: '#vue',
     components: {VueTagsInput: window.vueTagsInput.default},
     data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge,
-      removeStudent, sortTable, badgeLevel: user.level || 'year6'}
+      removeStudent, sortTable}
   });
 });

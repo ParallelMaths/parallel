@@ -1,7 +1,6 @@
 const firebase = require('firebase-admin');
 const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
-const BADGES = require('../build/badges.json');
 
 const LEVELS = ['year6', 'year7', 'year8', 'year9', 'year10', 'year11'];
 
@@ -38,7 +37,6 @@ async function getUserData(uid) {
 
   if (!data.level) data.level = 'year8';
   if (!data.answers) data.answers = {};
-  data.badges = data.badges ? data.badges.split(',') : [];
   data.uid = uid;
 
   data.allPoints = {};
@@ -48,8 +46,6 @@ async function getUserData(uid) {
   }
 
   data.points = data.level ? (data.allPoints[data.level] || 0) : 0;
-  data.visibleBadges = data.level ? (BADGES[data.level] || [])
-      .filter(b => (data.points >= b.score)).reverse().slice(0, 4) : [];
 
   data.sidebarLevels = getSidebarLevels(data)
 

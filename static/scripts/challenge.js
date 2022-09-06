@@ -12,7 +12,6 @@ export default function() {
 
   const challenge = {
     answers: userData.answers,
-    showBadgeModal: true,
     submitted: userData.submitted,
 
     setAnswer(key, value) {

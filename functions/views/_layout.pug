@@ -109,14 +109,8 @@ html
                         a(v-on:click="user.toggleReset()") {{ user.loginForm.reset ? 'Back to login' : 'Reset password' }}
 
               if user && !user.code
-                .sidebar-field: a(href="/badges")
-                  | Your Badges
-                  if user.visibleBadges.length
-                    .badge-row
-                      for b in user.visibleBadges
-                        .badge(style='background-image: url(/images/badges/' + b.id + '.jpg); color: #' + b.color)
-                      if user.visibleBadges.length > 4
-                        .badge.more +
+                .sidebar-field: a(href="/awards")
+                  | Your Awards
 
               if !user || user.code || user.level !== 'year6'
                 div(class="toggle space-around")
