@@ -140,6 +140,7 @@ app.get('/api/user', async (req, res) => {
 app.get('/api/scores', async (req, res) => {
   const answers = res?.locals?.user?.answers || {};
   const level = res?.locals?.user?.level || 'year6';
+  const awardAdjustments = res?.locals?.user?.awardAdjustments;
 
   if(!res?.locals?.user) {
     return res.status(200).send({ error: true });
@@ -150,13 +151,15 @@ app.get('/api/scores', async (req, res) => {
 
     const year = 'year' + key.split('-')[0];
 
+    const afterMigration = time && time > 1661382000000 ? true : false;
+
     if(!submitted) return acc;
     if(!LEVELS.includes(year)) return acc;
 
     acc[year] = acc[year] || {};
 
     acc[year][key] = {
-      score, time, sameWeek
+      score, time, sameWeek, afterMigration 
     }
 
     return acc;
@@ -165,6 +168,7 @@ app.get('/api/scores', async (req, res) => {
   res.status(200).send({
     profileComplete: res.locals.profileComplete,
     level,
+    awardAdjustments,
     answers: clean
   });
 });
