@@ -83,7 +83,7 @@ Multiplying by three tens will give us three zeros at the end of the answer.
 :::
 
 ::: problem id=2_2 marks=2
-__2.2.__ Four different numbers multiply to give 100. What is their sum?
+__2.2.__ Four different numbers multiply to give 100 (which means that `A × B × C × D = 100`). What is their sum?
 
 <input type="number" solution="18"/>
 
