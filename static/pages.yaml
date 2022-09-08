@@ -151,28 +151,28 @@ year6:
     title:
     available: 2022-11-17T13:00:00
     deadline: 2022-11-20T15:00:00
-  - url: 6-10-
-    title:
+  - url: 6-10-parker-square
+    title: Mostly Magic Squares
     available: 2022-11-10T13:00:00
     deadline: 2022-11-13T15:00:00
-  - url: 6-09-
-    title:
+  - url: 6-09-pancakes
+    title: Pancake Numbers
     available: 2022-11-03T13:00:00
     deadline: 2022-11-06T15:00:00
-  - url: 6-08-
-    title:
+  - url: 6-08-cards
+    title: Pick A Card, Any Card
     available: 2022-10-27T13:00:00
     deadline: 2022-10-30T15:00:00
-  - url: 6-07-
-    title:
+  - url: 6-07-connect-four
+    title: Connect Four
     available: 2022-10-20T13:00:00
     deadline: 2022-10-23T15:00:00
-  - url: 6-06-
-    title:
+  - url: 6-06-face-time
+    title: Face Time
     available: 2022-10-13T13:00:00
     deadline: 2022-10-16T13:00:00
-  - url: 6-05-
-    title:
+  - url: 6-05-ten-factorial
+    title: 10!
     available: 2022-10-06T13:00:00
     deadline: 2022-10-09T13:00:00
   - url: 6-04-polyominoes

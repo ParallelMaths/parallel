@@ -162,6 +162,22 @@ __4.3__ I saw my math teacher with a piece of graph paper yesterday.
 :::
 
 
+## 5. Parallel Circles
+
+Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
+
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 2 Parallel Circle, at 5pm BST on Wednesday and repeated at 9.30am on Sunday.
+
+::: problem id=5_1 marks=1
+__5.1__ Will you be joining the Parallel Circle next week?  
+
+(Note: there is a right answer to this question!)
+
+* [x] Yes, I'll almost certainly be there!
+* [ ] No, I'm much too busy for all that extra maths!
+:::
+
+
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

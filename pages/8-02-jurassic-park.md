@@ -120,6 +120,22 @@ However, the 5:2 ratio also suggests that we might have 10 seniors and 4 veteran
 :::
 
 
+## 4. Parallel Circles
+
+Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
+
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 3 Parallel Circle, at 6.15pm BST on Wednesday and repeated at 10.45am on Sunday.
+
+::: problem id=4_1 marks=1
+__4.1__ Will you be joining the Parallel Circle next week?  
+
+(Note: there is a right answer to this question!)
+
+* [x] Yes, I'll almost certainly be there!
+* [ ] No, I'm much too busy for all that extra maths!
+:::
+
+
 If you missed the first Parallelogram, then try to go back and complete it. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
