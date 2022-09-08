@@ -10,8 +10,6 @@ We have different Parallel Circles maths circles for different age groups, and e
 
 Best of all, our maths circles are 100% interactive, so you won’t just watch mathematics, but you will do mathematics. You can answer questions via polls, send us answers in the chat and ask us questions, all live, all in real time.
 
-You will earn Parallel certificates and diplomas for participating in Circles, depending on how many you have attended.
-
 ## Parallelogram Puzzles (age guide 11 to 16)
 
 Each Thursday at 3pm (UK time), you will have access to a new set of online mathematical challenges tailored to your age. Each set of challenges is called a Parallelogram. We have been offering these for five years, and students have completed over 1 million Parallelograms.
@@ -20,7 +18,9 @@ It should take just 15 to 30 minutes to complete each Parallelogram. If you have
 
 As soon as you hit the SUBMIT button, you will be able to see the answers as well as your score. Most importantly of all, make sure you go through the solution sheet and try to learn from your mistakes.
 
-You will earn points depending on your percentage score on each Parallelogram, which in turn will earn mathematical badges. And, at the end of the summer, you will earn a Parallellogram certificate, which will be gold, silver or bronze, depending on how many points you have accumulated.
+## Score points, earn badges and certificates
+
+You will earn points for completing Parallelograms and attending Circles. Your points will unlock mathematical badges, as well as certificates that you can (and should!) download and print. Learn more on [the Awards page.](/awards)
 
 ## Get ready for the challenges ahead
 
