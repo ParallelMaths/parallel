@@ -141,6 +141,7 @@ app.get('/api/scores', async (req, res) => {
   const answers = res?.locals?.user?.answers || {};
   const level = res?.locals?.user?.level || 'year6';
   const awardAdjustments = res?.locals?.user?.awardAdjustments;
+  const isTeacher = !!res?.locals?.user?.code;
 
   if(!res?.locals?.user) {
     return res.status(200).send({ error: true });
@@ -169,7 +170,8 @@ app.get('/api/scores', async (req, res) => {
     profileComplete: res.locals.profileComplete,
     level,
     awardAdjustments,
-    answers: clean
+    answers: clean,
+    isTeacher
   });
 });
 
