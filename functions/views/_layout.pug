@@ -92,7 +92,7 @@ html
 
               .sidebar-circles-item: a(href="/circles")
                 div Parallel Circles
-                .sidebar-circles-subtext(id="sidebar-circles-text") Interactive live maths sessions
+                .sidebar-subtext(id="sidebar-circles-text") Interactive live maths sessions
                 .status.live.hidden(id="sidebar-circles-marker") LIVE
 
               if !user
@@ -110,7 +110,8 @@ html
 
               if user && !user.code
                 .sidebar-field: a(href="/awards")
-                  | Your Awards
+                  div Your Awards
+                  .sidebar-subtext(id="sidebar-circles-text") Badges are now part of the new Awards section
 
               if !user || user.code || user.level !== 'year6'
                 div(class="toggle space-around")
