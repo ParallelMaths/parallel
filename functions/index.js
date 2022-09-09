@@ -16,13 +16,11 @@ const express = require('express');
 const user = require('./utilities/user');
 const { countries } = require('./utilities/countries')
 
-const BADGES = require('./build/badges.json');
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
 const LEVEL_NAMES = {year6: 'Level 1', year7: 'Level 2', year8: 'Level 3', year9: 'Level 4', year10: 'Level 5', year11: 'Level 6', graduated: 'Graduated'};
 const LEVEL_NAMES_WITH_AGES = {year6: 'Level 1 (ages 11 and below)', year7: 'Level 2 (age 11-12)', year8: 'Level 3 (age 12–13)', year9: 'Level 4 (age 13–14)', year10: 'Level 5 (age 14–15)', year11: 'Level 6 (ages 15 and above)', graduated: 'Graduated'};
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const BADGE_NAMES = {ancient: 'Ancient Hero', geometry: 'Geometry', historic: 'Historic Hero', number: 'Number', modern: 'Modern Hero'};
 
 const PAGES_MAP = {};
 for (let l of LEVELS) {
@@ -83,13 +81,11 @@ app.use((req, res, next) => {
   res.locals.isProduction = process.env.NODE_ENV === 'production';
   res.locals.user = req.user;
   res.locals.profileComplete = isProfileComplete(req.user);
-  res.locals.badges = BADGES;
   res.locals.pages = {};
   res.locals.now = Date.now();
   res.locals.levels = LEVELS;
   res.locals.levelNames = LEVEL_NAMES;
   res.locals.levelNamesWithAges = LEVEL_NAMES_WITH_AGES;
-  res.locals.badgeNames = BADGE_NAMES;
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
 
@@ -201,9 +197,6 @@ app.get('/login', (req, res) => {
   if(res?.locals?.user?.code){
     res.redirect('/dashboard')
   }
-  if(res?.locals?.user){
-    res.redirect('/badges')
-  }
   res.redirect('/');
 })
 
@@ -217,11 +210,6 @@ app.get('/home-educator-form', (req, res) => {
   if (!req.user) return error(res, 401);
   res.locals.sidebarDisabled = true
   res.render('home-educator');
-});
-
-app.get('/badges', (req, res) => {
-  if (!req.user) return error(res, 401);
-  res.render('badges', {showAllBadges: ('reveal' in req.query)});
 });
 
 app.get('/signup', (req, res) => {
@@ -332,25 +320,7 @@ app.get('/:pid', (req, res, next) => {
   const userData = {answers, uid: req.user ? req.user.uid : '',
     submitted: ('reveal' in req.query) || answers.submitted || false};
 
-  let badgeLevel = req?.user?.level;
-
-  if(['year5', 'year6'].includes(req?.user?.level)) badgeLevel = 'year7';
-  if(['year12', 'year13'].includes(req?.user?.level)) badgeLevel = 'year11';
-
-  let newBadge = null;
-  if (req.user && !req.user.code) {
-    for (let b of BADGES[badgeLevel]) {
-      if (b.score <= req.user.points && req.user.badges.indexOf(b.id) < 0) {
-        req.user.badges.push(b.id);
-        newBadge = b;
-        userDB.doc(req.user.uid) // async
-            .update({badges: req.user.badges.join(',')})
-            .catch(() => console.error('Failed to update badges', req.user.uid));
-      }
-    }
-  }
-
-  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData, newBadge});
+  res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData});
 });
 
 app.use((req, res) => error(res, 404));
