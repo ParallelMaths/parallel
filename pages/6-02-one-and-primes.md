@@ -16,11 +16,11 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. One and Prime Numbers
+## 1. One and prime numbers
 
 @[youtube](watch?v=IQofiPqhJ_s?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-:::problem id=1_1 marks=2
+::: problem id=1_1 marks=2
 __1.1__ Which important theorem excludes 1 from being considered a prime number?
 
 * [ ] The Fundamental Theorem of Analysis
@@ -46,7 +46,7 @@ __1.3__ In the the video, James followed a pattern to show 1 is a product of zer
 * [ ] NP Product
 :::
 
-## 2. Primes, Squares and Cubes
+## 2. Primes, squares and cubes
 
 Primes, Square Numbers and Cube Numbers are the gems of the number world!  
 

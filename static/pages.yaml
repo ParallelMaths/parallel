@@ -71,8 +71,8 @@ year6:
     title:
     available: 2023-04-06T13:00:00
     deadline: 2023-04-09T13:00:00
-  - url: 6-30-
-    title:
+  - url: 6-30-parker-square
+    title: Mostly Magic Squares
     available: 2023-03-30T13:00:00
     deadline: 2023-04-02T13:00:00
   - url: 6-29-
@@ -151,8 +151,8 @@ year6:
     title:
     available: 2022-11-17T13:00:00
     deadline: 2022-11-20T15:00:00
-  - url: 6-10-parker-square
-    title: Mostly Magic Squares
+  - url:
+    title:
     available: 2022-11-10T13:00:00
     deadline: 2022-11-13T15:00:00
   - url: 6-09-pancakes
@@ -407,7 +407,7 @@ year8:
     title: Spuds Sums
     available: 2023-07-06T13:00:00
     deadline: 2023-07-09T13:00:00
-  - url:
+  - url: 8-43-
     title:
     available: 2023-06-29T13:00:00
     deadline: 2023-07-02T13:00:00
@@ -459,16 +459,16 @@ year8:
     title: In the art gallery
     available: 2023-04-06T13:00:00
     deadline: 2023-04-09T13:00:00
-  - url: 8-30-easter-challenges
-    title: Easter challenges
+  - url: 8-30-wombat-geometry
+    title: Wombat Geometry
     available: 2023-03-30T13:00:00
     deadline: 2023-04-02T13:00:00
   - url: 8-29-paper-ink
     title: Paper and ink
     available: 2023-03-23T13:00:00
     deadline: 2023-03-26T13:00:00
-  - url: 8-28-easter-challenges
-    title: Easter challenges
+  - url: 8-28-laurels-hardy
+    title: Laurels and Hardy
     available: 2023-03-16T13:00:00
     deadline: 2023-03-19T13:00:00
   - url: 8-27-colour-code-challenge
@@ -597,12 +597,12 @@ year9:
     title: Catching Kendama
     available: 2023-07-13T13:00:00
     deadline: 2023-07-16T13:00:00
-  - url: 9-44-summer-sums
+  - url: 9-44-money-catching
     title: Money catching
     available: 2023-07-06T13:00:00
     deadline: 2023-07-09T13:00:00
-  - url: 9-43-summer-sums
-    title: Summer Sums
+  - url: 9-43-wright-stuff
+    title: The Wright Stuff
     available: 2023-06-29T13:00:00
     deadline: 2023-07-02T13:00:00
   - url: 9-42
@@ -741,8 +741,8 @@ year9:
     title: Checkmate
     available: 2022-11-03T13:00:00
     deadline: 2022-11-06T15:00:00
-  - url: 9-08-chrismaths
-    title: Checkmate
+  - url: 9-08-mighty-magic-square
+    title: Mighty Magic Square
     available: 2022-10-27T13:00:00
     deadline: 2022-10-30T15:00:00
   - url: 9-07-queen-of-katwe

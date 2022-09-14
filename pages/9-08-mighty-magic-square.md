@@ -1,4 +1,4 @@
-# Chrismaths Y9
+# Mighty Magic Square
 
 <div class="dictionary">
 
@@ -16,10 +16,33 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1.
+## 1. Prime magic square  
+
+This is a terrific little video about about a mighty PRIME magic suare from the YouTuber Vsauce. Take a look and answer the questions below.  
+
+@[youtube](watch?v=vxN5BZY4FXM?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=1_1 marks=1
+__1.1__ Kevin admits that one of the elements in this magic square is NOT prime. Which number in the magic square is not prime?
+
+<input type="number" solution="1"/>
+:::
+
+::: problem id=1_2 marks=2
+__1.2__ The rows, columns and diagonals add up to 9,635. How many prime factors does it have?
+
+<input type="number" solution="2"/>
+
+---
+
+9,635 = 5 × 1,927
+:::
+
+
+## 2.
 <!--- (2012) Q1 --->
 
-::: problem id=1_1 marks=3
+::: problem id=2_1 marks=3
 How many of the following four numbers are prime?
 
 3  
@@ -45,10 +68,10 @@ The number 3 is prime, but the other numbers listed are not prime:
 :::
 
 
-## 2.
+## 3.
 
-::: problem id=2_1 marks=3
-![](/resources/9-08-chrismaths/6-triangle.jpg){image align="right"}
+::: problem id=3_1 marks=3
+![](/resources/9-08-mighty-magic-square/6-triangle.jpg){image align="right"}
 Triangle `QRS` is isosceles and right-angled.  
 
 Beatrice reflects the P-shape in the side `QR` to get an image.  
@@ -59,7 +82,7 @@ Finally, she reflects the second image in the side `RS` to get a third image.
 
 What does the third image look like?
 
-![](/resources/9-08-chrismaths/6-triangle-options.jpg){image align="center"}
+![](/resources/9-08-mighty-magic-square/6-triangle-options.jpg){image align="center"}
 
 * [x] A)
 * [ ] B)
@@ -72,16 +95,16 @@ What does the third image look like?
 
 The effect of the successive reflections is shown in the diagram.
 
-![](/resources/9-08-chrismaths/6-triangle-answer.jpg){image align="center"}
+![](/resources/9-08-mighty-magic-square/6-triangle-answer.jpg){image align="center"}
 :::
 
 
-## 3.
+## 4.
 
-::: problem id=3_1 marks=3
+::: problem id=4_1 marks=3
 In the diagram, `PQRS` is a parallelogram; `∠QRS = 50°`; `∠SPT = 62°` and `PQ = PT`.
 
-![](/resources/9-08-chrismaths/11-parallelogram.jpg){image align="center"}
+![](/resources/9-08-mighty-magic-square/11-parallelogram.jpg){image align="center"}
 
 What is the size of `∠TQR`?
 
@@ -106,10 +129,10 @@ Therefore, `∠TQR = ∠PQR - ∠PQT = 130° - 34° = 96°`.
 :::
 
 
-## 4.
+## 5.
 
-::: problem id=4_1 marks=4
-![](/resources/9-08-chrismaths/16-triangle.jpg){image align="right"}
+::: problem id=5_1 marks=4
+![](/resources/9-08-mighty-magic-square/16-triangle.jpg){image align="right"}
 The diagram shows a large equilateral triangle divided by three straight lines into seven regions.
 
 The three grey regions are equilateral triangles with sides of length 5 cm and the central black region is an equilateral triangle with sides of length 2 cm.  
@@ -125,7 +148,7 @@ What is the side length of the original large triangle?
 
 ---
 
-![](/resources/9-08-chrismaths/16-triangle-answer.jpg){image align="right"}
+![](/resources/9-08-mighty-magic-square/16-triangle-answer.jpg){image align="right"}
 Let `P, Q, R, S, T, U` and `V` be the points shown. All the angles in all the triangles are 60°. So `∠QRT = ∠PSU` and hence `RT` is parallel to `SU`.  
 
 Similarly, as `∠RSV = ∠TUV`, `RS` is parallel to `TU`. Therefore `RSUT` is a parallelogram.  
@@ -136,10 +159,10 @@ So the length of `PS` which is the sum of the lengths of `PQ`, `QS` and `RS` is 
 :::
 
 
-## 5.
+## 6.
 
-::: problem id=5_1 marks=5
-![](/resources/9-08-chrismaths/21-parallelogram.jpg){image align="right"}
+::: problem id=6_1 marks=5
+![](/resources/9-08-mighty-magic-square/21-parallelogram.jpg){image align="right"}
 The parallelogram PQRS is formed by joining together four equilateral triangles of side 1 unit, as shown.  
 
 What is the length of the diagonal SQ?
@@ -153,7 +176,7 @@ What is the length of the diagonal SQ?
 
 ---
 
-![](/resources/9-08-chrismaths/21-parallelogram-answer.jpg){image align="right"}  
+![](/resources/9-08-mighty-magic-square/21-parallelogram-answer.jpg){image align="right"}  
 Let `T` be the foot of the perpendicular from `Q` to the line `SR` extended. Now `RQT` is half of an equilateral triangle with side length 1. Hence the length of `RT` is 1/2 and hence `ST` has length `1 + 1 + 1/2 = 5/2`.
 
 By Pythagoras’ Theorem applied to the right angled triangle `RQT, (1)^2 = (1/2)^2 + QT^2`.

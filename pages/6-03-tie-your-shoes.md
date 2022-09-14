@@ -16,7 +16,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.  
 
 
-## 1. Why Waste Time When You Could Use Maths?
+## 1. Why waste time when you could use maths?
 
 Watch this Numberphile video showing a super fast way to tie your shoes
 
@@ -43,7 +43,7 @@ __1.2__ Before the loops are passed over to the other hand they must be going:
 * [x] Different directions, one looping forward, one looping backwards
 :::
 
-:::problem id=1_3 marks=2
+::: problem id=1_3 marks=2
 __1.3__ This Trefoil Knot has three "crossings"
 ![](/resources/6-03-tie-your-shoes/3-trefoil-knot.png){image align="center"}
 
@@ -53,7 +53,7 @@ What is the combined total of the crossings of these knots?
 <input type="number" solution="18"/> crossings
 :::
 
-## 2. Life is Easier with Maths
+## 2. Life is easier with maths
 
 From tying your shoelaces, to cutting a cake, to finding the quickest route on Google Maps, Maths can be used to make life easier and more efficient.
 

@@ -16,13 +16,13 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. Card Tricks, Magic or Mathematics?
+## 1. Card tricks, magic or mathematics?
 
 Watch this video where Anastasia Chaves shows us an astounding card trick you can try at home
 
 @[youtube](watch?v=d7dg7gVDWyg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-It seems magical at first but really it is Mathematical (which is a magic in its own way).
+It seems magical at first but really it is mathematical (which is a magic in its own way).
 
 ::: problem id=1_1 marks=2
 __1.1.__ When dividing by 3 what are the possible remainders?
@@ -70,22 +70,30 @@ If she had tried to randomly guess which card was the right one, what is the pro
 {.col-4}
 :::
 
-## 2. Suits You!
+## 2. Suits you!
 
 Three monkeys met for tea in their favourite cafe, taking off their hats as they arrived. When they left, they each put on one of the hats at random.
 
 ::: problem id=2_1 marks=2
 __2.1__ What is the probability that they all left wearing the wrong hat?
 
-* [ ] `1/3`
+* [x] `1/3`
 * [ ] `1/2`
-* [x] `1/4`
+* [ ] `1/4`
 * [ ] `1/6`
 {.col-4}
 
 ^^^ hint id=2_1_1 marks=1
 You could make a grid of possible options.
 ^^^
+
+---
+
+There are three monkeys, so they can pick their hats up in one of six different orders:  
+
+![](/resources/6-08-cards/2-monkeyhats-solution.png){image align="center"}
+
+Of those six orders, only two of them involve all three monkeys picking up the wrong hat - or `1/3` of the options.
 :::
 
 ::: problem id=2_2 marks=2

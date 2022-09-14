@@ -16,7 +16,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. 10 Factorial
+## 1. 10!
 
 We’re not shouting 10 at you! Although we are always excited about numbers, that’s not quite what we mean when using that exclamation mark.  
 
@@ -60,7 +60,7 @@ How many different ways are there to arrange them on the shelf?
 
 ---
 
-There are 6 different ways to arrange 3 objects, you might notice that `3 × 2 × 1 = 6`.
+There are 6 different ways to arrange 3 objects. You might notice that `3 × 2 × 1 = 6`.
 
 So to arrange 4 objects, you could do `4! = 4 × 3 × 2 × 1 = 24`.  
 
@@ -68,7 +68,7 @@ There are 24 different ways to arrange 4 objects.
 :::
 
 
-## 2. Factor It In
+## 2. Factor it in
 
 ::: problem id=2_1 marks=2
 __2.1.__ If the numbers 5, 10, 15 and 20 are all multiplied together, how many zeros are at the end of the answer?

@@ -1,4 +1,4 @@
-# Summer Sums
+# The Wright Stuff
 
 <div class="dictionary">
 
@@ -16,11 +16,42 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1.
+## 1. Inspirational teachers
+
+Arthur Cayley is one of the great British mathematicians of the Victorian era.  
+
+His father wanted him to become a merchant join the family business, but Cayley’s teacher at King’s College School persuaded the father that the boy had a tremendous mathematical talent which should be encouraged, not wasted.  
+
+As a result, the young Cayley went to Cambridge University and flourished.  
+
+I am mentioning this, because teachers can have a tremendous influence on our lives.  
+
+Here is a video about England Arsenal footballer Ian Wright meeting the teacher who inspired him and who changed his life.  
+
+It’s a really emotional clip. I have watched it several times, and it still moves me.
+
+@[youtube](watch?v=6caCqn_nD6o?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+And here is a video of cosmologist Stephen Hawking recalling the teacher who changed his life.
+
+@[youtube](watch?v=2srGloZ673A?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=1_1 marks=2
+__1.1__ How did Hawking’s teacher describe mathematics?
+
+* [x] The blueprint of the universe
+* [ ] The heart of the universe
+* [ ] The imprint of the universe
+* [ ] The manuscript of the universe
+* [ ] The child of the universe:::
+:::
+
+
+## 2.
 <!--- 2015 (13) --->
-::: problem id=1_1 marks=4
-![](/resources/9-43-summer-sums/16-rectangle.jpg){image align="right"}
-__1.1__ What is the area of the shaded region in the rectangle?
+::: problem id=2_1 marks=4
+![](/resources/9-43-wright-stuff/16-rectangle.jpg){image align="right"}
+__2.1__ What is the area of the shaded region in the rectangle?
 
 * [x] 21 cm<sup>2</sup>
 * [ ] 22 cm<sup>2</sup>
@@ -29,15 +60,15 @@ __1.1__ What is the area of the shaded region in the rectangle?
 * [ ] more information needed
 {.col-5}
 
-^^^ hint id=1_1
+^^^ hint id=2_1
 This question is not that hard to solve algebraically or by drawing some lines and seeing some symmetries. However, I decided to take an extreme version of squeezing one of the triangles and expanding the other, so that we have the following, which has an area which is easy to calculate. This means that the answer is either the shaded area or “more information needed”.
 
-![](/resources/9-43-summer-sums/16-rectangle-hint.jpg){image align="centre"}
+![](/resources/9-43-wright-stuff/16-rectangle-hint.jpg){image align="centre"}
 ^^^
 
 ---
 
-![](/resources/9-43-summer-sums/16-rectangle-answer.jpg){image align="right"}
+![](/resources/9-43-wright-stuff/16-rectangle-answer.jpg){image align="right"}
 We divide the rectangle into four smaller rectangles by the vertical dashed lines as shown in the figure. It is then evident that the shaded area is the sum of exactly half the area of each of the smaller rectangles.  
 
 Therefore the total shaded area is half the total area of the original rectangle. So the shaded area is `1/2 (3 × 14)` cm<sup>2</sup> = 21 cm<sup>2</sup>.  
@@ -48,10 +79,10 @@ We could also solve this question algebraically. We let the top edges of the two
 :::
 
 
-## 2.
+## 3.
 <!--- 2015 (14) --->
-::: problem id=2_1 marks=4
-__2.1__ In a sequence, each term after the first two terms is the mean of all the terms which come before that term. The first term is 8 and the tenth term is 26.
+::: problem id=3_1 marks=4
+__3.1__ In a sequence, each term after the first two terms is the mean of all the terms which come before that term. The first term is 8 and the tenth term is 26.
 
 What is the second term?
 
@@ -88,11 +119,11 @@ In the sequence we are given in the question the first term is 8 and the tenth t
 :::
 
 
-## 3.
+## 4.
 <!--- 2015 (19) --->
-::: problem id=3_1 marks=4
-![](/resources/9-43-summer-sums/19-figure.jpg){image align="right"}
-__3.1__ The figure shows four smaller squares in the corners of a large square.  
+::: problem id=4_1 marks=4
+![](/resources/9-43-wright-stuff/19-figure.jpg){image align="right"}
+__4.1__ The figure shows four smaller squares in the corners of a large square.  
 
 The smaller squares have sides of length 1 cm, 2 cm, 3 cm and 4 cm (in anticlockwise order) and the sides of the large square have length 11 cm.  
 
@@ -107,7 +138,7 @@ What is the area of the shaded quadrilateral?
 
 ---
 
-![](/resources/9-43-summer-sums/19-figure-answer.jpg){image align="right"}
+![](/resources/9-43-wright-stuff/19-figure-answer.jpg){image align="right"}
 We work out the area that is not shaded and subtract this area from that of the large square.  
 
 The area that is not shaded is made up of the four corner squares and four trapeziums.  
@@ -137,17 +168,17 @@ The large square has area `11^2` cm<sup>2</sup> = 121 cm<sup>2</sup>. Therefore 
 :::
 
 
-## 4.
+## 5.
 <!--- 2015 (24) --->
-::: problem id=4_1 marks=5
-![](/resources/9-43-summer-sums/29-graph.jpg){image align="right"}
-__4.1__ In square `RSTU` a quarter-circle arc with centre `S` is drawn from `T` to `R`.  
+::: problem id=5_1 marks=5
+![](/resources/9-43-wright-stuff/29-graph.jpg){image align="right"}
+__5.1__ In square `RSTU` a quarter-circle arc with centre `S` is drawn from `T` to `R`.  
 
 A point `P` on this arc is 1 unit from `TU` and 8 units from `RU`.  
 
 What is the length of the side of square `RSTU`?
 
-^^^ hint id=4_1
+^^^ hint id=5_1
 This is a tough geometry question. So here is an unusual hint – the answer is a vowel.
 ^^^
 
@@ -159,7 +190,7 @@ This is a tough geometry question. So here is an unusual hint – the answer is 
 {.col-5}
 
 ---
-![](/resources/9-43-summer-sums/29-graph-answer.jpg){image align="right"}
+![](/resources/9-43-wright-stuff/29-graph-answer.jpg){image align="right"}
 Suppose that `x` is the length of the sides of the square `RSTU`. We need to find the value of `x`.  
 
 We let `K` be the point where the perpendicular from `P` to `RS` meets `RS`, and `L` be the point where the perpendicular from `P` to `ST` meets `ST`, as shown in the figure. Then `PK` has length `x − 1`, and so also does `LS`. Also, `PL` has length `x − 8`.  
@@ -186,11 +217,11 @@ which has the solutions `x = 5` and `x = 13`. Since `x − 8` is the length of P
 :::
 
 
-## 5.
+## 6.
 <!--- 2015 (25) --->
-::: problem id=5_1 marks=5
-![](/resources/9-43-summer-sums/30-triangle.jpg){image align="right"}
-__5.1__ A point is marked one quarter of the way along each side of a triangle, as shown.  
+::: problem id=6_1 marks=5
+![](/resources/9-43-wright-stuff/30-triangle.jpg){image align="right"}
+__6.1__ A point is marked one quarter of the way along each side of a triangle, as shown.  
 
 What fraction of the area of the triangle is shaded?
 
@@ -202,7 +233,7 @@ What fraction of the area of the triangle is shaded?
 {.col-5}
 
 ---
-![](/resources/9-43-summer-sums/30-triangle-answer.jpg){image align="right"}
+![](/resources/9-43-wright-stuff/30-triangle-answer.jpg){image align="right"}
 We use the notation `△XYZ` for the area of a triangle `XYZ`.  
 
 We let `P`, `Q` and `R` be the vertices of the triangle, and let `S`, `T` and `U` be the points one quarter of the way along each side, as shown in the figure.  

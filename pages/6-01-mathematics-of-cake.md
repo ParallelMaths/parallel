@@ -16,7 +16,7 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1.	The Scientific Way to Cut a Cake
+## 1.	The scientific way to cut a cake
 
 Watch this Numberphile video about the best way to cut a cake and answer a few questions.
 
@@ -61,7 +61,7 @@ If you have been taught about `π`, then you might know that that the area of a 
 `πr^2 × h = π × 20^2 × 10 = 12,566` cm<sup>3</sup>
 :::
 
-## 2. A Cake Conundrum
+## 2. A cake conundrum
 
 Watch this video and find out how to solve the cake conundrum. pause the video before the end to see how you can solve the problem before the answer is revealed.
 

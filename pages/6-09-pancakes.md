@@ -16,9 +16,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. Flipping Good Maths
+## 1. Flipping good maths
 
-Pi, Sandwich Theorem, Nugget Numbers... being a Mathematician can make you hungry! But there’s always room for more Maths.  
+Pi, Sandwich Theorem, Nugget Numbers... being a mathematician can make you hungry! But there’s always room for more maths.  
 
 Watch this video where Katie Steckles explains the Maths behind flipping pancakes.  
 
@@ -42,7 +42,7 @@ Exactly how many flips are needed to reorder 20 pancakes?
 {.col-5}
 :::
 
-:::problem id=1_3 marks=2
+::: problem id=1_3 marks=2
 __1.3__ Katie showed us the new and improved formula to calculate the “upper bound” for a pancake number is `(18n)/11`, or `18 × (the number of pancakes)/11`.
 
 What is the upper bound for 22 pancakes?
@@ -59,7 +59,7 @@ Using substitution `18 × 22 / 11 = 36`
 :::
 
 
-## 2. Another Pancake Puzzle
+## 2. Another pancake puzzle
 
 ::: problem id=2_1 marks=2
 __2.1__ You flip over a pancake to find some parts have been charred! What fraction of the pancake is burned?
@@ -77,8 +77,8 @@ __2.1__ You flip over a pancake to find some parts have been charred! What fract
 Each burned part has an equivalent perfectly cooked part, so half of the pancake is burned.
 :::
 
-:::problem id=2_2 marks=2
-__2.2__ You are a hungry Mathematician and you are offered either one pancake with an 12cm diameter, or two pancakes with a 6cm diameter.
+::: problem id=2_2 marks=2
+__2.2__ You are a hungry mathematician and you are offered either one pancake with an 12cm diameter, or two pancakes with a 6cm diameter.
 
 Assuming you would like as much pancake as possible, which option should you choose?
 

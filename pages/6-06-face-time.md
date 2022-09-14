@@ -16,9 +16,9 @@ week by the Parallel Project to bright young mathematicians.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
 
-## 1. When Do Clock Hands Overlap?
+## 1. When do clock hands overlap?
 
-It's always a good time to think about clocks! Both Analogue and Digital clocks are fascinating in their own ways.  
+It's always a good time to think about clocks! Both analogue and digital clocks are fascinating in their own ways.  
 
 Watch this video where mathematical treasure, Cliff Stoll, asks a question to get the cogs turning.
 
@@ -60,11 +60,11 @@ After 12 the numbers start to “go round again”, just like on a 24 hour clock
 
 This is called modular arithmetic, and in this case in particular modulo 12.
 
-11 + 11 = 22 but mod. 12 that would give 10, just as 2200 is 10 o’clock.
+11 + 11 = 22, but modulo 12 would give 10, just as 22.00 is 10 o’clock.
 :::
 
 
-## 2. A Glitch In Time
+## 2. A glitch in time
 
 ::: problem id=2_1 marks=2
 __2.1.__ Leap years occur when the year is divisible by 4, or 400, but not if they are divisible by 100.  

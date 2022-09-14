@@ -75,7 +75,7 @@ The odd pentomino out has a perimeter of 10.
 (12 × 11) + (10 × 1) gives us a total combined perimeter of 142.
 :::
 
-## 2 Hexominoes and Nets of Cubes
+## 2 Hexominoes and nets of cubes
 
 ::: problem id=2_1 marks=2
 __2.1__ All nets of cubes are hexominoes, but not all hexominoes are nets of cubes.  

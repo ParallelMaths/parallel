@@ -35,7 +35,7 @@ __1.1.__ What is the starting strategy which will result in a certain win, if th
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ There are seven starting moves, from which player two will then place their first counter.  
+__1.2.__ There are seven starting moves for player one, after which player two will then place their first counter.  
 
 How many “configurations” could the game be in after each player has made their opening move?
 
@@ -47,7 +47,7 @@ For each of the seven starting positions player one could chose there are anothe
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ The standard connect four grid has 7 rows and 6 columns.  
+__1.3.__ The standard Connect Four grid has 7 rows and 6 columns.  
 
 What is the longest possible diagonal connection which could be made?
 
@@ -57,7 +57,7 @@ What is the longest possible diagonal connection which could be made?
 
 ## 2. Maths is all fun and games!
 
-Most, if not all, games can be viewed in a Mathematically. Dominos, Noughts and Crosses, and of course Chess can all be misused in a Mathematical way.
+Most, if not all, games can be viewed in a mathematical way. Dominos, noughts and crosses, and (of course) chess can all be examined mathematically.
 
 Have a go at this domino based puzzle from the 2012 UKMT Junior Challenge.
 

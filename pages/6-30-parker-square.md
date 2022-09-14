@@ -18,9 +18,9 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. The Parker Square
 
-Magic squares have fascinated people throughout history, but Mathematicians still don’t know everything about them!
+Magic squares have fascinated people throughout history, but mathematicians still don’t know everything about them!
 
-Watch this video where Matt Parker tries his best at this unsolved Magic Square problem
+Watch this video where Matt Parker tries his best at this unsolved magic square problem
 
 @[youtube](watch?v=aOT_bG-vWyg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -67,7 +67,7 @@ What is the magic total for this addition magic square?
 
 ## 2. Gridlock
 
-::: problem id=2_1 marks=4
+::: problem id=2_1 marks=3
 ![](/resources/6-10-parker-square/2-grid-puzzle.png){image align="right"}
 __2.1__ In the multiplication grid shown, the input factors (the ones that would appear in the first row and the first column) are all missing.  
 
@@ -83,16 +83,28 @@ What is the value of A + B + C + D + E?
 {.col-5}
 
 ^^^ hint id=1_2_1 marks=1
-In column A we have 15 and 18, what times table includes both of these numbers? This should go at the top of the column.
+In column A we have 15 and 18 - what times table includes both of these numbers? This should be the input factor and go at the top of the column.
 
 Now we can figure out row C.
 ^^^
 
 ^^^ hint id=1_2_1 marks=1
-In row B we have 15 and 40, they're both in the 5 times table! Put 5 at the start of the row.
+In row B we have 15 and 40, and they're both in the 5 times table! Put 5 as the input factor at the start of the row.
 
 Now we can figure out column C.
 ^^^
+
+---
+
+The 2nd row must be multiples of 5, as that is the only common factor of 15 and 40.
+
+So 15 is 5 × 3 and 40 is 5 × 8.  
+
+Therefore, we know that the first column is headed by 3 and the middle column is headed by 8.  
+
+In turn, this tells us that the input factor for the bottom row is 7, because 7 × 8 = 56.
+
+Eventually, we can deduce that A + B + C + D + E = 6 + 25 + 48 + 40 + 42 = 161
 :::
 
 
