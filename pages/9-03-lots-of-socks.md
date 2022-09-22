@@ -201,6 +201,26 @@ __5.1__ If you do want to give us an alternate email address, be sure to click t
 :::
 
 
+## 6. Big changes in the Parallel Universe
+
+There are some big changes to the Parallel Universe, so here is a quick message from Simon.  
+
+@[youtube](watch?v=GFFcRY235fI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=6_1 marks=2
+__6.1__ In the video, Simon talks about Parallel maths circles (you can [find out more about maths circles here](/circles)).  
+
+According to Simon, how many maths circles are available to join for free on the Parallel website every week?
+
+* [ ] 10
+* [ ] 11
+* [ ] 12
+* [x] 13
+* [ ] 14
+{.col-5}
+:::
+
+
 If you missed the first two Parallelograms, then try to go back and complete them. After all, you can earn reward points and badges by completing each Parallelogram. Find out more by visiting the Rewards Page after you hit the SUBMIT button.
 
 There will be another Parallelogram next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.

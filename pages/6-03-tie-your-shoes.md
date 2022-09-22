@@ -44,10 +44,10 @@ __1.2__ Before the loops are passed over to the other hand they must be going:
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ This Trefoil Knot has three "crossings"
+__1.3__ This Trefoil Knot has three "crossings"  
 ![](/resources/6-03-tie-your-shoes/3-trefoil-knot.png){image align="center"}
 
-What is the combined total of the crossings of these knots?
+What is the combined total of the crossings of these knots?  
 ![](/resources/6-03-tie-your-shoes/3-multipleknots.png){image align="center"}  
 
 <input type="number" solution="18"/> crossings
@@ -82,6 +82,26 @@ One of these numbers can be divided by 4 to give a whole number. Without doing t
 ---
 
 If the last two digits of a number are in the 4 times table then the whole number is divisible by 4, no matter how big it is!
+:::
+
+
+## 3. Big changes in the Parallel Universe
+
+There are some big changes to the Parallel Universe, so here is a quick message from Simon.  
+
+@[youtube](watch?v=GFFcRY235fI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+
+::: problem id=3_1 marks=2
+__3.1__ In the video, Simon talks about Parallel maths circles (you can [find out more about maths circles here](/circles)).  
+
+According to Simon, how many maths circles are available to join for free on the Parallel website every week?
+
+* [ ] 10
+* [ ] 11
+* [ ] 12
+* [x] 13
+* [ ] 14
+{.col-5}
 :::
 
 
