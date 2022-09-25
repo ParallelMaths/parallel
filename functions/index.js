@@ -15,6 +15,7 @@ const functions = require('firebase-functions');
 const express = require('express');
 const user = require('./utilities/user');
 const { countries } = require('./utilities/countries')
+const isProfileComplete = require('./utilities/profileComplete');
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -51,22 +52,6 @@ function error(res, code) {
 function letterOrder(a, b) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
-
-function isProfileComplete(userData) {
-  if(!userData) return false;
-  if(!userData.birthMonth) return false;
-  if(!userData.birthYear) return false;
-  if(!userData.country) return false;
-  if(!userData.studentPanelConsidered) return false;
-
-  if(!userData.homeEducated) {
-    if(!userData.schoolEmail) return false;
-    if (userData.country === 'GB' && !userData.schoolPostcode) return false;
-  }
-
-  return true;
-}
-
 
 // -----------------------------------------------------------------------------
 // Set up Express App
