@@ -141,7 +141,7 @@ app.get('/api/scores', async (req, res) => {
     acc[year] = acc[year] || {};
 
     acc[year][key] = {
-      score, time, sameWeek, afterMigration 
+      score, time, sameWeek, afterMigration
     }
 
     return acc;
@@ -166,9 +166,9 @@ const redirects = {
 
 Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
 
-const pagesWithoutSidebar = ['primary-parallel', 'job-ad']
+const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad']
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'primary-parallel', 'masterclass', 'troubleshooting']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
