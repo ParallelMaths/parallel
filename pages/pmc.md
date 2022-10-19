@@ -4,7 +4,9 @@ Our aim is to increase the number and diversity of excellent mathematicians, whi
 
 The Primary Maths Challenge is aimed at students aged 8 to 11 years old, based anywhere in the world. Each year, the Primary Maths Challenge consists of 25 questions that will require students to use their __problem solving and reasoning skills__. For [more information on the Primary Maths Challenge, click here](https://drive.google.com/file/d/10nBzFazZx3aTykiIOZNnWMOjDt0JX4Mu/view?usp=sharing){target="_blank"}.  
 
-You can secure your free entry by [creating a teacher account on Parallel](/signup#teacher). It’s quick and free, and will give you access to other amazing opportunities throughout the year. You can find out more about [Parallel, our free maths circles and puzzle sheets, here](/?teachers).
+You can secure your free entry by [creating a teacher account on Parallel](/signup#teacher). It’s quick and free, and will give you access to other amazing opportunities throughout the year. Once you create your account, we will follow up within 48 hours with a link to register for the Primary Maths Challenge.  
+
+You can find out more about [Parallel, our free maths circles and puzzle sheets, here](/?teachers).  
 
 Please note that places will be offered on a first come, first served basis. To be eligible, your school must not have participated in the Primary Maths Challenge in 2021.  
 
