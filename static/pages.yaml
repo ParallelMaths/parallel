@@ -139,20 +139,20 @@ year6:
     title:
     available: 2022-12-08T13:00:00
     deadline: 2022-12-11T13:00:00
-  - url: 6-13-
-    title:
+  - url: 6-13-square-sum
+    title: Alright For Sum
     available: 2022-12-01T13:00:00
     deadline: 2022-12-04T13:00:00
-  - url: 6-12-
-    title:
+  - url: 6-12-sound-sequences
+    title: The Sound Of Sequences
     available: 2022-11-24T13:00:00
     deadline: 2022-11-27T15:00:00
-  - url: 6-11-
-    title:
+  - url: 6-11-maths-years
+    title: Year Of The Mathematician
     available: 2022-11-17T13:00:00
     deadline: 2022-11-20T15:00:00
-  - url: 6-10-
-    title:
+  - url: 6-10-jumping-frogs
+    title: Jumping Frogs
     available: 2022-11-10T13:00:00
     deadline: 2022-11-13T15:00:00
   - url: 6-09-pancakes
