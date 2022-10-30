@@ -10,9 +10,18 @@ fb.initializeApp({
     databaseURL: 'https://parallel-cf800.firebaseio.com'
 });
 
-const cacheFilePath = path.join(__dirname, `../../private/cache-users.json`);
+const cacheFilePath1 = path.join(__dirname, `../../private/cache-users-1.json`);
+const cacheFilePath2 = path.join(__dirname, `../../private/cache-users-2.json`);
 
 const cacheLengthMs = 1000*60*60;
+
+function chunkArrayInGroups(arr, size) {
+    var myArray = [];
+    for (var i = 0; i < arr.length; i += size) {
+        myArray.push(arr.slice(i, i + size));
+    }
+    return myArray;
+}
 
 const runDownload = async () => {
     const command = 'npm run export-users';
@@ -50,8 +59,8 @@ const loadAllUserData = async (limit, offset, users) => {
 const runAll = async () => {
 
 
-    if(fs.existsSync(cacheFilePath)) {
-        const cache = fs.readFileSync(cacheFilePath);
+    if(fs.existsSync(cacheFilePath1)) {
+        const cache = fs.readFileSync(cacheFilePath1);
         const cacheData = JSON.parse(cache);
 
         if(cacheData.time) {
@@ -59,7 +68,7 @@ const runAll = async () => {
                 const secsDiff = Math.floor((Date.now() - cacheData.time)/1000)
                 const minsDiff = Math.floor(secsDiff/60);
                 console.log('Found cache from', minsDiff > 0 ? `${minsDiff} minutes ago` : `${secsDiff} seconds ago`);
-                console.log('Cache location', cacheFilePath);
+                console.log('Cache location', cacheFilePath1);
                 console.log('Using', Object.keys(cacheData.data).length, 'users from cache')
                 return cacheData.data;
             } else {
@@ -86,9 +95,24 @@ const runAll = async () => {
     console.log(`Was unable to find`, missing.length, 'data accounts');
     // console.log(missing.map(({localId}) => localId).join());
 
-    fs.writeFileSync(cacheFilePath, JSON.stringify({
+    const dataAccountsArray = Object.entries(dataAccounts);
+
+    const caches = chunkArrayInGroups(dataAccountsArray, 75000)
+
+    fs.writeFileSync(cacheFilePath1, JSON.stringify({
         time: Date.now(),
-        data: dataAccounts
+        data: caches[0].reduce((acc, [id, value]) => {
+            acc[id] = value
+            return acc;
+        }, {})
+    }, null, 4))
+
+    fs.writeFileSync(cacheFilePath2, JSON.stringify({
+        time: Date.now(),
+        data: caches[1].reduce((acc, [id, value]) => {
+            acc[id] = value
+            return acc;
+        }, {})
     }, null, 4))
 
     return dataAccounts;
