@@ -105,11 +105,11 @@ When you do this, which pair gives another square number?
 ## 2. A puzzle adapted from the UKMT challenge
 
 ::: problem id=2_1 marks=3
-__2.1__ I have a list of 6 consecutive numbers, not necessarily starting at 1.  
+__2.1__ I have a list of 6 consecutive numbers.  
 
 If the sum of all the even numbers in my list is 24.  
 
-What is the total sum of every number on my list?
+What is the smallest possible total sum of every number on my list?
 
 * [x] 45
 * [ ] 48

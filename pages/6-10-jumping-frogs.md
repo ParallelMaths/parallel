@@ -64,7 +64,7 @@ __1.4__ It is possible to solve some puzzles with water logged lily pads.
 
 Can you find a solution for this case where the two water logged lily pads are next to each other?
 
-![](/resources/6-10-jumping-frogs/1-water-logged-lily.jpg){image align="center"}
+![](/resources/6-10-jumping-frogs/1-water-logged-lily.png){image align="center"}
 
 * [x] Yes, a solution is possible
 * [ ] No, in this case there is no solution

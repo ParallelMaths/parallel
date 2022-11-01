@@ -29,13 +29,13 @@ __1.1__ Kevin admits that one of the elements in this magic square is NOT prime.
 :::
 
 ::: problem id=1_2 marks=2
-__1.2__ The rows, columns and diagonals add up to 9,635. How many prime factors does it have?
+__1.2__ The rows, columns and diagonals add up to 9,635. How many prime factors does 9,635 have? Remember, 1 is not a prime number.
 
 <input type="number" solution="2"/>
 
 ---
 
-9,635 = 5 × 1,927
+3 prime factors, namely `5 × 41 × 47`.
 :::
 
 

@@ -24,15 +24,8 @@ const TTS_SCHOOLS = [
   {name: 'Capital City Academy', year: 9, teachers: ['cndwm0'], students: 18},
   {name: 'Capital City Academy', year: 10, teachers: ['cjbn9o'], students: 17},
   {name: 'Capital City Academy', year: 11, teachers: ['z8yevt'], students: 15},
-
-  {name: 'City Academy Hackney', year: 7, teachers: ['o4xlq9'], students: 25},
-  {name: 'City Academy Hackney', year: 8, teachers: ['o4xlq9'], students: 29},
-  {name: 'City Academy Hackney', year: 9, teachers: ['o4xlq9'], students: 27},
+  
   {name: 'City Academy Hackney', year: 10, teachers: ['o4xlq9'], students: 20},
-
-  {name: 'City of London Academy Shoreditch Park', year: 9, teachers: [''], students: 22},
-  {name: 'City of London Academy Shoreditch Park', year: 10, teachers: [' '], students: 20},
-  {name: 'City of London Academy Shoreditch Park', year: 11, teachers: ['ue9lwo'], students: 20},
 
   {name: 'Lister Community School', year: 7, teachers: ['nww75'], students: 25},
   {name: 'Lister Community School', year: 8, teachers: ['5448sn'], students: 22},
