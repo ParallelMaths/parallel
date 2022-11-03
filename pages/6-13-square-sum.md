@@ -20,19 +20,9 @@ week by the Parallel Project to bright young mathematicians.
 
 Watch this video where famously square person Matt Parker tries to solve this square sum puzzle.
 
-@[youtube](G1m7goLCJDY?start=318&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](G1m7goLCJDY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-You can just watch the video but if you do decide to pause and give Matt’s puzzle a go here are some hints to help you out:
-
-^^^ hint id=1_1_1 marks=0
-List the square numbers up to 25 and think of ways you could make them using the numbers 1 to 15.
-^^^
-
-^^^ hint id=1_1_1 marks=0
-Hint 2: It will not work if you start with Matt’s suggestion of 8, 1, 3, 6, 10.  
-
-Try starting with 8, 1, 15, 10, 6...
-^^^
+You can just watch the video - don't worry about pausing to give Matt’s puzzle a go here, because it's quite difficult!
 
 ::: problem id=1_1 marks=2
 __1.1__ Which of these sums does not add to give a square number?

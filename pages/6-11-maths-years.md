@@ -22,7 +22,7 @@ Any year is a good year to be alive, but some are more mathematically interestin
 
 Watch this video where mathematician Matt Parker explains why 1980 was the second best year to be born (although he is biased).
 
-@[youtube](99stb2mzspI?start=337&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](99stb2mzspI?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ What is the best thing about the year 2025?

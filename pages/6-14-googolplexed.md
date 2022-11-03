@@ -22,7 +22,7 @@ A number so large the mind boggles, its impossible to write it all down, and if 
 
 Watch this video where Tony Padilla and Ria Symonds try to explain just how ginormous this number is.
 
-@[youtube](8GEebx72-qs?start=300&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](8GEebx72-qs?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ How many zeros does a googol have?
