@@ -80,7 +80,7 @@ Each week it spreads from teacher to teacher, shown as the dots in the pentagona
 
 How many teachers will be affected by week 6?
 
-![](/resources/6-12-sound-sequences/2-pentagon-sequence.png){image align="center"}
+![](/resources/6-12-sound-sequences/2-pentagonal-numbers.png){image align="center"}
 
 * [ ] 35
 * [ ] 48
