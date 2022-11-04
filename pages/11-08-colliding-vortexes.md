@@ -103,11 +103,6 @@ On the outside of the wire, the pencil describes an arc of a circle as the disc 
 :::
 
 
-Once you have convinced yourself when it will and will not work, you may want to try to prove that it works algebraically. Watch this video of James Grime explaining why it works, and make sure you pause and check his algebra at each stage.
-
-@[youtube](ee0xnIywEqk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
-
-
 There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.

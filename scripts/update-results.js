@@ -3,10 +3,10 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '8-12-prime-time';
-const QUESTION = 'p_5_2_0';
-const IF_ANSWER = 'Qin';
-const THEN_ANSWER = 'Jiushao';
+const PG = '9-08-mighty-magic-square';
+const QUESTION = 'p_1_2_0';
+const IF_ANSWER = '2';
+const THEN_ANSWER = '3';
 const ADD_POINTS = 2;
 // ---------------------
 

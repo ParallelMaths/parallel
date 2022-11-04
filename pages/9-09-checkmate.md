@@ -47,7 +47,7 @@ __1.2.__ The aim of chess is to checkmate your opponent, which means trapping th
 ::: problem id=1_3 marks=1
 __1.3.__ The game has reached the position below. It is white’s move. What black pieces are being attacked by the white queen? In other words, which pieces could the white queen take on the next move?
 
-![](/resources/9-08-checkmate/1-3-chess-puzzle.png){image align="center"}
+![](/resources/9-09-checkmate/1-3-chess-puzzle.png){image align="center"}
 
 * [ ] King
 * [ ] Rook
@@ -59,7 +59,7 @@ __1.3.__ The game has reached the position below. It is white’s move. What bla
 ::: problem id=1_4 marks=2
 __1.4.__ It is white’s move. Moving which piece will result in checkmate?
 
-![](/resources/9-08-checkmate/1-4-chess-puzzle.png){image align="center"}
+![](/resources/9-09-checkmate/1-4-chess-puzzle.png){image align="center"}
 
 * [ ] Bishop
 * [ ] King
@@ -75,7 +75,7 @@ The Queen can move to the (d8) square, and then the King is trapped by the Queen
 ::: problem id=1_5 marks=1
 __1.5.__ This is not an easy question, but it will stretch those of you who are more than beginners. It is white's turn to move. Find white’s best move, then work out black’s only response and then identify which piece white would take on the next move.
 
-![](/resources/9-08-checkmate/1-5-chess-puzzle.png){image align="center"}
+![](/resources/9-09-checkmate/1-5-chess-puzzle.png){image align="center"}
 
 * [ ] Pawn
 * [ ] Queen
@@ -125,7 +125,7 @@ This means that the last Friday of the month will be on 28 October, which means 
 <!--- (2011) Q8 --->
 
 ::: problem id=3_1 marks=4
-![](/resources/9-08-checkmate/3-squares-question.jpg){image align="right"}
+![](/resources/9-09-checkmate/3-squares-question.jpg){image align="right"}
 __3.1__ A square piece of card has a square of side 2 cm cut out from each of its corners.
 
 The remaining card is then folded along the dotted lines shown to form an open box whose total internal surface area is 180 cm<sup>2</sup>.
