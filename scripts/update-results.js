@@ -32,7 +32,7 @@ async function updateAnswers() {
 
     await userDb.doc(u).set({answers: {[PG]: {[QUESTION]: THEN_ANSWER, points, score}}}, {merge: true});
 
-    console.log(`  Updated score for ${users[u].first} ${users[u].last}: ${score}%`);
+    console.log(`  Updated score for ${user.first} ${user.last}: ${score}%`);
     count += 1;
   }
 
