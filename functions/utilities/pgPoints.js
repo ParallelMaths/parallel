@@ -65,7 +65,7 @@ const calculatePgYearPoints = (answerGroup, adjustment) => {
 };
 
 const getPgPoints = (user) => {
-    const awardAdjustments = user?.awardAdjustments;
+    const awardAdjustments = user?.awardAdjustments || {};
     const cleanAnswers = getCleanAnswers(user?.answers || {})
 
     return LEVELS.reduce((acc, level) => {
@@ -75,6 +75,7 @@ const getPgPoints = (user) => {
 }
 
 module.exports = {
+    LEVELS,
     getPgPoints,
     getCleanAnswers
 }

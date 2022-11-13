@@ -13,6 +13,7 @@
     "deploy": "grunt && firebase deploy",
     "convert-teachers": "node scripts/convert-teachers.js",
     "get-users": "node scripts/get-users.js",
+    "get-points": "node scripts/get-students-points.js",
     "get-results": "node scripts/get-results.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
