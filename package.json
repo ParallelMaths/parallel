@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@firebase/app": "^0.7.0",
+    "aws-sdk": "^2.1252.0",
     "caniuse-lite": "^1.0.3",
     "concurrently": "^7.3.0",
     "firebase": "^9.0.0",
