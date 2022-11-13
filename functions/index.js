@@ -16,6 +16,7 @@ const express = require('express');
 const user = require('./utilities/user');
 const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
+const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -128,27 +129,11 @@ app.get('/api/scores', async (req, res) => {
     return res.status(200).send({ error: true });
   }
 
-  const clean = Object.keys(answers).reduce((acc, key) => {
-    const { submitted, score, time, sameWeek} = answers[key];
-
-    const year = 'year' + key.split('-')[0];
-
-    const afterMigration = time && time > 1661382000000 ? true : false;
-
-    if(!submitted) return acc;
-    if(!LEVELS.includes(year)) return acc;
-
-    acc[year] = acc[year] || {};
-
-    acc[year][key] = {
-      score, time, sameWeek, afterMigration
-    }
-
-    return acc;
-  }, {})
+  const clean = getCleanAnswers(answers)
 
   res.status(200).send({
     profileComplete: res.locals.profileComplete,
+    computedFullPGPoints: getPgPoints(res?.locals?.user),
     level,
     awardAdjustments,
     answers: clean,
