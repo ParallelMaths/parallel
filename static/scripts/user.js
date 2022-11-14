@@ -447,6 +447,18 @@ export default function() {
         nextUrl = '/circles'
       }
 
+      try {
+        if (window.URLSearchParams) {
+          const urlSearchParams = new URLSearchParams(window.location.search);
+          const params = Object.fromEntries(urlSearchParams.entries());
+          if (params.rd) {
+            nextUrl = `/${params.rd}`
+          }
+        }
+      } catch (error) {
+        console.error(error)
+      }
+
       // Ensure that there are no existing cookies
       document.cookie = '__session=;max-age=-999';
 

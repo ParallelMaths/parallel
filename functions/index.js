@@ -185,7 +185,7 @@ app.get('/home-educator-form', (req, res) => {
 app.get('/signup', (req, res) => {
   if (req.user) res.redirect('/');
 
-  if(req.query.live) {
+  if(req.query.live || req.query.hsb) {
     res.locals.sidebarDisabled = true
   }
 
