@@ -185,8 +185,20 @@ app.get('/home-educator-form', (req, res) => {
 app.get('/signup', (req, res) => {
   if (req.user) res.redirect('/');
 
-  if(req.query.live || req.query.hsb) {
+  if(req.query.live || req.query.ns) {
     res.locals.sidebarDisabled = true
+  }
+
+  if(req.query.nn) {
+    res.locals.noNavigation = true;
+  }
+
+  if(req.query.so) {
+    res.locals.studentSignupOnly = true;
+  }
+
+  if(req.query.rd) {
+    res.locals.signupSource = req.query.rd
   }
 
   res.render('signup');

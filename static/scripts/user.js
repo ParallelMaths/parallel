@@ -484,7 +484,8 @@ export default function() {
         guardianEmail,
         acceptedTerms: true,
         userReference: generateUserReference(),
-        primaryEmailType
+        primaryEmailType,
+        source: window.SIGNUP_SOURCE || null
       }
 
       userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)

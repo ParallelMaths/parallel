@@ -8,9 +8,12 @@ block content
 
     .toggle
       a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
-      a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
+      if !studentSignupOnly
+        a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
+
+    script!= 'window.SIGNUP_SOURCE = ' + JSON.stringify(signupSource) + ';'
 
     label
       span {{user.signupForm.messages[user.signupForm.type].firstName}}

@@ -42,7 +42,7 @@ html
                 rect(y=10 width=24 height=3 fill="white")
                 rect(y=18 width=24 height=3 fill="white")
 
-          if path
+          if path && !noNavigation
             div(class="homeButtonsLeft")
               a#home(href="/" title="Home" class="homeButton homeButtonWithSvg")
                 include svgs/home.svg
@@ -55,7 +55,10 @@ html
               a#home(href="/" title="Home" class="homeButton" @click="user.logout")
                 | Sign out
 
-          a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
+          if noNavigation
+            div#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
+          else 
+            a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
 
       #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
