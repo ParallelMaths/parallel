@@ -67,7 +67,10 @@ This is called modular arithmetic, and in this case in particular modulo 12.
 ## 2. A glitch in time
 
 ::: problem id=2_1 marks=2
-__2.1.__ Leap years occur when the year is divisible by 4, or 400, but not if they are divisible by 100.  
+__2.1.__ Leap years occur in two cases:  
+
+- When the year is divisible by 4, but not divisible 100;
+- When the year is divisible by 400.
 
 Which of these years was not a leap year?
 

@@ -1,4 +1,4 @@
-# KenKen Y7
+# KenKen L2
 
 <div class="dictionary">
 

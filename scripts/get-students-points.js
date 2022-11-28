@@ -15,7 +15,7 @@ const run = async () => {
   const file = path.join(__dirname, `../private/tmp-users.json`);
   const accounts = JSON.parse(fs.readFileSync(file)).users;
 
-  const keys = ['id', 'email', 'first', 'second']
+  const keys = ['id', 'email', 'first', 'second', 'teacherCode']
   LEVELS.forEach(level => keys.push(`${level}Total`))
   LEVELS.forEach(level => keys.push(`${level}PgTotal`))
   LEVELS.forEach(level => keys.push(`${level}CircleTotal`))
@@ -32,7 +32,7 @@ const run = async () => {
       return acc;
     }, {})
 
-    const values = [`"${a.localId}"`, `"${a.email}"`, `"${u.first}"`, `"${u.last}"`]
+    const values = [`"${a.localId}"`, `"${a.email}"`, `"${u.first}"`, `"${u.last}"`, `"${u.teacherCode}"`]
     LEVELS.forEach(level => values.push(`"${combined[level] || 0}"`))
     LEVELS.forEach(level => values.push(`"${studentPgPoints[level] || 0}"`))
     LEVELS.forEach(level => values.push(`"${studentCirclePoints[level] || 0}"`))
