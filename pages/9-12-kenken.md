@@ -43,7 +43,7 @@ __1.1.__ Here is your first KenKen. The only mathematical operation is addition.
 
 You can either copy it onto a bit of paper by hand or [follow this link to open a copy of all of the questions that you can print and fill in](https://parallel.org.uk/resources/9-12-kenken/9-12-kenken.pdf){target="_blank"}.
 
-![](/resources/7-11-kenken/1-1-kenken.png){image align="center"}
+![](/resources/9-12-kenken/1-1-kenken.png){image align="center"}
 
 To help us check whether you have completed the grid correctly, add up the 4 corner numbers and enter the sum in the box below.
 
@@ -55,7 +55,7 @@ The (4 +) cage is one way to start cracking this KenKen. The cage has to contain
 
 ---
 
-![](/resources/7-11-kenken/1-1-kenken-answer.png){image align="center"}
+![](/resources/9-12-kenken/1-1-kenken-answer.png){image align="center"}
 :::
 
 
