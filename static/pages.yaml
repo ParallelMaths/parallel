@@ -115,24 +115,24 @@ year6:
     title:
     available: 2023-01-19T13:00:00
     deadline: 2023-01-22T13:00:00
-  - url: 6-19-
-    title:
+  - url: 6-19-lucky-numbers
+    title: Lucky numbers
     available: 2023-01-12T13:00:00
     deadline: 2023-01-15T13:00:00
-  - url: 6-18-
-    title:
+  - url: 6-18-algorithmic-enchantment
+    title: Algorithmic enchantment
     available: 2023-01-05T13:00:00
     deadline: 2023-01-08T13:00:00
-  - url: 6-17-
-    title:
+  - url: 6-17-coin-quandaries
+    title: Coin quandaries
     available: 2022-12-29T13:00:00
     deadline: 2023-01-01T13:00:00
-  - url: 6-16-
-    title:
+  - url: 6-16-wobbly-circles
+    title: Wobbly circles
     available: 2022-12-22T13:00:00
     deadline: 2022-12-25T13:00:00
-  - url: 6-15-
-    title:
+  - url: 6-15-constant-width
+    title: Shapes of constant width
     available: 2022-12-15T13:00:00
     deadline: 2022-12-18T13:00:00
   - url: 6-14-googolplexed
@@ -140,35 +140,35 @@ year6:
     available: 2022-12-08T13:00:00
     deadline: 2022-12-11T13:00:00
   - url: 6-13-square-sum
-    title: Alright For Sum
+    title: Alright for sum
     available: 2022-12-01T13:00:00
     deadline: 2022-12-04T13:00:00
   - url: 6-12-sound-sequences
-    title: The Sound Of Sequences
+    title: The sound of sequences
     available: 2022-11-24T13:00:00
     deadline: 2022-11-27T15:00:00
   - url: 6-11-maths-years
-    title: Year Of The Mathematician
+    title: Year of the mathematician
     available: 2022-11-17T13:00:00
     deadline: 2022-11-20T15:00:00
   - url: 6-10-jumping-frogs
-    title: Jumping Frogs
+    title: Jumping frogs
     available: 2022-11-10T13:00:00
     deadline: 2022-11-13T15:00:00
   - url: 6-09-pancakes
-    title: Pancake Numbers
+    title: Pancake numbers
     available: 2022-11-03T13:00:00
     deadline: 2022-11-06T15:00:00
   - url: 6-08-cards
-    title: Pick A Card, Any Card
+    title: Pick a card, any card
     available: 2022-10-27T13:00:00
     deadline: 2022-10-30T15:00:00
   - url: 6-07-connect-four
-    title: Connect Four
+    title: Connect four
     available: 2022-10-20T13:00:00
     deadline: 2022-10-23T15:00:00
   - url: 6-06-face-time
-    title: Face Time
+    title: Face time
     available: 2022-10-13T13:00:00
     deadline: 2022-10-16T13:00:00
   - url: 6-05-ten-factorial
@@ -180,15 +180,15 @@ year6:
     available: 2022-09-29T13:00:00
     deadline: 2022-10-02T13:00:00
   - url: 6-03-tie-your-shoes
-    title: Use Maths to Tie Your Shoes Fast
+    title: Use maths to tie your shoes fast
     available: 2022-09-22T13:00:00
     deadline: 2022-09-25T18:00:00
   - url: 6-02-one-and-primes
-    title: Prime Numbers (and their buddy, one)
+    title: Prime numbers (and their buddy, one)
     available: 2022-09-15T13:00:00
     deadline: 2022-09-18T19:00:00
   - url: 6-01-mathematics-of-cake
-    title: The Mathematics of Cake
+    title: The mathematics of cake
     available: 2022-08-25T10:00:00
     deadline: 2022-09-11T19:00:00
 

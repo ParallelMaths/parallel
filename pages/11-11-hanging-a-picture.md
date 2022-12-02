@@ -26,7 +26,7 @@ Did you know that throughout history, and even to this day, some numbers are ban
 @[youtube](VmWVXOIQblM?end=266&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
-__1.1__ According to the video, why have numbers been banned historically?
+__1.1__ According to the video, what reasons have been given throughout history for banning numbers?
 
 * [ ] Because numbers can encode just about any information.
 * [ ] Because the existence of some numbers was perceived as a threat to the notion of a perfect universe.
@@ -100,7 +100,7 @@ The `XX^(-1)` and `Y^(-1)Y` at each end cancel, leaving `YXY^(-1)YY^(-1)`.
 
 Then the `YY^(-1)` on the right cancels, leaving `YXY^(-1)`.  
 
-The last `Y` and `Y^(-1)` can't cancel because the `X` is in the middle. 
+The last `Y` and `Y^(-1)` can't cancel because the `X` is in the middle.
 :::
 
 
