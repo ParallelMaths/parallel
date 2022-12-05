@@ -129,7 +129,12 @@ app.get('/api/scores', async (req, res) => {
     return res.status(200).send({ error: true });
   }
 
-  const clean = getCleanAnswers(answers)
+  const clean = getCleanAnswers(answers);
+
+  const availablePGs = Object.entries(res.locals.pages).reduce((acc, [year, values]) => {
+    acc[year] = values.map(v => v.url)
+    return acc;
+  }, {});
 
   res.status(200).send({
     profileComplete: res.locals.profileComplete,
@@ -137,7 +142,8 @@ app.get('/api/scores', async (req, res) => {
     level,
     awardAdjustments,
     answers: clean,
-    isTeacher
+    isTeacher,
+    availablePGs
   });
 });
 
