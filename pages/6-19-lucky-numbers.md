@@ -35,7 +35,7 @@ __1.2__ 31 is a lucky number, and it is also prime.
 
 On top of that it is an emirp (prime backwards) because the number when the digits are reversed, 13, is also prime.  
 
-Which of these numbers is also an emirp?  
+Which of these numbers is NOT also an emirp?  
 
 * [ ] 17
 * [ ] 37

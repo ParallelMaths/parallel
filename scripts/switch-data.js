@@ -2,10 +2,10 @@ const fb = require("firebase-admin");
 const serviceAccount = require("../private/service-account.json");
 
 // Their old account with the data
-const FROM_EMAIL = "17WallD@kings.peterborough.sch.uk";
+const FROM_EMAIL = "julika.matravers@lordderamorss.yorkschools.net";
 
 // Their new account
-const TO_EMAIL = "lmjwalling@gmail.com";
+const TO_EMAIL = "jmatravers@lordderamores.com";
 
 //////
 
