@@ -90,7 +90,7 @@ The probability of wining a coin toss is `1/2`.
 
 The probability of rolling a 6 on a standard dice is `1/6`.  
 
-So the combined probability of both of these independet events happening is `1/2 x 1/6 = 1/12`.
+So the combined probability of both of these independet events happening is `1/2 × 1/6 = 1/12`.
 :::
 
 

@@ -27,9 +27,9 @@ Watch this video where University of Nottingham Professor Roger Bowley explains:
 ::: problem id=1_1 marks=1
 __1.1__ How would you describe the algorithm to arrive at 6,174?
 
-* [x] put the digits in order highest to lowest, reverse the order, and subtract
-* [ ] put the digits in order lowest to highest, reverse the order, and subtract
-* [ ] put the digits in order highest to lowest, reverse the order and add
+* [x] Put the digits in order highest to lowest, reverse the order, and subtract
+* [ ] Put the digits in order lowest to highest, reverse the order, and subtract
+* [ ] Put the digits in order highest to lowest, reverse the order, and add
 :::
 
 ::: problem id=1_2 marks=1

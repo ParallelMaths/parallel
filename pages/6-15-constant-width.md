@@ -25,10 +25,10 @@ Watch this video where Steve Mould shows an array of shapes with a peculiar prop
 ::: problem id=1_1 marks=2
 __1.1__ Which of these shapes is a solid of constant width?  
 
-* [ ] hexagon
-* [x] circle
-* [ ] triangle
-* [ ] square
+* [ ] Hexagon
+* [x] Circle
+* [ ] Triangle
+* [ ] Square
 :::
 
 ::: problem id=1_2 marks=2
