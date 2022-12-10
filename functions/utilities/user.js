@@ -82,7 +82,7 @@ async function getUserFromToken(idToken) {
 }
 
 async function getAllStudents(code) {
-  const query = await userDB.where('teacherCode', 'array-contains', code).get();
+  const query = await userDB.where('teacherCode', 'array-contains-any', [code, ` ${code}`, `${code} `, `${code}  `]).get();
   return query.docs.map(d => ({
     ...d.data(),
     uid: d.id,
