@@ -78,10 +78,10 @@ If two such dice are rolled, and the numbers rolled added together, then how man
 ::: problem id=2_2 marks=2
 __2.2__ What is the most likely result when rolling and adding two of these dice?
 
-* [ ] All possibilities are equally likely
 * [ ] 8
 * [ ] 9
 * [x] 10
+* [ ] All possibilities are equally likely
 {.col-5}
 
 ---

@@ -48,7 +48,7 @@ __1.2__ How many odd perfect numbers are there?
 Although all of the 47 perfect numbers we have found so far are even, we don’t yet know if there are any odd ones - or even how many perfect numbers there are!
 :::
 
-:::
+::: problem id=1_3 marks=2
 __1.3__ What is the smallest number with exactly five divisors (including the number itself)?  
 
 * [ ] 5
@@ -58,7 +58,7 @@ __1.3__ What is the smallest number with exactly five divisors (including the nu
 {.col-5}
 :::
 
-::: problem=1_4 marks=2
+::: problem id=1_4 marks=2
 __1.4__ Four only has three factors: 1, 2, and 4.  
 
 Which other numbers have an odd amount of factors?
@@ -71,9 +71,8 @@ Which other numbers have an odd amount of factors?
 
 
 ## 2. What number am I thinking of?
-<!--- 2018 () --->
 
-::: problem=2_1 marks=2
+::: problem id=2_1 marks=2
 __2.1__ Ayliean thinks of a number, divides it by 5, adds 20 to it and ends up with the number she first thought of.  
 
 What was the number?

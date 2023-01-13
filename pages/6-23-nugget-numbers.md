@@ -60,7 +60,9 @@ What is the largest number of nuggets which cannot be ordered?
 ## 2. Numberjig puzzle
 
 ::: problem id=2_1 marks=2
-__2.1__ Which number is in the center?  
+__2.1__ In the following puzzle, you must use all of 1, 2, 3, 4 and 5 so that the row and column have the same total.  
+
+Which number is in the center?  
 
 ![](/resources/6-23-nugget-numbers/2_1-numberjig1.png){image align="center"}
 
@@ -73,7 +75,9 @@ __2.1__ Which number is in the center?
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ There are three different ways to solve this puzzle, all of which give the same total.  
+__2.2__ In this next puzzle, you must use all of 1, 2, 3, 4, 5, and 6 so that the row and column have the same total.  
+
+There are three different ways to solve this puzzle, all of which give the same total.  
 
 What is the magic total for the lines?
 
