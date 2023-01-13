@@ -99,20 +99,20 @@ year6:
     title:
     available: 2023-02-16T13:00:00
     deadline: 2023-02-19T13:00:00
-  - url: 6-23-
-    title:
+  - url: 6-23-nugget-numbers
+    title: Nugget Numbers
     available: 2023-02-09T13:00:00
     deadline: 2023-02-12T13:00:00
-  - url: 6-22-
-    title:
+  - url: 6-22-rock-paper-scissors
+    title: How to win at Rock, Paper, Scissors
     available: 2023-02-02T13:00:00
     deadline: 2023-02-05T13:00:00
-  - url: 6-21-
-    title:
+  - url: 6-21-perfect-number
+    title: A Perfect Number
     available: 2023-01-26T13:00:00
     deadline: 2023-01-29T13:00:00
-  - url: 6-20-
-    title:
+  - url: 6-20-pi
+    title: Pi = 3.2?
     available: 2023-01-19T13:00:00
     deadline: 2023-01-22T13:00:00
   - url: 6-19-lucky-numbers
