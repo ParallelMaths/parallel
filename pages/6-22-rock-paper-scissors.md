@@ -73,6 +73,13 @@ If two such dice are rolled, and the numbers rolled added together, then how man
 * [ ] 36
 * [x] 14
 {.col-5}
+
+---
+From all of these possible dice roll combinations we can create 14 possible totals: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, and 18.  
+
+It is not possible to roll a 13, 15, or 17.  
+
+![](/resources/6-22-rock-paper-scissors/1-22-dice.png){image align="center"}
 :::
 
 ::: problem id=2_2 marks=2
@@ -85,6 +92,10 @@ __2.2__ What is the most likely result when rolling and adding two of these dice
 {.col-5}
 
 ---
+
+5 pairs five a total of 10, while all the other totals are made from only three or fewer pairs.  
+
+This makes 10 the most likely total when rolling these dice.  
 
 ![](/resources/6-22-rock-paper-scissors/1-22-dice.png){image align="center"}
 :::
