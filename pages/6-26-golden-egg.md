@@ -48,7 +48,8 @@ Calculate the Golden Ratio to 3 decimal places.
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ The diagram shows a regular pentagon with two of its diagonals.
+__1.3__ The diagram shows a regular pentagon with two of its diagonals.  
+
 If all the diagonals are drawn in, into how many areas will the pentagon be divided?
 
 ![](/resources/6-26-golden-egg/1-egg-diagram-1.png){image align="center"}

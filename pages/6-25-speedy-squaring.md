@@ -35,10 +35,10 @@ __1.1__ When is this trick best applied?
 ::: problem id=1_2 marks=1
 __1.2__ Calculate `99^2` using this method.
 
-* [ ] 9901
-* [ ] 9910
-* [ ] 9801
-* [x] 9810
+* [ ] 9,901
+* [ ] 9,910
+* [ ] 9,801
+* [x] 9,810
 {.col-5}
 
 ---
@@ -49,7 +49,7 @@ Step 1: 99 - 1 = 98, these are the hundreds and thousands column of our answer.
 
 Step 2: `1^2` = 1, this is the units column of our answer.  
 
-So this gives 9801.  
+So this gives 9,801.  
 :::
 
 ::: problem id=1_3 marks=2
