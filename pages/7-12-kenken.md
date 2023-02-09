@@ -1,4 +1,4 @@
-# KenKen L2
+# KenKen Level 2
 
 <div class="dictionary">
 

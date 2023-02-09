@@ -1,4 +1,4 @@
-# KenKen Y9
+# KenKen Level 4
 
 <div class="dictionary">
 

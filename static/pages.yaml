@@ -83,20 +83,20 @@ year6:
     title:
     available: 2023-03-16T13:00:00
     deadline: 2023-03-19T13:00:00
-  - url: 6-27-
-    title:
+  - url: 6-27-prime-time
+    title: Prime Time Level 1 
     available: 2023-03-09T13:00:00
     deadline: 2023-03-12T13:00:00
-  - url: 6-26-
-    title:
+  - url: 6-26-golden-egg
+    title: The Golden Egg
     available: 2023-03-02T13:00:00
     deadline: 2023-03-06T13:00:00
-  - url: 6-25-
-    title:
+  - url: 6-25-speedy-squaring
+    title: Speedy Squaring
     available: 2023-02-23T13:00:00
     deadline: 2023-02-26T13:00:00
-  - url: 6-24-
-    title:
+  - url: 6-24-why-7-weird
+    title: Why 7 Is Weird
     available: 2023-02-16T13:00:00
     deadline: 2023-02-19T13:00:00
   - url: 6-23-nugget-numbers
@@ -334,11 +334,11 @@ year7:
     available: 2022-12-08T13:00:00
     deadline: 2022-12-11T13:00:00
   - url: 7-13-prime-time
-    title: Prime Time L2
+    title: Prime Time Level 2
     available: 2022-12-01T13:00:00
     deadline: 2022-12-04T13:00:00
   - url: 7-12-kenken
-    title: KenKen L2
+    title: KenKen Level 2
     available: 2022-11-24T13:00:00
     deadline: 2022-11-27T15:00:00
   - url: 7-11-mercury-trivia
@@ -528,11 +528,11 @@ year8:
     available: 2022-12-08T13:00:00
     deadline: 2022-12-11T13:00:00
   - url: 8-13-prime-time
-    title: Prime Time L3
+    title: Prime Time Level 3
     available: 2022-12-01T13:00:00
     deadline: 2022-12-04T13:00:00
   - url: 8-12-kenken
-    title: KenKen L3
+    title: KenKen Level 3
     available: 2022-11-24T13:00:00
     deadline: 2022-11-27T15:00:00
   - url: 8-11-chikas-test-seven
@@ -722,11 +722,11 @@ year9:
     available: 2022-12-08T13:00:00
     deadline: 2022-12-11T13:00:00
   - url: 9-13-prime-time
-    title: Prime Time L4
+    title: Prime Time Level 4
     available: 2022-12-01T13:00:00
     deadline: 2022-12-04T13:00:00
   - url: 9-12-kenken
-    title: KenKen L4
+    title: KenKen Level 4
     available: 2022-11-24T13:00:00
     deadline: 2022-11-27T15:00:00
   - url: 9-11-beautiful-mind
