@@ -61,28 +61,35 @@ What is the largest number of nuggets which cannot be ordered?
 ::: problem id=2_1 marks=2
 __2.1__ In the following puzzle, you must use all of 1, 2, 3, 4 and 5 so that the row and column have the same total.  
 
-Which number is in the center?  
+What do we know about the number in the centre?
 
 ![](/resources/6-23-nugget-numbers/2_1-numberjig1.png){image align="center"}
 
-* [ ] 1
-* [ ] 2
-* [x] 3
-* [ ] 4
-* [ ] 5
+* [x] It is odd
+* [ ] It is even
 {.col-5}
+
+---
+
+If the centre number was even, then this would leave us with one even and three odds.  
+
+This means that we cannot balance the row and the column, so the centre must be odd.  
+
+An odd centre means that the we have two odds and two evens left, which can balance.
 :::
 
 ::: problem id=2_2 marks=2
 __2.2__ In this next puzzle, you must use all of 1, 2, 3, 4, 5, and 6 so that the row and column have the same total.  
 
-There are three different ways to solve this puzzle, all of which give the same total.  
+There is more than one way to solve this puzzle.  
 
-What is the magic total for the lines?
+What do we know about the number in the centre?
 
 ![](/resources/6-23-nugget-numbers/2_2-numberjig2.png){image align="center"}
 
-<input type="number" solution="12"/> 
+* [x] It is odd
+* [ ] It is even
+{.col-5}
 :::
 
 
