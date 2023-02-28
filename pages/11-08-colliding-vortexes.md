@@ -81,7 +81,7 @@ If not, you can use [https://isthisprime.com/3333331](https://isthisprime.com/33
 <!--- (2000) Q21 --->
 
 ::: problem id=4_1 marks=3
-![](/resources/11-07-colliding-vortexes/7-wire.jpg){image align="right"}
+![](/resources/11-08-colliding-vortexes/7-wire.jpg){image align="right"}
 __4.1__ A wire in the shape of an equilateral triangle with sides of length 9 cm is placed on a flat piece of paper.  
 
 A pencil is held in the hole at the centre of a disc of radius 1cm, and the disc is rolled all the way around the outside of the wire, and then all the way around the inside of the wire.  
