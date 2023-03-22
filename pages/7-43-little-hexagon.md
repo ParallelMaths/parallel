@@ -43,17 +43,15 @@ __1.2__ How much larger is the largest small hexagon’s area compared to the re
 :::
 
 ::: problem id=1_3 marks=2
+![](/resources/7-43-little-hexagon/1-3-hexagon.png){image align="right"}
 __1.3__ Using the fact that the area of an equilateral triangle with side length 50cm is around 1082cm<sup>2</sup>.  
 
 Find the area of this hexagon with diagonal 1m (100cm).  
-
-![](/resources/7-43-little-hexagon/1-3-hexagon.png){image align="center"}
 
 * [ ] 180 cm<sup>2</sup>
 * [x] 6492 cm<sup>2</sup>
 * [ ] 3246 cm<sup>2</sup>
 * [ ] 541 cm<sup>2</sup>
-{.col-4}
 
 ^^^ hint id=1_3_1 marks=1 
 Think about how many equilateral triangles would fit inside the hexagon.
@@ -80,16 +78,15 @@ All six angles in a hexagon total 720°.
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ The diagonals of a hexagon split the shape into 13 pieces. 
-What fraction of the whole shape is the hexagonal piece in the center?
+![](/resources/7-43-little-hexagon/2-hexagon.png){image align="right"}
+__2.2__ The diagonals of a hexagon split the shape into 13 pieces.  
 
-![](/resources/7-43-little-hexagon/2-hexagon3.png){image align="center"}
+What fraction of the whole shape is the hexagonal piece in the center?
 
 * [ ] `1/2`
 * [x] `1/3`
 * [ ] `1/4`
 * [ ] `1/5`
-{.col-4}
 :::
 
 
