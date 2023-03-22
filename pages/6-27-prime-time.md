@@ -59,8 +59,8 @@ When 1 is divided by 13 the answer is 0.076923076923076923...
 You can see the string 076923 repeats and so the period of `1/13` is 6 digits.
 :::
 
-::: problem id=1_3 marks=2
-__1.3__ We know that `1/7` gives a repeating decimal, but what about `2/7`?  
+::: problem id=1_4 marks=2
+__1.4__ We know that `1/7` gives a repeating decimal, but what about `2/7`?  
 
 Try to find it without a calculator.  
 
