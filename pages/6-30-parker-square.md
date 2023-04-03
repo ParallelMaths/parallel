@@ -29,7 +29,7 @@ __1.2__ In this magic square the rows, columns and diagonals add to the same mag
 
 Which number should be in the top right?
 
-![](/resources/6-10-parker-square/1-magic-add.png){image align="center"}
+![](/resources/6-30-parker-square/1-magic-add.png){image align="center"}
 
 <input type="number" solution="5"/>
 
@@ -41,7 +41,7 @@ The magic constant is 3 + 6 + 9 = 18 so the missing number in the top right is 1
 ::: problem id=1_2 marks=2
 __1.2__ This is a multiplication magic square, all of the rows, columns and diagonals multiply to the same magic total.
 
-![](/resources/6-10-parker-square/1-2-magic-multiply.png){image align="center"}
+![](/resources/6-30-parker-square/1-2-magic-multiply.png){image align="center"}
 
 Which number should be in the top middle?
 
@@ -57,7 +57,7 @@ The magic constant is 216, this is the smallest possible constant for a multipli
 ::: problem id=1_3 marks=2
 __1.3__ There is nothing to stop magic squares including negative numbers.
 
-![](/resources/6-10-parker-square/1-3-magic-negative.png){image align="center"}
+![](/resources/6-30-parker-square/1-3-magic-negative.png){image align="center"}
 
 What is the magic total for this addition magic square?
 
@@ -68,7 +68,7 @@ What is the magic total for this addition magic square?
 ## 2. Gridlock
 
 ::: problem id=2_1 marks=3
-![](/resources/6-10-parker-square/2-grid-puzzle.png){image align="right"}
+![](/resources/6-30-parker-square/2-grid-puzzle.png){image align="right"}
 __2.1__ In the multiplication grid shown, the input factors (the ones that would appear in the first row and the first column) are all missing.  
 
 Only some of the products within the table have been given.  
