@@ -24,8 +24,8 @@ Watch this video where Matt Parker tries his best at this unsolved magic square 
 
 @[youtube](aOT_bG-vWyg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=1_2 marks=2
-__1.2__ In this magic square the rows, columns and diagonals add to the same magic total.  
+::: problem id=1_1 marks=2
+__1.1__ In this magic square the rows, columns and diagonals add to the same magic total.  
 
 Which number should be in the top right?
 

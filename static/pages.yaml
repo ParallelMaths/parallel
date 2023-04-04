@@ -63,16 +63,16 @@ year6:
     title:
     available: 2023-04-20T13:00:00
     deadline: 2023-04-23T13:00:00
-  - url: 6-32-
-    title:
+  - url: 6-32-tiles-tribulations
+    title: Tiles and tribulations
     available: 2023-04-13T13:00:00
     deadline: 2023-04-16T13:00:00
-  - url: 6-31-
-    title:
+  - url: 6-31-quick-trick
+    title: A quick trick
     available: 2023-04-06T13:00:00
     deadline: 2023-04-09T13:00:00
   - url: 6-30-parker-square
-    title: Mostly Magic Squares
+    title: Mostly magic squares
     available: 2023-03-30T13:00:00
     deadline: 2023-04-02T13:00:00
   - url: 6-29-making-the-cut
@@ -80,35 +80,35 @@ year6:
     available: 2023-03-23T13:00:00
     deadline: 2023-03-26T13:00:00
   - url: 6-28-number-knights
-    title: Number Knights
+    title: Number knights
     available: 2023-03-16T13:00:00
     deadline: 2023-03-19T13:00:00
   - url: 6-27-prime-time
-    title: Prime Time Level 1 
+    title: Prime time Level 1 
     available: 2023-03-09T13:00:00
     deadline: 2023-03-12T13:00:00
   - url: 6-26-golden-egg
-    title: The Golden Egg
+    title: The golden egg
     available: 2023-03-02T13:00:00
     deadline: 2023-03-06T13:00:00
   - url: 6-25-speedy-squaring
-    title: Speedy Squaring
+    title: Speedy squaring
     available: 2023-02-23T13:00:00
     deadline: 2023-02-26T13:00:00
   - url: 6-24-why-7-weird
-    title: Why 7 Is Weird
+    title: Why 7 is weird
     available: 2023-02-16T13:00:00
     deadline: 2023-02-19T13:00:00
   - url: 6-23-nugget-numbers
-    title: Nugget Numbers
+    title: Nugget numbers
     available: 2023-02-09T13:00:00
     deadline: 2023-02-12T13:00:00
   - url: 6-22-rock-paper-scissors
-    title: How to win at Rock, Paper, Scissors
+    title: How to win at rock, paper, scissors
     available: 2023-02-02T13:00:00
     deadline: 2023-02-05T13:00:00
   - url: 6-21-perfect-number
-    title: A Perfect Number
+    title: A perfect number
     available: 2023-01-26T13:00:00
     deadline: 2023-01-29T13:00:00
   - url: 6-20-pi
