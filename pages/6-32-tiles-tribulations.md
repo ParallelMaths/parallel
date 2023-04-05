@@ -129,4 +129,4 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
-Simon.
+Simon and Ayliean.

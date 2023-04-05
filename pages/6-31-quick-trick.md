@@ -94,6 +94,12 @@ What is the sum of the first 5 even positive numbers?
 * [ ] 45
 * [ ] 50
 {.col-5}
+
+---
+
+You could work this out by simple addition, but there is a quicker way:  
+ 
+As each even number is 1 more than the previous odd number, if the sum of the first five odd numbers is 25, the sum of the first five even numbers must be 25 + 5 = 30.
 :::
 
 ::: problem id=2_2 marks=2
@@ -130,4 +136,4 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
-Simon.
+Simon and Ayliean.
