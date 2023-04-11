@@ -109,10 +109,10 @@ The new houses are numbered 1 to 100.
 
 How many houses can Mr Fussy choose from?  
 
-* [x] 19
+* [ ] 19
 * [ ] 20
 * [ ] 80
-* [ ] 81
+* [x] 81
 * [ ] 90
 {.col-5}
 

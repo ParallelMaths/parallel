@@ -15,17 +15,17 @@ const END_TIME = '';
 const TTS_SCHOOLS = [
   {name: 'Bulmershe School', year: 7, teachers: ['AKM2-QCW1','qw6ok'], students: 41},
   {name: 'Bulmershe School', year: 8, teachers: ['h343j'], students: 20},
-  {name: 'Bulmershe School', year: 9, teachers: ['qh6b6r'], students: 18},
+  {name: 'Bulmershe School', year: 9, teachers: ['qh6b6r'], students: 20},
   {name: 'Bulmershe School', year: 10, teachers: ['R38Q-D4W4'], students: 17},
   {name: 'Bulmershe School', year: 11, teachers: ['m94414'], students: 16},
 
   {name: 'Capital City Academy', year: 7, teachers: ['0K5S-7G5Q'], students: 21},
   {name: 'Capital City Academy', year: 8, teachers: ['H3I7-W5EV'], students: 21},
-  {name: 'Capital City Academy', year: 9, teachers: ['cndwm0'], students: 18},
-  {name: 'Capital City Academy', year: 10, teachers: ['cjbn9o'], students: 17},
+  {name: 'Capital City Academy', year: 9, teachers: ['cndwm0'], students: 16},
+  {name: 'Capital City Academy', year: 10, teachers: ['cjbn9o'], students: 18},
   {name: 'Capital City Academy', year: 11, teachers: ['z8yevt'], students: 15},
   
-  {name: 'City Academy Hackney', year: 10, teachers: ['o4xlq9'], students: 20},
+  {name: 'City Academy Hackney', year: 10, teachers: ['o4xlq9'], students: 21},
 
   {name: 'Lister Community School', year: 7, teachers: ['nww75'], students: 25},
   {name: 'Lister Community School', year: 8, teachers: ['5448sn'], students: 22},
@@ -34,8 +34,8 @@ const TTS_SCHOOLS = [
 
   {name: 'Plashet School', year: 7, teachers: ['t1bmm'], students: 24},
   {name: 'Plashet School', year: 8, teachers: ['8o84e1'], students: 27},
-  {name: 'Plashet School', year: 9, teachers: ['5te44x'], students: 22},
-  {name: 'Plashet School', year: 10, teachers: ['R4JH-OYQM'], students: 25},
+  {name: 'Plashet School', year: 9, teachers: ['5te44x'], students: 24},
+  {name: 'Plashet School', year: 10, teachers: ['R4JH-OYQM'], students: 24},
   {name: 'Plashet School', year: 11, teachers: ['9mhdd'], students: 21},
 ];
 

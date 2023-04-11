@@ -3,11 +3,11 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '6-25-speedy-squaring';
-const QUESTION = 'p_1_2';
-const IF_ANSWER = 'c';
-const THEN_ANSWER = 'c';
-const ADD_POINTS = 1;
+const PG = '6-31-quick-trick';
+const QUESTION = 'p_2_2';
+const IF_ANSWER = 'a';
+const THEN_ANSWER = 'd';
+const ADD_POINTS = 2;
 // ---------------------
 
 
