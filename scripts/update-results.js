@@ -5,7 +5,7 @@ const serviceAccount = require('../private/service-account.json');
 // ---------------------
 const PG = '6-31-quick-trick';
 const QUESTION = 'p_2_2';
-const IF_ANSWER = 'a';
+const IF_ANSWER = 'd';
 const THEN_ANSWER = 'd';
 const ADD_POINTS = 2;
 // ---------------------

@@ -39,24 +39,24 @@ year6:
     title:
     available: 2023-06-01T13:00:00
     deadline: 2023-06-04T13:00:00
-  - url: 6-38-
-    title:
+  - url: 6-38-advanced-counting
+    title: Advanced counting
     available: 2023-05-25T13:00:00
     deadline: 2023-05-28T13:00:00
-  - url: 6-37-
-    title:
+  - url: 6-37-to-infinity
+    title: To infinity and beyond
     available: 2023-05-18T13:00:00
     deadline: 2023-05-21T13:00:00
-  - url: 6-36-
-    title:
+  - url: 6-36-poison-frogs
+    title: Life saving probabilities
     available: 2023-05-11T13:00:00
     deadline: 2023-05-14T13:00:00
-  - url: 6-35-
-    title:
+  - url: 6-35-piece-pizza
+    title: A piece of pizza
     available: 2023-05-04T13:00:00
     deadline: 2023-05-07T13:00:00
   - url: 6-34-self-descriptive
-    title: Self-Descriptive Numbers
+    title: Self-descriptive numbers
     available: 2023-04-27T13:00:00
     deadline: 2023-04-30T13:00:00
   - url: 6-33-weird-shapes
