@@ -29,7 +29,7 @@ Luckily Dr Katie Steckles is here to save the day by cutting her oval pizza in a
 @[youtube](K-VY2TsCano?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
-__1.1__ In the first method for cutting circular pizzas, the slices are created with equal angles at the center.  
+__1.1__ In the first method for cutting circular pizzas, the slices are created with equal angles at the centre.  
 
 What would the central angle be for a pizza with five slices?
 
@@ -59,8 +59,8 @@ Find the circumference of a 12 inch pizza.
 ::: problem id=1_3 marks=1
 __1.3__ Describe the method used for oval-shaped pizza sharing:
 
-* [ ] Find the center and cut slices with equal angles  
-* [ ] Divide the perimeter equally and slice towards the center  
+* [ ] Find the centre and cut slices with equal angles  
+* [ ] Divide the perimeter equally and slice towards the centre  
 * [x] Imagine it's a round pizza, slice equally, then stretch those slices onto the oval pizza  
 * [ ] Fold the pizza in half and slice in equal sized strips  
 :::
@@ -97,7 +97,7 @@ Next on the list: how would you slice this pizza pi?!
 ## 2. A non-pizza related puzzle
 
 ::: problem id=2_1 marks=2
-![](/resources/6-35-piece-pizza/sphinx1.png){image align="right"}
+![](/resources/6-35-piece-pizza/2-sphinx.png){image align="right"}
 __2.1__ This shape, called a sphinx, is made of equilateral triangles.  
 
 How many of these triangles are needed to make this sphinx?  
@@ -116,7 +116,7 @@ Draw lines inside the shape to form equal sized equilateral triangles.
 
 Once split into 6 triangles it looks like this:  
 
-![](/resources/6-35-piece-pizza/sphinx2.png){image align="center"}
+![](/resources/6-35-piece-pizza/2-sphinx-solution.png){image align="center"}
 :::
 
 

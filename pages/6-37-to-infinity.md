@@ -74,6 +74,7 @@ It might help to alternate between positive and negative integers (and don't for
 The first three collections of integers can all be put in a list, so they all have a countable infinity.  
 
 For all integers, the list can be as simple as: 0, 1, -1, 2, -2, 3, -3, ... and so on. Emily did say infinities are weird!
+:::  
 
 
 ## 2. Some puzzles with smaller numbers!

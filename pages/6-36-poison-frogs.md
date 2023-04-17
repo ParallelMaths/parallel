@@ -69,6 +69,7 @@ __1.3__ Now that the number of possible outcomes (the ‘sample space’) is red
 * [ ] `1/3`  
 * [x] `2/3`  
 * [ ] Certain  
+{.col-3}
 
 ---
 
