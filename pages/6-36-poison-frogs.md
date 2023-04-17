@@ -32,9 +32,7 @@ Most people (possibly also you) decide that the direction doesn’t matter, beca
 
 Yet somehow the chances of surviving at the clearing is more than 50% - let’s see why.  
 
-(Although you are - hopefully - unlikely to find yourself in a poison frog situation, probability calculations just like this are often used by doctors and medical researchers to decide the best course of action.  
-
-A good understanding of how probabilities work can literally save lives!)
+(Although you are - hopefully - unlikely to find yourself in a poison frog situation, probability calculations just like this are often used by doctors and medical researchers to decide the best course of action. A good understanding of how probabilities work can literally save lives!)
 
 ::: problem id=1_1 marks=1
 __1.1__ With two frogs, how many possible combinations of male and female are there? (The sample space)
@@ -55,7 +53,7 @@ The four possible combinations are:
 :::
 
 ::: problem id=1_2 marks=1
-__1.2__ After the additional information of hearing the male croak, which combination is eliminated as no longer possible?
+__1.2__ After the additional information of hearing the male croak, which combination is eliminated, as it is no longer possible?
 
 * [x] Female, Female  
 * [ ] Female, Male  
@@ -69,7 +67,6 @@ __1.3__ Now that the number of possible outcomes (the ‘sample space’) is red
 * [ ] `1/3`  
 * [x] `2/3`  
 * [ ] Certain  
-{.col-3}
 
 ---
 

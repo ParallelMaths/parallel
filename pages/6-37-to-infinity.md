@@ -80,7 +80,7 @@ For all integers, the list can be as simple as: 0, 1, -1, 2, -2, 3, -3, ... and 
 ## 2. Some puzzles with smaller numbers!
 
 ::: problem id=2_1 marks=2
-__2.1__ Which is the biggest?  
+__2.1__ Which is the largest?  
 
 * [ ] `0^5`
 * [ ] `1^4`
@@ -93,10 +93,10 @@ __2.1__ Which is the biggest?
 ::: problem id=2_2 marks=2
 __2.2__ How many of these calculations eaual 1?
 
-* `1/2 + 1/2`
-* `1/2 - 1/2`
-* `1/2 x 1/2`
-* `1/2 ÷ 1/2`  
+* `1/2` + `1/2`
+* `1/2` - `1/2`
+* `1/2` × `1/2`
+* `1/2` ÷ `1/2`  
   
 
 * [ ] 0

@@ -56,7 +56,7 @@ Though he does make life easier for himself by capturing the same amount each ti
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ If we ran the ping pong experiment again, marked and returned 100 balls, but then recaptured 100 balls, 40 of which were marked, what would you estimate the amount of balls in the entire tank to be?  
+__1.3__ If we ran the ping pong experiment again, marked and returned 100 balls, and then recaptured 100 balls, 40 of which were marked, what would you estimate the amount of balls in the entire tank to be?  
 
 * [ ] 40
 * [ ] 60
@@ -66,13 +66,15 @@ __1.3__ If we ran the ping pong experiment again, marked and returned 100 balls,
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ One year I went to a woodland and captured 100 squirrels.  
+__1.4__ One year I went to a woodland and captured 100 squirrels, and marked them.  
 
-I then recaptured 20 squirrels.  
+I then recaptured 100 squirrels, of which 20 were marked.  
 
-The next year I went to the same woodland, captured 100 squirrels and recaptured 40.  
+The next year (by which point all the original marks had rubbed off), I captured another 100 squirrels and marked them.  
 
-What has happened to the population size?  
+This time, when I recaptured 100 squirrels I saw that 40 were marked.  
+
+What has happened to the population size in the last year?  
 
 * [ ] Increased by 20
 * [ ] It has doubled
@@ -90,7 +92,7 @@ What was it in the second year?
 ## 2. Some puzzles!
 
 ::: problem id=2_1 marks=2
-__2.1__ The answer to 5 × 8 × 9 is the same as the answer to one of the questions below. Which one?
+__2.1__ The answer to 5 × 8 × 9 is the same as the answer to one of the calculations below. Which one?
 
 * [ ] 8 × 14
 * [ ] 40 × 5
