@@ -35,25 +35,9 @@ Yet somehow the chances of surviving at the clearing is more than 50% - let’s 
 (Although you are - hopefully - unlikely to find yourself in a poison frog situation, probability calculations just like this are often used by doctors and medical researchers to decide the best course of action. A good understanding of how probabilities work can literally save lives!)
 
 ::: problem id=1_1 marks=1
-__1.1__ With two frogs, how many possible combinations of male and female are there? (The sample space)
+__1.1__ With two frogs, there are four combinations of male and female, listed below.  
 
-* [ ] 2
-* [ ] 3
-* [x] 4
-* [ ] 6
-{.col-4}
-
----
-
-The four possible combinations are:  
-* Female, Female
-* Female, Male
-* Male, Female
-* Male, Male
-:::
-
-::: problem id=1_2 marks=1
-__1.2__ After the additional information of hearing the male croak, which combination is eliminated, as it is no longer possible?
+After the additional information of hearing the male croak, which combination is eliminated, as it is no longer possible?
 
 * [x] Female, Female  
 * [ ] Female, Male  
@@ -61,8 +45,8 @@ __1.2__ After the additional information of hearing the male croak, which combin
 * [ ] Male, Male  
 :::
 
-::: problem id=1_3 marks=3
-__1.3__ Now that the number of possible outcomes (the ‘sample space’) is reduced to 3, what are the chances of survival?
+::: problem id=1_2 marks=3
+__1.2__ Now that the number of possible outcomes (the ‘sample space’) is reduced to 3, what are the chances of survival?
 
 * [ ] `1/3`  
 * [x] `2/3`  
@@ -81,8 +65,8 @@ This challenges our intuition that the probability is `1/2`.
 Like many maths problems, it will slowly make sense the more you think about it.
 :::
 
-::: problem id=1_4 marks=2
-__1.4__ If I flip a coin three times and note the result, how many combinations are possible?  
+::: problem id=1_3 marks=2
+__1.3__ If I flip a coin three times and note the result, how many combinations are possible? (Order is important!)
 
 * [ ] 2
 * [ ] 4
@@ -106,14 +90,27 @@ As an ordered list I could have:
 You could also consider that every coin flip has 2 options, and we do that three times, for a total of 2 × 2 × 2 = 8 outcomes.
 :::
 
-::: problem id=1_5 marks=2
-__1.5__ When flipping three coins, what is the probability that at least two of them will match?
+::: problem id=1_4 marks=2
+__1.4__ When flipping three coins, what is the probability that at least two of them will match?
 
 * [ ] 50%
 * [ ] 67%
 * [ ] 75%
 * [x] 100%
 {.col-4}
+
+^^^ hint id=1_4_1 marks=1
+There are eight possibilities:  
+
+1. TTT
+2. TTH
+3. THT
+4. HTT
+5. HHT
+6. HTH
+7. THH
+8. HHH
+^^^
 
 ---
 
@@ -128,7 +125,7 @@ There is no case where all three are different as there are only two options!
 ## 2. Some puzzles
 
 ::: problem id=2_1 marks=2
-__2.1__ A shepherd had 17 sheep.  However, all but 9 ran away.  
+__2.1__ A shepherd had 17 sheep.  However, all except 9 ran away.  
 
 How many does the shepherd have left?  
 

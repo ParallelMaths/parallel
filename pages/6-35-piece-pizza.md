@@ -98,9 +98,9 @@ Next on the list: how would you slice this pizza pi?!
 
 ::: problem id=2_1 marks=2
 ![](/resources/6-35-piece-pizza/2-sphinx.png){image align="right"}
-__2.1__ This shape, called a sphinx, is made of equilateral triangles.  
+__2.1__ This shape, called a sphinx, is made of identical equilateral triangles.  
 
-How many of these triangles are needed to make this sphinx?  
+How many of these identical triangles are needed to make this sphinx?  
 
 * [ ] 2
 * [ ] 4

@@ -28,7 +28,7 @@ Fortunately not, as we can use a clever piece of maths!
 
 Watch this video as Johnny Ball explains all.  
 
-@[youtube](tyX79mPm2xY?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
+@[youtube](QqXLJRMxelk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_  
 
 ::: problem id=1_1 marks=1
 __1.1__ What happens to the ping pong balls once they are “captured” and marked?  
@@ -112,7 +112,7 @@ you can group the 8 × 9 together to give 72, and then you still need to multipl
 ::: problem id=2_2 marks=2
 __2.2__ Pills are sold in rectangular arrays.  
 
-Which number could only make a long thin, rectangular, pack of pills?  
+Which number could only make a long and very thin rectangular, pack of pills?  
 
 * [ ] 12
 * [x] 13
