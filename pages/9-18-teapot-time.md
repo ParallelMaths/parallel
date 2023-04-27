@@ -97,11 +97,11 @@ Find a formula for the fraction of cheese that they eat between them.
 * [ ] `1 - 1/(n - 1)^n`
 * [ ] `(n - 1)/n^n`
 
-^^^ hint id=1
+^^^ hint id=3_1_1
 For this question, it is easier to work out how much of the cheese is left after each stage, and then subtract the total amount eaten from 1 to find out how much has been eaten. This is already a big hint, because it probably means that the answer is (1 – something).
 ^^^
 
-^^^ hint id=2
+^^^ hint id=3_1_2
 A crude way to do this problem is to test out the formulae given as with a simple example, or the example you have already looked at in question 2.
 
 If `n = 2`, then mouse one eats half the cheese, and then another mouse half the remaining cheese... you will only have `1/4` of the cheese left, and so `3/4` will have been eaten. In this case `n = 2`. Which of the options works for this scenario?
@@ -128,7 +128,7 @@ In case it helps, the letter is taken from this alphabet, with this particular f
 
 ![](/resources/9-18-teapot-time/4-find-letter-alphabet.png){image align="center"}
 
-^^^ hint id=3
+^^^ hint id=4_1
 If you unfold the folded bit of paper, perhaps there is another bit of paper hidden underneath?
 ^^^
 

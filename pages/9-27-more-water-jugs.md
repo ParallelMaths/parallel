@@ -76,7 +76,7 @@ __2.1__ Which of the expressions below is equivalent to `(x ÷ ( y ÷ z)) ÷ ((x
 * [x] `z^2`
 {.col-5}
 
-^^^ hint id=1 marks=1
+^^^ hint id=2_1 marks=1
 The expression might be easier to deal with if you translate it into this form:
 
 ![](/resources/9-27-more-water-jugs/2-equation-hint.png){image align="center"}

@@ -191,11 +191,11 @@ __5.1__ For how many values of `n` are both `n` and `(n + 3)/(n - 1)` integers?
 * [ ] 0
 {.col-5}
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=5_1_1 marks=2
 `(n + 3)/(n - 1)` is a positive integer when `n + 3` is a multiple of `n - 1`. Since these numbers have a difference of 4, `n + 3` is a multiple of `n - 1` if and only if `n - 1` is a factor of 4.
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Consider also that `(n + 3)/(n - 1)` can be a negative integer. `n + 3` would have to be positive and `n - 1` negative.
 ^^^
 

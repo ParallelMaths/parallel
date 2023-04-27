@@ -182,17 +182,17 @@ __4.1__ What comes next in this sequence?
 * [ ] 2211
 * [ ] 222111
 
-^^^ hint id=4_1  marks=0.5
+^^^ hint id=4_1_1  marks=0.5
 This is called the “say what you see” sequence.
 ^^^
 
-^^^ hint id=4_2 marks=0.5
+^^^ hint id=4_1_2 marks=0.5
 The first row has “one 1”  
 The second row has “two 1s”  
 The third row has “one 2, one 1”
 ^^^
 
-^^^ hint id=4_3 marks=0.5
+^^^ hint id=4_1_3 marks=0.5
 The first row has “1 1”  
 The second row has “2 1s”  
 The third row has “1 2, 1 1”  
@@ -255,11 +255,11 @@ _You are shown a set of four cards placed on a table, each of which has a number
 * [ ] red card
 * [ ] all the cards
 
-^^^ hint id=5_1 marks=0.5
+^^^ hint id=5_1_1 marks=0.5
 The key point is that if the card is even on one side, then it is red on the other side. However, if it is red on one side, it does not necessarily have to be even on the other side.
 ^^^
 
-^^^ hint id=5_2 marks=0.5
+^^^ hint id=5_1_2 marks=0.5
 If it the card is brown on one side, then what must the other side be?
 ^^^
 

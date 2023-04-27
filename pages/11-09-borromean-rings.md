@@ -139,7 +139,7 @@ Continuing in this way will give us ‘gaps’ of two. When will we be able to �
 168 = 3 × 20 + 3 × 20 + 3 × 16. You can reduce this by 1 by reducing the second throw by 10 using the bull’s eye, and increasing the third throw by 9.
 ^^^
 
-^^^ hint id=3_3 marks=1
+^^^ hint id=3_3_3 marks=1
 167 = 3 × 20 + 50 + 3 × 19.  
 You can’t use the same trick as with 168 to reduce this by 1, as you can’t have 3 × 22, so 166 is impossible.  
 You can use the same trick to reduce 165 by 1.  
@@ -149,7 +149,7 @@ You can use the same trick to reduce 165 by 1.
 Again, you can’t increase the last throw by 9 to get 163, as you can’t have 3 × 21.
 ^^^
 
-^^^ hint id=3_4 marks=1
+^^^ hint id=3_3_4 marks=1
 163 is impossible.  
 162 = 3 × 20 + 3 × 20 + 3 × 14.  
 161 = 3 × 20 + 50 + 3 × 17.  
@@ -221,16 +221,16 @@ __4.1__ Equal regular pentagons are placed together to form a ring in the manner
 * [ ] 9
 * [ ] 10
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 The angle sum of a pentagon is 540°.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 This means the interior angle of a regular pentagon is 540 ÷ 5 = 108°. Therefore, each interior angle of the regular polygon formed by the inner sides of the pentagon is 360 – 2 × 108 = 144°.
 ![](/resources/11-09-borromean-rings/4-pentagon-answer.jpg){image align="center"}
 ^^^
 
-^^^ hint id=4_3 marks=1
+^^^ hint id=4_1_3 marks=1
 The exterior angle of the polygon is 180° - 144° = 36°, and the sum of exterior angles in any polygon is 360°.
 ![](/resources/11-09-borromean-rings/4-pentagon-hint.jpg){image align="center"}
 ^^^
@@ -268,7 +268,7 @@ What is the shaded area?
 * [ ] `(2π)/3` cm<sup>2</sup>
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 Let `O` be the centre of the circle and let the points where the arcs meet be `C` and `D` respectively.  
 
 ![](/resources/11-09-borromean-rings/5-circle-answer.jpg){image align="center"}
@@ -278,13 +278,13 @@ Let `O` be the centre of the circle and let the points where the arcs meet be `C
 In triangle `OCB`, `CB^2 = OC^2 + OB^2`, hence `CB = sqrt(2)` cm.  
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 The area of the segment bounded by arc `CD` and diameter `CD` is equal to the area of sector `BCD` - the area of triangle `BCD`, ie:  
 
 `(1/4 π (sqrt(2)^2) - 1/2 × sqrt(2) × sqrt(2))` cm<sup>2</sup>
 ^^^
 
-^^^ hint id=5_3 marks=2
+^^^ hint id=5_1_3 marks=2
 The area of the segment bounded by arc `CD` and diameter `CD` is therefore `(1/2 π - 1)` cm<sup>2</sup>.
 
 The unshaded area in the original figure is, therefore, `(π - 2)` cm<sup>2</sup>.  

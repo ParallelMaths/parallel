@@ -102,7 +102,7 @@ __3.1__ A swimming club has three categories of members: junior, senior, veteran
 
 Which of the following could be the total number of members in the swimming club?
 
-^^^ hint id=1
+^^^ hint id=1_2
 The 5:2 ratio suggests that we might have 5 seniors and 2 veterans, but if we have only 5 seniors then the 3:2 ratio would mean 7.5 juniors, which is clearly impossible. So, instead of 5 seniors and 2 veterans, what other numbers would agree with a 5:2 ratio?
 ^^^
 

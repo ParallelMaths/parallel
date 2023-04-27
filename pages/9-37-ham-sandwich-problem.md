@@ -120,15 +120,15 @@ What is the total shaded area?
 * [ ] `16π`
 {.col-5}
 
-^^^ hint id=4_1
+^^^ hint id=4_1_1
 The radius of each incomplete circle is 2.
 ^^^
 
-^^^ hint id=4_2
+^^^ hint id=4_1_2
 The interior angles of the pentagon are 108 degrees.
 ^^^
 
-^^^ hint id=4_3
+^^^ hint id=4_1_3
 Each shaded circle sector is [(360 – 108)/360] x (arc of the complete circle)
 ^^^
 

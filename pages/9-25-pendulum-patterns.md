@@ -70,7 +70,7 @@ equation so that you have the length depend on the time.
 * [ ] 1.16 metres
 * [ ] 1.8 metres
 
-^^^ hint id=1 marks=2
+^^^ hint id=1_2 marks=2
 
 
 ![](/resources/9-25-pendulum-patterns/1-2-first-term.png)
@@ -157,11 +157,11 @@ __4.1.__ The diagram shows four equal discs and a square. Each disc touches its 
 * [x] `6`
 * [ ] `2π`
 
-^^^ hint id=2 marks=1
+^^^ hint id=4_1_1 marks=1
 The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
 ^^^
 
-^^^ hint id=3 marks=1
+^^^ hint id=4_1_2 marks=1
 The perimeter of the shape is made up `4 × 3/4` circles. So the perimeter of the shape is `4 × 3/4 ×` the circumference of one full circle.
 ^^^
 
@@ -186,7 +186,7 @@ __5.1.__ What is the area of the figure in question 4.1?
 * [ ] 1.76
 * [ ] 1.96
 
-^^^ hint id=4 marks=1
+^^^ hint id=5_1 marks=1
 The radius of each circle is half the length of the square’s sides. If the square has sides of `2/π`, then the radius of each circle is `1/π`.
 ^^^
 

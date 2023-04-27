@@ -22,7 +22,7 @@ As this is the penultimate Parallelogram of the year, Simon has a special end of
 
 @[youtube](qJDq9HTkuc8?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-::: problem id=9_1 marks=2
+::: problem id=1_1 marks=2
 __1.1__ Which mathematical constant was Simon asking about?
 
 * [ ] `e`  
@@ -45,7 +45,7 @@ Richard Feynman is one of my heroes. He was a brilliant physicist (and won a Nob
 
 One of the first science books I ever read was “Surely You're Joking, Mr. Feynman!” by Richard Feynman. Maybe borrow it from your local library and read it over the summer.
 
-::: problem id=1_1 marks=3
+::: problem id=2_1 marks=3
 __2.1__ An English poet wrote about science “unweaving the rainbow” in a poem titled “Lamia”. He meant that science analyses natural phenomena and thereby reduces the beauty of nature. Who was this misguided (but brilliant) poet, who took the opposite view from Feynman?
 
 * [ ] William Wordsworth
@@ -68,7 +68,7 @@ __2.2__ Take a look at Richard Feynman’s Wikipedia page or any page that tells
 ## 3. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2014 (23) --->
 
-::: problem id=2_1 marks=3
+::: problem id=3_1 marks=3
 __3.1__ A sector of a disc is removed by making two straight cuts from the circumference to the centre. The perimeter of the sector has the same length as the circumference of the
 original disc.  
 
@@ -81,7 +81,7 @@ What fraction of the area of the disc is removed?
 * [ ] `1/2`
 {.col-5}
 
-^^^ hint id=2_1
+^^^ hint id=3_1
 ![](/resources/9-39-richard-feynman-superhero/2-circle.jpg){image align="right"}
 Suppose that the disc has radius `r`, so that its circumference is `2πr`. The ratio of the area of the circle to that of the sector is the same as the ratio of the circumference of the circle to the length of the arc which is part of the perimeter of the sector. Let this common ratio be 1:`k`. Then the arc has length `2πrk`.  
 
@@ -112,7 +112,7 @@ and hence
 ## 4. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2014 (24) --->
 
-::: problem id=3_1 marks=4
+::: problem id=4_1 marks=4
 __4.1__ How many 4-digit integers (from 1000 to 9999) have at least one digit repeated?
 
 * [x] 62 × 72
@@ -122,17 +122,17 @@ __4.1__ How many 4-digit integers (from 1000 to 9999) have at least one digit re
 * [ ] 42 × 92
 {.col-5}
 
-^^^ hint id=3_1
+^^^ hint id=4_1_1
 There are 9000 integers from 1000 to 9999. Instead of counting those with at least one digit repeated, it is easier to count the number with all different digits, and then subtract this total from 9000.  
 ^^^
 
-^^^ hint id=3_2
+^^^ hint id=4_1_2
 Consider an integer in this range all of whose digits are different. Its first (thousands) digit may be chosen from any of the 9 different non-zero digits. Thereafter we have all 10 digits to choose from other than those that have already been used. So the second (hundreds) digit may be chosen in 9 ways, the third (tens) in 8 ways and the last (units) in 7 ways. So there are 9 × 9 × 8 × 7 four-digit numbers with no digit repeated.  
 
 Therefore the number of 4-digit numbers which have at least one digit repeated is 9000 − 9 × 9 × 8 × 7.
 ^^^
 
-^^^ hint id=3_3
+^^^ hint id=4_1_3
 It remains only to show that this can be written as one of the five products given as options.  
 
 Since 1000 = 8 × 125, we have 9000 = 9 × 8 × 125 and therefore  
@@ -164,7 +164,7 @@ Since 1000 = 8 × 125, we have 9000 = 9 × 8 × 125 and therefore
 ## 5. Intermediate Maths Challenge Problem (UKMT)
 <!--- 2014 (25) --->
 
-::: problem id=4_1 marks=4
+::: problem id=5_1 marks=4
 ![](/resources/9-39-richard-feynman-superhero/4-circle.jpg){image align="right"}
 __5.1__ The diagram shows two concentric circles with radii of 1 and 2 units, together with a shaded octagon, all of whose sides are equal.  
 
@@ -176,24 +176,24 @@ What is the length of the perimeter of the octagon?
 * [ ] `2 sqrt(5 + 2 sqrt(2))`
 * [x] `8 sqrt(5 - 2 sqrt(2))`
 
-^^^ hint id=4_1
+^^^ hint id=5_1_1
 ![](/resources/9-39-richard-feynman-superhero/4-circle-answer.jpg){image align="right"}
 We need to find the length of one of the sides of the octagon. We consider the side `PQ` as shown in the diagram on the left. This is a side of the triangle `PQO`, where `O` is the centre of both circles. In this triangle `OP` has length 2, `OQ` has length 1 and `∠POQ = 45°`.
 ^^^
 
-^^^ hint id=4_2
+^^^ hint id=5_1_2
 For clarity we have drawn this triangle in a larger scale below.  
 
 ![](/resources/9-39-richard-feynman-superhero/4-triangle-answer.jpg){image align="center"}
 ^^^
 
-^^^ hint id=4_3
+^^^ hint id=5_1_3
 We let `T` be the point where the perpendicular from `Q` to `OP` meets `OP`.  
 
 In the right-angled triangle `QTO`, `∠TOQ = 45°`. Therefore `∠TQO = 45°` and so the triangle is isosceles. So `OT = TQ`. Since `OQ = 1`, we have, using Pythagoras’ Theorem, that `OT^2 + OT^2 = 1`. Hence `OT^2 = 1/2` and therefore `OT = TQ = 1/sqrt(2)`.  
 ^^^
 
-^^^ hint id=4_4
+^^^ hint id=5_1_4
 It follows that `PT = 2 − 1/sqrt(2)`. Therefore, by Pythagoras’ Theorem applied to triangle `PTQ`,
 
 `PQ^2 = PT^2 + TQ^2`  

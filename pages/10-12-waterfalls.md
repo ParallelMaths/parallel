@@ -157,11 +157,11 @@ What is the radius of the small circle, in centimetres?
 * [ ] `5 - 3 sqrt(2)`
 * [ ] `2 sqrt(2) - 2`
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 ![](/resources/10-12-waterfalls/5-shape-answer.jpg){image align="center"}
 ^^^
 
-^^^ hint id=5_2 marks=2
+^^^ hint id=5_1_2 marks=2
 We see from the diagram in the previous hint that the quarter circles touch each other tangentially. Let the points where they touch be `K`, `L`, `M` and `N`. Let the centres of the quarter circles be `P`, `Q`, `R` and `S`, arranged as shown in the diagram.  
 
 Because the circles touch, `PKQ`, `QLR`, `RMS` and `SNP` are straight lines.  

@@ -67,7 +67,7 @@ What is the value of `x + y`?
 * [ ] 90
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=3_1_1
 ![](/resources/8-21-dripping-taps/3-angles-hint.png){image align="right"}
 Notice that `x` and `y` are two of the internal angles of a pentagon.
 
@@ -76,15 +76,15 @@ We have highlighted that pentagon in this graphic.
 Consider how this information can help you solve the problem.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=3_1_2
 What do the internal angles of pentagon add up to? The formula for calculating the sum of the interior angles of a regular polygon is: `(n - 2) × 180°` where `n` is the number of sides of the polygon.
 ^^^
 
-^^^ hint id=3
+^^^ hint id=3_1_3
 Remember that the triangle is equilateral. What is the value of the biggest angle in the pentagon, above angle `x` and below angle `y`?
 ^^^
 
-^^^ hint id=4
+^^^ hint id=3_1_4
 You know that two of the angles in the pentagon are right angles.
 ^^^
 

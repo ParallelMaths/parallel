@@ -155,15 +155,15 @@ Tips:
 *	If you get stuck, be prepared to go backwards and try another letter.
 *	If you get really stuck, then you can click on the hints below, but they will cost you 1 mark for each hint.
 
-^^^ hint id=1
+^^^ hint id=5_1_1
 CWQN = ugly
 ^^^
 
-^^^ hint id=2
+^^^ hint id=5_1_2
 Words (as well as letters) have frequencies. The most common 3-letter word in English is THE. Can you spot it in the message?
 ^^^
 
-^^^ hint id=3
+^^^ hint id=5_1_3
 Try to get inside the head of the person who wrote the message. We know this is a message about mathematics, so what word might you expect to find in the message?
 ^^^
 

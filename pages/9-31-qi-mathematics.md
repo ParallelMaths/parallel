@@ -34,11 +34,11 @@ What fraction of the square is shaded?
 * [ ] `1/2`
 {.col-5}
 
-^^^ hint id=1_1
+^^^ hint id=1_1_1
 Since `X` divides `PQ` in the ratio 3:1, it is convenient to choose units so that the side of the square has length 4, and hence XQ has length 1. Then the total area of the square is `4^2 = 16`.
 ^^^
 
-^^^ hint id=1_2
+^^^ hint id=1_1_2
 ![](/resources/9-31-qi-mathematics/1-square-answer.png){image align="right"}
 If we add the dotted lines to the diagram, as shown on the right, we see that the unshaded part of the square is made up of 4 isosceles right-angled triangles in which the shorter sides have length 2, and 4 isosceles right-angled triangles in which the shorter sides have length 1.
 ^^^
@@ -68,11 +68,11 @@ __2.1__ Which of the following has the greatest value?
 * [ ] `(3/2)^3`
 {.col-5}
 
-^^^ hint id=2_1
+^^^ hint id=2_1_1
 The fact that each bracket is cubed is a distraction. If A is bigger than `B`, and if `A` is bigger than 1, then `A^3` is bigger than `B^3`.
 ^^^
 
-^^^ hint id=2_2
+^^^ hint id=2_1_2
 There are several approaches, but one way is to make every fraction have the same denominator, e.g., 420.
 ^^^
 

@@ -105,7 +105,7 @@ One of them is the right-angled triangle with sides 6, 8 and 10 units. The perim
 
 What is the other equable right-angled triangle with integer length sides? Just type in the length of the hypotenuse, so we know that you have identified the correct triangle.
 
-^^^ hint id=1
+^^^ hint id=4_1
 There is no easy way to do this, as far as I know, apart from writing the dimensions of some right-angled triangles. You should know or be able to work out the lengths of the smallest right-angled triangles.
 ^^^
 
@@ -140,13 +140,13 @@ She then uses the pieces to form a 2 × 6 rectangle.
 
 What is the difference between the areas of the two pieces?
 
-^^^ hint id=2
+^^^ hint id=5_1_1
 Ideally, you might want to cut across the diagonal between the two corners of the L-shape, but you are only allowed to cut along the grid lines... so maybe you can cut close to the diagonal along the grid lines.
 
 ![](/resources/9-19-bubble-solution/5-squares-hint.png){image align="center"}
 ^^^
 
-^^^ hint id=3
+^^^ hint id=5_1_2
 Once you have cut the shape into two pieces, you might need to flip over one piece.
 ^^^
 

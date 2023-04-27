@@ -95,7 +95,7 @@ Clue: To get you started, after the first stage we reach 5,200 – 0025 = 5,175.
 ::: problem id=1_5 marks=3
 __1.5.__ 6,174 is Kaprekar’s constant for 4 digits, but if we apply the same process for 3-digit numbers, then they all end up by transforming into a different number. Start with the number 972 and try to find out what constant it becomes after a few steps.
 
-^^^ hint id=1
+^^^ hint id=1_5
 The answer is between 400 and 500.
 ^^^
 

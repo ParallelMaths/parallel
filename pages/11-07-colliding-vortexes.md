@@ -64,11 +64,11 @@ What is `1 + 3 + 5 + `...` + 1999 + 2001 + 1999 + `...` + 5 + 3 + 1`?
 * [ ] none of these
 {.col-5}
 
-^^^ hint id=2_1 marks=2
+^^^ hint id=2_1_1 marks=2
 The general form of the example given is `1 + 3 + 5 + `...` + (2n – 1) + `...` + 5 + 3 + 1 = (n – 1)^2 + n^2`.
 ^^^
 
-^^^ hint id=2_2 marks=2
+^^^ hint id=2_1_2 marks=2
 The largest number in the sum in question is 2001, so we have `2n – 1 = 2001`, so `n = 1001`.
 ^^^
 
@@ -100,19 +100,19 @@ When it is completed, what number will replace the asterisk?
 * [ ] 16
 {.col-5}
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 The totals of the top row and the completed main diagonal are 30 and 39 respectively and therefore the ten consecutive numbers in question are 30 to 39.
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 The number in the bottom right-hand corner must be one of 1, 2, 8, 15 or 16. Taking 1 or 2 makes the diagonal (from top left to bottom right) add up to less than 30.
 ^^^
 
-^^^ hint id=3_3 marks=1
+^^^ hint id=3_1_3 marks=1
 Making the number in the bottom right-hand corner 15 or 16 makes the diagonal (from top left to bottom right) add up to greater than 39. Hence, 8 must go in the bottom right-hand corner.
 ^^^
 
-^^^ hint id=3_4 marks=1
+^^^ hint id=3_1_4 marks=1
 If 15 is placed in the vacant square in the second column, we get a total of 45 for that column, which is too big. Try putting the 15 in another vacant square.
 ^^^
 

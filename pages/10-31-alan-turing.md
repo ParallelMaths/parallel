@@ -124,13 +124,13 @@ What is the value of `x`?
 * [x] 40
 * [ ] 30
 
-^^^ hint id=3_1 marks=2
+^^^ hint id=3_1_1 marks=2
 First, you know that the angles at A, B, C, D, E and F are all 60°. Then you can work out the angles marked with red circles. Then you can work out angle BHE, and from there you can go on to solve the problem.
 
 ![](/resources/10-31-alan-turing/3-triangles-hint.png){image align="center"}
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 Once you know the angle at BHE, then you know the vertically opposite angle, the angle at DHC. You already know that the angle at C is 60°, so you can work out the angle at `x`°.
 ^^^
 

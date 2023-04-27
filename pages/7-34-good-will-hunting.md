@@ -284,7 +284,7 @@ marks for this question, but you will lose half a mark for each clue that you ne
 
 <input type="text" solution="9"/>
 
-^^^ hint id=1 marks=0.5
+^^^ hint id=3_1_1 marks=0.5
 Start by creating a list of all the possible ages for the three children,
 bearing in mind that we know that the ages multiply to give 36. If you are
 doing this on your own then try to do it in an order so that you can make sure
@@ -310,7 +310,7 @@ If you are still stuck... then try harder... but you could also try hint 2.
 | 3       | x | ?       | x | ?       | = | 36      |
 ^^^
 
-^^^ hint id=2 marks=0.5
+^^^ hint id=3_1_2 marks=0.5
 The ages add up to the house number, but that is still not enough for the
 councillor to work out the ages. This must mean that at least a couple of the
 possible sets of ages add up to the same number, which explains why the
@@ -333,11 +333,11 @@ take a look at final clue that the mother gave.
 | 3       | + | 3       | + | 4       | = | ?       |
 ^^^
 
-^^^ hint id=3 marks=0.5
+^^^ hint id=3_1_3 marks=0.5
 It’s obvious. Think about it.
 ^^^
 
-^^^ hint id=4 marks=0.5
+^^^ hint id=3_1_4 marks=0.5
 You should have narrowed it down to two possibilities (1, 6, 6) an (2, 2, 9),
 which both add up to 13. Only one of these sets of ages has an oldest child.
 So the answer is obvious.
@@ -407,7 +407,7 @@ Therefore if the third type of coin is worth 9p, both 13p and 19p may be made us
 
 Also, in this case we see that we cannot make either 13p or 19p with just two of the coins. So when the third type of coin is worth 9p, the smallest number of coins needed to make 13p and 19p is three.
 
-^^^ hint id=6
+^^^ hint id=6_1
 To make 13p, we have three options, with the ‘other’ coin in brackets:  
 
 * 2 + 2 + [9]  

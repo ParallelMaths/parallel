@@ -118,11 +118,11 @@ __4.1__ How many pairs of digits (`p, q`) are there so that the five-digit integ
 * [x] 6
 {.col-5}
 
-^^^ hint id=3_1
+^^^ hint id=4_1
 If the number is a multiple of 15, then it must also be a multiple of both 3 and 5, so the last digit (`q`) must be 0 or 5.
 ^^^
 
-^^^ hint id=3_2
+^^^ hint id=4_2
 If `q = 0`, then what values for `p` would make the number divisible by 3?  
 
 If `q = 5`, then what values for `p` would make the number divisible by 3?  

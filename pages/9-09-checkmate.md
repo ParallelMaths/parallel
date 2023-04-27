@@ -102,11 +102,11 @@ __2.1.__ One year, there were exactly four Tuesdays and exactly four Fridays in 
 * [ ] Saturday
 * [ ] Sunday
 
-^^^ hint id=1
+^^^ hint id=2_1_1
 1 October cannot be a Tuesday, because then 8, 15, 22 and 29 October would also be Tuesdays, and that would be 5 Tuesdays. The question says there are only 4 Tuesdays.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=2_1_2
 Similarly, 2/3 October cannot be a Friday, because then 9/10, 16/17, 23/24 and 30/31 October would also be Fridays, and that would be 5 Fridays. The question says there are only 4 Fridays.
 ^^^
 
@@ -138,7 +138,7 @@ What is the volume of the open box in cm<sup>3</sup>?
 * [ ] 180
 * [x] 200
 
-^^^ hint id=3
+^^^ hint id=3_1
 Suppose that the dotted square corresponding to the base of the box has side length `x` cm. Then the base has area `x`<sup>2</sup> cm, and each of the sides of the box has area `2x` cm.
 
 Hence the internal surface area of the box, in cm<sup>2</sup>, is `x`<sup>2</sup> `+ 4 × 2x` , that is, `x`<sup>2</sup> `+ 8x`. Therefore `x`<sup>2</sup> `+ 8x = 180`.
@@ -173,7 +173,7 @@ __4.1.__ How many painters are employed to paint the time?
 * [ ] 3 painters who swap every 8 hours.
 * [ ] 24 painters who each take responsibility for one hour.
 
-^^^ hint id=4
+^^^ hint id=4_1
 Can you actually see the painter? Could you really trust the painters to keep perfect time?
 ^^^
 

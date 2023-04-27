@@ -55,7 +55,7 @@ __2.1.__ Here is another problem with two solutions. Look at these four equation
 3 + 6 = 21  
 8 + 11 = ?  
 
-^^^ hint id=1
+^^^ hint id=2_1
 In the 2nd line, (2 + 5 ≠ 12), but what about adding the answer to 1st line to (2 + 5)?  
 
 In the 3rd line, (3 + 6 ≠ 21), but what about adding the answer to 2nd line to (3 + 6)?
@@ -77,7 +77,7 @@ In the 4th line, the answer is (8 + 11 + 21) = 40.
 ::: problem id=2_2 marks=2
 __2.2.__ Now find the answer that is more than 50, which will require a different rule.
 
-^^^ hint id=2
+^^^ hint id=2_2
 This rule requires you to multiply both numbers and add the first one. For example:  
 
 In the 2nd line, (2 + 5 ≠ 12), but (2 × 5 + 2 = 12).  

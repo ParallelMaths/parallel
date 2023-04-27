@@ -119,7 +119,7 @@ __2.__ A number
 
 _x_ = <input type="text" solution="4"/>
 
-^^^ hint id=1
+^^^ hint id=2_1
 1 across, 3 across & 1 down are all cubes (or one less than a cube) and they are all 2-digit numbers, which means they are between 10 and 99. There are not very many cube numbers between 10 and 99, so start by writing them down and then see how they might fit into the grid.
 ^^^
 

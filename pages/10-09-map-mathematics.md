@@ -153,7 +153,7 @@ What is its radius?
 * [ ] 13cm
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 In answering this question we use the fact that the area of a circle with radius `r` is `πr^2`.  
 
 The area of the shaded annulus is the area inside the outer circle of radius 14 cm minus the area inside the inner circle of radius 2 cm. Therefore this area is, in cm<sup>2</sup>,  
@@ -161,7 +161,7 @@ The area of the shaded annulus is the area inside the outer circle of radius 14 
 `π(14^2) − π(2^2) = 196π − 4π = 192π`.  
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Let the radius of the dashed circle be `x` cm.  
 
 Similarly, the area between the dashed circle and the inner circle is, in cm<sup>2</sup>,  

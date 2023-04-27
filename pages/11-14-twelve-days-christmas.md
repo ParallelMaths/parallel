@@ -59,15 +59,15 @@ How long does he take to deliver presents to all three streets?
 * [x] 22 min
 {.col-5}
 
-^^^ hint id=2_1 marks=1
+^^^ hint id=2_1_1 marks=1
 Let Father Christmas take `x` minutes to cover the last street. Then he takes `(3x)/2` minutes to cover the second street and `3x` minutes to cover the first street.
 ^^^
 
-^^^ hint id=2_2 marks=1
+^^^ hint id=2_1_2 marks=1
 Since the sum of these three times is 10 minutes more than if he had taken `x` minutes for each of the three streets, we have  `3x + (3x)/2 + x = 3x + 10`.
 ^^^
 
-^^^ hint id=2_3 marks=1
+^^^ hint id=2_1_3 marks=1
 The solution to `3x + (3x)/2 + x = 3x + 10` is `x = 4`. Remember, this is the time taken to cover the last street.
 ^^^
 
@@ -141,11 +141,11 @@ What was the weight of the cake?
 * [x] 5130g
 {.col-5}
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 The range of the guesses is just 110. This tells us that the two ‘wild’ guesses can’t be either side of the correct answer, as this would result in a range of 70 + 90 = 160.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 If the wild guesses were wildly high, they would be 5120g and 5150g. These can’t be 70g and 90g out because they don’t have a difference of 20g. So the ‘wild’ guesses must be 5040g and 5060g.
 ^^^
 
@@ -169,19 +169,19 @@ What is the difference between the number of toys Al made, and the number of toy
 * [ ] 45
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 Letting Al’s, Bertie’s, Chris’ and Di’s totals be `a`, `b`, `c` and `d`, we have `a + b = 55` and `a + b + c + d = 150`.  
 
 Subtracting one from the other we have `c + d = 95`.
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 `a + c = 65`.  
 
 What expression will we get if we subtract `a + c` from `c + d`?
 ^^^
 
-^^^ hint id=5_3 marks=1
+^^^ hint id=5_1_3 marks=1
 `(c + d) – (a + c) = d – a` (The `c`’s cancel each other out) This is the difference between the number of toys Al made, and the number of toys Di made.  
 
 `c + d = 95`, and `a + c = 65`.

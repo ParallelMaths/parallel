@@ -233,7 +233,7 @@ __5.7.__ The Thai alphabet has 72 letters. If I am encoding a message in Thai by
 * [ ] 6
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=5_7
 Remember the golden rule: you can multiply by any number __“as long as the number has no factors in common with the size of the alphabet that you are using.”__
 ^^^
 
@@ -295,7 +295,7 @@ __5.10.__ Which of the eight alphabets above would allow me to multiply by almos
 * [ ] English
 {.col-4}
 
-^^^ hint id=2
+^^^ hint id=5_10
 Alphabets with a prime number of letters are generally good, because prime numbers have no factors apart from 1 and the number itself.
 ^^^
 

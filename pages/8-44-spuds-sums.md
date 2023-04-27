@@ -120,7 +120,7 @@ What is the value of `x`?
 * [x] 360
 * [ ] More information needed
 
-^^^ hint id=22 marks=2
+^^^ hint id=5_1 marks=2
 You do not have any two entries given which lie in the same three-box stack, so instead of working out a particular value, label the box next to 12 as `a`. Now label the box next to 78 with an expression, using the fact that this box plus `a = 90`.
 ^^^
 

@@ -25,7 +25,7 @@ __1.1.__ Roll the dice in the way shown by the arrows – in other words, the di
 
 ![](/resources/9-20-puzzle-compendium/1-dice.png)
 
-^^^ hint id=1
+^^^ hint id=1_1
 This requires you to imagine the rolling process in your mind. First, 2 will be facing down, 4 will still face us, 1 will be facing to the right, and 5 will be on top. Remember, the opposite sides of a dice add up to 7, so if 2 is on the bottom, then 5 is on the top.
 ^^^
 
@@ -79,11 +79,11 @@ __3.1.__  The matches are arranged to form Roman numerals, but obviously six min
 
 ![](/resources/9-20-puzzle-compendium/3-matchsticks.png)
 
-^^^ hint id=2
+^^^ hint id=3_1_1
 Move one of the first three matchsticks.
 ^^^
 
-^^^ hint id=3
+^^^ hint id=3_1_2
 Whichever matchstick you move, combine it in some way with matchstick 4.
 ^^^
 
@@ -139,7 +139,7 @@ __5.1__ A regular octagon is placed inside a square, as shown. The shaded square
 
 What fraction of the outer square is shaded?
 
-^^^ hint id=4
+^^^ hint id=5_1
 Suppose that the side length of the regular octagon is `s` units. The right angled isosceles triangles in the diagram have hypotenuses of length `s`. Suppose that the length of each of the other sides of these triangles is `t`.  
 
 By Pythagoras’ Theorem, `t^2 + t^2 = s^2`, and hence `t = 1/sqrt(2) s`.
@@ -186,7 +186,7 @@ __6.1__ You are given that `5^p = 9`, `9^q = 12`, `12^r = 16`, `16^s = 20`, and 
 
 What is the value of `pqrst`?
 
-^^^ hint id=5
+^^^ hint id=6_1
 We know `5^p = 9` and `9^q = 12`.  
 
 Therefore, `(5^p)^q = 12`.  

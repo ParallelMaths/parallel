@@ -105,7 +105,7 @@ What, in cm<sup>2</sup>, is the surface area of the solid?
 * [ ] 1050
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=4_1
 If the object is one cube surrounded by cubes then we have (1 + 6 = 7 cubes), so you can now work out the volume of each cube... and therefore the length of any side of any cube. When it comes to looking at the surface area, we have no surface area from the cube in the middle, and 5 faces from each of the other 6 cubes. So, just be careful when you work this out. Take it step by step, lay our your calculation clearly and check your answer before you submit it.
 ^^^
 

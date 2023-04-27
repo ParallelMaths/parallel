@@ -33,7 +33,7 @@ Which of the shapes has the shortest perimeter?
 * [ ] E
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=1_1
 The isosceles triangle is also a right-angle triangle, so it has one long side, and two short sides. So one option is to measure the perimeter of each shape in terms of shorts and longs. So, shape (D) is 6 shorts.
 ^^^
 
@@ -103,7 +103,7 @@ What is the total area of the shaded region?
 * [ ] more information is needed.
 {.col-3}
 
-^^^ hint id=3
+^^^ hint id=3_1
 ![](/resources/9-29-four-brothers/6-square-answer.png){image align="right"}
 We let `P, Q, R, S, T` and `U` be the points as labelled in the diagram.  
 
@@ -142,7 +142,7 @@ Bernard: “I’m neither the youngest nor the oldest.”
 * [ ] Alfred and Bernard  
 * [ ] Inigo and Horatio
 
-^^^ hint id=4
+^^^ hint id=4_1
 Take a look at what Horatio says – does it fit with what any of the others say?
 ^^^
 

@@ -94,11 +94,11 @@ __4.1__ For what value of `x` is `64^x` equal to `512^5`?
 * [ ] 40
 {.col-5}
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 Convert everything into powers of 2.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 `64^x = (2^6) ^x = 2^(6x)`
 ^^^
 

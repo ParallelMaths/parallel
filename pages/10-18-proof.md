@@ -177,11 +177,11 @@ What is the smallest value of `n` for which for the `n` th term of the sequence 
 * [ ] more than 7
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 It’s not as difficult as it looks.
 ^^^
 
-^^^ hint id=5_2 marks=2
+^^^ hint id=5_1_2 marks=2
 If you are stuck, just try a brute force approach and try calculating a few values for increasing values of n. You will notice that many of the terms under the square root cancel out.
 ^^^
 

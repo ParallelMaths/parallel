@@ -152,11 +152,11 @@ Which of the following is the quadrilateral?
 * [x] trapezium
 {.col-5}
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 As the sum of the interior angles in a quadrilateral is `360°`, we know that `x + 5x + 2x + 4x = 360°`.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 Sketch out the quadrilateral with the angles at vertices `P`, `Q`, `R`, `S` in the order of the question. If `x + 5x + 2x + 4x = 360°`, then `x + 5x = 2x + 4x = 180°`, so the side connecting vertices `S` and `R` and the side connecting `P` and `Q` must be parallel. (Think about why this is.)
 ^^^
 

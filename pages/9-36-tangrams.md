@@ -119,15 +119,15 @@ __5.1__ Suppose that `8^m = 27`. What is the value of `4^m`?
 * [ ] there is no such `m`
 {.col-5}
 
-^^^ hint id=5_1
+^^^ hint id=5_1_1
 Notice that `8 = 2^3`.
 ^^^
 
-^^^ hint id=5_2
+^^^ hint id=5_1_2
 Notice that `27 = 3^3`.
 ^^^
 
-^^^ hint id=5_3
+^^^ hint id=5_1_3
 So `8^m = 27` may be written as `(2^3)^m = 3^3`.
 ^^^
 

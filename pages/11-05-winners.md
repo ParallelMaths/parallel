@@ -95,11 +95,11 @@ __3.1__ The product of Mary's age in years on her last birthday and her age now 
 * [ ] 18
 {.col-5}
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 We need to express 1,800 as the product of two factors, one of which (her age in complete months) is between 12 and 23 times the other (her age in complete years).
 ^^^
 
-^^^ hint id=3_2 marks=2
+^^^ hint id=3_1_2 marks=2
 These are 150 and 12 respectively.
 ^^^
 

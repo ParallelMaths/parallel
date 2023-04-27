@@ -104,7 +104,7 @@ Which piece has the longest perimeter?
 * [x] E
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=3_1
 If we look at pieces B and C, they have roughly the same perimeter – let’s call it 12 lengths. However, B has a longer perimeter than C, because more of B’s sides are crooked, and crooked sides are longer than straight sides.
 ^^^
 
@@ -213,7 +213,7 @@ Bearing in mind the QI quote, roughly how much energy does the Sun generate ever
 * [x] `4 × 10^26` Joules
 * [ ] `4 × 10^35` Joules
 
-^^^ hint id=4_4 marks=1
+^^^ hint id=4_5 marks=1
 Energy per second `= m × c^2`  
 `= 4 × 10^9 × (3 × 10^8)^2`  
 ^^^

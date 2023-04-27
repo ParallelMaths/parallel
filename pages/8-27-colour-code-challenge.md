@@ -25,23 +25,23 @@ Below you can see the numbers from 1 to 20 represented by coloured circles, but 
 ::: problem id=1_1 marks=6
 __1.1.__ Which number is linked to the wrong colours? There are some hints below if you need them.
 
-^^^ hint id=1
+^^^ hint id=1_1_1
 Look for patterns. Which colours are linked to which numbers?
 ^^^
 
-^^^ hint id=2
+^^^ hint id=1_1_2
 What colour is 2, and which numbers share that colour?
 ^^^
 
-^^^ hint id=3
+^^^ hint id=1_1_3
 Which numbers only have a single colour?
 ^^^
 
-^^^ hint id=4
+^^^ hint id=1_1_4
 2 is orange, 4 is doubly orange, 8 is triply orange. Can you figure out why?
 ^^^
 
-^^^ hint id=5
+^^^ hint id=1_1_5
 2 is orange, 3 is green and 6 is orange and green. Why?
 ^^^
 

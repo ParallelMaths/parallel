@@ -27,15 +27,15 @@ __1.1__ This is a tough problem, which is why it is worth so many marks. What is
 
 <input type="number" solution="3"/>
 
-^^^ hint id=1
+^^^ hint id=1_1_1
 (A + A = B), and there is no carry, as there is no fourth digit in the answer to the sum, so A must be 1, 2 , 3 or 4.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=1_1_2
 At first sight, (C + C = A) and (B + C = A) for the middle and right columns, but B and C are different. This can only be possible if (B + C) is bigger than 10, so there is a carry into the middle column, so (C + C + 1 = A). This means (B + C = 11, 12, 13 or 14), in order to have a carry over.
 ^^^
 
-^^^ hint id=3
+^^^ hint id=1_1_3
 We know that (C + C + 1 = B + C = A). So, B is equal to (C + 1).  And we know (B + C = 11, 12, 13 or 14). So we have B = 6, C = 5 … or B = 7, C = 6).
 ^^^
 

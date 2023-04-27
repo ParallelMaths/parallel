@@ -119,7 +119,7 @@ What is the perimeter of the smaller trapezium?
 * [ ] 9 cm
 {.col-5}
 
-^^^ hint id=4
+^^^ hint id=4_1
 The large trapezium and the small trapezium are made from three equilateral triangles. The longer side is twice as long as any of the shorter sides.
 ^^^
 

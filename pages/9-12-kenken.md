@@ -47,7 +47,7 @@ You can either copy it onto a bit of paper by hand or [follow this link to open 
 
 To help us check whether you have completed the grid correctly, add up the 4 corner numbers and enter the sum in the box below.
 
-^^^ hint id=1
+^^^ hint id=1_1
 The (4 +) cage is one way to start cracking this KenKen. The cage has to contain (3,1), because the only other way to obtain 4 is (2, 2) and no number can be repeated in a row. We don’t know the order of the (3, 1) cage, but it tells us the remaining number in that column must be (2).
 ^^^
 
@@ -66,7 +66,7 @@ __2.1.__ This KenKen involves multiplication, division and subtraction. What do 
 
 ![](/resources/9-12-kenken/2-1-kenken.png){image align="center"}
 
-^^^ hint id=2
+^^^ hint id=2_1
 Look at the (12x) cage. It can only contain the numbers (3, 2, 2), but the 2s cannot be in the same row or column, so where must they be placed?
 ^^^
 
@@ -84,13 +84,13 @@ __2.2.__ This KenKen involves multiplication and division only, but it’s a 4x4
 
 What do the four corner cells add up to?
 
-^^^ hint id=3
+^^^ hint id=2_2_1
 Okay, this is harder than I thought. Of course, fill in the freebie (1). Then, the (18x) cage has to be (3, 3, 2, 1). The (3, 3) have to be diagonal to each other in the cage, to avoid being in the same row/column. Therefore, the (2,1) have to be diagonal to each other – one is in the top row and one is in the second row. In fact, the 1 has to be in the second row, because we already have a 1 in the top row. So, the 2 has to be in the top row.  
 
 So, in the top row, we know we have a 3 and a 2 in the (18x) cage, and then a freebie (1), so the right cell in the top row must be (4).
 ^^^
 
-^^^ hint id=4
+^^^ hint id=2_2_2
 If the top right cell is (4), from the first hint, the cell below it must be 2. The cell below that is part of the (24x) cage, which consists of (4, 3, 2). However, the right-hand column already has a (4, 2), so the third element of the right-hand column must be (3).
 ^^^
 
@@ -111,21 +111,21 @@ __3.1__ This KenKen involves only addition and subtraction, BUT it is a 5x5 grid
 
 What do the four corner cells add up to?
 
-^^^ hint id=4
+^^^ hint id=3_1_1
 The (4+) cell has to contain (3,1) in some order, as (2,2) is not allowed, because you cannot repeat any number in the same row/column.
 ^^^
 
-^^^ hint id=5
+^^^ hint id=3_1_2
 Both (20x) cages have to be either (5, 4, 1) or (5, 2, 2). Either way, there is a 5 somewhere. Given the freebie (5) in the right column, we know the (5) sits in the middle of the (20x) cage on the right
 ^^^
 
-^^^ hint id=6
+^^^ hint id=3_1_3
 The (12+) cage must have three different numbers, because it sits in one column. Those numbers must be (5, 4, 3).  
 
 The first hint showed that the (4+) cage must be (3,1), and now we know it must be in that order to avoid a repeated (3) in the second column.
 ^^^
 
-^^^ hint id=7
+^^^ hint id=3_1_4
 Don’t worry if you needed all four hints – this is not an easy KenKen. Two clues in this hint.  
 
 (1) In the (12+) cage, which must contain (5,4,3), the 5 must be at the top of the cage to avoid being in the same row as any other (5).  

@@ -95,15 +95,15 @@ What is the size of angle `JFI`?
 * [ ] 33°
 * [ ] 34.5°
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 Since ∠IJF and ∠FJG form a straight line, they sum to 180, so ∠FJG = 180 – 111 = 69. Since FGJ is an isosceles triangle, ∠GFJ also equals 69.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 The remaining angle in triangle FGJ is 180 – 2 × 69 = 42. A rhombus is a quadrilateral with four equal sides, so when split along the diagonal makes two isosceles triangles.
 ^^^
 
-^^^ hint id=4_3 marks=1
+^^^ hint id=4_1_3 marks=1
 In isosceles triangle FGI, ∠FGI = ∠GIF = 42. You now have two angles of the triangle FJI.
 ^^^
 

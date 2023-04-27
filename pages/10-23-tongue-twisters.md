@@ -166,11 +166,11 @@ What is the value of `x`?
 * [ ] 60
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 Regular or irregular, the internal angles of a polygon add up to (n – 2) x 180°, where n is the number of sides.
 ^^^
 
-^^^ hint id=5_2 marks=2
+^^^ hint id=5_1_2 marks=2
 If you are stuck, just try a brute force approach and try calculating a few values for increasing values of n. You will notice that many of the terms under the square root cancel out.
 ^^^
 

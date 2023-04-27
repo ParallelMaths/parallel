@@ -31,7 +31,7 @@ The doorman says “7” to you. What should you reply?
 
 <input type="number" solution="5"/>
 
-^^^ hint id=1
+^^^ hint id=1_1
 Instead of thinking about numbers, think about words. So, doorman says “seven”.
 ^^^
 
@@ -53,7 +53,7 @@ __1.3.__ What does Lewis Hamilton drive?
 
 <input type="text" solution="racecar"/>
 
-^^^ hint id=2
+^^^ hint id=1_3
 The answer is a 7-letter word starting RAC_ _ _ _ .
 ^^^
 :::
@@ -63,7 +63,7 @@ __1.4.__ Name something a bit like a canoe?
 
 <input type="text" solution="kayak"/>
 
-^^^ hint id=3
+^^^ hint id=1_4
 The answer starts (and therefore ends) with a K.
 ^^^
 :::
@@ -107,7 +107,7 @@ How many points has her team gained?
 * [x] 31
 * [ ] 32
 
-^^^ hint id=4
+^^^ hint id=3_1
 Suppose that there are `w` points for a win, and `d` points for a draw. Since my team gains 44 points from 7 wins and 3 draws, `7w + 3d = 44`.
 
 Since `7w < 44`, we have `1≤ w ≤ 6`.

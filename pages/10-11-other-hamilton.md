@@ -202,7 +202,7 @@ How many seconds would it take her to travel up the escalator if she walked up a
 * [ ] 75
 {.col-5}
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=5_1_1 marks=2
 We suppose that the distance from the bottom to the top of the escalator is `d` metres.  
 
 Since it takes Aimee 60 seconds to travel this distance when she stands still, the escalator moves upwards at a speed of `d/60` metres per second.  
@@ -210,7 +210,7 @@ Since it takes Aimee 60 seconds to travel this distance when she stands still, t
 Since it takes Aimee 90 seconds to walk from the bottom to the top of the escalator when it is not moving, Aimee walks up the escalator at a speed of `d/90` metres per second.  
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 It follows that when Aimee is walking at the same speed up the moving escalator she is moving at a speed of `(d/60 + d/90)` metres per second.
 ^^^
 

@@ -244,7 +244,7 @@ __8.2__ Which country finished second?
 
 <input solution="FRANCE"/>
 
-^^^ hint id=8_1
+^^^ hint id=8_2
 Look at each team. If the statements say that a team has finished below two or more teams, then it did not finish top or second.
 ^^^
 

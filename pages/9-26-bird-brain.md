@@ -115,7 +115,7 @@ How long is the diagonal line `AC`?
 
 <input type="number" solution="10"/> cm
 
-^^^ hint id=2 marks=1
+^^^ hint id=5_1 marks=1
 Consider the other diagonal, `BD`.
 ^^^
 

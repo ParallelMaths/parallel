@@ -107,11 +107,11 @@ __2.1.__ What is the number of parking space taken by the car? This is a tough q
 
 ![](/resources/9-03-lots-of-socks/2-cars.png){image align="center"}
 
-^^^ hint id=1 marks=0.5
+^^^ hint id=2_1_1 marks=0.5
 Symmetry.
 ^^^
 
-^^^ hint id=2 marks=0.5
+^^^ hint id=2_1_2 marks=0.5
 Look at it from the driver’s point of view.
 ^^^
 

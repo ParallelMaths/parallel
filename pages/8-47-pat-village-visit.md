@@ -113,7 +113,7 @@ __5.1__ Kiran writes down six different prime numbers, `p`, `q`, `r`, `s`, `t`, 
 * [x] 24
 {.col-5}
 
-^^^ hint id=5 marks=2
+^^^ hint id=5_1 marks=2
 The primes less than 20 are 2, 3, 5, 7,  11, 13, 17, 19. The number 2 is the only even prime, so you cannot use it, because otherwise one sum will be (even + odd) and the two others will be (odd + odd) (
 ^^^
 

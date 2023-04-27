@@ -47,7 +47,7 @@ You can either copy it onto a bit of paper by hand or [follow this link to open 
 
 To help us check whether you have completed the grid correctly, add up the 4 corner numbers and enter the sum in the box below.
 
-^^^ hint id=1
+^^^ hint id=1_1
 The (4 +) cage is one way to start cracking this KenKen. The cage has to contain (3,1), because the only other way to obtain 4 is (2, 2) and no number can be repeated in a row. We don’t know the order of the (3, 1) cage, but it tells us the remaining number in that column must be (2).
 ^^^
 
@@ -66,7 +66,7 @@ __2.1.__ What do the four corner cells add up to?
 
 ![](/resources/8-12-kenken/2-1-kenken.png){image align="center"}
 
-^^^ hint id=2
+^^^ hint id=2_1
 The (3 +) cage has to contain (1,2), because it is the only way to obtain 3. We don’t know the order of the (1, 2) cage, but it tells us the remaining number in that column must be (3).
 ^^^
 
@@ -84,7 +84,7 @@ __2.2.__ This KenKen involves multiplication and division.
 
 What do the four corner cells add up to?
 
-^^^ hint id=3
+^^^ hint id=2_2
 The (18x) cage has to contain (1,2, 3, 3), because it is the only way to obtain 18 by multiplying the four allowable digits. The repeated 3 is helpful, because they cannot both be in the top row, so one of them must be in the right column, middle row square.
 ^^^
 
@@ -105,11 +105,11 @@ __3.1__ This KenKen involves only addition and subtraction, BUT it is a 4x4 grid
 
 What do the four corner cells add up to?
 
-^^^ hint id=4
+^^^ hint id=3_1_1
 Focus on the (7+) cage with only two cells They can only be (4, 3), but we don’t know in which order.
 ^^^
 
-^^^ hint id=5
+^^^ hint id=3_1_2
 Focus on the (3-) cage with only two cells. They can only be (4, 1), but we don’t know in which order.
 ^^^
 
@@ -127,13 +127,13 @@ __3.2__ This 4x4 KenKen is even harder than the previous KenKen. Good luck. Don�
 
 What do the four corner cells add up to?
 
-^^^ hint id=6
+^^^ hint id=3_2_1
 Focus on the left column. The only way to fill the (12x) cage is with (4, 3), but we don’t know the order. Next, look at the (3−) cage, which must be (4, 1), but again we don’t know the order.  
 
 However, we know that (3−) cage has (4, 1), so the bottom left corner (part of the (12x) cage) cannot be 4, so it must be 3.
 ^^^
 
-^^^ hint id=7
+^^^ hint id=3_2_2
 In fact, we do know the order of (4, 1) in the (3−) cage, because the freebie (1) in the right column tells us that the (3−) cage must be 1-4, rather than 4-1, to avoid the two 1s being in the same column.
 ^^^
 
@@ -164,11 +164,11 @@ What is the sum of our ages now?
 * [ ] 115
 {.col-5}
 
-^^^ hint id=4_1
+^^^ hint id=4_1_1
 Let my age now be `x`. How old is Granny in terms of `x`? How old was I going back 5 years, in terms of `x`?
 ^^^
 
-^^^ hint id=4_2
+^^^ hint id=4_1_2
 We could say that Granny is now `4x` years old. Five years ago, she was `4x - 5`, and I was `x - 5`. So we can say that `4x – 5 = 5 (x – 5)`, since her age was 5 times bigger than my age.
 ^^^
 

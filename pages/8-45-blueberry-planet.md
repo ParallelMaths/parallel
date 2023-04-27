@@ -111,7 +111,7 @@ What is the largest possible such number she could choose?
 * [ ] 49
 {.col-5}
 
-^^^ hint id=23
+^^^ hint id=5_1
 Since the mean is 7, the total must be `7 × 7 = 49`. She can have one large number, if she makes the others as small as possible.
 ^^^
 

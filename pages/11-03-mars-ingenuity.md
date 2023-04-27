@@ -105,15 +105,15 @@ __3.1__ Below, the integers from 0 to 8 have been placed in a sequence which fol
 * [ ]	Between 7 and 6
 * [ ]	At the end
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 If you read the last digit as “Nought” instead of “Zero”, the sequence would be 8, 5, 4, 0, 1, 7, 6, 3, 2.
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 If you read the numbers in French (zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf) the sequence would be 5, 2, 8, 9, 4, 7, 6, 3, 1, 0.
 ^^^
 
-^^^ hint id=3_3 marks=1
+^^^ hint id=3_1_3 marks=1
 Consider the first letter of each number when written as a word.
 ^^^
 
@@ -138,15 +138,15 @@ At what speed should she walk if she wants to arrive at 12 noon?
 * [ ] 8 mph
 {.col-5}
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 We do not know the start time or the distance of Supergran’s journey. Let’s choose to call the distance `x`. Calculate an expression for the time taken for arrival at 1pm and another for arrival at 11am. (Note that this is a difference of 2 hours)
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 At 6mph, Supergran would take `x/6` hours, whereas at 10mph she would take `x/10` hours. `x/6 - x/10 = 2`.
 ^^^
 
-^^^ hint id=4_3 marks=1
+^^^ hint id=4_1_3 marks=1
 `x/6 – x/10 = 2` simplifies to `5x – 3x = 60` (by multiplying both sides by 30), so `x = 30` miles. Hence Supergran’s departure time is 8am.
 ^^^
 
@@ -176,7 +176,7 @@ What is the area (in square units) of the shaded region?
 * [ ] `2`
 {.col-5}
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=5_1_1 marks=2
 ![](/resources/11-03-mars-ingenuity/5-circle-answer.jpg){image align="right"}
 Let the centre of the circle be `O` and let `A` and `B` be corners of one of the shaded squares, as shown.  
 
@@ -187,7 +187,7 @@ So `OB` is 1 unit long.
 Let the length of the side of each of the shaded squares be `x` units.
 ^^^
 
-^^^ hint id=5_2 marks=2
+^^^ hint id=5_1_2 marks=2
 By Pythagoras' Theorem: `OB^2 = OA^2 + AB^2`, that is `1^2 = (2x)^2 + x^2`.
 ^^^
 

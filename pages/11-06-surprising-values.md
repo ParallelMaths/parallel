@@ -135,7 +135,7 @@ __4.1__ The Pythagoras Patisserie sells triangular cakes at 39p each and square 
 * [ ] 19
 {.col-5}
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 One cake and one bun cost a total of 62p.  
 
 Note that `512 ÷ 62 = 8` remainder 16, that is `512 = 8 (39 + 23) + 16`.  
@@ -143,7 +143,7 @@ Note that `512 ÷ 62 = 8` remainder 16, that is `512 = 8 (39 + 23) + 16`.
 Also note that `16 = 39 – 23`.
 ^^^
 
-^^^ hint id=4_2 marks=2
+^^^ hint id=4_1_2 marks=2
 `512 = 8 (39 + 23) + 39 – 23`. How many 39s and how many 23s is that?
 ^^^
 

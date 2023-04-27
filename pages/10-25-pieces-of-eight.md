@@ -100,15 +100,15 @@ What is the size of the marked angle?
 * [ ] 82.5°
 * [ ] 85°
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 ![](/resources/10-25-pieces-of-eight/4-polygon-answer.jpg){image align="center"}
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 Each side of the dodecagon subtends an angle of 30° at the centre of the circumcircle of the figure (the circle which passes through all 12 of its vertices). Thus `∠AOB = 150°`
 ^^^
 
-^^^ hint id=4_3 marks=1
+^^^ hint id=4_1_3 marks=1
 The angle subtended by an arc at the centre of a circle is twice the angle subtended by that arc at a point of the circumference, `∠APB`
 ^^^
 

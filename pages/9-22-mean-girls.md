@@ -99,7 +99,7 @@ __3.1__  The diagram shows a square, a diagonal and a line joining a vertex to t
 * [ ] `1 : 3`
 {.col-5}
 
-^^^ hint id=1 marks=2
+^^^ hint id=3_1 marks=2
 ![](/resources/9-22-mean-girls/3-square-answer.jpg){image align="right"}
 Let `I`, `J`, `K` and `L` be the vertices of the square. Let `M` be the midpoint of `JK`, let N be the point where the diagonal `IK` meets `LM`. Let the line through `N` parallel to `LK` meet `IL` at `R` and `JK` at `S`. Let `T` be the foot of the perpendicular from `N` to `LK`. Let the square have side length `s`.
 

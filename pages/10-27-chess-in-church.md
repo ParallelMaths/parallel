@@ -75,11 +75,11 @@ What is the size of the obtuse angle `∠QOR`?
 * [ ] 160°
 {.col-5}
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 If we say `∠MOP = α`, then `∠PON = 130° – α`.
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 Then, `∠QOR = α + α + (130° – α) + (130° – α)`.
 ^^^
 
@@ -137,12 +137,12 @@ __5.1__ The diagram shows a 1 × `x` rectangular plank which fits neatly inside 
 * [ ] `10 + sqrt(2)`
 * [ ] `12`
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 The trick with this question is to measure the red line, part of the diagonal of the square, which is the same length as the side of the rectangle.
 ![](/resources/10-27-chess-in-church/5-square-hint1.png){image align="center"}
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Here is a close-up of the corner of the square.
 ![](/resources/10-27-chess-in-church/5-square-hint2.png){image align="center"}
 ^^^

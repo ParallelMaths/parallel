@@ -81,7 +81,7 @@ By the way, if you are interested in magic or enjoyed being amazed, make sure yo
 
 @[youtube](mQVF_d6VXcE?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-^^^ hint id=1 marks=0
+^^^ hint id=3_1 marks=0
 Imagine I am the magician, and I ask you to you to pick a card or number. We shall call this `x`.  
 
 First, I ask you to double `x` to get `(2x)`.  

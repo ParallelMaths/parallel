@@ -123,7 +123,7 @@ __5.1__ What is the maximum number of knights that you can place on a chess boar
 
 <input solution="32"/>
 
-^^^ hint id=5
+^^^ hint id=5_1
 When a knight starts on a black square, what colour squares can it attack? Only black? Only white? Black and white?
 ^^^
 

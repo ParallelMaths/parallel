@@ -53,7 +53,7 @@ __1.1.__ Which Star Wars character is represented by symbols below?
 
 ![](/resources/7-18-codes-physics/1-2-question.png)
 
-^^^ hint id=1
+^^^ hint id=1_1
 In the example, CODES, the first symbol above represents C. It has one line on the
 left side, and three lines on the right side. In the grid, how does this pattern
 relate to the row and column containing C?
@@ -177,14 +177,14 @@ __4.1__ How old is the teacher?
 
 <input type="text" solution="65"/>
 
-^^^ hint id=2
+^^^ hint id=4_1_1
 It might be reasonable to assume that the teacher is more than 20 and
 less than 80. Moreover, the age is odd but not a prime, so you can start by
 listing all the odd numbers and striking out the primes, so you have: 21,
 ~~23~~, 25, 27, ~~29~~, ~~31~~, 33, 35, ~~37~~, 39,…
 ^^^
 
-^^^ hint id=3
+^^^ hint id=4_1_2
 If the second digit in the age is larger than the first digit, then when
 you reverse the digits you will have a larger number and you will not be able
 to subtract the reversed age from the actual age. Hence, you cross out all

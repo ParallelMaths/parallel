@@ -97,21 +97,21 @@ __5.1__ What is the area (in square units) of the triangle formed by the three l
 * [x] 75
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 The equations of the three lines must be considered in pairs to find the coordinates of their points of intersection, i.e. the coordinates of the vertices of the triangle.
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 If we take the first two lines, `y - x = 6`, `x - 2y = 3` then we can solve these simultaneous equations to show that they cross at (-15, -9).  
 
 You can find out where the other two pairs of lines cross to find the other corners of the triangle.
 ^^^
 
-^^^ hint id=5_3 marks=1
+^^^ hint id=5_1_3 marks=1
 The other two pairs of lines cross at (0, 6) and (5, 1).
 ^^^
 
-^^^ hint id=5_4 marks=1
+^^^ hint id=5_1_4 marks=1
 The area of the triangle may now be found by enclosing it in a rectangle measuring (20 × 15) and subtracting the areas of the three surrounding triangles.
 ^^^
 

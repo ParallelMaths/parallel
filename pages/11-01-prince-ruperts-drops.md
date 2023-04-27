@@ -118,23 +118,23 @@ Which shaded area is the greatest?
 
 Note: as this question is worth 5 marks, using all 5 hints will mean you will score 0 marks.
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 Area A `= 2 × π (1/2 R)^2 = 1/2πR^2 ≈ 1.6R^2`.
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Area B `= 3 × 1/2 × R × R sin 120° = 3/4 sqrt(3)R^2 ≈ 1.3R^2`.
 ^^^
 
-^^^ hint id=5_3 marks=1
+^^^ hint id=5_1_3 marks=1
 Area C `= (2R)^2 - πR^2 = (4 - π)R^2 ≈ 0.9R^2`.
 ^^^
 
-^^^ hint id=5_4 marks=1
+^^^ hint id=5_1_4 marks=1
 Area D `= 2 × 1/2 × R^2 = R^2`.
 ^^^
 
-^^^ hint id=5_5 marks=1
+^^^ hint id=5_1_5 marks=1
 Area E `= πR^2 - (sqrt(2)R)^2 = (π - 2)R^2 ≈ 1.1R^2`.
 ^^^
 

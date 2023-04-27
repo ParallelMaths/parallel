@@ -47,7 +47,7 @@ You can either copy it onto a bit of paper by hand or [follow this link to open 
 
 To help us check whether you have completed the grid correctly, add up the 4 corner numbers and enter the sum in the box below.
 
-^^^ hint id=1
+^^^ hint id=1_1
 The (4 +) cage is one way to start cracking this KenKen. The cage has to contain (3,1), because the only other way to obtain 4 is (2, 2) and no number can be repeated in a row. We don’t know the order of the (3, 1) cage, but it tells us the remaining number in that column must be (2).
 ^^^
 
@@ -66,7 +66,7 @@ __2.1.__ What do the four corner cells add up to?
 
 ![](/resources/7-12-kenken/2-1-kenken.png){image align="center"}
 
-^^^ hint id=2
+^^^ hint id=2_1
 The (3 +) cage has to contain (1,2), because it is the only way to obtain 3. We don’t know the order of the (1, 2) cage, but it tells us the remaining number in that column must be (3).
 ^^^
 
@@ -84,7 +84,7 @@ __2.2.__ This KenKen involves multiplication and division.
 
 What do the four corner cells add up to?
 
-^^^ hint id=3
+^^^ hint id=2_2
 The (18x) cage has to contain (1,2, 3, 3), because it is the only way to obtain 18 by multiplying the four allowable digits. The repeated 3 is helpful, because they cannot both be in the top row, so one of them must be in the right column, middle row square.
 ^^^
 
@@ -105,7 +105,7 @@ __3.1__ This KenKen involves all four basic mathematical operations AND it is a 
 
 What do the four corner cells add up to?
 
-^^^ hint id=4
+^^^ hint id=3_1
 Focus on the bottom row. You have a (4) freebie in the third cell. The only solution for the (4+) cage is (3, 1), because a repeated (2, 2) is not allowed. We don’t know the order of (3, 1), but we now know that the bottom row contains (1 or 3, 3 or 1, 4, ?), so the fourth cell must be 3.
 ^^^
 
@@ -123,7 +123,7 @@ __3.2__ This 4x4 KenKen is harder than the previous KenKens. Good luck. Don’t 
 
 What do the four corner cells add up to?
 
-^^^ hint id=5
+^^^ hint id=3_2
 Focus on the left column. The only way to fill the (6x) cage is with (3, 2, 1). We don’t know the order, but what does it tell us about the only other cell in that column, the bottom left corner cell?
 ^^^
 

@@ -56,7 +56,7 @@ __2.2.__ Which triangle has the larger area? Triangle A has sides 5, 5, 6, but T
 
 ![](/resources/7-13-prime-time/2-triangles.png){image align="center"}
 
-^^^ hint id=1
+^^^ hint id=2_2
 Split both triangles into two right-angle triangles and use Pythagoras’ Theorem to work out the height of each right-angle triangle.  
 
 If you haven't yet seen this at school, then [read about it here](https://mathigon.org/course/triangles/pythagoras#:~:text=A%20Pythagorean%20triple%20is%20a,%2B%20b%202%20%3D%20c%202%20) then try to answer the question.  
@@ -98,7 +98,7 @@ __3.1__ This sculpture of a train coming out of a tunnel is by the artist Cindy 
 * [ ] 100 m
 {.col-5}
 
-^^^ hint id=3
+^^^ hint id=3_1
 What is the sculpture made from? Why are the tracks and the train black? Why is everything else made of wood?
 ^^^
 

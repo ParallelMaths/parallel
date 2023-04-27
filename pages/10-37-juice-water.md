@@ -120,11 +120,11 @@ For example, the board above shows a 1x1 square (top left), a 2x2 square (bottom
 
 <input solution="204"/>
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 How many squares of size 1x1 can you find? How many squares of size 2x2 can you find? And so on. Is there a pattern?
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 There are 64 squares of size 1x1. There are 49 squares of size 2x2. And so on.
 ^^^
 

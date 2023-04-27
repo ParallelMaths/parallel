@@ -89,11 +89,11 @@ What is the area of the rectangle in cm<sup>2</sup>?
 * [ ] 36
 * [ ] 45
 
-^^^ hint id=1
+^^^ hint id=3_1_1
 Try working out the area of everything except the rectangle you are most interested in.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=3_1_2
 The area of the big square is 8 × 8 = 64 cm<sup>2</sup>. Each pair of triangles can be joined to form a square of 3 × 3 and 5 × 5 cm<sup>2</sup>.
 ^^^
 

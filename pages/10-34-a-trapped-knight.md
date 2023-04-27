@@ -124,15 +124,15 @@ __7.1__ Which option comes next in this sequence?
 * [ ] E
 {.col-5}
 
-^^^ hint id=7_1 marks=1
+^^^ hint id=7_1_1 marks=1
 Each box shows something related to a 7-segment digital display, such as a watch LCD display.
 ^^^
 
-^^^ hint id=7_2 marks=1
+^^^ hint id=7_1_2 marks=1
 Each box relates to a number, but which number? Is there a pattern? What is the most obvious pattern? Where would you start this pattern? There are two places to start.
 ^^^
 
-^^^ hint id=7_3 marks=1
+^^^ hint id=7_1_3 marks=1
 Look at which segments are missing. You will find that the missing segments make numbers, so what missing segments should be in the fourth box?
 ^^^
 

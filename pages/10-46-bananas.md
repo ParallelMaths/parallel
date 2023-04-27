@@ -113,11 +113,11 @@ __5.1__ The diagram shows two rectangles which enclose five regions. What is the
 * [ ] 7
 * [ ] 6
 
-^^^ hint id=5_1
+^^^ hint id=5_1_1
 A rectangle could be a square.
 ^^^
 
-^^^ hint id=5_2
+^^^ hint id=5_1_2
 Imagine 2 squares on top each other and rotate one of them slightly.
 ^^^
 

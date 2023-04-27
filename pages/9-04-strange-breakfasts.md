@@ -55,7 +55,7 @@ You will need to estimate a few things in order to decide the right answer.
 * [ ] 1,000 m
 * [ ] 10,000 m
 
-^^^ hint id=1
+^^^ hint id=2_1
 I estimated that the average cereal was 7 cm x 7 cm x 5 cm, assuming a square dish.
 ^^^
 

@@ -162,11 +162,11 @@ What is this total?
 * [ ] 22
 
 
-^^^ hint id=4_1 marks=1
+^^^ hint id=4_1_1 marks=1
 Each of the integers from 1 to 7 occurs in exactly two of the seven lines of three circles. Each of the integers from 8 to 14 occurs in exactly one of these lines.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 Therefore, if we add up all the totals of the numbers in the seven lines, we are adding each of the integers from 1 to 7 twice, and each of the integers from 8 to 14 once.
 ^^^
 
@@ -236,13 +236,13 @@ How many children are in Anna's family?
 * [ ] 13
 {.col-5}
 
-^^^ hint id=6_1 marks=1
+^^^ hint id=6_1_1 marks=1
 It’s not very mathematical, and it's not very productive, but you could try trial and error to reduce the possibilities. For example, is 5 possible? 5 sons & 0 daughters, or 4 & 1, or 3 & 2, or 2 & 3, or 1 & 4, or 0 & 5? No, clearly it is not.  
 
 You could try the same approach with the other options, but it will take you a while… but you would get an answer eventually.
 ^^^
 
-^^^ hint id=6_2marks=1
+^^^ hint id=6_1_2 marks=1
 Suppose that Anna has `n` brothers. Since she has equal numbers of brothers and sisters, she also has `n` sisters.  
 
 Consider one of Anna's brothers, say Ben. All of Anna's sisters are also Ben’s sisters, and Ben also has Anna as one of his sisters. So Ben has `n + 1` sisters. All of Anna brothers, other than Ben himself, are also Ben’s brothers. So Ben has `n − 1` brothers.  

@@ -160,11 +160,11 @@ _∠TSU_ = 40°. What is the size of _∠TPU_?
 * [ ] 90°
 * [x] 100°
 
-^^^ hint id=1
+^^^ hint id=4_1_1
 Let _∠RST_ = `x`° and _∠QSU_ = `y`°. As _RS_ = _RT_, the triangle _RST_ is isosceles and hence _∠RTS_ = _∠RST_ = `x`°. Hence, as the angles in triangle _RST_ add up to 180°, we have that _∠SRT_ = (180 - 2`x`)°.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=4_1_2
 _∠SQU_ = (180 - 2`y`)°. Hence from triangle _PQR_, we have that _∠TPU_ = (180 - (180 - 2`x`) - (180 - 2`y`))° = (2 (`x` + `y`) - 180)°.
 ^^^
 

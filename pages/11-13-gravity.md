@@ -144,13 +144,13 @@ An identical hexagon could also be made by cutting the corners off a different e
 * [ ] 31
 {.col-5}
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=5_1_1 marks=2
 In the construction in the question, the sides with length 13, 11 and 10 are segments of the sides of the original equilateral triangle, and the sides with length 3, 4 and 6 are the ‘cuts’.  
 
 Can you imagine an equilateral triangle in which these roles are reversed, i.e. 3, 4 and 6 are segments of the sides of the equilateral triangle, and 13, 11 and 10 are the ‘cuts’?
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 By extending the short sides, one can construct another triangle.  
 
 Since all the angles involved are 60°, the new small triangles and the new large triangle are all equilateral.  

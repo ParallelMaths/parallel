@@ -96,11 +96,11 @@ to the same total).
 
 What is the sum of these two numbers?
 
-^^^ hint id=1
+^^^ hint id=3_1_1
 Start by sketching the initial magic square. Next add up all the rows, columns and diagonals, and you will notice that most of them sum to 34. If you are going create a magic square by just swapping two numbers, then it is probably going to be easier to make everything add up to 34, rather than making all the 34s add up to something else.
 ^^^
 
-^^^ hint id=2
+^^^ hint id=3_1_2
 If a row, column or diagonal already sums to 34, then you probably don’t need to adjust anything, so cross out all the numbers in those columns, rows and diagonal. The numbers that you need to swap will be among whatever numbers are left. (As a bonus hint, you will notice that one of the diagonals adds to less than 34, so you will need to replace a number on the problematic diagonal with a larger number.)
 ^^^
 

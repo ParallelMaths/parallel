@@ -101,11 +101,11 @@ CLUE: At first sight, this looks like a very complicated question, because it is
 
 <input solution="75"/> km
 
-^^^ hint id=2_1 marks=1
+^^^ hint id=2_1_1 marks=1
 Did you really think hard before asking for this hint?
 ^^^
 
-^^^ hint id=2_2 marks=1
+^^^ hint id=2_1_2 marks=1
 Let’s ignore the fly for a moment – how long will it take for the bikes to reach each other? Once you know this time, then you can easily work out how far the fly will have travelled during this time..
 ^^^
 

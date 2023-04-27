@@ -148,15 +148,15 @@ __3.1__ The number `3^4 × 4^5 × 5^6` is written out in full. How many zeroes a
 * [ ] more than 6
 {.col-5}
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 We need to write `3^4 × 4^5 × 5^6` in the form `a × 10^n`, where `a` is not a multiple of 10.
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 `3^4 × 4^5 × 5^6 = 3^4 × 2^10 × 5^6 = 3^4 × 2^4 × 2^6 × 5^6`
 ^^^
 
-^^^ hint id=3_3 marks=1
+^^^ hint id=3_1_3 marks=1
 `3^4 × 2^4 × 2^6 × 5^6 = 3^4 × 2^4 × 10^6`
 ^^^
 
@@ -202,11 +202,11 @@ What is the size of angle `FAE`?
 * [ ] 40°
 * [ ] 50°
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 The interior angle of a regular nine-sided polygon `= 180° - (360° ÷ 9)`
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Consider the pentagon `ABCDE`: `EAB =  1/2(540° - 3 × 140°) = 60°`.  
 ^^^
 

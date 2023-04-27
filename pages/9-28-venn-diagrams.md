@@ -101,7 +101,7 @@ What is the ratio of the areas of the two shaded regions?
 * [x] 4 : 5
 * [ ] 5 : 6
 
-^^^ hint id=4
+^^^ hint id=4_1
 ![](/resources/9-28-venn-diagrams/7-semicircles-answer.png){image align="right"}
 Choose units so that the two semicircles have radius 1. We let `x` be the side length of the square in the first diagram, and `y` be the side lengths of the squares in the second diagram.
 ^^^
@@ -135,7 +135,7 @@ What is the difference between the area of the shaded shape and the area of the 
 * [ ] `π`
 {.col-5}
 
-^^^ hint id=5
+^^^ hint id=5_1
 One way to think about this problem is that the difference between the area of the shaded shape and the area of the triangle is:  
 
 * Shaded areas – Triangle area

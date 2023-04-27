@@ -68,7 +68,7 @@ __1.3.__ Which of these numbers is NOT a left truncatable prime?
 * [ ] 997
 {.col-5}
 
-^^^ hint id=1
+^^^ hint id=1_3
 What odd number is not a prime?
 ^^^
 

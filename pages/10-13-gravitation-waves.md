@@ -136,7 +136,7 @@ What is the ratio of the area of the shaded trapezium to the area of the whole o
 * [ ] `sqrt(2)` : 2
 * [ ] 3 : 8
 
-^^^ hint id=5_1 marks=2
+^^^ hint id=5_1_1 marks=2
 We let `P`, `Q`, `R`, `S`, `T`, `U`, `V` and `W` be the vertices of the regular octagon. Let `K`, `L`, `M` and `N` be the points where the diagonals `PS` and `WT` meet the diagonals `QV` and `RU`, as shown in the diagram.  
 
 ![](/resources/10-13-gravitation-waves/5-octgaon-answer.jpg){image align="center"}
@@ -144,7 +144,7 @@ We let `P`, `Q`, `R`, `S`, `T`, `U`, `V` and `W` be the vertices of the regular 
 Because `PQRSTUVW` is a regular octagon, `QKP`, `WNV`, `SLR` and `UMT` are congruent right-angled isosceles triangles. We choose units so that the shorter sides of these triangles have length 1.
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 Then, by Pythagoras’ Theorem, the hypotenuse of each of these triangles has length `sqrt(1^2 + 1^2) = sqrt(2)`. Since the octagon is regular, it follows that each of its sides has length `sqrt(2)`.  
 
 Each of the triangles `QKP`, `WNV`, `SLR` and `UMT`, forms half of a square with side length 1, and so has area `1/2`.  

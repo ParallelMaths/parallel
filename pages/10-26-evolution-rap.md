@@ -76,11 +76,11 @@ __3.1__ What is the maximum number of pieces of shape T which can be placed with
 * [ ] 7
 {.col-5}
 
-^^^ hint id=3_1 marks=1
+^^^ hint id=3_1_1 marks=1
 There is a mathsy way to approach this problem, but you can also draw a quick sketch and move forward with trial and error.
 ^^^
 
-^^^ hint id=3_2 marks=1
+^^^ hint id=3_1_2 marks=1
 What options can you exclude? 7 tiles is impossible, because 7 × 4 > 25.  
 
 And you can ignore 3 tiles, because it is fairly easy to place 4 tiles. But can you fit 5 or even 6 tiles?
@@ -110,11 +110,11 @@ __4.1__ Given that it takes `a` men `b` hours to paint `c` square metres of the 
 * [ ] `ace/bd`
 {.col-5}
 
-^^^ hint id=4_1 marks=2
+^^^ hint id=4_1_1 marks=2
 I took a different approach to the one in the official solution. The rate (area per painter per hour) will be the same for both scenarios.
 ^^^
 
-^^^ hint id=4_2 marks=1
+^^^ hint id=4_1_2 marks=1
 Another approach – again not the official one – is to see whether the equations make any sense. For example, the more painters (d), the shorter the time, but answers the second and fourth options have d on the top of the expression, which implies the that if you increase the number of painters then it will take proportionally longer. So, you can exclude the second and fourth options as sensible answers. Perhaps you can exclude one or two other options.   
 ^^^
 

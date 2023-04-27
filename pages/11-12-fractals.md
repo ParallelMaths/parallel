@@ -53,7 +53,7 @@ __1.2__ What is the total area of the black space in this Sierpinski triangle gi
 Manny Brot mentioned in the video that each time you remove another set of triangles, a quarter of the area is removed. Therefore, three quarters is left each time.
 ^^^
 
-^^^ hint id=1_2_1 marks=1
+^^^ hint id=1_2_2 marks=1
 If three quarters is left each time, then we want three quarters of three quarters of three quarters, since the process has been repeated three times.
 ^^^
 
@@ -182,15 +182,15 @@ Which of the following could be the area of the large rectangle?
 * [x] 1620 cm<sup>2</sup>
 {.col-5}
 
-^^^ hint id=5_1 marks=1
+^^^ hint id=5_1_1 marks=1
 The length:breadth ratio of the smaller rectangles is 5:4, because 5 breadths is equal to 4 lengths. Therefore, let the length and breadth of these rectangles be `5x`cm and `4x`cm respectively. What is the area of the larger rectangle in terms of `x`?
 ^^^
 
-^^^ hint id=5_2 marks=1
+^^^ hint id=5_1_2 marks=1
 The area of the large rectangle, in cm<sup>2</sup>, is `9 × 20x^2 = 180x^2`. Which of the options are multiples of 180? In each of those cases, what would `x` be?
 ^^^
 
-^^^ hint id=5_3 marks=1
+^^^ hint id=5_1_3 marks=1
 1260, 1440 and 1620 are the 7th, 8th and 9th multiples of 180 respectively. So, `x^2` would be 7, 8 or 9 respectively. Only one of these is viable.
 ^^^
 

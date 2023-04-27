@@ -199,11 +199,11 @@ Which card do you move?
 
 <input solution="9"/>
 
-^^^ hint id=6_1 marks=1
+^^^ hint id=6_1_1 marks=1
 Moving a card can mean sliding it, but it can also mean rotating it?
 ^^^
 
-^^^ hint id=6_2 marks=1
+^^^ hint id=6_1_2 marks=1
 If you find the correct solution, both columns will add to 21.
 ^^^
 

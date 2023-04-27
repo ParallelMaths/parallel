@@ -111,7 +111,7 @@ Which of them belongs to the next such sequence of at least twenty years?
 * [ ] 3299
 {.col-5}
 
-^^^ hint id=5 marks=1
+^^^ hint id=5_1 marks=1
 The only way to have a decade of consecutive years with a repeated digit is if the tens digit and the hundreds or thousands digit are the same (as in the decade 1990s).  
 ^^^
 
