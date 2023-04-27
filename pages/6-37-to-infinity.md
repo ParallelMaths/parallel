@@ -22,7 +22,7 @@ All infinities are equal, but some are more equal than others!
 
 Watch as mathematician Emily Riehl explains infinity in a few different ways.  
 
-@[youtube](Vp570S6Plt8?&end=394&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](Vp570S6Plt8?end=394&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ What does the term finite mean?  

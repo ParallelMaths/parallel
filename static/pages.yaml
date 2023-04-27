@@ -31,12 +31,12 @@ year6:
     title:
     available: 2023-06-15T13:00:00
     deadline: 2023-06-18T13:00:00
-  - url: 6-40-
-    title:
+  - url: 6-40-line-multiplication
+    title: Line multiplication
     available: 2023-06-08T13:00:00
     deadline: 2023-06-11T13:00:00
-  - url: 6-39-
-    title:
+  - url: 6-39-multifactorials
+    title: Multifactorials
     available: 2023-06-01T13:00:00
     deadline: 2023-06-04T13:00:00
   - url: 6-38-advanced-counting
