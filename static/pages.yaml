@@ -613,8 +613,8 @@ year9:
     title:
     available: 2023-06-15T13:00:00
     deadline: 2023-06-18T13:00:00
-  - url: 9-40
-    title:
+  - url: 9-40-pigeonhole-problem
+    title: The pigeonhole principle
     available: 2023-06-08T13:00:00
     deadline: 2023-06-11T13:00:00
   - url: 9-39-richard-feynman-superhero
@@ -799,8 +799,8 @@ year10:
     title: Telescopes
     available: 2023-06-29T13:00:00
     deadline: 2023-07-02T13:00:00
-  - url: 10-42-
-    title:
+  - url: 10-42-zero-knowledge-proofs
+    title: Zero-knowledge proofs
     available: 2023-06-22T13:00:00
     deadline: 2023-06-25T13:00:00
   - url: 10-41-concrete-transfer

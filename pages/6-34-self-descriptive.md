@@ -76,7 +76,7 @@ Some of the digits are given to help you get started.
 
 ![](/resources/6-34-self-descriptive/8-digit-1.jpg){image align="center"}
 
-<input type="number" solution="4210100"/> 
+<input type="number" solution="42101000"/> 
 
 ^^^ hint id=1_3_1 marks=1
 Since the number starts with a 4, we know there are four 0s to be placed.  
@@ -104,9 +104,9 @@ I got her number as: 07922?03441.
 Which of these numbers could replace the unknown number?  
 
 * [ ] 1
-* [x] 2
+* [ ] 2
 * [ ] 3
-* [ ] 4
+* [x] 4
 * [ ] 0
 {.col-5}
 

@@ -3,8 +3,8 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '6-31-quick-trick';
-const QUESTION = 'p_2_2';
+const PG = '6-34-self-descriptive';
+const QUESTION = 'p_2_1';
 const IF_ANSWER = 'd';
 const THEN_ANSWER = 'd';
 const ADD_POINTS = 2;
