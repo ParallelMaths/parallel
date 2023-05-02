@@ -78,14 +78,6 @@ Now `9 + 1 + 1 + 9 = 20`.
 We can therefore conclude that the last digit of `17^2 + 19^2 + 23^2 + 29^2` is 0.  
 
 Hence, given that one of the options is correct, we can deduce that `17^2 + 19^2 + 23^2 + 29^2 = 2020`.  
-
-Note: We see from this question that 2020 is the sum of the squares of four consecutive prime numbers.  
-
-Integers of this form are naturally quite rare.  
-
-However it was proved in 1770 by Joseph-Louis Lagrange that every positive integer is the sum of at most four squares of positive integers.  
-
-The proof of this theorem is not easy.
 :::
 
 <!--- 2020 (8.4) --->
@@ -185,13 +177,13 @@ The sum is `20/99`.
 
 ---
 
-We have `1/9 + 1/11` = 0.111,111... + 0.090,090... = 0.202,020... = 0.20202020202020...
+We have `1/9 + 1/11` = 0.111111... + 0.090090... = 0.202020... = 0.20202020202020...
 :::
 
 <!--- 2020 (18) --->
 ::: problem id=4_2 marks=3
 ![](/resources/10-42-zero-knowledge-proofs/4-triangle.jpg){image align="right"}
-__4.2__ The diagram shows an isosceles right-angled triangle which has a hypotenuse of length y.  
+__4.2__ The diagram shows an isosceles right-angled triangle which has a hypotenuse of length _y_.  
 
 The interior of the triangle is split up into identical squares and congruent isosceles right-angled triangles.  
 

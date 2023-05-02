@@ -116,6 +116,8 @@ __3.3__ What does the Pigeonhole Principle reveal about data compression?
 ::: problem id=4_1 marks=3
 __4.1__ Which of these is equal to 0.88888888... + 0.077777777...? 
 
+Note: ... signifies that the decimal is recurring.  
+
 * [ ] 0.877777777...
 * [ ] 0.88
 * [ ] 0.955555555...
@@ -123,10 +125,7 @@ __4.1__ Which of these is equal to 0.88888888... + 0.077777777...?
 * [ ] 0.988888888...
 
 ^^^ hint id=4_1_1 marks=1
-* 0.88 + 0.07 = 0.95  
-* 0.888 + 0.077 = 0.965  
-* 0.8888 + 0.0777 = 0.9665  
-* and so on
+0.88888888...= 8/9 and 0.077777777.. = 7/90 
 ^^^
 :::
 
