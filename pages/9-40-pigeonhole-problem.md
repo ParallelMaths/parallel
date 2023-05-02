@@ -80,7 +80,7 @@ The Pigeonhole Principle is hardly a revelation - in fact it seems so obvious at
 
 But as this video explains, the Pigeonhole Principle can be applied in creative ways to solve problems that might otherwise prove difficult.  
 
-@[youtube](tiPdN0wtN0M?end=513&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](tiPdN0wtN0M?start=0&end=513&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__ To use the Pigeonhole Principle to demonstrate that two (non-bald) people in London have the same number of hairs on their head, what are the ‘pigeonholes’?

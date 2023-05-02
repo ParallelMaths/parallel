@@ -125,7 +125,7 @@ There is no case where all three are different as there are only two options!
 ## 2. Some puzzles
 
 ::: problem id=2_1 marks=2
-__2.1__ A shepherd had 17 sheep.  However, all except 9 ran away.  
+__2.1__ A shepherd had 17 sheep. However, all except 9 ran away.  
 
 How many does the shepherd have left?  
 
@@ -135,6 +135,12 @@ How many does the shepherd have left?
 * [ ] 17
 * [ ] 26
 {.col-5}
+
+---
+
+The question tells us that all of the sheep EXCEPT 9 of them have run away. This means that 9 of them didn't run away - so the shepherd has 9 sheep left.    
+
+This is an easy question to make a mistake on, so it is a good example of why it is important to always read the wording of questions very carefully!  
 :::
 
 ::: problem id=2_2 marks=2

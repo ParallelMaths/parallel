@@ -108,7 +108,7 @@ A zero-knowledge proof helps us to do exactly that!
 
 In this video, Up and Atom’s Jade Tan-Holmes takes on the role of the ‘prover’ and demonstrates how she can convince you, the ‘verifier’, that she knows the colours of two candies... without telling you what the colours are!  
 
-@[youtube](V5uVKZn3F_4?end=470&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](V5uVKZn3F_4?start=0&end=470&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=3_1 marks=2
 __3.1__ Jade correctly guesses whether or not you switch 5 times in a row.  
