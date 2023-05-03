@@ -96,7 +96,7 @@ __2.2__ Which is the smallest positive integer, greater than 2020, that is the s
 
 Let’s suppose I want to prove to you that I know something, but I want to do so in a way that doesn’t give you any information whatsoever about the thing I am trying to prove. Seems impossible, right?  
 
-A zero-knowledge proof helps us to do exactly that!  
+A zero-knowledge proof helps us to do exactly that.  
 
 In this video, Up and Atom’s Jade Tan-Holmes takes on the role of the ‘prover’ and demonstrates how she can convince you, the ‘verifier’, that she knows the colours of two candies... without telling you what the colours are!  
 
@@ -177,7 +177,7 @@ The sum is `20/99`.
 
 ---
 
-We have `1/9 + 1/11` = 0.111111... + 0.090090... = 0.202020... = 0.20202020202020...
+We have `1/9 + 1/11` = 0.111111... + 0.090090... = 0.20202020202020...
 :::
 
 <!--- 2020 (18) --->
