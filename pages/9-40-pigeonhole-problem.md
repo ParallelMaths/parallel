@@ -104,7 +104,7 @@ __3.2__ What two bits of information do you need to apply the Pigeonhole Princip
 __3.3__ What does the Pigeonhole Principle reveal about data compression?  
 
 * [ ] There’s a computer program that can compress every file to a smaller file without any loss of data  
-* [ ] There’s a computer program that can decompress every file into a larger file without any loss of data  
+* [ ] There’s a computer program that can compress every file into a larger file without any loss of data  
 * [x] There’s no computer program that can decompress every file into a smaller file without any loss of data  
 * [ ] Files can never be compressed  
 :::
