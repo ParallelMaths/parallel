@@ -22,7 +22,7 @@ All infinities are equal, but some are more equal than others!
 
 Watch as mathematician Emily Riehl explains infinity in a few different ways.  
 
-@[youtube](Vp570S6Plt8?end=394&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](Vp570S6Plt8?end=170&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ What does the term finite mean?  
@@ -33,47 +33,34 @@ __1.1__ What does the term finite mean?
 * [ ] Goes on forever
 :::
 
-::: problem id=1_2 marks=1
-__1.2__ When a new guest arrives at the already full infinite hotel, how do they create a space for them?
+::: problem id=1_2 marks=2
+__1.2__ Can you fit infinitely many jars of glitter into the observable universe?
 
-* [ ] The new guest go to the room at the end  
-* [x] All the other guests move over one room  
-* [ ] The new guest goes into a negative number room  
-* [ ] The new guest shares a room  
+* [ ] Yes
+* [x] No
+* [ ] It depends on the size of the jar
+
+^^^ hint id=1_2_1 marks=1
+The observable universe has a finite amount of space.  
+^^^
 :::
 
 ::: problem id=1_3 marks=1
-__1.3__ What is infinity + 1?  
+__1.3__ Does a beach have finitely or infinitely many grains of sand?
 
-* [ ] It's not possible  
-* [ ] Onefinity  
-* [x] Still infinity  
-* [ ] A light year  
+* [x] Finitely many  
+* [ ] Infinitely many    
+* [ ] Depends on the size of the beach  
+* [ ] Depends on the size of the grains of sand  
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ There are infinitely many positive integers and infinitely many negative integers.  
+__1.4__ How many beaches would you need to accumulate infinitely many grains of sand?
 
-And of course, when we combine all integers (positive, negative, zero) we still have infinitely many.  
-
-Which infinity is the largest?  
-
-* [ ] The infinity of positive integers  
-* [ ] The infinity of negative integers  
-* [ ] The infinity of all integers  
-* [x] They're all the same  
-
-^^^ hint id=1_4_1 marks=1
-Can you put all the integers in a single list?  
-
-It might help to alternate between positive and negative integers (and don't forget about 0).
-^^^
-
----
-
-The first three collections of integers can all be put in a list, so they all have a countable infinity.  
-
-For all integers, the list can be as simple as: 0, 1, -1, 2, -2, 3, -3, ... and so on. Emily did say infinities are weird!
+* [ ] Just one  
+* [ ] A thousand  
+* [ ] A million  
+* [x] Infinitely many  
 :::  
 
 
