@@ -242,6 +242,53 @@ app.get('/dashboard', async function(req, res) {
   res.render('dashboard', {dashboard})
 });
 
+async function getFilteredDashboardData(req) {
+  const dashboard = await getDashboardData(req);
+  const newDashboard = {students: {}, pages: {}, error: dashboard.error};
+
+  for (let l of LEVELS) {
+    for (const p of dashboard.pages[l]) {
+      newDashboard.pages[l] = newDashboard.pages[l] || [];
+      
+      newDashboard.pages[l].push({
+        url: p.url,
+        index: p.index
+      })
+    }
+
+
+    for (const s of dashboard.students[l]) {
+      newDashboard.students[l] = newDashboard.students[l] || [];
+
+      newDashboard.students[l].push({
+        first: s.first,
+        last: s.last,
+        level: s.level,
+        answers: Object.entries(s.answers || {}).reduce((acc, [url, item]) => {
+          acc[url] = {
+            firstAnswer: item.firstAnswer,
+            score: item.score,
+          };
+          return acc;
+        }, {})
+      })
+    }
+
+  }
+
+  return newDashboard;
+}
+
+app.get('/api/dashboard', async function(req, res) {
+  if (!req.user) return res.status(200).send({ error: 'not signed in'});
+  if (!req.user.code) return res.status(200).send({ error: 'not teacher'});
+
+  const dashboard = await getFilteredDashboardData(req);
+  // const dashboard = await getDashboardData(req);
+  
+  res.status(200).send(dashboard);
+});
+
 app.get('/dashboard.csv', async function(req, res) {
   if (!req.user) return error(res, 401);
   if (!req.user.code) return error(res, 403);
