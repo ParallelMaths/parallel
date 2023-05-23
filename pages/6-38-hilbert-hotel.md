@@ -22,7 +22,7 @@ You have just arrived at the Hilbert Hotel and are ready to start your richly de
 
 You soon realise this is no ordinary hotel - it has infinitely many rooms and infinitely many guests!  
 
-Things are about to get even stranger when a new stranger arrives.  
+Things are about to get even stranger when a new guest arrives.  
 
 Watch as Emily Riehl explains the strange arithmetic of infinity using the example of the Hilbert Hotel.  
 
@@ -73,6 +73,18 @@ __2.1__ What fraction of the rectangle is shaded?
 
 ^^^ hint id=2_1_1 marks=1 
 The fraction that is not shaded is `1/2` + `1/6`.
+^^^
+
+---
+
+Consider the parts that are not shaded.  
+
+There are two such parts - the first is a triangle taking up half the rectangle, and the second is a smaller triangle taking up a sixth of the rectangle.  
+
+So the total unshaded fraction is `1/2` + `1/6` = `2/3` .  
+
+This means the shaded part takes up `1/3` of the rectangle.
+
 :::
 
 ::: problem id=2_2 marks=2
@@ -88,6 +100,14 @@ What is the sum of the three numbers?
 * [ ] 90
 * [ ] More information is needed.
 {.col-5}
+
+---
+
+The numbers in play are 1, 2, 3, 4, 5, 6.  
+
+The only combination of three numbers from this list that gives a product of 90 (even allowing for repeats) is 6 × 5 × 3.  
+
+So the sum of the three numbers is 6 + 5 + 3 = 14.
 :::
 
 
