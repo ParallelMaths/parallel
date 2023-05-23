@@ -39,8 +39,8 @@ year6:
     title: Multifactorials
     available: 2023-06-01T13:00:00
     deadline: 2023-06-04T13:00:00
-  - url: 6-38-advanced-counting
-    title: Advanced counting
+  - url: 6-38-hilbert-hotel
+    title: Hilbert Hotel
     available: 2023-05-25T13:00:00
     deadline: 2023-05-28T13:00:00
   - url: 6-37-to-infinity

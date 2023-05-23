@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 All infinities are equal, but some are more equal than others!  
 
-Watch as mathematician Emily Riehl explains infinity in a few different ways.  
+Watch as mathematician Emily Riehl explains the weird concept of infinity.  
 
 @[youtube](Vp570S6Plt8?end=170&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
@@ -78,7 +78,7 @@ __2.1__ Which is the largest?
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__ How many of these calculations eaual 1?
+__2.2__ How many of these calculations equal 1?
 
 * `1/2` + `1/2`
 * `1/2` - `1/2`
