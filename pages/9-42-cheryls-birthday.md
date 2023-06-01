@@ -61,7 +61,8 @@ Hence June has 40 sweets.
 <!--- 2019 (7) --->
 
 ::: problem id=2_1 marks=3
-__2.1__ How many positive cubes less than 5000 end in the digit 5?
+__2.1__ How many positive cubes less than 5000 end in the digit 5?  
+
 * [ ] 1
 * [x] 2
 * [ ] 3
@@ -85,13 +86,28 @@ We deduce that there are two positive cubes that end in the digit 5.
 :::
 
 ::: problem id=2_2 marks=2
-__2.2__   
+__2.2__ What proportion of all the cubes in the range from 1 to 1,000,000 end in the digit 7?
 
-<input type="number" solution="1234"/> 
+* [ ] `1/7`
+* [ ] `1/5`
+* [x] `1/10`
+* [ ] `1/49`
+* [ ] None
+{.col-5}
+
+^^^ hint id=2_2_1 marks=1 
+For a cube number to end in 7, the original number must end in 3.
+^^^
 
 ---
 
-  
+There are exactly 100 cubes from 1 to 1,000,000: 13, 23 … all the way to 1,003.  
+
+Only the final digit of the number that is cubed determines the final digit of the cubed number.  
+
+The only way for the cubed number to end in 7 is if the number that is cubed ends in 3.  
+
+This is true of one in every ten positive integers, and therefore true of a tenth of the integers from 1 to 100.
 :::
 
 
