@@ -61,7 +61,7 @@ Most, if not all, games can be viewed in a mathematical way. Dominos, noughts an
 
 Have a go at this domino based puzzle from the 2012 UKMT Junior Challenge.
 
-::: problem id-2_1 marks=2
+::: problem id=2_1 marks=2
 ![](/resources/6-07-connect-four/1-dominoes-list.png){image align="center"}
 
 ![](/resources/6-07-connect-four/1-dominoes-example.png){image align="right"}

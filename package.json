@@ -15,6 +15,7 @@
     "get-users": "node scripts/get-users.js",
     "get-points": "node scripts/get-students-points.js",
     "get-results": "node scripts/get-results.js",
+    "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
     "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"firebase serve\""

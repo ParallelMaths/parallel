@@ -120,11 +120,11 @@ What is the side-length of each square?
 * [ ] 10 cm
 {.col-5}
 
-^^^ hint id=1  marks=2
+^^^ hint id=3_1_1  marks=2
 The total area of the three squares is the sum of the area of the non-overlapping parts and twice the areas of the overlapping sections, as each of these forms part of two squares. Why? If we look at, say, the 2 cm<sup>2</sup> overlap, this appears in two overlapping squares, which is why it needs to be counted twice.
 ^^^
 
-^^^ hint id=2  marks=1
+^^^ hint id=3_1_2  marks=1
 Once you have the total area of all three squares, remember to divide the total area by three to find the area of each square. Then take the square root of one of the areas to find the length of one side of one of the squares.
 ^^^
 
