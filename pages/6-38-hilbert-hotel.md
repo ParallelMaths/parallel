@@ -94,8 +94,8 @@ The product of the three numbers is 90.
 
 What is the sum of the three numbers?  
 
-* [x] 10
-* [ ] 14
+* [ ] 10
+* [x] 14
 * [ ] 18
 * [ ] 90
 * [ ] More information is needed.
