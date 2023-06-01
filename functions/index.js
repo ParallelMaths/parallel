@@ -256,7 +256,6 @@ async function getFilteredDashboardData(req) {
       })
     }
 
-
     for (const s of dashboard.students[l]) {
       newDashboard.students[l] = newDashboard.students[l] || [];
 
@@ -273,7 +272,6 @@ async function getFilteredDashboardData(req) {
         }, {})
       })
     }
-
   }
 
   return newDashboard;
@@ -334,6 +332,38 @@ app.post('/remove-student', async function(req,res) {
   if (!studentCodes.includes(req.user.code)) return error(res, 403);
 
   await userDB.doc(req.body.id).update({teacherCode: studentCodes.filter(c => c !== req.user.code)});
+  res.sendStatus(200);
+});
+
+app.post('/update-student', async function(req,res) {
+  if (!req.user) return error(res, 401);
+  if (!req.user.code) return error(res, 403);
+
+  const student = await userDB.doc(req.body.id).get();
+  if (!student.exists) return error(res, 403);
+  const studentData = student.data();
+  const studentCodes = studentData.teacherCode || [];
+  if (!studentCodes.includes(req.user.code)) return error(res, 403);
+
+  const updateData = {
+    first: studentData.first,
+    last: studentData.last,
+    level: studentData.level,
+  }
+
+  if (typeof req.body.first === 'string' && req.body.first.length) {
+    updateData.first = req.body.first;
+  }
+
+  if (typeof req.body.last === 'string' && req.body.last.length) {
+    updateData.last = req.body.last;
+  }
+
+  if (LEVELS.includes(req.body.level)) {
+    updateData.level = req.body.level;
+  }
+
+  await userDB.doc(req.body.id).update(updateData);
   res.sendStatus(200);
 });
 

@@ -141,7 +141,7 @@ that sometimes it is hard to decide what is right and what is wrong.
 __3.1__ In Parallelogram #22 (section 3), we described a quick way to add up all the
 numbers from, say, 1 to 100. Can you remember it?
 
-^^^ hint id=3_1
+^^^ hint id=3_1_0
 Sometimes it’s easier to pair numbers - try starting with the smallest and the biggest.
 ^^^
 
@@ -169,7 +169,7 @@ time you fold the paper, it doubles in thickness. How many times do you have to
 fold the paper in order for it to become so thick that it will reach the Moon?
 (The distance from the Earth to the Moon is 384,000 Km.)
 
-^^^ hint id=4_1
+^^^ hint id=4_1_0
 If you double a number, say 1, ten times, then how much bigger does it get? Use this value as a stepping stone to solving the whole problem.
 ^^^
 
