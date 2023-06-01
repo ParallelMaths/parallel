@@ -172,9 +172,10 @@ What is the length of `PR`?
 * [ ] `7sqrt(3)`
 {.col-5}
 
-^^^ hint id=2_1_1 marks=1 
+^^^ hint id=4_1_1 marks=1 
 ![](/resources/9-41-paradoxical-probability/4-diagram-hint.jpg){image align="center"}
-Draw in a right-angled triangle and apply Pythagoras’ Theorem.
+Draw in a right-angled triangle and  
+apply Pythagoras’ Theorem.
 ^^^
 
 ---
@@ -204,7 +205,7 @@ Therefore `PR = sqrt(52)= 2sqrt(13)`.
 ## 5. Puzzle
 
 ::: problem id=5_1 marks=1
-__3.1__ Two fathers and two sons go fishing together in the same boat.  
+__5.1__ Two fathers and two sons go fishing together in the same boat.  
 
 What is the least number of possible people in the board?
 
@@ -212,7 +213,7 @@ What is the least number of possible people in the board?
 
 ---
 
-If there were all different people, there would be 4 in total.  
+If they were all different people, there would be 4 in total.  
 
 But if one of them is the grandfather, then the father counts as both a father and a son, so there are only 3 in total: a boy, his father, and his grandfather.
 :::
