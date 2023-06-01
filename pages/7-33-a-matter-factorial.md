@@ -159,7 +159,7 @@ __6.2.__ What is the answer to (10! ÷ 9!)?
 
 <input solution="10"/>
 
-^^^ hint id=6_2_0
+^^^ hint id=6_2
 Imagine all the numbers you multiply together to make 10!, and then imagine all the numbers you multiply together to get 9!, and then cancel common numbers. What are you left with?
 ^^^
 
