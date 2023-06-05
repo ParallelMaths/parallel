@@ -101,7 +101,7 @@ For a cube number to end in 7, the original number must end in 3.
 
 ---
 
-There are exactly 100 cubes from 1 to 1,000,000: 13, 23 … all the way to 1,003.  
+There are exactly 100 cubes from 1 to 1,000,000: `1^3`, `2^3` … all the way to `1,00^3`.  
 
 Only the final digit of the number that is cubed determines the final digit of the cubed number.  
 
