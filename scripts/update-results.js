@@ -3,10 +3,10 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '6-38-hilbert-hotel';
-const QUESTION = 'p_2_2';
-const IF_ANSWER = 'b';
-const THEN_ANSWER = 'b';
+const PG = '6-40-line-multiplication';
+const QUESTION = 'p_3_1';
+const IF_ANSWER = 'e';
+const THEN_ANSWER = 'e';
 const ADD_POINTS = 2;
 // ---------------------
 
