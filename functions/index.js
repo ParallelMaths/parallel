@@ -242,9 +242,9 @@ app.get('/dashboard', async function(req, res) {
   res.render('dashboard', {dashboard})
 });
 
-async function getFilteredDashboardData(req) {
+async function getApiDashboardData(req) {
   const dashboard = await getDashboardData(req);
-  const newDashboard = {students: {}, pages: {}, error: dashboard.error};
+  const newDashboard = {students: [], pages: {}, error: dashboard.error};
 
   for (let l of LEVELS) {
     for (const p of dashboard.pages[l]) {
@@ -257,12 +257,12 @@ async function getFilteredDashboardData(req) {
     }
 
     for (const s of dashboard.students[l]) {
-      newDashboard.students[l] = newDashboard.students[l] || [];
-
-      newDashboard.students[l].push({
+      newDashboard.students.push({
+        uid: s.uid,
         first: s.first,
         last: s.last,
         level: s.level,
+        userReference: s.userReference,
         answers: Object.entries(s.answers || {}).reduce((acc, [url, item]) => {
           acc[url] = {
             firstAnswer: item.firstAnswer,
@@ -281,10 +281,30 @@ app.get('/api/dashboard', async function(req, res) {
   if (!req.user) return res.status(200).send({ error: 'not signed in'});
   if (!req.user.code) return res.status(200).send({ error: 'not teacher'});
 
-  const dashboard = await getFilteredDashboardData(req);
-  // const dashboard = await getDashboardData(req);
+  const dashboard = await getApiDashboardData(req);
   
   res.status(200).send(dashboard);
+});
+
+app.get('/api/teacher-student', async function(req,res) {
+  if (!req.user) return error(res, 401);
+  if (!req.user.code) return error(res, 403);
+  if (!req.query.uid)  return error(res, 404);
+
+  const student = await userDB.doc(req.query.uid).get();
+  if (!student.exists) return error(res, 403);
+
+  const studentData = student.data();
+  const studentCodes = studentData.teacherCode || [];
+
+  if (!studentCodes.includes(req.user.code)) return error(res, 403);
+
+  res.status(200).send({
+    uid: studentData.uid,
+    first: studentData.first,
+    last: studentData.last,
+    level: studentData.level,
+  });
 });
 
 app.get('/dashboard.csv', async function(req, res) {
