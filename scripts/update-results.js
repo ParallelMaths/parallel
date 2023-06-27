@@ -3,11 +3,11 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '6-40-line-multiplication';
-const QUESTION = 'p_3_1';
+const PG = '10-42-zero-knowledge-proofs';
+const QUESTION = 'p_4_1';
 const IF_ANSWER = 'e';
 const THEN_ANSWER = 'e';
-const ADD_POINTS = 2;
+const ADD_POINTS = 3;
 // ---------------------
 
 

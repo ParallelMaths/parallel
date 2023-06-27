@@ -15,6 +15,12 @@ week by the Parallel Project to bright young mathematicians.
 *	Your score & answer sheet will appear immediately after you hit SUBMIT.
 *	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
 
+As it's nearly summer, and the school year will soon be over, this is our last Level 1 Parallelogram of the year. However, that doesn’t mean that it’s the end of mathematics for the year!  
+
+If you are taking maths seriously, and if you are having fun with it (being serious and having fun can go together), then it is important that you keep the numbers and geometry parts of your brain at least a little bit busy over the summer. 
+
+I am hoping that your teacher will have set you some holiday work, but if you have missed any earlier Parallelograms then the summer is a great time to catch up.
+
 
 ## 1. Dividing by zero
 
@@ -42,7 +48,7 @@ __1.1__ Which of these sums would result in the biggest answer?
 __1.2__ Which of these statements is correct for positive numbers?
 
 * [x] The smaller the divisor the bigger the answer
-* [ ] The smaller the divisor the smaller the answer`
+* [ ] The smaller the divisor the smaller the answer
 * [ ] The bigger the divisor the bigger the answer
 :::
 
@@ -154,11 +160,11 @@ The pattern is multiply the bottom two numbers and subtract the top left to get 
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You might earn a new badge...  
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
-*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+*	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
+*   This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
 
 Cheerio,
 Simon.
