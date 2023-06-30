@@ -1,28 +1,4 @@
 year6:
-  - url: 6-48-
-    title:
-    available: 2023-08-03T13:00:00
-    deadline: 2023-08-06T13:00:00
-  - url: 6-47-
-    title:
-    available: 2023-07-27T13:00:00
-    deadline: 2023-07-30T13:00:00
-  - url: 6-46-
-    title:
-    available: 2023-07-20T13:00:00
-    deadline: 2023-07-23T13:00:00
-  - url: 6-45-
-    title:
-    available: 2023-07-13T13:00:00
-    deadline: 2023-07-16T13:00:00
-  - url: 6-44-
-    title:
-    available: 2023-07-06T13:00:00
-    deadline: 2023-07-09T13:00:00
-  - url: 6-43-
-    title:
-    available: 2023-06-29T13:00:00
-    deadline: 2023-07-02T13:00:00
   - url: 6-42-divide-by-zero
     title: Why you can't divide by zero
     available: 2023-06-22T13:00:00
