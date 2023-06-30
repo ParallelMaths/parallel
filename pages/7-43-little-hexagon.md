@@ -63,10 +63,17 @@ Think about how many equilateral triangles would fit inside the hexagon.
 
 ## 2. Angle Tangle
 
-::: problem id=2_1 marks=2
+::: problem id=2_1 marks=3
+![](/resources/7-43-little-hexagon/2-1-angle-tangle.jpg){image align="right"}
 __2.1__ The diagram shows a regular hexagon with an equilateral triangle inside it.  
 
 What is the size of the marked angle?
+
+* [ ] 12°
+* [ ] 15°
+* [ ] 20°
+* [x] 30°
+* [ ] 60°
 
 ^^^ hint id=2_1_1 marks=1
 Consider two useful facts:  
