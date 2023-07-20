@@ -3,10 +3,10 @@ const serviceAccount = require('../private/service-account.json');
 
 
 // ---------------------
-const PG = '10-42-zero-knowledge-proofs';
-const QUESTION = 'p_4_1';
-const IF_ANSWER = 'e';
-const THEN_ANSWER = 'e';
+const PG = '9-40-pigeonhole-problem';
+const QUESTION = 'p_2_1';
+const IF_ANSWER = 'c';
+const THEN_ANSWER = 'c';
 const ADD_POINTS = 3;
 // ---------------------
 
