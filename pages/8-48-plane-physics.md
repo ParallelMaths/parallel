@@ -144,7 +144,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
+*   This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
 
 Cheerio,
 Simon.

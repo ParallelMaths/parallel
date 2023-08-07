@@ -43,7 +43,7 @@ __1.1__ How did Hawking’s teacher describe mathematics?
 * [ ] The heart of the universe
 * [ ] The imprint of the universe
 * [ ] The manuscript of the universe
-* [ ] The child of the universe:::
+* [ ] The child of the universe
 :::
 
 
@@ -269,10 +269,6 @@ It follows that the fraction of the area of triangle `PQR` that is shaded is
 `1 − 3/16 − 3/16 = 5/8`.
 :::
 
-
-And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have another year of Parallelograms.  
-
-But, before that, a few important points.  
 
 Before you hit the SUBMIT button, here are some quick reminders:
 

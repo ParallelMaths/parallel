@@ -116,14 +116,17 @@ __5.1__ The ratio `a : b = 2 : 3` and the ratio `a : c = 3 : 4`. What is the rat
 :::
 
 
+And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have another year of Parallelograms.  
+
+But, before that, a few important points.  
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge...  
+*	You might earn a new badge... if not, then maybe next week.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
+*	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,
 Simon.

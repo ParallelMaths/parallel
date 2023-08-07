@@ -164,6 +164,10 @@ In A, the letter T is incorrect; in B it is U which is incorrect; in C and D the
 :::
 
 
+And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have another year of Parallelograms.  
+
+But, before that, a few important points.  
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.

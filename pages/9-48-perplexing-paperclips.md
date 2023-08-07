@@ -166,6 +166,10 @@ We see from this that UKIMC is the 112th arrangement in the dictionary order lis
 :::
 
 
+And that’s it for this academic year. I hope you’ve enjoyed doing Parallel this year and make sure you come back in September, when we will have another year of Parallelograms.  
+
+But, before that, a few important points.  
+
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
@@ -173,7 +177,7 @@ Before you hit the SUBMIT button, here are some quick reminders:
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
 *	If you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
-* This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
+*   This was our last Parallelogram of the year, but be sure to come back in September for more puzzles and problems.
 
 Cheerio,
 Simon.
