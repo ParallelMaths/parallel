@@ -127,7 +127,7 @@ Here is an interesting mathematical oddity. Very often odd things are interestin
 ::: problem id=5_1 marks=3
 __5.1__ If you divide 1 by 998,001, the resulting decimal number will give you almost every three-digit number. For example, the decimal starts as follows: 0.000001002003004005006 ... and so on. However, one three-digit number gets skipped in this strange series. Which three-digit number is missing?  
 
-Clue – you can start by trying out the division on your calculator. Then, you will need to [read this article to find the answer](https://scienceswitch.com/2016/10/21/dividing-1-998001-yields-strange-outcome/){.external target="_blank"}.
+Clue – you can start by trying out the division on your calculator. Then, you will need to [read this article to find the answer](https://www.theguardian.com/science/grrlscientist/2012/mar/12/1){.external target="_blank"}.
 
 <input solution="998"/>
 :::
