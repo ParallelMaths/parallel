@@ -152,11 +152,11 @@ __6.1__ Each letter in the abbreviation __UKMT__ is rotated through 90° clockwi
 
 Which of the following could be the result?
 
-* [ ] A ![](/resources/7-47-summer-sums/4-ukmt-question1.gif)
-* [ ] B ![](/resources/7-47-summer-sums/4-ukmt-question2.gif)
-* [ ] C ![](/resources/7-47-summer-sums/4-ukmt-question3.gif)
-* [ ] D ![](/resources/7-47-summer-sums/4-ukmt-question4.gif)
-* [x] E ![](/resources/7-47-summer-sums/4-ukmt-question5.gif)
+* [ ] A ![](/resources/7-48-summer-sums/4-ukmt-question1.gif)
+* [ ] B ![](/resources/7-48-summer-sums/4-ukmt-question2.gif)
+* [ ] C ![](/resources/7-48-summer-sums/4-ukmt-question3.gif)
+* [ ] D ![](/resources/7-48-summer-sums/4-ukmt-question4.gif)
+* [x] E ![](/resources/7-48-summer-sums/4-ukmt-question5.gif)
 
 ---
 
