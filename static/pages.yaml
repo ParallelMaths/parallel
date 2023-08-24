@@ -165,7 +165,7 @@ year6:
     deadline: 2023-09-17T19:00:00
   - url: 6-01-mathematics-of-cake
     title: The mathematics of cake
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
 
 year7:
@@ -359,7 +359,7 @@ year7:
     deadline: 2023-09-17T19:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
 
 year8:
@@ -553,7 +553,7 @@ year8:
     deadline: 2023-09-17T19:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
 
 year9:
@@ -747,7 +747,7 @@ year9:
     deadline: 2023-09-17T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
 
 year10:
@@ -941,7 +941,7 @@ year10:
     deadline: 2023-09-17T19:00:00
   - url: 10-01-all-dark-things
     title: All Dark Things
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
 
 year11:
@@ -1000,5 +1000,5 @@ year11:
     deadline: 2023-09-17T19:00:00
   - url: 11-01-prince-ruperts-drops
     title: Prince Rupert's Drops
-    available: 2023-08-24T10:00:00
+    available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
