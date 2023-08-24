@@ -75,7 +75,7 @@ app.use((req, res, next) => {
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
 
-  if (req.user && req.user.showWelcomeMsg && !req.query.latest) {
+  if (req.user && req.user.showWelcomeMsg) {
     userDB.doc(req.user.uid) // async
         .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
@@ -145,6 +145,16 @@ app.get('/api/scores', async (req, res) => {
     isTeacher,
     availablePGs
   });
+});
+
+app.get('/api/reset-show-message', async (req, res) => {
+  if (!req.user) return error(res, 401);
+
+  userDB.doc(req.user.uid) // async
+        .update({showWelcomeMsg: true})
+        .catch(() => console.error('Failed to update welcome msg', req.user.uid));
+
+  res.status(200).send('set');
 });
 
 // Redirect from left path to right path
