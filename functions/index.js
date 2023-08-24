@@ -75,7 +75,7 @@ app.use((req, res, next) => {
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
 
-  if (req.user && req.user.showWelcomeMsg && !req.query.latest) {
+  if (req.user && req.user.showWelcomeMsg && !req.query.latest && !req.path.includes('/api')) {
     userDB.doc(req.user.uid) // async
         .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
