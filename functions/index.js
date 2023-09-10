@@ -128,7 +128,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(userData.accountType !== 'ADMIN') return res.status(403).send({ error: 'not admin' });
 
-  const email = req.headers['parallel-email'];
+  const email = req.query.email;
 
   if(!email) return res.status(401).send({ error: 'no email' });
 
