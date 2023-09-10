@@ -119,6 +119,32 @@ app.get('/api/user', async (req, res) => {
   })
 });
 
+app.get('/api/find-user', async (req, res) => {
+  const token = req.headers['parallel-token'];
+
+  if(!token) return res.status(401).send({ error: 'no token' });
+
+  const userData = await user.getUserFromToken(token);
+
+  if(userData.accountType !== 'ADMIN') return res.status(403).send({ error: 'not admin' });
+
+  const email = req.headers['parallel-email'];
+
+  if(!email) return res.status(401).send({ error: 'no email' });
+
+  const authUser = await user.getUserAuthByEmail(email);
+
+  if(!authUser || !authUser.uid) return res.status(401).send({ error: 'no auth user found' });
+
+  const found = await user.getUserData(authUser.uid);
+
+  if(!found) return res.status(401).send({ error: 'no user data found' });
+
+  const {level, code, userReference, first, schoolName, last, uid, accountType} = found;
+
+  res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType})
+});
+
 app.get('/api/scores', async (req, res) => {
   const answers = res?.locals?.user?.answers || {};
   const level = res?.locals?.user?.level || 'year6';

@@ -72,6 +72,12 @@ async function getActiveUser(req, res, next) {
   next();
 }
 
+async function getUserAuthByEmail(email) {
+  return firebase.auth().getUserByEmail(email).catch(() => {
+    return null;
+  })
+}
+
 async function getUserFromToken(idToken) {
   const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
   const userData = await getUserData(decodedIdToken.uid);
@@ -93,3 +99,4 @@ exports.getUserData = getUserData;
 exports.getActiveUser = getActiveUser;
 exports.getUserFromToken = getUserFromToken;
 exports.getAllStudents = getAllStudents;
+exports.getUserAuthByEmail = getUserAuthByEmail;
