@@ -97,10 +97,10 @@ The original square piece is a quarter of the whole cake. The remaining 3/4 is d
 Before you hit the SUBMIT button, here are some quick reminders:
 
 *	You will receive your score immediately, and collect your reward points.
-*	You might earn a new badge... if not, then maybe next week.
+*	You might earn a new badge... if not, then maybe next time.
 *	Make sure you go through the solution sheet – it is massively important.
 *	A score of less than 50% is ok – it means you can learn lots from your mistakes.
-*	The next Parallelogram is next week, at 3pm on Thursday.
+*	The next Parallelogram is released at 3pm on Thursday September 14th.
 *	Finally, if you missed any earlier Parallelograms, make sure you go back and complete them. You can still earn reward points and badges by completing missed Parallelograms.
 
 Cheerio,

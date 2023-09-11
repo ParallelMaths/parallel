@@ -16,7 +16,7 @@ These challenges are a random walk through the mysteries of mathematics. Be prep
 
 * Tackle each Parallelogram in one go. Don’t get distracted.
 * When you finish, remember to hit the SUBMIT button.
-*	NEW! You can new earn reward points and badges – [find out more here](/awards).
+* You can new earn reward points and badges – [find out more here](/awards).
 * Finish by midnight on Sunday if your whole class is doing parallelograms.
 
 __IMPORTANT__ – it does not really matter what score you get, because the main thing is that you think hard about the problems... and then examine the solution sheet to learn from your mistakes.
@@ -164,7 +164,7 @@ __4.4__ What is `(-5) × (-2) × (-5)`?
 :::
 
 
-I hope you enjoyed the first Parallelogram of the year. There will be more next week, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
+I hope you enjoyed the first Parallelogram of the year. There will be more on Thursday September 14th, and the week after, and the week after that. So check your email or return to the website on Thursday at 3pm.
 
 In the meantime, you can find out your score, the answers and go through the answer sheet as soon as you hit the SUBMIT button below.
 
