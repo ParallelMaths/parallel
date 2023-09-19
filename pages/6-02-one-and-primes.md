@@ -96,7 +96,7 @@ __2.4__ Can you find a positive number which is one bigger than a square number,
 
 Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
 
-We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 1 Parallel Circle, at 5pm BST on Tuesday and repeated at 8.15am on Sunday.
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 1 Parallel Circle.
 
 ::: problem id=3_1 marks=1
 __3.1__ Will you be joining the Parallel Circle next week?  

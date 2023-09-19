@@ -166,7 +166,7 @@ __4.3__ I saw my math teacher with a piece of graph paper yesterday.
 
 Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
 
-We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 2 Parallel Circle, at 5pm BST on Wednesday and repeated at 9.30am on Sunday.
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 2 Parallel Circle.
 
 ::: problem id=5_1 marks=1
 __5.1__ Will you be joining the Parallel Circle next week?  

@@ -124,7 +124,7 @@ However, the 5:2 ratio also suggests that we might have 10 seniors and 4 veteran
 
 Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
 
-We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 3 Parallel Circle, at 6.15pm BST on Wednesday and repeated at 10.45am on Sunday.
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 3 Parallel Circle.
 
 ::: problem id=4_1 marks=1
 __4.1__ Will you be joining the Parallel Circle next week?  

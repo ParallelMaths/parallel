@@ -113,7 +113,7 @@ We need to work out 5 x 0.3 + 2.1. This gives 1.5 +  2.1 = 3.6 as the answer.
 
 Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
 
-We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 4 Parallel Circle, at 7.30pm BST on Wednesday and repeated at 12pm on Sunday.
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 4 Parallel Circle.
 
 ::: problem id=4_1 marks=1
 __4.1__ Will you be joining the Parallel Circle next week?  

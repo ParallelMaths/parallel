@@ -189,7 +189,7 @@ __5.3__ Solve `2 + 3x + 4 + 5x + 6 = 7x - 8 - 9x`?
 
 Parallel Circles, our weekly online maths sessions with bestselling science author Simon Singh, Countdown champion Junaid Mubeen and a range of guest speakers, start next week.  
 
-We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 5 & 6 Parallel Circle, at 6.15pm BST on Tuesday and repeated at 8am on Saturday.
+We have [Circles designed for each Level of Parallel](/circles), and the best session for you to join is our Level 5 & 6 Parallel Circle.
 
 ::: problem id=6_1 marks=1
 __6.1__ Will you be joining the Parallel Circle next week?  
