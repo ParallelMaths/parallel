@@ -4,7 +4,8 @@ const serviceAccount = require("../private/service-account.json");
 // This script will convert a standard account into an admin account.
 
 const email = "parallel@mcmill.co.uk"
-const type = "ADMIN"
+const isCircleAdmin = true;
+const isEuclidAdmin = true;
 
 //////////////////////////////////////
 
@@ -13,19 +14,25 @@ fb.initializeApp({
   databaseURL: "https://parallel-cf800.firebaseio.com",
 });
 
-const setAdmin = (email, type) =>
-  fb
+const setAdmin = () => { 
+  const claims = {};
+
+  if(isCircleAdmin) claims['account_type'] = 'ADMIN'
+  if(isEuclidAdmin) claims['euclid_type'] = 'ADMIN'
+  
+  return fb
     .auth()
     .getUserByEmail(email)
-    .then(user => fb.auth().setCustomUserClaims(user.uid, { account_type: type }))
-    .then(() => console.log(`\n\nSet user "${email}" account_type to ${type}`))
+    .then(user => fb.auth().setCustomUserClaims(user.uid, claims))
+    .then(() => console.log(`\n\nSet user "${email}" claims to ${JSON.stringify(claims)}`))
     .catch((err) => {
       err.message = `${err.message} - ${email}`;
       throw err;
-    });
+    })
+};
 
 const run = async () => {
-  await setAdmin(email, type)
+  await setAdmin()
 };
 
 run()
