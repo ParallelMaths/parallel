@@ -38,7 +38,7 @@ __1.1__ What is the value of 0!?
 :::
 
 ::: problem id=1_2 marks=1
-__1.2__ What is the value of -1!?
+__1.2__ What is the value of (-1)!?
 
 * [x] Undefined
 * [ ] -1
