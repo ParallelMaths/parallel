@@ -262,6 +262,23 @@ export default function() {
       loginForm.reset = !loginForm.reset;
     },
 
+    isUnderThirteen(birthYear, birthMonth) {
+      const now = new Date();
+      const nowYear = now.getFullYear();
+      const nowMonth = now.getMonth() + 1;
+      const earliestYear = nowYear - 13;
+
+      if(birthYear < earliestYear) {
+        return false;
+      }
+
+      if(birthYear == earliestYear && birthMonth < nowMonth) {
+        return false;
+      }
+
+      return true;
+    },
+
     login(e) {
       e.preventDefault();
       loginForm.error = null;

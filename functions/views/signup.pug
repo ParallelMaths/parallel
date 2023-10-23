@@ -37,7 +37,7 @@ block content
         input(type='radio' class="signup-radio" v-model="user.signupForm.primaryEmailType" value='parent')#is-student-email-parent
         label(class="radio-label" for="is-student-email-parent") A Parent's
 
-    label(v-if="user.signupForm.type !== 'teacher' && user.signupForm.birthYear < 2009 && user.signupForm.primaryEmailType !== 'parent'")
+    label(v-if="user.signupForm.type !== 'teacher' && user.isUnderThirteen(user.signupForm.birthYear, user.signupForm.birthMonth) && user.signupForm.primaryEmailType !== 'parent'")
       span {{user.signupForm.messages[user.signupForm.type].parentsEmail}}
       div(class="info") {{user.signupForm.messages[user.signupForm.type].parentsEmailSubtext}}
       input(type="email" v-model="user.signupForm.guardianEmail")
@@ -88,7 +88,7 @@ block content
       input(type="text" v-model="user.signupForm.phoneNumber" required)
 
     //- TODO Calculate the age dynamically
-    label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode && user.signupForm.birthYear >= 2009 && user.signupForm.primaryEmailType !== 'parent'")
+    label(v-if="user.signupForm.type !== 'teacher' && !user.signupForm.teacherCode && user.isUnderThirteen(user.signupForm.birthYear, user.signupForm.birthMonth) && user.signupForm.primaryEmailType !== 'parent'")
       span {{user.signupForm.messages[user.signupForm.type].emailOfParent}}
       div(class="info") {{user.signupForm.messages[user.signupForm.type].emailOfParentSubtext}}
       input(type="email" v-model="user.signupForm.guardianEmail" required)
