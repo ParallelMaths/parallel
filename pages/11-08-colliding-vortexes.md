@@ -88,7 +88,7 @@ A pencil is held in the hole at the centre of a disc of radius 1cm, and the disc
 
 What shape is drawn by the pencil?
 
-![](/resources/11-07-colliding-vortexes/7-wire-options.jpg){image align="center"}
+![](/resources/11-08-colliding-vortexes/7-wire-options.jpg){image align="center"}
 
 * [ ] A
 * [ ] B
