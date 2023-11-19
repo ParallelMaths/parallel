@@ -44,6 +44,16 @@ export default function() {
       location.reload(true);
     },
 
+    // Only used by teachers
+    async clearSubmission() {
+      Vue.set(challenge.answers, 'loading', true);
+      const userRef = fbDatabase.collection('users').doc(userData.uid);
+      await userRef.set({answers: {[page.url]: firebase.firestore.FieldValue.delete()}}, {merge: true});
+      document.body.style.display = 'none';
+      window.scrollTo(0, 0);
+      location.reload(true);
+    },
+
     showHint(id) {
       challenge.setAnswer(id, true);
     },

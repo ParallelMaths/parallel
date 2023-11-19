@@ -25,6 +25,10 @@ block content
     else
       button#submit(v-on:click="c.submit") Submit Answers
 
+  if user.code && userData.submitted
+    div
+      button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
+
   script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
   script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
 
