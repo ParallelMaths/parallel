@@ -20,7 +20,7 @@ week by the Parallel Project to bright young mathematicians.
 
 Last week I showed you one of Maarten Baas’s remarkable clocks. Here is another one of his very clever clocks.
 
-@[youtube](TdkK3MTjfLY?start=21&end=93&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](7KEUgnm_oqM?start=12&end=35&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ![](/resources/9-10-clock-calculation/1-clock.png){image align="center"}
 
