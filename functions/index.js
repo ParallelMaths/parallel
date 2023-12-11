@@ -165,7 +165,7 @@ app.get('/api/user-answers', async (req, res) => {
 
   const answers = found.answers || {};
   const clean = getCleanAnswers(answers);
-  res.status(200).send({ answers: clean });
+  res.status(200).send({ answers: clean, level: found.level });
 });
 
 app.get('/api/scores', async (req, res) => {
