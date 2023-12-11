@@ -99,5 +99,6 @@ async function getAllStudents(code) {
 exports.getUserData = getUserData;
 exports.getActiveUser = getActiveUser;
 exports.getUserFromToken = getUserFromToken;
+exports.getIdTokenFromRequest = getIdTokenFromRequest;
 exports.getAllStudents = getAllStudents;
 exports.getUserAuthByEmail = getUserAuthByEmail;
