@@ -145,6 +145,23 @@ app.get('/api/find-user', async (req, res) => {
   res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType})
 });
 
+app.get('/api/user-answers', async (req, res) => {
+  const token = req.headers['parallel-token'];
+  const userId = req.query.id
+
+  if(!token) return res.status(401).send({ error: 'no token' });
+  const userData = await user.getUserFromToken(token);
+  if(userData.accountType !== 'ADMIN') return res.status(403).send({ error: 'not admin' });
+
+  const found = await user.getUserData(userId);
+
+  if(!found) return res.status(401).send({ error: 'no user data found' });
+
+  const answers = found.answers || {};
+  const clean = getCleanAnswers(answers);
+  res.status(200).send({ answers: clean });
+});
+
 app.get('/api/scores', async (req, res) => {
   const answers = res?.locals?.user?.answers || {};
   const level = res?.locals?.user?.level || 'year6';
