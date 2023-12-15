@@ -246,8 +246,7 @@ const reportMap = {
   woVuDIFCsAY4dTrEK6nlEsJEYwJ3: "ER-f020fdb6-572f-48cc-b947-66127cf9d8f0",
 };
 
-const auth_token =
-  "INSERT";
+const auth_token = "";
 
 const send = (
   reportId,
@@ -255,6 +254,7 @@ const send = (
   adminComment,
   mentalMathsComment,
   abilityScore,
+  abilityScoreComment
 ) => {
   return fetch("https://api.parallel.org.uk/graphql", {
     headers: {
@@ -270,6 +270,7 @@ const send = (
           reportId: reportId,
           userId: userId,
           adminComment: adminComment,
+          abilityScoreComment: abilityScoreComment,
           mentalMathsComment: mentalMathsComment.split('\n').join('\n'),
           abilityScore: abilityScore.toLowerCase(),
         },
@@ -298,7 +299,7 @@ const run = async () => {
   const accounts = JSON.parse(fs.readFileSync(file)).users;
 
   const data = await csv().fromFile(
-    "/Users/drew/Downloads/M3+ for Drew Dec13.csv",
+    "/Users/drew/Downloads/m3+drewdec15 (1).csv"
   );
 
   const parsed = data.map((d) => {
@@ -336,13 +337,14 @@ const run = async () => {
   });
 
   for (const p of parsed) {
-    // await send(
-    //   p.reportId,
-    //   p.id,
-    //   p.abilityComment,
-    //   p.mentalMaths,
-    //   p.abilityGrade,
-    // );
+    await send(
+      p.reportId,
+      p.id,
+      '',
+      p.mentalMaths,
+      p.abilityGrade,
+      p.abilityComment,
+    );
   }
 
   process.exit();
