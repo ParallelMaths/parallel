@@ -253,8 +253,7 @@ const send = (
   userId,
   adminComment,
   mentalMathsComment,
-  abilityScore,
-  abilityScoreComment
+  abilityScore
 ) => {
   return fetch("https://api.parallel.org.uk/graphql", {
     headers: {
@@ -270,7 +269,6 @@ const send = (
           reportId: reportId,
           userId: userId,
           adminComment: adminComment,
-          abilityScoreComment: abilityScoreComment,
           mentalMathsComment: mentalMathsComment.split('\n').join('\n'),
           abilityScore: abilityScore.toLowerCase(),
         },
@@ -281,7 +279,7 @@ const send = (
   })
     .then((res) => res.json())
     .then((res) => {
-        if(res.data.updateEuclidReportCommentAdmin.id) {
+        if(res.data.updateEuclidReportCommentAdmin.id && !res.error) {
             console.log("success", res.data.updateEuclidReportCommentAdmin.id)
         } else {
             process.exit();
@@ -299,15 +297,14 @@ const run = async () => {
   const accounts = JSON.parse(fs.readFileSync(file)).users;
 
   const data = await csv().fromFile(
-    "/Users/drew/Downloads/m3+drewdec15 (1).csv"
+    "/Users/drew/Downloads/m1 drew dec17.csv"
   );
 
   const parsed = data.map((d) => {
     if (
       !d["Parallel email"] ||
       !d["Mental maths comment"] ||
-      !d["Ability Grade"] ||
-      !d["Ability comment"]
+      !d["Ability Grade"]
     ) {
       console.log("bad", d);
       process.exit();
@@ -332,7 +329,6 @@ const run = async () => {
       reportId,
       mentalMaths: d["Mental maths comment"],
       abilityGrade: d["Ability Grade"],
-      abilityComment: d["Ability comment"],
     };
   });
 
@@ -343,7 +339,6 @@ const run = async () => {
       '',
       p.mentalMaths,
       p.abilityGrade,
-      p.abilityComment,
     );
   }
 
