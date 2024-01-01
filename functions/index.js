@@ -134,7 +134,7 @@ app.get('/api/find-user', async (req, res) => {
 
   const authUser = await user.getUserAuthByEmail(email);
 
-  if(!authUser || !authUser.uid) return res.status(401).send({ error: 'no auth user found' });
+  if(!authUser || !authUser.uid || !authUser.email) return res.status(401).send({ error: 'no auth user found' });
 
   const found = await user.getUserData(authUser.uid);
 
@@ -142,7 +142,7 @@ app.get('/api/find-user', async (req, res) => {
 
   const {level, code, userReference, first, schoolName, last, uid, accountType} = found;
 
-  res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType})
+  res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType, email: authUser.email })
 });
 
 app.get('/api/user-answers', async (req, res) => {
