@@ -25,7 +25,7 @@ block content
     else
       button#submit(v-on:click="c.submit") Submit Answers
 
-  if user.code && userData.submitted
+  if userData.submitted && userData.isTeacher
     div
       button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
 

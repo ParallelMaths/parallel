@@ -461,8 +461,12 @@ app.get('/:pid', (req, res, next) => {
       .toString().replace(/<h1.*<\/h1>/, '');
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
-  const userData = {answers, uid: req.user ? req.user.uid : '',
-    submitted: ('reveal' in req.query) || answers.submitted || false};
+  const userData = {
+    answers,
+    uid: req.user ? req.user.uid : "",
+    submitted: "reveal" in req.query || answers.submitted || false,
+    isTeacher: !!req.user?.code,
+  };
 
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData});
 });
