@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 Watch this clip from _Night at the Museum 2 (Battle of the Smithsonian)_ and
 listen carefully to the references to π.
 
-@[youtube](l3DXVVSRYdE?start=22&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](XNxoRhL2wyc?start=24&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 Although Einstein has no problem remembering the digits of π, most of the rest of
 us find it tricky. 3.14 is about as good as many of us can manage.
