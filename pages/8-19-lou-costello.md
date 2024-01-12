@@ -263,7 +263,7 @@ the biggest improvements take place during the first few terms.
 
 Last week’s Parallelogram had some disturbing arithmetic courtesy of Ma and Pa Kettle. Here is a similar comedy routine from the great Lou Costello, one of America’s most famous comedians. Watch carefully and see if you can work out why the maths is fundamentally wrong.
 
-@[youtube](MS2aEfbEi7s?start=7&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](oN2_NarcM8c?start=7&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1__ If Lou Costello were to work out 3 × 15 or (15 + 15 + 15), what would he think the result is?
