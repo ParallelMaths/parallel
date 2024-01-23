@@ -210,7 +210,7 @@ the nickname for a 10 cent coin. Also, answer the question below.
 (BTW, visit the Find Out More section below for a link to the most famous and
 funniest of all the sketches by Abbott and Costello.)
 
-@[youtube](9udNrOh5DyA?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](3gDpmWzyH84?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=6_1 marks=2
 __6.1__ Abbott says that 40 + 10 = 50, but Costello says that can’t be right because:
@@ -243,7 +243,7 @@ From now on, Parallelograms will often contain this Additional Stuff section, wh
 
 Here is the most famous sketch by Abbott and Costello – “Who’s on first?” –
 watch and enjoy:
-@[youtube](kTcRRaXV-fg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](sShMA85pv8M?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 This is a video presented by James Grime for the Numberphile channel. It is all
 about the world’s most mathematical flag:
