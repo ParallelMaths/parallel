@@ -148,6 +148,8 @@ app.get('/api/find-user', async (req, res) => {
 app.get('/api/user-answers', async (req, res) => {
   const token = req.headers['parallel-token'];
 
+  const userId = req.query.id
+
   if (token?.length) {
     const userData = await user.getUserFromToken(token);
     if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (token)' });
@@ -155,10 +157,12 @@ app.get('/api/user-answers', async (req, res) => {
     const idToken = await user.getIdTokenFromRequest(req, res).catch(() => null);
     if(!idToken) return res.status(401).send({ error: 'no token (cookie)' });
     const userData = await user.getUserFromToken(idToken);
-    if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (cookie)' });
+
+    if(userData.uid !== userId && userData.euclidAccountType !== 'ADMIN') {
+      return res.status(403).send({ error: 'not admin (cookie)' })
+    };
   }
 
-  const userId = req.query.id
   const found = await user.getUserData(userId);
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
