@@ -1002,3 +1002,10 @@ year11:
     title: Prince Rupert's Drops
     available: 2023-08-24T07:00:00
     deadline: 2023-09-10T19:00:00
+
+test:
+  - url: euclid-banana-secret-12
+    title: Module stuff and things 12
+    available: 2024-03-15T13:00:00
+    deadline: 2024-03-18T13:00:00
+    password: applepie
