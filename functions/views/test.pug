@@ -7,34 +7,37 @@ block content
       | #{page.title}
 
   if !user
-    .status-banner This is a preview of Parallel. You have to login or #[a(href="/signup") create an account], to be able to answer questions and submit answers.
+    .status-banner Please log in to be able to answer questions and submit answers.
   
-  if user && userData.submitted
-    div
-      .score.wide
-        p.large Submitted!
-        p Scroll down for answers, explanations and your score. If you made a mistake, find out why.
-  else if userData.hasPassword
-    div!= body
-  else
-    div
-        form(v-on:submit="c.testPasswordSubmit")
-          p Lorem Ipsum Please enter password
+  if user
+    if userData.submitted
+      div
+        .score.wide
+          p.large Submitted!
+          p Lorem ipsum
+    else if userData.hasPassword
+      div!= body
+    else
+      div
+          form(v-on:submit="c.testPasswordSubmit")
+            p Lorem Ipsum Please enter password
 
-          label
-            | Test Password
-            input(type="text" v-model="c.testPassword" required)
+            if userData.passwordIncorrect
+              p.error Incorrect password, please try again.
 
-          button(type="submit") Submit
+            label
+              | Test Password
+              input(type="text" v-model="c.testPassword" required)
 
-  if user && userData.hasPassword
+            button(type="submit") Submit
+
     if userData.submitted
       div(class='score ' + scoreClass(userData.answers.score || 0))
         p.large Score: #{userData.answers.score || 0}%
         p #{userData.answers.points}/#{userData.answers.total} marks
         if page.scoreFactor
           p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
-    else
+    else if userData.hasPassword
       button#submit(v-on:click="c.submit") Submit Answers
 
   if userData.submitted && userData.isTeacher

@@ -1005,7 +1005,7 @@ year11:
 
 test:
   - url: euclid-banana-secret-12
-    title: Module stuff and things 12
+    title: Euclid Test Example Title (password is applepie)
     available: 2024-03-15T13:00:00
     deadline: 2024-03-18T13:00:00
     password: applepie

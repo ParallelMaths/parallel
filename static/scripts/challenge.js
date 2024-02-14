@@ -46,8 +46,8 @@ export default function() {
       location.reload(true);
     },
 
-    testPasswordSubmit() {
-      console.log('DREWDREW, testPassword', challenge.testPassword)
+    testPasswordSubmit(e) {
+      e.preventDefault();
       window.location.search = `?p=${challenge.testPassword}`;
     },
 

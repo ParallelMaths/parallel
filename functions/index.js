@@ -490,8 +490,21 @@ app.get('/test/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!TEST_MAP[pid]) return next();
 
+  const page = TEST_MAP[pid];
+
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
       .toString().replace(/<h1.*<\/h1>/, '');
+
+  let hasPassword = false;
+  let passwordIncorrect = false;
+
+  if(req.query.p) {
+    if(req.query.p == page.password) {
+      hasPassword = true;
+    } else {
+      passwordIncorrect = true;
+    }
+  }
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
   const userData = {
@@ -501,10 +514,15 @@ app.get('/test/:pid', (req, res, next) => {
     submitted: answers.submitted || false,
     // submitted: true,
     isTeacher: !!req.user?.code,
-    hasPassword: false
+    hasPassword,
+    passwordIncorrect
   };
 
-  res.render('test', {pid, body, page: TEST_MAP[pid], userData});
+  if (req.user) {
+    res.locals.sidebarDisabled = true
+  }
+
+  res.render('test', {pid, body, page, userData});
 });
 
 app.use((req, res) => error(res, 404));

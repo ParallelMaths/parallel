@@ -2,19 +2,11 @@
 
 <div class="dictionary">
 
-__Noun__: Parallelogram
-__Pronunciation__: /ˌparəˈlɛləɡram/
-
-1. a portmanteau word combining parallel and telegram. A message sent each
-week by the Parallel Project to bright young mathematicians.
+This is a special euclid test!
 
 </div>
 
-* Tackle each Parallelogram in one go. Don’t get distracted.
-* When you finish, remember to hit the SUBMIT button.
-*	Finish by Sunday night if your whole class is doing parallelograms.
-*	Don’t worry if you score less than 50%, because it means you will learn something new when you __check the solutions__.
-
+Lorem ipsum
 
 ## 1.	Magic Hexagon
 
