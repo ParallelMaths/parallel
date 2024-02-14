@@ -39,12 +39,6 @@ for (let l of LEVELS) {
 
 const TEST_MAP = {};
 for (let [i, p] of PAGES['test'].entries()) {
-  // const date = new Date(p.available);
-  // p.available = +date;
-  // p.deadline = +(new Date(p.deadline));
-  // p.date = `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
-  // p.level = +l.slice(4) - 5; // -5 turns year 6 into level 1
-  // p.index = PAGES[l].length - i;
   TEST_MAP[p.url] = p;
 }
 
@@ -510,9 +504,7 @@ app.get('/test/:pid', (req, res, next) => {
   const userData = {
     answers,
     uid: req.user ? req.user.uid : "",
-    // submitted: "reveal" in req.query || answers.submitted || false,
     submitted: answers.submitted || false,
-    // submitted: true,
     isTeacher: !!req.user?.code,
     hasPassword,
     passwordIncorrect
