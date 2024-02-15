@@ -14,6 +14,8 @@ export default function() {
     answers: userData.answers,
     submitted: userData.submitted,
 
+    testPassword: undefined,
+
     setAnswer(key, value) {
       if (userData.submitted) return;
       if (!userData.uid) return alert('You have to login or create a free account, before you can solve problems.');
@@ -42,6 +44,11 @@ export default function() {
       document.body.style.display = 'none';
       window.scrollTo(0, 0);
       location.reload(true);
+    },
+
+    testPasswordSubmit(e) {
+      e.preventDefault();
+      window.location.search = `?p=${challenge.testPassword}`;
     },
 
     // Only used by teachers

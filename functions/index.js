@@ -37,6 +37,11 @@ for (let l of LEVELS) {
   }
 }
 
+const TEST_MAP = {};
+for (let [i, p] of PAGES['test'].entries()) {
+  TEST_MAP[p.url] = p;
+}
+
 function scoreClass(score) {
   if (score >= 90) return 'tesseract';
   if (score >= 70) return 'cube';
@@ -473,6 +478,43 @@ app.get('/:pid', (req, res, next) => {
   };
 
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData});
+});
+
+app.get('/test/:pid', (req, res, next) => {
+  const pid = req.params.pid;
+  if (!TEST_MAP[pid]) return next();
+
+  const page = TEST_MAP[pid];
+
+  const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
+      .toString().replace(/<h1.*<\/h1>/, '');
+
+  let hasPassword = false;
+  let passwordIncorrect = false;
+
+  if(req.query.p) {
+    if(req.query.p == page.password) {
+      hasPassword = true;
+    } else {
+      passwordIncorrect = true;
+    }
+  }
+
+  const answers = req.user ? (req.user.answers[pid] || {}) : {};
+  const userData = {
+    answers,
+    uid: req.user ? req.user.uid : "",
+    submitted: answers.submitted || false,
+    isTeacher: !!req.user?.code,
+    hasPassword,
+    passwordIncorrect
+  };
+
+  if (req.user) {
+    res.locals.sidebarDisabled = true
+  }
+
+  res.render('test', {pid, body, page, userData});
 });
 
 app.use((req, res) => error(res, 404));

@@ -1,0 +1,74 @@
+extends _layout
+
+block content
+  header(style=`background-image: url('/resources/${pid}/header.jpg')`)
+    h1
+      | #{page.title}
+
+  if !user
+    .status-banner Please log in to be able to answer questions and submit answers.
+  
+  if user
+    if userData.submitted
+      div
+        .score.wide
+          p.large Submitted!
+          p Lorem ipsum
+    else if userData.hasPassword
+      div!= body
+    else
+      div
+          form(v-on:submit="c.testPasswordSubmit")
+            p Lorem Ipsum Please enter password
+
+            if userData.passwordIncorrect
+              p.error Incorrect password, please try again.
+
+            label
+              | Test Password
+              input(type="text" v-model="c.testPassword" required)
+
+            button(type="submit") Submit
+
+    if userData.submitted
+      div(class='score ' + scoreClass(userData.answers.score || 0))
+        p.large Score: #{userData.answers.score || 0}%
+        p #{userData.answers.points}/#{userData.answers.total} marks
+        if page.scoreFactor
+          p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
+    else if userData.hasPassword
+      button#submit(v-on:click="c.submit") Submit Answers
+
+  if userData.submitted && userData.isTeacher
+    div
+      button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
+
+  script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
+  script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
+
+
+//- svg(style="display: none")
+  defs
+    polygon#star(points="19.8,2.2,6.6,43.56,39.6,17.16,0,17.16,33,43.56")
+
+//- mixin stars(label)
+  for i in [1,2,3,4,5]
+    svg(width=40 height=42 v-bind:class="{active:" + i + "&&" + i +"<=answers." + label + "}" v-on:click="answers." + label + "=" + i): use(href="#star")
+
+//- table
+  tr
+    td Too easy
+    td: +stars('difficulty')
+    td Too difficult
+  tr
+    td Too short
+    td: +stars('length')
+    td Too long
+  tr
+    td Horrible
+    td: +stars('fun')
+    td Lots of fun
+  tr
+    td Very boring
+    td: +stars('interesting')
+    td Very interesting
