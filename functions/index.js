@@ -39,7 +39,13 @@ for (let l of LEVELS) {
 
 const TEST_MAP = {};
 for (let [i, p] of PAGES['test'].entries()) {
-  TEST_MAP[p.url] = p;
+  const available = new Date(p.available);
+  const deadline = new Date(p.deadline);
+  const now = Date.now();
+
+  if(available < now && deadline > now) {
+    TEST_MAP[p.url] = p;
+  }
 }
 
 function scoreClass(score) {
