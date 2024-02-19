@@ -211,6 +211,38 @@ app.get('/api/scores', async (req, res) => {
   });
 });
 
+app.get('/api/test-data', async (req, res) => {
+  const token = req.headers['parallel-token'];
+
+  if (token?.length) {
+    const userData = await user.getUserFromToken(token);
+    if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (token)' });
+  } else {
+    const idToken = await user.getIdTokenFromRequest(req, res).catch(() => null);
+    if(!idToken) return res.status(401).send({ error: 'no token (cookie)' });
+    const userData = await user.getUserFromToken(idToken);
+    if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (cookie)' });
+  }
+
+  const data = {};
+
+  const since = req.query.since ? new Date(Number(req.query.since)).getTime() : new Date('2024-01-16T00:00:00.000Z').getTime();
+
+  if(isNaN(since)) return res.status(400).send('Invalid date');
+
+  for (let page of Object.keys(TEST_MAP)) {
+    const query = await userDB.where(`answers.${page}.firstAnswer`, '>', since).get();
+    const newVal = query.docs.map(d => ({
+      ...d.data().answers[page],
+      uid: d.id,
+    }));
+
+    data[page] = [...(data[page] || []), ...newVal];
+  }
+
+  res.status(200).send(data);
+});
+
 app.get('/api/reset-show-message', async (req, res) => {
   if (!req.user) return error(res, 401);
 
