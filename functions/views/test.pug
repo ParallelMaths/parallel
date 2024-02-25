@@ -14,6 +14,8 @@ block content
         .score.wide
           p.large Submitted!
           p Lorem ipsum
+        if userData.answersVisible
+          div(class="submitted")!= body
     else if userData.hasPassword
       div!= body
     else

@@ -1007,10 +1007,12 @@ test:
   - url: euclid-banana-secret-12
     title: Euclid Test Example Title (password is applepie)
     available: 2024-01-15T13:00:00
-    deadline: 2024-05-18T13:00:00
+    answersVisibleFrom: 2024-04-01T13:00:00
+    deadline: 2024-05-01T13:00:00
     password: applepie
   - url: module-2-test-winter
     title: Euclid Module 2 Winter Test
     available: 2024-01-15T13:00:00
-    deadline: 2024-05-18T13:00:00
+    answersVisibleFrom: 2024-04-01T13:00:00
+    deadline: 2024-05-01T13:00:00
     password: applepie

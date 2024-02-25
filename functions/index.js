@@ -41,9 +41,11 @@ const TEST_MAP = {};
 for (let [i, p] of PAGES['test'].entries()) {
   const available = new Date(p.available);
   const deadline = new Date(p.deadline);
+  const answersVisibleFrom = new Date(p.answersVisibleFrom);
   const now = Date.now();
 
   if(available < now && deadline > now) {
+    p.answersVisible = answersVisibleFrom < now;
     TEST_MAP[p.url] = p;
   }
 }
@@ -539,11 +541,13 @@ app.get('/test/:pid', (req, res, next) => {
   }
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
+
   const userData = {
     answers,
     uid: req.user ? req.user.uid : "",
     submitted: answers.submitted || false,
     isTeacher: !!req.user?.code,
+    answersVisible: page.answersVisible || false,
     hasPassword,
     passwordIncorrect
   };
