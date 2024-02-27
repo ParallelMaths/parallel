@@ -106,8 +106,8 @@ export default function() {
         }
 
         // If manually logging in
-        if (window.location.pathname.match(/^\/\d/)) {
-          // If they log in from parallelogram, keep them there
+        if (window.location.pathname.match(/^\/\d/) || window.location.pathname.match(/^\/test/)) {
+          // If they log in from parallelogram or test, keep them there
           return window.location.reload(true);
         } else {
           // If they're not on parallelogram, send them to the /login redirect
