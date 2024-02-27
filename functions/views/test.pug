@@ -13,8 +13,16 @@ block content
       div
         .score.wide
           p.large Submitted!
-          p Lorem ipsum
+          if userData.answersVisible
+            p Lorem ipsum answers visible
+          else
+            p Lorem ipsum answers not visible
         if userData.answersVisible
+          div(class='score ' + scoreClass(userData.answers.score || 0))
+            p.large Score: #{userData.answers.score || 0}%
+            p #{userData.answers.points}/#{userData.answers.total} marks
+            if page.scoreFactor
+              p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
           div(class="submitted")!= body
     else if userData.hasPassword
       div!= body
@@ -33,11 +41,12 @@ block content
             button(type="submit") Submit
 
     if userData.submitted
-      div(class='score ' + scoreClass(userData.answers.score || 0))
-        p.large Score: #{userData.answers.score || 0}%
-        p #{userData.answers.points}/#{userData.answers.total} marks
-        if page.scoreFactor
-          p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
+      if userData.answersVisible
+        div(class='score ' + scoreClass(userData.answers.score || 0))
+          p.large Score: #{userData.answers.score || 0}%
+          p #{userData.answers.points}/#{userData.answers.total} marks
+          if page.scoreFactor
+            p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
     else if userData.hasPassword
       button#submit(v-on:click="c.submit") Submit Answers
 

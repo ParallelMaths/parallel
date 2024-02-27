@@ -545,9 +545,9 @@ app.get('/test/:pid', (req, res, next) => {
   const userData = {
     answers,
     uid: req.user ? req.user.uid : "",
-    submitted: answers.submitted || false,
+    submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
-    answersVisible: page.answersVisible || false,
+    answersVisible: "reveal" in req.query || page.answersVisible || false,
     hasPassword,
     passwordIncorrect
   };
