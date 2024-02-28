@@ -9,7 +9,7 @@ block content
     .status-banner Please log in to be able to answer questions and submit answers.
   
   if user
-    if userData.submitted
+    if userData.submitted && userData.hasPassword
       div
         .score.wide
           p.large Submitted!
@@ -40,15 +40,16 @@ block content
 
             button(type="submit") Submit
 
-    if userData.submitted
-      if userData.answersVisible
-        div(class='score ' + scoreClass(userData.answers.score || 0))
-          p.large Score: #{userData.answers.score || 0}%
-          p #{userData.answers.points}/#{userData.answers.total} marks
-          if page.scoreFactor
-            p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
-    else if userData.hasPassword
-      button#submit(v-on:click="c.submit") Submit Answers
+    if userData.hasPassword
+      if userData.submitted
+        if userData.answersVisible
+          div(class='score ' + scoreClass(userData.answers.score || 0))
+            p.large Score: #{userData.answers.score || 0}%
+            p #{userData.answers.points}/#{userData.answers.total} marks
+            if page.scoreFactor
+              p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
+      else if userData.hasPassword
+        button#submit(v-on:click="c.submit") Submit Answers
 
   if userData.submitted && userData.isTeacher
     div
