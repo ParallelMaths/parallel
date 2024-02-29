@@ -22,11 +22,11 @@ Simplify `24/36`
 
 ## 2.
 ::: problem id=2_1 marks=1
-What is the missing angle C?
+What is the missing angle C, in degrees?
 
 ![](/resources/module-2-test-winter/2-triangle.png){image align="center"}
 
-<input type="text" solution="65"/>°  
+<input type="number" solution="65"/>  
 
 ---
 
@@ -71,7 +71,7 @@ Which of these is prime?
 * 90 and 92 are even  
 * 93 is a multiple of 3
 * 91 is 7 × 13
-* Therefore 89 is prime
+* Therefore the prime is 89
 :::
 
 
@@ -191,7 +191,7 @@ By the divisibility check for 3, the number is divisible by 3 precisely when the
 
 The sum of the digits is `n + 5 + n + 2 + n + 3 = 3n + 10`.  
 
-This is never divisible by 3 because `(3𝑛 + 10)/3 = 𝑛 + 10/3` (so there is always a remainder of 1).  
+This is never divisible by 3 because `(3n + 10)/3 = n + 10/3` (so there is always a remainder of 1).  
 
 So no value of `n` will work (this method is quicker than checking all the options in turn!)  
 :::
@@ -262,10 +262,10 @@ If `2(x + 4) – 4 = 3x – 9`, what is `x`?
 
 ---
 
-* Expand the brackets  ->  `2x + 8 – 4 = 3x – 9`  
-* Subtract `2x` from both sides  ->  `8 – 4 = x – 9`  
-* Add 9 to both sides  ->  `8 – 4 + 9 = x`  
-* Simplify the left-hand side  ->  `13 = x`  
+* Expand the brackets:  `2x + 8 – 4 = 3x – 9`  
+* Subtract `2x` from both sides:  `8 – 4 = x – 9`  
+* Add 9 to both sides:  `8 – 4 + 9 = x`  
+* Simplify the left-hand side:  `13 = x`  
 :::
 
 
@@ -284,18 +284,18 @@ I think of a number, double it, subtract 15, add my original number and end up w
 
 Model the problem as an equation. The unknown, `x`, is the original number. Follow the steps:  
 
-* Double  ->  `2x`  
-* Subtract 15  ->  `2x - 15`  
-* Add the original number  ->  `2x - 15 + x`  
-* End up with half the original number  ->  `2x - 15 + x = 1/2 x`  
+* Double:  `2x`  
+* Subtract 15:  `2x - 15`  
+* Add the original number:  `2x - 15 + x`  
+* End up with half the original number:  `2x - 15 + x = 1/2 x`  
 
 Now solve this equation:  
 
-* Collect like terms  ->  `3x - 15 = 1/2 x`  
-* Multiple both sides by 2  ->  `6x - 30 = x`  
-* Add 30 to both sides  ->  `6x = x + 30`  
-* Subtract x from both sides  ->  `5x = 30`  
-* Divide both sides by 5  ->  `x = 6`  
+* Collect like terms:  `3x - 15 = 1/2 x`  
+* Multiple both sides by 2:  `6x - 30 = x`  
+* Add 30 to both sides:  `6x = x + 30`  
+* Subtract x from both sides:  `5x = 30`  
+* Divide both sides by 5:  `x = 6`  
 :::
 
 
@@ -323,11 +323,11 @@ How many years was that before the film itself was produced in 1968?
 In the diagram, five rectangles of the same size are shown with each side labelled with a number.  
 
 ![](/resources/module-1b-test-winter/16-squares-choices.jpg){image align="center"}
-These rectangles are palced in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
+These rectangles are placed in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
 
 ![](/resources/module-1b-test-winter/16-squares-map.jpg){image align="center"}
 
-Which of the rectangles should be places in position I?   
+Which of the rectangles should be placed in position I?   
 
 * [ ] A
 * [ ] B
@@ -342,7 +342,7 @@ Look first at the numbers labelling the left- and right-hand sides of the rectan
 
 It can be seen that only rectangles _A_, _C_ and _E_ can be arranged in a row of three with their touching sides equal and so they must form the top row of the diagram.  
 
-The only common vlaue on the right- and left-hand sides of rectangles _B_ and _D_ is 3 and so rectangle _D_ will be placed in position IV.  
+The only common value on the right- and left-hand sides of rectangles _B_ and _D_ is 3 and so rectangle _D_ will be placed in position IV.  
 
 Therefore, the rectangle to be placed in position I needs to have 2 on its lower edge.  
 
@@ -443,10 +443,10 @@ Each piece can be rotated or reflected before being placed and the black dot is 
 How many of the 16 cells of the grid could contain the black dot?  
 
 * [ ] 4
-* [x] 7
+* [ ] 7
 * [ ] 8
 * [ ] 12
-* [ ] 16
+* [x] 16
 
 ---
 

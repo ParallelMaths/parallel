@@ -22,11 +22,11 @@ Simplify `24/36`
 
 ## 2.
 ::: problem id=2_1 marks=1
-What is the missing angle C?
+What is the missing angle C, in degrees?
 
 ![](/resources/module-1b-test-winter/2-triangle.png){image align="center"}
 
-<input type="text" solution="65"/>°  
+<input type="number" solution="65"/>  
 
 ---
 
@@ -71,7 +71,7 @@ Which of these is prime?
 * 90 and 92 are even  
 * 93 is a multiple of 3
 * 91 is 7 × 13
-* Therefore 89 is prime
+* Therefore the prime is 89
 :::
 
 
@@ -159,7 +159,7 @@ There are 12 flagpoles in a line along the beach, each one 5 metres apart.
 
 What is the distance, in metres, between the first and last flagpoles?
 
-<input type="text" solution="55"/>  
+<input type="number" solution="55"/>  
 
 ---
 
@@ -198,7 +198,7 @@ On Lisa’s fifth birthday, Bart was twice her age.
 
 How old was Bart on Lisa’s 21st birthday?
 
-<input type="text" solution="26"/>  
+<input type="number" solution="26"/>  
 
 ---
 
@@ -212,15 +212,15 @@ So when Lisa turns 21, Bart is still five years older, i.e. Bart is 26.
 ::: problem id=12_1 marks=1
 If `(3x – 4)/2 = 10`, what is `x`?
 
-<input type="text" solution="8"/>  
+<input type="number" solution="8"/>  
 
 ---
 
 Solve the equation step by step:  
 
-* Multiply both sides by 2  ->  `3x – 4 = 20`  
-* Add 4 to both sides  ->  `3x = 24`
-* Divide both sides by 3  ->  `x = 8`
+* Multiply both sides by 2:  `3x – 4 = 20`  
+* Add 4 to both sides:  `3x = 24`
+* Divide both sides by 3:  `x = 8`
 :::
 
 
@@ -232,7 +232,7 @@ I end up with the number I thought of.
 
 What number did I think of?
 
-<input type="text" solution="8"/>  
+<input type="number" solution="8"/>  
 
 ---
 
@@ -246,9 +246,9 @@ Since I end up with my original number, we get the equation:
 
 Now solve this equation:  
 
-* Multiply both sides by 3  ->  `2x – 10 = 3x`
-* Subtract 2x from both sides  ->  `-10 = -x`
-* Multiply both sides by -1  ->  `10 = x`
+* Multiply both sides by 3:  `2x – 10 = 3x`
+* Subtract 2x from both sides:  `-10 = -x`
+* Multiply both sides by -1:  `10 = x`
 :::
 
 
@@ -305,11 +305,11 @@ How many years was that before the film itself was produced in 1968?
 In the diagram, five rectangles of the same size are shown with each side labelled with a number.  
 
 ![](/resources/module-1b-test-winter/16-squares-choices.jpg){image align="center"}
-These rectangles are palced in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
+These rectangles are placed in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
 
 ![](/resources/module-1b-test-winter/16-squares-map.jpg){image align="center"}
 
-Which of the rectangles should be places in position I?  
+Which of the rectangles should be placed in position I?  
 
 * [ ] A
 * [ ] B
@@ -324,7 +324,7 @@ Look first at the numbers labelling the left- and right-hand sides of the rectan
 
 It can be seen that only rectangles _A_, _C_ and _E_ can be arranged in a row of three with their touching sides equal and so they must form the top row of the diagram.  
 
-The only common vlaue on the right- and left-hand sides of rectangles _B_ and _D_ is 3 and so rectangle _D_ will be placed in position IV.  
+The only common value on the right- and left-hand sides of rectangles _B_ and _D_ is 3 and so rectangle _D_ will be placed in position IV.  
 
 Therefore, the rectangle to be placed in position I needs to have 2 on its lower edge.  
 
@@ -425,19 +425,19 @@ Each piece can be rotated or reflected before being placed and the black dot is 
 How many of the 16 cells of the grid could contain the black dot?  
 
 * [ ] 4
-* [x] 7
+* [ ] 7
 * [ ] 8
 * [ ] 12
-* [ ] 16
+* [x] 16
 
 ---
 
 ![](/resources/module-1b-test-winter/20-grid-solution.jpg){image align="right"}
 The first figure shows a possible configuration of the four L shapes fitting into the square and illustrates four cells which could contain the black dot.  
 
-When this figure is roated in one direction through 90, 180 and 270, it is clear that all twelve cells on the outside of the square could contain the black dot.   
+When this figure is roated in one direction through 90°, 180° and 270°, it is clear that all twelve cells on the outside of the square could contain the black dot.   
 
-Finally, the second figure shows that each of the four cells in the cenre of the square could also contain the black dot.  
+Finally, the second figure shows that each of the four cells in the centre of the square could also contain the black dot.  
 
 So each of the 16 cells in the diagram could contain the black dot.  
 :::

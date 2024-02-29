@@ -22,11 +22,11 @@ Simplify `24/36`
 
 ## 2.
 ::: problem id=2_1 marks=1
-What is the missing angle C?
+What is the missing angle C, in degrees?
 
 ![](/resources/module-4-test-winter/2-triangle.png){image align="center"}
 
-<input type="text" solution="65"/>°  
+<input type="number" solution="65"/>  
 
 ---
 
@@ -71,7 +71,7 @@ Which of these is prime?
 * 90 and 92 are even  
 * 93 is a multiple of 3
 * 91 is 7 × 13
-* Therefore 89 is prime
+* Therefore the prime is 89
 :::
 
 
@@ -163,7 +163,7 @@ Together they spent £72.
 
 How much did Alan spend (in £)?
 
-£ <input type="text" solution="40"/>  
+£ <input type="number" solution="40"/>  
 
 ---
 
@@ -183,7 +183,7 @@ A square is inscribed in a circle which in turn is then inscribed in a larger sq
 
 If the area of the smaller square is 10, what is the area of the larger square?
 
-£ <input type="text" solution="40"/>  
+£ <input type="number" solution="40"/>  
 
 ---
 
@@ -412,6 +412,8 @@ What is the total area, in square metres, of the region of grass which Nibbles c
 ---
 
 ![](/resources/module-4-test-winter/18-pen-answer.png){image align="center"}
+
+So the area is that of a rectangle measuring 5m × 3m.  
 :::
 
 
