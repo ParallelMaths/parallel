@@ -89,9 +89,9 @@ The general formula for the internal angle of a regular n-gon is:
 
 180° × `(n − 2)/n`  
 
-For an octagon, we plug in `n – 10` to get an interior angle of:  
+For an octagon, we plug in `n = 8` to get an interior angle of:  
 
-180° × 6/8 = 180° × 3/4 = 135°
+180° × `6/8` = 180° × `3/4` = 135°
 :::
 
 
@@ -386,7 +386,7 @@ Therefore the perimeter of Sacha's garden is `3 + 5 + a + x + b + 4 + c + (4 + (
 
 ## 18.
 ::: problem id=18_1 marks=1
-The mean score of the sudents who took a mathematics test was 6.  
+The mean score of the students who took a mathematics test was 6.  
 
 Exactly 60% of the students passed the test.  
 

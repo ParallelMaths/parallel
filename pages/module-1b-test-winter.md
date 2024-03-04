@@ -238,7 +238,9 @@ What number did I think of?
 
 Let `x` be the number I thought of. Follow the steps to set up an equation:  
 
-`x`  ->  `2x`  ->  `2x – 10`  ->  `(2x – 10)/3`  
+* Double:  `2x`  
+* Subtract 10:  `2x - 10`  
+* Divide by 3:  `(2x – 10)/3`
 
 Since I end up with my original number, we get the equation:  
 
@@ -247,8 +249,7 @@ Since I end up with my original number, we get the equation:
 Now solve this equation:  
 
 * Multiply both sides by 3:  `2x – 10 = 3x`
-* Subtract 2x from both sides:  `-10 = -x`
-* Multiply both sides by -1:  `10 = x`
+* Subtract 2x from both sides:  `-10 = x`
 :::
 
 
@@ -283,7 +284,7 @@ Now divide both sides by `L: L = 24`.
 
 ## 15.
 ::: problem id=15_1 marks=1
-The theme music for the famous sience fiction film _2001: A Space Odyssey_ is taken from _Also Sprach Zarathustra_, which was written by Richard Strauss in 1896.  
+The theme music for the famous science fiction film _2001: A Space Odyssey_ is taken from _Also Sprach Zarathustra_, which was written by Richard Strauss in 1896.  
 
 How many years was that before the film itself was produced in 1968?  
 

@@ -301,7 +301,7 @@ Now solve this equation:
 
 ## 15.
 ::: problem id=15_1 marks=1
-The theme music for the famous sience fiction film _2001: A Space Odyssey_ is taken from _Also Sprach Zarathustra_, which was written by Richard Strauss in 1896.  
+The theme music for the famous science fiction film _2001: A Space Odyssey_ is taken from _Also Sprach Zarathustra_, which was written by Richard Strauss in 1896.  
 
 How many years was that before the film itself was produced in 1968?  
 

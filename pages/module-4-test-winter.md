@@ -157,23 +157,23 @@ The probability is given by
 ::: problem id=9_1 marks=1
 Alan, Brian and Clara went shopping.  
 
-Brian spent 30% of what Clara spent. Alan spent 50% more than Clara.  
+Brian spent 30% of what Clara spent. Alan spent 10% more than Clara.  
 
 Together they spent £72.  
 
 How much did Alan spend (in £)?
 
-£ <input type="number" solution="40"/>  
+£ <input type="number" solution="33"/>  
 
 ---
 
-Let £x be the amount Clara spent. Then Alan spent £1.5x and Brian spent £0.3x.  
+Let £x be the amount Clara spent. Then Alan spent £1.1x and Brian spent £0.3x.  
 
 The total spend is £72, therefore:  
 
-`72 = x + 1.5x + 0.3x = 1.8x`  
+`72 = x + 1.1x + 0.3x = 2.4x`  
 
-So `x = 72/1.8 = 40` and thus Alan spent £40.  
+So `x = 72/2.4 = 360/12 = 30` and thus Clara spent £30 and Alan spent £33.  
 :::
 
 
@@ -183,7 +183,7 @@ A square is inscribed in a circle which in turn is then inscribed in a larger sq
 
 If the area of the smaller square is 10, what is the area of the larger square?
 
-£ <input type="number" solution="40"/>  
+£ <input type="number" solution="20"/>  
 
 ---
 
@@ -372,7 +372,7 @@ So 50% of 18.3 plus 18.3% of 50
 ![](/resources/module-4-test-winter/17-paper.jpg){image align="right"}
 Four rectangular paper strips, each measuring 10 cm by 1 cm, are laid flat on a table.  
 
-Each strip is at right angles to two of th eother strips as shown.  
+Each strip is at right angles to two of the other strips as shown.  
 
 What is the area of the table covered by the strips?  
 
@@ -438,7 +438,7 @@ How many choices are there for the number to be placed in the central cell indic
 
 The sum of the two numbers in each shaded column is 15. Therefore, one of these columns contains the number 7 and 8, while the other column holds the numbers 6 and 9.  
 
-Note also that two of these numbers, one from each column, combine with the number in the central cell to sum to 15. This is possible only if the number in the central cell is 1 and the shaded numbers in the central row are 6 and 7.  
+Note also that two of these numbers, one from each column, combine with the number in the central cell to sum to 15. This is possible only if the number in the central cell is 1 and the shaded numbers in the central row are 6 and 8, or if the number in the central cell is 2 and the shaded numbers in the central row are 6 and 7.  
 
 The diagrams below show how the grid may be completed correctly, with either 1 or 2 in the central cell, though these are not the only ways of doing so.  
 
