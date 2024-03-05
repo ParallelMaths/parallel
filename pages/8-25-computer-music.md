@@ -108,23 +108,6 @@ If you remember last week’s Parallelogram... the North Pole is an odd place, a
 :::
 
 
-## 6. Eight queens puzzle
-
-::: problem id=6_1 marks=0
-Can you place eight queens on a chess board, so that no queen can capture any other queen? If you don’t play chess, then all you need to know is that a queen can move forwards, backwards and diagonally. Hence, the queens need to be placed so that no queen is in the line of sight (straight or diagonally of any other queen). There are no marks for this question – I have included it just to stretch your brain.  
-
-You can use the following website to try different possibilities. Good luck.
-[http://www.brainmetrix.com/8-queens/](http://www.brainmetrix.com/8-queens/){target="_blank"}
-
-By the way, there are 92 distinct solutions, and we’ll have one of them in the answer sheet.
-
----
-
-![](/resources/8-25-computer-music/6-eight-queens.png){image align="center"}
-
-:::
-
-
 
 Before you hit the SUBMIT button, here are some quick reminders:
 

@@ -1,12 +1,11 @@
-# Euclid Module 8 Winter Test
+# Euclid Module 8 Winter Test 2024
 
-<div class="dictionary">
+* You have 30 minutes for this test. 
+* The tutor will let you know how long is left at regular intervals.
+* Answer every question - there are no negative marks for wrong answers.
+* Use all the time available and DO NOT SUBMIT EARLY.
+* After you submit, stay in Zoom and wait for the tutor to call your name.
 
-This is a special euclid test!
-
-</div>
-
-Lorem ipsum
 
 ## 1.	
 ::: problem id=1_1 marks=1
@@ -295,7 +294,7 @@ What is the value of the following sum?
 
 ![](/resources/module-8-test-winter/14-sum.png){image align="center"}
 
-Hint: `(sqrt(𝑎) + sqrt(𝑏))(sqrt(𝑎) − sqrt(𝑏)) ≡ 𝑎 − 𝑏`.  
+Hint: `(sqrt(a) + sqrt(b))(sqrt(a) − sqrt(b)) ≡ a − b`.  
 
 * [ ] `1/10`
 * [ ] `1/(10 - sqrt(2))`
@@ -477,3 +476,6 @@ Let `ab` be the 2-digit number with digits `a` and `b`, then the 6-digit number 
 But it is only divisible by 2, 5, 9 or 11, if `ab` is. 
 :::
 
+After you hit submit - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
+
+If you are in Year 7, you will also be sitting a short mental maths test.
