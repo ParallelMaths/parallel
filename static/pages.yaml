@@ -1,67 +1,67 @@
 year6:
   - url: 6-42-divide-by-zero
     title: Why you can't divide by zero
-    available: 2024-06-21T13:00:00
+    available: 2024-06-20T13:00:00
     deadline: 2024-06-24T13:00:00
   - url: 6-41-ive-got-the-power
     title: I've Got The Power!
-    available: 2024-06-14T13:00:00
+    available: 2024-06-13T13:00:00
     deadline: 2024-06-17T13:00:00
   - url: 6-40-line-multiplication
     title: Line multiplication
-    available: 2024-06-07T13:00:00
+    available: 2024-06-06T13:00:00
     deadline: 2024-06-10T13:00:00
   - url: 6-39-multifactorials
     title: Multifactorials
-    available: 2024-05-31T13:00:00
+    available: 2024-05-30T13:00:00
     deadline: 2024-06-03T13:00:00
   - url: 6-38-hilbert-hotel
     title: Hilbert Hotel
-    available: 2024-05-24T13:00:00
+    available: 2024-05-23T13:00:00
     deadline: 2024-05-27T13:00:00
   - url: 6-37-to-infinity
     title: To infinity and beyond
-    available: 2024-05-17T13:00:00
+    available: 2024-05-16T13:00:00
     deadline: 2024-05-20T13:00:00
   - url: 6-36-poison-frogs
     title: Life saving probabilities
-    available: 2024-05-10T13:00:00
+    available: 2024-05-09T13:00:00
     deadline: 2024-05-13T13:00:00
   - url: 6-35-piece-pizza
     title: A piece of pizza
-    available: 2024-05-03T13:00:00
+    available: 2024-05-02T13:00:00
     deadline: 2024-05-06T13:00:00
   - url: 6-34-self-descriptive
     title: Self-descriptive numbers
-    available: 2024-04-26T13:00:00
+    available: 2024-04-25T13:00:00
     deadline: 2024-04-29T13:00:00
   - url: 6-33-weird-shapes
     title: Weird shapes
-    available: 2024-04-19T13:00:00
+    available: 2024-04-18T13:00:00
     deadline: 2024-04-22T13:00:00
   - url: 6-32-tiles-tribulations
     title: Tiles and tribulations
-    available: 2024-04-12T13:00:00
+    available: 2024-04-11T13:00:00
     deadline: 2024-04-15T13:00:00
   - url: 6-31-quick-trick
     title: A quick trick
-    available: 2024-04-05T13:00:00
+    available: 2024-04-04T13:00:00
     deadline: 2024-04-08T13:00:00
   - url: 6-30-parker-square
     title: Mostly magic squares
-    available: 2024-03-29T13:00:00
+    available: 2024-03-28T13:00:00
     deadline: 2024-04-01T13:00:00
   - url: 6-29-making-the-cut
     title: Making the cut
-    available: 2024-03-22T13:00:00
+    available: 2024-03-21T13:00:00
     deadline: 2024-03-25T13:00:00
   - url: 6-28-number-knights
     title: Number knights
-    available: 2024-03-15T13:00:00
+    available: 2024-03-14T13:00:00
     deadline: 2024-03-18T13:00:00
   - url: 6-27-prime-time
     title: Prime time Level 1 
-    available: 2024-03-08T13:00:00
+    available: 2024-03-07T13:00:00
     deadline: 2024-03-11T13:00:00
   - url: 6-26-golden-egg
     title: The golden egg
@@ -171,91 +171,91 @@ year6:
 year7:
   - url: 7-48-sporting-loopholes
     title: Sporting Loopholes
-    available: 2024-08-02T13:00:00
+    available: 2024-08-01T13:00:00
     deadline: 2024-08-05T13:00:00
   - url: 7-47-fire-water
     title: Fire and water
-    available: 2024-07-26T13:00:00
+    available: 2024-07-25T13:00:00
     deadline: 2024-07-29T13:00:00
   - url: 7-46-apple-pie
     title: The apple pie bake-off
-    available: 2024-07-19T13:00:00
+    available: 2024-07-18T13:00:00
     deadline: 2024-07-22T13:00:00
   - url: 7-45-trains-clocks
     title: Trains and clocks
-    available: 2024-07-12T13:00:00
+    available: 2024-07-11T13:00:00
     deadline: 2024-07-15T13:00:00
   - url: 7-44-bananas-monkeys
     title: Bananas and monkeys
-    available: 2024-07-05T13:00:00
+    available: 2024-07-04T13:00:00
     deadline: 2024-07-08T13:00:00
   - url: 7-43-little-hexagon
     title: The little hexagon that could
-    available: 2024-06-28T13:00:00
+    available: 2024-06-27T13:00:00
     deadline: 2024-07-01T13:00:00
   - url: 7-42-pet-puzzle
     title: Pet Puzzle
-    available: 2024-06-21T13:00:00
+    available: 2024-06-20T13:00:00
     deadline: 2024-06-24T13:00:00
   - url: 7-41-aluminium-can-engineering
     title: Aluminium Can Engineering
-    available: 2024-06-14T13:00:00
+    available: 2024-06-13T13:00:00
     deadline: 2024-06-17T13:00:00
   - url: 7-40-number-sense
     title: Number Sense
-    available: 2024-06-07T13:00:00
+    available: 2024-06-06T13:00:00
     deadline: 2024-06-10T13:00:00
   - url: 7-39-top-of-the-league
     title: Top of the League
-    available: 2024-05-31T13:00:00
+    available: 2024-05-30T13:00:00
     deadline: 2024-06-03T13:00:00
   - url: 7-38-josephs-machines
     title: Joseph's Machines
-    available: 2024-05-24T13:00:00
+    available: 2024-05-23T13:00:00
     deadline: 2024-05-27T13:00:00
   - url: 7-37-mathematical-timeline
     title: Mathematical Timeline
-    available: 2024-05-17T13:00:00
+    available: 2024-05-16T13:00:00
     deadline: 2024-05-20T13:00:00
   - url: 7-36-blackboard-equation
     title: Blackboard Equation
-    available: 2024-05-10T13:00:00
+    available: 2024-05-09T13:00:00
     deadline: 2024-05-13T13:00:00
   - url: 7-35-hidden-figures
     title: Hidden Figures
-    available: 2024-05-03T13:00:00
+    available: 2024-05-02T13:00:00
     deadline: 2024-05-06T13:00:00
   - url: 7-34-good-will-hunting
     title: Good Will Hunting
-    available: 2024-04-26T13:00:00
+    available: 2024-04-25T13:00:00
     deadline: 2024-04-29T13:00:00
   - url: 7-33-a-matter-factorial
     title: A Matter Of Factorial!
-    available: 2024-04-19T13:00:00
+    available: 2024-04-18T13:00:00
     deadline: 2024-04-22T13:00:00
   - url: 7-32-chocolate-algebra
     title: Chocolate algebra
-    available: 2024-04-12T13:00:00
+    available: 2024-04-11T13:00:00
     deadline: 2024-04-15T13:00:00
   - url: 7-31-testing-tankards
     title: Testing tankards
-    available: 2024-04-05T13:00:00
+    available: 2024-04-04T13:00:00
     deadline: 2024-04-08T13:00:00
   - url: 7-30-manipulating-cubes
     title: Manipulating cubes
-    available: 2024-03-29T13:00:00
+    available: 2024-03-28T13:00:00
     deadline: 2024-04-01T13:00:00
   - url: 7-29-bedtime-stories
     title: Bedtime stories
-    available: 2024-03-22T13:00:00
+    available: 2024-03-21T13:00:00
     deadline: 2024-03-25T13:00:00
   - url: 7-28-eleven-eleven
     title: Eleven eleven
-    available: 2024-03-15T13:00:00
+    available: 2024-03-14T13:00:00
     deadline: 2024-03-18T13:00:00
   - url: 7-27-secret-happiness
     title: The Secret of Happiness
-    available: 2024-03-08T13:00:00
+    available: 2024-03-07T13:00:00
     deadline: 2024-03-11T13:00:00
   - url: 7-26-maths-jokes
     title: Maths Jokes
@@ -365,91 +365,91 @@ year7:
 year8:
   - url: 8-48-plane-physics
     title: Plane physics
-    available: 2024-08-02T13:00:00
+    available: 2024-08-01T13:00:00
     deadline: 2024-08-05T13:00:00
   - url: 8-47-pat-village-visit
     title: Pat's village visit
-    available: 2024-07-26T13:00:00
+    available: 2024-07-25T13:00:00
     deadline: 2024-07-29T13:00:00
   - url: 8-46-chess-conundrum
     title: Chess conundrum
-    available: 2024-07-19T13:00:00
+    available: 2024-07-18T13:00:00
     deadline: 2024-07-22T13:00:00
   - url: 8-45-blueberry-planet
     title: Bluberry planet
-    available: 2024-07-12T13:00:00
+    available: 2024-07-11T13:00:00
     deadline: 2024-07-15T13:00:00
   - url: 8-44-spuds-sums
     title: Spuds Sums
-    available: 2024-07-05T13:00:00
+    available: 2024-07-04T13:00:00
     deadline: 2024-07-08T13:00:00
   - url: 8-43-nice-dice
     title: Nice dice
-    available: 2024-06-28T13:00:00
+    available: 2024-06-27T13:00:00
     deadline: 2024-07-01T13:00:00
   - url: 8-42-miracle-chocolate
     title: Miracle Chocolate
-    available: 2024-06-21T13:00:00
+    available: 2024-06-20T13:00:00
     deadline: 2024-06-24T13:00:00
   - url: 8-41-more-rules-critical-thinking
     title: More Rules for Critical Thinking
-    available: 2024-06-14T13:00:00
+    available: 2024-06-13T13:00:00
     deadline: 2024-06-17T13:00:00
   - url: 8-40-rules-critical-thinking
     title: Rules for Critical Thinking
-    available: 2024-06-07T13:00:00
+    available: 2024-06-06T13:00:00
     deadline: 2024-06-10T13:00:00
   - url: 8-39-floppy-pizza
     title: Floppy Pizza
-    available: 2024-05-31T13:00:00
+    available: 2024-05-30T13:00:00
     deadline: 2024-06-03T13:00:00
   - url: 8-38-amazing-grace
     title: Amazing Grace
-    available: 2024-05-24T13:00:00
+    available: 2024-05-23T13:00:00
     deadline: 2024-05-27T13:00:00
   - url: 8-37-mathematical-timeline
     title: Mathematical Timeline
-    available: 2024-05-17T13:00:00
+    available: 2024-05-16T13:00:00
     deadline: 2024-05-20T13:00:00
   - url: 8-36-seven-bridges-konigsberg
     title: Seven Bridges of Konigsberg
-    available: 2024-05-10T13:00:00
+    available: 2024-05-09T13:00:00
     deadline: 2024-05-13T13:00:00
   - url: 8-35-ada-lovelace
     title: Ada Lovelace
-    available: 2024-05-03T13:00:00
+    available: 2024-05-02T13:00:00
     deadline: 2024-05-06T13:00:00
   - url: 8-34-snake-mathematics
     title: Snake Mathematics
-    available: 2024-04-26T13:00:00
+    available: 2024-04-25T13:00:00
     deadline: 2024-04-29T13:00:00
   - url: 8-33-north-pole
     title: The North Pole Riddle
-    available: 2024-04-19T13:00:00
+    available: 2024-04-18T13:00:00
     deadline: 2024-04-22T13:00:00
   - url: 8-32-olympic-mascots
     title: Olympic mascots
-    available: 2024-04-12T13:00:00
+    available: 2024-04-11T13:00:00
     deadline: 2024-04-15T13:00:00
   - url: 8-31-art-gallery
     title: In the art gallery
-    available: 2024-04-05T13:00:00
+    available: 2024-04-04T13:00:00
     deadline: 2024-04-08T13:00:00
   - url: 8-30-wombat-geometry
     title: Wombat Geometry
-    available: 2024-03-29T13:00:00
+    available: 2024-03-28T13:00:00
     deadline: 2024-04-01T13:00:00
   - url: 8-29-paper-ink
     title: Paper and ink
-    available: 2024-03-22T13:00:00
+    available: 2024-03-21T13:00:00
     deadline: 2024-03-25T13:00:00
   - url: 8-28-laurels-hardy
     title: Laurels and Hardy
-    available: 2024-03-15T13:00:00
+    available: 2024-03-14T13:00:00
     deadline: 2024-03-18T13:00:00
   - url: 8-27-colour-code-challenge
     title: Colour Code Challenge
-    available: 2024-03-08T13:00:00
+    available: 2024-03-07T13:00:00
     deadline: 2024-03-11T13:00:00
   - url: 8-26-rattlebacks
     title: Rattlebacks
@@ -559,91 +559,91 @@ year8:
 year9:
   - url: 9-48-perplexing-paperclips
     title: Perplexing paperclips
-    available: 2024-08-02T13:00:00
+    available: 2024-08-01T13:00:00
     deadline: 2024-08-05T13:00:00
   - url: 9-47-inflating-balloon
     title: Inflating a balloon
-    available: 2024-07-26T13:00:00
+    available: 2024-07-25T13:00:00
     deadline: 2024-07-29T13:00:00
   - url: 9-46-freaky-dots
     title: Freaky dot patterns
-    available: 2024-07-19T13:00:00
+    available: 2024-07-18T13:00:00
     deadline: 2024-07-22T13:00:00
   - url: 9-45-catching-kendama
     title: Catching Kendama
-    available: 2024-07-12T13:00:00
+    available: 2024-07-11T13:00:00
     deadline: 2024-07-15T13:00:00
   - url: 9-44-money-catching
     title: Money catching
-    available: 2024-07-05T13:00:00
+    available: 2024-07-04T13:00:00
     deadline: 2024-07-08T13:00:00
   - url: 9-43-wright-stuff
     title: The Wright Stuff
-    available: 2024-06-28T13:00:00
+    available: 2024-06-27T13:00:00
     deadline: 2024-07-01T13:00:00
   - url: 9-42-cheryls-birthday
     title: Cheryl's birthday
-    available: 2024-06-21T13:00:00
+    available: 2024-06-20T13:00:00
     deadline: 2024-06-24T13:00:00
   - url: 9-41-paradoxical-probability
     title: Paradoxical probability
-    available: 2024-06-14T13:00:00
+    available: 2024-06-13T13:00:00
     deadline: 2024-06-17T13:00:00
   - url: 9-40-pigeonhole-problem
     title: The pigeonhole principle
-    available: 2024-06-07T13:00:00
+    available: 2024-06-06T13:00:00
     deadline: 2024-06-10T13:00:00
   - url: 9-39-richard-feynman-superhero
     title: Richard Feynman - Superhero
-    available: 2024-05-31T13:00:00
+    available: 2024-05-30T13:00:00
     deadline: 2024-06-03T13:00:00
   - url: 9-38-number-riddles
     title: Number Riddles
-    available: 2024-05-24T13:00:00
+    available: 2024-05-23T13:00:00
     deadline: 2024-05-27T13:00:00
   - url: 9-37-ham-sandwich-problem
     title: The Ham Sandwich Problem
-    available: 2024-05-17T13:00:00
+    available: 2024-05-16T13:00:00
     deadline: 2024-05-20T13:00:00
   - url: 9-36-tangrams
     title: Tangrams
-    available: 2024-05-10T13:00:00
+    available: 2024-05-09T13:00:00
     deadline: 2024-05-13T13:00:00
   - url: 9-35-mathematical-plaques
     title: Mathematical Plaques
-    available: 2024-05-03T13:00:00
+    available: 2024-05-02T13:00:00
     deadline: 2024-05-06T13:00:00
   - url: 9-34-mathematical-timeline
     title: Mathematical Timeline
-    available: 2024-04-26T13:00:00
+    available: 2024-04-25T13:00:00
     deadline: 2024-04-29T13:00:00
   - url: 9-33-sphere-packing
     title: Sphere Packing
-    available: 2024-04-19T13:00:00
+    available: 2024-04-18T13:00:00
     deadline: 2024-04-22T13:00:00
   - url: 9-32-circle-mystery
     title: Circle Mystery
-    available: 2024-04-12T13:00:00
+    available: 2024-04-11T13:00:00
     deadline: 2024-04-15T13:00:00
   - url: 9-31-qi-mathematics
     title: QI Mathematics
-    available: 2024-04-05T13:00:00
+    available: 2024-04-04T13:00:00
     deadline: 2024-04-08T13:00:00
   - url: 9-30-teachers-pets
     title: Teacher's Pets
-    available: 2024-03-29T13:00:00
+    available: 2024-03-28T13:00:00
     deadline: 2024-04-01T13:00:00
   - url: 9-29-four-brothers
     title: Four brothers
-    available: 2024-03-22T13:00:00
+    available: 2024-03-21T13:00:00
     deadline: 2024-03-25T13:00:00
   - url: 9-28-venn-diagrams
     title: Venn diagrams
-    available: 2024-03-15T13:00:00
+    available: 2024-03-14T13:00:00
     deadline: 2024-03-18T13:00:00
   - url: 9-27-more-water-jugs
     title: More Water Jugs
-    available: 2024-03-08T13:00:00
+    available: 2024-03-07T13:00:00
     deadline: 2024-03-11T13:00:00
   - url: 9-26-bird-brain
     title: Bird Brain
@@ -753,91 +753,91 @@ year9:
 year10:
   - url: 10-48-harald-bluetooth
     title: Harald Bluetooth
-    available: 2024-08-02T13:00:00
+    available: 2024-08-01T13:00:00
     deadline: 2024-08-05T13:00:00
   - url: 10-47-oxford-bell
     title: The Oxford Bell
-    available: 2024-07-26T13:00:00
+    available: 2024-07-25T13:00:00
     deadline: 2024-07-29T13:00:00
   - url: 10-46-bananas
     title: Bananas!
-    available: 2024-07-19T13:00:00
+    available: 2024-07-18T13:00:00
     deadline: 2024-07-22T13:00:00
   - url: 10-45-efficient-detective
     title: The efficient detective
-    available: 2024-07-12T13:00:00
+    available: 2024-07-11T13:00:00
     deadline: 2024-07-15T13:00:00
   - url: 10-44-ice-cream
     title: Ice cream pie charts
-    available: 2024-07-05T13:00:00
+    available: 2024-07-04T13:00:00
     deadline: 2024-07-08T13:00:00
   - url: 10-43-telescopes
     title: Telescopes
-    available: 2024-06-28T13:00:00
+    available: 2024-06-27T13:00:00
     deadline: 2024-07-01T13:00:00
   - url: 10-42-zero-knowledge-proofs
     title: Zero-knowledge proofs
-    available: 2024-06-21T13:00:00
+    available: 2024-06-20T13:00:00
     deadline: 2024-06-24T13:00:00
   - url: 10-41-concrete-transfer
     title: A concrete transfer
-    available: 2024-06-14T13:00:00
+    available: 2024-06-13T13:00:00
     deadline: 2024-06-17T13:00:00
   - url: 10-40-classic-countdown
     title: Classic Countdown
-    available: 2024-06-07T13:00:00
+    available: 2024-06-06T13:00:00
     deadline: 2024-06-10T13:00:00
   - url: 10-39-a-trapped-knight
     title: A Trapped Knight
-    available: 2024-05-31T13:00:00
+    available: 2024-05-30T13:00:00
     deadline: 2024-06-03T13:00:00
   - url: 10-38-revolutionary-riddles
     title: Revolutionary Riddles
-    available: 2024-05-24T13:00:00
+    available: 2024-05-23T13:00:00
     deadline: 2024-05-27T13:00:00
   - url: 10-37-juice-water
     title: Juice and Water
-    available: 2024-05-17T13:00:00
+    available: 2024-05-16T13:00:00
     deadline: 2024-05-20T13:00:00
   - url: 10-36-lewis-carroll
     title: Lewis Carroll's Pillow Problem
-    available: 2024-05-10T13:00:00
+    available: 2024-05-09T13:00:00
     deadline: 2024-05-13T13:00:00
   - url: 10-35-pi
     title: Pi
-    available: 2024-05-03T13:00:00
+    available: 2024-05-02T13:00:00
     deadline: 2024-05-06T13:00:00
   - url: 10-34-a-trapped-knight
     title: A Trapped Knight
-    available: 2024-04-26T13:00:00
+    available: 2024-04-25T13:00:00
     deadline: 2024-04-29T13:00:00
   - url: 10-33-slinky-physics
     title: Slinky Physics
-    available: 2024-04-19T13:00:00
+    available: 2024-04-18T13:00:00
     deadline: 2024-04-22T13:00:00
   - url: 10-32-mcnuggets
     title: McNuggets
-    available: 2024-04-12T13:00:00
+    available: 2024-04-11T13:00:00
     deadline: 2024-04-15T13:00:00
   - url: 10-31-alan-turing
     title: Alan Turing and the £50 Note
-    available: 2024-04-05T13:00:00
+    available: 2024-04-04T13:00:00
     deadline: 2024-04-08T13:00:00
   - url: 10-30-ignobel-prize
     title: Ignobel Prize
-    available: 2024-03-29T13:00:00
+    available: 2024-03-28T13:00:00
     deadline: 2024-04-01T13:00:00
   - url: 10-29-asteroid-impact
     title: Asteroid Impact
-    available: 2024-03-22T13:00:00
+    available: 2024-03-21T13:00:00
     deadline: 2024-03-25T13:00:00
   - url: 10-28-magic-hexagons
     title: Magic Hexagons
-    available: 2024-03-15T13:00:00
+    available: 2024-03-14T13:00:00
     deadline: 2024-03-18T13:00:00
   - url: 10-27-chess-in-church
     title: Chess In Church
-    available: 2024-03-08T13:00:00
+    available: 2024-03-07T13:00:00
     deadline: 2024-03-11T13:00:00
   - url: 10-26-evolution-rap
     title: Evolution Rap
