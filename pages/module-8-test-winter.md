@@ -179,7 +179,7 @@ Call the continued fraction `x`.
 
 Then `x = 2 + 3/x`.  
 
-So x`^ – 2x – 3 = 0`.  
+So `x^2 – 2x – 3 = 0`.  
 
 Therefore: `(x – 3)(x + 1)` = 0.  
 
@@ -268,12 +268,11 @@ Therefore there are 7C2 = `(7 × 6)/2 = 21` possible partitions.
 
 ## 13.
 ::: problem id=13_1 marks=1
+![](/resources/module-8-test-winter/13-pentagon.png){image align="right"}
 Find the angle shown in this regular pentagon.  
-
-![](/resources/module-8-test-winter/13-pentagon.png){image align="center"}
  
-* [x] 100°
-* [ ] 108°
+* [ ] 100°
+* [x] 108°
 * [ ] 120°
 * [ ] 128°
 * [ ] 135°
@@ -296,11 +295,11 @@ What is the value of the following sum?
 
 ![](/resources/module-8-test-winter/14-sum.png){image align="center"}
 
-Hint: `(√𝑎 + √𝑏)(√𝑎 − √𝑏) ≡ 𝑎 − 𝑏`.  
+Hint: `(sqrt(𝑎) + sqrt(𝑏))(sqrt(𝑎) − sqrt(𝑏)) ≡ 𝑎 − 𝑏`.  
 
 * [ ] `1/10`
-* [ ] `1/(10 - √2)`
-* [ ] `√99`
+* [ ] `1/(10 - sqrt(2))`
+* [ ] `sqrt(99)`
 * [x] `9`
 * [ ] `10`
 {.col-5}
@@ -309,22 +308,20 @@ Hint: `(√𝑎 + √𝑏)(√𝑎 − √𝑏) ≡ 𝑎 − 𝑏`.
 
 Multiply each term on the top and bottom by its conjugate:  
 
-`1/(√2 + √3) = (√3 - √2)/((√3 + √ 2)(√3 - √2)) = (√3 - √2)/(3 - 2) = √3 - √2`.  
+`1/(sqrt(2) + sqrt(3))` = `(sqrt(3) - sqrt(2))/((sqrt(3) + sqrt (2))(sqrt(3) - sqrt(2)))` = `(sqrt(3) - sqrt(2))/(3 - 2)` = `sqrt(3) - sqrt(2)`.  
 
 All the terms have 1 as the denominator, so the series simplifies to:  
 
-`√2 − 1 + √3 − √2 + √4 − √3 + ... + √99 − √98 + √100 − √99`.  
+`sqrt(2) − 1 + sqrt(3) − sqrt(2) + sqrt(4) − sqrt(3)` + ... + `sqrt(99) − sqrt(98) + sqrt(100) − sqrt(99)`.  
 
-All the middle terms cancel out, so the whole series is equal to `√100 − 1 = 9`.  
+All the middle terms cancel out, so the whole series is equal to `sqrt(100) − 1 = 9`.  
 :::
 
 
 ## 15.
 ::: problem id=15_1 marks=1
 ![](/resources/module-8-test-winter/15-shape.jpg){image align="right"}
-The diagram shows a square with sides of length `a`.  
-
-The shaded part of the square is bounded by a semicircle and two quarter-circle arcs.  
+The diagram shows a square with sides of length `a`. The shaded part of the square is bounded by a semicircle and two quarter-circle arcs.  
 
 What is the shaded area?  
 
@@ -440,7 +437,8 @@ Which number does she need to write in the bottom right corner?
 * [ ] 1
 * [ ] 4
 * [ ] 5
-* [ ] Impossible to determine  
+* [ ] Impossible to determine 
+{.col-5} 
 
 ---
 
@@ -453,7 +451,7 @@ The top right 2 × 2 square already contains `a` and `b` and 1, so the middle ri
 
 The bottom left 2 × 2 square contains `b + c + 2`, so the bottom middle cell is `a + 1`.  
 
-The bottom right 2 × 2 square already contains `a + b + c + 3` so the missing value is zero.  
+The bottom right 2 × 2 square already contains `a + b + c + 3`, so the missing value is zero.  
 
 There are many ways to complete the grid; one way is shown here.  
 :::
