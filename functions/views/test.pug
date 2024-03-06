@@ -13,10 +13,11 @@ block content
       div
         .score.wide
           p.large Submitted!
-          if userData.answersVisible
-            p Lorem ipsum answers visible
-          else
-            p Lorem ipsum answers not visible
+          if !userData.answersVisible
+            br
+            p Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.
+            br
+            p If you are in Year 7, you will also be sitting a short mental maths test.
         if userData.answersVisible
           div(class='score ' + scoreClass(userData.answers.score || 0))
             p.large Score: #{userData.answers.score || 0}%
@@ -29,13 +30,13 @@ block content
     else
       div
           form(v-on:submit="c.testPasswordSubmit")
-            p Lorem Ipsum Please enter password
+            p Enter the password to access this test. This will be provided by the tutor on Zoom.
 
             if userData.passwordIncorrect
               p.error Incorrect password, please try again.
 
             label
-              | Test Password
+              | Password
               input(type="text" v-model="c.testPassword" required)
 
             button(type="submit") Submit
