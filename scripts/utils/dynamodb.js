@@ -29,6 +29,14 @@ const getPaginatedTableItemsInner = async (tableName, lastEvaluatedKey) => {
   }
 };
 
+const updateItem = async (params) => {
+  try {
+    return ddbDocumentClient.update(params).promise();
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 const getPaginatedTableItems = async (tableName) => {
     const items = await getPaginatedTableItemsInner(tableName);
     console.log('Found', items.length, 'items in dynamodb database table');
@@ -52,5 +60,7 @@ const getCirclePointsForUsers = async () => {
 }
 
 module.exports = {
-    getCirclePointsForUsers
+    updateItem,
+    getCirclePointsForUsers,
+    getPaginatedTableItemsInner
 }
