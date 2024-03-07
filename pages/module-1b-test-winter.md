@@ -231,7 +231,7 @@ I end up with the number I thought of.
 
 What number did I think of?
 
-<input type="number" solution="8"/>  
+<input type="number" solution="-10"/>  
 
 ---
 

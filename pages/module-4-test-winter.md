@@ -182,7 +182,7 @@ A square is inscribed in a circle which in turn is then inscribed in a larger sq
 
 If the area of the smaller square is 10, what is the area of the larger square?
 
-£ <input type="number" solution="20"/>  
+<input type="number" solution="20"/>  
 
 ---
 

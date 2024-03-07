@@ -436,7 +436,7 @@ Similarly, the total of the sums of the three columns of the table is also equal
 
 Hence James' six answers add to 45 + 45 = 90.  
 
-The sum of the five answers given is 12 + 13 + 15 + 16 + 17 = 73 and hence his sixth answer is 90 - 37 = 17.  
+The sum of the five answers given is 12 + 13 + 15 + 16 + 17 = 73 and hence his sixth answer is 90 - 73 = 17.  
 
 _It is left as an exercise to find a possible arrangement of the digits 1 to 9 that actually gives these six sums._ 
 :::
