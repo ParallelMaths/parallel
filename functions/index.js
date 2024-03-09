@@ -239,7 +239,8 @@ app.get('/api/test-data', async (req, res) => {
       return {
         ...data.answers[page],
         uid: d.id,
-        name: `${data.first} ${data.last}`
+        first: data.first,
+        last: data.last,
       };
     });
 
