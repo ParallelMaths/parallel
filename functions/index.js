@@ -234,10 +234,14 @@ app.get('/api/test-data', async (req, res) => {
 
   for (let page of Object.keys(TEST_MAP)) {
     const query = await userDB.where(`answers.${page}.firstAnswer`, '>', since).get();
-    const newVal = query.docs.map(d => ({
-      ...d.data().answers[page],
-      uid: d.id,
-    }));
+    const newVal = query.docs.map(d => {
+      const data = d.data();
+      return {
+        ...data.answers[page],
+        uid: d.id,
+        name: `${data.first} ${data.last}`
+      };
+    });
 
     data[page] = [...(data[page] || []), ...newVal];
   }
