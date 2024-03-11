@@ -259,7 +259,7 @@ A square of side length L has an area A that is six times its perimeter P.
 What is the length of the square’s side?
 
 * [ ] 8
-* [ ] 24
+* [ ] 12
 * [ ] 16
 * [x] 24
 * [ ] 36
