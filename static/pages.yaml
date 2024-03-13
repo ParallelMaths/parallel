@@ -1005,44 +1005,50 @@ year11:
 
 test:
   - url: euclid-banana-secret-12
-    title: Euclid Test Example Title (password is hearts)
+    title: Euclid Test Example Title (password is socket)
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: hearts
+    password: socket
   - url: module-1b-test-winter
     title: Euclid Module 1b Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-18T13:00:00
-    password: hearts
+    password: socket
   - url: module-2-test-winter
     title: Euclid Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-18T13:00:00
-    password: hearts
+    password: socket
   - url: module-4-test-winter
     title: Euclid Module 4 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: hearts
+    password: socket
   - url: module-6-test-winter
     title: Euclid Module 6 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: hearts
+    password: socket
   - url: module-8-test-winter
     title: Euclid Module 8 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: hearts
+    password: socket
   - url: webinar-module-2-test-winter
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: hearts
+    password: socket
+  - url: mental-maths-primary
+    title: Mental maths quiz (Primary)
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2024-04-01T13:00:00
+    deadline: 2024-05-01T13:00:00
+    password: socket
