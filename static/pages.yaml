@@ -1042,6 +1042,7 @@ test:
     password: cushion
   - url: mental-maths-primary
     title: Mental maths quiz (Primary)
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
