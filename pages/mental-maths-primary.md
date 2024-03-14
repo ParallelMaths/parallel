@@ -119,7 +119,7 @@ Highest common factor of 84 and 36
 
 ## 15.
 ::: problem id=15_1 marks=1
-3 to the power of 4
+`3^4`
 
 <input type="number" solution="81"/>  
 :::
@@ -191,7 +191,7 @@ Number of minutes in 3.5 hours
 
 ## 24.
 ::: problem id=24_1 marks=1
-Mean of {2,4,6,8,15}
+Mean of [2,4,6,8,15]
 
 <input type="number" solution="7"/>  
 :::
@@ -203,7 +203,3 @@ Mean of {2,4,6,8,15}
 
 <input type="number" solution="1/8"/>  
 :::
-
-After you hit submit - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
-
-If you are in Year 7, you will also be sitting a short mental maths test.
