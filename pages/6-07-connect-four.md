@@ -47,7 +47,7 @@ For each of the seven starting positions player one could chose there are anothe
 :::
 
 ::: problem id=1_3 marks=2
-__1.3.__ The standard Connect Four grid has 7 rows and 6 columns.  
+__1.3.__ The standard Connect Four grid has 6 rows and 7 columns.  
 
 What is the longest possible diagonal connection which could be made?
 
@@ -65,7 +65,7 @@ Have a go at this domino based puzzle from the 2012 UKMT Junior Challenge.
 ![](/resources/6-07-connect-four/1-dominoes-list.png){image align="center"}
 
 ![](/resources/6-07-connect-four/1-dominoes-example.png){image align="right"}
-Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips math.  
+Dominic wants to place the six dominoes above in a hexagonal ring so that, for every pair of adjacent dominoes, the numbers of pips match.  
 
 The ring on the right indicates how one adjacent pair match.  
 
@@ -77,7 +77,7 @@ In a completed ring, how many of the five dominoes can he definitely _not_ place
 * [x] 2
 * [ ] 3
 * [ ] 4
-* [ ] 4
+* [ ] 5
 {.col-5}
 :::
 
