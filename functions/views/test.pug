@@ -14,10 +14,9 @@ block content
         .score.wide
           p.large Submitted!
           if !userData.answersVisible
-            br
-            p Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.
-            br
-            p If you are in Year 7, you will also be sitting a short mental maths test.
+            each val in page.postSubmissionMessage ? page.postSubmissionMessage.split("\\n") : ["Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.", "If you are in Year 7, you will also be sitting a short mental maths test."]
+              br
+              p= val
         if userData.answersVisible
           div(class='score ' + scoreClass(userData.answers.score || 0))
             p.large Score: #{userData.answers.score || 0}%
