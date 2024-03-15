@@ -57,7 +57,7 @@ Positive square root of 121
 ::: problem id=7_1 marks=1
 0.6 as a fraction in its simplest form
 
-<input type="number" solution="3/5"/>  
+<input type="text" solution="3/5"/>  
 :::
 
 
@@ -161,7 +161,7 @@ Lowest common multiple of 24 and 18
 ::: problem id=20_1 marks=1
 5/6 – 3/4 (simplest fraction)
 
-<input type="number" solution="1/12"/>  
+<input type="text" solution="1/12"/>  
 :::
 
 
@@ -201,5 +201,5 @@ Mean of [2,4,6,8,15]
 ::: problem id=25_1 marks=1
 1/3 of 3/8 as a simplest fraction
 
-<input type="number" solution="1/8"/>  
+<input type="text" solution="1/8"/>  
 :::
