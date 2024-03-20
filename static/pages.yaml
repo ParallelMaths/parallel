@@ -1015,38 +1015,32 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-18T13:00:00
-    password: fruity
   - url: module-2-test-winter
     title: Euclid Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-18T13:00:00
-    password: fruity
   - url: module-4-test-winter
     title: Euclid Module 4 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: fruity
   - url: module-6-test-winter
     title: Euclid Module 6 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: fruity
   - url: module-8-test-winter
     title: Euclid Module 8 Winter Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: fruity
   - url: mental-maths-primary
     title: Mental maths quiz (Primary)
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-04-01T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: fruity
   - url: webinar-module-2-test-winter
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00

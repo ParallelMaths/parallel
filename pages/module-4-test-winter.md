@@ -1,11 +1,5 @@
 # Euclid Module 4 Winter Test 2024
 
-* You have 30 minutes for this test. 
-* The tutor will let you know how long is left at regular intervals.
-* Answer every question - there are no negative marks for wrong answers.
-* Use all the time available and DO NOT SUBMIT EARLY.
-* After you submit, stay in Zoom and wait for the tutor to call your name.
-
 
 ## 1.	
 ::: problem id=1_1 marks=1
@@ -466,8 +460,4 @@ The diagrams show how the other options could appear as the overlapping region.
 
 ![](/resources/module-4-test-winter/20-shapes-answer.jpg){image align="center"}  
 :::
-
-After you hit submit - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
-
-If you are in Year 7, you will also be sitting a short mental maths test.
 
