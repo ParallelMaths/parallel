@@ -21,7 +21,7 @@ function inTimeRange(q) {
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 
-let pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11];
+let pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11, ...pageData.test];
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
@@ -48,7 +48,10 @@ async function run() {
       if (!answer || answer.archive || !answer.submitted || !inTimeRange(answer)) continue;
 
       const name = p.url.split('-').map(i => +i).slice(0, 2).join('-');
-      summary[name] = (summary[name] || 0) + 1;
+
+      if(/^\d/.test(p.url[0])) {
+        summary[name] = (summary[name] || 0) + 1;
+      }
 
       const d = [
         user.first + ' ' + user.last,
