@@ -31,7 +31,7 @@ There is, however, one rule in maths which must never be broken: don’t divide 
 But why?! Watch this video to find out:  
 
 @[youtube](NKmGVE85GUU?end=154&rel=0) _(If you have problems watching the video, right click to open it in a new window)_
-÷
+
 ::: problem id=1_1 marks=1
 __1.1__ Which of these sums would result in the biggest answer?  
 

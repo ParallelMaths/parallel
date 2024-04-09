@@ -1,4 +1,16 @@
 year6:
+  - url: 6-45-coastline-paradox
+    title: The Coastline Paradox
+    available: 2024-07-11T13:00:00
+    deadline: 2024-07-15T13:00:00
+  - url: 6-44-passcode-logic
+    title: Passcode logic
+    available: 2024-07-04T13:00:00
+    deadline: 2024-07-08T13:00:00
+  - url: 6-43-maths-mentalism
+    title: Maths mentalism
+    available: 2024-06-27T13:00:00
+    deadline: 2024-07-01T13:00:00
   - url: 6-42-divide-by-zero
     title: Why you can't divide by zero
     available: 2024-06-20T13:00:00

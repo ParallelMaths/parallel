@@ -1,4 +1,4 @@
-# Connect Four
+# Connect four
 
 <div class="dictionary">
 
