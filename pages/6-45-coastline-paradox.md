@@ -61,10 +61,10 @@ __1.4__ The Koch snowflake shares similar properties to these weird coastlines.
 
 How is it generated?
 
-[ ] Take a triangle and keep dividing it into thirds
-[x] Take a triangle and keep adding smaller triangles in the middle portion of each edge
-[ ] Take a triangle and join the three midpoints of its edges together, then keep repeating this for all new triangles
-[ ] Take a triangle and draw a zigzag through it
+* [ ] Take a triangle and keep dividing it into thirds
+* [x] Take a triangle and keep adding smaller triangles in the middle portion of each edge
+* [ ] Take a triangle and join the three midpoints of its edges together, then keep repeating this for all new triangles
+* [ ] Take a triangle and draw a zigzag through it
 
 ^^^ hint id=1_4_1 marks=1
 Here is the shape after the first iteration  

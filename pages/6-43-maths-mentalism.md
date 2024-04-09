@@ -70,10 +70,10 @@ You can find this total by summing the main diagonal (1, 6, 11 and 16).
 
 If we extended the trick to a 5x5 grid, allowing someone to choose five numbers, what would the total be this time?  
 
-[ ] 39 
-[ ] 49
-[x] 65
-[ ] 68
+* [ ] 39 
+* [ ] 49
+* [x] 65
+* [ ] 68
 
 ^^^ hint id=1_4_1 marks=1
 Here is the 5×5 grid
@@ -82,6 +82,10 @@ Here is the 5×5 grid
 ^^^
 
 ---
+
+Here is the 5×5 grid
+
+![](/resources/6-43-maths-mentalism/1-4-grid-hint.png){image align="center"}  
 
 The main diagonal of the 5x5 grid contains the numbers 1, 7, 13, 19, 25, which sum to 65.  
 :::

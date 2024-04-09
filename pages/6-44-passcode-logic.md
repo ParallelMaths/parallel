@@ -30,7 +30,7 @@ Make sure you pause the video before the solution is revealed and have a think t
 With some clever logic, you will find the solution without any guesswork at all.
 
 @[youtube](7Vd1dTBVbFg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
-÷
+
 ::: problem id=1_1 marks=1
 __1.1__ Going on the first clue alone, which of these options will definitely not work?
 
@@ -78,10 +78,10 @@ The two options by this point are 1-6-6 and 2-2-9 and since the smallest number 
 ::: problem id=1_4 marks=2
 __1.4__ If the third clue told us that the passcode contains exactly one square number, what would Zara conclude?
 
-[ ] The passcode is 1-1-36
-[ ] The passcode is 2-2-9
-[ ] The passcode is 3-3-4
-[x] She would not be able to deduce the passcode
+* [ ] The passcode is 1-1-36
+* [ ] The passcode is 2-2-9
+* [ ] The passcode is 3-3-4
+* [x] She would not be able to deduce the passcode
 
 ^^^ hint id=1_4_1 marks=1
 The two options by this point are 1-6-6 and 2-2-9 
