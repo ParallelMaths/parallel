@@ -29,7 +29,7 @@ Watch this video to learn all about the ‘coastline paradox’
 @[youtube](I_rw-AJqpCM?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
-__1.1__ If you measure the coastline of Australia in lengths of 500km, then what is the length of its coastline?
+__1.1__ If you measure the coastline of Australia in lengths of 500km, then what measurement do you get?
 
 * [ ] 1,000 km 
 * [ ] 5,000 km
@@ -91,8 +91,8 @@ What percentage of the larger triangle is shaded?
 
 * [ ] 60%
 * [ ] 65%
-* [x] 70%
-* [ ] 75%
+* [ ] 70%
+* [x] 75%
 * [ ] 80%
 
 ^^^ hint id=2_1_1 marks=1

@@ -1,4 +1,4 @@
-# qqqq
+# Any number any card trick
 
 <div class="dictionary">
 
@@ -18,43 +18,94 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. 
 
-qqqq
+Many card tricks can be explained with a bit of maths.  
+
+In this video you will see the trick performed.  
+
+Watch through to the end to see how the deck must be prepared beforehand.  
+
+We will then get into the explanation of why it works.
+
+@[youtube](NBqOlFTAhnI?rel=0&start=12&end=302) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
-__1.1__ qqqq
+__1.1__ If the spectator chooses 35, what card does this correspond to?  
 
-* [ ] 1,000 km 
-* [ ] 5,000 km
-* [x] 12,500 km
-* [ ] 25,000 km
-{.col-5}
+* [ ] 3 of Clubs
+* [x] 8 of Clubs
+* [ ] 8 of Spades
+* [ ] 3 of Hearts
+
+---
+
+For the tens digit, 1 = Spades, 2 = Hearts, 3 = Clubs, 4 = Diamonds.  
+
+The sum of the two digits gives the value of the card (3 + 5 = 8 in this case).
 :::
 
 ::: problem id=1_2 marks=1
-__1.2__ qqqq
+__1.2__ If a spectator’s card turns out to be the 5 of Hearts, what number must they have chosen?
 
-* [ ] People made errors in their measurement
-* [x] Different-sized measuring instruments give different measures for the coastline
-* [ ] The coastline is constantly changing in size
-* [ ] The coastline of Australia is hard to track on a map
+* [ ] 5
+* [x] 23
+* [ ] 32
+* [ ] Impossible to determine
+
+---
+
+Since it is a Hearts, the tens digit is 2.  
+
+Since the digits add up to 5, the Ones digit must therefore be 3.
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ qqqq
+__1.3__ Which of these cards can NOT be revealed in this trick?  
 
-* [ ] It settles on a value of around 5,000km
-* [ ] It settles on a value of around 25,000km
-* [ ] It gets smaller and smaller, with the measure heading towards zero
-* [x] It gets larger and larger, with the measure heading towards infinity
+* [ ] 3 of Spades
+* [ ] 3 of Clubs
+* [x] 3 of Diamonds
+* [ ] Every card can be revealed depending on the number chosen
+
+^^^ hint id=1_3_1 marks=1
+If the spectator chooses a Diamonds then their tens digit is a 4.
+^^^
+
+---
+
+If the spectator chooses a Diamonds then their tens digit is a 4 and the value of the card, which is the sum of their two digits, already exceeds 3.  
+
+So 3 of Diamonds is impossible.
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ qqqq
+__1.4__ The trick works because the cards are set up in a particular way.  
 
-* [ ] Take a triangle and keep dividing it into thirds
-* [x] Take a triangle and keep adding smaller triangles in the middle portion of each edge
-* [ ] Take a triangle and join the three midpoints of its edges together, then keep repeating this for all new triangles
-* [ ] Take a triangle and draw a zigzag through it
+First you create 4 piles - one for each of the 4 suits (Spades, Hearts, Clubs, Diamonds).  
+
+How many cards are in these 4 piles? 
+
+* [x] 10 each
+* [ ] 13 each
+* [ ] 8, 9, 10, 11 respectively
+* [ ] 9, 10, 11, 12 respectively
+
+^^^ hint id=1_4_1 marks=1
+The piles consist of:  
+* Spades: Ace to 10
+* Hearts: 2 to Jack
+* Clubs: 3 to Queen
+* Diamonds: 4 to King
+^^^
+
+---
+
+Each suit corresponds to a range of 10 numbers (10-19 for Spades, 20-29 for Hearts, 30-39 for Clubs, 40-49 for Diamonds), so we need 10 cards for each of the 4 piles.  
+
+They are:
+* Spades: Ace to 10
+* Hearts: 2 to Jack
+* Clubs: 3 to Queen
+* Diamonds: 4 to King
 :::
 
 
@@ -62,7 +113,7 @@ __1.4__ qqqq
 
 <!--- PMC (2020) Q10 --->
 ::: problem id=2_1 marks=2
-![](/resources/6-46-/2-1-pentagon.png){image align="right"}
+![](/resources/6-46-any-number/2-1-pentagon.png){image align="right"}
 __2.1__ The diagram shows a pentagon with a square placed edge to edge with it.  
 
 George places another square on each of the other four edges of the pentagon.  

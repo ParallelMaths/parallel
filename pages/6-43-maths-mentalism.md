@@ -44,7 +44,7 @@ __1.2__ Which of the following options sets of numbers is it possible to choose 
 ---
 
 * 7 and 11 are in the same column, so the first option is impossible  
-* 9 and 19 are in the same row, so the second option is impossible  
+* 9 and 12 are in the same row, so the second option is impossible  
 * 13, 14, 15, 16 are all in the same row so the final option is impossible
 :::
 
@@ -119,15 +119,15 @@ __2.2__ My baby sister is 1,000 days old today.
 
 How many years old will she be on her next birthday?  
 
-* [ ] 3
-* [x] 4
+* [x] 3
+* [ ] 4
 * [ ] 5
 * [ ] 10
 * [ ] 12
 {.col-5}
 
 ^^^ hint id=2_2_1 marks=1
-You do not need to do any complicated questions - just consider how many days, roughly, are in one year.  
+You do not need to do any complicated calculations - just consider how many days, roughly, are in one year.  
 ^^^
 
 ---
