@@ -1,4 +1,12 @@
 year6:
+  - url: 6-48-most-feared-day
+    title: The most feared day
+    available: 2024-08-01T13:00:00
+    deadline: 2024-08-05T13:00:00
+  - url: 6-47-monkey-multiplication
+    title: Monkey Multiplication
+    available: 2024-07-25T13:00:00
+    deadline: 2024-07-29T13:00:00
   - url: 6-46-any-number
     title: Any number any card trick
     available: 2024-07-18T13:00:00
