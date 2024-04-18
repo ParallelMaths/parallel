@@ -22,7 +22,7 @@ Millions of people around the world get a bit worried every time Friday 13th com
 
 Watch this video to see why, mathematically speaking, there’s no getting away from this date (the good news is there’s nothing to fear about this date):
 
-@[youtube](0nMlUF6itqw?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](0nMlUF6itqw?rel=0&end=345) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ In any given year, what is the least number of times that Friday 13th is guaranteed to occur?
@@ -57,7 +57,7 @@ October has the same remainder as January (a remainder of 6), so these two month
 :::
 
 ::: problem id=1_3 marks=2
-__1.3__ Which of these happens in a leap year?
+__1.3__ Which of these is true for a leap year?
 
 * [ ] Friday 13th never occurs
 * [ ] Friday 13th always occurs in February

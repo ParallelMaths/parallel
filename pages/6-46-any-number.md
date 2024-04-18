@@ -26,7 +26,7 @@ Watch through to the end to see how the deck must be prepared beforehand.
 
 We will then get into the explanation of why it works.
 
-@[youtube](NBqOlFTAhnI?rel=0&start=12&end=302) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](NBqOlFTAhnI?rel=0&start=12&end=307) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=1
 __1.1__ If the spectator chooses 35, what card does this correspond to?  
