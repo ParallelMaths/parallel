@@ -38,11 +38,14 @@ for (let l of LEVELS) {
 }
 
 const TEST_MAP = {};
+const ALL_TEST_MAP = {};
 for (let [i, p] of PAGES['test'].entries()) {
   const available = new Date(p.available);
   const deadline = new Date(p.deadline);
   const answersVisibleFrom = new Date(p.answersVisibleFrom || '2010-01-01T01:00:00' /* in the past */);
   const now = Date.now();
+
+  ALL_TEST_MAP[p.url] = p;
 
   if(available < now && deadline > now) {
     p.answersVisible = answersVisibleFrom < now;
@@ -232,7 +235,7 @@ app.get('/api/test-data', async (req, res) => {
 
   if(isNaN(since)) return res.status(400).send('Invalid date');
 
-  for (let page of Object.keys(TEST_MAP)) {
+  for (let page of Object.keys(ALL_TEST_MAP)) {
     const query = await userDB.where(`answers.${page}.firstAnswer`, '>', since).get();
     const newVal = query.docs.map(d => {
       const data = d.data();
