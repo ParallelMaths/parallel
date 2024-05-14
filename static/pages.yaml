@@ -1069,3 +1069,8 @@ test:
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
     deadline: 2024-05-01T13:00:00
+  - url: module-2-test-spring
+    title: Euclid Module 2 Spring Test 2024
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2024-06-19T13:00:00
+    deadline: 2024-06-18T13:00:00
