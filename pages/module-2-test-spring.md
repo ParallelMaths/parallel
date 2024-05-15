@@ -59,9 +59,9 @@ Which of these is divisible by 2, 3 and 4?
 
 ---
 
-* B and D are odd and are therefore not divisible by 2   
-* A and E are not divisible by 3 or 4 (use either divisibility check) 
-* D is 24 × 10 and 24 = 2 × 3 × 4, so we can see that 240 contains these three factors 
+* 239 and 241 are odd and are therefore not divisible by 2   
+* 238 and 242 are not divisible by 3 or 4 (use either divisibility check) 
+* 240 is 24 × 10 and 24 = 2 × 3 × 4, so we can see that 240 contains these three factors 
 :::
 
 
