@@ -1074,3 +1074,8 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
+  - url: module-3-test-spring
+    title: Euclid Module 3 Spring Test 2024
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2024-06-19T13:00:00
+    deadline: 2024-06-18T13:00:00
