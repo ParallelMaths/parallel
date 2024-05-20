@@ -231,7 +231,7 @@ app.get('/api/test-data', async (req, res) => {
 
   const data = {};
 
-  const since = req.query.since ? new Date(Number(req.query.since)).getTime() : new Date('2024-01-16T00:00:00.000Z').getTime();
+  const since = req.query.since ? new Date(Number(req.query.since)).getTime() : new Date('2024-05-01T00:00:00.000Z').getTime();
 
   if(isNaN(since)) return res.status(400).send('Invalid date');
 
