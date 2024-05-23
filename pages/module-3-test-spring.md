@@ -167,7 +167,7 @@ The amount that the number of diagonals increases by goes up by one more each ti
 
 Continuing this pattern, a 9-sided shape has 27 diagonals (add 7), a 10-sided shape has 35 diagonals (add 8), and an 11-sided shape has 44 diagonals (add 9).  
 
-In general, the number of diagonals for an n-sided regular polygon is `n(n - 3)/2`, so we have essentiall solved the equation `n(n - 3)/2 = 44`.  
+In general, the number of diagonals for an n-sided regular polygon is `n(n - 3)/2`, so we have essentially solved the equation `n(n - 3)/2 = 44`.  
 :::
 
 
@@ -231,7 +231,7 @@ What fraction of the integers from 1 to 64,000 inclusive are cubes?
 
 ---
 
-Since `64,000 = 40^3`, there are 40 cubes in the range, giving a fraction of `40/64000`.
+Since `64000 = 40^3`, there are 40 cubes in the range, giving a fraction of `40/64000`.
 
 This simplifies to `1/1600`.
 :::
@@ -247,7 +247,7 @@ How many four-digit numbers have an odd number of factors?
 
 The numbers that have an odd number of factors are square numbers, so we want to know how many square numbers there are between 1000 and 9999.  
 
-Since `10,000 = 100^2`, the largest square in this range is `99^2`.  
+Since `10000 = 100^2`, the largest square in this range is `99^2`.  
 
 The smallest square in the range is `1024 = 32^2`.  
 
@@ -353,7 +353,7 @@ The perimeter of the hexagon, in cm, is therefore:
 :::
 
 
-# 18.
+## 18.
 ::: problem id=18_1 marks=1
 The digits 1, 3, 6, 5 and 7 are to be placed in the grid, one to a cell, to make a correct mathematical statement.  
 

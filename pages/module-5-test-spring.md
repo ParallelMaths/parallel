@@ -183,7 +183,7 @@ What is the distance between the points (-2, 4) and (3, 16)?
 
 ---
 
-The horizontal distance is 5 and the vertical distance is 12 so from Pythagoras, the distance is `√(5^2 + 12^2) = 13`.  
+The horizontal distance is 5 and the vertical distance is 12 so from Pythagoras, the distance is `sqrt(5^2 + 12^2) = 13`.  
 :::
 
 
@@ -242,7 +242,7 @@ How many pupils are in the class?
 
 The fraction of the class who do both is 4/7 + 4/7 - 1 = 1/7.  
 
-Hence, the number of pupils in 6 × 7 = 42.  
+Hence, the number of pupils is 6 × 7 = 42.  
 :::
 
 
@@ -261,7 +261,7 @@ How many of the first 120 numbers in this sequence are divisible by 5?
 
 ---
 
-The number of terms in the sequence up to and including the n occurrences of `n` is 1 + 2 + 3 + … + `n = 1/2n(n + 1)` which is equal to 120 when `n` = 15.
+The number of terms in the sequence up to and including the n occurrences of `n` is 1 + 2 + 3 + … + `n = 1/2n(n + 1)`, which is equal to 120 when `n` = 15.
 
 Hence the numbers divisible by 5 are 5 (five times), 10 (ten times) and 15 (fifteen times), for a total of 5 + 10 + 15 = 30 numbers.
 :::
@@ -354,7 +354,7 @@ So the two triangles have a combined area, in cm<sup>2</sup>, of 32 and since we
 :::
 
 
-# 18.
+## 18.
 ::: problem id=18_1 marks=1
 Simon eats three equal-sized bowls of porridge, one after the other.  
 
@@ -383,8 +383,8 @@ The area of a square is eight times the area of a rectangle with a length half t
 What is the perimeter, in cm, of the square?  
 
 * [ ] `8`
-* [x] `28/3`
-* [ ] `32/3`
+* [ ] `28/3`
+* [x] `32/3`
 * [ ] `12`
 * [ ] `40/3`
 {.col-5}
@@ -405,7 +405,7 @@ Solve this to get `x = 4/3`, which means the perimeter, which is `8x`, is `32/3`
 
 ## 20.
 ::: problem id=20_1 marks=1
-From the results table on the right, where each team plays each other once, what was the score in the match between United and City?  
+From the results table below, where each team plays each other once, what was the score in the match between United and City?  
 
 | Team | Win | Draw | Loss | Goals for | Goals against |
 | ---- | --- | ---- | ---- | --------- | ------------- |
@@ -422,8 +422,7 @@ From the results table on the right, where each team plays each other once, what
 * [ ] 0-1
 {.col-5}
 
-
-—
+---
 
 * First we note that Rovers beat United and, since Rovers do not concede any goals and United draw their other two games, the scoreline is 3-0.
 * So in their other two games, United draw both, scoring 3 and conceding 3.

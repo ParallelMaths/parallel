@@ -369,7 +369,7 @@ The perimeter of the hexagon, in cm, is therefore:
 :::
 
 
-# 18.
+## 18.
 ::: problem id=18_1 marks=1
 The digits 1, 3, 6, 5 and 7 are to be placed in the grid, one to a cell, to make a correct mathematical statement.  
 
