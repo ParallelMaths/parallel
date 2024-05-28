@@ -231,7 +231,7 @@ What fraction of the integers from 1 to 64,000 inclusive are cubes?
 
 ---
 
-Since `64000 = 40^3`, there are 40 cubes in the range, giving a fraction of `40/64000`.
+Since 64,000 = `40^3`, there are 40 cubes in the range, giving a fraction of `40/64000`.
 
 This simplifies to `1/1600`.
 :::
@@ -247,7 +247,7 @@ How many four-digit numbers have an odd number of factors?
 
 The numbers that have an odd number of factors are square numbers, so we want to know how many square numbers there are between 1000 and 9999.  
 
-Since `10000 = 100^2`, the largest square in this range is `99^2`.  
+Since 10,000 = `100^2`, the largest square in this range is `99^2`.  
 
 The smallest square in the range is `1024 = 32^2`.  
 
