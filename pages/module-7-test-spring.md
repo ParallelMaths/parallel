@@ -397,7 +397,7 @@ Let the radii of the semicircle and circle be R and r respectively.
 
 Applying Pythagoras’ Theorem to triangle OCP gives:  
 
-`(R – r)^2 = (𝑅/2)^2 + r^2`  
+`(R – r)^2 = (R/2)^2 + r^2`  
 
 which can be rearranged to give `r = 3𝑅/8`.  
 

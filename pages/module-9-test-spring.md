@@ -248,7 +248,7 @@ So `n ≤ 3pq − 1`.
 
 
 ## 13.
-:::: problem id=13_1 marks=1
+::: problem id=13_1 marks=1
 ![](/resources/module-9-test-spring/13-diagram.png){image align="right"}
 I have a set of seven cylindrical pencils, each of which has a diameter of 2.  
 
@@ -423,11 +423,11 @@ Let the radii of the semicircle and circle be R and r respectively.
 
 Applying Pythagoras’ Theorem to triangle OCP gives:  
 
-`(R – r)^2 = (𝑅/2)^2 + r^2`  
+`(R – r)^2 = (R/2)^2 + r^2`  
 
 which can be rearranged to give `r = 3𝑅/8`.  
 
-So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
-
 ![](/resources/module-7-test-spring/20-semicircle-answer.png){image align="center"}
+
+So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
 :::
