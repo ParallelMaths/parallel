@@ -149,7 +149,7 @@ Here is an interview between Grace Hopper (question 4) and Dave Letterman (who i
 
 As you might have guessed, Grace Hopper is one of my heroes.
 
-@[youtube](3N_ywhx6_K0?rel=0&start=35end=523)
+@[youtube](oE2uls6iIEU?rel=0&start=35end=523)
 
 ::: problem id=6_1 marks=1
 __6.1__ How long is a nanosecond?

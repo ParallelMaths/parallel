@@ -65,10 +65,8 @@ Which of these is prime?
 
 ## 5.
 ::: problem id=5_1 marks=1
+![](/resources/module-7-test-spring/5-diagram.jpg){image align="right"}
 Which of these statements follows from the diagram?   
-
-![](/resources/module-7-test-spring/5-diagram.png){image align="right"}
-
 
 * [ ] X = Y
 * [ ] X = Y + Z
@@ -214,16 +212,16 @@ If the original price is `p`, then the final price is 0.8 × 0.5 × 0.5 × p = 0
 
 ## 12.
 ::: problem id=12_1 marks=1
-How many fractions between 1/10 and 1/5 inclusive can be written with a denominator of 25? 
+How many fractions between `1/10` and `1/5` inclusive can be written with a denominator of 25? 
 
 <input type="number" solution="3"/>
 
 ---
 
-1/10 = 5/50 = 2.5/25 and  
-1/5 = 10/50 = 5/25,  
+`1/10 = 5/50 = 2.5/25` and  
+`1/5 = 10/50 = 5/25`,  
 
-therefore the relevant fractions are 3/25, 4/25 and 5/25.
+therefore the relevant fractions are `3/25`, `4/25` and `5/25`.
 :::
 
 
@@ -399,9 +397,9 @@ Applying Pythagoras’ Theorem to triangle OCP gives:
 
 `(R – r)^2 = (R/2)^2 + r^2`  
 
-which can be rearranged to give `r = 3𝑅/8`.  
+which can be rearranged to give `r = 3R/8`.  
 
 ![](/resources/module-7-test-spring/20-semicircle-answer.png){image align="center"}
 
-So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
+So the ratio of the two areas is `πr^2:πR^2` and since `r^2/R^2 = 9/64`, this simplifies to 9:64.  
 :::

@@ -150,7 +150,7 @@ FGHI is a rhombus, GF = GJ.
 
 ![](/resources/module-5-test-spring/9-rhombus.png){image align="center"}  
 
-What is the size, in degrees, of angle GIH? 
+What is the size, in degrees, of angle IGH? 
 
 * [ ] 42 
 * [ ] 69
@@ -195,12 +195,12 @@ When 34 is divided by a positive integer N, the remainder is 2. What is the sum 
 * [ ] 32
 * [ ] 48
 * [ ] 56
-* [x] 63
+* [x] 60
 {.col-5}
 
 ---
 
-We are looking for numbers that are factors of 32 but not 34: they are 1, 2, 4, 8, 16, 32. These values sum to 63.
+We are looking for numbers that are factors of 32 but not 34: they are 4, 8, 16, 32. These values sum to 60.
 :::
 
 
@@ -217,8 +217,8 @@ What is the largest possible size of an angle in this triangle, in degrees?
 ---
 
 * Call the three angles `x`°, `y`°, `z`°.  
-* Set x to be the angle that is 60° larger than the average of the other two, then `x = 60 + (y + z)/2`.  
-* Substituting this into `x + y + z = 180` gives `60 + (y + z)/2 + y + Z = 180`, which simplifies to `y + z = 80`.  
+* Set `x` to be the angle that is 60° larger than the average of the other two, then `x = 60 + (y + z)/2`.  
+* Substituting this into `x + y + z = 180` gives `60 + (y + z)/2 + y + z = 180`, which simplifies to `y + z = 80`.  
 * Since `y`, `z` are both integers, the largest either one can be is 79°.  
 :::
 

@@ -65,10 +65,8 @@ Which of these is prime?
 
 ## 5.
 ::: problem id=5_1 marks=1
-Which of these statements follows from the diagram?   
-
 ![](/resources/module-9-test-spring/5-diagram.png){image align="right"}
-
+Which of these statements follows from the diagram?   
 
 * [ ] X = Y
 * [ ] X = Y + Z
@@ -165,7 +163,7 @@ Let the number of purchases I made be 𝑎,𝑏,𝑐 (where each 𝑐 is a set o
 
 Dividing the second equation by 5 gives `7a + b + 8c = 200`  
 
-Subtracting gives `6𝑎 + 5𝑐 = 100`  
+Subtracting gives `6a + 5c = 100`  
 
 Setting `a = 5d` gives `6d + c = 20`  
 
@@ -191,7 +189,7 @@ What is the remainder when you divide `2^20 + 3^30 + 4^40 + 5^50 + 6^60` by 7?
 
 ---
 
-By Fermat’s Little Theorem, `a^6 ≡ 1` (mod 7) as long as `a ≡ /0` (mod 7)  
+By Fermat’s Little Theorem, a^6 ≡ 1 (mod 7) as long as a ≡ /0 (mod 7)  
 
 So `2^20 + 3^30 + 4^40 + 5^50 + 6^60 ≡ 2^2 + 3^0 + 4^4 + 5^2 + 6^0` (mod 7)  
 
@@ -233,9 +231,10 @@ They end up in such a way that Bela has exactly one card with a multiple of the 
 
 In terms of `p` and `q`, what is the largest possible value of `n`?   
 
-* [ ] `pq − 1`, `pq`,
+* [ ] `pq − 1`
+* [ ] `pq`
 * [ ] `2pq − 1`
-* [ ] `2pq`,
+* [ ] `2pq`
 * [x] `3pq - 1`
 * [ ] `3pq`  
 
@@ -268,7 +267,7 @@ The area consists of 6 sectors that make a full circle of radius 1; six rectangl
 
 ![](/resources/module-9-test-spring/13-diagram-answer.png){image align="center"} 
 
-This gives a total area of π + 12 + 6sqrt(3).
+This gives a total area of `π + 12 + 6sqrt(3)`.
 :::
 
 
@@ -425,9 +424,9 @@ Applying Pythagoras’ Theorem to triangle OCP gives:
 
 `(R – r)^2 = (R/2)^2 + r^2`  
 
-which can be rearranged to give `r = 3𝑅/8`.  
+which can be rearranged to give `r = 3R/8`.  
 
-![](/resources/module-7-test-spring/20-semicircle-answer.png){image align="center"}
+![](/resources/module-9-test-spring/20-semicircle-answer.png){image align="center"}
 
-So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
+So the ratio of the two areas is `πr^2:πR^2` and since `r^2/R^2 = 9/64`, this simplifies to 9:64.  
 :::
