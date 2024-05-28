@@ -59,7 +59,7 @@ Which of these is prime?
 
 ---
 
-All the others are divisible by 3 (sum the digits and use the divisibility check for 3).
+887 is prime. All the others are divisible by 3 (sum the digits and use the divisibility check for 3).
 :::
 
 
@@ -266,9 +266,9 @@ What is the area enclosed by the band?
 
 The area consists of 6 sectors that make a full circle of radius 1; six rectangles each 2 by 1, and a hexagon made of six equilateral triangles of side 2.  
 
-This gives a total area of π + 12 + 6sqrt(3).
-
 ![](/resources/module-9-test-spring/13-diagram-answer.png){image align="center"} 
+
+This gives a total area of π + 12 + 6sqrt(3).
 :::
 
 
@@ -291,9 +291,9 @@ What is the area enclosed by the band?
 
 Since the squares meet the circle, the angle in a semicircle theorem says that you can extend one side to the other end of the diameter as shown.  
 
-As this is the diagonal of the other square, the given angle must be 180° - 45° = 135°.  
-
 ![](/resources/module-9-test-spring/14-diagram-answer.png){image align="center"}
+
+As this is the diagonal of the other square, the given angle must be 180° - 45° = 135°.  
 :::
 
 

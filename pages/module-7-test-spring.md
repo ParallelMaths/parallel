@@ -59,7 +59,7 @@ Which of these is prime?
 
 ---
 
-All the others are divisible by 3 (sum the digits and use the divisibility check for 3).
+887 is prime. All the others are divisible by 3 (sum the digits and use the divisibility check for 3).
 :::
 
 
@@ -147,11 +147,10 @@ So the probability of getting a match is `1/6`.
 
 ## 9.
 ::: problem id=9_1 marks=1
+![](/resources/module-7-test-spring/9-square.png){image align="right"}  
 A square is cut into two rectangles, as shown, so that the sum of the lengths of the perimeters of these two rectangles is 48.  
 
 What is the area of the square?   
-
-![](/resources/module-7-test-spring/9-square.png){image align="right"}  
 
 * [ ] 24 
 * [ ] 36
@@ -164,11 +163,11 @@ What is the area of the square?
 
 Label the two short sides of the rectangles `x` and `y`, as shown.  
 
+![](/resources/module-7-test-spring/9-square-answer.png){image align="center"}
+
 Then the two rectangles have a combined perimeter of `6(x + y)`, so the side length of the square, `x + y`, is `48/6 = 8`.  
 
 So the area of the square is `8 × 8 = 64`.  
-
-![](/resources/module-7-test-spring/9-square-answer.png){image align="right"}
 :::
 
 
@@ -402,7 +401,7 @@ Applying Pythagoras’ Theorem to triangle OCP gives:
 
 which can be rearranged to give `r = 3𝑅/8`.  
 
-So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
-
 ![](/resources/module-7-test-spring/20-semicircle-answer.png){image align="center"}
+
+So the ratio of the two areas is `𝜋r^2:𝜋R^2` and since `r^2/𝑅^2 = 9/64`, this simplifies to 9:64.  
 :::
