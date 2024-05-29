@@ -1,5 +1,11 @@
 # Euclid Module 5 Spring Test 2024
 
+* You have 30 minutes for this test.  
+* The tutor will let you know how long is left at regular intervals.  
+* Answer every question - there are no negative marks for wrong answers.  
+* Use all the time available and DO NOT SUBMIT EARLY.  
+* Afer you submit, stay in Zoom and wait for the tutor to call your name.  
+
 
 ## 1.
 ::: problem id=1_1 marks=1

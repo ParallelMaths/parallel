@@ -1,5 +1,11 @@
 # Euclid Module 5 Spring Test 2024
 
+* You have 30 minutes for this test.  
+* The tutor will let you know how long is left at regular intervals.  
+* Answer every question - there are no negative marks for wrong answers.  
+* Use all the time available and DO NOT SUBMIT EARLY.  
+* Afer you submit, stay in Zoom and wait for the tutor to call your name.  
+
 
 ## 1.
 ::: problem id=1_1 marks=1
@@ -189,7 +195,7 @@ What is the remainder when you divide `2^20 + 3^30 + 4^40 + 5^50 + 6^60` by 7?
 
 ---
 
-By Fermat’s Little Theorem, a^6 ≡ 1 (mod 7) as long as a ≡ /0 (mod 7)  
+By Fermat’s Little Theorem, `a^6 = 1` (mod 7) as long as a ≠ 0 (mod 7)  
 
 So `2^20 + 3^30 + 4^40 + 5^50 + 6^60 ≡ 2^2 + 3^0 + 4^4 + 5^2 + 6^0` (mod 7)  
 
