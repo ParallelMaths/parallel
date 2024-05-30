@@ -233,7 +233,7 @@ therefore the relevant fractions are `3/25`, `4/25` and `5/25`.
 
 ## 13.
 ::: problem id=13_1 marks=1
-Ayliean cruised at 60 miles for the first three hours of a journey, then flew along at 75 miles per hour for the remainder of the journey.  
+Ayliean cruised at 60 miles per hour for the first three hours of a journey, then flew along at 75 miles per hour for the remainder of the journey.  
 
 Her average speed for the whole journey was 70 miles per hour.  
 

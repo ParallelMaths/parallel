@@ -399,7 +399,7 @@ The only correct statement that uses these digits is `35 ÷ 7 + 1 = 6`.
 ## 19.
 ::: problem id=19_1 marks=1
 ![](/resources/module-2-test-spring/19-square.png){image align="right"}
-PWRS is a square with area 64 cm<sup>2</sup>`.  
+PQRS is a square with area 64 cm<sup>2</sup>`.  
 
 The point T is inside the square.  
 

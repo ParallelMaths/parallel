@@ -280,11 +280,9 @@ This gives a total area of `π + 12 + 6sqrt(3)`.
 ## 14.
 ::: problem id=14_1 marks=1
 ![](/resources/module-9-test-spring/14-diagram.png){image align="right"}
-I have a set of seven cylindrical pencils, each of which has a diameter of 2.  
+Two squares are arranged in a semicircle as shown.  
 
-I hold them together tightly with a rubber band as shown.  
-
-What is the area enclosed by the band? 
+What is the marked angle between the two squares?
 
 * [ ] 120°
 * [ ] 122.5°

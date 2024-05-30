@@ -156,7 +156,7 @@ FGHI is a rhombus, GF = GJ.
 
 ![](/resources/module-5-test-spring/9-rhombus.png){image align="center"}  
 
-What is the size, in degrees, of angle IGH? 
+What is the size, in degrees, of angle IHG? 
 
 * [ ] 42 
 * [ ] 69
