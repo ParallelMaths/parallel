@@ -83,6 +83,7 @@ async function getUserFromToken(idToken) {
   const userData = await getUserData(decodedIdToken.uid);
   return {
     ...userData,
+    email: decodedIdToken.email || null,
     accountType: decodedIdToken.account_type || null,
     euclidAccountType: decodedIdToken.euclid_type || null
   }
