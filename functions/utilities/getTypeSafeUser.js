@@ -48,9 +48,9 @@ const getTypeSafeUser = (user) => {
         gender: validateString(user.gender),
         pupilPremium: validateBoolean(user.pupilPremium),
         schoolPostcode: validateString(user.schoolPostcode),
-        euclidStartYearGroup: validateString(user.euclidStartYearGroup),
         acceptedEuclidTerms: validateBoolean(user.acceptedEuclidTerms),
-        euclidEnrolTimestamp: validateString(user.euclidEnrolTimestamp),
+        euclidEnrolYearGroup: validateString(user.euclidEnrolYearGroup),
+        euclidEnrolTimestamp: validateNumber(user.euclidEnrolTimestamp),
     }
 }
 
