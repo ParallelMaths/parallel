@@ -385,7 +385,7 @@ What number should come immediately after the division sign?
 
 * [ ] 1
 * [ ] 3
-* [ ] 4
+* [ ] 6
 * [ ] 5
 * [x] 7
 {.col-5}

@@ -71,7 +71,7 @@ Which of these is prime?
 
 ## 5.
 ::: problem id=5_1 marks=1
-![](/resources/module-9-test-spring/5-diagram.png){image align="right"}
+![](/resources/module-9-test-spring/5-diagram.jpg){image align="right"}
 Which of these statements follows from the diagram?   
 
 * [ ] X = Y
