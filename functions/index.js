@@ -17,6 +17,7 @@ const user = require('./utilities/user');
 const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
 const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
+const { getTypeSafeUser } = require('./utilities/getTypeSafeUser')
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -127,8 +128,7 @@ app.get('/api/user', async (req, res) => {
   if(!token) return res.status(400).send('Missing token');
 
   await user.getUserFromToken(token).then((user) => {
-    const {level, code, userReference, first, schoolName, last, uid, accountType, euclidAccountType, email} = user;
-    res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType, euclidAccountType, email })
+    res.status(200).send(getTypeSafeUser(user))
   }).catch((err) => {
     console.error(err);
     res.status(400).send('Error')
@@ -156,9 +156,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
 
-  const {level, code, userReference, first, schoolName, last, uid, accountType} = found;
-
-  res.status(200).send({level, code, userReference, first, schoolName, last, uid, accountType, email: authUser.email })
+  res.status(200).send(getTypeSafeUser({...found, email: authUser.email }))
 });
 
 app.get('/api/user-answers', async (req, res) => {
