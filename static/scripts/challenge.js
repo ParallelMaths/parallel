@@ -35,6 +35,12 @@ export default function() {
       challenge.setAnswer(event.target.dataset.value, event.target.value);
     },
 
+    async submitWithConfirm() {
+      if (confirm('Are you sure you want to submit?')) {
+        return challenge.submit();
+      }
+    },
+
     async submit() {
       if (userData.submitted || !userData.uid) return;
       Vue.set(challenge.answers, 'loading', true);

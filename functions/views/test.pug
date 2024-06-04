@@ -49,7 +49,7 @@ block content
             if page.scoreFactor
               p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
       else if userData.hasPassword
-        button#submit(v-on:click="c.submit") Submit Answers
+        button#submit(v-on:click="c.submitWithConfirm") Submit Answers
 
   if userData.submitted && userData.isTeacher
     div
