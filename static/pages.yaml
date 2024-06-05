@@ -1082,35 +1082,35 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
-    password: trinity
+    password: maximus
   - url: module-3-test-spring
     title: Euclid Module 3 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
-    password: trinity
+    password: maximus
   - url: module-5-test-spring
     title: Euclid Module 5 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
-    password: trinity
+    password: maximus
   - url: module-7-test-spring
     title: Euclid Module 7 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
-    password: trinity
+    password: maximus
   - url: module-9-test-spring
     title: Euclid Module 9 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-19T13:00:00
     deadline: 2024-06-18T13:00:00
-    password: trinity
+    password: maximus
   - url: webinar-module-3-test-spring
     title: Euclid Webinar Module 3 Winter Test 2024
     available: 2024-01-15T13:00:00
