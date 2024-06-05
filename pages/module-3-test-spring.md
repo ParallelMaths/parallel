@@ -9,7 +9,7 @@
 
 ## 1.
 ::: problem id=1_1 marks=1
-What is the numerator when `64/80` is expressed as a simplest fraction?
+What is the **numerator** when `64/80` is expressed as a simplest fraction?
 
 <input type="number" solution="4"/> 
 
