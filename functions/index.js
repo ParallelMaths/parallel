@@ -135,6 +135,26 @@ app.get('/api/user', async (req, res) => {
   })
 });
 
+app.get('/api/get-user', async (req, res) => {
+  const token = req.headers['parallel-token'];
+
+  if(!token) return res.status(401).send({ error: 'no token' });
+
+  const userData = await user.getUserFromToken(token);
+
+  if(userData.accountType !== 'ADMIN') return res.status(403).send({ error: 'not admin' });
+
+  const id = req.query.id;
+
+  if(!id) return res.status(401).send({ error: 'no id' });
+
+  const found = await user.getUserData(id);
+
+  if(!found) return res.status(401).send({ error: 'no user data found' });
+
+  res.status(200).send(getTypeSafeUser({...found }))
+});
+
 app.get('/api/find-user', async (req, res) => {
   const token = req.headers['parallel-token'];
 
