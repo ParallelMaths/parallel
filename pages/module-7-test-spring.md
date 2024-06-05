@@ -78,7 +78,7 @@ Which of these statements follows from the diagram?
 * [ ] X = Y + Z
 * [ ] X + Y + Z = 188°
 * [x] X + Y + Z = 172°
-* [ ] X = Z
+* [ ] X = Z - Y
 
 ---
 
