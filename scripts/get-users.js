@@ -12,7 +12,7 @@ const run = async () => {
   const accounts = JSON.parse(fs.readFileSync(file)).users;
 
   let teachers = 'email,first,last,schoolName,phoneNumber,postCode,teacherCode,uniqueId\n';
-  let students = 'email,first,last,gender,level,birthYear,birthMonth,schoolName,teacherCode,guardianEmail,uniqueId,studentReference,schoolEmail,studentPanelConsidered,profileComplete,pupilPremium,mastery\n';
+  let students = 'email,first,last,gender,level,birthYear,birthMonth,schoolName,teacherCode,guardianEmail,uniqueId,studentReference,schoolEmail,studentPanelConsidered,profileComplete,pupilPremium,mastery,isEuclidAdmissions\n';
   let guardians = 'email,studentFirst,studentLast,level,studentUniqueId\n';
 
   for (let a of accounts) {
@@ -21,7 +21,7 @@ const run = async () => {
     if (u.code) {
       teachers += `"${a.email}","${u.first}","${u.last}","${u.schoolName||''}","${u.phoneNumber||''}","${u.postCode||''}","${u.code||''}","${a.localId||''}"\n`;
     } else {
-      students += `"${a.email}","${u.first}","${u.last}","${u.gender||''}","${u.level||''}","${u.birthYear||''}","${u.birthMonth||''}","${u.schoolName||''}","${u.teacherCode||''}","${u.guardianEmail||''}","${a.localId||''}","${u.userReference||''}","${u.schoolEmail||''}","${u.studentPanelConsidered||''}","${isProfileComplete(u) ? 1 : 0}","${u.pupilPremium||''}","${u.source==='mastery' ? '1' : '0'}"\n`;
+      students += `"${a.email}","${u.first}","${u.last}","${u.gender||''}","${u.level||''}","${u.birthYear||''}","${u.birthMonth||''}","${u.schoolName||''}","${u.teacherCode||''}","${u.guardianEmail||''}","${a.localId||''}","${u.userReference||''}","${u.schoolEmail||''}","${u.studentPanelConsidered||''}","${isProfileComplete(u) ? 1 : 0}","${u.pupilPremium||''}","${u.source==='mastery' ? '1' : '0'}","${u.euclidEnrolTimestamp ? '1' : '0'}"\n`;
     }
 
     const newGuardianEmails = (u.emails || []).filter(i => i.type === 'guardian').map(i => i.email)
