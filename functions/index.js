@@ -558,7 +558,7 @@ app.get('/test/:pid', (req, res, next) => {
   let hasPassword = false;
   let passwordIncorrect = false;
 
-  if(!page.password || p.answersVisible) {
+  if(!page.password || page.answersVisible) {
     hasPassword = true;
   } else if(req.query.p) {
     if(req.query.p == page.password) {
