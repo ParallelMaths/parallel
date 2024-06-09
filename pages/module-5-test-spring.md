@@ -218,14 +218,14 @@ One angle is 60° larger than the average of the other two angles.
 
 What is the largest possible size of an angle in this triangle, in degrees?  
 
-<input type="number" solution="79"/>
+<input type="number" solution="100"/>
 
 ---
 
 * Call the three angles `x`°, `y`°, `z`°.  
 * Set `x` to be the angle that is 60° larger than the average of the other two, then `x = 60 + (y + z)/2`.  
 * Substituting this into `x + y + z = 180` gives `60 + (y + z)/2 + y + z = 180`, which simplifies to `y + z = 80`.  
-* Since `y`, `z` are both integers, the largest either one can be is 79°.  
+* Therefore x = 180 - 80 = 100 and this is guaranteed to be larger than y and z. 
 :::
 
 
