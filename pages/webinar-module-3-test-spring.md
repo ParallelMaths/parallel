@@ -8,456 +8,431 @@
 * When you submit you will see your score and the solutions
 
 
-## 1.	
+## 1.
 ::: problem id=1_1 marks=1
-Simplify `24/36`
+What is the **numerator** when `64/80` is expressed as a simplest fraction?
 
-<input type="text" solution="2/3"/>  
+<input type="number" solution="4"/> 
 
 ---
 
-`24/36 = 12/18 = 6/9 = 2/3`
+`64/80 = 4/5`
 :::
 
 
 ## 2.
-::: problem id=2_1 marks=1
-What is the missing angle C, in degrees?
+::: problem id=2_1 marks=1 
+What is the missing angle `x`, in degrees?
 
-![](/resources/webinar-module-3-test-spring/2-triangle.png){image align="center"}
+![](/resources/webinar-module-3-test-spring/2-quadrilateral.png){image align="center"}
 
-<input type="number" solution="65"/>  
+<input type="number" solution="100"/> 
 
 ---
 
-The three angles sum to 180° and the other two angles are 25° and 90° so:  
-
-C = 180 – (90 + 25) = 65°
+Angles in a quadrilateral sum to 360°, so the missing angle, in degrees, is 360 - (155 + 55 + 50) = 100
 :::
 
 
 ## 3.
 ::: problem id=3_1 marks=1
-If the ratio of boys to girls in a class is 5:1 and there are 42 students altogether, how many boys are there?
+If there are twice as many girls as there are boys in a class, what is the ratio of boys to girls? 
 
-* [ ] 7
-* [ ] 24
-* [ ] 30
-* [x] 35
-* [ ] 36
+* [ ] 1:1
+* [x] 1:2
+* [ ] 1:3
+* [ ] 2:1
+* [ ] 3:1
 {.col-5}
 
 ---
 
-The number of boys is given by:  
-
-`42/6 × 5 = 35`.
+For every boy there are two girls, so the ratio of boys to girls is 1:2.
 :::
 
 
 ## 4.
 ::: problem id=4_1 marks=1
-Which of these is prime?
+Which of these is divisible by 2, 3 and 4? 
 
-* [x] 89
-* [ ] 90
-* [ ] 91
-* [ ] 92
-* [ ] 93
+* [ ] 238
+* [ ] 239
+* [x] 240
+* [ ] 241
+* [ ] 242
 {.col-5}
 
 ---
 
-* 90 and 92 are even  
-* 93 is a multiple of 3
-* 91 is 7 × 13
-* Therefore the prime is 89
+* 239 and 241 are odd and are therefore not divisible by 2   
+* 238 and 242 are not divisible by 3 or 4 (use either divisibility check) 
+* 240 is 24 × 10 and 24 = 2 × 3 × 4, so we can see that 240 contains these three factors 
 :::
 
 
 ## 5.
 ::: problem id=5_1 marks=1
-![](/resources/webinar-module-3-test-spring/5-shape.jpg){image align="right"}
-What is this shape called?
+Which of these is a regular quadrilateral? 
 
-* [ ] Pentagon
-* [ ] Hexagon
-* [x] Heptagon
-* [ ] Octagon
-* [ ] Nonagon
+* [ ] Parallelogram
+* [ ] Kite
+* [ ] Rectangle
+* [ ] Rhombus
+* [x] Square
 
 ---
 
-The shape has seven sides, which is a heptagon.
+Regular means that all the sides have the same length and all the interior angles are equal (90° in the case of a quadrilateral).  
+
+Only a square fits this description.  
 :::
 
 
 ## 6.
 ::: problem id=6_1 marks=1
-Which of these is largest?
+Which of these is smallest? 
 
-* [x] `3^4`
-* [ ] `2^5`
-* [ ] `5^2`
+* [x] `2^5`
 * [ ] `4^3`
 * [ ] `6^2`
+* [ ] `2^6`
+* [ ] `8^2`
 {.col-5}
 
 ---
 
-The values, respectively, are  
+The values, respectively, are: 
 
-* `3^4 = 81`
 * `2^5 = 32`
-* `5^2 = 25`
 * `4^3 = 64`
 * `6^2 = 36`
+* `2^6 = 64`
+* `8^2 = 64`
 :::
 
 
 ## 7.
 ::: problem id=7_1 marks=1
-What is the mean of the numbers 3, 4, 5, 8, 10?
+What is the mean of the numbers 6, 6, 8, 10, 15? 
 
-* [ ] 4
 * [ ] 5
-* [x] 6
+* [ ] 6
 * [ ] 7
 * [ ] 8
+* [x] 9
 {.col-5}
 
 ---
 
-There are five numbers in the list so the mean is given by:  
+There are five numbers in the list so the mean is given by: 
 
-`(3 + 4 + 5 + 8 + 10)/5 = 6`
+`(6 + 6 + 8 + 10 + 15)/5 = 9`
 :::
 
 
 ## 8.
 ::: problem id=8_1 marks=1
-If you flip a fair coin three times, what is the probability that you get three heads?
+If you roll a fair six-sided die twice, what is the probability that you get two sixes?
 
-* [ ] `1/2`
-* [ ] `1/4`
 * [ ] `1/6`
-* [x] `1/8`
-* [ ] `1/10`
+* [ ] `1/12`
+* [ ] `1/2`
+* [x] `1/36`
+* [ ] `1/18`
 {.col-5}
 
 ---
 
-The probability is given by   
+The probability is given by:  
 
-`1/2 × 1/2 × 1/2 = 1/8`
+`1/6 × 1/6 = 1/36`
 :::
 
 
 ## 9.
 ::: problem id=9_1 marks=1
-Which of the following numbers is divisible by 4?
+The number of diagonals in a regular polygon is 44. How many sides does the polygon have?  
 
-* [ ] 1234
-* [ ] 2314
-* [x] 4312
-* [ ] 3142
-* [ ] None of these
+* [ ] 8
+* [ ] 9
+* [ ] 10
+* [x] 11
+* [ ] 12
 {.col-5}
 
 ---
 
-The divisibility check for 4 requires that we only consider the two-digit number formed by the final two digits.  
+Here are the first few regular polygons:
 
-Since 12 is divisible by 4 then, using that check, we deduce that 4312 is also divisible by 4.  
+| Number of sides | 3 | 4 | 5 | 6 | 7 | 8 |
+| Number of diagonals | 0 | 2 | 5 | 9 | 14 | 20 |
+{.grid}
 
-We can dismiss the other cases as 34, 14 and 42 are not divisible by 4.
+The amount that the number of diagonals increases by goes up by one more each time.  
+
+Continuing this pattern, a 9-sided shape has 27 diagonals (add 7), a 10-sided shape has 35 diagonals (add 8), and an 11-sided shape has 44 diagonals (add 9).  
+
+In general, the number of diagonals for an n-sided regular polygon is `n(n - 3)/2`, so we have essentially solved the equation `n(n - 3)/2 = 44`.  
 :::
 
 
 ## 10.
 ::: problem id=10_1 marks=1
-In the six-digit number `n5n2n3` the first, third and fifth digits are the same. For which value of n is this number divisible by 3?
+When the diagram below is complete, the number in the middle of each group of 3 adjoining cells is the mean of its two neighbours.  
 
-* [ ] 1
-* [ ] 3
-* [ ] 5
-* [ ] 7
-* [x] There is no such value of n 
-{.col-5}
+What number goes in the right-hand end cell?
+
+![](/resources/module-3-test-spring/10-grid.png){image align="center"}
+
+
+<input type="number" solution="29"/>
 
 ---
 
-By the divisibility check for 3, the number is divisible by 3 precisely when the sum of its digits is divisible by 3.  
+We saw in Module 3 that the sequence of numbers increases by the same amount each time.  
 
-The sum of the digits is `n + 5 + n + 2 + n + 3 = 3n + 10`.  
-
-This is never divisible by 3 because `(3n + 10)/3 = n + 10/3` (so there is always a remainder of 1).  
-
-So no value of `n` will work (this method is quicker than checking all the options in turn!)  
+Since three boxes are separated by a distance of 18, this means the sequence goes up by 6 each time and the right-hand end cell is therefore 23 + 6 = 29.  
 :::
 
 
 ## 11.
 ::: problem id=11_1 marks=1
-What is the sum of all the positive integers between 1 and 200 inclusive (ie 1 + 2 + 3 + … + 198 + 199 + 200)?
+The diagram shows a regular hexagon PQRSTU, a square PQVW and an equilateral triangle VXW. 
 
-* [ ] 5,050
-* [ ] 10,100
-* [ ] 200,000
-* [x] 20,100
-* [ ] 8,080
+![](/resources/module-3-test-spring/11-hexagon.png){image align="centre"}
+
+What is the size of angle QVR, in degrees?  
+
+* [ ] 55
+* [ ] 65
+* [ ] 70
+* [x] 75
+* [ ] 80
 {.col-5}
+
 
 ---
 
-Using Gauss’s short cut, we can rewrite the sum as 100 pairs of 201:  
+The internal angle of a regular hexagon is 120° and angle VQP is a right-angle, so angle VQR is 120° – 90° = 30°.
 
-* 1 + 200 = 201
-* 2 + 199 = 201
-* 3 + 198 = 201
+VQ and QR have the same length as they are both equal in length to PQ (VQ = PQ as they are sides of a square and QR = PQ as they are sides of a regular hexagon).  
 
-and so on.  
+Therefore triangle VQR is isosceles and angles QVR and QRV share the remaining 150°.  
 
-Therefore the total sum is 201 x 100 = 20,100.
+So angle QVR is 75°.  
 :::
 
 
 ## 12.
 ::: problem id=12_1 marks=1
-![](/resources/webinar-module-3-test-spring/12-triangle.png){image align="right"}
-In the diagram, AB = AC and BD = BC.  
+What fraction of the integers from 1 to 64,000 inclusive are cubes?
 
-Angle BAC is 40°. What is angle BDC?  
-
-* [ ] 40°
-* [ ] 80°
-* [ ] 110°
-* [ ] 140°
-* [x] 70°
+* [ ] `1/64`
+* [x] `1/1600`
+* [ ] `1/2000`
+* [ ] `1/16000`
+* [ ] `1/200`
+{.col-5}
 
 ---
 
-Since AB = AC, triangle ABC is isosceles and angle ACB = angle CBA.  
+Since 64,000 = `40^3`, there are 40 cubes in the range, giving a fraction of `40/64000`.
 
-Since these two angles combine with the 40° to make 180° (angles in a triangle), they are each 70°.  
-
-Since BD = BC, triangle BDC is isosceles and angle BDC = angle DCB.  
-
-But angle DCB is angle ACB, which we have shown is 70°.  
-
-Therefore angle BDC is also 70°.
+This simplifies to `1/1600`.
 :::
 
 
 ## 13.
 ::: problem id=13_1 marks=1
-If `2(x + 4) – 4 = 3x – 9`, what is `x`? 
+How many four-digit numbers have an odd number of factors?
 
-* [ ] 6
-* [ ] 9
-* [x] 13
-* [ ] -5
-* [ ] -7
-{.col-5}
+<input type="number" solution="68"/>
 
 ---
 
-* Expand the brackets:  `2x + 8 – 4 = 3x – 9`  
-* Subtract `2x` from both sides:  `8 – 4 = x – 9`  
-* Add 9 to both sides:  `8 – 4 + 9 = x`  
-* Simplify the left-hand side:  `13 = x`  
+The numbers that have an odd number of factors are square numbers, so we want to know how many square numbers there are between 1000 and 9999.  
+
+Since 10,000 = `100^2`, the largest square in this range is `99^2`.  
+
+The smallest square in the range is `1024 = 32^2`.  
+
+Therefore there are `99 – 32 + 1 = 68` such four-digit numbers.
 :::
 
 
 ## 14.
 ::: problem id=14_1 marks=1
-I think of a number, double it, subtract 15, add my original number and end up with half the original number. What number did I think of?
+![](/resources/module-3-test-spring/14-moron.png){image align="right"}
+The Morón rectangle is made of nine different sized squares.  
 
-* [ ] -2
-* [ ] 0
-* [ ] 4
-* [x] 6
-* [ ] 10
-{.col-5}
+The lengths of the sides of these squares are 1, 4, 7, 8, 9, 10, 14, 15 and 18.  
+
+What is the perimeter of the rectangle?  
+
+<input type="number" solution="130"/>
 
 ---
 
-Model the problem as an equation. The unknown, `x`, is the original number. Follow the steps:  
+The two topmost squares correspond to the third largest and largest of the nine squares, so they have side lengths 14 and 18, respectively.  
 
-* Double:  `2x`  
-* Subtract 15:  `2x - 15`  
-* Add the original number:  `2x - 15 + x`  
-* End up with half the original number:  `2x - 15 + x = 1/2 x`  
+Therefore the horizontal length of the rectangle is 32.  
 
-Now solve this equation:  
+Similarly, the vertical length of the rectangle is 18 + 15 = 33 (because the two rightmost squares are the two largest).  
 
-* Collect like terms:  `3x - 15 = 1/2 x`  
-* Multiple both sides by 2:  `6x - 30 = x`  
-* Add 30 to both sides:  `6x = x + 30`  
-* Subtract x from both sides:  `5x = 30`  
-* Divide both sides by 5:  `x = 6`  
+So the perimeter is 2 × (32 + 33) = 130.
 :::
 
 
 ## 15.
 ::: problem id=15_1 marks=1
-The theme music for the famous science fiction film _2001: A Space Odyssey_ is taken from _Also Sprach Zarathustra_, which was written by Richard Strauss in 1896.  
+![](/resources/webinar-module-3-test-spring/15-square.png){image align="right"}
+The diagram shows a large square which has been divided into four smaller squares.  
 
-How many years was that before the film itself was produced in 1968?  
+It also shows both diagonals of the large square and two diagonals of the smaller squares.  
 
-* [x] 72
-* [ ] 33
-* [ ] 28
-* [ ] 105
-* [ ] 82
-{.col-5}
+What fraction of the area of the large square has been shaded? 
+
+* [ ] `1/4`
+* [ ] `3/8`
+* [ ] `5/8`
+* [x] `9/16`
+* [ ] `11/16`
 
 ---
 
-1968 – 1896 = 72.
+* Starting on the top left square and going clockwise, the shaded parts make up `1/2`,`1/2`,`3/4` and `1/2` of their respective squares.   
+* Each of the four squares is `1/4` of the whole square, so, as a fraction of the whole square, the shaded parts are `1/8`, `1/8`, `3/16` and `1/8`. 
+* Sum these to get a total fraction of `9/16`. 
 :::
 
 
 ## 16.
 ::: problem id=16_1 marks=1
-In the diagram, five rectangles of the same size are shown with each side labelled with a number.  
+Abby has half as many apples as Mahika.  
 
-![](/resources/module-1b-test-winter/16-squares-choices.jpg){image align="center"}
-These rectangles are placed in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
+Lily has twice as many apples as Abby.  
 
-![](/resources/module-1b-test-winter/16-squares-map.jpg){image align="center"}
+What fraction of all their apples does Lily have? 
 
-Which of the rectangles should be placed in position I?   
-
-* [ ] A
-* [ ] B
-* [x] C
-* [ ] D
-* [ ] E
+* [ ] `1/5`
+* [x] `2/5`
+* [ ] `3/5`
+* [ ] `4/5`
+* [ ] `1/10`
 {.col-5}
 
 ---
 
-Look first at the numbers labelling the left- and right-hand sides of the rectangles.  
-
-It can be seen that only rectangles _A_, _C_ and _E_ can be arranged in a row of three with their touching sides equal and so they must form the top row of the diagram.  
-
-The only common value on the right- and left-hand sides of rectangles _B_ and _D_ is 3 and so rectangle _D_ will be placed in position IV.  
-
-Therefore, the rectangle to be placed in position I needs to have 2 on its lower edge.  
-
-Hence rectangle _C_ should be placed on position I (with _A_ in position II, _E_ in position III and _B_ in position V).
+* Let `x` be the number of apples that Abby has. 
+* Then Mahika as `2x` apples and Lily has `2x` apples. 
+* So Lily has `2x` apples out of a total of `5x` apples, i.e. she has `2/5` of the apples. 
 :::
 
 
 ## 17.
 ::: problem id=17_1 marks=1
-The Bean family are very particular about beans. At every meal all Beans eat some beans.  
+![](/resources/webinar-module-3-test-spring/17-triangle-question.jpg){image align="right"}
+A hexagon is formed by arranging three equilateral triangles, as shown in the diagram.  
 
-Pa Bean always eats more beans than Ma Bean but never eats more than half the beans.  
+The side-length of the largest equilateral triangle is 15cm.  
 
-Ma Bean always eats the same number of beans as both children together and the two children always eat the same number of beans as each other.  
+What is the perimeter, in cm, of the hexagon?
 
-At their last meal they ate 23 beans altogether.  
-
-How many beans did Pa Bean eat?
-
-* [ ] 7
-* [ ] 9
-* [x] 11
-* [ ] 13
-* [ ] 15
-{.col-5}
+* [ ] 30
+* [ ] 45
+* [x] 60
+* [ ] 75
+* [ ] more information needed
 
 ---
 
-Pa Bean does not eat more than half the beans, so he eats at most 11 beans.  
+Let the side-lengths, in cm, of the two smaller triangles be `x` and `y`, as shown.  
 
-Ma Bean eats the same number of beans as both children together, so she eats an even number of beans which is at least one quarter of the total number of beans eaten. Therefore she eats at least 6 beans.  
+Then from the dotted line we can see that `x + y = 15`.  
 
-If she does eat 6 beans, then Pa Bean eats 11 beans, which is consistent with the information given.  
+The perimeter of the hexagon, in cm, is therefore:  
 
-However, if Ma Bean eats 8 or more beans, then Pa Bean eats at most 7 beans, and this is impossible as we are told that Pa Bean eats more beans than Ma Bean.  
+`15 + 15 + 2x + 2y = 30 + 2(x + y) = 30 + 30 = 60` 
 
-So Pa Bean eats 11 beans.  
+![](/resources/webinar-module-3-test-spring/17-triangle-answer.jpg){image align="center"}
 :::
 
 
 ## 18.
 ::: problem id=18_1 marks=1
-Jamal writes down a sequence of six integers. The rule he uses is "after the first three terms, each term is the sum of the three previous terms".
+The digits 1, 3, 6, 5 and 7 are to be placed in the grid, one to a cell, to make a correct mathematical statement.  
 
-His sequence is __, __, __, 8, 13, 25.  
+What number should come immediately after the division sign?  
 
-What is his first term?
+![](/resources/webinar-module-3-test-spring/18-grid.png){image align="center"}
 
-* [ ] 0
 * [ ] 1
-* [ ] 2
-* [x] 3
-* [ ] 4
+* [ ] 3
+* [ ] 6
+* [ ] 5
+* [x] 7
 {.col-5}
 
 ---
 
-Working backwards, the 25 must be the sum of 13, 8 and the third term. So the third term is 4.  
-
-Next, the 13 must be the sum of 8, 4 and the second term, so the second term is 1.  
-
-Finally, 8 must be the sum of 4, 1 and the first term.  
-
-So the first term is 3.  
+The only correct statement that uses these digits is `35 ÷ 7 + 1 = 6`.
 :::
 
 
 ## 19.
 ::: problem id=19_1 marks=1
-The White Rabbit has an appointment to see the Red Queen at 4pm every day apart from the weekends.  
+![](/resources/webinar-module-3-test-spring/19-square.png){image align="right"}
+PQRS is a square with area 64 cm<sup>2</sup>`.  
 
-On Monday, he arrives 16 minutes late.  Each day after that, he hurries more and more, and so manages to halve the amount of time that he arrives late each day.   
+The point T is inside the square.  
 
-On what day of the week does he arrive just 15 seconds late?  
+PTS is a triangle with area 17 cm<sup>2</sup>.  
 
-* [ ] Monday
-* [x] Tuesday
-* [ ] Wednesday
-* [ ] Thursday
-* [ ] Friday
+What is the area, in cm<sup>2</sup>, of the triangle QRT?  
+
+* [ ] 14
+* [x] 15
+* [ ] 16
+* [ ] 17
+* [ ] 18
 {.col-5}
 
 ---
 
-On Tuesday the White Rabbit will be 8 minutes late, on Wednesday 4 minutes late, on Thursday 2 minutes late, and on Friday 1 minute late.  
+![](/resources/webinar-module-3-test-spring/19-square-answer.png){image align="right"}
+Denote the perpendicular heights of PTS and QRT h₁, h₂, respectively.  
 
-So on the following Monday the White Rabbit will be 30 seconds late and on the day after that he will be 15 seconds late.   
+The base of both triangles is the side length of the square, which is 8cm.   
+
+So the areas of QRT and PTS are (in cm<sup>2</sup>), respectively, `1/2` × 8 × h₁ and `1/2` × 8 × h₂.  
+
+The sum of these two areas is `1/2` × 8 × (h₁ + h₂).  
+
+Now, h₁ + h₂  is the height of the square, so this simplifies to `1/2 × 8 × 8 = 32`.  
+
+So the two triangles have a combined area, in cm<sup>2</sup>, of 32 and since we are told that PTS has an area of 17 cm<sup>2</sup>, triangle QRT must make up the remaining 15 cm<sup>2</sup>.
 :::
 
 
 ## 20.
 ::: problem id=20_1 marks=1
-![](/resources/webinar-module-3-test-spring/20-grid-setup.jpg){image align="right"}
-All four L-shapes shown in the diagram are to be placed in the 4 by 4 grid so that all sixteen cells are covered and there is no overlap.  
+Simon eats three equal-sized bowls of porridge, one after the other.  
 
-Each piece can be rotated or reflected before being placed and the black dot is visible from both sides.  
+When he has eaten `4/9` of the total amount of porridge, what fraction of the porridge in the second bowl has he eaten?  
 
-How many of the 16 cells of the grid could contain the black dot?  
-
-* [ ] 4
-* [ ] 7
-* [ ] 8
-* [ ] 12
-* [x] 16
+* [x] `1/3`
+* [ ] `1/6`
+* [ ] `1/9`
+* [ ] `1/12`
+* [ ] `2/15`
+{.col-5}
 
 ---
 
-![](/resources/webinar-module-3-test-spring/20-grid-solution.jpg){image align="right"}
-The first figure shows a possible configuration of the four L shapes fitting into the square and illustrates four cells which could contain the black dot.  
+Let the amount of porridge in each bowl be _p_.  
 
-When this figure is roated in one direction through 90, 180 and 270, it is clear that all twelve cells on the outside of the square could contain the black dot.   
-
-Finally, the second figure shows that each of the four cells in the cenre of the square could also contain the black dot.  
-
-So each of the 16 cells in the diagram could contain the black dot.  
+Then, when Simon has eaten `4/9` of the total amount of porridge, he has eaten
+`4/9 × 3p = 4p/3 = p + p/3`, so he has eaten `1/3` of the second bowl.
 :::
 
 

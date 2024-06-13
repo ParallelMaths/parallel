@@ -1081,7 +1081,7 @@ test:
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-06-10T16:00:00
-    deadline: 2024-06-10T13:00:00
+    deadline: 2024-07-10T13:00:00
     password: vincent
   - url: module-3-test-spring
     title: Euclid Module 3 Spring Test 2024
