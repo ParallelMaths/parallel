@@ -1,4 +1,4 @@
-# Mental maths quiz (Primary)
+# Mental maths quiz
 
 * Answer as many questions as you can in 3 minutes - don't worry if you don't get through them all. 
 * Hit SUBMIT before the time is up.  

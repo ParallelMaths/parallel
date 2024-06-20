@@ -1064,13 +1064,13 @@ test:
     answersVisibleFrom: 2024-03-19T13:00:00
     deadline: 2024-05-01T13:00:00
     password: legolas
-  - url: mental-maths-primary
-    title: Mental maths quiz (Primary)
+  - url: mental-maths
+    title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-04-01T13:00:00
-    deadline: 2024-05-01T13:00:00
-    password: legolas
+    answersVisibleFrom: 2025-06-10T16:00:00
+    deadline: 2025-06-10T13:00:00
+    password: vincent
   - url: webinar-module-2-test-winter
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
