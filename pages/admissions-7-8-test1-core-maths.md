@@ -112,11 +112,11 @@ What number must be added to the set [5, 6, 7, 8] to give a mean of 7?
 ::: problem id=10_1 marks=1
 If you roll a fair six-sided die twice, what is the probability that you get two sixes?  
 
-* [ ] 1/6
-* [ ] 1/12
-* [ ] 1/2
-* [x] 1/36
-* [ ] 1/18
+* [ ] `1/6`
+* [ ] `1/12`
+* [ ] `1/2`
+* [x] `1/36`
+* [ ] `1/18`
 {.col-5}
 :::
 

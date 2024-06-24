@@ -99,11 +99,11 @@ What is 180% of 500?
 ::: problem id=9_1 marks=1
 If you flip a coin twice, what is the probability of getting the same result both times?  
 
-* [ ] 1/16
-* [ ] 1/8
-* [ ] 1/6
-* [ ] 1/4
-* [x] 1/2
+* [ ] `1/16`
+* [ ] `1/8`
+* [ ] `1/6`
+* [ ] `1/4`
+* [x] `1/2`
 {.col-5}
 :::
 
@@ -130,11 +130,11 @@ The information display on a train shows letters by illuminating dots in a recta
 
 In the letter 't' shown, what fraction of the dots in the array is illuminated?  
 
-* [ ] 9/20
-* [ ] 19/40
-* [x] 1/2
-* [ ] 21/40
-* [ ] 11/20
+* [ ] `9/20`
+* [ ] `19/40`
+* [x] `1/2`
+* [ ] `21/40`
+* [ ] `11/20`
 :::
 
 

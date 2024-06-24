@@ -1,6 +1,6 @@
-# Year 7-8 Test 3: New Topic
+# Test 3: New Topic
 
-* You have 30 minutes for this test.  
+* You have 10 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  
 * Answer every question - there are no negative marks for wrong answers.  
 * Use all the time available and DO NOT SUBMIT EARLY.  
@@ -9,9 +9,9 @@
 
 ## 1.
 ::: problem id=1_1 marks=1
-The solution to which of the following calculations can not be visualised on the number line below?  
+The solution to which of the following calculations can NOT be visualised on the number line below?  
 
-![](/resources/admissions-7-8-test3-new-topic/1-numberline.png){image align="center"}
+![](/resources/admissions-new-topic/1-numberline.png){image align="center"}
 
 * [ ] 6 - 4
 * [ ] 6 - 6
@@ -65,7 +65,7 @@ Which of these is a square root of -36?
   
 * [ ] -6
 * [ ] 6
-* [ ] 6`i`
+* [ ] 6 + `i`
 * [x] -6`i`
 * [ ] None of these
 {.col-5}
@@ -76,7 +76,7 @@ Which of these is a square root of -36?
 ::: problem id=7_1 marks=1
 In the diagram which letter represents the number 0?    
 
-![](/resources/admissions-7-8-test3-new-topic/7-diagram.png){image align="center"}
+![](/resources/admissions-new-topic/diagram.png){image align="center"}
 
 * [x] a
 * [ ] b
@@ -91,7 +91,7 @@ In the diagram which letter represents the number 0?
 ::: problem id=8_1 marks=1
 In the diagram what is the number represented by `d`?  
 
-![](/resources/admissions-7-8-test3-new-topic/8-diagram.png){image align="center"}
+![](/resources/admissions-new-topic/diagram.png){image align="center"}
 
 * [ ] 2
 * [ ] 2`i`
@@ -106,7 +106,7 @@ In the diagram what is the number represented by `d`?
 ::: problem id=9_1 marks=1
 In the diagram which letter represents the number 2`i`?
 
-![](/resources/admissions-7-8-test3-new-topic/9-diagram.png){image align="center"}
+![](/resources/admissions-new-topic/diagram.png){image align="center"}
 
 * [ ] a
 * [x] b
@@ -121,7 +121,7 @@ In the diagram which letter represents the number 2`i`?
 ::: problem id=10_1 marks=1
 In the diagram what is the number represented by e?  
 
-![](/resources/admissions-7-8-test3-new-topic/10-diagram.png){image align="center"}
+![](/resources/admissions-new-topic/diagram.png){image align="center"}
 
 * [ ] 2 + `i`
 * [ ] 2`i`
