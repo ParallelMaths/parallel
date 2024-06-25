@@ -236,7 +236,7 @@ Which letter stands for 3?
 :::
 
 
-# 18.
+## 18.
 ::: problem id=18_1 marks=1
 ![](/resources/admissions-7-8-test1-core-maths/18-pentagon.png){image align="right"} 
 The figure shows a regular pentagon PQRST together with three sides XP, PR, RU of a regular hexagon with vertices PRUVWX.  

@@ -231,7 +231,7 @@ What is the perimeter of the triangle formed?
 :::
 
 
-# 18.
+## 18.
 ::: problem id=18_1 marks=1
 How many different positive integers `n` are there for which `n` and `n^3 + 3` are both prime numbers?  
 

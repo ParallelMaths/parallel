@@ -73,7 +73,7 @@ On Monday last week Dilly started to learn the Tlingit language.
 
 Every day she learnt five new words, but when she woke each morning she had forgotten two of the words learnt the day before.  
 
-When did Dilly first achieve her targer of learning fourteen words?  
+When did Dilly first achieve her target of learning fourteen words?  
 
 * [ ] Friday
 * [ ] Monday
