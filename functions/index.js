@@ -249,23 +249,44 @@ app.get('/api/test-data', async (req, res) => {
 
   const data = {};
 
-  const since = req.query.since ? new Date(Number(req.query.since)).getTime() : new Date('2024-05-01T00:00:00.000Z').getTime();
+  const since = req.query.since
+  ? new Date(Number(req.query.since)).getTime()
+  : new Date(
+      `${new Date().toISOString().split("T")[0]}T00:00:00.000Z`,
+    ).getTime();
 
   if(isNaN(since)) return res.status(400).send('Invalid date');
 
   for (let page of Object.keys(ALL_TEST_MAP)) {
     const query = await userDB.where(`answers.${page}.firstAnswer`, '>', since).get();
     const newVal = query.docs.map(d => {
-      const data = d.data();
+      const da = d.data();
       return {
-        ...data.answers[page],
+        ...da.answers[page],
         uid: d.id,
-        first: data.first,
-        last: data.last,
+        first: da.first,
+        last: da.last,
       };
     });
 
     data[page] = [...(data[page] || []), ...newVal];
+  }
+
+  // Load 1 correct entry per pages.
+  // Ran separately incase was answered before the since date.
+  for (let page of Object.keys(ALL_TEST_MAP)) {
+    const query = await userDB.where(`answers.${page}.score`, '==', 100).limit(1).get();
+
+    const d = query.docs[0];
+    if (d) {
+      const da = d.data();
+      data[page] = [...(data[page] || []), {
+        ...da.answers[page],
+        uid: 1234,
+        first: 'Correct',
+        last: 'Answers',
+      }];
+    }
   }
 
   res.status(200).send(data);
