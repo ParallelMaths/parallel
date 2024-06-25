@@ -1033,7 +1033,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-19T13:00:00
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    answersVisibleWithPassword: true
+    showAnswersIfSubmitted: true
     deadline: 2024-08-01T13:00:00
     password: fruity
   - url: module-1b-test-winter

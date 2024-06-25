@@ -579,7 +579,11 @@ app.get('/test/:pid', (req, res, next) => {
   let hasPassword = false;
   let passwordIncorrect = false;
 
-  if(!page.password || page.answersVisible) {
+  const answers = req.user ? (req.user.answers[pid] || {}) : {};
+  
+  const showAnswersIfSubmitted = !page.answersVisible && answers.submitted && page.showAnswersIfSubmitted; 
+
+  if(!page.password || page.answersVisible || showAnswersIfSubmitted) {
     hasPassword = true;
   } else if(req.query.p) {
     if(req.query.p == page.password) {
@@ -589,11 +593,7 @@ app.get('/test/:pid', (req, res, next) => {
     }
   }
 
-  const answers = req.user ? (req.user.answers[pid] || {}) : {};
-
-  const showAnswersIfPassword = !page.answersVisible && answers.submitted && page.answersVisibleWithPassword && hasPassword; 
-
-  const answersVisible = "reveal" in req.query || page.answersVisible || showAnswersIfPassword || false;
+  const answersVisible = "reveal" in req.query || page.answersVisible || showAnswersIfSubmitted || false;
 
   const userData = {
     answers,
@@ -601,7 +601,7 @@ app.get('/test/:pid', (req, res, next) => {
     submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
     answersVisible,
-    showPostSubmissionMessage: !answersVisible || showAnswersIfPassword,
+    showPostSubmissionMessage: !answersVisible || showAnswersIfSubmitted,
     hasPassword,
     passwordIncorrect
   };
