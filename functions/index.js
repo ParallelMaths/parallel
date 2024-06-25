@@ -591,12 +591,17 @@ app.get('/test/:pid', (req, res, next) => {
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
 
+  const showAnswersIfPassword = !page.answersVisible && answers.submitted && page.answersVisibleWithPassword && hasPassword; 
+
+  const answersVisible = "reveal" in req.query || page.answersVisible || showAnswersIfPassword || false;
+
   const userData = {
     answers,
     uid: req.user ? req.user.uid : "",
     submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
-    answersVisible: "reveal" in req.query || page.answersVisible || false,
+    answersVisible,
+    showPostSubmissionMessage: !answersVisible || showAnswersIfPassword,
     hasPassword,
     passwordIncorrect
   };
