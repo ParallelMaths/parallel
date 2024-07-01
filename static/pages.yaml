@@ -1070,7 +1070,6 @@ test:
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
     deadline: 2024-05-01T13:00:00
-    password: legolas
   - url: module-2-test-spring
     title: Euclid Module 2 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
@@ -1112,7 +1111,6 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-10T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: legolas
   - url: admissions-7-8-test1-core-maths
     title: Year 7-8 Test 1 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

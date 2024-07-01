@@ -121,7 +121,7 @@ __2.1__ If today is Monday, what day of the week will it be in 698 days time?
 
 ---
 
-693 is only 2 less than 700, which is a multiple of 7.  
+698 is only 2 less than 700, which is a multiple of 7.  
 
 Every multiple of 7 brings you back to the same day of the week!  
 

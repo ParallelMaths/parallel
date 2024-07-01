@@ -3,8 +3,8 @@ const serviceAccount = require("../private/service-account.json");
 
 // This script will change an account email.
 
-const from = 'l.farrer@gmail.com'
-const to = 'liamfarrer09@gmail.com'
+const from = 'gkeeganstangard@gmail.com'
+const to = 'gkeeganstannard@gmail.com'
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
