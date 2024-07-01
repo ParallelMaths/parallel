@@ -274,18 +274,22 @@ app.get('/api/test-data', async (req, res) => {
 
   // Load 1 correct entry per pages.
   // Ran separately incase was answered before the since date.
+  // Return the most recent correct answer, in case test is edited.
   for (let page of Object.keys(ALL_TEST_MAP)) {
-    const query = await userDB.where(`answers.${page}.score`, '==', 100).limit(1).get();
+    const query = await userDB.where(`answers.${page}.score`, '==', 100).get();
 
-    const d = query.docs[0];
-    if (d) {
+    const newVal = query.docs.map(d => {
       const da = d.data();
-      data[page] = [...(data[page] || []), {
+      return {
         ...da.answers[page],
         uid: 1234,
         first: 'Correct',
         last: 'Answers',
-      }];
+      };
+    }).sort((a, b) => b.time - a.time)[0];
+
+    if (newVal) {
+      data[page] = [...(data[page] || []), newVal];
     }
   }
 
