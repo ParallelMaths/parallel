@@ -42,7 +42,7 @@ What is the negative square root of 100?
 ::: problem id=4_1 marks=1
 How many square roots does 81 have?  
  
-<input type="number" solution="4"/>
+<input type="number" solution="2"/>
 :::
 
 
@@ -53,8 +53,8 @@ Which of these is a square root of -1?
 * [ ] -1
 * [ ] 0
 * [ ] ½
-* [ ] `i`
-* [x] None of these 
+* [x] `i`
+* [ ] None of these 
 {.col-5}
 :::
 
