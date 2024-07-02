@@ -1117,28 +1117,28 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: yellow
+    password: knight
   - url: admissions-9-10-test1-core-maths
     title: Year 9-10 Test 1 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: yellow
+    password: knight
   - url: admissions-new-topic
     title: Test 3 New Topic
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: orange
+    password: queen
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: purple
+    password: bishop
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1146,19 +1146,19 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: kiwi
+    password: corn
   - url: primary-jmc-1
     title: Primary JMC quiz 1
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: blue
+    password: orange
   - url: primary-jmc-2
     title: Primary JMC quiz 2
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
-    password: water
+    password: squash
     
