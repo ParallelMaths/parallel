@@ -13,7 +13,7 @@ const run = async () => {
 
   let teachers = 'email,first,last,schoolName,phoneNumber,postCode,teacherCode,uniqueId\n';
   let students = 'email,first,last,gender,level,birthYear,birthMonth,schoolName,teacherCode,guardianEmail,uniqueId,studentReference,schoolEmail,studentPanelConsidered,profileComplete,pupilPremium,mastery,isEuclidAdmissions\n';
-  let guardians = 'email,studentFirst,studentLast,level,studentUniqueId\n';
+  let guardians = 'email,studentFirst,studentLast,level,studentUniqueId,isEuclidAdmissions\n';
 
   for (let a of accounts) {
     const u = users[a.localId];
@@ -28,7 +28,7 @@ const run = async () => {
     const guardianEmails = [...newGuardianEmails, u.guardianEmail].filter(Boolean);
 
     for(let g of guardianEmails) {
-      guardians += `"${g}","${u.first}","${u.last}","${u.level||''}","${a.localId||''}"\n`;
+      guardians += `"${g}","${u.first}","${u.last}","${u.level||''}","${a.localId||''}","${u.euclidEnrolTimestamp ? '1' : '0'}"\n`;
     }
   }
 
