@@ -52,7 +52,7 @@ __1.3__ How many edges does a Klein bottle have?
 :::
 
 ::: problem id=1_4 marks=2
-__1.4__ Two equally sized triangles have 6 edges in total.  
+__1.4__ Two equally sized isosceles triangles have 6 edges in total.  
 
 If they are glued together to form a new shape how many edges would it have?  
 
