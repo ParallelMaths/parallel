@@ -205,9 +205,9 @@ Therefore `PR = sqrt(52)= 2sqrt(13)`.
 ## 5. Puzzle
 
 ::: problem id=5_1 marks=1
-__5.1__ Two fathers and two sons go fishing together in the same boat.  
+__5.1__ Two fathers take their sons fishing in the same boat.  
 
-What is the least number of possible people in the board?
+What is the least number of possible people in the boat?
 
 <input type="number" solution="3"/> 
 
