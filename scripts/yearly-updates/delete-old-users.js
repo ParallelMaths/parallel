@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const fb = require("firebase-admin");
-const serviceAccount = require("../private/service-account.json");
+const serviceAccount = require("../../private/service-account.json");
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
@@ -23,7 +23,7 @@ const keysToRemove = [
   "studentPanelGuardianNumber",
 ];
 
-const cutoff = new Date("2021-08-22T18:32:06.817Z").getTime();
+const cutoff = new Date("2022-08-22T18:32:06.817Z").getTime();
 
 const file = path.join(__dirname, `../private/tmp-users.json`);
 const accounts = JSON.parse(fs.readFileSync(file)).users;
@@ -49,8 +49,6 @@ const deleteAccount = async (id) => {
       }),
     );
 
-    // console.log(JSON.stringify(redactedData, null, 4));
-
     await usersArchiveCollection.doc(id).set(redactedData);
     await usersCollection.doc(id).delete();
   }
@@ -69,19 +67,6 @@ const deleteAccount = async (id) => {
   const oldAccountIds = oldAccounts.map((a) => a.localId);
 
   console.log("Accounts to delete:", oldAccountIds.length);
-
-  // console.log(
-  //   JSON.stringify(
-  //     Object.fromEntries(
-  //       oldAccounts.map((a) => [
-  //         a.localId,
-  //         new Date(+a.lastSignedInAt).toISOString(),
-  //       ]),
-  //     ),
-  //     null,
-  //     4,
-  //   ),
-  // );
 
   const chunks = [];
 
