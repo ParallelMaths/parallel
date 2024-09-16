@@ -16,7 +16,7 @@ How many multiples of 15 are there between 1000 and 9000 inclusive?
 
 Writing them as a list we have 1005, 1020, 1035,…, 9960, 9975, 9000.  
 
-This means that after the first number in the list, there must be (9000−1005)/15=533 numbers in the list.  
+This means that after the first number in the list, there must be `(9000−1005)/15 = 533` numbers in the list.  
 
 If we include the first number in the list, we must have 534 numbers in the list and so there are 534 multiples of 15 between 1000 and 9000 inclusive.  
 :::

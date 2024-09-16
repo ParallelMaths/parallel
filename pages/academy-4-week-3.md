@@ -88,7 +88,7 @@ How many three-digit numbers use __exactly__ two different digits (for example 1
 
 There are 9 integeres with two zeros, ie 100, 200, ... , 800, 900.  
 
-When the repeated digits is non-zero, the integers have the form 'xxy', 'xyx', or 'yxx'.  
+When the repeated digit is non-zero, the integers have the form 'xxy', 'xyx', or 'yxx'.  
 
 If `x = 1`, `y` can be 0, 2, 3, 4, 5, 6, 7, 8, or 9, although we must ignore '011' as this is a two-digit integer. This gives 26 different integers.  
 
