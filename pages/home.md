@@ -17,4 +17,4 @@ __Pronunciation__: /ˌparəˈlɛləɡram/
 
 All the materials are __completely free__.
 
-‘Year groups’ are now called Levels. They’re basically the same thing, with higher Levels corresponding to more advanced material. Your account has automatically been moved up to a new level, so students who were doing Year 7 Parallelograms will be at Level 3 for the upcoming year, and last year’s Year 8 students will be at Level 4 when Parallel restarts. You can change your Level in Settings if you are finding the material too easy or too challenging.
+Level 1 is aimed at students in Year 6 (ages 10 to 11 years), while Level 6 is for students in Year 11 (ages 15 to 16 years). When you create an account, you will automatically be set at the appropriate level, and you will move up a level each September. You can change your Level in Settings if you are finding the material too easy or too challenging. 
