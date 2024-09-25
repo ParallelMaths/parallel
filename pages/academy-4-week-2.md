@@ -70,6 +70,7 @@ This means the only possibilities for the number of multiples of 8 are 30 or 31.
 
 
 ## 4.
+![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
 ::: problem id=4_1 marks=1
 How many numbers are from 1000 to 10000 (inclusive) are not multiples of 2 or 3?    
 

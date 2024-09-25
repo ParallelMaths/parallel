@@ -79,6 +79,7 @@ This means Ada can make 63 different three-digit numbers.
 
 
 ## 4.
+![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
 ::: problem id=4_1 marks=1
 How many three-digit numbers use __exactly__ two different digits (for example 100 or 266)?   
   
