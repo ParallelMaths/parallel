@@ -9,7 +9,7 @@ block content
     .toggle
       a(v-on:click="user.signupForm.type = 'student'" v-bind:class="{active: user.signupForm.type === 'student'}") Student
       if !studentSignupOnly
-        a(v-on:click="user.signupForm.type = 'teacher'" v-bind:class="{active: user.signupForm.type === 'teacher'}") Teacher
+        a(href="/teacher/signup") Teacher
 
     .error(v-show="user.signupForm.error" style="margin-top: .5em") {{user.signupForm.error}}
 
