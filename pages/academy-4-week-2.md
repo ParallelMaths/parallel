@@ -1,8 +1,20 @@
 # Euclid Module 4 Week 2 Homework
 
+These homework problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+
+The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
+
+Every question is worth 2 marks. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.  
+
+Take your time, ensuring that you haven’t overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
+
+You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
+
+We will also be running a weekly drop-in homework help tutorial (look out for our emails).  
+
 
 ## 1.
-::: problem id=1_1 marks=1
+::: problem id=1_1 marks=2
 How many multiples of 15 are there between 1000 and 9000 inclusive?   
 
 * [ ] 535
@@ -23,7 +35,7 @@ If we include the first number in the list, we must have 534 numbers in the list
 
 
 ## 2.
-::: problem id=2_1 marks=1 
+::: problem id=2_1 marks=2
 How many numbers are in the list `5 1/5`, `6 2/5`, `7 3/5`, …, 124?   
 
 * [ ] 98
@@ -46,7 +58,7 @@ This means there are 100 numbers in our list.
 
 
 ## 3.
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Alice writes down a list of 245 consecutive positive integers.  
 
 For her list she calculates how many of the numbers are multiples of 8.  
@@ -70,8 +82,8 @@ This means the only possibilities for the number of multiples of 8 are 30 or 31.
 
 
 ## 4.
+::: problem id=4_1 marks=2
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-::: problem id=4_1 marks=1
 How many numbers are from 1000 to 10000 (inclusive) are not multiples of 2 or 3?    
 
 * [ ] 1499

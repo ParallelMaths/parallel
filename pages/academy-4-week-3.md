@@ -1,8 +1,20 @@
 # Euclid Module 4 Week 3 Homework
 
+These homework problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+
+The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
+
+Every question is worth 2 marks. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.  
+
+Take your time, ensuring that you haven’t overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
+
+You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
+
+We will also be running a weekly drop-in homework help tutorial (look out for our emails).  
+
 
 ## 1.
-::: problem id=1_1 marks=1
+::: problem id=1_1 marks=2
 There are eight sprinters in the Olympic 100-metre sprint final.  
 
 After the race, the gold medal goes to first place, silver to second, and bronze to third.  
@@ -24,7 +36,7 @@ In total, that is `8 × 7 × 6 = 336` ways of awarding the medals.
 
 
 ## 2.
-::: problem id=2_1 marks=1 
+::: problem id=2_1 marks=2
 A bag contains 3 white balls, 5 red balls and 7 green balls.  
 
 A selection of balls is made.  
@@ -49,7 +61,7 @@ There is no need to subtract one because we always have at least one red ball.
 
 
 ## 3.
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Ada has a collection of tiles, each of which has a single digit written on it.  
 
 There are five tiles with the digit 5, four tiles with the digit 4, three tiles with the digit 3 and finally two tiles with the digit 2 written on them.  
@@ -79,8 +91,8 @@ This means Ada can make 63 different three-digit numbers.
 
 
 ## 4.
+::: problem id=4_1 marks=2
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-::: problem id=4_1 marks=1
 How many three-digit numbers use __exactly__ two different digits (for example 100 or 266)?   
   
 <input type="number" solution="243"/> 
