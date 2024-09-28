@@ -296,6 +296,32 @@ app.get('/api/test-data', async (req, res) => {
   res.status(200).send(data);
 });
 
+app.get('/api/parallelogram/:pid', async (req, res) => {
+  const token = req.headers['parallel-token'];
+  const pid = req.params.pid;
+  try {
+    const userData = await user.getUserFromToken(token);
+    const data = await user.getUserData(userData.uid);
+
+    if(!data) return res.status(403).send({ error: 'no user data found' });
+
+    const answers = data.answers || {};
+
+    if(answers[pid]) {
+      return res.status(200).send({
+        score: answers[pid].score || null,
+        submitted: answers[pid].submitted || false,
+        time: answers[pid].time || null,
+        firstAnswer: answers[pid].firstAnswer || null,
+      });
+    }
+
+    return res.status(404).send({ error: 'no data found' });
+  } catch (error) {
+    return res.status(500).send({ error: error.code || 'Unknown error' });
+  }
+});
+
 app.get('/api/reset-show-message', async (req, res) => {
   if (!req.user) return error(res, 401);
 
