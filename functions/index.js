@@ -673,6 +673,8 @@ app.get('/homework/:pid', (req, res, next) => {
     isTeacher: !!req.user?.code,
   };
 
+  res.locals.sidebarDisabled = true
+
   res.render('homework', {pid, body, page: HOMEWORK_MAP[pid], userData});
 });
 
