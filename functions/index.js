@@ -54,6 +54,16 @@ for (let [i, p] of PAGES['test'].entries()) {
   }
 }
 
+const ACADEMY_MAP = {};
+for (let [i, p] of PAGES['academy'].entries()) {
+  const available = new Date(p.available);
+  const now = Date.now();
+
+  if(available < now) {
+    ACADEMY_MAP[p.url] = p;
+  }
+}
+
 function scoreClass(score) {
   if (score >= 90) return 'tesseract';
   if (score >= 70) return 'cube';
@@ -646,6 +656,24 @@ app.get('/:pid', (req, res, next) => {
   };
 
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData});
+});
+
+app.get('/academy/:pid', (req, res, next) => {
+  const pid = req.params.pid;
+  if (!ACADEMY_MAP[pid]) return next();
+
+  const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
+      .toString().replace(/<h1.*<\/h1>/, '');
+
+  const answers = req.user ? (req.user.answers[pid] || {}) : {};
+  const userData = {
+    answers,
+    uid: req.user ? req.user.uid : "",
+    submitted: "reveal" in req.query || answers.submitted || false,
+    isTeacher: !!req.user?.code,
+  };
+
+  res.render('academy', {pid, body, page: ACADEMY_MAP[pid], userData});
 });
 
 app.get('/test/:pid', (req, res, next) => {

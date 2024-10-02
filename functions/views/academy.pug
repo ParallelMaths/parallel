@@ -1,0 +1,60 @@
+extends _layout
+
+block content
+  header(style=`background-image: url('/resources/${pid}/header.jpg')`)
+    h1
+      em Academy Homework
+      | #{page.title}
+
+  if !user
+    .status-banner This is a preview of Parallel. You have to login or #[a(href="/signup") create an account], to be able to answer questions and submit answers.
+  if user && userData.submitted
+    .score.wide
+      p.large Submitted!
+      p Scroll down for answers, explanations and your score. If you made a mistake, find out why.
+
+  div(class=(userData.submitted ? 'submitted' : ''))!= body
+
+  if user
+    if userData.submitted
+      div(class='score ' + scoreClass(userData.answers.score || 0))
+        p.large Score: #{userData.answers.score || 0}%
+        p #{userData.answers.points}/#{userData.answers.total} marks
+        if page.scoreFactor
+          p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
+    else
+      button#submit(v-on:click="c.submit") Submit Answers
+
+  if userData.submitted && userData.isTeacher
+    div
+      button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
+
+  script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
+  script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
+
+
+//- svg(style="display: none")
+  defs
+    polygon#star(points="19.8,2.2,6.6,43.56,39.6,17.16,0,17.16,33,43.56")
+
+//- mixin stars(label)
+  for i in [1,2,3,4,5]
+    svg(width=40 height=42 v-bind:class="{active:" + i + "&&" + i +"<=answers." + label + "}" v-on:click="answers." + label + "=" + i): use(href="#star")
+
+//- table
+  tr
+    td Too easy
+    td: +stars('difficulty')
+    td Too difficult
+  tr
+    td Too short
+    td: +stars('length')
+    td Too long
+  tr
+    td Horrible
+    td: +stars('fun')
+    td Lots of fun
+  tr
+    td Very boring
+    td: +stars('interesting')
+    td Very interesting
