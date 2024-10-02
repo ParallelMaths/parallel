@@ -1,6 +1,8 @@
 # Euclid Module 4 Week 2 Homework
 
-These homework problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+These homework problems relate to a recent theme you have been covering with your tutor.   
+
+They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
 The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
 
@@ -15,7 +17,86 @@ We will also be running a weekly drop-in homework help tutorial (look out for ou
 
 ## 1.
 ::: problem id=1_1 marks=2
-How many multiples of 15 are there between 1000 and 9000 inclusive?   
+How many numbers are in the list 1, 2, 3, ..., 765?   
+
+* [ ] 4
+* [ ] 763
+* [ ] 764
+* [x] 765
+* [ ] 766
+{.col-5}
+
+---
+
+765
+:::
+
+
+
+## 2.
+::: problem id=2_1 marks=2 
+How many numbers are in the list 123, 124, 125, ..., 456?   
+
+* [ ] 4
+* [ ] 333
+* [x] 334
+* [ ] 335
+* [ ] 336
+{.col-5}
+
+---
+
+456 − 123 + 1 = 334  
+
+Alternatively, subtracting 122 from each of the numbers in the list gives the new list 1, 2, 3, ..., 334 and this list clearly consists of 334 numbers. 
+:::
+
+
+
+## 3.
+::: problem id=3_1 marks=2
+How many numbers are in the list −150, −149, −148, ..., 55?     
+
+* [ ] 4
+* [ ] 100
+* [ ] 205
+* [x] 206
+* [ ] 207
+
+---
+
+55 − −150 + 1 = 206
+
+Alternatively, adding 151 to each of the numbers in the list gives the new list 1, 2, 3, ..., 206 and this list clearly consists of 206 numbers. 
+:::
+
+
+
+## 4.
+::: problem id=4_1 marks=2
+If `a` is a positive integer, how many positive integers are in the list below (in terms of `a`)?  
+
+`a`, `a + 1`, `a + 2`, ..., `5a − 1`, `5a`  
+
+* [ ] `4a`
+* [x] `4a + 1`
+* [ ] `4a - 1`
+* [ ] `6a`
+* [ ] `6a + 1`
+{.col-5}
+
+---
+
+`5a − a + 1 = 4a + 1`  
+
+Alternatively, subtracting `a − 1` from each of the numbers in the list gives the new list 1, 2, 3, ..., `4a + 1` and this list clearly consists of `4a + 1` numbers.  
+:::
+
+
+
+## 5.
+::: problem id=5_1 marks=2
+How many multiples of 15 are there between 1000 and 9000 inclusive?     
 
 * [ ] 535
 * [x] 534
@@ -24,84 +105,57 @@ How many multiples of 15 are there between 1000 and 9000 inclusive?
 * [ ] 531
 {.col-5}
 
----
+^^^ hint id=5_1_1 marks=1
+For this problem, it will be helpful to remember the divisibility tests for 3 and 5.  
 
-Writing them as a list we have 1005, 1020, 1035,…, 9960, 9975, 9000.  
+We could write down a list which contains all the multiples of 15 in the given interval.  
 
-This means that after the first number in the list, there must be `(9000−1005)/15 = 533` numbers in the list.  
+There are too many to do this quickly and so instead just write down the first three and the last three.   
 
-If we include the first number in the list, we must have 534 numbers in the list and so there are 534 multiples of 15 between 1000 and 9000 inclusive.  
-:::
-
-
-## 2.
-::: problem id=2_1 marks=2
-How many numbers are in the list `5 1/5`, `6 2/5`, `7 3/5`, …, 124?   
-
-* [ ] 98
-* [ ] 99
-* [x] 100
-* [ ] 101
-* [ ] 102
-{.col-5}
+You can then count how many numbers should be in the full list using a method discussed during tutorials.  
+^^^
 
 ---
 
-The list can be rewritten as `26/5`, `32/5`, `38/5`, ..., `620/5`.   
+Writing them as a list we have 1005, 1020, 1035, ...,  9960, 9975, 9000.  
 
-We can now concentrate on the numerators only, which are increasing by 6 each time.  
+This means that after the first number in the list, there must be (9000−1005)/15=533 numbers in the list.  
 
-The list 26, 32, 38, ... , 620 has `(620−26)/6 + 1 = 100` numbers in it.  
-
-This means there are 100 numbers in our list.  
+If we include the first number in the list, we must have 534 numbers in the list and so there are 534 multiples of 15 between 1000 and 9000 inclusive. 
 :::
 
 
-## 3.
-::: problem id=3_1 marks=2
+## 6.
+::: problem id=6_1 marks=2
+![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
 Alice writes down a list of 245 consecutive positive integers.  
 
 For her list she calculates how many of the numbers are multiples of 8.  
 
-What are the only possibilities for the answer she could have got?     
+What are the only possibilities for the answer she could have got?  
 
 * [ ] 30
 * [ ] 31
 * [ ] 29 or 30
 * [x] 30 or 31
 * [ ] 29 or 30 or 31
+{.col-5}
+
+^^^ hint id=6_1_1 marks=1
+Try this problem with smaller numbers, for example replace ‘245’ with 10 and ‘8’ with 3.  
+
+Next, try a selection of sets of 10 consecutive positive integers and calculate how many multiples of 3 there are.  
+
+Try and apply what you find out to the original problem.  
+
+You may find the following numerical fact useful 245 = 30 × 8 + 5.
+^^^
 
 ---
 
-`245 = 30 × 8 + 5` and so the list of numbers can be broken down into thirty smaller lists of eight consecutive numbers and a final list consisting of the last five numbers.  
+245 = 30 × 8 + 5, and so the list of numbers can be broken down into thirty smaller lists of eight consecutive numbers and a final list consisting of the last five numbers.  
 
 Each smaller list of eight consecutive numbers will have one multiple of 8 and the final list can have one or none.  
 
-This means the only possibilities for the number of multiples of 8 are 30 or 31.  
-:::
-
-
-## 4.
-::: problem id=4_1 marks=2
-![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-How many numbers are from 1000 to 10000 (inclusive) are not multiples of 2 or 3?    
-
-* [ ] 1499
-* [ ] 1500
-* [ ] 2999
-* [x] 3000
-* [ ] 3001
-{.col-5}
-
----
-
-Let us ignore the first number (as it is a multiple of 2) and instead consider the list 1001, 1002, 1003, ... , 10000.  
-
-This can be split up into 1500 non-overlapping lists of six consecutive numbers, the first of which would be 1001, 1003, ... , 1007.
-
-In this first smaller list, there are only two numbers which are not multiples of 2 or 3. This will also be true for all the other lists of six consecutive numbers too.  
-
-This is because if we add six to any number in one list it will yield a number in the next list, and we would not have changed whether it is a multiple of 2 or 3 (think carefully about this step).  
-
-This means that in our adjusted list `2/6 × (10000 − 1001 + 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.
+This means the only possibilities for the number of multiples of 8 are 30 or 31.
 :::
