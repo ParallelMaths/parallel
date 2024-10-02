@@ -54,13 +54,13 @@ for (let [i, p] of PAGES['test'].entries()) {
   }
 }
 
-const ACADEMY_MAP = {};
-for (let [i, p] of PAGES['academy'].entries()) {
+const HOMEWORK_MAP = {};
+for (let [i, p] of PAGES['homework'].entries()) {
   const available = new Date(p.available);
   const now = Date.now();
 
   if(available < now) {
-    ACADEMY_MAP[p.url] = p;
+    HOMEWORK_MAP[p.url] = p;
   }
 }
 
@@ -658,9 +658,9 @@ app.get('/:pid', (req, res, next) => {
   res.render('parallelogram', {pid, body, page: PAGES_MAP[pid], userData});
 });
 
-app.get('/academy/:pid', (req, res, next) => {
+app.get('/homework/:pid', (req, res, next) => {
   const pid = req.params.pid;
-  if (!ACADEMY_MAP[pid]) return next();
+  if (!HOMEWORK_MAP[pid]) return next();
 
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
       .toString().replace(/<h1.*<\/h1>/, '');
@@ -673,7 +673,7 @@ app.get('/academy/:pid', (req, res, next) => {
     isTeacher: !!req.user?.code,
   };
 
-  res.render('academy', {pid, body, page: ACADEMY_MAP[pid], userData});
+  res.render('homework', {pid, body, page: HOMEWORK_MAP[pid], userData});
 });
 
 app.get('/test/:pid', (req, res, next) => {
