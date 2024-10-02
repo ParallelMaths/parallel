@@ -357,7 +357,7 @@ app.get('/api/parallelogram/all/:pid', async (req, res) => {
   });
 });
 
-app.get('/api/parallelogram/:pid', async (req, res) => {
+const parallelogramHandler = async (req, res) => {
   const token = req.headers['parallel-token'];
   const pid = req.params.pid;
   try {
@@ -381,7 +381,10 @@ app.get('/api/parallelogram/:pid', async (req, res) => {
   } catch (error) {
     return res.status(500).send({ error: error.code || 'Unknown error' });
   }
-});
+}
+
+app.get('/api/parallelogram/:type/:pid', parallelogramHandler);
+app.get('/api/parallelogram/:pid', parallelogramHandler);
 
 app.get('/api/reset-show-message', async (req, res) => {
   if (!req.user) return error(res, 401);
