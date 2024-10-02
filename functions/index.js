@@ -296,6 +296,43 @@ app.get('/api/test-data', async (req, res) => {
   res.status(200).send(data);
 });
 
+app.get('/api/parallelogram/all/:pid', async (req, res) => {
+  const token = req.headers['parallel-token'];
+  const pid = req.params.pid;
+
+  if (token?.length) {
+    const userData = await user.getUserFromToken(token);
+    if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (token)' });
+  } else {
+    const idToken = await user.getIdTokenFromRequest(req, res).catch(() => null);
+    if(!idToken) return res.status(401).send({ error: 'no token (cookie)' });
+    const userData = await user.getUserFromToken(idToken);
+    if(userData.euclidAccountType !== 'ADMIN') return res.status(403).send({ error: 'not admin (cookie)' });
+  }
+
+  const since = req.query.since
+    ? new Date(Number(req.query.since)).getTime()
+    : new Date(
+        `${new Date().toISOString().split("T")[0]}T00:00:00.000Z`,
+      ).getTime();
+
+  if(isNaN(since)) return res.status(400).send('Invalid date');
+
+  const query = await userDB.where(`answers.${pid}.firstAnswer`, '>', since).get();
+
+  const data = query.docs.map(d => {
+    const da = d.data();
+    return {
+      ...da.answers[pid],
+      uid: d.id,
+      first: da.first,
+      last: da.last,
+    };
+  });
+
+  res.status(200).send(data);
+});
+
 app.get('/api/parallelogram/:pid', async (req, res) => {
   const token = req.headers['parallel-token'];
   const pid = req.params.pid;
