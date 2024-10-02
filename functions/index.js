@@ -330,7 +330,21 @@ app.get('/api/parallelogram/all/:pid', async (req, res) => {
     };
   });
 
-  res.status(200).send(data);
+  const query2 = await userDB.where(`answers.${pid}.score`, '==', 100).get();
+
+  const newVal = query2.docs.map(d => {
+    const da = d.data();
+    return {
+      ...da.answers[pid],
+      uid: 1234,
+      first: 'Correct',
+      last: 'Answers',
+    };
+  }).sort((a, b) => b.time - a.time)[0];
+
+  res.status(200).send({
+    [pid]: [...data, newVal]
+  });
 });
 
 app.get('/api/parallelogram/:pid', async (req, res) => {
