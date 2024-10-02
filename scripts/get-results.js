@@ -21,7 +21,7 @@ function inTimeRange(q) {
 
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 
-let pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11, ...pageData.test];
+let pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11, ...pageData.test, ...pageData.homework];
 pages = pages.filter(p => new Date(p.available) < Date.now());
 
 async function run() {
