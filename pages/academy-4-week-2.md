@@ -6,7 +6,7 @@ They are arranged in order of increasing difficulty and the final problem is muc
 
 The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
 
-Every question is worth 2 marks. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.  
+Every question is worth 2 marks. 
 
 Take your time, ensuring that you haven’t overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
 
@@ -106,16 +106,6 @@ How many multiples of 15 are there between 1000 and 9000 inclusive?
 * [ ] 531
 {.col-5}
 
-^^^ hint id=5_1_1 marks=1
-For this problem, it will be helpful to remember the divisibility tests for 3 and 5.  
-
-We could write down a list which contains all the multiples of 15 in the given interval.  
-
-There are too many to do this quickly and so instead just write down the first three and the last three.   
-
-You can then count how many numbers should be in the full list using a method discussed during tutorials.  
-^^^
-
 ---
 
 Writing them as a list we have 1005, 1020, 1035, ...,  9960, 9975, 9000.  
@@ -141,16 +131,6 @@ What are the only possibilities for the answer she could have got?
 * [x] 30 or 31
 * [ ] 29 or 30 or 31
 {.col-5}
-
-^^^ hint id=6_1_1 marks=1
-Try this problem with smaller numbers, for example replace ‘245’ with 10 and ‘8’ with 3.  
-
-Next, try a selection of sets of 10 consecutive positive integers and calculate how many multiples of 3 there are.  
-
-Try and apply what you find out to the original problem.  
-
-You may find the following numerical fact useful 245 = 30 × 8 + 5.
-^^^
 
 ---
 
