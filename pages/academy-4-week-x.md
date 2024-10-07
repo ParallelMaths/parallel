@@ -107,31 +107,3 @@ This is because if we add six to any number in one list it will yield a number i
 
 This means that in our adjusted list `2/6 × (10000 − 1001 + 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.
 :::
-
-
-
-
-
-^^^ hint id=5_1_1 marks=1
-For this problem, it will be helpful to remember the divisibility tests for 3 and 5.  
-
-We could write down a list which contains all the multiples of 15 in the given interval.  
-
-There are too many to do this quickly and so instead just write down the first three and the last three.   
-
-You can then count how many numbers should be in the full list using a method discussed during tutorials.  
-^^^
-
-
-
-
-
-^^^ hint id=6_1_1 marks=1
-Try this problem with smaller numbers, for example replace ‘245’ with 10 and ‘8’ with 3.  
-
-Next, try a selection of sets of 10 consecutive positive integers and calculate how many multiples of 3 there are.  
-
-Try and apply what you find out to the original problem.  
-
-You may find the following numerical fact useful 245 = 30 × 8 + 5.
-^^^

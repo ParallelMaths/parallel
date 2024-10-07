@@ -4,9 +4,9 @@ These homework problems relate to a recent theme you have been covering with you
 
 The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
 
-Every question is worth 2 marks. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.  
+Every question is worth 2 marks. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 
-Take your time, ensuring that you haven’t overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
+Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
 
 You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
 
@@ -31,7 +31,7 @@ This means if we include the first number in the list, we must have 749 numbers 
 
 ## 2.
 ::: problem id=2_1 marks=2  
-How many odd numbers are there from 949 to 1250 inclusive?       
+How many __odd__ numbers are there from 949 to 1250 inclusive?       
  
 <input type="number" solution="151"/>
 
@@ -47,9 +47,13 @@ This means if we include the first number in the list, we must have 151 numbers 
 
 ## 3.
 ::: problem id=3_1 marks=2
-How many numbers are in the list 5 1/5, 6 2/5, 7 3/5, ..., 124?  
+How many numbers are in the list `5 1/5`, `6 2/5`, `7 3/5`, ..., 124?  
 
 <input type="number" solution="100"/>  
+
+^^^ hint id=3_1_1 marks=1
+Rewrite the mixed numbers as improper fractions and consider only the numerators (as the denominators should all be the same).  
+^^^
 
 ---
 
@@ -71,6 +75,10 @@ How many numbers are in the list?
   
 <input type="number" solution="360"/> 
 
+^^^ hint id=4_1_1 marks=1
+Think about what happens to the numbers in the odd places (first, third, fifth, etc) and the even places(second, fourth, sixth, etc) separately. You can then focus on two separate lists, that taken together give the list in the question.
+^^^
+
 ---
 
 It will be useful to think about our list as being made up of two other lists. We can look at the odd placed numbers and the even placed number separately.  
@@ -90,7 +98,7 @@ In total, the original list has `180 + 180 = 360` numbers in it.
 ## 5.
 ::: problem id=5_1 marks=2
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-How many numbers from 1000 to 10000 (inclusive) are not multiples of 2 or 3?  
+How many numbers from 1000 to 10000 (inclusive) are __not__ multiples of 2 or 3?  
 
 * [ ] 1499
 * [ ] 1500
@@ -98,6 +106,14 @@ How many numbers from 1000 to 10000 (inclusive) are not multiples of 2 or 3?
 * [x] 3000
 * [ ] 3001
 {.col-5}
+
+^^^ hint id=5_1_1 marks=1
+Write down six consecutive positive integers and work out how many of them are not multiples of 2 or 3.  
+
+Do this again for another two sets of six consecutive positive integers.  
+
+Coincidence? Can you explain what is happening? Can you apply the result to the original problem?  
+^^^
 
 ---
 

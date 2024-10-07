@@ -109,21 +109,3 @@ Similarly, there will be an additional 26 integers for every non-zero `x` value.
 
 Therefore, the total number of three-digit integers less than 1000 have exactly two different digits in their representation is `9 + 9 × 26 = 243`.
 :::
-
-
-
-^^^ hint id=3_1_1 marks=1
-Rewrite the mixed numbers as improper fractions and consider only the numerators (as the denominators should all be the same).  
-^^^
-
-^^^ hint id=4_1_1 marks=1
-Think about what happens to the numbers in the odd places (first, third, fifth, etc) and the even places(second, fourth, sixth, etc) separately. You can then focus on two separate lists, that taken together give the list in the question.
-^^^
-
-^^^ hint id=5_1_1 marks=1
-Write down six consecutive positive integers and work out how many of them are not multiples of 2 or 3.  
-
-Do this again for another two sets of six consecutive positive integers.  
-
-Coincidence? Can you explain what is happening? Can you apply the result to the original problem?  
-^^^
