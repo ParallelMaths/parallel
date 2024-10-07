@@ -116,7 +116,7 @@ function calculateScore(answers, page) {
       score = marks * sumaze(answers[$i.dataset.value]) / 45;
     }
 
-    const $hints = $p.querySelectorAll('.show-hint');
+    const $hints = $p.querySelectorAll('.hint');
     for (let $h of $hints) {
       if (answers[$h.id]) score -= (+$h.dataset.marks || 0);
     }

@@ -100,9 +100,9 @@ md.use(markdwonContainer, 'hint', {
         data[split[0]] = split[1];
       }
 
-      return `<div id="hint-${data.id}" class="show-hint" data-marks="${data.marks || 1}" v-if="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
-      <div class="hint" v-if="c.answers['hint-${data.id}']">
-      <div class="hint-marks">–${data.marks || 1} mark</div>`;
+      return `<div class="show-hint" v-if="!c.answers['hint-${data.id}']" v-on:click="c.showHint('hint-${data.id}')">Show Hint (–${data.marks || 1} mark)</div>
+      <div class="hint" id="hint-${data.id}" data-marks="${data.marks || 1}" v-if="c.answers['hint-${data.id}']">
+      <div class="hint-marks">${data.marks || 1} mark</div>`;
     } else {
       return '</div>';
     }
