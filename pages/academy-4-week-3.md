@@ -98,7 +98,7 @@ In total, the original list has `180 + 180 = 360` numbers in it.
 ## 5.
 ::: problem id=5_1 marks=2
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-How many numbers from 1000 to 10000 (inclusive) are __not__ multiples of 2 or 3?  
+How many numbers from 1000 to 10,000 (inclusive) are __not__ multiples of 2 or 3?  
 
 * [ ] 1499
 * [ ] 1500
@@ -119,11 +119,11 @@ Coincidence? Can you explain what is happening? Can you apply the result to the 
 
 Let us ignore the first number (as it is a multiple of 2) and instead consider the list 1001, 1002, 1003, ..., 10000.  
 
-This can be split up into 1500 non-overlapping lists of six consecutive numbers, the first of which would be 1001, 1003, ..., 1007.  
+This can be split up into 1500 non-overlapping lists of six consecutive numbers, the first of which would be 1001, 1002, 1003, ..., 1006.  
 
 In this first smaller list, there are only two numbers which are not multiples of 2 or 3. This will also be true for all the other lists of six consecutive numbers too.  
 
 This is because if we add six to any number in one list it will yield a number in the next list, and we would not have changed whether it is a multiple of 2 or 3 (think carefully about this step).  
 
-This means that in our adjusted list `2/6 × (10000 - 1001 × 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.  
+This means that in our adjusted list `2/6 × (10000 - 1001 + 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.  
 :::
