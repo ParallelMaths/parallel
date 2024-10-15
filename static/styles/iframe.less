@@ -1,0 +1,31 @@
+// =============================================================================
+// In iframe page overrides
+// =============================================================================
+
+.insideIframe {
+    .headerWrapper, 
+    .intros,
+    .sidebar-circles-item,
+    .sidebar-field,
+    footer, #logo {
+        display: none;
+    }
+
+    @media (max-width: 720px) {
+        .headerWrapper {
+            display: block;
+        }
+    }
+
+    .sidebar {
+        margin-top: 0;
+    }
+
+    .sidebar-wrap {
+        top: 0;
+    }
+
+    #container {
+        max-width: 100%;
+    }
+}

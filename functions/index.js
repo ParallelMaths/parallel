@@ -108,6 +108,10 @@ app.use((req, res, next) => {
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
 
+  if (req.query.iframe) {
+    res.locals.insideIframe = true;
+  }
+
   for (let l of LEVELS) {
     res.locals.pages[l] =
         PAGES[l].filter(p => (res.locals.now >= p.available));

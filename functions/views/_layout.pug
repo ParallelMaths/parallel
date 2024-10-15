@@ -32,7 +32,7 @@ html
       include scripts/newrelic.html
 
   body
-    #vue
+    #vue(class=(insideIframe ? 'insideIframe' : ''))
       .headerWrapper
         .header
           if !sidebarDisabled
