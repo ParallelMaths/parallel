@@ -31,8 +31,8 @@ html
     if isProduction
       include scripts/newrelic.html
 
-  body
-    #vue(class=(insideIframe ? 'insideIframe' : ''))
+  body(class=(insideIframe ? 'insideIframe' : ''))
+    #vue
       .headerWrapper
         .header
           if !sidebarDisabled
