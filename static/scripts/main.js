@@ -73,6 +73,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  if (window.self !== window.top) {
+    document.body.className = 'insideIframe'
+  }
+
   window.app = new Vue({
     el: '#vue',
     components: {VueTagsInput: window.vueTagsInput.default},
