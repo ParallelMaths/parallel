@@ -110,7 +110,7 @@ In fact, there are there `(8 × 7)/2 = 28` different pairs because the previous 
 
 
 ## 6.
-::: problem id=4_1 marks=2
+::: problem id=6_1 marks=2
 For an upcoming Davis Cup tennis match, Team GB need to select two pairs of tennis players to compete in an international doubles match.  
 
 If there are 8 players to chose from, in how many different ways can two pairs be selected?  
