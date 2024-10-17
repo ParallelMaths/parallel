@@ -36,7 +36,15 @@ mi { font-style: italic; line-height: .9; }
 mi + mi, mn + mtext { margin-left: .05em; }
 
 mo { margin: 0 .3em; }
+
+// Meant to target only minus numbers, but also affects subtraction operators
 mo[value="−"] { margin: 0; }
+
+// Remove spacing around marked letters e.g. A'
+mo[value="’"] { margin: 0; }
+
+// Remove spacing around degree symbol
+mo[value="°"] { margin: 0; }
 
 mo + mo { margin-left: 0 ; }
 
