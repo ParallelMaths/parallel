@@ -15,7 +15,7 @@ We will also be running a weekly drop-in homework help tutorial (look out for ou
 
 ## 1.
 ::: problem id=1_1 marks=2
-How many (positive) __even__ numbers are there __less__ than 1500?  
+How many (positive) _even_ numbers are there less than 1500?  
 
 <input type="number" solution="749"/>  
 
@@ -25,7 +25,7 @@ Writing them as a list we have 2, 4, 6, ..., 1496, 1498.
 
 To get from 2 to 1498 we must add `1498 − 2 = 1496` and each number in the list differs from the previous by 2. This means that after the first number in the list, there must be `1496/2 = 748` numbers in the list.  
 
-This means if we include the first number in the list, we must have 749 numbers in the list and so there are __749__ even numbers less than 1500.  
+This means if we include the first number in the list, we must have 749 numbers in the list and so there are 749 even numbers less than 1500.  
 :::
 
 
@@ -41,7 +41,7 @@ Writing them as a list we have 949, 951, 953, ...,  1245, 1247, 1249.
 
 To get from 949 to 1249 we must add `1249 − 949 = 300` and each number in the list differs from the previous by 2. This means that after the first number in the list, there must be `300/2 = 150` numbers in the list.  
 
-This means if we include the first number in the list, we must have 151 numbers in the list and so there are __151__ odd numbers from 949 to 1250 inclusive.  
+This means if we include the first number in the list, we must have 151 numbers in the list and so there are 151 odd numbers from 949 to 1250 inclusive.  
 :::
 
 
@@ -98,7 +98,7 @@ In total, the original list has `180 + 180 = 360` numbers in it.
 ## 5.
 ::: problem id=5_1 marks=2
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-How many numbers from 1000 to 10,000 (inclusive) are __not__ multiples of 2 or 3?  
+How many numbers from 1000 to 10,000 (inclusive) are not multiples of 2 or 3?  
 
 * [ ] 1499
 * [ ] 1500
@@ -125,5 +125,5 @@ In this first smaller list, there are only two numbers which are not multiples o
 
 This is because if we add six to any number in one list it will yield a number in the next list, and we would not have changed whether it is a multiple of 2 or 3 (think carefully about this step).  
 
-This means that in our adjusted list `2/6 × (10000 - 1001 + 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.  
+This means that in our adjusted list `2/6 × (10000 − 1001 + 1) = 3000` numbers are not multiples of 2 or 3 and because the number we ignored, 1000, is even then our final answer is 3000.  
 :::

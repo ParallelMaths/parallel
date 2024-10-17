@@ -1,4 +1,4 @@
-# Euclid Module 4 Week 4 Homework
+# Euclid Module 4 Week 5 Homework
 
 These homework problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
@@ -47,7 +47,7 @@ In total, that is `8 × 7 × 6 = 336` ways of awading the medals.
 
 ## 3.
 ::: problem id=3_1 marks=2
-A password consists of _two_ capital letters from A to J followed by _two_ digits from 0 to 4 (repetitions not allowed).  
+A password consists of **two** capital letter from A to J followed by __two__ digits from 0 to 4 (repetitions __not__ allowed).  
 
 How many different passwords are possible?  
 
@@ -71,9 +71,9 @@ This means there are `10 × 9 × 5 × 4 = 1800` possible passwords.
 
 ## 4.
 ::: problem id=4_1 marks=2
-A password consists of _one_ capital letter from A to J followed by _three_ digits from 0 to 5 (repetitions not allowed).  
+A password consists of __one__ capital letter from A to J followed by __three__ digits from 0 to 5 (repetitions __not__ allowed).  
 
-How many different passwords are possible if the _last_ digit must be _odd_?  
+How many different passwords are possible if the __last__ digit must be __odd__?  
   
 <input type="number" solution="600"/>  
 
@@ -105,15 +105,15 @@ The order in which a pair is chosen is not important, and so AB and BA should be
 ---
 There are 8 choices for the first player and 7 choices for the second player and so we may think that there are `8 × 7 = 56` different pairs.  
 
-In fact, there are there `(8 × 7)/2 = 28` different pairs because the previous calculation would count each pair twice.  
+In fact, there are there `(8×7)/2=__28__ different pairs because the previous calculation would count each pair twice.  
 :::
 
 
 ## 6.
 ::: problem id=4_1 marks=2
-For an upcoming Davis Cup tennis match, Team GB need to select two pairs of tennis players to compete in an international doubles match.  
+For an upcoming Davis Cup tennis match, Team GB need to select __two__ pairs of tennis players to compete in an international doubles match.  
 
-If there are 8 players to chose from, in how many different ways can two pairs be selected?  
+If there are 8 players to chose from, in how many different ways can __two__ pairs be selected?  
   
 <input type="number" solution="210"/> 
 
@@ -128,7 +128,7 @@ From the previous question we know that there are 28 ways to select the first pa
 
 Using a similar argument, there will be `(6 × 5)/2 = 15` ways to pick the second pair.  
 
-We may think that there are then `28 × 15 = 420` ways to pick the two pairs, but this overcounts by a factor of two.  
+We may think that there are then `28 × 15= 420` ways to pick the two pairs, but this overcounts by a factor of two.  
 
 This is because if the two pairs were denoted AB and CD, we could have chosen the pair AB first or second.  
 
@@ -151,7 +151,7 @@ How many different three-digit numbers can she make?
 <input type="number" solution="63"/> 
 
 ^^^ hint id=7_1_1 marks=1
-Pretend that Ada has three tiles with the digit 2 written on them and then adjust accordingly at the end.  
+ Pretend that Ada has three tiles with the digit 2 written on them and then adjust accordingly at the end.  
 ^^^
 
 ---
@@ -160,5 +160,5 @@ It will be helpful to pretend that Ada has three tiles with the digit 2 written 
 
 Of course, Ada does not have three tiles with a digit 2 written on, so we must consider which of these 64 three-digit numbers cannot be made. The only one that uses the digit 2 more than twice is 222.  
 
-This means Ada can make 63 different three-digit numbers.  
+This means Ada can make __63__ different three-digit numbers.  
 :::

@@ -1030,13 +1030,13 @@ year11:
 homework:
   - url: academy-4-week-2
     title: Parallel Academy Module 4 Week 2
-    available: 2024-10-02T12:00:00
+    available: 2024-10-03T12:00:00
   - url: academy-4-week-3
     title: Parallel Academy Module 4 Week 3
-    available: 2024-10-07T09:00:00
+    available: 2024-10-10T09:00:00
   - url: academy-4-week-4
     title: Parallel Academy Module 4 Week 4
-    available: 2024-10-07T09:00:00
+    available: 2024-10-16T09:00:00
 
 test:
   - url: euclid-sample-test
@@ -1146,9 +1146,23 @@ test:
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
-    password: capsule
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: flash
+  - url: admissions-y7-2024-coreps
+    title: Year 7 Core Maths and Problem Solving
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: baker
+  - url: admissions-teachability
+    title: Year 7 Admissions Teachability Test 2024
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: roast
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

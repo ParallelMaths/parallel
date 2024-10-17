@@ -55,7 +55,7 @@ Positive square root of 121
 
 ## 7.
 ::: problem id=7_1 marks=1
-0.6 as a fraction in its simplest form
+0.6 as a fraction in its simplest form (use / when writing fractions)
 
 <input type="text" solution="3/5"/>  
 :::
@@ -127,7 +127,7 @@ Highest common factor of 84 and 36
 
 ## 16.
 ::: problem id=16_1 marks=1
-4/9 of 45
+`4/9` of 45 (use / when writing fractions)
 
 <input type="number" solution="20"/>  
 :::
@@ -159,7 +159,7 @@ Lowest common multiple of 24 and 18
 
 ## 20.
 ::: problem id=20_1 marks=1
-5/6 – 3/4 (simplest fraction)
+`5/6 – 3/4` (simplest fraction -  use / when writing fractions)
 
 <input type="text" solution="1/12"/>  
 :::
@@ -199,7 +199,7 @@ Mean of [2,4,6,8,15]
 
 ## 25.
 ::: problem id=25_1 marks=1
-1/3 of 3/8 as a simplest fraction
+`1/3` of `3/8` as a simplest fraction (use / when writing fractions)
 
 <input type="text" solution="1/8"/>  
 :::
