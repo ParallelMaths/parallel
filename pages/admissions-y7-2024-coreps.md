@@ -1,6 +1,6 @@
 # Year 7 Core Maths and Problem Solving
 
-* You have 30 minutes for this test.  
+* You have 25 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  
 * Answer every question - there are no negative marks for wrong answers.  
 * Use all the time available and DO NOT SUBMIT EARLY.  
@@ -28,8 +28,8 @@ If three of the angles in a quadrilateral are `64`°, `86`° and `125`°, what i
 
 * [ ] `55`°
 * [ ] `64`°
-* [ ] `85`°
-* [x] `125`°
+* [x] `85`°
+* [ ] `125`°
 * [ ] More information needed
 {.col-5}
 :::  
@@ -183,12 +183,7 @@ How many positive factors does `24` have?
 ::: problem id=13_1 marks=1
 How many different three-digit whole numbers can be formed using the digits `4, 7` and `9`, assuming that no digit can be repeated?  
 
-* [x] `6`
-* [ ] `3`
-* [ ] `5`
-* [ ] `12`
-* [ ] `9`
-{.col-5}  
+<input type="number" solution="6"/>
 :::
 
 
@@ -203,7 +198,7 @@ The total number of layers of paper in the folded sheet is
 * [ ] `16`
 * [x] `32`
 * [ ] `25`
-* [ ] `8`
+* [ ] `10`
 * [ ] `64`
 {.col-5}  
 :::
@@ -213,12 +208,7 @@ The total number of layers of paper in the folded sheet is
 ::: problem id=15_1 marks=1
 How many even whole numbers between `1` and `99` are multiples of `5`?  
 
-* [ ] `5`
-* [ ] `7`
-* [x] `9`
-* [ ] `11`
-* [ ] `13`
-{.col-5}  
+<input type="number" solution="9"/>
 :::
 
 
@@ -245,12 +235,7 @@ The mean (average) of a set of six numbers is `10`.
 
 When the number `25` is removed from the set, what is the mean of the remaining numbers?  
 
-* [ ] `6`
-* [x] `7`
-* [ ] `8`
-* [ ] `9`
-* [ ] `10`
-{.col-5}  
+<input type="number" solution="7"/>
 :::
 
 
