@@ -14,151 +14,164 @@ We will also be running a weekly drop-in homework help tutorial (look out for ou
 
 
 ## 1.
-::: problem id=1_1 marks=2
-Layla has three different pairs of sunglasses, four different backpacks and five different pairs of flip-flops.  
+::: problem id=1_1_1 marks=2
+__1.1.__ How many _three-digit_ numbers consist of only _odd_ digits?  
 
-If she wears one pair of sunglasses, one backpack and one pair of flip-flops to the beach, how many different combinations can she wear?  
-
-<input type="number" solution="60"/>  
+<input type="number" solution="125"/>  
 
 ---
 
-`3 × 4 × 5 = 60`
+`5 xx 5 xx 5 = 125`  
 :::
 
 
-## 2.
-::: problem id=2_1 marks=2  
-There are eight sprinters in the Olympic 100-meter sprint final.  
+::: problem id=1_2_1 marks=2  
+__1.2.__ How many _three-digit_ numbers consist of only _odd_ digits, each of which are _distinct_ (different)?  
 
-After the race, the gold medal goes to first place, silver to second, and bronze to third.  
-
-In how many different ways can the medals be awarded?  
+`135` is such a three-digit number.  
  
-<input type="number" solution="336"/>
+<input type="number" solution="60"/>
 
 ---
 
-There are eight choices for who wins the gold medal, then seven choices of who wins the silver and finally six choices for who wins bronze.  
+For the first digit there are `5` choices (1, 3, 5, 7, 9), for the second digit there are `4` choices and for the third digit there are `3` choices.  
 
-In total, that is `8 × 7 × 6 = 336` ways of awading the medals.
+This means there are `3 xx 4 xx 5 = 60` such three-digit numbers.  
 :::
 
 
-## 3.
-::: problem id=3_1 marks=2
-A password consists of **two** capital letter from A to J followed by __two__ digits from 0 to 4 (repetitions __not__ allowed).  
+::: problem id=1_3_1 marks=2
+__1.3.__ How many _three-digit_ numbers have all three digits _distinct_ (different), do not contain a zero digit and are _odd_?  
 
-How many different passwords are possible?  
+`123` is such a three-digit number.  
+ 
+<input type="number" solution="280"/>  
 
-<input type="number" solution="1800"/>  
-
-^^^ hint id=3_1_1 marks=1
-How many choices are there for the letter?  
-
-How many choices for the first digit?  
-
-How many choices for the second digit (which cannot be the same as the first)?  
+^^^ hint id=1_3_1 marks=1
+It is easier to think about forming the number in reverse.  
 ^^^
 
 ---
 
-There are 10 choices for the first letter, 9 choices for the second letter, 5 choices for the first digit and 4 choices for the final digit.  
+It is easiest to think about constructing the number starting with the units digit because that has the extra constraint that it must be odd (for the three-digit number to be odd).  
 
-This means there are `10 × 9 × 5 × 4 = 1800` possible passwords.  
+For the third digit there are `5` choices (the odd digits), for the second digit there are `8` choices (any non-zero digit but the one already chosen) and for the third digit there are `7` choices (any digit but the two already chosen).  
+
+This means there are `5 xx 8 xx 7 = 280` such three-digit numbers.  
+:::
+
+
+## 2.
+::: problem id=2_1 marks=2
+A bag contains 3 white balls, 5 red balls and 7 green balls.  
+ 
+A selection of balls is made.  
+ 
+Of all the selections of balls that could be made, how many contain an odd number of red balls?  
+
+<input type="number" solution="96"/> 
+
+^^^ hint id=2_1_1 marks=1
+Focus on how many of each colour could be chosen.  
+ 
+For example, for white we could choose 0, 1, 2, or 3 balls giving four choices.  
+
+How many choices are there for the other colours?  
+ 
+What is the relevant product?  
+^^^
+
+---
+
+There are three choices for the number of reds that could be selected (1, 3 or 5), four choices for the number of whites (0 to 3) and eight choices for the number of greens (0 to 7).  
+
+This means there are `3 xx 4 xx 8 = 96 different selections.  
+
+(There is no need to subtract one because we always have at least one red ball.)
+:::
+
+
+## 3.
+::: problem id=3_1_1 marks=2
+__3.1.__ A maths club wants to assign three positions to three _different_ attendees.  
+
+At this club, 5 students are female and 3 are male.  
+
+These positions are Arbiter of Algebra, Chief of Calculations and General of Geometry.  
+
+If there are no restrictions on who can take on which role, in how many different ways can the roles be assigned?  
+
+<input type="number" solution="336"/> 
+
+^^^ hint id=3_1_1 marks=1
+The order here is important because each student chosen could take on any of the three roles.  
+^^^
+
+---
+
+There are `8` choices for who could be Arbiter of Algebra, then `7` choices for who could be Chief of Calculations and finally `6` choices for who could be General of Geometry.  
+
+This means there are `8 xx 7 xx 6 = 336` different ways to assign the roles.  
+:::
+
+
+::: problem id=3_2_1 marks=2
+__3.2.__ A maths club wants to choose three of its students to participate in a mathematical team competition.  
+ 
+At this club, `5` students are female and `3` are male.  
+
+If there are no restrictions on who can be part of the team, how many different triples of students can be chosen to compete in the mathematical relay?  
+
+<input type="number" solution="56"/> 
+
+^^^ hint id=3_2_1 marks=1
+Call the three chosen students A, B and C.  
+
+They could be selected as ABC or CBA or in a few other orders.  
+
+How many different orders are possible?  
+
+How could you use the answer to the previous problem here?  
+^^^
+
+---
+
+There are `8` choices for the first student, `7` choices for the second student and `6` choices for the final student.  
+
+We may think that there are `8 xx 7 xx 6 = 336` different triples of students.  
+
+In fact, there are `(8 xx 7 xx 6)/6 = 56` different triples because the previous calculation would count each triple six times.  
+
+This is because if we label the chosen students A, B and C, we could have chosen them in several different orders.  
+ 
+There are six possible orders: ABC, ACB, BAC, BCA, CAB and CBA (there are `3 xx 2 xx 1 = 6` different orders).
 :::
 
 
 ## 4.
 ::: problem id=4_1 marks=2
-A password consists of __one__ capital letter from A to J followed by __three__ digits from 0 to 5 (repetitions __not__ allowed).  
+![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
+How many three-digit numbers use _exactly_ two different digits (for example `100` or `266`)?
 
-How many different passwords are possible if the __last__ digit must be __odd__?  
-  
-<input type="number" solution="600"/>  
+<input type="number" solution="243"/> 
 
 ^^^ hint id=4_1_1 marks=1
-It is easier to think about forming the password in reverse.  
-^^^
+Think about what happens if 0 is the repeated digit.  
 
----
-It is easiest to think about creating the password in reverse.  
+If the repeated digit is non-zero, where can it be repeated?  
 
-There are 3 choices for the odd digit at the end (1,3,5), then 5 choices for the digit before that (anything from 0 to 5 other than the odd digit just chosen), then 4 choices for the digit before that and finally 10 choices for the letter.  
-
-This means there are `3 × 5 × 4 × 10 = 600` possible passwords ending with an odd digit.  
-:::
-
-
-## 5.
-::: problem id=5_1 marks=2
-For an upcoming Davis Cup tennis match, Team GB need to select one pair of tennis players to compete in an international doubles match.  
-
-If there are 8 players to chose from, how many different pairs could be selected?  
-  
-<input type="number" solution="28"/> 
-
-^^^ hint id=5_1_1 marks=1
-The order in which a pair is chosen is not important, and so AB and BA should be considered the same.  
-^^^
-
----
-There are 8 choices for the first player and 7 choices for the second player and so we may think that there are `8 × 7 = 56` different pairs.  
-
-In fact, there are there `(8×7)/2=__28__ different pairs because the previous calculation would count each pair twice.  
-:::
-
-
-## 6.
-::: problem id=4_1 marks=2
-For an upcoming Davis Cup tennis match, Team GB need to select __two__ pairs of tennis players to compete in an international doubles match.  
-
-If there are 8 players to chose from, in how many different ways can __two__ pairs be selected?  
-  
-<input type="number" solution="210"/> 
-
-^^^ hint id=6_1_1 marks=1
-The order in which a pair is chosen is not important, and so AB and BA should be considered the same.  
-
-The order in which the two pairs are chosen is not important either. For example, if we chose the pairs AB and CD either pair could have been chosen first.  
-^^^
-
----
-From the previous question we know that there are 28 ways to select the first pair.  
-
-Using a similar argument, there will be `(6 × 5)/2 = 15` ways to pick the second pair.  
-
-We may think that there are then `28 × 15= 420` ways to pick the two pairs, but this overcounts by a factor of two.  
-
-This is because if the two pairs were denoted AB and CD, we could have chosen the pair AB first or second.  
-
-This means that there are `(28 × 15)/2 = 210` ways to select the two pairs.  
-:::
-
-## 7.
-::: problem id=7_1 marks=2
-![](/resources/academy-4-week-2/4-skull.png){image align="right"} 
-Ada has a collection of tiles, each of which has a single digit written on it.  
-
-There are five tiles with the digit 5, four tiles with the digit 4, three tiles with the digit 3 and finally two tiles with the digit 2 written on them.  
-
-She puts three tiles side by side to make a three-digit number.  
-
-For example, three tiles with 5, 4 and 3 written on them could make 543 or 345 (these are not the only possibilities).  
-
-How many different three-digit numbers can she make?  
-
-<input type="number" solution="63"/> 
-
-^^^ hint id=7_1_1 marks=1
- Pretend that Ada has three tiles with the digit 2 written on them and then adjust accordingly at the end.  
+Watch out for accidently counting numbers starting with a `0`.  
 ^^^
 
 ---
 
-It will be helpful to pretend that Ada has three tiles with the digit 2 written on them. This makes the problem rather straight forward because we now have four choices for each of the three-digits (2, 3, 4 or 5). This means `4 × 4 × 4 = 4^3 = 64` three digit numbers could be made.  
+There are nine integers with two zeroes, i.e. `100`, `200`, ..., `800` and `900`.  
 
-Of course, Ada does not have three tiles with a digit 2 written on, so we must consider which of these 64 three-digit numbers cannot be made. The only one that uses the digit 2 more than twice is 222.  
+When the repeated digit is non-zero, the integers have the form `'xxy'`, `'xyx'` or `'yxx'`.  
 
-This means Ada can make __63__ different three-digit numbers.  
+If `x = 1`, `y` can be `0`, `2`, `3`, `4`, `5`, `6`, `7`, `8` or `9`, although we must ignore `011` as this is a two-digit number.  
+
+This gives `26` different integers.  
+
+Similarly, there will be an additional `26` integers for every non-zero value of `x`. Therefore, the total number of three-digit integers that have exactly two different digits is `9 + 9 xx 26 = 243`.  
 :::
