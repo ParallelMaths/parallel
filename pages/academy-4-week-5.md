@@ -36,7 +36,7 @@ __1.2.__ How many _three-digit_ numbers consist of only _odd_ digits, each of wh
 
 For the first digit there are `5` choices (1, 3, 5, 7, 9), for the second digit there are `4` choices and for the third digit there are `3` choices.  
 
-This means there are `3 xx 4 xx 5 = 60` such three-digit numbers.  
+This means there are `5 xx 4 xx 3 = 60` such three-digit numbers.  
 :::
 
 
@@ -85,7 +85,7 @@ What is the relevant product?
 
 There are three choices for the number of reds that could be selected (1, 3 or 5), four choices for the number of whites (0 to 3) and eight choices for the number of greens (0 to 7).  
 
-This means there are `3 xx 4 xx 8 = 96 different selections.  
+This means there are `3 xx 4 xx 8 = 96` different selections.  
 
 (There is no need to subtract one because we always have at least one red ball.)
 :::
@@ -169,7 +169,7 @@ There are nine integers with two zeroes, i.e. `100`, `200`, ..., `800` and `900`
 
 When the repeated digit is non-zero, the integers have the form `'xxy'`, `'xyx'` or `'yxx'`.  
 
-If `x = 1`, `y` can be `0`, `2`, `3`, `4`, `5`, `6`, `7`, `8` or `9`, although we must ignore `011` as this is a two-digit number.  
+If `x = 1`, `y` can be `0`, `2`, `3`, `4`, `5`, `6`, `7`, `8` or `9`, although we must ignore `011` as this is a two-digit number (the string 011 represents the two-digit number `011`).  
 
 This gives `26` different integers.  
 

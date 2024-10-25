@@ -75,12 +75,7 @@ If `a` is a whole number, how may whole numbers are in the list below (in terms 
 ::: problem id=8_1 marks=1
 How many multiples of `9` are there between `50` and `600` inclusive?  
 
-* [ ] `58`
-* [ ] `59`
-* [ ] `60`
-* [x] `61`
-* [ ] `62`
-{.col-5}
+<input type="number" solution="61"/>
 :::
 
 

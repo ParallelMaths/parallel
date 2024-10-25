@@ -39,12 +39,7 @@ If three of the angles in a quadrilateral are `64`°, `86`° and `125`°, what i
 ::: problem id=3_1 marks=1
 How many cm is `4.5` km?  
 
-* [ ] `0.0045`
-* [ ] `450`
-* [ ] `4500`
-* [x] `450000`
-* [ ] `4500000`
-{.col-5}
+<input type="number" solution="450000"/>
 ::: 
 
 
@@ -55,28 +50,18 @@ How many of the following numbers are prime?
 `1, 11, 21, 31, 41, 51, 61, 71, 81`  
 {.text-center}
 
-* [ ] `3`
-* [ ] `4`
-* [x] `5`
-* [ ] `6`
-* [ ] `7`
-{.col-5}
+<input type="number" solution="5"/>
 :::
 
 
 ## 5.
 ::: problem id=5_1 marks=1
-How many of the follwing numbers are divisible by `9`?  
+How many of the following numbers are divisible by `9`?  
 
 `111, 222, 333, 444, 555, 666, 777, 888, 999`  
 {.text-center}
 
-* [ ] `0`
-* [ ] `1`
-* [ ] `2`
-* [x] `3`
-* [ ] `4`
-{.col-5}
+<input type="number" solution="3"/>
 :::
 
 
@@ -84,12 +69,7 @@ How many of the follwing numbers are divisible by `9`?
 ::: problem id=6_1 marks=1
 What number should be added to the set of numbers (`5, 6, 7, 8`) to give a mean of `7`?  
 
-* [ ] `6`
-* [ ] `7`
-* [ ] `8`
-* [x] `9`
-* [ ] `10`
-{.col-5}
+<input type="number" solution="9"/>
 :::
 
 
@@ -113,12 +93,7 @@ Exactly two of the below numbers are prime: which two?
 ::: problem id=8_1 marks=1
 The number of seconds in a day is equal to `2 xx 3 xx 4 xx 5 xx 6 xx T`, what is the value of `T`?  
 
-* [ ] `60`
-* [ ] `80`
-* [ ] `100`
-* [x] `120`
-* [ ] `140`
-{.col-5}
+<input type="number" solution="120"/>
 :::
 
 
@@ -140,12 +115,7 @@ How many of the following types of triangle can contain a right angle?
 _Scalene triangle, Isosceles triangle, Equilateral triangle, Acute triangle, Obtuse triangle_  
 {.text-center}
   
-* [ ] `0`
-* [ ] `1`
-* [x] `2`
-* [ ] `3`
-* [ ] `4`
-* [ ] `5`
+<input type="number" solution="2"/>
 :::
 
 
@@ -193,14 +163,9 @@ A piece of paper is folded in half, creating two layers of paper. The paper is f
 
 This is continued until the paper has been folded in half a total of five times.  
 
-The total number of layers of paper in the folded sheet is  
+What is the total number of layers of paper in the folded sheet?  
 
-* [ ] `16`
-* [x] `32`
-* [ ] `25`
-* [ ] `10`
-* [ ] `64`
-{.col-5}  
+<input type="number" solution="32"/>
 :::
 
 
@@ -220,11 +185,11 @@ In the `3 xx 3` table shown below, the numbers `1, 2` and `3` are placed so that
 
 What is the value of `X + Y`?
 
-* [ ] `3`
 * [ ] `2`
+* [ ] `3`
+* [x] `4`
 * [ ] `5`
 * [ ] `6`
-* [x] `4`
 {.col-5}  
 :::
 
