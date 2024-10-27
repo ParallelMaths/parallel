@@ -57,7 +57,7 @@ How many odd numbers are there from `349` to `750` inclusive?
 
 ## 7.
 ::: problem id=7_1 marks=1
-If `a` is a whole number, how may whole numbers are in the list below (in terms of `a`)?  
+If `a` is a whole number, how many whole numbers are in the list below (in terms of `a`)?  
 
 `a`, `a+1`, `a+2`,..., `4a` `-` `1`, `4a`  
 {.text-center}

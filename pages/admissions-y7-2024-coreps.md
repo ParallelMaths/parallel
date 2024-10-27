@@ -151,7 +151,9 @@ How many positive factors does `24` have?
 
 ## 13.
 ::: problem id=13_1 marks=1
-How many different three-digit whole numbers can be formed using the digits `4, 7` and `9`, assuming that no digit can be repeated?  
+How many different three-digit whole numbers can be formed by joining the digits `4, 7` and `9`, assuming no digit can be repeated?  
+
+For example, 479 is one such number.  
 
 <input type="number" solution="6"/>
 :::
