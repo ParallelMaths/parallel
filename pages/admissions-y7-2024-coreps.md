@@ -7,7 +7,7 @@
 * Afer you submit, stay in Zoom and await further instructions.  
  
 
-# Section 1: Core Maths
+# Section 1A: Core Maths
 
 ## 1.
 ::: problem id=1_1 marks=1
@@ -119,7 +119,7 @@ _Scalene triangle, Isosceles triangle, Equilateral triangle, Acute triangle, Obt
 :::
 
 
-# Section 2: Problem Solving
+# Section 1B: Problem Solving
 
 ## 11.
 ::: problem id=11_1 marks=1
