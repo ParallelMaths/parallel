@@ -1040,6 +1040,9 @@ homework:
   - url: academy-4-week-5
     title: Parallel Academy Module 4 Week 5
     available: 2024-10-22T09:00:00
+  - url: academy-4-week-6
+    title: Parallel Academy Module 4 Week 6
+    available: 2024-10-22T09:00:00
 
 test:
   - url: euclid-sample-test
@@ -1151,21 +1154,21 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: brain
+    password: pound
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: swamp
+    password: pasta
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: grunt
+    password: crisp
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
