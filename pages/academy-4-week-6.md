@@ -27,7 +27,7 @@ There are only two possibilities: either one letter is used or two letters are u
 
 One-Letter Passwords: We have `5` choices for the letter used, then `3` choices for each of the two digits. This gives `5 × 3 × 3 = 45` possibilities.  
 
-However, we must remember that the single letter can be placed in one of three available positions and so we again multiply by `3` to get `3 × 45 = 135` one-letter passwords.  
+However, we must remember that the single letter can be placed in one of three available positions and so we again multiply by `3` to get `45 × 3 = 135` one-letter passwords.  
 
 Two-Letter Passwords: We have `5` choices for each of the two letters used, then `3` choices for the remaining digit.  
 
@@ -46,7 +46,7 @@ How many positive integers less than `1000` contain exactly two `3`s in their di
 ^^^ hint id=2_1_1 marks=1
 The cases to consider could be where the two digit `3`s appear (giving three cases).  
 
-It will be helpful to denote positive integers below `1000` with leading zeroes where necessary, so that `3` and `33` appear as `003` and `033`.  
+It will be helpful to denote positive integers below `1000` with leading zeroes where necessary, so that, for example, `3` and `33` appear as 003 and 033.  
 ^^^
 
 ---
