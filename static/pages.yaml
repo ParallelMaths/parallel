@@ -1036,12 +1036,15 @@ homework:
     available: 2024-10-10T09:00:00
   - url: academy-4-week-4
     title: Parallel Academy Module 4 Week 4
-    available: 2024-10-16T09:00:00
+    available: 2024-10-17T09:00:00
   - url: academy-4-week-5
     title: Parallel Academy Module 4 Week 5
-    available: 2024-10-22T09:00:00
+    available: 2024-10-24T09:00:00
   - url: academy-4-week-6
     title: Parallel Academy Module 4 Week 6
+    available: 2024-10-31T09:00:00
+  - url: academy-4-week-8
+    title: Parallel Academy Module 4 Week 8
     available: 2024-10-22T09:00:00
 
 test:
@@ -1148,27 +1151,27 @@ test:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: capsule
-  - url: mental-maths
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-10T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: pound
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: pasta
+    password: bagel
+  - url: mental-maths
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: beans
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: crisp
+    password: bacon
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
