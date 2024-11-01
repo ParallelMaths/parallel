@@ -88,17 +88,17 @@ The different cases to consider could be the possible sizes of such squares.
 ---
 We will consider the different possible sizes of square from largest to smallest.
 
-1 by 1 squares: We can see that the pictured 1x1 square can be shifted along a row into one of four positions and down a column into one of four positions.  
+1 by 1 squares: We can see that the pictured 1 by 1 square can be shifted along a row into one of four positions and down a column into one of four positions.  
 
-This means there are 4×4=16 different positions for the pictured square.  
+This means there are `4 × 4 = 16` different positions for the pictured square.  
 
 ![](/resources/academy-4-week-8/3-squaresSmall.png){image align="centre"}  
  
-2 by 2 squares: Similar reasoning can be applied to the pictured 2 by 2 square. There are 3×3=9 of these.  
+2 by 2 squares: Similar reasoning can be applied to the pictured 2 by 2 square. There are `3 × 3 = 9` of these.  
 
 ![](/resources/academy-4-week-8/3-squaresMedium.png){image align="centre"}  
 
-3 by 3 squares: Similar reasoning can be applied to the pictured 3x3 square. There are 2×2=4 of these.  
+3 by 3 squares: Similar reasoning can be applied to the pictured 3 by 3 square. There are `2 × 2 = 4` of these.  
 
 ![](/resources/academy-4-week-8/3-squaresBig.png){image align="centre"}  
 
@@ -112,14 +112,14 @@ In total, we have `16 + 9 + 4 + 1 = 30` (the sum of the first four squares...) d
 ::: problem id=4_1 marks=2
 Ali lists the positive integers, in order, excluding all multiples of `5`. Her resulting list is:  
 
-`1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, ...`  
+`1`, `2`, `3`, `4`, `6`, `7`, `8`, `9`, `11`, `12`, `13`, `14`, `16`, `17`, ...  
 
-In what position does `2023`appear in Ali’s list?  
+In what position does `2023` appear in Ali’s list?  
 
 <input type="number" solution="1619"/> 
 
 ^^^ hint id=4_1_1 marks=1
-First consider how many multiples of `5` there are in the shorter list of `1` to `2020` (inclusive).
+First consider how many multiples of `5` there are in the list of `1` to `2020` (inclusive).
 ^^^
 
 ---
@@ -153,11 +153,11 @@ As cubes grow quickly, it makes sense to begin by focusing on `z`. As `x`, `y` a
 
 We will consider each possible value for `z` separately.  
 
-`z = 1`: `x + y^2 + 1^3 = 30` means that `x + y^2 = 29`. This tells us that `y^2 < 29` and so `y < 6`. Each possible positive integer value of `y` yields a possible value for `x` and so in this case we have `5` possible solutions to the equation.  
+`z = 1` :  `x + y^2 + 1^3 = 30` means that `x + y^2 = 29`. This tells us that `y^2 < 29` and so `y < 6`. Each possible positive integer value of `y` yields a possible value for `x` and so in this case we have `5` possible solutions to the equation.  
 
-`z = 2`: `x + y^2 + 2^3 = 30` means that `x + y^2 = 22`. This tells us that `y^2 < 22` and so `y < 5`. Each possible positive integer value of `y` yields a possible value for `x` and so in this case we have `4` possible solutions to the equation.  
+`z = 2` :  `x + y^2 + 2^3 = 30` means that `x + y^2 = 22`. This tells us that `y^2 < 22` and so `y < 5`. Each possible positive integer value of `y` yields a possible value for `x` and so in this case we have `4` possible solutions to the equation.  
 
-`z = 3`: `x + y^2 + 3^3 = 30` means that `x + y^2 = 3`. This tells us that `y^2 < 3` and so `y = 1`. This positive integer value of `y` yields a possible value for `x` and so in this case we have `1` possible solution to the equation.
+`z = 3` :  `x + y^2 + 3^3 = 30` means that `x + y^2 = 3`. This tells us that `y^2 < 3` and so `y = 1`. This positive integer value of `y` yields a possible value for `x` and so in this case we have `1` possible solution to the equation.
 
 In total, there are `5 + 4 + 1 = 10` possible solutions.  
 :::
