@@ -126,7 +126,7 @@ For the first subcase, as the last digit is `0` then the number will be even no 
 
 For the second subcase, the last digit must be even but cannot be `0`. We have `9 × 4 = 36` choices for the values of ~ and #.  
 
-This means in total we have 81+36=117 positive integers which satisfy the conditions.  
+This means in total we have `81 + 36 = 117` positive integers which satisfy the conditions.  
 :::
 
 
