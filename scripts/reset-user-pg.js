@@ -5,8 +5,8 @@ const downloadUsers = require('./utils/downloadUsers');
 
 // ---------------------
 
-const email = 'testing@mcmill.co.uk'
-const PG = '8-31-art-gallery'
+const email = 'ameliahillcoops@icloud.com'
+const PG = 'admissions-teachability'
 
 // ---------------------
 

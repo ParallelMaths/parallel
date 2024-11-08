@@ -103,7 +103,7 @@ In total, there are `97 + 83 + 45 = 225` possible pairs.
 ::: problem id=4_1 marks=2
 How many positive integers less than `1000` contain exactly one digit `0` and are even?  
 
-<input type="number" solution="117"/> 
+<input type="number" solution="126"/> 
 
 ^^^ hint id=4_1_1 marks=1
 Here it would be unhelpful to denote positive integers below `1000` with leading zeroes.  
@@ -126,7 +126,7 @@ For the first subcase, as the last digit is `0` then the number will be even no 
 
 For the second subcase, the last digit must be even but cannot be `0`. We have `9 × 4 = 36` choices for the values of ~ and #.  
 
-This means in total we have `81 + 36 = 117` positive integers which satisfy the conditions.  
+This means in total we have `9 + 81 + 36 = 126` positive integers which satisfy the conditions.  
 :::
 
 
