@@ -89,11 +89,11 @@ The key observation is that `2x^3` becomes larger than `100` when `x` is larger 
  
 As `x` is a positive integer, this means the only cases we need to consider are `x = 1,2` or `3`.  
 
-`x = 1`: `2 × 1^3 + 𝑦 < 100` means that `y < 98` and there are `97` possible values of `y`.  
+`x = 1`: `2 × 1^3 + y < 100` means that `y < 98` and there are `97` possible values of `y`.  
 
-`x = 2`: `2 × 2^3 + 𝑦 < 100` means that `y < 84` and there are `83` possible values of `y`.  
+`x = 2`: `2 × 2^3 + y < 100` means that `y < 84` and there are `83` possible values of `y`.  
 
-`x = 3`: `2 × 3^3 + 𝑦 < 100` means that `y < 46` and there are `45` possible values of `y`.  
+`x = 3`: `2 × 3^3 + y < 100` means that `y < 46` and there are `45` possible values of `y`.  
 
 In total, there are `97 + 83 + 45 = 225` possible pairs.  
 :::
