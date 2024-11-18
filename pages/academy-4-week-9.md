@@ -99,6 +99,8 @@ Begin by calculating the third angle in the triangle and then consider another a
 
 ---
 
+![](/resources/academy-4-week-9/3-sdiagram.png){image align="centre"}  
+
 Firstly, we calculate the `180° − 17° − 34° = 129°` angle using angles in a triangle sum to `180°`.  
 
 Secondly, we calculate the `180° − 129° = 51°` angle using angles on a straight line sum to `180°`.  
@@ -115,22 +117,21 @@ Find the value, in degrees, of angle `x` in the diagram below.
   
 ![](/resources/academy-4-week-9/4-qdiagram.png){image align="centre"} 
 
-<input type="number" solution="51"/>
+<input type="number" solution="53"/>
 
 ^^^ hint id=4_1_1 marks=1
-Begin by calculating the third angle in the triangle and then consider another angle at `C` and how it relates to `x`.  
+In the larger of the two triangles in the diagram which contains the angle 𝑥, can you find the other two angles?  
 ^^^
 
 ---
-![](/resources/academy-4-week-9/3-sdiagram.png){image align="centre"}  
 
-Firstly, we calculate the `180°  −  17°  −  34° = 129°` angle using angles in a triangle sum to `180°`.  
+![](/resources/academy-4-week-9/4-sdiagram.png){image align="centre"}  
 
-Secondly, we calculate the `180° − 129° = 51°` angle using angles on a straight line sum to `180°`.  
+Firstly, the green angle is `72°` as vertically opposite angles are equal.  
 
-Finally, `x = 51°` as corresponding angles are equal.  
-
-:::
+Secondly, the blue angle is `180° − 125° = 55°` as co-interior angles sum to `180°`.  
+  
+Finally, `x = 180° - 72° - 55° = 53°` as angles in a triangle sum to `180°`.  :::
 
 
 ## 5.
