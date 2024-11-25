@@ -1061,37 +1061,37 @@ test:
   - url: module-1b-test-winter
     title: Euclid Module 1b Winter Test 2024
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-03-19T13:00:00
-    deadline: 2024-05-18T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2024-12-18T13:00:00
     password: legolas
   - url: module-2-test-winter
     title: Euclid Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-03-19T13:00:00
-    deadline: 2024-05-18T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2024-12-18T13:00:00
     password: legolas
   - url: module-4-test-winter
     title: Euclid Module 4 Winter Test 2024
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-03-19T13:00:00
-    deadline: 2024-05-01T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2024-12-18T13:00:00
     password: legolas
   - url: module-6-test-winter
     title: Euclid Module 6 Winter Test 2024
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-03-19T13:00:00
-    deadline: 2024-05-01T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2024-12-18T13:00:00
     password: legolas
   - url: module-8-test-winter
     title: Euclid Module 8 Winter Test 2024
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-03-19T13:00:00
-    deadline: 2024-05-01T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2024-12-18T13:00:00
     password: legolas
   - url: webinar-module-2-test-winter
     title: Euclid Webinar Module 2 Winter Test 2024
     available: 2024-01-15T13:00:00
-    deadline: 2024-05-01T13:00:00
+    deadline: 2024-12-18T13:00:00
   - url: module-2-test-spring
     title: Euclid Module 2 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
@@ -1160,21 +1160,21 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: scope
+    password: close
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: slope
+    password: close
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: shore
+    password: close
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
