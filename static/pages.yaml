@@ -1049,6 +1049,9 @@ homework:
   - url: academy-4-week-9
     title: Parallel Academy Module 4 Week 9
     available: 2024-11-15T09:00:00
+  - url: academy-4-week-10
+    title: Parallel Academy Module 4 Week 10
+    available: 2024-11-22T09:00:00
 
 test:
   - url: euclid-sample-test
