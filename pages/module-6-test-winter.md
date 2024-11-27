@@ -57,10 +57,10 @@ So the total number of students is `8/3 × 15 = 40`.
 Which of these is prime?  
 
 * [ ] `111`
-* [x] 113
-* [ ] 115
-* [ ] 117
-* [ ] 119
+* [x] `113`
+* [ ] `115`
+* [ ] `117`
+* [ ] `119`
 {.col-5}
 
 ---
@@ -83,12 +83,11 @@ What is the value of each interior angle of a regular octagon, in degrees?
 
 The general formula for the internal angle of a regular n-gon is:  
 
-`180° × (n − 2)/n`  
+`180°  × (n − 2)/n`  
 
-For an octagon, we plug in `n = 8` to get an interior angle of:  
+For an octagon, we substitute `n = 8` to get an interior angle of:  
 
-`180° × 6/8 = 180° × 3/4 = 135°`  
-
+`180°  × 6/8 = 180°  × 3/4 = 135°`  
 :::
 
 
@@ -239,7 +238,9 @@ So the total length of the red line is `1 + sqrt(2)`.
 
 ## 12.
 ::: problem id=12_1 marks=1
-The sum of the digits of the nine-digit number `'aaaabbbbb'` is equal to the two-digit number `'ab'`.  
+In this question, `a` and `b` are non-zero single digits.  
+
+The sum of the digits of the nine-digit number '`aaaabbbbb`' is equal to the two-digit number '`ab`'.  
 
 What is the ratio of `a` to `b`?
 
@@ -252,12 +253,11 @@ What is the ratio of `a` to `b`?
 
 ---
 
-The number `'ab'` can be written as `10a + b`, giving the equation `4a + 5b = 10a + b`.  
+The number '`ab`' can be written as `10a + b`, giving the equation `4a + 5b = 10a + b`.  
 
 This can be simplified to `4b = 6a`.  
 
-Thus `a/b = 4/6 = 2/3`, so `a:b = 2:3`. 
- 
+Thus `a/b = 4/6 = 2/3`, so `a:b = 2:3`.   
 :::
 
 
@@ -308,19 +308,19 @@ Find Angle `DFE` (give your answer as a whole number).
 
 Since `ABCD` is a square, `∠BCD = 90°`, and since `CDE` is an equilateral triangle, `∠DCE = 60°`.  
 
-Thus `∠BCE = ∠BCD + ∠DCE = 90° + 60° = 150°`.  
+Thus `∠BCE = ∠BCD + ∠DCE = 90°  + 60°  = 150°`.  
 
 As `CDE` is an equilateral triangle, `EC = DC` and also, because `ABCD` is a square, `DC = CB`.  
 
 Hence `EC = CB` and `ECB` is an isosceles triangle.  
 
-So `∠CEB = ∠CBE = 1/2(180  -  150)° = 15°`.
+So `∠CEB = ∠CBE = 1/2(180  -  150)°  = 15°`.
 
-Hence `∠EFC = 180°  -  60°  -  15° = 105°`.  
+Hence `∠EFC = 180°  -  60°  -  15°  = 105°`.  
 
-Finally, `∠DFE = 180°  -  105° = 75°` as angles on a straight line sum to `180°`.  
- 
+Finally, `∠DFE = 180°  -  105°  = 75°` as angles on a straight line sum to `180°`.  
 :::
+
 
 ## 15.
 ::: problem id=15_1 marks=1
@@ -387,11 +387,13 @@ What distance does she need to walk on average for the remaining days of the mon
 
 ---
 
-The total distance Anna wants to walk is `(31xx5)` km `= 155` km.  
+The total distance Anna wants to walk is `(31 × 5)` km `= 155` km.  
 
 Since she has walked `95` km up to the `16`th March, she has `(155  -  95)` km `= 60` km to walk in `(31  -  16)` days `= 15` days.  
 
 Therefore the distance, in km, that she need o average per day is `60/15 = 4`.  
+:::
+
 
 ## 18.
 ::: problem id=18_1 marks=1
@@ -417,7 +419,6 @@ Let the mean score of the `40%` of the students who failed the test be `x`.
 The information in the question tells us that `0.6 × 8 + 0.4 × x = 6`.  
 
 Hence `0.4x = 1.2` and so `x = 3`.  
-
 :::
 
 

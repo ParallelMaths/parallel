@@ -34,11 +34,11 @@ Angles in a quadrilateral sum to `360°`, so `a = 360  –  (117 + 99 + 96) = 48
 ::: problem id=3_1 marks=1
 If the ratio of boys to girls in a class is `5:3` and there are `15` girls, how many students are there altogether?
 
-* [ ] 20
-* [ ] 25
-* [ ] 30
-* [ ] 35
-* [x] 40
+* [ ] `20`
+* [ ] `25`
+* [ ] `30`
+* [ ] `35`
+* [x] `40`
 {.col-5}
 
 ---
@@ -80,11 +80,11 @@ What is the value of each interior angle of a regular octagon, in degrees?
 
 The general formula for the internal angle of a regular n-gon is:  
 
-`180° × (n − 2)/n`  
+`180°  × (n − 2)/n`  
 
 For an octagon, we substitute in `n = 8` to get an interior angle of:  
 
-`180° × 6/8 = 180° × 3/4 = 135°`
+`180°  × 6/8 = 180°  × 3/4 = 135°`
 :::
 
 
@@ -155,13 +155,18 @@ So the probability of getting either of these outcomes is `1/8 + 1/8 = 1/4`.
 
 ## 9.
 ::: problem id=9_1 marks=1
-A square has an integer edge length `x` cm where `x > 1`. It is cut into `1` cm by `1` cm smaller squares. The small squares along the edges of the large square are then painted red, and the remaining small squares are painted blue.  
+A square has an integer edge length `x` cm where `x > 1`.  
+
+It is cut into `1` cm by `1` cm smaller squares.  
+
+The small squares along the edges of the large square are then painted red, and the remaining small squares are painted blue.  
 
 The number of blue squares is one more than the number of red squares.  
  
 What is the value of `x`?  
 
 <input type="number" solution="7"/>  
+
 ---
 
 There are `4x  -  4` red squares and `(x  -  2)^2` blue squares.  
@@ -173,7 +178,6 @@ Expanding and simplifying gives `x^2  -  4x + 4= 4x  -  3`, and rearranging this
 We can factorise to give `(x  -  1)(x  -  7) = 0`, and so `x = 1` or `x = 7`.
 
 As we are told that `x > 1` in the question, we must have `x = 7`. 
-
 :::
 
 
@@ -192,20 +196,19 @@ What is the difference between their current ages difference?
 
 Let Ada’s current age be `a` and Bella’s current age be `b`.  
 
-Then `a + b = 90`(#).  
+Then `a + b = 90` (#).  
 
-In `15` years time, Ada will be `a + 15` and Bella will be `b + 15`, so `a + 15=2(b + 15).  
+In `15` years time, Ada will be `a + 15` and Bella will be `b + 15`, so `a + 15 = 2(b + 15)`.  
 
 Expanding and rearranging gives `a = 2b + 15`.  
 
 Substituting this into (#) gives `(2b + 15) + b = 90`.  
 
-Rearranging gives `3b = 75`, so `b = 25.  
+Rearranging gives `3b = 75`, so `b = 25`.  
 
 Rearranging (#) and substituting `b = 25` gives `a = 90  -  25 = 65`.  
 
 Finally, `a  -  b = 65  -  25 = 40`.  
-
 :::
 
 
@@ -225,12 +228,11 @@ Triangle `AEC` is equilateral as all its sides will be equal in length due to th
 
 This means `∠CAE = 60°` and `∠BAE = 60°  −  ∠CAB`.  
 
-Triangle `CAB` is isosceles and `∠ABC = 360°  −  200° = 160°` as angles around a point sum to `360°`.  
+Triangle `CAB` is isosceles and `∠ABC = 360°  −  200°  = 160°` as angles around a point sum to `360°`.  
 
 `∠CAB = ∠BCA = (180°  −  160°)/2 = 10°` as base angles of an isosceles triangle are equal and angles in a triangle sum to `180°`.  
 
-Finally, `∠BAE = 60°  −  10° = 50°`.  
-
+Finally, `∠BAE = 60°  −  10°  = 50°`.  
 :::
 
 
@@ -238,8 +240,7 @@ Finally, `∠BAE = 60°  −  10° = 50°`.
 ::: problem id=12_1 marks=1
 A square is cut into two pieces by a straight line passing through one corner, as shown below.  
 
-Given that Area `X` : Area `Y` is `3 : 5`,  what is the value of `a/b`?  
-
+Given that Area `X` : Area `Y` is `3  :  5`,  what is the value of `a/b`?  
 
 ![](/resources/module-8-test-winter/12-square.png){image align="center"}
 
@@ -249,7 +250,6 @@ Given that Area `X` : Area `Y` is `3 : 5`,  what is the value of `a/b`?
 
 `X` is a triangle with an area of `1/2a(a + b)`.  
 
-
 `Y` is a trapezium with an area of `1/2(a + 2b)(a + b)`.  
 
 Given that Area `X` : Area `Y` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a + 2b)(a + b)) = 3/5` which simplifies to `a/(a + 2b) = 3/5`.  
@@ -257,30 +257,31 @@ Given that Area `X` : Area `Y` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a
 Rearranging gives `5a = 3(a + 2b)` and then expanding the brackets gives `5a = 3a + 6b`.  
 
 Collecting like terms gives `2a = 6b`, which leads to `a/b = 6/2 = 3`.
-
 :::
 
 
 ## 13.
 ::: problem id=13_1 marks=1
-What is the smallest positive integer `x` such that `3024x` is a perfect cube?  
+What is the smallest positive integer that when multiplied by `3024x` gives a perfect cube?  
 
 <input type="number" solution="196"/>  
 
 ---
 
+Let `x` be the smallest such positive integer.  
+
 The prime factorisation of `3024` is `2^4 × 3^3 × 7`.  
 
-The smallest cube number with a factor of `3024` is `2^6xx3^3xx7^3`, as the exponent of each prime factor must be a multiple of three.  
+The smallest cube number with a factor of `3024` is `2^6 × 3^3 × 7^3`, as the exponent of each prime factor must be a multiple of three.  
 
-So `x = (2^6xx3^3xx7^3)/(2^4xx3^3xx7) = 2^2×x7^2 = 196`.  
+So `x = (2^6 × 3^3 × 7^3)/(2^4 × 3^3 × 7) = 2^2 × 7^2 = 196`.  
 
 :::
 
 
 ## 14.
 ::: problem id=14_1 marks=1
-The five-digit number ‘a226b’, where `a` and `b` are non-zero single digits, is divisible by `44`.  
+The five-digit number ‘`a226b`’, where `a` and `b` are non-zero single digits, is divisible by `44`.  
 
 What the largest possible value of `a + b`?  
 
@@ -301,8 +302,7 @@ If `b = 4`, then `a = 11k + 2` and as `a` is a  non-zero single digit we must ha
 
 If `b = 8`, then `a = 11k  −  2` and as `a` is a non-zero single digit we must have `a = 9` (when `k = 1`).  
 
-The largest possible value for `a + b = 9+8 = 17`.  
-
+The largest possible value for `a + b = 9 + 8 = 17`.  
 :::
 
 
@@ -323,7 +323,7 @@ What is the shaded area?
 
 If the semicircle is cut into two quarter-circles, these can be placed next to the other shaded region to fill up half the square.  
 
-Hence the shaded area is half of the area of the square, namely `1/2a^2`.
+Hence the shaded area is half of the area of the square, namely `a^2/2`.
 :::
 
 
@@ -447,7 +447,7 @@ There are many ways to complete the grid; one way is shown here.
 
 ## 20.
 ::: problem id=20_1 marks=1
-Maria chooses two digits, `a` and `b`, and uses them to make a six-digit number `'ababab'`.  
+Maria chooses two digits, `a` and `b`, and uses them to make a six-digit number '`ababab`'.  
 
 Which of the following is always a factor of numbers formed in this way?  
 
@@ -460,7 +460,7 @@ Which of the following is always a factor of numbers formed in this way?
 
 ---
 
-Let `'ab'` be the two-digit number with digits `a` and `b`, then the six-digit number `'ababab'` = `'ab' × 10101 = ab × 3 × 7 × 13 × 37`, so is always divisible by `3, 7, 13` and `37`.  
+Let `'ab'` be the two-digit number with digits `a` and `b`, then the six-digit number '`ababab`' = `ab × 10101 = ab × 3 × 7 × 13 × 37`, so is always divisible by `3, 7, 13` and `37`.  
 
-But it is only divisible by `2, 5, 9` or `11` if `'ab'` is. 
+But it is only divisible by `2, 5, 9` or `11` if '`ab`' is. 
 :::
