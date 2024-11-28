@@ -91,13 +91,13 @@ Which of the following angles should replace the question mark?
 
 ---
 
-The only angle among the options which is vertically opposite `∠CED` is `∠FEA`.  
+The only angle among the options which is vertically opposite `∠CED`  is `∠FEA`.  
 :::
 
 
 ## 3.
 ::: problem id=3_1 marks=2
-With your tutor you will have discussed that the value of `x` in the diagram below is `180°  -  90° = 87°`, as there is a co-interior pair of angles which must sum to `180°`.  
+With your tutor you will have discussed that the value of `x` in the diagram below is `180°  -  93° = 87°`, as there is a co-interior pair of angles which must sum to `180°`.  
   
 ![](/resources/academy-4-week-10/3-qdiagram.png){image align="centre"}  
 
@@ -178,7 +178,7 @@ From the diagram we know that `BE = AD` and `AE = CD`.
 
 `∠DEA = 180°  −  ∠ADE  −  ∠EAD = 180°  −  30°  −  20°  = 130°` (interior angles of Triangle `AED` sum to `180°`)  
 
-`x° = 180° = ∠DEA = 180°  −  130°  = 50°` (angles on a straight line sum to `180°`)  
+`x° = 180°  = ∠DEA = 180°  −  130°  = 50°` (angles on a straight line sum to `180°`)  
 
 Finally, we have that `x = 50`.  
 :::

@@ -1,80 +1,79 @@
 # Euclid Module 8 Winter Test 2024
 
 
-## 1.	
+## 1.    
 ::: problem id=1_1 marks=1
-What is the highest common factor of `84` and `126`?
+What is the highest common factor of `315` and `660`?
 
-<input type="number" solution="42"/>  
+<input type="number" solution="15"/>  
 
 ---
 
-`84 = 2 × 2 × 3 × 7`.  
-`126 = 2 × 3 × 3 × 7`.  
+`315 = 3 × 3 × 5 × 7`.  
+`660 = 2 × 2 × 3 × 5 × 11`.  
 
-So the highest common factor is `2 × 3 × 7 = 42`.  
+So the highest common factor is `3 × 5 = 15`.  
 :::
 
 
 ## 2.
 ::: problem id=2_1 marks=1
-What is the value of `a`, in the diagram below?
+In the diagram below, what is the value of `x`?
 
-![](/resources/module-8-test-winter/2-quadrilateral.png){image align="center"}
+![](/resources/module-8-test-winter/2-symmetricalhexagon.png){image align="center"}
 
-<input type="number" solution="48"/>  
+<input type="number" solution="140"/>  
 
 ---
 
-Angles in a quadrilateral sum to `360°`, so `a = 360  –  (117 + 99 + 96) = 48`. 
+Angles in a hexagon sum to `720°` and so  `2x = 720  –  (130 + 130 + 90 + 90) = 280`.  
+
+This means `x = 280/2 = 140`.  
 :::
 
 
 ## 3.
 ::: problem id=3_1 marks=1
-If the ratio of boys to girls in a class is `5:3` and there are `15` girls, how many students are there altogether?
+If the ratio of boys to girls in a year group is `5:4` and there are `88` girls, how many students are there altogether?  
 
-* [ ] `20`
-* [ ] `25`
-* [ ] `30`
-* [ ] `35`
-* [x] `40`
-{.col-5}
-
+<input type="number" solution="198"/> 
 ---
 
-`15` girls represent `3/(3+5) = 3/8` of the total number of students.  
+`88` girls represent `4/(5+4) = 4/9` of the total number of students.  
 
-So the total number of students is `8/3 × 15 = 40`.
+So the total number of students is `9/4 × 88 = 198`.  
 :::
 
 
 ## 4.
 ::: problem id=4_1 marks=1
-Which of these is prime?
+Which one of the below numbers is prime?  
 
-* [ ] `111`
-* [x] `113`
-* [ ] `115`
-* [ ] `117`
-* [ ] `119`
+* [ ] `12221`
+* [ ] `34443`
+* [ ] `56665`
+* [x] `78887`
+* [ ] `91119`
 {.col-5}
 
 ---
 
-* `111 = 3 × 37`
-* `113` is prime  
-* `115 = 5 × 23`
-* `117 = 9 × 13`
-* `119 = 7 × 17`
+Using divisibility rules we have:  
+
+* `12221` is a multiple of `11`
+* `34443` is a multiple of `9`
+* `56665` is a multiple of `5`
+* `90009` is a multiple of `3`  
+
+This means `78887` must be the prime number.  
 :::
 
 
 ## 5.
 ::: problem id=5_1 marks=1
-What is the value of each interior angle of a regular octagon, in degrees?
+What is the value of each interior angle of a regular dodecagon (12-sided polygon)?  
 
-<input type="number" solution="135"/>  
+<input type="number" solution="150"/>  
 
 ---
 
@@ -84,7 +83,7 @@ The general formula for the internal angle of a regular n-gon is:
 
 For an octagon, we substitute in `n = 8` to get an interior angle of:  
 
-`180°  × 6/8 = 180°  × 3/4 = 135°`
+`180°  × 10/12 = 180°  × 5/6 = 150°`
 :::
 
 
@@ -92,56 +91,59 @@ For an octagon, we substitute in `n = 8` to get an interior angle of:
 ::: problem id=6_1 marks=1
 Which of these is largest?
 
-* [ ] `3^4`
-* [x] `2^7`
-* [ ] `8^2`
-* [ ] `4^3`
-* [ ] `9^2`
+* [ ] `(-1/3)^4`
+* [x] `(1/2)^7`
+* [ ] `(-1/8)^2`
+* [ ] `(1/4)^3`
+* [ ] `(1/9)^2`
 {.col-5}
 
 ---
 
 The values, respectively, are  
 
-* `3^4 = 81`
-* `2^7 = 128`
-* `8^2 = 64`
-* `4^3 = 64`
-* `9^2 = 81`
+* `1/81`
+* `1/128`
+* `1/64`
+* `1/64`
+* `1/81`  
+
+The smallest of these is `1/128`.  
 :::
 
 
 ## 7.
 ::: problem id=7_1 marks=1
-What number must be added to the set `{3, 4, 5, 6}` to give a mean of `6`?
+The mean of the set `(3, 4, 5, 6, x, x)` is `10`.  
 
-* [ ] 4
-* [ ] 6
-* [ ] 8
-* [ ] 10
-* [x] 12
-{.col-5}
+What is the value of `x`?  
+
+<input type="number" solution="21"/>  
 
 ---
 
-The total of all the numbers will be `5 × 6 = 30`.  
+The total of all the numbers will be `6 × 10 = 60`.  
 
-So the missing number is `30  -  (3 + 4 + 5 + 6) = 12.`
+So, `3 + 4 + 5 + 6 + x + x = 60` which simplifies to `2x = 42`.  
+
+This means `x = 21`.  
 :::
 
 
 ## 8.
 ::: problem id=8_1 marks=1
-If you flip a fair coin three times, what is the probability that you get the same outcome all three times?
+If you flip a fair coin three times, what is the probability that you get at least one Head and at least one Tail?  
 
 * [ ] `1/8`
-* [x] `1/4`
+* [ ] `1/4`
 * [ ] `1/2`
-* [ ] `3/4`
+* [x] `3/4`
 * [ ] `1`
 {.col-5}
 
 ---
+
+We will consider the complement, which is all Heads or all Tails, and subtract from `1`.  
 
 There are two ways this could happen: three Heads or three Tails.  
 
@@ -149,7 +151,9 @@ p(3 Heads) = `1/2 × 1/2 × 1/2 = 1/8`.
 
 Similarly, p(3 Tails) = `1/8`.  
 
-So the probability of getting either of these outcomes is `1/8 + 1/8 = 1/4`.  
+So, the probability of getting either of these outcomes is `1/8 + 1/8 = 1/4`.  
+
+This means that the probability of at least one Head and at least one Tail is `1  −  1/4 = 3/4`.  
 :::
 
 
@@ -240,7 +244,7 @@ Finally, `∠BAE = 60°  −  10°  = 50°`.
 ::: problem id=12_1 marks=1
 A square is cut into two pieces by a straight line passing through one corner, as shown below.  
 
-Given that Area `X` : Area `Y` is `3  :  5`,  what is the value of `a/b`?  
+Given that Area `X`  :  Area `Y` is `3  :  5`,  what is the value of `a/b`?  
 
 ![](/resources/module-8-test-winter/12-square.png){image align="center"}
 
@@ -252,7 +256,7 @@ Given that Area `X` : Area `Y` is `3  :  5`,  what is the value of `a/b`?
 
 `Y` is a trapezium with an area of `1/2(a + 2b)(a + b)`.  
 
-Given that Area `X` : Area `Y` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a + 2b)(a + b)) = 3/5` which simplifies to `a/(a + 2b) = 3/5`.  
+Given that Area `X`  :  Area `Y` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a + 2b)(a + b)) = 3/5` which simplifies to `a/(a + 2b) = 3/5`.  
 
 Rearranging gives `5a = 3(a + 2b)` and then expanding the brackets gives `5a = 3a + 6b`.  
 
@@ -262,7 +266,7 @@ Collecting like terms gives `2a = 6b`, which leads to `a/b = 6/2 = 3`.
 
 ## 13.
 ::: problem id=13_1 marks=1
-What is the smallest positive integer that when multiplied by `3024x` gives a perfect cube?  
+What is the smallest positive integer that when multiplied by `3024` gives a perfect cube?  
 
 <input type="number" solution="196"/>  
 
@@ -281,7 +285,7 @@ So `x = (2^6 × 3^3 × 7^3)/(2^4 × 3^3 × 7) = 2^2 × 7^2 = 196`.
 
 ## 14.
 ::: problem id=14_1 marks=1
-The five-digit number ‘`a226b`’, where `a` and `b` are non-zero single digits, is divisible by `44`.  
+The five-digit number '`a226b`', where `a` and `b` are non-zero single digits, is divisible by `44`.  
 
 What the largest possible value of `a + b`?  
 
@@ -460,7 +464,7 @@ Which of the following is always a factor of numbers formed in this way?
 
 ---
 
-Let `'ab'` be the two-digit number with digits `a` and `b`, then the six-digit number '`ababab`' = `ab × 10101 = ab × 3 × 7 × 13 × 37`, so is always divisible by `3, 7, 13` and `37`.  
+Let '`ab`' be the two-digit number with digits `a` and `b`, then the six-digit number '`ababab`' = `ab × 10101 = ab × 3 × 7 × 13 × 37`, so is always divisible by `3, 7, 13` and `37`.  
 
 But it is only divisible by `2, 5, 9` or `11` if '`ab`' is. 
 :::
