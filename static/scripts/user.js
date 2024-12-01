@@ -457,7 +457,7 @@ export default function() {
       }
 
       // Redirect after login
-      nextUrl = signupForm.type === 'teacher' ? '/dashboard' : '/introduction';
+      nextUrl = signupForm.type === 'teacher' ? '/dashboard' : '/info/students';
 
       // user has come from parallel live, send them back
       if(window.location.href.includes('#live') || window.location.href.includes('?live') || window.location.href.includes('#circles') || window.location.href.includes('?circles')) {
