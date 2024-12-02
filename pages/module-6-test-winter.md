@@ -391,7 +391,7 @@ The total distance Anna wants to walk is `(31 × 5)` km `= 155` km.
 
 Since she has walked `95` km up to the `16`th March, she has `(155  -  95)` km `= 60` km to walk in `(31  -  16)` days `= 15` days.  
 
-Therefore the distance, in km, that she need o average per day is `60/15 = 4`.  
+Therefore the distance, in km, that she needs to average per day is `60/15 = 4`.  
 :::
 
 
@@ -442,7 +442,7 @@ What is his sixth answer?
 
 ---
 
-The total of the sums of the three rows of the table is equal to the sum of all the digits from `1` to ``9, which is `45`.  
+The total of the sums of the three rows of the table is equal to the sum of all the digits from `1` to `9`, which is `45`.  
 
 Similarly, the total of the sums of the three columns of the table is also equal to `45`.  
 

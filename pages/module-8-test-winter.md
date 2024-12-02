@@ -36,7 +36,8 @@ This means `x = 280/2 = 140`.
 ::: problem id=3_1 marks=1
 If the ratio of boys to girls in a year group is `5:4` and there are `88` girls, how many students are there altogether?  
 
-<input type="number" solution="198"/> 
+<input type="number" solution="198"/>  
+
 ---
 
 `88` girls represent `4/(5+4) = 4/9` of the total number of students.  
@@ -191,7 +192,7 @@ Ada and Bella have a combined age of `90`.
 
 In `15` years time, Ada’s age will be twice Bella’s age.  
 
-What is the difference between their current ages difference?  
+What is the difference between their current ages?  
 
 
 <input type="number" solution="40"/>  
@@ -244,7 +245,7 @@ Finally, `∠BAE = 60°  −  10°  = 50°`.
 ::: problem id=12_1 marks=1
 A square is cut into two pieces by a straight line passing through one corner, as shown below.  
 
-Given that Area `X`  :  Area `Y` is `3  :  5`,  what is the value of `a/b`?  
+Given that  Area `X`  :  Area `Y ` is `3 : 5`,  what is the value of `a/b`?  
 
 ![](/resources/module-8-test-winter/12-square.png){image align="center"}
 
@@ -256,7 +257,7 @@ Given that Area `X`  :  Area `Y` is `3  :  5`,  what is the value of `a/b`?
 
 `Y` is a trapezium with an area of `1/2(a + 2b)(a + b)`.  
 
-Given that Area `X`  :  Area `Y` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a + 2b)(a + b)) = 3/5` which simplifies to `a/(a + 2b) = 3/5`.  
+Given that  Area `X`  :  Area `Y ` is `3 : 5`, this means that `(1/2a(a + b))/(1/2(a + 2b)(a + b)) = 3/5` which simplifies to `a/(a + 2b) = 3/5`.  
 
 Rearranging gives `5a = 3(a + 2b)` and then expanding the brackets gives `5a = 3a + 6b`.  
 
