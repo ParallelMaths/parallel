@@ -51,7 +51,7 @@ Angle `5` equals Angle `7`
 ::: problem id=1_5 marks=1
 Angle `2` is `98°` and Angle `5` is `70°`
 
-<input type="number" solution="x"/>  
+<input type="text" solution="x"/>  
 
 ---
 The lines `L_1` and `L_2` must be parallel because Angle `3` and Angle `5` are equal alternate angles.  
