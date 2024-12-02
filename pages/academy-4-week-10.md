@@ -27,25 +27,25 @@ In each of the five different cases below, decide if:
 ::: problem id=1_1 marks=1
 Angle `3` equals Angle `5`  
   
-<input type="letter" solution="p"/>  
+<input type="text" solution="p"/>  
 :::
 
 ::: problem id=1_2 marks=1
 Angle `4` is `100°` and Angle `8` is `120°` 
  
-<input type="letter" solution="x"/>  
+<input type="text" solution="x"/>  
 :::
 
 ::: problem id=1_3 marks=1
 Angle `4` and Angle `5` sum to `180°`
  
-<input type="letter" solution="p"/>  
+<input type="text" solution="p"/>  
 :::
 
 ::: problem id=1_4 marks=1
 Angle `5` equals Angle `7`
  
-<input type="letter" solution="m"/>  
+<input type="text" solution="m"/>  
 :::
 
 ::: problem id=1_5 marks=1
