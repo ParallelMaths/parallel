@@ -41,10 +41,11 @@ const run = async () => {
   const dynamoUser = await getTableItem('prod-users', userId);
 
   if(dynamoUser.id !== userId) {
-    console.log('User id mismatch');
+    console.log('User id mismatch', dynamoUser.id, userId);
     process.exit();
   }
 
+  console.log('Before:')
   console.log(`User "${email}" had firebase name "${liveDoc.first} ${liveDoc.last}"`);
   console.log(`User "${email}" had dynamo name "${dynamoUser.first} ${dynamoUser.last}"`);
   console.log(`User "${email}" had firebase guardianName "${liveDoc.guardianName}"`);
@@ -70,7 +71,8 @@ const run = async () => {
   const liveDocNew = (await userDb.doc(userId).get()).data();
   const dynamoUserNew = await getTableItem('prod-users', userId);
 
-  console.log(`\n\nUser "${email}" now has firebase name "${liveDocNew.first} ${liveDocNew.last}"`);
+  console.log('\n\nAfter:')
+  console.log(`User "${email}" now has firebase name "${liveDocNew.first} ${liveDocNew.last}"`);
   console.log(`User "${email}" now has dynamo name "${dynamoUserNew.first} ${dynamoUserNew.last}"`);
   console.log(`User "${email}" now has firebase guardianName "${liveDocNew.guardianName}"`);
 
