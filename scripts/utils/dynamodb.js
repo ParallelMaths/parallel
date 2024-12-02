@@ -1,9 +1,9 @@
 const AWS = require('aws-sdk');
 const path = require('path');
 
-AWS.config.loadFromPath(path.join(__dirname, '../../private/aws-account.json'));
+// AWS.config.loadFromPath(path.join(__dirname, '../../private/aws-account.json'));
 
-const ddbDocumentClient = new AWS.DynamoDB.DocumentClient({ apiVersion: '2012-08-10' });
+const ddbDocumentClient = new AWS.DynamoDB.DocumentClient({ apiVersion: '2012-08-10', region: 'eu-west-1' });
 
 const getPaginatedTableItemsInner = async (tableName, lastEvaluatedKey) => {
   try {
@@ -37,6 +37,22 @@ const updateItem = async (params) => {
   }
 }
 
+const getTableItem = async (tableName, id) => {
+  try {
+    const params = {
+      TableName: tableName,
+      Key: {
+        id
+      }
+    };
+
+    const res = await ddbDocumentClient.get(params).promise();
+    return res.Item;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 const getPaginatedTableItems = async (tableName) => {
     const items = await getPaginatedTableItemsInner(tableName);
     console.log('Found', items.length, 'items in dynamodb database table');
@@ -61,6 +77,7 @@ const getCirclePointsForUsers = async () => {
 
 module.exports = {
     updateItem,
+    getTableItem,
     getCirclePointsForUsers,
     getPaginatedTableItemsInner
 }
