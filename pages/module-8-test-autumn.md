@@ -1,11 +1,11 @@
-# Euclid Module 8 Winter Test 2024
+# Euclid Module 8 Autumn Test 2024
 
 
 ## 1.    
 ::: problem id=1_1 marks=1
 What is the highest common factor of `315` and `660`?
 
-<input type="number" solution="15"/>  
+<input solution="15"/>  
 
 ---
 
@@ -20,9 +20,9 @@ So the highest common factor is `3 × 5 = 15`.
 ::: problem id=2_1 marks=1
 In the diagram below, what is the value of `x`?
 
-![](/resources/module-8-test-winter/2-symmetricalhexagon.png){image align="center"}
+![](/resources/module-8-test-autumn/2-symmetricalhexagon.png){image align="center"}
 
-<input type="number" solution="140"/>  
+<input solution="140"/>  
 
 ---
 
@@ -36,7 +36,7 @@ This means `x = 280/2 = 140`.
 ::: problem id=3_1 marks=1
 If the ratio of boys to girls in a year group is `5:4` and there are `88` girls, how many students are there altogether?  
 
-<input type="number" solution="198"/>  
+<input solution="198"/>  
 
 ---
 
@@ -74,7 +74,7 @@ This means `78887` must be the prime number.
 ::: problem id=5_1 marks=1
 What is the value of each interior angle of a regular dodecagon (12-sided polygon)?  
 
-<input type="number" solution="150"/>  
+<input solution="150"/>  
 
 ---
 
@@ -90,13 +90,13 @@ For an octagon, we substitute in `n = 8` to get an interior angle of:
 
 ## 6.
 ::: problem id=6_1 marks=1
-Which of these is largest?
+![](/resources/module-8-test-autumn/q6.png){image align="center"}
 
-* [ ] `(-1/3)^4`
-* [x] `(1/2)^7`
-* [ ] `(-1/8)^2`
-* [ ] `(1/4)^3`
-* [ ] `(1/9)^2`
+* [ ] A
+* [x] B
+* [ ] C
+* [ ] D
+* [ ] E
 {.col-5}
 
 ---
@@ -119,7 +119,7 @@ The mean of the set `(3, 4, 5, 6, x, x)` is `10`.
 
 What is the value of `x`?  
 
-<input type="number" solution="21"/>  
+<input solution="21"/>  
 
 ---
 
@@ -170,7 +170,7 @@ The number of blue squares is one more than the number of red squares.
  
 What is the value of `x`?  
 
-<input type="number" solution="7"/>  
+<input solution="7"/>  
 
 ---
 
@@ -188,32 +188,14 @@ As we are told that `x > 1` in the question, we must have `x = 7`.
 
 ## 10.
 ::: problem id=10_1 marks=1
-Ada and Bella have a combined age of `90`.  
-
-In `15` years time, Ada’s age will be twice Bella’s age.  
-
-What is the difference between their current ages?  
+![](/resources/module-8-test-autumn/q10.png){image align="center"}
 
 
-<input type="number" solution="40"/>  
+<input solution="81"/>  
 
 ---
 
-Let Ada’s current age be `a` and Bella’s current age be `b`.  
-
-Then `a + b = 90` (#).  
-
-In `15` years time, Ada will be `a + 15` and Bella will be `b + 15`, so `a + 15 = 2(b + 15)`.  
-
-Expanding and rearranging gives `a = 2b + 15`.  
-
-Substituting this into (#) gives `(2b + 15) + b = 90`.  
-
-Rearranging gives `3b = 75`, so `b = 25`.  
-
-Rearranging (#) and substituting `b = 25` gives `a = 90  -  25 = 65`.  
-
-Finally, `a  -  b = 65  -  25 = 40`.  
+![](/resources/module-8-test-autumn/s10.png){image align="center"}
 :::
 
 
@@ -223,9 +205,9 @@ In the diagram below, it is given that each line segment is the same length, the
 
 What is the value of `∠BAE`?  
 
-![](/resources/module-8-test-winter/11-hexagon.png){image align="center"}
+![](/resources/module-8-test-autumn/11-hexagon.png){image align="center"}
 
-<input type="number" solution="50"/>  
+<input solution="50"/>  
 
 ---
 
@@ -247,9 +229,9 @@ A square is cut into two pieces by a straight line passing through one corner, a
 
 Given that  Area `X`  :  Area `Y ` is `3 : 5`,  what is the value of `a/b`?  
 
-![](/resources/module-8-test-winter/12-square.png){image align="center"}
+![](/resources/module-8-test-autumn/12-square.png){image align="center"}
 
-<input type="number" solution="3"/>  
+<input solution="3"/>  
 
 ---
 
@@ -269,7 +251,7 @@ Collecting like terms gives `2a = 6b`, which leads to `a/b = 6/2 = 3`.
 ::: problem id=13_1 marks=1
 What is the smallest positive integer that when multiplied by `3024` gives a perfect cube?  
 
-<input type="number" solution="196"/>  
+<input solution="196"/>  
 
 ---
 
@@ -290,7 +272,7 @@ The five-digit number '`a226b`', where `a` and `b` are non-zero single digits, i
 
 What the largest possible value of `a + b`?  
 
-<input type="number" solution="17"/>  
+<input solution="17"/>  
 
 ---
 `44` can be factorised as `4 × 11`, which means that the five-digit number must be divisible by `4` and by `11`.  
@@ -313,7 +295,7 @@ The largest possible value for `a + b = 9 + 8 = 17`.
 
 ## 15.
 ::: problem id=15_1 marks=1
-![](/resources/module-8-test-winter/15-shape.jpg){image align="right"}
+![](/resources/module-8-test-autumn/15-shape.jpg){image align="right"}
 The diagram shows a square with sides of length `a`. The shaded part of the square is bounded by a semicircle and two quarter-circle arcs.  
 
 What is the shaded area?  
@@ -417,7 +399,7 @@ Therefore Oscar's height in cm is `184  -  2 × 12 = 160` cm.
 
 ## 19.
 ::: problem id=19_1 marks=1
-![](/resources/module-8-test-winter/19-grid.jpg){image align="right"}
+![](/resources/module-8-test-autumn/19-grid.jpg){image align="right"}
 Maja decided to enter numbers into the cells of a 3 × 3 grid.  
 
 She wanted to do this in such a way that the numbers in each of the four 2 × 2 grids that form part of the 3 × 3 grid have the same totals.  
@@ -435,7 +417,7 @@ Which number does she need to write in the bottom right corner?
 
 ---
 
-![](/resources/module-8-test-winter/19-grid-solutions.jpg){image align="right"}
+![](/resources/module-8-test-autumn/19-grid-solutions.jpg){image align="right"}
 Let the numbers around the top left cell be `a`, `b`, and `c` as shown.  
 
 Then the sum of the top left 2 × 2 square (and hence _all_ the 2 × 2 squares) is `a + b + c + 3`.  

@@ -65,7 +65,7 @@ Positive square root of 121
 ::: problem id=8_1 marks=1
 15 × 7
 
-<input type="number" solution="105"/>  
+<input solution="105"/>  
 :::
 
 

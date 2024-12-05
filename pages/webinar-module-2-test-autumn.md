@@ -1,4 +1,4 @@
-# Euclid Webinar Module 2 Winter Test 2024
+# Euclid Webinar Module 2 Autumn Test 2024
 
 * Sit this paper in your own time, under exam conditions.  
 * Take 1 hour, without breaks.  
@@ -24,7 +24,7 @@ Simplify `24/36`
 ::: problem id=2_1 marks=1
 What is the missing angle C, in degrees?
 
-![](/resources/webinar-module-2-test-winter/2-triangle.png){image align="center"}
+![](/resources/webinar-module-2-test-autumn/2-triangle.png){image align="center"}
 
 <input type="number" solution="65"/>  
 
@@ -77,7 +77,7 @@ Which of these is prime?
 
 ## 5.
 ::: problem id=5_1 marks=1
-![](/resources/webinar-module-2-test-winter/5-shape.jpg){image align="right"}
+![](/resources/webinar-module-2-test-autumn/5-shape.jpg){image align="right"}
 What is this shape called?
 
 * [ ] Pentagon
@@ -224,7 +224,7 @@ Therefore the total sum is 201 x 100 = 20,100.
 
 ## 12.
 ::: problem id=12_1 marks=1
-![](/resources/webinar-module-2-test-winter/12-triangle.png){image align="right"}
+![](/resources/webinar-module-2-test-autumn/12-triangle.png){image align="right"}
 In the diagram, AB = AC and BD = BC.  
 
 Angle BAC is 40°. What is angle BDC?  
@@ -322,10 +322,10 @@ How many years was that before the film itself was produced in 1968?
 ::: problem id=16_1 marks=1
 In the diagram, five rectangles of the same size are shown with each side labelled with a number.  
 
-![](/resources/module-1b-test-winter/16-squares-choices.jpg){image align="center"}
+![](/resources/module-1b-test-autumn/16-squares-choices.jpg){image align="center"}
 These rectangles are placed in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
 
-![](/resources/module-1b-test-winter/16-squares-map.jpg){image align="center"}
+![](/resources/module-1b-test-autumn/16-squares-map.jpg){image align="center"}
 
 Which of the rectangles should be placed in position I?   
 
@@ -435,7 +435,7 @@ So on the following Monday the White Rabbit will be 30 seconds late and on the d
 
 ## 20.
 ::: problem id=20_1 marks=1
-![](/resources/webinar-module-2-test-winter/20-grid-setup.jpg){image align="right"}
+![](/resources/webinar-module-2-test-autumn/20-grid-setup.jpg){image align="right"}
 All four L-shapes shown in the diagram are to be placed in the 4 by 4 grid so that all sixteen cells are covered and there is no overlap.  
 
 Each piece can be rotated or reflected before being placed and the black dot is visible from both sides.  
@@ -450,7 +450,7 @@ How many of the 16 cells of the grid could contain the black dot?
 
 ---
 
-![](/resources/webinar-module-2-test-winter/20-grid-solution.jpg){image align="right"}
+![](/resources/webinar-module-2-test-autumn/20-grid-solution.jpg){image align="right"}
 The first figure shows a possible configuration of the four L shapes fitting into the square and illustrates four cells which could contain the black dot.  
 
 When this figure is roated in one direction through 90, 180 and 270, it is clear that all twelve cells on the outside of the square could contain the black dot.   

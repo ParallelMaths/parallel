@@ -1,4 +1,4 @@
-# Euclid Module 2 Winter Test 2024
+# Euclid Module 1b Autumn Test 2024
 
 
 ## 1.	
@@ -17,9 +17,9 @@ Simplify `24/36`
 ::: problem id=2_1 marks=1
 What is the missing angle C, in degrees?
 
-![](/resources/module-2-test-winter/2-triangle.png){image align="center"}
+![](/resources/module-1b-test-autumn/2-triangle.png){image align="center"}
 
-<input type="number" solution="65"/>  
+<input solution="65"/>  
 
 ---
 
@@ -70,7 +70,7 @@ Which of these is prime?
 
 ## 5.
 ::: problem id=5_1 marks=1
-![](/resources/module-2-test-winter/5-shape.jpg){image align="right"}
+![](/resources/module-1b-test-autumn/5-shape.jpg){image align="right"}
 What is this shape called?
 
 * [ ] Pentagon
@@ -148,147 +148,130 @@ The probability is given by
 
 ## 9.
 ::: problem id=9_1 marks=1
-Which of the following numbers is divisible by 4?
+There are 12 flagpoles in a line along the beach, each one 5 metres apart.  
 
-* [ ] 1234
-* [ ] 2314
-* [x] 4312
-* [ ] 3142
-* [ ] None of these
-{.col-5}
+What is the distance, in metres, between the first and last flagpoles?
+
+<input solution="55"/>  
 
 ---
 
-The divisibility check for 4 requires that we only consider the two-digit number formed by the final two digits.  
+There are 11 gaps between the flagpoles (the gap between the first and last flagpole does not count).  
 
-Since 12 is divisible by 4 then, using that check, we deduce that 4312 is also divisible by 4.  
-
-We can dismiss the other cases as 34, 14 and 42 are not divisible by 4.
+So the total distance is 11 × 5 = 55 metres.  
 :::
 
 
 ## 10.
 ::: problem id=10_1 marks=1
-In the six-digit number `n5n2n3` the first, third and fifth digits are the same. For which value of n is this number divisible by 3?
+For £2, a stamp machine gives a mixture of 20p and 26p stamps worth a total of £1.58.  
+
+How many 20p stamps are included?
 
 * [ ] 1
+* [ ] 2
 * [ ] 3
+* [x] 4
 * [ ] 5
-* [ ] 7
-* [x] There is no such value of n 
 {.col-5}
 
 ---
 
-By the divisibility check for 3, the number is divisible by 3 precisely when the sum of its digits is divisible by 3.  
+The total ends in 8, which means we must have three 26p coins.  
 
-The sum of the digits is `n + 5 + n + 2 + n + 3 = 3n + 10`.  
+This is a total of 78p so the 20p coins make up the remaining 80p.  
 
-This is never divisible by 3 because `(3n + 10)/3 = n + 10/3` (so there is always a remainder of 1).  
-
-So no value of `n` will work (this method is quicker than checking all the options in turn!)  
+Four 20p coins are therefore included.
 :::
 
 
 ## 11.
 ::: problem id=11_1 marks=1
-What is the sum of all the positive integers between 1 and 200 inclusive (ie 1 + 2 + 3 + … + 198 + 199 + 200)?
+On Lisa’s fifth birthday, Bart was twice her age.  
 
-* [ ] 5,050
-* [ ] 10,100
-* [ ] 200,000
-* [x] 20,100
-* [ ] 8,080
-{.col-5}
+How old was Bart on Lisa’s 21st birthday?
+
+<input solution="26"/>  
 
 ---
 
-Using Gauss’s short cut, we can rewrite the sum as 100 pairs of 201:  
+When Lisa was five, Bart was ten, so Bart is five years older.  
 
-* 1 + 200 = 201
-* 2 + 199 = 201
-* 3 + 198 = 201
-
-and so on.  
-
-Therefore the total sum is 201 x 100 = 20,100.
+So when Lisa turns 21, Bart is still five years older, i.e. Bart is 26.  
 :::
 
 
 ## 12.
 ::: problem id=12_1 marks=1
-![](/resources/module-2-test-winter/12-triangle.png){image align="right"}
-In the diagram, AB = AC and BD = BC.  
+If `(3x – 4)/2 = 10`, what is `x`?
 
-Angle BAC is 40°. What is angle BDC?  
-
-* [ ] 40°
-* [ ] 80°
-* [ ] 110°
-* [ ] 140°
-* [x] 70°
+<input solution="8"/>  
 
 ---
 
-Since AB = AC, triangle ABC is isosceles and angle ACB = angle CBA.  
+Solve the equation step by step:  
 
-Since these two angles combine with the 40° to make 180° (angles in a triangle), they are each 70°.  
-
-Since BD = BC, triangle BDC is isosceles and angle BDC = angle DCB.  
-
-But angle DCB is angle ACB, which we have shown is 70°.  
-
-Therefore angle BDC is also 70°.
+* Multiply both sides by 2:  `3x – 4 = 20`  
+* Add 4 to both sides:  `3x = 24`
+* Divide both sides by 3:  `x = 8`
 :::
 
 
 ## 13.
 ::: problem id=13_1 marks=1
-If `2(x + 4) – 4 = 3x – 9`, what is `x`? 
+I think of a number, double it, subtract 10, then divide by 3.  
 
-* [ ] 6
-* [ ] 9
-* [x] 13
-* [ ] -5
-* [ ] -7
-{.col-5}
+I end up with the number I thought of.  
+
+What number did I think of?
+
+<input solution="-10"/>  
 
 ---
 
-* Expand the brackets:  `2x + 8 – 4 = 3x – 9`  
-* Subtract `2x` from both sides:  `8 – 4 = x – 9`  
-* Add 9 to both sides:  `8 – 4 + 9 = x`  
-* Simplify the left-hand side:  `13 = x`  
+Let `x` be the number I thought of. Follow the steps to set up an equation:  
+
+* Double:  `2x`  
+* Subtract 10:  `2x - 10`  
+* Divide by 3:  `(2x – 10)/3`
+
+Since I end up with my original number, we get the equation:  
+
+`(2x – 10)/3 = x`  
+
+Now solve this equation:  
+
+* Multiply both sides by 3:  `2x – 10 = 3x`
+* Subtract 2x from both sides:  `-10 = x`
 :::
 
 
 ## 14.
 ::: problem id=14_1 marks=1
-I think of a number, double it, subtract 15, add my original number and end up with half the original number. What number did I think of?
+A square of side length L has an area A that is six times its perimeter P.  
 
-* [ ] -2
-* [ ] 0
-* [ ] 4
-* [x] 6
-* [ ] 10
+What is the length of the square’s side?
+
+* [ ] 8
+* [ ] 12
+* [ ] 16
+* [x] 24
+* [ ] 36
 {.col-5}
 
 ---
 
-Model the problem as an equation. The unknown, `x`, is the original number. Follow the steps:  
+`A = 6P` (‘area is six times the perimeter’).  
 
-* Double:  `2x`  
-* Subtract 15:  `2x - 15`  
-* Add the original number:  `2x - 15 + x`  
-* End up with half the original number:  `2x - 15 + x = 1/2 x`  
+We also have `A = L^2` (since the area of a square is its length multiplied by itself).  
 
-Now solve this equation:  
+Combining these two equations gives `L^2 = 6P`.  
 
-* Collect like terms:  `3x - 15 = 1/2 x`  
-* Multiple both sides by 2:  `6x - 30 = x`  
-* Add 30 to both sides:  `6x = x + 30`  
-* Subtract x from both sides:  `5x = 30`  
-* Divide both sides by 5:  `x = 6`  
+But `P = 4L` (perimeter of a square is four times the side length) so  
+
+`L^2 = 6 × (4L)`, which simplifies to `L^2 = 24L`  
+
+Now divide both sides by `L: L = 24`.
 :::
 
 
@@ -315,12 +298,12 @@ How many years was that before the film itself was produced in 1968?
 ::: problem id=16_1 marks=1
 In the diagram, five rectangles of the same size are shown with each side labelled with a number.  
 
-![](/resources/module-1b-test-winter/16-squares-choices.jpg){image align="center"}
+![](/resources/module-1b-test-autumn/16-squares-choices.jpg){image align="center"}
 These rectangles are placed in the positions I to V as shown, so the numbers on the sides that touch each other are equal.  
 
-![](/resources/module-1b-test-winter/16-squares-map.jpg){image align="center"}
+![](/resources/module-1b-test-autumn/16-squares-map.jpg){image align="center"}
 
-Which of the rectangles should be placed in position I?   
+Which of the rectangles should be placed in position I?  
 
 * [ ] A
 * [ ] B
@@ -428,7 +411,7 @@ So on the following Monday the White Rabbit will be 30 seconds late and on the d
 
 ## 20.
 ::: problem id=20_1 marks=1
-![](/resources/module-2-test-winter/20-grid-setup.jpg){image align="right"}
+![](/resources/module-1b-test-autumn/20-grid-setup.jpg){image align="right"}
 All four L-shapes shown in the diagram are to be placed in the 4 by 4 grid so that all sixteen cells are covered and there is no overlap.  
 
 Each piece can be rotated or reflected before being placed and the black dot is visible from both sides.  
@@ -443,12 +426,12 @@ How many of the 16 cells of the grid could contain the black dot?
 
 ---
 
-![](/resources/module-2-test-winter/20-grid-solution.jpg){image align="right"}
+![](/resources/module-1b-test-autumn/20-grid-solution.jpg){image align="right"}
 The first figure shows a possible configuration of the four L shapes fitting into the square and illustrates four cells which could contain the black dot.  
 
-When this figure is roated in one direction through 90, 180 and 270, it is clear that all twelve cells on the outside of the square could contain the black dot.   
+When this figure is roated in one direction through 90°, 180° and 270°, it is clear that all twelve cells on the outside of the square could contain the black dot.   
 
-Finally, the second figure shows that each of the four cells in the cenre of the square could also contain the black dot.  
+Finally, the second figure shows that each of the four cells in the centre of the square could also contain the black dot.  
 
 So each of the 16 cells in the diagram could contain the black dot.  
 :::

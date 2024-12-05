@@ -1,11 +1,11 @@
-# Euclid Module 6 Winter Test 2024
+# Euclid Module 6 Autumn Test 2024
 
 
 ## 1.	
 ::: problem id=1_1 marks=1
 What is the highest common factor of `84` and `126`?  
 
-<input type="number" solution="42"/>  
+<input solution="42"/>  
 
 ---
 
@@ -21,9 +21,9 @@ So the highest common factor is `2 × 3 × 7 = 42`.
 ::: problem id=2_1 marks=1
 What is angle `a`, in the diagram below?  
 
-![](/resources/module-6-test-winter/2-quadrilateral.png){image align="center"}
+![](/resources/module-6-test-autumn/2-quadrilateral.png){image align="center"}
 
-<input type="number" solution="48"/>  
+<input solution="48"/>  
 
 ---
 
@@ -77,7 +77,7 @@ Which of these is prime?
 ::: problem id=5_1 marks=1
 What is the value of each interior angle of a regular octagon, in degrees?
 
-<input type="number" solution="135"/>  
+<input solution="135"/>  
 
 ---
 
@@ -185,7 +185,7 @@ How many ways are there to arrange the four integers `1, 2, 3` and `4` so that n
 
 (Two number have the same parity if they are both odd or both even.)  
 
-<input type="number" solution="8"/>  
+<input solution="8"/>  
 
 ---
 
@@ -211,7 +211,7 @@ This leaves a total of `4 × 2 = 8` possible combinations.
 
 ## 11.
 ::: problem id=11_1 marks=1
-![](/resources/module-6-test-winter/11-quarter-circle.png){image align="right"}
+![](/resources/module-6-test-autumn/11-quarter-circle.png){image align="right"}
 The radius of the grey circle is 1. What is the radius of the quarter-circle?  
 
 * [ ] `2`
@@ -222,7 +222,7 @@ The radius of the grey circle is 1. What is the radius of the quarter-circle?
 
 ---
 
-![](/resources/module-6-test-winter/11-quarter-circle-solution.png){image align="right"}
+![](/resources/module-6-test-autumn/11-quarter-circle-solution.png){image align="right"}
 The red line is the radius of the quarter circle.  
 
 It can be split into two parts: the radius of the grey circle, which is `1`, and a slightly longer segment.  
@@ -300,9 +300,9 @@ The line `EB` crosses `CD` at the point `F`.
 
 Find Angle `DFE` (give your answer as a whole number).  
 
-![](/resources/module-6-test-winter/14-trianglesquare.png){image align="center"}
+![](/resources/module-6-test-autumn/14-trianglesquare.png){image align="center"}
 
-<input type="number" solution="75"/>  
+<input solution="75"/>  
 
 ---
 
@@ -345,7 +345,7 @@ This gives `-120`, which is negative and hence is the smallest possible result.
 
 ## 16.
 ::: problem id=16_1 marks=1
-![](/resources/module-6-test-winter/16-town-signs.jpg){image align="right"}
+![](/resources/module-6-test-autumn/16-town-signs.jpg){image align="right"}
 The shortest path from Atown to Cetown runs through Betown.  
 
 The two signposts shown are set up at different places along this path.  
@@ -424,7 +424,7 @@ Hence `0.4x = 1.2` and so `x = 3`.
 
 ## 19.
 ::: problem id=19_1 marks=1
-![](/resources/module-6-test-winter/19-grid.jpg){image align="right"}
+![](/resources/module-6-test-autumn/19-grid.jpg){image align="right"}
 James wrote a different integer from `1` to `9` in each cell of a table.  
 
 He then calculated the sum of the integers in each of the rows and in each of the columns of the table.  
@@ -457,7 +457,7 @@ _It is left as an exercise to find a possible arrangement of the digits `1` to `
 
 ## 20.
 ::: problem id=20_1 marks=1
-![](/resources/module-6-test-winter/20-cube.jpg){image align="right"}
+![](/resources/module-6-test-autumn/20-cube.jpg){image align="right"}
 The cube shown is divided into `64` small cubes.  
 
 Exactly one of the cubes is grey, as shown in the diagram.  
@@ -481,7 +481,7 @@ How many grey cubes are there at the end of the second day?
 
 The diagram below shows the day on which certain cubes turned grey. 
 
-![](/resources/module-6-test-winter/20-cube-solution.jpg){image align="center"}  
+![](/resources/module-6-test-autumn/20-cube-solution.jpg){image align="center"}  
 
 As can be seen, at the end of the second day there are `11 + 5 + 1 = 17` grey cubes.  
 

@@ -1061,40 +1061,40 @@ test:
     postSubmissionMessage: Success! You are able to submit tests on this device.  
     deadline: 2025-08-01T13:00:00
     password: fruity
-  - url: module-1b-test-winter
-    title: Euclid Module 1b Winter Test 2024
+  - url: module-1b-test-autumn
+    title: Euclid Module 1b Autumn Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-01-15T13:00:00
     deadline: 2024-12-18T13:00:00
     password: legolas
-  - url: module-2-test-winter
-    title: Euclid Module 2 Winter Test 2024
+  - url: module-2-test-autumn
+    title: Euclid Module 2 Autumn Test 2024
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-01-15T13:00:00
     deadline: 2024-12-18T13:00:00
     password: legolas
-  - url: module-4-test-winter
-    title: Euclid Module 4 Winter Test 2024
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-01-15T13:00:00
-    deadline: 2024-12-18T13:00:00
-    password: legolas
-  - url: module-6-test-winter
-    title: Euclid Module 6 Winter Test 2024
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-01-15T13:00:00
-    deadline: 2024-12-18T13:00:00
-    password: legolas
-  - url: module-8-test-winter
-    title: Euclid Module 8 Winter Test 2024
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-01-15T13:00:00
-    deadline: 2024-12-18T13:00:00
-    password: legolas
-  - url: webinar-module-2-test-winter
-    title: Euclid Webinar Module 2 Winter Test 2024
-    available: 2024-01-15T13:00:00
-    deadline: 2024-12-18T13:00:00
+  - url: module-4-test-autumn
+    title: Euclid Module 4 Autumn Test 2024
+    available: 2024-12-05T13:00:00
+    answersVisibleFrom: 2025-01-15T13:00:00
+    deadline: 2025-01-15T13:00:00
+    password: apple
+  - url: module-6-test-autumn
+    title: Euclid Module 6 Autumn Test 2024
+    available: 2024-12-05T13:00:00
+    answersVisibleFrom: 2025-01-15T13:00:00
+    deadline: 2025-01-15T13:00:00
+    password: apple
+  - url: module-8-test-autumn
+    title: Euclid Module 8 Autumn Test 2024
+    available: 2024-12-05T13:00:00
+    answersVisibleFrom: 2025-01-15T13:00:00
+    deadline: 2025-01-15T13:00:00
+    password: apple
+  - url: webinar-module-2-test-autumn
+    title: Euclid Webinar Module 2 Autumn Test 2024
+    available: 2024-12-05T13:00:00
+    deadline: 2025-01-15T13:00:00
   - url: module-2-test-spring
     title: Euclid Module 2 Spring Test 2024
     postSubmissionMessage: Thank you - stay in Zoom and wait for the tutor to call your name. This will confirm that we have received your submission.  
@@ -1130,8 +1130,8 @@ test:
     answersVisibleFrom: 2024-08-10T16:00:00
     deadline: 2024-08-10T16:00:00
     password: vincent
-  - url: webinar-module-3-test-spring
-    title: Euclid Webinar Module 3 Winter Test 2024
+  - url: webinar-module-3-test-autumn
+    title: Euclid Webinar Module 3 Autumn Test 2024
     showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-10T16:00:00
