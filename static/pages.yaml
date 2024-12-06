@@ -1069,31 +1069,31 @@ test:
     password: legolas
   - url: module-2-test-autumn
     title: Euclid Module 2 Autumn Test 2024
-    available: 2024-01-15T13:00:00
+    available: 2024-12-01T13:00:00
     answersVisibleFrom: 2024-01-15T13:00:00
-    deadline: 2024-12-18T13:00:00
+    deadline: 2025-01-18T13:00:00
     password: legolas
   - url: module-4-test-autumn
     title: Euclid Module 4 Autumn Test 2024
-    available: 2024-12-05T13:00:00
+    available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-01-15T13:00:00
     deadline: 2025-01-15T13:00:00
     password: apple
   - url: module-6-test-autumn
     title: Euclid Module 6 Autumn Test 2024
-    available: 2024-12-05T13:00:00
+    available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-01-15T13:00:00
     deadline: 2025-01-15T13:00:00
     password: apple
   - url: module-8-test-autumn
     title: Euclid Module 8 Autumn Test 2024
-    available: 2024-12-05T13:00:00
+    available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-01-15T13:00:00
     deadline: 2025-01-15T13:00:00
     password: apple
   - url: webinar-module-2-test-autumn
     title: Euclid Webinar Module 2 Autumn Test 2024
-    available: 2024-12-05T13:00:00
+    available: 2024-12-01T13:00:00
     deadline: 2025-01-15T13:00:00
   - url: module-2-test-spring
     title: Euclid Module 2 Spring Test 2024
@@ -1167,17 +1167,24 @@ test:
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
+    available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: close
+    password: pears
+  - url: mental-maths-autumn
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-12-01T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: pears
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-10T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: close
+    available: 2024-12-01T13:00:00
+    answersVisibleFrom: 2025-01-15T13:00:00
+    deadline: 2025-01-15T13:00:00
+    password: apple
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
