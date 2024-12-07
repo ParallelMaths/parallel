@@ -1173,7 +1173,6 @@ test:
     password: pears
   - url: mental-maths-autumn
     title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00

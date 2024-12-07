@@ -54,7 +54,7 @@
 ::: problem id=5_1 marks=1
 ![](/resources/module-4-test-autumn/q5.png){image align="center"}
 
-<input solution="17"/>  
+<input solution="15"/>  
 
 ---
 ![](/resources/module-4-test-autumn/s5.png){image align="center"}
@@ -260,7 +260,7 @@
 
 
 ## 20.
-::: problem id=11_1 marks=1
+::: problem id=20_1 marks=1
 ![](/resources/module-4-test-autumn/q20.png){image align="center"}
 
 * [x] A

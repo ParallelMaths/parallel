@@ -41,7 +41,7 @@
 ::: problem id=5_1 marks=1
 `sqrt(64)`
 
-<input solution="12"/>  
+<input solution="8"/>  
 :::
 
 
