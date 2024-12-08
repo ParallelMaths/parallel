@@ -1,4 +1,4 @@
-# Euclid Webinar Module 3 Winter Test 2024
+# Parallel Academy Webinar Module 3 Winter Test 2024
 
 * Sit this paper in your own time, under exam conditions.  
 * Take 30 minutes, without breaks.  

@@ -1,4 +1,4 @@
-# Euclid Webinar Module 2 Autumn Test 2024
+# Parallel Academy Webinar Module 2 Autumn Test 2024
 
 * Sit this paper in your own time, under exam conditions.  
 * Take 1 hour, without breaks.  

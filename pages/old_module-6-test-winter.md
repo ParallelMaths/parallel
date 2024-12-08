@@ -1,4 +1,4 @@
-# Euclid Module 6 Winter Test 2024
+# Parallel Academy Module 6 Winter Test 2024
 
 
 ## 1.	

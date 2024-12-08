@@ -1,4 +1,4 @@
-# Euclid Module 3 Spring Test 2024
+# Parallel Academy Module 3 Spring Test 2024
 
 * You have 30 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  

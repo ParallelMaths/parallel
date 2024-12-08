@@ -1,4 +1,4 @@
-# Euclid Module 4 Week 2 Homework
+# Parallel Academy Module 4 Week 2 Homework
 
 These homework problems relate to a recent theme you have been covering with your tutor.   
 

@@ -1,4 +1,4 @@
-# Euclid Module 2 Autumn Test 2024
+# Parallel Academy Module 2 Autumn Test 2024
 
 
 ## 1.	

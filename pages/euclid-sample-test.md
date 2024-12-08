@@ -1,4 +1,4 @@
-# Euclid sample test
+# Parallel Academy sample test
 
 <div class="dictionary">
 
