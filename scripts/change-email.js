@@ -21,7 +21,7 @@ const run = () =>
       });
       console.log(`\nMigrated "${user.email}" email to ${to}`);
 
-      console.log(`\nIf this student is euclid, please send Drew "${user.uid}" and "${to}" to update the euclid account.`)
+      console.log(`\nIf this student is Parallel Academy, please send Drew "${user.uid}" and "${to}" to update the Parallel Academy account.`)
     })
     .catch((err) => {
       err.message = `${err.message} - ${from}`;
