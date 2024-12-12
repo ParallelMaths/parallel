@@ -1052,6 +1052,21 @@ homework:
   - url: academy-4-week-10
     title: Parallel Academy Module 4 Week 10
     available: 2024-11-22T09:00:00
+  - url: christmas-paper-grey-kangaroo
+    title: Parallel Academy Christmas Paper - Grey Kangaroo
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-imc
+    title: Parallel Academy Christmas Paper - IMC
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-jmc
+    title: Parallel Academy Christmas Paper - JMC
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-junior-kangaroo
+    title: Parallel Academy Christmas Paper - Junior Kangaroo
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-pink-kangaroo
+    title: Parallel Academy Christmas Paper - Pink Kangaroo
+    available: 2024-12-11T12:00:00
 
 test:
   - url: euclid-sample-test
