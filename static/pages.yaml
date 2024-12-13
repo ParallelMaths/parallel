@@ -1091,21 +1091,21 @@ test:
   - url: module-4-test-autumn
     title: Parallel Academy Module 4 Autumn Test 2024
     available: 2024-12-01T13:00:00
-    answersVisibleFrom: 2025-01-15T13:00:00
+    answersVisibleFrom: 2024-12-17T09:00:00
     deadline: 2025-01-15T13:00:00
-    password: scale
+    password: melon
   - url: module-6-test-autumn
     title: Parallel Academy Module 6 Autumn Test 2024
     available: 2024-12-01T13:00:00
-    answersVisibleFrom: 2025-01-15T13:00:00
+    answersVisibleFrom: 2024-12-17T09:00:00
     deadline: 2025-01-15T13:00:00
-    password: scale
+    password: melon
   - url: module-8-test-autumn
     title: Parallel Academy Module 8 Autumn Test 2024
     available: 2024-12-01T13:00:00
-    answersVisibleFrom: 2025-01-15T13:00:00
+    answersVisibleFrom: 2024-12-17T09:00:00
     deadline: 2025-01-15T13:00:00
-    password: scale
+    password: melon
   - url: webinar-module-2-test-autumn
     title: Parallel Academy Webinar Module 2 Autumn Test 2024
     available: 2024-12-01T13:00:00
@@ -1185,7 +1185,7 @@ test:
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: spoke
+    password: melon
   - url: mental-maths-autumn
     title: Mental maths quiz
     available: 2024-12-01T13:00:00

@@ -2,19 +2,15 @@
 
 To begin this part of the Christmas homework, [open this Junior Kangaroo practice paper](https://tinyurl.com/3mdr29n5){target="_blank"}.  
 
-This paper is provided to aid your preparation and the score will _not_ contribute to next term's report.
+This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you _must not_ use a calculator or look anything up whilst completing the paper.  
 
-Please complete the paper in timed conditions, allowing yourself 1 hour to complete.  
+Please complete the paper in timed conditions, allowing yourself 1 hour to complete. If you don't get through all the questions that's fine - you can have a go at them later, after you have submitted.  
 
-You must _not_ use a calculator or look anything up whilst completing the paper.  
+Write your answers down carefully on a piece of paper, ensuring each answer letter is accompanied by the relevant question number, and enter them below when the time is up. Double check you have the correct question number for each of your answers. Then click Submit.  
 
-Write your answers down carefully on a piece of paper, ensuring each answer letter is accompanied by the relevant question number, and enter them below when the time is up.  
+After you have submitted your answers, you will be able to see which questions you got right and wrong, but not the solutions. We encourage you to come back to the questions you got wrong or did not get around to attempting the first time.  
 
-After you have submitted your answers, you will receive your score.  
-
-We encourage you to come back to the questions you got wrong or could not solve first time.  
-
-Full solutions will be shared with you in January.  
+We will then share full solutions with you in January, just before the start of term.  
 
 ## 1.	
 ::: problem id=1_1 marks=1
