@@ -1,4 +1,6 @@
-# Parallel Academy Primary for Teachers
+# Parallel Academy (Primary)
+## Information for teachers
+
 
 Primary school teachers can now nominate Year 6 students for our Spring 2025 Parallel Academy programme.  
 
@@ -21,22 +23,12 @@ We feel this project has huge benefits for pupils, with no disadvantages for sch
 
 ## Next steps
 
-We are asking schools to nominate all of your brightest and keenest Year 6 maths pupils - there is no limit to nominations, and every nominated student will be invited to attend our webinars.  
+We are asking schools to nominate your brightest and keenest Year 6 maths pupils - there is no limit to nominations, and every nominated student will be invited to attend our webinars.  
 
-__There is no cost to the programme, but to be eligible pupils must be currently attending a state school in the UK… and intending to go to a state school next year.__
+__There is no cost to the programme, but to be eligible pupils must be currently attending a state school in the UK.__
 
-Once you have identified your nominees, log in to our website - if you have not done so already, you will need to [create a free account](https://parallel.org.uk/signup?live=1). Once logged in, go to [the Academy tab](https://parallel.org.uk/academy), where you can find a template letter which gives parents information on the program, and which contains a sign up link unique to your teacher account.  
+Once you have identified your nominees, log in to our website - if you have not done so already, you will need to [create a free account](https://parallel.org.uk/signup?live=1). Once logged in, go to [the Academy tab](https://parallel.org.uk/academy), where you can find a template letter which you can send to parents. This letter includes information on the programme, and a sign up link unique to your teacher account.  
 
-Nominated students must be signed up before February 15th, 2025.  
+The first webinar will take place on February 16th, 2025 - so, ideally, nominated students should be signed up before then.  
 
 If you would like more information before making your nominations or reaching out to parents, [feel free to get in touch](mailto:marsh@parallel.org.uk).  
-
-<div class="text-center">
-
-__"Minds are like parachutes. They only function when open."__  
-_– Scottish distiller Thomas Dewar_
-
-__"I believe in an open mind, but not so open that your brains fall out."__  
-_– New York Times publisher Arthur Hays Sulzberger_
-
-</div>

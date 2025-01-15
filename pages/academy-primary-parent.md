@@ -1,4 +1,6 @@
-# Parallel Academy Primary for Parents
+# Parallel Academy (Primary)
+## Information for parents
+
 
 Nominations are now open for a free, exciting online programme for bright and enthusiastic Year 6 maths pupils at state schools in the UK.  
 
@@ -16,20 +18,10 @@ We feel this project has huge benefits for pupils, with no disadvantages for par
 * There is no extra workload for teachers (apart from nominating pupils).  
 * We have implemented strong safe-guarding measures, as outlined in [our safeguarding policy](https://docs.google.com/document/d/1HhJa7RxgSC5Zv0qtJFXgPjlFFCE4B44F/edit?usp=drive_link&ouid=114422519551429202885&rtpof=true&sd=true).  
 
-__There is no cost to the programme, but to be eligible you must be a Year 6 pupil who is currently attending a state school in the UK… and intending to go to a state school next year.__
+__There is no cost to the programme, but to be eligible you must be a Year 6 pupil who is currently attending a state school in the UK.__
 
 To take advantage of this opportunity, please send the below link to your child’s maths teacher, and ask them to nominate your child for the Parallel Academy, along with any of their brightest and keenest classmates:  
 
-* [__How teachers can nominate pupils to the Parallel Academy Primary__](/academy-primary-teacher)
+* [__How teachers can nominate pupils to the Parallel Academy (Primary)__](/academy-primary-teacher)
 
-Your child’s teacher should respond with a link that will allow you to sign your child up - if you don’t hear back from them, be sure to follow up with them. If you still hear nothing further, please [get in touch with us](mailto:marsh@parallel.org.uk) by February 11th, and we’ll ensure your child is nominated.  
-
-<div class="text-center">
-
-__"Minds are like parachutes. They only function when open."__  
-_– Scottish distiller Thomas Dewar_
-
-__"I believe in an open mind, but not so open that your brains fall out."__  
-_– New York Times publisher Arthur Hays Sulzberger_
-
-</div>
+Your child’s teacher should respond by sending parents a link that will allow you to sign up your child - if you don’t hear back from them, be sure to follow up with them. If you still hear nothing further, please [get in touch with us](mailto:marsh@parallel.org.uk) by February 11th, and we’ll ensure your child is nominated.  
