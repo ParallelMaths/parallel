@@ -23,6 +23,8 @@ We feel this project has huge benefits for pupils, with no disadvantages for sch
 
 We are asking schools to nominate all of your brightest and keenest Year 6 maths pupils - there is no limit to nominations, and every nominated student will be invited to attend our webinars.  
 
+__There is no cost to the programme, but to be eligible pupils must be currently attending a state school in the UK… and intending to go to a state school next year.__
+
 Once you have identified your nominees, log in to our website - if you have not done so already, you will need to [create a free account](https://parallel.org.uk/signup?live=1). Once logged in, go to [the Academy tab](https://parallel.org.uk/academy), where you can find a template letter which gives parents information on the program, and which contains a sign up link unique to your teacher account.  
 
 Nominated students must be signed up before February 15th, 2025.  
