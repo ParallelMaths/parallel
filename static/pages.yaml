@@ -1028,6 +1028,9 @@ year11:
     deadline: 2024-09-08T19:00:00
 
 homework:
+  - url: academy-1-week-2
+    title: Parallel Academy Module 1 Week 2
+    available: 2025-01-16T09:00:00
   - url: academy-4-week-2
     title: Parallel Academy Module 4 Week 2
     available: 2024-10-03T12:00:00

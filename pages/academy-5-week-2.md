@@ -62,6 +62,9 @@ c) <input solution="1"/>
 
 ::: problem id=3_1 marks=2
 a) <input solution="10"/>  
+^^^ hint id=3_4_1 marks=1
+![](/resources/academy-5-week-2/h3a.png){image align="center"} 
+^^^
 :::  
 
 ::: problem id=3_2 marks=2
@@ -74,9 +77,8 @@ c) <input solution="50"/>
 
 ::: problem id=3_4 marks=2
 d) <input solution="25"/>  
-
-^^^ hint id=3_4_1 marks=1
-![](/resources/academy-5-week-2/h3.png){image align="center"} 
+^^^ hint id=3_4_4 marks=1
+![](/resources/academy-5-week-2/h3d.png){image align="center"} 
 ^^^
 
 ---
@@ -90,13 +92,16 @@ d) <input solution="25"/>
 
 ::: problem id=4_1 marks=2
 a) <input solution="3333222"/>  
+^^^ hint id=4_1_1 marks=1
+![](/resources/academy-5-week-2/h4a.png){image align="center"} 
+^^^
 :::  
 
 ::: problem id=4_2 marks=2
 b) <input solution="4333344"/>  
 
 ^^^ hint id=4_2_1 marks=1
-![](/resources/academy-5-week-2/h4.png){image align="center"} 
+![](/resources/academy-5-week-2/h4b.png){image align="center"} 
 ^^^
 
 ---
@@ -109,11 +114,11 @@ b) <input solution="4333344"/>
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
 ![](/resources/academy-5-week-2/q5.png){image align="center"}  
  
-::: problem id=4_1 marks=2
+::: problem id=5_1 marks=2
 a) <input solution="2222100"/>  
 :::  
 
-::: problem id=4_2 marks=2
+::: problem id=5_2 marks=2
 b) <input solution="8888112"/>  
 
 ---
