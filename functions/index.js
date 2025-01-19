@@ -669,8 +669,23 @@ app.get('/homework/:pid', (req, res, next) => {
   const pid = req.params.pid;
   if (!HOMEWORK_MAP[pid]) return next();
 
+  const page = HOMEWORK_MAP[pid];
+
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
       .toString().replace(/<h1.*<\/h1>/, '');
+
+  let hasPassword = false;
+  let passwordIncorrect = false;
+
+  if(!page.password) {
+    hasPassword = true;
+  } else if(req.query.p) {
+    if(req.query.p == page.password) {
+      hasPassword = true;
+    } else {
+      passwordIncorrect = true;
+    }
+  }
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
   const userData = {
@@ -678,6 +693,8 @@ app.get('/homework/:pid', (req, res, next) => {
     uid: req.user ? req.user.uid : "",
     submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
+    hasPassword,
+    passwordIncorrect
   };
 
   res.locals.sidebarDisabled = true

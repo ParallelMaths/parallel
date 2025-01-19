@@ -12,21 +12,35 @@ block content
     .score.wide
       p.large Submitted!
 
-  div(class=(userData.submitted ? 'submitted' : ''))!= body
+  if userData.submitted || userData.hasPassword
+    div(class=(userData.submitted ? 'submitted' : ''))!= body
 
-  if user
-    if userData.submitted
-      div(class='score ' + scoreClass(userData.answers.score || 0))
-        p.large Score: #{userData.answers.score || 0}%
-        p #{userData.answers.points}/#{userData.answers.total} marks
-        if page.scoreFactor
-          p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
-    else
-      button#submit(v-on:click="c.submit") Submit Answers
+    if user
+      if userData.submitted
+        div(class='score ' + scoreClass(userData.answers.score || 0))
+          p.large Score: #{userData.answers.score || 0}%
+          p #{userData.answers.points}/#{userData.answers.total} marks
+          if page.scoreFactor
+            p #{page.scoreFactor * userData.answers.score}/#{page.scoreFactor * 100} points
+      else
+        button#submit(v-on:click="c.submit") Submit Answers
 
-  if userData.submitted && userData.isTeacher
+    if userData.submitted && userData.isTeacher
+      div
+        button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
+  else
     div
-      button#clear-submission(v-on:click="c.clearSubmission") Clear Submission
+      form(v-on:submit="c.testPasswordSubmit")
+        p Enter the password to access this test. This will be provided by the tutor on Zoom.
+
+        if userData.passwordIncorrect
+          p.error Incorrect password, please try again.
+
+        label
+          | Password
+          input(type="text" v-model="c.testPassword" required)
+
+        button(type="submit") Submit
 
   script!= 'window.PARALLELOGRAM = ' + JSON.stringify(page) + ';'
   script!= 'window.PARALLEL_USER_DATA = ' + JSON.stringify(userData) + ';'
