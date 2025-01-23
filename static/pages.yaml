@@ -1078,6 +1078,12 @@ homework:
     title: Parallel Academy Christmas Paper - Pink Kangaroo
     available: 2024-12-11T12:00:00
     password: tomato
+  - url: webinar-1-week-2
+    title: Parallel Academy Module 1 Week 2
+    available: 2025-01-16T09:00:00
+  - url: webinar-5-week-2
+    title: Parallel Academy Module 5 Week 2
+    available: 2025-01-16T09:00:00
 
 test:
   - url: euclid-sample-test
