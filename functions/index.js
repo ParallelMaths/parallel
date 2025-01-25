@@ -74,6 +74,9 @@ function scoreClass(score) {
 
 function error(res, code) {
   res.status(code);
+  res.locals = {
+    sidebarDisabled: true
+  }
   return res.render('error', {code});
 }
 
