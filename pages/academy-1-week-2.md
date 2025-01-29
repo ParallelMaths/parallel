@@ -10,7 +10,7 @@ Take your time, ensuring that you haven't overlooked something or made a silly e
 
 You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
 
-We will also be running a weekly drop-in homework help tutorial (look out for our emails).  
+We will also be running a weekly homework review session (look out for our emails).  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
   
