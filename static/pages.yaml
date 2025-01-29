@@ -1029,8 +1029,11 @@ year11:
 
 homework:
   - url: academy-1-week-2
-    title: Parallel Academy Module 1 Week 2
+    title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
+  - url: academy-1-week-3
+    title: Parallel Academy Module 1 Week 2
+    available: 2025-01-23T09:00:00
   - url: academy-4-week-2
     title: Parallel Academy Module 4 Week 2
     available: 2024-10-03T12:00:00
@@ -1056,8 +1059,11 @@ homework:
     title: Parallel Academy Module 4 Week 10
     available: 2024-11-22T09:00:00
   - url: academy-5-week-2
-    title: Parallel Academy Module 5 Week 2
+    title: Parallel Academy Module 5 Week 1
     available: 2025-01-16T09:00:00
+  - url: academy-5-week-3
+    title: Parallel Academy Module 5 Week 2
+    available: 2025-01-23T09:00:00
   - url: christmas-paper-grey-kangaroo
     title: Parallel Academy Christmas Paper - Grey Kangaroo
     available: 2024-12-11T12:00:00
@@ -1079,11 +1085,11 @@ homework:
     available: 2024-12-11T12:00:00
     password: tomato
   - url: webinar-1-week-2
+    title: Parallel Academy Module 1 Week 1
+    available: 2025-01-16T09:00:00
+  - url: webinar-1-week-3
     title: Parallel Academy Module 1 Week 2
-    available: 2025-01-16T09:00:00
-  - url: webinar-5-week-2
-    title: Parallel Academy Module 5 Week 2
-    available: 2025-01-16T09:00:00
+    available: 2025-01-23T09:00:00
 
 test:
   - url: euclid-sample-test

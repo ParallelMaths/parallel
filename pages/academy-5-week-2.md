@@ -1,4 +1,4 @@
-# Parallel Academy Module 5 Week 2 Assignment
+# Parallel Academy Module 5 Week 1 Assignment
 
 These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
