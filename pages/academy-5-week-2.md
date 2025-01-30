@@ -148,7 +148,7 @@ b) <input type="number" solution="4444344"/>
 
 ---
 
-![](/resources/academy-5-week-2/s4b.png){image align="center"}
+![](/resources/academy-5-week-2/s4b2.png){image align="center"}
 :::  
 
 

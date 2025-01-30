@@ -1,8 +1,8 @@
 # Parallel Academy Module 1 Week 2 Assignment
 
-These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
-The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
+The problems are designed to help you reflect on material from previous webinar sessions (which you can access on your Academy page).  
 
 The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 
@@ -150,7 +150,7 @@ b) <input type="number" solution="8"/>
 ::: 
 
 ::: problem id=5_3 marks=2
-b) <input type="number" solution="14"/>  
+c) <input type="number" solution="14"/>  
 
 ^^^ hint id=5_3_1 marks=1
 ![](/resources/academy-1-week-3/h5c.png){image align="center"} 
@@ -183,7 +183,7 @@ b) <input type="number" solution="3"/>
 ::: 
 
 ::: problem id=6_3 marks=2
-b) <input type="number" solution="2"/>  
+d) <input type="number" solution="2"/>  
 
 ^^^ hint id=6_3_1 marks=1
 ![](/resources/academy-1-week-3/h6c.png){image align="center"} 

@@ -1,8 +1,8 @@
 # Parallel Academy Module 1 Week 1 Assignment
 
-These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
-The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
+The problems are designed to help you reflect on material from previous webinar sessions (which you can access on your Academy page).  
 
 The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 

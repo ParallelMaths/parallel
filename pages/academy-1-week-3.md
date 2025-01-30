@@ -152,7 +152,7 @@ b) <input type="number" solution="8"/>
 ::: 
 
 ::: problem id=5_3 marks=2
-b) <input type="number" solution="14"/>  
+c) <input type="number" solution="14"/>  
 
 ^^^ hint id=5_3_1 marks=1
 ![](/resources/academy-1-week-3/h5c.png){image align="center"} 
@@ -185,7 +185,7 @@ b) <input type="number" solution="3"/>
 ::: 
 
 ::: problem id=6_3 marks=2
-b) <input type="number" solution="2"/>  
+c) <input type="number" solution="2"/>  
 
 ^^^ hint id=6_3_1 marks=1
 ![](/resources/academy-1-week-3/h6c.png){image align="center"} 
