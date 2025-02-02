@@ -1,16 +1,14 @@
-# Parallel Academy Module 1 Week 2 Assignment
+# Parallel Academy Module 1 Week 1 Assignment
 
-These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
+These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
-The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
+The problems are designed to help you reflect on material from previous webinar sessions (which you can access on your Academy page).  
 
 The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 
 Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
 
 You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
-
-We will also be running a weekly drop-in homework help tutorial (look out for our emails).  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
   
