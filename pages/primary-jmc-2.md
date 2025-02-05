@@ -7,77 +7,78 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
-Horatio the hamster likes to eat parts of clock faces.  
+What is the value of 6002 - 2006?
 
-In which of these clock faces has the largest sum of numbers been eaten?  
-
-![](/resources/primary-jmc-2/1-clocks.png){image align="center"} 
-
-* [x] A
-* [ ] B
-* [ ] C
-* [ ] D
-* [ ] E
+* [ ] 3994
+* [x] 3996
+* [ ] 4000
+* [ ] 4004
+* [ ] 4006
 {.col-5}
 :::
 
 
 ## 2.
 ::: problem id=2_1 marks=1
-![](/resources/primary-jmc-2/2-triangles.png){image align="right"} 
-How many triangles of any size are there in this diagram?
+Among the children in a certain family, each child has at least one brother and at least one sister.  
 
-* [ ] 8
-* [ ] 10
-* [x] 12
-* [ ] 14
-* [ ] 16
+What is the _smallest_ possible number of children in the family?  
+
+* [ ] 2
+* [ ] 3
+* [x] 4
+* [ ] 5
+* [ ] 6
+{.col-5}
 :::
 
 
 ## 3.
 ::: problem id=3_1 marks=1
-Referring to the rectangles below, the largest is red and the smallest is blue.  
+The word 'thirty' contains 6 letters and 6 = 30 ÷ 5.  
 
-Orange is the same size as yellow and not next to blue.  
+Similarly, the word 'forty' contains five letters and 5 = 40 ÷ 8.  
 
-Which is orange?  
+Which of the following is not a multiple of the numbers of letters it contains?  
 
-![](/resources/primary-jmc-2/3-rectangles.png){image align="center"} 
-
-* [ ] A
-* [x] B
-* [ ] C
-* [ ] D
-* [ ] E
+* [ ] Six
+* [ ] Twelve
+* [x] Eighteen
+* [ ] Seventy
+* [ ] Ninety
 {.col-5}
 :::
 
 
 ## 4.
 ::: problem id=4_1 marks=1
-What is the difference between the largest and smallest of the following numbers?  
+In music, a demisemiquaver is half of half of half a crotchet, and there are four crotchets in a semibreve.  
 
-* [ ] 0.89
-* [ ] 0.9
-* [ ] 0.17
-* [ ] 0.72
-* [x] 0.73
+How many demisemiquavers are there in a semibreve?  
+
+* [ ] 8
+* [ ] 16
+* [x] 32
+* [ ] 64
+* [ ] 128
 {.col-5}
 :::
 
 
 ## 5.
 ::: problem id=5_1 marks=1
-On Monday last week Dilly started to learn the Tlingit language.  
+![](/resources/primary-jmc-2/5-folded-paper.png){image align="right"} 
+Beatrix takes a sheet of paper, shown here labelled A.  
 
-Every day she learnt five new words, but when she woke each morning she had forgotten two of the words learnt the day before.  
+She then folds the sheet in half 4 times, and punches a hole all the way through the folded sheet, as shown here labelled B.  
 
-When did Dilly first achieve her target of learning fourteen words?  
+She then unfolds the sheet.  
 
-* [ ] Friday
-* [ ] Monday
-* [ ] Saturday
-* [x] Thursday
-* [ ] Wednesday
+How many holes are there now in the unfolded sheet?
+
+* [ ] 4
+* [ ] 6
+* [ ] 8
+* [ ] 12
+* [x] 16
 :::

@@ -1034,6 +1034,9 @@ homework:
   - url: academy-1-week-3
     title: Parallel Academy Module 1 Week 2
     available: 2025-01-23T09:00:00
+  - url: academy-1-week-4
+    title: Parallel Academy Module 1 Week 3
+    available: 2025-02-04T09:00:00
   - url: academy-4-week-2
     title: Parallel Academy Module 4 Week 2
     available: 2024-10-03T12:00:00
@@ -1064,6 +1067,9 @@ homework:
   - url: academy-5-week-3
     title: Parallel Academy Module 5 Week 2
     available: 2025-01-23T09:00:00
+  - url: academy-5-week-4
+    title: Parallel Academy Module 5 Week 3
+    available: 2025-02-04T09:00:00
   - url: christmas-paper-grey-kangaroo
     title: Parallel Academy Christmas Paper - Grey Kangaroo
     available: 2024-12-11T12:00:00
@@ -1090,6 +1096,9 @@ homework:
   - url: webinar-1-week-3
     title: Parallel Academy Module 1 Week 2
     available: 2025-01-23T09:00:00
+  - url: webinar-1-week-4
+    title: Parallel Academy Module 1 Week 3
+    available: 2025-02-04T09:00:00
 
 test:
   - url: euclid-sample-test
@@ -1228,18 +1237,32 @@ test:
     password: capsule
   - url: primary-jmc-1
     title: Primary JMC quiz 1
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2025-08-10T16:00:00
     password: capsule
   - url: primary-jmc-2
     title: Primary JMC quiz 2
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2025-08-10T16:00:00
     password: capsule  
+  - url: primary-jmc-3
+    title: Primary JMC quiz 3
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: capsule
+  - url: primary-jmc-4
+    title: Primary JMC quiz 4
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: capsule
   - url: primary-mental-maths-2
     title: Mental maths quiz 2
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
