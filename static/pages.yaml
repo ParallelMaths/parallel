@@ -1239,28 +1239,28 @@ test:
     title: Primary JMC quiz 1
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-01-15T16:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
     password: capsule
   - url: primary-jmc-2
     title: Primary JMC quiz 2
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-01-15T16:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
     password: capsule  
   - url: primary-jmc-3
     title: Primary JMC quiz 3
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-01-15T16:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
     password: capsule
   - url: primary-jmc-4
     title: Primary JMC quiz 4
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-01-15T16:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
     password: capsule
   - url: primary-mental-maths-2
@@ -1271,3 +1271,10 @@ test:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2024-08-10T16:00:00
     password: house
+  - url: module-1-test-week5
+    title: Parallel Academy Module 1 Week 5 Test 2025
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-12-01T13:00:00
+    answersVisibleFrom: 2026-01-15T13:00:00
+    deadline: 2026-01-15T13:00:00
+    password: night

@@ -1,7 +1,7 @@
-# Primary JMC quiz 1
+# Primary JMC quiz 2
 
-* Answer as many questions as you can in 7 minutes - don't worry if you don't get through them all. 
-* Hit SUBMIT before the time is up.  
+* Answer all of the questions in 5 minutes - if you're unsure of the answer, make a guess before you hit submit. 
+* Hit SUBMIT when the tutor tells you time is up.
 * No calculators allowed.
 
 
