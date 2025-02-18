@@ -84,7 +84,7 @@ c) <input type="number" solution="15"/>
 ![](/resources/academy-5-week-8/q3.png){image align="center"}   
 
 ::: problem id=3_1 marks=2
-<input type="number" solution="16"/>  
+a) <input type="number" solution="16"/>  
 
 ^^^ hint id=3_1_1 marks=1
 ![](/resources/academy-5-week-8/h3a.png){image align="center"} 
@@ -96,7 +96,7 @@ c) <input type="number" solution="15"/>
 :::  
 
 ::: problem id=3_2 marks=2
-<input type="number" solution="6"/>  
+b) <input type="number" solution="6"/>  
 
 ^^^ hint id=3_2_1 marks=1
 ![](/resources/academy-5-week-8/h3b.png){image align="center"} 
@@ -108,7 +108,7 @@ c) <input type="number" solution="15"/>
 ::: 
 
 ::: problem id=3_3 marks=2
-<input type="number" solution="8"/>  
+c) <input type="number" solution="8"/>  
 
 ^^^ hint id=3_3_1 marks=1
 ![](/resources/academy-5-week-8/h3c.png){image align="center"} 

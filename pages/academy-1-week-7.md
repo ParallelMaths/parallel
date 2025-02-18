@@ -1,6 +1,6 @@
 # Parallel Academy Module 1 Week 5 Assignment
 
-**Unlike previous assignments, this assignment relates to all the topics covered in the first five weeks of Tutorials. You will find it helpful to look at all previous session materials.*
+**Unlike previous assignments, this assignment relates to all the topics covered in the first five weeks of Tutorials. You will find it helpful to look at all previous session materials.**
 
 The problems are designed to help you reflect on material from previous tutorial sessions (which you can access on your Academy page).  
 
@@ -48,7 +48,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-1-week-7/q3.png){image align="center"}   
 
 ::: problem id=3_1 marks=1
-<input type="number" solution="174"/>  
+a) <input type="number" solution="174"/>  
 
 ---
 
@@ -56,7 +56,7 @@ We will also be running a weekly homework review session (look out for our email
 :::  
 
 ::: problem id=3_2 marks=2
-<input type="number" solution="11"/>  
+b) <input type="number" solution="11"/>  
 
 ^^^ hint id=3_2_1 marks=1
 ![](/resources/academy-1-week-7/h3b.png){image align="center"} 
@@ -117,7 +117,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-1-week-7/q6.png){image align="center"}  
  
 ::: problem id=6_1 marks=1
-<input type="number" solution="120"/>  
+a) <input type="number" solution="120"/>  
 
 ---
 
@@ -125,7 +125,7 @@ We will also be running a weekly homework review session (look out for our email
 :::  
 
 ::: problem id=6_2 marks=1
-<input type="number" solution="2"/>  
+b) <input type="number" solution="2"/>  
 
 ---
 
@@ -133,7 +133,7 @@ We will also be running a weekly homework review session (look out for our email
 ::: 
 
 ::: problem id=6_3 marks=2
-<input type="number" solution="72"/>  
+c) <input type="number" solution="72"/>  
 
 ^^^ hint id=6_3_1 marks=1
 ![](/resources/academy-1-week-7/h6c.png){image align="center"} 

@@ -1293,6 +1293,5 @@ test:
     title: Parallel Academy Module 1 Week 5 Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-12-01T13:00:00
-    answersVisibleFrom: 2026-01-15T13:00:00
+    answersVisibleFrom: 2025-02-17T13:00:00
     deadline: 2026-01-15T13:00:00
-    password: night

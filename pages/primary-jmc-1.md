@@ -32,8 +32,8 @@ How many pupils answered “no”?
 * [ ] 4
 * [ ] 5
 * [ ] 6
-* [ ] 7
-* [x] 8
+* [x] 7
+* [ ] 8
 {.col-5}
 :::
 
