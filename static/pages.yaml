@@ -1117,6 +1117,10 @@ homework:
   - url: webinar-1-week-4
     title: Parallel Academy Module 1 Week 3
     available: 2025-02-04T09:00:00
+  - url: webinar-1-week-7
+    title: Parallel Academy Module 1 Week 5
+    available: 2025-02-24T09:00:00
+ 
 
 test:
   - url: euclid-sample-test
