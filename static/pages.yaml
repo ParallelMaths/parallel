@@ -1120,6 +1120,12 @@ homework:
   - url: webinar-1-week-7
     title: Parallel Academy Module 1 Week 5
     available: 2025-02-24T09:00:00
+  - url: webinar-1-week-8
+    title: Parallel Academy Module 1 Week 7
+    available: 2025-02-24T09:00:00
+  - url: webinar-1-week-9
+    title: Parallel Academy Module 1 Week 8
+    available: 2025-02-24T09:00:00
  
 
 test:
@@ -1277,14 +1283,14 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: tiger
+    password: mouse
   - url: primary-jmc-4
     title: Primary JMC quiz 4
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: tiger
+    password: moon
   - url: primary-mental-maths-2
     title: Mental maths quiz 2
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

@@ -1,6 +1,6 @@
 # Parallel Academy Module 1 Week 5 Assignment
 
-**Unlike previous assignments, this assignment relates to all the topics covered in the first five weeks of Tutorials. You will find it helpful to look at all previous session materials.**  
+**Unlike previous assignments, this assignment relates to all the topics covered in the first five weeks of webinars. You will find it helpful to look at all previous session materials.**  
 
 The problems are designed to help you reflect on material from previous webinar sessions (which you can access on your Academy page).  
 
