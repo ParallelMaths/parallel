@@ -141,7 +141,7 @@ c) <input type="number" solution="72"/>
 
 ---
 
-![](/resources/academy-1-week-7/s3c.png){image align="center"}
+![](/resources/academy-1-week-7/sol6c.png){image align="center"}
 ::: 
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
