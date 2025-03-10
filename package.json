@@ -63,7 +63,7 @@
     "aws-sdk": "^2.1252.0",
     "caniuse-lite": "^1.0.3",
     "concurrently": "^7.3.0",
-    "firebase": "^9.0.0",
+    "firebase": "^11.4.0",
     "firebase-functions": "^3.18.0",
     "firebase-tools": "^9.6.1",
     "promise-limit": "^2.7.0"
