@@ -27,7 +27,6 @@ We will also be running a weekly homework review session (look out for our email
 * [ ] (d)
 * [x] (e)
 {.col-5}
-:::
 
 ---
 
@@ -82,7 +81,6 @@ We will also be running a weekly homework review session (look out for our email
 * [ ] (d)
 * [ ] (e)
 {.col-5}
-:::
 
 ---
 
