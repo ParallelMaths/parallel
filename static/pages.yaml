@@ -1201,7 +1201,7 @@ test:
     deadline: 2025-08-10T16:00:00
     password: bag
   - url: module-5-test-spring
-    title: Parallel Academy Module 5 Spring Test 2024
+    title: Parallel Academy Module 5 Spring Test 2025
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-10T16:00:00
@@ -1266,7 +1266,7 @@ test:
     title: Mental maths quiz
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2024-12-17T07:00:00
-    deadline: 2025-01-15T13:00:00
+    deadline: 2025-10-15T13:00:00
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

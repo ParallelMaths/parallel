@@ -121,7 +121,7 @@ b) <input type="number" solution="18"/>
 
 ---
 
-![](/resources/academy-5-week-7/s7b.png){image align="center"}
+![](/resources/academy-5-week-10/s7b.png){image align="center"} 
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
