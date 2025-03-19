@@ -1117,6 +1117,30 @@ homework:
     title: Parallel Academy Christmas Paper - Pink Kangaroo
     available: 2024-12-11T12:00:00
     password: tomato
+  - url: easter-paper-7
+    title: Parallel Academy Year 7 Easter Paper
+    available: 2025-03-11T12:00:00
+    password: bag
+  - url: easter-paper-7-kangaroo
+    title: Parallel Academy Year 7 Easter Paper - Junior Kangaroo
+    available: 2025-03-11T12:00:00
+    password: bag
+  - url: easter-paper-8
+    title: Parallel Academy Year 8 Easter Paper
+    available: 2025-03-11T12:00:00
+    password: bag
+  - url: easter-paper-8-kangaroo
+    title: Parallel Academy Year 8 Easter Paper - Junior Kangaroo
+    available: 2025-03-11T12:00:00
+    password: bag
+  - url: easter-paper-9
+    title: Parallel Academy Year 9 Easter Problem Solving Paper
+    available: 2025-03-11T12:00:00
+    password: bag
+  - url: easter-paper-10
+    title: Parallel Academy Year 10 Easter Problem Solving Paper
+    available: 2025-03-11T12:00:00
+    password: bag
   - url: webinar-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
