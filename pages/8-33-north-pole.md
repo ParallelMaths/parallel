@@ -20,10 +20,12 @@ week by the Parallel Project to bright young mathematicians.
 
 This video explores in great depth a question that we have covered in two recent Parallelograms.
 
-@[youtube](c_Vl4T4Anc4?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](qHh3zq0Pryw?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 ::: problem id=1_1 marks=2
-__1.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km west and 1 km north, and you end up exactly where you started. According to  Musk’s full answer, which of the following is most accurate?
+__1.1.__ You are standing on the surface of the Earth. You walk 1 km south, 1 km west and 1 km north, and you end up exactly where you started.  
+
+According to our full answer, which of the following is most accurate?
 
 * [ ] You are near the North Pole.
 * [ ] You are near the South Pole.

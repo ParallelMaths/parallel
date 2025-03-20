@@ -1120,27 +1120,21 @@ homework:
   - url: easter-paper-7
     title: Parallel Academy Year 7 Easter Paper
     available: 2025-03-11T12:00:00
-    password: bag
   - url: easter-paper-7-kangaroo
     title: Parallel Academy Year 7 Easter Paper - Junior Kangaroo
     available: 2025-03-11T12:00:00
-    password: bag
   - url: easter-paper-8
     title: Parallel Academy Year 8 Easter Paper
     available: 2025-03-11T12:00:00
-    password: bag
   - url: easter-paper-8-kangaroo
     title: Parallel Academy Year 8 Easter Paper - Junior Kangaroo
     available: 2025-03-11T12:00:00
-    password: bag
   - url: easter-paper-9
     title: Parallel Academy Year 9 Easter Problem Solving Paper
     available: 2025-03-11T12:00:00
-    password: bag
   - url: easter-paper-10
     title: Parallel Academy Year 10 Easter Problem Solving Paper
     available: 2025-03-11T12:00:00
-    password: bag
   - url: webinar-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
@@ -1227,22 +1221,22 @@ test:
   - url: module-5-test-spring
     title: Parallel Academy Module 5 Spring Test 2025
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-08-10T16:00:00
+    available: 2025-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
     password: bag
   - url: module-7-test-spring
     title: Parallel Academy Module 7 Spring Test 2024
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-08-10T16:00:00
+    available: 2025-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
     password: bag
   - url: module-9-test-spring
-    title: Parallel Academy Module 9 Spring Test 2024
+    title: Parallel Academy Module 9 Spring Test 2025
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-08-10T16:00:00
+    available: 2025-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
     password: bag
   - url: webinar-module-3-test-autumn
@@ -1291,6 +1285,13 @@ test:
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2024-12-17T07:00:00
     deadline: 2025-10-15T13:00:00
+  - url: mental-maths-spring
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
+    available: 2025-01-15T13:00:00
+    answersVisibleFrom: 2025-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: bat
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
