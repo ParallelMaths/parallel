@@ -151,9 +151,9 @@ Smallest prime number above 120
 
 ## 19.
 ::: problem id=19_1 marks=1
-Lowest common multiple of 44 and 66
+Lowest common multiple of 44 and 55
 
-<input solution="264"/>  
+<input solution="220"/>  
 :::
 
 

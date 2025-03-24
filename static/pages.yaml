@@ -1226,7 +1226,7 @@ test:
     deadline: 2025-08-10T16:00:00
     password: bag
   - url: module-7-test-spring
-    title: Parallel Academy Module 7 Spring Test 2024
+    title: Parallel Academy Module 7 Spring Test 2025
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2025-08-10T16:00:00

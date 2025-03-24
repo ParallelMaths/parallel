@@ -333,3 +333,5 @@ We will then share full solutions with you just before the start of the summer t
 {.col-5}
 
 :::
+
+**Do not Submit until you are ready and have spent at least one hour attempting the paper. You will not be able to re-submit.**
