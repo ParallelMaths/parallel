@@ -367,11 +367,25 @@ app.get('/api/parallelogram/all/:pid', async (req, res) => {
 const parallelogramHandler = async (req, res) => {
   const token = req.headers['parallel-token'];
   const pid = req.params.pid;
+
+  if(!token && res.locals.user) {
+    const answers = res.locals.user.answers || {};
+    if(answers[pid]) {
+      return res.status(200).send({
+        score: answers[pid].score || null,
+        submitted: answers[pid].submitted || false,
+        time: answers[pid].time || null,
+        firstAnswer: answers[pid].firstAnswer || null,
+      });
+    }
+    return res.status(200).send({ error: 'no data found (cookie)' });
+  }
+
   try {
     const userData = await user.getUserFromToken(token);
     const data = await user.getUserData(userData.uid);
 
-    if(!data) return res.status(403).send({ error: 'no user data found' });
+    if(!data) return res.status(403).send({ error: 'no user data found (header token)' });
 
     const answers = data.answers || {};
 
@@ -384,9 +398,9 @@ const parallelogramHandler = async (req, res) => {
       });
     }
 
-    return res.status(200).send({ error: 'no data found' });
+    return res.status(200).send({ error: 'no data found (header token)' });
   } catch (error) {
-    return res.status(500).send({ error: error.code || 'Unknown error' });
+    return res.status(500).send({ error: error.code || 'Unknown error (header token)' });
   }
 }
 
