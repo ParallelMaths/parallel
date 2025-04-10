@@ -45,23 +45,11 @@ __1.2.__ Following on from the previous question, which of the following is most
 :::
 
 
-## 2. Changing the world
-
-![](/resources/8-33-north-pole/2-steve-jobs.jpg){image align="right"}
-Scientists and engineers like Elon Musk are literally changing the world... almost certainly for the better. If you also want to change the world then studying mathematics and then becoming an engineer or scientist is probably a very good path to follow.
-
-Technology companies like Apple and Microsoft have changed the way we communicate with each other and the way we appreciate art and music... indeed they have changed the way we live our lives.
-
-Once upon a time, Steve Jobs wanted to persuade the head of Pepsi to join him at Apple, when it was a relatively small company. The head of Pepsi could see no reason why he should leave a global giant like Pepsi to join the relatively small Apple Corporation, but Jobs won him over by saying: “Do you want to sell sugar water for the rest of your life, or do you want to come with me and change the world?”
-
-Studying mathematics is a stepping stone to changing the world.
-
-
-## 3. Junior Maths Challenge Problem (UKMT)
+## 2. Junior Maths Challenge Problem (UKMT)
 <!--- 2013 (7) --->
 
-::: problem id=3_1 marks=2
-__3.1.__ After tennis training, Andy collects twice as many balls as Roger and five more than
+::: problem id=2_1 marks=2
+__2.1.__ After tennis training, Andy collects twice as many balls as Roger and five more than
 Maria. They collect 35 balls in total. How many balls does Andy collect?
 
 * [ ] 20
@@ -93,12 +81,12 @@ This calculation is easier that the one we gave above, but, if you use this meth
 :::
 
 
-## 4. As I was going to St Ives
+## 3. As I was going to St Ives
 
 The action movie Die Hard With A Vengeance has a plot in which the two heroes McClane and Carver (played by Bruce Willis and Samuel L. Jackson) have to solve a series of riddles in order to save the city from the evil villain Simon Gruber.
 
-::: problem id=4_1 marks=3
-__4.1.__ Have a go at this 200-year-old riddle featured in the film:
+::: problem id=3_1 marks=3
+__3.1.__ Have a go at this 200-year-old riddle featured in the film:
 
 _As I was going to St. Ives I met a man with seven wives,  
 Each wife had seven sacks, each sack had seven cats,  
@@ -114,18 +102,14 @@ How many were going to St. Ives?_
 Lots of people give the answer 2,801 (because there is 1 man + 7 wives + 49 sacks + 343 cats + 2,401 kittens). However, the answer is 1, because the rhyme starts with “As I was going to St Ives, I met...”, so only the “I” was going to St Ives, because everyone else was going the other way. Here is how the riddle was solved in the movie.
 
 @[youtube](zcUJUOMtfHQ?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
-
-In fact, I am not sure Samuel L. Jackson is right when he is trying to work out the number of items going away from St Ives. Luckily, in the Sesame Street clip below there is a much better and clearer explanation:
-
-@[youtube](ol1h9VB4Lyk?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 :::
 
 
-## 5. Junior Maths Challenge Problem (UKMT)
+## 4. Junior Maths Challenge Problem (UKMT)
 <!--- 2013 (8) --->
 
-::: problem id=5_1 marks=2
-__5.1.__ Two identical rulers are placed together, as shown (not to scale).
+::: problem id=4_1 marks=2
+__4.1.__ Two identical rulers are placed together, as shown (not to scale).
 
 ![](/resources/8-33-north-pole/5-rulers-question.jpg){image align="center"}
 
@@ -151,16 +135,25 @@ So, `L = 6 + 6 + 1 = 13`.
 :::
 
 
-## 6. More Möbius
+## 5. More Möbius
 
-Last week’s Parallelogram looked at the strange properties of Möbius loops. If you recall, making a Möbius loop involves taking a strip of paper, forming a loop, then making half a twist in one end, and finally joining the two ends with sticky tape. If you follow that process, you will create an object that only has one side. Every piece of paper, of course, is supposed to have two sides – a top and a bottom, or maybe a back and a front. However, the Möbius loop has only one side! (By the way, a Möbius loop is sometimes called a Möbius strip or a Möbius band.)
+@[youtube](Iga-51fLAJ4?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
-This is a terrific video by the terrific Vi Hart, who explores the wonders of Möbius loops by making them from something called “Fruit by the Foot”.
+::: problem id=5_1 marks=1
+__5.1.__ When you flip the Möbius chip in the oven you are now cooking:
 
-By all means watch it to the end, but it gets a bit (only a bit) complicated after 2 minutes 30 seconds.
+* [ ] The other side
+* [x] The same side as before
+* [ ] A secret third side
+:::
 
-@[youtube](Am-a5x9DGjg?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+::: problem id=5_2 marks=1
+__5.2.__ When you flip the Möbius chip in the oven you are now cooking:
 
+* [x] One big curly chip with space for a filling
+* [ ] Two smaller Möbius chips
+* [ ] Four smaller Möbius chips
+:::
 
 
 Before you hit the SUBMIT button, here are some quick reminders:
