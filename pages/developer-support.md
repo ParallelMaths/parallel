@@ -1,4 +1,4 @@
-# Web Developer Support Role (Parallel platform)
+# Web Developer Support Role
 
 Parallel is seeking an enthusiastic senior web developer who is excited to direct their skills towards our mission of increasing the number and diversity of excellent young mathematicians.  
 
