@@ -28,19 +28,21 @@ __1.1.__ Do pentagons tile (fit together with no gaps)?
 * [ ] Only regular pentagons
 * [x] Only some irregular pentagons
 * [ ] No pentagons tile
-
----
-
-![](/resources/8-34-pentagons-tile/1-reptiles.jpg){image align="center"}  
 :::
 
 ::: problem id=1_2 marks=2
-__1.2.__ What pun based name describes a shape which can be tiled with smaller versions of itself?
+__1.2.__ Here are some examples of shapes which can be tiled with smaller versions of themselves, what pun-based name is used to describe this property?
 
 * [ ] An infini-tile
 * [ ] A croco-tile
 * [x] A rep-tile
 * [ ] A pentagon-and-on-and-on
+
+---
+
+Here are some examples of __reptiles__, and how they tile:  
+
+![](/resources/8-34-pentagons-tile/1-reptiles.jpg){image align="center"}  
 :::
 
 
