@@ -355,7 +355,7 @@ This clip from the TV quiz show _Who Wants to be a Millionaire?_ shows just one
 reason why it’s a good idea to be a confident mathematician.
 
 
-@[youtube](BbX44YSsQ2I?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
+@[youtube](JpGya7hKtng?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
 ## 5. Junior Maths Challenge Problem (UKMT)
