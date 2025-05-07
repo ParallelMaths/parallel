@@ -18,7 +18,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ## 1. Hidden Figures – another maths movie
 
-![](/resources/7-27-hidden-figures/hidden-figures-poster.png){width=170}
+![](/resources/7-35-hidden-figures/hidden-figures-poster.png){width=170}
 
 Last week we looked at the film “Good Will Hunting” and explored one of the
 mathematical problems that appears in it. I also posed a question about another
@@ -50,7 +50,7 @@ played a crucial role in the space race. It is a terrific film, which received
 three Oscar nominations and which is both inspiring and exciting. Well worth
 watching if your parents or teacher can get hold of the DVD.
 
-| ![](/resources/7-27-hidden-figures/nasa-3.jpg) | ![](/resources/7-27-hidden-figures/nasa-4.jpg) |
+| ![](/resources/7-35-hidden-figures/nasa-3.jpg) | ![](/resources/7-35-hidden-figures/nasa-4.jpg) |
 
 
 ## 2. Moore's Law
@@ -106,7 +106,7 @@ scale on the y-axis, which increases by a factor of 10 at each step. So, in 40
 years, the number of transistors on a microprocessor increased from 2,300 to
 2,600,000,000, which is an increase by a factor of more than a million.
 
-![](/resources/7-27-hidden-figures/moores-law-graph.png)
+![](/resources/7-35-hidden-figures/moores-law-graph.png)
 
 ::: problem id=2_1 marks=1
 __2.1__ Look at the number of transistors on the 80486 microprocessor (~1990)
@@ -146,7 +146,7 @@ first 32 squares. You will almost certainly need a calculator, and make sure you
 check your answers. I have given you a headstart by listing the answers for the
 first 10 squares.
 
-![](/resources/7-27-hidden-figures/rice-count-table.png)
+![](/resources/7-35-hidden-figures/rice-count-table.png)
 
 ::: problem id=3_1 marks=1
 __3.1__ How many grains were on the 15th square?
