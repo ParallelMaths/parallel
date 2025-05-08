@@ -4,7 +4,7 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 
 const TEACHERS = [
-  "tjohnson@StGabriels.co.uk",
+  "aaspland@sjl.herts.sch.uk",
   "qqqqqq.qqqqq@qqq.edu"
 ];
 
