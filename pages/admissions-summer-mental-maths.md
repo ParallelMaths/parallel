@@ -1,8 +1,8 @@
-# Summer Admissions Mental maths 2025
+# Summer Admissions Mental Maths 2025
 
-* Answer as many questions as you can in 4 minutes - don't worry if you don't get through them all. 
-* Hit SUBMIT before the time is up.  
-* No calculators allowed.
+* __Answer as many questions as you can in 4 minutes - don't worry if you don't get through them all.__  
+* __Hit SUBMIT before the time is up.__  
+* __No calculators allowed.__  
 
 
 ## 1.	

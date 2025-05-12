@@ -1,14 +1,10 @@
 # Year 7 Summer Admissions Problem Solving Test 2025
 
-** * You have 30 minutes for this test. **  
-  
-** * The tutor will let you know how long is left at regular intervals. **  
-
-** * Answer every question - there are no negative marks for wrong answers. **  
-  
-** * Use all the time available and DO NOT SUBMIT EARLY. **  
-
-** * After you submit, stay in Zoom and await further instructions. **  
+* __You have 30 minutes for this test.__
+* __The tutor will let you know how long is left at regular intervals.__
+* __Answer every question - there are no negative marks for wrong answers.__ 
+* __Use all the time available and DO NOT SUBMIT EARLY.__ 
+* __After you submit, stay in Zoom and await further instructions.__  
 
 
 ## 1.
