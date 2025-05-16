@@ -18,13 +18,15 @@ What's involved in being a tutor? Find out in this video.
 
 If you are excited to join our team, and to work with small groups of highly capable and enthusiastic students, we would love to hear from you.  
 
-Successful candidates will:  
+We are looking for tutors who will:  
 * be confident at explaining mathematics  
 * be able to engage and inspire students of all ages,  
 * have experience in online tutoring or classroom teaching,  
 * have experience in teaching mathematics to at least GCSE level.  
 
 We are particularly keen to hear from tutors who have experience of teaching A Level Maths and A Level Further Maths, as well as tutors who are comfortable preparing students for UKMT challenges.  
+
+New tutors starting in September will be offered £30 per 50-minute tutorial, and will be able to choose the days and times that work best for them.  
 
 
 ## Application process
