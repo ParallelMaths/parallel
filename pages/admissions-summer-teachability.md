@@ -35,8 +35,8 @@
 ![](/resources/admissions-summer-teachability/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=1
-<input type="number" solution="40/>  
-::: 
+<input type="number" solution="40"/>  
+:::  
 
 
 ## 5.
