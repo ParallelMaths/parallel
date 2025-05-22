@@ -7,6 +7,14 @@
 * __After you submit, stay in Zoom and await further instructions.__  
 
 
+## 0.
+If you sat the Junior Maths Challenge this year and know your score please enter it below (otherwise leave this blank).
+
+::: problem id=0_1 marks=0  
+<input type="number" solution="-10"/>  
+:::  
+
+
 ## 1.
 ![](/resources/admissions-summer-ps-8/q1.png){image align="center"}  
 
@@ -81,7 +89,7 @@
 ![](/resources/admissions-summer-ps-8/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=1
-<input type="number" solution="51"/>  
+<input type="number" solution="25"/>  
 ::: 
 
 
@@ -89,7 +97,7 @@
 ![](/resources/admissions-summer-ps-8/q7.png){image align="center"}  
 
 ::: problem id=7_1 marks=1
-<input type="number" solution="84"/>  
+<input type="number" solution="51"/>  
 ::: 
 
 
@@ -97,7 +105,7 @@
 ![](/resources/admissions-summer-ps-8/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=1
-<input type="number" solution="150"/>  
+<input type="number" solution="66660"/>  
 ::: 
 
 
@@ -105,7 +113,7 @@
 ![](/resources/admissions-summer-ps-8/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=1
-<input type="number" solution="66660"/>  
+<input type="number" solution="54"/>  
 ::: 
 
 
@@ -113,7 +121,7 @@
 ![](/resources/admissions-summer-ps-8/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=1
-<input type="number" solution="296"/>  
+<input type="number" solution="26"/>  
 ::: 
 
 

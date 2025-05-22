@@ -11,7 +11,7 @@
 ![](/resources/admissions-summer-teachability/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=1
-<input type="number" solution="21"/>  
+<input type="number" solution="24"/>  
 ::: 
 
 
@@ -19,7 +19,7 @@
 ![](/resources/admissions-summer-teachability/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=1
-<input type="number" solution="85"/>  
+<input type="number" solution="56"/>  
 ::: 
 
 
@@ -27,7 +27,7 @@
 ![](/resources/admissions-summer-teachability/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=1
-<input type="number" solution="121"/>  
+<input type="number" solution="21"/>  
 ::: 
 
 
@@ -35,7 +35,7 @@
 ![](/resources/admissions-summer-teachability/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=1
-<input type="number" solution="220"/>  
+<input type="number" solution="40/>  
 ::: 
 
 
@@ -43,7 +43,7 @@
 ![](/resources/admissions-summer-teachability/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=1
-<input type="number" solution="110"/>  
+<input type="number" solution="85"/>  
 ::: 
 
 
@@ -51,7 +51,7 @@
 ![](/resources/admissions-summer-teachability/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=1
-<input type="number" solution="990"/>  
+<input type="number" solution="40"/>  
 ::: 
 
 
@@ -59,7 +59,7 @@
 ![](/resources/admissions-summer-teachability/q7.png){image align="center"}  
 
 ::: problem id=7_1 marks=1
-<input type="number" solution="35"/>  
+<input type="number" solution="121"/>  
 ::: 
 
 
@@ -67,7 +67,7 @@
 ![](/resources/admissions-summer-teachability/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=1
-<input type="number" solution="90"/>  
+<input type="number" solution="220"/>  
 ::: 
 
 
@@ -75,7 +75,7 @@
 ![](/resources/admissions-summer-teachability/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=1
-<input type="number" solution="32"/>  
+<input type="number" solution="110"/>  
 ::: 
 
 
@@ -83,7 +83,7 @@
 ![](/resources/admissions-summer-teachability/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=1
-<input type="number" solution="45"/>  
+<input type="number" solution="90"/>  
 ::: 
 
 

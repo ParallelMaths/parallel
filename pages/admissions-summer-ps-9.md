@@ -7,6 +7,14 @@
 * __After you submit, stay in Zoom and await further instructions.__  
 
 
+## 0.
+If you sat the Intermediate Maths Challenge this year and know your score please enter it below (otherwise leave this blank).
+
+::: problem id=0_1 marks=0  
+<input type="number" solution="-10"/>  
+:::  
+
+
 ## 1.
 ![](/resources/admissions-summer-ps-9/q1.png){image align="center"}  
 
@@ -55,8 +63,8 @@
 ::: problem id=4_1 marks=1  
 
 * [ ] (a)
-* [ ] (b)
-* [x] (c)
+* [x] (b)
+* [ ] (c)
 * [ ] (d)
 * [ ] (e)
 {.col-5}
@@ -69,8 +77,8 @@
 ::: problem id=5_1 marks=1  
 
 * [ ] (a)
-* [ ] (b)
-* [x] (c)
+* [x] (b)
+* [ ] (c)
 * [ ] (d)
 * [ ] (e)
 {.col-5}
@@ -81,7 +89,7 @@
 ![](/resources/admissions-summer-ps-9/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=1
-<input type="number" solution="40"/>  
+<input type="number" solution="28"/>  
 ::: 
 
 
@@ -89,7 +97,7 @@
 ![](/resources/admissions-summer-ps-9/q7.png){image align="center"}  
 
 ::: problem id=7_1 marks=1
-<input type="number" solution="224"/>  
+<input type="number" solution="155"/>  
 ::: 
 
 
@@ -97,7 +105,7 @@
 ![](/resources/admissions-summer-ps-9/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=1
-<input type="number" solution="29"/>  
+<input type="number" solution="224"/>  
 ::: 
 
 
@@ -105,7 +113,7 @@
 ![](/resources/admissions-summer-ps-9/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=1
-<input type="number" solution="36"/>  
+<input type="number" solution="29"/>  
 ::: 
 
 
@@ -113,7 +121,7 @@
 ![](/resources/admissions-summer-ps-9/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=1
-<input type="number" solution="631"/>  
+<input type="number" solution="26"/>  
 ::: 
 
 
