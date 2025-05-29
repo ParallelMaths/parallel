@@ -64,57 +64,12 @@ However, you need to check for numbers that are divisible by 3, 5 and 7, because
 :::
 
 
-## 3. Sumaze! Part 1
-
-Sumaze! is a terrific game that tests your core maths skills. It was created by Richard Lissaman, who is part of MEI (Mathematics in Education & Industry).
-
-You will have access to 9 levels of the game, starting with some really trivial ones to allow you to understand the game, followed by some trickier levels. You score 1 point for level 1, 2 points for level 2, 3 points for level 3 and so on up to 9 points for level 9.
-
-However, you will lose 2 points for every hint you use (available on levels 8 & 9). And if you have to restart a level then you will lose 1 point each time, up to a maximum of 4 lost points. So, if you need one hint on level 9, then your maximum score goes from 9 down to 7. And if you succeed after restarting three times, then your score drops from 7 down to 4.
-
-It is easier to understand Sumaze! by playing it, but in case it helps here are a few important rules and tips:
-
-* Aim to move your blue box to reach the “end of level” square.
-* Your box cannot at any time contain a number bigger than 1,000.
-* Your box cannot at any time contain a number that is a fraction.
-* You sometimes need keys to open doors to reach the “end of level” square.
-* Passing through an arrow means you cannot go back.
-* To pass through a green square you must satisfy the square’s condition.
-* Pink squares (and their operations) disappear when you move onto them.
-* Lilac squares (and their operations) can be crossed over and over again.
-* IMPORTANT – Sumaze won't run on a smartphone. If you are currently on a smartphone,
-  then type this into your PC/Mac/tablet browser: bit.ly/parallel_sumaze
-
-You can stop and start Sumaze!, and the website will use cookies to remember your level and score so far,
-but it is better to finish all the levels once you have started.
-
-[Open Sumaze](https://sumaze.mei.org.uk/games/parallel_sumaze_1/){.external target="_blank"}
-
-::: problem id=3_1 marks=4.5
-**3.1** When you have finished Sumaze, you will receive a score and a code word.
-Please enter your code word here, so that we can add your Sumaze score to your
-overall Parallelogram total.
-
-<input solution="sumaze" class="correct" placeholder="Sumaze Code Word"/>
-
-Score: {{c.sumaze(c.answers.p_3_0)}} / 45 {.sumaze-score v-show="c.answers.p_3_0"}
-
-*The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
-Sumaze score by 10 and add it to your overall Parallelogram score. So
-ultimately a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram
-total score.*
-
----
-[This video clip](https://vimeo.com/553295210){target="_blank"} shows the paths you should or could have taken to solve each stage with a perfect score.
-:::
-
-
-## 4. The Page Turner
+## 3. The Page Turner
 
 If you scroll down, you will see one of my favourite YouTube videos, which features a complex machine designed just to turn the page of a newspaper. It is the work of the eccentric inventor Joseph Herscher. While you watch it, try to answer the questions below.
 
-::: problem id=4_1 marks=2
-__4.1__ The 4-ball encounters three goblets, but it does not drop into any of them because they are filled with:
+::: problem id=3_1 marks=2
+__3.1__ The 4-ball encounters three goblets, but it does not drop into any of them because they are filled with:
 
 * [ ] Sand
 * [x] Balls
@@ -123,8 +78,8 @@ __4.1__ The 4-ball encounters three goblets, but it does not drop into any of th
 * [ ] Compressed air
 :::
 
-::: problem id=4_2 marks=2
-__4.2__ How does the water move from a beaker to a sponge, causing the sponge to get heavier and tip down?
+::: problem id=3_2 marks=2
+__3.2__ How does the water move from a beaker to a sponge, causing the sponge to get heavier and tip down?
 
 * [x] Boiling
 * [ ] Freezing
@@ -136,35 +91,10 @@ __4.2__ How does the water move from a beaker to a sponge, causing the sponge to
 @[youtube](GOMIBdM6N7Q?rel=0) _(If you have problems watching the video, right click to open it in a new window)_
 
 
-## 5. Sumaze! Part 2
+## 4. Another of Joseph’s machines – his longest machine ever
 
-After the earlier taster, it's time for another set of Sumaze! challenges. The rules are the same, and you have 9 more levels to puzzle your way through!
-
-[Open Sumaze](https://sumaze.mei.org.uk/games/parallel_sumaze_2/){.external target="_blank"}
-
-::: problem id=5_1 marks=4.5
-__5.1__ When you have finished Sumaze, you will receive a score and a code word.
-Please enter your code word here, so that we can add your Sumaze score to your overall Parallelogram total.
-
-<input solution="sumaze" class="correct" placeholder="Sumaze Code Word"/>
-
-Score: {{c.sumaze(c.answers.p_2)}} / 45 {.sumaze-score v-show="c.answers.p_2"}
-
-
-_The maximum score in Sumaze is 1 + 2 + 3 + … + 9 = 45. We will divide your
-Sumaze score by 10 and add it to your overall Parallelogram score. So ultimately
-a perfect Sumaze score will add 45/10 = 4.5 to your Parallelogram total score._
-
----
-[This video clip](https://vimeo.com/553295163){target="_blank"} shows the paths you should or could have taken to solve each stage with a
-perfect score.
-:::
-
-
-## 6. Another of Joseph’s machines – his longest machine ever
-
-::: problem id=6_1 marks=4
-__6.1__ Another amazing invention by Joseph Herscher. Just one question. How many ping pong balls are tipped onto the table in order to just knock over a couple of dominos?
+::: problem id=4_1 marks=4
+__4.1__ Another amazing invention by Joseph Herscher. Just one question. How many ping pong balls are tipped onto the table in order to just knock over a couple of dominos?
 
 <input solution="12"/>
 :::
