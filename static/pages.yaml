@@ -1031,6 +1031,8 @@ homework:
   - url: ukmt-score
     title: UKMT Score
     available: 2025-01-16T09:00:00
+    answersVisibleFrom: 2026-06-19T13:00:00
+    postSubmissionMessage: Thank you, we have received your score.  
   - url: academy-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
