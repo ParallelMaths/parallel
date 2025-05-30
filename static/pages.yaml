@@ -1028,6 +1028,9 @@ year11:
     deadline: 2024-09-08T19:00:00
 
 homework:
+  - url: ukmt-score
+    title: UKMT Score
+    available: 2025-01-16T09:00:00
   - url: academy-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
