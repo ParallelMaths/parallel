@@ -1028,11 +1028,6 @@ year11:
     deadline: 2024-09-08T19:00:00
 
 homework:
-  - url: ukmt-score
-    title: UKMT Score
-    available: 2025-01-16T09:00:00
-    answersVisibleFrom: 2026-06-19T13:00:00
-    postSubmissionMessage: Thank you, we have received your score.  
   - url: academy-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
@@ -1209,6 +1204,12 @@ homework:
 
 
 test:
+  - url: ukmt-score
+    title: UKMT Score
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-08-10T16:00:00
+    postSubmissionMessage: Thank you, we have received your score.  
+    deadline: 2026-08-11T16:00:00
   - url: euclid-sample-test
     title: Parallel Academy sample test
     available: 2024-01-15T13:00:00
