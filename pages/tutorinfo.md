@@ -8,13 +8,18 @@ The Parallel Academy supports ambitious students to achieve their mathematical p
 
 Last year, over 2,000 students applied to join our entirely free programme of weekly online tutoring. This year we expect twice as many brilliant students to apply. In order not to turn away students with both potential and enthusiasm, we need more tutors to join our mission, so we are currently recruiting.  
 
+;;; columns columnMinWidth=350
+^^^ column
 You can meet our current team of terrific tutors below:
 
 @[youtube](watch?v=ZPdHoh7xe9c&rel=0)
-
+^^^
+^^^ column
 What's involved in being a tutor? Find out in this video.
 
 @[youtube](watch?v=plNThptd9qU&rel=0)
+^^^
+;;;
 
 If you are excited to join our team, and to work with small groups of highly capable and enthusiastic students, we would love to hear from you.  
 

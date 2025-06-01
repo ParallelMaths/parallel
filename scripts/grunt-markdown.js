@@ -84,7 +84,7 @@ md.use(markdwonContainer, 'column', { marker: '^', render(tokens, idx) {
   const centerContent = options.includes('centerContent');
 
   if(tokens[idx].type === 'container_column_open'){
-    return `<div style="${centerContent ? 'display: flex; align-items: center; justify-content: center;' : ''}"><div>`
+    return `<div class="column" style="${centerContent ? 'display: flex; align-items: center; justify-content: center;' : ''}"><div>`
   }
   return `</div></div>`
 }});
