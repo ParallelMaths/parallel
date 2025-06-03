@@ -2,7 +2,9 @@ name: Export CSV files
 
 on:
   workflow_dispatch:
-
+  pull_request:
+    types: [edited, opened, synchronize]
+    
 jobs:
   deploy-beta:
     name: Export files
