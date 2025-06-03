@@ -51,17 +51,3 @@ jobs:
       #   shell: bash
       #   env:
       #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-
-      - name: Send mail
-        uses: dawidd6/action-send-mail@v5
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
-          subject: Automated CSV export
-          to: drew@mcmill.co.uk
-          from: Drew McMillan
-          body: See attached files for the latest CSV exports.
-          attachments: ./private/*.csv
