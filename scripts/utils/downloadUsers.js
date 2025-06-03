@@ -15,7 +15,7 @@ const cacheFilePath = path.join(__dirname, `../../private/cache-users.json`);
 const cacheLengthMs = 1000*60*60;
 
 const runDownload = async () => {
-    const command = 'npm run export-users';
+    const command = process.env.FIREBASE_TOKEN ? 'npm run export-users-ci' : 'npm run export-users';
     console.log('Downloading user auth accounts');
     try {
         const { stderr } = await exec(command);
