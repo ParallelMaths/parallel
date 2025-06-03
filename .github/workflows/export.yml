@@ -30,6 +30,11 @@ jobs:
         env:
           AWS_ACCOUNT: ${{ secrets.AWS_ACCOUNT }}
         shell: bash
+      
+      - name: Install
+        run: |
+          npm install
+        shell: bash
 
       - name: Get Users
         run: |
