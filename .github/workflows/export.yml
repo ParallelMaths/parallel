@@ -38,14 +38,11 @@ jobs:
           npm install
         shell: bash
 
-      - name: Debug
-        run: |
-          ls ./private
-        shell: bash
-
-      - name: Get Users
+      - name: Get Data
         run: |
           npm run get-users
+          npm run get-results
+          ls ./private
         shell: bash
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
