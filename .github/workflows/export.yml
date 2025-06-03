@@ -21,14 +21,14 @@ jobs:
       - name: Write service account
         run: |
           mkdir private
-          echo "$FIREBASE_SERVICE_ACCOUNT" > private/service-account.json
+          echo "$FIREBASE_SERVICE_ACCOUNT" > ./private/service-account.json
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         shell: bash
 
       - name: Write aws account
         run: |
-          echo "$AWS_ACCOUNT" > private/aws-account.json
+          echo "$AWS_ACCOUNT" > ./private/aws-account.json
         env:
           AWS_ACCOUNT: ${{ secrets.AWS_ACCOUNT }}
         shell: bash
@@ -36,6 +36,11 @@ jobs:
       - name: Install
         run: |
           npm install
+        shell: bash
+
+      - name: Debug
+        run: |
+          ls ./private
         shell: bash
 
       - name: Get Users
