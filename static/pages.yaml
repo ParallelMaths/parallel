@@ -1324,35 +1324,35 @@ test:
     available: 2025-05-07T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: bad
+    password: end
   - url: admissions-summer-ps-8
     title: Year 8 Summer Admissions Problem Solving Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: bad
+    password: end
   - url: admissions-summer-ps-9
     title: Year 9 Summer Admissions Problem Solving Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: bad
+    password: end
   - url: admissions-summer-mental-maths
     title: Summer Admissions Mental Maths 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: sad
+    password: end
   - url: admissions-summer-teachability
     title: Summer Admissions Teachability Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
-    password: pop
+    password: end
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
