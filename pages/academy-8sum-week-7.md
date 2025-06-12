@@ -20,7 +20,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-8sum-week-7/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-<input type="number" solution="165"/>  
+<input type="number" solution="216"/>  
 
 ---
 
