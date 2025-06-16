@@ -21,7 +21,7 @@ week by the Parallel Project to bright young mathematicians.
 
 ::: problem id=1_1 marks=2
 ![](/resources/9-41-paradoxical-probability/1-digital_clock.png){image align="right"}
-__1.1__ A 24-hour digital clock shows the time in hourse and minutes.  
+__1.1__ A 24-hour digital clock shows the time in hours and minutes.  
 
 How many times in one day will it display all four digits 2, 0, 1, and 9, in some order?
 
