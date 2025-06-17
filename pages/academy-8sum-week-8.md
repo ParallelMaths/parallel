@@ -64,7 +64,7 @@ b) <input type="number" solution="1"/>
 ![](/resources/academy-8sum-week-8/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
-a) <input type="number" solution="22"/>  
+a) <input type="number" solution="21"/>  
  
 ---
 
@@ -72,7 +72,7 @@ a) <input type="number" solution="22"/>
 :::  
 
 ::: problem id=4_2 marks=2
-b) <input type="number" solution="36"/>  
+b) <input type="number" solution="30"/>  
 
 ---
 
