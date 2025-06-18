@@ -20,126 +20,110 @@ We will also be running a weekly homework review session (look out for our email
 ## 1.	
 ![](/resources/academy-7sum-week-10/q1.png){image align="center"}  
 
-::: problem id=1_1 marks=1
-a) <input type="number" solution="36"/>  
+::: problem id=1_1 marks=2
+
+* [ ] (a)
+* [ ] (b)
+* [ ] (c)
+* [ ] (d)
+* [x] (e)
+{.col-5}
 
 ---
 
-![](/resources/academy-7sum-week-10/s1a.png){image align="center"}
+![](/resources/academy-7sum-week-10/s1.png){image align="center"}
 :::  
-
-::: problem id=1_2 marks=1
-b) <input type="number" solution="15"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s1b.png){image align="center"}
-:::  
-
-::: problem id=1_3 marks=1
-c) <input type="number" solution="28"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s1c.png){image align="center"}
-:::  
-
-::: problem id=1_4 marks=1
-d) <input type="number" solution="121"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s1d.png){image align="center"}
-:::
 
 
 ## 2.
 ![](/resources/academy-7sum-week-10/q2.png){image align="center"}  
 
-::: problem id=2_1 marks=1
-a) <input type="number" solution="324"/>  
+::: problem id=2_1 marks=2
+<input type="number" solution="0"/>  
 
 ---
 
-![](/resources/academy-7sum-week-10/s2a.png){image align="center"}
+![](/resources/academy-7sum-week-10/s2.png){image align="center"}
 :::  
-
-::: problem id=2_2 marks=1
-b) <input type="number" solution="30"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s2b.png){image align="center"}
-:::  
-
-::: problem id=2_3 marks=1
-c) <input type="number" solution="50"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s2c.png){image align="center"}
-::: 
 
 
 ## 3.
-![](/resources/academy-7sum-week-10/q3.png){image align="center"}   
+![](/resources/academy-7sum-week-10/q3.png){image align="center"}  
 
-::: problem id=3_1 marks=1
-a) <input type="number" solution="36"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s3a.png){image align="center"}
-:::  
-
-::: problem id=3_2 marks=1
-b) <input type="number" solution="144"/>  
+::: problem id=3_1 marks=2
+<input type="number" solution="2"/>  
 
 ---
 
-![](/resources/academy-7sum-week-10/s3b.png){image align="center"}
-::: 
-
-::: problem id=3_3 marks=1
-c) <input type="number" solution="432"/>  
-
----
-
-![](/resources/academy-7sum-week-10/s3c.png){image align="center"}
+![](/resources/academy-7sum-week-10/s3.png){image align="center"}
 :::  
 
 
 ## 4.
 ![](/resources/academy-7sum-week-10/q4.png){image align="center"}  
- 
-::: problem id=4_1 marks=2
-<input type="number" solution="24"/>  
 
-^^^ hint id=4_1_1 marks=1
-![](/resources/academy-7sum-week-10/h4.png){image align="center"} 
-^^^  
+::: problem id=4_1 marks=2
+<input type="number" solution="1"/>  
 
 ---
 
 ![](/resources/academy-7sum-week-10/s4.png){image align="center"}
-:::  
+::: 
 
 
 ## 5.
-![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
 ![](/resources/academy-7sum-week-10/q5.png){image align="center"}  
- 
-::: problem id=5_1 marks=2
-<input type="number" solution="1080"/>  
 
-^^^ hint id=5_1_1 marks=1
-![](/resources/academy-7sum-week-10/h5.png){image align="center"} 
-^^^  
+::: problem id=5_1 marks=2
+
+* [ ] (a)
+* [ ] (b)
+* [x] (c)
+* [ ] (d)
+* [ ] (e)
+{.col-5}
 
 ---
 
 ![](/resources/academy-7sum-week-10/s5.png){image align="center"}
+:::  
+
+
+## 6.
+![](/resources/academy-7sum-week-10/q6.png){image align="center"}  
+
+::: problem id=6_1 marks=2
+<input type="number" solution="450"/>  
+
+---
+
+![](/resources/academy-7sum-week-10/s6.png){image align="center"}
 ::: 
+
+
+## 7.
+![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
+![](/resources/academy-7sum-week-10/q7.png){image align="center"}  
+
+::: problem id=7_1 marks=1
+a) <input type="number" solution="4"/>  
+
+---
+
+![](/resources/academy-7sum-week-10/s7a.png){image align="center"}
+:::  
+
+::: problem id=7_2 marks=2
+b) <input type="number" solution="18"/>  
+
+^^^ hint id=7_2_1 marks=1
+![](/resources/academy-7sum-week-10/h7b.png){image align="center"} 
+^^^ 
+
+---
+
+![](/resources/academy-7sum-week-10/s7b.png){image align="center"} 
+:::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
   
