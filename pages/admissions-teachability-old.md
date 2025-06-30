@@ -5,7 +5,7 @@
 * Answer every question - there are no negative marks for wrong answers.  
 * Use all the time available and DO NOT SUBMIT EARLY.  
 * Afer you submit, stay in Zoom and await further instructions.  
- 
+
 
 ## 1.
 ::: problem id=1_1 marks=1
@@ -20,7 +20,7 @@ How many numbers are in the list `1`, `2`, `3`, ..., `321`?
 How many numbers are in the list `0`, `1`, `2`, ..., `456`?  
 
 <input type="number" solution="457"/>
-:::  
+:::
 
 
 ## 3.
@@ -28,7 +28,7 @@ How many numbers are in the list `0`, `1`, `2`, ..., `456`?
 How many numbers are in the list `222`, `223`, `224`, ..., `333`?  
 
 <input type="number" solution="112"/>
-::: 
+:::
 
 
 ## 4.
