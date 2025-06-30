@@ -155,7 +155,7 @@ a) <input type="number" solution="1"/>
 ::: problem id=6_2 marks=2
 b) <input type="number" solution="1"/>  
 
-^^^ hint id=6_1_1 marks=1
+^^^ hint id=6_2_1 marks=1
 ![](/resources/academy-8sum-week-10/h6b.png){image align="center"} 
 ^^^ 
 
