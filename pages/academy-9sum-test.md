@@ -7,7 +7,7 @@
 ![](/resources/academy-9sum-test/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=1
-<input type="number" solution="2"/>  
+<input type="number" solution="196"/>  
 :::  
 
 
@@ -15,7 +15,7 @@
 ![](/resources/academy-9sum-test/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=1
-<input type="number" solution="10"/>  
+<input type="number" solution="114"/>  
 :::  
 
 
@@ -23,7 +23,7 @@
 ![](/resources/academy-9sum-test/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=1
-<input type="number" solution="49"/>  
+<input type="number" solution="81"/>  
 :::  
 
 
@@ -31,7 +31,7 @@
 ![](/resources/academy-9sum-test/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=1
-<input type="number" solution="202"/>  
+<input type="number" solution="370"/>  
 :::  
 
 
@@ -39,7 +39,7 @@
 ![](/resources/academy-9sum-test/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=1
-<input type="number" solution="15"/>  
+<input type="number" solution="50"/>  
 ::: 
 
 
@@ -47,7 +47,7 @@
 ![](/resources/academy-9sum-test/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=1
-<input type="number" solution="2"/>  
+<input type="number" solution="9"/>  
 :::  
 
 
@@ -55,7 +55,7 @@
 ![](/resources/academy-9sum-test/q7.png){image align="center"}  
 
 ::: problem id=7_1 marks=1
-<input type="number" solution="8"/>  
+<input type="number" solution="3"/>  
 :::  
 
 
@@ -63,7 +63,7 @@
 ![](/resources/academy-9sum-test/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=1
-<input type="number" solution="8"/>  
+<input type="number" solution="18"/>  
 :::  
 
 
@@ -71,7 +71,7 @@
 ![](/resources/academy-9sum-test/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=1
-<input type="number" solution="7"/>  
+<input type="number" solution="30"/>  
 :::  
 
 
@@ -79,7 +79,7 @@
 ![](/resources/academy-9sum-test/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=1
-<input type="number" solution="227"/>  
+<input type="number" solution="17"/>  
 ::: 
 
 
@@ -87,7 +87,7 @@
 ![](/resources/academy-9sum-test/q11.png){image align="center"}  
 
 ::: problem id=11_1 marks=1
-<input type="number" solution="30"/>  
+<input type="number" solution="3"/>  
 :::  
 
 
@@ -95,7 +95,7 @@
 ![](/resources/academy-9sum-test/q12.png){image align="center"}  
 
 ::: problem id=12_1 marks=1
-<input type="number" solution="12"/>  
+<input type="number" solution="7"/>  
 :::  
 
 
@@ -103,7 +103,7 @@
 ![](/resources/academy-9sum-test/q13.png){image align="center"}  
 
 ::: problem id=13_1 marks=1
-<input type="number" solution="2519"/>  
+<input type="number" solution="405"/>  
 :::  
 
 
@@ -111,7 +111,7 @@
 ![](/resources/academy-9sum-test/q14.png){image align="center"}  
 
 ::: problem id=14_1 marks=1
-<input type="number" solution="8"/>  
+<input type="number" solution="50"/>  
 :::  
 
 
@@ -119,7 +119,7 @@
 ![](/resources/academy-9sum-test/q15.png){image align="center"}  
 
 ::: problem id=15_1 marks=1
-<input type="number" solution="4"/>  
+<input type="number" solution="30"/>  
 ::: 
 
 
@@ -128,11 +128,11 @@
 
 ::: problem id=16_1 marks=1
 
-* [ ] 7
-* [x] 8
-* [ ] 9
-* [ ] 10
-* [ ] 11
+* [x] `1/2`
+* [ ] `1/3`
+* [ ] `1/5`
+* [ ] `1/7`
+* [ ] `3/7`
 {.col-5}
 :::  
 
@@ -142,11 +142,11 @@
 
 ::: problem id=17_1 marks=1
 
-* [ ] 1
-* [x] 3
-* [ ] 5
+* [ ] 2
+* [ ] 4
+* [x] 5
+* [ ] 6
 * [ ] 7
-* [ ] 9
 {.col-5}
 :::  
 
@@ -156,11 +156,11 @@
 
 ::: problem id=181 marks=1
 
-* [x] 6
-* [ ] 7
-* [ ] 8 
-* [ ] 9 
-* [ ] 10 
+* [x] 160 cm
+* [ ] 166 cm
+* [ ] 172 cm
+* [ ] 184 cm
+* [ ] 190 cm
 {.col-5}
 :::  
 
@@ -170,11 +170,11 @@
 
 ::: problem id=19_1 marks=1
 
-* [ ] 2 
-* [ ] 3
+* [x] 0
+* [ ] 1
 * [ ] 4
 * [ ] 5
-* [x] 6
+* [ ] Impossible to determine
 {.col-5}
 :::  
 
@@ -184,11 +184,11 @@
 
 ::: problem id=20_1 marks=1
 
-* [ ] 24 
-* [ ] 27
-* [ ] 30
-* [x] 33
-* [ ] 81
+* [ ] 2 
+* [ ] 5
+* [x] 7
+* [ ] 9
+* [ ] 11
 {.col-5}
 ::: 
 
