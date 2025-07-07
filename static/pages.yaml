@@ -1347,7 +1347,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-15T13:00:00
     deadline: 2025-08-10T16:00:00
-    password: dog
+    password: max
   - url: admissions-summer-ps-7
     title: Year 7 Summer Admissions Problem Solving Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1389,7 +1389,7 @@ test:
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-07-15T13:00:00
     deadline: 2025-08-10T16:00:00
-    password: rat
+    password: bag
   - url: mental-maths-autumn
     title: Mental maths quiz
     available: 2024-12-01T13:00:00
@@ -1408,7 +1408,7 @@ test:
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-07-15T13:00:00
     deadline: 2025-08-15T13:00:00
-    password: cat
+    password: sat
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

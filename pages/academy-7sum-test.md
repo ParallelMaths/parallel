@@ -128,11 +128,11 @@
 
 ::: problem id=16_1 marks=1
 
-* [ ] 8
-* [ ] 16
-* [ ] 25
-* [x] 32
-* [ ] 64
+* [ ] a
+* [ ] b
+* [ ] c
+* [x] d
+* [ ] e
 {.col-5}
 :::  
 
@@ -142,11 +142,11 @@
 
 ::: problem id=17_1 marks=1
 
-* [ ] 20 cm <sup>2</sup>
-* [ ] 30 cm <sup>2</sup>
-* [ ] 40 cm <sup>2</sup>
-* [x] 50 cm <sup>2</sup>
-* [ ] 60 cm <sup>2</sup>
+* [ ] a
+* [ ] b
+* [ ] c
+* [x] d
+* [ ] e
 {.col-5}
 :::  
 
@@ -156,11 +156,11 @@
 
 ::: problem id=181 marks=1
 
-* [x] 6 cm 
-* [ ] 7 cm 
-* [ ] 8 cm 
-* [ ] 9 cm 
-* [ ] 10 cm 
+* [x] a
+* [ ] b
+* [ ] c
+* [ ] d
+* [ ] e
 {.col-5}
 :::  
 
@@ -170,11 +170,11 @@
 
 ::: problem id=19_1 marks=1
 
-* [ ] 27 
-* [x] 28
-* [ ] 29
-* [ ] 42
-* [ ] 252
+* [ ] a 
+* [x] b
+* [ ] c
+* [ ] d
+* [ ] e
 {.col-5}
 :::  
 
@@ -184,11 +184,11 @@
 
 ::: problem id=20_1 marks=1
 
-* [ ] Bruce owns the fewest cats. 
-* [ ] Bruce owns the most cats.
-* [ ] Kathy owns the most cats.
-* [x] Alice owns the most dogs.
-* [ ] Kathy owns the fewest dogs.
+* [ ] a
+* [ ] b
+* [ ] c
+* [x] d
+* [ ] e
 ::: 
 
 **Do not Submit too early - make the most of all the time**  
