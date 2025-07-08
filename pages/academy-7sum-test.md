@@ -189,6 +189,7 @@
 * [ ] (c)
 * [x] (d)
 * [ ] (e)
+{.col-5}
 ::: 
 
 **Do not Submit too early - make the most of all the time**  
