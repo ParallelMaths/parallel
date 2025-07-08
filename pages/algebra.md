@@ -14,10 +14,6 @@
 * [ ] (d)
 * [ ] (e)
 {.col-5}
-
----
-
-![](/resources/algebra/s1.png){image align="center"}  
 :::  
 
 
@@ -31,11 +27,7 @@
 * [ ] (c)
 * [x] (d)
 * [ ] (e)
-{.col-5}
-
----
-
-![](/resources/algebra/s2.png){image align="center"}  
+{.col-5}  
 :::  
 
 
@@ -44,10 +36,6 @@
 
 ::: problem id=3_1 marks=1
 <input type="number" solution="4"/>  
-
----
-
-![](/resources/algebra/s3.png){image align="center"}  
 :::  
 
 
@@ -56,10 +44,6 @@
 
 ::: problem id=4_1 marks=1
 <input type="number" solution="2"/>  
-
----
-
-![](/resources/algebra/s4.png){image align="center"}  
 :::  
 
 
@@ -68,10 +52,6 @@
 
 ::: problem id=5_1 marks=1
 <input type="number" solution="100"/>  
-
----
-
-![](/resources/algebra/s5.png){image align="center"}  
 ::: 
 
 
@@ -86,10 +66,6 @@
 * [ ] (d)
 * [ ] (e)
 {.col-5}
-
----
-
-![](/resources/algebra/s6.png){image align="center"}  
 :::  
 
 
@@ -104,10 +80,6 @@
 * [ ] (d)
 * [ ] (e)
 {.col-5}
-
----
-
-![](/resources/algebra/s7.png){image align="center"}  
 :::  
 
 
@@ -122,10 +94,6 @@
 * [ ] (d)
 * [ ] (e)
 {.col-5}
-
----
-
-![](/resources/algebra/s8.png){image align="center"}  
 :::  
 
 
@@ -140,10 +108,6 @@
 * [ ] (d)
 * [x] (e)
 {.col-5}
-
----
-
-![](/resources/algebra/s9.png){image align="center"}  
 :::  
 
 
@@ -152,10 +116,6 @@
 
 ::: problem id=10_1 marks=1
 <input type="number" solution="21"/>  
-
----
-
-![](/resources/algebra/s10.png){image align="center"}  
 ::: 
 
 
@@ -163,11 +123,7 @@
 ![](/resources/algebra/q11.png){image align="center"}  
 
 ::: problem id=11_1 marks=1
-<input type="number" solution="45"/>  
-
----
-
-![](/resources/algebra/s11.png){image align="center"}  
+<input type="number" solution="45"/>   
 :::  
 
 
@@ -176,10 +132,6 @@
 
 ::: problem id=12_1 marks=1
 <input type="number" solution="7"/>  
-
----
-
-![](/resources/algebra/s12.png){image align="center"}  
 :::  
 
 
@@ -188,10 +140,6 @@
 
 ::: problem id=13_1 marks=1
 <input type="number" solution="5"/>  
-
----
-
-![](/resources/algebra/s13.png){image align="center"}  
 :::  
 
 
@@ -200,10 +148,6 @@
 
 ::: problem id=14_1 marks=1
 <input type="number" solution="-2"/>  
-
----
-
-![](/resources/algebra/s14.png){image align="center"}  
 :::  
 
 
@@ -212,10 +156,6 @@
 
 ::: problem id=15_1 marks=1
 <input type="number" solution="8"/>  
-
----
-
-![](/resources/algebra/s15.png){image align="center"}  
 ::: 
 
 
@@ -224,10 +164,6 @@
 
 ::: problem id=16_1 marks=1
 <input type="number" solution="3"/>  
-
----
-
-![](/resources/algebra/s16.png){image align="center"}  
 :::  
 
 **Do not Submit too early - make the most of all the time**  
