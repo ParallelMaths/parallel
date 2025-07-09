@@ -1,4 +1,4 @@
-# Year 7 Summer Term Synopsis Paper
+# Year 7 Summer Term Synoptic Paper
 
 The purpose of this assignment is for you to review the session materials for one of our previous Year 7 modules, which will help to prepare you for more advanced modules in the Autumn.  
 
