@@ -1495,7 +1495,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: test
+    password: bat
   - url: mental-maths-summer
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
