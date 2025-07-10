@@ -1211,14 +1211,14 @@ homework:
     title: Parallel Academy Year 8 Summer Term Week 9
     available: 2025-05-12T09:00:00
   - url: academy-8sum-week-11
+    title: Parallel Academy Year 8 Summer Term Week 10
+    available: 2025-06-29T09:00:00
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
   - url:  academy-9sum-synoptic
     title: Year 9 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
-    title: Parallel Academy Year 8 Summer Term Week 10
-    available: 2025-06-29T09:00:00
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1410,14 +1410,7 @@ test:
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2025-04-04T11:00:00
     deadline: 2025-04-30T11:00:00
-    password: lap
-  - url: mental-maths-summer
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
-    available: 2025-01-15T13:00:00
-    answersVisibleFrom: 2025-04-04T11:00:00
-    deadline: 2026-04-30T11:00:00
-    password: test    
+    password: lap   
   - url: admissions-teachability
     title: Year 6 Admissions Teachability Test 2024
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1481,21 +1474,21 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: test
+    password: bat
   - url:  academy-8sum-test
     title: Parallel Academy Year 8 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: test
+    password: bat
   - url:  academy-9sum-test
     title: Parallel Academy Year 9 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
-    password: test
+    password: bat
   - url:  academy-10sum-test
     title: Parallel Academy Year 10 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1503,10 +1496,17 @@ test:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
     password: test
+  - url: mental-maths-summer
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: sap 
   - url: algebra
     title: Algebra
-    postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
-    available: 2025-01-15T13:00:00
-    answersVisibleFrom: 2025-04-04T11:00:00
-    deadline: 2026-04-30T11:00:00
-    password: test    
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: max    

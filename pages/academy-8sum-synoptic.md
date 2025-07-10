@@ -102,41 +102,41 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 
 
 ## 7.
-![](/resources/academy-8sum-week-5/q7.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q7.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 <input type="number" solution="50"/>  
 
 ---
 
-![](/resources/academy-8sum-week-5/s7.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s7.png){image align="center"}
 :::  
 
 
 ## 8.
-![](/resources/academy-8sum-week-5/q8.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=2
 <input type="number" solution="7"/>  
 
 ---
 
-![](/resources/academy-8sum-week-5/s8.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s8.png){image align="center"}
 :::  
 
 
 ## 9.
-![](/resources/academy-8sum-week-5/q9.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=2
 <input type="number" solution="205"/>  
 
 ^^^ hint id=9_1_1 marks=1
-![](/resources/academy-8sum-week-5/h9.png){image align="center"} 
+![](/resources/academy-8sum-synoptic/h9.png){image align="center"} 
 ^^^  
 ---
 
-![](/resources/academy-8sum-week-5/s9.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s9.png){image align="center"}
 :::  
 
 
