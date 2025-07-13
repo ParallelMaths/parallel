@@ -1256,8 +1256,51 @@ homework:
     title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-05-12T09:00:00
 
-
 test:
+  - url: mental-maths-summer
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: mum 
+  - url: algebra
+    title: Algebra
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: cap  
+  - url: academy-7sum-test
+    title: Parallel Academy Year 7 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: pop
+  - url: academy-8sum-test
+    title: Parallel Academy Year 8 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: pop
+  - url: academy-9sum-test
+    title: Parallel Academy Year 9 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: pop
+  - url: academy-10sum-test
+    title: Parallel Academy Year 10 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2025-08-10T16:00:00
+    password: pop 
+
+test-archive:
   - url: ukmt-score
     title: UKMT Score
     available: 2024-01-15T13:00:00
@@ -1477,45 +1520,3 @@ test:
     available: 2024-12-01T13:00:00
     answersVisibleFrom: 2025-02-17T13:00:00
     deadline: 2026-01-15T13:00:00
-  - url:  academy-7sum-test
-    title: Parallel Academy Year 7 Summer Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: pop
-  - url:  academy-8sum-test
-    title: Parallel Academy Year 8 Summer Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: pop
-  - url:  academy-9sum-test
-    title: Parallel Academy Year 9 Summer Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: pop
-  - url:  academy-10sum-test
-    title: Parallel Academy Year 10 Summer Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: pop
-  - url: mental-maths-summer
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: mum 
-  - url: algebra
-    title: Algebra
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2025-08-10T16:00:00
-    password: cap   
