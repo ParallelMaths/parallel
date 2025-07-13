@@ -1,6 +1,6 @@
 # Parallel Academy Year 8 Summer Paper
 
-To begin this part of the Summer homework, [open this Junior Mathematical Challenge practice paper](https://drive.google.com/file/d/1Ddr1PqnTkdpt2E_MGJje24emb0shAnTT/view?usp=drive_link){target="_blank"}.  
+To begin this part of the Summer homework, [open this Intermediate Mathematical Challenge practice paper](https://drive.google.com/file/d/1Ddr1PqnTkdpt2E_MGJje24emb0shAnTT/view?usp=drive_link){target="_blank"}.  
 
 This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you must not use a calculator or look anything up whilst completing the paper.  
 
@@ -15,9 +15,9 @@ We will then share full solutions with you just before the start of the summer t
 ## 1.	
 ::: problem id=1_1 marks=1
 
-* [x] A
+* [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -29,8 +29,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=2_1 marks=1
 
 * [ ] A
-* [ ] B
-* [x] C
+* [x] B
+* [ ] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -41,8 +41,8 @@ We will then share full solutions with you just before the start of the summer t
 ## 3.
 ::: problem id=3_1 marks=1
 
-* [ ] A
-* [x] B
+* [x] A
+* [ ] B
 * [ ] C
 * [ ] D
 * [ ] E
@@ -54,9 +54,9 @@ We will then share full solutions with you just before the start of the summer t
 ## 4.
 ::: problem id=4_1 marks=1
 
-* [ ] A
+* [x] A
 * [ ] B
-* [x] C
+* [ ] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -68,10 +68,10 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=5_1 marks=1
 
 * [ ] A
-* [x] B
+* [ ] B
 * [ ] C
 * [ ] D
-* [ ] E
+* [x] E
 {.col-5}
 
 :::
@@ -82,8 +82,8 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [ ] C
-* [x] D
+* [x] C
+* [ ] D
 * [ ] E
 {.col-5}
 
@@ -95,9 +95,9 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -106,11 +106,11 @@ We will then share full solutions with you just before the start of the summer t
 ## 8.
 ::: problem id=8_1 marks=1
 
-* [ ] A
+* [x] A
 * [ ] B
 * [ ] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -148,8 +148,8 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [x] C
-* [ ] D
+* [ ] C
+* [x] D
 * [ ] E
 {.col-5}
 
@@ -210,8 +210,8 @@ We will then share full solutions with you just before the start of the summer t
 ## 16.
 ::: problem id=16_1 marks=1
 
-* [x] A
-* [ ] B
+* [ ] A
+* [x] B
 * [ ] C
 * [ ] D
 * [ ] E
@@ -223,9 +223,9 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=17_1 marks=1
 
 * [ ] A
-* [x] B
+* [ ] B
 * [ ] C
-* [ ] D
+* [x] D
 * [ ] E
 {.col-5}
 
@@ -249,9 +249,9 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [x] C
+* [ ] C
 * [ ] D
-* [ ] E
+* [x] E
 {.col-5}
 
 :::
@@ -263,8 +263,8 @@ We will then share full solutions with you just before the start of the summer t
 * [ ] A
 * [ ] B
 * [ ] C
-* [x] D
-* [ ] E
+* [ ] D
+* [x] E
 {.col-5}
 
 :::
@@ -272,19 +272,6 @@ We will then share full solutions with you just before the start of the summer t
 
 ## 21.
 ::: problem id=21_1 marks=1
-
-* [ ] A
-* [ ] B
-* [ ] C
-* [x] D
-* [ ] E
-{.col-5}
-
-:::
-
-
-## 22.
-::: problem id=22_1 marks=1
 
 * [ ] A
 * [x] B
@@ -296,14 +283,27 @@ We will then share full solutions with you just before the start of the summer t
 :::
 
 
-## 23.
-::: problem id=23_1 marks=1
+## 22.
+::: problem id=22_1 marks=1
 
 * [ ] A
 * [ ] B
 * [ ] C
+* [x] D
+* [ ] E
+{.col-5}
+
+:::
+
+
+## 23.
+::: problem id=23_1 marks=1
+
+* [x] A
+* [ ] B
+* [ ] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -326,8 +326,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=25_1 marks=1
 
 * [ ] A
-* [ ] B
-* [x] C
+* [x] B
+* [ ] C
 * [ ] D
 * [ ] E
 {.col-5}

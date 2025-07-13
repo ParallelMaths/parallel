@@ -1,6 +1,6 @@
-# Parallel Academy Year 8 Summer Kangaroo Paper
+# Parallel Academy Year 8 Summer Paper - Grey Kangaroo
 
-To begin this part of the Summer Kangaroo homework, [open this Junior Mathematical Challenge practice paper](https://drive.google.com/file/d/10Kwpm_foy8bHqz-unvSiADGWro5wuHBZ/view?usp=drive_link){target="_blank"}.  
+To begin this part of the Summer Kangaroo homework, [open this Grey Kangaroo practice paper](https://drive.google.com/file/d/10Kwpm_foy8bHqz-unvSiADGWro5wuHBZ/view?usp=drive_link){target="_blank"}.  
 
 This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you must not use a calculator or look anything up whilst completing the paper.  
 
@@ -15,8 +15,8 @@ We will then share full solutions with you just before the start of the summer t
 ## 1.	
 ::: problem id=1_1 marks=1
 
-* [ ] A
-* [x] B
+* [x] A
+* [ ] B
 * [ ] C
 * [ ] D
 * [ ] E
@@ -30,9 +30,9 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -55,8 +55,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=4_1 marks=1
 
 * [ ] A
-* [x] B
-* [ ] C
+* [ ] B
+* [x] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -68,10 +68,10 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=5_1 marks=1
 
 * [ ] A
-* [ ] B
+* [x] B
 * [ ] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -94,10 +94,10 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=7_1 marks=1
 
 * [ ] A
-* [x] B
+* [ ] B
 * [ ] C
 * [ ] D
-* [ ] E
+* [x] E
 {.col-5}
 
 :::
@@ -109,8 +109,8 @@ We will then share full solutions with you just before the start of the summer t
 * [ ] A
 * [ ] B
 * [ ] C
-* [x] D
-* [ ] E
+* [ ] D
+* [x] E
 {.col-5}
 
 :::
@@ -119,9 +119,9 @@ We will then share full solutions with you just before the start of the summer t
 ## 9.
 ::: problem id=9_1 marks=1
 
-* [x] A
+* [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -133,9 +133,9 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=10_1 marks=1
 
 * [ ] A
-* [ ] B
+* [x] B
 * [ ] C
-* [x] D
+* [ ] D
 * [ ] E
 {.col-5}
 
@@ -148,9 +148,9 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -162,8 +162,8 @@ We will then share full solutions with you just before the start of the summer t
 * [ ] A
 * [ ] B
 * [ ] C
-* [x] D
-* [ ] E
+* [ ] D
+* [x] E
 {.col-5}
 
 :::
@@ -173,8 +173,8 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [x] C
-* [ ] D
+* [ ] C
+* [x] D
 * [ ] E
 {.col-5}
 
@@ -199,8 +199,8 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [x] C
-* [ ] D
+* [ ] C
+* [x] D
 * [ ] E
 {.col-5}
 
@@ -236,8 +236,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=18_1 marks=1
 
 * [ ] A
-* [x] B
-* [ ] C
+* [ ] B
+* [x] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -249,9 +249,9 @@ We will then share full solutions with you just before the start of the summer t
 
 * [ ] A
 * [ ] B
-* [ ] C
+* [x] C
 * [ ] D
-* [x] E
+* [ ] E
 {.col-5}
 
 :::
@@ -261,9 +261,9 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=20_1 marks=1
 
 * [ ] A
-* [x] B
+* [ ] B
 * [ ] C
-* [ ] D
+* [x] D
 * [ ] E
 {.col-5}
 
@@ -287,8 +287,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=22_1 marks=1
 
 * [ ] A
-* [ ] B
-* [x] C
+* [x] B
+* [ ] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -302,8 +302,8 @@ We will then share full solutions with you just before the start of the summer t
 * [ ] A
 * [ ] B
 * [ ] C
-* [x] D
-* [ ] E
+* [ ] D
+* [x] E
 {.col-5}
 
 :::
@@ -312,9 +312,9 @@ We will then share full solutions with you just before the start of the summer t
 ## 24.
 ::: problem id=24_1 marks=1
 
-* [ ] A
+* [x] A
 * [ ] B
-* [x] C
+* [ ] C
 * [ ] D
 * [ ] E
 {.col-5}
@@ -326,8 +326,8 @@ We will then share full solutions with you just before the start of the summer t
 ::: problem id=25_1 marks=1
 
 * [ ] A
-* [x] B
-* [ ] C
+* [ ] B
+* [x] C
 * [ ] D
 * [ ] E
 {.col-5}
