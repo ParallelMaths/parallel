@@ -1,18 +1,19 @@
 # Year 9 Summer Term Synoptic Paper
 
-The purpose of this assignment is for you to review the session materials for one of our previous Year 7 modules, which will help to prepare you for more advanced modules in the Autumn.  
+The purpose of this assignment is for you to review the session materials for one of our previous Year 9 modules, which will help to prepare you for more advanced modules in the Autumn.  
 
-There are 20 questions, some of which you will be able to solve right away and some of which you are likely to find tricky. Questions marked with a skull and crossbones icon are particularly fiendish (but not impossible!).  
+There are 20 questions, some of which you will be able to solve right away and some of which you are likely to find tricky.  
 
-At the bottom of these instructions you will find links to PDFs of the session materials for this module. You should take the time to read through these **thoroughly** and you will find that all of the problems are similar to ones in the materials.  
+At the bottom of these instructions you will find links to PDFs of the session materials for this module. You should take the time to read through these **thoroughly** and you will find that the first 15 problems are similar to ones in the materials (the final 5 problems are a random mix of interesting problems that you should also attempt).  
 
-The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.  
+The number of marks each question or part is worth is shown.  
 
 **Do not rush this assignment!** Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. You should only leave an answer blank if you have really thought about the problem and are still stuck.  
 
 **You have until the end of August 31st to submit this assignment. Only submit once you have had a proper go at the questions (and have read through the session materials).**  
 
-**After you click Submit, you will not be able to un-submit.** Full written solutions will be displayed and you should scroll down to see the correct answers and read the solutions.
+**After you click Submit, you will not be able to un-submit.** You will then see your score and should examine which questions you got right and wrong.  
+
 The session materials for this module can be accessed by clicking here:  
 
 [__>> Session materials__](https://drive.google.com/drive/folders/1xQdi-qF1X7wbHVCShUXasGIrB_YM1z23?usp=sharing){target="_blank"}.  
@@ -213,4 +214,4 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly. You will not be able to un-submit.**  
 
-**After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
+**After you click Submit, make sure you scroll down to see the correct answers.**  

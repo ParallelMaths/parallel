@@ -4,7 +4,7 @@ Algebra is a very important topic that will feature prominently in next year’s
 
 1. Set aside 8 minutes (use a timer) to attempt the questions below, answering as many as you can in that time. Do it in one sitting without consulting any resources. Don’t worry if you find it a bit hard or if you leave some questions blank - just do your best. Please take this test at the earliest opportunity - ideally before the end of July, so that you have time during the holiday period to address any gaps.  
 
-2. When you click Submit, you will see your score straight away, as well as the questions you got right and wrong. If you score full marks then your knowledge of Algebra is already at a good level but you should still look through the two PDFs (the link is below).  
+2. When you click Submit, you will see your score straight away, as well as the questions you got right and wrong. If you score full marks then your knowledge of Algebra is already at a good level but you should still look through the two PDFs we have prepared (see the link below).  
 
 3. If you do not score full marks then please make an extra effort to identify which questions you got wrong and which skills you need to focus on. Then look through the two PDFs, paying attention to those gaps.  
 
@@ -177,4 +177,4 @@ Algebra is a very important topic that will feature prominently in next year’s
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly. You will not be able to un-submit.**  
 
-**After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
+**After you click Submit, make sure you scroll down to see the correct answers.**  

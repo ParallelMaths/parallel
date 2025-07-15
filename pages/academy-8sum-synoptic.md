@@ -1,6 +1,6 @@
 # Year 8 Summer Term Synoptic Paper
 
-The purpose of this assignment is for you to review the session materials for one of our previous Year 7 modules, which will help to prepare you for more advanced modules in the Autumn.  
+The purpose of this assignment is for you to review the session materials for one of our previous Year 8 modules, which will help to prepare you for more advanced modules in the Autumn.  
 
 There are 20 questions, some of which you will be able to solve right away and some of which you are likely to find tricky. Questions marked with a skull and crossbones icon are particularly fiendish (but not impossible!).  
 

@@ -105,21 +105,25 @@ With your tutor you will have discussed that the value of `x` in the diagram bel
   
 ![](/resources/academy-4-week-10/3-qdiagram.png){image align="centre"}  
 
-Is `ABC` a straight line? Choose from the options given below.  
+Consider the question: 'Is `ABC` a straight line?' 
+
+Which of the following options provides correct reasoning?  
 
 * [ ] Yes, as `∠ABE + ∠BEA + ∠EAB = 180°`
 * [ ] Yes, as `∠DAC + ∠ACD + ∠CDA = 180°`
 * [ ] Yes, as `∠ABE + ∠EBC = 180°`
 * [ ] No, as `∠ABE + ∠EBC < 180°`
-* [x] No, as `∠ABE` is not equal to `∠ACD`
+* [x] No, as `∠ABE` is not equal to `∠BCD`
 
 ^^^ hint id=3_1_1 marks=1
-Use Triangle `ABE` to calculate `∠ABE`. Next, think carefully about the parallel angle facts that you know.  
+Use Triangle `ABE` to calculate `∠ABE`.  
+
+Next, think carefully about the parallel angle facts that you know.  
 ^^^
 
 ---
 
-We have that `∠ABE = 180°  −  32°  −  49°  = 99°`, and so it is not equal to `∠ACD`.  
+We have that `∠ABE = 180°  −  32°  −  49°  = 99°`, and so it is not equal to `∠BCD`.  
 
 This means that these two angles do not form a pair of equal corresponding angles and so `ABC` is not a straight line.  
 

@@ -97,17 +97,14 @@ Finally, `x°  = 180°  -  ∠PQR  -  ∠PRQ = 180°  -  35°  -  35°  = 110°`
 
 ## 4.
 ::: problem id=4_1 marks=2
-With your tutor you will have discussed that the value of `x` in the diagram below is `180°  -  93° = 87°`, as there is a co-interior pair of angles which must sum to `180°`.  
-  
-![](/resources/academy-4-week-10/3-qdiagram.png){image align="centre"}  
+![](/resources/academy-7sum-synopsis/q4.png){image align="center"}  
 
-Is `ABC` a straight line? Choose from the options given below.  
-
-* [ ] Yes, as `∠ABE + ∠BEA + ∠EAB = 180°`
-* [ ] Yes, as `∠DAC + ∠ACD + ∠CDA = 180°`
-* [ ] Yes, as `∠ABE + ∠EBC = 180°`
-* [ ] No, as `∠ABE + ∠EBC < 180°`
-* [x] No, as `∠ABE` is not equal to `∠ACD`
+* [ ] (a)
+* [ ] (b)
+* [ ] (c)
+* [ ] (d)
+* [x] (e)
+{.col-5}
 
 ^^^ hint id=4_1_1 marks=1
 Use Triangle `ABE` to calculate `∠ABE`. Next, think carefully about the parallel angle facts that you know.  
@@ -115,11 +112,7 @@ Use Triangle `ABE` to calculate `∠ABE`. Next, think carefully about the parall
 
 ---
 
-We have that `∠ABE = 180°  −  32°  −  49°  = 99°`, and so it is not equal to `∠ACD`.  
-
-This means that these two angles do not form a pair of equal corresponding angles and so `ABC` is not a straight line.  
-
-(Alternatively, we can see that `∠ABE = 99°` also implies that `∠ABE + ∠EBC > 180°` and so `ABC` is not a straight line.)
+![](/resources/academy-7sum-synopsis/s4.png){image align="center"}  
 :::
 
 
