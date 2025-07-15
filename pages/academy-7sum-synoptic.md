@@ -222,14 +222,8 @@ If there are no restrictions on who can be part of the team, how many different 
 
 <input type="number" solution="56"/> 
 
-^^^ hint id=8_2_1 marks=1
-Call the three chosen students A, B and C.  
-
-They could be selected as ABC or CBA or in a few other orders.  
-
-How many different orders are possible?  
-
-How could you use the answer to the previous problem here?  
+^^^ hint id=9_2_1 marks=1
+![](/resources/academy-7sum-synopsis/h9.png){image align="center"} 
 ^^^
 
 ---
