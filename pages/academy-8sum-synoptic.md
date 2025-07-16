@@ -68,7 +68,7 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 <input type="number" solution="144"/>  
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-8sum-synoptic/h5.png){image align="center"} 
+![](/resources/academy-8sum-synoptic/h4.png){image align="center"} 
 ^^^  
 
 ---
@@ -104,7 +104,7 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 ## 7.
 ![](/resources/academy-8sum-synoptic/q7.png){image align="center"}  
 
-::: problem id=2_1 marks=2
+::: problem id=7_1 marks=2
 <input type="number" solution="50"/>  
 
 ---
@@ -184,14 +184,14 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 
 
 ## 13.
-![](/resources/academy-7sum-synopsis/q13.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q13.png){image align="center"}  
 
 ::: problem id=13_1 marks=2
 <input type="number" solution="26"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s13.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s13.png){image align="center"}
 :::  
 
 
@@ -289,26 +289,26 @@ b) <input type="number" solution="18"/>
 
 
 ## 19.
-![](/resources/academy-8sum-synoptic/q3.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q19.png){image align="center"}  
 
 ::: problem id=19_1 marks=2
 <input type="number" solution="2"/>  
  
 ---
 
-![](/resources/academy-8sum-synoptic/s3.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s19.png){image align="center"}
 :::  
 
 
 ## 20.
-![](/resources/academy-8sum-synoptic/q5.png){image align="center"}  
+![](/resources/academy-8sum-synoptic/q20.png){image align="center"}  
 
-::: problem id=5_1 marks=2  
+::: problem id=20_1 marks=2  
 <input type="number" solution="4"/>  
 
 ---
 
-![](/resources/academy-8sum-synoptic/s5.png){image align="center"}
+![](/resources/academy-8sum-synoptic/s20.png){image align="center"}
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly. You will not be able to un-submit.**  

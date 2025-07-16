@@ -97,7 +97,7 @@ Finally, `x°  = 180°  -  ∠PQR  -  ∠PRQ = 180°  -  35°  -  35°  = 110°`
 
 ## 4.
 ::: problem id=4_1 marks=2
-![](/resources/academy-7sum-synopsis/q4.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q4.png){image align="center"}  
 
 * [ ] (a)
 * [ ] (b)
@@ -112,12 +112,12 @@ Use Triangle `ABE` to calculate `∠ABE`. Next, think carefully about the parall
 
 ---
 
-![](/resources/academy-7sum-synopsis/s4.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/s4.png){image align="center"}  
 :::
 
 
 ## 5.
-::: problem id=4_1 marks=2
+::: problem id=5_1 marks=2
 In the diagram below, Triangle `QRS` is an isosceles right-angled triangle with `QR = SR` and `∠QRS = 90°`.    
 
 Line segment `PT` intersects `SQ` at `U` and `SR` at `V`.  
@@ -222,8 +222,8 @@ If there are no restrictions on who can be part of the team, how many different 
 
 <input type="number" solution="56"/> 
 
-^^^ hint id=9_2_1 marks=1
-![](/resources/academy-7sum-synopsis/h9.png){image align="center"} 
+^^^ hint id=9_1 marks=1
+![](/resources/academy-7sum-synoptic/h9.png){image align="center"} 
 ^^^
 
 ---
@@ -241,65 +241,65 @@ There are six possible orders: ABC, ACB, BAC, BCA, CAB and CBA (there are `3 xx 
 
 
 ## 10.
-![](/resources/academy-7sum-synopsis/q10.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=2
 <input type="number" solution="5"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s10.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s10.png){image align="center"}
 :::   
 
 
 ## 11.	
-![](/resources/academy-7sum-synopsis/q11.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q11.png){image align="center"}  
 
 ::: problem id=11_1 marks=2
 <input type="number" solution="21"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s11.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s11.png){image align="center"}
 :::   
 
 
 ## 12.
-![](/resources/academy-7sum-synopsis/q12.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q12.png){image align="center"}  
 
 ::: problem id=12_1 marks=2
 <input type="number" solution="15"/>  
 
 ^^^ hint id=12_1_1 marks=1
-![](/resources/academy-7sum-synopsis/h12.png){image align="center"} 
+![](/resources/academy-7sum-synoptic/h12.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s12.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s12.png){image align="center"}
 ::: 
 
 
 ## 13.
-![](/resources/academy-7sum-synopsis/q13.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q13.png){image align="center"}  
 
 ::: problem id=13_1 marks=2
 <input type="number" solution="216"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s13.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s13.png){image align="center"}
 :::  
 
 
 ## 14.
-![](/resources/academy-7sum-synopsis/q14.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q14.png){image align="center"}  
 
 ::: problem id=14_1 marks=2
 <input type="number" solution="6"/>  
 
 ^^^ hint id=14_1_1 marks=1
-![](/resources/academy-7sum-synopsis/h14.png){image align="center"} 
+![](/resources/academy-7sum-synoptic/h14.png){image align="center"} 
 ^^^  
 ---
 
@@ -308,83 +308,83 @@ There are six possible orders: ABC, ACB, BAC, BCA, CAB and CBA (there are `3 xx 
 
 
 ## 15.
-![](/resources/academy-7sum-synopsis/q15.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q15.png){image align="center"}  
  
 ::: problem id=15_1 marks=2
 <input type="number" solution="24"/>  
 
 ^^^ hint id=15_1_1 marks=1
-![](/resources/academy-7sum-synopsis/h15.png){image align="center"} 
+![](/resources/academy-7sum-synoptic/h15.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s15.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s15.png){image align="center"}
 :::  
 
 
 ## 16.
-![](/resources/academy-7sum-synopsis/q16.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q16.png){image align="center"}  
  
 ::: problem id=16_1 marks=2
 <input type="number" solution="1080"/>  
 
 ^^^ hint id=16_1_1 marks=1
-![](/resources/academy-7sum-synopsis/h16.png){image align="center"} 
+![](/resources/academy-7sum-synoptic/h16.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s16.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s16.png){image align="center"}
 ::: 
 
 
 ## 17.
-![](/resources/academy-7sum-synopsis/q17.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q17.png){image align="center"}  
 
 ::: problem id=17_1 marks=2
 <input type="number" solution="2"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s17.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s17.png){image align="center"}
 ::: 
 
 
 ## 18.
-![](/resources/academy-7sum-synopsis/q18.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q18.png){image align="center"}  
 
 ::: problem id=18_1 marks=2
 <input type="number" solution="450"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s18.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s18.png){image align="center"}
 ::: 
 
 
 
 ## 19.
-![](/resources/academy-7sum-synopsis/q19.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q19.png){image align="center"}  
 
 ::: problem id=19_1 marks=2
 <input type="number" solution="432"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s19.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s19.png){image align="center"}
 :::
 
 
 ## 20.
-![](/resources/academy-7sum-synopsis/q20.png){image align="center"}  
+![](/resources/academy-7sum-synoptic/q20.png){image align="center"}  
 
 ::: problem id=20_1 marks=2
 <input type="number" solution="105"/>  
 
 ---
 
-![](/resources/academy-7sum-synopsis/s20.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s20.png){image align="center"}
 ::: 
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly. You will not be able to un-submit.**  
