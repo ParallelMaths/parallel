@@ -4,13 +4,13 @@ To begin this part of the Summer homework, [open this Intermediate Mathematical 
 
 This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you must not use a calculator or look anything up whilst completing the paper.  
 
-Please complete the paper in timed conditions, allowing yourself 1 hour to complete. If you don't get through all the questions that's fine - you can have a go at them later, after you have submitted.  
+Please start by completing the paper in timed conditions, allowing yourself 1 hour to complete. Make a note for yourself of which questions you completed within the 1 hour, then spend more time to complete the remaining questions.  
 
-Write your answers down carefully on a piece of paper, ensuring each answer letter is accompanied by the relevant question number, and enter them below when the time is up. Double check you have the correct question number for each of your answers. Then click Submit.  
+Write your answers down carefully on a piece of paper, ensuring each answer letter is accompanied by the relevant question number, and enter them below once you have attempted all problems. Double check you have the correct question number for each of your answers. Then click Submit.  
 
-After you have submitted your answers, you will be able to see which questions you got right and wrong, but not the solutions. We encourage you to come back to the questions you got wrong or did not get around to attempting the first time.  
+After you have submitted your answers, you will be able to see which questions you got right and wrong, but not the solutions. We encourage you to come back to the questions you got wrong and have another go at solving them.  
 
-We will then share full solutions with you just before the start of the summer term.  
+We will then share full solutions with you just before the start of next term.
 
 ## 1.	
 ::: problem id=1_1 marks=1

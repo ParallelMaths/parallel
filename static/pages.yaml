@@ -1266,42 +1266,36 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done 
   - url: algebra
     title: Algebra
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
+    answersVisibleFrom: 2025-07-17T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done  
   - url: academy-7sum-test
     title: Parallel Academy Year 7 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done
   - url: academy-8sum-test
     title: Parallel Academy Year 8 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done
   - url: academy-9sum-test
     title: Parallel Academy Year 9 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done
   - url: academy-10sum-test
     title: Parallel Academy Year 10 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-    password: done 
 
 test-archive:
   - url: ukmt-score
