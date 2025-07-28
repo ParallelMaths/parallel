@@ -1,18 +1,12 @@
 # Algebra
 
-Algebra is a very important topic that will feature prominently in next year’s Parallel Academy. The purpose of this assessment is to check your current level of Algebra knowledge, and to help you address any gaps.  
-
-You should already have taken this assessment as part of end-of-term testing and if that is the case then you will see your score, and which questions you got right and wrong, below.   
-
-**If you have not yet taken this test then please do so now under timed conditions (set 8 minutes on a timer and do not consult any resources). Then click Submit and return to these instructions.**  
-
-* If you have scored full marks then your knowledge of Algebra is already at a good level but you should still look through the two PDFs we have prepared (see the link below).  
-
-* If you did not score full marks then please make an extra effort to identify which questions you got wrong and which skills you need to focus on. Then look through the two PDFs, paying attention to those gaps.  
-
-Here is the link to the two Algebra PDFs:  
+Thank you for completing this Algebra assessment as part of your end of year test. For this homework, you are required to review these Algebra PDFs over the summer:  
 
 [__>> Algebra materials__](https://drive.google.com/drive/folders/1jvPLpBTHfmZ1TS0PbOrkX3gCm-iDP3gM?usp=sharing){target="_blank"}.  
+
+You should read through both documents and check you understand the main points. You do not need to submit anything, but you should work through the example questions provided, trying to figure out the correct answer before reviewing the solution.  
+
+If you did not score full marks in the Algebra test (below), you should also take the time to carefully check your answers and identify any gaps.  
 
 
 ## 1.	
