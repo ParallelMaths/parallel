@@ -54,32 +54,6 @@ async function getUserData(uid) {
   return data;
 }
 
-async function getActiveUser(req, res, next) {
-  try {
-    const idToken = await getIdTokenFromRequest(req, res);
-    const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
-    const user = await getUserData(decodedIdToken.uid);
-    
-    req.user = {
-      ...user,
-      email: decodedIdToken.email,
-      ...getPrivacyState(decodedIdToken.email),
-    }
-
-    console.log('req.user', req.user)
-  } catch (error) {
-    console.error(error)
-  }
-
-  next();
-}
-
-async function getUserAuthByEmail(email) {
-  return firebase.auth().getUserByEmail(email).catch(() => {
-    return null;
-  })
-}
-
 const getPrivacyState = (email) => {
   if (email === 'testdelay@mcmill.co.uk') {
     return {
@@ -94,6 +68,30 @@ const getPrivacyState = (email) => {
   }
 
   return {};
+}
+
+async function getActiveUser(req, res, next) {
+  try {
+    const idToken = await getIdTokenFromRequest(req, res);
+    const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
+    const user = await getUserData(decodedIdToken.uid);
+    
+    req.user = {
+      ...user,
+      email: decodedIdToken.email,
+      ...getPrivacyState(decodedIdToken.email),
+    }
+  } catch (error) {
+    console.error(error)
+  }
+
+  next();
+}
+
+async function getUserAuthByEmail(email) {
+  return firebase.auth().getUserByEmail(email).catch(() => {
+    return null;
+  })
 }
 
 async function getUserFromToken(idToken) {
