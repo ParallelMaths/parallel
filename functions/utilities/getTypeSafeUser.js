@@ -39,6 +39,7 @@ const getTypeSafeUser = (user) => {
         phoneNumber: validateString(user.phoneNumber),
         postCode: validateString(user.postCode),
         guardianEmail: validateString(user.guardianEmail),
+        guardianEmails: [...new Set([user.guardianEmail, ...(user.guardianEmails || [])])].filter(s => typeof s === 'string' && s),
         acceptedTerms: validateBoolean(user.acceptedTerms),
         userReference: validateString(user.userReference),
         primaryEmailType: validateString(user.primaryEmailType),
