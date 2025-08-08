@@ -57,17 +57,20 @@ async function getUserData(uid) {
 const getPrivacyState = (email) => {
   if (email === 'testdelay@mcmill.co.uk') {
     return {
+      visible: true,
       mode: 'delay',
     }
   }
 
   if (email === 'testblock@mcmill.co.uk') {
     return {
+      visible: true,
       mode: 'block',
     }
   }
 
   return {
+    visible: false,
     mode: 'none',
   };
 }
