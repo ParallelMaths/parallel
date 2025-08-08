@@ -51,7 +51,6 @@ async function getUserData(uid) {
 
   data.displayedLevel = data.level;
 
-
   return data;
 }
 
@@ -63,8 +62,11 @@ async function getActiveUser(req, res, next) {
     
     req.user = {
       ...user,
-      email: decodedIdToken.email
+      email: decodedIdToken.email,
+      ...getPrivacyState(decodedIdToken.email),
     }
+
+    console.log('req.user', req.user)
   } catch (error) {
     console.error(error)
   }
@@ -78,6 +80,22 @@ async function getUserAuthByEmail(email) {
   })
 }
 
+const getPrivacyState = (email) => {
+  if (email === 'testdelay@mcmill.co.uk') {
+    return {
+      privacyMode: 'delay',
+    }
+  }
+
+  if (email === 'testblock@mcmill.co.uk') {
+    return {
+      privacyMode: 'block',
+    }
+  }
+
+  return {};
+}
+
 async function getUserFromToken(idToken) {
   const decodedIdToken = await firebase.auth().verifyIdToken(idToken);
   const userData = await getUserData(decodedIdToken.uid);
@@ -85,7 +103,8 @@ async function getUserFromToken(idToken) {
     ...userData,
     email: decodedIdToken.email || null,
     accountType: decodedIdToken.account_type || null,
-    euclidAccountType: decodedIdToken.euclid_type || null
+    euclidAccountType: decodedIdToken.euclid_type || null,
+    ...getPrivacyState(decodedIdToken.email),
   }
 }
 
