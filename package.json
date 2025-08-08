@@ -10,7 +10,7 @@
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & firebase serve",
     "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
-    "deploy": "grunt && firebase deploy",
+    "deploy": "grunt && firebase deploy --project parallel-beta-31dc4",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
     "get-users": "node scripts/get-users.js",
@@ -72,5 +72,6 @@
     "> 1%",
     "not ie <= 11",
     "not ios < 10"
-  ]
+  ],
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
 }
