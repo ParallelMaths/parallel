@@ -171,6 +171,9 @@ html
       | and
       a(href="https://mathigon.org" target="_blank") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
 
+    if user && user.privacy && user.privacy.visible
+      iframe(src="/privacy" id="privacy-iframe" style="height: 100%;width: 100%;position: absolute;z-index: 10000000000;top: 0;left: 0;border: none;")
+
     script(defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js")
     script(defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js")
     script(defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js")
