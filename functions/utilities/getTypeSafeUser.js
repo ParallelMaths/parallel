@@ -19,6 +19,15 @@ const validateBoolean = (value) => {
     return null
 }
 
+const getGuardianEmails = (user) => {
+    try {
+      return [...new Set([user?.guardianEmail, ...(user?.emails?.filter(e => e?.type === 'guardian').map(e => e?.email) || [])])].filter(s => typeof s === 'string' && s)   
+    } catch (error) {
+        console.error('Error getting guardian emails:', error);
+        return [];
+    }
+}
+
 // This data gets passed through Graphql
 // As firebase data is set client side, it can't always be trusted
 // If a value is wrong type, it will be set to null
@@ -39,7 +48,7 @@ const getTypeSafeUser = (user) => {
         phoneNumber: validateString(user.phoneNumber),
         postCode: validateString(user.postCode),
         guardianEmail: validateString(user.guardianEmail),
-        guardianEmails: [...new Set([user.guardianEmail, ...(user.guardianEmails || [])])].filter(s => typeof s === 'string' && s),
+        guardianEmails: getGuardianEmails(user),
         privacy: user.privacy,
         acceptedTerms: validateBoolean(user.acceptedTerms),
         userReference: validateString(user.userReference),
