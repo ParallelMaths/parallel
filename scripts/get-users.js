@@ -4,7 +4,7 @@ const fb = require('firebase-admin');
 const serviceAccount = require('../private/service-account.json');
 const downloadUsers = require('./utils/downloadUsers');
 const isProfileComplete = require('../functions/utilities/profileComplete');
-const { getEuclidStatusForUsers } = require('./utils/dynamodb');
+const { getAcademyDatabaseForUsers } = require('./utils/dynamodb');
 
 const cleanerPhoneNumber = (phoneNumber) => {
   if(!phoneNumber) return '';
@@ -24,10 +24,10 @@ const cleanerPhoneNumber = (phoneNumber) => {
 const run = async () => {
   let users = await downloadUsers();
 
-  let euclidStatuses = {};
+  let academyUserData = {};
 
   try {
-    euclidStatuses = await getEuclidStatusForUsers(); 
+    academyUserData = await getAcademyDatabaseForUsers(); 
   } catch (error) {
     console.error('🚨🚨 Failed to get euclid statuses');
     console.error(`🚨🚨 Info: ${error.message}`);
@@ -44,12 +44,14 @@ const run = async () => {
     const u = users[a.localId];
     if (!u) continue;
 
-    const euclidStatus = euclidStatuses[a.localId] || 'NONE';
+    const db = academyUserData[a.localId];
+
+    const euclidStatus = db?.euclidStatus || 'NONE';
 
     if (u.code) {
-      teachers += `"${a.email}","${u.first}","${u.last}","${u.schoolName||''}","${u.phoneNumber||''}","${u.postCode||''}","${u.code||''}","${a.localId||''}","${euclidStatus||''}"\n`;
+      teachers += `"${a.email}","${db?.first || u.first}","${db?.last || u.last}","${u.schoolName||''}","${u.phoneNumber||''}","${u.postCode||''}","${u.code||''}","${a.localId||''}","${euclidStatus||''}"\n`;
     } else {
-      students += `"${a.email}","${u.first}","${u.last}","${u.gender||''}","${u.level||''}","${u.birthYear||''}","${u.birthMonth||''}","${u.schoolName||''}","${u.schoolPostcode||''}","${u.teacherCode||''}","${u.guardianEmail||''}","${cleanerPhoneNumber(u.guardianPhone)||''}","${a.localId||''}","${u.userReference||''}","${u.schoolEmail||''}","${u.pupilPremium||''}","${u.euclidEnrolTimestamp ? '1' : '0'}","${euclidStatus||''}"\n`;
+      students += `"${a.email}","${db?.first || u.first}","${db?.last || u.last}","${u.gender||''}","${u.level||''}","${u.birthYear||''}","${u.birthMonth||''}","${u.schoolName||''}","${u.schoolPostcode||''}","${u.teacherCode||''}","${u.guardianEmail||''}","${cleanerPhoneNumber(u.guardianPhone)||''}","${a.localId||''}","${u.userReference||''}","${u.schoolEmail||''}","${u.pupilPremium||''}","${u.euclidEnrolTimestamp ? '1' : '0'}","${euclidStatus||''}"\n`;
     }
 
     const newGuardianEmails = (u.emails || []).filter(i => i.type === 'guardian').map(i => i.email)

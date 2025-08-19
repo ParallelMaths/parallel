@@ -70,11 +70,11 @@ const getCirclePointsForUsers = async () => {
     }, {})
 }
 
-const getEuclidStatusForUsers = async () => {
+const getAcademyDatabaseForUsers = async () => {
   const data = await getPaginatedTableItems('prod-users');
 
   return data.reduce((acc, entry) => {
-      acc[entry.id] = entry.euclidStatus
+      acc[entry.id] = entry
       return acc;
   }, {})
 }
@@ -84,5 +84,5 @@ module.exports = {
     getTableItem,
     getCirclePointsForUsers,
     getPaginatedTableItemsInner,
-    getEuclidStatusForUsers
+    getAcademyDatabaseForUsers
 }
