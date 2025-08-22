@@ -17,78 +17,78 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-8aut-week-1/q1.png){image align="center"}  
+![](/resources/academy-8aut-week-2/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
 a) <input type="number" solution="16"/>  
  
 ---
 
-![](/resources/academy-8aut-week-1/s1.png){image align="center"}
+![](/resources/academy-8aut-week-2/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-8aut-week-1/q2.png){image align="center"}  
+![](/resources/academy-8aut-week-2/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 <input type="number" solution="243"/>  
 
 ^^^ hint id=2_1 marks=1
-![](/resources/academy-8aut-week-1/h2.png){image align="center"} 
+![](/resources/academy-8aut-week-2/h2.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-8aut-week-1/s2.png){image align="center"}
+![](/resources/academy-8aut-week-2/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-8aut-week-1/q3.png){image align="center"}  
+![](/resources/academy-8aut-week-2/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
 <input type="number" solution="1619"/>  
 
 ^^^ hint id=3_1 marks=1
-![](/resources/academy-8aut-week-1/h3.png){image align="center"} 
+![](/resources/academy-8aut-week-2/h3.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-8aut-week-1/s3.png){image align="center"}
+![](/resources/academy-8aut-week-2/s3.png){image align="center"}
 :::  
 
 
 ## 4.
-![](/resources/academy-8aut-week-1/q4.png){image align="center"}  
+![](/resources/academy-8aut-week-2/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
 <input type="number" solution="30"/>  
 
 ^^^ hint id=4_1 marks=1
-![](/resources/academy-8aut-week-1/h4.png){image align="center"} 
+![](/resources/academy-8aut-week-2/h4.png){image align="center"} 
 ^^^  
  
 ---
 
-![](/resources/academy-8aut-week-1/s4.png){image align="center"}
+![](/resources/academy-8aut-week-2/s4.png){image align="center"}
 :::  
 
 
 ## 5.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-8aut-week-1/q5.png){image align="center"}  
+![](/resources/academy-8aut-week-2/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
 a) <input type="number" solution="10"/> 
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-8aut-week-1/h5.png){image align="center"} 
+![](/resources/academy-8aut-week-2/h5.png){image align="center"} 
 ^^^  
 ---
 
-![](/resources/academy-8aut-week-1/s5.png){image align="center"}
+![](/resources/academy-8aut-week-2/s5.png){image align="center"}
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
