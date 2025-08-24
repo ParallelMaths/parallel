@@ -125,3 +125,4 @@ exports.getUserFromToken = getUserFromToken;
 exports.getIdTokenFromRequest = getIdTokenFromRequest;
 exports.getAllStudents = getAllStudents;
 exports.getUserAuthByEmail = getUserAuthByEmail;
+exports.getPrivacyState = getPrivacyState;

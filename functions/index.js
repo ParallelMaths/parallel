@@ -193,7 +193,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
 
-  res.status(200).send(getTypeSafeUser({...found, email: authUser.email }))
+  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: user.getPrivacyState(authUser.email) }))
 });
 
 app.get('/api/user-answers', async (req, res) => {
