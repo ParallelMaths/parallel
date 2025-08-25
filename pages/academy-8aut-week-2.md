@@ -20,7 +20,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-8aut-week-2/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-a) <input type="number" solution="16"/>  
+<input type="number" solution="16"/>  
  
 ---
 
@@ -81,7 +81,7 @@ a) <input type="number" solution="16"/>
 ![](/resources/academy-8aut-week-2/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-a) <input type="number" solution="10"/> 
+<input type="number" solution="10"/> 
 
 ^^^ hint id=5_1_1 marks=1
 ![](/resources/academy-8aut-week-2/h5.png){image align="center"} 
