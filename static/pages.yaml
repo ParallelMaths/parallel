@@ -1264,6 +1264,12 @@ homework:
   - url:  webinar-7sum-week-11
     title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-05-12T09:00:00
+  - url:  webinar-8aut-week-1
+    title: Parallel Academy Year 8 Autumn Term Week 1
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-2
+    title: Parallel Academy Year 8 Autumn Term Week 2
+    available: 2025-08-12T09:00:00
 
 test:
   - url: mental-maths-summer
