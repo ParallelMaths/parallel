@@ -1,6 +1,6 @@
 # Parallel Academy Year 8 Summer Paper
 
-To begin this part of the Summer homework, [open this Intermediate Mathematical Challenge practice paper](https://drive.google.com/file/d/1Ddr1PqnTkdpt2E_MGJje24emb0shAnTT/view?usp=drive_link){target="_blank"}.  
+To begin this part of the Summer homework, [open this Intermediate Mathematical Challenge practice paper](https://drive.google.com/file/d/1dniH6sLZ6P0NOZJ7TvdJuB4Y3K-Hg_bY/view?usp=drive_link){target="_blank"}.  
 
 This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you must not use a calculator or look anything up whilst completing the paper.  
 

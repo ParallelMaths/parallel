@@ -1,6 +1,6 @@
 # Parallel Academy Year 8 Summer Paper - Grey Kangaroo
 
-To begin this part of the Summer Kangaroo homework, [open this Grey Kangaroo practice paper](https://drive.google.com/file/d/10Kwpm_foy8bHqz-unvSiADGWro5wuHBZ/view?usp=drive_link){target="_blank"}.  
+To begin this part of the Summer Kangaroo homework, [open this Grey Kangaroo practice paper](https://drive.google.com/file/d/1zki4qISvL3E6ukfvIkYMNFcJVVDi6oYu/view?usp=drive_link){target="_blank"}.  
 
 This paper is for practice purposes. We won't be judging you on your score - our only expectation is that you give it the time and attention it deserves. Standard UKMT rules apply: you must not use a calculator or look anything up whilst completing the paper.  
 
