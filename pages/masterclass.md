@@ -41,4 +41,4 @@ Some schools have already been using Parallel for some time, so you may have alr
 
 Please complete the Parallelograms required by your own teacher and in addition complete those set by the Maths Masterclass programme. If the Parallelogram set by the Maths Masterclass programme is one that you have already completed, then we will be able to see this, so you will not need to do it again... indeed you can only complete each Parallelogram once.
 
-Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/terms-and-conditions) before signing up.
+Note: please ensure you have read and understood our [Data Protection & Terms and Conditions policy](/privacy-notice) before signing up.
