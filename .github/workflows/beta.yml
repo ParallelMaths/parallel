@@ -22,6 +22,7 @@ jobs:
         run: |
           mkdir private
           echo "$BETA_FIREBASE_SERVICE_ACCOUNT" > ./private/service-account.json
+          echo '${{ secrets.BETA_FIREBASE_SERVICE_ACCOUNT }}' > gcloud.json
         env:
           BETA_FIREBASE_SERVICE_ACCOUNT: ${{ secrets.BETA_FIREBASE_SERVICE_ACCOUNT }}
         shell: bash
