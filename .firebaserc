@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "parallel-beta-31dc4"
+    "default": "parallel-beta-31dc4",
+    "parallel-beta-31dc4": "parallel-beta-31dc4"
   }
 }
