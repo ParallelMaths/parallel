@@ -33,6 +33,8 @@ jobs:
         shell: bash
 
       - name: Deploy
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: gcloud.json
         run: |
           npm run deploy
         shell: bash
