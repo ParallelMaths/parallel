@@ -51,8 +51,28 @@ async function getUserData(uid) {
 
   data.displayedLevel = data.level;
 
-
   return data;
+}
+
+const getPrivacyState = (email) => {
+  if (email === 'testdelay@mcmill.co.uk') {
+    return {
+      visible: true,
+      mode: 'delay',
+    }
+  }
+
+  if (email === 'testblock@mcmill.co.uk') {
+    return {
+      visible: true,
+      mode: 'block',
+    }
+  }
+
+  return {
+    visible: false,
+    mode: 'none',
+  };
 }
 
 async function getActiveUser(req, res, next) {
@@ -63,7 +83,8 @@ async function getActiveUser(req, res, next) {
     
     req.user = {
       ...user,
-      email: decodedIdToken.email
+      email: decodedIdToken.email,
+      privacy: getPrivacyState(decodedIdToken.email),
     }
   } catch (error) {
     console.error(error)
@@ -85,7 +106,8 @@ async function getUserFromToken(idToken) {
     ...userData,
     email: decodedIdToken.email || null,
     accountType: decodedIdToken.account_type || null,
-    euclidAccountType: decodedIdToken.euclid_type || null
+    euclidAccountType: decodedIdToken.euclid_type || null,
+    privacy: getPrivacyState(decodedIdToken.email),
   }
 }
 
@@ -103,3 +125,4 @@ exports.getUserFromToken = getUserFromToken;
 exports.getIdTokenFromRequest = getIdTokenFromRequest;
 exports.getAllStudents = getAllStudents;
 exports.getUserAuthByEmail = getUserAuthByEmail;
+exports.getPrivacyState = getPrivacyState;

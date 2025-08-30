@@ -1,6 +1,12 @@
 # Algebra
 
-**Do not Submit too early - make the most of all the time**  
+Thank you for completing this Algebra assessment as part of your end of year test. For this homework, you are required to review these Algebra PDFs over the summer:  
+
+[__>> Algebra materials__](https://drive.google.com/drive/folders/1jvPLpBTHfmZ1TS0PbOrkX3gCm-iDP3gM?usp=sharing){target="_blank"}.  
+
+You should read through both documents and check you understand the main points. You do not need to submit anything, but you should work through the example questions provided, trying to figure out the correct answer before reviewing the solution.  
+
+If you did not score full marks in the Algebra test (below), you should also take the time to carefully check your answers and identify any gaps.  
 
 
 ## 1.	
@@ -166,4 +172,6 @@
 <input type="number" solution="3"/>  
 :::  
 
-**Do not Submit too early - make the most of all the time**  
+**Before you click Submit, check that all of your answers have been entered correctly. You will not be able to un-submit.**  
+
+**After you click Submit, make sure you scroll down to see the correct answers.**  

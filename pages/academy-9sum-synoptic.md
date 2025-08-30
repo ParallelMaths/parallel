@@ -173,7 +173,7 @@ _Please ignore any references to tutorials or tests and just focus on the maths 
 ## 18.
 ![](/resources/academy-9sum-test/q18.png){image align="center"}  
 
-::: problem id=181 marks=1
+::: problem id=18_1 marks=1
 
 * [x] (a)
 * [ ] (b)

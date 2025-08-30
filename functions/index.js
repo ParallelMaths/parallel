@@ -193,7 +193,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
 
-  res.status(200).send(getTypeSafeUser({...found, email: authUser.email }))
+  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: user.getPrivacyState(authUser.email) }))
 });
 
 app.get('/api/user-answers', async (req, res) => {
@@ -429,7 +429,7 @@ Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.
 
 const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo']
 
-for (let p of ['about', 'introduction', 'parents', 'teachers', 'terms-and-conditions', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
+for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice', 'safeguarding', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
