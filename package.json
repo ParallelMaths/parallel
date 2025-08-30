@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & firebase serve",
+    "serve": "grunt concurrent & firebase serve --project parallel-beta-31dc4",
     "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
     "deploy": "grunt && firebase deploy --project parallel-beta-31dc4",
     "convert-teachers": "node scripts/convert-teachers.js",
