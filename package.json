@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & firebase serve --project parallel-beta-31dc4",
-    "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
-    "deploy": "grunt && firebase deploy --project parallel-beta-31dc4",
+    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project parallel-beta-31dc4",
+    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project parallel-beta-31dc4",
+    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project parallel-beta-31dc4",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
     "get-users": "node scripts/get-users.js",
