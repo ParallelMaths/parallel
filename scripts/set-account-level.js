@@ -11,7 +11,7 @@ const isEuclidAdmin = true;
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-cf800.firebaseio.com",
+  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
 });
 
 const setAdmin = () => { 

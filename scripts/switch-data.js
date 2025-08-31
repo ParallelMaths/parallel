@@ -2,15 +2,15 @@ const fb = require("firebase-admin");
 const serviceAccount = require("../private/service-account.json");
 
 // Their old account with the data
-const FROM_EMAIL = "ssenthilkumar.pingle@deferrerstrust.com";
+const FROM_EMAIL = "testing1234@mcmill.co.uk";
 
 // Their new account
-const TO_EMAIL = "ftilley.tpa@affinitylp.co.uk";
+const TO_EMAIL = "jeyarajah141@gmail.com";
 //////
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-cf800.firebaseio.com",
+  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
 });
 
 const getAnswerCount = (data) =>
@@ -53,10 +53,12 @@ const run = async () => {
   const combinedUser = {
     ...toUser,
     answers: {
-      ...fromUser.answers,
       ...toUser.answers, // Retain their new accounts latest answers, over their old account
+      ['academy-7sum-test']: fromUser.answers['academy-7sum-test'], // Overwrite the academy-7sum-test answers
     },
   };
+
+  console.log(JSON.stringify(combinedUser, null, 2));
 
   await updateUserData(TO_EMAIL, combinedUser);
 };
