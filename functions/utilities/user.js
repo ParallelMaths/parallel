@@ -4,6 +4,8 @@ const PAGES = require('../build/pages.json');
 
 const LEVELS = ['year6', 'year7', 'year8', 'year9', 'year10', 'year11'];
 
+const latestPrivacyVersion = 'privacy-sept-2025-001';
+
 const userDB = firebase.firestore().collection('users');
 
 function getIdTokenFromRequest(req, res) {
@@ -119,6 +121,10 @@ async function getAllStudents(code) {
   }));
 }
 
+function generateGuardianPrivacyAuthToken() {    
+  return 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toLowerCase();
+}
+
 exports.getUserData = getUserData;
 exports.getActiveUser = getActiveUser;
 exports.getUserFromToken = getUserFromToken;
@@ -126,3 +132,5 @@ exports.getIdTokenFromRequest = getIdTokenFromRequest;
 exports.getAllStudents = getAllStudents;
 exports.getUserAuthByEmail = getUserAuthByEmail;
 exports.getPrivacyState = getPrivacyState;
+exports.latestPrivacyVersion = latestPrivacyVersion;
+exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;

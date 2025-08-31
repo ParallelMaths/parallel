@@ -256,6 +256,79 @@ app.get('/api/scores', async (req, res) => {
   });
 });
 
+app.get("/api/privacy/update-guardians", async (req, res) => {
+  if (!res?.locals?.user) {
+    return res.status(200).send({ error: true });
+  }
+
+  const guardianPrivacyAuthToken =
+    req.user.guardianPrivacyAuthToken ||
+    user.generateGuardianPrivacyAuthToken();
+
+  try {
+    const updateBody = {
+      [`${user.latestPrivacyVersion}-touch`]: Date.now(),
+      guardianPrivacyAuthToken,
+    };
+
+    console.log("Updating privacy guardian touch", req.user.uid, updateBody);
+
+    await userDB.doc(req.user.uid).update(updateBody);
+
+    return res.status(200).send({ error: false });
+  } catch (e) {
+    console.error("Failed to update privacy guardian touch", req.user.uid, e);
+    return res.status(200).send({ error: true });
+  }
+});
+
+app.get("/api/privacy/accept", async (req, res) => {
+  if (!res?.locals?.user) {
+    return res.status(200).send({ error: true });
+  }
+
+  try {
+    await userDB
+      .doc(req.user.uid)
+      .update({ [`${user.latestPrivacyVersion}-accepted`]: Date.now() });
+  } catch (e) {
+    console.error("Failed to update privacy guardian touch", req.user.uid, e);
+    return res.status(200).send({ error: true });
+  }
+});
+
+app.get("/api/privacy/guardian-load/:token", async (req, res) => {
+  const token = req.params.token;
+
+  const data = await userDB.where('guardianPrivacyAuthToken', '==', token).limit(1).get();
+  const student = data.docs[0]?.data();
+
+  if (!student || !student.guardianPrivacyAuthToken) {
+    return res.status(200).send({ error: true });
+  }
+
+  res.status(200).send({ error: false, data: {
+    first: student.first,
+  }});
+});
+
+app.get("/api/privacy/guardian-accept/:token", async (req, res) => {
+  const token = req.params.token;
+
+  const data = await userDB.where('guardianPrivacyAuthToken', '==', token).limit(1).get();
+  const student = data.docs[0].documentRef;
+
+  console.log("Guardian accept", student);
+
+  if (!student || !student.guardianPrivacyAuthToken) {
+    return res.status(200).send({ error: true });
+  }
+
+  res.status(200).send({ error: false, data: {
+    first: student.first,
+  }});
+});
+
 app.get('/api/test-data', async (req, res) => {
   const token = req.headers['parallel-token'];
 
