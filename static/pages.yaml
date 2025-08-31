@@ -162,11 +162,11 @@ year6:
   - url: 6-08-cards
     title: Pick a card, any card
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 6-07-connect-four
     title: Connect four
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 6-06-face-time
     title: Face time
     available: 2025-10-09T13:00:00
@@ -186,7 +186,7 @@ year6:
   - url: 6-02-one-and-primes
     title: Prime numbers (and their buddy, one)
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 6-01-mathematics-of-cake
     title: The mathematics of cake
     available: 2025-08-31T07:00:00
@@ -356,11 +356,11 @@ year7:
   - url: 7-08-maths-jokes
     title: Maths Jokes
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 7-07-build-your-own-plane
     title: Build your own plane
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 7-06-exoplanets
     title: Exoplanets
     available: 2025-10-09T13:00:00
@@ -380,7 +380,7 @@ year7:
   - url: 7-02-the-melancoil
     title: The Melancoil
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 7-01-school-of-rock
     title: School of Rock
     available: 2025-08-31T07:00:00
@@ -550,11 +550,11 @@ year8:
   - url: 8-08-line-rider
     title: Line Rider
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 8-07-worlds-greatest-thief
     title: The world's greatest thief
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 8-06-black-holes
     title: Black Holes
     available: 2025-10-09T13:00:00
@@ -574,7 +574,7 @@ year8:
   - url: 8-02-jurassic-park
     title: Jurassic Park mathematics
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 8-01-wizard-of-oz
     title: Wizard of Oz
     available: 2025-08-31T07:00:00
@@ -744,11 +744,11 @@ year9:
   - url: 9-08-mighty-magic-square
     title: Mighty Magic Square
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 9-07-queen-of-katwe
     title: Queen of Katwe
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 9-06-x-y
     title: X + Y
     available: 2025-10-09T13:00:00
@@ -768,7 +768,7 @@ year9:
   - url: 9-02-romantic-mathematics
     title: Romantic Mathematics
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 9-01-sing-a-long
     title: Sing-A-Long-A Googol
     available: 2025-08-31T07:00:00
@@ -938,11 +938,11 @@ year10:
   - url: 10-08-cibara-numerals
     title: Cibara numerals
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 10-07-heroic-hidden-figures
     title: Heroic Hidden Figures
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 10-06-skyscrapers
     title: Skyscrapers
     available: 2025-10-09T13:00:00
@@ -962,7 +962,7 @@ year10:
   - url: 10-02-musical-mathematicians
     title: Musical Mathematics
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 10-01-all-dark-things
     title: All Dark Things
     available: 2025-08-31T07:00:00
@@ -997,11 +997,11 @@ year11:
   - url: 11-08-colliding-vortexes
     title: Colliding Vortexes
     available: 2025-10-23T13:00:00
-    deadline: 2024-10-27T15:00:00
+    deadline: 2025-10-27T15:00:00
   - url: 11-07-colliding-vortexes
     title: Colliding Vortexes
     available: 2025-10-16T13:00:00
-    deadline: 2024-10-20T15:00:00
+    deadline: 2025-10-20T15:00:00
   - url: 11-06-surprising-values
     title: Surprising Values
     available: 2025-10-09T13:00:00
@@ -1021,7 +1021,7 @@ year11:
   - url: 11-02-ok-go
     title: OK Go
     available: 2025-09-11T13:00:00
-    deadline: 2024-09-15T19:00:00
+    deadline: 2025-09-15T19:00:00
   - url: 11-01-prince-ruperts-drops
     title: Prince Rupert's Drops
     available: 2025-08-31T07:00:00
@@ -1389,20 +1389,20 @@ test-archive:
     showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-10T16:00:00
-    deadline: 2024-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
   - url: admissions-7-8-test1-core-maths
     title: Year 7-8 Test 1 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
     password: capsule
   - url: admissions-9-10-test1-core-maths
     title: Year 9-10 Test 1 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
     password: capsule
   - url: admissions-new-topic
     title: Test 3 New Topic
@@ -1521,7 +1521,7 @@ test-archive:
     showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2024-08-10T16:00:00
+    deadline: 2025-08-10T16:00:00
     password: house
   - url: module-1-test-week5
     title: Parallel Academy Module 1 Week 5 Test 2025
