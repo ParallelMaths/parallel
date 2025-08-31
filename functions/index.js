@@ -129,7 +129,12 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => res.render('home'));
 app.get('/parallelograms', (req, res) => {
-  const latest = res.locals?.pages[res.locals?.user?.level]?.[0];
+  // If ?latest is set, redirect to latest PG for their level
+  // Graduated users are treated as year11 for this purpose
+  // This avoids a bug where `showWelcomeMsg` gets stuck on true
+  // because they retain the `latest` query param
+  const levelWithoutGraduated = (res.locals.user?.level === 'graduated') ? 'year11' : res.locals.user?.level;
+  const latest = res.locals?.pages[levelWithoutGraduated]?.[0];
 
   if(latest && req.query.latest) {
     return res.redirect(`/${latest.url}`)
