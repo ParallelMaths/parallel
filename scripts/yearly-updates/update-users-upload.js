@@ -15,7 +15,11 @@ const userDb = fb.firestore().collection('users');
 
 const job = async (id, data) => {
   console.log(id);
-  await userDb.doc(id).set(data, { merge: true });
+  await userDb.doc(id).set({
+    ...data,
+    oldShowWelcomeMsg: null,
+    oldLevel: null,
+  }, { merge: true });
 }
 
 const run = async () => {

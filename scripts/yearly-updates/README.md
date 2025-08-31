@@ -8,9 +8,13 @@
 
 This downloads the user data
 
-2) Save a backup of the user files
+2) Run `npm run get-results`
 
-3) Run `update-users-process.js`
+This downloads the results data
+
+3) Save a backup of the generated files
+
+4) Run `node scripts/yearly-updates/update-users-process.js`
 
 This generates a new json file with their old and new data
 
@@ -19,7 +23,6 @@ This generates a new json file with their old and new data
 1) Run `update-users-upload.js`
 
 This uploads the new data to the user accounts
-
 
 ### Step 3 (10 mins)
 
