@@ -19,8 +19,7 @@
     "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
-    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod\"",
-    "postinstall": "npx firebase logout && echo 'Logging out, no longer using firebase login, use service accounts instead.'"
+    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod\""
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",

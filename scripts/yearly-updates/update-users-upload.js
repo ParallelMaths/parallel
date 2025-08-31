@@ -23,7 +23,7 @@ const job = async (id, data) => {
 }
 
 const run = async () => {
-  const users = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../private/new-cache-users.json'), 'utf8'));
+  const users = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../private/new-cache-users.json'), 'utf8'));
 
   const data = Object.entries(users);
 
