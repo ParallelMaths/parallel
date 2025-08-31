@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & firebase serve",
-    "export-users": "firebase auth:export ./private/tmp-users.json --format=json",
-    "deploy": "grunt && firebase deploy",
+    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod",
+    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project prod",
+    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project prod",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
     "get-users": "node scripts/get-users.js",
@@ -19,7 +19,8 @@
     "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
-    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"firebase serve\""
+    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod\"",
+    "postinstall": "npx firebase logout && echo 'Logging out, no longer using firebase login, use service accounts instead.'"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
