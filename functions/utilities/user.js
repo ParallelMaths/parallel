@@ -1,10 +1,9 @@
 const firebase = require('firebase-admin');
 const cookieParser = require('cookie-parser')();
 const PAGES = require('../build/pages.json');
+const { getPrivacyState } = require('./privacy/utils');
 
 const LEVELS = ['year6', 'year7', 'year8', 'year9', 'year10', 'year11'];
-
-const latestPrivacyVersion = 'privacy-sept-2025-001';
 
 const userDB = firebase.firestore().collection('users');
 
@@ -56,27 +55,6 @@ async function getUserData(uid) {
   return data;
 }
 
-const getPrivacyState = (email) => {
-  if (email === 'testdelay@mcmill.co.uk') {
-    return {
-      visible: true,
-      mode: 'delay',
-    }
-  }
-
-  if (email === 'testblock@mcmill.co.uk') {
-    return {
-      visible: true,
-      mode: 'block',
-    }
-  }
-
-  return {
-    visible: false,
-    mode: 'none',
-  };
-}
-
 async function getActiveUser(req, res, next) {
   try {
     const idToken = await getIdTokenFromRequest(req, res);
@@ -86,7 +64,7 @@ async function getActiveUser(req, res, next) {
     req.user = {
       ...user,
       email: decodedIdToken.email,
-      privacy: getPrivacyState(decodedIdToken.email),
+      privacy: getPrivacyState(decodedIdToken.email, user),
     }
   } catch (error) {
     console.error(error)
@@ -109,7 +87,7 @@ async function getUserFromToken(idToken) {
     email: decodedIdToken.email || null,
     accountType: decodedIdToken.account_type || null,
     euclidAccountType: decodedIdToken.euclid_type || null,
-    privacy: getPrivacyState(decodedIdToken.email),
+    privacy: getPrivacyState(decodedIdToken.email, user),
   }
 }
 
@@ -121,16 +99,9 @@ async function getAllStudents(code) {
   }));
 }
 
-function generateGuardianPrivacyAuthToken() {    
-  return 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.replace(/x/g, () => (Math.random()*36).toString(36)[0]).toLowerCase();
-}
-
 exports.getUserData = getUserData;
 exports.getActiveUser = getActiveUser;
 exports.getUserFromToken = getUserFromToken;
 exports.getIdTokenFromRequest = getIdTokenFromRequest;
 exports.getAllStudents = getAllStudents;
 exports.getUserAuthByEmail = getUserAuthByEmail;
-exports.getPrivacyState = getPrivacyState;
-exports.latestPrivacyVersion = latestPrivacyVersion;
-exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;
