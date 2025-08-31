@@ -71,9 +71,9 @@ block content
           label(v-if="user.editForm.guardianEmails.length <= 1") Guardian Email
           label(v-if="user.editForm.guardianEmails.length > 1") Guardian Emails
           div(class="email-item" v-for="(email, index) in user.editForm.guardianEmails")
-            input(type="email" v-model="user.editForm.guardianEmails[index].email" :key="index" :required="index === 0 && user.editForm.birthYear >= 2009")
+            input(type="email" v-model="user.editForm.guardianEmails[index].email" :key="index" :required="index === 0 && user.isUnderThirteen(user.editForm.birthYear, user.editForm.birthMonth)")
             button(class="email-edit" type="button" @click="user.editForm.guardianEmails.splice(index, 1);" v-if="user.editForm.guardianEmails.length > 1") ×
-          button(class="new-email" type="button" @click="user.editForm.guardianEmails.push({ email: '', type: 'guardian' });" v-if="user.editForm.guardianEmails[0]?.email !== ''") Add additional guardian email
+          button(class="new-email" type="button" @click="user.editForm.guardianEmails.push({ email: '', type: 'guardian' });" v-if="user.editForm.guardianEmails[0]?.email !== '' && user.editForm.guardianEmails.length < 2") Add additional guardian email
 
         button(type="submit") Update
 
