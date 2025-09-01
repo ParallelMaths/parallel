@@ -31,12 +31,15 @@ html
     if isProduction
       include scripts/newrelic.html
 
+    script!= 'window.FIREBASE_CLIENT_CONFIG = ' + JSON.stringify(firebaseClientConfig) + ';'
+
   body
     #vue
-      .beta
-        div You are on our Beta Testing Site!
-        div The information & events on this page are for testing purposes and should not be followed. 
-        a(href="https://parallel.org.uk") Click here to return to the production site.
+      if !isProdProject
+        .beta
+          div You are on our Beta Testing Site!
+          div The information & events on this page are for testing purposes and should not be followed. 
+          a(href="https://parallel.org.uk") Click here to return to the production site.
       .headerWrapper
         .header
           if !sidebarDisabled

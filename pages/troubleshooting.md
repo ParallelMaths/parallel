@@ -4,8 +4,8 @@
 
 In order for pupils to receive the weekly email reminder to take part in the latest Parallelograms and successfully manage their account and password, you may need your school's IT department to whitelist the following addresses:
 
-* noreply@parallel-beta-31dc4.firebaseapp.com
-* https://parallel-beta-31dc4.firebaseapp.com
+* noreply@parallel-cf800.firebaseapp.com
+* https://parallel-cf800.firebaseapp.com
 * contact@parallel.org.uk
 * https://parallel.org.uk/
 

@@ -1,5 +1,6 @@
 const fb = require("firebase-admin");
-const serviceAccount = require("../private/service-account.json");
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 // This script will reset passwords. Used when students are unable to receive emails.
 
@@ -24,11 +25,6 @@ const makePassword = () => {
   }
   return result;
 };
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
-});
 
 const updateUserPassword = (email) =>
   fb

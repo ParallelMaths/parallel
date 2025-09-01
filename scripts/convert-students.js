@@ -1,16 +1,12 @@
 const path = require('path');
 const fs = require('fs');
 const fb = require('firebase-admin');
-const serviceAccount = require('../private/service-account.json');
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 const STUDENTS = [
   "aaspland@sjl.herts.sch.uk"
 ];
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
 
 const file = path.join(__dirname, `../private/tmp-users.json`);
 const accounts = JSON.parse(fs.readFileSync(file)).users;

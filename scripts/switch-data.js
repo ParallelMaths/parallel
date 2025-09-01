@@ -1,5 +1,6 @@
 const fb = require("firebase-admin");
-const serviceAccount = require("../private/service-account.json");
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 // Their old account with the data
 const FROM_EMAIL = "ssenthilkumar.pingle@deferrerstrust.com";
@@ -7,11 +8,6 @@ const FROM_EMAIL = "ssenthilkumar.pingle@deferrerstrust.com";
 // Their new account
 const TO_EMAIL = "ftilley.tpa@affinitylp.co.uk";
 //////
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-cf800.firebaseio.com",
-});
 
 const getAnswerCount = (data) =>
   data.answers ? Object.keys(data.answers).length : 0;

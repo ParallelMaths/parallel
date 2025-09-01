@@ -1,5 +1,6 @@
 const fb = require("firebase-admin");
-const serviceAccount = require("../private/service-account.json");
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 // This script will convert a standard account into an admin account.
 
@@ -8,11 +9,6 @@ const isCircleAdmin = true;
 const isEuclidAdmin = true;
 
 //////////////////////////////////////
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
-});
 
 const setAdmin = () => { 
   const claims = {};

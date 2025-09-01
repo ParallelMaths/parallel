@@ -7,20 +7,21 @@
     "url": "https://github.com/mathigon/parallel.git"
   },
   "scripts": {
-    "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta",
-    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project beta",
-    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project beta",
-    "convert-teachers": "node scripts/convert-teachers.js",
-    "convert-students": "node scripts/convert-students.js",
-    "get-users": "node scripts/get-users.js",
-    "get-points": "node scripts/get-students-points.js",
-    "get-results": "node scripts/get-results.js",
-    "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
-    "get-tts-results": "node scripts/get-tts-results.js",
-    "update-results": "node scripts/update-results.js",
-    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta\"",
-    "postinstall": "npx firebase logout && echo 'Logging out, no longer using firebase login, use service accounts instead.'"
+    "set-firebase": "node scripts/set-firebase.js",
+    "start": "npm run set-firebase && grunt build && npm run serve",
+    "serve": "npm run set-firebase && grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project main",
+    "export-users": "npm run set-firebase && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project main",
+    "deploy": "npm run set-firebase && grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project main",
+    "convert-teachers": "npm run set-firebase && node scripts/convert-teachers.js",
+    "convert-students": "npm run set-firebase && node scripts/convert-students.js",
+    "get-users": "npm run set-firebase && node scripts/get-users.js",
+    "get-points": "npm run set-firebase && node scripts/get-students-points.js",
+    "get-results": "npm run set-firebase && node scripts/get-results.js",
+    "get-pg-meta-json": "npm run set-firebase && grunt build && node scripts/get-pg-meta-json.js",
+    "get-tts-results": "npm run set-firebase && node scripts/get-tts-results.js",
+    "update-results": "npm run set-firebase && node scripts/update-results.js",
+    "start-marsh": "npm run set-firebase && grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project main\"",
+    "postinstall": "npm run set-firebase && npx firebase logout && echo 'Logging out, no longer using firebase login, use service accounts instead.'"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -73,6 +74,5 @@
     "> 1%",
     "not ie <= 11",
     "not ios < 10"
-  ],
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  ]
 }

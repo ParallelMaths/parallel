@@ -1,15 +1,11 @@
 const fb = require("firebase-admin");
-const serviceAccount = require("../private/service-account.json");
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 // This script will change an account email.
 
 const from = 'abianch@sunburymanor.surrey.sch.uk'
 const to = 'abianchi@sunburymanor.surrey.sch.uk'
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
-});
 
 const run = () =>
   fb

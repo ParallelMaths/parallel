@@ -3,12 +3,8 @@ const exec = util.promisify(require('child_process').exec);
 const path = require('path');
 const fs = require('fs');
 const fb = require('firebase-admin');
-const serviceAccount = require('../../private/service-account.json');
-
-fb.initializeApp({
-    credential: fb.credential.cert(serviceAccount),
-    databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
+const initializeFirebase = require("./initializeFirebase");
+initializeFirebase();
 
 const cacheFilePath = path.join(__dirname, `../../private/cache-users.json`);
 

@@ -58,11 +58,7 @@ document.addEventListener("wheel", function(event){
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  firebase.initializeApp({
-    apiKey: "AIzaSyDk4_ME-Uy1D3Yjg94Af7Gzhg3I1xNYWp8",
-    projectId: "parallel-beta-31dc4",
-    authDomain: "parallel-beta-31dc4.firebaseapp.com",
-  });
+  firebase.initializeApp(window.FIREBASE_CLIENT_CONFIG);
 
   const user = getUser();
   const challenge = window.PARALLELOGRAM ? getChallenge() : null;

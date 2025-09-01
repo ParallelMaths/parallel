@@ -1,15 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const fb = require('firebase-admin');
-const serviceAccount = require('../../private/service-account.json');
-const promiseLimit = require('promise-limit')
+const initializeFirebase = require("../utils/initializeFirebase");
+const promiseLimit = require('promise-limit');
+
+initializeFirebase();
 
 const limit = promiseLimit(400);
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
 
 const userDb = fb.firestore().collection('users');
 

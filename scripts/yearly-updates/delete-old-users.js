@@ -1,12 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const fb = require("firebase-admin");
-const serviceAccount = require("../../private/service-account.json");
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
-});
+const initializeFirebase = require("../utils/initializeFirebase");
+initializeFirebase();
 
 const keysToRemove = [
   "first",

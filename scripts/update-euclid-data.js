@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const fb = require('firebase-admin');
 const csv = require("csvtojson");
-const serviceAccount = require('../private/service-account.json');
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 // --------
 
@@ -13,11 +14,6 @@ const dryRun = true; // when true, will just log what it will write, but not sav
 // --------
 // here be dragons
 //
-
-fb.initializeApp({
-    credential: fb.credential.cert(serviceAccount),
-    databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
 const userDb = fb.firestore().collection('users');
 
 const updatableFields = [

@@ -4,9 +4,13 @@
 
 
 const firebase = require('firebase-admin');
+const serviceAccount = require('./build/service-account.json');
+
+const isProdProject = !serviceAccount.project_id.includes('beta');
+
 firebase.initializeApp({
-  credential: firebase.credential.cert(require('./build/service-account.json')),
-  databaseURL: `https://parallel-beta-31dc4.firebaseio.com`,
+  credential: firebase.credential.cert(serviceAccount),
+  databaseURL: isProdProject ? `https://parallel-cf800.firebaseio.com` : `https://parallel-beta-31dc4.firebaseio.com`,
 });
 
 const fs = require('fs');
@@ -95,6 +99,16 @@ app.use(user.getActiveUser);
 
 app.use((req, res, next) => {
   res.locals.isProduction = process.env.NODE_ENV === 'production';
+  res.locals.isProdProject = isProdProject;
+  res.locals.firebaseClientConfig = isProdProject ? {
+    apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
+    projectId: "parallel-cf800",
+    authDomain: "parallel-cf800.firebaseapp.com",
+  } : {
+    apiKey: "AIzaSyDk4_ME-Uy1D3Yjg94Af7Gzhg3I1xNYWp8",
+    projectId: "parallel-beta-31dc4",
+    authDomain: "parallel-beta-31dc4.firebaseapp.com",
+  };
   res.locals.user = req.user;
   res.locals.profileComplete = isProfileComplete(req.user);
   res.locals.pages = {};

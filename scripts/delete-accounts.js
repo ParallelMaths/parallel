@@ -1,14 +1,10 @@
 const fb = require('firebase-admin');
-const serviceAccount = require('../private/service-account.json');
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 const USERS = [
   // ADD EMAILS HERE
 ];
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
 
 async function deleteAccount(email) {
   let id = null;

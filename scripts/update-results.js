@@ -1,5 +1,6 @@
 const fb = require('firebase-admin');
-const serviceAccount = require('../private/service-account.json');
+const initializeFirebase = require("./utils/initializeFirebase");
+initializeFirebase();
 
 
 // ---------------------
@@ -10,11 +11,6 @@ const THEN_ANSWER = '216';
 const ADD_POINTS = 2;
 // ---------------------
 
-
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
-});
 const userDb = fb.firestore().collection('users');
 
 async function updateAnswers() {
