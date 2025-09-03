@@ -69,10 +69,6 @@ b)
 ::: problem id=3_1 marks=2
 <input type="number" solution="2"/>  
 
-^^^ hint id=3_1 marks=1
-![](/resources/academy-9aut-week-2/h3.png){image align="center"} 
-^^^  
-
 ---
 
 ![](/resources/academy-9aut-week-2/s3.png){image align="center"}
