@@ -55,7 +55,8 @@ const getResponseBody = (req, updateBody) => {
       data: {
         ...getViewData(req),
         ...updateBody,
-        privacyState: getPrivacyState(req.user.email, {...req.user, ...updateBody}),
+        privacyState: getPrivacyState(req.user.email, { ...req.user, ...updateBody }),
+        isUnderThirteen: isUnderThirteen({ ...req.user, ...updateBody }),
       },
     }
 }
