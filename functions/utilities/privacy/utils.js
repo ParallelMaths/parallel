@@ -12,7 +12,7 @@ function generateGuardianPrivacyAuthToken() {
 const latestPrivacyVersion = "privacy-testing-002";
 
 const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
-const userTouchKey = `${latestPrivacyVersion}-touch`;
+const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
 const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
 const acceptedKey = `${latestPrivacyVersion}-accepted`;
 const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
@@ -103,7 +103,7 @@ async function validateGuardianToken(req) {
 exports.getPrivacyState = getPrivacyState;
 exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;
 exports.firstSeenKey = firstSeenKey;
-exports.userTouchKey = userTouchKey;
+exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.guardianPrivacyAuthTokenKey = guardianPrivacyAuthTokenKey;
 exports.acceptedKey = acceptedKey;
 exports.acceptedByKey = acceptedByKey;
