@@ -45,13 +45,16 @@ const isUnderThirteen = (user) => {
 };
 
 const getPrivacyState = (email, user) => {
-  if (!email.includes("@mcmill.co.uk") || process.env.IS_FIREBASE_CLI == "true") {
+  if (
+    !email.includes("@mcmill.co.uk") ||
+    process.env.IS_FIREBASE_CLI == "true"
+  ) {
     return {
       visible: false,
       mode: "none",
     };
   }
-  
+
   if (user[acceptedKey]) {
     return {
       visible: false,

@@ -32,7 +32,7 @@ const studentMiddleware = (req, res, next) => {
     return res.status(200).send({
       success: true,
       data: {
-        'previous': true,
+        previous: true,
         [acceptedKey]: res.locals.user[acceptedKey],
         [acceptedByKey]: res.locals.user[acceptedByKey],
       },
@@ -41,7 +41,7 @@ const studentMiddleware = (req, res, next) => {
   }
 
   next();
-}
+};
 
 const guardianMiddleware = async (req, res, next) => {
   const student = await validateGuardianToken(req);
@@ -56,7 +56,7 @@ const guardianMiddleware = async (req, res, next) => {
   res.locals.guardianStudent = student;
 
   next();
-}
+};
 
 const cleanAndDeduplicateEmails = (emails) => {
   const emailSet = new Set();
@@ -86,14 +86,19 @@ const mergeAccountEmailsWithReqBodyGuardianEmails = (req, res) => {
   try {
     const newEmails = getReqBodyGuardianEmails(req);
 
-    const guardianEmails = cleanAndDeduplicateEmails(newEmails).map(e => ({ type: "guardian", email: e }));
+    const guardianEmails = cleanAndDeduplicateEmails(newEmails).map((e) => ({
+      type: "guardian",
+      email: e,
+    }));
 
     if (guardianEmails.length === 0) {
       // Quick exit if no new guardian emails provided, avoid losing any existing ones
       return user.emails || [];
     }
 
-    const studentEmails = (user.emails || []).filter((e) => e?.type === "student");
+    const studentEmails = (user.emails || []).filter(
+      (e) => e?.type === "student",
+    );
 
     return [...guardianEmails, ...studentEmails];
   } catch (error) {
@@ -109,7 +114,8 @@ router.post("/student/update", studentMiddleware, async (req, res) => {
       emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
       guardianEmail: null,
       [userNeedsGuardianTouchKey]: Date.now(),
-      [guardianPrivacyAuthTokenKey]: req.user.guardianPrivacyAuthToken || generateGuardianPrivacyAuthToken(),
+      [guardianPrivacyAuthTokenKey]:
+        req.user.guardianPrivacyAuthToken || generateGuardianPrivacyAuthToken(),
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
     };
 
