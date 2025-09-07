@@ -50,6 +50,7 @@ const getPrivacyState = (email, user) => {
     process.env.IS_FIREBASE_CLI == "true"
   ) {
     return {
+      debug: 1,
       visible: false,
       mode: "none",
     };
@@ -57,6 +58,7 @@ const getPrivacyState = (email, user) => {
 
   if (user[acceptedKey]) {
     return {
+      debug: 2,
       visible: false,
       mode: "none",
     };
@@ -66,6 +68,7 @@ const getPrivacyState = (email, user) => {
 
   if (!isUnder13) {
     return {
+      debug: 3,
       visible: true,
       mode: "accept",
     };
@@ -76,12 +79,14 @@ const getPrivacyState = (email, user) => {
   // if 7 days or more since first seen, show block
   if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
     return {
+      debug: 4,
       visible: true,
       mode: "block",
     };
   }
 
   return {
+    debug: 5,
     visible: true,
     mode: "delay",
   };

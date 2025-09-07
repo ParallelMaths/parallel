@@ -13,13 +13,13 @@ const {
 
 const userDB = firebase.firestore().collection("users");
 
-// /student/update - (Under 13) Update guardian emails & mark as seen (triggers emails to be sent)
-// /student/accept - (Over 13) Accept privacy policy
-// /guardian/load/:token - Load student first name for guardian acceptance page
-// /guardian/accept/:token - Accept privacy policy as guardian
+// /api/privacy/student/update - (Under 13) Update guardian emails & mark as seen (triggers emails to be sent)
+// /api/privacy/student/accept - (Over 13) Accept privacy policy
+// /api/privacy/guardian/load/:token - Load student first name for guardian acceptance page
+// /api/privacy/guardian/accept/:token - Accept privacy policy as guardian
 
-// /student/ultra-secret/view
-// /student/ultra-secret/reset
+// /api/privacy/student/ultra-secret/view
+// /api/privacy/student/ultra-secret/reset
 
 const studentMiddleware = (req, res, next) => {
   if (!res?.locals?.user) {
@@ -245,6 +245,8 @@ router.get("/student/ultra-secret/view", async (req, res) => {
   allKeys.forEach((key) => {
     data[key] = req.user[key] || null;
   });
+
+  data.privacyState = req.user.privacy || null;
 
   return res.status(200).send({ success: true, data, error: null });
 });
