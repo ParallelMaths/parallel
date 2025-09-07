@@ -57,6 +57,7 @@ const getPrivacyState = (email, user) => {
   }
 
   if (user[acceptedKey]) {
+    // User has already accepted
     return {
       debug: 2,
       visible: false,
@@ -67,6 +68,7 @@ const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen();
 
   if (!isUnder13) {
+    // User is over 13 and has not accepted, but can accept themselves
     return {
       debug: 3,
       visible: true,
@@ -76,8 +78,8 @@ const getPrivacyState = (email, user) => {
 
   const firstSeen = user[firstSeenKey] || Date.now();
 
-  // if 7 days or more since first seen, show block
   if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
+    // if 7 days or more since first seen, show block
     return {
       debug: 4,
       visible: true,
@@ -85,8 +87,18 @@ const getPrivacyState = (email, user) => {
     };
   }
 
+  if (user[userNeedsGuardianTouchKey]) {
+    // User is already waiting on guardian to accept
+    return {
+      debug: 5,
+      visible: false,
+      mode: "none",
+    };
+  }
+  
+  // User is under 13, but has not yet seen popup
   return {
-    debug: 5,
+    debug: 6,
     visible: true,
     mode: "delay",
   };
