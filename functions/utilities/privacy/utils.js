@@ -45,6 +45,8 @@ const isUnderThirteen = (user) => {
 };
 
 const getPrivacyState = (email, user) => {
+  const isUnder13 = isUnderThirteen();
+
   if (
     !email.includes("@mcmill.co.uk") ||
     process.env.IS_FIREBASE_CLI == "true"
@@ -65,42 +67,36 @@ const getPrivacyState = (email, user) => {
     };
   }
 
-  const isUnder13 = isUnderThirteen();
+  const firstSeen = user[firstSeenKey];
 
-  if (!isUnder13) {
-    // User is over 13 and has not accepted, but can accept themselves
-    return {
-      debug: 3,
-      visible: true,
-      mode: "accept",
-    };
+  if (firstSeen) {
+    // User has seen popup before
+
+    if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
+      // if 7 days or more since first seen, show block
+      return {
+        debug: 3,
+        visible: true,
+        mode: isUnder13 ? "under-13-block" : "over-13-block",
+      };
+    }
+
+    if (firstSeen) {
+      // User has seen popup before but within 7 days
+      return {
+        debug: 4,
+        visible: false,
+        mode: "none",
+      };
+    }
   }
 
-  const firstSeen = user[firstSeenKey] || Date.now();
-
-  if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
-    // if 7 days or more since first seen, show block
-    return {
-      debug: 4,
-      visible: true,
-      mode: "block",
-    };
-  }
-
-  if (user[userNeedsGuardianTouchKey]) {
-    // User is already waiting on guardian to accept
-    return {
-      debug: 5,
-      visible: false,
-      mode: "none",
-    };
-  }
-  
-  // User is under 13, but has not yet seen popup
+  // User has not seen popup before
   return {
-    debug: 6,
+    debug: 5,
     visible: true,
-    mode: "delay",
+    isUnder13,
+    mode: isUnder13 ? "under-13-delay" : "over-13-delay",
   };
 };
 

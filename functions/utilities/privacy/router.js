@@ -14,6 +14,7 @@ const {
 const userDB = firebase.firestore().collection("users");
 
 // /api/privacy/student/update - (Under 13) Update guardian emails & mark as seen (triggers emails to be sent)
+// /api/privacy/student/delay - (Over 13) Delay
 // /api/privacy/student/accept - (Over 13) Accept privacy policy
 // /api/privacy/guardian/load/:token - Load student first name for guardian acceptance page
 // /api/privacy/guardian/accept/:token - Accept privacy policy as guardian
@@ -107,6 +108,28 @@ const mergeAccountEmailsWithReqBodyGuardianEmails = (req, res) => {
 
   return user.emails || [];
 };
+
+router.post("/student/delay", studentMiddleware, async (req, res) => {
+  try {
+    const updateBody = {
+      [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
+    };
+
+    await userDB.doc(req.user.uid).update(updateBody);
+
+    return res
+      .status(200)
+      .send({ success: true, data: updateBody, error: null });
+  } catch (e) {
+    console.error("Failed to update privacy delay", req.user.uid, e);
+    return res.status(200).send({
+      success: false,
+      error: "Failed to update privacy delay",
+      data: null,
+    });
+  }
+});
+
 
 router.post("/student/update", studentMiddleware, async (req, res) => {
   try {
