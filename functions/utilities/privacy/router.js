@@ -10,6 +10,9 @@ const {
   acceptedByKey,
   validateGuardianToken,
 } = require("./utils");
+const debugRouter = require("./debugRouter");
+
+router.use("/student/ultra-secret", debugRouter);
 
 const userDB = firebase.firestore().collection("users");
 
@@ -18,9 +21,6 @@ const userDB = firebase.firestore().collection("users");
 // /api/privacy/student/accept - (Over 13) Accept privacy policy
 // /api/privacy/guardian/load/:token - Load student first name for guardian acceptance page
 // /api/privacy/guardian/accept/:token - Accept privacy policy as guardian
-
-// /api/privacy/student/ultra-secret/view
-// /api/privacy/student/ultra-secret/reset
 
 const studentMiddleware = (req, res, next) => {
   if (!res?.locals?.user) {
@@ -216,62 +216,6 @@ router.get("/guardian/accept/:token", guardianMiddleware, async (req, res) => {
       .status(200)
       .send({ success: false, error: "failed to accept privacy", data: null });
   }
-});
-
-router.get("/student/ultra-secret/reset", async (req, res) => {
-  if (!res?.locals?.user) {
-    return res
-      .status(200)
-      .send({ success: false, error: "not logged in", data: null });
-  }
-
-  try {
-    const updateBody = {
-      [firstSeenKey]: null,
-      [userNeedsGuardianTouchKey]: null,
-      [guardianPrivacyAuthTokenKey]: null,
-      [acceptedKey]: null,
-      [acceptedByKey]: null,
-    };
-
-    await userDB.doc(req.user.uid).update(updateBody);
-
-    return res
-      .status(200)
-      .send({ success: true, data: updateBody, error: null });
-  } catch (e) {
-    console.error("Failed to secret reset", req.user.uid, e);
-    return res.status(200).send({
-      success: false,
-      error: "Failed to secret reset",
-      data: null,
-    });
-  }
-});
-
-router.get("/student/ultra-secret/view", async (req, res) => {
-  if (!res?.locals?.user) {
-    return res
-      .status(200)
-      .send({ success: false, error: "not logged in", data: null });
-  }
-
-  const allKeys = [
-    firstSeenKey,
-    userNeedsGuardianTouchKey,
-    guardianPrivacyAuthTokenKey,
-    acceptedKey,
-    acceptedByKey,
-  ];
-
-  const data = {};
-  allKeys.forEach((key) => {
-    data[key] = req.user[key] || null;
-  });
-
-  data.privacyState = req.user.privacy || null;
-
-  return res.status(200).send({ success: true, data, error: null });
 });
 
 module.exports = router;

@@ -125,3 +125,4 @@ exports.acceptedKey = acceptedKey;
 exports.acceptedByKey = acceptedByKey;
 exports.latestPrivacyVersion = latestPrivacyVersion;
 exports.validateGuardianToken = validateGuardianToken;
+exports.isUnderThirteen = isUnderThirteen;
