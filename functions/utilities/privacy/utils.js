@@ -45,7 +45,7 @@ const isUnderThirteen = (user) => {
 };
 
 const getPrivacyState = (email, user) => {
-  const isUnder13 = isUnderThirteen();
+  const isUnder13 = isUnderThirteen(user);
 
   if (
     !email.includes("@mcmill.co.uk") ||
