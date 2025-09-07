@@ -177,12 +177,17 @@ router.get("/student/accept", studentMiddleware, async (req, res) => {
   }
 });
 
+const SevenDays = 7 * 24 * 60 * 60 * 1000;
+
 router.get("/guardian/load/:token", guardianMiddleware, async (req, res) => {
+  const startTime = res.locals.guardianStudent[firstSeenKey];
+
   res.status(200).send({
     success: true,
     error: null,
     data: {
       first: res.locals.guardianStudent.first,
+      dueDate: startTime ? startTime + SevenDays : null,
     },
   });
 });
