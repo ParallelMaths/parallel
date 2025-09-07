@@ -30,7 +30,7 @@ const run = async () => {
     
   }, {});
 
-  fs.writeFileSync(path.resolve(__dirname, '../private/new-cache-users.json'), JSON.stringify(newUsers, null, 2));
+  fs.writeFileSync(path.resolve(__dirname, '../../private/new-cache-users.json'), JSON.stringify(newUsers, null, 2));
 };
 
 run();
