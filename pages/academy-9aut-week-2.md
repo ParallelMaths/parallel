@@ -17,10 +17,9 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-9aut-week-2/q1.png){image align="center"}  
 
-::: problem id=1_1 marks=2
-a) 
+::: problem id=1_1 marks=1
+![](/resources/academy-9aut-week-2/q1a.png){image align="center"}  
 
 * [ ] Rowan
 * [x] Rachel
@@ -32,8 +31,8 @@ a)
 ![](/resources/academy-9aut-week-2/s1a.png){image align="center"}
 :::  
 
-::: problem id=1_2 marks=2
-b) 
+::: problem id=1_2 marks=1
+![](/resources/academy-9aut-week-2/q1b.png){image align="center"}  
 
 * [x] Yes
 * [ ] No

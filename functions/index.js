@@ -435,12 +435,14 @@ const redirects = {
 
 Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
 
-const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo']
+const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo', 'privacy-notice']
+const pagesWithoutPrivacyModal = ['privacy-notice']
 
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice', 'safeguarding', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
+    res.locals.privacyModalDisabled = pagesWithoutPrivacyModal.includes(p);
     res.render('_layout', {content})
   });
 }

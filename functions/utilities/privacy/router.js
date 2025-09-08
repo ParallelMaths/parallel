@@ -109,7 +109,7 @@ const mergeAccountEmailsWithReqBodyGuardianEmails = (req, res) => {
   return user.emails || [];
 };
 
-router.post("/student/delay", studentMiddleware, async (req, res) => {
+router.get("/student/delay", studentMiddleware, async (req, res) => {
   try {
     const updateBody = {
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),

@@ -4,7 +4,7 @@
 
 **Effective Date:** 31 August 2025.
 
-This Notice is informed by [Good Thinking’s Data Protection Policy](https://docs.google.com/document/d/1gAvFujgwwU4bdPycxBiqJ3WK8UULyy7t/edit?usp=sharing&ouid=104525238127026012930&rtpof=true&sd=true).
+This Notice is informed by [Good Thinking’s Data Protection Policy](https://docs.google.com/document/d/1gAvFujgwwU4bdPycxBiqJ3WK8UULyy7t/edit?usp=sharing&ouid=104525238127026012930&rtpof=true&sd=true){target="_blank"}.
 
 
 ## 1. Purpose of This Notice
@@ -86,4 +86,4 @@ We take appropriate technical and organisational measures to protect personal da
 
 
 ## 10. Complaints
-If you have concerns about how we use your child’s data, please contact us first. You also have the right to lodge a complaint with the **Information Commissioner’s Office (ICO)**: [https://ico.org.uk](https://ico.org.uk)
+If you have concerns about how we use your child’s data, please contact us first. You also have the right to lodge a complaint with the **Information Commissioner’s Office (ICO)**: [https://ico.org.uk](https://ico.org.uk){target="_blank"}.

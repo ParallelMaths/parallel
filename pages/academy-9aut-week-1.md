@@ -19,7 +19,7 @@ We will also be running a weekly homework review session (look out for our email
 ## 1.	
 ![](/resources/academy-9aut-week-1/q1.png){image align="center"}  
 
-::: problem id=1_1 marks=2
+::: problem id=1_1 marks=1
 a) <input type="number" solution="11"/>  
  
 ---
@@ -27,7 +27,7 @@ a) <input type="number" solution="11"/>
 ![](/resources/academy-9aut-week-1/s1a.png){image align="center"}
 :::  
 
-::: problem id=1_2 marks=2
+::: problem id=1_2 marks=1
 b) <input type="number" solution="27"/>  
  
 ---
@@ -35,7 +35,7 @@ b) <input type="number" solution="27"/>
 ![](/resources/academy-9aut-week-1/s1b.png){image align="center"}
 :::  
 
-::: problem id=1_3 marks=2
+::: problem id=1_3 marks=1
 c) <input type="number" solution="6"/>  
  
 ---
@@ -43,7 +43,7 @@ c) <input type="number" solution="6"/>
 ![](/resources/academy-9aut-week-1/s1c.png){image align="center"}
 :::  
 
-::: problem id=1_4 marks=2
+::: problem id=1_4 marks=1
 d) <input type="number" solution="20"/>  
  
 ---
@@ -55,8 +55,8 @@ d) <input type="number" solution="20"/>
 ## 2.
 ![](/resources/academy-9aut-week-1/q2.png){image align="center"}  
 
-::: problem id=2_1 marks=2
-i) 
+::: problem id=2_1 marks=1
+![](/resources/academy-9aut-week-1/q2a.png){image align="center"}  
 * [ ] a)
 * [ ] b)
 * [x] c)
@@ -65,11 +65,11 @@ i)
 
 ---
 
-![](/resources/academy-9aut-week-1/s2i.png){image align="center"}
+![](/resources/academy-9aut-week-1/s2a.png){image align="center"}
 :::  
 
-::: problem id=2_2 marks=2
-ii) 
+::: problem id=2_2 marks=1
+![](/resources/academy-9aut-week-1/q2b.png){image align="center"}  
 * [x] a)
 * [ ] b)
 * [ ] c)
@@ -78,11 +78,11 @@ ii)
 
 ---
 
-![](/resources/academy-9aut-week-1/s2ii.png){image align="center"}
+![](/resources/academy-9aut-week-1/s2b.png){image align="center"}
 :::  
 
-::: problem id=2_3 marks=2
-iii) 
+::: problem id=2_3 marks=1
+![](/resources/academy-9aut-week-1/q2c.png){image align="center"}  
 * [ ] a)
 * [x] b)
 * [ ] c)
@@ -91,11 +91,11 @@ iii)
 
 ---
 
-![](/resources/academy-9aut-week-1/s2iii.png){image align="center"}
+![](/resources/academy-9aut-week-1/s2c.png){image align="center"}
 :::  
 
-::: problem id=2_4 marks=2
-iv) 
+::: problem id=2_4 marks=1
+![](/resources/academy-9aut-week-1/q2d.png){image align="center"}  
 * [ ] a)
 * [ ] b)
 * [ ] c)
@@ -104,7 +104,7 @@ iv)
 
 ---
 
-![](/resources/academy-9aut-week-1/s2iv.png){image align="center"}
+![](/resources/academy-9aut-week-1/s2d.png){image align="center"}
 :::  
 
 
