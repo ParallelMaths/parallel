@@ -141,7 +141,7 @@ router.post("/student/update", studentMiddleware, async (req, res) => {
       emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
       guardianEmail: null,
       [guardianPrivacyAuthTokenKey]:
-        req.user.guardianPrivacyAuthToken || generateGuardianPrivacyAuthToken(),
+        req.user[guardianPrivacyAuthTokenKey] || generateGuardianPrivacyAuthToken(),
       [userNeedsGuardianTouchKey]: req.user[userNeedsGuardianTouchKey] || Date.now(),
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
       [dueByKey]: req.user[dueByKey] || (Date.now() + SevenDays),
@@ -190,7 +190,7 @@ router.get("/guardian/load/:token", guardianMiddleware, async (req, res) => {
     error: null,
     data: {
       first: res.locals.guardianStudent.first,
-      dueDate: dueDate && Date.now() < dueDate ? dueDate : null,
+      dueDate: dueDate && Date.now() < dueDate ? dueDate : null, // only send due date if still valid
     },
   });
 });
