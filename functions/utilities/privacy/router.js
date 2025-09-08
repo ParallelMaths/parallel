@@ -116,7 +116,7 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
   try {
     const updateBody = {
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
-      [dueByKey]: req.user[dueByKey] || (Date.now() + SevenDays),
+      [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
     };
 
     await userDB.doc(req.user.uid).update(updateBody);
@@ -134,17 +134,18 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
   }
 });
 
-
 router.post("/student/update", studentMiddleware, async (req, res) => {
   try {
     const updateBody = {
       emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
       guardianEmail: null,
       [guardianPrivacyAuthTokenKey]:
-        req.user[guardianPrivacyAuthTokenKey] || generateGuardianPrivacyAuthToken(),
-      [userNeedsGuardianTouchKey]: req.user[userNeedsGuardianTouchKey] || Date.now(),
+        req.user[guardianPrivacyAuthTokenKey] ||
+        generateGuardianPrivacyAuthToken(),
+      [userNeedsGuardianTouchKey]:
+        req.user[userNeedsGuardianTouchKey] || Date.now(),
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
-      [dueByKey]: req.user[dueByKey] || (Date.now() + SevenDays),
+      [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
     };
 
     await userDB.doc(req.user.uid).update(updateBody);

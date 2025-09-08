@@ -10,7 +10,7 @@ const {
   acceptedByKey,
   isUnderThirteen,
   getPrivacyState,
-  generateGuardianPrivacyAuthToken
+  generateGuardianPrivacyAuthToken,
 } = require("./utils");
 
 // /api/privacy/student/ultra-secret/view
@@ -53,106 +53,89 @@ const getViewData = (req) => {
 };
 
 const getResponseBody = (req, updateBody) => {
-    return {
-      data: {
-        ...getViewData(req),
+  return {
+    data: {
+      ...getViewData(req),
+      ...updateBody,
+      privacyState: getPrivacyState(req.user.email, {
+        ...req.user,
         ...updateBody,
-        privacyState: getPrivacyState(req.user.email, { ...req.user, ...updateBody }),
-        isUnderThirteen: isUnderThirteen({ ...req.user, ...updateBody }),
-      },
-    }
-}
+      }),
+      isUnderThirteen: isUnderThirteen({ ...req.user, ...updateBody }),
+    },
+  };
+};
 
-router.get(
-  "/reset/under13/new",
-  studentMiddleware,
-  async (req, res) => {
-    const updateBody = {
-      [firstSeenKey]: null,
-      [dueByKey]: null,
-      [guardianPrivacyAuthTokenKey]: null,
-      [userNeedsGuardianTouchKey]: null,
-      [acceptedKey]: null,
-      [acceptedByKey]: null,
-      birthMonth: '1',
-      birthYear: '2025',
-    };
+router.get("/reset/under13/new", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: null,
+    [dueByKey]: null,
+    [guardianPrivacyAuthTokenKey]: null,
+    [userNeedsGuardianTouchKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    birthMonth: "1",
+    birthYear: "2025",
+  };
 
-    await userDB.doc(req.user.uid).update(updateBody);
+  await userDB.doc(req.user.uid).update(updateBody);
 
-    return res.status(200).send(getResponseBody(req, updateBody));
-  },
-);
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
 
-router.get(
-  "/reset/over13/new",
-  studentMiddleware,
-  async (req, res) => {
-    const updateBody = {
-      [firstSeenKey]: null,
-      [dueByKey]: null,
-      [guardianPrivacyAuthTokenKey]: null,
-      [userNeedsGuardianTouchKey]: null,
-      [acceptedKey]: null,
-      [acceptedByKey]: null,
-      birthMonth: '1',
-      birthYear: '1990',
-    };
+router.get("/reset/over13/new", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: null,
+    [dueByKey]: null,
+    [guardianPrivacyAuthTokenKey]: null,
+    [userNeedsGuardianTouchKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    birthMonth: "1",
+    birthYear: "1990",
+  };
 
-    await userDB.doc(req.user.uid).update(updateBody);
+  await userDB.doc(req.user.uid).update(updateBody);
 
-    return res.status(200).send(getResponseBody(req, updateBody));
-  },
-);
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
 
-router.get(
-  "/reset/under13/8daysago",
-  studentMiddleware,
-  async (req, res) => {
-    const updateBody = {
-      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // first seen was 8 days ago
-      [dueByKey]: Date.now() - (24 * 60 * 60 * 1000), // due date was 1 day ago
-      [userNeedsGuardianTouchKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // guardian touch was 8 days ago
-      [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
-      [acceptedKey]: null,
-      [acceptedByKey]: null,
-      birthMonth: '1',
-      birthYear: '2025',
-    };
+router.get("/reset/under13/8daysago", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
+    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+    [userNeedsGuardianTouchKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // guardian touch was 8 days ago
+    [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    birthMonth: "1",
+    birthYear: "2025",
+  };
 
-    await userDB.doc(req.user.uid).update(updateBody);
+  await userDB.doc(req.user.uid).update(updateBody);
 
-    return res.status(200).send(getResponseBody(req, updateBody));
-  },
-);
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
 
-router.get(
-  "/reset/over13/8daysago",
-  studentMiddleware,
-  async (req, res) => {
-    const updateBody = {
-      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // first seen was 8 days ago
-      [dueByKey]: Date.now() - (24 * 60 * 60 * 1000), // due date was 1 day ago
-      [userNeedsGuardianTouchKey]: null,
-      [guardianPrivacyAuthTokenKey]: null,
-      [acceptedKey]: null,
-      [acceptedByKey]: null,
-      birthMonth: '1',
-      birthYear: '1990',
-    };
+router.get("/reset/over13/8daysago", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
+    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+    [userNeedsGuardianTouchKey]: null,
+    [guardianPrivacyAuthTokenKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    birthMonth: "1",
+    birthYear: "1990",
+  };
 
-    await userDB.doc(req.user.uid).update(updateBody);
+  await userDB.doc(req.user.uid).update(updateBody);
 
-    return res.status(200).send(getResponseBody(req, updateBody));
-  },
-);
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
 
-router.get(
-  "/view",
-  studentMiddleware,
-  async (req, res) => {
-    return res.status(200).send({ data: getViewData(req) });
-  },
-);
+router.get("/view", studentMiddleware, async (req, res) => {
+  return res.status(200).send({ data: getViewData(req) });
+});
 
 module.exports = router;
