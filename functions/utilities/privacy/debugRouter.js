@@ -133,7 +133,7 @@ router.get(
     const updateBody = {
       [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // first seen was 8 days ago
       [dueByKey]: Date.now() - (24 * 60 * 60 * 1000), // due date was 1 day ago
-      [userNeedsGuardianTouchKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // guardian touch was 8 days ago
+      [userNeedsGuardianTouchKey]: null,
       [guardianPrivacyAuthTokenKey]: null,
       [acceptedKey]: null,
       [acceptedByKey]: null,
