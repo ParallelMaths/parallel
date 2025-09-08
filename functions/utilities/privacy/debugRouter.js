@@ -3,8 +3,9 @@ const router = express.Router();
 const firebase = require("firebase-admin");
 const {
   firstSeenKey,
-  userNeedsGuardianTouchKey,
+  dueByKey,
   guardianPrivacyAuthTokenKey,
+  userNeedsGuardianTouchKey,
   acceptedKey,
   acceptedByKey,
   isUnderThirteen,
@@ -30,6 +31,7 @@ const studentMiddleware = (req, res, next) => {
 const getViewData = (req) => {
   const allKeys = [
     firstSeenKey,
+    dueByKey,
     userNeedsGuardianTouchKey,
     guardianPrivacyAuthTokenKey,
     acceptedKey,
@@ -67,8 +69,9 @@ router.get(
   async (req, res) => {
     const updateBody = {
       [firstSeenKey]: null,
-      [userNeedsGuardianTouchKey]: null,
+      [dueByKey]: null,
       [guardianPrivacyAuthTokenKey]: null,
+      [userNeedsGuardianTouchKey]: null,
       [acceptedKey]: null,
       [acceptedByKey]: null,
       birthMonth: '1',
@@ -87,8 +90,9 @@ router.get(
   async (req, res) => {
     const updateBody = {
       [firstSeenKey]: null,
-      [userNeedsGuardianTouchKey]: null,
+      [dueByKey]: null,
       [guardianPrivacyAuthTokenKey]: null,
+      [userNeedsGuardianTouchKey]: null,
       [acceptedKey]: null,
       [acceptedByKey]: null,
       birthMonth: '1',
@@ -106,8 +110,9 @@ router.get(
   studentMiddleware,
   async (req, res) => {
     const updateBody = {
-      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000),
-      [userNeedsGuardianTouchKey]: Date.now() - (8 * 24 * 60 * 60 * 1000),
+      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // first seen was 8 days ago
+      [dueByKey]: Date.now() - (24 * 60 * 60 * 1000), // due date was 1 day ago
+      [userNeedsGuardianTouchKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // guardian touch was 8 days ago
       [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
       [acceptedKey]: null,
       [acceptedByKey]: null,
@@ -126,8 +131,9 @@ router.get(
   studentMiddleware,
   async (req, res) => {
     const updateBody = {
-      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000),
-      [userNeedsGuardianTouchKey]: null,
+      [firstSeenKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // first seen was 8 days ago
+      [dueByKey]: Date.now() - (24 * 60 * 60 * 1000), // due date was 1 day ago
+      [userNeedsGuardianTouchKey]: Date.now() - (8 * 24 * 60 * 60 * 1000), // guardian touch was 8 days ago
       [guardianPrivacyAuthTokenKey]: null,
       [acceptedKey]: null,
       [acceptedByKey]: null,
