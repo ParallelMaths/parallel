@@ -4,6 +4,7 @@ const firebase = require("firebase-admin");
 const {
   generateGuardianPrivacyAuthToken,
   firstSeenKey,
+  dueByKey,
   userNeedsGuardianTouchKey,
   guardianPrivacyAuthTokenKey,
   acceptedKey,
@@ -109,10 +110,13 @@ const mergeAccountEmailsWithReqBodyGuardianEmails = (req, res) => {
   return user.emails || [];
 };
 
+const SevenDays = 7 * 24 * 60 * 60 * 1000;
+
 router.get("/student/delay", studentMiddleware, async (req, res) => {
   try {
     const updateBody = {
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
+      [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
     };
 
     await userDB.doc(req.user.uid).update(updateBody);
@@ -130,16 +134,18 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
   }
 });
 
-
 router.post("/student/update", studentMiddleware, async (req, res) => {
   try {
     const updateBody = {
       emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
       guardianEmail: null,
-      [userNeedsGuardianTouchKey]: Date.now(),
       [guardianPrivacyAuthTokenKey]:
-        req.user.guardianPrivacyAuthToken || generateGuardianPrivacyAuthToken(),
+        req.user[guardianPrivacyAuthTokenKey] ||
+        generateGuardianPrivacyAuthToken(),
+      [userNeedsGuardianTouchKey]:
+        req.user[userNeedsGuardianTouchKey] || Date.now(),
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
+      [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
     };
 
     await userDB.doc(req.user.uid).update(updateBody);
@@ -177,17 +183,15 @@ router.get("/student/accept", studentMiddleware, async (req, res) => {
   }
 });
 
-const SevenDays = 7 * 24 * 60 * 60 * 1000;
-
 router.get("/guardian/load/:token", guardianMiddleware, async (req, res) => {
-  const startTime = res.locals.guardianStudent[firstSeenKey];
+  const dueDate = res.locals.guardianStudent[dueByKey];
 
   res.status(200).send({
     success: true,
     error: null,
     data: {
       first: res.locals.guardianStudent.first,
-      dueDate: startTime ? startTime + SevenDays : null,
+      dueDate: dueDate && Date.now() < dueDate ? dueDate : null, // only send due date if still valid
     },
   });
 });

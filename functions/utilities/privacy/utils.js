@@ -12,6 +12,7 @@ function generateGuardianPrivacyAuthToken() {
 const latestPrivacyVersion = "privacy-testing-002";
 
 const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
+const dueByKey = `${latestPrivacyVersion}-dueBy`;
 const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
 const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
 const acceptedKey = `${latestPrivacyVersion}-accepted`;
@@ -67,12 +68,12 @@ const getPrivacyState = (email, user) => {
     };
   }
 
-  const firstSeen = user[firstSeenKey];
+  const dueBy = user[dueByKey];
 
-  if (firstSeen) {
+  if (dueBy) {
     // User has seen popup before
 
-    if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
+    if (Date.now() > dueBy) {
       // if 7 days or more since first seen, show block
       return {
         debug: 3,
@@ -81,14 +82,12 @@ const getPrivacyState = (email, user) => {
       };
     }
 
-    if (firstSeen) {
-      // User has seen popup before but within 7 days
-      return {
-        debug: 4,
-        visible: false,
-        mode: "none",
-      };
-    }
+    // User has seen popup before but within 7 days
+    return {
+      debug: 4,
+      visible: false,
+      mode: "none",
+    };
   }
 
   // User has not seen popup before
@@ -119,10 +118,11 @@ async function validateGuardianToken(req) {
 exports.getPrivacyState = getPrivacyState;
 exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;
 exports.firstSeenKey = firstSeenKey;
-exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
+exports.dueByKey = dueByKey;
 exports.guardianPrivacyAuthTokenKey = guardianPrivacyAuthTokenKey;
 exports.acceptedKey = acceptedKey;
 exports.acceptedByKey = acceptedByKey;
 exports.latestPrivacyVersion = latestPrivacyVersion;
 exports.validateGuardianToken = validateGuardianToken;
+exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.isUnderThirteen = isUnderThirteen;
