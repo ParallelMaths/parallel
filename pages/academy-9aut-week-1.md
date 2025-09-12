@@ -57,10 +57,10 @@ d) <input type="number" solution="20"/>
 
 ::: problem id=2_1 marks=1
 ![](/resources/academy-9aut-week-1/q2a.png){image align="center"}  
-* [ ] a)
-* [ ] b)
-* [x] c)
-* [ ] d)
+* [ ] (i)
+* [ ] (ii)
+* [x] (iii)
+* [ ] (iv)
 {.col-5}
 
 ---
@@ -70,10 +70,10 @@ d) <input type="number" solution="20"/>
 
 ::: problem id=2_2 marks=1
 ![](/resources/academy-9aut-week-1/q2b.png){image align="center"}  
-* [x] a)
-* [ ] b)
-* [ ] c)
-* [ ] d)
+* [x] (i)
+* [ ] (ii)
+* [ ] (iii)
+* [ ] (iv)
 {.col-5}
 
 ---
@@ -83,10 +83,10 @@ d) <input type="number" solution="20"/>
 
 ::: problem id=2_3 marks=1
 ![](/resources/academy-9aut-week-1/q2c.png){image align="center"}  
-* [ ] a)
-* [x] b)
-* [ ] c)
-* [ ] d)
+* [ ] (i)
+* [x] (ii)
+* [ ] (iii)
+* [ ] (iv)
 {.col-5} 
 
 ---
@@ -96,10 +96,10 @@ d) <input type="number" solution="20"/>
 
 ::: problem id=2_4 marks=1
 ![](/resources/academy-9aut-week-1/q2d.png){image align="center"}  
-* [ ] a)
-* [ ] b)
-* [ ] c)
-* [x] d)
+* [ ] (i)
+* [ ] (ii)
+* [ ] (iii)
+* [x] (iv)
 {.col-5}
 
 ---
