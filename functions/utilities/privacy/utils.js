@@ -117,7 +117,6 @@ const getPrivacyState = (email, user) => {
   return {
     debug: 5,
     visible: true,
-    isUnder13,
     mode: useUnder13 ? "under-13-delay" : "over-13-delay",
     variant
   };
