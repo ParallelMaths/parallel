@@ -8,6 +8,7 @@ const {
   userNeedsGuardianTouchKey,
   acceptedKey,
   acceptedByKey,
+  variantModeKey,
   isUnderThirteen,
   getPrivacyState,
   generateGuardianPrivacyAuthToken,
@@ -18,6 +19,8 @@ const {
 // /api/privacy/student/ultra-secret/reset/under13/8daysago
 // /api/privacy/student/ultra-secret/reset/over13/new
 // /api/privacy/student/ultra-secret/reset/over13/8daysago
+// /api/privacy/student/ultra-secret/reset/year8webinar/new
+// /api/privacy/student/ultra-secret/reset/year8webinar/31daysago
 
 const userDB = firebase.firestore().collection("users");
 
@@ -36,6 +39,7 @@ const getViewData = (req) => {
     guardianPrivacyAuthTokenKey,
     acceptedKey,
     acceptedByKey,
+    variantModeKey,
     "birthMonth",
     "birthYear",
   ];
@@ -74,6 +78,7 @@ router.get("/reset/under13/new", studentMiddleware, async (req, res) => {
     [userNeedsGuardianTouchKey]: null,
     [acceptedKey]: null,
     [acceptedByKey]: null,
+    [variantModeKey]: null,
     birthMonth: "1",
     birthYear: "2025",
   };
@@ -91,8 +96,46 @@ router.get("/reset/over13/new", studentMiddleware, async (req, res) => {
     [userNeedsGuardianTouchKey]: null,
     [acceptedKey]: null,
     [acceptedByKey]: null,
+    [variantModeKey]: null,
     birthMonth: "1",
     birthYear: "1990",
+  };
+
+  await userDB.doc(req.user.uid).update(updateBody);
+
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
+
+
+router.get("/reset/year8webinar/new", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: null,
+    [dueByKey]: Date.now() + 30 * 24 * 60 * 60 * 1000, // 30 days from now
+    [guardianPrivacyAuthTokenKey]: null,
+    [userNeedsGuardianTouchKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    [variantModeKey]: 'year8webinar',
+    birthMonth: "1",
+    birthYear: "1990",
+  };
+
+  await userDB.doc(req.user.uid).update(updateBody);
+
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
+
+router.get("/reset/year8webinar/31daysago", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: Date.now() - 31 * 24 * 60 * 60 * 1000, // first seen was 31 days ago
+    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+    [userNeedsGuardianTouchKey]: null,
+    [guardianPrivacyAuthTokenKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    [variantModeKey]: 'year8webinar',
+    birthMonth: "1",
+    birthYear: "2025", // Age doesn't matter for this variant
   };
 
   await userDB.doc(req.user.uid).update(updateBody);
@@ -108,6 +151,7 @@ router.get("/reset/under13/8daysago", studentMiddleware, async (req, res) => {
     [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
     [acceptedKey]: null,
     [acceptedByKey]: null,
+    [variantModeKey]: null,
     birthMonth: "1",
     birthYear: "2025",
   };
@@ -125,6 +169,7 @@ router.get("/reset/over13/8daysago", studentMiddleware, async (req, res) => {
     [guardianPrivacyAuthTokenKey]: null,
     [acceptedKey]: null,
     [acceptedByKey]: null,
+    [variantModeKey]: null,
     birthMonth: "1",
     birthYear: "1990",
   };
