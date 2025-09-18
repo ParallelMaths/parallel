@@ -14,13 +14,8 @@ const {
   generateGuardianPrivacyAuthToken,
 } = require("./utils");
 
-// /api/privacy/student/ultra-secret/view
-// /api/privacy/student/ultra-secret/reset/under13/new
-// /api/privacy/student/ultra-secret/reset/under13/8daysago
-// /api/privacy/student/ultra-secret/reset/over13/new
-// /api/privacy/student/ultra-secret/reset/over13/8daysago
-// /api/privacy/student/ultra-secret/reset/year8webinar/new
-// /api/privacy/student/ultra-secret/reset/year8webinar/31daysago
+// /api/privacy/student/ultra-secret/view (GET)
+// /api/privacy/student/ultra-secret/reset (POST)
 
 const userDB = firebase.firestore().collection("users");
 
@@ -70,17 +65,17 @@ const getResponseBody = (req, updateBody) => {
   };
 };
 
-router.get("/reset/under13/new", studentMiddleware, async (req, res) => {
+router.post("/reset", studentMiddleware, async (req, res) => {
   const updateBody = {
-    [firstSeenKey]: null,
-    [dueByKey]: null,
-    [guardianPrivacyAuthTokenKey]: null,
-    [userNeedsGuardianTouchKey]: null,
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: null,
-    birthMonth: "1",
-    birthYear: "2025",
+    [firstSeenKey]: req.body.firstSeen || null,
+    [dueByKey]: req.body.dueBy || null,
+    [guardianPrivacyAuthTokenKey]: req.body.guardianPrivacyAuthToken ? generateGuardianPrivacyAuthToken() : null,
+    [userNeedsGuardianTouchKey]: req.body.userNeedsGuardianTouch || null,
+    [acceptedKey]: req.body.acceptedKey || null,
+    [acceptedByKey]: req.body.acceptedByKey || null,
+    [variantModeKey]: req.body.variantMode || null,
+    birthMonth: req.body.birthMonth || "1",
+    birthYear: req.body.birthYear || "2025",
   };
 
   await userDB.doc(req.user.uid).update(updateBody);
@@ -88,96 +83,43 @@ router.get("/reset/under13/new", studentMiddleware, async (req, res) => {
   return res.status(200).send(getResponseBody(req, updateBody));
 });
 
-router.get("/reset/over13/new", studentMiddleware, async (req, res) => {
-  const updateBody = {
-    [firstSeenKey]: null,
-    [dueByKey]: null,
-    [guardianPrivacyAuthTokenKey]: null,
-    [userNeedsGuardianTouchKey]: null,
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: null,
-    birthMonth: "1",
-    birthYear: "1990",
-  };
-
-  await userDB.doc(req.user.uid).update(updateBody);
-
-  return res.status(200).send(getResponseBody(req, updateBody));
-});
-
-
-router.get("/reset/year8webinar/new", studentMiddleware, async (req, res) => {
-  const updateBody = {
-    [firstSeenKey]: null,
-    [dueByKey]: Date.now() + 30 * 24 * 60 * 60 * 1000, // 30 days from now
-    [guardianPrivacyAuthTokenKey]: null,
-    [userNeedsGuardianTouchKey]: null,
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: 'year8webinar',
-    birthMonth: "1",
-    birthYear: "1990",
-  };
-
-  await userDB.doc(req.user.uid).update(updateBody);
-
-  return res.status(200).send(getResponseBody(req, updateBody));
-});
-
-router.get("/reset/year8webinar/31daysago", studentMiddleware, async (req, res) => {
-  const updateBody = {
-    [firstSeenKey]: Date.now() - 31 * 24 * 60 * 60 * 1000, // first seen was 31 days ago
-    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
-    [userNeedsGuardianTouchKey]: null,
-    [guardianPrivacyAuthTokenKey]: null,
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: 'year8webinar',
-    birthMonth: "1",
-    birthYear: "2025", // Age doesn't matter for this variant
-  };
-
-  await userDB.doc(req.user.uid).update(updateBody);
-
-  return res.status(200).send(getResponseBody(req, updateBody));
-});
-
-router.get("/reset/under13/8daysago", studentMiddleware, async (req, res) => {
-  const updateBody = {
-    [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
-    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
-    [userNeedsGuardianTouchKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // guardian touch was 8 days ago
-    [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: null,
-    birthMonth: "1",
-    birthYear: "2025",
-  };
-
-  await userDB.doc(req.user.uid).update(updateBody);
-
-  return res.status(200).send(getResponseBody(req, updateBody));
-});
-
-router.get("/reset/over13/8daysago", studentMiddleware, async (req, res) => {
-  const updateBody = {
-    [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
-    [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
-    [userNeedsGuardianTouchKey]: null,
-    [guardianPrivacyAuthTokenKey]: null,
-    [acceptedKey]: null,
-    [acceptedByKey]: null,
-    [variantModeKey]: null,
-    birthMonth: "1",
-    birthYear: "1990",
-  };
-
-  await userDB.doc(req.user.uid).update(updateBody);
-
-  return res.status(200).send(getResponseBody(req, updateBody));
-});
+// const bodies = {
+//   under13_new: {
+//     birthMonth: "1",
+//     birthYear: "2025",
+//   },
+//   over13_new: {
+//     birthMonth: "1",
+//     birthYear: "1990",
+//   },
+//   year8webinar_new: {
+//     birthMonth: "1",
+//     birthYear: "1990",
+//     [dueByKey]: Date.now() + 30 * 24 * 60 * 60 * 1000, // 30 days from now
+//     [variantModeKey]: 'year8webinar',
+//   },
+//   year8webinar_31daysago: {
+//     [firstSeenKey]: Date.now() - 31 * 24 * 60 * 60 * 1000, // first seen was 31 days ago
+//     [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+//     birthMonth: "1",
+//     birthYear: "2025", // Age doesn't matter for this variant
+//     [variantModeKey]: 'year8webinar',
+//   },
+//   under13_8daysago: {
+//     [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
+//     [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+//     [userNeedsGuardianTouchKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // guardian touch was 8 days ago
+//     [guardianPrivacyAuthTokenKey]: generateGuardianPrivacyAuthToken(),
+//     birthMonth: "1",
+//     birthYear: "2025",
+//   },
+//   over13_8daysago: {
+//     [firstSeenKey]: Date.now() - 8 * 24 * 60 * 60 * 1000, // first seen was 8 days ago
+//     [dueByKey]: Date.now() - 24 * 60 * 60 * 1000, // due date was 1 day ago
+//     birthMonth: "1",
+//     birthYear: "1990",
+//   }
+// }
 
 router.get("/view", studentMiddleware, async (req, res) => {
   return res.status(200).send({ data: getViewData(req) });

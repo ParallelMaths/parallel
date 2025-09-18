@@ -183,6 +183,26 @@ router.get("/student/accept", studentMiddleware, async (req, res) => {
   }
 });
 
+router.get("/student/guardian-accept", studentMiddleware, async (req, res) => {
+  try {
+    const updateBody = {
+      [acceptedKey]: Date.now(),
+      [acceptedByKey]: "guardian-via-student",
+    };
+
+    await userDB.doc(req.user.uid).update(updateBody);
+
+    return res
+      .status(200)
+      .send({ success: true, data: updateBody, error: null });
+  } catch (e) {
+    console.error("Failed to accept privacy", req.user.uid, e);
+    return res
+      .status(200)
+      .send({ success: false, error: "failed to accept privacy", data: null });
+  }
+});
+
 router.get("/guardian/load/:token", guardianMiddleware, async (req, res) => {
   const dueDate = res.locals.guardianStudent[dueByKey];
 
