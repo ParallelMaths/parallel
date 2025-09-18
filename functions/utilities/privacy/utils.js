@@ -12,10 +12,14 @@ function generateGuardianPrivacyAuthToken() {
 const latestPrivacyVersion = "privacy-testing-002";
 
 const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
+const dueByKey = `${latestPrivacyVersion}-dueBy`;
 const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
 const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
 const acceptedKey = `${latestPrivacyVersion}-accepted`;
 const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
+const variantModeKey = `${latestPrivacyVersion}-variant`;
+
+const supportedCustomVariants = ['year8webinar']
 
 const getCleanNumber = (n) => {
   if (!n) return null;
@@ -44,8 +48,23 @@ const isUnderThirteen = (user) => {
   return true;
 };
 
+const getPrivacyVariant = (user) => {
+  try {
+    const variant = user?.[variantModeKey];
+    if (supportedCustomVariants.includes(variant)) {
+      return variant;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+} 
+
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
+  const variant = getPrivacyVariant(user);
+
+  const useUnder13 = isUnder13 && variant !== 'year8webinar'
 
   if (
     !email.includes("@mcmill.co.uk") ||
@@ -55,6 +74,7 @@ const getPrivacyState = (email, user) => {
       debug: 1,
       visible: false,
       mode: "none",
+      variant
     };
   }
 
@@ -64,31 +84,33 @@ const getPrivacyState = (email, user) => {
       debug: 2,
       visible: false,
       mode: "none",
+      variant
     };
   }
 
   const firstSeen = user[firstSeenKey];
+  const dueBy = user[dueByKey];
 
-  if (firstSeen) {
+  if (firstSeen && dueBy) {
     // User has seen popup before
 
-    if (Date.now() - firstSeen > 7 * 24 * 60 * 60 * 1000) {
+    if (Date.now() > dueBy) {
       // if 7 days or more since first seen, show block
       return {
         debug: 3,
         visible: true,
-        mode: isUnder13 ? "under-13-block" : "over-13-block",
+        mode: useUnder13 ? "under-13-block" : "over-13-block",
+        variant
       };
     }
 
-    if (firstSeen) {
-      // User has seen popup before but within 7 days
-      return {
-        debug: 4,
-        visible: false,
-        mode: "none",
-      };
-    }
+    // User has seen popup before but within 7 days
+    return {
+      debug: 4,
+      visible: false,
+      mode: "none",
+      variant
+    };
   }
 
   // User has not seen popup before
@@ -96,7 +118,8 @@ const getPrivacyState = (email, user) => {
     debug: 5,
     visible: true,
     isUnder13,
-    mode: isUnder13 ? "under-13-delay" : "over-13-delay",
+    mode: useUnder13 ? "under-13-delay" : "over-13-delay",
+    variant
   };
 };
 
@@ -119,10 +142,12 @@ async function validateGuardianToken(req) {
 exports.getPrivacyState = getPrivacyState;
 exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;
 exports.firstSeenKey = firstSeenKey;
-exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
+exports.dueByKey = dueByKey;
 exports.guardianPrivacyAuthTokenKey = guardianPrivacyAuthTokenKey;
 exports.acceptedKey = acceptedKey;
 exports.acceptedByKey = acceptedByKey;
 exports.latestPrivacyVersion = latestPrivacyVersion;
 exports.validateGuardianToken = validateGuardianToken;
+exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.isUnderThirteen = isUnderThirteen;
+exports.variantModeKey = variantModeKey;

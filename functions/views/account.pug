@@ -38,9 +38,13 @@ block content
 
       else
         //- Student Account Fields
-        label
-          | Teacher codes
-          vue-tags-input#ti(v-model="user.editForm.teacherCode" :tags="user.editForm.teacherCodes" @tags-changed="t => user.editForm.teacherCodes = t" placeholder="Add Code")
+        div(class="email-section" v-if="user.editForm.teacherCodes")
+          label(v-if="user.editForm.teacherCodes.length <= 1") Teacher Code
+          label(v-if="user.editForm.teacherCodes.length > 1") Teacher Codes
+          div(class="email-item" v-for="(email, index) in user.editForm.teacherCodes")
+            input(type="text" v-model="user.editForm.teacherCodes[index]" :key="index")
+            button(class="email-edit" type="button" @click="user.editForm.teacherCodes.splice(index, 1);") ×
+          button(class="new-email" type="button" @click="user.editForm.teacherCodes.push('');") Add teacher code
 
         label
           | Level 

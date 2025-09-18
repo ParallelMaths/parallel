@@ -204,7 +204,7 @@ export default function() {
     }
 
     if (window.USER_DATA.teacherCode) {
-      editForm.teacherCodes = (window.USER_DATA.teacherCode || []).map(t => ({text: t}));
+      editForm.teacherCodes = (window.USER_DATA.teacherCode || []);
     }
 
     editForm.guardianEmails = [];
@@ -303,7 +303,7 @@ export default function() {
 
       try {
         let schoolName = editForm.schoolName || null;
-        const teacherCodes = editForm.teacherCodes.map(c => c.text.trim());
+        const teacherCodes = editForm.teacherCodes.map(c => c.trim()).filter(Boolean);
 
         if(!isTeacher && teacherCodes.length) {
           for (const code of teacherCodes) {

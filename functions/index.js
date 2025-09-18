@@ -14,6 +14,7 @@ const path = require('path');
 const functions = require('firebase-functions/v1');
 const express = require('express');
 const user = require('./utilities/user');
+const { getPrivacyState } = require('./utilities/privacy/utils');
 const privacyRouter = require('./utilities/privacy/router');
 const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
@@ -201,7 +202,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
 
-  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: user.getPrivacyState(authUser.email, found) }))
+  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: getPrivacyState(authUser.email, found) }))
 });
 
 app.get('/api/user-answers', async (req, res) => {

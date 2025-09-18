@@ -7,7 +7,7 @@ const downloadUsers = require('./utils/downloadUsers');
 // Edit below.
 // Set the time string to '' to stop filtering by submission time.
 
-const START_TIME = '1725058860000';
+const START_TIME = '1756684800000';
 const END_TIME = '';
 
 // -----------------------------------------------------------------------------
