@@ -41,7 +41,7 @@ We will also be running a weekly homework review session (look out for our email
  
 ---
 
-![](/resources/academy-9aut-week-2/s1a.png){image align="center"}
+![](/resources/academy-9aut-week-2/s1b.png){image align="center"}
 :::  
 
 
