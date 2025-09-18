@@ -19,6 +19,8 @@ const {
 // /api/privacy/student/ultra-secret/reset/under13/8daysago
 // /api/privacy/student/ultra-secret/reset/over13/new
 // /api/privacy/student/ultra-secret/reset/over13/8daysago
+// /api/privacy/student/ultra-secret/reset/year8webinar/new
+// /api/privacy/student/ultra-secret/reset/year8webinar/31daysago
 
 const userDB = firebase.firestore().collection("users");
 

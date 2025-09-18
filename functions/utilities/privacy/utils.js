@@ -88,9 +88,10 @@ const getPrivacyState = (email, user) => {
     };
   }
 
+  const firstSeen = user[firstSeenKey];
   const dueBy = user[dueByKey];
 
-  if (dueBy) {
+  if (firstSeen && dueBy) {
     // User has seen popup before
 
     if (Date.now() > dueBy) {
