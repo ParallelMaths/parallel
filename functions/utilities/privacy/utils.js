@@ -17,6 +17,9 @@ const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
 const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
 const acceptedKey = `${latestPrivacyVersion}-accepted`;
 const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
+const variantModeKey = `${latestPrivacyVersion}-variant`;
+
+const supportedCustomVariants = ['year8webinar']
 
 const getCleanNumber = (n) => {
   if (!n) return null;
@@ -45,8 +48,23 @@ const isUnderThirteen = (user) => {
   return true;
 };
 
+const getPrivacyVariant = (user) => {
+  try {
+    const variant = user?.[variantModeKey];
+    if (supportedCustomVariants.includes(variant)) {
+      return variant;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+} 
+
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
+  const variant = getPrivacyVariant(user);
+
+  const useUnder13 = isUnder13 && variant !== 'year8webinar'
 
   if (
     !email.includes("@mcmill.co.uk") ||
@@ -56,6 +74,7 @@ const getPrivacyState = (email, user) => {
       debug: 1,
       visible: false,
       mode: "none",
+      variant
     };
   }
 
@@ -65,6 +84,7 @@ const getPrivacyState = (email, user) => {
       debug: 2,
       visible: false,
       mode: "none",
+      variant
     };
   }
 
@@ -78,7 +98,8 @@ const getPrivacyState = (email, user) => {
       return {
         debug: 3,
         visible: true,
-        mode: isUnder13 ? "under-13-block" : "over-13-block",
+        mode: useUnder13 ? "under-13-block" : "over-13-block",
+        variant
       };
     }
 
@@ -87,6 +108,7 @@ const getPrivacyState = (email, user) => {
       debug: 4,
       visible: false,
       mode: "none",
+      variant
     };
   }
 
@@ -95,7 +117,8 @@ const getPrivacyState = (email, user) => {
     debug: 5,
     visible: true,
     isUnder13,
-    mode: isUnder13 ? "under-13-delay" : "over-13-delay",
+    mode: useUnder13 ? "under-13-delay" : "over-13-delay",
+    variant
   };
 };
 
@@ -126,3 +149,4 @@ exports.latestPrivacyVersion = latestPrivacyVersion;
 exports.validateGuardianToken = validateGuardianToken;
 exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.isUnderThirteen = isUnderThirteen;
+exports.variantModeKey = variantModeKey;
