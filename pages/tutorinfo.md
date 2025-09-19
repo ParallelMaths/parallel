@@ -31,7 +31,7 @@ We are looking for tutors who will:
 
 We are particularly keen to hear from tutors who have experience of teaching A Level Maths and A Level Further Maths, as well as tutors who are comfortable preparing students for UKMT challenges.  
 
-New tutors starting in September will be offered £30 per 50-minute tutorial, and will be able to choose the days and times that work best for them.  
+Tutors are paid £30 per 50-minute tutorial, and will be able to choose the days and times that work best for them.  
 
 
 ## Application process
