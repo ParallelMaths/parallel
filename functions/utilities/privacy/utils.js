@@ -107,7 +107,7 @@ const getPrivacyState = (email, user) => {
 
   const shouldRetry = shouldRetryPopup(latestTouch, useUnder13);
 
-  if (firstSeen && dueBy && !shouldRetry) {
+  if (firstSeen && dueBy) {
     // User has seen popup before
 
     if (Date.now() > dueBy) {
@@ -120,16 +120,20 @@ const getPrivacyState = (email, user) => {
       };
     }
 
-    // User has seen popup before but within 7 days
-    return {
-      debug: 4,
-      visible: false,
-      mode: "none",
-      variant
-    };
+    if (!shouldRetry) {
+      // User has seen popup before but within 7 days
+      // and not time to retry yet
+      return {
+        debug: 4,
+        visible: false,
+        mode: "none",
+        variant
+      };
+    }
   }
 
   // User has not seen popup before
+  // or it's time to retry
   return {
     debug: 5,
     visible: true,
