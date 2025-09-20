@@ -12,6 +12,7 @@ function generateGuardianPrivacyAuthToken() {
 const latestPrivacyVersion = "privacy-testing-002";
 
 const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
+const latestTouchKey = `${latestPrivacyVersion}-latestTouch`;
 const dueByKey = `${latestPrivacyVersion}-dueBy`;
 const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
 const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
@@ -150,3 +151,4 @@ exports.validateGuardianToken = validateGuardianToken;
 exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.isUnderThirteen = isUnderThirteen;
 exports.variantModeKey = variantModeKey;
+exports.latestTouchKey = latestTouchKey;
