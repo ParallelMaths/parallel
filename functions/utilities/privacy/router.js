@@ -9,6 +9,7 @@ const {
   guardianPrivacyAuthTokenKey,
   acceptedKey,
   acceptedByKey,
+  latestTouchKey,
   validateGuardianToken,
 } = require("./utils");
 const debugRouter = require("./debugRouter");
@@ -117,6 +118,7 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
     const updateBody = {
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
       [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
+      [latestTouchKey]: Date.now(),
     };
 
     await userDB.doc(req.user.uid).update(updateBody);
@@ -146,6 +148,7 @@ router.post("/student/update", studentMiddleware, async (req, res) => {
         req.user[userNeedsGuardianTouchKey] || Date.now(),
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
       [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
+      [latestTouchKey]: Date.now(),
     };
 
     await userDB.doc(req.user.uid).update(updateBody);
