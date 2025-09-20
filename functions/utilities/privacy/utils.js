@@ -59,7 +59,19 @@ const getPrivacyVariant = (user) => {
   } catch {
     return null;
   }
-} 
+}
+
+const shouldRetryPopup = (lastTouched, isUnder13) => {
+  if (isUnder13) return false;
+
+  try {
+    if (!lastTouched) return false;
+    const threeHoursAgo = Date.now() - (3 * 60 * 60 * 1000);
+    return lastTouched < threeHoursAgo;
+  } catch {
+    return false;
+  }
+}
 
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
@@ -91,8 +103,11 @@ const getPrivacyState = (email, user) => {
 
   const firstSeen = user[firstSeenKey];
   const dueBy = user[dueByKey];
+  const latestTouch = user[latestTouchKey];
 
-  if (firstSeen && dueBy) {
+  const shouldRetry = shouldRetryPopup(latestTouch, useUnder13);
+
+  if (firstSeen && dueBy && !shouldRetry) {
     // User has seen popup before
 
     if (Date.now() > dueBy) {
