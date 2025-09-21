@@ -8,9 +8,10 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod",
-    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project prod",
-    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project prod",
+    "serve-old": "grunt concurrent && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta",
+    "serve": "concurrently \"grunt concurrent\" \"cross-env GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase emulators:start --project beta\"",
+    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project beta",
+    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project beta",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
     "get-users": "node scripts/get-users.js",
@@ -19,6 +20,7 @@
     "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
+    "postinstall": "npx firebase logout && echo 'Logging out, no longer using firebase login, use service accounts instead.'"
     "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod\""
   },
   "devDependencies": {
@@ -28,7 +30,9 @@
     "@mathigon/hilbert": "^0.6.8",
     "babel-polyfill": "^6.26.0",
     "babel-preset-minify": "^0.5.1",
+    "concurrently": "^7.6.0",
     "cookie-parser": "^1.4.6",
+    "cross-env": "^10.0.0",
     "firebase-admin": "^13.2.0",
     "grunt": "^1.4.1",
     "grunt-autoprefixer": "^3.0.3",
@@ -62,7 +66,6 @@
     "@firebase/app": "^0.7.0",
     "aws-sdk": "^2.1252.0",
     "caniuse-lite": "^1.0.3",
-    "concurrently": "^7.3.0",
     "firebase": "^9.0.0",
     "firebase-functions": "^6.3.2",
     "firebase-tools": "^13.33.0",
@@ -72,5 +75,6 @@
     "> 1%",
     "not ie <= 11",
     "not ios < 10"
-  ]
+  ],
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
 }
