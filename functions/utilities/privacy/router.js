@@ -75,7 +75,7 @@ const cleanAndDeduplicateEmails = (emails) => {
 
 const getReqBodyGuardianEmails = (req) => {
   try {
-    const body = JSON.parse(req.body);
+    const body = req.body
     if (Array.isArray(body.guardianEmails)) {
       return body.guardianEmails;
     }

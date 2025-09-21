@@ -1,3 +1,9 @@
+/*
+*
+* YOU MUST update these values in parallel-squared repo as well as here:
+*
+*/
+
 const latestPrivacyVersion = 'privacy-sept-2025-001';
 
 const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
