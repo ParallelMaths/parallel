@@ -2,7 +2,9 @@
 // Parallel Login
 // =============================================================================
 
-
+const latestPrivacyVersion = 'privacy-sept-2025-001';
+const acceptedKey = `${latestPrivacyVersion}-accepted`;
+const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
 
 const ERRORS = {
   'auth/invalid-email': 'This email address is invalid.',
@@ -487,6 +489,13 @@ export default function() {
 
       let primaryEmailType = signupForm.type === 'teacher' ? 'teacher' : signupForm.primaryEmailType
 
+      const isUnder13 = signupForm.birthYear ? user.isUnderThirteen(signupForm.birthYear, signupForm.birthMonth) : false;
+
+      const privacyData = isUnder13 ? {} : {
+        [acceptedKey]: Date.now(),
+        [acceptedByKey]: 'student-signup'
+      }
+
       const signupData = {
         first: signupForm.first || null,
         last: signupForm.last || null,
@@ -500,20 +509,23 @@ export default function() {
         postCode: signupForm.postCode || null,
         guardianEmail,
         acceptedTerms: true,
+        ...privacyData,
         userReference: generateUserReference(),
         primaryEmailType,
         source: window.SIGNUP_SOURCE || null
       }
 
-      userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
-          .then(({user}) => {
-            return fbDatabase.collection('users').doc(user.uid).set(signupData);
-          })
-          .catch(error => {
-            console.error(error);
-            signupForm.loading = false;
-            signupForm.error = ERRORS[error.code] || ERRORS.default;
-          });
+      console.log('signupData', signupData, 'isUnder13', isUnder13);
+
+      // userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
+      //     .then(({user}) => {
+      //       return fbDatabase.collection('users').doc(user.uid).set(signupData);
+      //     })
+      //     .catch(error => {
+      //       console.error(error);
+      //       signupForm.loading = false;
+      //       signupForm.error = ERRORS[error.code] || ERRORS.default;
+      //     });
     }
   };
 

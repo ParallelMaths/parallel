@@ -1,6 +1,8 @@
 /*
 *
-* YOU MUST update these values in parallel-squared repo as well as here:
+* YOU MUST also update these values in
+*    parallel-squared repo
+*    static/scripts/user.js in this repo
 *
 */
 
