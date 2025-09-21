@@ -303,7 +303,7 @@ There are six possible orders: ABC, ACB, BAC, BCA, CAB and CBA (there are `3 xx 
 ^^^  
 ---
 
-![](/resources/academy-7sum-week-8/s14.png){image align="center"}
+![](/resources/academy-7sum-synoptic/s14.png){image align="center"}
 :::  
 
 

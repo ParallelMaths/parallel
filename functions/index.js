@@ -14,6 +14,8 @@ const path = require('path');
 const functions = require('firebase-functions/v1');
 const express = require('express');
 const user = require('./utilities/user');
+const { getPrivacyState } = require('./utilities/privacy/utils');
+const privacyRouter = require('./utilities/privacy/router');
 const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
 const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
@@ -129,7 +131,12 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => res.render('home'));
 app.get('/parallelograms', (req, res) => {
-  const latest = res.locals?.pages[res.locals?.user?.level]?.[0];
+  // If ?latest is set, redirect to latest PG for their level
+  // Graduated users are treated as year11 for this purpose
+  // This avoids a bug where `showWelcomeMsg` gets stuck on true
+  // because they retain the `latest` query param
+  const levelWithoutGraduated = (res.locals.user?.level === 'graduated') ? 'year11' : res.locals.user?.level;
+  const latest = res.locals?.pages[levelWithoutGraduated]?.[0];
 
   if(latest && req.query.latest) {
     return res.redirect(`/${latest.url}`)
@@ -151,6 +158,8 @@ app.get('/api/user', async (req, res) => {
     res.status(400).send('Error')
   })
 });
+
+app.use('/api/privacy', privacyRouter)
 
 app.get('/api/get-user', async (req, res) => {
   const token = req.headers['parallel-token'];
@@ -193,7 +202,7 @@ app.get('/api/find-user', async (req, res) => {
 
   if(!found) return res.status(401).send({ error: 'no user data found' });
 
-  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: user.getPrivacyState(authUser.email) }))
+  res.status(200).send(getTypeSafeUser({...found, email: authUser.email, privacy: getPrivacyState(authUser.email, found) }))
 });
 
 app.get('/api/user-answers', async (req, res) => {
@@ -427,12 +436,14 @@ const redirects = {
 
 Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
 
-const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo']
+const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo', 'privacy-notice']
+const pagesWithoutPrivacyModal = ['privacy-notice']
 
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice', 'safeguarding', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
+    res.locals.privacyModalDisabled = pagesWithoutPrivacyModal.includes(p);
     res.render('_layout', {content})
   });
 }
