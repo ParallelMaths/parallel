@@ -2,6 +2,11 @@ const express = require("express");
 const router = express.Router();
 const firebase = require("firebase-admin");
 const {
+  isUnderThirteen,
+  getPrivacyState,
+  generateGuardianPrivacyAuthToken,
+} = require("./utils");
+const {
   firstSeenKey,
   dueByKey,
   guardianPrivacyAuthTokenKey,
@@ -10,10 +15,7 @@ const {
   acceptedByKey,
   variantModeKey,
   latestTouchKey,
-  isUnderThirteen,
-  getPrivacyState,
-  generateGuardianPrivacyAuthToken,
-} = require("./utils");
+} = require("./privacyKeys");
 
 // /api/privacy/student/ultra-secret/view (GET)
 // /api/privacy/student/ultra-secret/reset (POST)

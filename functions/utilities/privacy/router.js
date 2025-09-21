@@ -3,15 +3,17 @@ const router = express.Router();
 const firebase = require("firebase-admin");
 const {
   generateGuardianPrivacyAuthToken,
+  validateGuardianToken,
+} = require("./utils");
+const {
   firstSeenKey,
   dueByKey,
   userNeedsGuardianTouchKey,
   guardianPrivacyAuthTokenKey,
   acceptedKey,
   acceptedByKey,
-  latestTouchKey,
-  validateGuardianToken,
-} = require("./utils");
+  latestTouchKey
+} = require("./privacyKeys");
 const debugRouter = require("./debugRouter");
 
 router.use("/student/ultra-secret", debugRouter);
