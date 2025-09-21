@@ -1,4 +1,11 @@
 const firebase = require("firebase-admin");
+const {
+  firstSeenKey,
+  latestTouchKey,
+  dueByKey,
+  acceptedKey,
+  variantModeKey,
+} = require("./privacyKeys");
 
 const userDB = firebase.firestore().collection("users");
 
@@ -7,18 +14,6 @@ function generateGuardianPrivacyAuthToken() {
     .replace(/x/g, () => (Math.random() * 36).toString(36)[0])
     .toLowerCase();
 }
-
-// const latestPrivacyVersion = 'privacy-sept-2025-001';
-const latestPrivacyVersion = "privacy-testing-002";
-
-const firstSeenKey = `${latestPrivacyVersion}-firstSeen`;
-const latestTouchKey = `${latestPrivacyVersion}-latestTouch`;
-const dueByKey = `${latestPrivacyVersion}-dueBy`;
-const userNeedsGuardianTouchKey = `${latestPrivacyVersion}-ng-touch`;
-const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
-const acceptedKey = `${latestPrivacyVersion}-accepted`;
-const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
-const variantModeKey = `${latestPrivacyVersion}-variant`;
 
 const supportedCustomVariants = ['year8webinar']
 
@@ -168,14 +163,5 @@ async function validateGuardianToken(req) {
 
 exports.getPrivacyState = getPrivacyState;
 exports.generateGuardianPrivacyAuthToken = generateGuardianPrivacyAuthToken;
-exports.firstSeenKey = firstSeenKey;
-exports.dueByKey = dueByKey;
-exports.guardianPrivacyAuthTokenKey = guardianPrivacyAuthTokenKey;
-exports.acceptedKey = acceptedKey;
-exports.acceptedByKey = acceptedByKey;
-exports.latestPrivacyVersion = latestPrivacyVersion;
 exports.validateGuardianToken = validateGuardianToken;
-exports.userNeedsGuardianTouchKey = userNeedsGuardianTouchKey;
 exports.isUnderThirteen = isUnderThirteen;
-exports.variantModeKey = variantModeKey;
-exports.latestTouchKey = latestTouchKey;
