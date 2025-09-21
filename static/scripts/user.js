@@ -515,17 +515,15 @@ export default function() {
         source: window.SIGNUP_SOURCE || null
       }
 
-      console.log('signupData', signupData, 'isUnder13', isUnder13);
-
-      // userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
-      //     .then(({user}) => {
-      //       return fbDatabase.collection('users').doc(user.uid).set(signupData);
-      //     })
-      //     .catch(error => {
-      //       console.error(error);
-      //       signupForm.loading = false;
-      //       signupForm.error = ERRORS[error.code] || ERRORS.default;
-      //     });
+      userPromise = fbAuth.createUserWithEmailAndPassword(signupForm.email, signupForm.password)
+          .then(({user}) => {
+            return fbDatabase.collection('users').doc(user.uid).set(signupData);
+          })
+          .catch(error => {
+            console.error(error);
+            signupForm.loading = false;
+            signupForm.error = ERRORS[error.code] || ERRORS.default;
+          });
     }
   };
 
