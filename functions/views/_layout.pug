@@ -148,7 +148,7 @@ html
             form(v-on:submit="user.acceptTerms")
               p.checkbox
                 input#terms-modal(type="checkbox" required)
-                label(for="terms-modal") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/privacy-notice" target="_blank") Data Protection Terms & Conditions].
+                label(for="terms-modal") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/privacy-notice" target="_blank") Data Privacy policy].
               button(type="submit") Continue
 
       if user && !user.code && user.showWelcomeMsg
