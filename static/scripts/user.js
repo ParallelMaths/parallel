@@ -131,7 +131,7 @@ export default function() {
 
   const passwordForm = {loading: false, error: ''};
   const signupForm = {error: null, loading: false, level: 'year6',
-    birthYear: 2000, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
+    birthYear: 2010, type: location.hash === '#teacher' ? 'teacher' : 'student', primaryEmailType: null, messages: {}};
 
   signupForm.messages.student = {
     firstName: "Student first name",

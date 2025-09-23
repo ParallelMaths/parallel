@@ -72,7 +72,7 @@ block content
       span {{user.signupForm.messages[user.signupForm.type].yearOfBirth}}
       select(v-model="user.signupForm.birthYear")
         - var year = 1920;
-        while year < 2019
+        while year < 2024
           option= year++
 
     label(v-if="user.signupForm.type === 'teacher'")
@@ -95,8 +95,8 @@ block content
 
     p.checkbox(v-if="!user.isUnderThirteen(user.signupForm.birthYear, user.signupForm.birthMonth)")
       input#terms(type="checkbox" required)
-      label(for="terms") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/privacy-notice" target="_blank") Privacy Notice].
+      label(for="terms") We will email you with updates on Parallelograms, Parallel Circles and other offerings from Parallel. By checking this box you consent to receiving these emails, and also confirm that you have read and accept our #[a(href="/privacy-notice" target="_blank") Privacy Notice].
 
-    p(class="under13Terms" v-if="user.isUnderThirteen(user.signupForm.birthYear, user.signupForm.birthMonth)") We will
+    p(class="under13Terms" v-if="user.isUnderThirteen(user.signupForm.birthYear, user.signupForm.birthMonth)") As this user is under the age of 13, we require a parent or guardian to read and accept our Privacy Notice. We will be in touch via the parent/guardian email address you have provided above. You will need to accept the Privacy Notice within 7 days and can continue to access the Parallel website in the meantime.
 
     button(type="submit") Sign up
