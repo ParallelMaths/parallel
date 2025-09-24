@@ -88,6 +88,23 @@ router.post("/reset", studentMiddleware, async (req, res) => {
   return res.status(200).send(getResponseBody(req, updateBody));
 });
 
+router.get("/reset", studentMiddleware, async (req, res) => {
+  const updateBody = {
+    [firstSeenKey]: null,
+    [dueByKey]: null,
+    [guardianPrivacyAuthTokenKey]: null,
+    [userNeedsGuardianTouchKey]: null,
+    [acceptedKey]: null,
+    [acceptedByKey]: null,
+    [variantModeKey]: null,
+    [latestTouchKey]: null,
+  };
+
+  await userDB.doc(req.user.uid).update(updateBody);
+
+  return res.status(200).send(getResponseBody(req, updateBody));
+});
+
 router.get("/view", studentMiddleware, async (req, res) => {
   return res.status(200).send({ data: getViewData(req) });
 });
