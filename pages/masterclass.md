@@ -17,7 +17,7 @@ Getting started with Parallel is very easy to do, and only takes a few minutes. 
 4.	Enter your password. Make sure it is a password you can remember – perhaps make a note of it somewhere.
 5.	In the field marked “Teacher Code”, enter the Maths Masterclass code: **n4zjt4**  
 6.	Select your school year, and your year of birth
-7.	Tick the box to say you have read our Data Protection Terms and Conditions
+7.	Tick the box to say you have read our Data Privacy policy
 8.	Hit Sign-Up to finalise your sign up.
 
 That’s all there is to it!
