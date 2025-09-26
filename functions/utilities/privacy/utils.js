@@ -77,7 +77,6 @@ const shouldRetryPopup = (lastTouched, isUnder13, guardianEmails) => {
 
 const hasValidAge = (email, user) => {
   try {
-    if (!email.includes("@mcmill.co.uk")) return true; // only enforce for test accounts for now
     if (user.code) return true; // assume teachers are valid
 
     const birthYear = getCleanNumber(user?.birthYear);
