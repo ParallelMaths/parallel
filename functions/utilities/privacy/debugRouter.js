@@ -83,6 +83,11 @@ router.post("/reset", studentMiddleware, async (req, res) => {
     birthYear: req.body.birthYear || "2025",
   };
 
+  if (req.body.emails) {
+    updateBody.emails = req.body.emails;
+    updateBody.guardianEmail = null;
+  }
+
   await userDB.doc(req.user.uid).update(updateBody);
 
   return res.status(200).send(getResponseBody(req, updateBody));

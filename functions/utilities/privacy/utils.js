@@ -6,6 +6,9 @@ const {
   acceptedKey,
   variantModeKey,
 } = require("./privacyKeys");
+const {
+  getGuardianEmails
+} = require("../getTypeSafeUser");
 
 const userDB = firebase.firestore().collection("users");
 
@@ -41,6 +44,10 @@ const isUnderThirteen = (user) => {
     return false;
   }
 
+  if (user.code) {
+    return false; // assume teachers are over 13
+  }
+
   return true;
 };
 
@@ -56,8 +63,8 @@ const getPrivacyVariant = (user) => {
   }
 }
 
-const shouldRetryPopup = (lastTouched, isUnder13) => {
-  if (isUnder13) return false;
+const shouldRetryPopup = (lastTouched, isUnder13, guardianEmails) => {
+  if (isUnder13 && guardianEmails.length) return false;
 
   try {
     if (!lastTouched) return false;
@@ -71,20 +78,9 @@ const shouldRetryPopup = (lastTouched, isUnder13) => {
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
   const variant = getPrivacyVariant(user);
+  const guardianEmails = getGuardianEmails(user);
 
   const useUnder13 = isUnder13 && variant !== 'year8webinar'
-
-  // if (
-  //   !email.includes("@mcmill.co.uk") ||
-  //   process.env.IS_FIREBASE_CLI == "true"
-  // ) {
-  //   return {
-  //     debug: 1,
-  //     visible: false,
-  //     mode: "none",
-  //     variant
-  //   };
-  // }
 
   if (user[acceptedKey]) {
     // User has already accepted
@@ -100,7 +96,7 @@ const getPrivacyState = (email, user) => {
   const dueBy = user[dueByKey];
   const latestTouch = user[latestTouchKey];
 
-  const shouldRetry = shouldRetryPopup(latestTouch, useUnder13);
+  const shouldRetry = shouldRetryPopup(latestTouch, useUnder13, guardianEmails);
 
   const delayResponse = {
     visible: true,
