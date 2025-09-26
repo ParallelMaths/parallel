@@ -74,17 +74,17 @@ const getPrivacyState = (email, user) => {
 
   const useUnder13 = isUnder13 && variant !== 'year8webinar'
 
-  if (
-    !email.includes("@mcmill.co.uk") ||
-    process.env.IS_FIREBASE_CLI == "true"
-  ) {
-    return {
-      debug: 1,
-      visible: false,
-      mode: "none",
-      variant
-    };
-  }
+  // if (
+  //   !email.includes("@mcmill.co.uk") ||
+  //   process.env.IS_FIREBASE_CLI == "true"
+  // ) {
+  //   return {
+  //     debug: 1,
+  //     visible: false,
+  //     mode: "none",
+  //     variant
+  //   };
+  // }
 
   if (user[acceptedKey]) {
     // User has already accepted
