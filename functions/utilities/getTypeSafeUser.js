@@ -66,5 +66,6 @@ const getTypeSafeUser = (user) => {
 }
 
 module.exports = {
-    getTypeSafeUser
+    getTypeSafeUser,
+    getGuardianEmails
 }

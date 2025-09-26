@@ -15,10 +15,11 @@ const {
   acceptedByKey,
   variantModeKey,
   latestTouchKey,
+  ageSetKey
 } = require("./privacyKeys");
-
-// /api/privacy/student/ultra-secret/view (GET)
-// /api/privacy/student/ultra-secret/reset (POST)
+const {
+  getGuardianEmails
+} = require("../getTypeSafeUser");
 
 const userDB = firebase.firestore().collection("users");
 
@@ -39,6 +40,7 @@ const getViewData = (req) => {
     acceptedByKey,
     variantModeKey,
     latestTouchKey,
+    ageSetKey,
     "birthMonth",
     "birthYear",
   ];
@@ -49,6 +51,7 @@ const getViewData = (req) => {
     data[key] = req.user[key] || null;
   });
 
+  data.guardianEmails = getGuardianEmails(req.user) || [];
   data.privacyState = req.user.privacy || null;
   data.isUnderThirteen = isUnderThirteen(req.user);
 
@@ -79,9 +82,14 @@ router.post("/reset", studentMiddleware, async (req, res) => {
     [acceptedByKey]: req.body.acceptedByKey || null,
     [variantModeKey]: req.body.variantMode || null,
     [latestTouchKey]: req.body.latestTouch || null,
-    birthMonth: req.body.birthMonth || "1",
-    birthYear: req.body.birthYear || "2025",
+    birthMonth: req.body.birthMonth || null,
+    birthYear: req.body.birthYear || null,
   };
+
+  if (req.body.emails) {
+    updateBody.emails = req.body.emails;
+    updateBody.guardianEmail = null;
+  }
 
   await userDB.doc(req.user.uid).update(updateBody);
 

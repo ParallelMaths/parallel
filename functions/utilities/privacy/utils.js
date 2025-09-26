@@ -6,6 +6,9 @@ const {
   acceptedKey,
   variantModeKey,
 } = require("./privacyKeys");
+const {
+  getGuardianEmails
+} = require("../getTypeSafeUser");
 
 const userDB = firebase.firestore().collection("users");
 
@@ -41,6 +44,10 @@ const isUnderThirteen = (user) => {
     return false;
   }
 
+  if (user.code) {
+    return false; // assume teachers are over 13
+  }
+
   return true;
 };
 
@@ -56,8 +63,8 @@ const getPrivacyVariant = (user) => {
   }
 }
 
-const shouldRetryPopup = (lastTouched, isUnder13) => {
-  if (isUnder13) return false;
+const shouldRetryPopup = (lastTouched, isUnder13, guardianEmails) => {
+  if (isUnder13 && guardianEmails.length) return false;
 
   try {
     if (!lastTouched) return false;
@@ -68,20 +75,38 @@ const shouldRetryPopup = (lastTouched, isUnder13) => {
   }
 }
 
+const hasValidAge = (email, user) => {
+  try {
+    if (!email.includes("@mcmill.co.uk")) return true; // only enforce for test accounts for now
+    if (user.code) return true; // assume teachers are valid
+
+    const birthYear = getCleanNumber(user?.birthYear);
+    const birthMonth = getCleanNumber(user?.birthMonth);
+
+    if (!birthYear || !birthMonth) return false;
+    if (birthYear < 1900 || birthYear > new Date().getFullYear()) return false;
+    if (birthMonth < 1 || birthMonth > 12) return false;
+
+    return true;
+  } catch {
+    return true; // fail safe
+  }
+}
+
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
   const variant = getPrivacyVariant(user);
+  const guardianEmails = getGuardianEmails(user);
+  const validAge = hasValidAge(email, user);
 
   const useUnder13 = isUnder13 && variant !== 'year8webinar'
 
-  if (
-    !email.includes("@mcmill.co.uk") ||
-    process.env.IS_FIREBASE_CLI == "true"
-  ) {
+  if (!validAge) {
+    // User has invalid age data
     return {
       debug: 1,
-      visible: false,
-      mode: "none",
+      visible: true,
+      mode: "update-age",
       variant
     };
   }
@@ -100,7 +125,7 @@ const getPrivacyState = (email, user) => {
   const dueBy = user[dueByKey];
   const latestTouch = user[latestTouchKey];
 
-  const shouldRetry = shouldRetryPopup(latestTouch, useUnder13);
+  const shouldRetry = shouldRetryPopup(latestTouch, useUnder13, guardianEmails);
 
   const delayResponse = {
     visible: true,
