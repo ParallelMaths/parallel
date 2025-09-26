@@ -12,7 +12,8 @@ const {
   guardianPrivacyAuthTokenKey,
   acceptedKey,
   acceptedByKey,
-  latestTouchKey
+  latestTouchKey,
+  ageSetKey
 } = require("./privacyKeys");
 const debugRouter = require("./debugRouter");
 const {
@@ -170,6 +171,47 @@ router.post("/student/update", studentMiddleware, async (req, res) => {
     return res.status(200).send({
       success: false,
       error: "Failed to update privacy guardians",
+      data: null,
+    });
+  }
+});
+
+router.post("/student/update-age", studentMiddleware, async (req, res) => {
+  try {
+    const month = req.body.month;
+    const year = req.body.year;
+
+    if (
+      typeof month !== "number" ||
+      month < 1 ||
+      month > 12 ||
+      typeof year !== "number" ||
+      year < 1900 ||
+      year > new Date().getFullYear()
+    ) {
+      return res.status(200).send({
+        success: false,
+        error: "Invalid month or year",
+        data: null,
+      });
+    }
+
+    const updateBody = {
+      birthMonth: String(month),
+      birthYear: String(year),
+      [ageSetKey]: Date.now(),
+    };
+
+    await userDB.doc(req.user.uid).update(updateBody);
+
+    return res
+      .status(200)
+      .send({ success: true, data: updateBody, error: null });
+  } catch (e) {
+    console.error("Failed to update age", req.user.uid, e);
+    return res.status(200).send({
+      success: false,
+      error: "Failed to update age",
       data: null,
     });
   }
