@@ -15,6 +15,9 @@ const {
   latestTouchKey
 } = require("./privacyKeys");
 const debugRouter = require("./debugRouter");
+const {
+  getGuardianEmails
+} = require("../getTypeSafeUser");
 
 router.use("/student/ultra-secret", debugRouter);
 
@@ -140,14 +143,18 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
 
 router.post("/student/update", studentMiddleware, async (req, res) => {
   try {
+    const emails = mergeAccountEmailsWithReqBodyGuardianEmails(req, res);
+    const hasGuardianEmails = emails.some(e => e?.type === 'guardian');
+    const guardianTouchKey = req.user[userNeedsGuardianTouchKey] || Date.now();
+
     const updateBody = {
-      emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
+      emails,
       guardianEmail: null,
       [guardianPrivacyAuthTokenKey]:
         req.user[guardianPrivacyAuthTokenKey] ||
         generateGuardianPrivacyAuthToken(),
       [userNeedsGuardianTouchKey]:
-        req.user[userNeedsGuardianTouchKey] || Date.now(),
+        hasGuardianEmails ? guardianTouchKey : null,
       [firstSeenKey]: req.user[firstSeenKey] || Date.now(),
       [dueByKey]: req.user[dueByKey] || Date.now() + SevenDays,
       [latestTouchKey]: Date.now(),
