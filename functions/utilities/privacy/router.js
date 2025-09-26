@@ -143,12 +143,12 @@ router.get("/student/delay", studentMiddleware, async (req, res) => {
 
 router.post("/student/update", studentMiddleware, async (req, res) => {
   try {
-    const hasGuardianEmails = getGuardianEmails(req.user).length > 0;
-
+    const emails = mergeAccountEmailsWithReqBodyGuardianEmails(req, res);
+    const hasGuardianEmails = emails.some(e => e?.type === 'guardian');
     const guardianTouchKey = req.user[userNeedsGuardianTouchKey] || Date.now();
 
     const updateBody = {
-      emails: mergeAccountEmailsWithReqBodyGuardianEmails(req, res),
+      emails,
       guardianEmail: null,
       [guardianPrivacyAuthTokenKey]:
         req.user[guardianPrivacyAuthTokenKey] ||
