@@ -6,7 +6,9 @@ The problems are designed to help you reflect on material from previous tutorial
 
 The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 
-Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
+Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!
+
+**For questions where you need to type in the answer, unless otherwise specified you may assume the answer is a whole number, and you should only enter the number itself.**  
 
 You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
 
