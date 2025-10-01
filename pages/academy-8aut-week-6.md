@@ -85,7 +85,7 @@ b) <input type="number" solution="88"/>
 ![](/resources/academy-8aut-week-6/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-a) <input type="number" solution="4"/> 
+a) <input type="number" solution="50"/> 
 
 ---
 
@@ -93,7 +93,7 @@ a) <input type="number" solution="4"/>
 :::  
 
 ::: problem id=5_2 marks=2
-b) <input type="number" solution="4"/> 
+b) <input type="number" solution="12"/> 
 
 ^^^ hint id=5_2_1 marks=1
 ![](/resources/academy-8aut-week-6/h5b.png){image align="center"} 
@@ -109,7 +109,7 @@ b) <input type="number" solution="4"/>
 ![](/resources/academy-8aut-week-6/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
-<input type="number" solution="4"/> 
+<input type="number" solution="40"/> 
 
 ^^^ hint id=6_1_1 marks=1
 ![](/resources/academy-8aut-week-6/h6.png){image align="center"} 
