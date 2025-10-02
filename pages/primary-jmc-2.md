@@ -1,7 +1,6 @@
 # Primary JMC quiz 2
 
 * Answer all of the questions in 5 minutes - if you're unsure of the answer, make a guess before you hit submit. 
-* Hit SUBMIT when the tutor tells you time is up.
 * No calculators allowed.
 
 
@@ -47,38 +46,4 @@ Which of the following is not a multiple of the numbers of letters it contains?
 * [ ] Seventy
 * [ ] Ninety
 {.col-5}
-:::
-
-
-## 4.
-::: problem id=4_1 marks=1
-In music, a demisemiquaver is half of half of half a crotchet, and there are four crotchets in a semibreve.  
-
-How many demisemiquavers are there in a semibreve?  
-
-* [ ] 8
-* [ ] 16
-* [x] 32
-* [ ] 64
-* [ ] 128
-{.col-5}
-:::
-
-
-## 5.
-::: problem id=5_1 marks=1
-![](/resources/primary-jmc-2/5-folded-paper.png){image align="right"} 
-Beatrix takes a sheet of paper, shown here labelled A.  
-
-She then folds the sheet in half 4 times, and punches a hole all the way through the folded sheet, as shown here labelled B.  
-
-She then unfolds the sheet.  
-
-How many holes are there now in the unfolded sheet?
-
-* [ ] 4
-* [ ] 6
-* [ ] 8
-* [ ] 12
-* [x] 16
 :::
