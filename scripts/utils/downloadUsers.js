@@ -47,10 +47,8 @@ const loadAllUserData = async (limit, offset, users) => {
 
 
 
-const runAll = async () => {
-
-
-    if(fs.existsSync(cacheFilePath)) {
+const runAll = async (skipCache = false) => {
+    if(fs.existsSync(cacheFilePath) && !skipCache) {
         const cache = fs.readFileSync(cacheFilePath);
         const cacheData = JSON.parse(cache);
 
@@ -94,10 +92,10 @@ const runAll = async () => {
     return dataAccounts;
 }
 
-const downloadUsers = async () => {
+const downloadUsers = async (skipCache = false) => {
     console.log('Loading users')
 
-    const users = await runAll();
+    const users = await runAll(skipCache);
 
     console.log('Using', Object.keys(users).length, 'users!');
 

@@ -84,5 +84,6 @@ module.exports = {
     getTableItem,
     getCirclePointsForUsers,
     getPaginatedTableItemsInner,
+    getPaginatedTableItems,
     getEuclidStatusForUsers
 }
