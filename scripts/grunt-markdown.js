@@ -34,6 +34,30 @@ md.use(markdwonContainer, 'problem', { render(tokens, idx) {
     }
   }});
 
+md.use(markdwonContainer, 'googleform', { render(tokens, idx) {
+  if (tokens[idx].nesting === 1) {
+    const data = {};
+    const options = tokens[idx].info.trim().split(' ').slice(1);
+
+    for (let o of options) {
+      const [split0, ...others] = o.split('=');
+      data[split0] = others.join('=');
+    }
+
+    if (!data.link.includes('{{name}}') || !data.link.includes('{{email}}') || !data.link.includes('{{filename}}')) {
+      throw new Error('Google Form link must include {{name}}, {{email}} and {{filename}} placeholders');
+    }
+
+    if (!data.text) data.text = 'Go_to_Google_Form';
+
+    return `<div>
+      <a class="googleform" data-href="${data.link || ''}" target="_blank" rel="noopener noreferrer">${data.text.replace(/_/g, ' ')}</a>
+    `;
+  } else {
+    return '</div>';
+  }
+}});
+
 md.use(markdwonContainer, 'columns', { marker: ';', render(tokens, idx) {
   const data = {};
   const options = tokens[idx].info.trim().split(' ').slice(1);
