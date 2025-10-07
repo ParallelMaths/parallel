@@ -1234,6 +1234,11 @@ homework:
   - url:  academy-8aut-week-2
     title: Parallel Academy Year 8 Autumn Term Week 2
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-3
+    title: Parallel Academy Year 8 Autumn Term Week 3
+    available: 2025-08-12T09:00:00
+    answersVisibleFrom: 2026-07-21T09:00:00
+    postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
   - url:  academy-8aut-week-4
     title: Parallel Academy Year 8 Autumn Term Week 4
     available: 2025-08-12T09:00:00
@@ -1284,6 +1289,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-2
     title: Parallel Academy Year 8 Autumn Term Week 2
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-3
+    title: Parallel Academy IMC Autumn Term Week 3
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
