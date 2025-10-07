@@ -5,11 +5,11 @@ This week's optional homework is a little different to usual. You are invited to
 Once you have solved the problem and produced a written solution, enter your answer below and click Submit. You will then see a full breakdown of the mark scheme and are encouraged to mark your own work (this is for your own reference only). You will also see an example of a model handwritten solution.
 
 General marking scheme:  
-![](/resources/webinar-8aut-week-3/GeneralMarkScheme.png){image align="center"}  
+![](/resources/webinar-8aut-week-3/GeneralMarkSchemeWebinar.png){image align="center"}  
 
 
 ## 1.
-::: problem id=1_1 marks=5
+::: problem id=1_1 marks=1
 A palindrome is a number which can be read the same forwards and backwards (e.g. 707, or 12344321).  
 
 What is the largest four-digit palindrome which is a multiple of 6?
