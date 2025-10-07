@@ -722,7 +722,10 @@ app.get('/homework/:pid', (req, res, next) => {
     submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
     hasPassword,
-    passwordIncorrect
+    passwordIncorrect,
+    googleFormName: `${req.user?.first || 'First'} ${req.user?.last || 'Last'}`,
+    googleFormEmail: req.user?.email || '',
+    googleFormFilename: `${req.user?.googleFormFilename || req.user?.userReference || req.user?.uid || 'filename'}.pdf`
   };
 
   res.locals.sidebarDisabled = true
