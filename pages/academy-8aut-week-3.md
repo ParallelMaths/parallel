@@ -18,10 +18,7 @@ If you experience any issues with the form, then please email [team@parallel.org
 
 
 ::: problem id=1_1 marks=0
-I have submitted my full written solution using the following method:
- 
-* [ ] Uploaded via the Google form (preferred).
-* [ ] Emailed to [team@parallel.org.uk](mailto:team@parallel.org.uk) (if difficulties using the form).
+* [ ] I confirm I have now submitted my homework, either by uploading your script (preferred) or via email.
 :::  
 
-Only Submit once you have uploaded your solution (or emailed it to us if you had issues).
+'When you Submit, you will not see the answer to the problem like normal - instead we will share the full solution when we return your marked script to you.
