@@ -18,7 +18,7 @@ The deadline for submission is stated on your Academy page - please leave ample 
 If you experience any issues with the form, then please email [team@parallel.org.uk](mailto:team@parallel.org.uk).  
 
 ::: problem id=1_1 marks=0
-* [ ] I confirm I have now submitted my homework, either by uploading your script (preferred) or via email.
+* [x] I confirm I have now submitted my homework, either by uploading my script on the Google form (preferred) or via email.
 :::  
 
-'When you Submit, you will not see the answer to the problem like normal - instead we will share the full solution when we return your marked script to you.
+When you Submit, you will not see the answer to the problem like normal - instead we will share the full solution when we return your marked script to you.
