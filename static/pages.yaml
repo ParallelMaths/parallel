@@ -1302,6 +1302,9 @@ homework:
   - url:  webinar-imc-autumn-week-2
     title: Parallel Academy IMC Autumn Term Week 2
     available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-3
+    title: Parallel Academy IMC Autumn Term Week 3
+    available: 2025-08-12T09:00:00
 
 test:
   - url: mental-maths-summer
