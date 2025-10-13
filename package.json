@@ -9,7 +9,7 @@
   "scripts": {
     "start": "grunt build && npm run serve",
     "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod",
-    "export-users": "GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project prod",
+    "export-users": "cross-env GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project prod",
     "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project prod",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
@@ -63,6 +63,7 @@
     "aws-sdk": "^2.1252.0",
     "caniuse-lite": "^1.0.3",
     "concurrently": "^7.3.0",
+    "cross-env": "^7.0.3",
     "csvtojson": "^2.0.10",
     "firebase": "^9.0.0",
     "firebase-functions": "^6.3.2",
