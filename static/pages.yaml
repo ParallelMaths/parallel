@@ -1385,6 +1385,146 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-8
+    title: Primary JMC quiz 8
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-9
+    title: Primary JMC quiz 9
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-10
+    title: Primary JMC quiz 10
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-11
+    title: Primary JMC quiz 11
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-12
+    title: Primary JMC quiz 12
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-13
+    title: Primary JMC quiz 13
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-14
+    title: Primary JMC quiz 14
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-15
+    title: Primary JMC quiz 15
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-16
+    title: Primary JMC quiz 16
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-17
+    title: Primary JMC quiz 17
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-18
+    title: Primary JMC quiz 18
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-19
+    title: Primary JMC quiz 19
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-20
+    title: Primary JMC quiz 20
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-21
+    title: Primary JMC quiz 21
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-22
+    title: Primary JMC quiz 22
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-23
+    title: Primary JMC quiz 23
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-24
+    title: Primary JMC quiz 24
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-25
+    title: Primary JMC quiz 25
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-26
+    title: Primary JMC quiz 26
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-27
+    title: Primary JMC quiz 27
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-28
+    title: Primary JMC quiz 28
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-29
+    title: Primary JMC quiz 29
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-30
+    title: Primary JMC quiz 30
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-31
+    title: Primary JMC quiz 31
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-32
+    title: Primary JMC quiz 32
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-33
+    title: Primary JMC quiz 33
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-34
+    title: Primary JMC quiz 34
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: primary-jmc-35
+    title: Primary JMC quiz 35
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
 
 test-archive:
   - url: ukmt-score

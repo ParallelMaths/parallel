@@ -1,4 +1,4 @@
-# Primary JMC quiz 7
+# Primary JMC quiz 35
 
 * Answer all of the questions in 5 minutes - if you're unsure of the answer, make a guess before you hit submit. 
 * No calculators allowed.
@@ -28,6 +28,21 @@ After drinking the juice of returning this bottle, you will have $2.00 left, but
 
 
 ## 2.
+<!--- 20XX (X) --->
+::: problem id=2_1 marks=1
+XXX
+
+* [ ] 3
+* [x] 4
+* [ ] 6
+* [ ] 8
+* [ ] 10
+{.col-5}
+:::
+
+
+
+## 2.
 ::: problem id=2_1 marks=1
 Each cell in the crossnumber below contains a single non-zero digit. The answer to each clue is a two-digit number.  
 
@@ -51,20 +66,4 @@ The solution to one down is a square, but no squares have a unit digit of 2 or 8
 Hence `x` = 9.  
 
 Checking the remaining of the cross number, we note that 1 across is a square which has a tens digit of 6 and therefore is 64.  Finally, we note that 2 down is now 49, which is indeed a square.
-:::
-
-
-## 3.
-<!--- 2011 (1) --->
-::: problem id=3_1 marks=1
-Bernd wants to paint the word KANGAROO. He begins on a Wednesday and paints one letter each day.  
-
-On which day will he paint the last letter?
-
-* [ ] Monday
-* [ ] Tuesday
-* [x] Wednesday
-* [ ] Thursday
-* [ ] Friday
-{.col-5}
 :::
