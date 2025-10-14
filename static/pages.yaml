@@ -1305,6 +1305,15 @@ homework:
   - url:  webinar-imc-autumn-week-3
     title: Parallel Academy IMC Autumn Term Week 3
     available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-4
+    title: Parallel Academy IMC Autumn Term Week 4
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-5
+    title: Parallel Academy IMC Autumn Term Week 5
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-6
+    title: Parallel Academy IMC Autumn Term Week 6
+    available: 2025-08-12T09:00:00
 
 test:
   - url: admissions-y7-2024-coreps
