@@ -1307,6 +1307,27 @@ homework:
     available: 2025-08-12T09:00:00
 
 test:
+  - url: admissions-y7-2024-coreps
+    title: Year 7 Core Maths and Problem Solving
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: bus
+  - url: admissions-teachability
+    title: Year 7 Admissions Teachability Test 2024
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-11-30T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-15T13:00:00
+    password: van
+  - url: mental-maths
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-11-30T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: cub
   - url: mental-maths-summer
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1628,13 +1649,6 @@ test-archive:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: capsule
-  - url: admissions-y7-2024-coreps
-    title: Year 6 Core Maths and Problem Solving
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-15T13:00:00
-    deadline: 2025-08-10T16:00:00
-    password: max
   - url: admissions-summer-ps-7
     title: Year 7 Summer Admissions Problem Solving Test 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1670,13 +1684,6 @@ test-archive:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: end
-  - url: mental-maths
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2025-07-15T13:00:00
-    deadline: 2025-08-10T16:00:00
-    password: bag
   - url: mental-maths-autumn
     title: Mental maths quiz
     available: 2024-11-30T13:00:00
@@ -1689,13 +1696,6 @@ test-archive:
     answersVisibleFrom: 2025-04-04T11:00:00
     deadline: 2025-04-30T11:00:00
     password: lap   
-  - url: admissions-teachability
-    title: Year 6 Admissions Teachability Test 2024
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2025-07-15T13:00:00
-    deadline: 2025-08-15T13:00:00
-    password: sat
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
