@@ -50,7 +50,7 @@ We will also be running a weekly homework review session (look out for our email
 ## 3.
 ![](/resources/academy-8aut-week-6/q3.png){image align="center"}  
 
-::: problem id=3_1 marks=2
+::: problem id=3_1 marks=1
 a) <input type="number" solution="60"/>  
 
 ---

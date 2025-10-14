@@ -45,7 +45,7 @@ We will also be running a weekly homework review session (look out for our email
 ## 3.
 ![](/resources/academy-8aut-week-4/q3.png){image align="center"}  
 
-::: problem id=3_1 marks=2
+::: problem id=3_1 marks=1
 a) <input type="number" solution="10"/>  
 
 ---
@@ -53,7 +53,7 @@ a) <input type="number" solution="10"/>
 ![](/resources/academy-8aut-week-4/s3a.png){image align="center"}
 :::  
 
-::: problem id=3_2 marks=2
+::: problem id=3_2 marks=1
 b) <input type="number" solution="11"/>  
 
 ---
