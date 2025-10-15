@@ -59,7 +59,7 @@ a) <input type="number" solution="60"/>
 :::  
 
 ::: problem id=3_2 marks=2
-b) <input type="number" solution="88"/>  
+b) <input type="number" solution="40"/>  
 
 ^^^ hint id=3_2 marks=1
 ![](/resources/academy-8aut-week-6/h3b.png){image align="center"} 
