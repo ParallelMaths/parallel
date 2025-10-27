@@ -58,6 +58,26 @@ md.use(markdwonContainer, 'googleform', { render(tokens, idx) {
   }
 }});
 
+md.use(markdwonContainer, 'googleformsolution', { render(tokens, idx) {
+  if (tokens[idx].nesting === 1) {
+    const data = {};
+    const options = tokens[idx].info.trim().split(' ').slice(1);
+
+    for (let o of options) {
+      const [split0, ...others] = o.split('=');
+      data[split0] = others.join('=');
+    }
+
+    if (!data.text) data.text = 'Go_to_Solution';
+
+    return `<div>
+      <a class="googleformsolution" target="_blank" rel="noopener noreferrer">${data.text.replace(/_/g, ' ')}</a>
+    `;
+  } else {
+    return '</div>';
+  }
+}});
+
 md.use(markdwonContainer, 'columns', { marker: ';', render(tokens, idx) {
   const data = {};
   const options = tokens[idx].info.trim().split(' ').slice(1);

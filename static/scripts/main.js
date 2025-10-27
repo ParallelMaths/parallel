@@ -85,6 +85,24 @@ function initialiseGoogleFormLinks() {
   }
 }
 
+function initialiseGoogleFormSolution() {
+  try {
+    [...document.getElementsByClassName("googleformsolution")].forEach((e) => {
+      if (!window.PARALLEL_USER_DATA.uid) {
+        e.outerHTML =
+          `<p class="googleform-error">Please <a href="${returnLoginLink()}">login</a> to access your solutions</p>`;
+      } if (!window.PARALLEL_USER_DATA.answers.solution) {
+        e.outerHTML =
+          `<p class="googleform-error">No solution found</p>`;
+      } else {
+        e.href = window.PARALLEL_USER_DATA.answers.solution
+      }
+    });
+  } catch (error) {
+    console.error('Error initialising Google Form links', error);
+  }
+}
+
 // Disables scroll on number inputs to avoid accidental changes
 document.addEventListener("wheel", function(event){
   if(document.activeElement.type === "number"){
@@ -104,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (challenge) {
     initialiseGoogleFormLinks();
+    initialiseGoogleFormSolution();
   }
 
   Vue.component('v-style', {
