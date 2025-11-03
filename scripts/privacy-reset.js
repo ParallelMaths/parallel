@@ -11,6 +11,7 @@ const {
   acceptedKey,
   acceptedByKey,
   variantModeKey,
+  ageSetKey
 } = require('../functions/utilities/privacy/privacyKeys');
 
 // ---------------------
@@ -51,6 +52,7 @@ const run = async () => {
     [acceptedKey]: fb.firestore.FieldValue.delete(),
     [acceptedByKey]: fb.firestore.FieldValue.delete(),
     [variantModeKey]: fb.firestore.FieldValue.delete(),
+    [ageSetKey]: fb.firestore.FieldValue.delete(),
    }, {merge: true});
 
   console.log(`User "${email}" privacy data deleted`);
