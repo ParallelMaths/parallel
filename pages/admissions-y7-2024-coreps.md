@@ -1,4 +1,4 @@
-# Year 6 Core Maths and Problem Solving
+# Year 7 Core Maths and Problem Solving
 
 * You have 25 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  

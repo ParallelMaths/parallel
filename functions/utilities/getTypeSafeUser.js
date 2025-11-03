@@ -1,3 +1,14 @@
+const {
+    firstSeenKey,
+    latestTouchKey,
+    dueByKey,
+    userNeedsGuardianTouchKey,
+    guardianPrivacyAuthTokenKey,
+    acceptedKey,
+    acceptedByKey,
+    variantModeKey
+} = require('../utilities/privacy/privacyKeys');
+
 const validateString = (value) => {
     if(typeof value === 'string') {
     return value;
@@ -50,6 +61,7 @@ const getTypeSafeUser = (user) => {
         guardianEmail: validateString(user.guardianEmail),
         guardianEmails: getGuardianEmails(user),
         privacy: user.privacy,
+        privacyDebug: user.privacyDebug,
         acceptedTerms: validateBoolean(user.acceptedTerms),
         userReference: validateString(user.userReference),
         primaryEmailType: validateString(user.primaryEmailType),
@@ -62,6 +74,16 @@ const getTypeSafeUser = (user) => {
         acceptedEuclidTerms: validateBoolean(user.acceptedEuclidTerms),
         euclidEnrolYearGroup: validateString(user.euclidEnrolYearGroup),
         euclidEnrolTimestamp: validateNumber(user.euclidEnrolTimestamp),
+        privacyDebug: {
+            firstSeen: validateNumber(user[firstSeenKey]),
+            latestTouch: validateNumber(user[latestTouchKey]),
+            dueBy: validateNumber(user[dueByKey]),
+            userNeedsGuardianTouch: validateNumber(user[userNeedsGuardianTouchKey]),
+            guardianPrivacyAuthToken: validateString(user[guardianPrivacyAuthTokenKey]),
+            accepted: validateNumber(user[acceptedKey]),
+            acceptedBy: validateString(user[acceptedByKey]),
+            variantMode: validateString(user[variantModeKey])
+        }
     }
 }
 

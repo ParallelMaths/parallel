@@ -1,4 +1,4 @@
-# Parallel Academy Year 9 Autumn Term Week 1 Assignment
+# Parallel Academy IMC Autumn Term Week 1 Assignment
 
 These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
@@ -7,6 +7,8 @@ The problems are designed to help you reflect on material from previous webinar 
 The number of marks each question or part is worth is shown. Some have an optional hint, which cost 1 mark, so only reveal the hint if you’ve given the problem some real thought.   
 
 Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. Please remember that completing homework is certainly not a race!  
+
+**For questions where you need to type in the answer, unless otherwise specified you may assume the answer is a whole number, and you should only enter the number itself.**  
 
 You should only leave an answer blank if you have really thought about the problem and are still stuck (particularly with the final problem).  
 

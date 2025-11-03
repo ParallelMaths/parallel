@@ -4,7 +4,7 @@ You have 8 minutes to complete this test.
 
 
 ## 1.	
-![](/resources/algebra/q1.png){image align="center"}  
+![](/resources/algebra-y8/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=1
 
@@ -18,7 +18,7 @@ You have 8 minutes to complete this test.
 
 
 ## 2.
-![](/resources/algebra/q2.png){image align="center"}  
+![](/resources/algebra-y8/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=1
 
@@ -32,7 +32,7 @@ You have 8 minutes to complete this test.
 
 
 ## 3.
-![](/resources/algebra/q3.png){image align="center"}  
+![](/resources/algebra-y8/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=1
 <input type="number" solution="3"/>  
@@ -40,7 +40,7 @@ You have 8 minutes to complete this test.
 
 
 ## 4.
-![](/resources/algebra/q4.png){image align="center"}  
+![](/resources/algebra-y8/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=1
 <input type="number" solution="4"/>  
@@ -48,7 +48,7 @@ You have 8 minutes to complete this test.
 
 
 ## 5.
-![](/resources/algebra/q5.png){image align="center"}  
+![](/resources/algebra-y8/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=1
 <input type="number" solution="15"/>  
@@ -56,7 +56,7 @@ You have 8 minutes to complete this test.
 
 
 ## 6.	
-![](/resources/algebra/q6.png){image align="center"}  
+![](/resources/algebra-y8/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=1
 
@@ -70,7 +70,7 @@ You have 8 minutes to complete this test.
 
 
 ## 7.
-![](/resources/algebra/q7.png){image align="center"}  
+![](/resources/algebra-y8/q7.png){image align="center"}  
 
 ::: problem id=7_1 marks=1
 
@@ -84,7 +84,7 @@ You have 8 minutes to complete this test.
 
 
 ## 8.
-![](/resources/algebra/q8.png){image align="center"}  
+![](/resources/algebra-y8/q8.png){image align="center"}  
 
 ::: problem id=8_1 marks=1
 
@@ -98,7 +98,7 @@ You have 8 minutes to complete this test.
 
 
 ## 9.
-![](/resources/algebra/q9.png){image align="center"}  
+![](/resources/algebra-y8/q9.png){image align="center"}  
 
 ::: problem id=9_1 marks=1
 
@@ -112,7 +112,7 @@ You have 8 minutes to complete this test.
 
 
 ## 10.
-![](/resources/algebra/q10.png){image align="center"}  
+![](/resources/algebra-y8/q10.png){image align="center"}  
 
 ::: problem id=10_1 marks=1
 <input type="number" solution="24"/>  
@@ -120,7 +120,7 @@ You have 8 minutes to complete this test.
 
 
 ## 11.	
-![](/resources/algebra/q11.png){image align="center"}  
+![](/resources/algebra-y8/q11.png){image align="center"}  
 
 ::: problem id=11_1 marks=1
 <input type="number" solution="150"/>   
@@ -128,7 +128,7 @@ You have 8 minutes to complete this test.
 
 
 ## 12.
-![](/resources/algebra/q12.png){image align="center"}  
+![](/resources/algebra-y8/q12.png){image align="center"}  
 
 ::: problem id=12_1 marks=1
 <input type="number" solution="7"/>  
@@ -136,7 +136,7 @@ You have 8 minutes to complete this test.
 
 
 ## 13.
-![](/resources/algebra/q13.png){image align="center"}  
+![](/resources/algebra-y8/q13.png){image align="center"}  
 
 ::: problem id=13_1 marks=1
 <input type="number" solution="2"/>  
@@ -144,7 +144,7 @@ You have 8 minutes to complete this test.
 
 
 ## 14.
-![](/resources/algebra/q14.png){image align="center"}  
+![](/resources/algebra-y8/q14.png){image align="center"}  
 
 ::: problem id=14_1 marks=1
 <input type="number" solution="-5"/>  
@@ -152,7 +152,7 @@ You have 8 minutes to complete this test.
 
 
 ## 15.
-![](/resources/algebra/q15.png){image align="center"}  
+![](/resources/algebra-y8/q15.png){image align="center"}  
 
 ::: problem id=15_1 marks=1
 <input type="number" solution="11"/>  
@@ -160,7 +160,7 @@ You have 8 minutes to complete this test.
 
 
 ## 16.	
-![](/resources/algebra/q16.png){image align="center"}  
+![](/resources/algebra-y8/q16.png){image align="center"}  
 
 ::: problem id=16_1 marks=1
 <input type="number" solution="17"/>  

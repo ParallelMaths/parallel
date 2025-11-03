@@ -19,6 +19,7 @@ const debugRouter = require("./debugRouter");
 const {
   getGuardianEmails
 } = require("../getTypeSafeUser");
+const user = require('../user');
 
 router.use("/student/ultra-secret", debugRouter);
 
@@ -236,6 +237,47 @@ router.get("/student/accept", studentMiddleware, async (req, res) => {
       .send({ success: false, error: "failed to accept privacy", data: null });
   }
 });
+
+router.get("/admin/accept", async (req, res) => {
+  try {
+    const token = req.headers['parallel-token'];
+  
+    if(!token) throw new Error('no token provided');
+  
+    const userData = await user.getUserFromToken(token);
+  
+    if(userData.accountType !== 'ADMIN') throw new Error('not admin');
+
+    const email = req.query.email;
+    
+    if(!email) throw new Error('no email provided');
+    
+    const authUser = await user.getUserAuthByEmail(email);
+    
+    if(!authUser || !authUser.uid || !authUser.email) throw new Error('no auth user found');
+    
+    const found = await user.getUserData(authUser.uid);
+
+    if (!found) throw new Error('no user data found');
+
+    const updateBody = {
+      [acceptedKey]: Date.now(),
+      [acceptedByKey]: "guardian-via-admin-dashboard",
+    };
+
+    await userDB.doc(authUser.uid).update(updateBody);
+
+    return res
+      .status(200)
+      .send({ success: true, data: updateBody, error: null });
+  } catch (e) {
+    console.error("Failed to accept privacy", req.user.uid, e);
+    return res
+      .status(200)
+      .send({ success: false, error: "failed to accept privacy", data: null });
+  }
+});
+
 
 router.get("/student/guardian-accept", studentMiddleware, async (req, res) => {
   try {

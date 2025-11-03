@@ -1,4 +1,4 @@
-# Year 6 Admissions Teachability Test 2024
+# Year 7 Admissions Teachability Test
 
 * You have 10 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  

@@ -1,7 +1,6 @@
 # Primary JMC quiz 1
 
 * Answer all of the questions in 5 minutes - if you're unsure of the answer, make a guess before you hit submit. 
-* Hit SUBMIT when the tutor tells you time is up.
 * No calculators allowed.
 
 
@@ -52,33 +51,4 @@ How much would it cost to feed Jonathan for 4 weeks?
 * [ ] £5.70
 * [x] £6.30
 {.col-5}
-:::
-
-
-## 4.
-::: problem id=4_1 marks=1
-Pat and Sam like to sit at either end of their sofa, with their three children sitting between them.  
-
-In how many ways can they do this?
-
-* [ ] 6
-* [x] 12
-* [ ] 24
-* [ ] 25
-* [ ] 130
-{.col-5}
-:::
-
-
-## 5.
-::: problem id=5_1 marks=1
-I add together three consecutive whole numbers.  
-
-Their sum is always...  
-
-* [ ] a multiple of 5.
-* [ ] odd.
-* [ ] prime.
-* [ ] even.
-* [x] a multiple of 3.
 :::

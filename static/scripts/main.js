@@ -50,6 +50,59 @@ function sortTable(i, level) {
   }
 }
 
+function returnLoginLink() {
+  try {
+    return 'https://parallel.org.uk/n/login?return=' + btoa(window.location.pathname);
+  } catch (error) {
+    return 'https://parallel.org.uk/n/login';
+  }
+}
+
+function initialiseGoogleFormLinks() {
+  try {
+    [...document.getElementsByClassName("googleform")].forEach((e) => {
+      if (!window.PARALLEL_USER_DATA.uid) {
+        e.outerHTML =
+          `<p class="googleform-error">Please <a href="${returnLoginLink()}">login</a> to access your Google Form</p>`;
+      } else {
+        e.href = e.dataset.href
+          .replace(
+            `{{name}}`,
+            window.PARALLEL_USER_DATA.googleFormName || "First Last",
+          )
+          .replace(
+            `{{email}}`,
+            window.PARALLEL_USER_DATA.googleFormEmail || "Email",
+          )
+          .replace(
+            `{{filename}}`,
+            window.PARALLEL_USER_DATA.googleFormFilename || "filename.pdf",
+          );
+      }
+    });
+  } catch (error) {
+    console.error('Error initialising Google Form links', error);
+  }
+}
+
+function initialiseGoogleFormSolution() {
+  try {
+    [...document.getElementsByClassName("googleformsolution")].forEach((e) => {
+      if (!window.PARALLEL_USER_DATA.uid) {
+        e.outerHTML =
+          `<p class="googleform-error">Please <a href="${returnLoginLink()}">login</a> to access your solutions</p>`;
+      } if (!window.PARALLEL_USER_DATA.answers.solution) {
+        e.outerHTML =
+          `<p class="googleform-error">No solution found</p>`;
+      } else {
+        e.href = window.PARALLEL_USER_DATA.answers.solution
+      }
+    });
+  } catch (error) {
+    console.error('Error initialising Google Form links', error);
+  }
+}
+
 // Disables scroll on number inputs to avoid accidental changes
 document.addEventListener("wheel", function(event){
   if(document.activeElement.type === "number"){
@@ -66,6 +119,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const user = getUser();
   const challenge = window.PARALLELOGRAM ? getChallenge() : null;
+
+  if (challenge) {
+    initialiseGoogleFormLinks();
+    initialiseGoogleFormSolution();
+  }
 
   Vue.component('v-style', {
     render: function (createElement) {

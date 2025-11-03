@@ -1,7 +1,6 @@
 # Primary JMC quiz 3
 
 * Answer all of the questions in 5 minutes - if you're unsure of the answer, make a guess before you hit submit. 
-* Hit SUBMIT when the tutor tells you time is up.
 * No calculators allowed.
 
 
@@ -51,33 +50,4 @@ Which is orange?
 * [ ] D
 * [ ] E
 {.col-5}
-:::
-
-
-## 4.
-::: problem id=4_1 marks=1
-What is the difference between the largest and smallest of the following numbers?  
-
-* [ ] 0.89
-* [ ] 0.9
-* [ ] 0.17
-* [ ] 0.72
-* [x] 0.73
-{.col-5}
-:::
-
-
-## 5.
-::: problem id=5_1 marks=1
-On Monday last week Dilly started to learn the Tlingit language.  
-
-Every day she learnt five new words, but when she woke each morning she had forgotten two of the words learnt the day before.  
-
-When did Dilly first achieve her target of learning fourteen words?  
-
-* [ ] Friday
-* [ ] Monday
-* [ ] Saturday
-* [x] Thursday
-* [ ] Wednesday
 :::

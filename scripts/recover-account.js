@@ -4,7 +4,7 @@ const serviceAccount = require("../private/service-account.json");
 // This script will reset passwords. Used when students are unable to receive emails.
 
 const accountsToRecover = [
-    "coconnor@didcotgirls.oxon.sch.uk"
+    "xxxxxxxxxxxx"
 ];
 
 const passwordLength = 10;
