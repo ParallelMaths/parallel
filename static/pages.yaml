@@ -1334,21 +1334,21 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: job
+    password: fig
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: max
+    password: box
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-15T13:00:00
-    password: top
+    password: mob
   - url: mental-maths-summer
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
