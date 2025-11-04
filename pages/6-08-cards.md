@@ -115,7 +115,7 @@ The pattern repeats every 6 symbols.
 
 Since 96 is a multiple of 6, the symbols positions 97 to 102 are the same as those in positions 1 to 6.  
 
-Therefore the 100th and 101st symbols are the same as the 5th and 6th symbol.
+Therefore the 101st and 102nd symbols are the same as the 5th and 6th symbol.
 :::
 
 
