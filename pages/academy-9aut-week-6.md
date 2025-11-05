@@ -90,7 +90,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
 ![](/resources/academy-9aut-week-6/q6.png){image align="center"}  
 
-::: problem id=5_1 marks=2
+::: problem id=6_1 marks=2
 <input type="number" solution="30301"/> 
 
 ---

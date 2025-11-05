@@ -1331,6 +1331,13 @@ homework:
     available: 2025-08-12T09:00:00
 
 test:
+  - url: admissions-tutorial-quiz
+    title: Admissions Tutorial Quiz Autumn 2025
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: bot
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
