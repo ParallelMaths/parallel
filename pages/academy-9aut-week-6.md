@@ -95,7 +95,7 @@ We will also be running a weekly homework review session (look out for our email
 
 ---
 
-![](/resources/academy-9aut-week-6/s5.png){image align="center"}
+![](/resources/academy-9aut-week-6/s6.png){image align="center"}
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 

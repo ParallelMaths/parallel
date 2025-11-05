@@ -5,7 +5,7 @@ Answer as many questions as you can in 5 minutes.
 
 ## 1.
 ![](/resources/admissions-tutorial-quiz/q1.png){image align="center"}  
-::: problem id=1_1 marks=2
+::: problem id=1_1 marks=1
 
 <input type="number" solution="9"/>  
  
@@ -17,7 +17,7 @@ Answer as many questions as you can in 5 minutes.
 
 ## 2.
 ![](/resources/admissions-tutorial-quiz/q2.png){image align="center"}  
-::: problem id=2_1 marks=2
+::: problem id=2_1 marks=1
 
 <input type="number" solution="445"/>  
  
@@ -29,7 +29,7 @@ Answer as many questions as you can in 5 minutes.
 
 ## 3.
 ![](/resources/admissions-tutorial-quiz/q3.png){image align="center"}  
-::: problem id=3_1 marks=2
+::: problem id=3_1 marks=1
 
 <input type="number" solution="6"/>  
  
@@ -41,7 +41,7 @@ Answer as many questions as you can in 5 minutes.
 
 ## 4.
 ![](/resources/admissions-tutorial-quiz/q4.png){image align="center"}  
-::: problem id=4_1 marks=2
+::: problem id=4_1 marks=1
 
 <input type="number" solution="20"/>  
  
@@ -53,7 +53,7 @@ Answer as many questions as you can in 5 minutes.
 
 ## 5.
 ![](/resources/admissions-tutorial-quiz/q5.png){image align="center"}  
-::: problem id=5_1 marks=2
+::: problem id=5_1 marks=1
 
 <input type="number" solution="7"/>  
  
