@@ -65,6 +65,7 @@
     "concurrently": "^7.3.0",
     "cross-env": "^7.0.3",
     "csvtojson": "^2.0.10",
+    "date-fns": "^4.1.0",
     "firebase": "^9.0.0",
     "firebase-functions": "^6.3.2",
     "firebase-tools": "^13.33.0",
