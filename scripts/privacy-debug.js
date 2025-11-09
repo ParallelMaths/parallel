@@ -10,7 +10,7 @@ const { getGuardianEmails } = require('../functions/utilities/getTypeSafeUser');
 
 // ---------------------
 
-const dry = false;
+const dry = true;
 
 // ---------------------
 
