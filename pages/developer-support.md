@@ -2,7 +2,7 @@
 
 Parallel (https:/parallel.org.uk) is seeking an enthusiastic senior web developer who is excited to direct their skills towards our mission of increasing the number and diversity of excellent young mathematicians.
 
-Founded by bestselling science writer Simon Simon MBE, Parallel is a charitable initiative that runs multiple programmes that support bright and keen students (aged 10-16, mainly in the UK) to develop their mathematical curiosity and problem solving skills beyond the curriculum. This includes:  
+Founded by bestselling science writer Simon Singh MBE, Parallel is a charitable initiative that runs multiple programmes that support bright and keen students (aged 10-16, mainly in the UK) to develop their mathematical curiosity and problem solving skills beyond the curriculum. This includes:  
 
 * __Parallelogram:__ a collection of ‘puzzle sheets’, released weekly for each year group and automatically marked. 
 * __Parallel Circles:__ live, interactive webinars that can reach thousands of students at a time.
