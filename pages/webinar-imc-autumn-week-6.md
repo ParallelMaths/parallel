@@ -1,4 +1,4 @@
-# Parallel Academy IMC Autumn Term Week 4 Assignment
+# Parallel Academy IMC Autumn Term Week 6 Assignment
 
 These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
