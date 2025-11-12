@@ -1248,6 +1248,12 @@ homework:
   - url:  academy-8aut-week-6
     title: Parallel Academy Year 8 Autumn Term Week 6
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-8
+    title: Parallel Academy Year 8 Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-9
+    title: Parallel Academy Year 8 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
   - url:  academy-9aut-week-1
     title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1265,6 +1271,9 @@ homework:
     available: 2025-08-12T09:00:00    
   - url:  academy-9aut-week-6
     title: Parallel Academy Year 9 Autumn Term Week 6
+    available: 2025-08-12T09:00:00     
+  - url:  academy-9aut-week-8
+    title: Parallel Academy Year 9 Autumn Term Week 8
     available: 2025-08-12T09:00:00    
   - url:  academy-9sum-synoptic
     title: Year 9 Summer Term Synoptic Paper
