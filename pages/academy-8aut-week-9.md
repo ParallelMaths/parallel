@@ -21,7 +21,6 @@ We will also be running a weekly homework review session (look out for our email
 ## 1.	
 ::: problem id=1_1 marks=1
 ![](/resources/academy-8aut-week-9/q1a.png){image align="center"}  
-a) 
 
 * [x] Yes
 * [ ] No
@@ -33,7 +32,6 @@ a)
 
 ::: problem id=1_2 marks=1
 ![](/resources/academy-8aut-week-9/q1b.png){image align="center"}  
-b) 
 
 * [x] Yes
 * [ ] No
@@ -45,7 +43,6 @@ b)
 
 ::: problem id=1_3 marks=1
 ![](/resources/academy-8aut-week-9/q1c.png){image align="center"}  
-c) 
 
 * [x] Yes
 * [ ] No
@@ -57,7 +54,6 @@ c)
 
 ::: problem id=1_4 marks=1
 ![](/resources/academy-8aut-week-9/q1d.png){image align="center"}  
-d) 
 
 * [x] Yes
 * [ ] No
@@ -69,7 +65,6 @@ d)
 
 ::: problem id=1_5 marks=1
 ![](/resources/academy-8aut-week-9/q1e.png){image align="center"}  
-e) 
 
 * [x] Yes
 * [ ] No
