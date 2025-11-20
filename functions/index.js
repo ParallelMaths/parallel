@@ -436,7 +436,7 @@ const redirects = {
 
 Object.entries(redirects).forEach(([from, to]) => app.get(from, (_, res) => res.redirect(to)))
 
-const pagesWithoutSidebar = ['primary-parallel', 'pmc', 'job-ad', 'tutorinfo', 'privacy-notice', 'developer-support']
+const pagesWithoutSidebar = ['about', 'primary-parallel', 'pmc', 'job-ad', 'tutorinfo', 'privacy-notice', 'developer-support']
 const pagesWithoutPrivacyModal = ['privacy-notice']
 
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice', 'safeguarding', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
