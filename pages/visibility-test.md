@@ -6,8 +6,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q1.png){image align="center"}  
 ::: problem id=1_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -15,8 +15,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q2.png){image align="center"}  
 ::: problem id=2_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -24,8 +24,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q3.png){image align="center"}  
 ::: problem id=3_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -33,8 +33,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q4.png){image align="center"}  
 ::: problem id=4_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -42,8 +42,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q5.png){image align="center"}  
 ::: problem id=5_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -51,8 +51,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q6.png){image align="center"}  
 ::: problem id=6_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -60,8 +60,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q7.png){image align="center"}  
 ::: problem id=7_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
@@ -69,8 +69,8 @@ Please indicate which of the following questions are easily readable.
 ![](/resources/visibility-test/q8.png){image align="center"}  
 ::: problem id=8_1 marks=1
 
-[ ] Readable
-[ ] Not very readable
+* [x] Readable
+* [ ] Not very readable
 :::  
 
 
