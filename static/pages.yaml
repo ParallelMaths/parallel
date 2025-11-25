@@ -1356,6 +1356,9 @@ homework:
   - url:  webinar-imc-autumn-week-9
     title: Parallel Academy IMC Autumn Term Week 9
     available: 2025-08-12T09:00:00
+  - url:  visibility-test
+    title: Visibility Test
+    available: 2025-08-12T09:00:00
 
 test:
   - url: admissions-tutorial-quiz
