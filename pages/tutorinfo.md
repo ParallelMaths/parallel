@@ -10,12 +10,12 @@ Last year, over 2,000 students applied to join our entirely free programme of we
 
 ;;; columns columnMinWidth=350
 ^^^ column
-You can meet our current team of terrific tutors below:
+<p style="text-align:center"><strong>You can meet our current team of terrific tutors below:</strong></p>
 
 @[youtube](watch?v=ZPdHoh7xe9c&rel=0)
 ^^^
 ^^^ column
-What's involved in being a tutor? Find out in this video.
+<p style="text-align:center"><strong>What's involved in being a tutor? Find out in this video.</strong></p>
 
 @[youtube](watch?v=plNThptd9qU&rel=0)
 ^^^
