@@ -1248,6 +1248,15 @@ homework:
   - url:  academy-8aut-week-6
     title: Parallel Academy Year 8 Autumn Term Week 6
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-8
+    title: Parallel Academy Year 8 Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-9
+    title: Parallel Academy Year 8 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
+    available: 2025-08-12T09:00:00
   - url:  academy-9aut-week-1
     title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1265,7 +1274,16 @@ homework:
     available: 2025-08-12T09:00:00    
   - url:  academy-9aut-week-6
     title: Parallel Academy Year 9 Autumn Term Week 6
-    available: 2025-08-12T09:00:00    
+    available: 2025-08-12T09:00:00     
+  - url:  academy-9aut-week-8
+    title: Parallel Academy Year 9 Autumn Term Week 8
+    available: 2025-08-12T09:00:00       
+  - url:  academy-9aut-week-9
+    title: Parallel Academy Year 9 Autumn Term Week 9
+    available: 2025-08-12T09:00:00  
+  - url:  academy-9aut-week-10
+    title: Parallel Academy Year 9 Autumn Term Week 10
+    available: 2025-08-12T09:00:00  
   - url:  academy-9sum-synoptic
     title: Year 9 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1303,16 +1321,25 @@ homework:
     title: Parallel Academy Year 8 Autumn Term Week 2
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-3
-    title: Parallel Academy IMC Autumn Term Week 3
+    title: Parallel Academy Year 8 Autumn Term Week 3
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-4
-    title: Parallel Academy IMC Autumn Term Week 4
+    title: Parallel Academy Year 8 Autumn Term Week 4
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-5
-    title: Parallel Academy IMC Autumn Term Week 5
+    title: Parallel Academy Year 8 Autumn Term Week 5
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-6
-    title: Parallel Academy IMC Autumn Term Week 6
+    title: Parallel Academy Year 8 umn Term Week 6
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-8
+    title: Parallel Academy Year 8 Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-9
+    title: Parallel Academy Year 8 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
@@ -1332,6 +1359,18 @@ homework:
   - url:  webinar-imc-autumn-week-6
     title: Parallel Academy IMC Autumn Term Week 6
     available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-8
+    title: Parallel Academy IMC Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-9
+    title: Parallel Academy IMC Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-10
+    title: Parallel Academy IMC Autumn Term Week 10
+    available: 2025-08-12T09:00:00
+  - url:  visibility-test
+    title: Visibility Test
+    available: 2025-08-12T09:00:00
 
 test:
   - url: admissions-tutorial-quiz
@@ -1340,7 +1379,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: bot
+    password: lot
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
