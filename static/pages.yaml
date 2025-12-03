@@ -1465,6 +1465,12 @@ test:
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
     password: bus
+  - url: mental-maths-autumn-2025
+    title: Mental maths quiz
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+    password: cab
   - url: primary-jmc-1
     title: Primary JMC quiz 1
     available: 2024-01-15T13:00:00
@@ -1778,11 +1784,6 @@ test-archive:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: end
-  - url: mental-maths-autumn
-    title: Mental maths quiz
-    available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2024-12-17T07:00:00
-    deadline: 2025-10-15T13:00:00
   - url: mental-maths-spring
     title: Mental maths quiz
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
