@@ -160,7 +160,7 @@
 ## 18.
 ![](/resources/academy-10aut-test/q18.png){image align="center"}  
 
-::: problem id=181 marks=1
+::: problem id=18_1 marks=1
 
 * [ ] (a)
 * [ ] (b)
