@@ -1450,35 +1450,35 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
-    password: pin
+    password: tax
   - url: academy-8aut-test-v2
     title: Parallel Academy Year 8 Autumn Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
-    password: pin
+    password: tax
   - url: academy-9aut-test
     title: Parallel Academy Year 9 Autumn Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
-    password: pin
+    password: tax
   - url: academy-10aut-test
     title: Parallel Academy Year 10 Autumn Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
-    password: pin
+    password: tax
   - url: mental-maths-autumn-2025
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     deadline: 2026-08-31T21:00:00
-    password: cup
+    password: map
   - url: primary-jmc-1
     title: Primary JMC quiz 1
     available: 2024-01-15T13:00:00
