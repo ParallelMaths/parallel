@@ -10,7 +10,7 @@ Parallel aims to increase the number and diversity of excellent mathematicians. 
 
 We believe that our all our offerings can make good young mathematicians even stronger. In particular, the weekly tutoring programme offers a genuinely life-changing opportunity.  
 
-Project was founded by best-selling science writer Simon Singh, and the programmes are run by Dr Junaid Mubeen. They are supported by a small team at Parallel HQ and over brilliant 100 tutors. Our  website was originally designed and built by education innovator Philipp Legner (creator of the brilliant [Mathigon](https://mathigon.org/)), and full-stack wizard Drew McMillan is responsible for building our current site.  
+Parallel was founded by best-selling science writer Simon Singh, and the programmes are run by Dr Junaid Mubeen. They are supported by a small team at Parallel HQ and over brilliant 100 tutors. Our  website was originally designed and built by education innovator Philipp Legner (creator of the brilliant [Mathigon](https://mathigon.org/)), and full-stack wizard Drew McMillan is responsible for building our current site.  
 
 
 ## Good Thinking
