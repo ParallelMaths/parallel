@@ -1270,6 +1270,11 @@ homework:
   - url:  academy-8aut-week-10
     title: Parallel Academy Year 8 Autumn Term Week 10
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-christmas
+    title: Parallel Academy Year 8 Autumn Term Christmas Assignment
+    available: 2025-08-12T09:00:00
+    answersVisibleFrom: 2026-07-21T09:00:00
+    postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
   - url:  academy-9aut-week-1
     title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
