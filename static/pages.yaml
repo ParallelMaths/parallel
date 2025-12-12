@@ -1097,6 +1097,30 @@ homework:
   - url: academy-5-week-10
     title: Parallel Academy Module 5 Week 9
     available: 2025-03-11T09:00:00
+  - url: christmas-paper-grey-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Grey Kangaroo
+    available: 2024-12-11T12:00:00
+    password: tomato
+  - url: christmas-paper-imc-y9-2025
+    title: Parallel Academy Christmas Paper - IMC
+    available: 2024-12-11T12:00:00
+    password: tomato
+  - url: christmas-paper-imc-y10-2025
+    title: Parallel Academy Christmas Paper - IMC
+    available: 2024-12-11T12:00:00
+    password: tomato
+  - url: christmas-paper-jmc-2025
+    title: Parallel Academy Christmas Paper - JMC
+    available: 2024-12-11T12:00:00
+    password: tomato
+  - url: christmas-paper-junior-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Junior Kangaroo
+    available: 2024-12-11T12:00:00
+    password: tomato
+  - url: christmas-paper-pink-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Pink Kangaroo
+    available: 2024-12-11T12:00:00
+    password: tomato
   - url: christmas-paper-grey-kangaroo
     title: Parallel Academy Christmas Paper - Grey Kangaroo
     available: 2024-12-11T12:00:00
