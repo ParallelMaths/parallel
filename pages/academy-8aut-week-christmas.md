@@ -13,7 +13,7 @@ Please read through [this quick guide](https://drive.google.com/file/d/1NxEl-oM0
 
 Once you have uploaded your work, please answer the question below and click Submit.
 
-The deadline for submission is stated on your Academy page - please leave ample time to ensure a smooth upload.
+The deadline for submission is **January 7th** - please leave ample time to ensure a smooth upload.  
 
 If you experience any issues with the form, then please email [team@parallel.org.uk](mailto:team@parallel.org.uk).  
 
