@@ -4,7 +4,7 @@ To begin this part of the Christmas homework, [open this Junior Mathematical Cha
 
 This paper is provided to aid your preparation and the score will _not_ contribute to next term's report.  
 
-Please complete the paper in timed conditions, allowing yourself 1 hour to complete.  
+Please complete the paper in timed conditions, allowing yourself 1 hour to complete. Please complete this assignment over the holiday period and **certainly no later than January 7th**.  
 
 You must _not_ use a calculator or look anything up whilst completing the paper.  
 
