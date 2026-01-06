@@ -71,7 +71,7 @@
 
 ## 9.
 ::: problem id=9_1 marks=1
-569 - 341
+569 − 341
 
 <input solution="228"/>  
 :::
@@ -183,7 +183,7 @@ Number of minutes in 10.25 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-4 + (−5) × (-5)
+4 + (-5) × (-5)
 
 <input solution="29"/>  
 :::
