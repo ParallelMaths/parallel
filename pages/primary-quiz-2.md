@@ -15,6 +15,10 @@ What is the value of 6002 - 2006?
 * [ ] 4004
 * [ ] 4006
 {.col-5}
+
+---
+
+6002  2002 = 4000, so 6002 - 2006 = 4000 - 4 = 3996.
 :::
 
 
@@ -31,6 +35,14 @@ What is the _smallest_ possible number of children in the family?
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+
+There must be at least two boys and two girls in the family.  
+
+If, for example, there was exactly one boy, then that child would not have a brother.  
+
+The same argument applies to girls.
 :::
 
 
@@ -49,4 +61,10 @@ Which of the following is not a multiple of the numbers of letters it contains?
 * [ ] Seventy
 * [ ] Ninety
 {.col-5}
+
+--- 
+
+Eighteen has 8 letters and 18 is not a multiple of 8.  
+
+Of the other options, 6 is a multiple of 3, 12 is a multiple of 6, 70 is a multiple of 7 and 90 is a multiple of 6.
 :::

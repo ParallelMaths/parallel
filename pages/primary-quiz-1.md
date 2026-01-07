@@ -17,6 +17,10 @@ How much change should I receive?
 * [ ] £10
 * [ ] £100
 {.col-5}
+
+---
+
+Ten dinosaurs at 99p each will cost £9.90, so there will be 10p change.
 :::
 
 
@@ -36,6 +40,12 @@ How many pupils answered “no”?
 * [x] 7
 * [ ] 8
 {.col-5}
+
+---
+
+We can see that `1/4` replied “no” and `3/4` “yes”.  
+
+Since 21 replied “yes”, the number that replied “no” was 21 ÷ 3 = 7.
 :::
 
 
@@ -54,4 +64,12 @@ How much would it cost to feed Jonathan for 4 weeks?
 * [ ] £5.70
 * [x] £6.30
 {.col-5}
+
+---
+
+There are 28 days in four weeks, and each bag of salad will last four days.  
+
+Therefore Jonathan will require seven bags over the four weeks.  
+
+This will cost Jonathan or his owners 7 × 90p = £6.30.
 :::

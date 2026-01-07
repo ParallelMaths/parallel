@@ -22,6 +22,12 @@ How many holes are there now in the unfolded sheet?
 * [ ] 8
 * [ ] 12
 * [x] 16
+
+---
+
+If the sheet of paper had been folded in half once then there would have been two holes in the unfolded sheet.  
+
+Each additional fold doubles the eventual number of holes in the unfolded sheet so after four folds there will be sixteen holes.
 :::
 
 
@@ -36,6 +42,10 @@ What is the difference between the largest and smallest of the following numbers
 * [ ] 0.72
 * [x] 0.73
 {.col-5}
+
+---
+
+The largest number is 0.9 and the smallest 0.17; their difference is 0.73.
 :::
 
 
@@ -53,4 +63,10 @@ When did Dilly first achieve her target of learning fourteen words?
 * [ ] Saturday
 * [x] Thursday
 * [ ] Wednesday
+
+---
+
+When Tilly woke on Thursday morning, she had learned fifteen new words, but had forgotten six of these, so she knew nine words.  
+
+On Thursday, she learned five new words, so this was the first day on which she reached her target of fourteen words.
 :::
