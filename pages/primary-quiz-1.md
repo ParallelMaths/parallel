@@ -6,6 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
+<!--- PMC 2021 (1) --->
 I buy 10 plastic dinosaurs at 99p each and give the shopkeeper a £10 note.  
 
 How much change should I receive?
@@ -21,6 +22,7 @@ How much change should I receive?
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- PMC 2021 (5) --->
 ![](/resources/primary-quiz-1/2-pie-chart.png){image align="right"} 
 The pie chart on the right shows the numbers of pupils who answered the question “Is there life in Outer Space?" with a “yes” or “no”.  
 
@@ -39,6 +41,7 @@ How many pupils answered “no”?
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- PMC 2021 (11) --->
 Jonathan the tortoise eats 20 g of salad leaves a day.  
 
 The leaves are sold in 80 g bags which cost 90p.  

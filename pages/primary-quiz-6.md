@@ -7,6 +7,7 @@
 
 ## 1.
 ::: problem id=1_1 marks=1
+<!--- JMC 2005 (9) --->
 ![](/resources/primary-quiz-2/5-folded-paper.png){image align="right"} 
 Beatrix takes a sheet of paper, shown here labelled A.  
 
@@ -26,6 +27,7 @@ How many holes are there now in the unfolded sheet?
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- JMC 2001 (8) --->
 What is the difference between the largest and smallest of the following numbers?  
 
 * [ ] 0.89
@@ -39,6 +41,7 @@ What is the difference between the largest and smallest of the following numbers
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- JMC 2005 (9) --->
 On Monday last week Dilly started to learn the Tlingit language.  
 
 Every day she learnt five new words, but when she woke each morning she had forgotten two of the words learnt the day before.  

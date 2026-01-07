@@ -6,6 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
+<!--- PMC 2006 (1) --->
 What is the value of 6002 - 2006?
 
 * [ ] 3994
@@ -19,6 +20,7 @@ What is the value of 6002 - 2006?
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- PMC 2006 (3) --->
 Among the children in a certain family, each child has at least one brother and at least one sister.  
 
 What is the _smallest_ possible number of children in the family?  
@@ -34,6 +36,7 @@ What is the _smallest_ possible number of children in the family?
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- JMC 2004 (5) --->
 The word 'thirty' contains 6 letters and 6 = 30 ÷ 5.  
 
 Similarly, the word 'forty' contains five letters and 5 = 40 ÷ 8.  

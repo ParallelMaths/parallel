@@ -6,6 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
+<!--- JMC 2013 (2) --->
 Nadiya is baking a cake.  The recipe says that her cake should be baked in the oven for 1 hour and 35 minutes.  
 
 She puts the cake in the oven at 11:40 am.  
@@ -27,6 +28,7 @@ After an hour, it is 12.40pm. Then add another 35 minutes to get 1.15pm.
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- JMC 2004 (6) --->
 Which of these fractions is nearest to 1?
 
 * [ ] `5/6`
@@ -44,6 +46,7 @@ The fractions get larger, left to right, because we are adding 1 to each of the 
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- JMC 2020 (3) --->
 Each of these figures is based on a rectangle whose centre is shown.  
 
 ![](/resources/primary-quiz-4/3-rectangles.png){image align="center"} 

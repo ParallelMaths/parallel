@@ -6,6 +6,7 @@
 
 ## 1.
 ::: problem id=1_1 marks=1
+<!--- PMC 2021 (12) --->
 Pat and Sam like to sit at either end of their sofa, with their three children sitting between them.  
 
 In how many ways can they do this?
@@ -21,6 +22,7 @@ In how many ways can they do this?
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- PMC 2021 (14) --->
 I add together three consecutive whole numbers.  
 
 Their sum is always...  
@@ -35,6 +37,7 @@ Their sum is always...
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- JMC 2004 (7) --->
 In music, a demisemiquaver is half of half of half a crotchet, and there are four crotchets in a semibreve.  
 
 How many demisemiquavers are there in a semibreve?  

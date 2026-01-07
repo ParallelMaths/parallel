@@ -6,6 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
+<!--- PMC 2006 (2) --->
 Horatio the hamster likes to eat parts of clock faces.  
 
 In which of these clock faces has the largest sum of numbers been eaten?  
@@ -23,6 +24,7 @@ In which of these clock faces has the largest sum of numbers been eaten?
 
 ## 2.
 ::: problem id=2_1 marks=1
+<!--- PMC 2006 (4) --->
 ![](/resources/primary-quiz-3/2-triangles.png){image align="right"} 
 How many triangles of any size are there in this diagram?
 
@@ -36,6 +38,7 @@ How many triangles of any size are there in this diagram?
 
 ## 3.
 ::: problem id=3_1 marks=1
+<!--- PMC 2003 (6) --->
 Referring to the rectangles below, the largest is red and the smallest is blue.  
 
 Orange is the same size as yellow and not next to blue.  
