@@ -51,7 +51,7 @@ The largest number is 0.9 and the smallest 0.17; their difference is 0.73.
 
 ## 3.
 ::: problem id=3_1 marks=1
-<!--- JMC 2005 (9) --->
+<!--- JMC 2005 (10) --->
 On Monday last week Dilly started to learn the Tlingit language.  
 
 Every day she learnt five new words, but when she woke each morning she had forgotten two of the words learnt the day before.  

@@ -6,7 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
-<!--- JMC 2013 (2) --->
+<!--- JMC 2017 (2) --->
 Nadiya is baking a cake.  The recipe says that her cake should be baked in the oven for 1 hour and 35 minutes.  
 
 She puts the cake in the oven at 11:40 am.  

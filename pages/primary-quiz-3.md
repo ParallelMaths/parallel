@@ -6,7 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
-<!--- PMC 2006 (2) --->
+<!--- JMC 2006 (2) --->
 Horatio the hamster likes to eat parts of clock faces.  
 
 In which of these clock faces has the largest sum of numbers been eaten?  
@@ -30,7 +30,7 @@ So the largest sum of numbers have been eaten on face A.
 
 ## 2.
 ::: problem id=2_1 marks=1
-<!--- PMC 2006 (4) --->
+<!--- JMC 2006 (4) --->
 ![](/resources/primary-quiz-3/2-triangles.png){image align="right"} 
 How many triangles of any size are there in this diagram?
 

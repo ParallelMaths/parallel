@@ -6,7 +6,7 @@
 
 ## 1.	
 ::: problem id=1_1 marks=1
-<!--- PMC 2006 (1) --->
+<!--- JMC 2006 (1) --->
 What is the value of 6002 - 2006?
 
 * [ ] 3994
@@ -24,7 +24,7 @@ What is the value of 6002 - 2006?
 
 ## 2.
 ::: problem id=2_1 marks=1
-<!--- PMC 2006 (3) --->
+<!--- JMC 2006 (3) --->
 Among the children in a certain family, each child has at least one brother and at least one sister.  
 
 What is the _smallest_ possible number of children in the family?  
