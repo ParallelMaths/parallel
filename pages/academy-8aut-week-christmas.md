@@ -17,14 +17,14 @@ The deadline for submission is **January 7th** - please leave ample time to ensu
 
 If you experience any issues with the form, then please email [team@parallel.org.uk](mailto:team@parallel.org.uk).  
 
-<!-- You can access your marked script by clicking the link below: 
+You can access your marked script by clicking the link below: 
 
-::: googleformsolution text=8AUT_Week_3_Homework_Marked_Solution
+::: googleformsolution text=Year_8_Christmas_Homework_Marked_Solution
 :::
 
 Please also take a moment to complete the following feedback form, which will help us when preparing future written assignments:
 
-[Parallel Year 8 Christmas Homework Form - Student Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfMEpTyaU9DNUOCDwjtONzExEiFYw1GwVncW3GBG3hL69ix1A/viewform?usp=sharing&ouid=104525238127026012930) --> 
+[Parallel Year 8 Christmas Homework Form - Student Feedback](https://docs.google.com/forms/d/e/1FAIpQLSecKYEGKUw18Bz6gkrnGwqtHFMPs6nJubH0nRPHgemBK0s1HA/viewform)
 
 ::: problem id=1_1 marks=1
 * [x] I confirm I have now submitted my homework, either by uploading my script on the Google form (preferred) or via email.
