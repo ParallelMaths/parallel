@@ -80,11 +80,11 @@ This is a tricky one. The answer is 971. Although 971 is prime, and 71 is prime,
 ::: problem id=1_4 marks=2
 __1.4.__ James showed you the largest left-trunctable prime number, which has 24 digits. How many digits are in the largest known prime number? You might have to google this.
 
-* [ ] Roughly 1,000 digits.
-* [ ] Roughly 10,000 digits.
-* [ ] Roughly 100,000 digits.
-* [ ] Roughly 1,000,000 digits.
-* [x] Roughly 10,000,000 digits
+* [ ] Roughly 4,000 digits.
+* [ ] Roughly 40,000 digits.
+* [ ] Roughly 400,000 digits.
+* [ ] Roughly 4,000,000 digits.
+* [x] Roughly 40,000,000 digits
 {.col-3}
 
 ---
