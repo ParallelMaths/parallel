@@ -1211,6 +1211,9 @@ homework:
   - url: academy-7spr-week-1
     title: Parallel Academy Year 7 Spring Term Week 1
     available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-2
+    title: Parallel Academy Year 7 Spring Term Week 2
+    available: 2025-05-12T09:00:00
   - url:  academy-7sum-synoptic
     title: Year 7 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1246,6 +1249,9 @@ homework:
     available: 2025-06-29T09:00:00
   - url:  academy-8spr-week-1
     title: Parallel Academy Year 8 Spring Term Week 1
+    available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-2
+    title: Parallel Academy Year 8 Spring Term Week 2
     available: 2025-08-12T09:00:00  
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
@@ -1317,6 +1323,9 @@ homework:
   - url:  academy-9spr-week-1
     title: Parallel Academy Year 9 Spring Term Week 1
     available: 2025-08-12T09:00:00  
+  - url:  academy-9spr-week-2
+    title: Parallel Academy Year 9 Spring Term Week 2
+    available: 2025-08-12T09:00:00  
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1346,6 +1355,9 @@ homework:
     available: 2025-05-12T09:00:00
   - url:  webinar-7spr-week-1
     title: Parallel Academy Year 7 Spring Term Week 1
+    available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-2
+    title: Parallel Academy Year 7 Spring Term Week 2
     available: 2025-05-12T09:00:00
   - url:  webinar-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
@@ -1377,6 +1389,9 @@ homework:
   - url:  webinar-8spr-week-1
     title: Parallel Academy Year 8 Spring Term Week 1
     available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-2
+    title: Parallel Academy Year 8 Spring Term Week 2
+    available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1406,6 +1421,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-spring-week-1
     title: Parallel Academy IMC Autumn Term Week 1
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-2
+    title: Parallel Academy IMC Autumn Term Week 2
     available: 2025-08-12T09:00:00  
   - url:  visibility-test
     title: Visibility Test
