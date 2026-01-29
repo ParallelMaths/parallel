@@ -71,7 +71,7 @@ a) <input type="number" solution="10"/>
 b) <input type="number" solution="912"/>  
 
 ^^^ hint id=4_2_1 marks=1
-![](/resources/academy-8spr-week-2/h4b.png){image align="center"} 
+![](/resources/academy-8spr-week-2/h4.png){image align="center"} 
 ^^^  
 
 ---

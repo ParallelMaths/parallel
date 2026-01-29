@@ -27,7 +27,7 @@ a) <input type="number" solution="10"/>
 ![](/resources/academy-7spr-week-2/s1a.png){image align="center"}
 :::  
 
-::: problem id=1_2 marks=2
+::: problem id=1_2 marks=1
 b) <input type="number" solution="13"/>  
  
 ---
@@ -35,7 +35,7 @@ b) <input type="number" solution="13"/>
 ![](/resources/academy-7spr-week-2/s1b.png){image align="center"}
 :::  
 
-::: problem id=1_3 marks=2
+::: problem id=1_3 marks=1
 c) <input type="number" solution="15"/>  
  
 ---
@@ -43,7 +43,7 @@ c) <input type="number" solution="15"/>
 ![](/resources/academy-7spr-week-2/s1c.png){image align="center"}
 :::  
 
-::: problem id=1_4 marks=2
+::: problem id=1_4 marks=1
 d) <input type="number" solution="70"/>  
  
 ---
@@ -63,7 +63,7 @@ a) <input type="number" solution="873"/>
 ![](/resources/academy-7spr-week-2/s2a.png){image align="center"}
 :::  
 
-::: problem id=2_2 marks=2
+::: problem id=2_2 marks=1
 b) <input type="number" solution="567"/>  
  
 ---
@@ -71,7 +71,7 @@ b) <input type="number" solution="567"/>
 ![](/resources/academy-7spr-week-2/s2b.png){image align="center"}
 ::: 
 
-::: problem id=2_3 marks=2
+::: problem id=2_3 marks=1
 c) <input type="number" solution="288"/>  
  
 ---
@@ -79,7 +79,7 @@ c) <input type="number" solution="288"/>
 ![](/resources/academy-7spr-week-2/s2c.png){image align="center"}
 ::: 
 
-::: problem id=2_4 marks=2
+::: problem id=2_4 marks=1
 d) <input type="number" solution="720"/>  
  
 ---
@@ -87,7 +87,7 @@ d) <input type="number" solution="720"/>
 ![](/resources/academy-7spr-week-2/s2d.png){image align="center"}
 ::: 
 
-::: problem id=2_5 marks=2
+::: problem id=2_5 marks=1
 e) <input type="number" solution="5040"/>  
  
 ---
