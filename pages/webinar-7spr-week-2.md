@@ -178,10 +178,6 @@ a) <input type="number" solution="0"/>
 
 ::: problem id=6_2 marks=2
 b) <input type="number" solution="3"/>  
-
-^^^ hint id=6_2_1 marks=1
-![](/resources/academy-7spr-week-2/h6b.png){image align="center"} 
-^^^ 
  
 ---
 

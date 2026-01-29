@@ -73,7 +73,7 @@ a) <input type="number" solution="10"/>
 b) <input type="number" solution="912"/>  
 
 ^^^ hint id=4_2_1 marks=1
-![](/resources/academy-8spr-week-2/h4.png){image align="center"} 
+![](/resources/academy-8spr-week-2/h4b.png){image align="center"} 
 ^^^  
 
 ---
@@ -87,7 +87,7 @@ b) <input type="number" solution="912"/>
 ![](/resources/academy-8spr-week-2/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-a) <input type="number" solution="144"/> 
+<input type="number" solution="144"/> 
 
 ^^^ hint id=5_1_1 marks=1
 ![](/resources/academy-8spr-week-2/h5.png){image align="center"} 
