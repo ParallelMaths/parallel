@@ -1460,6 +1460,12 @@ test:
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2025-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
+  - url: mental-maths-feb-2026
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-11-30T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
   - url: admissions-tutorial-quiz
     title: Admissions Tutorial Quiz Autumn 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
