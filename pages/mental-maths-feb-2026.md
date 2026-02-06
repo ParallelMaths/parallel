@@ -183,7 +183,7 @@ Number of minutes in 11.25 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-(−4) + (−4) × (-5)
+(-4) + (-4) × (-5)
 
 <input solution="16"/>  
 :::
