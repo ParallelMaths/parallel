@@ -47,6 +47,7 @@ const getTypeSafeUser = (user) => {
         email: validateString(user.email),
         euclidAccountType: validateString(user.euclidAccountType),
         accountType: validateString(user.accountType),
+        circlesDataType: validateString(user.circlesDataType),
         uid: validateString(user.uid),
         first: validateString(user.first),
         last: validateString(user.last),

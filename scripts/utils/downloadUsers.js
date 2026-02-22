@@ -20,8 +20,11 @@ const runDownload = async () => {
     try {
         const { stderr } = await exec(command);
         if(stderr) {
-            console.error('Error:', stderr);
-            process.exit(1);
+            const split = stderr.split('\n').filter(i => i.trim().length > 0);
+            if (split.find(i => !i.toLowerCase().includes('deprecation'))) {
+                console.error('\n\n\nError!', stderr);
+                process.exit(1);
+            }
         }
     } catch (err) {
        console.error(err);

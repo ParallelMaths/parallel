@@ -4,12 +4,11 @@
 
 Nominations are now open for a free, exciting online programme for bright and enthusiastic Year 6 maths pupils at state schools in the UK.  
 
-The Parallel Academy has been developed by bestselling science author Simon Singh MBE and Countdown champion Junaid Mubeen, with the goal to increase the number and diversity of excellent young mathematicians. Last year we tutored over 100 primary and 300 secondary school students across the UK; this year we have offered places to more than 2,500 secondary students to join one of our programmes, and we are now accepting nominations for this year’s primary programme.  
+The Parallel Academy has been developed by bestselling science author Simon Singh MBE and Countdown champion Junaid Mubeen, with the goal to increase the number and diversity of excellent young mathematicians. Last year, we supported 600 ambitious primary school pupils across the UK, and this year to hope to increase this over 1,000 students. We are now encouraging teachers to nominate pupils for this year’s primary programme.   
 
-In addition to our [weekly free online maths puzzle sheets](https://parallel.org.uk/), primary school pupils who join the programme will be invited to four online webinars during Spring 2025. Those who demonstrate a particularly strong talent and enthusiasm for maths during those webinars will be invited to two small group online tutorials, and may also be invited to:  
+In addition to our [weekly free online maths puzzle sheets](https://parallel.org.uk/), pupils who join the programme will be invited to attend weekly online webinars (our Parallel Circles) that run from January to July. Our webinars are challenging, enjoyable and interactive, with pupils asking questions and providing answers via the chat tab.  
 
-* Four tutorials next Summer, to give them a springboard into secondary school.  
-* A longer programme of tutorials in secondary school, to guide them towards a STEM degree at university.  
+Our primary webinars are a great way to stretch capable pupils in their final year of primary school, but we will also invite pupils to continue with us in Year 7 with another free year of support. In fact, those pupils who demonstrate a particularly strong enthusiasm for maths in Year 7 will be invited to a 5-year programme of online tutorials in secondary school, to guide them towards a STEM degree at a top university. This is a potentially life-changing opportunity.  
 
 We feel this project has huge benefits for pupils, with no disadvantages for parents or schools:  
 

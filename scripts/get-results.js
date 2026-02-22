@@ -103,7 +103,11 @@ async function run() {
 
   // ---------------------------------------------------------------------------
 
-  const weeks = Math.max(...Object.keys(summary).map(c => +c.split('-')[1]));
+  const weeks = Math.max(...Object.keys(summary).map(c => {
+    const value = +c.split('-')[1];
+    if (isNaN(value)) { return 0; }
+    return value;
+  }));
   const rows = [['', 'Year 6', 'Year 7', 'Year 8', 'Year 9', 'Year 10', 'Year 11']];
   for (let w = 1; w <= weeks; ++w) {
     rows.push([`Week ${w}`, ...[6, 7, 8, 9, 10, 11].map(i => summary[`${i}-${w}`])])

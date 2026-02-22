@@ -6,8 +6,8 @@ const downloadUsers = require("./utils/downloadUsers");
 
 // ---------------------
 
-const csvFile = "/Users/drew/Desktop/Book1.csv";
-const dry = true;
+const csvFile = "/Users/drew.mcmillan/Downloads/filenames.csv";
+const dry = false;
 const emailKey = "Parallel Username";
 const filenameKey = "Filename";
 // Check filename doesn't have an extension

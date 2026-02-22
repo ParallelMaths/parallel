@@ -1097,26 +1097,42 @@ homework:
   - url: academy-5-week-10
     title: Parallel Academy Module 5 Week 9
     available: 2025-03-11T09:00:00
+  - url: christmas-paper-grey-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Grey Kangaroo
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-imc-y9-2025
+    title: Parallel Academy Christmas Paper - IMC
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-imc-y10-2025
+    title: Parallel Academy Christmas Paper - IMC
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-jmc-2025
+    title: Parallel Academy Christmas Paper - JMC
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-junior-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Junior Kangaroo
+    available: 2024-12-11T12:00:00
+  - url: christmas-paper-pink-kangaroo-2025
+    title: Parallel Academy Christmas Paper - Pink Kangaroo
+    available: 2024-12-11T12:00:00
+  - url: y7-xmas-prep-hwk
+    title: Parallel Academy Preparation Paper
+    available: 2024-12-11T12:00:00
   - url: christmas-paper-grey-kangaroo
     title: Parallel Academy Christmas Paper - Grey Kangaroo
     available: 2024-12-11T12:00:00
-    password: tomato
   - url: christmas-paper-imc
     title: Parallel Academy Christmas Paper - IMC
     available: 2024-12-11T12:00:00
-    password: tomato
   - url: christmas-paper-jmc
     title: Parallel Academy Christmas Paper - JMC
     available: 2024-12-11T12:00:00
-    password: tomato
   - url: christmas-paper-junior-kangaroo
     title: Parallel Academy Christmas Paper - Junior Kangaroo
     available: 2024-12-11T12:00:00
-    password: tomato
   - url: christmas-paper-pink-kangaroo
     title: Parallel Academy Christmas Paper - Pink Kangaroo
     available: 2024-12-11T12:00:00
-    password: tomato
   - url: easter-paper-7
     title: Parallel Academy Year 7 Easter Paper
     available: 2025-03-11T12:00:00
@@ -1192,6 +1208,15 @@ homework:
   - url: academy-7sum-week-11
     title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-1
+    title: Parallel Academy Year 7 Spring Term Week 1
+    available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-2
+    title: Parallel Academy Year 7 Spring Term Week 2
+    available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-3
+    title: Parallel Academy Year 7 Spring Term Week 3
+    available: 2025-05-12T09:00:00
   - url:  academy-7sum-synoptic
     title: Year 7 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1225,6 +1250,18 @@ homework:
   - url: academy-8sum-week-11
     title: Parallel Academy Year 8 Summer Term Week 10
     available: 2025-06-29T09:00:00
+  - url:  academy-8spr-week-1
+    title: Parallel Academy Year 8 Spring Term Week 1
+    available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-2
+    title: Parallel Academy Year 8 Spring Term Week 2
+    available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-3
+    title: Parallel Academy Year 8 Spring Term Week 3
+    available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-4
+    title: Parallel Academy Year 8 Spring Term Week 4
+    available: 2025-08-12T09:00:00  
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1248,6 +1285,20 @@ homework:
   - url:  academy-8aut-week-6
     title: Parallel Academy Year 8 Autumn Term Week 6
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-8
+    title: Parallel Academy Year 8 Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-9
+    title: Parallel Academy Year 8 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
+    available: 2025-08-12T09:00:00
+  - url:  academy-8aut-week-christmas
+    title: Parallel Academy Year 8 Autumn Term Christmas Assignment
+    available: 2025-08-12T09:00:00
+    answersVisibleFrom: 2026-07-21T09:00:00
+    postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
   - url:  academy-9aut-week-1
     title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1263,9 +1314,33 @@ homework:
   - url:  academy-9aut-week-5
     title: Parallel Academy Year 9 Autumn Term Week 5
     available: 2025-08-12T09:00:00    
+  - url:  academy-9aut-week-6
+    title: Parallel Academy Year 9 Autumn Term Week 6
+    available: 2025-08-12T09:00:00     
+  - url:  academy-9aut-week-8
+    title: Parallel Academy Year 9 Autumn Term Week 8
+    available: 2025-08-12T09:00:00       
+  - url:  academy-9aut-week-9
+    title: Parallel Academy Year 9 Autumn Term Week 9
+    available: 2025-08-12T09:00:00  
+  - url:  academy-9aut-week-10
+    title: Parallel Academy Year 9 Autumn Term Week 10
+    available: 2025-08-12T09:00:00  
   - url:  academy-9sum-synoptic
     title: Year 9 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
+  - url:  academy-9spr-week-1
+    title: Parallel Academy Year 9 Spring Term Week 1
+    available: 2025-08-12T09:00:00  
+  - url:  academy-9spr-week-2
+    title: Parallel Academy Year 9 Spring Term Week 2
+    available: 2025-08-12T09:00:00  
+  - url:  academy-9spr-week-3
+    title: Parallel Academy Year 9 Spring Term Week 3
+    available: 2025-08-12T09:00:00   
+  - url:  academy-9spr-week-4
+    title: Parallel Academy Year 9 Spring Term Week 
+    available: 2025-08-12T09:00:00  
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1293,6 +1368,15 @@ homework:
   - url:  webinar-7sum-week-11
     title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-1
+    title: Parallel Academy Year 7 Spring Term Week 1
+    available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-2
+    title: Parallel Academy Year 7 Spring Term Week 2
+    available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-3
+    title: Parallel Academy Year 7 Spring Term Week 3
+    available: 2025-05-12T09:00:00
   - url:  webinar-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1300,16 +1384,37 @@ homework:
     title: Parallel Academy Year 8 Autumn Term Week 2
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-3
-    title: Parallel Academy IMC Autumn Term Week 3
+    title: Parallel Academy Year 8 Autumn Term Week 3
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-4
-    title: Parallel Academy IMC Autumn Term Week 4
+    title: Parallel Academy Year 8 Autumn Term Week 4
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-5
-    title: Parallel Academy IMC Autumn Term Week 5
+    title: Parallel Academy Year 8 Autumn Term Week 5
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-6
-    title: Parallel Academy IMC Autumn Term Week 6
+    title: Parallel Academy Year 8 umn Term Week 6
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-8
+    title: Parallel Academy Year 8 Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-9
+    title: Parallel Academy Year 8 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-1
+    title: Parallel Academy Year 8 Spring Term Week 1
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-2
+    title: Parallel Academy Year 8 Spring Term Week 2
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-3
+    title: Parallel Academy Year 8 Spring Term Week 3
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-4
+    title: Parallel Academy Year 8 Spring Term Week 4
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
@@ -1326,29 +1431,82 @@ homework:
   - url:  webinar-imc-autumn-week-5
     title: Parallel Academy IMC Autumn Term Week 5
     available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-6
+    title: Parallel Academy IMC Autumn Term Week 6
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-8
+    title: Parallel Academy IMC Autumn Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-9
+    title: Parallel Academy IMC Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-autumn-week-10
+    title: Parallel Academy IMC Autumn Term Week 10
+    available: 2025-08-12T09:00:00
+  - url:  webinar-imc-spring-week-1
+    title: Parallel Academy IMC Autumn Term Week 1
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-2
+    title: Parallel Academy IMC Autumn Term Week 2
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-3
+    title: Parallel Academy IMC Autumn Term Week 3
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-4
+    title: Parallel Academy IMC Autumn Term Week 4
+    available: 2025-08-12T09:00:00  
+  - url:  visibility-test
+    title: Visibility Test
+    available: 2025-08-12T09:00:00
 
 test:
+  - url: mental-maths-jan-2026-1
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-11-30T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+  - url: mental-maths-jan-2026-2
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-11-30T13:00:00
+    answersVisibleFrom: 2025-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+  - url: mental-maths-feb-2026
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: cab
+  - url: admissions-tutorial-quiz
+    title: Admissions Tutorial Quiz Autumn 2025
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-07-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: lot
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: fig
+    password: done
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: box
+    password: done
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-15T13:00:00
-    password: mob
+    password: done
   - url: mental-maths-summer
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1368,6 +1526,13 @@ test:
     answersVisibleFrom: 2025-09-01T09:00:00
     deadline: 2065-08-31T21:00:00
     password: dog
+  - url: 7spr-test-week5
+    title: Parallel Academy 7SPR Week 5 Test 2025
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-02-16T09:00:00
+    deadline: 2026-08-31T21:00:00
+    password: bus
   - url: academy-7sum-test
     title: Parallel Academy Year 7 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1392,180 +1557,221 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-  - url: primary-jmc-1
-    title: Primary JMC quiz 1
+  - url: academy-7aut-core
+    title: Core Maths Quiz (Year 7 Autumn)
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2027-08-31T21:00:00
+  - url: academy-8aut-test
+    title: Parallel Academy Year 8 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-8aut-test-v2
+    title: Parallel Academy Year 8 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-9aut-test
+    title: Parallel Academy Year 9 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-10aut-test
+    title: Parallel Academy Year 10 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: mental-maths-autumn-2025
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: mental-maths-autumn-2025-2
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: primary-quiz-1
+    title: Primary Parallel Quiz 1
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-2
-    title: Primary JMC quiz 2
+  - url: primary-quiz-2
+    title: Primary Parallel Quiz 2
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-3
-    title: Primary JMC quiz 3
+  - url: primary-quiz-3
+    title: Primary Parallel Quiz 3
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-4
-    title: Primary JMC quiz 4
+  - url: primary-quiz-4
+    title: Primary Parallel Quiz 4
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-5
-    title: Primary JMC quiz 5
+  - url: primary-quiz-5
+    title: Primary Parallel Quiz 5
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-6
-    title: Primary JMC quiz 6
+  - url: primary-quiz-6
+    title: Primary Parallel Quiz 6
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-7
-    title: Primary JMC quiz 7
+  - url: primary-quiz-7
+    title: Primary Parallel Quiz 7
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-8
-    title: Primary JMC quiz 8
+  - url: primary-quiz-8
+    title: Primary Parallel Quiz 8
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-9
-    title: Primary JMC quiz 9
+  - url: primary-quiz-9
+    title: Primary Parallel Quiz 9
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-10
-    title: Primary JMC quiz 10
+  - url: primary-quiz-10
+    title: Primary Parallel Quiz 10
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-11
-    title: Primary JMC quiz 11
+  - url: primary-quiz-11
+    title: Primary Parallel Quiz 11
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-12
-    title: Primary JMC quiz 12
+  - url: primary-quiz-12
+    title: Primary Parallel Quiz 12
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-13
-    title: Primary JMC quiz 13
+  - url: primary-quiz-13
+    title: Primary Parallel Quiz 13
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-14
-    title: Primary JMC quiz 14
+  - url: primary-quiz-14
+    title: Primary Parallel Quiz 14
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-15
-    title: Primary JMC quiz 15
+  - url: primary-quiz-15
+    title: Primary Parallel Quiz 15
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-16
-    title: Primary JMC quiz 16
+  - url: primary-quiz-16
+    title: Primary Parallel Quiz 16
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-17
-    title: Primary JMC quiz 17
+  - url: primary-quiz-17
+    title: Primary Parallel Quiz 17
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-18
-    title: Primary JMC quiz 18
+  - url: primary-quiz-18
+    title: Primary Parallel Quiz 18
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-19
-    title: Primary JMC quiz 19
+  - url: primary-quiz-19
+    title: Primary Parallel Quiz 19
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-20
-    title: Primary JMC quiz 20
+  - url: primary-quiz-20
+    title: Primary Parallel Quiz 20
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-21
-    title: Primary JMC quiz 21
+  - url: primary-quiz-21
+    title: Primary Parallel Quiz 21
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-22
-    title: Primary JMC quiz 22
+  - url: primary-quiz-22
+    title: Primary Parallel Quiz 22
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-23
-    title: Primary JMC quiz 23
+  - url: primary-quiz-23
+    title: Primary Parallel Quiz 23
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-24
-    title: Primary JMC quiz 24
+  - url: primary-quiz-24
+    title: Primary Parallel Quiz 24
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-25
-    title: Primary JMC quiz 25
+  - url: primary-quiz-25
+    title: Primary Parallel Quiz 25
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-26
-    title: Primary JMC quiz 26
+  - url: primary-quiz-26
+    title: Primary Parallel Quiz 26
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-27
-    title: Primary JMC quiz 27
+  - url: primary-quiz-27
+    title: Primary Parallel Quiz 27
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-28
-    title: Primary JMC quiz 28
+  - url: primary-quiz-28
+    title: Primary Parallel Quiz 28
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-29
-    title: Primary JMC quiz 29
+  - url: primary-quiz-29
+    title: Primary Parallel Quiz 29
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-30
-    title: Primary JMC quiz 30
+  - url: primary-quiz-30
+    title: Primary Parallel Quiz 30
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-31
-    title: Primary JMC quiz 31
+  - url: primary-quiz-31
+    title: Primary Parallel Quiz 31
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-32
-    title: Primary JMC quiz 32
+  - url: primary-quiz-32
+    title: Primary Parallel Quiz 32
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-33
-    title: Primary JMC quiz 33
+  - url: primary-quiz-33
+    title: Primary Parallel Quiz 33
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-34
-    title: Primary JMC quiz 34
+  - url: primary-quiz-34
+    title: Primary Parallel Quiz 34
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
-  - url: primary-jmc-35
-    title: Primary JMC quiz 35
+  - url: primary-quiz-35
+    title: Primary Parallel Quiz 35
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-01-15T16:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
 
 test-archive:
@@ -1705,11 +1911,6 @@ test-archive:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: end
-  - url: mental-maths-autumn
-    title: Mental maths quiz
-    available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2024-12-17T07:00:00
-    deadline: 2025-10-15T13:00:00
   - url: mental-maths-spring
     title: Mental maths quiz
     postSubmissionMessage: Thank you - we have received your responses. Please stay in Zoom and await further instructions from the tutor.  
