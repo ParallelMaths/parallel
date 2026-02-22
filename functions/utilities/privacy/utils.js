@@ -75,12 +75,41 @@ const shouldRetryPopup = (lastTouched, isUnder13, guardianEmails) => {
   }
 }
 
+const hasValidAge = (email, user) => {
+  try {
+    if (!email.includes("@mcmill.co.uk")) return true; // only enforce for test accounts for now
+    if (user.code) return true; // assume teachers are valid
+
+    const birthYear = getCleanNumber(user?.birthYear);
+    const birthMonth = getCleanNumber(user?.birthMonth);
+
+    if (!birthYear || !birthMonth) return false;
+    if (birthYear < 1900 || birthYear > new Date().getFullYear()) return false;
+    if (birthMonth < 1 || birthMonth > 12) return false;
+
+    return true;
+  } catch {
+    return true; // fail safe
+  }
+}
+
 const getPrivacyState = (email, user) => {
   const isUnder13 = isUnderThirteen(user);
   const variant = getPrivacyVariant(user);
   const guardianEmails = getGuardianEmails(user);
+  const validAge = hasValidAge(email, user);
 
   const useUnder13 = isUnder13 && variant !== 'year8webinar'
+
+  if (!validAge) {
+    // User has invalid age data
+    return {
+      debug: 1,
+      visible: true,
+      mode: "update-age",
+      variant
+    };
+  }
 
   if (user[acceptedKey]) {
     // User has already accepted
