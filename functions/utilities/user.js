@@ -86,6 +86,7 @@ async function getUserFromToken(idToken) {
     ...userData,
     email: decodedIdToken.email || null,
     accountType: decodedIdToken.account_type || null,
+    circlesDataType: decodedIdToken.circles_data_type || null,
     euclidAccountType: decodedIdToken.euclid_type || null,
     privacy: getPrivacyState(decodedIdToken.email, userData),
   }
