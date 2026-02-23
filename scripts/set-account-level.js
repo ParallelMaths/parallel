@@ -5,6 +5,7 @@ const serviceAccount = require("../private/service-account.json");
 
 const email = "parallel@mcmill.co.uk"
 const isCircleAdmin = true;
+const isCircleDataAdmin = true;
 const isEuclidAdmin = true;
 
 //////////////////////////////////////
@@ -17,8 +18,9 @@ fb.initializeApp({
 const setAdmin = () => { 
   const claims = {};
 
-  if(isCircleAdmin) claims['account_type'] = 'ADMIN'
-  if(isEuclidAdmin) claims['euclid_type'] = 'ADMIN'
+  if (isCircleAdmin) claims['account_type'] = 'ADMIN'
+  if (isCircleDataAdmin) claims['circles_data_type'] = 'ADMIN';
+  if (isEuclidAdmin) claims['euclid_type'] = 'ADMIN'
   
   return fb
     .auth()
