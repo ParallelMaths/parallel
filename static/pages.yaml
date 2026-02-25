@@ -1217,6 +1217,9 @@ homework:
   - url: academy-7spr-week-3
     title: Parallel Academy Year 7 Spring Term Week 3
     available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-5
+    title: Parallel Academy Year 7 Spring Term Week 5
+    available: 2025-05-12T09:00:00
   - url:  academy-7sum-synoptic
     title: Year 7 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1382,6 +1385,9 @@ homework:
     available: 2025-05-12T09:00:00
   - url:  webinar-7spr-week-3
     title: Parallel Academy Year 7 Spring Term Week 3
+    available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-5
+    title: Parallel Academy Year 7 Spring Term Week 5
     available: 2025-05-12T09:00:00
   - url:  webinar-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
