@@ -100,9 +100,9 @@ a) <input type="number" solution="60"/>
 
 ::: problem id=4_2 marks=2
 ![](/resources/academy-8spr-week-5/q4b.png){image align="center"} 
-a) <input type="number" solution="36"/>  
+b) <input type="number" solution="36"/>  
 
-^^^ hint id=4_1_1 marks=1
+^^^ hint id=4_2_1 marks=1
 ![](/resources/academy-8spr-week-5/h4b.png){image align="center"} 
 ^^^ 
 
