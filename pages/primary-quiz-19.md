@@ -21,21 +21,19 @@ How much does one bar of chocolate cost?
 
 
 ## 2.
-<!--- 2013 (16) --->
+<!--- 2012 (8) --->
 ::: problem id=2_1 marks=1
-In the last game of the hockey match there were lots of goals.  
+In the school for animals there are 3 cats, 2 ducks, 2 sheep and some dogs.  
 
-In the first half 6 goals were scored and the visiting team were leading.  
+The teacher counted the legs of all the animals, and got 44.  
 
-After the home team scored another three goals in the second half, they won the match.  
+How many dogs go to the school?  
 
-How many goals did the hometeam score in total?
-
-* [ ] 3
-* [ ] 4
-* [x] 5
 * [ ] 6
-* [ ] 7
+* [x] 5
+* [ ] 4
+* [ ] 3
+* [ ] 2
 {.col-5}
 :::
 
@@ -58,5 +56,25 @@ Which letter is on the cube that cannot be seen in the picture?
 * [ ] C
 * [ ] D
 * [ ] The picture is not possible
+{.col-5}
+:::
+
+
+## 4.
+<!--- 2013 (16) --->
+::: problem id=4_1 marks=1
+In the last game of the hockey match there were lots of goals.  
+
+In the first half 6 goals were scored and the visiting team were leading.  
+
+After the home team scored another three goals in the second half, they won the match.  
+
+How many goals did the hometeam score in total?
+
+* [ ] 3
+* [ ] 4
+* [x] 5
+* [ ] 6
+* [ ] 7
 {.col-5}
 :::

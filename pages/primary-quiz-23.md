@@ -5,8 +5,24 @@
 
 
 ## 1.
-<!--- 2012 (7) --->
+<!--- 2013 (1) --->
 ::: problem id=1_1 marks=1
+Which answer completes the addition tree?
+
+![](/resources/primary-quiz-27/1-addition-tree.png){image align="center"} 
+
+* [ ] 2
+* [ ] 3
+* [ ] 4
+* [ ] 5
+* [x] 6
+{.col-5}
+:::
+
+
+## 2.
+<!--- 2012 (7) --->
+::: problem id=2_1 marks=1
 The number three should be added to the number 6.  
 
 This amount is then doubled and the result increased by 1.  
@@ -22,9 +38,9 @@ Which of the following sums fits this description?
 :::
 
 
-## 2.
+## 3.
 <!--- 2014 (12) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=1
 The kangaroos A, B, C, D and E sit in this order in a clockwise direction around a round table. 
 
 After a bell sounds all but one kangaroo change seats with a neighbour.  
@@ -44,9 +60,9 @@ Which kangaroo did not change places?
 :::
 
 
-## 3.
+## 4.
 <!--- 2012 (17) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=1
 The numbers 1 to 7 should be written in the small circles so that the sum of the numbers along each line is the same. 
 
 ![](/resources/primary-quiz-23/3-triangle.png){image align="center"} 

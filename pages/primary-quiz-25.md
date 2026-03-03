@@ -23,8 +23,12 @@ How big is the sum of the three missing digits?
 
 
 ## 2.
+
+
+
+## 3.
 <!--- 2014 (14) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=1
 f the three digits of a three-digit number are multiplied you get 135.  
 
 Which result to you get, by adding the three digits? 
@@ -38,9 +42,9 @@ Which result to you get, by adding the three digits?
 :::
 
 
-## 3.
+## 4.
 <!--- 2012 (19) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=1
 A rectangular piece of paper is 108mm long and 84 mm wide.  
 
 After making a straight cut you have a square and a leftover piece.  

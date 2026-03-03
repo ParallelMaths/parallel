@@ -23,8 +23,28 @@ How many different colours did she use?
 
 
 ## 2.
-<!--- 2013 (15) --->
+<!--- 2015 (9) --->
 ::: problem id=2_1 marks=1
+Each plant in Johns garden has exactly 5 leaves or exactly 2 leaves and a flower.  
+
+In total the plants have 6 flowers and 32 leaves.  
+
+![](/resources/primary-quiz-28/2-flowers.png){image align="center"} 
+
+How many plants are growing in the garden? 
+
+* [x] 10
+* [ ] 12
+* [ ] 13
+* [ ] 15
+* [ ] 16
+{.col-5}
+:::
+
+
+## 3.
+<!--- 2013 (15) --->
+::: problem id=3_1 marks=1
 How many different subtraction sums between two digit numbers are there, which have the answer 50?
 
 * [x] 40
@@ -36,17 +56,23 @@ How many different subtraction sums between two digit numbers are there, which h
 :::
 
 
-## 3.
-<!--- 2012 (12) --->
-::: problem id=3_1 marks=1
-Which three puzzle pieces do you need to complete the large puzzle? 
+## 4.
+<!--- 2013 (19) --->
+::: problem id=4_1 marks=1
+Numbers are written in the 4×4 grid: any two numbers in neighbouring squares should have a difference of 1, that is squares that share an edge. 
 
-![](/resources/primary-quiz-18/3-puzzles.png){image align="center"} 
+The number 3 is already given. 
 
-* [ ] 1,3,4
-* [ ] 1,3,6
-* [ ] 2,3,5
-* [x] 2,3,6
-* [ ] 2,5,6
+The number 9 will be used somewhere in the grid.  
+
+![](/resources/primary-quiz-26/3-grid.png){image align="center"} 
+
+How many different numbers will have been used once the grid is filled in completely? 
+
+* [ ] 4
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 8
 {.col-5}
 :::

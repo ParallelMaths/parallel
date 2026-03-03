@@ -5,8 +5,26 @@
 
 
 ## 1.
-<!--- 2012 (6) --->
+<!--- 2013 (2) --->
 ::: problem id=1_1 marks=1
+Nathalie wanted to build a large cube out of lots of small cubes.  
+
+![](/resources/primary-quiz-28/1-cubes.png){image align="center"} 
+
+How many cubes are missing from the picture on the right that would be needed to build the large cube on the left?
+
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 8
+* [ ] 9
+{.col-5}
+:::
+
+
+## 2.
+<!--- 2012 (6) --->
+::: problem id=2_1 marks=1
 Which pattern will you get if you join the centres of each of the neighbouring hexagons?  
 
 ![](/resources/primary-quiz-22/1-patterns.png){image align="center"} 
@@ -20,9 +38,9 @@ Which pattern will you get if you join the centres of each of the neighbouring h
 :::
 
 
-## 2.
+## 3.
 <!--- 2014 (11) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=1
 In a holiday camp 7 children eat ice cream every day, 9 eat ice cream every other day.  
 
 The remaining children don’t eat ice cream at all.  
@@ -40,9 +58,9 @@ How many children will eat ice cream today?
 :::
 
 
-## 3.
+## 4.
 <!--- 2012 (16) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=1
 The upper coin rolls without sliding around the fixed lower coin.  
 
 ![](/resources/primary-quiz-22/3-coins-q.png){image align="center"} 

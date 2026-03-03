@@ -5,26 +5,27 @@
 
 
 ## 1.
-<!--- 2012 (8) --->
+<!--- 2014 (5) --->
 ::: problem id=1_1 marks=1
-In the school for animals there are 3 cats, 2 ducks, 2 sheep and some dogs.  
+How big is the difference between the smallest five-digit and the biggest four-digit number? 
 
-The teacher counted the legs of all the animals, and got 44.  
-
-How many dogs go to the school?  
-
-* [ ] 6
-* [x] 5
-* [ ] 4
-* [ ] 3
-* [ ] 2
+* [x] 1
+* [ ] 10
+* [ ] 1111
+* [ ] 9000
+* [ ] 9900
 {.col-5}
 :::
 
 
 ## 2.
+
+
+
+
+## 3.
 <!--- 2014 (13) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=1
 A square can be made out of four of the given pieces. Which piece will not be used?  
 
 ![](/resources/primary-quiz-24/2-squares.png){image align="center"} 
@@ -38,9 +39,9 @@ A square can be made out of four of the given pieces. Which piece will not be us
 :::
 
 
-## 3.
+## 4.
 <!--- 2012 (18) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=1
 Four cogs are connected to each other as shown in the picture.  
 
 The first has 30 teeth, the second 15, the third 60 and the fourth 10.  

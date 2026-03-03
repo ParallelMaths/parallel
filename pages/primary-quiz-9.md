@@ -21,21 +21,19 @@ Which of the following shapes can not be created?
 
 
 ## 2.
-<!--- 2012 (10) --->
+<!--- 2013 (8) --->
 ::: problem id=2_1 marks=1
-In addition to the weight of the basket a single balloon can lift 80 kg.  
+Anne has a few grey tiles like the one in the picture. 
+ 
+![](/resources/primary-quiz-34/1-shapes.png){image align="center"} 
+ 
+What is the maximum number of these tiles that she can place on the 5 x 4 rectangle without any overlaps? 
 
-Two balloons can lift 180 kg in addition to the weight of the basket.   
-
-![](/resources/primary-quiz-9/2-balloons.png){image align="center"} 
-
-How heavy is the basket?  
-
-* [ ] 60 kg
-* [ ] 50 kg
-* [ ] 40 kg
-* [ ] 30 kg
-* [x] 20 kg
+* [ ] 2
+* [ ] 3
+* [x] 4
+* [ ] 5
+* [ ] 6
 {.col-5}
 :::
 
@@ -52,5 +50,39 @@ What is the differrence between the two numbers that are next to 2011 in this li
 * [ ] 900
 * [ ] 909
 * [ ] 990
+{.col-5}
+:::
+
+
+## 4.
+<!--- 2015 (16) --->
+::: problem id=4_1 marks=1
+Arectangle has area 12 cm<sup>2</sup>. The lengths of the sides are natural numbers.  
+
+Which perimeter could the rectangle have? 
+
+* [ ] 20 cm
+* [x] 26 cm
+* [ ] 28 cm
+* [ ] 32 cm
+* [ ] 48 cm
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2014 (24) --->
+::: problem id=5_1 marks=1
+Grandma gives 180 marbles to her ten grandchildren.  
+
+No two children get the same amount of marbles. Anna gets the most.  
+
+What is the minimum number of marbles that Anna could get? 
+
+* [ ] 19
+* [ ] 20
+* [ ] 21
+* [ ] 22
+* [x] 23
 {.col-5}
 :::

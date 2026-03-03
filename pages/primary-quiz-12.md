@@ -5,8 +5,24 @@
 
 
 ## 1.
-<!--- 2011 (6) --->
+<!--- 2013 (5) --->
 ::: problem id=1_1 marks=1
+Anna, Bob and Chris are altogether 31 years old.  
+
+How old will all three be altogether in three years time? 
+
+* [ ] 32
+* [ ] 34
+* [ ] 35
+* [ ] 37
+* [x] 40
+{.col-5}
+:::
+
+
+## 2.
+<!--- 2011 (6) --->
+::: problem id=2_1 marks=1
 1000 litres of water is passed through the water system as shown, into two identical tanks.  
 
 At each junction the water separates into two equal amounts.  
@@ -22,9 +38,9 @@ How many litres of water end up in Tank Y?
 :::
 
 
-## 2.
+## 3.
 <!--- 2013 (10) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=1
 Maria drew the following figures on square sheets of paper. 
 
 ![](/resources/primary-quiz-12/2-figures.png){image align="center"} 
@@ -40,9 +56,9 @@ How many of these figures have the same perimeter as the square sheet of paper i
 :::
 
 
-## 3.
+## 4.
 <!--- 2011 (15) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=1
 Paul wanted to multiply a whole number by 301, but forgot to include the zero and multiplied by 31 instead.  
 
 His answer was 372.  
@@ -54,5 +70,25 @@ What should his answer have been?
 * [ ] 3,702
 * [ ] 3,720
 * [ ] 30,720
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2014 (20) --->
+::: problem id=5_1 marks=1
+There are 5 songs on a playlist: Song A lasts 3 mins, song B lasts 2 mins 30s, song C last 2 mins, song D last 1 min 30s, and song E last 4 mins.  
+
+These 5 songs are played non-stop one after the other.  
+
+Song C is playing when Andy leaves the house. Exactly one hour later he returns.  
+
+Which song is playing when Andy came back?   
+
+* [x] A
+* [ ] B
+* [ ] C
+* [ ] D
+* [ ] E
 {.col-5}
 :::

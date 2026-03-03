@@ -47,8 +47,26 @@ How much milk has she drunk in the past two weeks?
 
 
 ## 3.
-<!--- 2011 (19) --->
+<!--- 2015 (12) --->
 ::: problem id=3_1 marks=1
+Each day Maria writes down the date and then adds together the individual digits.  
+
+For instance today on the 23rd March she writes 23. 03. and calculates 2 + 3 + 0 + 3 = 8.  
+
+What is the largest total she make in this way in the course of a year? 
+
+* [ ] 7
+* [ ] 13
+* [ ] 14
+* [ ] 16
+* [x] 20
+{.col-5}
+:::
+
+
+## 4.
+<!--- 2011 (19) --->
+::: problem id=4_1 marks=1
 Daniel wants to make a complete square using pieces only like those shown.  
 
 What is the minimum number of pieces he must use?  

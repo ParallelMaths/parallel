@@ -4,57 +4,24 @@
 * No calculators allowed.
 
 
-## 1.
-<!--- 2014 (5) --->
-::: problem id=1_1 marks=1
-How big is the difference between the smallest five-digit and the biggest four-digit number? 
 
-* [x] 1
-* [ ] 10
-* [ ] 1111
-* [ ] 9000
-* [ ] 9900
-{.col-5}
-:::
+## 1.
 
 
 ## 2.
-<!--- 2014 (15) --->
-::: problem id=2_1 marks=1
-In a restaurant there are 16 tables, with either 3, 4 or 6 chairs.  
-
-A total of 36 guests can sit at the tables which have 3 or 4 chairs.  
-
-The restaurant seats 72 guests.  
-
-How many tables with three chairs are there?  
-
-* [x] 4
-* [ ] 5
-* [ ] 6
-* [ ] 7
-* [ ] 8
-{.col-5}
-:::
 
 
 ## 3.
-<!--- 2013 (19) --->
+<!--- 2012 (12) --->
 ::: problem id=3_1 marks=1
-Numbers are written in the 4×4 grid: any two numbers in neighbouring squares should have a difference of 1, that is squares that share an edge. 
+Which three puzzle pieces do you need to complete the large puzzle? 
 
-The number 3 is already given. 
+![](/resources/primary-quiz-18/3-puzzles.png){image align="center"} 
 
-The number 9 will be used somewhere in the grid.  
-
-![](/resources/primary-quiz-26/3-grid.png){image align="center"} 
-
-How many different numbers will have been used once the grid is filled in completely? 
-
-* [ ] 4
-* [ ] 5
-* [ ] 6
-* [x] 7
-* [ ] 8
+* [ ] 1,3,4
+* [ ] 1,3,6
+* [ ] 2,3,5
+* [x] 2,3,6
+* [ ] 2,5,6
 {.col-5}
 :::

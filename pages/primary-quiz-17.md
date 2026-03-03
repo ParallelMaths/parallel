@@ -21,8 +21,28 @@ In which of the five pictures is the white area bigger than the grey area?
 
 
 ## 2.
-<!--- 2013 (14) --->
+<!--- 2012 (10) --->
 ::: problem id=2_1 marks=1
+In addition to the weight of the basket a single balloon can lift 80 kg.  
+
+Two balloons can lift 180 kg in addition to the weight of the basket.   
+
+![](/resources/primary-quiz-9/2-balloons.png){image align="center"} 
+
+How heavy is the basket?  
+
+* [ ] 60 kg
+* [ ] 50 kg
+* [ ] 40 kg
+* [ ] 30 kg
+* [x] 20 kg
+{.col-5}
+:::
+
+
+## 3.
+<!--- 2013 (14) --->
+::: problem id=3_1 marks=1
 A 1×1×1 cube is cut out of each corner of a 3×3×3 cube.  
 
 The picture shows the result after the first cube is cut out.  
@@ -40,23 +60,21 @@ How many faces will the final shape have?
 :::
 
 
-## 3.
-<!--- 2012 (11) --->
-::: problem id=3_1 marks=1
-Grandmother gave Vivian and Mike some apples and pears.  
+## 4.
+<!--- 2014 (17) --->
+::: problem id=4_1 marks=1
+Lea plays with her marbles. She places them in small groups on the table.  
 
-In total they had 25 piecs of fruit.  
+If she places them in groups of three, two marbles are left over.  
 
-On the way home Vivian ate 1 apple and 3 pears, Mike ate 3 apples and 2 pears.  
+If she places them in groups of five, again two are left over.  
 
-At home they noted that there were exactly the same number of apples and pears in the basket.  
+How many more marbles does Lea need so that she can place them in groups of three as well as groups of five without any marbles being left over? 
 
-How many pears had grandmother given them?  
-
-* [ ] 12
+* [ ] 3
+* [ ] 1
+* [ ] 4
+* [ ] 10
 * [x] 13
-* [ ] 16
-* [ ] 20
-* [ ] 21
 {.col-5}
 :::
