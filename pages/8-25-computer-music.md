@@ -97,14 +97,13 @@ Before watching the video, have a think about how you would answer this question
 ## 5. An odd house
 
 ::: problem id=5_1 marks=2
-__5.1.__ A house has four walls. All the walls face south. Where is the house? The answer consists of a 5-letter word and a 4-letter word.
+__5.1.__ A house has four walls. The exteriors of those walls all face south. Where is the house? The answer consists of a 5-letter word and a 4-letter word.
 
 <input type="text" solution="North Pole" placeholder="????? ????"/>  
 
 ---
 
 If you remember last week’s Parallelogram... the North Pole is an odd place, and geometry on a sphere does not obey the same laws as geometry on a flat piece of paper. A house on the North Pole would have all of its walls facing south.
-
 :::
 
 
