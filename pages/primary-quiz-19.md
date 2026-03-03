@@ -47,7 +47,7 @@ The small cubes have the same letter on each of their faces (A, B, C, or D).
 
 Two cubes with a common face always have a different letter on them.  
 
-![](/resources/primary-quiz-19/3-cube.png){image align="center"} 
+![](/resources/primary-quiz-19/3-a-cube.png){image align="center"} 
 
 Which letter is on the cube that cannot be seen in the picture? 
 

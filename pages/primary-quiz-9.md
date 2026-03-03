@@ -25,7 +25,7 @@ Which of the following shapes can not be created?
 ::: problem id=2_1 marks=1
 Anne has a few grey tiles like the one in the picture. 
  
-![](/resources/primary-quiz-34/1-shapes.png){image align="center"} 
+![](/resources/primary-quiz-9/2-shapes.png){image align="center"} 
  
 What is the maximum number of these tiles that she can place on the 5 x 4 rectangle without any overlaps? 
 
@@ -43,7 +43,7 @@ What is the maximum number of these tiles that she can place on the 5 x 4 rectan
 ::: problem id=3_1 marks=1
 All the four digit numbers with the same digits as 2011 (i.e. 0, 1, 1, 2) are written in a row in ascending order.  
 
-What is the differrence between the two numbers that are next to 2011 in this list? 
+What is the difference between the two numbers that are next to 2011 in this list? 
 
 * [ ] 890
 * [x] 891

@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 Which answer completes the addition tree?
 
-![](/resources/primary-quiz-27/1-addition-tree.png){image align="center"} 
+![](/resources/primary-quiz-23/1-addition-tree.png){image align="center"} 
 
 * [ ] 2
 * [ ] 3
@@ -47,7 +47,7 @@ After a bell sounds all but one kangaroo change seats with a neighbour.
 
 Afterwards they sit in the following order in a clockwise direction: A, E, B, D, C. 
 
-![](/resources/primary-quiz-23/2-kangaroo.png){image align="center"} 
+![](/resources/primary-quiz-23/3-kangaroo.png){image align="center"} 
 
 Which kangaroo did not change places?  
 
@@ -65,7 +65,7 @@ Which kangaroo did not change places?
 ::: problem id=4_1 marks=1
 The numbers 1 to 7 should be written in the small circles so that the sum of the numbers along each line is the same. 
 
-![](/resources/primary-quiz-23/3-triangle.png){image align="center"} 
+![](/resources/primary-quiz-23/4-triangle.png){image align="center"} 
 
 Which number should be written in the uppermost circle on the triangle?  
 

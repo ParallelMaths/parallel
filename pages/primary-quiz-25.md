@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 In the addition sum here, three digits have been replaced with stars. 
 
-![](/resources/primary-quiz-25/1-sum.png){image align="center"} 
+![](/resources/primary-quiz-25/1-sums.png){image align="center"} 
 
 How big is the sum of the three missing digits? 
 

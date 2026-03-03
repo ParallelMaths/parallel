@@ -49,7 +49,7 @@ We can see floors with 4 black and 9 black tiles respectively.
 
 In each corner there is a black tile, and each black tile touches only white tiles.  
 
-![](/resources/primary-quiz-11/3-tiles.png){image align="center"} 
+![](/resources/primary-quiz-11/3-tile.png){image align="center"} 
 
 How many white tiles would there be on a floor that had 25 black tiles?  
 

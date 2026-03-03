@@ -11,7 +11,7 @@
 ::: problem id=2_1 marks=1
 A rectangle is formed from 4 equally sized smaller rectangles.  
 
-![](/resources/primary-quiz-31/2-perimeter.png){image align="center"} 
+![](/resources/primary-quiz-31/3-perimeter.png){image align="center"} 
 
 The shorter side is 10cm long. How long is the longer side? 
 

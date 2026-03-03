@@ -27,11 +27,11 @@ How old are the chicks today on 15th March 2012?
 ::: problem id=2_1 marks=1
 Look at the following pattern:  
 
-![](/resources/primary-quiz-21/2-pattern-a.png){image align="center"} 
+![](/resources/primary-quiz-21/2-pattern.png){image align="center"} 
 
 Which square has to replace the question mark so that the white area and the black area are equally big?  
 
-![](/resources/primary-quiz-21/2-pattern-q.png){image align="center"} 
+![](/resources/primary-quiz-21/2-patterns.png){image align="center"} 
 
 * [ ] A
 * [x] B
@@ -47,7 +47,7 @@ Which square has to replace the question mark so that the white area and the bla
 ::: problem id=3_1 marks=1
 The figure here has a perimeter of 42 cm. 
 
-![](/resources/primary-quiz-21/3-shape.png){image align="center"} 
+![](/resources/primary-quiz-21/3-shapes.png){image align="center"} 
 
 The figure was made from eight equally sized squares.  
 

@@ -28,7 +28,7 @@ How big is the difference between the smallest five-digit and the biggest four-d
 ::: problem id=3_1 marks=1
 A square can be made out of four of the given pieces. Which piece will not be used?  
 
-![](/resources/primary-quiz-24/2-squares.png){image align="center"} 
+![](/resources/primary-quiz-24/3-squares.png){image align="center"} 
 
 * [ ] A
 * [x] B
@@ -46,7 +46,7 @@ Four cogs are connected to each other as shown in the picture.
 
 The first has 30 teeth, the second 15, the third 60 and the fourth 10.  
 
-![](/resources/primary-quiz-24/3-cogs.png){image align="center"} 
+![](/resources/primary-quiz-24/4-cogs.png){image align="center"} 
 
 How many turns will the last cog make for each full turn of the first cog?  
 

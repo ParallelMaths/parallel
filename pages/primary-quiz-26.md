@@ -16,7 +16,7 @@
 ::: problem id=3_1 marks=1
 Which three puzzle pieces do you need to complete the large puzzle? 
 
-![](/resources/primary-quiz-18/3-puzzles.png){image align="center"} 
+![](/resources/primary-quiz-26/3-puzzles.png){image align="center"} 
 
 * [ ] 1,3,4
 * [ ] 1,3,6

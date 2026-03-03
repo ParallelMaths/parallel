@@ -29,7 +29,7 @@ Each plant in Johns garden has exactly 5 leaves or exactly 2 leaves and a flower
 
 In total the plants have 6 flowers and 32 leaves.  
 
-![](/resources/primary-quiz-28/2-flowers.png){image align="center"} 
+![](/resources/primary-quiz-18/2-flowers.png){image align="center"} 
 
 How many plants are growing in the garden? 
 
@@ -65,7 +65,7 @@ The number 3 is already given.
 
 The number 9 will be used somewhere in the grid.  
 
-![](/resources/primary-quiz-26/3-grid.png){image align="center"} 
+![](/resources/primary-quiz-18/4-grid.png){image align="center"} 
 
 How many different numbers will have been used once the grid is filled in completely? 
 

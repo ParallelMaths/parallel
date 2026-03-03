@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 Nick can turn right but not left on his bicycle.  
 
-![](/resources/primary-quiz-30/1-bicycle.png){image align="center"} 
+![](/resources/primary-quiz-13/1-bicycle.png){image align="center"} 
 
 What is the least number of right turns he must make in order to get from A to B? 
 
@@ -29,7 +29,7 @@ The date 01-03-05 (1st March 2005) has three consecutive odd numbers.
 
 This is the first day in the 21st Century with this property.  
 
-![](/resources/primary-quiz-13/1-dates.png){image align="center"} 
+![](/resources/primary-quiz-13/2-dates.png){image align="center"} 
 
 How many days with this property are there in total in the 21st Century? 
 
@@ -47,11 +47,11 @@ How many days with this property are there in total in the 21st Century?
 ::: problem id=3_1 marks=1
 Patricia drives one afternoon at a constant speed to her friend. She looks at her watch as she leaves and when she arrives. 
 
-![](/resources/primary-quiz-13/2-speed-q.png){image align="center"} 
+![](/resources/primary-quiz-13/3-speed-q.png){image align="center"} 
 
 In which position will the minute hand be when she has completed one third of her journey? 
 
-![](/resources/primary-quiz-13/2-speed-a.png){image align="center"} 
+![](/resources/primary-quiz-13/3-speed-a.png){image align="center"} 
 
 * [ ] A
 * [ ] B

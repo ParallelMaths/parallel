@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 In the following sum the same digit is used in each square:  
 
-![](/resources/primary-quiz-32/1-sum.png){image align="center"} 
+![](/resources/primary-quiz-15/1-sum.png){image align="center"} 
 
 Which digit must be used so that the sum is correct?  
 
@@ -27,11 +27,11 @@ Which digit must be used so that the sum is correct?
 ::: problem id=2_1 marks=1
 A shape is made by fitting together the four pieces of card with no overlaps.  
 
-![](/resources/primary-quiz-15/1-shape-question.png){image align="center"} 
+![](/resources/primary-quiz-15/2-shape-question.png){image align="center"} 
 
 Which of the following shapes is not possible? 
 
-![](/resources/primary-quiz-15/1-shape-answer.png){image align="center"} 
+![](/resources/primary-quiz-15/2-shape-answer.png){image align="center"} 
 
 * [ ] 3
 * [ ] 6
@@ -67,7 +67,7 @@ If each student received a different number of votes, how many votes did the sec
 ::: problem id=4_1 marks=1
 The 8 corners of the shape in the picture are to be labelled with the numbers 1, 2, 3 or 4, so that the numbers at the ends of each of the lines shown are different.  
 
-![](/resources/primary-quiz-15/3-shape.png){image align="center"} 
+![](/resources/primary-quiz-15/4-shape.png){image align="center"} 
 
 How often does the number 4 appear on the shape?  
 

@@ -45,7 +45,7 @@ Fridolin the hamster runs through the maze in the picture.
 
 What is the maximum number of pumpkin seeds that he can collect? 
 
-![](/resources/primary-quiz-8/3-maze.png){image align="center"} 
+![](/resources/primary-quiz-8/3-mazes.png){image align="center"} 
 
 * [ ] 1
 * [x] 3

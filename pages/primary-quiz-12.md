@@ -43,7 +43,7 @@ How many litres of water end up in Tank Y?
 ::: problem id=3_1 marks=1
 Maria drew the following figures on square sheets of paper. 
 
-![](/resources/primary-quiz-12/2-figures.png){image align="center"} 
+![](/resources/primary-quiz-12/2-figure.png){image align="center"} 
 
 How many of these figures have the same perimeter as the square sheet of paper itself? 
 

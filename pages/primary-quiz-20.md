@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 A blackboard has a total unfolded length of 6m.  The middle section is 3m long.  
  
-![](/resources/primary-quiz-20/1-blackboard.png){image align="center"} 
+![](/resources/primary-quiz-20/1-blackboards.png){image align="center"} 
 
 How long is the section labelled with a questionmark? 
 
@@ -29,7 +29,7 @@ The little witch is taking part in a broomstick flying competition that is carri
 
 The times in which she crossed the starting line can be seen in the table.  
 
-![](/resources/primary-quiz-20/2-table.png){image align="center"} 
+![](/resources/primary-quiz-20/2-tables.png){image align="center"} 
 
 Which round was her fastest? 
 

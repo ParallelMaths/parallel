@@ -11,11 +11,11 @@ A white and a grey ring are interlinked with one another.
 
 Peter sees the two rings from the front as they are seen in the diagram here.  
 
-![](/resources/primary-quiz-16/1-rings-q.png){image align="center"} 
+![](/resources/primary-quiz-16/1-ring-q.png){image align="center"} 
 
 Paul sees the rings from the back. What does he see? 
 
-![](/resources/primary-quiz-16/1-rings-a.png){image align="center"} 
+![](/resources/primary-quiz-16/1-ring-a.png){image align="center"} 
 
 * [ ] A
 * [ ] B

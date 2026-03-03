@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 Nathalie wanted to build a large cube out of lots of small cubes.  
 
-![](/resources/primary-quiz-28/1-cubes.png){image align="center"} 
+![](/resources/primary-quiz-22/1-cubes.png){image align="center"} 
 
 How many cubes are missing from the picture on the right that would be needed to build the large cube on the left?
 
@@ -27,7 +27,7 @@ How many cubes are missing from the picture on the right that would be needed to
 ::: problem id=2_1 marks=1
 Which pattern will you get if you join the centres of each of the neighbouring hexagons?  
 
-![](/resources/primary-quiz-22/1-patterns.png){image align="center"} 
+![](/resources/primary-quiz-22/2-patterns.png){image align="center"} 
 
 * [ ] A
 * [ ] B
@@ -63,11 +63,11 @@ How many children will eat ice cream today?
 ::: problem id=4_1 marks=1
 The upper coin rolls without sliding around the fixed lower coin.  
 
-![](/resources/primary-quiz-22/3-coins-q.png){image align="center"} 
+![](/resources/primary-quiz-22/4-coins-q.png){image align="center"} 
 
 Which position will the two coins have afterwards? 
 
-![](/resources/primary-quiz-22/3-coins-a.png){image align="center"} 
+![](/resources/primary-quiz-22/4-coins-a.png){image align="center"} 
 
 * [x] A
 * [ ] B

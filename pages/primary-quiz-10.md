@@ -49,7 +49,7 @@ Nina made a wall around a square area, using 36 identical cubes.
 
 A section of the wall is shown in the picture.  
 
-![](/resources/primary-quiz-10/3-wall.png){image align="center"} 
+![](/resources/primary-quiz-10/3-walls.png){image align="center"} 
 
 How many cubes will she now need to completely fill the square area. 
 

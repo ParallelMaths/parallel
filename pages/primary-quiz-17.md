@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 In which of the five pictures is the white area bigger than the grey area? 
 
-![](/resources/primary-quiz-17/1-shapes.png){image align="center"} 
+![](/resources/primary-quiz-17/1-shape.png){image align="center"} 
 
 * [ ] 3
 * [ ] 6
@@ -27,7 +27,7 @@ In addition to the weight of the basket a single balloon can lift 80 kg.
 
 Two balloons can lift 180 kg in addition to the weight of the basket.   
 
-![](/resources/primary-quiz-9/2-balloons.png){image align="center"} 
+![](/resources/primary-quiz-17/2-balloons.png){image align="center"} 
 
 How heavy is the basket?  
 
@@ -47,7 +47,7 @@ A 1×1×1 cube is cut out of each corner of a 3×3×3 cube.
 
 The picture shows the result after the first cube is cut out.  
 
-![](/resources/primary-quiz-17/2-cube.png){image align="center"} 
+![](/resources/primary-quiz-17/3-cube.png){image align="center"} 
 
 How many faces will the final shape have? 
 

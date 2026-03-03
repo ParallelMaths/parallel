@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 How far must Maria walk to reach her friend Bianca?  
 
-![](/resources/primary-quiz-29/1-bianca.png){image align="center"} 
+![](/resources/primary-quiz-14/1-bianca.png){image align="center"} 
 
 * [ ] 300 m
 * [ ] 400 m
@@ -29,7 +29,7 @@ He can begin where he wants and then must write each consecutive letter in a fie
 
 Which of the following tables could Andrew not produce?  
 
-![](/resources/primary-quiz-14/1-kangaroo.png){image align="center"} 
+![](/resources/primary-quiz-14/2-kangaroo.png){image align="center"} 
 
 * [ ] A
 * [ ] B
@@ -46,11 +46,11 @@ Johann stacks 1 × 1 cubes on the squares of a 4 × 4 grid.
 
 The diagram shows how many cubes were piled on top of each other on each square of the grid.  
 
-![](/resources/primary-quiz-14/2-stacks.png){image align="center"} 
+![](/resources/primary-quiz-14/3-stacks.png){image align="center"} 
 
 What will Johann see if he looks from behind (hinten) at the tower?
 
-![](/resources/primary-quiz-14/2-stacks-a.png){image align="center"} 
+![](/resources/primary-quiz-14/3-stacks-a.png){image align="center"} 
 
 * [ ] A
 * [ ] B
