@@ -1,25 +1,32 @@
 # Parallel Academy Year 8 Spring Term Week 7 Assignment
 
-This week's homework is a little different to usual. You are required to answer a single problem and produce a full written solution (earning up to 10 marks).  
+This week's optional homework is a little different to usual. You are invited to answer a single problem and produce a full written solution. The question is shown below, along with a mark scheme - there are 10 marks available.
 
-You will need to upload your solution and we will mark it and share personalised feedback over the next few weeks.
+Once you have solved the problem and produced a written solution, enter your answer below and click Submit. You will then see a full breakdown of the mark scheme and are encouraged to mark your own work (this is for your own reference only). You will also see an example of a model handwritten solution.
 
-You can access the problem and upload your work via the following Google Form:
+General marking scheme:  
+![](/resources/webinar-8spr-week-7/GeneralMarkSchemeWebinar.png){image align="center"}  
 
-::: googleform text=8SPR_Week_7_Homework_Form link=https://docs.google.com/forms/d/e/1FAIpQLSd83t20_Rv3I2Tv-5U-qqE99pCquY_yQ64A2U3VrVmuDB7D3A/viewform?usp=pp_url&entry.1304495079={{name}}&entry.814043235={{email}}&entry.508712072={{filename}}
-:::
 
-Please read through [this quick guide](https://drive.google.com/file/d/1xzwJO1nMGWq0HT1KCCFmBe_g2slow1JF/view?usp=drive_link){target="_blank"} for details of how to upload your work.
+## 1.
+::: problem id=1_1 marks=1
+![](/resources/webinar-8spr-week-7/q1.png){image align="center"}  
+<input type="number" solution="74"/>  
 
-Once you have uploaded your work, please answer the question below and click Submit.
+---
 
-The deadline for submission is **March 10th** - please leave ample time to ensure a smooth upload.  
+![](/resources/webinar-8spr-week-7/s1.png){image align="center"}  
 
-If you experience any issues with the form, then please email [team@parallel.org.uk](mailto:team@parallel.org.uk).  
+Read through the solution provided to ensure you understand how to solve the problem. 
 
-::: problem id=1_1 marks=0
-![](/resources/academy-8spr-week-7/q1.png){image align="center"}  
-<input type="text" solution="ANGLE"/>  
+Below is a mark scheme for you to mark your own work. This is for your own reference.  
+
+Have a look at anything you missed on the mark scheme and consider how you can improve your written solutions in the future.  
+
+[Here is an example of a hand written model solution](https://drive.google.com/file/d/14oMIg9Zeb6xtdZdemzIZR5X6ioBL2TJw/view?usp=sharing){target="_blank"}.  
+
+![](/resources/webinar-8spr-week-7/WebinarMarkScheme.png){image align="center"}  
 :::  
 
-When you Submit, you will not see the answer to the problem like normal - instead we will share the full solution when we return your marked script to you.
+
+Only Submit once you have answered the question and attempted a written solution.  
