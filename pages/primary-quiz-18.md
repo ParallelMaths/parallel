@@ -44,7 +44,7 @@ How many plants are growing in the garden?
 
 ## 3.
 <!--- 2013 (15) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 How many different subtraction sums between two digit numbers are there, which have the answer 50?
 
 * [x] 40
@@ -58,7 +58,7 @@ How many different subtraction sums between two digit numbers are there, which h
 
 ## 4.
 <!--- 2013 (19) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Numbers are written in the 4×4 grid: any two numbers in neighbouring squares should have a difference of 1, that is squares that share an edge. 
 
 The number 3 is already given. 
@@ -80,7 +80,7 @@ How many different numbers will have been used once the grid is filled in comple
 
 ## 5.
 <!--- 2016 (22) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 ![](/resources/primary-quiz-18/5-circles.png){image align="center"} 
 Kirsten has written numbers into 5 of the 10 circles.  
 

@@ -42,7 +42,7 @@ How heavy is the basket?
 
 ## 3.
 <!--- 2013 (14) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 A 1×1×1 cube is cut out of each corner of a 3×3×3 cube.  
 
 The picture shows the result after the first cube is cut out.  
@@ -62,7 +62,7 @@ How many faces will the final shape have?
 
 ## 4.
 <!--- 2014 (17) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Lea plays with her marbles. She places them in small groups on the table.  
 
 If she places them in groups of three, two marbles are left over.  
@@ -82,7 +82,7 @@ How many more marbles does Lea need so that she can place them in groups of thre
 
 ## 5.
 <!--- 2016 (21) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 ![](/resources/primary-quiz-17/5-triangles.png){image align="right"} 
 Clara forms one big triangle made up of identical little triangles.  
 

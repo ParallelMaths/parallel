@@ -40,7 +40,7 @@ How many dogs go to the school?
 
 ## 3.
 <!--- 2012 (13) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Lisa built a large cube out of 8 smaller ones.  
 
 The small cubes have the same letter on each of their faces (A, B, C, or D).  
@@ -62,7 +62,7 @@ Which letter is on the cube that cannot be seen in the picture?
 
 ## 4.
 <!--- 2013 (16) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 In the last game of the hockey match there were lots of goals.  
 
 In the first half 6 goals were scored and the visiting team were leading.  
@@ -82,7 +82,7 @@ How many goals did the hometeam score in total?
 
 ## 5.
 <!--- 2016 (23) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 The symbols ♣, ♥ and ♦ represent three different digits.  
 
 If the digits of the number ♣♥♣ are added, you receive the two-digit number ♥♦.  

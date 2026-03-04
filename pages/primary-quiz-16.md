@@ -48,7 +48,7 @@ How much milk has she drunk in the past two weeks?
 
 ## 3.
 <!--- 2015 (12) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Each day Maria writes down the date and then adds together the individual digits.  
 
 For instance today on the 23rd March she writes 23. 03. and calculates 2 + 3 + 0 + 3 = 8.  
@@ -66,7 +66,7 @@ What is the largest total she make in this way in the course of a year?
 
 ## 4.
 <!--- 2011 (19) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Daniel wants to make a complete square using pieces only like those shown.  
 
 What is the minimum number of pieces he must use?  
@@ -82,7 +82,7 @@ What is the minimum number of pieces he must use?
 
 ## 5.
 <!--- 2016 (20) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 Luigi owns a few square tables and some chairs for his little restaurant.  
 
 If he sets out his tables individually with 4 chairs each, then he is 6 chairs short.  

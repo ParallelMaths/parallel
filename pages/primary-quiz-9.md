@@ -40,7 +40,7 @@ What is the maximum number of these tiles that she can place on the 5 x 4 rectan
 
 ## 3.
 <!--- 2011 (12) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 All the four digit numbers with the same digits as 2011 (i.e. 0, 1, 1, 2) are written in a row in ascending order.  
 
 What is the difference between the two numbers that are next to 2011 in this list? 
@@ -56,7 +56,7 @@ What is the difference between the two numbers that are next to 2011 in this lis
 
 ## 4.
 <!--- 2015 (16) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Arectangle has area 12 cm<sup>2</sup>. The lengths of the sides are natural numbers.  
 
 Which perimeter could the rectangle have? 
@@ -72,7 +72,7 @@ Which perimeter could the rectangle have?
 
 ## 5.
 <!--- 2014 (24) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 Grandma gives 180 marbles to her ten grandchildren.  
 
 No two children get the same amount of marbles. Anna gets the most.  

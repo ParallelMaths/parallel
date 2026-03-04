@@ -42,7 +42,7 @@ When does he take the fourth?
 
 ## 3.
 <!--- 2011 (14) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Black and white tiles can be laid on square floors as shown in the pictures.  
 
 We can see floors with 4 black and 9 black tiles respectively.  
@@ -64,7 +64,7 @@ How many white tiles would there be on a floor that had 25 black tiles?
 
 ## 4.
 <!--- 2013 (18) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Matthias is catching fish.  
 
 If he had caught three times as many fish as he has actually caught, he would have 12 more fish.  
@@ -82,7 +82,7 @@ How many fish has he caught?
 
 ## 5.
 <!--- 2014 (22) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 The king travels with his messengers at a speed of 5 km/h from his castle to his summer residence.  
 
 Each hour he sends a messenger with a speed of 10 km/h back to the castle.  

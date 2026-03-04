@@ -44,7 +44,7 @@ How many days with this property are there in total in the 21st Century?
 
 ## 3.
 <!--- 2013 (11) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Patricia drives one afternoon at a constant speed to her friend. She looks at her watch as she leaves and when she arrives. 
 
 ![](/resources/primary-quiz-13/3-speed-q.png){image align="center"} 
@@ -64,7 +64,7 @@ In which position will the minute hand be when she has completed one third of he
 
 ## 4.
 <!--- 2011 (16) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 In a tournament FC Barcelona scored a total of three goals, and conceded one goal.  
 
 In the tournament the team had won one game, lost one game and drawn one game.  
@@ -82,7 +82,7 @@ What was the score in the game that FC Barcelona won?
 
 ## 5.
 <!--- 2014 (18) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 The faces of a die are labelled with the numbers 1, 2, 3, 4, 5 and 6.  
 
 The faces 1 and 6 have one common edge.  

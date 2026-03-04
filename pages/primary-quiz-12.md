@@ -40,7 +40,7 @@ How many litres of water end up in Tank Y?
 
 ## 3.
 <!--- 2013 (10) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Maria drew the following figures on square sheets of paper. 
 
 ![](/resources/primary-quiz-12/2-figure.png){image align="center"} 
@@ -58,7 +58,7 @@ How many of these figures have the same perimeter as the square sheet of paper i
 
 ## 4.
 <!--- 2011 (15) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 Paul wanted to multiply a whole number by 301, but forgot to include the zero and multiplied by 31 instead.  
 
 His answer was 372.  
@@ -76,7 +76,7 @@ What should his answer have been?
 
 ## 5.
 <!--- 2014 (20) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 There are 5 songs on a playlist: Song A lasts 3 mins, song B lasts 2 mins 30s, song C last 2 mins, song D last 1 min 30s, and song E last 4 mins.  
 
 These 5 songs are played non-stop one after the other.  

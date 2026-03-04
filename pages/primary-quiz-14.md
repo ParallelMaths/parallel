@@ -41,7 +41,7 @@ Which of the following tables could Andrew not produce?
 
 ## 3.
 <!--- 2013 (12) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Johann stacks 1 × 1 cubes on the squares of a 4 × 4 grid.  
 
 The diagram shows how many cubes were piled on top of each other on each square of the grid.  
@@ -63,7 +63,7 @@ What will Johann see if he looks from behind (hinten) at the tower?
 
 ## 4.
 <!--- 2011 (17) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 If you are given the three corner points of a triangle and want to add a fourth point to make the four corners of a parallelogram.  
 
 In how many places can the fourth point be placed?  
@@ -79,7 +79,7 @@ In how many places can the fourth point be placed?
 
 ## 5.
 <!--- 2011 (21) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 A cat had 7 kittens. The kittens had the colours white, black, ginger, black-white, gingerwhite, ginger-black, and ginger-black-white.  
 
 In how many ways can you choose 4 cats so that each time two of them have a colour in common?  

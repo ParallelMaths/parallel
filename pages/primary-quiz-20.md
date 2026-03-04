@@ -44,7 +44,7 @@ Which round was her fastest?
 
 ## 3.
 <!--- 2012 (14) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 The Natural numbers are to be painted.  
 
 1 is red, 2 is blue, 3 is green, 4 is red, 5 is blue, 6 is green and so on.  
@@ -62,7 +62,7 @@ Which colour(s), can the sum of a red and a blue number have?
 
 ## 4.
 <!--- 2014 (16) --->
-::: problem id=4_1 marks=1
+::: problem id=4_1 marks=2
 The points A, B, C, D, E, F are situated on a straight line in this order.  
 
 The following distances on this line are known: *AF* = 35, *AC* = 12, *BD* = 11, *CE* = 12 and *DF* = 16.  
@@ -80,7 +80,7 @@ How long is the distance *BE*?
 
 ## 5.
 <!--- 2016 (24) --->
-::: problem id=5_1 marks=1
+::: problem id=5_1 marks=3
 Two three-digit numbers are made up of six different digits.  
 
 The first digit of the second number is twice as big as the last digit of the first number.  
