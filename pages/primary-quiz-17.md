@@ -78,3 +78,22 @@ How many more marbles does Lea need so that she can place them in groups of thre
 * [x] 13
 {.col-5}
 :::
+
+
+## 5.
+<!--- 2016 (21) --->
+::: problem id=5_1 marks=1
+![](/resources/primary-quiz-17/5-triangles.png){image align="right"} 
+Clara forms one big triangle made up of identical little triangles.  
+
+She has already put some triangles together (see diagram).  
+
+What is the minimum number of little triangles she has to add?  
+
+* [ ] 3
+* [ ] 1
+* [ ] 4
+* [ ] 10
+* [x] 13
+{.col-5}
+:::

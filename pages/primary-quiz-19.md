@@ -78,3 +78,23 @@ How many goals did the hometeam score in total?
 * [ ] 7
 {.col-5}
 :::
+
+
+## 5.
+<!--- 2016 (23) --->
+::: problem id=5_1 marks=1
+The symbols ♣, ♥ and ♦ represent three different digits.  
+
+If the digits of the number ♣♥♣ are added, you receive the two-digit number ♥♦.  
+
+If the digits of the two-digit number ♥♦ are added, you receive the single-digit number ♥.  
+
+Which digit is represented by ♣? 
+
+* [ ] 4
+* [ ] 5
+* [ ] 6
+* [ ] 8
+* [x] 9
+{.col-5}
+:::

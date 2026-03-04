@@ -76,3 +76,23 @@ How long is the distance *BE*?
 * [x] 17
 {.col-5}
 :::
+
+
+## 5.
+<!--- 2016 (24) --->
+::: problem id=5_1 marks=1
+Two three-digit numbers are made up of six different digits.  
+
+The first digit of the second number is twice as big as the last digit of the first number.  
+
+Note: 0 is also a digit but cannot be the first digit of a number!  
+
+How big is the smallest possible sum of the two numbers? 
+
+* [ ] 301
+* [ ] 535
+* [x] 537
+* [ ] 546
+* [ ] 552
+{.col-5}
+:::

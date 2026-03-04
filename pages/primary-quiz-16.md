@@ -78,3 +78,23 @@ What is the minimum number of pieces he must use?
 * [x] 20
 {.col-5}
 :::
+
+
+## 5.
+<!--- 2016 (20) --->
+::: problem id=5_1 marks=1
+Luigi owns a few square tables and some chairs for his little restaurant.  
+
+If he sets out his tables individually with 4 chairs each, then he is 6 chairs short.  
+
+If he always puts two tables together to create a bigger table with 6 chairs, then he has 4 chairs left over.  
+
+How many tables does Luigi have?  
+
+* [ ] 8
+* [x] 10
+* [ ] 12
+* [ ] 14
+* [ ] 16
+{.col-5}
+:::

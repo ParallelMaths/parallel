@@ -6,6 +6,19 @@
 
 
 ## 1.
+<!--- 2015 (1) --->
+::: problem id=3_1 marks=1
+Which three puzzle pieces do you need to complete the large puzzle? 
+
+![](/resources/primary-quiz-26/3-puzzles.png){image align="center"} 
+
+* [ ] 1,3,4
+* [ ] 1,3,6
+* [ ] 2,3,5
+* [x] 2,3,6
+* [ ] 2,5,6
+{.col-5}
+:::
 
 
 ## 2.
