@@ -20,7 +20,7 @@ Which of the following shapes can not be created?
 
 ---
 
-![](/resources/primary-quiz-9/squares-a.png){image align="center"} 
+![](/resources/primary-quiz-9/1-squares-a.png){image align="center"} 
 
 As shown, all options except a square cannot be created.  A square is impossible because the only way to preserve four right-angles is to cut the full length of the original square, which gives a rectangle.
 :::
@@ -120,13 +120,15 @@ Call the number of marbles that Anna receives `M`.
 
 To minimise `M` we need to maximise what the remaining 9 grandchildren get, which means they get the following amounts:  
 
-`M`−1,  `M`−2,  `M`−3,  `M`−4,  `M`−5,  `M`−6,  `M`−7,  `M`−8,  `M`−9.  
+`M` − 1,  `M` − 2,  `M` − 3,  `M` − 4,  `M` − 5,  `M` − 6,  `M` − 7,  `M` − 8,  `M` − 9.  
 
 The total number of marbles is therefore `M` + (`M` − 1) + (`M` − 2) + ... + (`M` − 9) = 10`M` − 45.  
 
-We need a value of `M` such that 10`M` − 45 = 180, which implies `M`=22.5.  
+We need a value of `M` such that 10`M` − 45 = 180, which implies `M` = 22.5.  
 
-The only issue is that `M` must be a whole number. So we make an adjustment and give `M` = 23 marbles to Anna, which results in a total of 10`M` − 45 = 185 marbles.  
+The only issue is that `M` must be a whole number.  
+
+So we make an adjustment and give `M` = 23 marbles to Anna, which results in a total of 10`M` − 45 = 185 marbles.  
 
 It only then remains to remove 5 marbles from the remaining grandchildren, e.g. one possible allocation is {9, 15, 16, 17, 18, 19, 20, 21, 22, 23}.  
 :::
