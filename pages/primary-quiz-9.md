@@ -15,8 +15,14 @@ Which of the following shapes can not be created?
 * [ ] A rectangle
 * [ ] A right-angled triangle
 * [ ] A pentagon
-* [ ] An equilateral triangle
+* [ ] An isosceles triangle
 {.col-5}
+
+---
+
+![](/resources/primary-quiz-9/squares-a.png){image align="center"} 
+
+As shown, all options except a square cannot be created.  A square is impossible because the only way to preserve four right-angles is to cut the full length of the original square, which gives a rectangle.
 :::
 
 
@@ -35,6 +41,16 @@ What is the maximum number of these tiles that she can place on the 5 x 4 rectan
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+![](/resources/primary-quiz-9/2-shapes-a.png){image align="right"} 
+As the area of the rectangle is 20, we should first attempt to place five tiles.  
+
+Consider the top left square. The tile is either placed horizontally or vertically, as shown.  
+
+In both cases you will find that you can fit 4 tiles but not 5 tiles.  
+
+Therefore the maximum number of tiles that can be placed is 4.  
 :::
 
 
@@ -51,13 +67,19 @@ What is the difference between the two numbers that are next to 2011 in this lis
 * [ ] 909
 * [ ] 990
 {.col-5}
+
+---
+
+The number to the left of 2011 is 1210 and the number to the right is 2101.  
+
+So the difference is 2101 − 1210 = 891.
 :::
 
 
 ## 4.
 <!--- 2015 (16) --->
 ::: problem id=4_1 marks=2
-Arectangle has area 12 cm<sup>2</sup>. The lengths of the sides are natural numbers.  
+A rectangle has area 12 cm<sup>2</sup>. The lengths of the sides are positive whole numbers.  
 
 Which perimeter could the rectangle have? 
 
@@ -67,6 +89,12 @@ Which perimeter could the rectangle have?
 * [ ] 32 cm
 * [ ] 48 cm
 {.col-5}
+
+---
+
+The possible side lengths are (in cm): {12, 1}, {4, 3} and {6, 2}, which give perimeters, respectively, of 26 cm, 14 cm and 16 cm.  
+
+The only option that matches among those provided in the question is 26 cm.  
 :::
 
 
@@ -85,4 +113,20 @@ What is the minimum number of marbles that Anna could get?
 * [ ] 22
 * [x] 23
 {.col-5}
+
+---
+
+Call the number of marbles that Anna receives `M`.  
+
+To minimise `M` we need to maximise what the remaining 9 grandchildren get, which means they get the following amounts:  
+
+`M`−1,  `M`−2,  `M`−3,  `M`−4,  `M`−5,  `M`−6,  `M`−7,  `M`−8,  `M`−9.  
+
+The total number of marbles is therefore `M` + (`M` − 1) + (`M` − 2) + ... + (`M` − 9) = 10`M` − 45.  
+
+We need a value of `M` such that 10`M` − 45 = 180, which implies `M`=22.5.  
+
+The only issue is that `M` must be a whole number. So we make an adjustment and give `M` = 23 marbles to Anna, which results in a total of 10`M` − 45 = 185 marbles.  
+
+It only then remains to remove 5 marbles from the remaining grandchildren, e.g. one possible allocation is {9, 15, 16, 17, 18, 19, 20, 21, 22, 23}.  
 :::
