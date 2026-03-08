@@ -21,8 +21,48 @@ How much does one bar of chocolate cost?
 
 
 ## 2.
-<!--- 2013 (16) --->
+<!--- 2012 (8) --->
 ::: problem id=2_1 marks=1
+In the school for animals there are 3 cats, 2 ducks, 2 sheep and some dogs.  
+
+The teacher counted the legs of all the animals, and got 44.  
+
+How many dogs go to the school?  
+
+* [ ] 6
+* [x] 5
+* [ ] 4
+* [ ] 3
+* [ ] 2
+{.col-5}
+:::
+
+
+## 3.
+<!--- 2012 (13) --->
+::: problem id=3_1 marks=2
+Lisa built a large cube out of 8 smaller ones.  
+
+The small cubes have the same letter on each of their faces (A, B, C, or D).  
+
+Two cubes with a common face always have a different letter on them.  
+
+![](/resources/primary-quiz-19/3-a-cube.png){image align="center"} 
+
+Which letter is on the cube that cannot be seen in the picture? 
+
+* [ ] A
+* [x] B
+* [ ] C
+* [ ] D
+* [ ] The picture is not possible
+{.col-5}
+:::
+
+
+## 4.
+<!--- 2013 (16) --->
+::: problem id=4_1 marks=2
 In the last game of the hockey match there were lots of goals.  
 
 In the first half 6 goals were scored and the visiting team were leading.  
@@ -40,23 +80,21 @@ How many goals did the hometeam score in total?
 :::
 
 
-## 3.
-<!--- 2012 (13) --->
-::: problem id=3_1 marks=1
-Lisa built a large cube out of 8 smaller ones.  
+## 5.
+<!--- 2016 (23) --->
+::: problem id=5_1 marks=3
+The symbols ♣, ♥ and ♦ represent three different digits.  
 
-The small cubes have the same letter on each of their faces (A, B, C, or D).  
+If the digits of the number ♣♥♣ are added, you receive the two-digit number ♥♦.  
 
-Two cubes with a common face always have a different letter on them.  
+If the digits of the two-digit number ♥♦ are added, you receive the single-digit number ♥.  
 
-![](/resources/primary-quiz-19/3-cube.png){image align="center"} 
+Which digit is represented by ♣? 
 
-Which letter is on the cube that cannot be seen in the picture? 
-
-* [ ] A
-* [x] B
-* [ ] C
-* [ ] D
-* [ ] The picture is not possible
+* [ ] 4
+* [ ] 5
+* [ ] 6
+* [ ] 8
+* [x] 9
 {.col-5}
 :::

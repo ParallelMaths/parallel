@@ -11,11 +11,11 @@ A white and a grey ring are interlinked with one another.
 
 Peter sees the two rings from the front as they are seen in the diagram here.  
 
-![](/resources/primary-quiz-16/1-rings-q.png){image align="center"} 
+![](/resources/primary-quiz-16/1-ring-q.png){image align="center"} 
 
 Paul sees the rings from the back. What does he see? 
 
-![](/resources/primary-quiz-16/1-rings-a.png){image align="center"} 
+![](/resources/primary-quiz-16/1-ring-a.png){image align="center"} 
 
 * [ ] A
 * [ ] B
@@ -47,8 +47,26 @@ How much milk has she drunk in the past two weeks?
 
 
 ## 3.
+<!--- 2015 (12) --->
+::: problem id=3_1 marks=2
+Each day Maria writes down the date and then adds together the individual digits.  
+
+For instance today on the 23rd March she writes 23. 03. and calculates 2 + 3 + 0 + 3 = 8.  
+
+What is the largest total she make in this way in the course of a year? 
+
+* [ ] 7
+* [ ] 13
+* [ ] 14
+* [ ] 16
+* [x] 20
+{.col-5}
+:::
+
+
+## 4.
 <!--- 2011 (19) --->
-::: problem id=3_1 marks=1
+::: problem id=4_1 marks=2
 Daniel wants to make a complete square using pieces only like those shown.  
 
 What is the minimum number of pieces he must use?  
@@ -58,5 +76,25 @@ What is the minimum number of pieces he must use?
 * [ ] 12
 * [ ] 16
 * [x] 20
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2016 (20) --->
+::: problem id=5_1 marks=3
+Luigi owns a few square tables and some chairs for his little restaurant.  
+
+If he sets out his tables individually with 4 chairs each, then he is 6 chairs short.  
+
+If he always puts two tables together to create a bigger table with 6 chairs, then he has 4 chairs left over.  
+
+How many tables does Luigi have?  
+
+* [ ] 8
+* [x] 10
+* [ ] 12
+* [ ] 14
+* [ ] 16
 {.col-5}
 :::

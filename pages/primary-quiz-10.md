@@ -44,12 +44,12 @@ How many numbers between 20 and 30 have the same property as 36?
 
 ## 3.
 <!--- 2011 (13) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 Nina made a wall around a square area, using 36 identical cubes.  
 
 A section of the wall is shown in the picture.  
 
-![](/resources/primary-quiz-10/3-wall.png){image align="center"} 
+![](/resources/primary-quiz-10/3-walls.png){image align="center"} 
 
 How many cubes will she now need to completely fill the square area. 
 
@@ -59,4 +59,40 @@ How many cubes will she now need to completely fill the square area.
 * [ ] 81
 * [ ] 100
 {.col-5}
+:::
+
+## 4.
+<!--- 2015 (15) --->
+::: problem id=4_1 marks=2
+Lucy and her mother were both born in January.  
+
+Today on 23rd March 2015 lucy adds together her year of birth, that of her mother, her age and that of her mother.  
+
+Which answer does she get? 
+
+* [ ] 4028
+* [ ] 4029
+* [x] 4030
+* [ ] 4031
+* [ ] 4032
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2014 (23) --->
+::: problem id=5_1 marks=3
+Mia writes three single-digit numbers on the board.  
+
+Ali adds them and gets 15. Then he deletes one of the three numbers and replaces it with the number 3.  
+
+Resi multiplies these three numbers and obtains 36.  
+
+Which numbers could Ali have deleted? 
+
+* [ ] either 6 or 7
+* [x] either 7 or 8
+* [ ] only 6
+* [ ] only 7
+* [ ] only 8
 :::

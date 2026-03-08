@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 A blackboard has a total unfolded length of 6m.  The middle section is 3m long.  
  
-![](/resources/primary-quiz-20/1-blackboard.png){image align="center"} 
+![](/resources/primary-quiz-20/1-blackboards.png){image align="center"} 
 
 How long is the section labelled with a questionmark? 
 
@@ -29,7 +29,7 @@ The little witch is taking part in a broomstick flying competition that is carri
 
 The times in which she crossed the starting line can be seen in the table.  
 
-![](/resources/primary-quiz-20/2-table.png){image align="center"} 
+![](/resources/primary-quiz-20/2-tables.png){image align="center"} 
 
 Which round was her fastest? 
 
@@ -44,7 +44,7 @@ Which round was her fastest?
 
 ## 3.
 <!--- 2012 (14) --->
-::: problem id=3_1 marks=1
+::: problem id=3_1 marks=2
 The Natural numbers are to be painted.  
 
 1 is red, 2 is blue, 3 is green, 4 is red, 5 is blue, 6 is green and so on.  
@@ -56,5 +56,43 @@ Which colour(s), can the sum of a red and a blue number have?
 * [ ] Blue only
 * [x] Red or blue
 * [ ] Impossible to say
+{.col-5}
+:::
+
+
+## 4.
+<!--- 2014 (16) --->
+::: problem id=4_1 marks=2
+The points A, B, C, D, E, F are situated on a straight line in this order.  
+
+The following distances on this line are known: *AF* = 35, *AC* = 12, *BD* = 11, *CE* = 12 and *DF* = 16.  
+
+How long is the distance *BE*? 
+
+* [ ] 13
+* [ ] 14
+* [ ] 15
+* [ ] 16
+* [x] 17
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2016 (24) --->
+::: problem id=5_1 marks=3
+Two three-digit numbers are made up of six different digits.  
+
+The first digit of the second number is twice as big as the last digit of the first number.  
+
+Note: 0 is also a digit but cannot be the first digit of a number!  
+
+How big is the smallest possible sum of the two numbers? 
+
+* [ ] 301
+* [ ] 535
+* [x] 537
+* [ ] 546
+* [ ] 552
 {.col-5}
 :::

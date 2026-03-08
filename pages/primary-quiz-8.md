@@ -15,6 +15,14 @@ A motorcycle driver covers a distance 28km in 30 minutes. What was his average s
 * [ ] 58
 * [ ] 62
 {.col-5}
+
+---
+
+At the same speed, the motorcycle driver would cover another 28 km in the next 30 minutes.  
+
+So in one hour, he would cover a total of 56 km.  
+
+So his average speed is 56 km/h.
 :::
 
 
@@ -33,6 +41,14 @@ How many passenger seats are there on this aeroplane?
 * [ ] 144
 * [ ] 150
 {.col-5}
+
+---
+
+If every row had 6 seats there would be a total of 150 seats.  
+
+Since row 13 has no seats, we subtract 6 seats and since row 15 only has 4 seats we subtract a further 2 seats.  
+
+So the total number of seats on the aeroplane is 150 − 6 − 2 = 142.  
 :::
 
 
@@ -45,12 +61,22 @@ Fridolin the hamster runs through the maze in the picture.
 
 What is the maximum number of pumpkin seeds that he can collect? 
 
-![](/resources/primary-quiz-8/3-maze.png){image align="center"} 
+![](/resources/primary-quiz-8/3-mazes.png){image align="center"} 
 
-* [ ] 1
-* [x] 3
-* [ ] 5
 * [ ] 7
 * [ ] 9
+* [ ] 11
+* [x] 13
+* [ ] 15
 {.col-5}
+
+---
+![](/resources/primary-quiz-8/3-mazes-answer.png){image align="right"} 
+As shown in the picture, it is possible for Fridolin to collect 13 seeds.  
+
+Fridolin can not collect the leftmost seed on the bottom row as this will prevent him from exiting the maze (as he would have to return to a junction, which is not allowed).  
+
+If Fridolin collects either of the other two seeds that he missed then he would not be able to collect the seed at the opposite end of the same row. So he has to miss out on a further two seeds regardless.  
+
+Therefore, the maximum number of seeds that Fridolin can collect is 13.  
 :::

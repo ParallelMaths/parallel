@@ -68,4 +68,10 @@ On which day will he paint the last letter?
 * [ ] Thursday
 * [ ] Friday
 {.col-5}
+
+---
+
+KANGAROO has eight letters and the first of these is painted on Wednesday.  
+
+The final letter is therefore painted 7 days later, which is also a Wednesday.
 :::
