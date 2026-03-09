@@ -5,78 +5,105 @@
 
 
 ## 1.
-<!--- 2011 (2) --->
+<!--- 2016 (5) --->
 ::: problem id=1_1 marks=1
-A motorcycle driver covers a distance 28km in 30 minutes. What was his average speed in km/h? 
+![](/resources/primary-quiz-8/1-square.png){image align="right"} 
+Kathi draws a square with side length 10 cm.  
 
-* [ ] 28
-* [ ] 36
-* [x] 56
-* [ ] 58
-* [ ] 62
+Then she joins the midpoints of each side to form a smaller square.  
+
+What is the area of the smaller square? 
+
+* [ ] 10 cm<sup>2</sup>
+* [ ] 20 cm<sup>2</sup>
+* [ ] 25 cm<sup>2</sup>
+* [ ] 40 cm<sup>2</sup>
+* [x] 50 cm<sup>2</sup>
 {.col-5}
-
----
-
-At the same speed, the motorcycle driver would cover another 28 km in the next 30 minutes.  
-
-So in one hour, he would cover a total of 56 km.  
-
-So his average speed is 56 km/h.
 :::
 
 
 ## 2.
-<!--- 2012 (9) --->
+<!--- 2017 (7) --->
 ::: problem id=2_1 marks=1
-The last row in an aeroplane is row 25.  
+![](/resources/primary-quiz-8/2-grid.png){image align="right"} 
+Max colours in the squares of the grid, so that one third of all squares are blue and one half of all squares are yellow.  
 
-There is no row 13 and row 15 has only 4 seats. Every other row has 6 seats.  
+The rest he colours in red.  
 
-How many passenger seats are there on this aeroplane?  
+How many squares does he have to colour in red?  
 
-* [ ] 120
-* [ ] 138
-* [x] 142
-* [ ] 144
-* [ ] 150
+* [ ] 1
+* [ ] 2
+* [x] 3
+* [ ] 4
+* [ ] 5
 {.col-5}
-
----
-
-If every row had 6 seats there would be a total of 150 seats.  
-
-Since row 13 has no seats, we subtract 6 seats and since row 15 only has 4 seats we subtract a further 2 seats.  
-
-So the total number of seats on the aeroplane is 150 − 6 − 2 = 142.  
 :::
 
 
 ## 3.
-<!--- 2011 (11) --->
-::: problem id=3_1 marks=1
-Fridolin the hamster runs through the maze in the picture.  
+<!--- 2012 (11) --->
+::: problem id=2_1 marks=1
+Grandmother gave Vivian and Mike some apples and pears.  
 
-16 pumpkin seeds are laying on the path. He is only allowed to cross each junction once.  
+In total they had 25 piecs of fruit.  
 
-What is the maximum number of pumpkin seeds that he can collect? 
+On the way home Vivian ate 1 apple and 3 pears, Mike ate 3 apples and 2 pears.  
 
-![](/resources/primary-quiz-8/3-mazes.png){image align="center"} 
+At home they noted that there were exactly the same number of apples and pears in the basket.  
 
-* [ ] 7
-* [ ] 9
-* [ ] 11
+How many pears had grandmother given them?  
+
+* [ ] 12
 * [x] 13
-* [ ] 15
+* [ ] 16
+* [ ] 20
+* [ ] 21
 {.col-5}
-
----
-![](/resources/primary-quiz-8/3-mazes-answer.png){image align="right"} 
-As shown in the picture, it is possible for Fridolin to collect 13 seeds.  
-
-Fridolin can not collect the leftmost seed on the bottom row as this will prevent him from exiting the maze (as he would have to return to a junction, which is not allowed).  
-
-If Fridolin collects either of the other two seeds that he missed then he would not be able to collect the seed at the opposite end of the same row. So he has to miss out on a further two seeds regardless.  
-
-Therefore, the maximum number of seeds that Fridolin can collect is 13.  
 :::
+
+
+## 4.
+<!--- 2017 (17) --->
+::: problem id=4_1 marks=2
+![](/resources/primary-quiz-8/4-cubes.png){image align="right"} 
+A big cube is made up of 9 identical building blocks.  
+
+Each building block looks like the image to the right.   
+
+Which big cube is possible? 
+
+![](/resources/primary-quiz-8/4-cubes-options.png){image align="center"} 
+
+* [x] A
+* [ ] B
+* [ ] C
+* [ ] D
+* [ ] E
+{.col-5}
+:::
+
+
+## 5.
+<!--- 2018 (24) --->
+::: problem id=5_1 marks=5
+![](/resources/primary-quiz-8/5-pattern.png){image align="right"} 
+The figure shown on the right consists of one square part and eight rectangular parts.  
+
+Each part is 8 cm wide.  
+
+Peter assembles all parts to form one long, 8 cm wide rectangle.  
+
+How long is this rectangle?  
+
+* [ ] 150 cm
+* [ ] 168 cm
+* [ ] 196 cm
+* [x] 200 cm
+* [ ] 232 cm
+{.col-5}
+:::
+
+
+
