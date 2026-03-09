@@ -73,11 +73,11 @@ In the last few days, a child has had a total of 26 fish.
 
 How many fish did the other child get?
 
-* [ ] 7
-* [ ] 9
-* [ ] 11
-* [x] 13
-* [ ] 15
+* [ ] 19
+* [ ] 22
+* [ ] 25
+* [x] 28
+* [ ] 31
 {.col-5}
 
 ---
