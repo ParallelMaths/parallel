@@ -1824,6 +1824,11 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-2
+    title: Kangaroo Quiz 2
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
 
 test-archive:
   - url: ukmt-score
