@@ -9,7 +9,7 @@
 ::: problem id=1_1 marks=1
 73 + 84
 
-<input solution="171"/>  
+<input solution="157"/>  
 :::
 
 
@@ -17,7 +17,7 @@
 ::: problem id=2_1 marks=1
 9 × 12
 
-<input solution="96"/>  
+<input solution="108"/>  
 :::
 
 
@@ -73,7 +73,7 @@
 ::: problem id=9_1 marks=1
 876 - 580
 
-<input solution="196"/>  
+<input solution="296"/>  
 :::
 
 
@@ -183,7 +183,7 @@ Number of minutes in 6.25 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-(−3) + (−2) × (-5)
+(-3) + (-2) × (-5)
 
 <input solution="7"/>  
 :::

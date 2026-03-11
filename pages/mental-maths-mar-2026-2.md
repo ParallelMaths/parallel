@@ -183,7 +183,7 @@ Number of minutes in 7.5 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-(−6) + (−4) × (-5)
+(-6) + (-4) × (-5)
 
 <input solution="14"/>  
 :::
