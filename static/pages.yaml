@@ -1274,6 +1274,9 @@ homework:
   - url:  academy-8spr-week-7
     title: Parallel Academy Year 8 Spring Term Week 7
     available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-8
+    title: Parallel Academy Year 8 Spring Term Week 8
+    available: 2025-08-12T09:00:00  
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1358,6 +1361,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  academy-9spr-week-7
     title: Parallel Academy Year 9 Spring Term Week 7
+    available: 2025-08-12T09:00:00  
+  - url:  academy-9spr-week-8
+    title: Parallel Academy Year 9 Spring Term Week 8
     available: 2025-08-12T09:00:00  
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
@@ -1490,6 +1496,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  webinar-imc-spring-week-7
     title: Parallel Academy IMC Spring Term Week 7
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-8
+    title: Parallel Academy IMC Spring Term Week 8
     available: 2025-08-12T09:00:00  
   - url:  visibility-test
     title: Visibility Test
