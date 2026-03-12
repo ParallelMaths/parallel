@@ -43,7 +43,7 @@ Which of the following pictures shows Jane, Kate and Lynn in the rig
 
 ## 3.
 <!--- 2015 (11) --->
-::: problem id=2_1 marks=1
+::: problem id=3_1 marks=2
 Thomas has made the following shape with 6 squares of side length 1.
 
 ![](/resources/primary-quiz-29/3-shape.png){image align="center"} 
@@ -82,7 +82,7 @@ What is the total area of the figure shown? 
 
 ## 5.
 <!--- 2018 (23) --->
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=3
 Nick wants to split the numbers 2, 3, 4, 5, 6, 7, 8, 9, 10 into some groups so that the sum of the numbers in each group is equally big.  
 
 What is the biggest number of groups he can build this way? 

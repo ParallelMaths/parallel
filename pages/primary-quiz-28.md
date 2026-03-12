@@ -85,7 +85,7 @@ What is the length of the boarder of the shape (thick black line)?
 
 ## 5.
 <!--- 2018 (22) --->
-::: problem id=5_1 marks=5
+::: problem id=5_1 marks=3
 The sum of Kathi’s age and the age of her mother is 36.  
 
 The sum of the age of her mother and the age of her grandmother is 81.  
