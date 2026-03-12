@@ -61,9 +61,9 @@ Car 1 will not reach the position of car 3 until after car 3 has passed this poi
 ## 3.
 <!--- 2024 (14) --->
 ::: problem id=3_1 marks=1
-![](/resources/kangaroo-quiz-3/3-caterpillar.png){image align="right"} 
-
 Lucas has these five pieces of a puzzle available.  
+
+![](/resources/kangaroo-quiz-3/3-caterpillar.png){image align="center"} 
 
 He wants to lay a caterpillar consisting of a head, a tail and 1, 2 or 3 parts in between.  
 
