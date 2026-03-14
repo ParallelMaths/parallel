@@ -16,9 +16,19 @@ const validateString = (value) => {
     return null
 }
 
+const getCleanNumber = (n) => {
+  if (!n) return null;
+  const parsed = parseInt(n);
+  if (isNaN(parsed)) return null;
+  return parsed;
+};
+
 const validateNumber = (value) => {
     if(typeof value === 'number') {
         return value;
+    }
+    if (typeof value === 'string') {
+        return getCleanNumber(value);
     }
     return null
 }
