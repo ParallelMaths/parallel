@@ -1223,6 +1223,9 @@ homework:
   - url: academy-7spr-week-7
     title: Parallel Academy Year 7 Spring Term Week 7
     available: 2025-05-12T09:00:00
+  - url: academy-7spr-week-8
+    title: Parallel Academy Year 7 Spring Term Week 8
+    available: 2025-05-12T09:00:00
   - url:  academy-7sum-synoptic
     title: Year 7 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1273,6 +1276,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  academy-8spr-week-7
     title: Parallel Academy Year 8 Spring Term Week 7
+    available: 2025-08-12T09:00:00  
+  - url:  academy-8spr-week-8
+    title: Parallel Academy Year 8 Spring Term Week 8
     available: 2025-08-12T09:00:00  
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
@@ -1359,6 +1365,9 @@ homework:
   - url:  academy-9spr-week-7
     title: Parallel Academy Year 9 Spring Term Week 7
     available: 2025-08-12T09:00:00  
+  - url:  academy-9spr-week-8
+    title: Parallel Academy Year 9 Spring Term Week 8
+    available: 2025-08-12T09:00:00  
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1400,6 +1409,9 @@ homework:
     available: 2025-05-12T09:00:00
   - url:  webinar-7spr-week-7
     title: Parallel Academy Year 7 Spring Term Week 7
+    available: 2025-05-12T09:00:00
+  - url:  webinar-7spr-week-8
+    title: Parallel Academy Year 7 Spring Term Week 8
     available: 2025-05-12T09:00:00
   - url:  webinar-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
@@ -1446,6 +1458,9 @@ homework:
   - url:  webinar-8spr-week-7
     title: Parallel Academy Year 8 Spring Term Week 7
     available: 2025-08-12T09:00:00
+  - url:  webinar-8spr-week-8
+    title: Parallel Academy Year 8 Spring Term Week 8
+    available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1490,6 +1505,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  webinar-imc-spring-week-7
     title: Parallel Academy IMC Spring Term Week 7
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-spring-week-8
+    title: Parallel Academy IMC Spring Term Week 8
     available: 2025-08-12T09:00:00  
   - url:  visibility-test
     title: Visibility Test
@@ -1819,6 +1837,31 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-1
+    title: Kangaroo Quiz 1
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-2
+    title: Kangaroo Quiz 2
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-3
+    title: Kangaroo Quiz 3
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-4
+    title: Kangaroo Quiz 4
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
+  - url: kangaroo-quiz-5
+    title: Kangaroo Quiz 5
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-01-15T16:00:00
+    deadline: 2065-08-31T21:00:00
 
 test-archive:
   - url: ukmt-score
@@ -1986,3 +2029,10 @@ test-archive:
     available: 2024-11-30T13:00:00
     answersVisibleFrom: 2025-02-17T13:00:00
     deadline: 2026-01-15T13:00:00
+  - url: academy-7spr-test
+    title: Parallel Academy Year 7 Spring Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2025-01-15T13:00:00
+    answersVisibleFrom: 2026-04-04T9:00:00
+    deadline: 2026-04-30T11:00:00
+    password: house

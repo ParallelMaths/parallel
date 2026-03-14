@@ -5,105 +5,112 @@
 
 
 ## 1.
-<!--- 2016 (5) --->
+<!--- 2017 (2) --->
 ::: problem id=1_1 marks=1
-![](/resources/primary-quiz-30/1-square.png){image align="right"} 
-Kathi draws a square with side length 10 cm.  
+A fly has 6 legs, a spider 8.   
 
-Then she joins the midpoints of each side to form a smaller square.  
+Therefore 3 flies and 2 spiders together have the same amount of legs as 9 chickens and...
 
-What is the area of the smaller square? 
-
-* [ ] 10 cm<sup>2</sup>
-* [ ] 20 cm<sup>2</sup>
-* [ ] 25 cm<sup>2</sup>
-* [ ] 40 cm<sup>2</sup>
-* [x] 50 cm<sup>2</sup>
+* [ ] 2 cats
+* [ ] 3 cats
+* [x] 4 cats
+* [ ] 5 cats
+* [ ] 6 cats
 {.col-5}
+
+---
+
+
 :::
 
 
 ## 2.
-<!--- 2017 (7) --->
+<!--- 2017 (9) --->
 ::: problem id=2_1 marks=1
-![](/resources/primary-quiz-30/2-grid.png){image align="right"} 
-Max colours in the squares of the grid, so that one third of all squares are blue and one half of all squares are yellow.  
+![](/resources/primary-quiz-30/2-square.png){image align="right"} 
+A rectangle is twice as long as wide.  
 
-The rest he colours in red.  
+Which fraction of the rectangle is coloured in grey? 
 
-How many squares does he have to colour in red?  
-
-* [ ] 1
-* [ ] 2
-* [x] 3
-* [ ] 4
-* [ ] 5
+* [ ] `1/4`
+* [x] `3/8`
+* [ ] `3/4`
+* [ ] `1/2`
+* [ ] `3/5`
 {.col-5}
+
+---
+
+
 :::
 
 
 ## 3.
-<!--- 2012 (11) --->
-::: problem id=2_1 marks=1
-Grandmother gave Vivian and Mike some apples and pears.  
+<!--- 2017 (11) --->
+::: problem id=3_1 marks=2
+![](/resources/primary-quiz-30/3-sofas.png){image align="right"} 
+A furniture shop sells 3-seater, 2-seater and 1-seater sofas that each have an equally wide armrest on the left and the right hand side.  
 
-In total they had 25 piecs of fruit.  
+Each seat is equally wide (see picture).  
 
-On the way home Vivian ate 1 apple and 3 pears, Mike ate 3 apples and 2 pears.  
+Together with the armrests the 3-seater sofa is 220 cm and the 2-seater sofa 160 cm wide.  
 
-At home they noted that there were exactly the same number of apples and pears in the basket.  
+How wide is the 1-seater sofa? 
 
-How many pears had grandmother given them?  
-
-* [ ] 12
-* [x] 13
-* [ ] 16
-* [ ] 20
-* [ ] 21
+* [ ] 60 cm
+* [ ] 80 cm
+* [ ] 90 cm
+* [x] 100 cm
+* [ ] 120 cm
 {.col-5}
 :::
 
 
 ## 4.
-<!--- 2017 (17) --->
+<!--- 2017 (16) --->
 ::: problem id=4_1 marks=2
-![](/resources/primary-quiz-30/4-cubes.png){image align="right"} 
-A big cube is made up of 9 identical building blocks.  
+There are eight kangaroos in a row, as seen in the picture.  
 
-Each building block looks like the image to the right.   
+![](/resources/primary-quiz-30/4-kangaroos.png){image align="center"} 
 
-Which big cube is possible? 
+Two kangaroos, that are standing next to each other and that are looking into each others eyes, are changing places by hopping past each other.  
 
-![](/resources/primary-quiz-30/4-cubes-options.png){image align="center"} 
+This is carried out until no more jumps are possible.  
 
-* [x] A
-* [ ] B
-* [ ] C
-* [ ] D
-* [ ] E
+How often did a change of places occur? 
+
+* [ ] 2
+* [ ] 10
+* [ ] 12
+* [x] 13
+* [ ] 16
 {.col-5}
+
+---
+
+
 :::
 
 
 ## 5.
-<!--- 2018 (24) --->
-::: problem id=5_1 marks=5
-![](/resources/primary-quiz-30/5-pattern.png){image align="right"} 
-The figure shown on the right consists of one square part and eight rectangular parts.  
+<!--- 2019 (21) --->
+::: problem id=5_1 marks=3
+Emil takes selfies with his 8 cousins.  
 
-Each part is 8 cm wide.  
+Each one of the 8 cousins are on two or three of the pictures.  
 
-Peter assembles all parts to form one long, 8 cm wide rectangle.  
+There are exactly 5 cousins on each of the pictures.  
 
-How long is this rectangle?  
+How many selfies does Emil take?  
 
-* [ ] 150 cm
-* [ ] 168 cm
-* [ ] 196 cm
-* [x] 200 cm
-* [ ] 232 cm
+* [ ] 3
+* [x] 4
+* [ ] 5
+* [ ] 6
+* [ ] 7
 {.col-5}
+
+---
+
+
 :::
-
-
-

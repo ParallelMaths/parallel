@@ -5,78 +5,130 @@
 
 
 ## 1.
-<!--- 2011 (2) --->
-::: problem id=1_1 marks=1
-A motorcycle driver covers a distance 28km in 30 minutes. What was his average speed in km/h? 
+<!--- 2011 (3) --->
+::: problem id=1_1 marks=1 
+A square piece of paper is cut in a straight line into two pieces.  
 
-* [ ] 28
-* [ ] 36
-* [x] 56
-* [ ] 58
-* [ ] 62
+Which of the following shapes can not be created?   
+
+* [x] A square
+* [ ] A rectangle
+* [ ] A right-angled triangle
+* [ ] A pentagon
+* [ ] An isosceles triangle
 {.col-5}
 
 ---
 
-At the same speed, the motorcycle driver would cover another 28 km in the next 30 minutes.  
+![](/resources/primary-quiz-8/1-squares-a.png){image align="center"} 
 
-So in one hour, he would cover a total of 56 km.  
-
-So his average speed is 56 km/h.
+As shown, all options except a square cannot be created.  A square is impossible because the only way to preserve four right-angles is to cut the full length of the original square, which gives a rectangle.
 :::
 
 
 ## 2.
-<!--- 2012 (9) --->
+<!--- 2013 (8) --->
 ::: problem id=2_1 marks=1
-The last row in an aeroplane is row 25.  
+Anne has a few grey tiles like the one in the picture. 
+ 
+![](/resources/primary-quiz-8/2-shapes.png){image align="center"} 
+ 
+What is the maximum number of these tiles that she can place on the 5 x 4 rectangle without any overlaps? 
 
-There is no row 13 and row 15 has only 4 seats. Every other row has 6 seats.  
-
-How many passenger seats are there on this aeroplane?  
-
-* [ ] 120
-* [ ] 138
-* [x] 142
-* [ ] 144
-* [ ] 150
+* [ ] 2
+* [ ] 3
+* [x] 4
+* [ ] 5
+* [ ] 6
 {.col-5}
 
 ---
+![](/resources/primary-quiz-8/2-shapes-a.png){image align="right"} 
+As the area of the rectangle is 20, we should first attempt to place five tiles.  
 
-If every row had 6 seats there would be a total of 150 seats.  
+Consider the top left square. The tile is either placed horizontally or vertically, as shown.  
 
-Since row 13 has no seats, we subtract 6 seats and since row 15 only has 4 seats we subtract a further 2 seats.  
+In both cases you will find that you can fit 4 tiles but not 5 tiles.  
 
-So the total number of seats on the aeroplane is 150 − 6 − 2 = 142.  
+Therefore the maximum number of tiles that can be placed is 4.  
 :::
 
 
 ## 3.
-<!--- 2011 (11) --->
-::: problem id=3_1 marks=1
-Fridolin the hamster runs through the maze in the picture.  
+<!--- 2011 (12) --->
+::: problem id=3_1 marks=2
+All the four digit numbers with the same digits as 2011 (i.e. 0, 1, 1, 2) are written in a row in ascending order.  
 
-16 pumpkin seeds are laying on the path. He is only allowed to cross each junction once.  
+What is the difference between the two numbers that are next to 2011 in this list? 
 
-What is the maximum number of pumpkin seeds that he can collect? 
-
-![](/resources/primary-quiz-8/3-mazes.png){image align="center"} 
-
-* [ ] 7
-* [ ] 9
-* [ ] 11
-* [x] 13
-* [ ] 15
+* [ ] 890
+* [x] 891
+* [ ] 900
+* [ ] 909
+* [ ] 990
 {.col-5}
 
 ---
-![](/resources/primary-quiz-8/3-mazes-answer.png){image align="right"} 
-As shown in the picture, it is possible for Fridolin to collect 13 seeds.  
 
-Fridolin can not collect the leftmost seed on the bottom row as this will prevent him from exiting the maze (as he would have to return to a junction, which is not allowed).  
+The number to the left of 2011 is 1210 and the number to the right is 2101.  
 
-If Fridolin collects either of the other two seeds that he missed then he would not be able to collect the seed at the opposite end of the same row. So he has to miss out on a further two seeds regardless.  
+So the difference is 2101 − 1210 = 891.
+:::
 
-Therefore, the maximum number of seeds that Fridolin can collect is 13.  
+
+## 4.
+<!--- 2015 (16) --->
+::: problem id=4_1 marks=2
+A rectangle has area 12 cm<sup>2</sup>. The lengths of the sides are positive whole numbers.  
+
+Which perimeter could the rectangle have? 
+
+* [ ] 20 cm
+* [x] 26 cm
+* [ ] 28 cm
+* [ ] 32 cm
+* [ ] 48 cm
+{.col-5}
+
+---
+
+The possible side lengths are (in cm): {12, 1}, {4, 3} and {6, 2}, which give perimeters, respectively, of 26 cm, 14 cm and 16 cm.  
+
+The only option that matches among those provided in the question is 26 cm.  
+:::
+
+
+## 5.
+<!--- 2014 (24) --->
+::: problem id=5_1 marks=3
+Grandma gives 180 marbles to her ten grandchildren.  
+
+No two children get the same amount of marbles. Anna gets the most.  
+
+What is the minimum number of marbles that Anna could get? 
+
+* [ ] 19
+* [ ] 20
+* [ ] 21
+* [ ] 22
+* [x] 23
+{.col-5}
+
+---
+
+Call the number of marbles that Anna receives `M`.  
+
+To minimise `M` we need to maximise what the remaining 9 grandchildren get, which means they get the following amounts:  
+
+`M` − 1,  `M` − 2,  `M` − 3,  `M` − 4,  `M` − 5,  `M` − 6,  `M` − 7,  `M` − 8,  `M` − 9.  
+
+The total number of marbles is therefore `M` + (`M` − 1) + (`M` − 2) + ... + (`M` − 9) = 10`M` − 45.  
+
+We need a value of `M` such that 10`M` − 45 = 180, which implies `M` = 22.5.  
+
+The only issue is that `M` must be a whole number.  
+
+So we make an adjustment and give `M` = 23 marbles to Anna, which results in a total of 10`M` − 45 = 185 marbles.  
+
+It only then remains to remove 5 marbles from the remaining grandchildren, e.g. one possible allocation is {9, 15, 16, 17, 18, 19, 20, 21, 22, 23}.  
 :::
