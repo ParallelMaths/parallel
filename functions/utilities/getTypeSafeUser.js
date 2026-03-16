@@ -16,9 +16,19 @@ const validateString = (value) => {
     return null
 }
 
+const getCleanNumber = (n) => {
+  if (!n) return null;
+  const parsed = parseInt(n);
+  if (isNaN(parsed)) return null;
+  return parsed;
+};
+
 const validateNumber = (value) => {
     if(typeof value === 'number') {
         return value;
+    }
+    if (typeof value === 'string') {
+        return getCleanNumber(value);
     }
     return null
 }
@@ -30,11 +40,27 @@ const validateBoolean = (value) => {
     return null
 }
 
+const validateStringArray = (value) => {
+    if(Array.isArray(value)) {
+        return value.filter(s => typeof s === 'string' && s);
+    }
+    return null
+}
+
 const getGuardianEmails = (user) => {
     try {
       return [...new Set([user?.guardianEmail, ...(user?.emails?.filter(e => e?.type === 'guardian').map(e => e?.email) || [])])].filter(s => typeof s === 'string' && s)   
     } catch (error) {
         console.error('Error getting guardian emails:', error);
+        return [];
+    }
+}
+
+const getAdditionalStudentEmails = (user) => {
+    try {
+      return [...new Set([...(user?.emails?.filter(e => e?.type === 'student').map(e => e?.email) || [])])].filter(s => typeof s === 'string' && s)   
+    } catch (error) {
+        console.error('Error getting student emails:', error);
         return [];
     }
 }
@@ -51,7 +77,7 @@ const getTypeSafeUser = (user) => {
         uid: validateString(user.uid),
         first: validateString(user.first),
         last: validateString(user.last),
-        teacherCode: validateString(user.teacherCode),
+        teacherCode: null, // deprecated - use teacherCodes array instead
         code: validateString(user.code),
         level: validateString(user.level),
         birthMonth: validateNumber(user.birthMonth),
@@ -59,7 +85,7 @@ const getTypeSafeUser = (user) => {
         schoolName: validateString(user.schoolName),
         phoneNumber: validateString(user.phoneNumber),
         postCode: validateString(user.postCode),
-        guardianEmail: validateString(user.guardianEmail),
+        guardianEmail: null, // deprecated - use guardianEmails array instead
         guardianEmails: getGuardianEmails(user),
         privacy: user.privacy,
         privacyDebug: user.privacyDebug,
@@ -75,6 +101,16 @@ const getTypeSafeUser = (user) => {
         acceptedEuclidTerms: validateBoolean(user.acceptedEuclidTerms),
         euclidEnrolYearGroup: validateString(user.euclidEnrolYearGroup),
         euclidEnrolTimestamp: validateNumber(user.euclidEnrolTimestamp),
+
+        teacherCodes: validateStringArray(user.teacherCode),
+        additionalStudentEmails: getAdditionalStudentEmails(user),
+        ethnicity: validateString(user.ethnicity),
+        country: validateString(user.country),
+        ukCountry: validateString(user.ukCountry),
+        homeEducated: validateBoolean(user.homeEducated),
+        homeEducatedConfirm: validateBoolean(user.homeEducatedConfirm),
+        schoolEmail: validateString(user.schoolEmail),
+
         privacyDebug: {
             firstSeen: validateNumber(user[firstSeenKey]),
             latestTouch: validateNumber(user[latestTouchKey]),
