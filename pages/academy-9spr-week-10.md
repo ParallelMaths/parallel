@@ -1,4 +1,4 @@
-# Parallel Academy Year 9 Spring Term Week 9 Assignment
+# Parallel Academy Year 9 Spring Term Week 10 Assignment
 
 These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
@@ -21,91 +21,91 @@ We will also be running a weekly homework review session (look out for our email
 Note that these questions are based on content covered in Week 10. 
 
 ## 1.	
-![](/resources/academy-9spr-week-9/q1.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
 <input type="number" solution="15"/>  
  
 ---
 
-![](/resources/academy-9spr-week-9/s1.png){image align="center"}
+![](/resources/academy-9spr-week-10/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-9spr-week-9/q2.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 <input type="number" solution="202"/> 
  
 ---
 
-![](/resources/academy-9spr-week-9/s2.png){image align="center"}
+![](/resources/academy-9spr-week-10/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-9spr-week-9/q3.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
 <input type="number" solution="127"/>  
 
 ^^^ hint id=3_1_1 marks=1
-![](/resources/academy-9spr-week-9/h3.png){image align="center"} 
+![](/resources/academy-9spr-week-10/h3.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-9spr-week-9/s3.png){image align="center"}
+![](/resources/academy-9spr-week-10/s3.png){image align="center"}
 :::  
 
 
 ## 4.
-![](/resources/academy-9spr-week-9/q4.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
 <input type="number" solution="84"/>  
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-9spr-week-9/h4.png){image align="center"} 
+![](/resources/academy-9spr-week-10/h4.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-9spr-week-9/s4.png){image align="center"}
+![](/resources/academy-9spr-week-10/s4.png){image align="center"}
 :::  
 
 
 ## 5.
-![](/resources/academy-9spr-week-9/q5.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
 <input type="number" solution="126"/> 
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-9spr-week-9/h5.png){image align="center"} 
+![](/resources/academy-9spr-week-10/h5.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-9spr-week-9/s5.png){image align="center"}
+![](/resources/academy-9spr-week-10/s5.png){image align="center"}
 ::: 
 
 
 ## 6.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-9spr-week-9/q6.png){image align="center"}  
+![](/resources/academy-9spr-week-10/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
 <input type="number" solution="4970"/> 
 
 ^^^ hint id=6_1_1 marks=1
-![](/resources/academy-9spr-week-9/h6.png){image align="center"} 
+![](/resources/academy-9spr-week-10/h6.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-9spr-week-9/s6.png){image align="center"}
+![](/resources/academy-9spr-week-10/s6.png){image align="center"}
 :::  
  
 
