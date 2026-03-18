@@ -1,4 +1,4 @@
-# Parallel Academy Year 8 Spring Term Week 8 Assignment
+# Parallel Academy Year 8 Spring Term Week 9 Assignment
 
 These problems relate to a recent theme you have been covering during webinars. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
@@ -18,91 +18,97 @@ You should only leave an answer blank if you have really thought about the probl
 
 
 ## 1.	
-![](/resources/academy-8spr-week-8/q1.png){image align="center"}  
+![](/resources/academy-8spr-week-9/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-<input type="number" solution="4900"/>  
+<input type="text" solution="R"/>  
  
 ---
 
-![](/resources/academy-8spr-week-8/s1.png){image align="center"}
+![](/resources/academy-8spr-week-9/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-8spr-week-8/q2.png){image align="center"}  
+![](/resources/academy-8spr-week-9/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
-<input type="number" solution="167"/>  
+<input type="number" solution="4"/>  
 
 ^^^ hint id=2_1_1 marks=1
-![](/resources/academy-8spr-week-8/h2.png){image align="center"} 
+![](/resources/academy-8spr-week-9/h2.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8spr-week-8/s2.png){image align="center"}
+![](/resources/academy-8spr-week-9/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-8spr-week-8/q3.png){image align="center"}  
+![](/resources/academy-8spr-week-9/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
-<input type="number" solution="3600"/>  
+<input type="number" solution="2"/>  
 
 ^^^ hint id=3_1_1 marks=1
-![](/resources/academy-8spr-week-8/h3.png){image align="center"} 
+![](/resources/academy-8spr-week-9/h3.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-8spr-week-8/s3.png){image align="center"}
+![](/resources/academy-8spr-week-9/s3.png){image align="center"}
 :::  
 
 
 ## 4.
-![](/resources/academy-8spr-week-8/q4.png){image align="center"}  
+![](/resources/academy-8spr-week-9/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
-<input type="number" solution="25281"/>  
+<input type="number" solution="2"/>  
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-8spr-week-8/h4.png){image align="center"} 
+![](/resources/academy-8spr-week-9/h4.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8spr-week-8/s4.png){image align="center"}
+![](/resources/academy-8spr-week-9/s4.png){image align="center"}
 :::  
 
 
 ## 5.
-![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-8spr-week-8/q5.png){image align="center"}  
+![](/resources/academy-8spr-week-9/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-![](/resources/academy-8spr-week-8/q5a.png){image align="center"} 
-a) <input type="number" solution="19683"/> 
+<input type="number" solution="2"/>  
 
----
-
-![](/resources/academy-8spr-week-8/s5a.png){image align="center"}
-:::  
-
-::: problem id=5_2 marks=2
-![](/resources/academy-8spr-week-8/q5b.png){image align="center"} 
-b) <input type="number" solution="9841"/>  
-
-^^^ hint id=5_2_1 marks=1
-![](/resources/academy-8spr-week-8/h5b.png){image align="center"} 
-^^^  
-
----
-
-![](/resources/academy-8spr-week-8/s5b.png){image align="center"}
-:::  
+^^^ hint id=5_1_1 marks=1
+![](/resources/academy-8spr-week-9/h5.png){image align="center"} 
+^^^ 
  
+---
+
+![](/resources/academy-8spr-week-9/s5.png){image align="center"}
+::: 
+
+
+## 6.
+![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
+![](/resources/academy-8spr-week-9/q6.png){image align="center"}  
+
+::: problem id=6_1 marks=2
+<input type="number" solution="68"/> 
+
+^^^ hint id=6_1_1 marks=1
+![](/resources/academy-8spr-week-9/h6.png){image align="center"} 
+^^^ 
+
+---
+
+![](/resources/academy-8spr-week-9/s6.png){image align="center"}
+:::  
+
 
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
