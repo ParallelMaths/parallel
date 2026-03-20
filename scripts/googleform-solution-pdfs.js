@@ -6,11 +6,11 @@ const downloadUsers = require("./utils/downloadUsers");
 
 // ---------------------
 
-const csvFile = "/Users/drew.mcmillan/Downloads/markedscriptsfordrew.csv";
+const csvFile = "/Users/drew.mcmillan/Desktop/thisone.csv";
 const dry = false;
 const emailKey = "email";
 const solutionKey = "url";
-const pg = "academy-8aut-week-3"
+const pg = "academy-8spr-week-7"
 
 // ---------------------
 
