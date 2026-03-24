@@ -27,7 +27,9 @@ The area of the larger square is 10<sup>2</sup> = 100 cm<sup>2</sup>.
 
 By drawing on its diagonals, we can split the smaller square into 4 identical isosceles triangles.  
 
-Observe that the larger square consists of 8 of these triangles, so the smaller square has an area of `1/2 × 100 = 50` cm<sup>2</sup>.  
+Observe that the larger square consists of 8 of these triangles.  
+
+Therefore the smaller square has an area of `1/2 × 100 = 50` cm<sup>2</sup>.  
 :::
 
 
