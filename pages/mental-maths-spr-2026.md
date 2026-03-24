@@ -185,7 +185,7 @@ Number of minutes in 8.5 hours
 ::: problem id=23_1 marks=1
 (−5) + (−8) × 5
 
-<input solution="−45"/>  
+<input solution="-45"/>  
 :::
 
 
