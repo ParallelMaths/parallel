@@ -38,7 +38,7 @@
 ::: problem id=5_1 marks=1
 ![](/resources/academy-8spr-test/q5.png){image align="center"}
 
-<input type="number" solution="5"/>  
+<input type="number" solution="3"/>  
 :::
 
 
@@ -110,7 +110,7 @@
 ::: problem id=14_1 marks=1
 ![](/resources/academy-8spr-test/q14.png){image align="center"}
 
-<input type="number" solution="45"/>  
+<input type="number" solution="81"/>  
 :::
 
 
