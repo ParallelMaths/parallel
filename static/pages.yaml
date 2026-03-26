@@ -1560,11 +1560,7 @@ test:
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-<<<<<<< HEAD
-    answersVisibleFrom: 2027-01-11T13:00:00
-=======
     answersVisibleFrom: 2026-04-11T13:00:00
->>>>>>> 26d3c7ef2338a8ddb187598e6945e93cbbc74b7f
     deadline: 2026-08-10T16:00:00
     password: cop
   - url: mental-maths-mar-2026-2
