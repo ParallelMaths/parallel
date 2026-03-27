@@ -1562,7 +1562,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-04-11T13:00:00
     deadline: 2026-08-10T16:00:00
-    password: cop
+    password: sat
   - url: mental-maths-mar-2026-2
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1893,42 +1893,42 @@ test:
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
   - url: academy-8spr-test
     title: Parallel Academy Year 8 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
   - url: academy-8spr-test-v2
     title: Parallel Academy Year 8 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
   - url: academy-9spr-test
     title: Parallel Academy Year 9 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
   - url: academy-9spr-test-v2
     title: Parallel Academy Year 9 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
   - url: academy-10spr-test
     title: Parallel Academy Year 10 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-07-07T9:00:00
     deadline: 2026-04-30T11:00:00
-    password: map
+    password: mix
 
 test-archive:
   - url: ukmt-score
