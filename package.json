@@ -19,6 +19,7 @@
     "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
+    "set-points": "node scripts/set-points.js",
     "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project prod\""
   },
   "devDependencies": {
