@@ -16,6 +16,7 @@ const guardianPrivacyAuthTokenKey = "guardianPrivacyAuthToken";
 const acceptedKey = `${latestPrivacyVersion}-accepted`;
 const acceptedByKey = `${latestPrivacyVersion}-acceptedBy`;
 const variantModeKey = `${latestPrivacyVersion}-variant`;
+const ageSetKey = `${latestPrivacyVersion}-ageSet`;
 
 module.exports = {
   firstSeenKey,
@@ -26,4 +27,5 @@ module.exports = {
   acceptedKey,
   acceptedByKey,
   variantModeKey,
+  ageSetKey
 };
