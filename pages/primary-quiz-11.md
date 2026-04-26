@@ -19,6 +19,10 @@ How much does the biggest piece weigh?
 * [x] 450 g
 * [ ] 600 g
 {.col-5}
+
+---
+
+The biggest piece weighs as much as the other three pieces together, but they all add up to 900 g so both the biggest piece and the sum of the other three pieces must equal 900 ÷ 2 = 450 g.  
 :::
 
 
@@ -37,6 +41,10 @@ When does he take the fourth?
 * [ ] 12:00
 * [ ] 12:05
 {.col-5}
+
+---
+
+Michael takes the second tablet at 11:20, the third at 11:35 and the fourth at 11:50.  
 :::
 
 
@@ -58,7 +66,19 @@ How many white tiles would there be on a floor that had 25 black tiles?
 * [ ] 45
 * [x] 56
 * [ ] 72
-{.col-5}
+{.col-5} 
+
+---
+
+In the rows containing black tiles, there is one fewer white tile than there are black tiles.  
+
+The black tiles form a square on each floor, so if there are 25 black tiles in total then we have 5 rows each containing 5 black tiles.  
+
+In the rows containing black tiles there will be one fewer white tile than there are black, so there will be 4 white tiles in these rows. Note that each row contains a total of 4 + 5 = 9 squares.  
+
+We also have the rows containing only white tiles. The number of these is equal to the number of rows of black tiles minus 1, which is 5 – 1 = 4.  
+
+In total, we have 5 × 4 = 20 white tiles from the rows also containing black tiles and 4 × 9 = 36 from the rows only containing white tiles. This makes for a total of 56 white tiles.  
 :::
 
 
@@ -77,6 +97,20 @@ How many fish has he caught?
 * [ ] 4
 * [ ] 3
 {.col-5}
+
+---
+
+We are looking for a number that when tripled is equal to 12 more than itself.  
+
+Note that the triple of our number will be a multiple of 3 and 12 is also a multiple of 3. This means that our original number must also be a multiple of 3.  
+
+Through trial and error, we can test different multiples of 3.  
+
+3 × 3 = 9 but 3 + 12 = 15, so 3 seems too small.  
+
+3 × 6 = 18 and 6 + 12 = 18 so Matthias caught 6 fish.  
+
+(Algebraically, we are solving `3x = x + 12`, where `x` is the number of fish caught.)  
 :::
 
 
@@ -95,4 +129,16 @@ How much difference is time is there between two consecutive messengers arriving
 * [x] 90 min
 * [ ] 120 min
 {.col-5}
+
+---
+
+First, note that the king travels 5 ÷ 2 = 2.5 km in half an hour and that the messenger can cover 10 ÷ 2 = 5 km in the same time.  
+
+After the first hour, the king is 5 km away from the castle and sends the first messenger.  
+
+After half an hour more, the messenger has travelled the 5 km back to the castle and the king is now 7.5 km away from the castle.  
+
+After another half an hour, the king is 10km away from the castle and sends the second messenger.  
+
+The messenger takes an hour to return to the castle. This is 0.5 + 1 = 1.5 hours = 90 min after the first messenger arrived.  
 :::

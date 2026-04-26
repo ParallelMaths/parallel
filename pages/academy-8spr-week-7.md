@@ -17,6 +17,15 @@ The deadline for submission is **March 10th** - please leave ample time to ensur
 
 If you experience any issues with the form, then please email [team@parallel.org.uk](mailto:team@parallel.org.uk).  
 
+You can access your marked script by clicking the link below: 
+
+::: googleformsolution text=8SPR_Homework_Marked_Solution
+:::
+
+Please also take a moment to complete the following feedback form, which will help us when preparing future written assignments:
+
+[Parallel 8SPR Written Homework Form - Student Feedback](https://docs.google.com/forms/d/e/1FAIpQLScj4uTObrdb9MZOKoGqTxAi73sXOkdybS2QkWuQmrdR845ihQ/viewform)
+
 ::: problem id=1_1 marks=0
 ![](/resources/academy-8spr-week-7/q1.png){image align="center"}  
 <input type="text" solution="ANGLE"/>  

@@ -78,8 +78,8 @@ What number does she get when she adds up the three digits that the worm has eat
 
 * [ ] 8
 * [ ] 9
-* [x] 10
-* [ ] 11
+* [ ] 10
+* [x] 11
 * [ ] 12
 {.col-5}
 
@@ -97,5 +97,5 @@ There can be no carries from the tens’ column, since in the hundreds’ column
 
 Any carry from the tens’ to the hundreds’ would increase the 7 digit in 782.  
 
-Therefore, the two missing values in the tens’ columns sum to 8, and with the missing units’ digit of 2 found earlier, we have the answer of 10.  
+Therefore, the two missing values in the tens’ columns sum to 86, and with the missing units digit of 5 found earlier, we have the answer of 11.
 :::

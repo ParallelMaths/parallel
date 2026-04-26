@@ -21,6 +21,12 @@ Which number does the fifteenth house on the right hand side have?
 * [ ] 45
 * [x] 47
 {.col-5}
+
+---
+
+The house numbers are given by the first fifteen odd numbers, having removed all those containing the digit 3.  
+
+These are 1, 5, 7, 9, 11, 15, 17, 19, 21, 25, 27, 29, 41, 45, 47.  
 :::
 
 
@@ -39,6 +45,16 @@ How many numbers between 20 and 30 have the same property as 36?
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+
+21 is divisible by 1, as are all numbers.  
+
+22 is even.  
+
+24 = 4 × 6.  
+
+25 = 5 × 5.  
 :::
 
 
@@ -59,7 +75,16 @@ How many cubes will she now need to completely fill the square area.
 * [ ] 81
 * [ ] 100
 {.col-5}
+
+---
+
+The wall has 1 cube in each corner, leaving 36 – 4 × 1 = 32 to make up each of the 4 sides of the wall (excluding the corners).  
+
+This means that 32 ÷ 4 = 8 cubes are in each side (excluding the corner).  
+
+To fill the square area we then need 8 × 8 = 64 cubes.  
 :::
+
 
 ## 4.
 <!--- 2015 (15) --->
@@ -76,6 +101,16 @@ Which answer does she get?
 * [ ] 4031
 * [ ] 4032
 {.col-5}
+
+---
+
+Lucy’s year of birth is given by the current year, 2015, minus her age. Similarly, her mother’s year of birth is given by 2015 minus her mother’s age.  
+
+When we add these together, along with the age of Lucy and that of her mother, the ages all cancel out, leaving 2015 + 2015 = 4030.  
+
+Algebraically, let L be the age of Lucy and M be the age of her mother. Then, the sum is:  
+
+(2015 – L) + (2015 – M) + L + M = 2015 + 2015 + (L – L) + (M – M) = 4030.  
 :::
 
 
@@ -95,4 +130,12 @@ Which numbers could Ali have deleted?
 * [ ] only 6
 * [ ] only 7
 * [ ] only 8
+
+---
+
+36 ÷ 3 = 12, so the other two numbers in the multiplication could be 2 and 6 or 3 and 4.  
+
+If the other two numbers were 2 and 6, then these sum to 8 meaning that Ali deleted the number 15 – 8 = 7.  
+
+If they were 3 and 4, then Ali deleted 15 – (3 + 4) = 15 – 7 = 8.  
 :::

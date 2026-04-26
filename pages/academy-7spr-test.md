@@ -174,7 +174,7 @@
 
 
 ## 20.
-::: problem id=11_1 marks=1
+::: problem id=20_1 marks=1
 ![](/resources/academy-7spr-test/q20.png){image align="center"}
 
 * [ ] (a)

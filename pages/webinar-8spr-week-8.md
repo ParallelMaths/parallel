@@ -16,6 +16,7 @@ You should only leave an answer blank if you have really thought about the probl
   
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**   
 
+
 ## 1.	
 ![](/resources/academy-8spr-week-8/q1.png){image align="center"}  
 

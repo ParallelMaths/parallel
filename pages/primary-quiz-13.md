@@ -19,6 +19,16 @@ What is the least number of right turns he must make in order to get from A to B
 * [ ] 8
 * [ ] 10
 {.col-5}
+
+---
+
+Nick should go forward and turn right whenever possible (first turn).  
+
+Then he should continue straight until he hits the far right side and turn right here (second turn).  
+
+Next continue until he reaches the bottom side and turn right again (third turn).  
+
+Finally follow the bottom side until it meets the left side and turn right here (fourth turn) before continuing straight up the left side to reach B.  
 :::
 
 
@@ -29,16 +39,26 @@ The date 01-03-05 (1st March 2005) has three consecutive odd numbers.
 
 This is the first day in the 21st Century with this property.  
 
-![](/resources/primary-quiz-13/2-dates.png){image align="center"} 
-
 How many days with this property are there in total in the 21st Century? 
 
-* [x] 3
+* [x] 5
 * [ ] 6
+* [ ] 16
+* [ ] 13
 * [ ] 8
-* [ ] 9
-* [ ] 10
 {.col-5}
+
+---
+
+The dates with this property are:  
+
+* 01-03-05 (which is given in the question)  
+* 03-05-07  
+* 05-07-09  
+* 07-09-11  
+* 09-11-13  
+
+There are no more because the highest odd-numbered month is November (11).  
 :::
 
 
@@ -59,6 +79,14 @@ In which position will the minute hand be when she has completed one third of he
 * [x] D
 * [ ] E
 {.col-5}
+
+---
+
+Patricia leaves at 1:30 and arrives at 3:30, making the journey time 2 hours.  
+
+One third of the journey time is 2 hours ÷ 3 = 120 mins ÷ 3 = 40 mins.  
+
+40 mins after 1:30 is 2:10, so the minute hand must point to 10 mins past the hour.  
 :::
 
 
@@ -77,6 +105,14 @@ What was the score in the game that FC Barcelona won?
 * [ ] 4:1
 * [ ] 0:1
 {.col-5}
+
+---
+
+Since they only conceded one goal, this must have been in the match where they lost. The only possibility is that they were beaten 0:1.  
+
+In a draw, they must have scored the same number of goals as they conceded. Since they only conceded one goal, which is already included in the loss, the score of the draw must have been 0:0.  
+
+This leaves all of FC Barcelona’s goals scored in the victory which then must have been 3:0.  
 :::
 
 
@@ -97,4 +133,16 @@ Which number labels the face that is opposite to face 4?
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+
+Face 1 must border faces 2, 5 and 6, since they have a common edge. Similarly, faces 2 and 4 also border 6.  
+
+Note that each face on a cube shares common edges with 4 other faces.  
+
+The only way for face 4 to now border faces 2 and 6 is for face 4 to be opposite face 1.
+
+![](/resources/primary-quiz-13/5-dice-a.png){image align="center"} 
+
+The diagram shows the only possibility for the die, rotated 90 degrees between images.  
 :::

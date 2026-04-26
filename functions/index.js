@@ -459,6 +459,12 @@ app.get('/login', (req, res) => {
 
 app.get('/account', (req, res) => {
   if (!req.user) return error(res, 401);
+
+  if (!req.query.override) {
+    res.redirect('/settings');
+    return;
+  }
+
   res.locals.sidebarDisabled = true
   res.render('account', { countries });
 });

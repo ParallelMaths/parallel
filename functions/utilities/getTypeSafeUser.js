@@ -65,6 +65,32 @@ const getAdditionalStudentEmails = (user) => {
     }
 }
 
+const getGuardianPhoneNumbers = (user) => {
+    if (user.code) {
+        return [];
+    }
+
+    try {
+      return [...new Set([user?.phoneNumber, user?.guardianPhone, ...(user?.phoneNumbers?.filter(p => p?.type === 'guardian').map(p => p?.phoneNumber) || [])])].filter(s => typeof s === 'string' && s)   
+    } catch (error) {
+        console.error('Error getting guardian phone numbers:', error);
+        return [];
+    }
+}
+
+const getTeacherPhoneNumbers = (user) => {
+    if (!user.code) {
+        return [];
+    }
+
+    try {
+      return [...new Set([user?.phoneNumber, ...(user?.phoneNumbers?.filter(p => p?.type === 'teacher').map(p => p?.phoneNumber) || [])])].filter(s => typeof s === 'string' && s)   
+    } catch (error) {
+        console.error('Error getting teacher phone numbers:', error);
+        return [];
+    }
+}
+
 // This data gets passed through Graphql
 // As firebase data is set client side, it can't always be trusted
 // If a value is wrong type, it will be set to null
@@ -101,6 +127,9 @@ const getTypeSafeUser = (user) => {
         acceptedEuclidTerms: validateBoolean(user.acceptedEuclidTerms),
         euclidEnrolYearGroup: validateString(user.euclidEnrolYearGroup),
         euclidEnrolTimestamp: validateNumber(user.euclidEnrolTimestamp),
+
+        guardianPhoneNumbers:  getGuardianPhoneNumbers(user),
+        teacherPhoneNumbers:  getTeacherPhoneNumbers(user),
 
         teacherCodes: validateStringArray(user.teacherCode),
         additionalStudentEmails: getAdditionalStudentEmails(user),

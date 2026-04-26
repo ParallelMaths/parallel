@@ -92,9 +92,9 @@ __2.1__ Which of the following numbers have the same property?
 ![](/resources/6-28-number-knights/2-cube-loop-2.png){image align="right"}  
 __2.2__ This same process can even form a loop of 3.
 
-* `1^3 + 6^3 + 0^3 = 352`
-* `3^3 + 5^3 + 2^3 = 217`
-* `2^3 + 1^3 + 7^3 = 160`
+* `1^3 + 6^3 + 0^3 = 217`
+* `2^3 + 1^3 + 7^3 = 352`
+* `3^3 + 5^3 + 2^3 = 160`
 
 Which of the following numbers also creates a loop of 3 when the digits are cubed and added?
 
