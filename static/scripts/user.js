@@ -505,7 +505,7 @@ export default function() {
         birthMonth: signupForm.birthMonth || null,
         birthYear: signupForm.birthYear || null,
         schoolName: signupForm.schoolName || null,
-        phoneNumber: signupForm.phoneNumber || null,
+        phoneNumbers: signupForm.phoneNumber ? [{ phoneNumber: signupForm.phoneNumber, type: signupForm.teacherCode ? 'teacher' : 'guardian' }] : null,
         postCode: signupForm.postCode || null,
         guardianEmail,
         acceptedTerms: true,
