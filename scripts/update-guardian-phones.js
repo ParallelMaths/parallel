@@ -28,7 +28,7 @@ const run = async () => {
   const dataToSet = {};
   
   for (const [id, user] of data) {
-    if (user.code) {
+    if (!user.code) {
       // console.log(id, user.code);
 
       const one = user.phoneNumber;
@@ -43,7 +43,7 @@ const run = async () => {
         dataToSet[id] = {
           phoneNumber: null,
           guardianPhone: null,
-          phoneNumbers: five.map(n => ({ phoneNumber: n, type: 'teacher' })),
+          phoneNumbers: five.map(n => ({ phoneNumber: n, type: 'guardian' })),
         }
       }
     }

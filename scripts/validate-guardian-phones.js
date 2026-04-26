@@ -33,7 +33,7 @@ const run = async () => {
       const two = user.guardianPhone;
       
       if (one || two) {
-        console.log(id, user.email);
+        console.log(id, user.email, one, two);
       }
     
   }
