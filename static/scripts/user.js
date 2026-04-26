@@ -355,7 +355,13 @@ export default function() {
             ...editForm.guardianEmails,
             ...editForm.studentEmails,
             guardianEmail
-          ])
+          ]),
+          phoneNumber: '+555555555555',
+          guardianPhone: '+333333333333',
+          phoneNumbers: [
+            { phoneNumber: '+999999999999', type: 'guardian' },
+            { phoneNumber: '+444444444444', type: 'teacher' },
+          ]
         };
 
         if(!newData.homeEducated) {
