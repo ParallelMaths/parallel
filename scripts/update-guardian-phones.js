@@ -14,12 +14,10 @@ fb.initializeApp({
 const userDb = fb.firestore().collection('users');
 
 const job = async (id, data) => {
-  console.log(id);
-  // await userDb.doc(id).set({
-  //   ...data,
-  //   oldShowWelcomeMsg: null,
-  //   oldLevel: null,
-  // }, { merge: true });
+  console.log(id, data);
+  await userDb.doc(id).set({
+    ...data,
+  }, { merge: true });
 }
 
 const run = async () => {
@@ -27,7 +25,31 @@ const run = async () => {
 
   const data = Object.entries(users.data);
 
-  Promise.all(data.map(([id, user]) => {
+  const dataToSet = {};
+  
+  for (const [id, user] of data) {
+    if (!user.code) {
+      // console.log(id, user.code);
+
+      const one = user.phoneNumber;
+      const two = user.guardianPhone;
+      const three = [user.phoneNumbers?.map(p => p.phoneNumber)].flat().filter(Boolean);
+
+      const four = [user.phoneNumbers?.map(p => p.phoneNumber), user.phoneNumber, user.guardianPhone].flat().filter(Boolean);
+      const fourDeduped = [...new Set(four)];
+      const five = [fourDeduped[0], fourDeduped[1]].filter(Boolean);
+
+      if (one || two) {
+        dataToSet[id] = {
+          phoneNumber: null,
+          guardianPhone: null,
+          phoneNumbers: five.map(n => ({ phoneNumber: n, type: 'guardian' })),
+        }
+      }
+    }
+  }
+
+  Promise.all(Object.entries(dataToSet).map(([id, user]) => {
     return limit(() => job(id, user))
   })).then(results => {
     console.log()
