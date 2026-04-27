@@ -1199,6 +1199,9 @@ homework:
   - url: webinar-1-week-10
     title: Parallel Academy Module 1 Week 9
     available: 2025-03-11T09:00:00
+  - url: academy-7sum-week-1
+    title: Parallel Academy Year 7 Summer Term Week 1
+    available: 2025-04-10T09:00:00
   - url: academy-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-04-10T09:00:00
@@ -1253,6 +1256,9 @@ homework:
   - url:  academy-7sum-algebra
     title: Year 7 Summer Term Algebra Paper
     available: 2025-05-12T09:00:00
+  - url: academy-8sum-week-1
+    title: Parallel Academy Year 8 Summer Term Week 1
+    available: 2025-04-10T09:00:00
   - url: academy-8sum-week-2
     title: Parallel Academy Year 8 Summer Term Week 1
     available: 2025-04-10T09:00:00
@@ -1395,6 +1401,12 @@ homework:
   - url:  academy-9spr-week-10
     title: Parallel Academy Year 9 Spring Term Week 10
     available: 2025-08-12T09:00:00  
+  - url:  academy-9sum-week-1
+    title: Parallel Academy Year 9 Summer Term Week 1
+    available: 2025-08-12T09:00:00 
+  - url: webinar-7sum-week-1
+    title: Parallel Academy Year 7 Summer Term Week 1
+    available: 2025-02-24T09:00:00
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1494,6 +1506,9 @@ homework:
   - url:  webinar-8spr-week-9
     title: Parallel Academy Year 8 Spring Term Week 9
     available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-week-1
+    title: Parallel Academy Year 8 Summer Term Week 1
+    available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1544,6 +1559,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  webinar-imc-spring-week-10
     title: Parallel Academy IMC Spring Term Week 10
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-summer-week-1
+    title: Parallel Academy IMC Summer Term Week 1
     available: 2025-08-12T09:00:00  
   - url:  visibility-test
     title: Visibility Test
