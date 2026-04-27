@@ -1,4 +1,4 @@
-# Parallel Academy Year 8 Summer Term Week 1 Assignment
+# Parallel Academy Year 7 Summer Term Week 1 Assignment
 
 These problems relate to a recent theme you have been covering with your tutor. They are arranged in order of increasing difficulty and the final problem is much more of a challenge than the rest.  
 
@@ -19,128 +19,128 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-8sum-week-1/q1.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
 
-* [x] (A) 0
-* [ ] (B) 1
-* [ ] (C) 2
-* [ ] (D) 3
-* [ ] (E) 4
+* [ ] (A) 1398
+* [x] (B) 1695
+* [ ] (C) 8765
+* [ ] (D) 4751
+* [ ] (E) 2079
 
 ^^^ hint id=1_1_1 marks=1
-![](/resources/academy-8sum-week-1/h1.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h1.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s1.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s1.png){image align="center"}
 :::  
 
 
 ## 2.	
-![](/resources/academy-8sum-week-1/q2.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 
-* [ ] (A) £9.87
-* [ ] (B) £10.98
-* [ ] (C) £11.33
-* [ ] (D) £12.78
-* [x] (E) £13.80
+* [ ] (A) 1231
+* [ ] (B) 2312
+* [x] (C) 12312
+* [ ] (D) 21321
+* [ ] (E) 32132
 
 ^^^ hint id=2_1_1 marks=1
-![](/resources/academy-8sum-week-1/h2.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h2.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s2.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s2.png){image align="center"}
 :::  
 
 
 ## 3.	
-![](/resources/academy-8sum-week-1/q3.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
 
-* [ ] A
-* [ ] B
-* [ ] C
-* [ ] D
-* [x] E
+* [x] (A) 24
+* [ ] (B) 34
+* [ ] (C) 44
+* [ ] (D) 54
+* [ ] (E) 64
 
 ^^^ hint id=3_1_1 marks=1
-![](/resources/academy-8sum-week-1/h3.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h3.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s3.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s3.png){image align="center"}
 ::: 
 
 
 ## 4.	
-![](/resources/academy-8sum-week-1/q4.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
 
-* [ ] (A) 45 degrees
-* [ ] (B) 60 degrees
-* [x] (C) 90 degrees
-* [ ] (D) 120 degrees
-* [ ] (E) More information needed
+* [ ] (A) One turn
+* [x] (B) Two turns
+* [ ] (C) Three turns
+* [ ] (D) Four turns
+* [ ] (E) It is impossible
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-8sum-week-1/h4.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h4.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s4.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s4.png){image align="center"}
 ::: 
 
 
 ## 5.	
-![](/resources/academy-8sum-week-1/q5.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
 
-* [ ] (A) 1
-* [ ] (B) 3
-* [ ] (C) 5
-* [ ] (D) 7
-* [x] (E) More information needed
+* [ ] (A) 13
+* [x] (B) 13.5
+* [ ] (C) 14
+* [ ] (D) 14.5
+* [ ] (E) More information needed
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-8sum-week-1/h5.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h5.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s5.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s5.png){image align="center"}
 ::: 
 
 ## 6.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-8sum-week-1/q6.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
 
-* [ ] (A) None of the shapes
-* [ ] (B) Only the pentagon
-* [ ] (C) Only the pentagon and heptagon
-* [x] (D) Only the pentagon, hexagon, and heptagon
-* [ ] (A) All of the shapes
+* [ ] A
+* [x] B
+* [ ] C
+* [ ] D
+* [ ] E
 
 ^^^ hint id=6_1_1 marks=1
-![](/resources/academy-8sum-week-1/h6.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h6.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-8sum-week-1/s6.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s6.png){image align="center"}
 ::: 
 
 

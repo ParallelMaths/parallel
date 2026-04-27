@@ -17,7 +17,7 @@ You should only leave an answer blank if you have really thought about the probl
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**   
 
 ## 1.	
-![](/resources/academy-7sum-week-1/q1.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
 
@@ -28,17 +28,17 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] (E) 2079
 
 ^^^ hint id=1_1_1 marks=1
-![](/resources/academy-7sum-week-1/h1.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h1.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s1.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s1.png){image align="center"}
 :::  
 
 
 ## 2.	
-![](/resources/academy-7sum-week-1/q2.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 
@@ -49,17 +49,17 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] (E) 32132
 
 ^^^ hint id=2_1_1 marks=1
-![](/resources/academy-7sum-week-1/h2.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h2.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s2.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s2.png){image align="center"}
 :::  
 
 
 ## 3.	
-![](/resources/academy-7sum-week-1/q3.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
 
@@ -70,17 +70,17 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] (E) 64
 
 ^^^ hint id=3_1_1 marks=1
-![](/resources/academy-7sum-week-1/h3.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h3.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s3.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s3.png){image align="center"}
 ::: 
 
 
 ## 4.	
-![](/resources/academy-7sum-week-1/q4.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
 
@@ -91,17 +91,17 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] (E) It is impossible
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-7sum-week-1/h4.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h4.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s4.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s4.png){image align="center"}
 ::: 
 
 
 ## 5.	
-![](/resources/academy-7sum-week-1/q5.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
 
@@ -112,17 +112,17 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] (E) More information needed
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-7sum-week-1/h5.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h5.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s5.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s5.png){image align="center"}
 ::: 
 
 ## 6.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-7sum-week-1/q6.png){image align="center"}  
+![](/resources/academy-7sum-2026-week-1/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
 
@@ -133,12 +133,12 @@ You should only leave an answer blank if you have really thought about the probl
 * [ ] E
 
 ^^^ hint id=6_1_1 marks=1
-![](/resources/academy-7sum-week-1/h6.png){image align="center"} 
+![](/resources/academy-7sum-2026-week-1/h6.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-7sum-week-1/s6.png){image align="center"}
+![](/resources/academy-7sum-2026-week-1/s6.png){image align="center"}
 ::: 
 
 

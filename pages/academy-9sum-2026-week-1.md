@@ -19,10 +19,10 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-9sum-week-1/q1.png){image align="center"}  
+![](/resources/academy-9sum-2026-week-1/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=1
-![](/resources/academy-9sum-week-1/q1a.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q1a.png){image align="center"} 
 
 * [ ] (A) P+25
 * [ ] (B) P-25
@@ -32,39 +32,39 @@ We will also be running a weekly homework review session (look out for our email
 
 ---
 
-![](/resources/academy-9sum-week-1/s1a.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s1a.png){image align="center"}
 :::  
 
-![](/resources/academy-9sum-week-1/q1x.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q1x.png){image align="center"} 
 
 ::: problem id=1_2 marks=1
-![](/resources/academy-9sum-week-1/q1b.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q1b.png){image align="center"} 
 b) <input type="number" solution="80"/>  
  
 ---
 
-![](/resources/academy-9sum-week-1/s1b.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s1b.png){image align="center"}
 ::: 
 
 ::: problem id=1_3 marks=2
-![](/resources/academy-9sum-week-1/q1c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q1c.png){image align="center"} 
 c) <input type="number" solution="42"/>  
 	
 ^^^ hint id=1_3_1 marks=1
-![](/resources/academy-9sum-week-1/h1c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/h1c.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-9sum-week-1/s1c.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s1c.png){image align="center"}
 ::: 
 
 
 ## 2.	
-![](/resources/academy-9sum-week-1/q2.png){image align="center"}  
+![](/resources/academy-9sum-2026-week-1/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=1
-![](/resources/academy-9sum-week-1/q2a.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q2a.png){image align="center"} 
 
 * [ ] (A) 4
 * [x] (B) 5
@@ -74,69 +74,69 @@ c) <input type="number" solution="42"/>
 
 ---
 
-![](/resources/academy-9sum-week-1/s2a.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s2a.png){image align="center"}
 :::  
 
 ::: problem id=2_2 marks=1
-![](/resources/academy-9sum-week-1/q2b.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q2b.png){image align="center"} 
 b) <input type="number" solution="87"/>  
  
 ---
 
-![](/resources/academy-9sum-week-1/s2b.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s2b.png){image align="center"}
 ::: 
 
-![](/resources/academy-9sum-week-1/q2x.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q2x.png){image align="center"} 
 
 ::: problem id=2_3 marks=2
-![](/resources/academy-9sum-week-1/q2c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q2c.png){image align="center"} 
 c) <input type="number" solution="12"/>  
 	
 ^^^ hint id=2_3_1 marks=1
-![](/resources/academy-9sum-week-1/h2c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/h2c.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-9sum-week-1/s2c.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s2c.png){image align="center"}
 ::: 
 
 
 ## 3.	
-![](/resources/academy-9sum-week-1/q3.png){image align="center"}  
+![](/resources/academy-9sum-2026-week-1/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=1
-![](/resources/academy-9sum-week-1/q3a.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q3a.png){image align="center"} 
 a) <input type="number" solution="4"/> 
 
 ---
 
-![](/resources/academy-9sum-week-1/s3a.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s3a.png){image align="center"}
 :::  
 
-![](/resources/academy-9sum-week-1/q3x.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q3x.png){image align="center"} 
 
 ::: problem id=3_2 marks=1
-![](/resources/academy-9sum-week-1/q3b.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q3b.png){image align="center"} 
 b) <input type="number" solution="48"/>  
  
 ---
 
-![](/resources/academy-9sum-week-1/s3b.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s3b.png){image align="center"}
 ::: 
 
 
 ::: problem id=3_3 marks=2
-![](/resources/academy-9sum-week-1/q3c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/q3c.png){image align="center"} 
 c) <input type="number" solution="17"/>  
 	
 ^^^ hint id=3_3_1 marks=1
-![](/resources/academy-9sum-week-1/3c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/3c.png){image align="center"} 
 ^^^ 
  
 ---
 
-![](/resources/academy-9sum-week-1/s3c.png){image align="center"}
+![](/resources/academy-9sum-2026-week-1/s3c.png){image align="center"}
 ::: 
  
 
