@@ -24,11 +24,11 @@ We will also be running a weekly homework review session (look out for our email
 ::: problem id=1_1 marks=1
 ![](/resources/academy-9sum-2026-week-1/q1a.png){image align="center"} 
 
-* [ ] (A) P+25
-* [ ] (B) P-25
-* [ ] (C) 2P+50
-* [x] (D) 2P-50
-* [ ] (E) 3P+75
+* [ ] (A) P + 25
+* [ ] (B) P - 25
+* [ ] (C) 2P + 50
+* [x] (D) 2P - 50
+* [ ] (E) 3P + 75
 
 ---
 
@@ -131,7 +131,7 @@ b) <input type="number" solution="48"/>
 c) <input type="number" solution="17"/>  
 	
 ^^^ hint id=3_3_1 marks=1
-![](/resources/academy-9sum-2026-week-1/3c.png){image align="center"} 
+![](/resources/academy-9sum-2026-week-1/h3c.png){image align="center"} 
 ^^^ 
  
 ---
