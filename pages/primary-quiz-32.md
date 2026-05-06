@@ -107,9 +107,9 @@ How many of the numbers were chosen by both Monika and Daniel?
 
 * [ ] none
 * [ ] 1
-* [ ] 2
+* [x] 2
 * [ ] 3
-* [x] It cannot be determined.
+* [ ] It cannot be determined.
 {.col-5}
 
 ---
@@ -118,11 +118,11 @@ The only group of three that sums to 7 is 1, 2 and 4, so Daniel must have chosen
 
 However, from the same list there are two possible groups of three that sum to 8, so Monika could have picked 1, 2 and 5 or 1, 3 and 4.  
 
-If Monika picks the first triplet, then she has two numbers in common with Daniel: 1 and 2.  
+If Monika picks the first triplet, she has two numbers in common with Daniel: 1 and 2.  
 
-If Monika picks the second triplet, then they only have one number in common: 1.  
+If Monika picks the second triplet, she has two numbers in common with Daniel: 1 and 3.  
 
-The answer is therefore 1 or 2 depending on Monika’s choice, so this cannot be determined solely from the given information.
+Therefore, regardless of which triplet Monika chooses, she will have two numbers in common with Daniel.  
 :::
 
 
