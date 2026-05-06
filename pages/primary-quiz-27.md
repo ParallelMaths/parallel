@@ -19,6 +19,10 @@ Into how many equally big pieces did Mike cut the pizza?
 * [ ] 8
 * [x] 12
 {.col-5}
+
+---
+
+Cutting each of the 4 equal pieces into 3 equal pieces makes a total of 4 × 3 = 12 equally big pieces. 
 :::
 
 
@@ -38,6 +42,16 @@ Which side is facing the table?
 * [ ] D
 * [ ] E
 {.col-5}
+
+---
+
+Side B is facing the table.  
+
+Side A folds up to form the left side of the box.  
+
+Side C folds up to form the side of the box facing away from the bottom of the letter ‘B’.  
+
+Sides D and E fold round from C to meet A, leaving the side opposite B open.  
 :::
 
 
@@ -58,6 +72,20 @@ How many tables with three chairs are there?
 * [ ] 7
 * [ ] 8
 {.col-5}
+
+---
+
+If 36 guests can sit at the tables which have 3 or 4 chairs, then 72 – 36 = 36 guests can sit at the tables with 6 chairs.  
+
+This means 36 ÷ 6 = 6 tables have 6 chairs so that 16 – 6 = 10 tables have 3 or 4 chairs.  
+
+For the number of tables with 3 or 4 chairs, we are looking for two numbers such that triple the first added to quadruple the second is 36. Also, the sum of these two numbers must be 10.  
+
+Algebraically, we are solving 3x + 4y = 36 and x + y = 10.  
+
+Observe that the first number must be a multiple of 4 and the second a multiple of 3.  
+
+The only possibility is that there are 4 tables with 3 chairs and 6 tables with 4 chairs, since 3 × 4 + 4 × 6 = 36 and 4 + 6 = 10.  
 :::
 
 
@@ -78,6 +106,18 @@ How many such numbers can Richard write down?
 * [ ] 7
 * [ ] 8
 {.col-5}
+
+---
+
+The possibilities are:  
+
+* 11111  
+* 1112  
+* 113  
+* 14  
+* 122  
+
+This makes 5 such numbers.
 :::
 
 
@@ -96,4 +136,16 @@ Which representation is definitely not possible for this number?
 * [x] AAABCB
 * [ ] AAACBB
 {.col-5}
+
+---
+
+To make the number as large as possible, the digits must appear in size order from left to right.  
+
+If a digit appears multiple times, then they must all be placed in sequence since they all have the same size.  
+
+In the case AAABCB, if B > C then the largest number possible would be AAABBC.  
+
+Alternatively, if C > B then the largest number possible would be AAACBB.  
+
+We cannot have repeated digits separated by other digits.  
 :::

@@ -20,7 +20,7 @@ Which result does he get for 1111 x 2222? 
 
 ---
 
-
+Doubling the second number in the multiplication means that we can just double the answer to 1111 × 1111, and since all the digits in 1234321 are less than 5, we can just double each digit, giving 2468642.
 :::
 
 
@@ -41,7 +41,9 @@ Which day of the week does the 25th day of that month fall on?
 
 ---
 
+The 3rd day of the month is a Friday and hence the 10th, 17th and 24th days of the month are also Fridays, because adding on 7 days lands us on the same day of the week.  
 
+The day after the 24th is then a Saturday.  
 :::
 
 
@@ -66,7 +68,10 @@ Which number is on the sixth face? 
 
 ---
 
+9 + 11 = 20.  
+6 + 14 = 20.  
 
+For the sixth face we require the number 15, to sum to 20 with the opposite number, 5.  
 :::
 
 
@@ -90,8 +95,16 @@ How big is the sum of all numbers in the figure?
 {.col-5}
 
 ---
+![](/resources/primary-quiz-33/4-triangle-answer.png){image align="right"} 
+The total is the same for any two adjacent triangles.  
 
+Consider the triangle immediately to the left of the triangle that is already labelled 3, in the same row. This triangle must contain a number which is 3 less than the total for every pair.  
 
+But then the triangle immediately below this must also contain the number 3. In this way, we can see that the smaller triangles must alternate between containing the number 2 or 3.  
+
+Because the number 2 appears in the corners, there are three pairs of a 2 and a 3, as well as three unpaired triangles containing the number 2.  
+
+This makes the sum of all numbers equal to 3 × (2 + 3) + 3 × 2 = 3 × 5 + 3 × 2 = 15 + 6 = 21.  
 :::
 
 
@@ -116,5 +129,11 @@ How many points does Willi get?
 
 ---
 
+The top tin is missing from both images, so both Jette and Willi knocked it down.  
 
+Looking at the tins that appear in the right-hand side of Willi’s pyramid but not in Jette’s, we can see that Jette hit the tins labelled 3, 2, 8, 3, 4 and the top tin.  
+
+Jette’s score is then 3 + 2 + 8 + 3 + 4 = 20 plus the top tin. Her score was 25 points, meaning that the top tin is worth 5 points.  
+
+Now, looking at the tins on the left-hand side of Jette’s pyramid that are missing from Willi’s, we see that Willi hit the tins labelled 8, 4, 9 and the top tin, giving a score of 8 + 4 + 9 + 5 = 26 points.  
 :::

@@ -19,15 +19,24 @@ How many cubes are missing from the picture on the right that would be needed to
 * [ ] 8
 * [ ] 9
 {.col-5}
+
+---
+
+Two cubes are missing from the middle layer, on the front side facing to the right.  
+
+Directly above these, two more cubes are missing from the top layer.  
+
+Also missing in the top layer are two cubes in the central column and one cube in the top right corner.  
+
+This makes 2 + 2 + 2 + 1 = 7 cubes in total.  
 :::
 
 
 ## 2.
 <!--- 2012 (6) --->
 ::: problem id=2_1 marks=1
+![](/resources/primary-quiz-22/2-patterns-q.png){image align="right"} 
 Which pattern will you get if you join the centres of each of the neighbouring hexagons?  
-
-![](/resources/primary-quiz-22/2-patterns.png){image align="center"} 
 
 * [ ] A
 * [ ] B
@@ -35,6 +44,8 @@ Which pattern will you get if you join the centres of each of the neighbouring h
 * [ ] D
 * [ ] E
 {.col-5}
+
+![](/resources/primary-quiz-22/2-patterns.png){image align="center"} 
 :::
 
 
@@ -55,6 +66,18 @@ How many children will eat ice cream today?
 * [x] 10
 * [ ] 11
 {.col-5}
+
+---
+
+Out of the 13 children who ate ice cream yesterday, 7 of them must be from the group that eat ice cream every day.  
+
+This means that yesterday, 13 - 7 = 6 children of the 13 children are those that eat ice cream every other day.  
+
+There are then 9 - 6 = 3 more children who eat ice cream every other day.  
+
+But they didn't eat ice cream yesterday, therefore they will today.  
+
+Along with the 7 children who eat ice cream every day, this means that today 3 + 7 = 10 children will eat ice cream.
 :::
 
 
@@ -75,6 +98,17 @@ Which position will the two coins have afterwards?
 * [ ] D
 * [ ] E
 {.col-5}
+
+---
+
+![](/resources/primary-quiz-22/4-coins-right.png){image align="center"} 
+The coins are the same size and so have the same radius.  
+
+The centre of the upper coin is two of these radii from the centre of the lower coin.  
+
+This means that the circular path that the upper coin’s centre must traverse is twice as long as the circumference of the coin.  
+
+Therefore, the upper coin rotates twice, since it rolls through twice the distance of its circumference as it goes around the lower coin.  
 :::
 
 
@@ -95,4 +129,12 @@ What is the maximum number of marbles in the bag? 
 * [ ] 8
 * [ ] 7
 {.col-5}
+
+---
+
+If we take out 5 marbles and at least 1 is red, then there must be at most 4 green marbles.  
+
+If we take out 6 marbles and at least one is green, then there are at most 5 red marbles.  
+
+Therefore, the maximum is 4 + 5 = 9.
 :::

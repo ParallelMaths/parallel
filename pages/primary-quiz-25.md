@@ -19,6 +19,16 @@ How big is the sum of the three missing digits?
 * [ ] 3
 * [ ] 10
 {.col-5}
+
+---
+
+In the hundreds’ column, we have the digit 1 added three times to obtain 3, so there can be no carries from the tens’ column.  
+
+In the units’ column, 2 + 3 + 4 = 9 with no carries.  
+
+In the tens’ column, we have no carries from the units’ and no carries to the hundreds’ column, therefore the missing digits must just all sum to 0.  
+
+The only possibility is that the missing digits are all 0.
 :::
 
 
@@ -35,6 +45,12 @@ How many more single shoes does the centipede still need to buy?
 * [x] 50
 * [ ] 75
 {.col-5}
+
+---
+
+The centipede already owns 25 pairs which is 2 × 25 = 50 shoes.  
+
+He therefore requires 100 – 50 = 50 more single shoes, which is indeed 25 more pairs.
 :::
 
 
@@ -42,7 +58,7 @@ How many more single shoes does the centipede still need to buy?
 ## 3.
 <!--- 2014 (14) --->
 ::: problem id=3_1 marks=2
-f the three digits of a three-digit number are multiplied you get 135.  
+If the three digits of a three-digit number are multiplied you get 135.  
 
 Which result to you get, by adding the three digits? 
 
@@ -52,6 +68,14 @@ Which result to you get, by adding the three digits?
 * [x] 17
 * [ ] 18
 {.col-5}
+
+---
+
+135 = 5 × 27 = 5 × 3 × 9.  
+
+These must be the digits of the original number, since these are the only factors of 135 that have only one digit.  
+
+Their sum is then 5 + 3 + 9 = 17.  
 :::
 
 
@@ -72,6 +96,19 @@ What is the side length of the last square?
 * [ ] 10 mm
 * [x] 12 mm
 {.col-5}
+
+--- 
+![](/resources/primary-quiz-25/4-digits.png){image align="right"} 
+
+Each time we make a cut, we form a square with side length the same as the shortest side length that we had before.  
+
+We first cut to form a square with side length 84 mm (shown in red) and a leftover piece 108 – 24 = 84 mm long and 108 – 84 = 24 mm wide.  
+
+The second square has side length 24 mm (shown in yellow) and a leftover piece 84 – 24 = 60 mm long with the width unchanged.  
+
+For the third (green) and fourth (purple) squares, they both have side length 24 mm and the leftover pieces of the same width but have lengths 36 mm and 12 mm, respectively.  
+
+The fifth (orange) and sixth (blue) squares are formed by dividing the 24 mm by 12 mm leftover piece to obtain two squares both with side length 12 mm.  
 :::
 
 
@@ -80,7 +117,11 @@ What is the side length of the last square?
 ::: problem id=5_1 marks=3
 ![](/resources/primary-quiz-25/5-kangaroo-q.png){image align="center"} 
 
-The first kangaroo is repeatedly mirrored along the dotted lines. Two reflections were already carried out.  In which position is the kangaroo in the grey triangle?
+The first kangaroo is repeatedly mirrored along the dotted lines.  
+
+Two reflections were already carried out.  
+
+In which position is the kangaroo in the grey triangle?  
 
 ![](/resources/primary-quiz-25/5-kangaroo-options.png){image align="center"} 
 
@@ -90,4 +131,14 @@ The first kangaroo is repeatedly mirrored along the dotted lines. Two�
 * [ ] (D)
 * [x] (E)
 {.col-5}
+
+---
+
+After the next reflection, the kangaroo will have its head pointing to the bottom right, as in option A.
+
+Then, it will be head pointing diagonally upwards to the left.
+
+![](/resources/primary-quiz-25/5-kangaroo-a.png){image align="center"} 
+
+Finally, in the grey triangle the kangaroo should have its face pointing vertically upwards, which is option E.
 :::

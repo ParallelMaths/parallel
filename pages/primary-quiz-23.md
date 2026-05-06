@@ -17,6 +17,12 @@ Which answer completes the addition tree?
 * [ ] 5
 * [x] 6
 {.col-5}
+
+---
+
+2 + 0 = 2 and 1 + 3 = 4.  
+
+Then, 2 + 4 = 6.
 :::
 
 
@@ -35,6 +41,14 @@ Which of the following sums fits this description?
 * [x] (6 + 3) × 2 + 1
 * [ ] 6 + 3 × (2 + 1) 
 {.col-5}
+
+---
+
+First, we do 6 + 3.  
+
+We then double this, so we write (6 + 3) × 2.  
+
+We add one to the result, written as (6 + 3) × 2 + 1.  
 :::
 
 
@@ -57,6 +71,14 @@ Which kangaroo did not change places?
 * [ ] D
 * [ ] E
 {.col-5}
+
+---
+
+A and E must have switched, since now E comes after A.  
+
+C and D must have switched, since D now comes before C.  
+
+This leaves B unchanged in between these pairs.
 :::
 
 
@@ -75,6 +97,16 @@ Which number should be written in the uppermost circle on the triangle?
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+
+4 should be written in the uppermost circle.  
+
+Then, in the middle row, 5, 1 and 6, from left to right.  
+
+In the bottom row, 3, 7 and 2, from left to right.  
+
+The sum of each line is then 12.
 :::
 
 
@@ -94,4 +126,17 @@ Which digits are on the key with the question mark? 
 * [ ] 823
 * [ ] 824
 {.col-5}
+
+---
+
+XBX = 414.  
+This the only number with a repeated digit and XBX is the only padlock with a repeated letter, so we must have X = 4 and B = 1.  
+
+CBM = 812.  
+This is the only padlock with the letter B in the middle, and 812 is the only number with a one in the middle digit.  
+
+We now know that C = 8 and M = 2. Hence,  
+BMX = 124,  
+BCX = 184, and then  
+MCX = 284, which is the number on the key with the question mark.  
 :::

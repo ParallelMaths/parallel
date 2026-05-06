@@ -15,12 +15,16 @@ How big is the difference between the smallest five-digit and the biggest four-d
 * [ ] 9000
 * [ ] 9900
 {.col-5}
+
+---
+
+10000 – 9999 = 1.
 :::
 
 
 ## 2.
 <!--- 2016 (6) --->
-::: problem id=3_1 marks=1
+::: problem id=2_1 marks=1
 Maria wants there to be a knife to the right of every plate and a fork to the left of it.  
 
 In order to get the right order she always swaps one fork with one knife.  
@@ -35,6 +39,14 @@ What is the minimum number of swaps necessary?
 * [ ] 5
 * [ ] 6
 {.col-5}
+
+---
+
+Maria should swap the right-hand fork of the plate furthest to the left with the left-hand knife of the middle plate.  
+
+Maria should also swap around the knife and fork of the plate furthest to the right.  
+
+This is 2 swaps.
 :::
 
 
@@ -53,6 +65,20 @@ A square can be made out of four of the given pieces. Which piece will not be us
 * [ ] D
 * [ ] E
 {.col-5}
+
+--- 
+![](/resources/primary-quiz-24/3-squares-answer.png){image align="right"} 
+If A is placed in the bottom left of the square, then it needs a piece that curves outwards above, in the top left of the square, and to its right, in the bottom right of the square.  
+
+B could not be positioned above A, since then the curved side of B would be facing out of the square.  
+
+Therefore, either C or D could appear above A.  
+
+If C is above A, in the top left of the square, then E must be in the top right and then D in the bottom right of the square.  
+
+Alternatively, D could be in the top left, E still in the top right (but now with its curved side facing downwards), and C in the bottom right of the square.  
+
+B is not used in either possibility.  
 :::
 
 
@@ -73,6 +99,14 @@ How many turns will the last cog make for each full turn of the first cog?
 * [ ] 8
 * [ ] 9
 {.col-5}
+
+---
+
+In the time that the first cog has made one full turn, each of its 30 teeth will have moved past the point of connection with the second cog.  
+
+Since all four cogs are connected, the same number of teeth must move past each point of connection in this time.  
+
+Therefore, the last cog must make 3 full turns, since 3 × 10 = 30.
 :::
 
 
@@ -95,4 +129,16 @@ In which order did they go to the basket?
 * [x] Ina, Celina, Petra 
 * [ ] Celina, Petra, Ina 
 {.col-5}
+
+---
+
+We look for numbers that could be picked by multiple people.  
+
+Ina’s selection contains multiples of 2, 3 and 5, so she must have chosen first.  
+
+Celina chose multiples of 2 and 5, but not 3, so she must have gone second.  
+
+Petra only took multiples of 2, so she must have selected last.  
+
+The order is then Ina, Celina, Petra.
 :::

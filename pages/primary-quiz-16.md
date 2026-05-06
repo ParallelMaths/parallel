@@ -91,6 +91,7 @@ This occurs on the 29th September (29.09), giving 2 + 9 + 0 + 9 = 20.
 ## 4.
 <!--- 2011 (19) --->
 ::: problem id=4_1 marks=2
+![](/resources/primary-quiz-16/4-shape.png){image align="right"} 
 Daniel wants to make a complete square using pieces only like those shown.  
 
 What is the minimum number of pieces he must use?  
