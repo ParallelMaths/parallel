@@ -23,6 +23,14 @@ Paul sees the rings from the back. What does he see?
 * [x] D
 * [ ] E
 {.col-5}
+
+---
+
+From the back, the grey ring will be on the left and the white ring on the right.  
+ 
+At the top, the grey ring will be in front of the white ring.  
+ 
+At the bottom, the white ring will be in front.
 :::
 
 
@@ -43,6 +51,16 @@ How much milk has she drunk in the past two weeks?
 * [ ] 1120 ml
 * [ ] 1960 ml
 {.col-5}
+
+---
+
+Liza chases mice on every second day which is 14 ÷ 2 = 7 days.  
+
+On these days she drinks 60 ÷ 3 = 20 ml more milk, meaning on each mice-chasing day she drinks 60 + 20 = 80 ml.  
+
+Liza then doesn’t chase mice on the other 7 days.  
+
+In total, she drinks 7 × 80 + 7 × 60 = 7 × 140 = 980 ml of milk in the past two weeks.
 :::
 
 
@@ -53,7 +71,7 @@ Each day Maria writes down the date and then adds together the individual digits
 
 For instance today on the 23rd March she writes 23. 03. and calculates 2 + 3 + 0 + 3 = 8.  
 
-What is the largest total she make in this way in the course of a year? 
+What is the largest total she can make in this way in the course of a year? 
 
 * [ ] 7
 * [ ] 13
@@ -61,6 +79,12 @@ What is the largest total she make in this way in the course of a year?
 * [ ] 16
 * [x] 20
 {.col-5}
+
+---
+
+Maria should choose the largest digits possible.  
+
+This occurs on the 29th September (29.09), giving 2 + 9 + 0 + 9 = 20.  
 :::
 
 
@@ -97,4 +121,20 @@ How many tables does Luigi have?
 * [ ] 14
 * [ ] 16
 {.col-5}
+
+---
+
+Luigi can put 4 chairs around each square table, but he will be 6 chairs short. Therefore, the number of tables multiplied by 4 is 6 less than the number of chairs.  
+
+Also, if he puts pairs of square tables together, he will have formed half as many larger tables as he had square tables.  
+
+Note that this means he must have had an even number of square tables to start with.  
+
+He can then fit 6 chairs around each of these larger tables with 4 left over. This means that 1/2 × 6 = 3 times the number of tables is 4 more than the number of chairs.  
+
+For the number of tables, we are then looking for an even value which has a difference of 10 between its triple and its quadruple.  
+
+The only possibility is that there are 10 tables.  
+
+Algebraically, if the number of tables and chairs are t and c respectively, then we have that 4 × t - 6 = c and 6 × t/2 + 4 = 3t + 4 = c, and so t = 10.  
 :::

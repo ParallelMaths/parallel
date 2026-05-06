@@ -17,6 +17,10 @@ How much does one bar of chocolate cost?
 * [ ] £4
 * [ ] £5
 {.col-5}
+
+---
+
+£6 divided by 3 is £2 per chocolate bar.
 :::
 
 
@@ -35,6 +39,16 @@ How many dogs go to the school?
 * [ ] 3
 * [ ] 2
 {.col-5}
+
+---
+
+Remember that cats, sheep and dogs all have 4 legs each, but ducks only have 2!  
+
+The total legs from the cats, ducks and sheep is 3 × 4 + 2 × 4 + 2 × 2 = 12 + 8 + 4 = 24.  
+
+The remaining legs come from the dogs which is 44 – 24 = 20.  
+
+The number of dogs is then 20 ÷ 4 = 5.  
 :::
 
 
@@ -57,6 +71,12 @@ Which letter is on the cube that cannot be seen in the picture?
 * [ ] D
 * [ ] The picture is not possible
 {.col-5}
+
+---
+
+The cube that cannot be seen is below a C cube, to the left of the D cube on the back right, and behind the A cube on the front left.  
+
+This leaves B as the only option.
 :::
 
 
@@ -77,6 +97,12 @@ How many goals did the hometeam score in total?
 * [ ] 6
 * [ ] 7
 {.col-5}
+
+---
+
+If 6 goals were scored in the first half, but the visitors were leading, then the possible scores are 0-6, 1-5 and 2-4 to the visiting team.  
+
+However, if the hosts then score 3 goals in the second half to win, then the only possibility is that the first half score was 2-4 and the final score was 5-4 to the home team.  
 :::
 
 
@@ -97,4 +123,18 @@ Which digit is represented by ♣?
 * [ ] 8
 * [x] 9
 {.col-5}
+
+---
+
+In order, these symbols are clubs (♣), hearts (♥) and diamonds (♦).  
+
+Because the digits represented by ♥ and ♦ add to give ♥, we know that ♦ must represent the digit 0.  
+
+Then, the two-digit number ♥♦  could be any multiple of 10 from 10 to 90.  
+
+We know that ♣ + ♥ + ♣ = 2 × ♣ + ♥ = ♥♦. Therefore, if we subtract ♥ from ♥♦, we will get 2 × ♣, which is even.  
+
+This means that ♥ has to be an even number and that doubling ♣ gives us ♥ less than a multiple of 10.  
+
+The only possibility is ♣ = 9 and ♥ = 2, so that 2 × 9 + 2 = 20.  
 :::

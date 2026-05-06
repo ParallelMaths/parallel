@@ -11,7 +11,7 @@ A blackboard has a total unfolded length of 6m.  The middle section is 3m long.
  
 ![](/resources/primary-quiz-20/1-blackboards.png){image align="center"} 
 
-How long is the section labelled with a questionmark? 
+How long is the section labelled with a question mark? 
 
 * [ ] 1
 * [ ] 1.25m

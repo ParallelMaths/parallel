@@ -7,7 +7,7 @@
 ## 1.
 <!--- 2013 (6) --->
 ::: problem id=1_1 marks=1
-In the following sum the same digit is used in each square:  
+In the following multiplication, the same digit is used in each square:  
 
 ![](/resources/primary-quiz-15/1-sum.png){image align="center"} 
 
