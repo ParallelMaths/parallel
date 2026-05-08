@@ -1205,6 +1205,9 @@ homework:
   - url: academy-7sum-2026-week-2
     title: Parallel Academy Year 7 Summer Term Week 2
     available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-3
+    title: Parallel Academy Year 7 Summer Term Week 3
+    available: 2025-04-10T09:00:00
   - url: academy-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-04-10T09:00:00
@@ -1418,6 +1421,9 @@ homework:
     available: 2025-02-24T09:00:00
   - url: webinar-7sum-2026-week-2
     title: Parallel Academy Year 7 Summer Term Week 2
+    available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-3
+    title: Parallel Academy Year 7 Summer Term Week 3
     available: 2025-02-24T09:00:00
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
