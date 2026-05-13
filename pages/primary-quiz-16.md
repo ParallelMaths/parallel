@@ -102,6 +102,17 @@ What is the minimum number of pieces he must use?
 * [ ] 16
 * [x] 20
 {.col-5}
+
+---
+
+![](/resources/primary-quiz-16/4-shape-answer.png){image align="right"} 
+The complete square must consist of a perfectly square number of smaller squares. This square number must also be a multiple of 5, since the piece consists of 5 smaller squares.  
+
+The two smallest options would be 25 or 100 smaller squares, coming from 5 or 20 pieces, respectively.  
+
+By interlocking two of the pieces, we can make a 2×5 rectangle of 10 squares. We can then put 10 of these sets of 2 pieces together to form a 10×10 complete square from 20 pieces.  
+
+It is not possible to form a 5×5 complete square from the given piece. No matter how the pieces are positioned, 5 of them cannot fit exactly within a 5×5 square. One example of this is pictured.  
 :::
 
 

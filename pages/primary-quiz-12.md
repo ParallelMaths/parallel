@@ -27,7 +27,7 @@ After 3 years, each person’s age will have increased by 3, so in total the inc
 ## 2.
 <!--- 2011 (6) --->
 ::: problem id=2_1 marks=1
-![](/resources/primary-quiz-13/2-water.png){image align="center"} 
+![](/resources/primary-quiz-12/2-water.png){image align="right"} 
 1000 litres of water is passed through the water system as shown, into two identical tanks.  
 
 At each junction the water separates into two equal amounts.  

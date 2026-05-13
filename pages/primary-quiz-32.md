@@ -120,7 +120,7 @@ However, from the same list there are two possible groups of three that sum to 8
 
 If Monika picks the first triplet, she has two numbers in common with Daniel: 1 and 2.  
 
-If Monika picks the second triplet, she has two numbers in common with Daniel: 1 and 3.  
+If Monika picks the second triplet, she has two numbers in common with Daniel: 1 and 4.  
 
 Therefore, regardless of which triplet Monika chooses, she will have two numbers in common with Daniel.  
 :::

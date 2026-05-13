@@ -46,6 +46,22 @@ Which pattern will you get if you join the centres of each of the neighbouring h
 {.col-5}
 
 ![](/resources/primary-quiz-22/2-patterns.png){image align="center"} 
+
+---
+
+
+![](/resources/primary-quiz-22/2-patterns-a.png){image align="right"} 
+Consider three neighbouring hexagons with line segments drawn between their centres.  
+
+These line segments will all be the same length, since the hexagons are the same size. Also, since a hexagon has 6 sides, the angle between these line segments will be 360 ÷ 6 = 60 degrees.  
+
+Repeating this over the whole tessellation (shapes fitting together with no gaps) of hexagons will form a pattern of identical equilateral triangles.  
+
+The original picture consists of columns of 5, 4, 3, 2 and then 1 hexagon.  
+
+Each vertex of an equilateral triangle is also the centre of a hexagon, so we must have columns of 5, 4, 3, 2 and then 1 vertex in the pattern of equilateral triangle.  
+
+This is seen in option C.
 :::
 
 
