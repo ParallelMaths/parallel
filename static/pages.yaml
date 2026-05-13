@@ -1416,6 +1416,9 @@ homework:
   - url:  academy-9sum-2026-week-2
     title: Parallel Academy Year 9 Summer Term Week 2
     available: 2025-08-12T09:00:00 
+  - url:  academy-9sum-2026-week-3
+    title: Parallel Academy Year 9 Summer Term Week 3
+    available: 2025-08-12T09:00:00 
   - url: webinar-7sum-2026-week-1
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1586,6 +1589,9 @@ homework:
     available: 2025-08-12T09:00:00  
   - url:  webinar-imc-summer-2026-week-2
     title: Parallel Academy IMC Summer Term Week 2
+    available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-summer-2026-week-3
+    title: Parallel Academy IMC Summer Term Week 3
     available: 2025-08-12T09:00:00  
   - url:  visibility-test
     title: Visibility Test
