@@ -137,7 +137,7 @@ e) <input type="text" solution="x"/>
 ::: 
 
 ## 6.
-![](/resources/academy-4-week-3/4-skull.png){image align="right"}  
+![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
 ![](/resources/academy-7sum-2026-week-3/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
