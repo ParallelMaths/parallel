@@ -1,4 +1,4 @@
-# Summer Admissions Teachability Test 2026
+# Summer Admissions Teachability Test 2025
 
 * __You have 10 minutes for this test.__    
 * __The tutor will let you know how long is left at regular intervals.__  

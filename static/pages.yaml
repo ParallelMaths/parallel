@@ -1994,6 +1994,34 @@ test:
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-01-11T13:00:00
     deadline: 2026-04-30T11:00:00
+  - url: admissions-summer-ps-7
+    title: Year 7 Summer Admissions Problem Solving Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2025-05-07T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: end
+  - url: admissions-summer-ps-8
+    title: Year 8 Summer Admissions Problem Solving Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: end
+  - url: admissions-summer-mental-maths
+    title: Summer Admissions Mental Maths 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: end
+  - url: admissions-summer-teachability
+    title: Summer Admissions Teachability Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: end
 
 test-archive:
   - url: ukmt-score
