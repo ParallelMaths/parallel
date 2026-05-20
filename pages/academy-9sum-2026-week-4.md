@@ -29,6 +29,7 @@ We will also be running a weekly homework review session (look out for our email
 * [x] (iii)
 * [ ] (iv)
 * [ ] (v)
+{.col-5}
 
 ---
 
