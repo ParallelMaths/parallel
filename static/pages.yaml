@@ -1693,12 +1693,6 @@ test:
     answersVisibleFrom: 2025-09-01T09:00:00
     deadline: 2065-08-31T21:00:00
     password: dog
-  - url: 7spr-test-week5
-    title: Parallel Academy 7SPR Week 5 Test 2025
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-02-16T09:00:00
-    deadline: 2026-08-31T21:00:00
   - url: academy-7sum-test
     title: Parallel Academy Year 7 Summer Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1723,47 +1717,6 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-07-21T09:00:00
     deadline: 2025-08-31T21:00:00
-  - url: academy-7aut-core
-    title: Core Maths Quiz (Year 7 Autumn)
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2024-01-15T13:00:00
-    deadline: 2027-08-31T21:00:00
-  - url: academy-8aut-test
-    title: Parallel Academy Year 8 Autumn Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
-  - url: academy-8aut-test-v2
-    title: Parallel Academy Year 8 Autumn Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
-  - url: academy-9aut-test
-    title: Parallel Academy Year 9 Autumn Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
-  - url: academy-10aut-test
-    title: Parallel Academy Year 10 Autumn Term Test
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
-  - url: mental-maths-autumn-2025
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
-  - url: mental-maths-autumn-2025-2
-    title: Mental maths quiz
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-07-21T09:00:00
-    deadline: 2026-08-31T21:00:00
   - url: primary-quiz-1
     title: Primary Parallel Quiz 1
     available: 2024-01-15T13:00:00
@@ -1964,6 +1917,83 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-01-15T16:00:00
     deadline: 2065-08-31T21:00:00
+  - url: admissions-summer-ps-7
+    title: Year 7 Summer Admissions Problem Solving Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2025-05-07T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: bag
+  - url: admissions-summer-ps-8
+    title: Year 8 Summer Admissions Problem Solving Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: bag
+  - url: admissions-summer-teachability
+    title: Summer Admissions Teachability Test 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: bin
+  - url: mental-maths-summer-2026
+    title: Mental maths quiz 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-08-01T16:00:00
+    deadline: 2028-08-10T16:00:00
+    password: box
+
+test-archive:
+  - url: 7spr-test-week5
+    title: Parallel Academy 7SPR Week 5 Test 2025
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-02-16T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-7aut-core
+    title: Core Maths Quiz (Year 7 Autumn)
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2024-01-15T13:00:00
+    deadline: 2027-08-31T21:00:00
+  - url: academy-8aut-test
+    title: Parallel Academy Year 8 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-8aut-test-v2
+    title: Parallel Academy Year 8 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-9aut-test
+    title: Parallel Academy Year 9 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: academy-10aut-test
+    title: Parallel Academy Year 10 Autumn Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: mental-maths-autumn-2025
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
+  - url: mental-maths-autumn-2025-2
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2025-07-21T09:00:00
+    deadline: 2026-08-31T21:00:00
   - url: academy-7spr-test
     title: Parallel Academy Year 7 Spring Term Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -2000,20 +2030,6 @@ test:
     available: 2025-01-15T13:00:00
     answersVisibleFrom: 2026-01-11T13:00:00
     deadline: 2026-04-30T11:00:00
-  - url: admissions-summer-ps-7
-    title: Year 7 Summer Admissions Problem Solving Test 2026
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2025-05-07T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2028-08-10T16:00:00
-    password: end
-  - url: admissions-summer-ps-8
-    title: Year 8 Summer Admissions Problem Solving Test 2026
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2028-08-10T16:00:00
-    password: end
   - url: admissions-summer-mental-maths
     title: Summer Admissions Mental Maths 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -2021,15 +2037,6 @@ test:
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: end
-  - url: admissions-summer-teachability
-    title: Summer Admissions Teachability Test 2026
-    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-08-01T16:00:00
-    deadline: 2028-08-10T16:00:00
-    password: end
-
-test-archive:
   - url: ukmt-score
     title: UKMT Score
     available: 2024-01-15T13:00:00
