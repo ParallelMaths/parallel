@@ -81,9 +81,6 @@ b) <input type="number" solution="360"/>
 ![](/resources/academy-8sum-2026-week-4/s2c.png){image align="center"}
 ::: 
 
-![](/resources/academy-8sum-2026-week-4/s2d.png){image align="center"}
-::: 
-
 ::: problem id=2_4 marks=2
 ![](/resources/academy-8sum-2026-week-4/q2d.png){image align="center"} 
 d) <input type="number" solution="31"/>  
