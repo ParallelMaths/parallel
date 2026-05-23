@@ -7,21 +7,21 @@ const csv = require("csvtojson");
 
 const limit = promiseLimit(400);
 
-const csvFile = "/Users/drew/Desktop/WebinarPhoneNumbers1.csv";
+const csvFile = "/Users/drew/Downloads/Data\ Aggregation\ Master\ 24.04.25\ -\ for\ school\ transfer.csv";
 
-fb.initializeApp({
-  credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
-});
+// fb.initializeApp({
+//   credential: fb.credential.cert(serviceAccount),
+//   databaseURL: 'https://parallel-cf800.firebaseio.com'
+// });
 
-const userDb = fb.firestore().collection('users');
+// const userDb = fb.firestore().collection('users');
 
-const job = async (id, data) => {
-  console.log(id, data);
-  await userDb.doc(id).set({
-    ...data,
-  }, { merge: true });
-}
+// const job = async (id, data) => {
+//   console.log(id, data);
+//   await userDb.doc(id).set({
+//     ...data,
+//   }, { merge: true });
+// }
 
 const run = async () => {
   const file = path.join(__dirname, `../private/tmp-users.json`);
@@ -41,40 +41,35 @@ const run = async () => {
 
   for (const row of csvData) {
     const email = row["email"];
-    const phoneNumbers = [row["guardianPhone"], row["phone2"]].filter(Boolean).map(n => {
-      if (n.startsWith('7')) {
-        return '0' + n;
-      }
-      return n.replace('+447', '07');
-    });
-
     const userId = accountsByEmail[email?.toLowerCase()]?.localId;
-    const user = users.data[userId];
 
-    if (!user) {
-      console.log("User not found", email);
-      continue;
-    }
+    console.log(userId)
+    // const user = users.data[userId];
 
-    if (user.phoneNumber) {
-      phoneNumbers.push(user.phoneNumber.replace('+447', '07'));
-    }
+    // if (!user) {
+    //   console.log("User not found", email);
+    //   continue;
+    // }
 
-    if (user.guardianPhone) {
-      phoneNumbers.push(user.guardianPhone.replace('+447', '07'));
-    }
+    // if (user.phoneNumber) {
+    //   phoneNumbers.push(user.phoneNumber.replace('+447', '07'));
+    // }
 
-    const cleanPhoneNumbers = phoneNumbers.filter(Boolean).map(n => n.replace(/\s/g, '')).filter(n => !/[a-zA-Z]/.test(n))
+    // if (user.guardianPhone) {
+    //   phoneNumbers.push(user.guardianPhone.replace('+447', '07'));
+    // }
 
-    const dedupedPhoneNumbers = [...new Set(cleanPhoneNumbers)];
+    // const cleanPhoneNumbers = phoneNumbers.filter(Boolean).map(n => n.replace(/\s/g, '')).filter(n => !/[a-zA-Z]/.test(n))
 
-    const numbersFinal = [dedupedPhoneNumbers[0], dedupedPhoneNumbers[1]].filter(Boolean);
+    // const dedupedPhoneNumbers = [...new Set(cleanPhoneNumbers)];
 
-    dataToSet[userId] = {
-      guardianPhone: null,
-      phoneNumber: null,
-      phoneNumbers: numbersFinal.map(n => ({ phoneNumber: n, type: 'guardian' })),
-    }
+    // const numbersFinal = [dedupedPhoneNumbers[0], dedupedPhoneNumbers[1]].filter(Boolean);
+
+    // dataToSet[userId] = {
+    //   guardianPhone: null,
+    //   phoneNumber: null,
+    //   phoneNumbers: numbersFinal.map(n => ({ phoneNumber: n, type: 'guardian' })),
+    // }
 
     // if(dataToSet[userId].phoneNumbers.length === 0) {
       // console.log('-')
@@ -92,12 +87,12 @@ const run = async () => {
 
   const data = Object.entries(dataToSet);
 
-  Promise.all(data.map(([id, user]) => {
-    return limit(() => job(id, user))
-  })).then(results => {
-    console.log()
-    console.log('results:', results.length)
-  })
+  // Promise.all(data.map(([id, user]) => {
+  //   return limit(() => job(id, user))
+  // })).then(results => {
+  //   console.log()
+  //   console.log('results:', results.length)
+  // })
 };
 
 run();
