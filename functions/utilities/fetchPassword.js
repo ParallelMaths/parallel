@@ -1,4 +1,5 @@
 const FALLBACK_PASSWORD = 'euclid';
+const OVERRIDE_PASSWORD = 'applemangopear';
 
 async function fetchPassword(pid) {
   try {
@@ -11,4 +12,4 @@ async function fetchPassword(pid) {
   }
 }
 
-module.exports = { fetchPassword };
+module.exports = { fetchPassword, OVERRIDE_PASSWORD };

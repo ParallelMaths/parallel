@@ -20,7 +20,7 @@ const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
 const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
 const { getTypeSafeUser } = require('./utilities/getTypeSafeUser')
-const { fetchPassword } = require('./utilities/fetchPassword')
+const { fetchPassword, OVERRIDE_PASSWORD } = require('./utilities/fetchPassword')
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -760,7 +760,7 @@ app.get('/test/:pid', async (req, res, next) => {
     hasPassword = true;
   } else if(req.query.p) {
     const password = await fetchPassword(pid);
-    if(req.query.p === password) {
+    if(req.query.p === password || req.query.p === OVERRIDE_PASSWORD) {
       hasPassword = true;
     } else {
       passwordIncorrect = true;
