@@ -20,6 +20,7 @@ const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
 const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
 const { getTypeSafeUser } = require('./utilities/getTypeSafeUser')
+const { fetchPassword } = require('./utilities/fetchPassword')
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -739,7 +740,7 @@ app.get('/homework/:pid', (req, res, next) => {
   res.render('homework', {pid, body, page: HOMEWORK_MAP[pid], userData});
 });
 
-app.get('/test/:pid', (req, res, next) => {
+app.get('/test/:pid', async (req, res, next) => {
   const pid = req.params.pid;
   if (!TEST_MAP[pid]) return next();
 
@@ -758,7 +759,8 @@ app.get('/test/:pid', (req, res, next) => {
   if(!page.password || page.answersVisible || showAnswersIfSubmitted) {
     hasPassword = true;
   } else if(req.query.p) {
-    if(req.query.p == page.password) {
+    const password = await fetchPassword(pid);
+    if(req.query.p === password) {
       hasPassword = true;
     } else {
       passwordIncorrect = true;
