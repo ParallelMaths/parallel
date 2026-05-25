@@ -183,7 +183,7 @@ Number of minutes in 5.25 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-(−4) + (−8) × (-8)
+(-4) + (-8) × (-8)
 
 <input solution="60"/>  
 :::
