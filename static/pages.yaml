@@ -1277,6 +1277,9 @@ homework:
   - url: academy-8sum-2026-week-4
     title: Parallel Academy Year 8 Summer Term Week 4
     available: 2025-04-10T09:00:00
+  - url: academy-8sum-2026-week-5
+    title: Parallel Academy Year 8 Summer Term Week 5
+    available: 2025-04-10T09:00:00
   - url: academy-8sum-week-2
     title: Parallel Academy Year 8 Summer Term Week 1
     available: 2025-04-10T09:00:00
@@ -1553,6 +1556,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-8sum-2026-week-4
     title: Parallel Academy Year 8 Summer Term Week 4
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-2026-week-5
+    title: Parallel Academy Year 8 Summer Term Week 5
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
