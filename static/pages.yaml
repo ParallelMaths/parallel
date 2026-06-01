@@ -1211,6 +1211,9 @@ homework:
   - url: academy-7sum-2026-week-4
     title: Parallel Academy Year 7 Summer Term Week 4
     available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-5
+    title: Parallel Academy Year 7 Summer Term Week 5
+    available: 2025-04-10T09:00:00
   - url: academy-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-04-10T09:00:00
@@ -1446,6 +1449,9 @@ homework:
   - url: webinar-7sum-2026-week-4
     title: Parallel Academy Year 7 Summer Term Week 4
     available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-5
+    title: Parallel Academy Year 7 Summer Term Week 5
+    available: 2025-02-24T09:00:00
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1670,6 +1676,7 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-08-11T13:00:00
     deadline: 2026-09-10T16:00:00
+    password: true
   - url: admissions-tutorial-quiz
     title: Admissions Tutorial Quiz Autumn 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
