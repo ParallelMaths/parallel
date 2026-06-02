@@ -14,6 +14,27 @@ const cacheFilePath = path.join(__dirname, `../../private/cache-users.json`);
 
 const cacheLengthMs = 1000*60*60;
 
+const writeUsersCache = (filePath, users) => {
+    const stream = fs.createWriteStream(filePath, { encoding: 'utf8' });
+
+    return new Promise((resolve, reject) => {
+        stream.on('error', reject);
+        stream.write('{\n');
+        stream.write(`    "time": ${Date.now()},\n`);
+        stream.write('    "data": {\n');
+
+        const ids = Object.keys(users);
+        ids.forEach((id, index) => {
+            const comma = index < ids.length - 1 ? ',' : '';
+            const userJson = JSON.stringify(users[id]);
+            stream.write(`        ${JSON.stringify(id)}: ${userJson}${comma}\n`);
+        });
+
+        stream.write('    }\n');
+        stream.end('}\n', resolve);
+    });
+}
+
 const runDownload = async () => {
     const command = 'npm run export-users';
     console.log('Downloading user auth accounts');
@@ -87,10 +108,7 @@ const runAll = async (skipCache = false) => {
     console.log(`Was unable to find`, missing.length, 'data accounts');
     // console.log(missing.map(({localId}) => localId).join());
 
-    fs.writeFileSync(cacheFilePath, JSON.stringify({
-        time: Date.now(),
-        data: dataAccounts
-    }, null, 4))
+    await writeUsersCache(cacheFilePath, dataAccounts);
 
     return dataAccounts;
 }
