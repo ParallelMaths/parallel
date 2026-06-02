@@ -1680,7 +1680,7 @@ test:
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-08-11T13:00:00
+    answersVisibleFrom: 2026-05-11T13:00:00
     deadline: 2026-09-10T16:00:00
     password: true
   - url: admissions-tutorial-quiz
@@ -1691,10 +1691,10 @@ test:
     deadline: 2026-08-10T16:00:00
     password: true
   - url: admissions-tutorial-quiz-summer-2026
-    title: Admissions Tutorial Quiz Autumn 2026
+    title: Admissions Tutorial Quiz Summer 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2026-01-15T13:00:00
-    answersVisibleFrom: 2026-07-15T13:00:00
+    answersVisibleFrom: 2026-05-15T13:00:00
     deadline: 2026-08-10T16:00:00
     password: true
   - url: admissions-y7-2024-coreps
