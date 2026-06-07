@@ -18,10 +18,11 @@ git clone git@github.com:ParallelMaths/parallel.git
 cd parallel
 ```
 
-**Next you need to setup your service account information**
+**Next you need to setup your service account & aws information**
 ```bash
 mkdir private
 touch private/service-account.json # put your service account json in here
+touch private/aws-account.json # put your aws credential json in here
 ```
 
 **Then you can install the node dependancies using our version of Node**
@@ -36,6 +37,14 @@ npm start
 ```
 
 **You can access the local server on http://localhost:5000**
+
+## Scripts
+
+We have many scripts availible in this repo. The most commonly used is
+
+```bash
+npm run get-results
+```
 
 ## Deployments
 
