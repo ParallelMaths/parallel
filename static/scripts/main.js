@@ -111,7 +111,7 @@ document.addEventListener("wheel", function(event){
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  firebase.initializeApp(JSON.parse(window.FIREBASE_CONFIG));
+  firebase.initializeApp(window.FIREBASE_CONFIG);
 
   const user = getUser();
   const challenge = window.PARALLELOGRAM ? getChallenge() : null;

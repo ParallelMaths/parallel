@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
+    "serve:old": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta",
     "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project $(node scripts/get-project-alias.js)",
     "export-users": "cross-env GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project $(node scripts/get-project-alias.js)",
     "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project $(node scripts/get-project-alias.js)",
