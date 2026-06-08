@@ -88,6 +88,16 @@ function letterOrder(a, b) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
 
+const firebaseClientConfig = serviceAccount.project_id === 'parallel-cf800' ? {
+  apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
+  projectId: "parallel-cf800",
+  authDomain: "parallel-cf800.firebaseapp.com",
+} : {
+  apiKey: "AIzaSyDk4_ME-Uy1D3Yjg94Af7Gzhg3I1xNYWp8",
+  projectId: "parallel-beta-31dc4",
+  authDomain: "parallel-beta-31dc4.firebaseapp.com",
+};
+
 // -----------------------------------------------------------------------------
 // Set up Express App
 
@@ -108,6 +118,8 @@ app.use((req, res, next) => {
   res.locals.levelNamesWithAges = LEVEL_NAMES_WITH_AGES;
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
+  res.locals.firebaseClientConfig = firebaseClientConfig;
+  res.locals.isBeta = serviceAccount.project_id.includes('beta');
 
   if (req.user && req.user.showWelcomeMsg && !req.query.latest && !req.path.includes('/api')) {
     userDB.doc(req.user.uid) // async
