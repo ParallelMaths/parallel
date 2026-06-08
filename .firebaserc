@@ -1,7 +1,7 @@
 {
   "projects": {
     "default": "parallel-beta-31dc4",
-    "prod": "parallel-beta-31dc4",
+    "prod": "parallel-cf800",
     "beta": "parallel-beta-31dc4"
   }
 }
