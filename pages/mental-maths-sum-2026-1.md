@@ -89,7 +89,7 @@ Lowest common multiple of 44 and 55
 ::: problem id=23_1 marks=1
 (−9) + (−3) × (9)
 
-<input solution="−36"/>  
+<input type="number" solution="−36"/>  
 :::
 
 
