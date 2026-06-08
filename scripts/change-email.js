@@ -8,7 +8,7 @@ const to = 'lalanthi026@googlemail.com'
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-beta-31dc4.firebaseio.com",
+  databaseURL: require('./utils/firebase-config').databaseURL,
 });
 
 const run = () =>

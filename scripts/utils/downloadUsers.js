@@ -7,7 +7,7 @@ const serviceAccount = require('../../private/service-account.json');
 
 fb.initializeApp({
     credential: fb.credential.cert(serviceAccount),
-    databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
+    databaseURL: require('./firebase-config').databaseURL
 });
 
 const cacheFilePath = path.join(__dirname, `../../private/cache-users.json`);

@@ -16,7 +16,7 @@ const dryRun = true; // when true, will just log what it will write, but not sav
 
 fb.initializeApp({
     credential: fb.credential.cert(serviceAccount),
-    databaseURL: 'https://parallel-beta-31dc4.firebaseio.com'
+    databaseURL: require('./utils/firebase-config').databaseURL
 });
 const userDb = fb.firestore().collection('users');
 

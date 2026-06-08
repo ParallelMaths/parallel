@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start": "grunt build && npm run serve",
-    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta",
-    "export-users": "cross-env GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project beta",
-    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project beta",
+    "serve": "grunt concurrent & GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project $(node scripts/get-project-alias.js)",
+    "export-users": "cross-env GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase auth:export ./private/tmp-users.json --format=json --project $(node scripts/get-project-alias.js)",
+    "deploy": "grunt && GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase deploy --project $(node scripts/get-project-alias.js)",
     "convert-teachers": "node scripts/convert-teachers.js",
     "convert-students": "node scripts/convert-students.js",
     "get-users": "node scripts/get-users.js",
@@ -20,7 +20,7 @@
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
     "set-points": "node scripts/set-points.js",
-    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project beta\""
+    "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"GOOGLE_APPLICATION_CREDENTIALS=private/service-account.json firebase serve --project $(node scripts/get-project-alias.js)\""
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
