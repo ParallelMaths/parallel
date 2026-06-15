@@ -68,7 +68,7 @@ Mean of [4, 6, 15, 39]
 ::: problem id=19_1 marks=1
 `5/8` of `31/35` as a fraction in its simplest form (use / when writing fractions)
 
-<input solution="3/11"/>  
+<input solution="31/56"/>  
 :::
 
 
