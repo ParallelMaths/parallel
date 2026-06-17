@@ -32,23 +32,23 @@ We will also be running a weekly homework review session (look out for our email
 ::: 
 
 ::: problem id=1_2 marks=1
-![](/resources/academy-8sum-2026-week-8/q2a.png){image align="center"} 
+![](/resources/academy-8sum-2026-week-8/q1b.png){image align="center"} 
 * [x] Always a factor
 * [ ] Not always a factor
  
 ---
 
-![](/resources/academy-8sum-2026-week-8/s2a.png){image align="center"}
+![](/resources/academy-8sum-2026-week-8/s1b.png){image align="center"}
 ::: 
 
 ::: problem id=1_3 marks=1
-![](/resources/academy-8sum-2026-week-8/q3a.png){image align="center"} 
+![](/resources/academy-8sum-2026-week-8/q1c.png){image align="center"} 
 * [ ] Always a factor
 * [x] Not always a factor
  
 ---
 
-![](/resources/academy-8sum-2026-week-8/s3a.png){image align="center"}
+![](/resources/academy-8sum-2026-week-8/s1c.png){image align="center"}
 ::: 
 
 ::: problem id=1_4 marks=1

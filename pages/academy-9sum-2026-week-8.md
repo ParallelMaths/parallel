@@ -82,7 +82,7 @@ b) <input type="number" solution="495"/>
 
 ::: problem id=2_3 marks=2
 ![](/resources/academy-9sum-2026-week-8/q2c.png){image align="center"} 
-c) <input type="number" solution="45"/>  
+c) <input type="number" solution="19008"/>  
 	
 ^^^ hint id=2_3_1 marks=1
 ![](/resources/academy-9sum-2026-week-8/h2c.png){image align="center"} 
