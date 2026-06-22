@@ -15,7 +15,7 @@ Answer as many questions as you can in 10 minutes.
 ![](/resources/admissions-tutorial-quiz-y9-summer-2026/q2.png){image align="center"}  
 ::: problem id=2_1 marks=1
 
-<input type="number" solution="20"/>   
+<input type="number" solution="29"/>   
 ::: 
 
 
@@ -27,7 +27,7 @@ Answer as many questions as you can in 10 minutes.
 * [x] B
 * [ ] C
 * [ ] D
-* [ ] E 
+* [ ] E
 {.col-5}
 ::: 
 
@@ -48,7 +48,7 @@ Answer as many questions as you can in 10 minutes.
 * [ ] B
 * [x] C
 * [ ] D
-* [ ] E  
+* [ ] E
 {.col-5}
 ::: 
 
@@ -61,7 +61,7 @@ Answer as many questions as you can in 10 minutes.
 * [x] B
 * [ ] C
 * [ ] D
-* [ ] E  
+* [ ] E
 {.col-5}
 :::
 
@@ -82,7 +82,7 @@ Answer as many questions as you can in 10 minutes.
 * [ ] B
 * [x] C
 * [ ] D
-* [ ] E  
+* [ ] E
 {.col-5}
 ::: 
 
@@ -103,7 +103,7 @@ Answer as many questions as you can in 10 minutes.
 * [ ] B
 * [x] C
 * [ ] D
-* [ ] E  
+* [ ] E
 {.col-5}
 ::: 
 
