@@ -28,6 +28,7 @@ Answer as many questions as you can in 10 minutes.
 * [ ] C
 * [ ] D
 * [ ] E 
+{.col-5}
 ::: 
 
 
@@ -48,6 +49,7 @@ Answer as many questions as you can in 10 minutes.
 * [x] C
 * [ ] D
 * [ ] E  
+{.col-5}
 ::: 
 
 
@@ -60,6 +62,7 @@ Answer as many questions as you can in 10 minutes.
 * [ ] C
 * [ ] D
 * [ ] E  
+{.col-5}
 :::
 
 
@@ -80,6 +83,7 @@ Answer as many questions as you can in 10 minutes.
 * [x] C
 * [ ] D
 * [ ] E  
+{.col-5}
 ::: 
 
 
@@ -100,6 +104,7 @@ Answer as many questions as you can in 10 minutes.
 * [x] C
 * [ ] D
 * [ ] E  
+{.col-5}
 ::: 
 
 
