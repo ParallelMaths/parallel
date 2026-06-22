@@ -1,14 +1,6 @@
 # Admissions Tutorial Quiz Summer 2026
 
 Answer as many questions as you can in 10 minutes.
- 
-
-## 0.
-![](/resources/admissions-tutorial-quiz-y9-summer-2026/q0.png){image align="center"}  
-::: problem id=0_1 marks=0
-
-<input type="number" solution="135"/>  
-::: 
 
 
 ## 1.
