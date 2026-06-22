@@ -7,7 +7,7 @@ Answer as many questions as you can in 10 minutes.
 ![](/resources/admissions-tutorial-quiz-y9-summer-2026/q1.png){image align="center"}  
 ::: problem id=1_1 marks=1
 
-<input type="number" solution="168"/>  
+<input type="number" solution="744"/>  
 ::: 
 
 
