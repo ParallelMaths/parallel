@@ -1733,6 +1733,13 @@ test:
     answersVisibleFrom: 2026-05-11T13:00:00
     deadline: 2026-09-10T16:00:00
     password: true
+  - url: mental-maths-sum-2026-4
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-05-11T13:00:00
+    deadline: 2026-09-10T16:00:00
+    password: true
   - url: admissions-tutorial-quiz
     title: Admissions Tutorial Quiz Autumn 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
