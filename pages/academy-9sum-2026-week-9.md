@@ -30,7 +30,7 @@ a) <input type="number" solution="49"/>
 ![](/resources/academy-9sum-2026-week-9/s1a.png){image align="center"}
 :::  
 
-::: problem id=1_2 marks=1
+::: problem id=1_2 marks=2
 ![](/resources/academy-9sum-2026-week-9/q1b.png){image align="center"} 
 b) <input type="number" solution="25"/>  
 
