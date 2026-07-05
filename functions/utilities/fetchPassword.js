@@ -4,10 +4,16 @@ async function fetchPassword(pid) {
   try {
     const response = await fetch(`https://parallel.org.uk/admin/api/password/${encodeURIComponent(pid)}`);
     const data = await response.json();
-    return data.password || OVERRIDE_PASSWORD;
+    return {
+      password: data.password || OVERRIDE_PASSWORD,
+      answersVisible: data.answersVisible || false,
+    };
   } catch (e) {
     console.error('Failed to fetch password for', pid, e);
-    return OVERRIDE_PASSWORD;
+    return {
+      password: OVERRIDE_PASSWORD,
+      answersVisible: false,
+    };
   }
 }
 
