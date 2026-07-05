@@ -751,11 +751,14 @@ app.get('/test/:pid', async (req, res, next) => {
 
   let hasPassword = false;
   let passwordIncorrect = false;
+
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
 
   const page = await getPageWithRemoteData(_page, pid);
 
-  if(!page.password || page.answersVisible) {
+  const showAnswersIfSubmitted = !page.answersVisible && answers.submitted && page.showAnswersIfSubmitted;
+
+  if(!page.password || page.answersVisible || showAnswersIfSubmitted) {
     hasPassword = true;
   } else if(req.query.p) {
     if(req.query.p === page.password || req.query.p === OVERRIDE_PASSWORD) {
@@ -773,7 +776,7 @@ app.get('/test/:pid', async (req, res, next) => {
     submitted: "reveal" in req.query || answers.submitted || false,
     isTeacher: !!req.user?.code,
     answersVisible,
-    showPostSubmissionMessage: !answersVisible,
+    showPostSubmissionMessage: !answersVisible || showAnswersIfSubmitted,
     hasPassword,
     passwordIncorrect
   };
