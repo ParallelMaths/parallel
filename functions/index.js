@@ -20,7 +20,7 @@ const { countries } = require('./utilities/countries')
 const isProfileComplete = require('./utilities/profileComplete');
 const { getCleanAnswers, getPgPoints } = require('./utilities/pgPoints')
 const { getTypeSafeUser } = require('./utilities/getTypeSafeUser')
-const { fetchPassword, OVERRIDE_PASSWORD } = require('./utilities/fetchPassword')
+const { getPageWithRemoteData, OVERRIDE_PASSWORD } = require('./utilities/fetchPassword')
 
 const PAGES = require('./build/pages.json');
 const LEVELS = ['year6', 'year7', 'year8', 'year9',  'year10', 'year11'];
@@ -744,7 +744,7 @@ app.get('/test/:pid', async (req, res, next) => {
   const pid = req.params.pid;
   if (!TEST_MAP[pid]) return next();
 
-  const page = TEST_MAP[pid];
+  const _page = TEST_MAP[pid];
 
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
       .toString().replace(/<h1.*<\/h1>/, '');
@@ -753,18 +753,18 @@ app.get('/test/:pid', async (req, res, next) => {
   let passwordIncorrect = false;
   let remoteAnswersVisible = false
 
+  const page = await getPageWithRemoteData(_page, pid);
+  
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
 
   if(!page.password || page.answersVisible) {
     hasPassword = true;
   } else if(req.query.p) {
-    const { password, answersVisible } = await fetchPassword(pid);
-
-    if (answersVisible) {
+    if (page.answersVisible) {
       remoteAnswersVisible = true;
     }
 
-    if(req.query.p === password || req.query.p === OVERRIDE_PASSWORD) {
+    if(req.query.p === page.password || req.query.p === OVERRIDE_PASSWORD) {
       hasPassword = true;
     } else {
       passwordIncorrect = true;
