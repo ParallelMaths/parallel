@@ -756,7 +756,7 @@ app.get('/test/:pid', async (req, res, next) => {
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
   
-  const showAnswersIfSubmitted = !page.answersVisible && answers.submitted && page.showAnswersIfSubmitted;
+  const showAnswersIfSubmitted = !page.answersVisible && answers.submitted && page.showAnswersIfSubmitted; 
 
   if(!page.password || page.answersVisible || showAnswersIfSubmitted) {
     hasPassword = true;
