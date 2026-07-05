@@ -751,7 +751,6 @@ app.get('/test/:pid', async (req, res, next) => {
 
   let hasPassword = false;
   let passwordIncorrect = false;
-  
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
 
   const page = await getPageWithRemoteData(_page, pid);
