@@ -746,6 +746,8 @@ app.get('/test/:pid', async (req, res, next) => {
 
   const _page = TEST_MAP[pid];
 
+  const page = await getPageWithRemoteData(_page, pid);
+
   const body = fs.readFileSync(path.join(__dirname, `build/${pid}.html`))
       .toString().replace(/<h1.*<\/h1>/, '');
 
@@ -753,8 +755,6 @@ app.get('/test/:pid', async (req, res, next) => {
   let passwordIncorrect = false;
 
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
-
-  const page = await getPageWithRemoteData(_page, pid);
 
   const showAnswersIfSubmitted = !page.answersVisible && answers.submitted && page.showAnswersIfSubmitted;
 
