@@ -751,19 +751,14 @@ app.get('/test/:pid', async (req, res, next) => {
 
   let hasPassword = false;
   let passwordIncorrect = false;
-  let remoteAnswersVisible = false
-
-  const page = await getPageWithRemoteData(_page, pid);
   
   const answers = req.user ? (req.user.answers[pid] || {}) : {};
+
+  const page = await getPageWithRemoteData(_page, pid);
 
   if(!page.password || page.answersVisible) {
     hasPassword = true;
   } else if(req.query.p) {
-    if (page.answersVisible) {
-      remoteAnswersVisible = true;
-    }
-
     if(req.query.p === page.password || req.query.p === OVERRIDE_PASSWORD) {
       hasPassword = true;
     } else {
@@ -771,7 +766,7 @@ app.get('/test/:pid', async (req, res, next) => {
     }
   }
 
-  const answersVisible = "reveal" in req.query || page.answersVisible || remoteAnswersVisible || false;
+  const answersVisible = "reveal" in req.query || page.answersVisible || false;
 
   const userData = {
     answers,
