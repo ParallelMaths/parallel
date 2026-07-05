@@ -768,7 +768,7 @@ app.get('/test/:pid', async (req, res, next) => {
     }
   }
 
-  const answersVisible = "reveal" in req.query || page.answersVisible || false;
+  const answersVisible = "reveal" in req.query || page.answersVisible || showAnswersIfSubmitted || false;
 
   const userData = {
     answers,
