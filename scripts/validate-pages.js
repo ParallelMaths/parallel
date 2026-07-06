@@ -43,8 +43,7 @@ function run() {
       }
 
       if (deadline <= available) {
-        // checking with marsh
-        // errors.push(`${label}: "deadline" (${entry.deadline}) is not after "available" (${entry.available})`);
+        errors.push(`${label}: "deadline" (${entry.deadline}) is not after "available" (${entry.available})`);
       }
 
       if (section === 'test' && entry.password === true) {
