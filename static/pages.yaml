@@ -58,7 +58,7 @@ year6:
   - url: 6-34-self-descriptive
     title: Self-descriptive numbers
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 6-33-weird-shapes
     title: Weird shapes
     available: 2026-04-16T13:00:00
@@ -252,7 +252,7 @@ year7:
   - url: 7-34-good-will-hunting
     title: Good Will Hunting
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 7-33-a-matter-factorial
     title: A Matter Of Factorial!
     available: 2026-04-16T13:00:00
@@ -446,7 +446,7 @@ year8:
   - url: 8-34-pentagons-tile
     title: Pentagons Tile
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 8-33-north-pole
     title: The North Pole Riddle
     available: 2026-04-16T13:00:00
@@ -640,7 +640,7 @@ year9:
   - url: 9-34-mathematical-timeline
     title: Mathematical Timeline
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 9-33-sphere-packing
     title: Sphere Packing
     available: 2026-04-16T13:00:00
@@ -834,7 +834,7 @@ year10:
   - url: 10-34-a-trapped-knight
     title: A Trapped Knight
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 10-33-slinky-physics
     title: Slinky Physics
     available: 2026-04-16T13:00:00
