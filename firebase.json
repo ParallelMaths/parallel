@@ -1,5 +1,8 @@
 {
   "hosting": {
+    "predeploy": [
+      "node scripts/validate-pages.js"
+    ],
     "public": "static",
     "rewrites": [
       {
