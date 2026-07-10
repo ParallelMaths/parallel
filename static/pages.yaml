@@ -1178,12 +1178,13 @@ homework:
   - url: summer-paper-8-kangaroo
     title: Parallel Academy Year 8 Summer Paper - Grey Kangaroo
     available: 2025-03-11T12:00:00
-  - url: summer-paper-7-2026
+  - url: summer-paper-y7-2026
     title: Parallel Academy Year 7 Summer Paper
     available: 2025-03-11T12:00:00
   - url: summer-jk-paper-y7-2026
     title: Year 7 Summer Paper
-  - url: summer-paper-8-2026
+    available: 2025-03-11T12:00:00
+  - url: summer-paper-y8-2026
     title: Parallel Academy Year 8 Summer Paper
     available: 2025-03-11T12:00:00
   - url: summer-gk-paper-y8-2026
@@ -1191,7 +1192,6 @@ homework:
     available: 2025-03-11T12:00:00
   - url: summer-imc-paper-y8-2026
     title: Year 8 Summer Paper
-    available: 2025-03-11T12:00:00
     available: 2025-03-11T12:00:00
   - url: summer-paper-8-kangaroo-2026
     title: Parallel Academy Year 8 Summer Paper - Grey Kangaroo

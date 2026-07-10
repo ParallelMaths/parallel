@@ -183,7 +183,7 @@ Number of minutes in 3.5 hours
 
 ## 23.
 ::: problem id=23_1 marks=1
-(−1) + (−3) × (-8)
+(-1) + (-3) × (-8)
 
 <input solution="23"/>  
 :::
