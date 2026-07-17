@@ -1737,6 +1737,9 @@ homework:
   - url:  academy-y7-synoptic-2026
     title: Parallel Academy Year 7 Summer Synoptic Paper
     available: 2025-08-12T09:00:00 
+  - url:  academy-y7-algebra-2026
+    title: Parallel Academy Year 7 Summer Algebra Paper
+    available: 2025-08-12T09:00:00 
 
 test:
   - url: mental-maths-jan-2026-1
