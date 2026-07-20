@@ -11,6 +11,7 @@ If you have not yet taken this test then please do so now under timed conditions
 
 Here is the link to the two Algebra PDFs:  [Algebra Materials](https://drive.google.com/drive/folders/11veCs1-vdJHloHdeJc-Sf7LUQml02MeC?usp=sharing){target="_blank"} 
  
+**You have until the end of August 26th to submit this assignment. Only submit once you have had a proper go at the questions.**
 
 
 ## 1.	

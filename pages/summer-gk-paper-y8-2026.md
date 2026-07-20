@@ -10,6 +10,8 @@ Write your answers down carefully on a piece of paper, ensuring each answer lett
 
 After you have submitted your answers, you will be able to see which questions you got right and wrong, but not the solutions. We encourage you to come back to the questions you got wrong and have another go at solving them.  
 
+**You have until the end of August 26th to submit this assignment. Only submit once you have had a proper go at the questions.**
+
 We will then share full solutions with you just before the start of next term.
 
 ## 1.	

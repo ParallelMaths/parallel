@@ -8,6 +8,7 @@ Algebra is a very important topic that will feature prominently in next year’s
 
 3. If you do not score full marks then please make an extra effort to identify which questions you got wrong and which skills you need to focus on. Then look through the two PDFs, paying attention to those gaps.
 
+**You have until the end of August 26th to submit this assignment. Only submit once you have had a proper go at the questions.**
 
 Here is the link to the two Algebra PDFs:
  

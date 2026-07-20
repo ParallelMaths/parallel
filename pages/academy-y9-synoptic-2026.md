@@ -10,7 +10,7 @@ The number of marks each question or part is worth is shown. Some have an option
 
 **Do not rush this assignment!** Take your time, ensuring that you haven't overlooked something or made a silly error, before submitting your answers. You should only leave an answer blank if you have really thought about the problem and are still stuck.
 
-**You have until the end of August 31st to submit this assignment. Only submit once you have had a proper go at the questions (and have read through the session materials).**
+**You have until the end of August 26th to submit this assignment. Only submit once you have had a proper go at the questions (and have read through the session materials).**
 
 **After you click Submit, you will not be able to un-submit.** Full written solutions will be displayed and you should scroll down to see the correct answers and read the solutions.
 
