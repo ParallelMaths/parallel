@@ -112,9 +112,9 @@ document.addEventListener("wheel", function(event){
 
 document.addEventListener('DOMContentLoaded', function() {
   firebase.initializeApp({
-    apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
-    projectId: "parallel-cf800",
-    authDomain: "parallel-cf800.firebaseapp.com",
+    apiKey: "AIzaSyDk4_ME-Uy1D3Yjg94Af7Gzhg3I1xNYWp8",
+    projectId: "parallel-beta-31dc4",
+    authDomain: "parallel-beta-31dc4.firebaseapp.com",
   });
 
   const user = getUser();
