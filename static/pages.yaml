@@ -58,7 +58,7 @@ year6:
   - url: 6-34-self-descriptive
     title: Self-descriptive numbers
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 6-33-weird-shapes
     title: Weird shapes
     available: 2026-04-16T13:00:00
@@ -252,7 +252,7 @@ year7:
   - url: 7-34-good-will-hunting
     title: Good Will Hunting
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 7-33-a-matter-factorial
     title: A Matter Of Factorial!
     available: 2026-04-16T13:00:00
@@ -446,7 +446,7 @@ year8:
   - url: 8-34-pentagons-tile
     title: Pentagons Tile
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 8-33-north-pole
     title: The North Pole Riddle
     available: 2026-04-16T13:00:00
@@ -640,7 +640,7 @@ year9:
   - url: 9-34-mathematical-timeline
     title: Mathematical Timeline
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 9-33-sphere-packing
     title: Sphere Packing
     available: 2026-04-16T13:00:00
@@ -834,7 +834,7 @@ year10:
   - url: 10-34-a-trapped-knight
     title: A Trapped Knight
     available: 2026-04-23T13:00:00
-    deadline: 2025-04-27T13:00:00
+    deadline: 2026-04-27T13:00:00
   - url: 10-33-slinky-physics
     title: Slinky Physics
     available: 2026-04-16T13:00:00
@@ -1178,6 +1178,30 @@ homework:
   - url: summer-paper-8-kangaroo
     title: Parallel Academy Year 8 Summer Paper - Grey Kangaroo
     available: 2025-03-11T12:00:00
+  - url: summer-paper-y7-2026
+    title: Parallel Academy Year 7 Summer Paper
+    available: 2025-03-11T12:00:00
+  - url: summer-jk-paper-y7-2026
+    title: Year 7 Summer Paper
+    available: 2025-03-11T12:00:00
+  - url: summer-paper-y8-2026
+    title: Parallel Academy Year 8 Summer Paper
+    available: 2025-03-11T12:00:00
+  - url: summer-gk-paper-y8-2026
+    title: Year 8 Summer Paper - Grey Kangaroo
+    available: 2025-03-11T12:00:00
+  - url: summer-imc-paper-y8-2026
+    title: Year 8 Summer Paper
+    available: 2025-03-11T12:00:00
+  - url: summer-paper-8-kangaroo-2026
+    title: Parallel Academy Year 8 Summer Paper - Grey Kangaroo
+    available: 2025-03-11T12:00:00
+  - url: summer-y9-2026
+    title: Year 9 Summer Assignment
+    available: 2025-03-11T12:00:00
+  - url: summer-y10-2026
+    title: Year 10 Summer Assignment
+    available: 2025-03-11T12:00:00
   - url: webinar-1-week-2
     title: Parallel Academy Module 1 Week 1
     available: 2025-01-16T09:00:00
@@ -1213,6 +1237,18 @@ homework:
     available: 2025-04-10T09:00:00
   - url: academy-7sum-2026-week-5
     title: Parallel Academy Year 7 Summer Term Week 5
+    available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-7
+    title: Parallel Academy Year 7 Summer Term Week 7
+    available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-8
+    title: Parallel Academy Year 7 Summer Term Week 8
+    available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-9
+    title: Parallel Academy Year 7 Summer Term Week 9
+    available: 2025-04-10T09:00:00
+  - url: academy-7sum-2026-week-10
+    title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-04-10T09:00:00
   - url: academy-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
@@ -1282,6 +1318,18 @@ homework:
     available: 2025-04-10T09:00:00
   - url: academy-8sum-2026-week-5
     title: Parallel Academy Year 8 Summer Term Week 5
+    available: 2025-04-10T09:00:00
+  - url: academy-8sum-2026-week-7
+    title: Parallel Academy Year 8 Summer Term Week 7
+    available: 2025-04-10T09:00:00
+  - url: academy-8sum-2026-week-8
+    title: Parallel Academy Year 8 Summer Term Week 8
+    available: 2025-04-10T09:00:00
+  - url: academy-8sum-2026-week-9
+    title: Parallel Academy Year 8 Summer Term Week 9
+    available: 2025-04-10T09:00:00
+  - url: academy-8sum-2026-week-10
+    title: Parallel Academy Year 8 Summer Term Week 10
     available: 2025-04-10T09:00:00
   - url: academy-8sum-week-2
     title: Parallel Academy Year 8 Summer Term Week 1
@@ -1440,6 +1488,18 @@ homework:
   - url:  academy-9sum-2026-week-5
     title: Parallel Academy Year 9 Summer Term Week 5
     available: 2025-08-12T09:00:00 
+  - url:  academy-9sum-2026-week-7
+    title: Parallel Academy Year 9 Summer Term Week 7
+    available: 2025-08-12T09:00:00 
+  - url:  academy-9sum-2026-week-8
+    title: Parallel Academy Year 9 Summer Term Week 8
+    available: 2025-08-12T09:00:00 
+  - url:  academy-9sum-2026-week-9
+    title: Parallel Academy Year 9 Summer Term Week 9
+    available: 2025-08-12T09:00:00 
+  - url:  academy-9sum-2026-week-10
+    title: Parallel Academy Year 9 Summer Term Week 10
+    available: 2025-08-12T09:00:00 
   - url: webinar-7sum-2026-week-1
     title: Parallel Academy Year 7 Summer Term Week 1
     available: 2025-02-24T09:00:00
@@ -1454,6 +1514,18 @@ homework:
     available: 2025-02-24T09:00:00
   - url: webinar-7sum-2026-week-5
     title: Parallel Academy Year 7 Summer Term Week 5
+    available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-7
+    title: Parallel Academy Year 7 Summer Term Week 7
+    available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-8
+    title: Parallel Academy Year 7 Summer Term Week 8
+    available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-9
+    title: Parallel Academy Year 7 Summer Term Week 9
+    available: 2025-02-24T09:00:00
+  - url: webinar-7sum-2026-week-10
+    title: Parallel Academy Year 7 Summer Term Week 10
     available: 2025-02-24T09:00:00
   - url: webinar-7sum-week-2
     title: Parallel Academy Year 7 Summer Term Week 1
@@ -1569,6 +1641,18 @@ homework:
   - url:  webinar-8sum-2026-week-5
     title: Parallel Academy Year 8 Summer Term Week 5
     available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-2026-week-7
+    title: Parallel Academy Year 8 Summer Term Week 7
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-2026-week-8
+    title: Parallel Academy Year 8 Summer Term Week 8
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-2026-week-9
+    title: Parallel Academy Year 8 Summer Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8sum-2026-week-10
+    title: Parallel Academy Year 8 Summer Term Week 10
+    available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-1
     title: Parallel Academy IMC Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1635,9 +1719,39 @@ homework:
   - url:  webinar-imc-summer-2026-week-5
     title: Parallel Academy IMC Summer Term Week 5
     available: 2025-08-12T09:00:00  
+  - url:  webinar-imc-summer-2026-week-7
+    title: Parallel Academy IMC Summer Term Week 7
+    available: 2025-08-12T09:00:00 
+  - url:  webinar-imc-summer-2026-week-8
+    title: Parallel Academy IMC Summer Term Week 8
+    available: 2025-08-12T09:00:00 
+  - url:  webinar-imc-summer-2026-week-9
+    title: Parallel Academy IMC Summer Term Week 9
+    available: 2025-08-12T09:00:00 
+  - url:  webinar-imc-summer-2026-week-10
+    title: Parallel Academy IMC Summer Term Week 10
+    available: 2025-08-12T09:00:00 
   - url:  visibility-test
     title: Visibility Test
     available: 2025-08-12T09:00:00
+  - url:  academy-y7-synoptic-2026
+    title: Parallel Academy Year 7 Summer Synoptic Paper
+    available: 2025-08-12T09:00:00 
+  - url:  academy-y7-algebra-2026
+    title: Parallel Academy Year 7 Summer Algebra Paper
+    available: 2025-08-12T09:00:00 
+  - url:  academy-y8-synoptic-2026
+    title: Parallel Academy Year 8 Summer Synoptic Paper
+    available: 2025-08-12T09:00:00 
+  - url:  academy-y8-algebra-2026
+    title: Parallel Academy Year 8 Summer Algebra Paper
+    available: 2025-08-12T09:00:00 
+  - url:  academy-y9-synoptic-2026
+    title: Parallel Academy Year 9 Summer Synoptic Paper
+    available: 2025-08-12T09:00:00 
+  - url:  academy-y9-algebra-2026
+    title: Parallel Academy Year 9 Summer Algebra Paper
+    available: 2025-08-12T09:00:00 
 
 test:
   - url: mental-maths-jan-2026-1
@@ -1670,6 +1784,12 @@ test:
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2026-01-11T13:00:00
     deadline: 2026-08-10T16:00:00
+  - url: mental-maths-sum-5
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    answersVisibleFrom: 2026-01-11T13:00:00
+    deadline: 2026-08-10T16:00:00
   - url: mental-maths-mar-2026-2
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
@@ -1680,42 +1800,60 @@ test:
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-05-11T13:00:00
+    deadline: 2026-09-10T16:00:00
+    password: true
+  - url: mental-maths-sum-2026-2
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2026-09-10T16:00:00
+    password: true
+  - url: mental-maths-sum-2026-3
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2026-09-10T16:00:00
+    password: true
+  - url: mental-maths-sum-2026-4
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
     deadline: 2026-09-10T16:00:00
     password: true
   - url: admissions-tutorial-quiz
     title: Admissions Tutorial Quiz Autumn 2025
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
     password: true
   - url: admissions-tutorial-quiz-summer-2026
     title: Admissions Tutorial Quiz Summer 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2026-01-15T13:00:00
-    answersVisibleFrom: 2026-06-13T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: true
+  - url: admissions-tutorial-quiz-y9-summer-2026
+    title: Admissions Tutorial Quiz Summer 2026
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2026-01-15T13:00:00
     deadline: 2026-08-10T16:00:00
     password: true
   - url: admissions-y7-2024-coreps
     title: Year 7 Core Maths and Problem Solving
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
     password: true
   - url: mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-10T16:00:00
     password: true
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-11-30T13:00:00
-    answersVisibleFrom: 2026-07-15T13:00:00
     deadline: 2026-08-15T13:00:00
     password: true
   - url: mental-maths-summer
@@ -1734,7 +1872,54 @@ test:
     title: Year 8 Algebra
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2025-09-01T09:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-7sum-test-2026
+    title: Parallel Academy Year 7 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-8sum-test-2026
+    title: Parallel Academy Year 8 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-9sum-test-2026
+    title: Parallel Academy Year 9 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-8sum-test-2026-v2
+    title: Parallel Academy Year 8 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-9sum-test-2026-v2
+    title: Parallel Academy Year 9 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: academy-10sum-test-2026
+    title: Parallel Academy Year 10 Summer Term Test
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2065-08-31T21:00:00
+    password: true
+  - url: mental-maths-jul-2026
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2026-08-10T16:00:00
+    password: true
+  - url: algebra-sum-2026
+    title: Baseline Algebra Quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
     deadline: 2065-08-31T21:00:00
     password: true
   - url: academy-7sum-test
@@ -1965,28 +2150,24 @@ test:
     title: Year 7 Summer Admissions Problem Solving Test 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2025-05-07T13:00:00
-    answersVisibleFrom: 2026-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: true
   - url: admissions-summer-ps-8
     title: Year 8 Summer Admissions Problem Solving Test 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: true
   - url: admissions-summer-teachability
     title: Summer Admissions Teachability Test 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: true
   - url: admissions-summer-2026-mental-maths
     title: Mental maths quiz 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
-    answersVisibleFrom: 2026-08-01T16:00:00
     deadline: 2028-08-10T16:00:00
     password: true
 
@@ -2157,7 +2338,6 @@ test-archive:
     deadline: 2025-04-30T11:00:00
   - url: webinar-module-3-test-autumn
     title: Parallel Academy Webinar Module 3 Autumn Test 2024
-    showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2024-08-10T16:00:00
     deadline: 2025-08-10T16:00:00
@@ -2227,7 +2407,6 @@ test-archive:
   - url: primary-mental-maths
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00
@@ -2235,7 +2414,6 @@ test-archive:
   - url: primary-mental-maths-2
     title: Mental maths quiz 2
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
-    showAnswersIfSubmitted: true
     available: 2024-01-15T13:00:00
     answersVisibleFrom: 2025-08-01T16:00:00
     deadline: 2025-08-10T16:00:00

@@ -1,14 +1,26 @@
 const OVERRIDE_PASSWORD = 'applemangopear';
 
-async function fetchPassword(pid) {
+async function getPageWithRemoteData(page, pid) {
+  if (page.password !== true) {
+    return page;
+  }
+
   try {
     const response = await fetch(`https://parallel.org.uk/admin/api/password/${encodeURIComponent(pid)}`);
     const data = await response.json();
-    return data.password || OVERRIDE_PASSWORD;
+    return {
+      ...page,
+      password: data.password || OVERRIDE_PASSWORD,
+      answersVisible: data.answersVisible || false,
+    };
   } catch (e) {
     console.error('Failed to fetch password for', pid, e);
-    return OVERRIDE_PASSWORD;
+    return {
+      ...page,
+      password: OVERRIDE_PASSWORD,
+      answersVisible: false,
+    };
   }
 }
 
-module.exports = { fetchPassword, OVERRIDE_PASSWORD };
+module.exports = { getPageWithRemoteData, OVERRIDE_PASSWORD };
