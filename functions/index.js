@@ -6,7 +6,7 @@
 const firebase = require('firebase-admin');
 firebase.initializeApp({
   credential: firebase.credential.cert(require('./build/service-account.json')),
-  databaseURL: `https://parallel-cf800.firebaseio.com`,
+  databaseURL: `https://parallel-beta-31dc4.firebaseio.com`,
 });
 
 const fs = require('fs');
