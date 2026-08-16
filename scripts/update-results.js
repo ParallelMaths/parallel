@@ -13,7 +13,7 @@ const ADD_POINTS = 2;
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
+  databaseURL: require('./utils/firebase-config').databaseURL
 });
 const userDb = fb.firestore().collection('users');
 
