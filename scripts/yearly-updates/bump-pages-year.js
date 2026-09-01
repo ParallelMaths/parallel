@@ -12,7 +12,7 @@ const path = require('path');
 //   (no flags)  dry run - prints a diff-like summary of what would change
 //   --write     writes the changes back to static/pages.yaml
 
-const PAGES_FILE = path.join(__dirname, '../static/pages.yaml');
+const PAGES_FILE = path.join(__dirname, '../../static/pages.yaml');
 const SECTIONS_TO_BUMP = new Set([
   'year6',
   'year7',
