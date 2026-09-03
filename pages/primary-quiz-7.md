@@ -75,3 +75,57 @@ KANGAROO has eight letters and the first of these is painted on Wednesday.
 
 The final letter is therefore painted 7 days later, which is also a Wednesday.
 :::
+
+
+## 4.
+<!--- 2018 (6) --->
+::: problem id=4_1 marks=1
+![](/resources/primary-quiz-7/4-ink.png){image align="right"} 
+A big spot of ink covers most of a calendar page of a certain month.  
+
+Which day of the week does the 25th day of that month fall on? 
+
+* [ ] Monday
+* [ ] Wednesday
+* [ ] Thursday
+* [x] Saturday
+* [ ] Sunday
+{.col-5}
+
+---
+
+The 3rd day of the month is a Friday and hence the 10th, 17th and 24th days of the month are also Fridays, because adding on 7 days lands us on the same day of the week.  
+
+The day after the 24th is then a Saturday.  
+:::
+
+
+## 5.
+<!--- 2019 (22) --->
+::: problem id=5_1 marks=3
+![](/resources/primary-quiz-7/5-tins.png){image align="right"} 
+Jette and Willi throw balls at two identically built pyramids each made up of 15 tins.  
+
+Jette hits 6 tins and gets 25 points.  
+
+Willi hits 4 tins.  
+
+How many points does Willi get? 
+
+* [ ] 22
+* [ ] 23
+* [ ] 25
+* [x] 26
+* [ ] 28
+{.col-5}
+
+---
+
+The top tin is missing from both images, so both Jette and Willi knocked it down.  
+
+Looking at the tins that appear in the right-hand side of Willi’s pyramid but not in Jette’s, we can see that Jette hit the tins labelled 3, 2, 8, 3, 4 and the top tin.  
+
+Jette’s score is then 3 + 2 + 8 + 3 + 4 = 20 plus the top tin. Her score was 25 points, meaning that the top tin is worth 5 points.  
+
+Now, looking at the tins on the left-hand side of Jette’s pyramid that are missing from Willi’s, we see that Willi hit the tins labelled 8, 4, 9 and the top tin, giving a score of 8 + 4 + 9 + 5 = 26 points.  
+:::

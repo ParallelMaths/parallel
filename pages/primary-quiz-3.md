@@ -77,3 +77,66 @@ Blue is E and, as orange is not next to blue, it cannot be D.
 
 So orange is B.
 :::
+
+
+## 4.
+<!--- 2017 (5) --->
+::: problem id=4_1 marks=1
+![](/resources/primary-quiz-3/4-islands.jpg){image align="right"} 
+The 10 islands are connected by 12 bridges (see diagram).  
+
+All bridges are open for traffic.  
+
+What is the minimum number of bridges that need to be closed off, so that the traffic between A and B comes to a halt? 
+
+* [ ] 1
+* [x] 2
+* [ ] 3
+* [ ] 4
+* [ ] 5
+{.col-5}
+
+---
+
+![](/resources/primary-quiz-3/4-islands-answer.jpg){image align="right"} 
+We can close the bridge on the lower part of island A.  
+
+This prevents any traffic between A and B that travels through the lower section of islands.  
+
+In addition, we close the bridge on the upper part of B.  
+
+This prevents any traffic between A and B in the upper section of islands.
+:::
+
+
+## 5.
+<!--- 2020 (20) --->
+::: problem id=5_1 marks=3
+![](/resources/primary-quiz-3/5-water.png){image align="center"} 
+Maria puts 4 litres of water in vase I, 3 litres of water in vase II and 4 litres of water in vase III, represented on the side.  
+
+Seen from the front, these three vases seem to have the same size.  
+
+Which of the following images can represent the three vases, when seen from above?  
+
+![](/resources/primary-quiz-3/5-water-options.png){image align="center"} 
+
+* [x] A
+* [ ] B
+* [ ] C
+* [ ] D
+* [ ] E
+{.col-5}
+
+---
+
+Vases I and III both contain the same volume of water but the level of water is higher in vase I.  
+
+Since the width of the vases is the same, the first vase must be shorter than the third.  
+
+Vase II has a higher water level than the other two vases but contains a smaller volume of water.  
+
+Therefore, it must be shorter than both vases I and II, since its width is the same.  
+
+The option that displays vase II as the shortest, then vase I and finally vase III is option A.   
+:::

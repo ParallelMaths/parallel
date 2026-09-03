@@ -66,3 +66,58 @@ Here are the figures rotated 180 degrees.
 
 ![](/resources/primary-quiz-4/3-rectangles-answer.png){image align="center"} 
 :::
+
+
+## 4.
+<!--- 2018 (7) --->
+::: problem id=4_1 marks=1
+How many times do you have to roll an ordinary die in order to be certain that at least one number is rolled twice?  
+
+* [ ] 5
+* [ ] 6
+* [x] 7
+* [ ] 12
+* [ ] 18
+{.col-5}
+
+---
+
+After 6 rolls, it is still possible to have only rolled each of the six possible numbers once.  
+
+After one more roll, we will have definitely rolled at least one of these numbers twice, since we only have six options.
+:::
+
+
+## 5.
+<!--- 2018 (18) --->
+::: problem id=5_1 marks=2
+![](/resources/primary-quiz-5/5-sum.png){image align="right"} 
+Instead of digits Hannes uses the letters A, B, C and D in a calculation.  
+
+Different letters stand for different digits.  
+
+Which digit does the letter B stand for?  
+
+* [x] 0
+* [ ] 2
+* [ ] 4
+* [ ] 5
+* [ ] 6
+{.col-5}
+
+---
+
+The answer has the digit D in the thousands’ column, yet the numbers that we are adding together have no digits in this column.  
+
+Therefore, A + C must produce a carry to the thousands’ column.  
+
+However, since we are only adding together two single digits, this carry can be at most 1.  
+
+Therefore, D = 1.  
+
+This means that A + C = 11.  
+
+Looking at the tens’ column, we know that this column has received a carry of 1 from A + C in the units’ column, but that there is no carry to the hundreds’ column.  
+
+The only possibility is that B = 0, so that B + B + 1 = D = 1.  
+:::
