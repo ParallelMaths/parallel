@@ -1385,6 +1385,9 @@ homework:
   - url:  academy-8sum-synoptic
     title: Year 8 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
+  - url:  academy-8aut-2026-week-1
+    title: Parallel Academy Year 8 Autumn Term Week 1
+    available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1396,9 +1399,6 @@ homework:
     available: 2025-08-12T09:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
-  - url:  academy-8aut-2026-week-1
-    title: Parallel Academy Year 8 Autumn Term Week 4
-    available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-5
     title: Parallel Academy Year 8 Autumn Term Week 5
     available: 2025-08-12T09:00:00
