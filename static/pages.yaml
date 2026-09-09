@@ -1396,7 +1396,7 @@ homework:
     available: 2025-08-12T09:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
-  - url:  academy-8aut-week-4
+  - url:  academy-8aut-2026-week-1
     title: Parallel Academy Year 8 Autumn Term Week 4
     available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-5
@@ -1419,7 +1419,7 @@ homework:
     available: 2025-08-12T09:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
-  - url:  academy-9aut-week-1
+  - url:  academy-9aut-2026-week-1
     title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
   - url:  academy-9aut-week-2
@@ -1584,8 +1584,8 @@ homework:
   - url:  webinar-8aut-week-3
     title: Parallel Academy Year 8 Autumn Term Week 3
     available: 2025-08-12T09:00:00
-  - url:  webinar-8aut-week-4
-    title: Parallel Academy Year 8 Autumn Term Week 4
+  - url:  webinar-8aut-2026-week-1
+    title: Parallel Academy Year 8 Autumn Term Week 1
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-5
     title: Parallel Academy Year 8 Autumn Term Week 5
@@ -1653,8 +1653,8 @@ homework:
   - url:  webinar-8sum-2026-week-10
     title: Parallel Academy Year 8 Summer Term Week 10
     available: 2025-08-12T09:00:00
-  - url:  webinar-imc-autumn-week-1
-    title: Parallel Academy IMC Autumn Term Week 1
+  - url:  webinar-9aut-2026-week-1
+    title: Parallel Academy Year 9 Autumn Term Week 1
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-2
     title: Parallel Academy IMC Autumn Term Week 2
@@ -1682,6 +1682,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-12aut-week-1
     title: Sixth Form Webinar Autumn Homework 1
+    available: 2025-08-12T09:00:00
+  - url:  webinar-12aut-week-2
+    title: Sixth Form Webinar Autumn Homework 2
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-spring-week-1
     title: Parallel Academy IMC Spring Term Week 1
