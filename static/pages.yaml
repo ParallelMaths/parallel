@@ -1831,7 +1831,7 @@ test:
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     deadline: 2027-09-10T16:00:00
-  - url: _test_mental-maths-aut-2026-2
+  - url: mental-maths-aut-2026-2
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
