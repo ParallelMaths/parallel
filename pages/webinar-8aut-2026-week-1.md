@@ -48,7 +48,7 @@ Please note:
 
 ---
 
-![](/resources/webinar-8aut-2026-week-1/s3a.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-1/s3.png){image align="center"}
 :::    
 
 
