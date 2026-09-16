@@ -16,7 +16,7 @@ Please note:
 ![](/resources/webinar-8aut-2026-week-1/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-<input type="number" solution="27"/>  
+<input type="number" solution="7"/>  
  
 ---
 
@@ -28,7 +28,11 @@ Please note:
 ![](/resources/webinar-8aut-2026-week-1/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
-<input type="number" solution="31"/>  
+<input type="number" solution="22"/>  
+
+^^^ hint id=2_1 marks=1
+![](/resources/webinar-8aut-2026-week-1/h2.png){image align="center"} 
+^^^  
 
 ---
 
