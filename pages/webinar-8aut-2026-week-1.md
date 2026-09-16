@@ -13,86 +13,70 @@ Please note:
 
 
 ## 1.	
-![](/resources/academy-8aut-2026-week-1/q1.png){image align="center"}  
+![](/resources/webinar-8aut-2026-week-1/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-<input type="number" solution="3"/>  
+<input type="number" solution="27"/>  
  
 ---
 
-![](/resources/academy-8aut-2026-week-1/s1.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-1/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-8aut-2026-week-1/q2.png){image align="center"}  
+![](/resources/webinar-8aut-2026-week-1/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
-<input type="number" solution="33"/>  
+<input type="number" solution="31"/>  
 
 ---
 
-![](/resources/academy-8aut-2026-week-1/s2.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-1/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-8aut-2026-week-1/q3.png){image align="center"}  
+![](/resources/webinar-8aut-2026-week-1/q3.png){image align="center"}  
 
-::: problem id=3_1 marks=1
-a) <input type="number" solution="10"/>  
+::: problem id=3_1 marks=2
+<input type="number" solution="3"/>  
 
----
-
-![](/resources/academy-8aut-2026-week-1/s3a.png){image align="center"}
-:::  
-
-::: problem id=3_2 marks=1
-b) <input type="number" solution="11"/>  
+^^^ hint id=3_1 marks=1
+![](/resources/webinar-8aut-2026-week-1/h3.png){image align="center"} 
+^^^  
 
 ---
 
-![](/resources/academy-8aut-2026-week-1/s3b.png){image align="center"}
-:::  
-
-::: problem id=3_3 marks=2
-c) <input type="number" solution="9"/>  
-
----
-
-![](/resources/academy-8aut-2026-week-1/s3c.png){image align="center"}
-:::  
+![](/resources/webinar-8aut-2026-week-1/s3a.png){image align="center"}
+:::    
 
 
 ## 4.
-![](/resources/academy-8aut-2026-week-1/q4.png){image align="center"}  
+![](/resources/webinar-8aut-2026-week-1/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
-<input type="number" solution="7"/>  
-
-^^^ hint id=4_1 marks=1
-![](/resources/academy-8aut-2026-week-1/h4.png){image align="center"} 
-^^^  
+<input type="number" solution="33"/>  
  
 ---
 
-![](/resources/academy-8aut-2026-week-1/s4.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-1/s4.png){image align="center"}
 :::  
 
 
 ## 5.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-8aut-2026-week-1/q5.png){image align="center"}  
+![](/resources/webinar-8aut-2026-week-1/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-<input type="number" solution="120"/> 
+<input type="number" solution="7"/> 
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-8aut-2026-week-1/h5.png){image align="center"} 
+![](/resources/webinar-8aut-2026-week-1/h5.png){image align="center"} 
 ^^^  
 ---
 
-![](/resources/academy-8aut-2026-week-1/s5.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-1/s5.png){image align="center"}
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
