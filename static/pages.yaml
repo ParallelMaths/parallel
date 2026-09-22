@@ -1388,6 +1388,9 @@ homework:
   - url:  academy-8aut-2026-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-2026-week-2
+    title: Parallel Academy Year 8 Autumn Term Week 2
+    available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
     available: 2025-08-12T09:00:00
@@ -1399,9 +1402,6 @@ homework:
     available: 2025-08-12T09:00:00
     answersVisibleFrom: 2026-07-21T09:00:00
     postSubmissionMessage: Thank you for confirming that you have completed your homework. You will receive your marks and feedback over the next few weeks.
-  - url:  academy-8aut-week-5
-    title: Parallel Academy Year 8 Autumn Term Week 5
-    available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-6
     title: Parallel Academy Year 8 Autumn Term Week 6
     available: 2025-08-12T09:00:00
@@ -1586,6 +1586,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-2026-week-1
     title: Parallel Academy Year 8 Autumn Term Week 1
+    available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-2026-week-2
+    title: Parallel Academy Year 8 Autumn Term Week 2
     available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-5
     title: Parallel Academy Year 8 Autumn Term Week 5
@@ -1841,6 +1844,16 @@ test:
     available: 2024-01-15T13:00:00
     deadline: 2027-09-10T16:00:00
   - url: mental-maths-aut-2026-2
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-09-10T16:00:00
+  - url: mental-maths-aut-2026-3
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-09-10T16:00:00
+  - url: primes_mini_quiz
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
