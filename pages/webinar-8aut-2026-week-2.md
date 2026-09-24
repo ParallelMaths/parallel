@@ -72,7 +72,7 @@ a) <input type="number" solution="16"/>
 
 ---
 
-![](/resources/webinar-8aut-2026-week-2/42a.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-2/s4a.png){image align="center"}
 :::  
 
 ::: problem id=4_2 marks=2
@@ -80,7 +80,7 @@ b) <input type="number" solution="66"/>
  
 ---
 
-![](/resources/webinar-8aut-2026-week-2/42b.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-2/s4b.png){image align="center"}
 :::  
 
 
