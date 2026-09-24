@@ -16,43 +16,47 @@ Please note:
 ![](/resources/academy-8aut-2026-week-2/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
-a) <input type="number" solution="16"/>  
+<input type="number" solution="100"/>  
  
 ---
 
-![](/resources/academy-8aut-2026-week-2/s1a.png){image align="center"}
-:::  
-
-::: problem id=1_2 marks=2
-b) <input type="number" solution="66"/>  
- 
----
-
-![](/resources/academy-8aut-2026-week-2/s1b.png){image align="center"}
-:::  
+![](/resources/academy-8aut-2026-week-2/s1.png){image align="center"}
+:::   
 
 
 ## 2.
 ![](/resources/academy-8aut-2026-week-2/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
-<input type="number" solution="16"/>  
+a) <input type="number" solution="10"/>  
 
 ---
 
-![](/resources/academy-8aut-2026-week-2/s2.png){image align="center"}
+![](/resources/academy-8aut-2026-week-2/s2a.png){image align="center"}
 :::  
+
+::: problem id=2_2 marks=2
+b) <input type="number" solution="11"/>  
+ 
+---
+
+![](/resources/academy-8aut-2026-week-2/s2b.png){image align="center"}
+:::  
+
+::: problem id=2_3 marks=2
+c) <input type="number" solution="9"/>  
+ 
+---
+
+![](/resources/academy-8aut-2026-week-2/s2c.png){image align="center"}
+::: 
 
 
 ## 3.
 ![](/resources/academy-8aut-2026-week-2/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=2
-<input type="number" solution="88"/>  
-
-^^^ hint id=3_1 marks=1
-![](/resources/academy-8aut-2026-week-2/h3.png){image align="center"} 
-^^^  
+<input type="number" solution="215"/>  
 
 ---
 
@@ -64,15 +68,19 @@ b) <input type="number" solution="66"/>
 ![](/resources/academy-8aut-2026-week-2/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
-<input type="number" solution="145"/>  
+a) <input type="number" solution="16"/>  
 
-^^^ hint id=4_1 marks=1
-![](/resources/academy-8aut-2026-week-2/h4.png){image align="center"} 
-^^^  
+---
+
+![](/resources/academy-8aut-2026-week-2/42a.png){image align="center"}
+:::  
+
+::: problem id=4_2 marks=2
+b) <input type="number" solution="66"/>  
  
 ---
 
-![](/resources/academy-8aut-2026-week-2/s4.png){image align="center"}
+![](/resources/academy-8aut-2026-week-2/42b.png){image align="center"}
 :::  
 
 
@@ -81,7 +89,7 @@ b) <input type="number" solution="66"/>
 ![](/resources/academy-8aut-2026-week-2/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-<input type="number" solution="4"/> 
+<input type="number" solution="88"/> 
 
 ^^^ hint id=5_1_1 marks=1
 ![](/resources/academy-8aut-2026-week-2/h5.png){image align="center"} 
