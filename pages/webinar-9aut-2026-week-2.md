@@ -152,10 +152,10 @@ Please note:
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
 ![](/resources/academy-9aut-2026-week-2/q6.png){image align="center"}  
 
-::: problem id=5_1 marks=2
+::: problem id=6_1 marks=2
 <input type="number" solution="2"/> 
 
-^^^ hint id=5_1_1 marks=1
+^^^ hint id=6_1_1 marks=1
 ![](/resources/academy-9aut-2026-week-2/h6.png){image align="center"} 
 ^^^  
 ---
