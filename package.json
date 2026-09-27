@@ -16,6 +16,7 @@
     "get-users": "node scripts/get-users.js",
     "get-points": "node scripts/get-students-points.js",
     "get-results": "node scripts/get-results.js",
+    "get-results:all": "node scripts/get-results.js --all",
     "get-pg-meta-json": "grunt build && node scripts/get-pg-meta-json.js",
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
@@ -75,5 +76,6 @@
     "> 1%",
     "not ie <= 11",
     "not ios < 10"
-  ]
+  ],
+  "packageManager": "pnpm@11.1.0+sha512.0c44e842e5686b2c061a81adda8b2258bd8818e9704b2cf2c63d56b931a7b2e910092e085027003b96ca3911ab56a07f6df5abaed2be9925034cdd686a535b14"
 }
