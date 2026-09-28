@@ -1698,6 +1698,9 @@ homework:
   - url:  webinar-12aut-week-3
     title: Sixth Form Webinar Autumn Homework 3
     available: 2025-08-12T09:00:00
+  - url:  webinar-12aut-week-4
+    title: Sixth Form Webinar Autumn Homework 4
+    available: 2025-08-12T09:00:00
   - url:  webinar-imc-spring-week-1
     title: Parallel Academy IMC Spring Term Week 1
     available: 2025-08-12T09:00:00  
@@ -1855,6 +1858,11 @@ test:
     available: 2024-01-15T13:00:00
     deadline: 2027-09-10T16:00:00
   - url: mental-maths-aut-2026-3
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-09-10T16:00:00
+  - url: mental-maths-aut-2026-4
     title: Mental maths quiz
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
