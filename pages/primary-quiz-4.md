@@ -91,7 +91,7 @@ After one more roll, we will have definitely rolled at least one of these number
 ## 5.
 <!--- 2018 (18) --->
 ::: problem id=5_1 marks=2
-![](/resources/primary-quiz-5/5-sum.png){image align="right"} 
+![](/resources/primary-quiz-4/5-sum.png){image align="right"} 
 Instead of digits Hannes uses the letters A, B, C and D in a calculation.  
 
 Different letters stand for different digits.  
