@@ -82,6 +82,18 @@ Please note:
 
 ## 5.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
+
+For the final question of this week’s homework, you are encouraged to explore the Millenium Prize Problems.  
+
+You can find a description of the problems on the [Clay Mathematics Institute website](https://www.claymath.org/millennium-problems/){target="_blank"}.  
+
+You are also encouraged to do your own independent research on the topic.  
+
+The maths is very advanced and you are not expected to grasp the full details! However, you should develop a sense of what makes these problems interesting, and what progress has been made on the solutions. 
+
+Then, have a go at the question below.
+
+
 ![](/resources/academy-8aut-2026-week-4/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
