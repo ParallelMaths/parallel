@@ -19,10 +19,11 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-9aut-2026-week-4/q1.png){image align="center"}  
-::: problem id=1_1 marks=2
 
-<input type="number" solution="2060"/>  
+::: problem id=1_1 marks=2
+![](/resources/academy-9aut-2026-week-4/q1.png){image align="center"}  
+
+<input type="number" solution="24999999"/>  
  
 ---
 
@@ -32,9 +33,14 @@ We will also be running a weekly homework review session (look out for our email
 
 ## 2.
 ![](/resources/academy-9aut-2026-week-4/q2.png){image align="center"}  
-::: problem id=2_1 marks=2
 
-<input type="number" solution="4102651"/>  
+::: problem id=2_1 marks=2
+* [ ] i
+* [ ] ii
+* [ ] iii
+* [x] iv
+* [ ] v
+{.col-5}
 
 ---
 
@@ -44,9 +50,13 @@ We will also be running a weekly homework review session (look out for our email
 
 ## 3.
 ![](/resources/academy-9aut-2026-week-4/q3.png){image align="center"}  
-::: problem id=3_1 marks=2
 
-<input type="number" solution="127"/>
+::: problem id=3_1 marks=2
+<input type="number" solution="18"/>  
+
+^^^ hint id=3_1 marks=1
+![](/resources/academy-9aut-2026-week-4/h3.png){image align="center"} 
+^^^  
 
 ---
 
@@ -56,13 +66,51 @@ We will also be running a weekly homework review session (look out for our email
 
 ## 4.
 ![](/resources/academy-9aut-2026-week-4/q4.png){image align="center"}  
-::: problem id=4_1 marks=2
 
-<input type="number" solution="4"/>
+::: problem id=4_1 marks=1
+a) 
+* [ ] Yes
+* [x] No
+{.col-2}
 
 ---
 
 ![](/resources/academy-9aut-2026-week-4/s4.png){image align="center"}
+:::  
+
+::: problem id=4_2 marks=1
+b) 
+* [x] Yes
+* [ ] No
+{.col-2}
+:::   
+
+::: problem id=4_3 marks=1
+c) 
+* [x] Yes
+* [ ] No
+{.col-2}
+:::   
+
+::: problem id=4_4 marks=1
+d)
+* [ ] Yes
+* [x] No
+{.col-2}
+:::   
+
+::: problem id=4_5 marks=1
+e)
+* [x] Yes
+* [ ] No
+{.col-2}
+:::   
+
+::: problem id=4_6 marks=1
+f)
+* [x] Yes
+* [ ] No
+{.col-2}
 :::  
 
 
@@ -71,7 +119,7 @@ We will also be running a weekly homework review session (look out for our email
 ![](/resources/academy-9aut-2026-week-4/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-<input type="number" solution="1"/> 
+<input type="number" solution="6"/> 
 
 ^^^ hint id=5_1_1 marks=1
 ![](/resources/academy-9aut-2026-week-4/h5.png){image align="center"} 
