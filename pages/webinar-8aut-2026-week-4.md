@@ -59,7 +59,7 @@ Please note:
 
 ---
 
-![](/resources/academy-8aut-2026-week-4/s3a.png){image align="center"}
+![](/resources/academy-8aut-2026-week-4/s3.png){image align="center"}
 :::  
 
 
