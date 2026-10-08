@@ -19,83 +19,83 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-9aut-week-6/q1.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q1.png){image align="center"}  
 ::: problem id=1_1 marks=2
 
 <input type="number" solution="20"/>  
  
 ---
 
-![](/resources/academy-9aut-week-6/s1.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-9aut-week-6/q2.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q2.png){image align="center"}  
 ::: problem id=2_1 marks=2
 
 <input type="number" solution="88"/>  
 
 ---
 
-![](/resources/academy-9aut-week-6/s2.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-9aut-week-6/q3.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q3.png){image align="center"}  
 ::: problem id=3_1 marks=2
 
 <input type="number" solution="8"/>
 
 ---
 
-![](/resources/academy-9aut-week-6/s3.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s3.png){image align="center"}
 :::  
 
 
 ## 4.
-![](/resources/academy-9aut-week-6/q4.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q4.png){image align="center"}  
 ::: problem id=4_1 marks=2
 
 <input type="number" solution="15"/>
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-9aut-week-6/h4.png){image align="center"} 
+![](/resources/academy-9aut-2026-week-6/h4.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-9aut-week-6/s4.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s4.png){image align="center"}
 :::  
 
 
 ## 5.
-![](/resources/academy-9aut-week-6/q5.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
 <input type="number" solution="9"/> 
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-9aut-week-6/h5.png){image align="center"} 
+![](/resources/academy-9aut-2026-week-6/h5.png){image align="center"} 
 ^^^  
 
 ---
 
-![](/resources/academy-9aut-week-6/s5.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s5.png){image align="center"}
 :::
 
 
 ## 6.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-9aut-week-6/q6.png){image align="center"}  
+![](/resources/academy-9aut-2026-week-6/q6.png){image align="center"}  
 
 ::: problem id=6_1 marks=2
 <input type="number" solution="30301"/> 
 
 ---
 
-![](/resources/academy-9aut-week-6/s6.png){image align="center"}
+![](/resources/academy-9aut-2026-week-6/s6.png){image align="center"}
 :::  
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
