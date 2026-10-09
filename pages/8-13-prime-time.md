@@ -141,7 +141,7 @@ Two sides of the square will be black, as previously. The other two sides will e
 
 ---
 
-Two sides of the square will be black, as previously. The other two sides will effectively be half black and half grey, because the difference between a trillion and a trillion-and-one is insignificant. So, the fraction of the perimeter that is grey is ( ¼ + ¼ ) ÷ 4 = ¼.
+Two sides of the square will be black, as previously. The other two sides will effectively be half black and half grey, because the difference between a trillion and a trillion-and-one is insignificant. So, the fraction of the perimeter that is grey is `(1/2 + 1/2) ÷ 4 = 1/4`.
 :::
 
 

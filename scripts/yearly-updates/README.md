@@ -44,6 +44,16 @@ This uploads the new data to the user accounts
 
 2) Check `https://parallel.org.uk/circles/admin/tags` all the tags say "not started"
 
+## Bump PGs
+
+1) Run `scripts/yearly-updates/bump-pages-year.js`
+
+2) Run `scripts/validate-pages.js`
+
+3) Manually check the `static/pages.yaml` file to ensure the dates have been correctly bumped
+
+4) Commit the diff and release
+
 ## Delete old users (2 hours)
 
 1) Backup and then delete your data files in `private`

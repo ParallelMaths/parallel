@@ -7,22 +7,37 @@ const downloadUsers = require('./utils/downloadUsers');
 // Edit below.
 // Set the time string to '' to stop filtering by submission time.
 
-const START_TIME = '1756684800000';
+const START_TIME = '1788217200000';
 const END_TIME = '';
 
 // -----------------------------------------------------------------------------
 
+const IGNORE_START_TIME = process.argv.includes('--all');
+
+if (IGNORE_START_TIME) {
+  console.log('');
+  console.log('');
+  console.log('');
+  console.log('🚨🚨🚨 Ignoring start time filtering & including all pages. 🚨🚨🚨');
+  console.log('');
+  console.log('');
+  console.log('');
+}
+
 function inTimeRange(q) {
+  if (IGNORE_START_TIME) return true;
   if (START_TIME && (!q.time || q.time < START_TIME)) return false;
   if (END_TIME && (!q.time || q.time > END_TIME)) return false;
   return true;
 }
 
-
 const pageData = yaml.load(path.join(__dirname, '../static/pages.yaml'));
 
 let pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11, ...pageData.test, ...pageData.homework];
-pages = pages.filter(p => new Date(p.available) < Date.now());
+
+if (!IGNORE_START_TIME) {
+  pages = pages.filter(p => new Date(p.available) < Date.now());
+}
 
 async function run() {
   const usersObject = await downloadUsers();

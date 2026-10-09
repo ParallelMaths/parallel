@@ -70,3 +70,72 @@ When Tilly woke on Thursday morning, she had learned fifteen new words, but had 
 
 On Thursday, she learned five new words, so this was the first day on which she reached her target of fourteen words.
 :::
+
+
+## 4.
+<!--- 2017 (14) --->
+::: problem id=4_1 marks=1
+Paul goes on a 5-day hiking trek.  
+
+He starts on Monday and finishes on Friday.  
+
+Every day he covers 2 km more than the day before.  
+
+In total he hikes 70 km.   
+
+Which distance does he cover on Thursday? 
+
+* [ ] 12 km
+* [ ] 13 km
+* [ ] 14 km
+* [ ] 15 km
+* [x] 16 km
+{.col-5}
+
+---
+
+In a 5-day trek, Wednesday is the middle day.  
+
+On Thursday Paul walked 2 km more than on Wednesday, and on Tuesday 2 km fewer.  
+
+Similarly, Paul will have walked 4 km more on Friday than on Wednesday, and 4 km fewer on Monday.  
+
+We can see that there is symmetry in how far he walks across the 5 days, with the line of symmetry centred on Wednesday.  
+
+This means that on Wednesday, Paul walked exactly his average distance per day, which is 70 ÷ 5 = 14 km.  
+
+Hence, on Thursday he walked 14 + 2 = 16 km.  
+:::
+
+
+## 5.
+<!--- 2018 (17) --->
+::: problem id=5_1 marks=2
+![](/resources/primary-quiz-6/5-triangle.png){image align="right"} 
+Emily wants to write a number into every free small triangle.  
+
+The sum of the numbers in two triangles with a common side should always be the same.  
+
+Two numbers are already given.  
+
+How big is the sum of all numbers in the figure? 
+
+* [ ] 18
+* [ ] 20
+* [x] 21
+* [ ] 22
+* [ ] It cannot be determined.
+{.col-5}
+
+---
+![](/resources/primary-quiz-6/5-triangle-answer.png){image align="right"} 
+The total is the same for any two adjacent triangles.  
+
+Consider the triangle immediately to the left of the triangle that is already labelled 3, in the same row. This triangle must contain a number which is 3 less than the total for every pair.  
+
+But then the triangle immediately below this must also contain the number 3. In this way, we can see that the smaller triangles must alternate between containing the number 2 or 3.  
+
+Because the number 2 appears in the corners, there are three pairs of a 2 and a 3, as well as three unpaired triangles containing the number 2.  
+
+This makes the sum of all numbers equal to 3 × (2 + 3) + 3 × 2 = 3 × 5 + 3 × 2 = 15 + 6 = 21.  
+:::
