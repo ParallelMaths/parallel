@@ -88,7 +88,9 @@ function letterOrder(a, b) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
 
-const firebaseClientConfig = serviceAccount.project_id === 'parallel-cf800' ? {
+const isBeta = serviceAccount.project_id !== 'parallel-cf800';
+
+const firebaseClientConfig = !isBeta ? {
   apiKey: "AIzaSyCrQ_PdH-05lcNWETGvGfiwO3MBXk_WeVU",
   projectId: "parallel-cf800",
   authDomain: "parallel-cf800.firebaseapp.com",
@@ -119,7 +121,7 @@ app.use((req, res, next) => {
   res.locals.path = req.path.replace(/\/$/, '');
   res.locals.scoreClass = scoreClass;
   res.locals.firebaseClientConfig = firebaseClientConfig;
-  res.locals.isBeta = serviceAccount.project_id.includes('beta');
+  res.locals.isBeta = isBeta;
 
   if (req.user && req.user.showWelcomeMsg && !req.query.latest && !req.path.includes('/api')) {
     userDB.doc(req.user.uid) // async
