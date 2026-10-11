@@ -276,6 +276,17 @@ app.get('/api/scores', async (req, res) => {
   });
 });
 
+app.get('/api/available', async (req, res) => {
+  const availablePGs = Object.entries(res.locals.pages).reduce((acc, [year, values]) => {
+    acc[year] = values.map(v => v.url)
+    return acc;
+  }, {});
+
+  res.status(200).send({
+    availablePGs
+  });
+});
+
 app.get('/api/test-data', async (req, res) => {
   const token = req.headers['parallel-token'];
 
