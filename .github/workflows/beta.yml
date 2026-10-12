@@ -1,0 +1,40 @@
+name: Deploy Beta
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [edited]
+    
+jobs:
+  deploy-beta:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js version from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Write service account
+        run: |
+          mkdir private
+          echo "$BETA_FIREBASE_SERVICE_ACCOUNT" > ./private/service-account.json
+          echo '${{ secrets.BETA_FIREBASE_SERVICE_ACCOUNT }}' > gcloud.json
+        env:
+          BETA_FIREBASE_SERVICE_ACCOUNT: ${{ secrets.BETA_FIREBASE_SERVICE_ACCOUNT }}
+        shell: bash
+      
+      - name: Install
+        run: |
+          npm install
+        shell: bash
+
+      - name: Deploy
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: gcloud.json
+        run: |
+          npm run deploy
+        shell: bash

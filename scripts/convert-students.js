@@ -9,7 +9,7 @@ const STUDENTS = [
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: 'https://parallel-cf800.firebaseio.com'
+  databaseURL: require('./utils/firebase-config').databaseURL
 });
 
 const file = path.join(__dirname, `../private/tmp-users.json`);

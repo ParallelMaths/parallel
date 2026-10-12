@@ -27,7 +27,7 @@ const makePassword = () => {
 
 fb.initializeApp({
   credential: fb.credential.cert(serviceAccount),
-  databaseURL: "https://parallel-cf800.firebaseio.com",
+  databaseURL: require('./utils/firebase-config').databaseURL,
 });
 
 const updateUserPassword = (email) =>
