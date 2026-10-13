@@ -2,7 +2,7 @@
 
 * You have 30 minutes for this test.  
 * The tutor will let you know how long is left at regular intervals.  
-* Answer every question - there are no negative marks for wrong answers.  
+* Answer every question in **both sections** - there are no negative marks for wrong answers.  
 * Use all the time available and DO NOT SUBMIT EARLY.  
 * Afer you submit, stay in Zoom and await further instructions.  
  

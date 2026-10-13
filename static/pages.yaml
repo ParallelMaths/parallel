@@ -1961,6 +1961,24 @@ test:
     available: 2024-01-15T13:00:00
     deadline: 2027-08-10T16:00:00
     password: true    
+  - url: mental-maths-aut-2026-7
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-08-10T16:00:00
+    password: true    
+  - url: time_problems_mini_quiz
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-08-10T16:00:00
+    password: true    
+  - url: mental-maths-aut-2026-6
+    title: Mental maths quiz
+    postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
+    available: 2024-01-15T13:00:00
+    deadline: 2027-08-10T16:00:00
+    password: true    
   - url: admissions-teachability
     title: Year 7 Admissions Teachability Test
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.

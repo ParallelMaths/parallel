@@ -100,7 +100,7 @@ What are the possible values of `D`?
 
 ## 10.
 ::: problem id=10_1 marks=1
-How many numbers are in the list `1 1/2`, `2`, `2 2/3`, ..., `30`?  
+How many numbers are in the list `1 1/3`, `2`, `2 2/3`, ..., `30`?  
 
 You may find it helpful to write the numbers in the list as improper fractions.  
 
