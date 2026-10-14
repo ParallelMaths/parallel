@@ -1,8 +1,8 @@
 # Sixth Form Webinar Series Autumn 2026 Homework 6
 
-This is an optional homework assignment to help you practise the skills covered in this week’s webinar. The assignment consists of five number theory problems related to this week’s webinar.  
+This is an optional homework assignment to help you practise the skills covered in this week’s webinar. The assignment consists of problems related to this week’s webinar. You will find it helpful to refer to the session materials, which you can access on your Academy page.  
 
-Give it your best and don’t worry if you get a low score – this is all about gaining vital practice and learning from your mistakes!  
+Give it your best and don’t worry if you get a low score – this is all about gaining vital practice and learning from your mistakes!   
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly.** 
   
