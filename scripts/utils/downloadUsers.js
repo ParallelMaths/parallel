@@ -42,7 +42,8 @@ const runDownload = async () => {
         const { stderr } = await exec(command);
         if(stderr) {
             const split = stderr.split('\n').filter(i => i.trim().length > 0);
-            if (split.find(i => !i.toLowerCase().includes('deprecation'))) {
+            const isIgnorable = i => i.toLowerCase().includes('deprecation') || i.includes('Running with Firebase project:');
+            if (split.find(i => !isIgnorable(i))) {
                 console.error('\n\n\nError!', stderr);
                 process.exit(1);
             }
