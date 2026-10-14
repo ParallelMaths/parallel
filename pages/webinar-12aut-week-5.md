@@ -9,7 +9,6 @@ Give it your best and don’t worry if you get a low score – this is all about
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.** 
 
 
-
 This assignment builds up to a BMO problem (the final question). The following questions provide the building blocks for tackling that final problem.  
 
 

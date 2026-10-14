@@ -8,6 +8,7 @@ Give it your best and don’t worry if you get a low score – this is all about
   
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**
 
+
 ## 1.
 ![](/resources/webinar-12aut-week-6/q1.png){image align="center"}  
 
