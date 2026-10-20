@@ -59,10 +59,6 @@ Give it your best and don’t worry if you get a low score – this is all about
 ::: problem id=4_1 marks=2
 <input type="number" solution="48"/>  
 
-^^^ hint id=4_1_1 marks=1
-![](/resources/webinar-12aut-week-7/h4.png){image align="center"} 
-^^^  
-
 ---
 
 ![](/resources/webinar-12aut-week-7/s4.png){image align="center"}
