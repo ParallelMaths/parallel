@@ -3,6 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const yaml = require('yamljs');
 const childProcess = require('child_process');
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
@@ -16,44 +17,13 @@ const OEMBED_URL = (id) => `https://www.youtube.com/oembed?url=https://www.youtu
 
 /**
  * Parse static/pages.yaml to get list of pages
- * @returns {Array<{url: string, title?: string}>}
+ * @returns {Array<{url: string}>}
  */
 function getPagesFromYaml() {
-  const content = fs.readFileSync(PAGES_YAML, 'utf8');
-  const pages = [];
+  const pageData = yaml.load(PAGES_YAML);
+  const pages = [...pageData.year6, ...pageData.year7, ...pageData.year8, ...pageData.year9, ...pageData.year10, ...pageData.year11, ...pageData.test, ...pageData.homework];
   
-  // Parse YAML manually - extract lines that start with "  - url:"
-  const lines = content.split('\n');
-  let inYearSection = false;
-  
-  for (const line of lines) {
-    // Check if we're in a year section (year6:, year7:, etc.)
-    if (line.match(/^year\d+:$/)) {
-      inYearSection = true;
-      continue;
-    }
-    
-    if (inYearSection) {
-      // Check if we've hit a new top-level section
-      if (line.match(/^[a-zA-Z]/)) {
-        inYearSection = false;
-        continue;
-      }
-      
-      // Extract url from "  - url: filename"
-      const urlMatch = line.match(/^[ ]*- url: ([^\s]+)/);
-      if (urlMatch) {
-        pages.push({ url: urlMatch[1] });
-      } else if (line.trim().startsWith('- url:')) {
-        const urlMatch2 = line.match(/- url: ([^\s]+)/);
-        if (urlMatch2) {
-          pages.push({ url: urlMatch2[1] });
-        }
-      }
-    }
-  }
-  
-  return pages;
+  return pages.map(p => ({ url: p.url }));
 }
 
 /**
@@ -149,7 +119,6 @@ async function run() {
     for (const video of pageVideos) {
       videos.push({
         ...video,
-        pageUrl: page.url,
         mdFilename: `${page.url}.md`,
       });
     }
@@ -161,13 +130,12 @@ async function run() {
   const results = [];
   for (let i = 0; i < videos.length; i++) {
     const video = videos[i];
-    console.log(`[${i + 1}/${videos.length}] Checking ${video.id} (${video.mdFilename})...`);
+    //console.log(`[${i + 1}/${videos.length}] Checking ${video.id} (${video.mdFilename})...`);
     
     const checkResult = await checkVideoAvailability(video.id);
     results.push({
       ...checkResult,
       mdFilename: video.mdFilename,
-      pageUrl: video.pageUrl,
       ref: video.ref,
     });
   }
