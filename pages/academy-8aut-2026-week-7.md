@@ -19,43 +19,43 @@ We will also be running a weekly homework review session (look out for our email
 **After you click Submit, make sure you scroll down to see the correct answers and read the full written solutions.**  
 
 ## 1.	
-![](/resources/academy-8spr-week-5/q1.png){image align="center"}  
+![](/resources/academy-8aut-2026-week-7/q1.png){image align="center"}  
 
 ::: problem id=1_1 marks=2
 <input type="number" solution="9"/>  
  
 ---
 
-![](/resources/academy-8spr-week-5/s1.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s1.png){image align="center"}
 :::  
 
 
 ## 2.
-![](/resources/academy-8spr-week-5/q2.png){image align="center"}  
+![](/resources/academy-8aut-2026-week-7/q2.png){image align="center"}  
 
 ::: problem id=2_1 marks=2
 <input type="number" solution="81"/>  
 
 ---
 
-![](/resources/academy-8spr-week-5/s2.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s2.png){image align="center"}
 :::  
 
 
 ## 3.
-![](/resources/academy-8spr-week-5/q3.png){image align="center"}  
+![](/resources/academy-8aut-2026-week-7/q3.png){image align="center"}  
 
 ::: problem id=3_1 marks=1
-![](/resources/academy-8spr-week-5/q3a.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/q3a.png){image align="center"} 
 a) <input type="number" solution="15"/>  
 
 ---
 
-![](/resources/academy-8spr-week-5/s3a.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s3a.png){image align="center"}
 :::  
 
 ::: problem id=3_2 marks=1
-![](/resources/academy-8spr-week-5/q3b.png){image align="center"}  
+![](/resources/academy-8aut-2026-week-7/q3b.png){image align="center"}  
 
 * [ ] (i)
 * [x] (ii)
@@ -65,68 +65,68 @@ a) <input type="number" solution="15"/>
 
 ---
 
-![](/resources/academy-8spr-week-5/s3b.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s3b.png){image align="center"}
 :::  
 
 ::: problem id=3_3 marks=2
-![](/resources/academy-8spr-week-5/q3c.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/q3c.png){image align="center"} 
 c) <input type="number" solution="45"/>  
 
 ^^^ hint id=3_3_1 marks=1
-![](/resources/academy-8spr-week-5/h3c.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/h3c.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-8spr-week-5/s3c.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s3c.png){image align="center"}
 :::  
 
 
 ## 4.
-![](/resources/academy-8spr-week-5/q4.png){image align="center"}  
+![](/resources/academy-8aut-2026-week-7/q4.png){image align="center"}  
 
 ::: problem id=4_1 marks=2
-![](/resources/academy-8spr-week-5/q4a.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/q4a.png){image align="center"} 
 a) <input type="number" solution="60"/>  
 
 ^^^ hint id=4_1_1 marks=1
-![](/resources/academy-8spr-week-5/h4a.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/h4a.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-8spr-week-5/s4a.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s4a.png){image align="center"}
 :::  
 
 ::: problem id=4_2 marks=2
-![](/resources/academy-8spr-week-5/q4b.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/q4b.png){image align="center"} 
 b) <input type="number" solution="36"/>  
 
 ^^^ hint id=4_2_1 marks=1
-![](/resources/academy-8spr-week-5/h4b.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/h4b.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-8spr-week-5/s4b.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s4b.png){image align="center"}
 :::  
 
 
 
 ## 5.
 ![](/resources/academy-4-week-2/4-skull.png){image align="right"}  
-![](/resources/academy-8spr-week-5/q5.png){image align="center"}   
+![](/resources/academy-8aut-2026-week-7/q5.png){image align="center"}   
 
 ::: problem id=5_1 marks=2
 <input type="number" solution="30"/>  
 
 ^^^ hint id=5_1_1 marks=1
-![](/resources/academy-8spr-week-5/h5.png){image align="center"} 
+![](/resources/academy-8aut-2026-week-7/h5.png){image align="center"} 
 ^^^ 
 
 ---
 
-![](/resources/academy-8spr-week-5/s5.png){image align="center"}
+![](/resources/academy-8aut-2026-week-7/s5.png){image align="center"}
 :::  
  
 
