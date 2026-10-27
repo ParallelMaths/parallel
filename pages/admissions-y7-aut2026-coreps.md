@@ -129,7 +129,7 @@ What is the value of the below calculation?
 
 ## 10.
 ::: problem id=10_1 marks=1
-How many of the following types of triangle **never** contain a right angle?  
+How many of the following types of triangle **never**contain a right angle?  
 
 _Scalene triangle, Isosceles triangle, Equilateral triangle, Acute triangle, Obtuse triangle_  
 {.text-center}
@@ -251,7 +251,7 @@ Points `A, B, C, D` and `E` are equally spaced along the ribbon, as shown in the
 
 ![](/resources/admissions-y7-aut2026-coreps/20-ribbon.jpg){image align="center"}  
 
-If Suzy want a ribbon that is `2/3` of the size of this ribbon, at which point whould she make a vertical cut?  
+If Suzy wants a ribbon that is `2/3` of the size of this ribbon, at which point whould she make a vertical cut?  
 
 * [ ] `A`
 * [x] `B`

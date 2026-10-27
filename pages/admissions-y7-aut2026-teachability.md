@@ -87,7 +87,7 @@ She counts how many odd numbers are in her list and calls this number `D`.
 
 What are the possible values of `D`?  
 
-[The list 1, 2, 3, …, 201 is an example of list of 201 consecutive positive whole numbers.]  
+[The list 1, 2, 3, …, 201 is an example of a list of 201 consecutive positive whole numbers.]  
 
 * [ ] `99` only
 * [ ] `100` only
