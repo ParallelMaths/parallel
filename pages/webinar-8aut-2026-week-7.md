@@ -1,4 +1,4 @@
-# Parallel Academy Year 8 Autumn Term 2026 Week 7 Assignment
+# Parallel Academy Year 8 Autumn Term Week 7 Assignment
 
 This is an **optional** assignment and the problems are designed to help you reflect on material from a recent webinar - **have your session materials at hand** as the problems are closely based on them.
 
@@ -14,72 +14,72 @@ Please note:
 
 ## 1.
 
-![](/resources/academy-8aut-2026-week-7/q1.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q1.png){image align="center"}
 
 ::: problem id=1_1 marks=2
 <input type="number" solution="62"/>
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s1.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s1.png){image align="center"}
 :::
 
 ## 2.
 
-![](/resources/academy-8aut-2026-week-7/q2.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q2.png){image align="center"}
 
 ::: problem id=2_1 marks=2
 <input type="number" solution="9"/>
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s2.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s2.png){image align="center"}
 :::
 
 ## 3.
 
-![](/resources/academy-8aut-2026-week-7/q3.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q3.png){image align="center"}
 
 ::: problem id=3_1 marks=2
 <input type="number" solution="24"/>
 
 ^^^ hint id=3_1_1 marks=1
-![](/resources/academy-8aut-2026-week-7/h3.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/h3.png){image align="center"}
 ^^^
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s3.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s3.png){image align="center"}
 :::
 
 ## 4.
 
-![](/resources/academy-8aut-2026-week-7/q4.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q4.png){image align="center"}
 
 ::: problem id=4_1 marks=2
 <input type="number" solution="81"/>
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s4.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s4.png){image align="center"}
 :::
 
 ## 5.
 
-![](/resources/academy-8aut-2026-week-7/q5.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q5.png){image align="center"}
 
 ::: problem id=5_1 marks=1
-![](/resources/academy-8aut-2026-week-7/q5a.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q5a.png){image align="center"}
 
 a) <input type="number" solution="15"/>
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s5a.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s5a.png){image align="center"}
 :::
 
 ::: problem id=5_2 marks=1
-![](/resources/academy-8aut-2026-week-7/q5b.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q5b.png){image align="center"}
 
 * [ ] (i)
 * [x] (ii)
@@ -89,21 +89,21 @@ a) <input type="number" solution="15"/>
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s5b.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s5b.png){image align="center"}
 :::
 
 ::: problem id=5_3 marks=2
-![](/resources/academy-8aut-2026-week-7/q5c.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/q5c.png){image align="center"}
 
 c) <input type="number" solution="45"/>
 
 ^^^ hint id=5_3_1 marks=1
-![](/resources/academy-8aut-2026-week-7/h5c.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/h5c.png){image align="center"}
 ^^^
 
 ---
 
-![](/resources/academy-8aut-2026-week-7/s5c.png){image align="center"}
+![](/resources/webinar-8aut-2026-week-7/s5c.png){image align="center"}
 :::
 
 **Before you click Submit at the end of the assignment, check that all of your answers have been entered correctly (you will not be able to re-submit).**
