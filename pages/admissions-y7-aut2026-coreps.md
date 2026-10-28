@@ -176,7 +176,7 @@ This is continued until the paper has been folded in half a total of six times.
 
 What is the total number of layers of paper in the folded sheet?  
 
-<input type="number" solution="32"/>
+<input type="number" solution="64"/>
 :::
 
 
