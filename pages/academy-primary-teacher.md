@@ -4,7 +4,7 @@
 
 Primary school teachers can now nominate Year 6 students for our Parallel Primary Academy programme.  
 
-Nominations are now open for a free, exciting online programme for bright and enthusiastic Year 6 maths pupils at state schools in the UK.  
+Nominations are now open for a free, exciting online programme for bright and enthusiastic Year 6 maths pupils.  
 
 The Parallel Academy has been developed by bestselling science author Simon Singh MBE and Countdown champion Junaid Mubeen, with the goal to increase the number and diversity of excellent young mathematicians. Last year, we supported 600 ambitious primary school pupils across the UK, and this year to hope to increase this over 1,000 students. We are now encouraging teachers to nominate pupils for this year’s primary programme.  
 
