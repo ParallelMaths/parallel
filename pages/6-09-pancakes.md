@@ -62,7 +62,9 @@ Using substitution `18 × 22 / 11 = 36`
 ## 2. Another pancake puzzle
 
 ::: problem id=2_1 marks=2
-__2.1__ You flip over a pancake to find some parts have been charred! What fraction of the pancake is burned?
+__2.1__ You flip over a pancake to find some parts have been charred!  
+
+What fraction of the charred side of the pancake is burned?
 
 ![](/resources/6-09-pancakes/1-pancake.png){image align="center"}
 
