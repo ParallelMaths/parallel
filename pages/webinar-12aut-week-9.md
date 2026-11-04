@@ -76,7 +76,7 @@ Give it your best and don’t worry if you get a low score – this is all about
 ![](/resources/webinar-12aut-week-9/q5.png){image align="center"}  
 
 ::: problem id=5_1 marks=2
-<input type="number" solution="10"/>  
+<input type="number" solution="8"/>  
 
 ^^^ hint id=5_1_1 marks=1
 ![](/resources/webinar-12aut-week-9/h5.png){image align="center"} 
