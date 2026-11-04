@@ -1939,8 +1939,8 @@ test:
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     deadline: 2027-09-10T16:00:00  
-  - url: admissions-tutorial-quiz
-    title: Admissions Tutorial Quiz Autumn 2025
+  - url: admissions-tutorial-quiz-aut-2026
+    title: Admissions Tutorial Quiz Autumn 2026
     postSubmissionMessage: Thank you, we have received your answers. Please await further instructions from your tutor in Zoom.
     available: 2024-01-15T13:00:00
     deadline: 2027-08-10T16:00:00
