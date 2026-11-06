@@ -8,7 +8,7 @@
 ::: problem id=1_1 marks=1
 867 - 442
 
-<input solution="225"/>  
+<input solution="425"/>  
 :::
 
 ## 2.
@@ -36,7 +36,7 @@
 ::: problem id=5_1 marks=1
 678 - 487
 
-<input solution="291"/>  
+<input solution="191"/>  
 :::
 
 ## 6.

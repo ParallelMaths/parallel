@@ -4,7 +4,7 @@ const serviceAccount = require('../private/service-account.json');
 
 // ---------------------
 const PG = '6-09-pancakes';
-const QUESTION = 'p_2_1_0';
+const QUESTION = 'p_2_1';
 const IF_ANSWER = 'b';
 const THEN_ANSWER = 'b';
 const ADD_POINTS = 2;
