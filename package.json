@@ -21,6 +21,7 @@
     "get-tts-results": "node scripts/get-tts-results.js",
     "update-results": "node scripts/update-results.js",
     "set-points": "node scripts/set-points.js",
+    "check-youtube": "node scripts/check-youtube-videos.js",
     "start-marsh": "grunt build && concurrently \"grunt concurrent\" \"node scripts/firebase.js serve\""
   },
   "devDependencies": {

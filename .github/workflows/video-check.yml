@@ -1,0 +1,39 @@
+name: YouTube Video Availability Check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 6:00 AM UTC
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  check-videos:
+    name: Check YouTube Video Availability
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run video availability check
+        run: node scripts/check-youtube-videos.js
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: youtube-check-results
+          path: |
+            static/youtube-status.json
+            static/youtube-check-results.txt
+          retention-days: 30
+
+      - name: Report unavailable videos
+        if: failure()
+        run: |
+          echo "Some YouTube videos are unavailable:"
+          cat static/youtube-check-results.txt | grep "UNAVAILABLE"
