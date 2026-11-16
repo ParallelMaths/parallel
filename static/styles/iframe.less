@@ -30,3 +30,46 @@
         max-width: 100%;
     }
 }
+
+
+// -----------------------------------------------------------------------------
+// Embedded within the Parallel Squared site (?embed)
+
+html.embed {
+  background: transparent;
+  overflow: hidden;
+
+  &, body { height: auto; min-height: 0; }
+
+  #container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .intros,
+  .sidebar-circles-item,
+  .sidebar-field {
+    display: none;
+  }
+
+  .sidebar { margin: 0 24px 0 0; }
+
+  .sidebar-wrap {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-radius: 4px;
+  }
+
+  article, article.sidebarDisabled {
+    box-shadow: none;
+    min-height: 0;
+  }
+
+  @media screen and (max-width: 720px) {
+    #container { display: flex; flex-direction: column; }
+    article, article.sidebarDisabled { width: auto; order: -1; padding: 24px; border-radius: 4px; }
+    .sidebar { margin: 24px 0 0; width: 100%; }
+    .sidebar-wrap { transform: none; box-shadow: none; width: auto; }
+  }
+}
