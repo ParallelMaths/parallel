@@ -30,3 +30,35 @@
         max-width: 100%;
     }
 }
+
+
+// -----------------------------------------------------------------------------
+// Embedded within the Parallel Squared site (?embed)
+
+html.embed {
+  background: transparent;
+  overflow: hidden;
+
+  &, body { height: auto; min-height: 0; }
+
+  #container {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  article, article.sidebarDisabled {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  header {
+    margin: 0 0 32px 0;
+    border-radius: 4px;
+  }
+}

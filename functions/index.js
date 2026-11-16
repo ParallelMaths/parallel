@@ -123,14 +123,16 @@ app.use((req, res, next) => {
   res.locals.firebaseClientConfig = firebaseClientConfig;
   res.locals.isBeta = isBeta;
 
-  if (req.user && req.user.showWelcomeMsg && !req.query.latest && !req.path.includes('/api')) {
+  if (req.user && req.user.showWelcomeMsg && !req.query.latest && !('embed' in req.query) &&!req.path.includes('/api')) {
     userDB.doc(req.user.uid) // async
         .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
 
-  if (req.query.iframe) {
-    res.locals.insideIframe = true;
+  if ('embed' in req.query) {
+    res.locals.embed = true;
+    res.locals.sidebarDisabled = true;
+    res.locals.privacyModalDisabled = true;
   }
 
   for (let l of LEVELS) {

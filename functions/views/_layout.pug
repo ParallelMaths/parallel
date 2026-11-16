@@ -1,7 +1,9 @@
 doctype html
-html
+html(class=embed ? 'embed' : undefined)
   head
     meta(charset="utf-8")
+    if embed
+      base(target="_top")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
 
     title Parallel by Simon Singh
@@ -38,39 +40,40 @@ html
 
   body
     #vue
-      if isBeta
+      if isBeta && !embed
         .beta
           div You are on our Beta Testing Site!
           div The information & events on this page are for testing purposes and should not be followed. 
           a(href="https://parallel.org.uk") Click here to return to the production site.
-      .headerWrapper
-        .header
-          if !sidebarDisabled
-            #menu(v-on:click="showSidebar=true")
-              svg(width=24 height=24)
-                rect(y=2 width=24 height=3 fill="white")
-                rect(y=10 width=24 height=3 fill="white")
-                rect(y=18 width=24 height=3 fill="white")
+      if !embed
+        .headerWrapper
+          .header
+            if !sidebarDisabled
+              #menu(v-on:click="showSidebar=true")
+                svg(width=24 height=24)
+                  rect(y=2 width=24 height=3 fill="white")
+                  rect(y=10 width=24 height=3 fill="white")
+                  rect(y=18 width=24 height=3 fill="white")
 
-          if path && !noNavigation
-            div(class="homeButtonsLeft")
-              a#home(href="/" title="Home" class="homeButton homeButtonWithSvg")
-                include svgs/home.svg
-                | Home
+            if path && !noNavigation
+              div(class="homeButtonsLeft")
+                a#home(href="/" title="Home" class="homeButton homeButtonWithSvg")
+                  include svgs/home.svg
+                  | Home
 
-          if user
-            div(class="homeButtonsRight")
-              a#home(href="/account" title="Home" class="homeButton")
-                | Settings
-              a#home(href="/" title="Home" class="homeButton" @click="user.logout")
-                | Sign out
+            if user
+              div(class="homeButtonsRight")
+                a#home(href="/account" title="Home" class="homeButton")
+                  | Settings
+                a#home(href="/" title="Home" class="homeButton" @click="user.logout")
+                  | Sign out
 
-          if noNavigation
-            div#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
-          else 
-            a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
+            if noNavigation
+              div#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
+            else 
+              a#logo(href="/" title="Home" class=(sidebarDisabled ? 'sidebarDisabled' : ''))
 
-      #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
+        #shadow(v-on:click="showSidebar=false" v-bind:class="{visible: showSidebar}")
 
       #container
         if !sidebarDisabled
@@ -161,7 +164,7 @@ html
       //-           label(for="terms-modal") We will email you when a new Parallelogram challenge is released, when the next Parallel Circles session is scheduled, and when there are special competitions, prizes and opportunities. By checking this box you consent to receiving these emails, in accordance with our #[a(href="/privacy-notice" target="_blank") Data Privacy policy].
       //-         button(type="submit") Continue
 
-      if user && !user.code && user.showWelcomeMsg
+      if user && !user.code && user.showWelcomeMsg && !embed
         .modal(v-if="showWelcomeMsg")
           .modal-background
           .modal-body
@@ -169,17 +172,18 @@ html
             p.text-center We’ve updated your level to #[strong #{levelNamesWithAges[user.level]}]. You can always change it on your #[a(href="/account") account settings] page. The first Parallelogram is now available, but officially it is launched in early September. We will be releasing new Parallelograms every week, from mid-September.
             button(type="submit" v-on:click="showWelcomeMsg = false") Continue
 
-    footer
-      a(href="/about") About
-      | •
-      a(href="/contact") Contact
-      | •
-      a(href="/privacy-notice") Privacy Notice
-      br
-      | Created by
-      a(href="http://goodthinkingsociety.org" target="_blank") #[img(src="/images/good-thinking.png" width=10 height=16)] Good Thinking Society
-      | and
-      a(href="https://mathigon.org" target="_blank") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
+    if !embed
+      footer
+        a(href="/about") About
+        | •
+        a(href="/contact") Contact
+        | •
+        a(href="/privacy-notice") Privacy Notice
+        br
+        | Created by
+        a(href="http://goodthinkingsociety.org" target="_blank") #[img(src="/images/good-thinking.png" width=10 height=16)] Good Thinking Society
+        | and
+        a(href="https://mathigon.org" target="_blank") #[img(src="/images/mathigon.png" width=16 height=16)] Mathigon
 
     if user && user.privacy && user.privacy.visible && !privacyModalDisabled
       iframe(src="/privacy-modal" id="privacy-iframe" style="height: 100%;width: 100%;position: absolute;z-index: 10000000000;top: 0;left: 0;border: none;")
