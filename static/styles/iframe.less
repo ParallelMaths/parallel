@@ -42,9 +42,23 @@ html.embed {
   &, body { height: auto; min-height: 0; }
 
   #container {
-    display: block;
     width: 100%;
     max-width: 100%;
+  }
+
+  .intros,
+  .sidebar-circles-item,
+  .sidebar-field {
+    display: none;
+  }
+
+  .sidebar { margin: 0 24px 0 0; }
+
+  .sidebar-wrap {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-radius: 4px;
   }
 
   article, article.sidebarDisabled {
@@ -52,13 +66,26 @@ html.embed {
     border-radius: 0;
     box-shadow: none;
     padding: 0;
-    width: 100%;
     min-height: 0;
     overflow: visible;
   }
 
+  article.sidebarDisabled { width: 100%; }
+
+  @media screen and (max-width: 720px) {
+    #container { display: flex; flex-direction: column; }
+    article, article.sidebarDisabled { width: 100%; order: -1; }
+    .sidebar { margin: 32px 0 0; width: 100%; }
+    .sidebar-wrap { transform: none; box-shadow: none; width: auto; }
+  }
+
   header {
     margin: 0 0 32px 0;
+    border-radius: 4px;
+  }
+
+  .status-banner {
+    margin: 0 0 32px;
     border-radius: 4px;
   }
 }

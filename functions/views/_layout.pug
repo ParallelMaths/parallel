@@ -26,7 +26,7 @@ html(class=embed ? 'embed' : undefined)
 
     //- Stylesheets
     link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,400italic" rel="stylesheet")
-    link(href="/parallel.css?v=35" rel="stylesheet")
+    link(href="/parallel.css?v=36" rel="stylesheet")
 
     if isProduction
       include scripts/newrelic.html
@@ -139,7 +139,7 @@ html(class=embed ? 'embed' : undefined)
               for l in user ? user.sidebarLevels : levels
                 nav(v-show=`user.level == '${l}'`)
                   for p in pages[l]
-                    a(href=("/" + p.url) class=('/' + p.url === path ? 'active' : ''))
+                    a(href=(embed ? "/pg/" : "/") + p.url class=('/' + p.url === path ? 'active' : ''))
                       .title-meta PG #{p.index} #[span.spaced •] #{p.date}
                       .title= p.title
                       if user && user.answers[p.url] && user.answers[p.url].submitted
