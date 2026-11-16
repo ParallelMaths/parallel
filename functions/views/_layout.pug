@@ -139,7 +139,7 @@ html(class=embed ? 'embed' : undefined)
               for l in user ? user.sidebarLevels : levels
                 nav(v-show=`user.level == '${l}'`)
                   for p in pages[l]
-                    a(href=(embed ? "/pg/" : "/") + p.url class=('/' + p.url === path ? 'active' : ''))
+                    a(href=(embed ? "/secret/" : "/") + p.url class=('/' + p.url === path ? 'active' : ''))
                       .title-meta PG #{p.index} #[span.spaced •] #{p.date}
                       .title= p.title
                       if user && user.answers[p.url] && user.answers[p.url].submitted
