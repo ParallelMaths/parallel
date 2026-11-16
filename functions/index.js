@@ -79,7 +79,8 @@ function scoreClass(score) {
 function error(res, code) {
   res.status(code);
   res.locals = {
-    sidebarDisabled: true
+    sidebarDisabled: true,
+    embed: res.locals.embed
   }
   return res.render('error', {code});
 }
@@ -133,6 +134,7 @@ app.use((req, res, next) => {
     res.locals.embed = true;
     res.locals.sidebarDisabled = true;
     res.locals.privacyModalDisabled = true;
+    res.set('Content-Security-Policy', "frame-ancestors 'self' http://localhost:*");
   }
 
   for (let l of LEVELS) {
@@ -471,8 +473,8 @@ const pagesWithoutPrivacyModal = ['privacy-notice']
 for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice', 'safeguarding', 'hints-tips', 'job-ad', 'developer-support', 'pmc', 'primary-parallel', 'masterclass', 'troubleshooting', 'tutorinfo', 'academy-primary-parent', 'academy-primary-teacher']) {
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
-    res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
-    res.locals.privacyModalDisabled = pagesWithoutPrivacyModal.includes(p);
+    res.locals.sidebarDisabled = res.locals.embed || pagesWithoutSidebar.includes(p);
+    res.locals.privacyModalDisabled = res.locals.embed || pagesWithoutPrivacyModal.includes(p);
     res.render('_layout', {content})
   });
 }

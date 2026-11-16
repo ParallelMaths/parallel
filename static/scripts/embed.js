@@ -7,7 +7,23 @@ const MESSAGE_TYPE = 'parallel:embed:height';
 
 export default function initEmbed() {
   const root = document.documentElement;
-  if (!root.classList.contains('embed') || window.parent === window) return;
+  if (!root.classList.contains('embed')) return;
+
+  // Embed mode hides the privacy modal, so only allow it inside a frame.
+  if (window.parent === window) {
+    const url = new URL(window.location.href);
+    if (!url.searchParams.has('embed')) return;
+    url.searchParams.delete('embed');
+    return window.location.replace(url.toString());
+  }
+
+  // Links to other pages open in the top window; in-page anchors stay in the frame.
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest && e.target.closest('a[href]');
+    if (!link || link.target) return;
+    const samePage = link.href.split('#')[0] === window.location.href.split('#')[0];
+    if (!samePage) link.target = '_top';
+  }, true);
 
   let lastHeight = 0;
   let frame = 0;
