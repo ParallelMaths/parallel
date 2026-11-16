@@ -62,30 +62,14 @@ html.embed {
   }
 
   article, article.sidebarDisabled {
-    background: transparent;
-    border-radius: 0;
     box-shadow: none;
-    padding: 0;
     min-height: 0;
-    overflow: visible;
   }
-
-  article.sidebarDisabled { width: 100%; }
 
   @media screen and (max-width: 720px) {
     #container { display: flex; flex-direction: column; }
-    article, article.sidebarDisabled { width: 100%; order: -1; }
-    .sidebar { margin: 32px 0 0; width: 100%; }
+    article, article.sidebarDisabled { width: auto; order: -1; padding: 24px; border-radius: 4px; }
+    .sidebar { margin: 24px 0 0; width: 100%; }
     .sidebar-wrap { transform: none; box-shadow: none; width: auto; }
-  }
-
-  header {
-    margin: 0 0 32px 0;
-    border-radius: 4px;
-  }
-
-  .status-banner {
-    margin: 0 0 32px;
-    border-radius: 4px;
   }
 }
