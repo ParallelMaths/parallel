@@ -1409,6 +1409,9 @@ homework:
   - url:  academy-8aut-2026-week-9
     title: Parallel Academy Year 8 Autumn Term Week 9
     available: 2025-08-12T09:00:00
+  - url:  academy-8aut-2026-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
+    available: 2025-08-12T09:00:00
   - url:  academy-8aut-week-christmas
     title: Parallel Academy Year 8 Autumn Term Christmas Assignment
     available: 2025-08-12T09:00:00
@@ -1437,7 +1440,10 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  academy-9aut-2026-week-9
     title: Parallel Academy Year 9 Autumn Term Week 9
-    available: 2025-08-12T09:00:00
+    available: 2025-08-12T09:00:00    
+  - url:  academy-9aut-2026-week-10
+    title: Parallel Academy Year 9 Autumn Term Week 10
+    available: 2025-08-12T09:00:00 
   - url:  academy-9aut-week-2
     title: Parallel Academy Year 9 Autumn Term Week 2
     available: 2025-08-12T09:00:00
@@ -1455,10 +1461,7 @@ homework:
     available: 2025-08-12T09:00:00       
   - url:  academy-9aut-week-9
     title: Parallel Academy Year 9 Autumn Term Week 9
-    available: 2025-08-12T09:00:00  
-  - url:  academy-9aut-week-10
-    title: Parallel Academy Year 9 Autumn Term Week 10
-    available: 2025-08-12T09:00:00  
+    available: 2025-08-12T09:00:00   
   - url:  academy-9sum-synoptic
     title: Year 9 Summer Term Synoptic Paper
     available: 2025-05-12T09:00:00
@@ -1621,6 +1624,9 @@ homework:
   - url:  webinar-8aut-2026-week-9
     title: Parallel Academy Year 8 Autumn Term Week 9
     available: 2025-08-12T09:00:00
+  - url:  webinar-8aut-2026-week-10
+    title: Parallel Academy Year 8 Autumn Term Week 10
+    available: 2025-08-12T09:00:00
   - url:  webinar-8aut-week-5
     title: Parallel Academy Year 8 Autumn Term Week 5
     available: 2025-08-12T09:00:00
@@ -1710,6 +1716,9 @@ homework:
     available: 2025-08-12T09:00:00
   - url:  webinar-9aut-2026-week-9
     title: Parallel Academy Year 9 Autumn Term Week 9
+    available: 2025-08-12T09:00:00
+  - url:  webinar-9aut-2026-week-10
+    title: Parallel Academy Year 9 Autumn Term Week 10
     available: 2025-08-12T09:00:00
   - url:  webinar-imc-autumn-week-2
     title: Parallel Academy IMC Autumn Term Week 2
