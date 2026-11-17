@@ -6,35 +6,35 @@
 
 ## 1.
 ::: problem id=1_1 marks=1
-2^3
+2³
 
 <input solution="8"/>  
 :::
 
 ## 2.
 ::: problem id=2_1 marks=1
-3^2
+3²
 
 <input solution="9"/>  
 :::
 
 ## 3.
 ::: problem id=3_1 marks=1
-4^2
+4²
 
 <input solution="16"/>  
 :::
 
 ## 4.
 ::: problem id=4_1 marks=1
-5^2
+5²
 
 <input solution="25"/>  
 :::
 
 ## 5.
 ::: problem id=5_1 marks=1
-6^2
+6²
 
 <input solution="36"/>  
 :::
