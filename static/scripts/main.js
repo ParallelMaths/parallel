@@ -7,6 +7,7 @@
 import '../../node_modules/babel-polyfill/dist/polyfill';
 import getUser from './user';
 import getChallenge from './challenge';
+import initEmbed from './embed';
 import '../../node_modules/@johmun/vue-tags-input/dist/vue-tags-input';
 
 function removeStudent(id, index, level) {
@@ -128,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   if (window.self !== window.top) {
-    document.body.className = 'insideIframe'
+    document.body.classList.add('insideIframe');
   }
 
   window.app = new Vue({
@@ -137,4 +138,6 @@ document.addEventListener('DOMContentLoaded', function() {
     data: {showSidebar: false, showWelcomeMsg: true, user, c: challenge,
       removeStudent, sortTable}
   });
+
+  initEmbed();
 });

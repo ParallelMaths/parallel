@@ -54,7 +54,9 @@ export default function() {
 
     testPasswordSubmit(e) {
       e.preventDefault();
-      window.location.search = `?p=${challenge.testPassword}`;
+      const params = new URLSearchParams(window.location.search);
+      params.set('p', challenge.testPassword);
+      window.location.search = params.toString();
     },
 
     // Only used by teachers

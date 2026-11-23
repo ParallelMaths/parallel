@@ -79,7 +79,8 @@ function scoreClass(score) {
 function error(res, code) {
   res.status(code);
   res.locals = {
-    sidebarDisabled: true
+    sidebarDisabled: true,
+    embed: res.locals.embed
   }
   return res.render('error', {code});
 }
@@ -123,14 +124,16 @@ app.use((req, res, next) => {
   res.locals.firebaseClientConfig = firebaseClientConfig;
   res.locals.isBeta = isBeta;
 
-  if (req.user && req.user.showWelcomeMsg && !req.query.latest && !req.path.includes('/api')) {
+  if (req.user && req.user.showWelcomeMsg && !req.query.latest && !('embed' in req.query) &&!req.path.includes('/api')) {
     userDB.doc(req.user.uid) // async
         .update({showWelcomeMsg: false})
         .catch(() => console.error('Failed to update welcome msg', req.user.uid));
   }
 
-  if (req.query.iframe) {
-    res.locals.insideIframe = true;
+  if ('embed' in req.query) {
+    res.locals.embed = true;
+    res.locals.privacyModalDisabled = true;
+    res.set('Content-Security-Policy', "frame-ancestors 'self' http://localhost:*");
   }
 
   for (let l of LEVELS) {
@@ -470,7 +473,7 @@ for (let p of ['about', 'introduction', 'parents', 'teachers', 'privacy-notice',
   const content = fs.readFileSync(path.join(__dirname, `build/${p}.html`));
   app.get('/' + p, (_, res) => {
     res.locals.sidebarDisabled = pagesWithoutSidebar.includes(p);
-    res.locals.privacyModalDisabled = pagesWithoutPrivacyModal.includes(p);
+    res.locals.privacyModalDisabled = res.locals.embed || pagesWithoutPrivacyModal.includes(p);
     res.render('_layout', {content})
   });
 }
